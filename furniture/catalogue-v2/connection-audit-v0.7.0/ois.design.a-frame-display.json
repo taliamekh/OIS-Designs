@@ -1,0 +1,120 @@
+{
+  "id": "ois.design.a-frame-display",
+  "sha256": "9fd808aff4f642d6a8628a9b1b4d9954d140f0dc20001082cfeea4fabfcc77cf",
+  "sourceModel": "sources/v0.7.0/a-frame-display.blend",
+  "sourceSha256": "6e55653f565d20d6f5cda8727fc7d3b27d47f6d2ac1a035eaace1f357d5afcad",
+  "partCount": 7,
+  "componentCount": 1,
+  "components": [
+    {
+      "parts": [
+        "A stile",
+        "A stile.001",
+        "A stile.002",
+        "A stile.003",
+        "A shelf",
+        "A shelf.001",
+        "A shelf.002"
+      ],
+      "minimum": [
+        -0.5,
+        -0.34952884912490845,
+        2.468004822731018e-08
+      ],
+      "maximum": [
+        0.5,
+        0.34952858090400696,
+        1.6596628427505493
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "A stile.001",
+      "b": "A stile",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "A stile.003",
+      "b": "A stile.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "A shelf",
+      "b": "A stile",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "A shelf",
+      "b": "A stile.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "A shelf",
+      "b": "A stile.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "A shelf",
+      "b": "A stile.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "A shelf.001",
+      "b": "A stile",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "A shelf.001",
+      "b": "A stile.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "A shelf.001",
+      "b": "A stile.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "A shelf.001",
+      "b": "A stile.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "A shelf.002",
+      "b": "A stile",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "A shelf.002",
+      "b": "A stile.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "A shelf.002",
+      "b": "A stile.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "A shelf.002",
+      "b": "A stile.003",
+      "method": "triangle intersection",
+      "distance": 0
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; live-source reports are NOT exported-asset evidence; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T04:10:53Z"
+}

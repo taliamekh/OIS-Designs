@@ -1,0 +1,162 @@
+{
+  "id": "ois.design.canvas-play-tent",
+  "sha256": "3d8551ebe134a1187fe50863397082d4ec6e20a22e15dfcf71b7762f3cb0b28e",
+  "sourceModel": "sources/v0.7.0/canvas-play-tent.blend",
+  "sourceSha256": "a66335197453ebd9ece2d1dcddb3e1c0256e0385cd41e78be313f9c20a92b7cf",
+  "partCount": 7,
+  "componentCount": 1,
+  "components": [
+    {
+      "parts": [
+        "tent pole",
+        "tent pole.001",
+        "tent pole.002",
+        "tent pole.003",
+        "canvas tent",
+        "play mat",
+        "piping"
+      ],
+      "minimum": [
+        -0.5642611980438232,
+        -0.5642611384391785,
+        -5.587935447692871e-09
+      ],
+      "maximum": [
+        0.5642611980438232,
+        0.5642611384391785,
+        1.6329848766326904
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "tent pole.001",
+      "b": "tent pole",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "tent pole.002",
+      "b": "tent pole",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "tent pole.002",
+      "b": "tent pole.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "tent pole.003",
+      "b": "tent pole",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "tent pole.003",
+      "b": "tent pole.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "tent pole.003",
+      "b": "tent pole.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "canvas tent",
+      "b": "tent pole",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "canvas tent",
+      "b": "tent pole.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "canvas tent",
+      "b": "tent pole.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "canvas tent",
+      "b": "tent pole.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "play mat",
+      "b": "tent pole",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "play mat",
+      "b": "tent pole.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "play mat",
+      "b": "tent pole.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "play mat",
+      "b": "tent pole.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "play mat",
+      "b": "canvas tent",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "piping",
+      "b": "tent pole",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "piping",
+      "b": "tent pole.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "piping",
+      "b": "tent pole.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "piping",
+      "b": "tent pole.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "piping",
+      "b": "canvas tent",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "piping",
+      "b": "play mat",
+      "method": "triangle intersection",
+      "distance": 0
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; live-source reports are NOT exported-asset evidence; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T04:10:54Z"
+}

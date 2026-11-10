@@ -1,0 +1,44 @@
+{
+  "id": "ois.design.hex-child-pedestal",
+  "sha256": "bc2a3d36b7999f4c0a0626323d7a65e137d707c10dabb33a3e9bdafe30734e1e",
+  "sourceModel": "sources/v0.7.0/hex-child-pedestal.blend",
+  "sourceSha256": "ec08e164862e06bc819d415e9b1e0ce7713917a445e60424b646a3d075abc710",
+  "partCount": 3,
+  "componentCount": 1,
+  "components": [
+    {
+      "parts": [
+        "top",
+        "pedestal foot",
+        "pedestal stem"
+      ],
+      "minimum": [
+        -0.4000000059604645,
+        -0.30310890078544617,
+        0.0
+      ],
+      "maximum": [
+        0.4000000059604645,
+        0.30310890078544617,
+        0.5
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "pedestal stem",
+      "b": "top",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pedestal stem",
+      "b": "pedestal foot",
+      "method": "triangle intersection",
+      "distance": 0
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; live-source reports are NOT exported-asset evidence; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T04:10:55Z"
+}

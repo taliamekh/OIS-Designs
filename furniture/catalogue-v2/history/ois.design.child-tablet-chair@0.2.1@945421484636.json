@@ -1,0 +1,165 @@
+{
+  "designId": "ois.design.child-tablet-chair",
+  "familyId": "ois.family.tablet-training-chair",
+  "id": "ois.design.child-tablet-chair",
+  "name": "Junior tablet chair",
+  "roomTags": [
+    "children"
+  ],
+  "theme": "city-loft",
+  "builder": "seating",
+  "parameters": {
+    "form": "school",
+    "w": 0.35,
+    "d": 0.36,
+    "h": 0.62,
+    "seat": 0.29
+  },
+  "distinction": "Child version of tablet construction; excluded from distinct count.",
+  "stage": "validated-candidate",
+  "countEligible": false,
+  "variants": [],
+  "variantOf": "ois.design.tablet-training-chair",
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted",
+    "sourceSnapshot": "sources/pipeline-e797cb5c88af56f5.py",
+    "sourceSha256": "e797cb5c88af56f5b4455d819a512ab9be55f40e1fa2d0cb542aca7bb84b906f",
+    "parametersFile": "sources/v0.2.1/child-tablet-chair.parameters.json"
+  },
+  "constructionKey": "seating|school|{\"base\": \"taper\"}",
+  "sha256": "945421484636f05a49904cd6bf52ec5168d106951ffb071179bb4301e9aeb203",
+  "bytes": 42720,
+  "triangles": 864,
+  "vertices": 1052,
+  "drawPrimitives": 3,
+  "bounds": {
+    "min": [
+      -0.14875002707847232,
+      -3.965252001747466e-09,
+      -0.3550000358908447
+    ],
+    "max": [
+      0.347000070640355,
+      0.6330165219500599,
+      0.19912654434221436
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 0.4957500977188273,
+    "depth": 0.554126580233059,
+    "height": 0.6330165259153119
+  },
+  "footprint": [
+    [
+      -0.14875002707847232,
+      -0.3550000358908447
+    ],
+    [
+      0.347000070640355,
+      -0.3550000358908447
+    ],
+    [
+      0.347000070640355,
+      0.19912654434221436
+    ],
+    [
+      -0.14875002707847232,
+      0.19912654434221436
+    ]
+  ],
+  "variantSlots": [
+    "fabric",
+    "metal",
+    "wood"
+  ],
+  "requiredExtensions": [],
+  "version": "0.2.1",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.tablet-training-chair",
+  "file": "assets/v0.2.1/child-tablet-chair.glb",
+  "sourceModel": "sources/v0.2.1/child-tablet-chair.blend",
+  "thumbnail": "previews/v0.2.1/child-tablet-chair.png",
+  "backThumbnail": "previews/v0.2.1/child-tablet-chair-back.png",
+  "category": "seating",
+  "subtype": "school",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "textures": {
+    "count": 0,
+    "bytes": 0
+  },
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.2.1/child-tablet-chair.png",
+      "previews/v0.2.1/child-tablet-chair-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.23,
+      0.15,
+      0.09
+    ],
+    [
+      0.12,
+      0.14,
+      0.16
+    ],
+    [
+      0.045,
+      0.05,
+      0.055
+    ]
+  ],
+  "colourTags": [
+    "charcoal",
+    "black",
+    "weathered wood"
+  ],
+  "materials": [
+    "metal",
+    "textile",
+    "wood"
+  ],
+  "searchAliases": [
+    "children",
+    "school"
+  ],
+  "materialSlots": [
+    {
+      "id": "fabric",
+      "material": "fabric",
+      "recolourable": true
+    },
+    {
+      "id": "metal",
+      "material": "metal",
+      "recolourable": true
+    },
+    {
+      "id": "wood",
+      "material": "wood",
+      "recolourable": true
+    }
+  ]
+}

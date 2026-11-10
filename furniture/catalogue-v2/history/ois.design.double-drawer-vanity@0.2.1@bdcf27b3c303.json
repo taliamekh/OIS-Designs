@@ -1,0 +1,177 @@
+{
+  "designId": "ois.design.double-drawer-vanity",
+  "familyId": "ois.family.double-drawer-vanity",
+  "id": "ois.design.double-drawer-vanity",
+  "name": "Double drawer vanity",
+  "roomTags": [
+    "bathroom"
+  ],
+  "theme": "walnut-form",
+  "builder": "bath",
+  "parameters": {
+    "form": "double-vanity",
+    "w": 1.55,
+    "d": 0.55
+  },
+  "distinction": "Two hollow basins and faucets above two banks of drawers.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted",
+    "sourceSnapshot": "sources/pipeline-e797cb5c88af56f5.py",
+    "sourceSha256": "e797cb5c88af56f5b4455d819a512ab9be55f40e1fa2d0cb542aca7bb84b906f",
+    "parametersFile": "sources/v0.2.1/double-drawer-vanity.parameters.json"
+  },
+  "constructionKey": "bath|double-vanity|{}",
+  "sha256": "bdcf27b3c30343307ae7a576723c1e24fcb8b9780c8fdc551359d55b57861f71",
+  "bytes": 215976,
+  "triangles": 4460,
+  "vertices": 5733,
+  "drawPrimitives": 5,
+  "bounds": {
+    "min": [
+      -0.7875000238418579,
+      0.0,
+      -0.3309999881312251
+    ],
+    "max": [
+      0.7875000238418579,
+      1.1312906742095947,
+      0.2874999940395355
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 1.5750000476837158,
+    "depth": 0.6184999821707606,
+    "height": 1.1312906742095947
+  },
+  "footprint": [
+    [
+      -0.7875000238418579,
+      -0.3309999881312251
+    ],
+    [
+      0.7875000238418579,
+      -0.3309999881312251
+    ],
+    [
+      0.7875000238418579,
+      0.2874999940395355
+    ],
+    [
+      -0.7875000238418579,
+      0.2874999940395355
+    ]
+  ],
+  "variantSlots": [
+    "ceramic",
+    "dark",
+    "metal",
+    "stone",
+    "wood"
+  ],
+  "requiredExtensions": [],
+  "version": "0.2.1",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.double-drawer-vanity",
+  "file": "assets/v0.2.1/double-drawer-vanity.glb",
+  "sourceModel": "sources/v0.2.1/double-drawer-vanity.blend",
+  "thumbnail": "previews/v0.2.1/double-drawer-vanity.png",
+  "backThumbnail": "previews/v0.2.1/double-drawer-vanity-back.png",
+  "category": "bathroom-fixtures",
+  "subtype": "double-vanity",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "textures": {
+    "count": 0,
+    "bytes": 0
+  },
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.2.1/double-drawer-vanity.png",
+      "previews/v0.2.1/double-drawer-vanity-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.22,
+      0.09,
+      0.038
+    ],
+    [
+      0.39,
+      0.18,
+      0.07
+    ],
+    [
+      0.47,
+      0.3,
+      0.1
+    ]
+  ],
+  "colourTags": [
+    "walnut",
+    "tobacco",
+    "brass"
+  ],
+  "materials": [
+    "ceramic",
+    "metal",
+    "paint",
+    "stone",
+    "wood"
+  ],
+  "searchAliases": [
+    "bathroom",
+    "double vanity"
+  ],
+  "materialSlots": [
+    {
+      "id": "ceramic",
+      "material": "ceramic",
+      "recolourable": true
+    },
+    {
+      "id": "dark",
+      "material": "dark",
+      "recolourable": true
+    },
+    {
+      "id": "metal",
+      "material": "metal",
+      "recolourable": true
+    },
+    {
+      "id": "stone",
+      "material": "stone",
+      "recolourable": true
+    },
+    {
+      "id": "wood",
+      "material": "wood",
+      "recolourable": true
+    }
+  ]
+}

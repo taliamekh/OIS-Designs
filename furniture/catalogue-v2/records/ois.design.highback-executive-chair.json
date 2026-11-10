@@ -28,22 +28,53 @@
     "thirdPartyGeometry": false,
     "thirdPartyTextures": false,
     "publicAssetLicence": "not separately granted",
-    "sourceSnapshot": "sources/pipeline-e797cb5c88af56f5.py",
-    "sourceSha256": "e797cb5c88af56f5b4455d819a512ab9be55f40e1fa2d0cb542aca7bb84b906f",
-    "parametersFile": "sources/v0.2.1/highback-executive-chair.parameters.json"
+    "sourceSnapshot": "sources/pipeline-bf07453f548fd92d.py",
+    "sourceSha256": "bf07453f548fd92da637ecce41dc8b35010d5f15c955c971c9e3be2fb762ea2d",
+    "sourceModelSha256": "57a36a649a2514e285f3cbcdc32e16351a3995d2654a390358c654721daaaae2",
+    "supportSources": {
+      "signature_designs.py": {
+        "snapshot": "sources/signature_designs-6d248dd7aaa49ed4.py",
+        "sha256": "6d248dd7aaa49ed40f05c473c5d46b6fe8c97972ebf6ce139553f9641fc82b3c"
+      },
+      "material_finish.py": {
+        "snapshot": "sources/material_finish-281279dfd17b0c92.py",
+        "sha256": "281279dfd17b0c929f9038bb8066b86216427feaaefbd503abb995d06dc35730"
+      },
+      "catalogue_inventory.py": {
+        "snapshot": "sources/catalogue_inventory-db8b68fc872dbc12.py",
+        "sha256": "db8b68fc872dbc12d87e9ce013777e00d6b32cc0392e8cc09f31f8fef27b9365"
+      },
+      "finalize_glb.py": {
+        "snapshot": "sources/finalize_glb-4d1dec42be5cbf3d.py",
+        "sha256": "4d1dec42be5cbf3d6540facfa883948acd849c080f7117b8d7025749c08e2d1b"
+      },
+      "build_catalogue_v2.py": {
+        "snapshot": "sources/build_catalogue_v2-9c22533830c3704c.py",
+        "sha256": "9c22533830c3704c1ce578b58b4350ebbbf5b8d32590a07db027f671d4975577"
+      },
+      "validate_library.py": {
+        "snapshot": "sources/validate_library-48e60483e2c3d05b.py",
+        "sha256": "48e60483e2c3d05bec2c7e2669523eb77571a4ba120cb5238bbec92b8a585e0c"
+      },
+      "support_checks.py": {
+        "snapshot": "sources/support_checks-f7ed4d0400abd5f2.py",
+        "sha256": "f7ed4d0400abd5f23f27c86a9013cfefaca71234a9da953dfe97daeabb8af640"
+      }
+    },
+    "parametersFile": "sources/v0.7.0/highback-executive-chair.parameters.json"
   },
   "constructionKey": "seating|rolling-task|{\"base\": \"taper\"}",
   "countExclusion": "same construction; dimension/material configuration retained as a variant",
-  "sha256": "64f2b56effacafaa34d504426995e871ccc6bb06a6b73427af6ce3719ad1ec4a",
-  "bytes": 142540,
-  "triangles": 4124,
-  "vertices": 3531,
+  "sha256": "64e544ad2c1f3b9a7823cfe184ce232aa20672936a8d55b273455b108944234e",
+  "bytes": 395000,
+  "triangles": 4168,
+  "vertices": 5197,
   "drawPrimitives": 4,
   "bounds": {
     "min": [
       -0.3460000157356262,
       -2.8443800731414726e-08,
-      -0.32458282000694894
+      -0.3405000058662268
     ],
     "max": [
       0.3499999915063381,
@@ -53,17 +84,17 @@
   },
   "dimensionsMetres": {
     "width": 0.6960000072419643,
-    "depth": 0.6709735497770133,
+    "depth": 0.6868907356362912,
     "height": 1.2733212397818439
   },
   "footprint": [
     [
       -0.3460000157356262,
-      -0.32458282000694894
+      -0.3405000058662268
     ],
     [
       0.3499999915063381,
-      -0.32458282000694894
+      -0.3405000058662268
     ],
     [
       0.3499999915063381,
@@ -81,22 +112,67 @@
     "metal"
   ],
   "requiredExtensions": [],
-  "version": "0.2.1",
+  "textures": {
+    "count": 6,
+    "bytes": 159257,
+    "estimatedRgbaBytesWithMipmaps": 2097152,
+    "images": [
+      {
+        "name": "fabric-normal",
+        "bytes": 1016,
+        "width": 256,
+        "height": 256,
+        "sha256": "5bbac800a495c0a30042ad832a3ea134aa66afad65fa0dde59103733a54e886c"
+      },
+      {
+        "name": "fabric-neutral-base",
+        "bytes": 4495,
+        "width": 256,
+        "height": 256,
+        "sha256": "898e022cb5ea1b2663884e7306bbd2c09f25ab2827974bd1328a81bcab08b1ac"
+      },
+      {
+        "name": "fabric-roughness",
+        "bytes": 2761,
+        "width": 256,
+        "height": 256,
+        "sha256": "397e1c119de5e5939f7f1260cfeb7a715d695240776f51b974989073b638eeb6"
+      },
+      {
+        "name": "linen-normal",
+        "bytes": 76292,
+        "width": 256,
+        "height": 256,
+        "sha256": "70b25282eb1daf2d7d6faad88d6b47ca1298d395b833d36d3ba28a542ed6d36e"
+      },
+      {
+        "name": "linen-neutral-base",
+        "bytes": 34309,
+        "width": 256,
+        "height": 256,
+        "sha256": "047df909f3cecf9ec0cdef6c8e2a92dea40e0116922d5b7a25bc7da6481e1ec9"
+      },
+      {
+        "name": "linen-roughness",
+        "bytes": 40384,
+        "width": 256,
+        "height": 256,
+        "sha256": "c31825bb85668747311407d1a5e5d9a56bc0e65aefbf79936d1d4665e83fdb45"
+      }
+    ]
+  },
+  "version": "0.7.0",
   "qualityStatus": "validated-candidate",
   "geometryFamily": "ois.family.ergonomic-task-chair",
-  "file": "assets/v0.2.1/highback-executive-chair.glb",
-  "sourceModel": "sources/v0.2.1/highback-executive-chair.blend",
-  "thumbnail": "previews/v0.2.1/highback-executive-chair.png",
-  "backThumbnail": "previews/v0.2.1/highback-executive-chair-back.png",
+  "file": "assets/v0.7.0/highback-executive-chair.glb",
+  "sourceModel": "sources/v0.7.0/highback-executive-chair.blend",
+  "thumbnail": "previews/v0.7.0/highback-executive-chair.png",
+  "backThumbnail": "previews/v0.7.0/highback-executive-chair-back.png",
   "category": "seating",
   "subtype": "executive",
   "units": "metres",
   "frame": "RH Y-up; +X right, -Z furniture front",
   "pivot": "floor Y=0; centre of primary body XZ",
-  "textures": {
-    "count": 0,
-    "bytes": 0
-  },
   "lod": {
     "delivered": [
       "LOD0"
@@ -111,32 +187,38 @@
   "visualReview": {
     "status": "pending",
     "images": [
-      "previews/v0.2.1/highback-executive-chair.png",
-      "previews/v0.2.1/highback-executive-chair-back.png"
+      "previews/v0.7.0/highback-executive-chair.png",
+      "previews/v0.7.0/highback-executive-chair-back.png"
     ]
   },
   "favouriteStorage": "user set of stable catalogue IDs",
   "colors": [
     [
-      0.22,
-      0.09,
-      0.038
+      0.02500000037252903,
+      0.03500000014901161,
+      0.03999999910593033
     ],
     [
-      0.39,
-      0.18,
-      0.07
+      0.38999998569488525,
+      0.18000000715255737,
+      0.07000000029802322
     ],
     [
-      0.47,
-      0.3,
-      0.1
+      0.8399999737739563,
+      0.800000011920929,
+      0.6899999976158142
+    ],
+    [
+      0.4699999988079071,
+      0.30000001192092896,
+      0.10000000149011612
     ]
   ],
   "colourTags": [
-    "walnut",
+    "muted brass",
+    "near black",
     "tobacco",
-    "brass"
+    "warm ivory"
   ],
   "materials": [
     "metal",
@@ -168,5 +250,73 @@
       "material": "metal",
       "recolourable": true
     }
-  ]
+  ],
+  "finalization": {
+    "unusedTangentAttributesRemoved": 2,
+    "unusedAccessorsRemoved": 2,
+    "unusedBufferViewsRemoved": 2,
+    "bytesRemoved": 45236,
+    "normalMappedTangents": "retained, never replaced with arbitrary fallback vectors"
+  },
+  "supportChecks": {
+    "method": "source-part upper-end ray to non-leg geometry, 15mm join tolerance",
+    "status": "pass",
+    "parts": [],
+    "limitation": "screening only; hidden joints, whole-model connectivity, load paths and safety remain visual/product-review concerns"
+  },
+  "materialFinish": {
+    "source": "materials/v1/manifest.json",
+    "repeatMetres": {
+      "wood": [
+        0.16,
+        0.75
+      ],
+      "fabric": [
+        0.14,
+        0.14
+      ],
+      "linen": [
+        0.12,
+        0.12
+      ]
+    },
+    "maps": "original base colour / roughness / tangent normal, embedded in GLB"
+  },
+  "appearanceVariants": [
+    {
+      "id": "ois.design.highback-executive-chair.finish.sage",
+      "name": "Sage textile",
+      "materialOverrides": {
+        "fabric": {
+          "baseColorFactor": [
+            0.25,
+            0.37,
+            0.28,
+            1
+          ]
+        }
+      }
+    },
+    {
+      "id": "ois.design.highback-executive-chair.finish.clay",
+      "name": "Clay textile",
+      "materialOverrides": {
+        "fabric": {
+          "baseColorFactor": [
+            0.45,
+            0.23,
+            0.15,
+            1
+          ]
+        }
+      }
+    }
+  ],
+  "variantColourTags": [
+    "sage green",
+    "clay brown"
+  ],
+  "variantCountNote": "appearance overrides share this one design; do not increase distinct count",
+  "geometryHash": "b25aadeca3367cf3147f83680374737248c4e38a5bd5cbf42be64303f7e4d7df",
+  "normalizedMirrorGeometryHash": "1255f7d159eb333640fdf45eccb404267c387f87212b83c86399a2c91dee5e4c"
 }

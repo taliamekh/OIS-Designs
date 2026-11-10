@@ -1,0 +1,552 @@
+{
+  "id": "ois.design.bakers-bin-hutch",
+  "sha256": "8dcc7d55058efd31249b512bc39f96157f965c3893052bbb31b5511963d8b7fa",
+  "sourceModel": "sources/v0.7.0/bakers-bin-hutch.blend",
+  "sourceSha256": "ca00a576b8206ae8546e804dd5e2c42a6f68a6c77e7657cda3ff7d5da8afd7bc",
+  "partCount": 43,
+  "componentCount": 1,
+  "components": [
+    {
+      "parts": [
+        "recessed plinth",
+        "bottom",
+        "top",
+        "side",
+        "side.001",
+        "partition",
+        "partition.001",
+        "thick worktop",
+        "ingredient bin front",
+        "pull",
+        "pull mounting plate",
+        "pull mounting standoff",
+        "pull mounting standoff.001",
+        "ingredient bin bottom",
+        "bin cheek",
+        "bin cheek.001",
+        "ingredient bin rear",
+        "ingredient bin hinge",
+        "ingredient bin front.001",
+        "pull.001",
+        "pull mounting plate.001",
+        "pull mounting standoff.002",
+        "pull mounting standoff.003",
+        "ingredient bin bottom.001",
+        "bin cheek.002",
+        "bin cheek.003",
+        "ingredient bin rear.001",
+        "ingredient bin hinge.001",
+        "ingredient bin front.002",
+        "pull.002",
+        "pull mounting plate.002",
+        "pull mounting standoff.004",
+        "pull mounting standoff.005",
+        "ingredient bin bottom.002",
+        "bin cheek.004",
+        "bin cheek.005",
+        "ingredient bin rear.002",
+        "ingredient bin hinge.002",
+        "hutch upright",
+        "hutch upright.001",
+        "hutch shelf",
+        "hutch shelf.001",
+        "hutch back"
+      ],
+      "minimum": [
+        -0.625,
+        -0.3199999928474426,
+        0.0
+      ],
+      "maximum": [
+        0.625,
+        0.43902587890625,
+        1.6299999952316284
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "bottom",
+      "b": "recessed plinth",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "side",
+      "b": "bottom",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "side",
+      "b": "top",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "side.001",
+      "b": "bottom",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "side.001",
+      "b": "top",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "partition",
+      "b": "bottom",
+      "method": "surface distance",
+      "distance": 0.003999978303909302
+    },
+    {
+      "a": "partition.001",
+      "b": "bottom",
+      "method": "surface distance",
+      "distance": 0.003999978303909302
+    },
+    {
+      "a": "thick worktop",
+      "b": "top",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "thick worktop",
+      "b": "side",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "thick worktop",
+      "b": "side.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pull mounting plate",
+      "b": "ingredient bin front",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pull mounting standoff",
+      "b": "ingredient bin front",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pull mounting standoff",
+      "b": "pull",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pull mounting standoff",
+      "b": "pull mounting plate",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pull mounting standoff.001",
+      "b": "ingredient bin front",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pull mounting standoff.001",
+      "b": "pull",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pull mounting standoff.001",
+      "b": "pull mounting plate",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "ingredient bin bottom",
+      "b": "ingredient bin front",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "bin cheek",
+      "b": "side",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "bin cheek",
+      "b": "ingredient bin front",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "bin cheek",
+      "b": "ingredient bin bottom",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "bin cheek.001",
+      "b": "partition",
+      "method": "surface distance",
+      "distance": 0.0034999847412109375
+    },
+    {
+      "a": "bin cheek.001",
+      "b": "ingredient bin front",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "bin cheek.001",
+      "b": "ingredient bin bottom",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "ingredient bin rear",
+      "b": "ingredient bin bottom",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "ingredient bin rear",
+      "b": "bin cheek",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "ingredient bin rear",
+      "b": "bin cheek.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "ingredient bin hinge",
+      "b": "side",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "ingredient bin hinge",
+      "b": "ingredient bin front",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "ingredient bin hinge",
+      "b": "ingredient bin bottom",
+      "method": "surface distance",
+      "distance": 0.001500189071521163
+    },
+    {
+      "a": "pull mounting plate.001",
+      "b": "ingredient bin front.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pull mounting standoff.002",
+      "b": "ingredient bin front.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pull mounting standoff.002",
+      "b": "pull.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pull mounting standoff.002",
+      "b": "pull mounting plate.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pull mounting standoff.003",
+      "b": "ingredient bin front.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pull mounting standoff.003",
+      "b": "pull.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pull mounting standoff.003",
+      "b": "pull mounting plate.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "ingredient bin bottom.001",
+      "b": "ingredient bin front.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "bin cheek.002",
+      "b": "ingredient bin front.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "bin cheek.002",
+      "b": "ingredient bin bottom.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "bin cheek.003",
+      "b": "ingredient bin front.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "bin cheek.003",
+      "b": "ingredient bin bottom.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "ingredient bin rear.001",
+      "b": "ingredient bin bottom.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "ingredient bin rear.001",
+      "b": "bin cheek.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "ingredient bin rear.001",
+      "b": "bin cheek.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "ingredient bin hinge.001",
+      "b": "ingredient bin hinge",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "ingredient bin hinge.001",
+      "b": "ingredient bin front.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "ingredient bin hinge.001",
+      "b": "ingredient bin bottom.001",
+      "method": "surface distance",
+      "distance": 0.001500189071521163
+    },
+    {
+      "a": "pull mounting plate.002",
+      "b": "ingredient bin front.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pull mounting standoff.004",
+      "b": "ingredient bin front.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pull mounting standoff.004",
+      "b": "pull.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pull mounting standoff.004",
+      "b": "pull mounting plate.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pull mounting standoff.005",
+      "b": "ingredient bin front.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pull mounting standoff.005",
+      "b": "pull.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pull mounting standoff.005",
+      "b": "pull mounting plate.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "ingredient bin bottom.002",
+      "b": "ingredient bin front.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "bin cheek.004",
+      "b": "partition.001",
+      "method": "surface distance",
+      "distance": 0.0034999847412109375
+    },
+    {
+      "a": "bin cheek.004",
+      "b": "ingredient bin front.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "bin cheek.004",
+      "b": "ingredient bin bottom.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "bin cheek.005",
+      "b": "side.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "bin cheek.005",
+      "b": "ingredient bin front.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "bin cheek.005",
+      "b": "ingredient bin bottom.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "ingredient bin rear.002",
+      "b": "ingredient bin bottom.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "ingredient bin rear.002",
+      "b": "bin cheek.004",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "ingredient bin rear.002",
+      "b": "bin cheek.005",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "ingredient bin hinge.002",
+      "b": "side.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "ingredient bin hinge.002",
+      "b": "ingredient bin hinge.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "ingredient bin hinge.002",
+      "b": "ingredient bin front.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "ingredient bin hinge.002",
+      "b": "ingredient bin bottom.002",
+      "method": "surface distance",
+      "distance": 0.001500189071521163
+    },
+    {
+      "a": "hutch upright",
+      "b": "thick worktop",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "hutch upright.001",
+      "b": "thick worktop",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "hutch shelf",
+      "b": "hutch upright",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "hutch shelf",
+      "b": "hutch upright.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "hutch shelf.001",
+      "b": "hutch upright",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "hutch shelf.001",
+      "b": "hutch upright.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "hutch back",
+      "b": "thick worktop",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "hutch back",
+      "b": "hutch upright",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "hutch back",
+      "b": "hutch upright.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "hutch back",
+      "b": "hutch shelf",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "hutch back",
+      "b": "hutch shelf.001",
+      "method": "triangle intersection",
+      "distance": 0
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; live-source reports are NOT exported-asset evidence; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T04:10:54Z"
+}

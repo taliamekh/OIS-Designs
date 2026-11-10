@@ -25,9 +25,9 @@
     "thirdPartyGeometry": false,
     "thirdPartyTextures": false,
     "publicAssetLicence": "not separately granted",
-    "sourceSnapshot": "sources/pipeline-bf07453f548fd92d.py",
-    "sourceSha256": "bf07453f548fd92da637ecce41dc8b35010d5f15c955c971c9e3be2fb762ea2d",
-    "sourceModelSha256": "5c26164b394640accb01005a3ff06551cf682b28bf4c989d271ddccd8e9f040f",
+    "sourceSnapshot": "sources/pipeline-78591b9add98cc9f.py",
+    "sourceSha256": "78591b9add98cc9fa7f8215e4e1c3e474d60f34fc69e94ce9b6acec0c4b1c79b",
+    "sourceModelSha256": "b80d174f79644ffa09197992704e4b47203f4e057f77515e033acd7be7a3e8b0",
     "supportSources": {
       "signature_designs.py": {
         "snapshot": "sources/signature_designs-6d248dd7aaa49ed4.py",
@@ -38,16 +38,16 @@
         "sha256": "281279dfd17b0c929f9038bb8066b86216427feaaefbd503abb995d06dc35730"
       },
       "catalogue_inventory.py": {
-        "snapshot": "sources/catalogue_inventory-db8b68fc872dbc12.py",
-        "sha256": "db8b68fc872dbc12d87e9ce013777e00d6b32cc0392e8cc09f31f8fef27b9365"
+        "snapshot": "sources/catalogue_inventory-4a2a82b7432f39ed.py",
+        "sha256": "4a2a82b7432f39edab34acc48bc992b36bc3372f5f396caa9d956a9dce6e02c9"
       },
       "finalize_glb.py": {
         "snapshot": "sources/finalize_glb-4d1dec42be5cbf3d.py",
         "sha256": "4d1dec42be5cbf3d6540facfa883948acd849c080f7117b8d7025749c08e2d1b"
       },
       "build_catalogue_v2.py": {
-        "snapshot": "sources/build_catalogue_v2-9c22533830c3704c.py",
-        "sha256": "9c22533830c3704c1ce578b58b4350ebbbf5b8d32590a07db027f671d4975577"
+        "snapshot": "sources/build_catalogue_v2-c85c57fa9d55ced1.py",
+        "sha256": "c85c57fa9d55ced1e2aea4a73f287062e07efd95f3abeec9a62a4a9daa120012"
       },
       "validate_library.py": {
         "snapshot": "sources/validate_library-48e60483e2c3d05b.py",
@@ -58,11 +58,11 @@
         "sha256": "f7ed4d0400abd5f23f27c86a9013cfefaca71234a9da953dfe97daeabb8af640"
       }
     },
-    "parametersFile": "sources/v0.7.0/globe-branch-floor.parameters.json"
+    "parametersFile": "sources/v0.7.10/globe-branch-floor.parameters.json"
   },
   "constructionKey": "light|globe-cluster|{}",
-  "sha256": "82b87975c15291c9cb27245662eab0cf2f2adb2928008905a7b242e5474f6ae7",
-  "bytes": 67500,
+  "sha256": "7862c5ea0d1ac809ea9357fc29a2dfd9af7273f0ff955672c5de983e93e95822",
+  "bytes": 67492,
   "triangles": 2072,
   "vertices": 1641,
   "drawPrimitives": 2,
@@ -102,8 +102,8 @@
     ]
   ],
   "variantSlots": [
-    "ceramic",
-    "metal"
+    "metal",
+    "opal"
   ],
   "requiredExtensions": [],
   "textures": {
@@ -112,13 +112,13 @@
     "estimatedRgbaBytesWithMipmaps": 0,
     "images": []
   },
-  "version": "0.7.0",
+  "version": "0.7.10",
   "qualityStatus": "validated-candidate",
   "geometryFamily": "ois.family.globe-branch-floor",
-  "file": "assets/v0.7.0/globe-branch-floor.glb",
-  "sourceModel": "sources/v0.7.0/globe-branch-floor.blend",
-  "thumbnail": "previews/v0.7.0/globe-branch-floor.png",
-  "backThumbnail": "previews/v0.7.0/globe-branch-floor-back.png",
+  "file": "assets/v0.7.10/globe-branch-floor.glb",
+  "sourceModel": "sources/v0.7.10/globe-branch-floor.blend",
+  "thumbnail": "previews/v0.7.10/globe-branch-floor.png",
+  "backThumbnail": "previews/v0.7.10/globe-branch-floor-back.png",
   "category": "lighting",
   "subtype": "globe-cluster",
   "units": "metres",
@@ -138,21 +138,21 @@
   "visualReview": {
     "status": "pending",
     "images": [
-      "previews/v0.7.0/globe-branch-floor.png",
-      "previews/v0.7.0/globe-branch-floor-back.png"
+      "previews/v0.7.10/globe-branch-floor.png",
+      "previews/v0.7.10/globe-branch-floor-back.png"
     ]
   },
   "favouriteStorage": "user set of stable catalogue IDs",
   "colors": [
     [
-      0.800000011920929,
-      0.8100000023841858,
-      0.7599999904632568
-    ],
-    [
       0.4699999988079071,
       0.30000001192092896,
       0.10000000149011612
+    ],
+    [
+      0.8999999761581421,
+      0.9100000262260437,
+      0.8700000047683716
     ]
   ],
   "colourTags": [
@@ -160,7 +160,7 @@
     "warm white"
   ],
   "materials": [
-    "ceramic",
+    "glass",
     "metal"
   ],
   "searchAliases": [
@@ -169,13 +169,13 @@
   ],
   "materialSlots": [
     {
-      "id": "ceramic",
-      "material": "ceramic",
+      "id": "metal",
+      "material": "metal",
       "recolourable": true
     },
     {
-      "id": "metal",
-      "material": "metal",
+      "id": "opal",
+      "material": "opal",
       "recolourable": true
     }
   ],

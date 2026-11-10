@@ -1,0 +1,147 @@
+{
+  "designId": "ois.design.tiered-towel-stand",
+  "familyId": "ois.family.tiered-towel-stand",
+  "id": "ois.design.tiered-towel-stand",
+  "name": "Tiered towel stand",
+  "roomTags": [
+    "bathroom"
+  ],
+  "theme": "walnut-form",
+  "builder": "bath",
+  "parameters": {
+    "form": "towel-stand"
+  },
+  "distinction": "Three separate metal hoops rise at different heights.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted",
+    "sourceSnapshot": "sources/pipeline-e797cb5c88af56f5.py",
+    "sourceSha256": "e797cb5c88af56f5b4455d819a512ab9be55f40e1fa2d0cb542aca7bb84b906f",
+    "parametersFile": "sources/v0.2.1/tiered-towel-stand.parameters.json"
+  },
+  "constructionKey": "bath|towel-stand|{}",
+  "sha256": "9a26da8c3b8ce2c5e7317d571fec7607daa4efffd32630202d772757d1bafdb5",
+  "bytes": 4624,
+  "triangles": 180,
+  "vertices": 96,
+  "drawPrimitives": 1,
+  "bounds": {
+    "min": [
+      -0.2160000056028366,
+      0.0,
+      -0.23600000143051147
+    ],
+    "max": [
+      0.2160000056028366,
+      1.1557174921035767,
+      0.23600000143051147
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 0.4320000112056732,
+    "depth": 0.47200000286102295,
+    "height": 1.1557174921035767
+  },
+  "footprint": [
+    [
+      -0.2160000056028366,
+      -0.23600000143051147
+    ],
+    [
+      0.2160000056028366,
+      -0.23600000143051147
+    ],
+    [
+      0.2160000056028366,
+      0.23600000143051147
+    ],
+    [
+      -0.2160000056028366,
+      0.23600000143051147
+    ]
+  ],
+  "variantSlots": [
+    "metal"
+  ],
+  "requiredExtensions": [],
+  "version": "0.2.1",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.tiered-towel-stand",
+  "file": "assets/v0.2.1/tiered-towel-stand.glb",
+  "sourceModel": "sources/v0.2.1/tiered-towel-stand.blend",
+  "thumbnail": "previews/v0.2.1/tiered-towel-stand.png",
+  "backThumbnail": "previews/v0.2.1/tiered-towel-stand-back.png",
+  "category": "bathroom-fixtures",
+  "subtype": "towel-stand",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "textures": {
+    "count": 0,
+    "bytes": 0
+  },
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.2.1/tiered-towel-stand.png",
+      "previews/v0.2.1/tiered-towel-stand-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.22,
+      0.09,
+      0.038
+    ],
+    [
+      0.39,
+      0.18,
+      0.07
+    ],
+    [
+      0.47,
+      0.3,
+      0.1
+    ]
+  ],
+  "colourTags": [
+    "walnut",
+    "tobacco",
+    "brass"
+  ],
+  "materials": [
+    "metal"
+  ],
+  "searchAliases": [
+    "bathroom",
+    "towel stand"
+  ],
+  "materialSlots": [
+    {
+      "id": "metal",
+      "material": "metal",
+      "recolourable": true
+    }
+  ]
+}

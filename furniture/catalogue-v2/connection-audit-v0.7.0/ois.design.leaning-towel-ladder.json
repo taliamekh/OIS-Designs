@@ -1,0 +1,96 @@
+{
+  "id": "ois.design.leaning-towel-ladder",
+  "sha256": "a9f446ce91821c22587c164cfd449f69aa32bb90ec7d7108f2edc68b68944a73",
+  "sourceModel": "sources/v0.7.0/leaning-towel-ladder.blend",
+  "sourceSha256": "05bb1e9a40ee7ef8bfe1a576bfef063d7e82c17bd1d8022eb1d948ede5259dcc",
+  "partCount": 7,
+  "componentCount": 1,
+  "components": [
+    {
+      "parts": [
+        "leaning stile",
+        "leaning stile.001",
+        "towel rung",
+        "towel rung.001",
+        "towel rung.002",
+        "towel rung.003",
+        "towel rung.004"
+      ],
+      "minimum": [
+        -0.2720000147819519,
+        -0.1417565643787384,
+        -1.5366822481155396e-08
+      ],
+      "maximum": [
+        0.2720000147819519,
+        0.1417565643787384,
+        1.6065269708633423
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "towel rung",
+      "b": "leaning stile",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "towel rung",
+      "b": "leaning stile.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "towel rung.001",
+      "b": "leaning stile",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "towel rung.001",
+      "b": "leaning stile.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "towel rung.002",
+      "b": "leaning stile",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "towel rung.002",
+      "b": "leaning stile.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "towel rung.003",
+      "b": "leaning stile",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "towel rung.003",
+      "b": "leaning stile.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "towel rung.004",
+      "b": "leaning stile",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "towel rung.004",
+      "b": "leaning stile.001",
+      "method": "triangle intersection",
+      "distance": 0
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; live-source reports are NOT exported-asset evidence; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T04:10:56Z"
+}

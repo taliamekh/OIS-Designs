@@ -1,0 +1,159 @@
+{
+  "designId": "ois.design.triangle-panel-desk",
+  "familyId": "ois.family.triangle-panel-desk",
+  "id": "ois.design.triangle-panel-desk",
+  "name": "Triangular panel desk",
+  "roomTags": [
+    "office"
+  ],
+  "theme": "soft-japandi",
+  "builder": "table",
+  "parameters": {
+    "form": "panel",
+    "w": 1.25,
+    "d": 0.85,
+    "h": 0.75,
+    "shape": "triangle",
+    "drawers": 1
+  },
+  "distinction": "Triangular workspace above two broad full-height panels.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted",
+    "sourceSnapshot": "sources/pipeline-e797cb5c88af56f5.py",
+    "sourceSha256": "e797cb5c88af56f5b4455d819a512ab9be55f40e1fa2d0cb542aca7bb84b906f",
+    "parametersFile": "sources/v0.2.1/triangle-panel-desk.parameters.json"
+  },
+  "constructionKey": "table|panel|{\"drawers\": true, \"shape\": \"triangle\", \"shelf\": false}",
+  "sha256": "d43753d01977e7cb8ae9d903703bb4647cdd31d79900028b1f41f62dd944d2f7",
+  "bytes": 43136,
+  "triangles": 632,
+  "vertices": 1152,
+  "drawPrimitives": 2,
+  "bounds": {
+    "min": [
+      -0.625,
+      0.0,
+      -0.484499990940094
+    ],
+    "max": [
+      0.625,
+      0.75,
+      0.36550000309944153
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 1.25,
+    "depth": 0.8499999940395355,
+    "height": 0.75
+  },
+  "footprint": [
+    [
+      -0.625,
+      -0.484499990940094
+    ],
+    [
+      0.625,
+      -0.484499990940094
+    ],
+    [
+      0.625,
+      0.36550000309944153
+    ],
+    [
+      -0.625,
+      0.36550000309944153
+    ]
+  ],
+  "variantSlots": [
+    "metal",
+    "wood"
+  ],
+  "requiredExtensions": [],
+  "version": "0.2.1",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.triangle-panel-desk",
+  "file": "assets/v0.2.1/triangle-panel-desk.glb",
+  "sourceModel": "sources/v0.2.1/triangle-panel-desk.blend",
+  "thumbnail": "previews/v0.2.1/triangle-panel-desk.png",
+  "backThumbnail": "previews/v0.2.1/triangle-panel-desk-back.png",
+  "category": "tables",
+  "subtype": "panel",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "textures": {
+    "count": 0,
+    "bytes": 0
+  },
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.2.1/triangle-panel-desk.png",
+      "previews/v0.2.1/triangle-panel-desk-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.34,
+      0.28,
+      0.19
+    ],
+    [
+      0.58,
+      0.54,
+      0.44
+    ],
+    [
+      0.15,
+      0.17,
+      0.15
+    ]
+  ],
+  "colourTags": [
+    "ash",
+    "flax",
+    "stone"
+  ],
+  "materials": [
+    "metal",
+    "wood"
+  ],
+  "searchAliases": [
+    "office",
+    "panel"
+  ],
+  "materialSlots": [
+    {
+      "id": "metal",
+      "material": "metal",
+      "recolourable": true
+    },
+    {
+      "id": "wood",
+      "material": "wood",
+      "recolourable": true
+    }
+  ]
+}

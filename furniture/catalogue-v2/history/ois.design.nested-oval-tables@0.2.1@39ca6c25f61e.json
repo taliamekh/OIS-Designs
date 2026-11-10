@@ -1,0 +1,158 @@
+{
+  "designId": "ois.design.nested-oval-tables",
+  "familyId": "ois.family.nested-oval-tables",
+  "id": "ois.design.nested-oval-tables",
+  "name": "Nesting oval tables",
+  "roomTags": [
+    "living"
+  ],
+  "theme": "walnut-form",
+  "builder": "table",
+  "parameters": {
+    "form": "nested",
+    "w": 1.08,
+    "d": 0.62,
+    "h": 0.39,
+    "shape": "oval"
+  },
+  "distinction": "Two interlocking tops at different heights with independent supports.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted",
+    "sourceSnapshot": "sources/pipeline-e797cb5c88af56f5.py",
+    "sourceSha256": "e797cb5c88af56f5b4455d819a512ab9be55f40e1fa2d0cb542aca7bb84b906f",
+    "parametersFile": "sources/v0.2.1/nested-oval-tables.parameters.json"
+  },
+  "constructionKey": "table|nested|{\"drawers\": false, \"shape\": \"ellipse\", \"shelf\": false}",
+  "sha256": "39ca6c25f61e304f5ba0e38f5b69602326e96f6b43ba76a4aad600af0be6d672",
+  "bytes": 24876,
+  "triangles": 616,
+  "vertices": 584,
+  "drawPrimitives": 2,
+  "bounds": {
+    "min": [
+      -0.5400000214576721,
+      0.0,
+      -0.3813000458002094
+    ],
+    "max": [
+      0.7506000864744209,
+      0.39000000804662704,
+      0.3100000023841858
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 1.290600107932093,
+    "depth": 0.6913000481843952,
+    "height": 0.39000000804662704
+  },
+  "footprint": [
+    [
+      -0.5400000214576721,
+      -0.3813000458002094
+    ],
+    [
+      0.7506000864744209,
+      -0.3813000458002094
+    ],
+    [
+      0.7506000864744209,
+      0.3100000023841858
+    ],
+    [
+      -0.5400000214576721,
+      0.3100000023841858
+    ]
+  ],
+  "variantSlots": [
+    "metal",
+    "wood"
+  ],
+  "requiredExtensions": [],
+  "version": "0.2.1",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.nested-oval-tables",
+  "file": "assets/v0.2.1/nested-oval-tables.glb",
+  "sourceModel": "sources/v0.2.1/nested-oval-tables.blend",
+  "thumbnail": "previews/v0.2.1/nested-oval-tables.png",
+  "backThumbnail": "previews/v0.2.1/nested-oval-tables-back.png",
+  "category": "tables",
+  "subtype": "nested",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "textures": {
+    "count": 0,
+    "bytes": 0
+  },
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.2.1/nested-oval-tables.png",
+      "previews/v0.2.1/nested-oval-tables-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.22,
+      0.09,
+      0.038
+    ],
+    [
+      0.39,
+      0.18,
+      0.07
+    ],
+    [
+      0.47,
+      0.3,
+      0.1
+    ]
+  ],
+  "colourTags": [
+    "walnut",
+    "tobacco",
+    "brass"
+  ],
+  "materials": [
+    "metal",
+    "wood"
+  ],
+  "searchAliases": [
+    "living",
+    "nested"
+  ],
+  "materialSlots": [
+    {
+      "id": "metal",
+      "material": "metal",
+      "recolourable": true
+    },
+    {
+      "id": "wood",
+      "material": "wood",
+      "recolourable": true
+    }
+  ]
+}

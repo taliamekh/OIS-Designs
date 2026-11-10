@@ -1,0 +1,154 @@
+{
+  "designId": "ois.design.clawfoot-bathtub",
+  "familyId": "ois.family.clawfoot-bathtub",
+  "id": "ois.design.clawfoot-bathtub",
+  "name": "Clawfoot bathtub",
+  "roomTags": [
+    "bathroom"
+  ],
+  "theme": "walnut-form",
+  "builder": "bath",
+  "parameters": {
+    "form": "claw-tub"
+  },
+  "distinction": "Hollow oval tub raised on four discrete claw-like feet.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted",
+    "sourceSnapshot": "sources/pipeline-e797cb5c88af56f5.py",
+    "sourceSha256": "e797cb5c88af56f5b4455d819a512ab9be55f40e1fa2d0cb542aca7bb84b906f",
+    "parametersFile": "sources/v0.2.1/clawfoot-bathtub.parameters.json"
+  },
+  "constructionKey": "bath|claw-tub|{}",
+  "sha256": "fc86e59fcd028cb8d37131ec6cbd72268986cabd93f4a1f91056e2a24c9f98ac",
+  "bytes": 70736,
+  "triangles": 2808,
+  "vertices": 1680,
+  "drawPrimitives": 2,
+  "bounds": {
+    "min": [
+      -0.824999988079071,
+      0.0,
+      -0.38999998569488525
+    ],
+    "max": [
+      0.824999988079071,
+      0.7409430528966396,
+      0.38999998569488525
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 1.649999976158142,
+    "depth": 0.7799999713897705,
+    "height": 0.7409430528966396
+  },
+  "footprint": [
+    [
+      -0.824999988079071,
+      -0.38999998569488525
+    ],
+    [
+      0.824999988079071,
+      -0.38999998569488525
+    ],
+    [
+      0.824999988079071,
+      0.38999998569488525
+    ],
+    [
+      -0.824999988079071,
+      0.38999998569488525
+    ]
+  ],
+  "variantSlots": [
+    "ceramic",
+    "metal"
+  ],
+  "requiredExtensions": [],
+  "version": "0.2.1",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.clawfoot-bathtub",
+  "file": "assets/v0.2.1/clawfoot-bathtub.glb",
+  "sourceModel": "sources/v0.2.1/clawfoot-bathtub.blend",
+  "thumbnail": "previews/v0.2.1/clawfoot-bathtub.png",
+  "backThumbnail": "previews/v0.2.1/clawfoot-bathtub-back.png",
+  "category": "bathroom-fixtures",
+  "subtype": "claw-tub",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "textures": {
+    "count": 0,
+    "bytes": 0
+  },
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.2.1/clawfoot-bathtub.png",
+      "previews/v0.2.1/clawfoot-bathtub-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.22,
+      0.09,
+      0.038
+    ],
+    [
+      0.39,
+      0.18,
+      0.07
+    ],
+    [
+      0.47,
+      0.3,
+      0.1
+    ]
+  ],
+  "colourTags": [
+    "walnut",
+    "tobacco",
+    "brass"
+  ],
+  "materials": [
+    "ceramic",
+    "metal"
+  ],
+  "searchAliases": [
+    "bathroom",
+    "claw tub"
+  ],
+  "materialSlots": [
+    {
+      "id": "ceramic",
+      "material": "ceramic",
+      "recolourable": true
+    },
+    {
+      "id": "metal",
+      "material": "metal",
+      "recolourable": true
+    }
+  ]
+}

@@ -26,15 +26,46 @@
     "thirdPartyGeometry": false,
     "thirdPartyTextures": false,
     "publicAssetLicence": "not separately granted",
-    "sourceSnapshot": "sources/pipeline-e797cb5c88af56f5.py",
-    "sourceSha256": "e797cb5c88af56f5b4455d819a512ab9be55f40e1fa2d0cb542aca7bb84b906f",
-    "parametersFile": "sources/v0.2.1/walkin-shower-screen.parameters.json"
+    "sourceSnapshot": "sources/pipeline-bf07453f548fd92d.py",
+    "sourceSha256": "bf07453f548fd92da637ecce41dc8b35010d5f15c955c971c9e3be2fb762ea2d",
+    "sourceModelSha256": "a15faa5a7647541034ef32ae03500665d879bc91653a3a571344a76036064e99",
+    "supportSources": {
+      "signature_designs.py": {
+        "snapshot": "sources/signature_designs-6d248dd7aaa49ed4.py",
+        "sha256": "6d248dd7aaa49ed40f05c473c5d46b6fe8c97972ebf6ce139553f9641fc82b3c"
+      },
+      "material_finish.py": {
+        "snapshot": "sources/material_finish-281279dfd17b0c92.py",
+        "sha256": "281279dfd17b0c929f9038bb8066b86216427feaaefbd503abb995d06dc35730"
+      },
+      "catalogue_inventory.py": {
+        "snapshot": "sources/catalogue_inventory-db8b68fc872dbc12.py",
+        "sha256": "db8b68fc872dbc12d87e9ce013777e00d6b32cc0392e8cc09f31f8fef27b9365"
+      },
+      "finalize_glb.py": {
+        "snapshot": "sources/finalize_glb-4d1dec42be5cbf3d.py",
+        "sha256": "4d1dec42be5cbf3d6540facfa883948acd849c080f7117b8d7025749c08e2d1b"
+      },
+      "build_catalogue_v2.py": {
+        "snapshot": "sources/build_catalogue_v2-9c22533830c3704c.py",
+        "sha256": "9c22533830c3704c1ce578b58b4350ebbbf5b8d32590a07db027f671d4975577"
+      },
+      "validate_library.py": {
+        "snapshot": "sources/validate_library-48e60483e2c3d05b.py",
+        "sha256": "48e60483e2c3d05bec2c7e2669523eb77571a4ba120cb5238bbec92b8a585e0c"
+      },
+      "support_checks.py": {
+        "snapshot": "sources/support_checks-f7ed4d0400abd5f2.py",
+        "sha256": "f7ed4d0400abd5f23f27c86a9013cfefaca71234a9da953dfe97daeabb8af640"
+      }
+    },
+    "parametersFile": "sources/v0.7.0/walkin-shower-screen.parameters.json"
   },
   "constructionKey": "bath|shower-walkin|{}",
-  "sha256": "3daa080a7044feea7b71dc11e10f92134bf1186bcc5607363653b65f8679c3d1",
-  "bytes": 44652,
-  "triangles": 852,
-  "vertices": 1121,
+  "sha256": "2eed95968c4aee0da467977fbe60fa549218c80cd81e184d7c0a3a0a94b3041f",
+  "bytes": 52452,
+  "triangles": 728,
+  "vertices": 1388,
   "drawPrimitives": 3,
   "bounds": {
     "min": [
@@ -77,22 +108,24 @@
     "metal"
   ],
   "requiredExtensions": [],
-  "version": "0.2.1",
+  "textures": {
+    "count": 0,
+    "bytes": 0,
+    "estimatedRgbaBytesWithMipmaps": 0,
+    "images": []
+  },
+  "version": "0.7.0",
   "qualityStatus": "validated-candidate",
   "geometryFamily": "ois.family.walkin-shower-screen",
-  "file": "assets/v0.2.1/walkin-shower-screen.glb",
-  "sourceModel": "sources/v0.2.1/walkin-shower-screen.blend",
-  "thumbnail": "previews/v0.2.1/walkin-shower-screen.png",
-  "backThumbnail": "previews/v0.2.1/walkin-shower-screen-back.png",
+  "file": "assets/v0.7.0/walkin-shower-screen.glb",
+  "sourceModel": "sources/v0.7.0/walkin-shower-screen.blend",
+  "thumbnail": "previews/v0.7.0/walkin-shower-screen.png",
+  "backThumbnail": "previews/v0.7.0/walkin-shower-screen-back.png",
   "category": "bathroom-fixtures",
   "subtype": "shower-walkin",
   "units": "metres",
   "frame": "RH Y-up; +X right, -Z furniture front",
   "pivot": "floor Y=0; centre of primary body XZ",
-  "textures": {
-    "count": 0,
-    "bytes": 0
-  },
   "lod": {
     "delivered": [
       "LOD0"
@@ -107,32 +140,32 @@
   "visualReview": {
     "status": "pending",
     "images": [
-      "previews/v0.2.1/walkin-shower-screen.png",
-      "previews/v0.2.1/walkin-shower-screen-back.png"
+      "previews/v0.7.0/walkin-shower-screen.png",
+      "previews/v0.7.0/walkin-shower-screen-back.png"
     ]
   },
   "favouriteStorage": "user set of stable catalogue IDs",
   "colors": [
     [
-      0.34,
-      0.28,
-      0.19
+      0.800000011920929,
+      0.8100000023841858,
+      0.7599999904632568
     ],
     [
-      0.58,
-      0.54,
-      0.44
+      0.20000000298023224,
+      0.3199999928474426,
+      0.3499999940395355
     ],
     [
-      0.15,
-      0.17,
-      0.15
+      0.15000000596046448,
+      0.17000000178813934,
+      0.15000000596046448
     ]
   ],
   "colourTags": [
-    "ash",
-    "flax",
-    "stone"
+    "charcoal",
+    "clear blue grey",
+    "warm white"
   ],
   "materials": [
     "ceramic",
@@ -159,5 +192,38 @@
       "material": "metal",
       "recolourable": true
     }
-  ]
+  ],
+  "finalization": {
+    "unusedTangentAttributesRemoved": 3,
+    "unusedAccessorsRemoved": 3,
+    "unusedBufferViewsRemoved": 3,
+    "bytesRemoved": 22640,
+    "normalMappedTangents": "retained, never replaced with arbitrary fallback vectors"
+  },
+  "supportChecks": {
+    "method": "source-part upper-end ray to non-leg geometry, 15mm join tolerance",
+    "status": "pass",
+    "parts": [],
+    "limitation": "screening only; hidden joints, whole-model connectivity, load paths and safety remain visual/product-review concerns"
+  },
+  "materialFinish": {
+    "source": "materials/v1/manifest.json",
+    "repeatMetres": {
+      "wood": [
+        0.16,
+        0.75
+      ],
+      "fabric": [
+        0.14,
+        0.14
+      ],
+      "linen": [
+        0.12,
+        0.12
+      ]
+    },
+    "maps": "original base colour / roughness / tangent normal, embedded in GLB"
+  },
+  "geometryHash": "a40877215b00085f039c16a5c4c2163d62e2d7d4582ec69e47c6b5609e40c9a9",
+  "normalizedMirrorGeometryHash": "0480961a1f133ad8e7c859b6eb1445d5a62f63022ba3c8524bf94a14386de8b2"
 }

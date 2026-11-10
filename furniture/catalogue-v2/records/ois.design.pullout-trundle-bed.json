@@ -26,27 +26,40 @@
     "thirdPartyGeometry": false,
     "thirdPartyTextures": false,
     "publicAssetLicence": "not separately granted",
-    "sourceSnapshot": "sources/pipeline-80bacc170bd1371e.py",
-    "sourceSha256": "80bacc170bd1371edd54e3e5203658724c4e90ee4562fa13275787f9884b1d45",
+    "sourceSnapshot": "sources/pipeline-67e622ea7bf4b8bb.py",
+    "sourceSha256": "67e622ea7bf4b8bb74cb1b37a00232efda524d27fc3d6549db95007b5cd17ee2",
+    "sourceModelSha256": "0085f2aafab8cafce5793268bb6596f82c4918fc8ba43371e152901eb89b1a67",
     "supportSources": {
       "signature_designs.py": {
-        "snapshot": "sources/signature_designs-c7ce1c9570491409.py",
-        "sha256": "c7ce1c95704914096c0af5c88272139fca2098556f75b752375dd03da6cd8ee2"
+        "snapshot": "sources/signature_designs-6d248dd7aaa49ed4.py",
+        "sha256": "6d248dd7aaa49ed40f05c473c5d46b6fe8c97972ebf6ce139553f9641fc82b3c"
       },
       "material_finish.py": {
-        "snapshot": "sources/material_finish-b9bb830e81d90e18.py",
-        "sha256": "b9bb830e81d90e18c05191c4e478ee7bbda04b117e4148687be9073a85d929c2"
+        "snapshot": "sources/material_finish-281279dfd17b0c92.py",
+        "sha256": "281279dfd17b0c929f9038bb8066b86216427feaaefbd503abb995d06dc35730"
       },
       "catalogue_inventory.py": {
-        "snapshot": "sources/catalogue_inventory-b67897df830f7144.py",
-        "sha256": "b67897df830f71449151337a656dae85d9e7b911fbc107aab78d72a60438f20e"
+        "snapshot": "sources/catalogue_inventory-4a2a82b7432f39ed.py",
+        "sha256": "4a2a82b7432f39edab34acc48bc992b36bc3372f5f396caa9d956a9dce6e02c9"
       },
       "finalize_glb.py": {
-        "snapshot": "sources/finalize_glb-dfc4ff54401c495d.py",
-        "sha256": "dfc4ff54401c495d3e17debd8f4aae1c5e68012a23ba8c85e023ed00397baae2"
+        "snapshot": "sources/finalize_glb-4d1dec42be5cbf3d.py",
+        "sha256": "4d1dec42be5cbf3d6540facfa883948acd849c080f7117b8d7025749c08e2d1b"
+      },
+      "build_catalogue_v2.py": {
+        "snapshot": "sources/build_catalogue_v2-9c22533830c3704c.py",
+        "sha256": "9c22533830c3704c1ce578b58b4350ebbbf5b8d32590a07db027f671d4975577"
+      },
+      "validate_library.py": {
+        "snapshot": "sources/validate_library-48e60483e2c3d05b.py",
+        "sha256": "48e60483e2c3d05bec2c7e2669523eb77571a4ba120cb5238bbec92b8a585e0c"
+      },
+      "support_checks.py": {
+        "snapshot": "sources/support_checks-f7ed4d0400abd5f2.py",
+        "sha256": "f7ed4d0400abd5f23f27c86a9013cfefaca71234a9da953dfe97daeabb8af640"
       }
     },
-    "parametersFile": "sources/v0.5.0/pullout-trundle-bed.parameters.json"
+    "parametersFile": "sources/v0.7.9/pullout-trundle-bed.parameters.json"
   },
   "constructionKey": "bed|trundle|{}",
   "bedSize": "queen",
@@ -61,51 +74,50 @@
     0.12
   ],
   "safetyReviewRequired": false,
-  "sha256": "2f950708898f9b88cfd58dfdfc44c26167a784358f2770bb9d64ea019978e402",
-  "bytes": 724276,
-  "triangles": 4448,
-  "vertices": 7401,
-  "drawPrimitives": 5,
+  "sha256": "c7baf87f4dcf83b8da4cddc80b569b93891e12f623f37841f7c5495db124a38d",
+  "bytes": 682928,
+  "triangles": 4032,
+  "vertices": 7052,
+  "drawPrimitives": 4,
   "bounds": {
     "min": [
-      -0.8250000622696249,
-      0.0,
+      -0.8128688684408989,
+      -2.992943248791846e-08,
       -1.0873838430643858
     ],
     "max": [
-      1.8672000272959046,
-      1.140000090568278,
-      1.1060001814817497
+      1.9172000877262847,
+      1.1319825919352058,
+      1.1060000513522326
     ]
   },
   "dimensionsMetres": {
-    "width": 2.6922000895655294,
-    "depth": 2.193384024546136,
-    "height": 1.140000090568278
+    "width": 2.730068956167184,
+    "depth": 2.1933838944166184,
+    "height": 1.1319826218646383
   },
   "footprint": [
     [
-      -0.8250000622696249,
+      -0.8128688684408989,
       -1.0873838430643858
     ],
     [
-      1.8672000272959046,
+      1.9172000877262847,
       -1.0873838430643858
     ],
     [
-      1.8672000272959046,
-      1.1060001814817497
+      1.9172000877262847,
+      1.1060000513522326
     ],
     [
-      -0.8250000622696249,
-      1.1060001814817497
+      -0.8128688684408989,
+      1.1060000513522326
     ]
   ],
   "variantSlots": [
     "dark",
     "fabric",
     "linen",
-    "metal",
     "wood"
   ],
   "requiredExtensions": [],
@@ -179,13 +191,13 @@
       }
     ]
   },
-  "version": "0.5.0",
+  "version": "0.7.9",
   "qualityStatus": "validated-candidate",
   "geometryFamily": "ois.family.pullout-trundle-bed",
-  "file": "assets/v0.5.0/pullout-trundle-bed.glb",
-  "sourceModel": "sources/v0.5.0/pullout-trundle-bed.blend",
-  "thumbnail": "previews/v0.5.0/pullout-trundle-bed.png",
-  "backThumbnail": "previews/v0.5.0/pullout-trundle-bed-back.png",
+  "file": "assets/v0.7.9/pullout-trundle-bed.glb",
+  "sourceModel": "sources/v0.7.9/pullout-trundle-bed.blend",
+  "thumbnail": "previews/v0.7.9/pullout-trundle-bed.png",
+  "backThumbnail": "previews/v0.7.9/pullout-trundle-bed-back.png",
   "category": "beds",
   "subtype": "trundle",
   "units": "metres",
@@ -205,8 +217,8 @@
   "visualReview": {
     "status": "pending",
     "images": [
-      "previews/v0.5.0/pullout-trundle-bed.png",
-      "previews/v0.5.0/pullout-trundle-bed-back.png"
+      "previews/v0.7.9/pullout-trundle-bed.png",
+      "previews/v0.7.9/pullout-trundle-bed-back.png"
     ]
   },
   "favouriteStorage": "user set of stable catalogue IDs",
@@ -227,25 +239,18 @@
       0.6899999976158142
     ],
     [
-      0.04500000178813934,
-      0.05000000074505806,
-      0.054999999701976776
-    ],
-    [
       0.23000000417232513,
       0.15000000596046448,
       0.09000000357627869
     ]
   ],
   "colourTags": [
-    "black",
     "charcoal",
     "near black",
     "warm ivory",
     "weathered brown"
   ],
   "materials": [
-    "metal",
     "paint",
     "textile",
     "wood"
@@ -271,18 +276,16 @@
       "recolourable": true
     },
     {
-      "id": "metal",
-      "material": "metal",
-      "recolourable": true
-    },
-    {
       "id": "wood",
       "material": "wood",
       "recolourable": true
     }
   ],
   "finalization": {
-    "unusedTangentAttributesRemoved": 2,
+    "unusedTangentAttributesRemoved": 1,
+    "unusedAccessorsRemoved": 1,
+    "unusedBufferViewsRemoved": 1,
+    "bytesRemoved": 20824,
     "normalMappedTangents": "retained, never replaced with arbitrary fallback vectors"
   },
   "supportChecks": {
@@ -291,22 +294,22 @@
     "parts": [
       {
         "part": "leg",
-        "gapMetresAlongSupport": -0.010119432210922236,
+        "gapMetresAlongSupport": -0.010119462013244623,
         "status": "pass"
       },
       {
         "part": "leg.001",
-        "gapMetresAlongSupport": -0.010119432210922236,
+        "gapMetresAlongSupport": -0.01011944711208343,
         "status": "pass"
       },
       {
         "part": "leg.002",
-        "gapMetresAlongSupport": -0.010119432210922236,
+        "gapMetresAlongSupport": -0.010119462013244623,
         "status": "pass"
       },
       {
         "part": "leg.003",
-        "gapMetresAlongSupport": -0.010119432210922236,
+        "gapMetresAlongSupport": -0.01011944711208343,
         "status": "pass"
       }
     ],
@@ -365,6 +368,6 @@
     "clay brown"
   ],
   "variantCountNote": "appearance overrides share this one design; do not increase distinct count",
-  "geometryHash": "0e5dd7aadac1cd472b2a84ba49b053c380a887b809aa56cf5f59b6214744c4f2",
-  "normalizedMirrorGeometryHash": "1d8088287670a07d4e90daa5fc5dbf91d1dc4a44db000f281bb4c5f15a06177f"
+  "geometryHash": "8d73288076990880d5b8f70d638a9e672cde9eed5ea850a913fe13f25005d9a4",
+  "normalizedMirrorGeometryHash": "1016b919a70200a3f33ae8e2f17ecd10550950068a9cde6509c359bb22a1f3a8"
 }

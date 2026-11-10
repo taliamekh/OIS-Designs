@@ -1,0 +1,87 @@
+{
+  "id": "ois.design.round-two-level-nest",
+  "sha256": "11789a6afa937efb01ffe35af4456b5c158463f734e2380f29882a9423fb7366",
+  "sourceModel": "sources/v0.7.8/round-two-level-nest.blend",
+  "sourceSha256": "63f6c5a0a7d3b7c1bd0429666aa22015d76e9db27c20376620db48a241ac2865",
+  "partCount": 8,
+  "componentCount": 2,
+  "components": [
+    {
+      "parts": [
+        "lower nesting top",
+        "nesting leg",
+        "nesting leg.001",
+        "nesting leg.002",
+        "nesting leg.003"
+      ],
+      "minimum": [
+        0.05199998617172241,
+        -0.1080000102519989,
+        0.0
+      ],
+      "maximum": [
+        0.5559999942779541,
+        0.492000013589859,
+        0.3247000277042389
+      ]
+    },
+    {
+      "parts": [
+        "top",
+        "open nesting C frame",
+        "open nesting C frame.001"
+      ],
+      "minimum": [
+        -0.4000000059604645,
+        -0.4000000059604645,
+        0.0
+      ],
+      "maximum": [
+        0.4000000059604645,
+        0.4000000059604645,
+        0.48000001907348633
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "open nesting C frame",
+      "b": "top",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "open nesting C frame.001",
+      "b": "top",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "nesting leg",
+      "b": "lower nesting top",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "nesting leg.001",
+      "b": "lower nesting top",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "nesting leg.002",
+      "b": "lower nesting top",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "nesting leg.003",
+      "b": "lower nesting top",
+      "method": "triangle intersection",
+      "distance": 0
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; live-source reports are NOT exported-asset evidence; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T04:12:45Z"
+}

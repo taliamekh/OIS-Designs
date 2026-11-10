@@ -24,12 +24,43 @@
     "thirdPartyGeometry": false,
     "thirdPartyTextures": false,
     "publicAssetLicence": "not separately granted",
-    "sourceSnapshot": "sources/pipeline-e797cb5c88af56f5.py",
-    "sourceSha256": "e797cb5c88af56f5b4455d819a512ab9be55f40e1fa2d0cb542aca7bb84b906f",
-    "parametersFile": "sources/v0.2.1/ceramic-pedestal-basin.parameters.json"
+    "sourceSnapshot": "sources/pipeline-bf07453f548fd92d.py",
+    "sourceSha256": "bf07453f548fd92da637ecce41dc8b35010d5f15c955c971c9e3be2fb762ea2d",
+    "sourceModelSha256": "a6dac7e3c4ae87182a56d55549533fe166b4565b628d1b6bb91f201e2867543e",
+    "supportSources": {
+      "signature_designs.py": {
+        "snapshot": "sources/signature_designs-6d248dd7aaa49ed4.py",
+        "sha256": "6d248dd7aaa49ed40f05c473c5d46b6fe8c97972ebf6ce139553f9641fc82b3c"
+      },
+      "material_finish.py": {
+        "snapshot": "sources/material_finish-281279dfd17b0c92.py",
+        "sha256": "281279dfd17b0c929f9038bb8066b86216427feaaefbd503abb995d06dc35730"
+      },
+      "catalogue_inventory.py": {
+        "snapshot": "sources/catalogue_inventory-db8b68fc872dbc12.py",
+        "sha256": "db8b68fc872dbc12d87e9ce013777e00d6b32cc0392e8cc09f31f8fef27b9365"
+      },
+      "finalize_glb.py": {
+        "snapshot": "sources/finalize_glb-4d1dec42be5cbf3d.py",
+        "sha256": "4d1dec42be5cbf3d6540facfa883948acd849c080f7117b8d7025749c08e2d1b"
+      },
+      "build_catalogue_v2.py": {
+        "snapshot": "sources/build_catalogue_v2-9c22533830c3704c.py",
+        "sha256": "9c22533830c3704c1ce578b58b4350ebbbf5b8d32590a07db027f671d4975577"
+      },
+      "validate_library.py": {
+        "snapshot": "sources/validate_library-48e60483e2c3d05b.py",
+        "sha256": "48e60483e2c3d05bec2c7e2669523eb77571a4ba120cb5238bbec92b8a585e0c"
+      },
+      "support_checks.py": {
+        "snapshot": "sources/support_checks-f7ed4d0400abd5f2.py",
+        "sha256": "f7ed4d0400abd5f23f27c86a9013cfefaca71234a9da953dfe97daeabb8af640"
+      }
+    },
+    "parametersFile": "sources/v0.7.0/ceramic-pedestal-basin.parameters.json"
   },
   "constructionKey": "bath|pedestal-sink|{}",
-  "sha256": "06ff9ed3a87c98795ed706fe3767e417f25521aaab79988351f7410c5a0e0c5e",
+  "sha256": "92ad3683aa482838b9f5a89f1911ad387237a026df5789e88d389f355c392076",
   "bytes": 19256,
   "triangles": 816,
   "vertices": 469,
@@ -74,22 +105,24 @@
     "metal"
   ],
   "requiredExtensions": [],
-  "version": "0.2.1",
+  "textures": {
+    "count": 0,
+    "bytes": 0,
+    "estimatedRgbaBytesWithMipmaps": 0,
+    "images": []
+  },
+  "version": "0.7.0",
   "qualityStatus": "validated-candidate",
   "geometryFamily": "ois.family.ceramic-pedestal-basin",
-  "file": "assets/v0.2.1/ceramic-pedestal-basin.glb",
-  "sourceModel": "sources/v0.2.1/ceramic-pedestal-basin.blend",
-  "thumbnail": "previews/v0.2.1/ceramic-pedestal-basin.png",
-  "backThumbnail": "previews/v0.2.1/ceramic-pedestal-basin-back.png",
+  "file": "assets/v0.7.0/ceramic-pedestal-basin.glb",
+  "sourceModel": "sources/v0.7.0/ceramic-pedestal-basin.blend",
+  "thumbnail": "previews/v0.7.0/ceramic-pedestal-basin.png",
+  "backThumbnail": "previews/v0.7.0/ceramic-pedestal-basin-back.png",
   "category": "bathroom-fixtures",
   "subtype": "pedestal-sink",
   "units": "metres",
   "frame": "RH Y-up; +X right, -Z furniture front",
   "pivot": "floor Y=0; centre of primary body XZ",
-  "textures": {
-    "count": 0,
-    "bytes": 0
-  },
   "lod": {
     "delivered": [
       "LOD0"
@@ -104,32 +137,26 @@
   "visualReview": {
     "status": "pending",
     "images": [
-      "previews/v0.2.1/ceramic-pedestal-basin.png",
-      "previews/v0.2.1/ceramic-pedestal-basin-back.png"
+      "previews/v0.7.0/ceramic-pedestal-basin.png",
+      "previews/v0.7.0/ceramic-pedestal-basin-back.png"
     ]
   },
   "favouriteStorage": "user set of stable catalogue IDs",
   "colors": [
     [
-      0.58,
-      0.39,
-      0.2
+      0.800000011920929,
+      0.8100000023841858,
+      0.7599999904632568
     ],
     [
-      0.73,
-      0.7,
-      0.61
-    ],
-    [
-      0.12,
-      0.14,
-      0.13
+      0.11999999731779099,
+      0.14000000059604645,
+      0.12999999523162842
     ]
   ],
   "colourTags": [
-    "pale oak",
-    "ivory",
-    "oatmeal"
+    "dark grey",
+    "warm white"
   ],
   "materials": [
     "ceramic",
@@ -150,5 +177,38 @@
       "material": "metal",
       "recolourable": true
     }
-  ]
+  ],
+  "finalization": {
+    "unusedTangentAttributesRemoved": 0,
+    "unusedAccessorsRemoved": 0,
+    "unusedBufferViewsRemoved": 0,
+    "bytesRemoved": 0,
+    "normalMappedTangents": "retained, never replaced with arbitrary fallback vectors"
+  },
+  "supportChecks": {
+    "method": "source-part upper-end ray to non-leg geometry, 15mm join tolerance",
+    "status": "pass",
+    "parts": [],
+    "limitation": "screening only; hidden joints, whole-model connectivity, load paths and safety remain visual/product-review concerns"
+  },
+  "materialFinish": {
+    "source": "materials/v1/manifest.json",
+    "repeatMetres": {
+      "wood": [
+        0.16,
+        0.75
+      ],
+      "fabric": [
+        0.14,
+        0.14
+      ],
+      "linen": [
+        0.12,
+        0.12
+      ]
+    },
+    "maps": "original base colour / roughness / tangent normal, embedded in GLB"
+  },
+  "geometryHash": "674c4b36f77b96e25cc098dc3320bd5a689af30d3d08ff5ccf81d154be80c331",
+  "normalizedMirrorGeometryHash": "3c9650b90600d2775fff82b84b0faca94fe98384100c105f240c43aa2219f59e"
 }

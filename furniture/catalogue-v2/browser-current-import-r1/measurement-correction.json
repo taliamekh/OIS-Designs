@@ -1,0 +1,6 @@
+{
+  "finding": "All 439 files imported/rendered without browser errors and disposed resources. The initial dimension/floor check used approximate rotated object AABBs, yielding 175 misleading bounds failures.",
+  "correction": "r2 uses exact transformed vertex bounds (Three Box3.setFromObject(root,true)), unchanged tolerance and the same model files.",
+  "r1Status": "not dimensional acceptance evidence; preserved failed test report",
+  "r2": "catalogue-v2/browser-current-import-r2/result.json"
+}

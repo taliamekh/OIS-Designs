@@ -1,0 +1,178 @@
+{
+  "id": "ois.design.timber-rocking-horse",
+  "sha256": "29120b1706857c9acaab5c253d8b87a3c863131f0d77d4c735d6227579b248a0",
+  "sourceModel": "sources/v0.7.0/timber-rocking-horse.blend",
+  "sourceSha256": "27e403e9490c6f643da38c77e231b919117bbd4b3f0235ca2fa0d0746c80f517",
+  "partCount": 17,
+  "componentCount": 1,
+  "components": [
+    {
+      "parts": [
+        "rocker",
+        "rocker.001",
+        "horse body",
+        "neck",
+        "head",
+        "horse leg",
+        "horse leg.001",
+        "rocker transverse brace",
+        "horse foot mount",
+        "horse leg cross tie",
+        "horse leg.002",
+        "horse leg.003",
+        "rocker transverse brace.001",
+        "horse foot mount.001",
+        "horse leg cross tie.001",
+        "handgrip",
+        "saddle"
+      ],
+      "minimum": [
+        -0.5177125334739685,
+        -0.20000000298023224,
+        0.0
+      ],
+      "maximum": [
+        0.5177125334739685,
+        0.20000000298023224,
+        0.9350000023841858
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "neck",
+      "b": "horse body",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "head",
+      "b": "neck",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "horse leg",
+      "b": "horse body",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "horse leg.001",
+      "b": "horse body",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "rocker transverse brace",
+      "b": "rocker",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "rocker transverse brace",
+      "b": "rocker.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "horse foot mount",
+      "b": "rocker transverse brace",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "horse leg cross tie",
+      "b": "horse leg",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "horse leg cross tie",
+      "b": "horse leg.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "horse leg cross tie",
+      "b": "horse foot mount",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "horse leg.002",
+      "b": "horse body",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "horse leg.003",
+      "b": "horse body",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "rocker transverse brace.001",
+      "b": "rocker",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "rocker transverse brace.001",
+      "b": "rocker.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "horse foot mount.001",
+      "b": "rocker transverse brace.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "horse leg cross tie.001",
+      "b": "horse leg.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "horse leg cross tie.001",
+      "b": "horse leg.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "horse leg cross tie.001",
+      "b": "horse foot mount.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "handgrip",
+      "b": "neck",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "handgrip",
+      "b": "head",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "saddle",
+      "b": "horse body",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "saddle",
+      "b": "neck",
+      "method": "triangle intersection",
+      "distance": 0
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; live-source reports are NOT exported-asset evidence; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T04:10:59Z"
+}

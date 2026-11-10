@@ -93,3 +93,8 @@ Integration readers should use `batch-ready.json` and `accepted-assets.json` exa
 The tall shaker tangent defect was a real zero vector on a nondegenerate wood triangle (area0.0004367m², UV area0.003637), not an excuse to insert an arbitrary direction. After post-triangulation automatic-normal recalculation through Blender's zero-vector custom-normal reset, six proof assets including the tall shaker pass independent structural inspection and official Khronos validation with0errors/0warnings. Proof v0.6.6 dense jewellery bureau is9548triangles/~1.2MB. UV charts separate adjacent projections without changing repeat phase. Finalization now removes unreferenced accessors/buffer views after dropping tangent streams only on non-normal-mapped materials. Geometry/material appearance is not fabricated by finalization.
 
 Compass desk now has actual crossing tapered side boards with low metal pivot pins and top beams. Wave bookcase metadata now truthfully describes five curved horizontal shelves on three masts; it does not claim a curved vertical partition. INTEGRATION.md and accepted-assets.json provide the current bounded handoff, with source/browser helper evidence kept separate from app adoption.
+
+
+### 2026-11-10 04:06 UTC — UTF-8 publication repair
+
+The live publisher now writes STATUS.md and COVERAGE.md explicitly as UTF-8, including the status append. Both regenerated files decode strictly as UTF-8; exact hashes are in furniture/catalogue-v2/publisher-utf8-check.json. Immutable source snapshots were preserved. These owned documents are ready for the coordinator’s next GitHub text checkpoint.

@@ -1,0 +1,326 @@
+{
+  "designId": "ois.design.timber-rocking-horse",
+  "familyId": "ois.family.timber-rocking-horse",
+  "id": "ois.design.timber-rocking-horse",
+  "name": "Timber rocking horse",
+  "roomTags": [
+    "children"
+  ],
+  "theme": "calm-oak",
+  "builder": "special",
+  "parameters": {
+    "form": "rocking-horse",
+    "w": 0.92,
+    "d": 0.4,
+    "h": 0.88
+  },
+  "distinction": "Sculpted body, neck/head, handgrip and saddle on two curved rockers.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted",
+    "sourceSnapshot": "sources/pipeline-bf07453f548fd92d.py",
+    "sourceSha256": "bf07453f548fd92da637ecce41dc8b35010d5f15c955c971c9e3be2fb762ea2d",
+    "sourceModelSha256": "27e403e9490c6f643da38c77e231b919117bbd4b3f0235ca2fa0d0746c80f517",
+    "supportSources": {
+      "signature_designs.py": {
+        "snapshot": "sources/signature_designs-6d248dd7aaa49ed4.py",
+        "sha256": "6d248dd7aaa49ed40f05c473c5d46b6fe8c97972ebf6ce139553f9641fc82b3c"
+      },
+      "material_finish.py": {
+        "snapshot": "sources/material_finish-281279dfd17b0c92.py",
+        "sha256": "281279dfd17b0c929f9038bb8066b86216427feaaefbd503abb995d06dc35730"
+      },
+      "catalogue_inventory.py": {
+        "snapshot": "sources/catalogue_inventory-db8b68fc872dbc12.py",
+        "sha256": "db8b68fc872dbc12d87e9ce013777e00d6b32cc0392e8cc09f31f8fef27b9365"
+      },
+      "finalize_glb.py": {
+        "snapshot": "sources/finalize_glb-4d1dec42be5cbf3d.py",
+        "sha256": "4d1dec42be5cbf3d6540facfa883948acd849c080f7117b8d7025749c08e2d1b"
+      },
+      "build_catalogue_v2.py": {
+        "snapshot": "sources/build_catalogue_v2-9c22533830c3704c.py",
+        "sha256": "9c22533830c3704c1ce578b58b4350ebbbf5b8d32590a07db027f671d4975577"
+      },
+      "validate_library.py": {
+        "snapshot": "sources/validate_library-48e60483e2c3d05b.py",
+        "sha256": "48e60483e2c3d05bec2c7e2669523eb77571a4ba120cb5238bbec92b8a585e0c"
+      },
+      "support_checks.py": {
+        "snapshot": "sources/support_checks-f7ed4d0400abd5f2.py",
+        "sha256": "f7ed4d0400abd5f23f27c86a9013cfefaca71234a9da953dfe97daeabb8af640"
+      }
+    },
+    "parametersFile": "sources/v0.7.0/timber-rocking-horse.parameters.json"
+  },
+  "constructionKey": "special|rocking-horse|{\"cols\": 1, \"front\": \"cane\", \"panels\": 3}",
+  "sha256": "29120b1706857c9acaab5c253d8b87a3c863131f0d77d4c735d6227579b248a0",
+  "bytes": 619540,
+  "triangles": 2884,
+  "vertices": 8652,
+  "drawPrimitives": 2,
+  "bounds": {
+    "min": [
+      -0.5177125334739685,
+      0.0,
+      -0.20000000298023224
+    ],
+    "max": [
+      0.5177125334739685,
+      0.9350000079721212,
+      0.20000000298023224
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 1.035425066947937,
+    "depth": 0.4000000059604645,
+    "height": 0.9350000079721212
+  },
+  "footprint": [
+    [
+      -0.5177125334739685,
+      -0.20000000298023224
+    ],
+    [
+      0.5177125334739685,
+      -0.20000000298023224
+    ],
+    [
+      0.5177125334739685,
+      0.20000000298023224
+    ],
+    [
+      -0.5177125334739685,
+      0.20000000298023224
+    ]
+  ],
+  "variantSlots": [
+    "fabric",
+    "wood"
+  ],
+  "requiredExtensions": [],
+  "textures": {
+    "count": 6,
+    "bytes": 183056,
+    "estimatedRgbaBytesWithMipmaps": 2097152,
+    "images": [
+      {
+        "name": "fabric-normal",
+        "bytes": 1016,
+        "width": 256,
+        "height": 256,
+        "sha256": "5bbac800a495c0a30042ad832a3ea134aa66afad65fa0dde59103733a54e886c"
+      },
+      {
+        "name": "fabric-neutral-base",
+        "bytes": 4495,
+        "width": 256,
+        "height": 256,
+        "sha256": "898e022cb5ea1b2663884e7306bbd2c09f25ab2827974bd1328a81bcab08b1ac"
+      },
+      {
+        "name": "fabric-roughness",
+        "bytes": 2761,
+        "width": 256,
+        "height": 256,
+        "sha256": "397e1c119de5e5939f7f1260cfeb7a715d695240776f51b974989073b638eeb6"
+      },
+      {
+        "name": "wood-normal",
+        "bytes": 102088,
+        "width": 256,
+        "height": 256,
+        "sha256": "6b8efcb5004552d884a527017922bfb5260b8bda4dc77f1365fe1cb8a09f1d56"
+      },
+      {
+        "name": "wood-neutral-base",
+        "bytes": 39353,
+        "width": 256,
+        "height": 256,
+        "sha256": "ddcf839a2addae78944a2d7a0588f9c2055852fc4ccb4e2dae2095d28541de44"
+      },
+      {
+        "name": "wood-roughness",
+        "bytes": 33343,
+        "width": 256,
+        "height": 256,
+        "sha256": "afc2180e58360e76fb178b52f225f7ba9045a7d0d266f10886763b0590335a1a"
+      }
+    ]
+  },
+  "version": "0.7.0",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.timber-rocking-horse",
+  "file": "assets/v0.7.0/timber-rocking-horse.glb",
+  "sourceModel": "sources/v0.7.0/timber-rocking-horse.blend",
+  "thumbnail": "previews/v0.7.0/timber-rocking-horse.png",
+  "backThumbnail": "previews/v0.7.0/timber-rocking-horse-back.png",
+  "category": "specialty",
+  "subtype": "rocking-horse",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.7.0/timber-rocking-horse.png",
+      "previews/v0.7.0/timber-rocking-horse-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.7300000190734863,
+      0.699999988079071,
+      0.6100000143051147
+    ],
+    [
+      0.5799999833106995,
+      0.38999998569488525,
+      0.20000000298023224
+    ]
+  ],
+  "colourTags": [
+    "ivory",
+    "pale oak"
+  ],
+  "materials": [
+    "textile",
+    "wood"
+  ],
+  "searchAliases": [
+    "children",
+    "rocking horse"
+  ],
+  "materialSlots": [
+    {
+      "id": "fabric",
+      "material": "fabric",
+      "recolourable": true
+    },
+    {
+      "id": "wood",
+      "material": "wood",
+      "recolourable": true
+    }
+  ],
+  "finalization": {
+    "unusedTangentAttributesRemoved": 0,
+    "unusedAccessorsRemoved": 0,
+    "unusedBufferViewsRemoved": 0,
+    "bytesRemoved": 0,
+    "normalMappedTangents": "retained, never replaced with arbitrary fallback vectors"
+  },
+  "supportChecks": {
+    "method": "source-part upper-end ray to non-leg geometry, 15mm join tolerance",
+    "status": "pass",
+    "parts": [
+      {
+        "part": "horse leg",
+        "gapMetresAlongSupport": -0.07540424317121505,
+        "status": "pass"
+      },
+      {
+        "part": "horse leg.001",
+        "gapMetresAlongSupport": -0.07540428042411804,
+        "status": "pass"
+      },
+      {
+        "part": "horse leg cross tie",
+        "gapMetresAlongSupport": -0.1069999910891056,
+        "status": "pass"
+      },
+      {
+        "part": "horse leg.002",
+        "gapMetresAlongSupport": -0.08045420199632644,
+        "status": "pass"
+      },
+      {
+        "part": "horse leg.003",
+        "gapMetresAlongSupport": -0.08045419454574584,
+        "status": "pass"
+      },
+      {
+        "part": "horse leg cross tie.001",
+        "gapMetresAlongSupport": -0.1069999948143959,
+        "status": "pass"
+      }
+    ],
+    "limitation": "screening only; hidden joints, whole-model connectivity, load paths and safety remain visual/product-review concerns"
+  },
+  "materialFinish": {
+    "source": "materials/v1/manifest.json",
+    "repeatMetres": {
+      "wood": [
+        0.16,
+        0.75
+      ],
+      "fabric": [
+        0.14,
+        0.14
+      ],
+      "linen": [
+        0.12,
+        0.12
+      ]
+    },
+    "maps": "original base colour / roughness / tangent normal, embedded in GLB"
+  },
+  "appearanceVariants": [
+    {
+      "id": "ois.design.timber-rocking-horse.finish.sage",
+      "name": "Sage textile",
+      "materialOverrides": {
+        "fabric": {
+          "baseColorFactor": [
+            0.25,
+            0.37,
+            0.28,
+            1
+          ]
+        }
+      }
+    },
+    {
+      "id": "ois.design.timber-rocking-horse.finish.clay",
+      "name": "Clay textile",
+      "materialOverrides": {
+        "fabric": {
+          "baseColorFactor": [
+            0.45,
+            0.23,
+            0.15,
+            1
+          ]
+        }
+      }
+    }
+  ],
+  "variantColourTags": [
+    "sage green",
+    "clay brown"
+  ],
+  "variantCountNote": "appearance overrides share this one design; do not increase distinct count",
+  "geometryHash": "532cd07f1484764adeb32ea2b4678a832ec9a0b871152933a9c8f0fc2ba33607",
+  "normalizedMirrorGeometryHash": "093c1f298cf11b269e824fc35461594f0964df953632d61054701061e6faa54f"
+}

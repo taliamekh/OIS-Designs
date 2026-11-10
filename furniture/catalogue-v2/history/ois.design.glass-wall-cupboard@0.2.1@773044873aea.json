@@ -1,0 +1,171 @@
+{
+  "designId": "ois.design.glass-wall-cupboard",
+  "familyId": "ois.family.glass-wall-cupboard",
+  "id": "ois.design.glass-wall-cupboard",
+  "name": "Glazed wall cupboard",
+  "roomTags": [
+    "kitchen"
+  ],
+  "theme": "coastal-linen",
+  "builder": "kitchen",
+  "parameters": {
+    "form": "glass-wall",
+    "w": 0.85,
+    "d": 0.32,
+    "h": 0.75
+  },
+  "distinction": "Transparent framed panels reveal interior wall storage.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted",
+    "sourceSnapshot": "sources/pipeline-e797cb5c88af56f5.py",
+    "sourceSha256": "e797cb5c88af56f5b4455d819a512ab9be55f40e1fa2d0cb542aca7bb84b906f",
+    "parametersFile": "sources/v0.2.1/glass-wall-cupboard.parameters.json"
+  },
+  "constructionKey": "kitchen|glass-wall|{}",
+  "sha256": "773044873aeaa8b2c776bf8f536efb8efd86875fcf594a6fb7ac7c24651e1985",
+  "bytes": 179820,
+  "triangles": 3504,
+  "vertices": 4815,
+  "drawPrimitives": 4,
+  "bounds": {
+    "min": [
+      -0.42500001192092896,
+      0.0,
+      -0.21599999428931577
+    ],
+    "max": [
+      0.42500001192092896,
+      0.7499999701976776,
+      0.1599999964237213
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 0.8500000238418579,
+    "depth": 0.3759999907130371,
+    "height": 0.7499999701976776
+  },
+  "footprint": [
+    [
+      -0.42500001192092896,
+      -0.21599999428931577
+    ],
+    [
+      0.42500001192092896,
+      -0.21599999428931577
+    ],
+    [
+      0.42500001192092896,
+      0.1599999964237213
+    ],
+    [
+      -0.42500001192092896,
+      0.1599999964237213
+    ]
+  ],
+  "variantSlots": [
+    "dark",
+    "glass",
+    "metal",
+    "wood"
+  ],
+  "requiredExtensions": [],
+  "version": "0.2.1",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.glass-wall-cupboard",
+  "file": "assets/v0.2.1/glass-wall-cupboard.glb",
+  "sourceModel": "sources/v0.2.1/glass-wall-cupboard.blend",
+  "thumbnail": "previews/v0.2.1/glass-wall-cupboard.png",
+  "backThumbnail": "previews/v0.2.1/glass-wall-cupboard-back.png",
+  "category": "cabinetry",
+  "subtype": "glass-wall",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "textures": {
+    "count": 0,
+    "bytes": 0
+  },
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "wall",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.2.1/glass-wall-cupboard.png",
+      "previews/v0.2.1/glass-wall-cupboard-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.66,
+      0.53,
+      0.34
+    ],
+    [
+      0.36,
+      0.53,
+      0.58
+    ],
+    [
+      0.64,
+      0.6,
+      0.48
+    ]
+  ],
+  "colourTags": [
+    "mist blue",
+    "sand",
+    "pale oak"
+  ],
+  "materials": [
+    "metal",
+    "paint",
+    "tinted-glass",
+    "wood"
+  ],
+  "searchAliases": [
+    "kitchen",
+    "glass wall"
+  ],
+  "materialSlots": [
+    {
+      "id": "dark",
+      "material": "dark",
+      "recolourable": true
+    },
+    {
+      "id": "glass",
+      "material": "glass",
+      "recolourable": true
+    },
+    {
+      "id": "metal",
+      "material": "metal",
+      "recolourable": true
+    },
+    {
+      "id": "wood",
+      "material": "wood",
+      "recolourable": true
+    }
+  ]
+}

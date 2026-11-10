@@ -1,0 +1,149 @@
+{
+  "id": "ois.design.murphy-bed",
+  "sha256": "6ff98be4c1f554e970189a33d94c8c3c85554129748f55813f7e5ddac6b52816",
+  "sourceModel": "sources/v0.7.0/murphy-bed.blend",
+  "sourceSha256": "dc84787008ecfc8be2c546b9bed982996313e89b54b5aa071bb6b6e00a671d36",
+  "partCount": 12,
+  "componentCount": 1,
+  "components": [
+    {
+      "parts": [
+        "wall-bed cabinet side",
+        "wall-bed cabinet side.001",
+        "cabinet back",
+        "cabinet top",
+        "cabinet floor",
+        "upper internal shelf",
+        "hinged deployed deck",
+        "fold-bed mattress",
+        "piping",
+        "long hinge",
+        "deployed foot",
+        "deployed foot.001"
+      ],
+      "minimum": [
+        -0.7757999897003174,
+        -0.22499999403953552,
+        0.0
+      ],
+      "maximum": [
+        0.7757999897003174,
+        2.25,
+        2.1600000858306885
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "cabinet back",
+      "b": "wall-bed cabinet side",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "cabinet back",
+      "b": "wall-bed cabinet side.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "cabinet top",
+      "b": "wall-bed cabinet side",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "cabinet top",
+      "b": "wall-bed cabinet side.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "cabinet top",
+      "b": "cabinet back",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "cabinet floor",
+      "b": "wall-bed cabinet side",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "cabinet floor",
+      "b": "wall-bed cabinet side.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "cabinet floor",
+      "b": "cabinet back",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "upper internal shelf",
+      "b": "cabinet back",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "hinged deployed deck",
+      "b": "wall-bed cabinet side",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "hinged deployed deck",
+      "b": "wall-bed cabinet side.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "fold-bed mattress",
+      "b": "hinged deployed deck",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "piping",
+      "b": "fold-bed mattress",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "long hinge",
+      "b": "wall-bed cabinet side",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "long hinge",
+      "b": "wall-bed cabinet side.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "long hinge",
+      "b": "hinged deployed deck",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "deployed foot",
+      "b": "hinged deployed deck",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "deployed foot.001",
+      "b": "hinged deployed deck",
+      "method": "triangle intersection",
+      "distance": 0
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; live-source reports are NOT exported-asset evidence; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T04:10:56Z"
+}

@@ -1,0 +1,150 @@
+{
+  "designId": "ois.design.radial-fin-coffee",
+  "familyId": "ois.family.radial-fin-coffee",
+  "id": "ois.design.radial-fin-coffee",
+  "name": "Radial fin coffee table",
+  "roomTags": [
+    "living"
+  ],
+  "theme": "soft-japandi",
+  "builder": "sculptural",
+  "parameters": {
+    "form": "radial-coffee",
+    "w": 0.85,
+    "d": 0.85,
+    "h": 0.39
+  },
+  "distinction": "Twelve radial vertical fins make an open cylindrical support.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted",
+    "sourceSnapshot": "sources/pipeline-e797cb5c88af56f5.py",
+    "sourceSha256": "e797cb5c88af56f5b4455d819a512ab9be55f40e1fa2d0cb542aca7bb84b906f",
+    "parametersFile": "sources/v0.2.1/radial-fin-coffee.parameters.json"
+  },
+  "constructionKey": "sculptural|radial-coffee|{}",
+  "sha256": "7e407750cfb62d8fce7d9ed41a7928dbf34b125cdb966d0e58a9bccdb4dc8be2",
+  "bytes": 169748,
+  "triangles": 2444,
+  "vertices": 4802,
+  "drawPrimitives": 1,
+  "bounds": {
+    "min": [
+      -0.42500001192092896,
+      -2.9802322387695312e-08,
+      -0.42500001192092896
+    ],
+    "max": [
+      0.42500001192092896,
+      0.3900000099092722,
+      0.42500001192092896
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 0.8500000238418579,
+    "depth": 0.8500000238418579,
+    "height": 0.3900000397115946
+  },
+  "footprint": [
+    [
+      -0.42500001192092896,
+      -0.42500001192092896
+    ],
+    [
+      0.42500001192092896,
+      -0.42500001192092896
+    ],
+    [
+      0.42500001192092896,
+      0.42500001192092896
+    ],
+    [
+      -0.42500001192092896,
+      0.42500001192092896
+    ]
+  ],
+  "variantSlots": [
+    "wood"
+  ],
+  "requiredExtensions": [],
+  "version": "0.2.1",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.radial-fin-coffee",
+  "file": "assets/v0.2.1/radial-fin-coffee.glb",
+  "sourceModel": "sources/v0.2.1/radial-fin-coffee.blend",
+  "thumbnail": "previews/v0.2.1/radial-fin-coffee.png",
+  "backThumbnail": "previews/v0.2.1/radial-fin-coffee-back.png",
+  "category": "sculptural-furniture",
+  "subtype": "radial-coffee",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "textures": {
+    "count": 0,
+    "bytes": 0
+  },
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.2.1/radial-fin-coffee.png",
+      "previews/v0.2.1/radial-fin-coffee-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.34,
+      0.28,
+      0.19
+    ],
+    [
+      0.58,
+      0.54,
+      0.44
+    ],
+    [
+      0.15,
+      0.17,
+      0.15
+    ]
+  ],
+  "colourTags": [
+    "ash",
+    "flax",
+    "stone"
+  ],
+  "materials": [
+    "wood"
+  ],
+  "searchAliases": [
+    "living",
+    "radial coffee"
+  ],
+  "materialSlots": [
+    {
+      "id": "wood",
+      "material": "wood",
+      "recolourable": true
+    }
+  ]
+}

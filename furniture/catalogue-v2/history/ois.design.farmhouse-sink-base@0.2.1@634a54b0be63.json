@@ -1,0 +1,176 @@
+{
+  "designId": "ois.design.farmhouse-sink-base",
+  "familyId": "ois.family.farmhouse-sink-base",
+  "id": "ois.design.farmhouse-sink-base",
+  "name": "Farmhouse sink base",
+  "roomTags": [
+    "kitchen"
+  ],
+  "theme": "calm-oak",
+  "builder": "kitchen",
+  "parameters": {
+    "form": "farmhouse-sink",
+    "w": 0.9
+  },
+  "distinction": "Projecting ceramic apron vessel on framed-door base.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted",
+    "sourceSnapshot": "sources/pipeline-e797cb5c88af56f5.py",
+    "sourceSha256": "e797cb5c88af56f5b4455d819a512ab9be55f40e1fa2d0cb542aca7bb84b906f",
+    "parametersFile": "sources/v0.2.1/farmhouse-sink-base.parameters.json"
+  },
+  "constructionKey": "kitchen|farmhouse-sink|{}",
+  "sha256": "634a54b0be63cfec1fd25002b511a50771347d207f1bc55a80395b640e390b1b",
+  "bytes": 244696,
+  "triangles": 4768,
+  "vertices": 6574,
+  "drawPrimitives": 5,
+  "bounds": {
+    "min": [
+      -0.46000000834465027,
+      0.0,
+      -0.35599999866026266
+    ],
+    "max": [
+      0.46000000834465027,
+      1.181290626525879,
+      0.3100000023841858
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 0.9200000166893005,
+    "depth": 0.6660000010444485,
+    "height": 1.181290626525879
+  },
+  "footprint": [
+    [
+      -0.46000000834465027,
+      -0.35599999866026266
+    ],
+    [
+      0.46000000834465027,
+      -0.35599999866026266
+    ],
+    [
+      0.46000000834465027,
+      0.3100000023841858
+    ],
+    [
+      -0.46000000834465027,
+      0.3100000023841858
+    ]
+  ],
+  "variantSlots": [
+    "ceramic",
+    "dark",
+    "metal",
+    "stone",
+    "wood"
+  ],
+  "requiredExtensions": [],
+  "version": "0.2.1",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.farmhouse-sink-base",
+  "file": "assets/v0.2.1/farmhouse-sink-base.glb",
+  "sourceModel": "sources/v0.2.1/farmhouse-sink-base.blend",
+  "thumbnail": "previews/v0.2.1/farmhouse-sink-base.png",
+  "backThumbnail": "previews/v0.2.1/farmhouse-sink-base-back.png",
+  "category": "cabinetry",
+  "subtype": "farmhouse-sink",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "textures": {
+    "count": 0,
+    "bytes": 0
+  },
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.2.1/farmhouse-sink-base.png",
+      "previews/v0.2.1/farmhouse-sink-base-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.58,
+      0.39,
+      0.2
+    ],
+    [
+      0.73,
+      0.7,
+      0.61
+    ],
+    [
+      0.12,
+      0.14,
+      0.13
+    ]
+  ],
+  "colourTags": [
+    "pale oak",
+    "ivory",
+    "oatmeal"
+  ],
+  "materials": [
+    "ceramic",
+    "metal",
+    "paint",
+    "stone",
+    "wood"
+  ],
+  "searchAliases": [
+    "kitchen",
+    "farmhouse sink"
+  ],
+  "materialSlots": [
+    {
+      "id": "ceramic",
+      "material": "ceramic",
+      "recolourable": true
+    },
+    {
+      "id": "dark",
+      "material": "dark",
+      "recolourable": true
+    },
+    {
+      "id": "metal",
+      "material": "metal",
+      "recolourable": true
+    },
+    {
+      "id": "stone",
+      "material": "stone",
+      "recolourable": true
+    },
+    {
+      "id": "wood",
+      "material": "wood",
+      "recolourable": true
+    }
+  ]
+}

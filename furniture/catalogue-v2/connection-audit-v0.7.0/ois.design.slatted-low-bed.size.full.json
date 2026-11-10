@@ -1,0 +1,223 @@
+{
+  "id": "ois.design.slatted-low-bed.size.full",
+  "sha256": "30eef8fa0ed3775682b2455a2e746413a642de124592c07188529049c071deb9",
+  "sourceModel": "sources/v0.7.0/slatted-low-bed.size.full.blend",
+  "sourceSha256": "c272837aba103f52924d3ebff23da38680467c64b3f7ad23e66cb5075cc958e2",
+  "partCount": 26,
+  "componentCount": 1,
+  "components": [
+    {
+      "parts": [
+        "leg",
+        "leg.001",
+        "leg.002",
+        "leg.003",
+        "frame",
+        "mattress",
+        "piping",
+        "duvet",
+        "pillow",
+        "piping.001",
+        "pillow.001",
+        "piping.002",
+        "head post",
+        "head post.001",
+        "top rail",
+        "head slat",
+        "head slat.001",
+        "head slat.002",
+        "head slat.003",
+        "head slat.004",
+        "head slat.005",
+        "head slat.006",
+        "head slat.007",
+        "head slat.008",
+        "head slat.009",
+        "head slat.010"
+      ],
+      "minimum": [
+        -0.73580002784729,
+        -1.0425000190734863,
+        0.0
+      ],
+      "maximum": [
+        0.73580002784729,
+        1.0211749076843262,
+        1.1200000047683716
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "frame",
+      "b": "leg",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "frame",
+      "b": "leg.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "frame",
+      "b": "leg.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "frame",
+      "b": "leg.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "mattress",
+      "b": "frame",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "piping",
+      "b": "mattress",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "duvet",
+      "b": "mattress",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pillow",
+      "b": "mattress",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "piping.001",
+      "b": "pillow",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pillow.001",
+      "b": "mattress",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "piping.002",
+      "b": "pillow.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "head post",
+      "b": "leg",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "head post",
+      "b": "frame",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "head post.001",
+      "b": "leg.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "head post.001",
+      "b": "frame",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "top rail",
+      "b": "head post",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "top rail",
+      "b": "head post.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "head slat",
+      "b": "top rail",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "head slat.001",
+      "b": "top rail",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "head slat.002",
+      "b": "top rail",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "head slat.003",
+      "b": "top rail",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "head slat.004",
+      "b": "top rail",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "head slat.005",
+      "b": "top rail",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "head slat.006",
+      "b": "top rail",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "head slat.007",
+      "b": "top rail",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "head slat.008",
+      "b": "top rail",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "head slat.009",
+      "b": "top rail",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "head slat.010",
+      "b": "top rail",
+      "method": "triangle intersection",
+      "distance": 0
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; live-source reports are NOT exported-asset evidence; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T04:13:55Z"
+}

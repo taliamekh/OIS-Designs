@@ -1,0 +1,171 @@
+{
+  "designId": "ois.design.rolling-art-pots",
+  "familyId": "ois.family.rolling-art-pots",
+  "id": "ois.design.rolling-art-pots",
+  "name": "Rolling art cart",
+  "roomTags": [
+    "children"
+  ],
+  "theme": "city-loft",
+  "builder": "special",
+  "parameters": {
+    "form": "art-cart",
+    "w": 0.72,
+    "d": 0.4,
+    "h": 0.68
+  },
+  "distinction": "Mobile art station has three open hollow pots and a lower shelf.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted",
+    "sourceSnapshot": "sources/pipeline-e797cb5c88af56f5.py",
+    "sourceSha256": "e797cb5c88af56f5b4455d819a512ab9be55f40e1fa2d0cb542aca7bb84b906f",
+    "parametersFile": "sources/v0.2.1/rolling-art-pots.parameters.json"
+  },
+  "constructionKey": "special|art-cart|{\"cols\": 1, \"front\": \"cane\", \"panels\": 3}",
+  "sha256": "794fbe6a4eb4a5676e257fc1dd99ad7d926c75007b33158c6d3fa6c92a34014e",
+  "bytes": 226948,
+  "triangles": 5676,
+  "vertices": 5911,
+  "drawPrimitives": 4,
+  "bounds": {
+    "min": [
+      -0.375,
+      0.0,
+      -0.20000000298023224
+    ],
+    "max": [
+      0.36000001430511475,
+      0.8436970710754395,
+      0.20000000298023224
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 0.7350000143051147,
+    "depth": 0.4000000059604645,
+    "height": 0.8436970710754395
+  },
+  "footprint": [
+    [
+      -0.375,
+      -0.20000000298023224
+    ],
+    [
+      0.36000001430511475,
+      -0.20000000298023224
+    ],
+    [
+      0.36000001430511475,
+      0.20000000298023224
+    ],
+    [
+      -0.375,
+      0.20000000298023224
+    ]
+  ],
+  "variantSlots": [
+    "ceramic",
+    "dark",
+    "metal",
+    "wood"
+  ],
+  "requiredExtensions": [],
+  "version": "0.2.1",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.rolling-art-pots",
+  "file": "assets/v0.2.1/rolling-art-pots.glb",
+  "sourceModel": "sources/v0.2.1/rolling-art-pots.blend",
+  "thumbnail": "previews/v0.2.1/rolling-art-pots.png",
+  "backThumbnail": "previews/v0.2.1/rolling-art-pots-back.png",
+  "category": "specialty",
+  "subtype": "art-cart",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "textures": {
+    "count": 0,
+    "bytes": 0
+  },
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.2.1/rolling-art-pots.png",
+      "previews/v0.2.1/rolling-art-pots-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.23,
+      0.15,
+      0.09
+    ],
+    [
+      0.12,
+      0.14,
+      0.16
+    ],
+    [
+      0.045,
+      0.05,
+      0.055
+    ]
+  ],
+  "colourTags": [
+    "charcoal",
+    "black",
+    "weathered wood"
+  ],
+  "materials": [
+    "ceramic",
+    "metal",
+    "paint",
+    "wood"
+  ],
+  "searchAliases": [
+    "children",
+    "art cart"
+  ],
+  "materialSlots": [
+    {
+      "id": "ceramic",
+      "material": "ceramic",
+      "recolourable": true
+    },
+    {
+      "id": "dark",
+      "material": "dark",
+      "recolourable": true
+    },
+    {
+      "id": "metal",
+      "material": "metal",
+      "recolourable": true
+    },
+    {
+      "id": "wood",
+      "material": "wood",
+      "recolourable": true
+    }
+  ]
+}

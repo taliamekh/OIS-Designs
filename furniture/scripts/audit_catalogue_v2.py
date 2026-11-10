@@ -51,6 +51,11 @@ def main():
  parser=argparse.ArgumentParser();parser.add_argument('--stage');parser.add_argument('--reviewed-only',action='store_true');args=parser.parse_args()
  record_dir=ROOT/('catalogue-v2/staged/v'+args.stage if args.stage else 'catalogue-v2/records')
  rows=[json.loads(p.read_text()) for p in sorted(record_dir.glob('*.json'))]
+ from catalogue_inventory import DESIGNS
+ briefs={a['id']:a for a in DESIGNS}
+ for a in rows:
+  for key in ('countEligible','variantOf','familyId','constructionKey','countExclusion'):
+   if key in briefs.get(a['id'],{}):a[key]=briefs[a['id']][key]
  if args.reviewed_only:
   ledger=ROOT/('catalogue-v2/visual-decisions-v'+args.stage+'.json' if args.stage else 'catalogue-v2/visual-decisions.json');decisions=json.loads(ledger.read_text())['decisions'];rows=[a for a in rows if a['id'] in decisions]
  exact={};scaled={};report=[];masks={};errors=[]

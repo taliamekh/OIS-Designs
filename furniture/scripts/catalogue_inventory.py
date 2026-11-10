@@ -439,7 +439,7 @@ for room,t,slug,name,form,w,d,h,why in [
  ('dining','L','round-serving-etagere','Round serving etagere','cylinder-display',.70,.70,1.45,'Four circular shelves are linked by three peripheral metal posts.'),
  ('office','C','rotating-book-tower','Rotating book tower','rotating-book-tower',.66,.66,1.35,'Circular shelves and cross-shaped radial partitions over a turntable foot.'),
  ('storage','J','a-frame-display','A-frame display shelf','a-frame-shelf',1.0,.65,1.65,'Tapering triangular side frames support successively shallower shelves.'),
- ('storage','L','rope-suspended-shelves','Rope suspended shelves','suspended-rope-shelf',.90,.35,1.45,'Four taut rope uprights suspend four broad shelf boards.'),
+ ('storage','L','rope-suspended-shelves','Rope suspended shelves','suspended-rope-shelf',.90,.35,1.45,'Four taut ropes hang four boards from metal wall-mounted overhead cantilevers and a mounting rail.'),
  ('living','W','sliding-slat-bookcase','Sliding slat bookcase','sliding-bookcase',1.20,.38,1.55,'Partial-width sliding slatted door reveals the open shelves behind.'),
  ('children','L','rocking-woven-bassinet','Rocking woven bassinet','bassinet-rocker',.95,.52,.85,'Open shallow curved basket rises on independent twin rocking runners.'),
  ('office','I','acoustic-phone-booth','Acoustic phone booth','acoustic-booth',1.05,1.0,1.95,'Floor, roof and padded sides enclose a desk and fixed seat; front remains open.'),
@@ -512,6 +512,7 @@ def construction_key(a):
  return b,f,json.dumps(cfg,sort_keys=True)
 seen={}
 for a in DESIGNS:
+ if a['id']=='ois.design.fold-down-dressing-case':a.update({'countEligible':False,'variantOf':'ois.design.writing-bureau-cabinet','familyId':'ois.family.writing-bureau-cabinet','countExclusion':'same hinged bureau construction; slab/recessed-panel finish and proportions do not add another design'})
  if a['id']=='ois.design.oval-soaking-tub':a.update({'countEligible':False,'variantOf':'ois.design.oval-floor-tub','familyId':'ois.family.oval-floor-tub','countExclusion':'same curved tub construction; depth/length configuration only'})
  if a['id']=='ois.design.ring-hat-stand':a.update({'countEligible':False,'variantOf':'ois.design.branch-coat-tree','familyId':'ois.family.branch-coat-tree','countExclusion':'auxiliary hat ring does not justify another complete coat-tree design count'})
  if a['id']=='ois.design.banded-barrel-trunk':a.update({'countEligible':False,'variantOf':'ois.design.barrel-lid-trunk','familyId':'ois.family.barrel-lid-trunk','countExclusion':'metal bands are a construction/detail variant of the same barrel-lid trunk'})

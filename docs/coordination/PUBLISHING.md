@@ -8,7 +8,7 @@ User authorization: November 9, 2026. Repository: [taliamekh/OIS-Designs](https:
 - Local author/committer: `taliamekh`, ID-based GitHub noreply email. GitHub confirmed author association for the source commit. No anonymous placeholder or bot co-author.
 - `528349ea5a9cb52f27658641c78a394391129b8d`: initial source, original plans, live numbered phase map and QA harnesses; pushed to `main`.
 - `461b78d185e72ceabcab0d6c367ed72339237c68`: required app binaries and review images using Git LFS; pushed to `main`. Committed-tree closure: 825 retained revisions and 1,770 static asset references, no missing paths. Local LFS object verification passes.
-- Full model/source/review archive checkpoint is continuing separately; unreviewed/staged content is never a completion claim.
+- `5adfef4835eea6706bf6c2721f9e5d4a0430a0b0`: immutable model/source/review archive, 8,560 additional files; 6,763 unique LFS objects uploaded (about 1.2 GB). Pushed to `main` and remote SHA verified at 04:30 UTC. GitHub associates both author and committer with `taliamekh`. Unreviewed/staged archive content is never a completion claim.
 
 ## Cadence and procedure
 
@@ -20,5 +20,9 @@ User authorization: November 9, 2026. Repository: [taliamekh/OIS-Designs](https:
 6. Publish after meaningful verified milestones, with no more than 30 minutes of ready changes left unpushed during active overnight work. Do not rerun unchanged expensive tests merely to produce another green count.
 
 Workers must not concurrently run add/commit/push or switch this shared checkout. A later separate worktree/branch protocol needs an explicit ownership handoff.
+
+## Repository checks
+
+`.github/workflows/mobile-checks.yml` runs the locked Node 24 dependency install, TypeScript, ESLint and existing domain/storage/scene contract tests for mobile pushes and pull requests. Checkout/setup actions use verified immutable v7 commit pins from their official repositories. The source job leaves LFS pointers in place and does not fetch the large Blender/review archive. These tests do not load model binaries and do not establish Expo export, native linking, device graphics/touch or visual acceptance. Those remain in the source-bound QA/build reports. A workflow definition is not a passed remote run; record its actual conclusion after publication.
 
 The active plan remains [PHASE_STATUS.md](../planning/PHASE_STATUS.md), mapped to the original [PHONE_APP_PLAN.md](../planning/PHONE_APP_PLAN.md). Current position is Phase 2 implementation/validation with partial Phase 3, and Phase 1 physical-device acceptance still pending. The queued furniture successor work belongs to Phase 3.

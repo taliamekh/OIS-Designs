@@ -24,27 +24,40 @@
     "thirdPartyGeometry": false,
     "thirdPartyTextures": false,
     "publicAssetLicence": "not separately granted",
-    "sourceSnapshot": "sources/pipeline-d16905f59f09f9a8.py",
-    "sourceSha256": "d16905f59f09f9a87fb41f80ba97ff26da2ccb9e270091128e877b7c1129937d",
+    "sourceSnapshot": "sources/pipeline-bf07453f548fd92d.py",
+    "sourceSha256": "bf07453f548fd92da637ecce41dc8b35010d5f15c955c971c9e3be2fb762ea2d",
+    "sourceModelSha256": "566313747c60e5756c9a0a11e0a4eca39a4ac964c3e714228b0f45656abb2f15",
     "supportSources": {
       "signature_designs.py": {
-        "snapshot": "sources/signature_designs-c7ce1c9570491409.py",
-        "sha256": "c7ce1c95704914096c0af5c88272139fca2098556f75b752375dd03da6cd8ee2"
+        "snapshot": "sources/signature_designs-6d248dd7aaa49ed4.py",
+        "sha256": "6d248dd7aaa49ed40f05c473c5d46b6fe8c97972ebf6ce139553f9641fc82b3c"
       },
       "material_finish.py": {
-        "snapshot": "sources/material_finish-b9bb830e81d90e18.py",
-        "sha256": "b9bb830e81d90e18c05191c4e478ee7bbda04b117e4148687be9073a85d929c2"
+        "snapshot": "sources/material_finish-281279dfd17b0c92.py",
+        "sha256": "281279dfd17b0c929f9038bb8066b86216427feaaefbd503abb995d06dc35730"
       },
       "catalogue_inventory.py": {
-        "snapshot": "sources/catalogue_inventory-b67897df830f7144.py",
-        "sha256": "b67897df830f71449151337a656dae85d9e7b911fbc107aab78d72a60438f20e"
+        "snapshot": "sources/catalogue_inventory-db8b68fc872dbc12.py",
+        "sha256": "db8b68fc872dbc12d87e9ce013777e00d6b32cc0392e8cc09f31f8fef27b9365"
       },
       "finalize_glb.py": {
-        "snapshot": "sources/finalize_glb-dfc4ff54401c495d.py",
-        "sha256": "dfc4ff54401c495d3e17debd8f4aae1c5e68012a23ba8c85e023ed00397baae2"
+        "snapshot": "sources/finalize_glb-4d1dec42be5cbf3d.py",
+        "sha256": "4d1dec42be5cbf3d6540facfa883948acd849c080f7117b8d7025749c08e2d1b"
+      },
+      "build_catalogue_v2.py": {
+        "snapshot": "sources/build_catalogue_v2-9c22533830c3704c.py",
+        "sha256": "9c22533830c3704c1ce578b58b4350ebbbf5b8d32590a07db027f671d4975577"
+      },
+      "validate_library.py": {
+        "snapshot": "sources/validate_library-48e60483e2c3d05b.py",
+        "sha256": "48e60483e2c3d05bec2c7e2669523eb77571a4ba120cb5238bbec92b8a585e0c"
+      },
+      "support_checks.py": {
+        "snapshot": "sources/support_checks-f7ed4d0400abd5f2.py",
+        "sha256": "f7ed4d0400abd5f23f27c86a9013cfefaca71234a9da953dfe97daeabb8af640"
       }
     },
-    "parametersFile": "sources/v0.5.0/tilting-shoe-cabinet.parameters.json"
+    "parametersFile": "sources/v0.7.0/tilting-shoe-cabinet.parameters.json"
   },
   "constructionKey": "signature|tilting-shoe-cabinet|{}",
   "modelState": "tilt bins partly open; measured bounds include them",
@@ -53,10 +66,10 @@
     "depth": 0.27,
     "height": 1.12
   },
-  "sha256": "cd85b635e92efbf45081eb94a8252e6b7aa919614bc69a3e26d3accd37d4c328",
-  "bytes": 296364,
-  "triangles": 908,
-  "vertices": 2323,
+  "sha256": "bfe259a70172c3b654254d161b77caeed1c620dc7d7b9a409dc6a72e3677a023",
+  "bytes": 333328,
+  "triangles": 1844,
+  "vertices": 3662,
   "drawPrimitives": 3,
   "bounds": {
     "min": [
@@ -127,13 +140,13 @@
       }
     ]
   },
-  "version": "0.5.0",
+  "version": "0.7.0",
   "qualityStatus": "validated-candidate",
   "geometryFamily": "ois.family.tilting-shoe-cabinet",
-  "file": "assets/v0.5.0/tilting-shoe-cabinet.glb",
-  "sourceModel": "sources/v0.5.0/tilting-shoe-cabinet.blend",
-  "thumbnail": "previews/v0.5.0/tilting-shoe-cabinet.png",
-  "backThumbnail": "previews/v0.5.0/tilting-shoe-cabinet-back.png",
+  "file": "assets/v0.7.0/tilting-shoe-cabinet.glb",
+  "sourceModel": "sources/v0.7.0/tilting-shoe-cabinet.blend",
+  "thumbnail": "previews/v0.7.0/tilting-shoe-cabinet.png",
+  "backThumbnail": "previews/v0.7.0/tilting-shoe-cabinet-back.png",
   "category": "signature-furniture",
   "subtype": "tilting-shoe-cabinet",
   "units": "metres",
@@ -153,8 +166,8 @@
   "visualReview": {
     "status": "pending",
     "images": [
-      "previews/v0.5.0/tilting-shoe-cabinet.png",
-      "previews/v0.5.0/tilting-shoe-cabinet-back.png"
+      "previews/v0.7.0/tilting-shoe-cabinet.png",
+      "previews/v0.7.0/tilting-shoe-cabinet-back.png"
     ]
   },
   "favouriteStorage": "user set of stable catalogue IDs",
@@ -208,6 +221,9 @@
   ],
   "finalization": {
     "unusedTangentAttributesRemoved": 2,
+    "unusedAccessorsRemoved": 2,
+    "unusedBufferViewsRemoved": 2,
+    "bytesRemoved": 32960,
     "normalMappedTangents": "retained, never replaced with arbitrary fallback vectors"
   },
   "supportChecks": {
@@ -234,6 +250,6 @@
     },
     "maps": "original base colour / roughness / tangent normal, embedded in GLB"
   },
-  "geometryHash": "a9d9061aad6b769891728ca959d56cf0545f5080b60e617883e5277a15e38171",
-  "normalizedMirrorGeometryHash": "0377a5f4dbdce506ebe2f9134cf2f89fd99a5633d56e3d02bdab7fd1ad57f893"
+  "geometryHash": "f9067d1306534b61bc1c6e48901134ecc9ee2a6ff15d93834580bb923503658d",
+  "normalizedMirrorGeometryHash": "0bdd8b8ea5329ca90da9828216257260c1038ee0830d71befac21fc72dd250b9"
 }

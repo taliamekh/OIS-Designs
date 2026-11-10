@@ -28,33 +28,46 @@
     "thirdPartyGeometry": false,
     "thirdPartyTextures": false,
     "publicAssetLicence": "not separately granted",
-    "sourceSnapshot": "sources/pipeline-80bacc170bd1371e.py",
-    "sourceSha256": "80bacc170bd1371edd54e3e5203658724c4e90ee4562fa13275787f9884b1d45",
+    "sourceSnapshot": "sources/pipeline-bf07453f548fd92d.py",
+    "sourceSha256": "bf07453f548fd92da637ecce41dc8b35010d5f15c955c971c9e3be2fb762ea2d",
+    "sourceModelSha256": "df11bfe7f8f0b4883a4c3eb770db6cbdb621056879db816f04baba764ee025af",
     "supportSources": {
       "signature_designs.py": {
-        "snapshot": "sources/signature_designs-c7ce1c9570491409.py",
-        "sha256": "c7ce1c95704914096c0af5c88272139fca2098556f75b752375dd03da6cd8ee2"
+        "snapshot": "sources/signature_designs-6d248dd7aaa49ed4.py",
+        "sha256": "6d248dd7aaa49ed40f05c473c5d46b6fe8c97972ebf6ce139553f9641fc82b3c"
       },
       "material_finish.py": {
-        "snapshot": "sources/material_finish-b9bb830e81d90e18.py",
-        "sha256": "b9bb830e81d90e18c05191c4e478ee7bbda04b117e4148687be9073a85d929c2"
+        "snapshot": "sources/material_finish-281279dfd17b0c92.py",
+        "sha256": "281279dfd17b0c929f9038bb8066b86216427feaaefbd503abb995d06dc35730"
       },
       "catalogue_inventory.py": {
-        "snapshot": "sources/catalogue_inventory-b67897df830f7144.py",
-        "sha256": "b67897df830f71449151337a656dae85d9e7b911fbc107aab78d72a60438f20e"
+        "snapshot": "sources/catalogue_inventory-db8b68fc872dbc12.py",
+        "sha256": "db8b68fc872dbc12d87e9ce013777e00d6b32cc0392e8cc09f31f8fef27b9365"
       },
       "finalize_glb.py": {
-        "snapshot": "sources/finalize_glb-dfc4ff54401c495d.py",
-        "sha256": "dfc4ff54401c495d3e17debd8f4aae1c5e68012a23ba8c85e023ed00397baae2"
+        "snapshot": "sources/finalize_glb-4d1dec42be5cbf3d.py",
+        "sha256": "4d1dec42be5cbf3d6540facfa883948acd849c080f7117b8d7025749c08e2d1b"
+      },
+      "build_catalogue_v2.py": {
+        "snapshot": "sources/build_catalogue_v2-9c22533830c3704c.py",
+        "sha256": "9c22533830c3704c1ce578b58b4350ebbbf5b8d32590a07db027f671d4975577"
+      },
+      "validate_library.py": {
+        "snapshot": "sources/validate_library-48e60483e2c3d05b.py",
+        "sha256": "48e60483e2c3d05bec2c7e2669523eb77571a4ba120cb5238bbec92b8a585e0c"
+      },
+      "support_checks.py": {
+        "snapshot": "sources/support_checks-f7ed4d0400abd5f2.py",
+        "sha256": "f7ed4d0400abd5f23f27c86a9013cfefaca71234a9da953dfe97daeabb8af640"
       }
     },
-    "parametersFile": "sources/v0.5.0/round-tripod-dining.parameters.json"
+    "parametersFile": "sources/v0.7.0/round-tripod-dining.parameters.json"
   },
   "constructionKey": "table|tripod|{\"drawers\": false, \"shape\": \"ellipse\", \"shelf\": false}",
-  "sha256": "99f8400e1141c1c2b94f1e203ae1b9f8ce188b9f4a8566ae4c0af4c3dbb1c1f6",
-  "bytes": 201304,
+  "sha256": "c552265115beaedaf5d10001e96468bd27dfab8d763405740f058b405b363d31",
+  "bytes": 232128,
   "triangles": 368,
-  "vertices": 462,
+  "vertices": 1104,
   "drawPrimitives": 1,
   "bounds": {
     "min": [
@@ -64,14 +77,14 @@
     ],
     "max": [
       0.5899999737739563,
-      0.7556787952780724,
+      0.7551998719573021,
       0.5899999737739563
     ]
   },
   "dimensionsMetres": {
     "width": 1.1799999475479126,
     "depth": 1.1799999475479126,
-    "height": 0.7556787952780724
+    "height": 0.7551998719573021
   },
   "footprint": [
     [
@@ -123,13 +136,13 @@
       }
     ]
   },
-  "version": "0.5.0",
+  "version": "0.7.0",
   "qualityStatus": "validated-candidate",
   "geometryFamily": "ois.family.round-tripod-dining",
-  "file": "assets/v0.5.0/round-tripod-dining.glb",
-  "sourceModel": "sources/v0.5.0/round-tripod-dining.blend",
-  "thumbnail": "previews/v0.5.0/round-tripod-dining.png",
-  "backThumbnail": "previews/v0.5.0/round-tripod-dining-back.png",
+  "file": "assets/v0.7.0/round-tripod-dining.glb",
+  "sourceModel": "sources/v0.7.0/round-tripod-dining.blend",
+  "thumbnail": "previews/v0.7.0/round-tripod-dining.png",
+  "backThumbnail": "previews/v0.7.0/round-tripod-dining-back.png",
   "category": "tables",
   "subtype": "tripod",
   "units": "metres",
@@ -149,8 +162,8 @@
   "visualReview": {
     "status": "pending",
     "images": [
-      "previews/v0.5.0/round-tripod-dining.png",
-      "previews/v0.5.0/round-tripod-dining-back.png"
+      "previews/v0.7.0/round-tripod-dining.png",
+      "previews/v0.7.0/round-tripod-dining-back.png"
     ]
   },
   "favouriteStorage": "user set of stable catalogue IDs",
@@ -180,6 +193,9 @@
   ],
   "finalization": {
     "unusedTangentAttributesRemoved": 0,
+    "unusedAccessorsRemoved": 0,
+    "unusedBufferViewsRemoved": 0,
+    "bytesRemoved": 0,
     "normalMappedTangents": "retained, never replaced with arbitrary fallback vectors"
   },
   "supportChecks": {
@@ -188,17 +204,17 @@
     "parts": [
       {
         "part": "tripod leg",
-        "gapMetresAlongSupport": 5.0663948064633146e-08,
+        "gapMetresAlongSupport": 1.8477439880926205e-07,
         "status": "pass"
       },
       {
         "part": "tripod leg.001",
-        "gapMetresAlongSupport": 3.576278687078549e-08,
+        "gapMetresAlongSupport": 1.8477439880926205e-07,
         "status": "pass"
       },
       {
         "part": "tripod leg.002",
-        "gapMetresAlongSupport": 9.536743164617612e-08,
+        "gapMetresAlongSupport": -2.3841857904605135e-08,
         "status": "pass"
       }
     ],
@@ -222,6 +238,6 @@
     },
     "maps": "original base colour / roughness / tangent normal, embedded in GLB"
   },
-  "geometryHash": "08fc4f1206efb48e1d60de275fe30ae026f13d16cc89ebd59a3a5882eff1f770",
-  "normalizedMirrorGeometryHash": "27e87efea257f64bf643e46962044c18501700e33c286aeea595a07f9e16469a"
+  "geometryHash": "e89589373fd8c7ff5b98c56af2a0aa211eac7f23cbe44b9cb41d9d93283cf778",
+  "normalizedMirrorGeometryHash": "0aec2bda4491f9201d88321d5fbaaa8f8bee622681ac942d1edda35621439a0d"
 }

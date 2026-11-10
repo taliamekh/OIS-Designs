@@ -1,0 +1,152 @@
+{
+  "designId": "ois.design.oval-child-trestle",
+  "familyId": "ois.family.oval-trestle-coffee",
+  "id": "ois.design.oval-child-trestle",
+  "name": "Oval child craft table",
+  "roomTags": [
+    "children"
+  ],
+  "theme": "coastal-linen",
+  "builder": "table",
+  "parameters": {
+    "form": "trestle",
+    "w": 0.85,
+    "d": 0.6,
+    "h": 0.5,
+    "shape": "oval"
+  },
+  "distinction": "Low oval activity top over braced A-frame supports.",
+  "stage": "validated-candidate",
+  "countEligible": false,
+  "variants": [],
+  "variantOf": "ois.design.oval-trestle-coffee",
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted",
+    "sourceSnapshot": "sources/pipeline-e797cb5c88af56f5.py",
+    "sourceSha256": "e797cb5c88af56f5b4455d819a512ab9be55f40e1fa2d0cb542aca7bb84b906f",
+    "parametersFile": "sources/v0.2.1/oval-child-trestle.parameters.json"
+  },
+  "constructionKey": "table|trestle|{\"drawers\": false, \"shape\": \"ellipse\", \"shelf\": false}",
+  "countExclusion": "same construction; dimension/material configuration retained as a variant",
+  "sha256": "88c40a2f0d934471404215bdd0db2153383770e5c7a6116bf15e75073a0d731f",
+  "bytes": 21104,
+  "triangles": 488,
+  "vertices": 524,
+  "drawPrimitives": 1,
+  "bounds": {
+    "min": [
+      -0.42500001192092896,
+      2.9802322387695312e-08,
+      -0.30000001192092896
+    ],
+    "max": [
+      0.42500001192092896,
+      0.48650386184453964,
+      0.30000001192092896
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 0.8500000238418579,
+    "depth": 0.6000000238418579,
+    "height": 0.48650383204221725
+  },
+  "footprint": [
+    [
+      -0.42500001192092896,
+      -0.30000001192092896
+    ],
+    [
+      0.42500001192092896,
+      -0.30000001192092896
+    ],
+    [
+      0.42500001192092896,
+      0.30000001192092896
+    ],
+    [
+      -0.42500001192092896,
+      0.30000001192092896
+    ]
+  ],
+  "variantSlots": [
+    "wood"
+  ],
+  "requiredExtensions": [],
+  "version": "0.2.1",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.oval-trestle-coffee",
+  "file": "assets/v0.2.1/oval-child-trestle.glb",
+  "sourceModel": "sources/v0.2.1/oval-child-trestle.blend",
+  "thumbnail": "previews/v0.2.1/oval-child-trestle.png",
+  "backThumbnail": "previews/v0.2.1/oval-child-trestle-back.png",
+  "category": "tables",
+  "subtype": "trestle",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "textures": {
+    "count": 0,
+    "bytes": 0
+  },
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.2.1/oval-child-trestle.png",
+      "previews/v0.2.1/oval-child-trestle-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.66,
+      0.53,
+      0.34
+    ],
+    [
+      0.36,
+      0.53,
+      0.58
+    ],
+    [
+      0.64,
+      0.6,
+      0.48
+    ]
+  ],
+  "colourTags": [
+    "mist blue",
+    "sand",
+    "pale oak"
+  ],
+  "materials": [
+    "wood"
+  ],
+  "searchAliases": [
+    "children",
+    "trestle"
+  ],
+  "materialSlots": [
+    {
+      "id": "wood",
+      "material": "wood",
+      "recolourable": true
+    }
+  ]
+}

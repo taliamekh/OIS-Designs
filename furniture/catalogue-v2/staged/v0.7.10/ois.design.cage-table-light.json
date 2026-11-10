@@ -1,0 +1,215 @@
+{
+  "designId": "ois.design.cage-table-light",
+  "familyId": "ois.family.cage-table-light",
+  "id": "ois.design.cage-table-light",
+  "name": "Cage table light",
+  "roomTags": [
+    "office"
+  ],
+  "theme": "city-loft",
+  "builder": "light",
+  "parameters": {
+    "form": "cage",
+    "h": 0.56
+  },
+  "distinction": "Compact open cage is a size variant and excluded.",
+  "stage": "validated-candidate",
+  "countEligible": false,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted",
+    "sourceSnapshot": "sources/pipeline-78591b9add98cc9f.py",
+    "sourceSha256": "78591b9add98cc9fa7f8215e4e1c3e474d60f34fc69e94ce9b6acec0c4b1c79b",
+    "sourceModelSha256": "8c9e1a28d13e124283ce31bea6b225bbd3a078586f2456c51db75d9b354aea7b",
+    "supportSources": {
+      "signature_designs.py": {
+        "snapshot": "sources/signature_designs-6d248dd7aaa49ed4.py",
+        "sha256": "6d248dd7aaa49ed40f05c473c5d46b6fe8c97972ebf6ce139553f9641fc82b3c"
+      },
+      "material_finish.py": {
+        "snapshot": "sources/material_finish-281279dfd17b0c92.py",
+        "sha256": "281279dfd17b0c929f9038bb8066b86216427feaaefbd503abb995d06dc35730"
+      },
+      "catalogue_inventory.py": {
+        "snapshot": "sources/catalogue_inventory-4a2a82b7432f39ed.py",
+        "sha256": "4a2a82b7432f39edab34acc48bc992b36bc3372f5f396caa9d956a9dce6e02c9"
+      },
+      "finalize_glb.py": {
+        "snapshot": "sources/finalize_glb-4d1dec42be5cbf3d.py",
+        "sha256": "4d1dec42be5cbf3d6540facfa883948acd849c080f7117b8d7025749c08e2d1b"
+      },
+      "build_catalogue_v2.py": {
+        "snapshot": "sources/build_catalogue_v2-c85c57fa9d55ced1.py",
+        "sha256": "c85c57fa9d55ced1e2aea4a73f287062e07efd95f3abeec9a62a4a9daa120012"
+      },
+      "validate_library.py": {
+        "snapshot": "sources/validate_library-48e60483e2c3d05b.py",
+        "sha256": "48e60483e2c3d05bec2c7e2669523eb77571a4ba120cb5238bbec92b8a585e0c"
+      },
+      "support_checks.py": {
+        "snapshot": "sources/support_checks-f7ed4d0400abd5f2.py",
+        "sha256": "f7ed4d0400abd5f23f27c86a9013cfefaca71234a9da953dfe97daeabb8af640"
+      }
+    },
+    "parametersFile": "sources/v0.7.10/cage-table-light.parameters.json"
+  },
+  "constructionKey": "light|cage|{}",
+  "sha256": "e86f8911c435c425ad1fd9b25d5de630f01ebaac52c8b32f61f5cfd79a78618a",
+  "bytes": 91532,
+  "triangles": 3056,
+  "vertices": 2209,
+  "drawPrimitives": 2,
+  "bounds": {
+    "min": [
+      -0.15800000727176666,
+      -1.862645149230957e-09,
+      -0.15800000727176666
+    ],
+    "max": [
+      0.15800000727176666,
+      0.568000016734004,
+      0.15800000727176666
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 0.3160000145435333,
+    "depth": 0.3160000145435333,
+    "height": 0.5680000185966492
+  },
+  "footprint": [
+    [
+      -0.15800000727176666,
+      -0.15800000727176666
+    ],
+    [
+      0.15800000727176666,
+      -0.15800000727176666
+    ],
+    [
+      0.15800000727176666,
+      0.15800000727176666
+    ],
+    [
+      -0.15800000727176666,
+      0.15800000727176666
+    ]
+  ],
+  "variantSlots": [
+    "metal",
+    "opal"
+  ],
+  "requiredExtensions": [],
+  "textures": {
+    "count": 0,
+    "bytes": 0,
+    "estimatedRgbaBytesWithMipmaps": 0,
+    "images": []
+  },
+  "version": "0.7.10",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.cage-table-light",
+  "file": "assets/v0.7.10/cage-table-light.glb",
+  "sourceModel": "sources/v0.7.10/cage-table-light.blend",
+  "thumbnail": "previews/v0.7.10/cage-table-light.png",
+  "backThumbnail": "previews/v0.7.10/cage-table-light-back.png",
+  "category": "lighting",
+  "subtype": "cage",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.7.10/cage-table-light.png",
+      "previews/v0.7.10/cage-table-light-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.04500000178813934,
+      0.05000000074505806,
+      0.054999999701976776
+    ],
+    [
+      0.8999999761581421,
+      0.9100000262260437,
+      0.8700000047683716
+    ]
+  ],
+  "colourTags": [
+    "black",
+    "warm white"
+  ],
+  "materials": [
+    "glass",
+    "metal"
+  ],
+  "searchAliases": [
+    "office",
+    "cage"
+  ],
+  "materialSlots": [
+    {
+      "id": "metal",
+      "material": "metal",
+      "recolourable": true
+    },
+    {
+      "id": "opal",
+      "material": "opal",
+      "recolourable": true
+    }
+  ],
+  "finalization": {
+    "unusedTangentAttributesRemoved": 2,
+    "unusedAccessorsRemoved": 2,
+    "unusedBufferViewsRemoved": 2,
+    "bytesRemoved": 35636,
+    "normalMappedTangents": "retained, never replaced with arbitrary fallback vectors"
+  },
+  "supportChecks": {
+    "method": "source-part upper-end ray to non-leg geometry, 15mm join tolerance",
+    "status": "pass",
+    "parts": [],
+    "limitation": "screening only; hidden joints, whole-model connectivity, load paths and safety remain visual/product-review concerns"
+  },
+  "materialFinish": {
+    "source": "materials/v1/manifest.json",
+    "repeatMetres": {
+      "wood": [
+        0.16,
+        0.75
+      ],
+      "fabric": [
+        0.14,
+        0.14
+      ],
+      "linen": [
+        0.12,
+        0.12
+      ]
+    },
+    "maps": "original base colour / roughness / tangent normal, embedded in GLB"
+  },
+  "geometryHash": "42086d3335722dd0bfebf2384afcffa84b079409e79dcea972bbb6e9867cb219",
+  "normalizedMirrorGeometryHash": "2c22903d51c0502b807ae9cc977198483b5509d538493ecaffa56b7fa9216656"
+}

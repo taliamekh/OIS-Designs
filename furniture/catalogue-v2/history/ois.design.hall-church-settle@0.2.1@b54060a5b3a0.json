@@ -1,0 +1,150 @@
+{
+  "designId": "ois.design.hall-church-settle",
+  "familyId": "ois.family.hall-church-settle",
+  "id": "ois.design.hall-church-settle",
+  "name": "Hall church settle",
+  "roomTags": [
+    "entry-hall"
+  ],
+  "theme": "calm-oak",
+  "builder": "sculptural",
+  "parameters": {
+    "form": "church-bench",
+    "w": 1.25,
+    "d": 0.45,
+    "h": 1.0
+  },
+  "distinction": "Continuous tall timber back and arm rails make an enclosed settle.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted",
+    "sourceSnapshot": "sources/pipeline-e797cb5c88af56f5.py",
+    "sourceSha256": "e797cb5c88af56f5b4455d819a512ab9be55f40e1fa2d0cb542aca7bb84b906f",
+    "parametersFile": "sources/v0.2.1/hall-church-settle.parameters.json"
+  },
+  "constructionKey": "sculptural|church-bench|{}",
+  "sha256": "b54060a5b3a0659fd6c2d9d89387bf2ace833c1ce2a3de567a632b09e84627ba",
+  "bytes": 75684,
+  "triangles": 1608,
+  "vertices": 2015,
+  "drawPrimitives": 1,
+  "bounds": {
+    "min": [
+      -0.6250000799769173,
+      -3.2848349318381764e-09,
+      -0.21825000892859286
+    ],
+    "max": [
+      0.6250000529926578,
+      0.9795712820468011,
+      0.2275000737729233
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 1.2500001329695751,
+    "depth": 0.44575008270151617,
+    "height": 0.9795712853316361
+  },
+  "footprint": [
+    [
+      -0.6250000799769173,
+      -0.21825000892859286
+    ],
+    [
+      0.6250000529926578,
+      -0.21825000892859286
+    ],
+    [
+      0.6250000529926578,
+      0.2275000737729233
+    ],
+    [
+      -0.6250000799769173,
+      0.2275000737729233
+    ]
+  ],
+  "variantSlots": [
+    "wood"
+  ],
+  "requiredExtensions": [],
+  "version": "0.2.1",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.hall-church-settle",
+  "file": "assets/v0.2.1/hall-church-settle.glb",
+  "sourceModel": "sources/v0.2.1/hall-church-settle.blend",
+  "thumbnail": "previews/v0.2.1/hall-church-settle.png",
+  "backThumbnail": "previews/v0.2.1/hall-church-settle-back.png",
+  "category": "sculptural-furniture",
+  "subtype": "church-bench",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "textures": {
+    "count": 0,
+    "bytes": 0
+  },
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.2.1/hall-church-settle.png",
+      "previews/v0.2.1/hall-church-settle-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.58,
+      0.39,
+      0.2
+    ],
+    [
+      0.73,
+      0.7,
+      0.61
+    ],
+    [
+      0.12,
+      0.14,
+      0.13
+    ]
+  ],
+  "colourTags": [
+    "pale oak",
+    "ivory",
+    "oatmeal"
+  ],
+  "materials": [
+    "wood"
+  ],
+  "searchAliases": [
+    "entry hall",
+    "church bench"
+  ],
+  "materialSlots": [
+    {
+      "id": "wood",
+      "material": "wood",
+      "recolourable": true
+    }
+  ]
+}

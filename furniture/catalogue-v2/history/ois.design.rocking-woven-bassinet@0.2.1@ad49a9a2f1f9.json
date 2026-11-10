@@ -1,0 +1,164 @@
+{
+  "designId": "ois.design.rocking-woven-bassinet",
+  "familyId": "ois.family.rocking-woven-bassinet",
+  "id": "ois.design.rocking-woven-bassinet",
+  "name": "Rocking woven bassinet",
+  "roomTags": [
+    "children"
+  ],
+  "theme": "coastal-linen",
+  "builder": "functional",
+  "parameters": {
+    "form": "bassinet-rocker",
+    "w": 0.95,
+    "d": 0.52,
+    "h": 0.85
+  },
+  "distinction": "Open shallow curved basket rises on independent twin rocking runners.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted",
+    "sourceSnapshot": "sources/pipeline-e797cb5c88af56f5.py",
+    "sourceSha256": "e797cb5c88af56f5b4455d819a512ab9be55f40e1fa2d0cb542aca7bb84b906f",
+    "parametersFile": "sources/v0.2.1/rocking-woven-bassinet.parameters.json"
+  },
+  "constructionKey": "functional|bassinet-rocker|{}",
+  "sha256": "ad49a9a2f1f9dfba332446310a16c3380c1547e4769a5c2332ac96bf6ec17b2d",
+  "bytes": 40420,
+  "triangles": 1500,
+  "vertices": 928,
+  "drawPrimitives": 3,
+  "bounds": {
+    "min": [
+      -0.5325720906257629,
+      0.0,
+      -0.25999999046325684
+    ],
+    "max": [
+      0.5325720906257629,
+      0.8150000032037497,
+      0.25999999046325684
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 1.0651441812515259,
+    "depth": 0.5199999809265137,
+    "height": 0.8150000032037497
+  },
+  "footprint": [
+    [
+      -0.5325720906257629,
+      -0.25999999046325684
+    ],
+    [
+      0.5325720906257629,
+      -0.25999999046325684
+    ],
+    [
+      0.5325720906257629,
+      0.25999999046325684
+    ],
+    [
+      -0.5325720906257629,
+      0.25999999046325684
+    ]
+  ],
+  "variantSlots": [
+    "cane",
+    "linen",
+    "wood"
+  ],
+  "requiredExtensions": [],
+  "version": "0.2.1",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.rocking-woven-bassinet",
+  "file": "assets/v0.2.1/rocking-woven-bassinet.glb",
+  "sourceModel": "sources/v0.2.1/rocking-woven-bassinet.blend",
+  "thumbnail": "previews/v0.2.1/rocking-woven-bassinet.png",
+  "backThumbnail": "previews/v0.2.1/rocking-woven-bassinet-back.png",
+  "category": "functional-furniture",
+  "subtype": "bassinet-rocker",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "textures": {
+    "count": 0,
+    "bytes": 0
+  },
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.2.1/rocking-woven-bassinet.png",
+      "previews/v0.2.1/rocking-woven-bassinet-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.66,
+      0.53,
+      0.34
+    ],
+    [
+      0.36,
+      0.53,
+      0.58
+    ],
+    [
+      0.64,
+      0.6,
+      0.48
+    ]
+  ],
+  "colourTags": [
+    "mist blue",
+    "sand",
+    "pale oak"
+  ],
+  "materials": [
+    "textile",
+    "wood",
+    "woven-fibre"
+  ],
+  "searchAliases": [
+    "children",
+    "bassinet rocker"
+  ],
+  "materialSlots": [
+    {
+      "id": "cane",
+      "material": "cane",
+      "recolourable": true
+    },
+    {
+      "id": "linen",
+      "material": "linen",
+      "recolourable": true
+    },
+    {
+      "id": "wood",
+      "material": "wood",
+      "recolourable": true
+    }
+  ]
+}

@@ -24,33 +24,46 @@
     "thirdPartyGeometry": false,
     "thirdPartyTextures": false,
     "publicAssetLicence": "not separately granted",
-    "sourceSnapshot": "sources/pipeline-d16905f59f09f9a8.py",
-    "sourceSha256": "d16905f59f09f9a87fb41f80ba97ff26da2ccb9e270091128e877b7c1129937d",
+    "sourceSnapshot": "sources/pipeline-bf07453f548fd92d.py",
+    "sourceSha256": "bf07453f548fd92da637ecce41dc8b35010d5f15c955c971c9e3be2fb762ea2d",
+    "sourceModelSha256": "2571be61a46ca480d7d64a1006dcb5ad8f71e883ca6ade3292315cece98ba953",
     "supportSources": {
       "signature_designs.py": {
-        "snapshot": "sources/signature_designs-c7ce1c9570491409.py",
-        "sha256": "c7ce1c95704914096c0af5c88272139fca2098556f75b752375dd03da6cd8ee2"
+        "snapshot": "sources/signature_designs-6d248dd7aaa49ed4.py",
+        "sha256": "6d248dd7aaa49ed40f05c473c5d46b6fe8c97972ebf6ce139553f9641fc82b3c"
       },
       "material_finish.py": {
-        "snapshot": "sources/material_finish-b9bb830e81d90e18.py",
-        "sha256": "b9bb830e81d90e18c05191c4e478ee7bbda04b117e4148687be9073a85d929c2"
+        "snapshot": "sources/material_finish-281279dfd17b0c92.py",
+        "sha256": "281279dfd17b0c929f9038bb8066b86216427feaaefbd503abb995d06dc35730"
       },
       "catalogue_inventory.py": {
-        "snapshot": "sources/catalogue_inventory-b67897df830f7144.py",
-        "sha256": "b67897df830f71449151337a656dae85d9e7b911fbc107aab78d72a60438f20e"
+        "snapshot": "sources/catalogue_inventory-db8b68fc872dbc12.py",
+        "sha256": "db8b68fc872dbc12d87e9ce013777e00d6b32cc0392e8cc09f31f8fef27b9365"
       },
       "finalize_glb.py": {
-        "snapshot": "sources/finalize_glb-dfc4ff54401c495d.py",
-        "sha256": "dfc4ff54401c495d3e17debd8f4aae1c5e68012a23ba8c85e023ed00397baae2"
+        "snapshot": "sources/finalize_glb-4d1dec42be5cbf3d.py",
+        "sha256": "4d1dec42be5cbf3d6540facfa883948acd849c080f7117b8d7025749c08e2d1b"
+      },
+      "build_catalogue_v2.py": {
+        "snapshot": "sources/build_catalogue_v2-9c22533830c3704c.py",
+        "sha256": "9c22533830c3704c1ce578b58b4350ebbbf5b8d32590a07db027f671d4975577"
+      },
+      "validate_library.py": {
+        "snapshot": "sources/validate_library-48e60483e2c3d05b.py",
+        "sha256": "48e60483e2c3d05bec2c7e2669523eb77571a4ba120cb5238bbec92b8a585e0c"
+      },
+      "support_checks.py": {
+        "snapshot": "sources/support_checks-f7ed4d0400abd5f2.py",
+        "sha256": "f7ed4d0400abd5f23f27c86a9013cfefaca71234a9da953dfe97daeabb8af640"
       }
     },
-    "parametersFile": "sources/v0.5.0/double-sided-booth.parameters.json"
+    "parametersFile": "sources/v0.7.0/double-sided-booth.parameters.json"
   },
   "constructionKey": "signature|double-sided-booth|{}",
-  "sha256": "76b2b65c9d8c9e24962b22eed73c776e95ad2c8ca3eca7afd8e2e8ff3b2719e5",
-  "bytes": 463328,
-  "triangles": 840,
-  "vertices": 2472,
+  "sha256": "068cf0b4599e570c4d3b1da99a013b0ceff253f5561997f11a0b6a809dd44180",
+  "bytes": 493840,
+  "triangles": 1028,
+  "vertices": 3084,
   "drawPrimitives": 3,
   "bounds": {
     "min": [
@@ -163,13 +176,13 @@
       }
     ]
   },
-  "version": "0.5.0",
+  "version": "0.7.0",
   "qualityStatus": "validated-candidate",
   "geometryFamily": "ois.family.double-sided-booth",
-  "file": "assets/v0.5.0/double-sided-booth.glb",
-  "sourceModel": "sources/v0.5.0/double-sided-booth.blend",
-  "thumbnail": "previews/v0.5.0/double-sided-booth.png",
-  "backThumbnail": "previews/v0.5.0/double-sided-booth-back.png",
+  "file": "assets/v0.7.0/double-sided-booth.glb",
+  "sourceModel": "sources/v0.7.0/double-sided-booth.blend",
+  "thumbnail": "previews/v0.7.0/double-sided-booth.png",
+  "backThumbnail": "previews/v0.7.0/double-sided-booth-back.png",
   "category": "signature-furniture",
   "subtype": "double-sided-booth",
   "units": "metres",
@@ -189,8 +202,8 @@
   "visualReview": {
     "status": "pending",
     "images": [
-      "previews/v0.5.0/double-sided-booth.png",
-      "previews/v0.5.0/double-sided-booth-back.png"
+      "previews/v0.7.0/double-sided-booth.png",
+      "previews/v0.7.0/double-sided-booth-back.png"
     ]
   },
   "favouriteStorage": "user set of stable catalogue IDs",
@@ -243,6 +256,9 @@
   ],
   "finalization": {
     "unusedTangentAttributesRemoved": 0,
+    "unusedAccessorsRemoved": 0,
+    "unusedBufferViewsRemoved": 0,
+    "bytesRemoved": 0,
     "normalMappedTangents": "retained, never replaced with arbitrary fallback vectors"
   },
   "supportChecks": {
@@ -304,6 +320,6 @@
     "clay brown"
   ],
   "variantCountNote": "appearance overrides share this one design; do not increase distinct count",
-  "geometryHash": "2f8b63eccf74a14ee55784cc9edd5ec5ef993d7f8aced8713a236c4b29458311",
-  "normalizedMirrorGeometryHash": "afe372e2c99e3c8826ee545a89b0b6f59222c5a1e75a43b95f0fa6eee9e75835"
+  "geometryHash": "6be6e83515413a3909012ce8ab57babf8af099bfed3b7d75b95ce14f9752cdcc",
+  "normalizedMirrorGeometryHash": "24f7dac5c4842ca50aadfe44cc2cfcb8b13987a2bdbd1014aaa09753a835eefa"
 }

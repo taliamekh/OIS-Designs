@@ -1,0 +1,198 @@
+{
+  "id": "ois.design.extension-dining-table",
+  "sha256": "50b4ebc51075c638111c5f21ee177c26c23b7799ad59c1c13365f13a6a56bc59",
+  "sourceModel": "sources/v0.7.0/extension-dining-table.blend",
+  "sourceSha256": "b5657678b4f39e71c50750ee566eedce30c7d79f267469e2ca2ef763722756b9",
+  "partCount": 13,
+  "componentCount": 1,
+  "components": [
+    {
+      "parts": [
+        "separate extension leaf",
+        "separate extension leaf.001",
+        "separate extension leaf.002",
+        "support leg",
+        "support leg.001",
+        "support leg.002",
+        "support leg.003",
+        "apron",
+        "extension outer rail",
+        "sliding inner rail",
+        "apron.001",
+        "extension outer rail.001",
+        "sliding inner rail.001"
+      ],
+      "minimum": [
+        -0.9500000476837158,
+        -0.42500004172325134,
+        0.0
+      ],
+      "maximum": [
+        0.9500000476837158,
+        0.42500004172325134,
+        0.75
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "support leg",
+      "b": "separate extension leaf",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "support leg.001",
+      "b": "separate extension leaf",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "support leg.002",
+      "b": "separate extension leaf.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "support leg.003",
+      "b": "separate extension leaf.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "apron",
+      "b": "separate extension leaf",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "apron",
+      "b": "separate extension leaf.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "apron",
+      "b": "separate extension leaf.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "apron",
+      "b": "support leg",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "apron",
+      "b": "support leg.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "extension outer rail",
+      "b": "apron",
+      "method": "point containment",
+      "distance": 0
+    },
+    {
+      "a": "sliding inner rail",
+      "b": "separate extension leaf",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "sliding inner rail",
+      "b": "separate extension leaf.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "sliding inner rail",
+      "b": "separate extension leaf.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "sliding inner rail",
+      "b": "apron",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "sliding inner rail",
+      "b": "extension outer rail",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "apron.001",
+      "b": "separate extension leaf",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "apron.001",
+      "b": "separate extension leaf.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "apron.001",
+      "b": "separate extension leaf.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "apron.001",
+      "b": "support leg.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "apron.001",
+      "b": "support leg.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "extension outer rail.001",
+      "b": "apron.001",
+      "method": "point containment",
+      "distance": 0
+    },
+    {
+      "a": "sliding inner rail.001",
+      "b": "separate extension leaf",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "sliding inner rail.001",
+      "b": "separate extension leaf.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "sliding inner rail.001",
+      "b": "separate extension leaf.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "sliding inner rail.001",
+      "b": "apron.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "sliding inner rail.001",
+      "b": "extension outer rail.001",
+      "method": "triangle intersection",
+      "distance": 0
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; live-source reports are NOT exported-asset evidence; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T04:10:55Z"
+}

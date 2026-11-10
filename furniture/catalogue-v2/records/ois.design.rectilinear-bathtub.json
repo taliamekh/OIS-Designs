@@ -27,15 +27,46 @@
     "thirdPartyGeometry": false,
     "thirdPartyTextures": false,
     "publicAssetLicence": "not separately granted",
-    "sourceSnapshot": "sources/pipeline-e797cb5c88af56f5.py",
-    "sourceSha256": "e797cb5c88af56f5b4455d819a512ab9be55f40e1fa2d0cb542aca7bb84b906f",
-    "parametersFile": "sources/v0.2.1/rectilinear-bathtub.parameters.json"
+    "sourceSnapshot": "sources/pipeline-bf07453f548fd92d.py",
+    "sourceSha256": "bf07453f548fd92da637ecce41dc8b35010d5f15c955c971c9e3be2fb762ea2d",
+    "sourceModelSha256": "9daa0e73e3c0c3694747f3594bc7d8de313420e65f6731bd830d9d195391352d",
+    "supportSources": {
+      "signature_designs.py": {
+        "snapshot": "sources/signature_designs-6d248dd7aaa49ed4.py",
+        "sha256": "6d248dd7aaa49ed40f05c473c5d46b6fe8c97972ebf6ce139553f9641fc82b3c"
+      },
+      "material_finish.py": {
+        "snapshot": "sources/material_finish-281279dfd17b0c92.py",
+        "sha256": "281279dfd17b0c929f9038bb8066b86216427feaaefbd503abb995d06dc35730"
+      },
+      "catalogue_inventory.py": {
+        "snapshot": "sources/catalogue_inventory-db8b68fc872dbc12.py",
+        "sha256": "db8b68fc872dbc12d87e9ce013777e00d6b32cc0392e8cc09f31f8fef27b9365"
+      },
+      "finalize_glb.py": {
+        "snapshot": "sources/finalize_glb-4d1dec42be5cbf3d.py",
+        "sha256": "4d1dec42be5cbf3d6540facfa883948acd849c080f7117b8d7025749c08e2d1b"
+      },
+      "build_catalogue_v2.py": {
+        "snapshot": "sources/build_catalogue_v2-9c22533830c3704c.py",
+        "sha256": "9c22533830c3704c1ce578b58b4350ebbbf5b8d32590a07db027f671d4975577"
+      },
+      "validate_library.py": {
+        "snapshot": "sources/validate_library-48e60483e2c3d05b.py",
+        "sha256": "48e60483e2c3d05bec2c7e2669523eb77571a4ba120cb5238bbec92b8a585e0c"
+      },
+      "support_checks.py": {
+        "snapshot": "sources/support_checks-f7ed4d0400abd5f2.py",
+        "sha256": "f7ed4d0400abd5f23f27c86a9013cfefaca71234a9da953dfe97daeabb8af640"
+      }
+    },
+    "parametersFile": "sources/v0.7.0/rectilinear-bathtub.parameters.json"
   },
   "constructionKey": "bath|rect-tub|{}",
-  "sha256": "18e3b706eca92a9a878ecf192538e24698463d97ac8b56f582c0742a0a1792d0",
-  "bytes": 50944,
-  "triangles": 1076,
-  "vertices": 1312,
+  "sha256": "90098b8fb081174c49f9f10120f53d7baab3138f753f82799751d0c6c2b4547a",
+  "bytes": 29144,
+  "triangles": 356,
+  "vertices": 766,
   "drawPrimitives": 2,
   "bounds": {
     "min": [
@@ -45,14 +76,14 @@
     ],
     "max": [
       0.8499999642372131,
-      0.7209430746734142,
+      0.8509430699050426,
       0.38999998569488525
     ]
   },
   "dimensionsMetres": {
     "width": 1.6999999284744263,
     "depth": 0.7799999713897705,
-    "height": 0.7209430895745754
+    "height": 0.8509430848062038
   },
   "footprint": [
     [
@@ -77,22 +108,24 @@
     "metal"
   ],
   "requiredExtensions": [],
-  "version": "0.2.1",
+  "textures": {
+    "count": 0,
+    "bytes": 0,
+    "estimatedRgbaBytesWithMipmaps": 0,
+    "images": []
+  },
+  "version": "0.7.0",
   "qualityStatus": "validated-candidate",
   "geometryFamily": "ois.family.rectilinear-bathtub",
-  "file": "assets/v0.2.1/rectilinear-bathtub.glb",
-  "sourceModel": "sources/v0.2.1/rectilinear-bathtub.blend",
-  "thumbnail": "previews/v0.2.1/rectilinear-bathtub.png",
-  "backThumbnail": "previews/v0.2.1/rectilinear-bathtub-back.png",
+  "file": "assets/v0.7.0/rectilinear-bathtub.glb",
+  "sourceModel": "sources/v0.7.0/rectilinear-bathtub.blend",
+  "thumbnail": "previews/v0.7.0/rectilinear-bathtub.png",
+  "backThumbnail": "previews/v0.7.0/rectilinear-bathtub-back.png",
   "category": "bathroom-fixtures",
   "subtype": "rect-tub",
   "units": "metres",
   "frame": "RH Y-up; +X right, -Z furniture front",
   "pivot": "floor Y=0; centre of primary body XZ",
-  "textures": {
-    "count": 0,
-    "bytes": 0
-  },
   "lod": {
     "delivered": [
       "LOD0"
@@ -107,32 +140,26 @@
   "visualReview": {
     "status": "pending",
     "images": [
-      "previews/v0.2.1/rectilinear-bathtub.png",
-      "previews/v0.2.1/rectilinear-bathtub-back.png"
+      "previews/v0.7.0/rectilinear-bathtub.png",
+      "previews/v0.7.0/rectilinear-bathtub-back.png"
     ]
   },
   "favouriteStorage": "user set of stable catalogue IDs",
   "colors": [
     [
-      0.23,
-      0.15,
-      0.09
+      0.800000011920929,
+      0.8100000023841858,
+      0.7599999904632568
     ],
     [
-      0.12,
-      0.14,
-      0.16
-    ],
-    [
-      0.045,
-      0.05,
-      0.055
+      0.04500000178813934,
+      0.05000000074505806,
+      0.054999999701976776
     ]
   ],
   "colourTags": [
-    "charcoal",
     "black",
-    "weathered wood"
+    "warm white"
   ],
   "materials": [
     "ceramic",
@@ -153,5 +180,38 @@
       "material": "metal",
       "recolourable": true
     }
-  ]
+  ],
+  "finalization": {
+    "unusedTangentAttributesRemoved": 1,
+    "unusedAccessorsRemoved": 1,
+    "unusedBufferViewsRemoved": 1,
+    "bytesRemoved": 10704,
+    "normalMappedTangents": "retained, never replaced with arbitrary fallback vectors"
+  },
+  "supportChecks": {
+    "method": "source-part upper-end ray to non-leg geometry, 15mm join tolerance",
+    "status": "pass",
+    "parts": [],
+    "limitation": "screening only; hidden joints, whole-model connectivity, load paths and safety remain visual/product-review concerns"
+  },
+  "materialFinish": {
+    "source": "materials/v1/manifest.json",
+    "repeatMetres": {
+      "wood": [
+        0.16,
+        0.75
+      ],
+      "fabric": [
+        0.14,
+        0.14
+      ],
+      "linen": [
+        0.12,
+        0.12
+      ]
+    },
+    "maps": "original base colour / roughness / tangent normal, embedded in GLB"
+  },
+  "geometryHash": "afc1e88ca77f9fa59333dbe3e060f9312551c50ec6105bc8b6278cc305a9ba3a",
+  "normalizedMirrorGeometryHash": "043250561b214ceacdd419aaaabd7fdda2d4b9ff9bad61b55c3ebc0e90565a72"
 }

@@ -1,0 +1,351 @@
+{
+  "designId": "ois.design.triple-sleep-bunk",
+  "familyId": "ois.family.triple-sleep-bunk",
+  "id": "ois.design.triple-sleep-bunk",
+  "name": "Pullout third bunk",
+  "roomTags": [
+    "children"
+  ],
+  "theme": "walnut-form",
+  "builder": "bed",
+  "parameters": {
+    "form": "bunk-triple",
+    "size": "twin"
+  },
+  "distinction": "Two fixed bunks plus a projecting third trundle sleep surface.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted",
+    "sourceSnapshot": "sources/pipeline-6edf3b3b7e919bef.py",
+    "sourceSha256": "6edf3b3b7e919beff14de171103b6585f37d9224850daf72e0dce7d1a3da4962",
+    "sourceModelSha256": "5b43cd27432be0da5bfb97bc53ff85da6acabcf786805110832d5a96a8827b3a",
+    "supportSources": {
+      "signature_designs.py": {
+        "snapshot": "sources/signature_designs-6d248dd7aaa49ed4.py",
+        "sha256": "6d248dd7aaa49ed40f05c473c5d46b6fe8c97972ebf6ce139553f9641fc82b3c"
+      },
+      "material_finish.py": {
+        "snapshot": "sources/material_finish-281279dfd17b0c92.py",
+        "sha256": "281279dfd17b0c929f9038bb8066b86216427feaaefbd503abb995d06dc35730"
+      },
+      "catalogue_inventory.py": {
+        "snapshot": "sources/catalogue_inventory-7426973c95c5b546.py",
+        "sha256": "7426973c95c5b546732cb4fe3b5cc5a08f6dfefdd321853b7e854302d02ab26b"
+      },
+      "finalize_glb.py": {
+        "snapshot": "sources/finalize_glb-4d1dec42be5cbf3d.py",
+        "sha256": "4d1dec42be5cbf3d6540facfa883948acd849c080f7117b8d7025749c08e2d1b"
+      },
+      "build_catalogue_v2.py": {
+        "snapshot": "sources/build_catalogue_v2-c690bbe24a2b9d15.py",
+        "sha256": "c690bbe24a2b9d15742a9c1a370db16a60b14c48f356bb0fafc3b5ad8118c7d1"
+      },
+      "validate_library.py": {
+        "snapshot": "sources/validate_library-48e60483e2c3d05b.py",
+        "sha256": "48e60483e2c3d05bec2c7e2669523eb77571a4ba120cb5238bbec92b8a585e0c"
+      },
+      "support_checks.py": {
+        "snapshot": "sources/support_checks-f7ed4d0400abd5f2.py",
+        "sha256": "f7ed4d0400abd5f23f27c86a9013cfefaca71234a9da953dfe97daeabb8af640"
+      }
+    },
+    "parametersFile": "sources/v0.7.14/triple-sleep-bunk.parameters.json"
+  },
+  "constructionKey": "bed|bunk-triple|{}",
+  "bedSize": "twin",
+  "mattressMetres": [
+    0.9652,
+    1.905,
+    0.22
+  ],
+  "secondaryMattressMetres": [
+    0.9652,
+    1.905,
+    0.14
+  ],
+  "safetyReviewRequired": true,
+  "sha256": "eedbd6efff610837c8bf60414dd35ce2ef1853686cbd856fd0a378da19dd12ec",
+  "bytes": 944400,
+  "triangles": 5776,
+  "vertices": 12284,
+  "drawPrimitives": 4,
+  "bounds": {
+    "min": [
+      -0.5600999593734741,
+      0.0,
+      -1.2104393243789673
+    ],
+    "max": [
+      1.6377999782562256,
+      1.9564773440361023,
+      1.040000081062317
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 2.1978999376296997,
+    "depth": 2.250439405441284,
+    "height": 1.9564773440361023
+  },
+  "footprint": [
+    [
+      -0.5600999593734741,
+      -1.2104393243789673
+    ],
+    [
+      1.6377999782562256,
+      -1.2104393243789673
+    ],
+    [
+      1.6377999782562256,
+      1.040000081062317
+    ],
+    [
+      -0.5600999593734741,
+      1.040000081062317
+    ]
+  ],
+  "variantSlots": [
+    "dark",
+    "fabric",
+    "linen",
+    "wood"
+  ],
+  "requiredExtensions": [],
+  "textures": {
+    "count": 9,
+    "bytes": 334041,
+    "estimatedRgbaBytesWithMipmaps": 3145728,
+    "images": [
+      {
+        "name": "fabric-normal",
+        "bytes": 1016,
+        "width": 256,
+        "height": 256,
+        "sha256": "5bbac800a495c0a30042ad832a3ea134aa66afad65fa0dde59103733a54e886c"
+      },
+      {
+        "name": "fabric-neutral-base",
+        "bytes": 4495,
+        "width": 256,
+        "height": 256,
+        "sha256": "898e022cb5ea1b2663884e7306bbd2c09f25ab2827974bd1328a81bcab08b1ac"
+      },
+      {
+        "name": "fabric-roughness",
+        "bytes": 2761,
+        "width": 256,
+        "height": 256,
+        "sha256": "397e1c119de5e5939f7f1260cfeb7a715d695240776f51b974989073b638eeb6"
+      },
+      {
+        "name": "linen-normal",
+        "bytes": 76292,
+        "width": 256,
+        "height": 256,
+        "sha256": "70b25282eb1daf2d7d6faad88d6b47ca1298d395b833d36d3ba28a542ed6d36e"
+      },
+      {
+        "name": "linen-neutral-base",
+        "bytes": 34309,
+        "width": 256,
+        "height": 256,
+        "sha256": "047df909f3cecf9ec0cdef6c8e2a92dea40e0116922d5b7a25bc7da6481e1ec9"
+      },
+      {
+        "name": "linen-roughness",
+        "bytes": 40384,
+        "width": 256,
+        "height": 256,
+        "sha256": "c31825bb85668747311407d1a5e5d9a56bc0e65aefbf79936d1d4665e83fdb45"
+      },
+      {
+        "name": "wood-normal",
+        "bytes": 102088,
+        "width": 256,
+        "height": 256,
+        "sha256": "6b8efcb5004552d884a527017922bfb5260b8bda4dc77f1365fe1cb8a09f1d56"
+      },
+      {
+        "name": "wood-neutral-base",
+        "bytes": 39353,
+        "width": 256,
+        "height": 256,
+        "sha256": "ddcf839a2addae78944a2d7a0588f9c2055852fc4ccb4e2dae2095d28541de44"
+      },
+      {
+        "name": "wood-roughness",
+        "bytes": 33343,
+        "width": 256,
+        "height": 256,
+        "sha256": "afc2180e58360e76fb178b52f225f7ba9045a7d0d266f10886763b0590335a1a"
+      }
+    ]
+  },
+  "version": "0.7.14",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.triple-sleep-bunk",
+  "file": "assets/v0.7.14/triple-sleep-bunk.glb",
+  "sourceModel": "sources/v0.7.14/triple-sleep-bunk.blend",
+  "thumbnail": "previews/v0.7.14/triple-sleep-bunk.png",
+  "backThumbnail": "previews/v0.7.14/triple-sleep-bunk-back.png",
+  "category": "beds",
+  "subtype": "bunk-triple",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.7.14/triple-sleep-bunk.png",
+      "previews/v0.7.14/triple-sleep-bunk-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.02500000037252903,
+      0.03500000014901161,
+      0.03999999910593033
+    ],
+    [
+      0.38999998569488525,
+      0.18000000715255737,
+      0.07000000029802322
+    ],
+    [
+      0.8399999737739563,
+      0.800000011920929,
+      0.6899999976158142
+    ],
+    [
+      0.2199999988079071,
+      0.09000000357627869,
+      0.03799999877810478
+    ]
+  ],
+  "colourTags": [
+    "near black",
+    "tobacco",
+    "walnut brown",
+    "warm ivory"
+  ],
+  "materials": [
+    "paint",
+    "textile",
+    "wood"
+  ],
+  "searchAliases": [
+    "children",
+    "bunk triple"
+  ],
+  "materialSlots": [
+    {
+      "id": "dark",
+      "material": "dark",
+      "recolourable": true
+    },
+    {
+      "id": "fabric",
+      "material": "fabric",
+      "recolourable": true
+    },
+    {
+      "id": "linen",
+      "material": "linen",
+      "recolourable": true
+    },
+    {
+      "id": "wood",
+      "material": "wood",
+      "recolourable": true
+    }
+  ],
+  "finalization": {
+    "unusedTangentAttributesRemoved": 1,
+    "unusedAccessorsRemoved": 1,
+    "unusedBufferViewsRemoved": 1,
+    "bytesRemoved": 20824,
+    "normalMappedTangents": "retained, never replaced with arbitrary fallback vectors"
+  },
+  "supportChecks": {
+    "method": "source-part upper-end ray to non-leg geometry, 15mm join tolerance",
+    "status": "pass",
+    "parts": [],
+    "limitation": "screening only; hidden joints, whole-model connectivity, load paths and safety remain visual/product-review concerns"
+  },
+  "materialFinish": {
+    "source": "materials/v1/manifest.json",
+    "repeatMetres": {
+      "wood": [
+        0.16,
+        0.75
+      ],
+      "fabric": [
+        0.14,
+        0.14
+      ],
+      "linen": [
+        0.12,
+        0.12
+      ]
+    },
+    "maps": "original base colour / roughness / tangent normal, embedded in GLB"
+  },
+  "appearanceVariants": [
+    {
+      "id": "ois.design.triple-sleep-bunk.finish.sage",
+      "name": "Sage textile",
+      "materialOverrides": {
+        "fabric": {
+          "baseColorFactor": [
+            0.25,
+            0.37,
+            0.28,
+            1
+          ]
+        }
+      }
+    },
+    {
+      "id": "ois.design.triple-sleep-bunk.finish.clay",
+      "name": "Clay textile",
+      "materialOverrides": {
+        "fabric": {
+          "baseColorFactor": [
+            0.45,
+            0.23,
+            0.15,
+            1
+          ]
+        }
+      }
+    }
+  ],
+  "variantColourTags": [
+    "sage green",
+    "clay brown"
+  ],
+  "variantCountNote": "appearance overrides share this one design; do not increase distinct count",
+  "geometryHash": "99fa3c2dcadcbe5eaf619876bb941e981461c49d9f5df3ae07d1b572c7edf194",
+  "normalizedMirrorGeometryHash": "05960ed1d1636c7d135b5430afe6dd8489a5ffecd02744ef1db49ddc07d66c90"
+}

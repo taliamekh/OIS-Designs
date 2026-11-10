@@ -1,0 +1,171 @@
+{
+  "designId": "ois.design.low-swivel-chair",
+  "familyId": "ois.family.low-swivel-chair",
+  "id": "ois.design.low-swivel-chair",
+  "name": "Low swivel office chair",
+  "roomTags": [
+    "office"
+  ],
+  "theme": "soft-japandi",
+  "builder": "seating",
+  "parameters": {
+    "form": "swivel",
+    "w": 0.62,
+    "d": 0.6,
+    "h": 0.86,
+    "seat": 0.44
+  },
+  "distinction": "Low upholstered back on a non-caster five-star base.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted",
+    "sourceSnapshot": "sources/pipeline-e797cb5c88af56f5.py",
+    "sourceSha256": "e797cb5c88af56f5b4455d819a512ab9be55f40e1fa2d0cb542aca7bb84b906f",
+    "parametersFile": "sources/v0.2.1/low-swivel-chair.parameters.json"
+  },
+  "constructionKey": "seating|swivel|{\"base\": \"taper\"}",
+  "sha256": "0d657a8add41590c3a67f110fd7df78ba354b268e2f24fc10d2bb80564f04e61",
+  "bytes": 75092,
+  "triangles": 1484,
+  "vertices": 1918,
+  "drawPrimitives": 4,
+  "bounds": {
+    "min": [
+      -0.3116000294685364,
+      -2.7010854941611484e-09,
+      -0.2819999996572733
+    ],
+    "max": [
+      0.3116000294685364,
+      0.8841705322265625,
+      0.2924190517514944
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 0.6232000589370728,
+    "depth": 0.5744190514087677,
+    "height": 0.884170534927648
+  },
+  "footprint": [
+    [
+      -0.3116000294685364,
+      -0.2819999996572733
+    ],
+    [
+      0.3116000294685364,
+      -0.2819999996572733
+    ],
+    [
+      0.3116000294685364,
+      0.2924190517514944
+    ],
+    [
+      -0.3116000294685364,
+      0.2924190517514944
+    ]
+  ],
+  "variantSlots": [
+    "fabric",
+    "linen",
+    "metal",
+    "wood"
+  ],
+  "requiredExtensions": [],
+  "version": "0.2.1",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.low-swivel-chair",
+  "file": "assets/v0.2.1/low-swivel-chair.glb",
+  "sourceModel": "sources/v0.2.1/low-swivel-chair.blend",
+  "thumbnail": "previews/v0.2.1/low-swivel-chair.png",
+  "backThumbnail": "previews/v0.2.1/low-swivel-chair-back.png",
+  "category": "seating",
+  "subtype": "swivel",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "textures": {
+    "count": 0,
+    "bytes": 0
+  },
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.2.1/low-swivel-chair.png",
+      "previews/v0.2.1/low-swivel-chair-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.34,
+      0.28,
+      0.19
+    ],
+    [
+      0.58,
+      0.54,
+      0.44
+    ],
+    [
+      0.15,
+      0.17,
+      0.15
+    ]
+  ],
+  "colourTags": [
+    "ash",
+    "flax",
+    "stone"
+  ],
+  "materials": [
+    "metal",
+    "textile",
+    "wood"
+  ],
+  "searchAliases": [
+    "office",
+    "swivel"
+  ],
+  "materialSlots": [
+    {
+      "id": "fabric",
+      "material": "fabric",
+      "recolourable": true
+    },
+    {
+      "id": "linen",
+      "material": "linen",
+      "recolourable": true
+    },
+    {
+      "id": "metal",
+      "material": "metal",
+      "recolourable": true
+    },
+    {
+      "id": "wood",
+      "material": "wood",
+      "recolourable": true
+    }
+  ]
+}

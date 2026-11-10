@@ -1,0 +1,158 @@
+{
+  "designId": "ois.design.triangle-cantilever-console",
+  "familyId": "ois.family.triangle-cantilever-console",
+  "id": "ois.design.triangle-cantilever-console",
+  "name": "Triangular cantilever console",
+  "roomTags": [
+    "entry-hall"
+  ],
+  "theme": "soft-japandi",
+  "builder": "table",
+  "parameters": {
+    "form": "cantilever",
+    "w": 0.95,
+    "d": 0.42,
+    "h": 0.8,
+    "shape": "triangle"
+  },
+  "distinction": "Triangular shallow console projecting from an offset steel plate.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted",
+    "sourceSnapshot": "sources/pipeline-e797cb5c88af56f5.py",
+    "sourceSha256": "e797cb5c88af56f5b4455d819a512ab9be55f40e1fa2d0cb542aca7bb84b906f",
+    "parametersFile": "sources/v0.2.1/triangle-cantilever-console.parameters.json"
+  },
+  "constructionKey": "table|cantilever|{\"drawers\": false, \"shape\": \"triangle\", \"shelf\": false}",
+  "sha256": "f5365dd9bdaeba46a9392917174a03b79bc6e6cd7195199beb4b9bf1a857cbf1",
+  "bytes": 22680,
+  "triangles": 384,
+  "vertices": 568,
+  "drawPrimitives": 2,
+  "bounds": {
+    "min": [
+      -0.4749999940395355,
+      0.0,
+      -0.2393999993801117
+    ],
+    "max": [
+      0.4749999940395355,
+      0.800000011920929,
+      0.18060000240802765
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 0.949999988079071,
+    "depth": 0.42000000178813934,
+    "height": 0.800000011920929
+  },
+  "footprint": [
+    [
+      -0.4749999940395355,
+      -0.2393999993801117
+    ],
+    [
+      0.4749999940395355,
+      -0.2393999993801117
+    ],
+    [
+      0.4749999940395355,
+      0.18060000240802765
+    ],
+    [
+      -0.4749999940395355,
+      0.18060000240802765
+    ]
+  ],
+  "variantSlots": [
+    "metal",
+    "wood"
+  ],
+  "requiredExtensions": [],
+  "version": "0.2.1",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.triangle-cantilever-console",
+  "file": "assets/v0.2.1/triangle-cantilever-console.glb",
+  "sourceModel": "sources/v0.2.1/triangle-cantilever-console.blend",
+  "thumbnail": "previews/v0.2.1/triangle-cantilever-console.png",
+  "backThumbnail": "previews/v0.2.1/triangle-cantilever-console-back.png",
+  "category": "tables",
+  "subtype": "cantilever",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "textures": {
+    "count": 0,
+    "bytes": 0
+  },
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.2.1/triangle-cantilever-console.png",
+      "previews/v0.2.1/triangle-cantilever-console-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.34,
+      0.28,
+      0.19
+    ],
+    [
+      0.58,
+      0.54,
+      0.44
+    ],
+    [
+      0.15,
+      0.17,
+      0.15
+    ]
+  ],
+  "colourTags": [
+    "ash",
+    "flax",
+    "stone"
+  ],
+  "materials": [
+    "metal",
+    "wood"
+  ],
+  "searchAliases": [
+    "entry hall",
+    "cantilever"
+  ],
+  "materialSlots": [
+    {
+      "id": "metal",
+      "material": "metal",
+      "recolourable": true
+    },
+    {
+      "id": "wood",
+      "material": "wood",
+      "recolourable": true
+    }
+  ]
+}

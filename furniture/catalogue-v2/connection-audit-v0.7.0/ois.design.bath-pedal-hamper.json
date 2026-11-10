@@ -1,0 +1,166 @@
+{
+  "id": "ois.design.bath-pedal-hamper",
+  "sha256": "a12f8a1143a8717d73729798eea0c2b4a274e887390d464f90d38e0b9757af3f",
+  "sourceModel": "sources/v0.7.0/bath-pedal-hamper.blend",
+  "sourceSha256": "0664ca0f5c2c399bc2b3b94f3b8b3946ce3e9f29bb543386c0ae82467b5d8d74",
+  "partCount": 11,
+  "componentCount": 1,
+  "components": [
+    {
+      "parts": [
+        "hamper floor",
+        "hamper side",
+        "hamper end",
+        "hamper side.001",
+        "hamper end.001",
+        "lift lid",
+        "pull",
+        "pull mounting plate",
+        "pull mounting standoff",
+        "pull mounting standoff.001",
+        "foot pedal"
+      ],
+      "minimum": [
+        -0.2175000160932541,
+        -0.19499999284744263,
+        0.0
+      ],
+      "maximum": [
+        0.2175000160932541,
+        0.2750000059604645,
+        0.6060000061988831
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "hamper side",
+      "b": "hamper floor",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "hamper end",
+      "b": "hamper floor",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "hamper end",
+      "b": "hamper side",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "hamper side.001",
+      "b": "hamper floor",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "hamper side.001",
+      "b": "hamper end",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "hamper end.001",
+      "b": "hamper floor",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "hamper end.001",
+      "b": "hamper side",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "hamper end.001",
+      "b": "hamper side.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "lift lid",
+      "b": "hamper side",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "lift lid",
+      "b": "hamper end",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "lift lid",
+      "b": "hamper side.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "lift lid",
+      "b": "hamper end.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pull mounting plate",
+      "b": "hamper end.001",
+      "method": "point containment",
+      "distance": 0
+    },
+    {
+      "a": "pull mounting standoff",
+      "b": "hamper end.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pull mounting standoff",
+      "b": "pull",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pull mounting standoff",
+      "b": "pull mounting plate",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pull mounting standoff.001",
+      "b": "hamper end.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pull mounting standoff.001",
+      "b": "pull",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pull mounting standoff.001",
+      "b": "pull mounting plate",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "foot pedal",
+      "b": "hamper floor",
+      "method": "surface distance",
+      "distance": 0.0017775229644030333
+    },
+    {
+      "a": "foot pedal",
+      "b": "hamper end.001",
+      "method": "triangle intersection",
+      "distance": 0
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; live-source reports are NOT exported-asset evidence; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T04:10:54Z"
+}

@@ -1,0 +1,122 @@
+{
+  "id": "ois.design.junior-fork-chair",
+  "sha256": "9315ed449e0f804fa601128dc5db21ef3b92d64f1cd8b9dedcee8bd1a5407143",
+  "sourceModel": "sources/v0.7.0/junior-fork-chair.blend",
+  "sourceSha256": "eaee9a8e79c1b49d735dd1277ddcd24580b38f88930a39b37367fe805db4eabf",
+  "partCount": 9,
+  "componentCount": 1,
+  "components": [
+    {
+      "parts": [
+        "leg",
+        "leg.001",
+        "leg.002",
+        "leg.003",
+        "structural chair seat pan",
+        "seat",
+        "horseshoe arm",
+        "forked back",
+        "forked back.001"
+      ],
+      "minimum": [
+        -0.18800437450408936,
+        -0.2120000123977661,
+        2.0372681319713593e-09
+      ],
+      "maximum": [
+        0.18800435960292816,
+        0.17309999465942383,
+        0.5136054754257202
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "structural chair seat pan",
+      "b": "leg",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "structural chair seat pan",
+      "b": "leg.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "structural chair seat pan",
+      "b": "leg.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "structural chair seat pan",
+      "b": "leg.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "seat",
+      "b": "leg",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "seat",
+      "b": "leg.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "seat",
+      "b": "leg.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "seat",
+      "b": "leg.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "seat",
+      "b": "structural chair seat pan",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "forked back",
+      "b": "structural chair seat pan",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "forked back",
+      "b": "horseshoe arm",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "forked back.001",
+      "b": "structural chair seat pan",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "forked back.001",
+      "b": "horseshoe arm",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "forked back.001",
+      "b": "forked back",
+      "method": "triangle intersection",
+      "distance": 0
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; live-source reports are NOT exported-asset evidence; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T04:10:56Z"
+}

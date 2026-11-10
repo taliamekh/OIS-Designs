@@ -24,33 +24,46 @@
     "thirdPartyGeometry": false,
     "thirdPartyTextures": false,
     "publicAssetLicence": "not separately granted",
-    "sourceSnapshot": "sources/pipeline-80bacc170bd1371e.py",
-    "sourceSha256": "80bacc170bd1371edd54e3e5203658724c4e90ee4562fa13275787f9884b1d45",
+    "sourceSnapshot": "sources/pipeline-bf07453f548fd92d.py",
+    "sourceSha256": "bf07453f548fd92da637ecce41dc8b35010d5f15c955c971c9e3be2fb762ea2d",
+    "sourceModelSha256": "07ce0751a5650c71ea2946d883d42c5a6b586a230c1f30860012566e4dee35ac",
     "supportSources": {
       "signature_designs.py": {
-        "snapshot": "sources/signature_designs-ba970dd38c24ae51.py",
-        "sha256": "ba970dd38c24ae51646042a1a07e3e0b1d33a13f28e4c24e880ab4360fa6bcc0"
+        "snapshot": "sources/signature_designs-6d248dd7aaa49ed4.py",
+        "sha256": "6d248dd7aaa49ed40f05c473c5d46b6fe8c97972ebf6ce139553f9641fc82b3c"
       },
       "material_finish.py": {
-        "snapshot": "sources/material_finish-b9bb830e81d90e18.py",
-        "sha256": "b9bb830e81d90e18c05191c4e478ee7bbda04b117e4148687be9073a85d929c2"
+        "snapshot": "sources/material_finish-281279dfd17b0c92.py",
+        "sha256": "281279dfd17b0c929f9038bb8066b86216427feaaefbd503abb995d06dc35730"
       },
       "catalogue_inventory.py": {
-        "snapshot": "sources/catalogue_inventory-b67897df830f7144.py",
-        "sha256": "b67897df830f71449151337a656dae85d9e7b911fbc107aab78d72a60438f20e"
+        "snapshot": "sources/catalogue_inventory-db8b68fc872dbc12.py",
+        "sha256": "db8b68fc872dbc12d87e9ce013777e00d6b32cc0392e8cc09f31f8fef27b9365"
       },
       "finalize_glb.py": {
-        "snapshot": "sources/finalize_glb-dfc4ff54401c495d.py",
-        "sha256": "dfc4ff54401c495d3e17debd8f4aae1c5e68012a23ba8c85e023ed00397baae2"
+        "snapshot": "sources/finalize_glb-4d1dec42be5cbf3d.py",
+        "sha256": "4d1dec42be5cbf3d6540facfa883948acd849c080f7117b8d7025749c08e2d1b"
+      },
+      "build_catalogue_v2.py": {
+        "snapshot": "sources/build_catalogue_v2-9c22533830c3704c.py",
+        "sha256": "9c22533830c3704c1ce578b58b4350ebbbf5b8d32590a07db027f671d4975577"
+      },
+      "validate_library.py": {
+        "snapshot": "sources/validate_library-48e60483e2c3d05b.py",
+        "sha256": "48e60483e2c3d05bec2c7e2669523eb77571a4ba120cb5238bbec92b8a585e0c"
+      },
+      "support_checks.py": {
+        "snapshot": "sources/support_checks-f7ed4d0400abd5f2.py",
+        "sha256": "f7ed4d0400abd5f23f27c86a9013cfefaca71234a9da953dfe97daeabb8af640"
       }
     },
-    "parametersFile": "sources/v0.5.1/integrated-play-table.parameters.json"
+    "parametersFile": "sources/v0.7.0/integrated-play-table.parameters.json"
   },
   "constructionKey": "signature|integrated-play-table|{}",
-  "sha256": "e2c65466ad1a61724a8e37cafdfad45cad653a1ee7173604fb1460207f2f05e3",
-  "bytes": 428992,
+  "sha256": "4d3ccf3fd0c73d29792f05b2d0ebb6294d38b2cb7c998aafdf017fc483e9a3ed",
+  "bytes": 628776,
   "triangles": 3204,
-  "vertices": 4618,
+  "vertices": 8914,
   "drawPrimitives": 3,
   "bounds": {
     "min": [
@@ -142,13 +155,13 @@
       }
     ]
   },
-  "version": "0.5.1",
+  "version": "0.7.0",
   "qualityStatus": "validated-candidate",
   "geometryFamily": "ois.family.integrated-play-table",
-  "file": "assets/v0.5.1/integrated-play-table.glb",
-  "sourceModel": "sources/v0.5.1/integrated-play-table.blend",
-  "thumbnail": "previews/v0.5.1/integrated-play-table.png",
-  "backThumbnail": "previews/v0.5.1/integrated-play-table-back.png",
+  "file": "assets/v0.7.0/integrated-play-table.glb",
+  "sourceModel": "sources/v0.7.0/integrated-play-table.blend",
+  "thumbnail": "previews/v0.7.0/integrated-play-table.png",
+  "backThumbnail": "previews/v0.7.0/integrated-play-table-back.png",
   "category": "signature-furniture",
   "subtype": "integrated-play-table",
   "units": "metres",
@@ -168,8 +181,8 @@
   "visualReview": {
     "status": "pending",
     "images": [
-      "previews/v0.5.1/integrated-play-table.png",
-      "previews/v0.5.1/integrated-play-table-back.png"
+      "previews/v0.7.0/integrated-play-table.png",
+      "previews/v0.7.0/integrated-play-table-back.png"
     ]
   },
   "favouriteStorage": "user set of stable catalogue IDs",
@@ -223,6 +236,9 @@
   ],
   "finalization": {
     "unusedTangentAttributesRemoved": 1,
+    "unusedAccessorsRemoved": 1,
+    "unusedBufferViewsRemoved": 1,
+    "bytesRemoved": 6448,
     "normalMappedTangents": "retained, never replaced with arbitrary fallback vectors"
   },
   "supportChecks": {
@@ -284,6 +300,6 @@
     "clay brown"
   ],
   "variantCountNote": "appearance overrides share this one design; do not increase distinct count",
-  "geometryHash": "fbfa3970fa4c342bdfb9bb78d971c9556a9b77d9c7b0c619a87f74f1828fb879",
-  "normalizedMirrorGeometryHash": "05c97bb9bd1c1b903097f5beedb86426d837a981defd89839cbc27e727d01d29"
+  "geometryHash": "b8903ef2514416af37d678c0b19d63bdee9c6f3d7f03ff8579bd01288df1a442",
+  "normalizedMirrorGeometryHash": "101a69d45cf71ea522d29821ada3514fa725dc811ce406a2ef91ebfd31347f89"
 }

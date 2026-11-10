@@ -24,33 +24,46 @@
     "thirdPartyGeometry": false,
     "thirdPartyTextures": false,
     "publicAssetLicence": "not separately granted",
-    "sourceSnapshot": "sources/pipeline-d16905f59f09f9a8.py",
-    "sourceSha256": "d16905f59f09f9a87fb41f80ba97ff26da2ccb9e270091128e877b7c1129937d",
+    "sourceSnapshot": "sources/pipeline-bf07453f548fd92d.py",
+    "sourceSha256": "bf07453f548fd92da637ecce41dc8b35010d5f15c955c971c9e3be2fb762ea2d",
+    "sourceModelSha256": "e86e71669da856164ca853685659c56c7348404555d50979e7fc20f4171c1492",
     "supportSources": {
       "signature_designs.py": {
-        "snapshot": "sources/signature_designs-c7ce1c9570491409.py",
-        "sha256": "c7ce1c95704914096c0af5c88272139fca2098556f75b752375dd03da6cd8ee2"
+        "snapshot": "sources/signature_designs-6d248dd7aaa49ed4.py",
+        "sha256": "6d248dd7aaa49ed40f05c473c5d46b6fe8c97972ebf6ce139553f9641fc82b3c"
       },
       "material_finish.py": {
-        "snapshot": "sources/material_finish-b9bb830e81d90e18.py",
-        "sha256": "b9bb830e81d90e18c05191c4e478ee7bbda04b117e4148687be9073a85d929c2"
+        "snapshot": "sources/material_finish-281279dfd17b0c92.py",
+        "sha256": "281279dfd17b0c929f9038bb8066b86216427feaaefbd503abb995d06dc35730"
       },
       "catalogue_inventory.py": {
-        "snapshot": "sources/catalogue_inventory-b67897df830f7144.py",
-        "sha256": "b67897df830f71449151337a656dae85d9e7b911fbc107aab78d72a60438f20e"
+        "snapshot": "sources/catalogue_inventory-db8b68fc872dbc12.py",
+        "sha256": "db8b68fc872dbc12d87e9ce013777e00d6b32cc0392e8cc09f31f8fef27b9365"
       },
       "finalize_glb.py": {
-        "snapshot": "sources/finalize_glb-dfc4ff54401c495d.py",
-        "sha256": "dfc4ff54401c495d3e17debd8f4aae1c5e68012a23ba8c85e023ed00397baae2"
+        "snapshot": "sources/finalize_glb-4d1dec42be5cbf3d.py",
+        "sha256": "4d1dec42be5cbf3d6540facfa883948acd849c080f7117b8d7025749c08e2d1b"
+      },
+      "build_catalogue_v2.py": {
+        "snapshot": "sources/build_catalogue_v2-9c22533830c3704c.py",
+        "sha256": "9c22533830c3704c1ce578b58b4350ebbbf5b8d32590a07db027f671d4975577"
+      },
+      "validate_library.py": {
+        "snapshot": "sources/validate_library-48e60483e2c3d05b.py",
+        "sha256": "48e60483e2c3d05bec2c7e2669523eb77571a4ba120cb5238bbec92b8a585e0c"
+      },
+      "support_checks.py": {
+        "snapshot": "sources/support_checks-f7ed4d0400abd5f2.py",
+        "sha256": "f7ed4d0400abd5f23f27c86a9013cfefaca71234a9da953dfe97daeabb8af640"
       }
     },
-    "parametersFile": "sources/v0.5.0/curved-breakfast-counter.parameters.json"
+    "parametersFile": "sources/v0.7.0/curved-breakfast-counter.parameters.json"
   },
   "constructionKey": "signature|curved-breakfast-counter|{}",
-  "sha256": "f0c5bfa333ae05793cef856c266d0188dc3ad60b5b9865956face44b557c3d6d",
-  "bytes": 308812,
-  "triangles": 2196,
-  "vertices": 2700,
+  "sha256": "b96b89032d99eff2f75670e1d5b27e26744bedcafd8cdb18264a16848704468a",
+  "bytes": 520920,
+  "triangles": 2520,
+  "vertices": 7080,
   "drawPrimitives": 2,
   "bounds": {
     "min": [
@@ -120,13 +133,13 @@
       }
     ]
   },
-  "version": "0.5.0",
+  "version": "0.7.0",
   "qualityStatus": "validated-candidate",
   "geometryFamily": "ois.family.curved-breakfast-counter",
-  "file": "assets/v0.5.0/curved-breakfast-counter.glb",
-  "sourceModel": "sources/v0.5.0/curved-breakfast-counter.blend",
-  "thumbnail": "previews/v0.5.0/curved-breakfast-counter.png",
-  "backThumbnail": "previews/v0.5.0/curved-breakfast-counter-back.png",
+  "file": "assets/v0.7.0/curved-breakfast-counter.glb",
+  "sourceModel": "sources/v0.7.0/curved-breakfast-counter.blend",
+  "thumbnail": "previews/v0.7.0/curved-breakfast-counter.png",
+  "backThumbnail": "previews/v0.7.0/curved-breakfast-counter-back.png",
   "category": "signature-furniture",
   "subtype": "curved-breakfast-counter",
   "units": "metres",
@@ -146,8 +159,8 @@
   "visualReview": {
     "status": "pending",
     "images": [
-      "previews/v0.5.0/curved-breakfast-counter.png",
-      "previews/v0.5.0/curved-breakfast-counter-back.png"
+      "previews/v0.7.0/curved-breakfast-counter.png",
+      "previews/v0.7.0/curved-breakfast-counter-back.png"
     ]
   },
   "favouriteStorage": "user set of stable catalogue IDs",
@@ -189,6 +202,9 @@
   ],
   "finalization": {
     "unusedTangentAttributesRemoved": 0,
+    "unusedAccessorsRemoved": 0,
+    "unusedBufferViewsRemoved": 0,
+    "bytesRemoved": 0,
     "normalMappedTangents": "retained, never replaced with arbitrary fallback vectors"
   },
   "supportChecks": {
@@ -215,6 +231,6 @@
     },
     "maps": "original base colour / roughness / tangent normal, embedded in GLB"
   },
-  "geometryHash": "4af957a9b1c43dc63e762ae7a428195a2f575ec8cb66921d50d5d776c7f31bfa",
-  "normalizedMirrorGeometryHash": "14cad267f57761bea6ac676c942aa58ab33ac1149d1dfed8e844cbd1ed46b9d5"
+  "geometryHash": "fde4801d15ae524291f401d6a640f633fff8bd0ee678d59cb5313be3f331ad1d",
+  "normalizedMirrorGeometryHash": "0a9723a29a94a8e41e69fc044779e5ce8597fbc0a78fe9240f1506b0d95016db"
 }

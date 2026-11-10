@@ -28,33 +28,46 @@
     "thirdPartyGeometry": false,
     "thirdPartyTextures": false,
     "publicAssetLicence": "not separately granted",
-    "sourceSnapshot": "sources/pipeline-80bacc170bd1371e.py",
-    "sourceSha256": "80bacc170bd1371edd54e3e5203658724c4e90ee4562fa13275787f9884b1d45",
+    "sourceSnapshot": "sources/pipeline-bf07453f548fd92d.py",
+    "sourceSha256": "bf07453f548fd92da637ecce41dc8b35010d5f15c955c971c9e3be2fb762ea2d",
+    "sourceModelSha256": "56ac1de30b5cb682478fad6bd3c997bcba5e1ecc757bbadad701df1cfbe428a1",
     "supportSources": {
       "signature_designs.py": {
-        "snapshot": "sources/signature_designs-c7ce1c9570491409.py",
-        "sha256": "c7ce1c95704914096c0af5c88272139fca2098556f75b752375dd03da6cd8ee2"
+        "snapshot": "sources/signature_designs-6d248dd7aaa49ed4.py",
+        "sha256": "6d248dd7aaa49ed40f05c473c5d46b6fe8c97972ebf6ce139553f9641fc82b3c"
       },
       "material_finish.py": {
-        "snapshot": "sources/material_finish-b9bb830e81d90e18.py",
-        "sha256": "b9bb830e81d90e18c05191c4e478ee7bbda04b117e4148687be9073a85d929c2"
+        "snapshot": "sources/material_finish-281279dfd17b0c92.py",
+        "sha256": "281279dfd17b0c929f9038bb8066b86216427feaaefbd503abb995d06dc35730"
       },
       "catalogue_inventory.py": {
-        "snapshot": "sources/catalogue_inventory-b67897df830f7144.py",
-        "sha256": "b67897df830f71449151337a656dae85d9e7b911fbc107aab78d72a60438f20e"
+        "snapshot": "sources/catalogue_inventory-db8b68fc872dbc12.py",
+        "sha256": "db8b68fc872dbc12d87e9ce013777e00d6b32cc0392e8cc09f31f8fef27b9365"
       },
       "finalize_glb.py": {
-        "snapshot": "sources/finalize_glb-dfc4ff54401c495d.py",
-        "sha256": "dfc4ff54401c495d3e17debd8f4aae1c5e68012a23ba8c85e023ed00397baae2"
+        "snapshot": "sources/finalize_glb-4d1dec42be5cbf3d.py",
+        "sha256": "4d1dec42be5cbf3d6540facfa883948acd849c080f7117b8d7025749c08e2d1b"
+      },
+      "build_catalogue_v2.py": {
+        "snapshot": "sources/build_catalogue_v2-9c22533830c3704c.py",
+        "sha256": "9c22533830c3704c1ce578b58b4350ebbbf5b8d32590a07db027f671d4975577"
+      },
+      "validate_library.py": {
+        "snapshot": "sources/validate_library-48e60483e2c3d05b.py",
+        "sha256": "48e60483e2c3d05bec2c7e2669523eb77571a4ba120cb5238bbec92b8a585e0c"
+      },
+      "support_checks.py": {
+        "snapshot": "sources/support_checks-f7ed4d0400abd5f2.py",
+        "sha256": "f7ed4d0400abd5f23f27c86a9013cfefaca71234a9da953dfe97daeabb8af640"
       }
     },
-    "parametersFile": "sources/v0.5.0/sawhorse-dining.parameters.json"
+    "parametersFile": "sources/v0.7.0/sawhorse-dining.parameters.json"
   },
   "constructionKey": "table|sawhorse|{\"drawers\": false, \"shape\": \"rect\", \"shelf\": false}",
-  "sha256": "09a6a4b3ecf5c728dda7686fcf3c59218a305066f786517f7ddecc796210f69f",
-  "bytes": 275936,
+  "sha256": "876db08440929a28bfe00d982ee7d2d10f96b05b8012854b28b7d40ceb2d4e9d",
+  "bytes": 297540,
   "triangles": 804,
-  "vertices": 1962,
+  "vertices": 2412,
   "drawPrimitives": 1,
   "bounds": {
     "min": [
@@ -64,14 +77,14 @@
     ],
     "max": [
       0.824999988079071,
-      0.7567662820219994,
+      0.7566212043166161,
       0.4399999976158142
     ]
   },
   "dimensionsMetres": {
     "width": 1.649999976158142,
     "depth": 0.8799999952316284,
-    "height": 0.7567662820219994
+    "height": 0.7566212043166161
   },
   "footprint": [
     [
@@ -123,13 +136,13 @@
       }
     ]
   },
-  "version": "0.5.0",
+  "version": "0.7.0",
   "qualityStatus": "validated-candidate",
   "geometryFamily": "ois.family.sawhorse-dining",
-  "file": "assets/v0.5.0/sawhorse-dining.glb",
-  "sourceModel": "sources/v0.5.0/sawhorse-dining.blend",
-  "thumbnail": "previews/v0.5.0/sawhorse-dining.png",
-  "backThumbnail": "previews/v0.5.0/sawhorse-dining-back.png",
+  "file": "assets/v0.7.0/sawhorse-dining.glb",
+  "sourceModel": "sources/v0.7.0/sawhorse-dining.blend",
+  "thumbnail": "previews/v0.7.0/sawhorse-dining.png",
+  "backThumbnail": "previews/v0.7.0/sawhorse-dining-back.png",
   "category": "tables",
   "subtype": "sawhorse",
   "units": "metres",
@@ -149,8 +162,8 @@
   "visualReview": {
     "status": "pending",
     "images": [
-      "previews/v0.5.0/sawhorse-dining.png",
-      "previews/v0.5.0/sawhorse-dining-back.png"
+      "previews/v0.7.0/sawhorse-dining.png",
+      "previews/v0.7.0/sawhorse-dining-back.png"
     ]
   },
   "favouriteStorage": "user set of stable catalogue IDs",
@@ -180,6 +193,9 @@
   ],
   "finalization": {
     "unusedTangentAttributesRemoved": 0,
+    "unusedAccessorsRemoved": 0,
+    "unusedBufferViewsRemoved": 0,
+    "bytesRemoved": 0,
     "normalMappedTangents": "retained, never replaced with arbitrary fallback vectors"
   },
   "supportChecks": {
@@ -188,22 +204,22 @@
     "parts": [
       {
         "part": "horse leg",
-        "gapMetresAlongSupport": -0.051322327554225916,
+        "gapMetresAlongSupport": -0.05126416832208633,
         "status": "pass"
       },
       {
         "part": "horse leg.001",
-        "gapMetresAlongSupport": -0.05132233500480651,
+        "gapMetresAlongSupport": -0.05126406401395797,
         "status": "pass"
       },
       {
         "part": "horse leg.002",
-        "gapMetresAlongSupport": -0.051322327554225916,
+        "gapMetresAlongSupport": -0.05126416832208633,
         "status": "pass"
       },
       {
         "part": "horse leg.003",
-        "gapMetresAlongSupport": -0.05132233500480651,
+        "gapMetresAlongSupport": -0.05126406401395797,
         "status": "pass"
       }
     ],
@@ -227,6 +243,6 @@
     },
     "maps": "original base colour / roughness / tangent normal, embedded in GLB"
   },
-  "geometryHash": "f31f028507708bbc1c4beeadfefbe3740f5041d10866cd70fc3065ad90238b74",
-  "normalizedMirrorGeometryHash": "0692e21e0ce845bf9f88de05ce357e64c71225969668db54930029faa2c484f8"
+  "geometryHash": "3fa8fd2185b1f3bc971c0e80aa443e075618a7e201126548633552e7e2347a46",
+  "normalizedMirrorGeometryHash": "08c12a2217d59a354805887b43beb1cf3afe13d8da1e61537436aa487e53c9b9"
 }

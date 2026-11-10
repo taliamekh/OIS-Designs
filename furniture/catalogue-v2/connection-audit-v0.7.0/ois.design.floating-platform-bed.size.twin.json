@@ -1,0 +1,79 @@
+{
+  "id": "ois.design.floating-platform-bed.size.twin",
+  "sha256": "04b1e385ded0247ef4bc9b7a411cece27f2df4668679f1bab63abb86d421c5f1",
+  "sourceModel": "sources/v0.7.0/floating-platform-bed.size.twin.blend",
+  "sourceSha256": "bbfda287cb9af88f1c950b02b7e61c28d8af96b0e81510b1f35dea0b142bd5b1",
+  "partCount": 8,
+  "componentCount": 1,
+  "components": [
+    {
+      "parts": [
+        "inset support",
+        "cantilever platform",
+        "mattress",
+        "piping",
+        "duvet",
+        "pillow",
+        "piping.001",
+        "headboard"
+      ],
+      "minimum": [
+        -0.5325999855995178,
+        -1.0425000190734863,
+        0.0
+      ],
+      "maximum": [
+        0.5325999855995178,
+        1.0125000476837158,
+        1.1399999856948853
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "cantilever platform",
+      "b": "inset support",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "mattress",
+      "b": "cantilever platform",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "piping",
+      "b": "mattress",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "duvet",
+      "b": "mattress",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pillow",
+      "b": "mattress",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "piping.001",
+      "b": "pillow",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "headboard",
+      "b": "cantilever platform",
+      "method": "triangle intersection",
+      "distance": 0
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; live-source reports are NOT exported-asset evidence; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T04:10:55Z"
+}

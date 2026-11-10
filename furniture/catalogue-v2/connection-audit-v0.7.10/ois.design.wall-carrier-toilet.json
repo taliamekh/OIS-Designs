@@ -1,0 +1,57 @@
+{
+  "id": "ois.design.wall-carrier-toilet",
+  "sha256": "f15e7a6f29ce41e02e3cfa746579c996650e121186cb3b7ebe6f14159a9b097d",
+  "sourceModel": "sources/v0.7.10/wall-carrier-toilet.blend",
+  "sourceSha256": "e9fc1ea91326c5947ac64d9a02bff40d3cd2a17c243d3af2fd629b2b65164a59",
+  "partCount": 4,
+  "componentCount": 1,
+  "components": [
+    {
+      "parts": [
+        "toilet pedestal",
+        "hollow bowl",
+        "seat rim",
+        "wall carrier"
+      ],
+      "minimum": [
+        -0.24899999797344208,
+        -0.3199999928474426,
+        0.0
+      ],
+      "maximum": [
+        0.24899999797344208,
+        0.343999981880188,
+        0.5199999809265137
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "hollow bowl",
+      "b": "toilet pedestal",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "seat rim",
+      "b": "hollow bowl",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "wall carrier",
+      "b": "hollow bowl",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "wall carrier",
+      "b": "seat rim",
+      "method": "triangle intersection",
+      "distance": 0
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; live-source reports are NOT exported-asset evidence; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T04:12:56Z"
+}

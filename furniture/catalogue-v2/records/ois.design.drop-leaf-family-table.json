@@ -27,48 +27,79 @@
     "thirdPartyGeometry": false,
     "thirdPartyTextures": false,
     "publicAssetLicence": "not separately granted",
-    "sourceSnapshot": "sources/pipeline-e797cb5c88af56f5.py",
-    "sourceSha256": "e797cb5c88af56f5b4455d819a512ab9be55f40e1fa2d0cb542aca7bb84b906f",
-    "parametersFile": "sources/v0.2.1/drop-leaf-family-table.parameters.json"
+    "sourceSnapshot": "sources/pipeline-bf07453f548fd92d.py",
+    "sourceSha256": "bf07453f548fd92da637ecce41dc8b35010d5f15c955c971c9e3be2fb762ea2d",
+    "sourceModelSha256": "affcf119755cd02eb5c8c65ff4bbb573b74a7d2562b6022daf190a9096243b8f",
+    "supportSources": {
+      "signature_designs.py": {
+        "snapshot": "sources/signature_designs-6d248dd7aaa49ed4.py",
+        "sha256": "6d248dd7aaa49ed40f05c473c5d46b6fe8c97972ebf6ce139553f9641fc82b3c"
+      },
+      "material_finish.py": {
+        "snapshot": "sources/material_finish-281279dfd17b0c92.py",
+        "sha256": "281279dfd17b0c929f9038bb8066b86216427feaaefbd503abb995d06dc35730"
+      },
+      "catalogue_inventory.py": {
+        "snapshot": "sources/catalogue_inventory-db8b68fc872dbc12.py",
+        "sha256": "db8b68fc872dbc12d87e9ce013777e00d6b32cc0392e8cc09f31f8fef27b9365"
+      },
+      "finalize_glb.py": {
+        "snapshot": "sources/finalize_glb-4d1dec42be5cbf3d.py",
+        "sha256": "4d1dec42be5cbf3d6540facfa883948acd849c080f7117b8d7025749c08e2d1b"
+      },
+      "build_catalogue_v2.py": {
+        "snapshot": "sources/build_catalogue_v2-9c22533830c3704c.py",
+        "sha256": "9c22533830c3704c1ce578b58b4350ebbbf5b8d32590a07db027f671d4975577"
+      },
+      "validate_library.py": {
+        "snapshot": "sources/validate_library-48e60483e2c3d05b.py",
+        "sha256": "48e60483e2c3d05bec2c7e2669523eb77571a4ba120cb5238bbec92b8a585e0c"
+      },
+      "support_checks.py": {
+        "snapshot": "sources/support_checks-f7ed4d0400abd5f2.py",
+        "sha256": "f7ed4d0400abd5f23f27c86a9013cfefaca71234a9da953dfe97daeabb8af640"
+      }
+    },
+    "parametersFile": "sources/v0.7.0/drop-leaf-family-table.parameters.json"
   },
   "constructionKey": "functional|drop-leaf|{}",
-  "sha256": "24296d5a25b27d856b2b1849b8e0a3e373d8dade6bc3f7db0e2bfd354275cf07",
-  "bytes": 56496,
-  "triangles": 1060,
-  "vertices": 1487,
+  "sha256": "8ee3e482e1a8e53d5160e7371b9159d6a859993722c1747699910c33b41cac18",
+  "bytes": 281072,
+  "triangles": 772,
+  "vertices": 2096,
   "drawPrimitives": 2,
   "bounds": {
     "min": [
-      -0.8246175050735474,
+      -0.798852264881134,
       0.0,
       -0.4300000071525574
     ],
     "max": [
-      0.8246175050735474,
-      0.8004115074872971,
+      0.798852264881134,
+      0.7699999995529652,
       0.4300000071525574
     ]
   },
   "dimensionsMetres": {
-    "width": 1.6492350101470947,
+    "width": 1.597704529762268,
     "depth": 0.8600000143051147,
-    "height": 0.8004115074872971
+    "height": 0.7699999995529652
   },
   "footprint": [
     [
-      -0.8246175050735474,
+      -0.798852264881134,
       -0.4300000071525574
     ],
     [
-      0.8246175050735474,
+      0.798852264881134,
       -0.4300000071525574
     ],
     [
-      0.8246175050735474,
+      0.798852264881134,
       0.4300000071525574
     ],
     [
-      -0.8246175050735474,
+      -0.798852264881134,
       0.4300000071525574
     ]
   ],
@@ -77,22 +108,46 @@
     "wood"
   ],
   "requiredExtensions": [],
-  "version": "0.2.1",
+  "textures": {
+    "count": 3,
+    "bytes": 174784,
+    "estimatedRgbaBytesWithMipmaps": 1048576,
+    "images": [
+      {
+        "name": "wood-normal",
+        "bytes": 102088,
+        "width": 256,
+        "height": 256,
+        "sha256": "6b8efcb5004552d884a527017922bfb5260b8bda4dc77f1365fe1cb8a09f1d56"
+      },
+      {
+        "name": "wood-neutral-base",
+        "bytes": 39353,
+        "width": 256,
+        "height": 256,
+        "sha256": "ddcf839a2addae78944a2d7a0588f9c2055852fc4ccb4e2dae2095d28541de44"
+      },
+      {
+        "name": "wood-roughness",
+        "bytes": 33343,
+        "width": 256,
+        "height": 256,
+        "sha256": "afc2180e58360e76fb178b52f225f7ba9045a7d0d266f10886763b0590335a1a"
+      }
+    ]
+  },
+  "version": "0.7.0",
   "qualityStatus": "validated-candidate",
   "geometryFamily": "ois.family.drop-leaf-family-table",
-  "file": "assets/v0.2.1/drop-leaf-family-table.glb",
-  "sourceModel": "sources/v0.2.1/drop-leaf-family-table.blend",
-  "thumbnail": "previews/v0.2.1/drop-leaf-family-table.png",
-  "backThumbnail": "previews/v0.2.1/drop-leaf-family-table-back.png",
+  "file": "assets/v0.7.0/drop-leaf-family-table.glb",
+  "sourceModel": "sources/v0.7.0/drop-leaf-family-table.blend",
+  "thumbnail": "previews/v0.7.0/drop-leaf-family-table.png",
+  "backThumbnail": "previews/v0.7.0/drop-leaf-family-table-back.png",
   "category": "functional-furniture",
   "subtype": "drop-leaf",
   "units": "metres",
   "frame": "RH Y-up; +X right, -Z furniture front",
   "pivot": "floor Y=0; centre of primary body XZ",
-  "textures": {
-    "count": 0,
-    "bytes": 0
-  },
   "lod": {
     "delivered": [
       "LOD0"
@@ -107,32 +162,26 @@
   "visualReview": {
     "status": "pending",
     "images": [
-      "previews/v0.2.1/drop-leaf-family-table.png",
-      "previews/v0.2.1/drop-leaf-family-table-back.png"
+      "previews/v0.7.0/drop-leaf-family-table.png",
+      "previews/v0.7.0/drop-leaf-family-table-back.png"
     ]
   },
   "favouriteStorage": "user set of stable catalogue IDs",
   "colors": [
     [
-      0.58,
-      0.39,
-      0.2
+      0.11999999731779099,
+      0.14000000059604645,
+      0.12999999523162842
     ],
     [
-      0.73,
-      0.7,
-      0.61
-    ],
-    [
-      0.12,
-      0.14,
-      0.13
+      0.5799999833106995,
+      0.38999998569488525,
+      0.20000000298023224
     ]
   ],
   "colourTags": [
-    "pale oak",
-    "ivory",
-    "oatmeal"
+    "dark grey",
+    "pale oak"
   ],
   "materials": [
     "metal",
@@ -153,5 +202,49 @@
       "material": "wood",
       "recolourable": true
     }
-  ]
+  ],
+  "finalization": {
+    "unusedTangentAttributesRemoved": 1,
+    "unusedAccessorsRemoved": 1,
+    "unusedBufferViewsRemoved": 1,
+    "bytesRemoved": 2380,
+    "normalMappedTangents": "retained, never replaced with arbitrary fallback vectors"
+  },
+  "supportChecks": {
+    "method": "source-part upper-end ray to non-leg geometry, 15mm join tolerance",
+    "status": "pass",
+    "parts": [
+      {
+        "part": "panel leg",
+        "gapMetresAlongSupport": -0.003616237640380854,
+        "status": "pass"
+      },
+      {
+        "part": "panel leg.001",
+        "gapMetresAlongSupport": -0.003616237640380854,
+        "status": "pass"
+      }
+    ],
+    "limitation": "screening only; hidden joints, whole-model connectivity, load paths and safety remain visual/product-review concerns"
+  },
+  "materialFinish": {
+    "source": "materials/v1/manifest.json",
+    "repeatMetres": {
+      "wood": [
+        0.16,
+        0.75
+      ],
+      "fabric": [
+        0.14,
+        0.14
+      ],
+      "linen": [
+        0.12,
+        0.12
+      ]
+    },
+    "maps": "original base colour / roughness / tangent normal, embedded in GLB"
+  },
+  "geometryHash": "f8788f9954d7f61f806c5749b3601f67764dd4c49ae367ff38afa6d63921595b",
+  "normalizedMirrorGeometryHash": "01bb447cda926bc38d2bbcd66dc9bc0e5a99652d1da0cb7b6d61604b766d5362"
 }

@@ -4309,7 +4309,4454 @@
         "truncated": false,
         "report": "catalogue-v2/format-validation-v0.5.0-lod2/e682ba0fd4c7f00af6eea605345ced8062091579c4b1877047c0c3acd7020af8.json"
       }
+    },
+    "ois.design.arched-iron-bed@86da9ad792d8b8c954c04ab8f961d63dc21d3e0aa327be964611c62abc8c9198@LOD1": {
+      "asset": {
+        "designId": "ois.design.arched-iron-bed",
+        "familyId": "ois.family.arched-iron-bed",
+        "id": "ois.design.arched-iron-bed.lod1",
+        "name": "Arched iron bed",
+        "roomTags": [
+          "bedroom"
+        ],
+        "theme": "city-loft",
+        "builder": "signature",
+        "parameters": {
+          "form": "arched-iron-bed"
+        },
+        "distinction": "Metal arched end frames and vertical rods support a full sleeping deck.",
+        "stage": "validated-candidate",
+        "countEligible": false,
+        "variants": [],
+        "variantOf": "ois.design.arched-iron-bed",
+        "source": "scripts/design_geometry.py",
+        "licence": "LicenseRef-OIS-Original-Project",
+        "provenance": {
+          "kind": "original-procedural",
+          "authoring": "Codex for OIS Designs",
+          "thirdPartyGeometry": false,
+          "thirdPartyTextures": false,
+          "publicAssetLicence": "not separately granted",
+          "sourceSnapshot": "sources/pipeline-bf07453f548fd92d.py",
+          "sourceSha256": "bf07453f548fd92da637ecce41dc8b35010d5f15c955c971c9e3be2fb762ea2d",
+          "sourceModelSha256": "bb2e2f5b7bcd126b72151124c3ebf3b8fcc6a752cd991894122593950ebe3daa",
+          "supportSources": {
+            "signature_designs.py": {
+              "snapshot": "sources/signature_designs-6d248dd7aaa49ed4.py",
+              "sha256": "6d248dd7aaa49ed40f05c473c5d46b6fe8c97972ebf6ce139553f9641fc82b3c"
+            },
+            "material_finish.py": {
+              "snapshot": "sources/material_finish-281279dfd17b0c92.py",
+              "sha256": "281279dfd17b0c929f9038bb8066b86216427feaaefbd503abb995d06dc35730"
+            },
+            "catalogue_inventory.py": {
+              "snapshot": "sources/catalogue_inventory-db8b68fc872dbc12.py",
+              "sha256": "db8b68fc872dbc12d87e9ce013777e00d6b32cc0392e8cc09f31f8fef27b9365"
+            },
+            "finalize_glb.py": {
+              "snapshot": "sources/finalize_glb-4d1dec42be5cbf3d.py",
+              "sha256": "4d1dec42be5cbf3d6540facfa883948acd849c080f7117b8d7025749c08e2d1b"
+            },
+            "build_catalogue_v2.py": {
+              "snapshot": "sources/build_catalogue_v2-9c22533830c3704c.py",
+              "sha256": "9c22533830c3704c1ce578b58b4350ebbbf5b8d32590a07db027f671d4975577"
+            },
+            "validate_library.py": {
+              "snapshot": "sources/validate_library-48e60483e2c3d05b.py",
+              "sha256": "48e60483e2c3d05bec2c7e2669523eb77571a4ba120cb5238bbec92b8a585e0c"
+            },
+            "support_checks.py": {
+              "snapshot": "sources/support_checks-f7ed4d0400abd5f2.py",
+              "sha256": "f7ed4d0400abd5f23f27c86a9013cfefaca71234a9da953dfe97daeabb8af640"
+            }
+          },
+          "parametersFile": "sources/v0.7.0/arched-iron-bed.parameters.json"
+        },
+        "constructionKey": "signature|arched-iron-bed|{}",
+        "bedSize": "queen",
+        "mattressMetres": [
+          1.524,
+          2.032,
+          0.22
+        ],
+        "modelState": "fixed frame",
+        "safetyReviewRequired": false,
+        "sha256": "03d8e3a29eb532e768640bdfceb62febfc5fffc858ec33a9e79736ff7c90e02c",
+        "bytes": 326988,
+        "triangles": 3888,
+        "vertices": 4443,
+        "drawPrimitives": 2,
+        "bounds": {
+          "min": [
+            -0.8445001888624479,
+            -6.01596165106244e-08,
+            -1.108500541164136
+          ],
+          "max": [
+            0.8445002726386355,
+            1.3039988731455396,
+            1.108499965185973
+          ]
+        },
+        "dimensionsMetres": {
+          "width": 1.6890004615010834,
+          "depth": 2.217000506350109,
+          "height": 1.3039989333051563
+        },
+        "footprint": [
+          [
+            -0.8445001888624479,
+            -1.108500541164136
+          ],
+          [
+            0.8445002726386355,
+            -1.108500541164136
+          ],
+          [
+            0.8445002726386355,
+            1.108499965185973
+          ],
+          [
+            -0.8445001888624479,
+            1.108499965185973
+          ]
+        ],
+        "variantSlots": [
+          "metal",
+          "linen"
+        ],
+        "requiredExtensions": [],
+        "textures": {
+          "count": 3,
+          "bytes": 150985,
+          "estimatedRgbaBytesWithMipmaps": 1048576,
+          "images": [
+            {
+              "name": "linen-normal",
+              "bytes": 76292,
+              "width": 256,
+              "height": 256,
+              "sha256": "70b25282eb1daf2d7d6faad88d6b47ca1298d395b833d36d3ba28a542ed6d36e"
+            },
+            {
+              "name": "linen-neutral-base",
+              "bytes": 34309,
+              "width": 256,
+              "height": 256,
+              "sha256": "047df909f3cecf9ec0cdef6c8e2a92dea40e0116922d5b7a25bc7da6481e1ec9"
+            },
+            {
+              "name": "linen-roughness",
+              "bytes": 40384,
+              "width": 256,
+              "height": 256,
+              "sha256": "c31825bb85668747311407d1a5e5d9a56bc0e65aefbf79936d1d4665e83fdb45"
+            }
+          ]
+        },
+        "version": "0.7.0-lod1",
+        "qualityStatus": "validated-candidate",
+        "geometryFamily": "ois.family.arched-iron-bed",
+        "file": "assets/v0.7.0-lod1/arched-iron-bed-lod1.glb",
+        "sourceModel": "sources/v0.7.0/arched-iron-bed.blend",
+        "thumbnail": "previews/v0.7.0-lod1/arched-iron-bed-lod1.png",
+        "backThumbnail": "previews/v0.7.0-lod1/arched-iron-bed-lod1-back.png",
+        "category": "signature-furniture",
+        "subtype": "arched-iron-bed",
+        "units": "metres",
+        "frame": "RH Y-up; +X right, -Z furniture front",
+        "pivot": "floor Y=0; centre of primary body XZ",
+        "lod": {
+          "delivered": [
+            "LOD0"
+          ],
+          "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+        },
+        "placement": {
+          "anchor": "floor",
+          "allowArbitraryScale": false,
+          "collision": "conservative oriented XZ bounds; clearance separate"
+        },
+        "visualReview": {
+          "status": "pending"
+        },
+        "favouriteStorage": "user set of stable catalogue IDs",
+        "colors": [
+          [
+            0.8399999737739563,
+            0.800000011920929,
+            0.6899999976158142
+          ],
+          [
+            0.04500000178813934,
+            0.05000000074505806,
+            0.054999999701976776
+          ]
+        ],
+        "colourTags": [
+          "black",
+          "warm ivory"
+        ],
+        "materials": [
+          "metal",
+          "textile"
+        ],
+        "searchAliases": [
+          "bedroom",
+          "arched iron bed"
+        ],
+        "materialSlots": [
+          {
+            "id": "linen",
+            "material": "linen",
+            "recolourable": true
+          },
+          {
+            "id": "metal",
+            "material": "metal",
+            "recolourable": true
+          }
+        ],
+        "finalization": {
+          "unusedTangentAttributesRemoved": 1,
+          "unusedAccessorsRemoved": 1,
+          "unusedBufferViewsRemoved": 1,
+          "bytesRemoved": 80768,
+          "normalMappedTangents": "retained, never replaced with arbitrary fallback vectors"
+        },
+        "supportChecks": {
+          "method": "source-part upper-end ray to non-leg geometry, 15mm join tolerance",
+          "status": "pass",
+          "parts": [
+            {
+              "part": "leg",
+              "gapMetresAlongSupport": -0.020241850614547724,
+              "status": "pass"
+            },
+            {
+              "part": "leg.001",
+              "gapMetresAlongSupport": -0.02024183571338653,
+              "status": "pass"
+            },
+            {
+              "part": "leg.002",
+              "gapMetresAlongSupport": -0.02024188041687011,
+              "status": "pass"
+            },
+            {
+              "part": "leg.003",
+              "gapMetresAlongSupport": -0.02024183571338653,
+              "status": "pass"
+            }
+          ],
+          "limitation": "screening only; hidden joints, whole-model connectivity, load paths and safety remain visual/product-review concerns"
+        },
+        "materialFinish": {
+          "source": "materials/v1/manifest.json",
+          "repeatMetres": {
+            "wood": [
+              0.16,
+              0.75
+            ],
+            "fabric": [
+              0.14,
+              0.14
+            ],
+            "linen": [
+              0.12,
+              0.12
+            ]
+          },
+          "maps": "original base colour / roughness / tangent normal, embedded in GLB"
+        },
+        "geometryHash": "2b292ac94db2ca727dfdd0af2d83b4af740e63b78a01c04c3b7fcc5c87051717",
+        "normalizedMirrorGeometryHash": "132ac52c83551e2a7725bd93fc53eb0e9e36b87fca1d058a39900a6693eece44",
+        "lodLevel": 1,
+        "lodParent": {
+          "id": "ois.design.arched-iron-bed",
+          "version": "0.7.0",
+          "sha256": "86da9ad792d8b8c954c04ab8f961d63dc21d3e0aa327be964611c62abc8c9198",
+          "file": "assets/v0.7.0/arched-iron-bed.glb",
+          "sourceModelSha256": "bb2e2f5b7bcd126b72151124c3ebf3b8fcc6a752cd991894122593950ebe3daa"
+        },
+        "lodMethod": {
+          "minimumPartTriangles": 180,
+          "collapseRatio": 0.58,
+          "parts": [
+            {
+              "part": "leg",
+              "before": 60,
+              "after": 60
+            },
+            {
+              "part": "leg.001",
+              "before": 60,
+              "after": 60
+            },
+            {
+              "part": "leg.002",
+              "before": 60,
+              "after": 60
+            },
+            {
+              "part": "leg.003",
+              "before": 60,
+              "after": 60
+            },
+            {
+              "part": "bed frame",
+              "before": 188,
+              "after": 108
+            },
+            {
+              "part": "mattress",
+              "before": 188,
+              "after": 108
+            },
+            {
+              "part": "piping",
+              "before": 44,
+              "after": 44
+            },
+            {
+              "part": "arched rail",
+              "before": 524,
+              "after": 302
+            },
+            {
+              "part": "bed post",
+              "before": 60,
+              "after": 60
+            },
+            {
+              "part": "post finial",
+              "before": 528,
+              "after": 306
+            },
+            {
+              "part": "bed post.001",
+              "before": 60,
+              "after": 60
+            },
+            {
+              "part": "post finial.001",
+              "before": 528,
+              "after": 306
+            },
+            {
+              "part": "metal spindle",
+              "before": 60,
+              "after": 60
+            },
+            {
+              "part": "metal spindle.001",
+              "before": 60,
+              "after": 60
+            },
+            {
+              "part": "metal spindle.002",
+              "before": 60,
+              "after": 60
+            },
+            {
+              "part": "metal spindle.003",
+              "before": 60,
+              "after": 60
+            },
+            {
+              "part": "metal spindle.004",
+              "before": 60,
+              "after": 60
+            },
+            {
+              "part": "metal spindle.005",
+              "before": 60,
+              "after": 60
+            },
+            {
+              "part": "metal spindle.006",
+              "before": 60,
+              "after": 60
+            },
+            {
+              "part": "metal spindle.007",
+              "before": 60,
+              "after": 60
+            },
+            {
+              "part": "metal spindle.008",
+              "before": 60,
+              "after": 60
+            },
+            {
+              "part": "metal spindle.009",
+              "before": 60,
+              "after": 60
+            },
+            {
+              "part": "metal spindle.010",
+              "before": 60,
+              "after": 60
+            },
+            {
+              "part": "arched rail.001",
+              "before": 524,
+              "after": 302
+            },
+            {
+              "part": "bed post.002",
+              "before": 60,
+              "after": 60
+            },
+            {
+              "part": "post finial.002",
+              "before": 528,
+              "after": 306
+            },
+            {
+              "part": "bed post.003",
+              "before": 60,
+              "after": 60
+            },
+            {
+              "part": "post finial.003",
+              "before": 528,
+              "after": 306
+            },
+            {
+              "part": "metal spindle.011",
+              "before": 60,
+              "after": 60
+            },
+            {
+              "part": "metal spindle.012",
+              "before": 60,
+              "after": 60
+            },
+            {
+              "part": "metal spindle.013",
+              "before": 60,
+              "after": 60
+            },
+            {
+              "part": "metal spindle.014",
+              "before": 60,
+              "after": 60
+            },
+            {
+              "part": "metal spindle.015",
+              "before": 60,
+              "after": 60
+            },
+            {
+              "part": "metal spindle.016",
+              "before": 60,
+              "after": 60
+            },
+            {
+              "part": "metal spindle.017",
+              "before": 60,
+              "after": 60
+            },
+            {
+              "part": "metal spindle.018",
+              "before": 60,
+              "after": 60
+            },
+            {
+              "part": "metal spindle.019",
+              "before": 60,
+              "after": 60
+            },
+            {
+              "part": "metal spindle.020",
+              "before": 60,
+              "after": 60
+            },
+            {
+              "part": "metal spindle.021",
+              "before": 60,
+              "after": 60
+            }
+          ]
+        }
+      },
+      "decision": {
+        "sha256": "03d8e3a29eb532e768640bdfceb62febfc5fffc858ec33a9e79736ff7c90e02c",
+        "version": "0.7.0-lod1",
+        "status": "pass",
+        "notes": "Front/back contact sheet inspected: recognizable construction, sensible visible proportions, no obvious missing support or intersection at this review scale.",
+        "sheet": "catalogue-v2/review-v0.7.0-lod1/distancecheck-bedroom-01.jpg",
+        "sheetArchive": "catalogue-v2/sheet-history/26ed3dcaa9e44abf5c8a5e1b788dda2c8c621455802eebea72465b5be1bbbbb5.jpg",
+        "sheetSha256": "26ed3dcaa9e44abf5c8a5e1b788dda2c8c621455802eebea72465b5be1bbbbb5",
+        "memberBinding": {
+          "id": "ois.design.arched-iron-bed.lod1",
+          "version": "0.7.0-lod1",
+          "assetSha256": "03d8e3a29eb532e768640bdfceb62febfc5fffc858ec33a9e79736ff7c90e02c",
+          "front": "previews/v0.7.0-lod1/arched-iron-bed-lod1.png",
+          "frontSha256": "2314686ae096caac4a6a8994e09df7ba2c410ba374751e7b7d9460e1419cb778",
+          "back": "previews/v0.7.0-lod1/arched-iron-bed-lod1-back.png",
+          "backSha256": "1458e4248db7cbd169b2d5a170bf34103e19965eddf420555f2cadb0e8c5a0be"
+        },
+        "imageSha256": {
+          "previews/v0.7.0-lod1/arched-iron-bed-lod1.png": "2314686ae096caac4a6a8994e09df7ba2c410ba374751e7b7d9460e1419cb778",
+          "previews/v0.7.0-lod1/arched-iron-bed-lod1-back.png": "1458e4248db7cbd169b2d5a170bf34103e19965eddf420555f2cadb0e8c5a0be"
+        },
+        "reviewedAtUtc": "2026-11-10T04:22:33Z"
+      },
+      "comparison": {
+        "id": "ois.design.arched-iron-bed.lod1",
+        "sha256": "03d8e3a29eb532e768640bdfceb62febfc5fffc858ec33a9e79736ff7c90e02c",
+        "parentSha256": "86da9ad792d8b8c954c04ab8f961d63dc21d3e0aa327be964611c62abc8c9198",
+        "parentTriangles": 5380,
+        "triangles": 3888,
+        "ratio": 0.7226765799256506,
+        "silhouetteIoU": {
+          "front": 0.9961575408261287,
+          "side": 1.0,
+          "top": 1.0
+        },
+        "maximumBoundsDifferenceMetres": 1.1594802009629035e-06,
+        "screeningPass": true
+      },
+      "format": {
+        "id": "ois.design.arched-iron-bed.lod1",
+        "version": "0.7.0-lod1",
+        "sha256": "03d8e3a29eb532e768640bdfceb62febfc5fffc858ec33a9e79736ff7c90e02c",
+        "errors": 0,
+        "warnings": 0,
+        "truncated": false,
+        "report": "catalogue-v2/format-validation-v0.7.0-lod1/03d8e3a29eb532e768640bdfceb62febfc5fffc858ec33a9e79736ff7c90e02c.json"
+      }
+    },
+    "ois.design.curved-seven-sofa@ee3f79ad7b666e92f4ea9e9fe59f96f4076ad5a033f90952e9a3742cc0b97de5@LOD1": {
+      "asset": {
+        "designId": "ois.design.curved-seven-sofa",
+        "familyId": "ois.family.curved-seven-sofa",
+        "id": "ois.design.curved-seven-sofa.lod1",
+        "name": "Crescent modular sofa",
+        "roomTags": [
+          "living"
+        ],
+        "theme": "soft-japandi",
+        "builder": "seating",
+        "parameters": {
+          "form": "curved-sofa",
+          "w": 2.1
+        },
+        "distinction": "Seven radial modules form a concave seat/back silhouette.",
+        "stage": "validated-candidate",
+        "countEligible": false,
+        "variants": [],
+        "variantOf": "ois.design.curved-seven-sofa",
+        "source": "scripts/design_geometry.py",
+        "licence": "LicenseRef-OIS-Original-Project",
+        "provenance": {
+          "kind": "original-procedural",
+          "authoring": "Codex for OIS Designs",
+          "thirdPartyGeometry": false,
+          "thirdPartyTextures": false,
+          "publicAssetLicence": "not separately granted",
+          "sourceSnapshot": "sources/pipeline-bf07453f548fd92d.py",
+          "sourceSha256": "bf07453f548fd92da637ecce41dc8b35010d5f15c955c971c9e3be2fb762ea2d",
+          "sourceModelSha256": "79376f85d8f350de97cb44eaab31706ceba267438189127370d0984fcac9b431",
+          "supportSources": {
+            "signature_designs.py": {
+              "snapshot": "sources/signature_designs-6d248dd7aaa49ed4.py",
+              "sha256": "6d248dd7aaa49ed40f05c473c5d46b6fe8c97972ebf6ce139553f9641fc82b3c"
+            },
+            "material_finish.py": {
+              "snapshot": "sources/material_finish-281279dfd17b0c92.py",
+              "sha256": "281279dfd17b0c929f9038bb8066b86216427feaaefbd503abb995d06dc35730"
+            },
+            "catalogue_inventory.py": {
+              "snapshot": "sources/catalogue_inventory-db8b68fc872dbc12.py",
+              "sha256": "db8b68fc872dbc12d87e9ce013777e00d6b32cc0392e8cc09f31f8fef27b9365"
+            },
+            "finalize_glb.py": {
+              "snapshot": "sources/finalize_glb-4d1dec42be5cbf3d.py",
+              "sha256": "4d1dec42be5cbf3d6540facfa883948acd849c080f7117b8d7025749c08e2d1b"
+            },
+            "build_catalogue_v2.py": {
+              "snapshot": "sources/build_catalogue_v2-9c22533830c3704c.py",
+              "sha256": "9c22533830c3704c1ce578b58b4350ebbbf5b8d32590a07db027f671d4975577"
+            },
+            "validate_library.py": {
+              "snapshot": "sources/validate_library-48e60483e2c3d05b.py",
+              "sha256": "48e60483e2c3d05bec2c7e2669523eb77571a4ba120cb5238bbec92b8a585e0c"
+            },
+            "support_checks.py": {
+              "snapshot": "sources/support_checks-f7ed4d0400abd5f2.py",
+              "sha256": "f7ed4d0400abd5f23f27c86a9013cfefaca71234a9da953dfe97daeabb8af640"
+            }
+          },
+          "parametersFile": "sources/v0.7.0/curved-seven-sofa.parameters.json"
+        },
+        "constructionKey": "seating|curved-sofa|{\"base\": \"taper\"}",
+        "sha256": "e6f2377e7dc554d9452da9d50ad63cc42a3b9bf8618b242332dbf6e731ffb672",
+        "bytes": 653168,
+        "triangles": 3108,
+        "vertices": 9324,
+        "drawPrimitives": 2,
+        "bounds": {
+          "min": [
+            -1.3532127588572282,
+            0.0,
+            -0.6965348990471639
+          ],
+          "max": [
+            1.353212829872033,
+            0.916857898235321,
+            0.42999999678852574
+          ]
+        },
+        "dimensionsMetres": {
+          "width": 2.706425588729261,
+          "depth": 1.1265348958356896,
+          "height": 0.916857898235321
+        },
+        "footprint": [
+          [
+            -1.3532127588572282,
+            -0.6965348990471639
+          ],
+          [
+            1.353212829872033,
+            -0.6965348990471639
+          ],
+          [
+            1.353212829872033,
+            0.42999999678852574
+          ],
+          [
+            -1.3532127588572282,
+            0.42999999678852574
+          ]
+        ],
+        "variantSlots": [
+          "wood",
+          "fabric"
+        ],
+        "requiredExtensions": [],
+        "textures": {
+          "count": 6,
+          "bytes": 183056,
+          "estimatedRgbaBytesWithMipmaps": 2097152,
+          "images": [
+            {
+              "name": "wood-normal",
+              "bytes": 102088,
+              "width": 256,
+              "height": 256,
+              "sha256": "6b8efcb5004552d884a527017922bfb5260b8bda4dc77f1365fe1cb8a09f1d56"
+            },
+            {
+              "name": "wood-neutral-base",
+              "bytes": 39353,
+              "width": 256,
+              "height": 256,
+              "sha256": "ddcf839a2addae78944a2d7a0588f9c2055852fc4ccb4e2dae2095d28541de44"
+            },
+            {
+              "name": "wood-roughness",
+              "bytes": 33343,
+              "width": 256,
+              "height": 256,
+              "sha256": "afc2180e58360e76fb178b52f225f7ba9045a7d0d266f10886763b0590335a1a"
+            },
+            {
+              "name": "fabric-normal",
+              "bytes": 1016,
+              "width": 256,
+              "height": 256,
+              "sha256": "5bbac800a495c0a30042ad832a3ea134aa66afad65fa0dde59103733a54e886c"
+            },
+            {
+              "name": "fabric-neutral-base",
+              "bytes": 4495,
+              "width": 256,
+              "height": 256,
+              "sha256": "898e022cb5ea1b2663884e7306bbd2c09f25ab2827974bd1328a81bcab08b1ac"
+            },
+            {
+              "name": "fabric-roughness",
+              "bytes": 2761,
+              "width": 256,
+              "height": 256,
+              "sha256": "397e1c119de5e5939f7f1260cfeb7a715d695240776f51b974989073b638eeb6"
+            }
+          ]
+        },
+        "version": "0.7.0-lod1",
+        "qualityStatus": "validated-candidate",
+        "geometryFamily": "ois.family.curved-seven-sofa",
+        "file": "assets/v0.7.0-lod1/curved-seven-sofa-lod1.glb",
+        "sourceModel": "sources/v0.7.0/curved-seven-sofa.blend",
+        "thumbnail": "previews/v0.7.0-lod1/curved-seven-sofa-lod1.png",
+        "backThumbnail": "previews/v0.7.0-lod1/curved-seven-sofa-lod1-back.png",
+        "category": "seating",
+        "subtype": "curved-sofa",
+        "units": "metres",
+        "frame": "RH Y-up; +X right, -Z furniture front",
+        "pivot": "floor Y=0; centre of primary body XZ",
+        "lod": {
+          "delivered": [
+            "LOD0"
+          ],
+          "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+        },
+        "placement": {
+          "anchor": "floor",
+          "allowArbitraryScale": false,
+          "collision": "conservative oriented XZ bounds; clearance separate"
+        },
+        "visualReview": {
+          "status": "pending"
+        },
+        "favouriteStorage": "user set of stable catalogue IDs",
+        "colors": [
+          [
+            0.5799999833106995,
+            0.5400000214576721,
+            0.4399999976158142
+          ],
+          [
+            0.3400000035762787,
+            0.2800000011920929,
+            0.1899999976158142
+          ]
+        ],
+        "colourTags": [
+          "flax",
+          "smoked ash"
+        ],
+        "materials": [
+          "textile",
+          "wood"
+        ],
+        "searchAliases": [
+          "living",
+          "curved sofa"
+        ],
+        "materialSlots": [
+          {
+            "id": "fabric",
+            "material": "fabric",
+            "recolourable": true
+          },
+          {
+            "id": "wood",
+            "material": "wood",
+            "recolourable": true
+          }
+        ],
+        "finalization": {
+          "unusedTangentAttributesRemoved": 0,
+          "unusedAccessorsRemoved": 0,
+          "unusedBufferViewsRemoved": 0,
+          "bytesRemoved": 0,
+          "normalMappedTangents": "retained, never replaced with arbitrary fallback vectors"
+        },
+        "supportChecks": {
+          "method": "source-part upper-end ray to non-leg geometry, 15mm join tolerance",
+          "status": "pass",
+          "parts": [
+            {
+              "part": "module foot",
+              "gapMetresAlongSupport": -0.03500003516674041,
+              "status": "pass"
+            },
+            {
+              "part": "module foot.001",
+              "gapMetresAlongSupport": -0.03500003516674041,
+              "status": "pass"
+            },
+            {
+              "part": "module foot.002",
+              "gapMetresAlongSupport": -0.03500003516674041,
+              "status": "pass"
+            },
+            {
+              "part": "module foot.003",
+              "gapMetresAlongSupport": -0.03500003516674041,
+              "status": "pass"
+            },
+            {
+              "part": "module foot.004",
+              "gapMetresAlongSupport": -0.03500003516674041,
+              "status": "pass"
+            },
+            {
+              "part": "module foot.005",
+              "gapMetresAlongSupport": -0.0350000575184822,
+              "status": "pass"
+            },
+            {
+              "part": "module foot.006",
+              "gapMetresAlongSupport": -0.03500003516674041,
+              "status": "pass"
+            },
+            {
+              "part": "module foot.007",
+              "gapMetresAlongSupport": -0.03500003516674041,
+              "status": "pass"
+            },
+            {
+              "part": "module foot.008",
+              "gapMetresAlongSupport": -0.03500003516674041,
+              "status": "pass"
+            },
+            {
+              "part": "module foot.009",
+              "gapMetresAlongSupport": -0.03500003516674041,
+              "status": "pass"
+            },
+            {
+              "part": "module foot.010",
+              "gapMetresAlongSupport": -0.03500003516674041,
+              "status": "pass"
+            },
+            {
+              "part": "module foot.011",
+              "gapMetresAlongSupport": -0.03500004261732101,
+              "status": "pass"
+            },
+            {
+              "part": "module foot.012",
+              "gapMetresAlongSupport": -0.03500003516674041,
+              "status": "pass"
+            },
+            {
+              "part": "module foot.013",
+              "gapMetresAlongSupport": -0.03500003516674041,
+              "status": "pass"
+            }
+          ],
+          "limitation": "screening only; hidden joints, whole-model connectivity, load paths and safety remain visual/product-review concerns"
+        },
+        "materialFinish": {
+          "source": "materials/v1/manifest.json",
+          "repeatMetres": {
+            "wood": [
+              0.16,
+              0.75
+            ],
+            "fabric": [
+              0.14,
+              0.14
+            ],
+            "linen": [
+              0.12,
+              0.12
+            ]
+          },
+          "maps": "original base colour / roughness / tangent normal, embedded in GLB"
+        },
+        "appearanceVariants": [
+          {
+            "id": "ois.design.curved-seven-sofa.finish.sage",
+            "name": "Sage textile",
+            "materialOverrides": {
+              "fabric": {
+                "baseColorFactor": [
+                  0.25,
+                  0.37,
+                  0.28,
+                  1
+                ]
+              }
+            }
+          },
+          {
+            "id": "ois.design.curved-seven-sofa.finish.clay",
+            "name": "Clay textile",
+            "materialOverrides": {
+              "fabric": {
+                "baseColorFactor": [
+                  0.45,
+                  0.23,
+                  0.15,
+                  1
+                ]
+              }
+            }
+          }
+        ],
+        "variantColourTags": [
+          "sage green",
+          "clay brown"
+        ],
+        "variantCountNote": "appearance overrides share this one design; do not increase distinct count",
+        "geometryHash": "d84d4b6b765b7ed3a0d2fd8cb241b6890f0de9fed23aa663c79025b0c10df7f8",
+        "normalizedMirrorGeometryHash": "440ad289e5a6131aa8c26647266c15c9e70a325e2b98959762e5ef4009feef1a",
+        "lodLevel": 1,
+        "lodParent": {
+          "id": "ois.design.curved-seven-sofa",
+          "version": "0.7.0",
+          "sha256": "ee3f79ad7b666e92f4ea9e9fe59f96f4076ad5a033f90952e9a3742cc0b97de5",
+          "file": "assets/v0.7.0/curved-seven-sofa.glb",
+          "sourceModelSha256": "79376f85d8f350de97cb44eaab31706ceba267438189127370d0984fcac9b431"
+        },
+        "lodMethod": {
+          "minimumPartTriangles": 180,
+          "collapseRatio": 0.58,
+          "parts": [
+            {
+              "part": "radial deck",
+              "before": 188,
+              "after": 108
+            },
+            {
+              "part": "radial seat",
+              "before": 188,
+              "after": 108
+            },
+            {
+              "part": "radial back",
+              "before": 188,
+              "after": 108
+            },
+            {
+              "part": "module foot",
+              "before": 60,
+              "after": 60
+            },
+            {
+              "part": "module foot.001",
+              "before": 60,
+              "after": 60
+            },
+            {
+              "part": "radial deck.001",
+              "before": 188,
+              "after": 108
+            },
+            {
+              "part": "radial seat.001",
+              "before": 188,
+              "after": 108
+            },
+            {
+              "part": "radial back.001",
+              "before": 188,
+              "after": 108
+            },
+            {
+              "part": "module foot.002",
+              "before": 60,
+              "after": 60
+            },
+            {
+              "part": "module foot.003",
+              "before": 60,
+              "after": 60
+            },
+            {
+              "part": "radial deck.002",
+              "before": 188,
+              "after": 108
+            },
+            {
+              "part": "radial seat.002",
+              "before": 188,
+              "after": 108
+            },
+            {
+              "part": "radial back.002",
+              "before": 188,
+              "after": 108
+            },
+            {
+              "part": "module foot.004",
+              "before": 60,
+              "after": 60
+            },
+            {
+              "part": "module foot.005",
+              "before": 60,
+              "after": 60
+            },
+            {
+              "part": "radial deck.003",
+              "before": 188,
+              "after": 108
+            },
+            {
+              "part": "radial seat.003",
+              "before": 188,
+              "after": 108
+            },
+            {
+              "part": "radial back.003",
+              "before": 188,
+              "after": 108
+            },
+            {
+              "part": "module foot.006",
+              "before": 60,
+              "after": 60
+            },
+            {
+              "part": "module foot.007",
+              "before": 60,
+              "after": 60
+            },
+            {
+              "part": "radial deck.004",
+              "before": 188,
+              "after": 108
+            },
+            {
+              "part": "radial seat.004",
+              "before": 188,
+              "after": 108
+            },
+            {
+              "part": "radial back.004",
+              "before": 188,
+              "after": 108
+            },
+            {
+              "part": "module foot.008",
+              "before": 60,
+              "after": 60
+            },
+            {
+              "part": "module foot.009",
+              "before": 60,
+              "after": 60
+            },
+            {
+              "part": "radial deck.005",
+              "before": 188,
+              "after": 108
+            },
+            {
+              "part": "radial seat.005",
+              "before": 188,
+              "after": 108
+            },
+            {
+              "part": "radial back.005",
+              "before": 188,
+              "after": 108
+            },
+            {
+              "part": "module foot.010",
+              "before": 60,
+              "after": 60
+            },
+            {
+              "part": "module foot.011",
+              "before": 60,
+              "after": 60
+            },
+            {
+              "part": "radial deck.006",
+              "before": 188,
+              "after": 108
+            },
+            {
+              "part": "radial seat.006",
+              "before": 188,
+              "after": 108
+            },
+            {
+              "part": "radial back.006",
+              "before": 188,
+              "after": 108
+            },
+            {
+              "part": "module foot.012",
+              "before": 60,
+              "after": 60
+            },
+            {
+              "part": "module foot.013",
+              "before": 60,
+              "after": 60
+            }
+          ]
+        }
+      },
+      "decision": {
+        "sha256": "e6f2377e7dc554d9452da9d50ad63cc42a3b9bf8618b242332dbf6e731ffb672",
+        "version": "0.7.0-lod1",
+        "status": "pass",
+        "notes": "Front/back contact sheet inspected: recognizable construction, sensible visible proportions, no obvious missing support or intersection at this review scale.",
+        "sheet": "catalogue-v2/review-v0.7.0-lod1/distancecheck-living-01.jpg",
+        "sheetArchive": "catalogue-v2/sheet-history/5c97062c1d76a8c3360b2728ac1dc2bc9a9b27d7ea632ee098f2e6b38af942ef.jpg",
+        "sheetSha256": "5c97062c1d76a8c3360b2728ac1dc2bc9a9b27d7ea632ee098f2e6b38af942ef",
+        "memberBinding": {
+          "id": "ois.design.curved-seven-sofa.lod1",
+          "version": "0.7.0-lod1",
+          "assetSha256": "e6f2377e7dc554d9452da9d50ad63cc42a3b9bf8618b242332dbf6e731ffb672",
+          "front": "previews/v0.7.0-lod1/curved-seven-sofa-lod1.png",
+          "frontSha256": "091bd85b940423c07827c2d6271c18a664c35cd558f7181a08544c2e2ce36dcd",
+          "back": "previews/v0.7.0-lod1/curved-seven-sofa-lod1-back.png",
+          "backSha256": "1b6761574b7e3dac34d7f39a7b0aaed4511b0fead5f015f388fc56c53a5cbb04"
+        },
+        "imageSha256": {
+          "previews/v0.7.0-lod1/curved-seven-sofa-lod1.png": "091bd85b940423c07827c2d6271c18a664c35cd558f7181a08544c2e2ce36dcd",
+          "previews/v0.7.0-lod1/curved-seven-sofa-lod1-back.png": "1b6761574b7e3dac34d7f39a7b0aaed4511b0fead5f015f388fc56c53a5cbb04"
+        },
+        "reviewedAtUtc": "2026-11-10T04:22:33Z"
+      },
+      "comparison": {
+        "id": "ois.design.curved-seven-sofa.lod1",
+        "sha256": "e6f2377e7dc554d9452da9d50ad63cc42a3b9bf8618b242332dbf6e731ffb672",
+        "parentSha256": "ee3f79ad7b666e92f4ea9e9fe59f96f4076ad5a033f90952e9a3742cc0b97de5",
+        "parentTriangles": 4788,
+        "triangles": 3108,
+        "ratio": 0.6491228070175439,
+        "silhouetteIoU": {
+          "front": 0.9899777282850779,
+          "side": 0.9967280163599181,
+          "top": 0.9905579399141631
+        },
+        "maximumBoundsDifferenceMetres": 0.003595699644441286,
+        "screeningPass": true
+      },
+      "format": {
+        "id": "ois.design.curved-seven-sofa.lod1",
+        "version": "0.7.0-lod1",
+        "sha256": "e6f2377e7dc554d9452da9d50ad63cc42a3b9bf8618b242332dbf6e731ffb672",
+        "errors": 0,
+        "warnings": 0,
+        "truncated": false,
+        "report": "catalogue-v2/format-validation-v0.7.0-lod1/e6f2377e7dc554d9452da9d50ad63cc42a3b9bf8618b242332dbf6e731ffb672.json"
+      }
+    },
+    "ois.design.mesh-task-chair@691cedc27961b6306b4e9a4cb4aa4a76051874af7b0479d96698bfa84e7be50b@LOD1": {
+      "asset": {
+        "designId": "ois.design.mesh-task-chair",
+        "familyId": "ois.family.mesh-task-chair",
+        "id": "ois.design.mesh-task-chair.lod1",
+        "name": "Mesh suspension task chair",
+        "roomTags": [
+          "office"
+        ],
+        "theme": "city-loft",
+        "builder": "signature",
+        "parameters": {
+          "form": "mesh-task-chair"
+        },
+        "distinction": "Perforated flexible back and open seat frame over a five-caster base.",
+        "stage": "validated-candidate",
+        "countEligible": false,
+        "variants": [],
+        "variantOf": "ois.design.mesh-task-chair",
+        "source": "scripts/design_geometry.py",
+        "licence": "LicenseRef-OIS-Original-Project",
+        "provenance": {
+          "kind": "original-procedural",
+          "authoring": "Codex for OIS Designs",
+          "thirdPartyGeometry": false,
+          "thirdPartyTextures": false,
+          "publicAssetLicence": "not separately granted",
+          "sourceSnapshot": "sources/pipeline-bf07453f548fd92d.py",
+          "sourceSha256": "bf07453f548fd92da637ecce41dc8b35010d5f15c955c971c9e3be2fb762ea2d",
+          "sourceModelSha256": "1981c8d0c8028bf176fe4aa13d000376dcca30642db7ffefb5074518919286ac",
+          "supportSources": {
+            "signature_designs.py": {
+              "snapshot": "sources/signature_designs-6d248dd7aaa49ed4.py",
+              "sha256": "6d248dd7aaa49ed40f05c473c5d46b6fe8c97972ebf6ce139553f9641fc82b3c"
+            },
+            "material_finish.py": {
+              "snapshot": "sources/material_finish-281279dfd17b0c92.py",
+              "sha256": "281279dfd17b0c929f9038bb8066b86216427feaaefbd503abb995d06dc35730"
+            },
+            "catalogue_inventory.py": {
+              "snapshot": "sources/catalogue_inventory-db8b68fc872dbc12.py",
+              "sha256": "db8b68fc872dbc12d87e9ce013777e00d6b32cc0392e8cc09f31f8fef27b9365"
+            },
+            "finalize_glb.py": {
+              "snapshot": "sources/finalize_glb-4d1dec42be5cbf3d.py",
+              "sha256": "4d1dec42be5cbf3d6540facfa883948acd849c080f7117b8d7025749c08e2d1b"
+            },
+            "build_catalogue_v2.py": {
+              "snapshot": "sources/build_catalogue_v2-9c22533830c3704c.py",
+              "sha256": "9c22533830c3704c1ce578b58b4350ebbbf5b8d32590a07db027f671d4975577"
+            },
+            "validate_library.py": {
+              "snapshot": "sources/validate_library-48e60483e2c3d05b.py",
+              "sha256": "48e60483e2c3d05bec2c7e2669523eb77571a4ba120cb5238bbec92b8a585e0c"
+            },
+            "support_checks.py": {
+              "snapshot": "sources/support_checks-f7ed4d0400abd5f2.py",
+              "sha256": "f7ed4d0400abd5f23f27c86a9013cfefaca71234a9da953dfe97daeabb8af640"
+            }
+          },
+          "parametersFile": "sources/v0.7.0/mesh-task-chair.parameters.json"
+        },
+        "constructionKey": "signature|mesh-task-chair|{}",
+        "sha256": "8eba3de49a4b7d032e7ac9729a5d270389cc665557686328ae5b6b3f8edd5ace",
+        "bytes": 325644,
+        "triangles": 4830,
+        "vertices": 3811,
+        "drawPrimitives": 4,
+        "bounds": {
+          "min": [
+            -0.29993198082144074,
+            0.0,
+            -0.31281695673239795
+          ],
+          "max": [
+            0.33750000670552227,
+            1.1191061948746708,
+            0.3497569858200842
+          ]
+        },
+        "dimensionsMetres": {
+          "width": 0.637431987526963,
+          "depth": 0.6625739425524821,
+          "height": 1.1191061948746708
+        },
+        "footprint": [
+          [
+            -0.29993198082144074,
+            -0.31281695673239795
+          ],
+          [
+            0.33750000670552227,
+            -0.31281695673239795
+          ],
+          [
+            0.33750000670552227,
+            0.3497569858200842
+          ],
+          [
+            -0.29993198082144074,
+            0.3497569858200842
+          ]
+        ],
+        "variantSlots": [
+          "dark",
+          "linen",
+          "fabric",
+          "metal"
+        ],
+        "requiredExtensions": [],
+        "textures": {
+          "count": 6,
+          "bytes": 159257,
+          "estimatedRgbaBytesWithMipmaps": 2097152,
+          "images": [
+            {
+              "name": "linen-normal",
+              "bytes": 76292,
+              "width": 256,
+              "height": 256,
+              "sha256": "70b25282eb1daf2d7d6faad88d6b47ca1298d395b833d36d3ba28a542ed6d36e"
+            },
+            {
+              "name": "linen-neutral-base",
+              "bytes": 34309,
+              "width": 256,
+              "height": 256,
+              "sha256": "047df909f3cecf9ec0cdef6c8e2a92dea40e0116922d5b7a25bc7da6481e1ec9"
+            },
+            {
+              "name": "linen-roughness",
+              "bytes": 40384,
+              "width": 256,
+              "height": 256,
+              "sha256": "c31825bb85668747311407d1a5e5d9a56bc0e65aefbf79936d1d4665e83fdb45"
+            },
+            {
+              "name": "fabric-normal",
+              "bytes": 1016,
+              "width": 256,
+              "height": 256,
+              "sha256": "5bbac800a495c0a30042ad832a3ea134aa66afad65fa0dde59103733a54e886c"
+            },
+            {
+              "name": "fabric-neutral-base",
+              "bytes": 4495,
+              "width": 256,
+              "height": 256,
+              "sha256": "898e022cb5ea1b2663884e7306bbd2c09f25ab2827974bd1328a81bcab08b1ac"
+            },
+            {
+              "name": "fabric-roughness",
+              "bytes": 2761,
+              "width": 256,
+              "height": 256,
+              "sha256": "397e1c119de5e5939f7f1260cfeb7a715d695240776f51b974989073b638eeb6"
+            }
+          ]
+        },
+        "version": "0.7.0-lod1",
+        "qualityStatus": "validated-candidate",
+        "geometryFamily": "ois.family.mesh-task-chair",
+        "file": "assets/v0.7.0-lod1/mesh-task-chair-lod1.glb",
+        "sourceModel": "sources/v0.7.0/mesh-task-chair.blend",
+        "thumbnail": "previews/v0.7.0-lod1/mesh-task-chair-lod1.png",
+        "backThumbnail": "previews/v0.7.0-lod1/mesh-task-chair-lod1-back.png",
+        "category": "signature-furniture",
+        "subtype": "mesh-task-chair",
+        "units": "metres",
+        "frame": "RH Y-up; +X right, -Z furniture front",
+        "pivot": "floor Y=0; centre of primary body XZ",
+        "lod": {
+          "delivered": [
+            "LOD0"
+          ],
+          "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+        },
+        "placement": {
+          "anchor": "floor",
+          "allowArbitraryScale": false,
+          "collision": "conservative oriented XZ bounds; clearance separate"
+        },
+        "visualReview": {
+          "status": "pending"
+        },
+        "favouriteStorage": "user set of stable catalogue IDs",
+        "colors": [
+          [
+            0.02500000037252903,
+            0.03500000014901161,
+            0.03999999910593033
+          ],
+          [
+            0.11999999731779099,
+            0.14000000059604645,
+            0.1599999964237213
+          ],
+          [
+            0.8399999737739563,
+            0.800000011920929,
+            0.6899999976158142
+          ],
+          [
+            0.04500000178813934,
+            0.05000000074505806,
+            0.054999999701976776
+          ]
+        ],
+        "colourTags": [
+          "black",
+          "charcoal",
+          "near black",
+          "warm ivory"
+        ],
+        "materials": [
+          "metal",
+          "paint",
+          "textile"
+        ],
+        "searchAliases": [
+          "office",
+          "mesh task chair"
+        ],
+        "materialSlots": [
+          {
+            "id": "dark",
+            "material": "dark",
+            "recolourable": true
+          },
+          {
+            "id": "fabric",
+            "material": "fabric",
+            "recolourable": true
+          },
+          {
+            "id": "linen",
+            "material": "linen",
+            "recolourable": true
+          },
+          {
+            "id": "metal",
+            "material": "metal",
+            "recolourable": true
+          }
+        ],
+        "finalization": {
+          "unusedTangentAttributesRemoved": 2,
+          "unusedAccessorsRemoved": 2,
+          "unusedBufferViewsRemoved": 2,
+          "bytesRemoved": 67540,
+          "normalMappedTangents": "retained, never replaced with arbitrary fallback vectors"
+        },
+        "supportChecks": {
+          "method": "source-part upper-end ray to non-leg geometry, 15mm join tolerance",
+          "status": "needs-visual-review",
+          "parts": [
+            {
+              "part": "star leg",
+              "gapMetresAlongSupport": -2.3841857904605135e-08,
+              "status": "pass"
+            },
+            {
+              "part": "star leg.001",
+              "gapMetresAlongSupport": null,
+              "status": "needs-visual-review"
+            },
+            {
+              "part": "star leg.002",
+              "gapMetresAlongSupport": -2.3841857904605135e-08,
+              "status": "pass"
+            },
+            {
+              "part": "star leg.003",
+              "gapMetresAlongSupport": -3.874301909845279e-08,
+              "status": "pass"
+            },
+            {
+              "part": "star leg.004",
+              "gapMetresAlongSupport": -6.85453414861481e-08,
+              "status": "pass"
+            }
+          ],
+          "limitation": "screening only; hidden joints, whole-model connectivity, load paths and safety remain visual/product-review concerns"
+        },
+        "materialFinish": {
+          "source": "materials/v1/manifest.json",
+          "repeatMetres": {
+            "wood": [
+              0.16,
+              0.75
+            ],
+            "fabric": [
+              0.14,
+              0.14
+            ],
+            "linen": [
+              0.12,
+              0.12
+            ]
+          },
+          "maps": "original base colour / roughness / tangent normal, embedded in GLB"
+        },
+        "appearanceVariants": [
+          {
+            "id": "ois.design.mesh-task-chair.finish.sage",
+            "name": "Sage textile",
+            "materialOverrides": {
+              "fabric": {
+                "baseColorFactor": [
+                  0.25,
+                  0.37,
+                  0.28,
+                  1
+                ]
+              }
+            }
+          },
+          {
+            "id": "ois.design.mesh-task-chair.finish.clay",
+            "name": "Clay textile",
+            "materialOverrides": {
+              "fabric": {
+                "baseColorFactor": [
+                  0.45,
+                  0.23,
+                  0.15,
+                  1
+                ]
+              }
+            }
+          }
+        ],
+        "variantColourTags": [
+          "sage green",
+          "clay brown"
+        ],
+        "variantCountNote": "appearance overrides share this one design; do not increase distinct count",
+        "geometryHash": "e36127e320e9abb0d26560e07d0e6204e5950e930e7fb8bc731f6ecfc2a6b9fa",
+        "normalizedMirrorGeometryHash": "0cd915c0184535db3e685107757dbf3f7c8629a6d27b096a74a0d9977a1bf471",
+        "lodLevel": 1,
+        "lodParent": {
+          "id": "ois.design.mesh-task-chair",
+          "version": "0.7.0",
+          "sha256": "691cedc27961b6306b4e9a4cb4aa4a76051874af7b0479d96698bfa84e7be50b",
+          "file": "assets/v0.7.0/mesh-task-chair.glb",
+          "sourceModelSha256": "1981c8d0c8028bf176fe4aa13d000376dcca30642db7ffefb5074518919286ac"
+        },
+        "lodMethod": {
+          "minimumPartTriangles": 180,
+          "collapseRatio": 0.58,
+          "parts": [
+            {
+              "part": "star leg",
+              "before": 60,
+              "after": 60
+            },
+            {
+              "part": "caster",
+              "before": 528,
+              "after": 306
+            },
+            {
+              "part": "star leg.001",
+              "before": 60,
+              "after": 60
+            },
+            {
+              "part": "caster.001",
+              "before": 528,
+              "after": 306
+            },
+            {
+              "part": "star leg.002",
+              "before": 60,
+              "after": 60
+            },
+            {
+              "part": "caster.002",
+              "before": 528,
+              "after": 306
+            },
+            {
+              "part": "star leg.003",
+              "before": 60,
+              "after": 60
+            },
+            {
+              "part": "caster.003",
+              "before": 528,
+              "after": 306
+            },
+            {
+              "part": "star leg.004",
+              "before": 60,
+              "after": 60
+            },
+            {
+              "part": "caster.004",
+              "before": 528,
+              "after": 306
+            },
+            {
+              "part": "gas stem",
+              "before": 124,
+              "after": 124
+            },
+            {
+              "part": "seat pan",
+              "before": 188,
+              "after": 108
+            },
+            {
+              "part": "seat",
+              "before": 188,
+              "after": 108
+            },
+            {
+              "part": "piping",
+              "before": 44,
+              "after": 44
+            },
+            {
+              "part": "back support spine",
+              "before": 44,
+              "after": 44
+            },
+            {
+              "part": "mesh back perimeter",
+              "before": 92,
+              "after": 92
+            },
+            {
+              "part": "back tension cord",
+              "before": 140,
+              "after": 140
+            },
+            {
+              "part": "back tension cord.001",
+              "before": 140,
+              "after": 140
+            },
+            {
+              "part": "back tension cord.002",
+              "before": 140,
+              "after": 140
+            },
+            {
+              "part": "back tension cord.003",
+              "before": 140,
+              "after": 140
+            },
+            {
+              "part": "back tension cord.004",
+              "before": 140,
+              "after": 140
+            },
+            {
+              "part": "back tension cord.005",
+              "before": 140,
+              "after": 140
+            },
+            {
+              "part": "back tension cord.006",
+              "before": 140,
+              "after": 140
+            },
+            {
+              "part": "back tension cord.007",
+              "before": 140,
+              "after": 140
+            },
+            {
+              "part": "back tension cord.008",
+              "before": 140,
+              "after": 140
+            },
+            {
+              "part": "back tension cord.009",
+              "before": 140,
+              "after": 140
+            },
+            {
+              "part": "back tension cord.010",
+              "before": 140,
+              "after": 140
+            },
+            {
+              "part": "back tension cord.011",
+              "before": 140,
+              "after": 140
+            },
+            {
+              "part": "back tension cord.012",
+              "before": 140,
+              "after": 140
+            },
+            {
+              "part": "back tension cord.013",
+              "before": 140,
+              "after": 140
+            },
+            {
+              "part": "back tension cord.014",
+              "before": 140,
+              "after": 140
+            },
+            {
+              "part": "weft cord",
+              "before": 28,
+              "after": 28
+            },
+            {
+              "part": "weft cord.001",
+              "before": 28,
+              "after": 28
+            },
+            {
+              "part": "weft cord.002",
+              "before": 28,
+              "after": 28
+            },
+            {
+              "part": "weft cord.003",
+              "before": 28,
+              "after": 28
+            },
+            {
+              "part": "weft cord.004",
+              "before": 28,
+              "after": 28
+            },
+            {
+              "part": "weft cord.005",
+              "before": 28,
+              "after": 28
+            },
+            {
+              "part": "weft cord.006",
+              "before": 28,
+              "after": 28
+            },
+            {
+              "part": "weft cord.007",
+              "before": 28,
+              "after": 28
+            },
+            {
+              "part": "weft cord.008",
+              "before": 28,
+              "after": 28
+            },
+            {
+              "part": "weft cord.009",
+              "before": 28,
+              "after": 28
+            },
+            {
+              "part": "weft cord.010",
+              "before": 28,
+              "after": 28
+            },
+            {
+              "part": "weft cord.011",
+              "before": 28,
+              "after": 28
+            },
+            {
+              "part": "lumbar pad",
+              "before": 44,
+              "after": 44
+            }
+          ]
+        }
+      },
+      "decision": {
+        "sha256": "8eba3de49a4b7d032e7ac9729a5d270389cc665557686328ae5b6b3f8edd5ace",
+        "version": "0.7.0-lod1",
+        "status": "pass",
+        "notes": "Front/back contact sheet inspected: recognizable construction, sensible visible proportions, no obvious missing support or intersection at this review scale.",
+        "sheet": "catalogue-v2/review-v0.7.0-lod1/distancecheck-office-01.jpg",
+        "sheetArchive": "catalogue-v2/sheet-history/78b3c6110ae57c7a3df500a1a718692f14c493aeab83abe8313bd13e3e66558b.jpg",
+        "sheetSha256": "78b3c6110ae57c7a3df500a1a718692f14c493aeab83abe8313bd13e3e66558b",
+        "memberBinding": {
+          "id": "ois.design.mesh-task-chair.lod1",
+          "version": "0.7.0-lod1",
+          "assetSha256": "8eba3de49a4b7d032e7ac9729a5d270389cc665557686328ae5b6b3f8edd5ace",
+          "front": "previews/v0.7.0-lod1/mesh-task-chair-lod1.png",
+          "frontSha256": "7fca73dadd832087256b33d728168e1728920c3c49b4d2f3a908c387eea77d26",
+          "back": "previews/v0.7.0-lod1/mesh-task-chair-lod1-back.png",
+          "backSha256": "a05be89f653e5ea7e70822b302bace537ce762c4f4b463e1e7f1074ce1ec60b3"
+        },
+        "imageSha256": {
+          "previews/v0.7.0-lod1/mesh-task-chair-lod1.png": "7fca73dadd832087256b33d728168e1728920c3c49b4d2f3a908c387eea77d26",
+          "previews/v0.7.0-lod1/mesh-task-chair-lod1-back.png": "a05be89f653e5ea7e70822b302bace537ce762c4f4b463e1e7f1074ce1ec60b3"
+        },
+        "reviewedAtUtc": "2026-11-10T04:22:33Z"
+      },
+      "comparison": {
+        "id": "ois.design.mesh-task-chair.lod1",
+        "sha256": "8eba3de49a4b7d032e7ac9729a5d270389cc665557686328ae5b6b3f8edd5ace",
+        "parentSha256": "691cedc27961b6306b4e9a4cb4aa4a76051874af7b0479d96698bfa84e7be50b",
+        "parentTriangles": 6100,
+        "triangles": 4830,
+        "ratio": 0.7918032786885246,
+        "silhouetteIoU": {
+          "front": 1.0,
+          "side": 1.0,
+          "top": 0.9996712689020382
+        },
+        "maximumBoundsDifferenceMetres": 0.0,
+        "screeningPass": true
+      },
+      "format": {
+        "id": "ois.design.mesh-task-chair.lod1",
+        "version": "0.7.0-lod1",
+        "sha256": "8eba3de49a4b7d032e7ac9729a5d270389cc665557686328ae5b6b3f8edd5ace",
+        "errors": 0,
+        "warnings": 0,
+        "truncated": false,
+        "report": "catalogue-v2/format-validation-v0.7.0-lod1/8eba3de49a4b7d032e7ac9729a5d270389cc665557686328ae5b6b3f8edd5ace.json"
+      }
+    },
+    "ois.design.mesh-task-chair@691cedc27961b6306b4e9a4cb4aa4a76051874af7b0479d96698bfa84e7be50b@LOD2": {
+      "asset": {
+        "designId": "ois.design.mesh-task-chair",
+        "familyId": "ois.family.mesh-task-chair",
+        "id": "ois.design.mesh-task-chair.lod2",
+        "name": "Mesh suspension task chair",
+        "roomTags": [
+          "office"
+        ],
+        "theme": "city-loft",
+        "builder": "signature",
+        "parameters": {
+          "form": "mesh-task-chair"
+        },
+        "distinction": "Perforated flexible back and open seat frame over a five-caster base.",
+        "stage": "validated-candidate",
+        "countEligible": false,
+        "variants": [],
+        "variantOf": "ois.design.mesh-task-chair",
+        "source": "scripts/design_geometry.py",
+        "licence": "LicenseRef-OIS-Original-Project",
+        "provenance": {
+          "kind": "original-procedural",
+          "authoring": "Codex for OIS Designs",
+          "thirdPartyGeometry": false,
+          "thirdPartyTextures": false,
+          "publicAssetLicence": "not separately granted",
+          "sourceSnapshot": "sources/pipeline-bf07453f548fd92d.py",
+          "sourceSha256": "bf07453f548fd92da637ecce41dc8b35010d5f15c955c971c9e3be2fb762ea2d",
+          "sourceModelSha256": "1981c8d0c8028bf176fe4aa13d000376dcca30642db7ffefb5074518919286ac",
+          "supportSources": {
+            "signature_designs.py": {
+              "snapshot": "sources/signature_designs-6d248dd7aaa49ed4.py",
+              "sha256": "6d248dd7aaa49ed40f05c473c5d46b6fe8c97972ebf6ce139553f9641fc82b3c"
+            },
+            "material_finish.py": {
+              "snapshot": "sources/material_finish-281279dfd17b0c92.py",
+              "sha256": "281279dfd17b0c929f9038bb8066b86216427feaaefbd503abb995d06dc35730"
+            },
+            "catalogue_inventory.py": {
+              "snapshot": "sources/catalogue_inventory-db8b68fc872dbc12.py",
+              "sha256": "db8b68fc872dbc12d87e9ce013777e00d6b32cc0392e8cc09f31f8fef27b9365"
+            },
+            "finalize_glb.py": {
+              "snapshot": "sources/finalize_glb-4d1dec42be5cbf3d.py",
+              "sha256": "4d1dec42be5cbf3d6540facfa883948acd849c080f7117b8d7025749c08e2d1b"
+            },
+            "build_catalogue_v2.py": {
+              "snapshot": "sources/build_catalogue_v2-9c22533830c3704c.py",
+              "sha256": "9c22533830c3704c1ce578b58b4350ebbbf5b8d32590a07db027f671d4975577"
+            },
+            "validate_library.py": {
+              "snapshot": "sources/validate_library-48e60483e2c3d05b.py",
+              "sha256": "48e60483e2c3d05bec2c7e2669523eb77571a4ba120cb5238bbec92b8a585e0c"
+            },
+            "support_checks.py": {
+              "snapshot": "sources/support_checks-f7ed4d0400abd5f2.py",
+              "sha256": "f7ed4d0400abd5f23f27c86a9013cfefaca71234a9da953dfe97daeabb8af640"
+            }
+          },
+          "parametersFile": "sources/v0.7.0/mesh-task-chair.parameters.json"
+        },
+        "constructionKey": "signature|mesh-task-chair|{}",
+        "sha256": "856e8b4bf34fe8509bb4298d98793e12e1e6f08cd1439979aeee1307a2eeb783",
+        "bytes": 295068,
+        "triangles": 3986,
+        "vertices": 3091,
+        "drawPrimitives": 4,
+        "bounds": {
+          "min": [
+            -0.29993198082144074,
+            -1.6389252177617664e-09,
+            -0.31296015093023044
+          ],
+          "max": [
+            0.3374887458975606,
+            1.1190586229175594,
+            0.3497569858200842
+          ]
+        },
+        "dimensionsMetres": {
+          "width": 0.6374207267190013,
+          "depth": 0.6627171367503146,
+          "height": 1.1190586245564846
+        },
+        "footprint": [
+          [
+            -0.29993198082144074,
+            -0.31296015093023044
+          ],
+          [
+            0.3374887458975606,
+            -0.31296015093023044
+          ],
+          [
+            0.3374887458975606,
+            0.3497569858200842
+          ],
+          [
+            -0.29993198082144074,
+            0.3497569858200842
+          ]
+        ],
+        "variantSlots": [
+          "dark",
+          "linen",
+          "fabric",
+          "metal"
+        ],
+        "requiredExtensions": [],
+        "textures": {
+          "count": 6,
+          "bytes": 159257,
+          "estimatedRgbaBytesWithMipmaps": 2097152,
+          "images": [
+            {
+              "name": "linen-normal",
+              "bytes": 76292,
+              "width": 256,
+              "height": 256,
+              "sha256": "70b25282eb1daf2d7d6faad88d6b47ca1298d395b833d36d3ba28a542ed6d36e"
+            },
+            {
+              "name": "linen-neutral-base",
+              "bytes": 34309,
+              "width": 256,
+              "height": 256,
+              "sha256": "047df909f3cecf9ec0cdef6c8e2a92dea40e0116922d5b7a25bc7da6481e1ec9"
+            },
+            {
+              "name": "linen-roughness",
+              "bytes": 40384,
+              "width": 256,
+              "height": 256,
+              "sha256": "c31825bb85668747311407d1a5e5d9a56bc0e65aefbf79936d1d4665e83fdb45"
+            },
+            {
+              "name": "fabric-normal",
+              "bytes": 1016,
+              "width": 256,
+              "height": 256,
+              "sha256": "5bbac800a495c0a30042ad832a3ea134aa66afad65fa0dde59103733a54e886c"
+            },
+            {
+              "name": "fabric-neutral-base",
+              "bytes": 4495,
+              "width": 256,
+              "height": 256,
+              "sha256": "898e022cb5ea1b2663884e7306bbd2c09f25ab2827974bd1328a81bcab08b1ac"
+            },
+            {
+              "name": "fabric-roughness",
+              "bytes": 2761,
+              "width": 256,
+              "height": 256,
+              "sha256": "397e1c119de5e5939f7f1260cfeb7a715d695240776f51b974989073b638eeb6"
+            }
+          ]
+        },
+        "version": "0.7.0-lod1",
+        "qualityStatus": "validated-candidate",
+        "geometryFamily": "ois.family.mesh-task-chair",
+        "file": "assets/v0.7.0-lod1/mesh-task-chair-lod2.glb",
+        "sourceModel": "sources/v0.7.0/mesh-task-chair.blend",
+        "thumbnail": "previews/v0.7.0-lod1/mesh-task-chair-lod2.png",
+        "backThumbnail": "previews/v0.7.0-lod1/mesh-task-chair-lod2-back.png",
+        "category": "signature-furniture",
+        "subtype": "mesh-task-chair",
+        "units": "metres",
+        "frame": "RH Y-up; +X right, -Z furniture front",
+        "pivot": "floor Y=0; centre of primary body XZ",
+        "lod": {
+          "delivered": [
+            "LOD0"
+          ],
+          "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+        },
+        "placement": {
+          "anchor": "floor",
+          "allowArbitraryScale": false,
+          "collision": "conservative oriented XZ bounds; clearance separate"
+        },
+        "visualReview": {
+          "status": "pending"
+        },
+        "favouriteStorage": "user set of stable catalogue IDs",
+        "colors": [
+          [
+            0.02500000037252903,
+            0.03500000014901161,
+            0.03999999910593033
+          ],
+          [
+            0.11999999731779099,
+            0.14000000059604645,
+            0.1599999964237213
+          ],
+          [
+            0.8399999737739563,
+            0.800000011920929,
+            0.6899999976158142
+          ],
+          [
+            0.04500000178813934,
+            0.05000000074505806,
+            0.054999999701976776
+          ]
+        ],
+        "colourTags": [
+          "black",
+          "charcoal",
+          "near black",
+          "warm ivory"
+        ],
+        "materials": [
+          "metal",
+          "paint",
+          "textile"
+        ],
+        "searchAliases": [
+          "office",
+          "mesh task chair"
+        ],
+        "materialSlots": [
+          {
+            "id": "dark",
+            "material": "dark",
+            "recolourable": true
+          },
+          {
+            "id": "fabric",
+            "material": "fabric",
+            "recolourable": true
+          },
+          {
+            "id": "linen",
+            "material": "linen",
+            "recolourable": true
+          },
+          {
+            "id": "metal",
+            "material": "metal",
+            "recolourable": true
+          }
+        ],
+        "finalization": {
+          "unusedTangentAttributesRemoved": 2,
+          "unusedAccessorsRemoved": 2,
+          "unusedBufferViewsRemoved": 2,
+          "bytesRemoved": 67540,
+          "normalMappedTangents": "retained, never replaced with arbitrary fallback vectors"
+        },
+        "supportChecks": {
+          "method": "source-part upper-end ray to non-leg geometry, 15mm join tolerance",
+          "status": "needs-visual-review",
+          "parts": [
+            {
+              "part": "star leg",
+              "gapMetresAlongSupport": -2.3841857904605135e-08,
+              "status": "pass"
+            },
+            {
+              "part": "star leg.001",
+              "gapMetresAlongSupport": null,
+              "status": "needs-visual-review"
+            },
+            {
+              "part": "star leg.002",
+              "gapMetresAlongSupport": -2.3841857904605135e-08,
+              "status": "pass"
+            },
+            {
+              "part": "star leg.003",
+              "gapMetresAlongSupport": -3.874301909845279e-08,
+              "status": "pass"
+            },
+            {
+              "part": "star leg.004",
+              "gapMetresAlongSupport": -6.85453414861481e-08,
+              "status": "pass"
+            }
+          ],
+          "limitation": "screening only; hidden joints, whole-model connectivity, load paths and safety remain visual/product-review concerns"
+        },
+        "materialFinish": {
+          "source": "materials/v1/manifest.json",
+          "repeatMetres": {
+            "wood": [
+              0.16,
+              0.75
+            ],
+            "fabric": [
+              0.14,
+              0.14
+            ],
+            "linen": [
+              0.12,
+              0.12
+            ]
+          },
+          "maps": "original base colour / roughness / tangent normal, embedded in GLB"
+        },
+        "appearanceVariants": [
+          {
+            "id": "ois.design.mesh-task-chair.finish.sage",
+            "name": "Sage textile",
+            "materialOverrides": {
+              "fabric": {
+                "baseColorFactor": [
+                  0.25,
+                  0.37,
+                  0.28,
+                  1
+                ]
+              }
+            }
+          },
+          {
+            "id": "ois.design.mesh-task-chair.finish.clay",
+            "name": "Clay textile",
+            "materialOverrides": {
+              "fabric": {
+                "baseColorFactor": [
+                  0.45,
+                  0.23,
+                  0.15,
+                  1
+                ]
+              }
+            }
+          }
+        ],
+        "variantColourTags": [
+          "sage green",
+          "clay brown"
+        ],
+        "variantCountNote": "appearance overrides share this one design; do not increase distinct count",
+        "geometryHash": "e36127e320e9abb0d26560e07d0e6204e5950e930e7fb8bc731f6ecfc2a6b9fa",
+        "normalizedMirrorGeometryHash": "0cd915c0184535db3e685107757dbf3f7c8629a6d27b096a74a0d9977a1bf471",
+        "lodLevel": 2,
+        "lodParent": {
+          "id": "ois.design.mesh-task-chair",
+          "version": "0.7.0",
+          "sha256": "691cedc27961b6306b4e9a4cb4aa4a76051874af7b0479d96698bfa84e7be50b",
+          "file": "assets/v0.7.0/mesh-task-chair.glb",
+          "sourceModelSha256": "1981c8d0c8028bf176fe4aa13d000376dcca30642db7ffefb5074518919286ac"
+        },
+        "lodMethod": {
+          "minimumPartTriangles": 180,
+          "collapseRatio": 0.3,
+          "parts": [
+            {
+              "part": "star leg",
+              "before": 60,
+              "after": 60
+            },
+            {
+              "part": "caster",
+              "before": 528,
+              "after": 158
+            },
+            {
+              "part": "star leg.001",
+              "before": 60,
+              "after": 60
+            },
+            {
+              "part": "caster.001",
+              "before": 528,
+              "after": 158
+            },
+            {
+              "part": "star leg.002",
+              "before": 60,
+              "after": 60
+            },
+            {
+              "part": "caster.002",
+              "before": 528,
+              "after": 158
+            },
+            {
+              "part": "star leg.003",
+              "before": 60,
+              "after": 60
+            },
+            {
+              "part": "caster.003",
+              "before": 528,
+              "after": 158
+            },
+            {
+              "part": "star leg.004",
+              "before": 60,
+              "after": 60
+            },
+            {
+              "part": "caster.004",
+              "before": 528,
+              "after": 158
+            },
+            {
+              "part": "gas stem",
+              "before": 124,
+              "after": 124
+            },
+            {
+              "part": "seat pan",
+              "before": 188,
+              "after": 56
+            },
+            {
+              "part": "seat",
+              "before": 188,
+              "after": 56
+            },
+            {
+              "part": "piping",
+              "before": 44,
+              "after": 44
+            },
+            {
+              "part": "back support spine",
+              "before": 44,
+              "after": 44
+            },
+            {
+              "part": "mesh back perimeter",
+              "before": 92,
+              "after": 92
+            },
+            {
+              "part": "back tension cord",
+              "before": 140,
+              "after": 140
+            },
+            {
+              "part": "back tension cord.001",
+              "before": 140,
+              "after": 140
+            },
+            {
+              "part": "back tension cord.002",
+              "before": 140,
+              "after": 140
+            },
+            {
+              "part": "back tension cord.003",
+              "before": 140,
+              "after": 140
+            },
+            {
+              "part": "back tension cord.004",
+              "before": 140,
+              "after": 140
+            },
+            {
+              "part": "back tension cord.005",
+              "before": 140,
+              "after": 140
+            },
+            {
+              "part": "back tension cord.006",
+              "before": 140,
+              "after": 140
+            },
+            {
+              "part": "back tension cord.007",
+              "before": 140,
+              "after": 140
+            },
+            {
+              "part": "back tension cord.008",
+              "before": 140,
+              "after": 140
+            },
+            {
+              "part": "back tension cord.009",
+              "before": 140,
+              "after": 140
+            },
+            {
+              "part": "back tension cord.010",
+              "before": 140,
+              "after": 140
+            },
+            {
+              "part": "back tension cord.011",
+              "before": 140,
+              "after": 140
+            },
+            {
+              "part": "back tension cord.012",
+              "before": 140,
+              "after": 140
+            },
+            {
+              "part": "back tension cord.013",
+              "before": 140,
+              "after": 140
+            },
+            {
+              "part": "back tension cord.014",
+              "before": 140,
+              "after": 140
+            },
+            {
+              "part": "weft cord",
+              "before": 28,
+              "after": 28
+            },
+            {
+              "part": "weft cord.001",
+              "before": 28,
+              "after": 28
+            },
+            {
+              "part": "weft cord.002",
+              "before": 28,
+              "after": 28
+            },
+            {
+              "part": "weft cord.003",
+              "before": 28,
+              "after": 28
+            },
+            {
+              "part": "weft cord.004",
+              "before": 28,
+              "after": 28
+            },
+            {
+              "part": "weft cord.005",
+              "before": 28,
+              "after": 28
+            },
+            {
+              "part": "weft cord.006",
+              "before": 28,
+              "after": 28
+            },
+            {
+              "part": "weft cord.007",
+              "before": 28,
+              "after": 28
+            },
+            {
+              "part": "weft cord.008",
+              "before": 28,
+              "after": 28
+            },
+            {
+              "part": "weft cord.009",
+              "before": 28,
+              "after": 28
+            },
+            {
+              "part": "weft cord.010",
+              "before": 28,
+              "after": 28
+            },
+            {
+              "part": "weft cord.011",
+              "before": 28,
+              "after": 28
+            },
+            {
+              "part": "lumbar pad",
+              "before": 44,
+              "after": 44
+            }
+          ]
+        }
+      },
+      "decision": {
+        "sha256": "856e8b4bf34fe8509bb4298d98793e12e1e6f08cd1439979aeee1307a2eeb783",
+        "version": "0.7.0-lod1",
+        "status": "pass",
+        "notes": "Front/back contact sheet inspected: recognizable construction, sensible visible proportions, no obvious missing support or intersection at this review scale.",
+        "sheet": "catalogue-v2/review-v0.7.0-lod1/distancecheck-office-01.jpg",
+        "sheetArchive": "catalogue-v2/sheet-history/78b3c6110ae57c7a3df500a1a718692f14c493aeab83abe8313bd13e3e66558b.jpg",
+        "sheetSha256": "78b3c6110ae57c7a3df500a1a718692f14c493aeab83abe8313bd13e3e66558b",
+        "memberBinding": {
+          "id": "ois.design.mesh-task-chair.lod2",
+          "version": "0.7.0-lod1",
+          "assetSha256": "856e8b4bf34fe8509bb4298d98793e12e1e6f08cd1439979aeee1307a2eeb783",
+          "front": "previews/v0.7.0-lod1/mesh-task-chair-lod2.png",
+          "frontSha256": "0d24486c67964fc86f576bc0af70c7be3d24a2fc529a34247db8d07b4acd941b",
+          "back": "previews/v0.7.0-lod1/mesh-task-chair-lod2-back.png",
+          "backSha256": "10271bfc684930797bee4a64a0cd601eae1c66a7d4f41e67b0385f166a23d0bf"
+        },
+        "imageSha256": {
+          "previews/v0.7.0-lod1/mesh-task-chair-lod2.png": "0d24486c67964fc86f576bc0af70c7be3d24a2fc529a34247db8d07b4acd941b",
+          "previews/v0.7.0-lod1/mesh-task-chair-lod2-back.png": "10271bfc684930797bee4a64a0cd601eae1c66a7d4f41e67b0385f166a23d0bf"
+        },
+        "reviewedAtUtc": "2026-11-10T04:22:33Z"
+      },
+      "comparison": {
+        "id": "ois.design.mesh-task-chair.lod2",
+        "sha256": "856e8b4bf34fe8509bb4298d98793e12e1e6f08cd1439979aeee1307a2eeb783",
+        "parentSha256": "691cedc27961b6306b4e9a4cb4aa4a76051874af7b0479d96698bfa84e7be50b",
+        "parentTriangles": 6100,
+        "triangles": 3986,
+        "ratio": 0.6534426229508197,
+        "silhouetteIoU": {
+          "front": 0.9925173703901656,
+          "side": 0.9900662251655629,
+          "top": 0.9980276134122288
+        },
+        "maximumBoundsDifferenceMetres": 0.00014319419783248577,
+        "screeningPass": true
+      },
+      "format": {
+        "id": "ois.design.mesh-task-chair.lod2",
+        "version": "0.7.0-lod1",
+        "sha256": "856e8b4bf34fe8509bb4298d98793e12e1e6f08cd1439979aeee1307a2eeb783",
+        "errors": 0,
+        "warnings": 0,
+        "truncated": false,
+        "report": "catalogue-v2/format-validation-v0.7.0-lod1/856e8b4bf34fe8509bb4298d98793e12e1e6f08cd1439979aeee1307a2eeb783.json"
+      }
+    },
+    "ois.design.rolled-tuft-sofa@8513379a7ea5da6061214d7bf942624c4d6c3946b2219bbe07985531295ccda1@LOD1": {
+      "asset": {
+        "designId": "ois.design.rolled-tuft-sofa",
+        "familyId": "ois.family.rolled-tuft-sofa",
+        "id": "ois.design.rolled-tuft-sofa.lod1",
+        "name": "Rolled tuft sofa",
+        "roomTags": [
+          "living"
+        ],
+        "theme": "walnut-form",
+        "builder": "seating",
+        "parameters": {
+          "form": "chester",
+          "w": 2.2
+        },
+        "distinction": "Continuous cylindrical rolled arms and deep buttoned back.",
+        "stage": "validated-candidate",
+        "countEligible": false,
+        "variants": [],
+        "variantOf": "ois.design.rolled-tuft-sofa",
+        "source": "scripts/design_geometry.py",
+        "licence": "LicenseRef-OIS-Original-Project",
+        "provenance": {
+          "kind": "original-procedural",
+          "authoring": "Codex for OIS Designs",
+          "thirdPartyGeometry": false,
+          "thirdPartyTextures": false,
+          "publicAssetLicence": "not separately granted",
+          "sourceSnapshot": "sources/pipeline-bf07453f548fd92d.py",
+          "sourceSha256": "bf07453f548fd92da637ecce41dc8b35010d5f15c955c971c9e3be2fb762ea2d",
+          "sourceModelSha256": "f28c74b8a9fe45fc6991ad6919226ed7a2082cc747bae3d18c2f249a49b48e8d",
+          "supportSources": {
+            "signature_designs.py": {
+              "snapshot": "sources/signature_designs-6d248dd7aaa49ed4.py",
+              "sha256": "6d248dd7aaa49ed40f05c473c5d46b6fe8c97972ebf6ce139553f9641fc82b3c"
+            },
+            "material_finish.py": {
+              "snapshot": "sources/material_finish-281279dfd17b0c92.py",
+              "sha256": "281279dfd17b0c929f9038bb8066b86216427feaaefbd503abb995d06dc35730"
+            },
+            "catalogue_inventory.py": {
+              "snapshot": "sources/catalogue_inventory-db8b68fc872dbc12.py",
+              "sha256": "db8b68fc872dbc12d87e9ce013777e00d6b32cc0392e8cc09f31f8fef27b9365"
+            },
+            "finalize_glb.py": {
+              "snapshot": "sources/finalize_glb-4d1dec42be5cbf3d.py",
+              "sha256": "4d1dec42be5cbf3d6540facfa883948acd849c080f7117b8d7025749c08e2d1b"
+            },
+            "build_catalogue_v2.py": {
+              "snapshot": "sources/build_catalogue_v2-9c22533830c3704c.py",
+              "sha256": "9c22533830c3704c1ce578b58b4350ebbbf5b8d32590a07db027f671d4975577"
+            },
+            "validate_library.py": {
+              "snapshot": "sources/validate_library-48e60483e2c3d05b.py",
+              "sha256": "48e60483e2c3d05bec2c7e2669523eb77571a4ba120cb5238bbec92b8a585e0c"
+            },
+            "support_checks.py": {
+              "snapshot": "sources/support_checks-f7ed4d0400abd5f2.py",
+              "sha256": "f7ed4d0400abd5f23f27c86a9013cfefaca71234a9da953dfe97daeabb8af640"
+            }
+          },
+          "parametersFile": "sources/v0.7.0/rolled-tuft-sofa.parameters.json"
+        },
+        "constructionKey": "seating|chester|{\"base\": \"taper\"}",
+        "sha256": "b6d3d9fb2965d3b0937d9078c9a95c392ae68732bf61f92ac2416fb2519990ca",
+        "bytes": 850852,
+        "triangles": 3408,
+        "vertices": 10224,
+        "drawPrimitives": 3,
+        "bounds": {
+          "min": [
+            -1.1449999809265137,
+            -6.46684212290971e-08,
+            -0.39500001072883606
+          ],
+          "max": [
+            1.1449999809265137,
+            0.8238979876041412,
+            0.42185065150260925
+          ]
+        },
+        "dimensionsMetres": {
+          "width": 2.2899999618530273,
+          "depth": 0.8168506622314453,
+          "height": 0.8238980522725625
+        },
+        "footprint": [
+          [
+            -1.1449999809265137,
+            -0.39500001072883606
+          ],
+          [
+            1.1449999809265137,
+            -0.39500001072883606
+          ],
+          [
+            1.1449999809265137,
+            0.42185065150260925
+          ],
+          [
+            -1.1449999809265137,
+            0.42185065150260925
+          ]
+        ],
+        "variantSlots": [
+          "wood",
+          "linen",
+          "fabric"
+        ],
+        "requiredExtensions": [],
+        "textures": {
+          "count": 9,
+          "bytes": 334041,
+          "estimatedRgbaBytesWithMipmaps": 3145728,
+          "images": [
+            {
+              "name": "wood-normal",
+              "bytes": 102088,
+              "width": 256,
+              "height": 256,
+              "sha256": "6b8efcb5004552d884a527017922bfb5260b8bda4dc77f1365fe1cb8a09f1d56"
+            },
+            {
+              "name": "wood-neutral-base",
+              "bytes": 39353,
+              "width": 256,
+              "height": 256,
+              "sha256": "ddcf839a2addae78944a2d7a0588f9c2055852fc4ccb4e2dae2095d28541de44"
+            },
+            {
+              "name": "wood-roughness",
+              "bytes": 33343,
+              "width": 256,
+              "height": 256,
+              "sha256": "afc2180e58360e76fb178b52f225f7ba9045a7d0d266f10886763b0590335a1a"
+            },
+            {
+              "name": "linen-normal",
+              "bytes": 76292,
+              "width": 256,
+              "height": 256,
+              "sha256": "70b25282eb1daf2d7d6faad88d6b47ca1298d395b833d36d3ba28a542ed6d36e"
+            },
+            {
+              "name": "linen-neutral-base",
+              "bytes": 34309,
+              "width": 256,
+              "height": 256,
+              "sha256": "047df909f3cecf9ec0cdef6c8e2a92dea40e0116922d5b7a25bc7da6481e1ec9"
+            },
+            {
+              "name": "linen-roughness",
+              "bytes": 40384,
+              "width": 256,
+              "height": 256,
+              "sha256": "c31825bb85668747311407d1a5e5d9a56bc0e65aefbf79936d1d4665e83fdb45"
+            },
+            {
+              "name": "fabric-normal",
+              "bytes": 1016,
+              "width": 256,
+              "height": 256,
+              "sha256": "5bbac800a495c0a30042ad832a3ea134aa66afad65fa0dde59103733a54e886c"
+            },
+            {
+              "name": "fabric-neutral-base",
+              "bytes": 4495,
+              "width": 256,
+              "height": 256,
+              "sha256": "898e022cb5ea1b2663884e7306bbd2c09f25ab2827974bd1328a81bcab08b1ac"
+            },
+            {
+              "name": "fabric-roughness",
+              "bytes": 2761,
+              "width": 256,
+              "height": 256,
+              "sha256": "397e1c119de5e5939f7f1260cfeb7a715d695240776f51b974989073b638eeb6"
+            }
+          ]
+        },
+        "version": "0.7.0-lod1",
+        "qualityStatus": "validated-candidate",
+        "geometryFamily": "ois.family.rolled-tuft-sofa",
+        "file": "assets/v0.7.0-lod1/rolled-tuft-sofa-lod1.glb",
+        "sourceModel": "sources/v0.7.0/rolled-tuft-sofa.blend",
+        "thumbnail": "previews/v0.7.0-lod1/rolled-tuft-sofa-lod1.png",
+        "backThumbnail": "previews/v0.7.0-lod1/rolled-tuft-sofa-lod1-back.png",
+        "category": "seating",
+        "subtype": "chester",
+        "units": "metres",
+        "frame": "RH Y-up; +X right, -Z furniture front",
+        "pivot": "floor Y=0; centre of primary body XZ",
+        "lod": {
+          "delivered": [
+            "LOD0"
+          ],
+          "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+        },
+        "placement": {
+          "anchor": "floor",
+          "allowArbitraryScale": false,
+          "collision": "conservative oriented XZ bounds; clearance separate"
+        },
+        "visualReview": {
+          "status": "pending"
+        },
+        "favouriteStorage": "user set of stable catalogue IDs",
+        "colors": [
+          [
+            0.38999998569488525,
+            0.18000000715255737,
+            0.07000000029802322
+          ],
+          [
+            0.8399999737739563,
+            0.800000011920929,
+            0.6899999976158142
+          ],
+          [
+            0.2199999988079071,
+            0.09000000357627869,
+            0.03799999877810478
+          ]
+        ],
+        "colourTags": [
+          "tobacco",
+          "walnut brown",
+          "warm ivory"
+        ],
+        "materials": [
+          "textile",
+          "wood"
+        ],
+        "searchAliases": [
+          "living",
+          "chester"
+        ],
+        "materialSlots": [
+          {
+            "id": "fabric",
+            "material": "fabric",
+            "recolourable": true
+          },
+          {
+            "id": "linen",
+            "material": "linen",
+            "recolourable": true
+          },
+          {
+            "id": "wood",
+            "material": "wood",
+            "recolourable": true
+          }
+        ],
+        "finalization": {
+          "unusedTangentAttributesRemoved": 0,
+          "unusedAccessorsRemoved": 0,
+          "unusedBufferViewsRemoved": 0,
+          "bytesRemoved": 0,
+          "normalMappedTangents": "retained, never replaced with arbitrary fallback vectors"
+        },
+        "supportChecks": {
+          "method": "source-part upper-end ray to non-leg geometry, 15mm join tolerance",
+          "status": "pass",
+          "parts": [
+            {
+              "part": "leg",
+              "gapMetresAlongSupport": -0.020563566684722895,
+              "status": "pass"
+            },
+            {
+              "part": "leg.001",
+              "gapMetresAlongSupport": -0.020563566684722895,
+              "status": "pass"
+            },
+            {
+              "part": "leg.002",
+              "gapMetresAlongSupport": -0.0205635517835617,
+              "status": "pass"
+            },
+            {
+              "part": "leg.003",
+              "gapMetresAlongSupport": -0.020563566684722895,
+              "status": "pass"
+            }
+          ],
+          "limitation": "screening only; hidden joints, whole-model connectivity, load paths and safety remain visual/product-review concerns"
+        },
+        "materialFinish": {
+          "source": "materials/v1/manifest.json",
+          "repeatMetres": {
+            "wood": [
+              0.16,
+              0.75
+            ],
+            "fabric": [
+              0.14,
+              0.14
+            ],
+            "linen": [
+              0.12,
+              0.12
+            ]
+          },
+          "maps": "original base colour / roughness / tangent normal, embedded in GLB"
+        },
+        "appearanceVariants": [
+          {
+            "id": "ois.design.rolled-tuft-sofa.finish.sage",
+            "name": "Sage textile",
+            "materialOverrides": {
+              "fabric": {
+                "baseColorFactor": [
+                  0.25,
+                  0.37,
+                  0.28,
+                  1
+                ]
+              }
+            }
+          },
+          {
+            "id": "ois.design.rolled-tuft-sofa.finish.clay",
+            "name": "Clay textile",
+            "materialOverrides": {
+              "fabric": {
+                "baseColorFactor": [
+                  0.45,
+                  0.23,
+                  0.15,
+                  1
+                ]
+              }
+            }
+          }
+        ],
+        "variantColourTags": [
+          "sage green",
+          "clay brown"
+        ],
+        "variantCountNote": "appearance overrides share this one design; do not increase distinct count",
+        "geometryHash": "83107cd6c8e3e4effbfa36c53ce483797ee488c110caad65dec7d9d64a85f87d",
+        "normalizedMirrorGeometryHash": "49cf2e8301873ca2ea190c20fbc545add9fee221d531a07b0cc706294fd09911",
+        "lodLevel": 1,
+        "lodParent": {
+          "id": "ois.design.rolled-tuft-sofa",
+          "version": "0.7.0",
+          "sha256": "8513379a7ea5da6061214d7bf942624c4d6c3946b2219bbe07985531295ccda1",
+          "file": "assets/v0.7.0/rolled-tuft-sofa.glb",
+          "sourceModelSha256": "f28c74b8a9fe45fc6991ad6919226ed7a2082cc747bae3d18c2f249a49b48e8d"
+        },
+        "lodMethod": {
+          "minimumPartTriangles": 180,
+          "collapseRatio": 0.58,
+          "parts": [
+            {
+              "part": "leg",
+              "before": 60,
+              "after": 60
+            },
+            {
+              "part": "leg.001",
+              "before": 60,
+              "after": 60
+            },
+            {
+              "part": "leg.002",
+              "before": 60,
+              "after": 60
+            },
+            {
+              "part": "leg.003",
+              "before": 60,
+              "after": 60
+            },
+            {
+              "part": "seat deck",
+              "before": 188,
+              "after": 108
+            },
+            {
+              "part": "concealed back frame",
+              "before": 188,
+              "after": 108
+            },
+            {
+              "part": "seat cushion",
+              "before": 188,
+              "after": 108
+            },
+            {
+              "part": "piping",
+              "before": 44,
+              "after": 44
+            },
+            {
+              "part": "back cushion",
+              "before": 188,
+              "after": 108
+            },
+            {
+              "part": "deep tuft button",
+              "before": 528,
+              "after": 306
+            },
+            {
+              "part": "deep tuft button.001",
+              "before": 528,
+              "after": 306
+            },
+            {
+              "part": "seat cushion.001",
+              "before": 188,
+              "after": 108
+            },
+            {
+              "part": "piping.001",
+              "before": 44,
+              "after": 44
+            },
+            {
+              "part": "back cushion.001",
+              "before": 188,
+              "after": 108
+            },
+            {
+              "part": "deep tuft button.002",
+              "before": 528,
+              "after": 306
+            },
+            {
+              "part": "deep tuft button.003",
+              "before": 528,
+              "after": 306
+            },
+            {
+              "part": "seat cushion.002",
+              "before": 188,
+              "after": 108
+            },
+            {
+              "part": "piping.002",
+              "before": 44,
+              "after": 44
+            },
+            {
+              "part": "back cushion.002",
+              "before": 188,
+              "after": 108
+            },
+            {
+              "part": "deep tuft button.004",
+              "before": 528,
+              "after": 306
+            },
+            {
+              "part": "deep tuft button.005",
+              "before": 528,
+              "after": 306
+            },
+            {
+              "part": "rolled arm",
+              "before": 60,
+              "after": 60
+            },
+            {
+              "part": "arm base",
+              "before": 188,
+              "after": 108
+            },
+            {
+              "part": "rolled arm.001",
+              "before": 60,
+              "after": 60
+            },
+            {
+              "part": "arm base.001",
+              "before": 188,
+              "after": 108
+            }
+          ]
+        }
+      },
+      "decision": {
+        "sha256": "b6d3d9fb2965d3b0937d9078c9a95c392ae68732bf61f92ac2416fb2519990ca",
+        "version": "0.7.0-lod1",
+        "status": "pass",
+        "notes": "Front/back contact sheet inspected: recognizable construction, sensible visible proportions, no obvious missing support or intersection at this review scale.",
+        "sheet": "catalogue-v2/review-v0.7.0-lod1/distancecheck-living-01.jpg",
+        "sheetArchive": "catalogue-v2/sheet-history/5c97062c1d76a8c3360b2728ac1dc2bc9a9b27d7ea632ee098f2e6b38af942ef.jpg",
+        "sheetSha256": "5c97062c1d76a8c3360b2728ac1dc2bc9a9b27d7ea632ee098f2e6b38af942ef",
+        "memberBinding": {
+          "id": "ois.design.rolled-tuft-sofa.lod1",
+          "version": "0.7.0-lod1",
+          "assetSha256": "b6d3d9fb2965d3b0937d9078c9a95c392ae68732bf61f92ac2416fb2519990ca",
+          "front": "previews/v0.7.0-lod1/rolled-tuft-sofa-lod1.png",
+          "frontSha256": "1a08a7596226e1af98548c3965a44c4b2f6ccaaf65ad6044a4dec6ce59981b01",
+          "back": "previews/v0.7.0-lod1/rolled-tuft-sofa-lod1-back.png",
+          "backSha256": "8fef108403b63c1056884e53de28456431ee19cf7d561890c1c65ddfffd83939"
+        },
+        "imageSha256": {
+          "previews/v0.7.0-lod1/rolled-tuft-sofa-lod1.png": "1a08a7596226e1af98548c3965a44c4b2f6ccaaf65ad6044a4dec6ce59981b01",
+          "previews/v0.7.0-lod1/rolled-tuft-sofa-lod1-back.png": "8fef108403b63c1056884e53de28456431ee19cf7d561890c1c65ddfffd83939"
+        },
+        "reviewedAtUtc": "2026-11-10T04:22:33Z"
+      },
+      "comparison": {
+        "id": "ois.design.rolled-tuft-sofa.lod1",
+        "sha256": "b6d3d9fb2965d3b0937d9078c9a95c392ae68732bf61f92ac2416fb2519990ca",
+        "parentSha256": "8513379a7ea5da6061214d7bf942624c4d6c3946b2219bbe07985531295ccda1",
+        "parentTriangles": 5540,
+        "triangles": 3408,
+        "ratio": 0.6151624548736462,
+        "silhouetteIoU": {
+          "front": 0.9967306906416019,
+          "side": 0.997093023255814,
+          "top": 0.9988722864392444
+        },
+        "maximumBoundsDifferenceMetres": 0.0018455982208251953,
+        "screeningPass": true
+      },
+      "format": {
+        "id": "ois.design.rolled-tuft-sofa.lod1",
+        "version": "0.7.0-lod1",
+        "sha256": "b6d3d9fb2965d3b0937d9078c9a95c392ae68732bf61f92ac2416fb2519990ca",
+        "errors": 0,
+        "warnings": 0,
+        "truncated": false,
+        "report": "catalogue-v2/format-validation-v0.7.0-lod1/b6d3d9fb2965d3b0937d9078c9a95c392ae68732bf61f92ac2416fb2519990ca.json"
+      }
+    },
+    "ois.design.rolled-tuft-sofa@8513379a7ea5da6061214d7bf942624c4d6c3946b2219bbe07985531295ccda1@LOD2": {
+      "asset": {
+        "designId": "ois.design.rolled-tuft-sofa",
+        "familyId": "ois.family.rolled-tuft-sofa",
+        "id": "ois.design.rolled-tuft-sofa.lod2",
+        "name": "Rolled tuft sofa",
+        "roomTags": [
+          "living"
+        ],
+        "theme": "walnut-form",
+        "builder": "seating",
+        "parameters": {
+          "form": "chester",
+          "w": 2.2
+        },
+        "distinction": "Continuous cylindrical rolled arms and deep buttoned back.",
+        "stage": "validated-candidate",
+        "countEligible": false,
+        "variants": [],
+        "variantOf": "ois.design.rolled-tuft-sofa",
+        "source": "scripts/design_geometry.py",
+        "licence": "LicenseRef-OIS-Original-Project",
+        "provenance": {
+          "kind": "original-procedural",
+          "authoring": "Codex for OIS Designs",
+          "thirdPartyGeometry": false,
+          "thirdPartyTextures": false,
+          "publicAssetLicence": "not separately granted",
+          "sourceSnapshot": "sources/pipeline-bf07453f548fd92d.py",
+          "sourceSha256": "bf07453f548fd92da637ecce41dc8b35010d5f15c955c971c9e3be2fb762ea2d",
+          "sourceModelSha256": "f28c74b8a9fe45fc6991ad6919226ed7a2082cc747bae3d18c2f249a49b48e8d",
+          "supportSources": {
+            "signature_designs.py": {
+              "snapshot": "sources/signature_designs-6d248dd7aaa49ed4.py",
+              "sha256": "6d248dd7aaa49ed40f05c473c5d46b6fe8c97972ebf6ce139553f9641fc82b3c"
+            },
+            "material_finish.py": {
+              "snapshot": "sources/material_finish-281279dfd17b0c92.py",
+              "sha256": "281279dfd17b0c929f9038bb8066b86216427feaaefbd503abb995d06dc35730"
+            },
+            "catalogue_inventory.py": {
+              "snapshot": "sources/catalogue_inventory-db8b68fc872dbc12.py",
+              "sha256": "db8b68fc872dbc12d87e9ce013777e00d6b32cc0392e8cc09f31f8fef27b9365"
+            },
+            "finalize_glb.py": {
+              "snapshot": "sources/finalize_glb-4d1dec42be5cbf3d.py",
+              "sha256": "4d1dec42be5cbf3d6540facfa883948acd849c080f7117b8d7025749c08e2d1b"
+            },
+            "build_catalogue_v2.py": {
+              "snapshot": "sources/build_catalogue_v2-9c22533830c3704c.py",
+              "sha256": "9c22533830c3704c1ce578b58b4350ebbbf5b8d32590a07db027f671d4975577"
+            },
+            "validate_library.py": {
+              "snapshot": "sources/validate_library-48e60483e2c3d05b.py",
+              "sha256": "48e60483e2c3d05bec2c7e2669523eb77571a4ba120cb5238bbec92b8a585e0c"
+            },
+            "support_checks.py": {
+              "snapshot": "sources/support_checks-f7ed4d0400abd5f2.py",
+              "sha256": "f7ed4d0400abd5f23f27c86a9013cfefaca71234a9da953dfe97daeabb8af640"
+            }
+          },
+          "parametersFile": "sources/v0.7.0/rolled-tuft-sofa.parameters.json"
+        },
+        "constructionKey": "seating|chester|{\"base\": \"taper\"}",
+        "sha256": "889ad94840e746424ea5bf2cd609ff1e2da6dd4eefa2445999202a671c44cfb9",
+        "bytes": 639648,
+        "triangles": 2000,
+        "vertices": 6000,
+        "drawPrimitives": 3,
+        "bounds": {
+          "min": [
+            -1.1449999809265137,
+            -6.46684212290971e-08,
+            -0.39245110750198364
+          ],
+          "max": [
+            1.1449999809265137,
+            0.8211630284786224,
+            0.42118149995803833
+          ]
+        },
+        "dimensionsMetres": {
+          "width": 2.2899999618530273,
+          "depth": 0.813632607460022,
+          "height": 0.8211630931470437
+        },
+        "footprint": [
+          [
+            -1.1449999809265137,
+            -0.39245110750198364
+          ],
+          [
+            1.1449999809265137,
+            -0.39245110750198364
+          ],
+          [
+            1.1449999809265137,
+            0.42118149995803833
+          ],
+          [
+            -1.1449999809265137,
+            0.42118149995803833
+          ]
+        ],
+        "variantSlots": [
+          "wood",
+          "linen",
+          "fabric"
+        ],
+        "requiredExtensions": [],
+        "textures": {
+          "count": 9,
+          "bytes": 334041,
+          "estimatedRgbaBytesWithMipmaps": 3145728,
+          "images": [
+            {
+              "name": "wood-normal",
+              "bytes": 102088,
+              "width": 256,
+              "height": 256,
+              "sha256": "6b8efcb5004552d884a527017922bfb5260b8bda4dc77f1365fe1cb8a09f1d56"
+            },
+            {
+              "name": "wood-neutral-base",
+              "bytes": 39353,
+              "width": 256,
+              "height": 256,
+              "sha256": "ddcf839a2addae78944a2d7a0588f9c2055852fc4ccb4e2dae2095d28541de44"
+            },
+            {
+              "name": "wood-roughness",
+              "bytes": 33343,
+              "width": 256,
+              "height": 256,
+              "sha256": "afc2180e58360e76fb178b52f225f7ba9045a7d0d266f10886763b0590335a1a"
+            },
+            {
+              "name": "linen-normal",
+              "bytes": 76292,
+              "width": 256,
+              "height": 256,
+              "sha256": "70b25282eb1daf2d7d6faad88d6b47ca1298d395b833d36d3ba28a542ed6d36e"
+            },
+            {
+              "name": "linen-neutral-base",
+              "bytes": 34309,
+              "width": 256,
+              "height": 256,
+              "sha256": "047df909f3cecf9ec0cdef6c8e2a92dea40e0116922d5b7a25bc7da6481e1ec9"
+            },
+            {
+              "name": "linen-roughness",
+              "bytes": 40384,
+              "width": 256,
+              "height": 256,
+              "sha256": "c31825bb85668747311407d1a5e5d9a56bc0e65aefbf79936d1d4665e83fdb45"
+            },
+            {
+              "name": "fabric-normal",
+              "bytes": 1016,
+              "width": 256,
+              "height": 256,
+              "sha256": "5bbac800a495c0a30042ad832a3ea134aa66afad65fa0dde59103733a54e886c"
+            },
+            {
+              "name": "fabric-neutral-base",
+              "bytes": 4495,
+              "width": 256,
+              "height": 256,
+              "sha256": "898e022cb5ea1b2663884e7306bbd2c09f25ab2827974bd1328a81bcab08b1ac"
+            },
+            {
+              "name": "fabric-roughness",
+              "bytes": 2761,
+              "width": 256,
+              "height": 256,
+              "sha256": "397e1c119de5e5939f7f1260cfeb7a715d695240776f51b974989073b638eeb6"
+            }
+          ]
+        },
+        "version": "0.7.0-lod1",
+        "qualityStatus": "validated-candidate",
+        "geometryFamily": "ois.family.rolled-tuft-sofa",
+        "file": "assets/v0.7.0-lod1/rolled-tuft-sofa-lod2.glb",
+        "sourceModel": "sources/v0.7.0/rolled-tuft-sofa.blend",
+        "thumbnail": "previews/v0.7.0-lod1/rolled-tuft-sofa-lod2.png",
+        "backThumbnail": "previews/v0.7.0-lod1/rolled-tuft-sofa-lod2-back.png",
+        "category": "seating",
+        "subtype": "chester",
+        "units": "metres",
+        "frame": "RH Y-up; +X right, -Z furniture front",
+        "pivot": "floor Y=0; centre of primary body XZ",
+        "lod": {
+          "delivered": [
+            "LOD0"
+          ],
+          "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+        },
+        "placement": {
+          "anchor": "floor",
+          "allowArbitraryScale": false,
+          "collision": "conservative oriented XZ bounds; clearance separate"
+        },
+        "visualReview": {
+          "status": "pending"
+        },
+        "favouriteStorage": "user set of stable catalogue IDs",
+        "colors": [
+          [
+            0.38999998569488525,
+            0.18000000715255737,
+            0.07000000029802322
+          ],
+          [
+            0.8399999737739563,
+            0.800000011920929,
+            0.6899999976158142
+          ],
+          [
+            0.2199999988079071,
+            0.09000000357627869,
+            0.03799999877810478
+          ]
+        ],
+        "colourTags": [
+          "tobacco",
+          "walnut brown",
+          "warm ivory"
+        ],
+        "materials": [
+          "textile",
+          "wood"
+        ],
+        "searchAliases": [
+          "living",
+          "chester"
+        ],
+        "materialSlots": [
+          {
+            "id": "fabric",
+            "material": "fabric",
+            "recolourable": true
+          },
+          {
+            "id": "linen",
+            "material": "linen",
+            "recolourable": true
+          },
+          {
+            "id": "wood",
+            "material": "wood",
+            "recolourable": true
+          }
+        ],
+        "finalization": {
+          "unusedTangentAttributesRemoved": 0,
+          "unusedAccessorsRemoved": 0,
+          "unusedBufferViewsRemoved": 0,
+          "bytesRemoved": 0,
+          "normalMappedTangents": "retained, never replaced with arbitrary fallback vectors"
+        },
+        "supportChecks": {
+          "method": "source-part upper-end ray to non-leg geometry, 15mm join tolerance",
+          "status": "pass",
+          "parts": [
+            {
+              "part": "leg",
+              "gapMetresAlongSupport": -0.020563566684722895,
+              "status": "pass"
+            },
+            {
+              "part": "leg.001",
+              "gapMetresAlongSupport": -0.020563566684722895,
+              "status": "pass"
+            },
+            {
+              "part": "leg.002",
+              "gapMetresAlongSupport": -0.0205635517835617,
+              "status": "pass"
+            },
+            {
+              "part": "leg.003",
+              "gapMetresAlongSupport": -0.020563566684722895,
+              "status": "pass"
+            }
+          ],
+          "limitation": "screening only; hidden joints, whole-model connectivity, load paths and safety remain visual/product-review concerns"
+        },
+        "materialFinish": {
+          "source": "materials/v1/manifest.json",
+          "repeatMetres": {
+            "wood": [
+              0.16,
+              0.75
+            ],
+            "fabric": [
+              0.14,
+              0.14
+            ],
+            "linen": [
+              0.12,
+              0.12
+            ]
+          },
+          "maps": "original base colour / roughness / tangent normal, embedded in GLB"
+        },
+        "appearanceVariants": [
+          {
+            "id": "ois.design.rolled-tuft-sofa.finish.sage",
+            "name": "Sage textile",
+            "materialOverrides": {
+              "fabric": {
+                "baseColorFactor": [
+                  0.25,
+                  0.37,
+                  0.28,
+                  1
+                ]
+              }
+            }
+          },
+          {
+            "id": "ois.design.rolled-tuft-sofa.finish.clay",
+            "name": "Clay textile",
+            "materialOverrides": {
+              "fabric": {
+                "baseColorFactor": [
+                  0.45,
+                  0.23,
+                  0.15,
+                  1
+                ]
+              }
+            }
+          }
+        ],
+        "variantColourTags": [
+          "sage green",
+          "clay brown"
+        ],
+        "variantCountNote": "appearance overrides share this one design; do not increase distinct count",
+        "geometryHash": "83107cd6c8e3e4effbfa36c53ce483797ee488c110caad65dec7d9d64a85f87d",
+        "normalizedMirrorGeometryHash": "49cf2e8301873ca2ea190c20fbc545add9fee221d531a07b0cc706294fd09911",
+        "lodLevel": 2,
+        "lodParent": {
+          "id": "ois.design.rolled-tuft-sofa",
+          "version": "0.7.0",
+          "sha256": "8513379a7ea5da6061214d7bf942624c4d6c3946b2219bbe07985531295ccda1",
+          "file": "assets/v0.7.0/rolled-tuft-sofa.glb",
+          "sourceModelSha256": "f28c74b8a9fe45fc6991ad6919226ed7a2082cc747bae3d18c2f249a49b48e8d"
+        },
+        "lodMethod": {
+          "minimumPartTriangles": 180,
+          "collapseRatio": 0.3,
+          "parts": [
+            {
+              "part": "leg",
+              "before": 60,
+              "after": 60
+            },
+            {
+              "part": "leg.001",
+              "before": 60,
+              "after": 60
+            },
+            {
+              "part": "leg.002",
+              "before": 60,
+              "after": 60
+            },
+            {
+              "part": "leg.003",
+              "before": 60,
+              "after": 60
+            },
+            {
+              "part": "seat deck",
+              "before": 188,
+              "after": 56
+            },
+            {
+              "part": "concealed back frame",
+              "before": 188,
+              "after": 56
+            },
+            {
+              "part": "seat cushion",
+              "before": 188,
+              "after": 56
+            },
+            {
+              "part": "piping",
+              "before": 44,
+              "after": 44
+            },
+            {
+              "part": "back cushion",
+              "before": 188,
+              "after": 56
+            },
+            {
+              "part": "deep tuft button",
+              "before": 528,
+              "after": 158
+            },
+            {
+              "part": "deep tuft button.001",
+              "before": 528,
+              "after": 158
+            },
+            {
+              "part": "seat cushion.001",
+              "before": 188,
+              "after": 56
+            },
+            {
+              "part": "piping.001",
+              "before": 44,
+              "after": 44
+            },
+            {
+              "part": "back cushion.001",
+              "before": 188,
+              "after": 56
+            },
+            {
+              "part": "deep tuft button.002",
+              "before": 528,
+              "after": 158
+            },
+            {
+              "part": "deep tuft button.003",
+              "before": 528,
+              "after": 158
+            },
+            {
+              "part": "seat cushion.002",
+              "before": 188,
+              "after": 56
+            },
+            {
+              "part": "piping.002",
+              "before": 44,
+              "after": 44
+            },
+            {
+              "part": "back cushion.002",
+              "before": 188,
+              "after": 56
+            },
+            {
+              "part": "deep tuft button.004",
+              "before": 528,
+              "after": 158
+            },
+            {
+              "part": "deep tuft button.005",
+              "before": 528,
+              "after": 158
+            },
+            {
+              "part": "rolled arm",
+              "before": 60,
+              "after": 60
+            },
+            {
+              "part": "arm base",
+              "before": 188,
+              "after": 56
+            },
+            {
+              "part": "rolled arm.001",
+              "before": 60,
+              "after": 60
+            },
+            {
+              "part": "arm base.001",
+              "before": 188,
+              "after": 56
+            }
+          ]
+        }
+      },
+      "decision": {
+        "sha256": "889ad94840e746424ea5bf2cd609ff1e2da6dd4eefa2445999202a671c44cfb9",
+        "version": "0.7.0-lod1",
+        "status": "pass",
+        "notes": "Front/back contact sheet inspected: recognizable construction, sensible visible proportions, no obvious missing support or intersection at this review scale.",
+        "sheet": "catalogue-v2/review-v0.7.0-lod1/distancecheck-living-01.jpg",
+        "sheetArchive": "catalogue-v2/sheet-history/5c97062c1d76a8c3360b2728ac1dc2bc9a9b27d7ea632ee098f2e6b38af942ef.jpg",
+        "sheetSha256": "5c97062c1d76a8c3360b2728ac1dc2bc9a9b27d7ea632ee098f2e6b38af942ef",
+        "memberBinding": {
+          "id": "ois.design.rolled-tuft-sofa.lod2",
+          "version": "0.7.0-lod1",
+          "assetSha256": "889ad94840e746424ea5bf2cd609ff1e2da6dd4eefa2445999202a671c44cfb9",
+          "front": "previews/v0.7.0-lod1/rolled-tuft-sofa-lod2.png",
+          "frontSha256": "5b7f69ed47c335c7cbb4aa735f675e81b6a4b134ac91bd9cec4e81992ee2db23",
+          "back": "previews/v0.7.0-lod1/rolled-tuft-sofa-lod2-back.png",
+          "backSha256": "9f5a3b18065a72e7fc641ca4609e32b10ac05ba314f3d4831ab7343530004073"
+        },
+        "imageSha256": {
+          "previews/v0.7.0-lod1/rolled-tuft-sofa-lod2.png": "5b7f69ed47c335c7cbb4aa735f675e81b6a4b134ac91bd9cec4e81992ee2db23",
+          "previews/v0.7.0-lod1/rolled-tuft-sofa-lod2-back.png": "9f5a3b18065a72e7fc641ca4609e32b10ac05ba314f3d4831ab7343530004073"
+        },
+        "reviewedAtUtc": "2026-11-10T04:22:33Z"
+      },
+      "comparison": {
+        "id": "ois.design.rolled-tuft-sofa.lod2",
+        "sha256": "889ad94840e746424ea5bf2cd609ff1e2da6dd4eefa2445999202a671c44cfb9",
+        "parentSha256": "8513379a7ea5da6061214d7bf942624c4d6c3946b2219bbe07985531295ccda1",
+        "parentTriangles": 5540,
+        "triangles": 2000,
+        "ratio": 0.36101083032490977,
+        "silhouetteIoU": {
+          "front": 0.9942787086228034,
+          "side": 0.9752776782515228,
+          "top": 0.9980265012686778
+        },
+        "maximumBoundsDifferenceMetres": 0.004580557346343994,
+        "screeningPass": true
+      },
+      "format": {
+        "id": "ois.design.rolled-tuft-sofa.lod2",
+        "version": "0.7.0-lod1",
+        "sha256": "889ad94840e746424ea5bf2cd609ff1e2da6dd4eefa2445999202a671c44cfb9",
+        "errors": 0,
+        "warnings": 0,
+        "truncated": false,
+        "report": "catalogue-v2/format-validation-v0.7.0-lod1/889ad94840e746424ea5bf2cd609ff1e2da6dd4eefa2445999202a671c44cfb9.json"
+      }
+    },
+    "ois.design.suspended-wicker-chair@53b8c9a9cccdde810db1dcb4bb34c1ab5456d6a08f5193196764e6e50f0b23ff@LOD1": {
+      "asset": {
+        "designId": "ois.design.suspended-wicker-chair",
+        "familyId": "ois.family.suspended-wicker-chair",
+        "id": "ois.design.suspended-wicker-chair.lod1",
+        "name": "Suspended wicker chair",
+        "roomTags": [
+          "living"
+        ],
+        "theme": "coastal-linen",
+        "builder": "signature",
+        "parameters": {
+          "form": "suspended-wicker-chair"
+        },
+        "distinction": "Open woven egg hangs from a freestanding curved suspension mast.",
+        "stage": "validated-candidate",
+        "countEligible": false,
+        "variants": [],
+        "variantOf": "ois.design.suspended-wicker-chair",
+        "source": "scripts/design_geometry.py",
+        "licence": "LicenseRef-OIS-Original-Project",
+        "provenance": {
+          "kind": "original-procedural",
+          "authoring": "Codex for OIS Designs",
+          "thirdPartyGeometry": false,
+          "thirdPartyTextures": false,
+          "publicAssetLicence": "not separately granted",
+          "sourceSnapshot": "sources/pipeline-bf07453f548fd92d.py",
+          "sourceSha256": "bf07453f548fd92da637ecce41dc8b35010d5f15c955c971c9e3be2fb762ea2d",
+          "sourceModelSha256": "aefa01cb6def7f781285426b30e0f6c3483e3923290b15c4c7c6a065372507ec",
+          "supportSources": {
+            "signature_designs.py": {
+              "snapshot": "sources/signature_designs-6d248dd7aaa49ed4.py",
+              "sha256": "6d248dd7aaa49ed40f05c473c5d46b6fe8c97972ebf6ce139553f9641fc82b3c"
+            },
+            "material_finish.py": {
+              "snapshot": "sources/material_finish-281279dfd17b0c92.py",
+              "sha256": "281279dfd17b0c929f9038bb8066b86216427feaaefbd503abb995d06dc35730"
+            },
+            "catalogue_inventory.py": {
+              "snapshot": "sources/catalogue_inventory-db8b68fc872dbc12.py",
+              "sha256": "db8b68fc872dbc12d87e9ce013777e00d6b32cc0392e8cc09f31f8fef27b9365"
+            },
+            "finalize_glb.py": {
+              "snapshot": "sources/finalize_glb-4d1dec42be5cbf3d.py",
+              "sha256": "4d1dec42be5cbf3d6540facfa883948acd849c080f7117b8d7025749c08e2d1b"
+            },
+            "build_catalogue_v2.py": {
+              "snapshot": "sources/build_catalogue_v2-9c22533830c3704c.py",
+              "sha256": "9c22533830c3704c1ce578b58b4350ebbbf5b8d32590a07db027f671d4975577"
+            },
+            "validate_library.py": {
+              "snapshot": "sources/validate_library-48e60483e2c3d05b.py",
+              "sha256": "48e60483e2c3d05bec2c7e2669523eb77571a4ba120cb5238bbec92b8a585e0c"
+            },
+            "support_checks.py": {
+              "snapshot": "sources/support_checks-f7ed4d0400abd5f2.py",
+              "sha256": "f7ed4d0400abd5f23f27c86a9013cfefaca71234a9da953dfe97daeabb8af640"
+            }
+          },
+          "parametersFile": "sources/v0.7.0/suspended-wicker-chair.parameters.json"
+        },
+        "constructionKey": "signature|suspended-wicker-chair|{}",
+        "sha256": "5f6b021ccabf602612f457381f338d1459995cfb838c75717a2ae5407525bee9",
+        "bytes": 460384,
+        "triangles": 4584,
+        "vertices": 3246,
+        "drawPrimitives": 4,
+        "bounds": {
+          "min": [
+            -0.550000011920929,
+            0.0,
+            -0.45000001043081284
+          ],
+          "max": [
+            0.550000011920929,
+            2.0767127610743046,
+            0.6500000134110451
+          ]
+        },
+        "dimensionsMetres": {
+          "width": 1.100000023841858,
+          "depth": 1.100000023841858,
+          "height": 2.0767127610743046
+        },
+        "footprint": [
+          [
+            -0.550000011920929,
+            -0.45000001043081284
+          ],
+          [
+            0.550000011920929,
+            -0.45000001043081284
+          ],
+          [
+            0.550000011920929,
+            0.6500000134110451
+          ],
+          [
+            -0.550000011920929,
+            0.6500000134110451
+          ]
+        ],
+        "variantSlots": [
+          "wood",
+          "cane",
+          "linen",
+          "metal"
+        ],
+        "requiredExtensions": [],
+        "textures": {
+          "count": 6,
+          "bytes": 325769,
+          "estimatedRgbaBytesWithMipmaps": 2097152,
+          "images": [
+            {
+              "name": "wood-normal",
+              "bytes": 102088,
+              "width": 256,
+              "height": 256,
+              "sha256": "6b8efcb5004552d884a527017922bfb5260b8bda4dc77f1365fe1cb8a09f1d56"
+            },
+            {
+              "name": "wood-neutral-base",
+              "bytes": 39353,
+              "width": 256,
+              "height": 256,
+              "sha256": "ddcf839a2addae78944a2d7a0588f9c2055852fc4ccb4e2dae2095d28541de44"
+            },
+            {
+              "name": "wood-roughness",
+              "bytes": 33343,
+              "width": 256,
+              "height": 256,
+              "sha256": "afc2180e58360e76fb178b52f225f7ba9045a7d0d266f10886763b0590335a1a"
+            },
+            {
+              "name": "linen-normal",
+              "bytes": 76292,
+              "width": 256,
+              "height": 256,
+              "sha256": "70b25282eb1daf2d7d6faad88d6b47ca1298d395b833d36d3ba28a542ed6d36e"
+            },
+            {
+              "name": "linen-neutral-base",
+              "bytes": 34309,
+              "width": 256,
+              "height": 256,
+              "sha256": "047df909f3cecf9ec0cdef6c8e2a92dea40e0116922d5b7a25bc7da6481e1ec9"
+            },
+            {
+              "name": "linen-roughness",
+              "bytes": 40384,
+              "width": 256,
+              "height": 256,
+              "sha256": "c31825bb85668747311407d1a5e5d9a56bc0e65aefbf79936d1d4665e83fdb45"
+            }
+          ]
+        },
+        "version": "0.7.0-lod1",
+        "qualityStatus": "validated-candidate",
+        "geometryFamily": "ois.family.suspended-wicker-chair",
+        "file": "assets/v0.7.0-lod1/suspended-wicker-chair-lod1.glb",
+        "sourceModel": "sources/v0.7.0/suspended-wicker-chair.blend",
+        "thumbnail": "previews/v0.7.0-lod1/suspended-wicker-chair-lod1.png",
+        "backThumbnail": "previews/v0.7.0-lod1/suspended-wicker-chair-lod1-back.png",
+        "category": "signature-furniture",
+        "subtype": "suspended-wicker-chair",
+        "units": "metres",
+        "frame": "RH Y-up; +X right, -Z furniture front",
+        "pivot": "floor Y=0; centre of primary body XZ",
+        "lod": {
+          "delivered": [
+            "LOD0"
+          ],
+          "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+        },
+        "placement": {
+          "anchor": "floor",
+          "allowArbitraryScale": false,
+          "collision": "conservative oriented XZ bounds; clearance separate"
+        },
+        "visualReview": {
+          "status": "pending"
+        },
+        "favouriteStorage": "user set of stable catalogue IDs",
+        "colors": [
+          [
+            0.47999998927116394,
+            0.3400000035762787,
+            0.17000000178813934
+          ],
+          [
+            0.8399999737739563,
+            0.800000011920929,
+            0.6899999976158142
+          ],
+          [
+            0.6399999856948853,
+            0.6000000238418579,
+            0.47999998927116394
+          ],
+          [
+            0.6600000262260437,
+            0.5299999713897705,
+            0.3400000035762787
+          ]
+        ],
+        "colourTags": [
+          "natural tan",
+          "pale oak",
+          "sand",
+          "warm ivory"
+        ],
+        "materials": [
+          "metal",
+          "textile",
+          "wood",
+          "woven-fibre"
+        ],
+        "searchAliases": [
+          "living",
+          "suspended wicker chair"
+        ],
+        "materialSlots": [
+          {
+            "id": "cane",
+            "material": "cane",
+            "recolourable": true
+          },
+          {
+            "id": "linen",
+            "material": "linen",
+            "recolourable": true
+          },
+          {
+            "id": "metal",
+            "material": "metal",
+            "recolourable": true
+          },
+          {
+            "id": "wood",
+            "material": "wood",
+            "recolourable": true
+          }
+        ],
+        "finalization": {
+          "unusedTangentAttributesRemoved": 1,
+          "unusedAccessorsRemoved": 1,
+          "unusedBufferViewsRemoved": 1,
+          "bytesRemoved": 11696,
+          "normalMappedTangents": "retained, never replaced with arbitrary fallback vectors"
+        },
+        "supportChecks": {
+          "method": "source-part upper-end ray to non-leg geometry, 15mm join tolerance",
+          "status": "pass",
+          "parts": [],
+          "limitation": "screening only; hidden joints, whole-model connectivity, load paths and safety remain visual/product-review concerns"
+        },
+        "materialFinish": {
+          "source": "materials/v1/manifest.json",
+          "repeatMetres": {
+            "wood": [
+              0.16,
+              0.75
+            ],
+            "fabric": [
+              0.14,
+              0.14
+            ],
+            "linen": [
+              0.12,
+              0.12
+            ]
+          },
+          "maps": "original base colour / roughness / tangent normal, embedded in GLB"
+        },
+        "geometryHash": "779b152218c5b83cc36021874017f8df42fa8596dfd7b9e0fd0521e43e89ce38",
+        "normalizedMirrorGeometryHash": "2fcf6699ec3e716d336f6bf185311d8a2d2b1093a99317d401c4e7f21ed8d42f",
+        "lodLevel": 1,
+        "lodParent": {
+          "id": "ois.design.suspended-wicker-chair",
+          "version": "0.7.0",
+          "sha256": "53b8c9a9cccdde810db1dcb4bb34c1ab5456d6a08f5193196764e6e50f0b23ff",
+          "file": "assets/v0.7.0/suspended-wicker-chair.glb",
+          "sourceModelSha256": "aefa01cb6def7f781285426b30e0f6c3483e3923290b15c4c7c6a065372507ec"
+        },
+        "lodMethod": {
+          "minimumPartTriangles": 180,
+          "collapseRatio": 0.58,
+          "parts": [
+            {
+              "part": "weighted floor disc",
+              "before": 124,
+              "after": 124
+            },
+            {
+              "part": "cantilever suspension frame",
+              "before": 636,
+              "after": 368
+            },
+            {
+              "part": "suspension cable",
+              "before": 60,
+              "after": 60
+            },
+            {
+              "part": "basket spine",
+              "before": 92,
+              "after": 92
+            },
+            {
+              "part": "basket spine.001",
+              "before": 92,
+              "after": 92
+            },
+            {
+              "part": "basket spine.002",
+              "before": 92,
+              "after": 92
+            },
+            {
+              "part": "basket spine.003",
+              "before": 92,
+              "after": 92
+            },
+            {
+              "part": "basket spine.004",
+              "before": 92,
+              "after": 92
+            },
+            {
+              "part": "basket spine.005",
+              "before": 92,
+              "after": 92
+            },
+            {
+              "part": "basket spine.006",
+              "before": 92,
+              "after": 92
+            },
+            {
+              "part": "basket spine.007",
+              "before": 92,
+              "after": 92
+            },
+            {
+              "part": "basket spine.008",
+              "before": 92,
+              "after": 92
+            },
+            {
+              "part": "basket spine.009",
+              "before": 92,
+              "after": 92
+            },
+            {
+              "part": "basket spine.010",
+              "before": 92,
+              "after": 92
+            },
+            {
+              "part": "basket spine.011",
+              "before": 92,
+              "after": 92
+            },
+            {
+              "part": "basket spine.012",
+              "before": 92,
+              "after": 92
+            },
+            {
+              "part": "basket spine.013",
+              "before": 92,
+              "after": 92
+            },
+            {
+              "part": "basket spine.014",
+              "before": 92,
+              "after": 92
+            },
+            {
+              "part": "basket spine.015",
+              "before": 92,
+              "after": 92
+            },
+            {
+              "part": "basket spine.016",
+              "before": 92,
+              "after": 92
+            },
+            {
+              "part": "basket spine.017",
+              "before": 92,
+              "after": 92
+            },
+            {
+              "part": "basket spine.018",
+              "before": 92,
+              "after": 92
+            },
+            {
+              "part": "basket spine.019",
+              "before": 92,
+              "after": 92
+            },
+            {
+              "part": "basket curved rib",
+              "before": 524,
+              "after": 302
+            },
+            {
+              "part": "basket curved rib.001",
+              "before": 524,
+              "after": 302
+            },
+            {
+              "part": "basket curved rib.002",
+              "before": 524,
+              "after": 302
+            },
+            {
+              "part": "basket curved rib.003",
+              "before": 524,
+              "after": 302
+            },
+            {
+              "part": "basket curved rib.004",
+              "before": 524,
+              "after": 302
+            },
+            {
+              "part": "basket curved rib.005",
+              "before": 524,
+              "after": 302
+            },
+            {
+              "part": "basket hanger yoke",
+              "before": 60,
+              "after": 60
+            },
+            {
+              "part": "basket hanger yoke.001",
+              "before": 60,
+              "after": 60
+            },
+            {
+              "part": "basket seat support",
+              "before": 188,
+              "after": 108
+            },
+            {
+              "part": "loose seat cushion",
+              "before": 188,
+              "after": 108
+            },
+            {
+              "part": "piping",
+              "before": 44,
+              "after": 44
+            }
+          ]
+        }
+      },
+      "decision": {
+        "sha256": "5f6b021ccabf602612f457381f338d1459995cfb838c75717a2ae5407525bee9",
+        "version": "0.7.0-lod1",
+        "status": "pass",
+        "notes": "Front/back contact sheet inspected: recognizable construction, sensible visible proportions, no obvious missing support or intersection at this review scale.",
+        "sheet": "catalogue-v2/review-v0.7.0-lod1/distancecheck-living-01.jpg",
+        "sheetArchive": "catalogue-v2/sheet-history/5c97062c1d76a8c3360b2728ac1dc2bc9a9b27d7ea632ee098f2e6b38af942ef.jpg",
+        "sheetSha256": "5c97062c1d76a8c3360b2728ac1dc2bc9a9b27d7ea632ee098f2e6b38af942ef",
+        "memberBinding": {
+          "id": "ois.design.suspended-wicker-chair.lod1",
+          "version": "0.7.0-lod1",
+          "assetSha256": "5f6b021ccabf602612f457381f338d1459995cfb838c75717a2ae5407525bee9",
+          "front": "previews/v0.7.0-lod1/suspended-wicker-chair-lod1.png",
+          "frontSha256": "70684357f254beb2b0de681fbbdd5ef73267929e9a0fe39870a94991964f4d03",
+          "back": "previews/v0.7.0-lod1/suspended-wicker-chair-lod1-back.png",
+          "backSha256": "4bc3feeb677d75796ec4c9d30ce027550d1d2854649e108ea43446946d5d44e1"
+        },
+        "imageSha256": {
+          "previews/v0.7.0-lod1/suspended-wicker-chair-lod1.png": "70684357f254beb2b0de681fbbdd5ef73267929e9a0fe39870a94991964f4d03",
+          "previews/v0.7.0-lod1/suspended-wicker-chair-lod1-back.png": "4bc3feeb677d75796ec4c9d30ce027550d1d2854649e108ea43446946d5d44e1"
+        },
+        "reviewedAtUtc": "2026-11-10T04:22:33Z"
+      },
+      "comparison": {
+        "id": "ois.design.suspended-wicker-chair.lod1",
+        "sha256": "5f6b021ccabf602612f457381f338d1459995cfb838c75717a2ae5407525bee9",
+        "parentSha256": "53b8c9a9cccdde810db1dcb4bb34c1ab5456d6a08f5193196764e6e50f0b23ff",
+        "parentTriangles": 6344,
+        "triangles": 4584,
+        "ratio": 0.7225725094577553,
+        "silhouetteIoU": {
+          "front": 0.9899764150943396,
+          "side": 0.9784589892294946,
+          "top": 1.0
+        },
+        "maximumBoundsDifferenceMetres": 0.0,
+        "screeningPass": true
+      },
+      "format": {
+        "id": "ois.design.suspended-wicker-chair.lod1",
+        "version": "0.7.0-lod1",
+        "sha256": "5f6b021ccabf602612f457381f338d1459995cfb838c75717a2ae5407525bee9",
+        "errors": 0,
+        "warnings": 0,
+        "truncated": false,
+        "report": "catalogue-v2/format-validation-v0.7.0-lod1/5f6b021ccabf602612f457381f338d1459995cfb838c75717a2ae5407525bee9.json"
+      }
+    },
+    "ois.design.suspended-wicker-chair@53b8c9a9cccdde810db1dcb4bb34c1ab5456d6a08f5193196764e6e50f0b23ff@LOD2": {
+      "asset": {
+        "designId": "ois.design.suspended-wicker-chair",
+        "familyId": "ois.family.suspended-wicker-chair",
+        "id": "ois.design.suspended-wicker-chair.lod2",
+        "name": "Suspended wicker chair",
+        "roomTags": [
+          "living"
+        ],
+        "theme": "coastal-linen",
+        "builder": "signature",
+        "parameters": {
+          "form": "suspended-wicker-chair"
+        },
+        "distinction": "Open woven egg hangs from a freestanding curved suspension mast.",
+        "stage": "validated-candidate",
+        "countEligible": false,
+        "variants": [],
+        "variantOf": "ois.design.suspended-wicker-chair",
+        "source": "scripts/design_geometry.py",
+        "licence": "LicenseRef-OIS-Original-Project",
+        "provenance": {
+          "kind": "original-procedural",
+          "authoring": "Codex for OIS Designs",
+          "thirdPartyGeometry": false,
+          "thirdPartyTextures": false,
+          "publicAssetLicence": "not separately granted",
+          "sourceSnapshot": "sources/pipeline-bf07453f548fd92d.py",
+          "sourceSha256": "bf07453f548fd92da637ecce41dc8b35010d5f15c955c971c9e3be2fb762ea2d",
+          "sourceModelSha256": "aefa01cb6def7f781285426b30e0f6c3483e3923290b15c4c7c6a065372507ec",
+          "supportSources": {
+            "signature_designs.py": {
+              "snapshot": "sources/signature_designs-6d248dd7aaa49ed4.py",
+              "sha256": "6d248dd7aaa49ed40f05c473c5d46b6fe8c97972ebf6ce139553f9641fc82b3c"
+            },
+            "material_finish.py": {
+              "snapshot": "sources/material_finish-281279dfd17b0c92.py",
+              "sha256": "281279dfd17b0c929f9038bb8066b86216427feaaefbd503abb995d06dc35730"
+            },
+            "catalogue_inventory.py": {
+              "snapshot": "sources/catalogue_inventory-db8b68fc872dbc12.py",
+              "sha256": "db8b68fc872dbc12d87e9ce013777e00d6b32cc0392e8cc09f31f8fef27b9365"
+            },
+            "finalize_glb.py": {
+              "snapshot": "sources/finalize_glb-4d1dec42be5cbf3d.py",
+              "sha256": "4d1dec42be5cbf3d6540facfa883948acd849c080f7117b8d7025749c08e2d1b"
+            },
+            "build_catalogue_v2.py": {
+              "snapshot": "sources/build_catalogue_v2-9c22533830c3704c.py",
+              "sha256": "9c22533830c3704c1ce578b58b4350ebbbf5b8d32590a07db027f671d4975577"
+            },
+            "validate_library.py": {
+              "snapshot": "sources/validate_library-48e60483e2c3d05b.py",
+              "sha256": "48e60483e2c3d05bec2c7e2669523eb77571a4ba120cb5238bbec92b8a585e0c"
+            },
+            "support_checks.py": {
+              "snapshot": "sources/support_checks-f7ed4d0400abd5f2.py",
+              "sha256": "f7ed4d0400abd5f23f27c86a9013cfefaca71234a9da953dfe97daeabb8af640"
+            }
+          },
+          "parametersFile": "sources/v0.7.0/suspended-wicker-chair.parameters.json"
+        },
+        "constructionKey": "signature|suspended-wicker-chair|{}",
+        "sha256": "5e706cbbb0eeda6fa934b92b6efb665f7b322557192cf00c43fd63f94a21fa71",
+        "bytes": 425092,
+        "triangles": 3426,
+        "vertices": 2407,
+        "drawPrimitives": 4,
+        "bounds": {
+          "min": [
+            -0.550000011920929,
+            0.0,
+            -0.45000001043081284
+          ],
+          "max": [
+            0.550000011920929,
+            2.0771233178675175,
+            0.6500000134110451
+          ]
+        },
+        "dimensionsMetres": {
+          "width": 1.100000023841858,
+          "depth": 1.100000023841858,
+          "height": 2.0771233178675175
+        },
+        "footprint": [
+          [
+            -0.550000011920929,
+            -0.45000001043081284
+          ],
+          [
+            0.550000011920929,
+            -0.45000001043081284
+          ],
+          [
+            0.550000011920929,
+            0.6500000134110451
+          ],
+          [
+            -0.550000011920929,
+            0.6500000134110451
+          ]
+        ],
+        "variantSlots": [
+          "wood",
+          "cane",
+          "linen",
+          "metal"
+        ],
+        "requiredExtensions": [],
+        "textures": {
+          "count": 6,
+          "bytes": 325769,
+          "estimatedRgbaBytesWithMipmaps": 2097152,
+          "images": [
+            {
+              "name": "wood-normal",
+              "bytes": 102088,
+              "width": 256,
+              "height": 256,
+              "sha256": "6b8efcb5004552d884a527017922bfb5260b8bda4dc77f1365fe1cb8a09f1d56"
+            },
+            {
+              "name": "wood-neutral-base",
+              "bytes": 39353,
+              "width": 256,
+              "height": 256,
+              "sha256": "ddcf839a2addae78944a2d7a0588f9c2055852fc4ccb4e2dae2095d28541de44"
+            },
+            {
+              "name": "wood-roughness",
+              "bytes": 33343,
+              "width": 256,
+              "height": 256,
+              "sha256": "afc2180e58360e76fb178b52f225f7ba9045a7d0d266f10886763b0590335a1a"
+            },
+            {
+              "name": "linen-normal",
+              "bytes": 76292,
+              "width": 256,
+              "height": 256,
+              "sha256": "70b25282eb1daf2d7d6faad88d6b47ca1298d395b833d36d3ba28a542ed6d36e"
+            },
+            {
+              "name": "linen-neutral-base",
+              "bytes": 34309,
+              "width": 256,
+              "height": 256,
+              "sha256": "047df909f3cecf9ec0cdef6c8e2a92dea40e0116922d5b7a25bc7da6481e1ec9"
+            },
+            {
+              "name": "linen-roughness",
+              "bytes": 40384,
+              "width": 256,
+              "height": 256,
+              "sha256": "c31825bb85668747311407d1a5e5d9a56bc0e65aefbf79936d1d4665e83fdb45"
+            }
+          ]
+        },
+        "version": "0.7.0-lod1",
+        "qualityStatus": "validated-candidate",
+        "geometryFamily": "ois.family.suspended-wicker-chair",
+        "file": "assets/v0.7.0-lod1/suspended-wicker-chair-lod2.glb",
+        "sourceModel": "sources/v0.7.0/suspended-wicker-chair.blend",
+        "thumbnail": "previews/v0.7.0-lod1/suspended-wicker-chair-lod2.png",
+        "backThumbnail": "previews/v0.7.0-lod1/suspended-wicker-chair-lod2-back.png",
+        "category": "signature-furniture",
+        "subtype": "suspended-wicker-chair",
+        "units": "metres",
+        "frame": "RH Y-up; +X right, -Z furniture front",
+        "pivot": "floor Y=0; centre of primary body XZ",
+        "lod": {
+          "delivered": [
+            "LOD0"
+          ],
+          "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+        },
+        "placement": {
+          "anchor": "floor",
+          "allowArbitraryScale": false,
+          "collision": "conservative oriented XZ bounds; clearance separate"
+        },
+        "visualReview": {
+          "status": "pending"
+        },
+        "favouriteStorage": "user set of stable catalogue IDs",
+        "colors": [
+          [
+            0.47999998927116394,
+            0.3400000035762787,
+            0.17000000178813934
+          ],
+          [
+            0.8399999737739563,
+            0.800000011920929,
+            0.6899999976158142
+          ],
+          [
+            0.6399999856948853,
+            0.6000000238418579,
+            0.47999998927116394
+          ],
+          [
+            0.6600000262260437,
+            0.5299999713897705,
+            0.3400000035762787
+          ]
+        ],
+        "colourTags": [
+          "natural tan",
+          "pale oak",
+          "sand",
+          "warm ivory"
+        ],
+        "materials": [
+          "metal",
+          "textile",
+          "wood",
+          "woven-fibre"
+        ],
+        "searchAliases": [
+          "living",
+          "suspended wicker chair"
+        ],
+        "materialSlots": [
+          {
+            "id": "cane",
+            "material": "cane",
+            "recolourable": true
+          },
+          {
+            "id": "linen",
+            "material": "linen",
+            "recolourable": true
+          },
+          {
+            "id": "metal",
+            "material": "metal",
+            "recolourable": true
+          },
+          {
+            "id": "wood",
+            "material": "wood",
+            "recolourable": true
+          }
+        ],
+        "finalization": {
+          "unusedTangentAttributesRemoved": 1,
+          "unusedAccessorsRemoved": 1,
+          "unusedBufferViewsRemoved": 1,
+          "bytesRemoved": 11696,
+          "normalMappedTangents": "retained, never replaced with arbitrary fallback vectors"
+        },
+        "supportChecks": {
+          "method": "source-part upper-end ray to non-leg geometry, 15mm join tolerance",
+          "status": "pass",
+          "parts": [],
+          "limitation": "screening only; hidden joints, whole-model connectivity, load paths and safety remain visual/product-review concerns"
+        },
+        "materialFinish": {
+          "source": "materials/v1/manifest.json",
+          "repeatMetres": {
+            "wood": [
+              0.16,
+              0.75
+            ],
+            "fabric": [
+              0.14,
+              0.14
+            ],
+            "linen": [
+              0.12,
+              0.12
+            ]
+          },
+          "maps": "original base colour / roughness / tangent normal, embedded in GLB"
+        },
+        "geometryHash": "779b152218c5b83cc36021874017f8df42fa8596dfd7b9e0fd0521e43e89ce38",
+        "normalizedMirrorGeometryHash": "2fcf6699ec3e716d336f6bf185311d8a2d2b1093a99317d401c4e7f21ed8d42f",
+        "lodLevel": 2,
+        "lodParent": {
+          "id": "ois.design.suspended-wicker-chair",
+          "version": "0.7.0",
+          "sha256": "53b8c9a9cccdde810db1dcb4bb34c1ab5456d6a08f5193196764e6e50f0b23ff",
+          "file": "assets/v0.7.0/suspended-wicker-chair.glb",
+          "sourceModelSha256": "aefa01cb6def7f781285426b30e0f6c3483e3923290b15c4c7c6a065372507ec"
+        },
+        "lodMethod": {
+          "minimumPartTriangles": 180,
+          "collapseRatio": 0.3,
+          "parts": [
+            {
+              "part": "weighted floor disc",
+              "before": 124,
+              "after": 124
+            },
+            {
+              "part": "cantilever suspension frame",
+              "before": 636,
+              "after": 190
+            },
+            {
+              "part": "suspension cable",
+              "before": 60,
+              "after": 60
+            },
+            {
+              "part": "basket spine",
+              "before": 92,
+              "after": 92
+            },
+            {
+              "part": "basket spine.001",
+              "before": 92,
+              "after": 92
+            },
+            {
+              "part": "basket spine.002",
+              "before": 92,
+              "after": 92
+            },
+            {
+              "part": "basket spine.003",
+              "before": 92,
+              "after": 92
+            },
+            {
+              "part": "basket spine.004",
+              "before": 92,
+              "after": 92
+            },
+            {
+              "part": "basket spine.005",
+              "before": 92,
+              "after": 92
+            },
+            {
+              "part": "basket spine.006",
+              "before": 92,
+              "after": 92
+            },
+            {
+              "part": "basket spine.007",
+              "before": 92,
+              "after": 92
+            },
+            {
+              "part": "basket spine.008",
+              "before": 92,
+              "after": 92
+            },
+            {
+              "part": "basket spine.009",
+              "before": 92,
+              "after": 92
+            },
+            {
+              "part": "basket spine.010",
+              "before": 92,
+              "after": 92
+            },
+            {
+              "part": "basket spine.011",
+              "before": 92,
+              "after": 92
+            },
+            {
+              "part": "basket spine.012",
+              "before": 92,
+              "after": 92
+            },
+            {
+              "part": "basket spine.013",
+              "before": 92,
+              "after": 92
+            },
+            {
+              "part": "basket spine.014",
+              "before": 92,
+              "after": 92
+            },
+            {
+              "part": "basket spine.015",
+              "before": 92,
+              "after": 92
+            },
+            {
+              "part": "basket spine.016",
+              "before": 92,
+              "after": 92
+            },
+            {
+              "part": "basket spine.017",
+              "before": 92,
+              "after": 92
+            },
+            {
+              "part": "basket spine.018",
+              "before": 92,
+              "after": 92
+            },
+            {
+              "part": "basket spine.019",
+              "before": 92,
+              "after": 92
+            },
+            {
+              "part": "basket curved rib",
+              "before": 524,
+              "after": 156
+            },
+            {
+              "part": "basket curved rib.001",
+              "before": 524,
+              "after": 156
+            },
+            {
+              "part": "basket curved rib.002",
+              "before": 524,
+              "after": 156
+            },
+            {
+              "part": "basket curved rib.003",
+              "before": 524,
+              "after": 156
+            },
+            {
+              "part": "basket curved rib.004",
+              "before": 524,
+              "after": 156
+            },
+            {
+              "part": "basket curved rib.005",
+              "before": 524,
+              "after": 156
+            },
+            {
+              "part": "basket hanger yoke",
+              "before": 60,
+              "after": 60
+            },
+            {
+              "part": "basket hanger yoke.001",
+              "before": 60,
+              "after": 60
+            },
+            {
+              "part": "basket seat support",
+              "before": 188,
+              "after": 56
+            },
+            {
+              "part": "loose seat cushion",
+              "before": 188,
+              "after": 56
+            },
+            {
+              "part": "piping",
+              "before": 44,
+              "after": 44
+            }
+          ]
+        }
+      },
+      "decision": {
+        "sha256": "5e706cbbb0eeda6fa934b92b6efb665f7b322557192cf00c43fd63f94a21fa71",
+        "version": "0.7.0-lod1",
+        "status": "pass",
+        "notes": "Front/back contact sheet inspected: recognizable construction, sensible visible proportions, no obvious missing support or intersection at this review scale.",
+        "sheet": "catalogue-v2/review-v0.7.0-lod1/distancecheck-living-01.jpg",
+        "sheetArchive": "catalogue-v2/sheet-history/5c97062c1d76a8c3360b2728ac1dc2bc9a9b27d7ea632ee098f2e6b38af942ef.jpg",
+        "sheetSha256": "5c97062c1d76a8c3360b2728ac1dc2bc9a9b27d7ea632ee098f2e6b38af942ef",
+        "memberBinding": {
+          "id": "ois.design.suspended-wicker-chair.lod2",
+          "version": "0.7.0-lod1",
+          "assetSha256": "5e706cbbb0eeda6fa934b92b6efb665f7b322557192cf00c43fd63f94a21fa71",
+          "front": "previews/v0.7.0-lod1/suspended-wicker-chair-lod2.png",
+          "frontSha256": "3b32847b783ab96b01754ddb7dc216366e6fb14e9cdba6eb567da1d1d721c905",
+          "back": "previews/v0.7.0-lod1/suspended-wicker-chair-lod2-back.png",
+          "backSha256": "210e55cac13a7ea5da1bc1376dd0957f23b6520e3a2872a0338a5050fba4f450"
+        },
+        "imageSha256": {
+          "previews/v0.7.0-lod1/suspended-wicker-chair-lod2.png": "3b32847b783ab96b01754ddb7dc216366e6fb14e9cdba6eb567da1d1d721c905",
+          "previews/v0.7.0-lod1/suspended-wicker-chair-lod2-back.png": "210e55cac13a7ea5da1bc1376dd0957f23b6520e3a2872a0338a5050fba4f450"
+        },
+        "reviewedAtUtc": "2026-11-10T04:22:33Z"
+      },
+      "comparison": {
+        "id": "ois.design.suspended-wicker-chair.lod2",
+        "sha256": "5e706cbbb0eeda6fa934b92b6efb665f7b322557192cf00c43fd63f94a21fa71",
+        "parentSha256": "53b8c9a9cccdde810db1dcb4bb34c1ab5456d6a08f5193196764e6e50f0b23ff",
+        "parentTriangles": 6344,
+        "triangles": 3426,
+        "ratio": 0.5400378310214375,
+        "silhouetteIoU": {
+          "front": 0.984070796460177,
+          "side": 0.9652892561983472,
+          "top": 1.0
+        },
+        "maximumBoundsDifferenceMetres": 0.0004105567932128906,
+        "screeningPass": true
+      },
+      "format": {
+        "id": "ois.design.suspended-wicker-chair.lod2",
+        "version": "0.7.0-lod1",
+        "sha256": "5e706cbbb0eeda6fa934b92b6efb665f7b322557192cf00c43fd63f94a21fa71",
+        "errors": 0,
+        "warnings": 0,
+        "truncated": false,
+        "report": "catalogue-v2/format-validation-v0.7.0-lod1/5e706cbbb0eeda6fa934b92b6efb665f7b322557192cf00c43fd63f94a21fa71.json"
+      }
     }
   },
-  "updatedAtUtc": "2026-11-10T02:58:38Z"
+  "updatedAtUtc": "2026-11-10T04:23:43Z"
 }

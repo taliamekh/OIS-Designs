@@ -1,0 +1,163 @@
+{
+  "designId": "ois.design.corner-l-base",
+  "familyId": "ois.family.corner-l-base",
+  "id": "ois.design.corner-l-base",
+  "name": "L corner base cabinet",
+  "roomTags": [
+    "kitchen"
+  ],
+  "theme": "calm-oak",
+  "builder": "kitchen",
+  "parameters": {
+    "form": "corner-base",
+    "w": 0.9,
+    "d": 0.6
+  },
+  "distinction": "L-shaped return body fits a kitchen corner.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted",
+    "sourceSnapshot": "sources/pipeline-e797cb5c88af56f5.py",
+    "sourceSha256": "e797cb5c88af56f5b4455d819a512ab9be55f40e1fa2d0cb542aca7bb84b906f",
+    "parametersFile": "sources/v0.2.1/corner-l-base.parameters.json"
+  },
+  "constructionKey": "kitchen|corner-base|{}",
+  "sha256": "62cc71d20ef48ad212079119af9e9215014e3470aaecbfc5e94827b9744cc1df",
+  "bytes": 192604,
+  "triangles": 3692,
+  "vertices": 5215,
+  "drawPrimitives": 3,
+  "bounds": {
+    "min": [
+      -0.45000001788139343,
+      0.0,
+      -0.4350000023841858
+    ],
+    "max": [
+      0.6075000166893005,
+      0.9000000655651093,
+      0.30000001192092896
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 1.057500034570694,
+    "depth": 0.7350000143051147,
+    "height": 0.9000000655651093
+  },
+  "footprint": [
+    [
+      -0.45000001788139343,
+      -0.4350000023841858
+    ],
+    [
+      0.6075000166893005,
+      -0.4350000023841858
+    ],
+    [
+      0.6075000166893005,
+      0.30000001192092896
+    ],
+    [
+      -0.45000001788139343,
+      0.30000001192092896
+    ]
+  ],
+  "variantSlots": [
+    "dark",
+    "metal",
+    "wood"
+  ],
+  "requiredExtensions": [],
+  "version": "0.2.1",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.corner-l-base",
+  "file": "assets/v0.2.1/corner-l-base.glb",
+  "sourceModel": "sources/v0.2.1/corner-l-base.blend",
+  "thumbnail": "previews/v0.2.1/corner-l-base.png",
+  "backThumbnail": "previews/v0.2.1/corner-l-base-back.png",
+  "category": "cabinetry",
+  "subtype": "corner-base",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "textures": {
+    "count": 0,
+    "bytes": 0
+  },
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.2.1/corner-l-base.png",
+      "previews/v0.2.1/corner-l-base-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.58,
+      0.39,
+      0.2
+    ],
+    [
+      0.73,
+      0.7,
+      0.61
+    ],
+    [
+      0.12,
+      0.14,
+      0.13
+    ]
+  ],
+  "colourTags": [
+    "pale oak",
+    "ivory",
+    "oatmeal"
+  ],
+  "materials": [
+    "metal",
+    "paint",
+    "wood"
+  ],
+  "searchAliases": [
+    "kitchen",
+    "corner base"
+  ],
+  "materialSlots": [
+    {
+      "id": "dark",
+      "material": "dark",
+      "recolourable": true
+    },
+    {
+      "id": "metal",
+      "material": "metal",
+      "recolourable": true
+    },
+    {
+      "id": "wood",
+      "material": "wood",
+      "recolourable": true
+    }
+  ]
+}

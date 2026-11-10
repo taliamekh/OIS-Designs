@@ -1,0 +1,157 @@
+{
+  "designId": "ois.design.oval-nursery-crib",
+  "familyId": "ois.family.oval-nursery-crib",
+  "id": "ois.design.oval-nursery-crib",
+  "name": "Oval nursery crib",
+  "roomTags": [
+    "children"
+  ],
+  "theme": "coastal-linen",
+  "builder": "special",
+  "parameters": {
+    "form": "round-crib",
+    "w": 1.1,
+    "d": 0.72,
+    "h": 0.85
+  },
+  "distinction": "Closed oval rail and radial spindles surround an oval mattress.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted",
+    "sourceSnapshot": "sources/pipeline-e797cb5c88af56f5.py",
+    "sourceSha256": "e797cb5c88af56f5b4455d819a512ab9be55f40e1fa2d0cb542aca7bb84b906f",
+    "parametersFile": "sources/v0.2.1/oval-nursery-crib.parameters.json"
+  },
+  "constructionKey": "special|round-crib|{\"cols\": 1, \"front\": \"cane\", \"panels\": 3}",
+  "sha256": "b0777837438114f6b9cc12b7ecdee5174c15bca6b5ed7dbeb9d1600139a42713",
+  "bytes": 112764,
+  "triangles": 3404,
+  "vertices": 2810,
+  "drawPrimitives": 2,
+  "bounds": {
+    "min": [
+      -0.574999988079071,
+      0.0,
+      -0.3850000202655792
+    ],
+    "max": [
+      0.574999988079071,
+      0.75,
+      0.3850000202655792
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 1.149999976158142,
+    "depth": 0.7700000405311584,
+    "height": 0.75
+  },
+  "footprint": [
+    [
+      -0.574999988079071,
+      -0.3850000202655792
+    ],
+    [
+      0.574999988079071,
+      -0.3850000202655792
+    ],
+    [
+      0.574999988079071,
+      0.3850000202655792
+    ],
+    [
+      -0.574999988079071,
+      0.3850000202655792
+    ]
+  ],
+  "variantSlots": [
+    "linen",
+    "wood"
+  ],
+  "requiredExtensions": [],
+  "version": "0.2.1",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.oval-nursery-crib",
+  "file": "assets/v0.2.1/oval-nursery-crib.glb",
+  "sourceModel": "sources/v0.2.1/oval-nursery-crib.blend",
+  "thumbnail": "previews/v0.2.1/oval-nursery-crib.png",
+  "backThumbnail": "previews/v0.2.1/oval-nursery-crib-back.png",
+  "category": "specialty",
+  "subtype": "round-crib",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "textures": {
+    "count": 0,
+    "bytes": 0
+  },
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.2.1/oval-nursery-crib.png",
+      "previews/v0.2.1/oval-nursery-crib-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.66,
+      0.53,
+      0.34
+    ],
+    [
+      0.36,
+      0.53,
+      0.58
+    ],
+    [
+      0.64,
+      0.6,
+      0.48
+    ]
+  ],
+  "colourTags": [
+    "mist blue",
+    "sand",
+    "pale oak"
+  ],
+  "materials": [
+    "textile",
+    "wood"
+  ],
+  "searchAliases": [
+    "children",
+    "round crib"
+  ],
+  "materialSlots": [
+    {
+      "id": "linen",
+      "material": "linen",
+      "recolourable": true
+    },
+    {
+      "id": "wood",
+      "material": "wood",
+      "recolourable": true
+    }
+  ]
+}

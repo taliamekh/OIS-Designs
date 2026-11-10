@@ -1,0 +1,51 @@
+{
+  "id": "ois.design.timber-reading-lectern",
+  "sha256": "cd5772c57b61009b13904fb921b5df28de1de3eaf73196138f31a1f531ec3b3c",
+  "sourceModel": "sources/v0.7.0/timber-reading-lectern.blend",
+  "sourceSha256": "27608d4af0eb4824a9d6abeefd772ca9f375a4dd43e4ff0f20eb2c7f103b46e9",
+  "partCount": 4,
+  "componentCount": 1,
+  "components": [
+    {
+      "parts": [
+        "lectern foot",
+        "lectern column",
+        "reading slope",
+        "book stop"
+      ],
+      "minimum": [
+        -0.3100000023841858,
+        -0.22499999403953552,
+        0.0
+      ],
+      "maximum": [
+        0.3100000023841858,
+        0.22499999403953552,
+        1.1760666370391846
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "lectern column",
+      "b": "lectern foot",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "reading slope",
+      "b": "lectern column",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "book stop",
+      "b": "reading slope",
+      "method": "triangle intersection",
+      "distance": 0
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; live-source reports are NOT exported-asset evidence; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T04:10:59Z"
+}

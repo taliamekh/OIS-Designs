@@ -1,0 +1,44 @@
+{
+  "id": "ois.design.triangular-child-table",
+  "sha256": "890115404e4b071fb844b6240042296868b4d99081fdc63dbb0df742264f8134",
+  "sourceModel": "sources/v0.7.0/triangular-child-table.blend",
+  "sourceSha256": "47fa5fe9000dd7b150da00b353983621ff0b5703ab9464a70a98322de426ef3b",
+  "partCount": 3,
+  "componentCount": 1,
+  "components": [
+    {
+      "parts": [
+        "top",
+        "triangle-fitted support panel",
+        "triangle-fitted support panel.001"
+      ],
+      "minimum": [
+        -0.42500001192092896,
+        -0.3009999990463257,
+        -1.4901161193847656e-08
+      ],
+      "maximum": [
+        0.42500001192092896,
+        0.39899998903274536,
+        0.47999998927116394
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "triangle-fitted support panel",
+      "b": "top",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "triangle-fitted support panel.001",
+      "b": "top",
+      "method": "triangle intersection",
+      "distance": 0
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; live-source reports are NOT exported-asset evidence; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T04:10:59Z"
+}

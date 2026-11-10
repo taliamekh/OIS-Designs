@@ -1,0 +1,150 @@
+{
+  "designId": "ois.design.continuous-bent-ply",
+  "familyId": "ois.family.continuous-bent-ply",
+  "id": "ois.design.continuous-bent-ply",
+  "name": "Continuous bent-ply chair",
+  "roomTags": [
+    "dining"
+  ],
+  "theme": "soft-japandi",
+  "builder": "functional",
+  "parameters": {
+    "form": "bent-ply",
+    "w": 0.55,
+    "d": 0.7,
+    "h": 0.88
+  },
+  "distinction": "One thick continuous plywood ribbon forms seat, back and cantilever support.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted",
+    "sourceSnapshot": "sources/pipeline-e797cb5c88af56f5.py",
+    "sourceSha256": "e797cb5c88af56f5b4455d819a512ab9be55f40e1fa2d0cb542aca7bb84b906f",
+    "parametersFile": "sources/v0.2.1/continuous-bent-ply.parameters.json"
+  },
+  "constructionKey": "functional|bent-ply|{}",
+  "sha256": "5b7ac2f1f8800ce9e6184b97754a6e8e45ebafbca358709739a74a950a51e06f",
+  "bytes": 3952,
+  "triangles": 60,
+  "vertices": 96,
+  "drawPrimitives": 1,
+  "bounds": {
+    "min": [
+      -0.27000001072883606,
+      0.0,
+      -0.3499999940395355
+    ],
+    "max": [
+      0.27000001072883606,
+      0.8650000151246786,
+      0.37498605251312256
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 0.5400000214576721,
+    "depth": 0.7249860465526581,
+    "height": 0.8650000151246786
+  },
+  "footprint": [
+    [
+      -0.27000001072883606,
+      -0.3499999940395355
+    ],
+    [
+      0.27000001072883606,
+      -0.3499999940395355
+    ],
+    [
+      0.27000001072883606,
+      0.37498605251312256
+    ],
+    [
+      -0.27000001072883606,
+      0.37498605251312256
+    ]
+  ],
+  "variantSlots": [
+    "wood"
+  ],
+  "requiredExtensions": [],
+  "version": "0.2.1",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.continuous-bent-ply",
+  "file": "assets/v0.2.1/continuous-bent-ply.glb",
+  "sourceModel": "sources/v0.2.1/continuous-bent-ply.blend",
+  "thumbnail": "previews/v0.2.1/continuous-bent-ply.png",
+  "backThumbnail": "previews/v0.2.1/continuous-bent-ply-back.png",
+  "category": "functional-furniture",
+  "subtype": "bent-ply",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "textures": {
+    "count": 0,
+    "bytes": 0
+  },
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.2.1/continuous-bent-ply.png",
+      "previews/v0.2.1/continuous-bent-ply-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.34,
+      0.28,
+      0.19
+    ],
+    [
+      0.58,
+      0.54,
+      0.44
+    ],
+    [
+      0.15,
+      0.17,
+      0.15
+    ]
+  ],
+  "colourTags": [
+    "ash",
+    "flax",
+    "stone"
+  ],
+  "materials": [
+    "wood"
+  ],
+  "searchAliases": [
+    "dining",
+    "bent ply"
+  ],
+  "materialSlots": [
+    {
+      "id": "wood",
+      "material": "wood",
+      "recolourable": true
+    }
+  ]
+}

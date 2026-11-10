@@ -1,0 +1,158 @@
+{
+  "designId": "ois.design.open-playpen",
+  "familyId": "ois.family.rectangular-nursery-crib",
+  "id": "ois.design.open-playpen",
+  "name": "Spindle playpen",
+  "roomTags": [
+    "children"
+  ],
+  "theme": "soft-japandi",
+  "builder": "special",
+  "parameters": {
+    "form": "playpen",
+    "w": 1.15,
+    "d": 1.15,
+    "h": 0.7
+  },
+  "distinction": "Low square open-bar play enclosure with padded base.",
+  "stage": "validated-candidate",
+  "countEligible": false,
+  "variants": [],
+  "variantOf": "ois.design.rectangular-nursery-crib",
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted",
+    "sourceSnapshot": "sources/pipeline-e797cb5c88af56f5.py",
+    "sourceSha256": "e797cb5c88af56f5b4455d819a512ab9be55f40e1fa2d0cb542aca7bb84b906f",
+    "parametersFile": "sources/v0.2.1/open-playpen.parameters.json"
+  },
+  "constructionKey": "special|rectangular-spindle-enclosure|{\"cols\": 1, \"front\": \"cane\", \"panels\": 3}",
+  "countExclusion": "same construction; dimension/material configuration retained as a variant",
+  "sha256": "2e75689d3579b1fdfca270098ee765ff63f69972062f1db9647844cb22437516",
+  "bytes": 203860,
+  "triangles": 4436,
+  "vertices": 5462,
+  "drawPrimitives": 2,
+  "bounds": {
+    "min": [
+      -0.5989999771118164,
+      0.0,
+      -0.5990000367164612
+    ],
+    "max": [
+      0.5989999771118164,
+      0.7240000367164612,
+      0.5990000367164612
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 1.1979999542236328,
+    "depth": 1.1980000734329224,
+    "height": 0.7240000367164612
+  },
+  "footprint": [
+    [
+      -0.5989999771118164,
+      -0.5990000367164612
+    ],
+    [
+      0.5989999771118164,
+      -0.5990000367164612
+    ],
+    [
+      0.5989999771118164,
+      0.5990000367164612
+    ],
+    [
+      -0.5989999771118164,
+      0.5990000367164612
+    ]
+  ],
+  "variantSlots": [
+    "linen",
+    "wood"
+  ],
+  "requiredExtensions": [],
+  "version": "0.2.1",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.rectangular-nursery-crib",
+  "file": "assets/v0.2.1/open-playpen.glb",
+  "sourceModel": "sources/v0.2.1/open-playpen.blend",
+  "thumbnail": "previews/v0.2.1/open-playpen.png",
+  "backThumbnail": "previews/v0.2.1/open-playpen-back.png",
+  "category": "specialty",
+  "subtype": "playpen",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "textures": {
+    "count": 0,
+    "bytes": 0
+  },
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.2.1/open-playpen.png",
+      "previews/v0.2.1/open-playpen-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.34,
+      0.28,
+      0.19
+    ],
+    [
+      0.58,
+      0.54,
+      0.44
+    ],
+    [
+      0.15,
+      0.17,
+      0.15
+    ]
+  ],
+  "colourTags": [
+    "ash",
+    "flax",
+    "stone"
+  ],
+  "materials": [
+    "textile",
+    "wood"
+  ],
+  "searchAliases": [
+    "children",
+    "playpen"
+  ],
+  "materialSlots": [
+    {
+      "id": "linen",
+      "material": "linen",
+      "recolourable": true
+    },
+    {
+      "id": "wood",
+      "material": "wood",
+      "recolourable": true
+    }
+  ]
+}

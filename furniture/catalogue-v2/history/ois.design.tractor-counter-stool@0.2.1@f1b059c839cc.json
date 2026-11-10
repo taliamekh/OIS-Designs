@@ -1,0 +1,157 @@
+{
+  "designId": "ois.design.tractor-counter-stool",
+  "familyId": "ois.family.tractor-counter-stool",
+  "id": "ois.design.tractor-counter-stool",
+  "name": "Tractor saddle stool",
+  "roomTags": [
+    "dining"
+  ],
+  "theme": "walnut-form",
+  "builder": "seating",
+  "parameters": {
+    "form": "tractor-stool",
+    "w": 0.45,
+    "d": 0.37,
+    "h": 0.7
+  },
+  "distinction": "Sculpted twin saddle lobes on solid four-leg support.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted",
+    "sourceSnapshot": "sources/pipeline-e797cb5c88af56f5.py",
+    "sourceSha256": "e797cb5c88af56f5b4455d819a512ab9be55f40e1fa2d0cb542aca7bb84b906f",
+    "parametersFile": "sources/v0.2.1/tractor-counter-stool.parameters.json"
+  },
+  "constructionKey": "seating|tractor-stool|{\"base\": \"taper\"}",
+  "sha256": "f1b059c839cc350b4c6613d2026f6301f9f78f163930a039794a960dc48c235c",
+  "bytes": 46824,
+  "triangles": 1484,
+  "vertices": 1104,
+  "drawPrimitives": 2,
+  "bounds": {
+    "min": [
+      -0.22499999403953552,
+      1.5649651297078293e-08,
+      -0.1850000023841858
+    ],
+    "max": [
+      0.22499999403953552,
+      0.7082507689737829,
+      0.1850000023841858
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 0.44999998807907104,
+    "depth": 0.3700000047683716,
+    "height": 0.7082507533241316
+  },
+  "footprint": [
+    [
+      -0.22499999403953552,
+      -0.1850000023841858
+    ],
+    [
+      0.22499999403953552,
+      -0.1850000023841858
+    ],
+    [
+      0.22499999403953552,
+      0.1850000023841858
+    ],
+    [
+      -0.22499999403953552,
+      0.1850000023841858
+    ]
+  ],
+  "variantSlots": [
+    "fabric",
+    "wood"
+  ],
+  "requiredExtensions": [],
+  "version": "0.2.1",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.tractor-counter-stool",
+  "file": "assets/v0.2.1/tractor-counter-stool.glb",
+  "sourceModel": "sources/v0.2.1/tractor-counter-stool.blend",
+  "thumbnail": "previews/v0.2.1/tractor-counter-stool.png",
+  "backThumbnail": "previews/v0.2.1/tractor-counter-stool-back.png",
+  "category": "seating",
+  "subtype": "tractor-stool",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "textures": {
+    "count": 0,
+    "bytes": 0
+  },
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.2.1/tractor-counter-stool.png",
+      "previews/v0.2.1/tractor-counter-stool-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.22,
+      0.09,
+      0.038
+    ],
+    [
+      0.39,
+      0.18,
+      0.07
+    ],
+    [
+      0.47,
+      0.3,
+      0.1
+    ]
+  ],
+  "colourTags": [
+    "walnut",
+    "tobacco",
+    "brass"
+  ],
+  "materials": [
+    "textile",
+    "wood"
+  ],
+  "searchAliases": [
+    "dining",
+    "tractor stool"
+  ],
+  "materialSlots": [
+    {
+      "id": "fabric",
+      "material": "fabric",
+      "recolourable": true
+    },
+    {
+      "id": "wood",
+      "material": "wood",
+      "recolourable": true
+    }
+  ]
+}

@@ -1,0 +1,170 @@
+{
+  "id": "ois.design.branch-coat-tree",
+  "sha256": "d88c90397d381092ab0472454c937b1a1beee8615142f45957dd577c32af8aeb",
+  "sourceModel": "sources/v0.7.0/branch-coat-tree.blend",
+  "sourceSha256": "bbe62e1959d9c813359f0a8cb528951dfd5e03f4cee67a533d92872e4e24a666",
+  "partCount": 15,
+  "componentCount": 1,
+  "components": [
+    {
+      "parts": [
+        "pedestal foot",
+        "pedestal stem",
+        "trunk",
+        "coat branch",
+        "hook finial",
+        "coat branch.001",
+        "hook finial.001",
+        "coat branch.002",
+        "hook finial.002",
+        "coat branch.003",
+        "hook finial.003",
+        "coat branch.004",
+        "hook finial.004",
+        "coat branch.005",
+        "hook finial.005"
+      ],
+      "minimum": [
+        -0.2724999785423279,
+        -0.23900634050369263,
+        0.0
+      ],
+      "maximum": [
+        0.27250000834465027,
+        0.23900634050369263,
+        1.75
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "pedestal stem",
+      "b": "pedestal foot",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "trunk",
+      "b": "pedestal foot",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "trunk",
+      "b": "pedestal stem",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "coat branch",
+      "b": "trunk",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "hook finial",
+      "b": "coat branch",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "coat branch.001",
+      "b": "trunk",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "hook finial.001",
+      "b": "coat branch.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "coat branch.002",
+      "b": "trunk",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "coat branch.002",
+      "b": "coat branch",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "hook finial.002",
+      "b": "coat branch.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "coat branch.003",
+      "b": "trunk",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "coat branch.003",
+      "b": "coat branch.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "hook finial.003",
+      "b": "coat branch.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "coat branch.004",
+      "b": "trunk",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "coat branch.004",
+      "b": "coat branch",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "coat branch.004",
+      "b": "coat branch.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "hook finial.004",
+      "b": "coat branch.004",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "coat branch.005",
+      "b": "trunk",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "coat branch.005",
+      "b": "coat branch.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "coat branch.005",
+      "b": "coat branch.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "hook finial.005",
+      "b": "coat branch.005",
+      "method": "triangle intersection",
+      "distance": 0
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; live-source reports are NOT exported-asset evidence; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T04:13:55Z"
+}

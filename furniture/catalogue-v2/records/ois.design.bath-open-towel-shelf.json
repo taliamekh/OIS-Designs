@@ -29,15 +29,46 @@
     "thirdPartyGeometry": false,
     "thirdPartyTextures": false,
     "publicAssetLicence": "not separately granted",
-    "sourceSnapshot": "sources/pipeline-e797cb5c88af56f5.py",
-    "sourceSha256": "e797cb5c88af56f5b4455d819a512ab9be55f40e1fa2d0cb542aca7bb84b906f",
-    "parametersFile": "sources/v0.2.1/bath-open-towel-shelf.parameters.json"
+    "sourceSnapshot": "sources/pipeline-bf07453f548fd92d.py",
+    "sourceSha256": "bf07453f548fd92da637ecce41dc8b35010d5f15c955c971c9e3be2fb762ea2d",
+    "sourceModelSha256": "ff50ae9ee3870a443ce08e2d422eb2e4296147a01474cac419245618bc438a78",
+    "supportSources": {
+      "signature_designs.py": {
+        "snapshot": "sources/signature_designs-6d248dd7aaa49ed4.py",
+        "sha256": "6d248dd7aaa49ed40f05c473c5d46b6fe8c97972ebf6ce139553f9641fc82b3c"
+      },
+      "material_finish.py": {
+        "snapshot": "sources/material_finish-281279dfd17b0c92.py",
+        "sha256": "281279dfd17b0c929f9038bb8066b86216427feaaefbd503abb995d06dc35730"
+      },
+      "catalogue_inventory.py": {
+        "snapshot": "sources/catalogue_inventory-db8b68fc872dbc12.py",
+        "sha256": "db8b68fc872dbc12d87e9ce013777e00d6b32cc0392e8cc09f31f8fef27b9365"
+      },
+      "finalize_glb.py": {
+        "snapshot": "sources/finalize_glb-4d1dec42be5cbf3d.py",
+        "sha256": "4d1dec42be5cbf3d6540facfa883948acd849c080f7117b8d7025749c08e2d1b"
+      },
+      "build_catalogue_v2.py": {
+        "snapshot": "sources/build_catalogue_v2-9c22533830c3704c.py",
+        "sha256": "9c22533830c3704c1ce578b58b4350ebbbf5b8d32590a07db027f671d4975577"
+      },
+      "validate_library.py": {
+        "snapshot": "sources/validate_library-48e60483e2c3d05b.py",
+        "sha256": "48e60483e2c3d05bec2c7e2669523eb77571a4ba120cb5238bbec92b8a585e0c"
+      },
+      "support_checks.py": {
+        "snapshot": "sources/support_checks-f7ed4d0400abd5f2.py",
+        "sha256": "f7ed4d0400abd5f23f27c86a9013cfefaca71234a9da953dfe97daeabb8af640"
+      }
+    },
+    "parametersFile": "sources/v0.7.0/bath-open-towel-shelf.parameters.json"
   },
-  "constructionKey": "case|open|{\"base\": \"plinth\", \"cols\": 1, \"doors\": 2, \"drawersTop\": false, \"front\": \"slab\", \"rows\": 4}",
-  "sha256": "2cce0ff57197a11d9928266fb81a6e3fe5d19fd233115b2248087823814e178f",
-  "bytes": 78636,
-  "triangles": 1504,
-  "vertices": 2098,
+  "constructionKey": "case|open-shelf|{\"base\": \"plinth\", \"partitioned\": false}",
+  "sha256": "ae032600cd9cdd8b088408a36774ef5db7845858629317e537626467ced411cc",
+  "bytes": 243368,
+  "triangles": 496,
+  "vertices": 1488,
   "drawPrimitives": 2,
   "bounds": {
     "min": [
@@ -79,22 +110,46 @@
     "wood"
   ],
   "requiredExtensions": [],
-  "version": "0.2.1",
+  "textures": {
+    "count": 3,
+    "bytes": 174784,
+    "estimatedRgbaBytesWithMipmaps": 1048576,
+    "images": [
+      {
+        "name": "wood-normal",
+        "bytes": 102088,
+        "width": 256,
+        "height": 256,
+        "sha256": "6b8efcb5004552d884a527017922bfb5260b8bda4dc77f1365fe1cb8a09f1d56"
+      },
+      {
+        "name": "wood-neutral-base",
+        "bytes": 39353,
+        "width": 256,
+        "height": 256,
+        "sha256": "ddcf839a2addae78944a2d7a0588f9c2055852fc4ccb4e2dae2095d28541de44"
+      },
+      {
+        "name": "wood-roughness",
+        "bytes": 33343,
+        "width": 256,
+        "height": 256,
+        "sha256": "afc2180e58360e76fb178b52f225f7ba9045a7d0d266f10886763b0590335a1a"
+      }
+    ]
+  },
+  "version": "0.7.0",
   "qualityStatus": "validated-candidate",
   "geometryFamily": "ois.family.bath-open-towel-shelf",
-  "file": "assets/v0.2.1/bath-open-towel-shelf.glb",
-  "sourceModel": "sources/v0.2.1/bath-open-towel-shelf.blend",
-  "thumbnail": "previews/v0.2.1/bath-open-towel-shelf.png",
-  "backThumbnail": "previews/v0.2.1/bath-open-towel-shelf-back.png",
+  "file": "assets/v0.7.0/bath-open-towel-shelf.glb",
+  "sourceModel": "sources/v0.7.0/bath-open-towel-shelf.blend",
+  "thumbnail": "previews/v0.7.0/bath-open-towel-shelf.png",
+  "backThumbnail": "previews/v0.7.0/bath-open-towel-shelf-back.png",
   "category": "storage",
   "subtype": "open",
   "units": "metres",
   "frame": "RH Y-up; +X right, -Z furniture front",
   "pivot": "floor Y=0; centre of primary body XZ",
-  "textures": {
-    "count": 0,
-    "bytes": 0
-  },
   "lod": {
     "delivered": [
       "LOD0"
@@ -109,32 +164,26 @@
   "visualReview": {
     "status": "pending",
     "images": [
-      "previews/v0.2.1/bath-open-towel-shelf.png",
-      "previews/v0.2.1/bath-open-towel-shelf-back.png"
+      "previews/v0.7.0/bath-open-towel-shelf.png",
+      "previews/v0.7.0/bath-open-towel-shelf-back.png"
     ]
   },
   "favouriteStorage": "user set of stable catalogue IDs",
   "colors": [
     [
-      0.58,
-      0.39,
-      0.2
+      0.02500000037252903,
+      0.03500000014901161,
+      0.03999999910593033
     ],
     [
-      0.73,
-      0.7,
-      0.61
-    ],
-    [
-      0.12,
-      0.14,
-      0.13
+      0.5799999833106995,
+      0.38999998569488525,
+      0.20000000298023224
     ]
   ],
   "colourTags": [
-    "pale oak",
-    "ivory",
-    "oatmeal"
+    "near black",
+    "pale oak"
   ],
   "materials": [
     "paint",
@@ -155,5 +204,38 @@
       "material": "wood",
       "recolourable": true
     }
-  ]
+  ],
+  "finalization": {
+    "unusedTangentAttributesRemoved": 1,
+    "unusedAccessorsRemoved": 1,
+    "unusedBufferViewsRemoved": 1,
+    "bytesRemoved": 9164,
+    "normalMappedTangents": "retained, never replaced with arbitrary fallback vectors"
+  },
+  "supportChecks": {
+    "method": "source-part upper-end ray to non-leg geometry, 15mm join tolerance",
+    "status": "pass",
+    "parts": [],
+    "limitation": "screening only; hidden joints, whole-model connectivity, load paths and safety remain visual/product-review concerns"
+  },
+  "materialFinish": {
+    "source": "materials/v1/manifest.json",
+    "repeatMetres": {
+      "wood": [
+        0.16,
+        0.75
+      ],
+      "fabric": [
+        0.14,
+        0.14
+      ],
+      "linen": [
+        0.12,
+        0.12
+      ]
+    },
+    "maps": "original base colour / roughness / tangent normal, embedded in GLB"
+  },
+  "geometryHash": "04d24affe2a27a87950fb76bc735ab22d08f941794b336394b756e1347de765f",
+  "normalizedMirrorGeometryHash": "62746e98e72f576a51140ed9fd9458760940ff16ad0cf8a921a8b068cd8e2171"
 }

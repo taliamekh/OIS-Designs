@@ -1,0 +1,115 @@
+{
+  "id": "ois.design.rotating-book-tower",
+  "sha256": "2bde0b79c80b266474c36570e785928ce00ceb0830869949f06752527c390677",
+  "sourceModel": "sources/v0.7.0/rotating-book-tower.blend",
+  "sourceSha256": "b80d600c2f0dd5d23523c356e649f5572ff8a22c6f9ba624787abd7aca91cf31",
+  "partCount": 8,
+  "componentCount": 1,
+  "components": [
+    {
+      "parts": [
+        "turntable foot",
+        "turntable axle",
+        "circular shelf",
+        "circular shelf.001",
+        "circular shelf.002",
+        "circular shelf.003",
+        "radial book partition",
+        "radial book partition.001"
+      ],
+      "minimum": [
+        -0.33000001311302185,
+        -0.33000001311302185,
+        0.0
+      ],
+      "maximum": [
+        0.33000001311302185,
+        0.33000001311302185,
+        1.3650000095367432
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "turntable axle",
+      "b": "turntable foot",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "circular shelf",
+      "b": "turntable axle",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "radial book partition",
+      "b": "turntable axle",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "radial book partition",
+      "b": "circular shelf",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "radial book partition",
+      "b": "circular shelf.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "radial book partition",
+      "b": "circular shelf.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "radial book partition",
+      "b": "circular shelf.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "radial book partition.001",
+      "b": "turntable axle",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "radial book partition.001",
+      "b": "circular shelf",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "radial book partition.001",
+      "b": "circular shelf.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "radial book partition.001",
+      "b": "circular shelf.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "radial book partition.001",
+      "b": "circular shelf.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "radial book partition.001",
+      "b": "radial book partition",
+      "method": "triangle intersection",
+      "distance": 0
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; live-source reports are NOT exported-asset evidence; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T04:10:58Z"
+}

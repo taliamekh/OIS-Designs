@@ -1,0 +1,470 @@
+{
+  "designId": "ois.design.arched-iron-bed",
+  "familyId": "ois.family.arched-iron-bed",
+  "id": "ois.design.arched-iron-bed.lod2",
+  "name": "Arched iron bed",
+  "roomTags": [
+    "bedroom"
+  ],
+  "theme": "city-loft",
+  "builder": "signature",
+  "parameters": {
+    "form": "arched-iron-bed"
+  },
+  "distinction": "Metal arched end frames and vertical rods support a full sleeping deck.",
+  "stage": "validated-candidate",
+  "countEligible": false,
+  "variants": [],
+  "variantOf": "ois.design.arched-iron-bed",
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted",
+    "sourceSnapshot": "sources/pipeline-bf07453f548fd92d.py",
+    "sourceSha256": "bf07453f548fd92da637ecce41dc8b35010d5f15c955c971c9e3be2fb762ea2d",
+    "sourceModelSha256": "bb2e2f5b7bcd126b72151124c3ebf3b8fcc6a752cd991894122593950ebe3daa",
+    "supportSources": {
+      "signature_designs.py": {
+        "snapshot": "sources/signature_designs-6d248dd7aaa49ed4.py",
+        "sha256": "6d248dd7aaa49ed40f05c473c5d46b6fe8c97972ebf6ce139553f9641fc82b3c"
+      },
+      "material_finish.py": {
+        "snapshot": "sources/material_finish-281279dfd17b0c92.py",
+        "sha256": "281279dfd17b0c929f9038bb8066b86216427feaaefbd503abb995d06dc35730"
+      },
+      "catalogue_inventory.py": {
+        "snapshot": "sources/catalogue_inventory-db8b68fc872dbc12.py",
+        "sha256": "db8b68fc872dbc12d87e9ce013777e00d6b32cc0392e8cc09f31f8fef27b9365"
+      },
+      "finalize_glb.py": {
+        "snapshot": "sources/finalize_glb-4d1dec42be5cbf3d.py",
+        "sha256": "4d1dec42be5cbf3d6540facfa883948acd849c080f7117b8d7025749c08e2d1b"
+      },
+      "build_catalogue_v2.py": {
+        "snapshot": "sources/build_catalogue_v2-9c22533830c3704c.py",
+        "sha256": "9c22533830c3704c1ce578b58b4350ebbbf5b8d32590a07db027f671d4975577"
+      },
+      "validate_library.py": {
+        "snapshot": "sources/validate_library-48e60483e2c3d05b.py",
+        "sha256": "48e60483e2c3d05bec2c7e2669523eb77571a4ba120cb5238bbec92b8a585e0c"
+      },
+      "support_checks.py": {
+        "snapshot": "sources/support_checks-f7ed4d0400abd5f2.py",
+        "sha256": "f7ed4d0400abd5f23f27c86a9013cfefaca71234a9da953dfe97daeabb8af640"
+      }
+    },
+    "parametersFile": "sources/v0.7.0/arched-iron-bed.parameters.json"
+  },
+  "constructionKey": "signature|arched-iron-bed|{}",
+  "bedSize": "queen",
+  "mattressMetres": [
+    1.524,
+    2.032,
+    0.22
+  ],
+  "modelState": "fixed frame",
+  "safetyReviewRequired": false,
+  "sha256": "b904b4390a66ec98c9afa8d2ca3871a60a63df650d4cc96a36689fe60ff63bc0",
+  "bytes": 293412,
+  "triangles": 2900,
+  "vertices": 3657,
+  "drawPrimitives": 2,
+  "bounds": {
+    "min": [
+      -0.8444897511201442,
+      -6.01596165106244e-08,
+      -1.1086697061869253
+    ],
+    "max": [
+      0.8444905569543022,
+      1.304879142577518,
+      1.1084896111921352
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 1.6889803080744463,
+    "depth": 2.2171593173790605,
+    "height": 1.3048792027371343
+  },
+  "footprint": [
+    [
+      -0.8444897511201442,
+      -1.1086697061869253
+    ],
+    [
+      0.8444905569543022,
+      -1.1086697061869253
+    ],
+    [
+      0.8444905569543022,
+      1.1084896111921352
+    ],
+    [
+      -0.8444897511201442,
+      1.1084896111921352
+    ]
+  ],
+  "variantSlots": [
+    "metal",
+    "linen"
+  ],
+  "requiredExtensions": [],
+  "textures": {
+    "count": 3,
+    "bytes": 150985,
+    "estimatedRgbaBytesWithMipmaps": 1048576,
+    "images": [
+      {
+        "name": "linen-normal",
+        "bytes": 76292,
+        "width": 256,
+        "height": 256,
+        "sha256": "70b25282eb1daf2d7d6faad88d6b47ca1298d395b833d36d3ba28a542ed6d36e"
+      },
+      {
+        "name": "linen-neutral-base",
+        "bytes": 34309,
+        "width": 256,
+        "height": 256,
+        "sha256": "047df909f3cecf9ec0cdef6c8e2a92dea40e0116922d5b7a25bc7da6481e1ec9"
+      },
+      {
+        "name": "linen-roughness",
+        "bytes": 40384,
+        "width": 256,
+        "height": 256,
+        "sha256": "c31825bb85668747311407d1a5e5d9a56bc0e65aefbf79936d1d4665e83fdb45"
+      }
+    ]
+  },
+  "version": "0.7.0-lod1",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.arched-iron-bed",
+  "file": "assets/v0.7.0-lod1/arched-iron-bed-lod2.glb",
+  "sourceModel": "sources/v0.7.0/arched-iron-bed.blend",
+  "thumbnail": "previews/v0.7.0-lod1/arched-iron-bed-lod2.png",
+  "backThumbnail": "previews/v0.7.0-lod1/arched-iron-bed-lod2-back.png",
+  "category": "signature-furniture",
+  "subtype": "arched-iron-bed",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending"
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.8399999737739563,
+      0.800000011920929,
+      0.6899999976158142
+    ],
+    [
+      0.04500000178813934,
+      0.05000000074505806,
+      0.054999999701976776
+    ]
+  ],
+  "colourTags": [
+    "black",
+    "warm ivory"
+  ],
+  "materials": [
+    "metal",
+    "textile"
+  ],
+  "searchAliases": [
+    "bedroom",
+    "arched iron bed"
+  ],
+  "materialSlots": [
+    {
+      "id": "linen",
+      "material": "linen",
+      "recolourable": true
+    },
+    {
+      "id": "metal",
+      "material": "metal",
+      "recolourable": true
+    }
+  ],
+  "finalization": {
+    "unusedTangentAttributesRemoved": 1,
+    "unusedAccessorsRemoved": 1,
+    "unusedBufferViewsRemoved": 1,
+    "bytesRemoved": 80768,
+    "normalMappedTangents": "retained, never replaced with arbitrary fallback vectors"
+  },
+  "supportChecks": {
+    "method": "source-part upper-end ray to non-leg geometry, 15mm join tolerance",
+    "status": "pass",
+    "parts": [
+      {
+        "part": "leg",
+        "gapMetresAlongSupport": -0.020241850614547724,
+        "status": "pass"
+      },
+      {
+        "part": "leg.001",
+        "gapMetresAlongSupport": -0.02024183571338653,
+        "status": "pass"
+      },
+      {
+        "part": "leg.002",
+        "gapMetresAlongSupport": -0.02024188041687011,
+        "status": "pass"
+      },
+      {
+        "part": "leg.003",
+        "gapMetresAlongSupport": -0.02024183571338653,
+        "status": "pass"
+      }
+    ],
+    "limitation": "screening only; hidden joints, whole-model connectivity, load paths and safety remain visual/product-review concerns"
+  },
+  "materialFinish": {
+    "source": "materials/v1/manifest.json",
+    "repeatMetres": {
+      "wood": [
+        0.16,
+        0.75
+      ],
+      "fabric": [
+        0.14,
+        0.14
+      ],
+      "linen": [
+        0.12,
+        0.12
+      ]
+    },
+    "maps": "original base colour / roughness / tangent normal, embedded in GLB"
+  },
+  "geometryHash": "2b292ac94db2ca727dfdd0af2d83b4af740e63b78a01c04c3b7fcc5c87051717",
+  "normalizedMirrorGeometryHash": "132ac52c83551e2a7725bd93fc53eb0e9e36b87fca1d058a39900a6693eece44",
+  "lodLevel": 2,
+  "lodParent": {
+    "id": "ois.design.arched-iron-bed",
+    "version": "0.7.0",
+    "sha256": "86da9ad792d8b8c954c04ab8f961d63dc21d3e0aa327be964611c62abc8c9198",
+    "file": "assets/v0.7.0/arched-iron-bed.glb",
+    "sourceModelSha256": "bb2e2f5b7bcd126b72151124c3ebf3b8fcc6a752cd991894122593950ebe3daa"
+  },
+  "lodMethod": {
+    "minimumPartTriangles": 180,
+    "collapseRatio": 0.3,
+    "parts": [
+      {
+        "part": "leg",
+        "before": 60,
+        "after": 60
+      },
+      {
+        "part": "leg.001",
+        "before": 60,
+        "after": 60
+      },
+      {
+        "part": "leg.002",
+        "before": 60,
+        "after": 60
+      },
+      {
+        "part": "leg.003",
+        "before": 60,
+        "after": 60
+      },
+      {
+        "part": "bed frame",
+        "before": 188,
+        "after": 56
+      },
+      {
+        "part": "mattress",
+        "before": 188,
+        "after": 56
+      },
+      {
+        "part": "piping",
+        "before": 44,
+        "after": 44
+      },
+      {
+        "part": "arched rail",
+        "before": 524,
+        "after": 156
+      },
+      {
+        "part": "bed post",
+        "before": 60,
+        "after": 60
+      },
+      {
+        "part": "post finial",
+        "before": 528,
+        "after": 158
+      },
+      {
+        "part": "bed post.001",
+        "before": 60,
+        "after": 60
+      },
+      {
+        "part": "post finial.001",
+        "before": 528,
+        "after": 158
+      },
+      {
+        "part": "metal spindle",
+        "before": 60,
+        "after": 60
+      },
+      {
+        "part": "metal spindle.001",
+        "before": 60,
+        "after": 60
+      },
+      {
+        "part": "metal spindle.002",
+        "before": 60,
+        "after": 60
+      },
+      {
+        "part": "metal spindle.003",
+        "before": 60,
+        "after": 60
+      },
+      {
+        "part": "metal spindle.004",
+        "before": 60,
+        "after": 60
+      },
+      {
+        "part": "metal spindle.005",
+        "before": 60,
+        "after": 60
+      },
+      {
+        "part": "metal spindle.006",
+        "before": 60,
+        "after": 60
+      },
+      {
+        "part": "metal spindle.007",
+        "before": 60,
+        "after": 60
+      },
+      {
+        "part": "metal spindle.008",
+        "before": 60,
+        "after": 60
+      },
+      {
+        "part": "metal spindle.009",
+        "before": 60,
+        "after": 60
+      },
+      {
+        "part": "metal spindle.010",
+        "before": 60,
+        "after": 60
+      },
+      {
+        "part": "arched rail.001",
+        "before": 524,
+        "after": 156
+      },
+      {
+        "part": "bed post.002",
+        "before": 60,
+        "after": 60
+      },
+      {
+        "part": "post finial.002",
+        "before": 528,
+        "after": 158
+      },
+      {
+        "part": "bed post.003",
+        "before": 60,
+        "after": 60
+      },
+      {
+        "part": "post finial.003",
+        "before": 528,
+        "after": 158
+      },
+      {
+        "part": "metal spindle.011",
+        "before": 60,
+        "after": 60
+      },
+      {
+        "part": "metal spindle.012",
+        "before": 60,
+        "after": 60
+      },
+      {
+        "part": "metal spindle.013",
+        "before": 60,
+        "after": 60
+      },
+      {
+        "part": "metal spindle.014",
+        "before": 60,
+        "after": 60
+      },
+      {
+        "part": "metal spindle.015",
+        "before": 60,
+        "after": 60
+      },
+      {
+        "part": "metal spindle.016",
+        "before": 60,
+        "after": 60
+      },
+      {
+        "part": "metal spindle.017",
+        "before": 60,
+        "after": 60
+      },
+      {
+        "part": "metal spindle.018",
+        "before": 60,
+        "after": 60
+      },
+      {
+        "part": "metal spindle.019",
+        "before": 60,
+        "after": 60
+      },
+      {
+        "part": "metal spindle.020",
+        "before": 60,
+        "after": 60
+      },
+      {
+        "part": "metal spindle.021",
+        "before": 60,
+        "after": 60
+      }
+    ]
+  }
+}

@@ -31,6 +31,7 @@ def reset(theme):
  mat('dark',(.025,.035,.04,1),.48);mat('accent',(.27,.40,.32,1),.68)
  mat('cane',(.48,.34,.17,1),.85)
  mat('mirror',(.92,.94,.95,1),.045,1)
+ mat('plastic',(.84,.82,.74,1),.34);mat('opal',(.90,.91,.87,1),.22)
 def finish(o,name,slot):
  o.name=name;o.data.materials.append(M[slot]);return o
 
@@ -126,14 +127,14 @@ def feet(w,d,h,kind='taper',slot='wood'):
   return
  for x in (-w/2+.055,w/2-.055):
   for y in (-d/2+.055,d/2-.055):rod('leg',(x*1.04,y*1.04,.012),(x,y,h),.026,slot,.018 if kind=='taper' else .026)
-def handle(x,y,z,length=.11,vertical=False,normal='Y'):
+def handle(x,y,z,length=.11,vertical=False,normal='Y',segments=16):
  a=(x,y,z-length/2) if vertical else ((x,y-length/2,z) if normal=='X' else (x-length/2,y,z));b=(x,y,z+length/2) if vertical else ((x,y+length/2,z) if normal=='X' else (x+length/2,y,z))
- rod('pull',a,b,.006,'metal')
+ rod('pull',a,b,.006,'metal',n=segments)
  if normal=='X':box('pull mounting plate',(x-(.0325 if x>=0 else -.0325),y,z),(.016,.028,length+.03) if vertical else (.016,length+.03,.028),'metal',.003)
  else:box('pull mounting plate',(x,y-.0425,z),(.028,.016,length+.03) if vertical else (length+.03,.016,.028),'metal',.003)
  for end in (a,b):
   anchor=(end[0]-(.04 if x>=0 else -.04),end[1],end[2]) if normal=='X' else (end[0],end[1]-.04,end[2])
-  rod('pull mounting standoff',anchor,end,.005,'metal',n=12)
+  rod('pull mounting standoff',anchor,end,.005,'metal',n=max(8,segments-4))
 def cushion(name,pos,dim,slot='fabric'):
  o=box(name,pos,dim,slot,.075)
  if dim[0]>.35 and dim[1]>.25:box('piping',(pos[0],pos[1],pos[2]-.015),(dim[0]+.004,dim[1]+.004,.009),'linen',.004)
@@ -350,7 +351,11 @@ def tables(p):
  if p.get('drawers'):
   n=p['drawers']
   for i in range(n):
-   x=(i-(n-1)/2)*w/n;box('suspended drawer',(x,0,h-.13),(w/n-.02,d*.75,.16));handle(x,d*.39,h-.13)
+   drawer_w=w/n-.02;drawer_d=d*.75;drawer_y=0
+   if shape=='triangle':drawer_w=w*.40/n;drawer_d=d*.30;drawer_y=-d*.17
+   elif shape in ('round','oval','kidney'):drawer_w=w*.54/n;drawer_d=d*.42;drawer_y=0
+   x=(i-(n-1)/2)*drawer_w;box('suspended drawer',(x,drawer_y,h-.13),(drawer_w,drawer_d,.16));handle(x,drawer_y+drawer_d/2+.015,h-.13)
+   for rail_y in (-drawer_d*.30,drawer_d*.30):box('drawer top mounting cleat',(x,drawer_y+rail_y,h-.040),(drawer_w*.8,.025,.030),'metal',.002)
  if p.get('shelf'):
   box('undershelf',(0,0,h*.28),(w*.82,d*.75,.025))
   for x in (-w/2+.06,w/2-.06):rod('undershelf side support',(x,-d/2+.04,h*.28-.018),(x,d/2-.04,h*.28-.018),.012,'metal')
@@ -427,7 +432,7 @@ def cases(p):
    for i in range(cols):
     x=(i-(cols-1)/2)*(w-.05)/cols;z=bottom+.04+(j+.5)*usable/rows
     pull=d*.48 if form in ('file','flatfile') and j==rows-1 else 0;dw=(w-.06)/cols-.01;dh=usable/rows-.012
-    box('drawer front',(x,d/2+.012+pull,z),(dw,.028,dh));handle(x,d/2+.05+pull,z,min(.14,w/cols*.4))
+    box('drawer front',(x,d/2+.012+pull,z),(dw,.028,dh));handle(x,d/2+.05+pull,z,min(.14,w/cols*.4),segments=8 if rows*cols>=25 else 16)
     box('drawer bottom',(x,pull+.025,z-dh*.44),(dw-.025,d-.025,.018))
     for side in (-1,1):
      box('drawer side',(x+side*(dw/2-.018),pull+.025,z),(.018,d-.025,dh*.88))
@@ -577,9 +582,11 @@ def beds(p):
    else:
     box('lower platform',(0,0,.32),(W,D,.10));cushion('lower mattress',(0,0,.47),(w,d,.20),'linen')
    if form=='bunk-triple':
+    settle_parts(list(bpy.context.scene.objects));primary_bunk=set(bpy.context.scene.objects)
     cx=W/2+w/2+.09;box('pullout third bed',(cx,0,.085),(W,D,.07));cushion('third mattress',(cx,0,.19),(w,d,.14),'linen')
     for xx in (cx-w*.4,cx+w*.4):
      for yy in (-d*.4,d*.4):ellipsoid('third bed caster',(xx,yy,.03),(.06,.055,.06),'dark')
+    third_bed_parts=set(bpy.context.scene.objects)-primary_bunk
   if form=='bunk-offset':
    for x in (-W/2,W/2):rod('lower bunk joining rail',(x,-D/2,.30),(x,-W/2+.05,.30),.025,'wood')
   if form=='loft-desk':
@@ -595,6 +602,8 @@ def beds(p):
   else:
    for x in (W/2-.28,W/2-.02):rod('ladder',(x,D/2+.18,0),(x,D/2+.04,1.7),.018,'wood')
    for zz in (.24,.50,.76,1.02,1.28,1.54):rod('ladder rung',(W/2-.28,D/2+.18-zz*.08,zz),(W/2-.02,D/2+.18-zz*.08,zz),.015,'wood')
+ if form=='bunk-triple':
+  settle_parts(set(bpy.context.scene.objects)-third_bed_parts);settle_parts(third_bed_parts)
  return {'bedSize':size,'mattressMetres':[w,d,.22],'secondaryMattressMetres':[.9652,1.905,.12] if form=='trundle' else ([w,d,.14] if form=='bunk-triple' else None),'safetyReviewRequired':form in ('floor-house','bunk-stair','bunk-offset','loft-desk','loft-cubby','bunk-triple')}
 
 def lights(p):
@@ -625,10 +634,10 @@ def lights(p):
   elif form=='cage':
    for z in (h-.40,h):ring('cage rim',(0,0,z),.15,.15,.008,'metal')
    for i in range(10):a=i*pi/5;rod('cage rib',(.15*cos(a),.15*sin(a),h-.40),(.15*cos(a),.15*sin(a),h),.006,'metal')
-   ellipsoid('bulb',(0,0,h-.20),(.12,.12,.19),'linen')
+   ellipsoid('bulb',(0,0,h-.20),(.12,.12,.19),'opal')
   elif form=='globe-cluster':
    for a,z in ((0,h),(.9,h-.25),(3.2,h-.45)):
-    rod('branch',(0,0,z-.12),(.22*cos(a),.22*sin(a),z),.009,'metal');ellipsoid('opal globe',(.22*cos(a),.22*sin(a),z),(.22,.22,.22),'ceramic')
+    rod('branch',(0,0,z-.12),(.22*cos(a),.22*sin(a),z),.009,'metal');ellipsoid('opal globe',(.22*cos(a),.22*sin(a),z),(.22,.22,.22),'opal')
   elif form=='task':
    o=lathe('task shade',[(.04,-.1),(.13,.02),(.13,.04),(.12,.04),(.035,-.09)],'metal',pos=(x,0,h-.05));o.rotation_euler.y=.3
   else:lathe('open shade',[(.22,h-.38),(.16,h),(.155,h),(.215,h-.38),(.22,h-.38)],'linen',pos=(x,0,0))
@@ -692,7 +701,7 @@ def bath(p):
   lathe('toilet pedestal',[(0,0),(.16,0),(.17,.08),(.12,.26),(.22,.34),(.22,.38),(0,.38)],'ceramic')
   o=lathe('hollow bowl',[(0,.24),(.21,.30),(.25,.43),(.25,.46),(.21,.46),(.17,.35),(0,.30)],'ceramic');o.scale=(.85,1.25,1)
   if form!='bidet':
-   ring('seat rim',(0,.03,.475),.225,.29,.024,'linen')
+   ring('seat rim',(0,.03,.475),.225,.29,.024,'plastic')
    if form=='toilet-close':box('cistern',(0,-.24,.62),(.40,.16,.43),'ceramic',.04);cylinder('flush button',(0,-.24,.836),.025,.016,'metal')
    elif form=='toilet-wall':box('wall carrier',(0,-.29,.39),(.35,.06,.26),'ceramic')
    if form=='toilet-vintage':box('high cistern',(0,-.28,1.55),(.45,.16,.32),'ceramic');rod('flush pipe',(0,-.27,.34),(0,-.27,1.41),.018,'metal')
@@ -1036,7 +1045,7 @@ def extras(p):
   else:feet(w,d,h-.07,'cross','metal');box('keyboard housing',(0,0,h-.04),(w,d,.08),'dark')
   z=h*.70 if f=='piano' else h+.005
   pitch=w*.9/28
-  for i in range(28):x=-w*.45+(i+.5)*pitch;box('ivory key',(x,d*.40,z),(pitch-.002,d*.30,.018),'linen',.001)
+  for i in range(28):x=-w*.45+(i+.5)*pitch;box('ivory key',(x,d*.40,z),(pitch-.002,d*.30,.018),'plastic',.001)
   for i in range(28):
    if i%7 in (0,1,3,4,5):x=-w*.45+(i+1)*pitch;box('black key',(x,d*.31,z+.018),(pitch*.63,d*.15,.024),'dark',.001)
  elif f in ('sewing','workbench','tool-pegboard','reception','lectern','printer-cart'):
@@ -1307,9 +1316,12 @@ def functional(p):
     rod('A stile',(x,-d/2,0),(x,0,h),.025,'wood');rod('A stile',(x,d/2,0),(x,0,h),.025,'wood')
    for z in (.18,h*.40,h*.68):box('A shelf',(0,0,z),(w,d*(1-z/h),.03))
   elif f=='suspended-rope-shelf':
-   box('floor foot',(0,0,.02),(w,d,.04),'metal')
+   box('wall suspension mounting rail',(0,-d/2,h),(w,.045,.055),'metal')
    for x in (-w*.42,w*.42):
-    for y in (-d*.40,d*.40):rod('rope suspension',(x,y,0),(x,y,h),.007,'cane')
+    rod('overhead wall cantilever',(x,-d/2,h),(x,d*.40,h),.014,'metal')
+    for y in (-d*.40,d*.40):
+     rod('rope suspension',(x,y,.055),(x,y,h),.007,'cane')
+     for z in (.065,.465,.865,1.265):cylinder('shelf suspension stop',(x,y,z),.014,.018,'metal',n=8)
    for z in (.08,.48,.88,1.28):box('suspended shelf',(0,0,z),(w,d,.028))
   else:
    cases({'w':w,'d':d,'h':h,'form':'open','rows':4,'cols':2})

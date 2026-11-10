@@ -1,0 +1,164 @@
+{
+  "designId": "ois.design.wall-plate-cupboard",
+  "familyId": "ois.family.wall-plate-cupboard",
+  "id": "ois.design.wall-plate-cupboard",
+  "name": "Wall plate cupboard",
+  "roomTags": [
+    "kitchen"
+  ],
+  "theme": "coastal-linen",
+  "builder": "kitchen",
+  "parameters": {
+    "form": "wall-plate",
+    "w": 0.85,
+    "d": 0.3,
+    "h": 0.7
+  },
+  "distinction": "Front plate spindles retain plates above enclosed storage.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted",
+    "sourceSnapshot": "sources/pipeline-e797cb5c88af56f5.py",
+    "sourceSha256": "e797cb5c88af56f5b4455d819a512ab9be55f40e1fa2d0cb542aca7bb84b906f",
+    "parametersFile": "sources/v0.2.1/wall-plate-cupboard.parameters.json"
+  },
+  "constructionKey": "kitchen|wall-plate|{}",
+  "sha256": "716efa2dc4013f3585694358561764c36c585203f77c57c75f041bd126b6464e",
+  "bytes": 201564,
+  "triangles": 4104,
+  "vertices": 5417,
+  "drawPrimitives": 3,
+  "bounds": {
+    "min": [
+      -0.42500001192092896,
+      0.0,
+      -0.20600000382605893
+    ],
+    "max": [
+      0.42500001192092896,
+      0.7000000178813934,
+      0.15000000596046448
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 0.8500000238418579,
+    "depth": 0.3560000097865234,
+    "height": 0.7000000178813934
+  },
+  "footprint": [
+    [
+      -0.42500001192092896,
+      -0.20600000382605893
+    ],
+    [
+      0.42500001192092896,
+      -0.20600000382605893
+    ],
+    [
+      0.42500001192092896,
+      0.15000000596046448
+    ],
+    [
+      -0.42500001192092896,
+      0.15000000596046448
+    ]
+  ],
+  "variantSlots": [
+    "dark",
+    "metal",
+    "wood"
+  ],
+  "requiredExtensions": [],
+  "version": "0.2.1",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.wall-plate-cupboard",
+  "file": "assets/v0.2.1/wall-plate-cupboard.glb",
+  "sourceModel": "sources/v0.2.1/wall-plate-cupboard.blend",
+  "thumbnail": "previews/v0.2.1/wall-plate-cupboard.png",
+  "backThumbnail": "previews/v0.2.1/wall-plate-cupboard-back.png",
+  "category": "cabinetry",
+  "subtype": "wall-plate",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "textures": {
+    "count": 0,
+    "bytes": 0
+  },
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "wall",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.2.1/wall-plate-cupboard.png",
+      "previews/v0.2.1/wall-plate-cupboard-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.66,
+      0.53,
+      0.34
+    ],
+    [
+      0.36,
+      0.53,
+      0.58
+    ],
+    [
+      0.64,
+      0.6,
+      0.48
+    ]
+  ],
+  "colourTags": [
+    "mist blue",
+    "sand",
+    "pale oak"
+  ],
+  "materials": [
+    "metal",
+    "paint",
+    "wood"
+  ],
+  "searchAliases": [
+    "kitchen",
+    "wall plate"
+  ],
+  "materialSlots": [
+    {
+      "id": "dark",
+      "material": "dark",
+      "recolourable": true
+    },
+    {
+      "id": "metal",
+      "material": "metal",
+      "recolourable": true
+    },
+    {
+      "id": "wood",
+      "material": "wood",
+      "recolourable": true
+    }
+  ]
+}

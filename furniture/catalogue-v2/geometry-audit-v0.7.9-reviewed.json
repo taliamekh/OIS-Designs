@@ -1,0 +1,62 @@
+{
+  "count": 5,
+  "passed": 5,
+  "errors": [],
+  "exactDuplicates": [],
+  "normalizedOrMirroredDuplicates": [],
+  "nearSilhouettePairs": [
+    {
+      "a": "ois.design.pullout-trundle-bed",
+      "b": "ois.design.pullout-trundle-bed.size.full",
+      "silhouetteIoU": [
+        0.958217270194986,
+        0.9575289575289575,
+        0.9576151455213338
+      ],
+      "decision": "requires construction/visual distinction review; silhouette alone cannot accept/reject"
+    }
+  ],
+  "checks": [
+    {
+      "id": "ois.design.boot-tray-bench",
+      "geometryHash": "586b496d0971149ad8dbde4243a384fb929b7bfe4f412242632d3b52ddfec4b4",
+      "normalizedMirrorGeometryHash": "46aced1a601d8c32dbb232e4d1a076459a0bdb7bc0c8ccc0dd3d406fe0852b35",
+      "triangles": 2152,
+      "bytes": 490384,
+      "status": "pass"
+    },
+    {
+      "id": "ois.design.pullout-trundle-bed",
+      "geometryHash": "8d73288076990880d5b8f70d638a9e672cde9eed5ea850a913fe13f25005d9a4",
+      "normalizedMirrorGeometryHash": "1016b919a70200a3f33ae8e2f17ecd10550950068a9cde6509c359bb22a1f3a8",
+      "triangles": 4032,
+      "bytes": 682928,
+      "status": "pass"
+    },
+    {
+      "id": "ois.design.pullout-trundle-bed.size.full",
+      "geometryHash": "f36518c172eec59ef61cebac49bba8985e81ee9d3605565bb0523811d8df2c99",
+      "normalizedMirrorGeometryHash": "0aa2810699e12d31a8e302e582c280c83b7c8e666260c6491566b844f0ca8aa6",
+      "triangles": 4032,
+      "bytes": 682936,
+      "status": "pass"
+    },
+    {
+      "id": "ois.design.pullout-trundle-bed.size.king",
+      "geometryHash": "b25b4e5d012bfc227a762a61b1b01f2734c94a347aec6d485138bea4dc7bf22e",
+      "normalizedMirrorGeometryHash": "233473a778fb20fc854f08c53f461257bb47f137837e610daa8f1478aa82de86",
+      "triangles": 4032,
+      "bytes": 682936,
+      "status": "pass"
+    },
+    {
+      "id": "ois.design.pullout-trundle-bed.size.twin",
+      "geometryHash": "bf2a3d962732d4e024a03b0db4a223e72b55ddb41b029b59a3343801b08f739f",
+      "normalizedMirrorGeometryHash": "060a22f47f6e039847775a4e17684976b54f6d9ef912c5fa5078ff5bee3830f5",
+      "triangles": 3800,
+      "bytes": 648140,
+      "status": "pass"
+    }
+  ],
+  "limitations": "structural subset, no phone or user approval; canonical shape and silhouette are screening tools, visual construction review determines eligibility"
+}

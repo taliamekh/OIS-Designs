@@ -1,0 +1,255 @@
+{
+  "designId": "ois.design.tilting-shoe-cabinet",
+  "familyId": "ois.family.tilting-shoe-cabinet",
+  "id": "ois.design.tilting-shoe-cabinet",
+  "name": "Open tilt shoe cabinet",
+  "roomTags": [
+    "entry-hall"
+  ],
+  "theme": "walnut-form",
+  "builder": "signature",
+  "parameters": {
+    "form": "tilting-shoe-cabinet"
+  },
+  "distinction": "Tilted full-width bins expose their actual shoe compartments and pivot hardware.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted",
+    "sourceSnapshot": "sources/pipeline-bf07453f548fd92d.py",
+    "sourceSha256": "bf07453f548fd92da637ecce41dc8b35010d5f15c955c971c9e3be2fb762ea2d",
+    "sourceModelSha256": "566313747c60e5756c9a0a11e0a4eca39a4ac964c3e714228b0f45656abb2f15",
+    "supportSources": {
+      "signature_designs.py": {
+        "snapshot": "sources/signature_designs-6d248dd7aaa49ed4.py",
+        "sha256": "6d248dd7aaa49ed40f05c473c5d46b6fe8c97972ebf6ce139553f9641fc82b3c"
+      },
+      "material_finish.py": {
+        "snapshot": "sources/material_finish-281279dfd17b0c92.py",
+        "sha256": "281279dfd17b0c929f9038bb8066b86216427feaaefbd503abb995d06dc35730"
+      },
+      "catalogue_inventory.py": {
+        "snapshot": "sources/catalogue_inventory-db8b68fc872dbc12.py",
+        "sha256": "db8b68fc872dbc12d87e9ce013777e00d6b32cc0392e8cc09f31f8fef27b9365"
+      },
+      "finalize_glb.py": {
+        "snapshot": "sources/finalize_glb-4d1dec42be5cbf3d.py",
+        "sha256": "4d1dec42be5cbf3d6540facfa883948acd849c080f7117b8d7025749c08e2d1b"
+      },
+      "build_catalogue_v2.py": {
+        "snapshot": "sources/build_catalogue_v2-9c22533830c3704c.py",
+        "sha256": "9c22533830c3704c1ce578b58b4350ebbbf5b8d32590a07db027f671d4975577"
+      },
+      "validate_library.py": {
+        "snapshot": "sources/validate_library-48e60483e2c3d05b.py",
+        "sha256": "48e60483e2c3d05bec2c7e2669523eb77571a4ba120cb5238bbec92b8a585e0c"
+      },
+      "support_checks.py": {
+        "snapshot": "sources/support_checks-f7ed4d0400abd5f2.py",
+        "sha256": "f7ed4d0400abd5f23f27c86a9013cfefaca71234a9da953dfe97daeabb8af640"
+      }
+    },
+    "parametersFile": "sources/v0.7.0/tilting-shoe-cabinet.parameters.json"
+  },
+  "constructionKey": "signature|tilting-shoe-cabinet|{}",
+  "modelState": "tilt bins partly open; measured bounds include them",
+  "nominalClosedDimensionsMetres": {
+    "width": 0.85,
+    "depth": 0.27,
+    "height": 1.12
+  },
+  "sha256": "bfe259a70172c3b654254d161b77caeed1c620dc7d7b9a409dc6a72e3677a023",
+  "bytes": 333328,
+  "triangles": 1844,
+  "vertices": 3662,
+  "drawPrimitives": 3,
+  "bounds": {
+    "min": [
+      -0.42500001192092896,
+      0.0,
+      -0.27773905249374903
+    ],
+    "max": [
+      0.42500001192092896,
+      1.1200000569224358,
+      0.13500000536441803
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 0.8500000238418579,
+    "depth": 0.41273905785816706,
+    "height": 1.1200000569224358
+  },
+  "footprint": [
+    [
+      -0.42500001192092896,
+      -0.27773905249374903
+    ],
+    [
+      0.42500001192092896,
+      -0.27773905249374903
+    ],
+    [
+      0.42500001192092896,
+      0.13500000536441803
+    ],
+    [
+      -0.42500001192092896,
+      0.13500000536441803
+    ]
+  ],
+  "variantSlots": [
+    "dark",
+    "metal",
+    "wood"
+  ],
+  "requiredExtensions": [],
+  "textures": {
+    "count": 3,
+    "bytes": 174784,
+    "estimatedRgbaBytesWithMipmaps": 1048576,
+    "images": [
+      {
+        "name": "wood-normal",
+        "bytes": 102088,
+        "width": 256,
+        "height": 256,
+        "sha256": "6b8efcb5004552d884a527017922bfb5260b8bda4dc77f1365fe1cb8a09f1d56"
+      },
+      {
+        "name": "wood-neutral-base",
+        "bytes": 39353,
+        "width": 256,
+        "height": 256,
+        "sha256": "ddcf839a2addae78944a2d7a0588f9c2055852fc4ccb4e2dae2095d28541de44"
+      },
+      {
+        "name": "wood-roughness",
+        "bytes": 33343,
+        "width": 256,
+        "height": 256,
+        "sha256": "afc2180e58360e76fb178b52f225f7ba9045a7d0d266f10886763b0590335a1a"
+      }
+    ]
+  },
+  "version": "0.7.0",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.tilting-shoe-cabinet",
+  "file": "assets/v0.7.0/tilting-shoe-cabinet.glb",
+  "sourceModel": "sources/v0.7.0/tilting-shoe-cabinet.blend",
+  "thumbnail": "previews/v0.7.0/tilting-shoe-cabinet.png",
+  "backThumbnail": "previews/v0.7.0/tilting-shoe-cabinet-back.png",
+  "category": "signature-furniture",
+  "subtype": "tilting-shoe-cabinet",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.7.0/tilting-shoe-cabinet.png",
+      "previews/v0.7.0/tilting-shoe-cabinet-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.02500000037252903,
+      0.03500000014901161,
+      0.03999999910593033
+    ],
+    [
+      0.4699999988079071,
+      0.30000001192092896,
+      0.10000000149011612
+    ],
+    [
+      0.2199999988079071,
+      0.09000000357627869,
+      0.03799999877810478
+    ]
+  ],
+  "colourTags": [
+    "muted brass",
+    "near black",
+    "walnut brown"
+  ],
+  "materials": [
+    "metal",
+    "paint",
+    "wood"
+  ],
+  "searchAliases": [
+    "entry hall",
+    "tilting shoe cabinet"
+  ],
+  "materialSlots": [
+    {
+      "id": "dark",
+      "material": "dark",
+      "recolourable": true
+    },
+    {
+      "id": "metal",
+      "material": "metal",
+      "recolourable": true
+    },
+    {
+      "id": "wood",
+      "material": "wood",
+      "recolourable": true
+    }
+  ],
+  "finalization": {
+    "unusedTangentAttributesRemoved": 2,
+    "unusedAccessorsRemoved": 2,
+    "unusedBufferViewsRemoved": 2,
+    "bytesRemoved": 32960,
+    "normalMappedTangents": "retained, never replaced with arbitrary fallback vectors"
+  },
+  "supportChecks": {
+    "method": "source-part upper-end ray to non-leg geometry, 15mm join tolerance",
+    "status": "pass",
+    "parts": [],
+    "limitation": "screening only; hidden joints, whole-model connectivity, load paths and safety remain visual/product-review concerns"
+  },
+  "materialFinish": {
+    "source": "materials/v1/manifest.json",
+    "repeatMetres": {
+      "wood": [
+        0.16,
+        0.75
+      ],
+      "fabric": [
+        0.14,
+        0.14
+      ],
+      "linen": [
+        0.12,
+        0.12
+      ]
+    },
+    "maps": "original base colour / roughness / tangent normal, embedded in GLB"
+  },
+  "geometryHash": "f9067d1306534b61bc1c6e48901134ecc9ee2a6ff15d93834580bb923503658d",
+  "normalizedMirrorGeometryHash": "0bdd8b8ea5329ca90da9828216257260c1038ee0830d71befac21fc72dd250b9"
+}

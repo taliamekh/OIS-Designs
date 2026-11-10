@@ -28,33 +28,46 @@
     "thirdPartyGeometry": false,
     "thirdPartyTextures": false,
     "publicAssetLicence": "not separately granted",
-    "sourceSnapshot": "sources/pipeline-80bacc170bd1371e.py",
-    "sourceSha256": "80bacc170bd1371edd54e3e5203658724c4e90ee4562fa13275787f9884b1d45",
+    "sourceSnapshot": "sources/pipeline-bf07453f548fd92d.py",
+    "sourceSha256": "bf07453f548fd92da637ecce41dc8b35010d5f15c955c971c9e3be2fb762ea2d",
+    "sourceModelSha256": "1f6154151f31df20e1d4e54d79f69b038a94ddf7a5b02e8e15481a351a0e4b9f",
     "supportSources": {
       "signature_designs.py": {
-        "snapshot": "sources/signature_designs-c7ce1c9570491409.py",
-        "sha256": "c7ce1c95704914096c0af5c88272139fca2098556f75b752375dd03da6cd8ee2"
+        "snapshot": "sources/signature_designs-6d248dd7aaa49ed4.py",
+        "sha256": "6d248dd7aaa49ed40f05c473c5d46b6fe8c97972ebf6ce139553f9641fc82b3c"
       },
       "material_finish.py": {
-        "snapshot": "sources/material_finish-b9bb830e81d90e18.py",
-        "sha256": "b9bb830e81d90e18c05191c4e478ee7bbda04b117e4148687be9073a85d929c2"
+        "snapshot": "sources/material_finish-281279dfd17b0c92.py",
+        "sha256": "281279dfd17b0c929f9038bb8066b86216427feaaefbd503abb995d06dc35730"
       },
       "catalogue_inventory.py": {
-        "snapshot": "sources/catalogue_inventory-b67897df830f7144.py",
-        "sha256": "b67897df830f71449151337a656dae85d9e7b911fbc107aab78d72a60438f20e"
+        "snapshot": "sources/catalogue_inventory-db8b68fc872dbc12.py",
+        "sha256": "db8b68fc872dbc12d87e9ce013777e00d6b32cc0392e8cc09f31f8fef27b9365"
       },
       "finalize_glb.py": {
-        "snapshot": "sources/finalize_glb-dfc4ff54401c495d.py",
-        "sha256": "dfc4ff54401c495d3e17debd8f4aae1c5e68012a23ba8c85e023ed00397baae2"
+        "snapshot": "sources/finalize_glb-4d1dec42be5cbf3d.py",
+        "sha256": "4d1dec42be5cbf3d6540facfa883948acd849c080f7117b8d7025749c08e2d1b"
+      },
+      "build_catalogue_v2.py": {
+        "snapshot": "sources/build_catalogue_v2-9c22533830c3704c.py",
+        "sha256": "9c22533830c3704c1ce578b58b4350ebbbf5b8d32590a07db027f671d4975577"
+      },
+      "validate_library.py": {
+        "snapshot": "sources/validate_library-48e60483e2c3d05b.py",
+        "sha256": "48e60483e2c3d05bec2c7e2669523eb77571a4ba120cb5238bbec92b8a585e0c"
+      },
+      "support_checks.py": {
+        "snapshot": "sources/support_checks-f7ed4d0400abd5f2.py",
+        "sha256": "f7ed4d0400abd5f23f27c86a9013cfefaca71234a9da953dfe97daeabb8af640"
       }
     },
-    "parametersFile": "sources/v0.5.0/glass-display-hutch.parameters.json"
+    "parametersFile": "sources/v0.7.0/glass-display-hutch.parameters.json"
   },
   "constructionKey": "case|hutch|{\"base\": \"taper\", \"drawersTop\": false, \"front\": \"glass\"}",
-  "sha256": "619025b667ec685039c764b07d99e6ba9e148853335cd5ade185e9433998a4cc",
-  "bytes": 332348,
-  "triangles": 1240,
-  "vertices": 3027,
+  "sha256": "1674c2ac0c631b75742894641af975c52d6d2a9357bd279b7b2c5428b02dc21e",
+  "bytes": 384932,
+  "triangles": 1768,
+  "vertices": 4413,
   "drawPrimitives": 3,
   "bounds": {
     "min": [
@@ -125,13 +138,13 @@
       }
     ]
   },
-  "version": "0.5.0",
+  "version": "0.7.0",
   "qualityStatus": "validated-candidate",
   "geometryFamily": "ois.family.glass-display-hutch",
-  "file": "assets/v0.5.0/glass-display-hutch.glb",
-  "sourceModel": "sources/v0.5.0/glass-display-hutch.blend",
-  "thumbnail": "previews/v0.5.0/glass-display-hutch.png",
-  "backThumbnail": "previews/v0.5.0/glass-display-hutch-back.png",
+  "file": "assets/v0.7.0/glass-display-hutch.glb",
+  "sourceModel": "sources/v0.7.0/glass-display-hutch.blend",
+  "thumbnail": "previews/v0.7.0/glass-display-hutch.png",
+  "backThumbnail": "previews/v0.7.0/glass-display-hutch-back.png",
   "category": "storage",
   "subtype": "hutch",
   "units": "metres",
@@ -151,8 +164,8 @@
   "visualReview": {
     "status": "pending",
     "images": [
-      "previews/v0.5.0/glass-display-hutch.png",
-      "previews/v0.5.0/glass-display-hutch-back.png"
+      "previews/v0.7.0/glass-display-hutch.png",
+      "previews/v0.7.0/glass-display-hutch-back.png"
     ]
   },
   "favouriteStorage": "user set of stable catalogue IDs",
@@ -206,6 +219,9 @@
   ],
   "finalization": {
     "unusedTangentAttributesRemoved": 2,
+    "unusedAccessorsRemoved": 2,
+    "unusedBufferViewsRemoved": 2,
+    "bytesRemoved": 17136,
     "normalMappedTangents": "retained, never replaced with arbitrary fallback vectors"
   },
   "supportChecks": {
@@ -253,6 +269,6 @@
     },
     "maps": "original base colour / roughness / tangent normal, embedded in GLB"
   },
-  "geometryHash": "2c807557ca2617f2d76c7e4e3811c5f0e68e354b21891489aa8ce95f4da5547e",
-  "normalizedMirrorGeometryHash": "274761f7ea8f66d028635a62d4f5f7e2d52a62f3a8acb7d36d930e9d9200fab6"
+  "geometryHash": "a4a42f5fa281b19ec7e82d0c7acd70aca2883b6fe4bd291ba5558867c6e12063",
+  "normalizedMirrorGeometryHash": "15941f0b6a9d55483623d62feddb177dc4ac6e777a4790aceacc925e0d9e0c02"
 }

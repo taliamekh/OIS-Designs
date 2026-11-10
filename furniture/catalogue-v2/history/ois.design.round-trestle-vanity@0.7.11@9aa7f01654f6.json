@@ -1,0 +1,241 @@
+{
+  "designId": "ois.design.round-trestle-vanity",
+  "familyId": "ois.family.round-trestle-vanity",
+  "id": "ois.design.round-trestle-vanity",
+  "name": "Round trestle dressing table",
+  "roomTags": [
+    "bedroom"
+  ],
+  "theme": "calm-oak",
+  "builder": "table",
+  "parameters": {
+    "form": "trestle",
+    "w": 0.9,
+    "d": 0.9,
+    "h": 0.75,
+    "shape": "round",
+    "drawers": 1
+  },
+  "distinction": "Circular dressing surface above braced trestles.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted",
+    "sourceSnapshot": "sources/pipeline-89df87b43420bbff.py",
+    "sourceSha256": "89df87b43420bbfff256d97711257ed530cc74a21f6cd8c5e48db3189b34d4b4",
+    "sourceModelSha256": "e1cfce50cc4cea5db5b308d756e661c993a6a27d80683f3f5bf4e7a0c5ef2cfd",
+    "supportSources": {
+      "signature_designs.py": {
+        "snapshot": "sources/signature_designs-6d248dd7aaa49ed4.py",
+        "sha256": "6d248dd7aaa49ed40f05c473c5d46b6fe8c97972ebf6ce139553f9641fc82b3c"
+      },
+      "material_finish.py": {
+        "snapshot": "sources/material_finish-281279dfd17b0c92.py",
+        "sha256": "281279dfd17b0c929f9038bb8066b86216427feaaefbd503abb995d06dc35730"
+      },
+      "catalogue_inventory.py": {
+        "snapshot": "sources/catalogue_inventory-4a2a82b7432f39ed.py",
+        "sha256": "4a2a82b7432f39edab34acc48bc992b36bc3372f5f396caa9d956a9dce6e02c9"
+      },
+      "finalize_glb.py": {
+        "snapshot": "sources/finalize_glb-4d1dec42be5cbf3d.py",
+        "sha256": "4d1dec42be5cbf3d6540facfa883948acd849c080f7117b8d7025749c08e2d1b"
+      },
+      "build_catalogue_v2.py": {
+        "snapshot": "sources/build_catalogue_v2-c85c57fa9d55ced1.py",
+        "sha256": "c85c57fa9d55ced1e2aea4a73f287062e07efd95f3abeec9a62a4a9daa120012"
+      },
+      "validate_library.py": {
+        "snapshot": "sources/validate_library-48e60483e2c3d05b.py",
+        "sha256": "48e60483e2c3d05bec2c7e2669523eb77571a4ba120cb5238bbec92b8a585e0c"
+      },
+      "support_checks.py": {
+        "snapshot": "sources/support_checks-f7ed4d0400abd5f2.py",
+        "sha256": "f7ed4d0400abd5f23f27c86a9013cfefaca71234a9da953dfe97daeabb8af640"
+      }
+    },
+    "parametersFile": "sources/v0.7.11/round-trestle-vanity.parameters.json"
+  },
+  "constructionKey": "table|trestle|{\"drawers\": true, \"shape\": \"ellipse\", \"shelf\": false}",
+  "sha256": "9aa7f01654f6cd0136df94c0c8e4334c2e0603f502314bef1673a4188dc13cf2",
+  "bytes": 308192,
+  "triangles": 988,
+  "vertices": 2686,
+  "drawPrimitives": 2,
+  "bounds": {
+    "min": [
+      -0.44999998807907104,
+      0.0,
+      -0.44999998807907104
+    ],
+    "max": [
+      0.44999998807907104,
+      0.7352921590209007,
+      0.44999998807907104
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 0.8999999761581421,
+    "depth": 0.8999999761581421,
+    "height": 0.7352921590209007
+  },
+  "footprint": [
+    [
+      -0.44999998807907104,
+      -0.44999998807907104
+    ],
+    [
+      0.44999998807907104,
+      -0.44999998807907104
+    ],
+    [
+      0.44999998807907104,
+      0.44999998807907104
+    ],
+    [
+      -0.44999998807907104,
+      0.44999998807907104
+    ]
+  ],
+  "variantSlots": [
+    "metal",
+    "wood"
+  ],
+  "requiredExtensions": [],
+  "textures": {
+    "count": 3,
+    "bytes": 174784,
+    "estimatedRgbaBytesWithMipmaps": 1048576,
+    "images": [
+      {
+        "name": "wood-normal",
+        "bytes": 102088,
+        "width": 256,
+        "height": 256,
+        "sha256": "6b8efcb5004552d884a527017922bfb5260b8bda4dc77f1365fe1cb8a09f1d56"
+      },
+      {
+        "name": "wood-neutral-base",
+        "bytes": 39353,
+        "width": 256,
+        "height": 256,
+        "sha256": "ddcf839a2addae78944a2d7a0588f9c2055852fc4ccb4e2dae2095d28541de44"
+      },
+      {
+        "name": "wood-roughness",
+        "bytes": 33343,
+        "width": 256,
+        "height": 256,
+        "sha256": "afc2180e58360e76fb178b52f225f7ba9045a7d0d266f10886763b0590335a1a"
+      }
+    ]
+  },
+  "version": "0.7.11",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.round-trestle-vanity",
+  "file": "assets/v0.7.11/round-trestle-vanity.glb",
+  "sourceModel": "sources/v0.7.11/round-trestle-vanity.blend",
+  "thumbnail": "previews/v0.7.11/round-trestle-vanity.png",
+  "backThumbnail": "previews/v0.7.11/round-trestle-vanity-back.png",
+  "category": "tables",
+  "subtype": "trestle",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.7.11/round-trestle-vanity.png",
+      "previews/v0.7.11/round-trestle-vanity-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.11999999731779099,
+      0.14000000059604645,
+      0.12999999523162842
+    ],
+    [
+      0.5799999833106995,
+      0.38999998569488525,
+      0.20000000298023224
+    ]
+  ],
+  "colourTags": [
+    "dark grey",
+    "pale oak"
+  ],
+  "materials": [
+    "metal",
+    "wood"
+  ],
+  "searchAliases": [
+    "bedroom",
+    "trestle"
+  ],
+  "materialSlots": [
+    {
+      "id": "metal",
+      "material": "metal",
+      "recolourable": true
+    },
+    {
+      "id": "wood",
+      "material": "wood",
+      "recolourable": true
+    }
+  ],
+  "finalization": {
+    "unusedTangentAttributesRemoved": 1,
+    "unusedAccessorsRemoved": 1,
+    "unusedBufferViewsRemoved": 1,
+    "bytesRemoved": 4908,
+    "normalMappedTangents": "retained, never replaced with arbitrary fallback vectors"
+  },
+  "supportChecks": {
+    "method": "source-part upper-end ray to non-leg geometry, 15mm join tolerance",
+    "status": "pass",
+    "parts": [],
+    "limitation": "screening only; hidden joints, whole-model connectivity, load paths and safety remain visual/product-review concerns"
+  },
+  "materialFinish": {
+    "source": "materials/v1/manifest.json",
+    "repeatMetres": {
+      "wood": [
+        0.16,
+        0.75
+      ],
+      "fabric": [
+        0.14,
+        0.14
+      ],
+      "linen": [
+        0.12,
+        0.12
+      ]
+    },
+    "maps": "original base colour / roughness / tangent normal, embedded in GLB"
+  },
+  "geometryHash": "ffa07a8161ff43f4ba282d1c4e20f49b932ecee67c2737dc3aeab40dc7ef0edd",
+  "normalizedMirrorGeometryHash": "010ba314165f4163d6e1ed0ce80166d737853d25dc0fc735cdbfc7b342cc8e08"
+}

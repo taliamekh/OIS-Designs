@@ -1,0 +1,58 @@
+{
+  "id": "ois.design.round-child-activity-table",
+  "sha256": "e90cb999da7360bfba33cf1a16025cbb2152bff4f000be7359167c1009d4a59c",
+  "sourceModel": "sources/v0.7.0/round-child-activity-table.blend",
+  "sourceSha256": "2345262fba544695e767de7279c4ae71fcd3d6ce8e05294c40404195fb083f87",
+  "partCount": 5,
+  "componentCount": 1,
+  "components": [
+    {
+      "parts": [
+        "top",
+        "leg",
+        "leg.001",
+        "leg.002",
+        "leg.003"
+      ],
+      "minimum": [
+        -0.36000001430511475,
+        -0.36000001430511475,
+        1.8044374883174896e-09
+      ],
+      "maximum": [
+        0.36000001430511475,
+        0.36000001430511475,
+        0.4887186586856842
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "leg",
+      "b": "top",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "leg.001",
+      "b": "top",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "leg.002",
+      "b": "top",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "leg.003",
+      "b": "top",
+      "method": "triangle intersection",
+      "distance": 0
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; live-source reports are NOT exported-asset evidence; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T04:10:58Z"
+}

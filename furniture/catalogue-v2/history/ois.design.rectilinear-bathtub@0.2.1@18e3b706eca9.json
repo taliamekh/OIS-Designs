@@ -1,0 +1,157 @@
+{
+  "designId": "ois.design.rectilinear-bathtub",
+  "familyId": "ois.family.rectilinear-bathtub",
+  "id": "ois.design.rectilinear-bathtub",
+  "name": "Rectilinear bathtub",
+  "roomTags": [
+    "bathroom"
+  ],
+  "theme": "city-loft",
+  "builder": "bath",
+  "parameters": {
+    "form": "rect-tub",
+    "w": 1.7,
+    "d": 0.78,
+    "h": 0.58
+  },
+  "distinction": "Straight hollow tub walls and inset bottom form a rectangular volume.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted",
+    "sourceSnapshot": "sources/pipeline-e797cb5c88af56f5.py",
+    "sourceSha256": "e797cb5c88af56f5b4455d819a512ab9be55f40e1fa2d0cb542aca7bb84b906f",
+    "parametersFile": "sources/v0.2.1/rectilinear-bathtub.parameters.json"
+  },
+  "constructionKey": "bath|rect-tub|{}",
+  "sha256": "18e3b706eca92a9a878ecf192538e24698463d97ac8b56f582c0742a0a1792d0",
+  "bytes": 50944,
+  "triangles": 1076,
+  "vertices": 1312,
+  "drawPrimitives": 2,
+  "bounds": {
+    "min": [
+      -0.8499999642372131,
+      -1.4901161193847656e-08,
+      -0.38999998569488525
+    ],
+    "max": [
+      0.8499999642372131,
+      0.7209430746734142,
+      0.38999998569488525
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 1.6999999284744263,
+    "depth": 0.7799999713897705,
+    "height": 0.7209430895745754
+  },
+  "footprint": [
+    [
+      -0.8499999642372131,
+      -0.38999998569488525
+    ],
+    [
+      0.8499999642372131,
+      -0.38999998569488525
+    ],
+    [
+      0.8499999642372131,
+      0.38999998569488525
+    ],
+    [
+      -0.8499999642372131,
+      0.38999998569488525
+    ]
+  ],
+  "variantSlots": [
+    "ceramic",
+    "metal"
+  ],
+  "requiredExtensions": [],
+  "version": "0.2.1",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.rectilinear-bathtub",
+  "file": "assets/v0.2.1/rectilinear-bathtub.glb",
+  "sourceModel": "sources/v0.2.1/rectilinear-bathtub.blend",
+  "thumbnail": "previews/v0.2.1/rectilinear-bathtub.png",
+  "backThumbnail": "previews/v0.2.1/rectilinear-bathtub-back.png",
+  "category": "bathroom-fixtures",
+  "subtype": "rect-tub",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "textures": {
+    "count": 0,
+    "bytes": 0
+  },
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.2.1/rectilinear-bathtub.png",
+      "previews/v0.2.1/rectilinear-bathtub-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.23,
+      0.15,
+      0.09
+    ],
+    [
+      0.12,
+      0.14,
+      0.16
+    ],
+    [
+      0.045,
+      0.05,
+      0.055
+    ]
+  ],
+  "colourTags": [
+    "charcoal",
+    "black",
+    "weathered wood"
+  ],
+  "materials": [
+    "ceramic",
+    "metal"
+  ],
+  "searchAliases": [
+    "bathroom",
+    "rect tub"
+  ],
+  "materialSlots": [
+    {
+      "id": "ceramic",
+      "material": "ceramic",
+      "recolourable": true
+    },
+    {
+      "id": "metal",
+      "material": "metal",
+      "recolourable": true
+    }
+  ]
+}

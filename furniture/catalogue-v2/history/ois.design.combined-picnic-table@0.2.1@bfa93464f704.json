@@ -1,0 +1,150 @@
+{
+  "designId": "ois.design.combined-picnic-table",
+  "familyId": "ois.family.combined-picnic-table",
+  "id": "ois.design.combined-picnic-table",
+  "name": "Combined picnic table",
+  "roomTags": [
+    "dining"
+  ],
+  "theme": "calm-oak",
+  "builder": "functional",
+  "parameters": {
+    "form": "picnic-combined",
+    "w": 1.75,
+    "d": 1.25,
+    "h": 0.75
+  },
+  "distinction": "Bench seats connect structurally to the dining trestles with outriggers.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted",
+    "sourceSnapshot": "sources/pipeline-e797cb5c88af56f5.py",
+    "sourceSha256": "e797cb5c88af56f5b4455d819a512ab9be55f40e1fa2d0cb542aca7bb84b906f",
+    "parametersFile": "sources/v0.2.1/combined-picnic-table.parameters.json"
+  },
+  "constructionKey": "functional|picnic-combined|{}",
+  "sha256": "bfa93464f704a9d1e5c1ca03f74b357519f0c56ab5306b17b5754215932913a8",
+  "bytes": 73004,
+  "triangles": 1480,
+  "vertices": 1960,
+  "drawPrimitives": 1,
+  "bounds": {
+    "min": [
+      -0.875,
+      0.0,
+      -0.8179464340209961
+    ],
+    "max": [
+      0.875,
+      0.7356782183051109,
+      0.8179464340209961
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 1.75,
+    "depth": 1.6358928680419922,
+    "height": 0.7356782183051109
+  },
+  "footprint": [
+    [
+      -0.875,
+      -0.8179464340209961
+    ],
+    [
+      0.875,
+      -0.8179464340209961
+    ],
+    [
+      0.875,
+      0.8179464340209961
+    ],
+    [
+      -0.875,
+      0.8179464340209961
+    ]
+  ],
+  "variantSlots": [
+    "wood"
+  ],
+  "requiredExtensions": [],
+  "version": "0.2.1",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.combined-picnic-table",
+  "file": "assets/v0.2.1/combined-picnic-table.glb",
+  "sourceModel": "sources/v0.2.1/combined-picnic-table.blend",
+  "thumbnail": "previews/v0.2.1/combined-picnic-table.png",
+  "backThumbnail": "previews/v0.2.1/combined-picnic-table-back.png",
+  "category": "functional-furniture",
+  "subtype": "picnic-combined",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "textures": {
+    "count": 0,
+    "bytes": 0
+  },
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.2.1/combined-picnic-table.png",
+      "previews/v0.2.1/combined-picnic-table-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.58,
+      0.39,
+      0.2
+    ],
+    [
+      0.73,
+      0.7,
+      0.61
+    ],
+    [
+      0.12,
+      0.14,
+      0.13
+    ]
+  ],
+  "colourTags": [
+    "pale oak",
+    "ivory",
+    "oatmeal"
+  ],
+  "materials": [
+    "wood"
+  ],
+  "searchAliases": [
+    "dining",
+    "picnic combined"
+  ],
+  "materialSlots": [
+    {
+      "id": "wood",
+      "material": "wood",
+      "recolourable": true
+    }
+  ]
+}

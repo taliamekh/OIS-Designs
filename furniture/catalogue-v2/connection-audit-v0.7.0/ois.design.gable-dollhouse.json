@@ -1,0 +1,149 @@
+{
+  "id": "ois.design.gable-dollhouse",
+  "sha256": "f014d3dea80afc92fdd3d5a1d62b18e7f98325f1c16095653fdc830d45cedc62",
+  "sourceModel": "sources/v0.7.0/gable-dollhouse.blend",
+  "sourceSha256": "f3a35e96a468974708c62684b86d44fefbec501ee461b978b714825af6766dc0",
+  "partCount": 12,
+  "componentCount": 1,
+  "components": [
+    {
+      "parts": [
+        "leg",
+        "leg.001",
+        "leg.002",
+        "leg.003",
+        "bottom",
+        "top",
+        "side",
+        "side.001",
+        "shelf",
+        "partition",
+        "roof slope",
+        "roof slope.001"
+      ],
+      "minimum": [
+        -0.4454919695854187,
+        -0.18000000715255737,
+        -9.313225746154785e-10
+      ],
+      "maximum": [
+        0.4454919695854187,
+        0.18000000715255737,
+        0.9848015308380127
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "bottom",
+      "b": "leg",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "bottom",
+      "b": "leg.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "bottom",
+      "b": "leg.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "bottom",
+      "b": "leg.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "side",
+      "b": "bottom",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "side",
+      "b": "top",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "side.001",
+      "b": "bottom",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "side.001",
+      "b": "top",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "shelf",
+      "b": "side",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "shelf",
+      "b": "side.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "partition",
+      "b": "bottom",
+      "method": "surface distance",
+      "distance": 0.003999993205070496
+    },
+    {
+      "a": "partition",
+      "b": "top",
+      "method": "surface distance",
+      "distance": 0.003999888896942139
+    },
+    {
+      "a": "partition",
+      "b": "shelf",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "roof slope",
+      "b": "top",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "roof slope",
+      "b": "side",
+      "method": "surface distance",
+      "distance": 0.002358399098739028
+    },
+    {
+      "a": "roof slope.001",
+      "b": "top",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "roof slope.001",
+      "b": "side.001",
+      "method": "surface distance",
+      "distance": 0.0023583853617310524
+    },
+    {
+      "a": "roof slope.001",
+      "b": "roof slope",
+      "method": "triangle intersection",
+      "distance": 0
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; live-source reports are NOT exported-asset evidence; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T04:10:55Z"
+}

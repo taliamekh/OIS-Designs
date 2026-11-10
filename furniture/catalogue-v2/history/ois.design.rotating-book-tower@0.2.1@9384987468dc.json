@@ -1,0 +1,157 @@
+{
+  "designId": "ois.design.rotating-book-tower",
+  "familyId": "ois.family.rotating-book-tower",
+  "id": "ois.design.rotating-book-tower",
+  "name": "Rotating book tower",
+  "roomTags": [
+    "office"
+  ],
+  "theme": "calm-oak",
+  "builder": "functional",
+  "parameters": {
+    "form": "rotating-book-tower",
+    "w": 0.66,
+    "d": 0.66,
+    "h": 1.35
+  },
+  "distinction": "Circular shelves and cross-shaped radial partitions over a turntable foot.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted",
+    "sourceSnapshot": "sources/pipeline-e797cb5c88af56f5.py",
+    "sourceSha256": "e797cb5c88af56f5b4455d819a512ab9be55f40e1fa2d0cb542aca7bb84b906f",
+    "parametersFile": "sources/v0.2.1/rotating-book-tower.parameters.json"
+  },
+  "constructionKey": "functional|rotating-book-tower|{}",
+  "sha256": "9384987468dcb8e0e43e6dd6dcb9ed52b679ff20219c0d34d1574edf0137de64",
+  "bytes": 63560,
+  "triangles": 1252,
+  "vertices": 1674,
+  "drawPrimitives": 2,
+  "bounds": {
+    "min": [
+      -0.33000001311302185,
+      0.0,
+      -0.33000001311302185
+    ],
+    "max": [
+      0.33000001311302185,
+      1.3649999871850014,
+      0.33000001311302185
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 0.6600000262260437,
+    "depth": 0.6600000262260437,
+    "height": 1.3649999871850014
+  },
+  "footprint": [
+    [
+      -0.33000001311302185,
+      -0.33000001311302185
+    ],
+    [
+      0.33000001311302185,
+      -0.33000001311302185
+    ],
+    [
+      0.33000001311302185,
+      0.33000001311302185
+    ],
+    [
+      -0.33000001311302185,
+      0.33000001311302185
+    ]
+  ],
+  "variantSlots": [
+    "metal",
+    "wood"
+  ],
+  "requiredExtensions": [],
+  "version": "0.2.1",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.rotating-book-tower",
+  "file": "assets/v0.2.1/rotating-book-tower.glb",
+  "sourceModel": "sources/v0.2.1/rotating-book-tower.blend",
+  "thumbnail": "previews/v0.2.1/rotating-book-tower.png",
+  "backThumbnail": "previews/v0.2.1/rotating-book-tower-back.png",
+  "category": "functional-furniture",
+  "subtype": "rotating-book-tower",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "textures": {
+    "count": 0,
+    "bytes": 0
+  },
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.2.1/rotating-book-tower.png",
+      "previews/v0.2.1/rotating-book-tower-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.58,
+      0.39,
+      0.2
+    ],
+    [
+      0.73,
+      0.7,
+      0.61
+    ],
+    [
+      0.12,
+      0.14,
+      0.13
+    ]
+  ],
+  "colourTags": [
+    "pale oak",
+    "ivory",
+    "oatmeal"
+  ],
+  "materials": [
+    "metal",
+    "wood"
+  ],
+  "searchAliases": [
+    "office",
+    "rotating book tower"
+  ],
+  "materialSlots": [
+    {
+      "id": "metal",
+      "material": "metal",
+      "recolourable": true
+    },
+    {
+      "id": "wood",
+      "material": "wood",
+      "recolourable": true
+    }
+  ]
+}

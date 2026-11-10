@@ -1,0 +1,57 @@
+{
+  "id": "ois.design.screen-arm-workstation",
+  "sha256": "2ab060f4cff2429ae9a8746341b9d5857903618394b5e18c2d9e0c467de9a639",
+  "sourceModel": "sources/v0.7.0/screen-arm-workstation.blend",
+  "sourceSha256": "9b104db247b0f093ebb67e97e33265cf445214138e683af226f848d160d3917d",
+  "partCount": 4,
+  "componentCount": 1,
+  "components": [
+    {
+      "parts": [
+        "display base",
+        "display arm",
+        "display",
+        "screen"
+      ],
+      "minimum": [
+        -0.3400000035762787,
+        -0.2199999988079071,
+        0.0
+      ],
+      "maximum": [
+        0.3400000035762787,
+        0.2199999988079071,
+        0.7310000658035278
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "display arm",
+      "b": "display base",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "display",
+      "b": "display arm",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "screen",
+      "b": "display arm",
+      "method": "surface distance",
+      "distance": 0.003849614877253771
+    },
+    {
+      "a": "screen",
+      "b": "display",
+      "method": "triangle intersection",
+      "distance": 0
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; live-source reports are NOT exported-asset evidence; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T04:10:58Z"
+}

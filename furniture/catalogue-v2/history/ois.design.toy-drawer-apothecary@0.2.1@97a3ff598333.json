@@ -1,0 +1,161 @@
+{
+  "designId": "ois.design.toy-drawer-apothecary",
+  "familyId": "ois.family.jewellery-bureau",
+  "id": "ois.design.toy-drawer-apothecary",
+  "name": "Toy drawer apothecary",
+  "roomTags": [
+    "children"
+  ],
+  "theme": "walnut-form",
+  "builder": "case",
+  "parameters": {
+    "form": "drawers",
+    "baseHeight": 0.05,
+    "w": 0.9,
+    "d": 0.36,
+    "h": 0.85,
+    "rows": 3,
+    "cols": 3
+  },
+  "distinction": "Nine equally proportioned toy drawers with individual pulls.",
+  "stage": "validated-candidate",
+  "countEligible": false,
+  "variants": [],
+  "variantOf": "ois.design.jewellery-bureau",
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted",
+    "sourceSnapshot": "sources/pipeline-e797cb5c88af56f5.py",
+    "sourceSha256": "e797cb5c88af56f5b4455d819a512ab9be55f40e1fa2d0cb542aca7bb84b906f",
+    "parametersFile": "sources/v0.2.1/toy-drawer-apothecary.parameters.json"
+  },
+  "constructionKey": "case|drawers|{\"base\": \"taper\", \"cols\": \"multiple\", \"doors\": 2, \"drawersTop\": false, \"front\": \"slab\", \"rows\": \"stack\"}",
+  "countExclusion": "same construction; dimension/material configuration retained as a variant",
+  "sha256": "97a3ff5983334cd3a4c48b0c3caefb299b65d87520a0c9b9311702aaed649c99",
+  "bytes": 159300,
+  "triangles": 3412,
+  "vertices": 4254,
+  "drawPrimitives": 2,
+  "bounds": {
+    "min": [
+      -0.450000019190804,
+      -6.461985613270826e-08,
+      -0.2360000042244792
+    ],
+    "max": [
+      0.45000021443991367,
+      0.8483937036321355,
+      0.1800000618988798
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 0.9000002336307177,
+    "depth": 0.416000066123359,
+    "height": 0.8483937682519916
+  },
+  "footprint": [
+    [
+      -0.450000019190804,
+      -0.2360000042244792
+    ],
+    [
+      0.45000021443991367,
+      -0.2360000042244792
+    ],
+    [
+      0.45000021443991367,
+      0.1800000618988798
+    ],
+    [
+      -0.450000019190804,
+      0.1800000618988798
+    ]
+  ],
+  "variantSlots": [
+    "metal",
+    "wood"
+  ],
+  "requiredExtensions": [],
+  "version": "0.2.1",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.jewellery-bureau",
+  "file": "assets/v0.2.1/toy-drawer-apothecary.glb",
+  "sourceModel": "sources/v0.2.1/toy-drawer-apothecary.blend",
+  "thumbnail": "previews/v0.2.1/toy-drawer-apothecary.png",
+  "backThumbnail": "previews/v0.2.1/toy-drawer-apothecary-back.png",
+  "category": "storage",
+  "subtype": "drawers",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "textures": {
+    "count": 0,
+    "bytes": 0
+  },
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.2.1/toy-drawer-apothecary.png",
+      "previews/v0.2.1/toy-drawer-apothecary-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.22,
+      0.09,
+      0.038
+    ],
+    [
+      0.39,
+      0.18,
+      0.07
+    ],
+    [
+      0.47,
+      0.3,
+      0.1
+    ]
+  ],
+  "colourTags": [
+    "walnut",
+    "tobacco",
+    "brass"
+  ],
+  "materials": [
+    "metal",
+    "wood"
+  ],
+  "searchAliases": [
+    "children",
+    "drawers"
+  ],
+  "materialSlots": [
+    {
+      "id": "metal",
+      "material": "metal",
+      "recolourable": true
+    },
+    {
+      "id": "wood",
+      "material": "wood",
+      "recolourable": true
+    }
+  ]
+}

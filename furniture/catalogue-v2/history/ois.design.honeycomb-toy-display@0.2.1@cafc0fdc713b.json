@@ -1,0 +1,150 @@
+{
+  "designId": "ois.design.honeycomb-toy-display",
+  "familyId": "ois.family.honeycomb-toy-display",
+  "id": "ois.design.honeycomb-toy-display",
+  "name": "Honeycomb toy display",
+  "roomTags": [
+    "children"
+  ],
+  "theme": "coastal-linen",
+  "builder": "sculptural",
+  "parameters": {
+    "form": "hex-cells",
+    "w": 1.1,
+    "d": 0.3,
+    "h": 1.2
+  },
+  "distinction": "Six open hexagonal frames provide distinct toy display cells.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted",
+    "sourceSnapshot": "sources/pipeline-e797cb5c88af56f5.py",
+    "sourceSha256": "e797cb5c88af56f5b4455d819a512ab9be55f40e1fa2d0cb542aca7bb84b906f",
+    "parametersFile": "sources/v0.2.1/honeycomb-toy-display.parameters.json"
+  },
+  "constructionKey": "sculptural|hex-cells|{}",
+  "sha256": "cafc0fdc713bdeea1c3b590bece8c37aa313a1ea6baa3c6a6c929427ae0c7aeb",
+  "bytes": 148024,
+  "triangles": 3288,
+  "vertices": 3961,
+  "drawPrimitives": 1,
+  "bounds": {
+    "min": [
+      -0.6095884459612961,
+      -1.3061349279919199e-08,
+      -0.15000002446354144
+    ],
+    "max": [
+      0.7525884174970087,
+      1.289471594911238,
+      0.15000002990711592
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 1.3621768634583047,
+    "depth": 0.30000005437065735,
+    "height": 1.2894716079725874
+  },
+  "footprint": [
+    [
+      -0.6095884459612961,
+      -0.15000002446354144
+    ],
+    [
+      0.7525884174970087,
+      -0.15000002446354144
+    ],
+    [
+      0.7525884174970087,
+      0.15000002990711592
+    ],
+    [
+      -0.6095884459612961,
+      0.15000002990711592
+    ]
+  ],
+  "variantSlots": [
+    "wood"
+  ],
+  "requiredExtensions": [],
+  "version": "0.2.1",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.honeycomb-toy-display",
+  "file": "assets/v0.2.1/honeycomb-toy-display.glb",
+  "sourceModel": "sources/v0.2.1/honeycomb-toy-display.blend",
+  "thumbnail": "previews/v0.2.1/honeycomb-toy-display.png",
+  "backThumbnail": "previews/v0.2.1/honeycomb-toy-display-back.png",
+  "category": "sculptural-furniture",
+  "subtype": "hex-cells",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "textures": {
+    "count": 0,
+    "bytes": 0
+  },
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.2.1/honeycomb-toy-display.png",
+      "previews/v0.2.1/honeycomb-toy-display-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.66,
+      0.53,
+      0.34
+    ],
+    [
+      0.36,
+      0.53,
+      0.58
+    ],
+    [
+      0.64,
+      0.6,
+      0.48
+    ]
+  ],
+  "colourTags": [
+    "mist blue",
+    "sand",
+    "pale oak"
+  ],
+  "materials": [
+    "wood"
+  ],
+  "searchAliases": [
+    "children",
+    "hex cells"
+  ],
+  "materialSlots": [
+    {
+      "id": "wood",
+      "material": "wood",
+      "recolourable": true
+    }
+  ]
+}

@@ -27,71 +27,104 @@
     "thirdPartyGeometry": false,
     "thirdPartyTextures": false,
     "publicAssetLicence": "not separately granted",
-    "sourceSnapshot": "sources/pipeline-e797cb5c88af56f5.py",
-    "sourceSha256": "e797cb5c88af56f5b4455d819a512ab9be55f40e1fa2d0cb542aca7bb84b906f",
-    "parametersFile": "sources/v0.2.1/woven-linen-basket.parameters.json"
+    "sourceSnapshot": "sources/pipeline-ba1de5a35a645ee0.py",
+    "sourceSha256": "ba1de5a35a645ee061f4fae0d6be9d65b659ed7dbc811a5f64df52f4811c3b52",
+    "sourceModelSha256": "f46c017e4f6c7071178e9316a2888ffc89f5d1af27c2dae60909185ccf59944f",
+    "supportSources": {
+      "signature_designs.py": {
+        "snapshot": "sources/signature_designs-6d248dd7aaa49ed4.py",
+        "sha256": "6d248dd7aaa49ed40f05c473c5d46b6fe8c97972ebf6ce139553f9641fc82b3c"
+      },
+      "material_finish.py": {
+        "snapshot": "sources/material_finish-281279dfd17b0c92.py",
+        "sha256": "281279dfd17b0c929f9038bb8066b86216427feaaefbd503abb995d06dc35730"
+      },
+      "catalogue_inventory.py": {
+        "snapshot": "sources/catalogue_inventory-29f6dc8eabe5a94e.py",
+        "sha256": "29f6dc8eabe5a94e63fbc450d67c75811d38ac617b7c30e2b070a2756099f53b"
+      },
+      "finalize_glb.py": {
+        "snapshot": "sources/finalize_glb-4d1dec42be5cbf3d.py",
+        "sha256": "4d1dec42be5cbf3d6540facfa883948acd849c080f7117b8d7025749c08e2d1b"
+      },
+      "build_catalogue_v2.py": {
+        "snapshot": "sources/build_catalogue_v2-9c22533830c3704c.py",
+        "sha256": "9c22533830c3704c1ce578b58b4350ebbbf5b8d32590a07db027f671d4975577"
+      },
+      "validate_library.py": {
+        "snapshot": "sources/validate_library-48e60483e2c3d05b.py",
+        "sha256": "48e60483e2c3d05bec2c7e2669523eb77571a4ba120cb5238bbec92b8a585e0c"
+      },
+      "support_checks.py": {
+        "snapshot": "sources/support_checks-f7ed4d0400abd5f2.py",
+        "sha256": "f7ed4d0400abd5f23f27c86a9013cfefaca71234a9da953dfe97daeabb8af640"
+      }
+    },
+    "parametersFile": "sources/v0.7.4/woven-linen-basket.parameters.json"
   },
   "constructionKey": "special|woven-basket|{\"cols\": 1, \"front\": \"cane\", \"panels\": 3}",
-  "sha256": "2cd2b942f72293534eb7eb9feb99b0c9a641042128f15cb7c3e30890bd19d114",
-  "bytes": 265588,
-  "triangles": 11064,
-  "vertices": 6180,
+  "sha256": "d6c54ab1eb13cff63bddb883299702d1024d82218dbf05786590ebc260175282",
+  "bytes": 272964,
+  "triangles": 11252,
+  "vertices": 6374,
   "drawPrimitives": 1,
   "bounds": {
     "min": [
-      -0.24250000715255737,
+      -0.24250000345436007,
       0.0,
-      -0.19500000774860382
+      -0.19500001452539273
     ],
     "max": [
-      0.24250000715255737,
-      0.5500000072643161,
-      0.19500000774860382
+      0.24250000345436007,
+      0.5500000258907676,
+      0.19500001452539273
     ]
   },
   "dimensionsMetres": {
-    "width": 0.48500001430511475,
-    "depth": 0.39000001549720764,
-    "height": 0.5500000072643161
+    "width": 0.48500000690872014,
+    "depth": 0.39000002905078546,
+    "height": 0.5500000258907676
   },
   "footprint": [
     [
-      -0.24250000715255737,
-      -0.19500000774860382
+      -0.24250000345436007,
+      -0.19500001452539273
     ],
     [
-      0.24250000715255737,
-      -0.19500000774860382
+      0.24250000345436007,
+      -0.19500001452539273
     ],
     [
-      0.24250000715255737,
-      0.19500000774860382
+      0.24250000345436007,
+      0.19500001452539273
     ],
     [
-      -0.24250000715255737,
-      0.19500000774860382
+      -0.24250000345436007,
+      0.19500001452539273
     ]
   ],
   "variantSlots": [
     "cane"
   ],
   "requiredExtensions": [],
-  "version": "0.2.1",
+  "textures": {
+    "count": 0,
+    "bytes": 0,
+    "estimatedRgbaBytesWithMipmaps": 0,
+    "images": []
+  },
+  "version": "0.7.4",
   "qualityStatus": "validated-candidate",
   "geometryFamily": "ois.family.woven-linen-basket",
-  "file": "assets/v0.2.1/woven-linen-basket.glb",
-  "sourceModel": "sources/v0.2.1/woven-linen-basket.blend",
-  "thumbnail": "previews/v0.2.1/woven-linen-basket.png",
-  "backThumbnail": "previews/v0.2.1/woven-linen-basket-back.png",
+  "file": "assets/v0.7.4/woven-linen-basket.glb",
+  "sourceModel": "sources/v0.7.4/woven-linen-basket.blend",
+  "thumbnail": "previews/v0.7.4/woven-linen-basket.png",
+  "backThumbnail": "previews/v0.7.4/woven-linen-basket-back.png",
   "category": "specialty",
   "subtype": "woven-basket",
   "units": "metres",
   "frame": "RH Y-up; +X right, -Z furniture front",
   "pivot": "floor Y=0; centre of primary body XZ",
-  "textures": {
-    "count": 0,
-    "bytes": 0
-  },
   "lod": {
     "delivered": [
       "LOD0"
@@ -106,32 +139,20 @@
   "visualReview": {
     "status": "pending",
     "images": [
-      "previews/v0.2.1/woven-linen-basket.png",
-      "previews/v0.2.1/woven-linen-basket-back.png"
+      "previews/v0.7.4/woven-linen-basket.png",
+      "previews/v0.7.4/woven-linen-basket-back.png"
     ]
   },
   "favouriteStorage": "user set of stable catalogue IDs",
   "colors": [
     [
-      0.66,
-      0.53,
-      0.34
-    ],
-    [
-      0.36,
-      0.53,
-      0.58
-    ],
-    [
-      0.64,
-      0.6,
-      0.48
+      0.47999998927116394,
+      0.3400000035762787,
+      0.17000000178813934
     ]
   ],
   "colourTags": [
-    "mist blue",
-    "sand",
-    "pale oak"
+    "natural tan"
   ],
   "materials": [
     "woven-fibre"
@@ -146,5 +167,38 @@
       "material": "cane",
       "recolourable": true
     }
-  ]
+  ],
+  "finalization": {
+    "unusedTangentAttributesRemoved": 1,
+    "unusedAccessorsRemoved": 1,
+    "unusedBufferViewsRemoved": 1,
+    "bytesRemoved": 102128,
+    "normalMappedTangents": "retained, never replaced with arbitrary fallback vectors"
+  },
+  "supportChecks": {
+    "method": "source-part upper-end ray to non-leg geometry, 15mm join tolerance",
+    "status": "pass",
+    "parts": [],
+    "limitation": "screening only; hidden joints, whole-model connectivity, load paths and safety remain visual/product-review concerns"
+  },
+  "materialFinish": {
+    "source": "materials/v1/manifest.json",
+    "repeatMetres": {
+      "wood": [
+        0.16,
+        0.75
+      ],
+      "fabric": [
+        0.14,
+        0.14
+      ],
+      "linen": [
+        0.12,
+        0.12
+      ]
+    },
+    "maps": "original base colour / roughness / tangent normal, embedded in GLB"
+  },
+  "geometryHash": "5b5cbf8f400bb044a72d6037b050c25fc74f474d5152ccc2f7ba1530b69b9239",
+  "normalizedMirrorGeometryHash": "1af9e8e238911c094c8ec9f1a110439dfd0e57d1fa05ef8a287f33d3fc69b89a"
 }

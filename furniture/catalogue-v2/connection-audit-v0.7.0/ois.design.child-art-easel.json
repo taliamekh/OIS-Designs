@@ -1,0 +1,64 @@
+{
+  "id": "ois.design.child-art-easel",
+  "sha256": "bedd3f86750e6f409def28e9c5460f9c29d5401ba21d59be521dbac3aba1ff43",
+  "sourceModel": "sources/v0.7.0/child-art-easel.blend",
+  "sourceSha256": "47aeb437b5ef81a70f09e82e60930d8c214f74f675097a4f379ca291d18e4263",
+  "partCount": 5,
+  "componentCount": 1,
+  "components": [
+    {
+      "parts": [
+        "easel leg",
+        "easel leg.001",
+        "rear strut",
+        "drawing board",
+        "paint tray"
+      ],
+      "minimum": [
+        -0.3499999940395355,
+        -0.3357129991054535,
+        1.3969838619232178e-09
+      ],
+      "maximum": [
+        0.3499999940395355,
+        0.2017112672328949,
+        1.1109670400619507
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "drawing board",
+      "b": "easel leg",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "drawing board",
+      "b": "easel leg.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "drawing board",
+      "b": "rear strut",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "paint tray",
+      "b": "easel leg",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "paint tray",
+      "b": "easel leg.001",
+      "method": "triangle intersection",
+      "distance": 0
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; live-source reports are NOT exported-asset evidence; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T04:10:54Z"
+}

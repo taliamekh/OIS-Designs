@@ -1,0 +1,158 @@
+{
+  "id": "ois.design.rope-suspended-shelves",
+  "sha256": "f6cf99f592e46575af7903f1ef21a8fce45c9329b683b8ef1bf55a1aca95d7fe",
+  "sourceModel": "sources/v0.7.0/rope-suspended-shelves.blend",
+  "sourceSha256": "0e538cbc312c806532da34b5dc8b6b4a9fabde127665431657b6e3832fb13356",
+  "partCount": 9,
+  "componentCount": 1,
+  "components": [
+    {
+      "parts": [
+        "floor foot",
+        "rope suspension",
+        "rope suspension.001",
+        "rope suspension.002",
+        "rope suspension.003",
+        "suspended shelf",
+        "suspended shelf.001",
+        "suspended shelf.002",
+        "suspended shelf.003"
+      ],
+      "minimum": [
+        -0.44999998807907104,
+        -0.17499999701976776,
+        -5.960464477539063e-08
+      ],
+      "maximum": [
+        0.44999998807907104,
+        0.17499999701976776,
+        1.4500000476837158
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "rope suspension",
+      "b": "floor foot",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "rope suspension.001",
+      "b": "floor foot",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "rope suspension.002",
+      "b": "floor foot",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "rope suspension.003",
+      "b": "floor foot",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "suspended shelf",
+      "b": "rope suspension",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "suspended shelf",
+      "b": "rope suspension.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "suspended shelf",
+      "b": "rope suspension.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "suspended shelf",
+      "b": "rope suspension.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "suspended shelf.001",
+      "b": "rope suspension",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "suspended shelf.001",
+      "b": "rope suspension.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "suspended shelf.001",
+      "b": "rope suspension.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "suspended shelf.001",
+      "b": "rope suspension.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "suspended shelf.002",
+      "b": "rope suspension",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "suspended shelf.002",
+      "b": "rope suspension.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "suspended shelf.002",
+      "b": "rope suspension.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "suspended shelf.002",
+      "b": "rope suspension.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "suspended shelf.003",
+      "b": "rope suspension",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "suspended shelf.003",
+      "b": "rope suspension.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "suspended shelf.003",
+      "b": "rope suspension.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "suspended shelf.003",
+      "b": "rope suspension.003",
+      "method": "triangle intersection",
+      "distance": 0
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; live-source reports are NOT exported-asset evidence; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T04:10:58Z"
+}

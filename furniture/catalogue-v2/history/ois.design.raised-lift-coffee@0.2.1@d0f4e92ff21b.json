@@ -1,0 +1,157 @@
+{
+  "designId": "ois.design.raised-lift-coffee",
+  "familyId": "ois.family.raised-lift-coffee",
+  "id": "ois.design.raised-lift-coffee",
+  "name": "Raised lift coffee table",
+  "roomTags": [
+    "living"
+  ],
+  "theme": "city-loft",
+  "builder": "functional",
+  "parameters": {
+    "form": "lift-top",
+    "w": 1.1,
+    "d": 0.6,
+    "h": 0.68
+  },
+  "distinction": "Open storage case and four metal lift linkages support an elevated top.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted",
+    "sourceSnapshot": "sources/pipeline-e797cb5c88af56f5.py",
+    "sourceSha256": "e797cb5c88af56f5b4455d819a512ab9be55f40e1fa2d0cb542aca7bb84b906f",
+    "parametersFile": "sources/v0.2.1/raised-lift-coffee.parameters.json"
+  },
+  "constructionKey": "functional|lift-top|{}",
+  "sha256": "d0f4e92ff21bd4911841f003c1e59b0dd9ff032eb9c9c7f663b358970f5d11d9",
+  "bytes": 71724,
+  "triangles": 1488,
+  "vertices": 1881,
+  "drawPrimitives": 2,
+  "bounds": {
+    "min": [
+      -0.5649999976158142,
+      -8.433187898004846e-08,
+      -0.46799999475479126
+    ],
+    "max": [
+      0.5649999976158142,
+      0.6963906288146973,
+      0.3149999976158142
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 1.1299999952316284,
+    "depth": 0.7829999923706055,
+    "height": 0.6963907131465763
+  },
+  "footprint": [
+    [
+      -0.5649999976158142,
+      -0.46799999475479126
+    ],
+    [
+      0.5649999976158142,
+      -0.46799999475479126
+    ],
+    [
+      0.5649999976158142,
+      0.3149999976158142
+    ],
+    [
+      -0.5649999976158142,
+      0.3149999976158142
+    ]
+  ],
+  "variantSlots": [
+    "metal",
+    "wood"
+  ],
+  "requiredExtensions": [],
+  "version": "0.2.1",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.raised-lift-coffee",
+  "file": "assets/v0.2.1/raised-lift-coffee.glb",
+  "sourceModel": "sources/v0.2.1/raised-lift-coffee.blend",
+  "thumbnail": "previews/v0.2.1/raised-lift-coffee.png",
+  "backThumbnail": "previews/v0.2.1/raised-lift-coffee-back.png",
+  "category": "functional-furniture",
+  "subtype": "lift-top",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "textures": {
+    "count": 0,
+    "bytes": 0
+  },
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.2.1/raised-lift-coffee.png",
+      "previews/v0.2.1/raised-lift-coffee-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.23,
+      0.15,
+      0.09
+    ],
+    [
+      0.12,
+      0.14,
+      0.16
+    ],
+    [
+      0.045,
+      0.05,
+      0.055
+    ]
+  ],
+  "colourTags": [
+    "charcoal",
+    "black",
+    "weathered wood"
+  ],
+  "materials": [
+    "metal",
+    "wood"
+  ],
+  "searchAliases": [
+    "living",
+    "lift top"
+  ],
+  "materialSlots": [
+    {
+      "id": "metal",
+      "material": "metal",
+      "recolourable": true
+    },
+    {
+      "id": "wood",
+      "material": "wood",
+      "recolourable": true
+    }
+  ]
+}

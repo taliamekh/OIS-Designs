@@ -1,6 +1,6 @@
 # Current phase status
 
-Updated November 9, 2026, approximately 11 p.m. Toronto. Use the phase IDs from [PHONE_APP_PLAN.md](PHONE_APP_PLAN.md). Overnight execution steps and parallel asset batches are subordinate work packages, not replacement phase numbers.
+Updated November 9, 2026, 11:30 p.m. Toronto (November 10, 04:30 UTC). Use the phase IDs from [PHONE_APP_PLAN.md](PHONE_APP_PLAN.md). Overnight execution steps and parallel asset batches are subordinate work packages, not replacement phase numbers.
 
 **Current position: Phase 2 implementation and validation, with parts of Phase 3 implemented in parallel. Phase 1's physical-device acceptance gate is still open.** The user authorized implementation November 9 and deferred phone pairing; that allows independent build work without claiming device acceptance.
 
@@ -22,9 +22,9 @@ The exact remaining phase titles/scopes in PHONE_APP_PLAN remain authoritative; 
 
 ## Active work packages
 
-- **App owner:** repair and independently retest catalogue scroll restoration, door annotation fit/partial-shared-wall distances and inherited ceiling editing; integrate promoted furniture revisions; keep setup/build notes current.
-- **Furniture owner:** complete and review at least 300 distinct current designs. At the latest coordinator audit, 112 rows have current internal acceptance; this is a bounded snapshot, not user approval or completion. Rework and size/material variants do not count. The corrected v0.7 batch continues exporting/reviewing.
-- **Runtime QA:** exact-source builds, save/recovery and realistic populated-scene checks. The controlled 40-model scene reduced browser texture allocations from 312 to 12 while preserving pixels; the pre-commit eviction race was repaired and independently retested. Physical native behavior remains separate.
+- **App owner:** repair camera framing after resize/Undo, mixed ceiling heights and alignment; independently close catalogue scroll, occluded picking and annotation regressions; integrate the final library. Existing-room movement remains an original Phase 2 capability gap. Ceiling-height entry now passes independent UI retest.
+- **Furniture/spatial owner:** library readiness milestone accepted at 04:35 UTC; now starting the queued Phase 3 placement/whole-house work. Frozen library-r1 has 346 internally accepted distinct designs and 93 reviewed variants across all ten rooms/five themes; 311 accepted rows exclude appliances/bathroom fixtures. Coordinator independently verified all 3,175 dependency hashes and 12 adult bed groups with four declared mattress sizes; all 478 published GLBs passed separate formal validation with zero errors/warnings. Current 346 accepted provenance bindings also pass. See [library handoff](../furniture/LIBRARY_HANDOFF.md) and [independent release audit](../coordination/library-release-audit.json). No phone validation or user approval is claimed; final app integration remains outstanding.
+- **Runtime QA:** exact-source builds, save/recovery and realistic populated-scene checks. Matching-source Hermes exports for iOS and Android now pass bytecode/header and 825-model asset checks; this does not establish native linking or phone execution. The controlled 40-model scene reduced browser texture allocations from 312 to 12 while preserving pixels; the pre-commit eviction race was repaired and independently retested. Physical native behavior remains separate.
 - **Design QA:** actual UI workflows, narrow/large-text layouts, materials, dimension correctness and regression checks.
 - **Coordinator:** dependency handoffs, phase/evidence reconciliation and GitHub publication checkpoints.
 

@@ -1,0 +1,151 @@
+{
+  "designId": "ois.design.hex-child-pedestal",
+  "familyId": "ois.family.hex-child-pedestal",
+  "id": "ois.design.hex-child-pedestal",
+  "name": "Hex child pedestal table",
+  "roomTags": [
+    "children"
+  ],
+  "theme": "coastal-linen",
+  "builder": "table",
+  "parameters": {
+    "form": "pedestal",
+    "w": 0.8,
+    "d": 0.7,
+    "h": 0.5,
+    "shape": "hex"
+  },
+  "distinction": "Six-sided low surface over a single broad disc/stem support.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted",
+    "sourceSnapshot": "sources/pipeline-e797cb5c88af56f5.py",
+    "sourceSha256": "e797cb5c88af56f5b4455d819a512ab9be55f40e1fa2d0cb542aca7bb84b906f",
+    "parametersFile": "sources/v0.2.1/hex-child-pedestal.parameters.json"
+  },
+  "constructionKey": "table|pedestal|{\"drawers\": false, \"shape\": \"hex\", \"shelf\": false}",
+  "sha256": "12cbd2e264f75356a1f02f8462d4ef0c95831978ee73d8059032471422033abb",
+  "bytes": 12420,
+  "triangles": 268,
+  "vertices": 296,
+  "drawPrimitives": 1,
+  "bounds": {
+    "min": [
+      -0.4000000059604645,
+      0.0,
+      -0.30310890078544617
+    ],
+    "max": [
+      0.4000000059604645,
+      0.5,
+      0.30310890078544617
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 0.800000011920929,
+    "depth": 0.6062178015708923,
+    "height": 0.5
+  },
+  "footprint": [
+    [
+      -0.4000000059604645,
+      -0.30310890078544617
+    ],
+    [
+      0.4000000059604645,
+      -0.30310890078544617
+    ],
+    [
+      0.4000000059604645,
+      0.30310890078544617
+    ],
+    [
+      -0.4000000059604645,
+      0.30310890078544617
+    ]
+  ],
+  "variantSlots": [
+    "wood"
+  ],
+  "requiredExtensions": [],
+  "version": "0.2.1",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.hex-child-pedestal",
+  "file": "assets/v0.2.1/hex-child-pedestal.glb",
+  "sourceModel": "sources/v0.2.1/hex-child-pedestal.blend",
+  "thumbnail": "previews/v0.2.1/hex-child-pedestal.png",
+  "backThumbnail": "previews/v0.2.1/hex-child-pedestal-back.png",
+  "category": "tables",
+  "subtype": "pedestal",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "textures": {
+    "count": 0,
+    "bytes": 0
+  },
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.2.1/hex-child-pedestal.png",
+      "previews/v0.2.1/hex-child-pedestal-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.66,
+      0.53,
+      0.34
+    ],
+    [
+      0.36,
+      0.53,
+      0.58
+    ],
+    [
+      0.64,
+      0.6,
+      0.48
+    ]
+  ],
+  "colourTags": [
+    "mist blue",
+    "sand",
+    "pale oak"
+  ],
+  "materials": [
+    "wood"
+  ],
+  "searchAliases": [
+    "children",
+    "pedestal"
+  ],
+  "materialSlots": [
+    {
+      "id": "wood",
+      "material": "wood",
+      "recolourable": true
+    }
+  ]
+}

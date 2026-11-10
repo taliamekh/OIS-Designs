@@ -1,6 +1,6 @@
 {
   "designId": "ois.design.fold-down-dressing-case",
-  "familyId": "ois.family.fold-down-dressing-case",
+  "familyId": "ois.family.writing-bureau-cabinet",
   "id": "ois.design.fold-down-dressing-case",
   "name": "Fold-down dressing cabinet",
   "roomTags": [
@@ -16,9 +16,9 @@
   },
   "distinction": "Hinged horizontal writing/dressing leaf with diagonal stays.",
   "stage": "validated-candidate",
-  "countEligible": true,
+  "countEligible": false,
   "variants": [],
-  "variantOf": null,
+  "variantOf": "ois.design.writing-bureau-cabinet",
   "source": "scripts/design_geometry.py",
   "licence": "LicenseRef-OIS-Original-Project",
   "provenance": {
@@ -256,5 +256,6 @@
     "maps": "original base colour / roughness / tangent normal, embedded in GLB"
   },
   "geometryHash": "ba96896bedb50ee625ea57d0306593d66bed4d476f5ec8405aa40455e302e93e",
-  "normalizedMirrorGeometryHash": "0cc8daa6427c370e87fa73a593a06de6b5b2234af6761142d93430866595789b"
+  "normalizedMirrorGeometryHash": "0cc8daa6427c370e87fa73a593a06de6b5b2234af6761142d93430866595789b",
+  "countExclusion": "same hinged bureau construction; slab/recessed-panel finish and proportions do not add another design"
 }

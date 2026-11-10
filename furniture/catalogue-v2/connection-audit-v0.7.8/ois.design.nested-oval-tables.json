@@ -1,0 +1,87 @@
+{
+  "id": "ois.design.nested-oval-tables",
+  "sha256": "673abc26aca39f5216f3c1b68f262899e6106d7ef685c3bc89e7063b834fbb43",
+  "sourceModel": "sources/v0.7.8/nested-oval-tables.blend",
+  "sourceSha256": "5144b59a66ae598a42556cf0a9250623497f5a0fb971594c2e618a25afe22614",
+  "partCount": 8,
+  "componentCount": 2,
+  "components": [
+    {
+      "parts": [
+        "lower nesting top",
+        "nesting leg",
+        "nesting leg.001",
+        "nesting leg.002",
+        "nesting leg.003"
+      ],
+      "minimum": [
+        0.07019999623298645,
+        -0.08370000123977661,
+        -7.450580596923828e-09
+      ],
+      "maximum": [
+        0.7505999803543091,
+        0.3813000023365021,
+        0.2671000063419342
+      ]
+    },
+    {
+      "parts": [
+        "top",
+        "open nesting C frame",
+        "open nesting C frame.001"
+      ],
+      "minimum": [
+        -0.5400000214576721,
+        -0.3100000023841858,
+        0.0
+      ],
+      "maximum": [
+        0.5400000214576721,
+        0.3100000023841858,
+        0.39000001549720764
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "open nesting C frame",
+      "b": "top",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "open nesting C frame.001",
+      "b": "top",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "nesting leg",
+      "b": "lower nesting top",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "nesting leg.001",
+      "b": "lower nesting top",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "nesting leg.002",
+      "b": "lower nesting top",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "nesting leg.003",
+      "b": "lower nesting top",
+      "method": "triangle intersection",
+      "distance": 0
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; live-source reports are NOT exported-asset evidence; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T04:12:45Z"
+}

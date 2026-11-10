@@ -1,0 +1,44 @@
+{
+  "id": "ois.design.steel-sled-workdesk",
+  "sha256": "60ae19497824968177d01282924adf6ba5330e7f1ee5e0d0579ab466afae613a",
+  "sourceModel": "sources/v0.7.0/steel-sled-workdesk.blend",
+  "sourceSha256": "bfee0829af7735629f1684b3551f59ba31b229b8f2ecdd9964e745d9f2f279bd",
+  "partCount": 3,
+  "componentCount": 1,
+  "components": [
+    {
+      "parts": [
+        "top",
+        "sled frame",
+        "sled frame.001"
+      ],
+      "minimum": [
+        -0.6499999761581421,
+        -0.32499998807907104,
+        0.0
+      ],
+      "maximum": [
+        0.6499999761581421,
+        0.32499998807907104,
+        0.7385243773460388
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "sled frame",
+      "b": "top",
+      "method": "surface distance",
+      "distance": 5.960464477539063e-08
+    },
+    {
+      "a": "sled frame.001",
+      "b": "top",
+      "method": "surface distance",
+      "distance": 8.429369557916289e-08
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; live-source reports are NOT exported-asset evidence; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T04:10:58Z"
+}

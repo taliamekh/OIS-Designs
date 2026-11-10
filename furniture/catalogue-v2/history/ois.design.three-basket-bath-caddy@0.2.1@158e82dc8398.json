@@ -1,0 +1,147 @@
+{
+  "designId": "ois.design.three-basket-bath-caddy",
+  "familyId": "ois.family.three-basket-bath-caddy",
+  "id": "ois.design.three-basket-bath-caddy",
+  "name": "Three basket bath caddy",
+  "roomTags": [
+    "bathroom"
+  ],
+  "theme": "coastal-linen",
+  "builder": "bath",
+  "parameters": {
+    "form": "bath-caddy"
+  },
+  "distinction": "Three rimmed trays carried on a narrow freestanding frame.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted",
+    "sourceSnapshot": "sources/pipeline-e797cb5c88af56f5.py",
+    "sourceSha256": "e797cb5c88af56f5b4455d819a512ab9be55f40e1fa2d0cb542aca7bb84b906f",
+    "parametersFile": "sources/v0.2.1/three-basket-bath-caddy.parameters.json"
+  },
+  "constructionKey": "bath|bath-caddy|{}",
+  "sha256": "158e82dc83980e2aadfe75ececb161eabf72b7e9c41180dc5057a5c544c5a132",
+  "bytes": 152892,
+  "triangles": 2940,
+  "vertices": 4181,
+  "drawPrimitives": 1,
+  "bounds": {
+    "min": [
+      -0.20000000298023224,
+      -1.4901161193847656e-08,
+      -0.14000000059604645
+    ],
+    "max": [
+      0.20000000298023224,
+      0.9499999433755875,
+      0.14000000059604645
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 0.4000000059604645,
+    "depth": 0.2800000011920929,
+    "height": 0.9499999582767487
+  },
+  "footprint": [
+    [
+      -0.20000000298023224,
+      -0.14000000059604645
+    ],
+    [
+      0.20000000298023224,
+      -0.14000000059604645
+    ],
+    [
+      0.20000000298023224,
+      0.14000000059604645
+    ],
+    [
+      -0.20000000298023224,
+      0.14000000059604645
+    ]
+  ],
+  "variantSlots": [
+    "metal"
+  ],
+  "requiredExtensions": [],
+  "version": "0.2.1",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.three-basket-bath-caddy",
+  "file": "assets/v0.2.1/three-basket-bath-caddy.glb",
+  "sourceModel": "sources/v0.2.1/three-basket-bath-caddy.blend",
+  "thumbnail": "previews/v0.2.1/three-basket-bath-caddy.png",
+  "backThumbnail": "previews/v0.2.1/three-basket-bath-caddy-back.png",
+  "category": "bathroom-fixtures",
+  "subtype": "bath-caddy",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "textures": {
+    "count": 0,
+    "bytes": 0
+  },
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.2.1/three-basket-bath-caddy.png",
+      "previews/v0.2.1/three-basket-bath-caddy-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.66,
+      0.53,
+      0.34
+    ],
+    [
+      0.36,
+      0.53,
+      0.58
+    ],
+    [
+      0.64,
+      0.6,
+      0.48
+    ]
+  ],
+  "colourTags": [
+    "mist blue",
+    "sand",
+    "pale oak"
+  ],
+  "materials": [
+    "metal"
+  ],
+  "searchAliases": [
+    "bathroom",
+    "bath caddy"
+  ],
+  "materialSlots": [
+    {
+      "id": "metal",
+      "material": "metal",
+      "recolourable": true
+    }
+  ]
+}

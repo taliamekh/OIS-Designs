@@ -1,0 +1,227 @@
+{
+  "designId": "ois.design.close-coupled-toilet",
+  "familyId": "ois.family.close-coupled-toilet",
+  "id": "ois.design.close-coupled-toilet",
+  "name": "Close-coupled toilet",
+  "roomTags": [
+    "bathroom"
+  ],
+  "theme": "calm-oak",
+  "builder": "bath",
+  "parameters": {
+    "form": "toilet-close"
+  },
+  "distinction": "Separate low cistern, curved bowl, seat ring and pedestal.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted",
+    "sourceSnapshot": "sources/pipeline-78591b9add98cc9f.py",
+    "sourceSha256": "78591b9add98cc9fa7f8215e4e1c3e474d60f34fc69e94ce9b6acec0c4b1c79b",
+    "sourceModelSha256": "2e77dfc7e9c7b0f92ed4898894c59b1b7acc037cd818421072c5972ff74336c3",
+    "supportSources": {
+      "signature_designs.py": {
+        "snapshot": "sources/signature_designs-6d248dd7aaa49ed4.py",
+        "sha256": "6d248dd7aaa49ed40f05c473c5d46b6fe8c97972ebf6ce139553f9641fc82b3c"
+      },
+      "material_finish.py": {
+        "snapshot": "sources/material_finish-281279dfd17b0c92.py",
+        "sha256": "281279dfd17b0c929f9038bb8066b86216427feaaefbd503abb995d06dc35730"
+      },
+      "catalogue_inventory.py": {
+        "snapshot": "sources/catalogue_inventory-4a2a82b7432f39ed.py",
+        "sha256": "4a2a82b7432f39edab34acc48bc992b36bc3372f5f396caa9d956a9dce6e02c9"
+      },
+      "finalize_glb.py": {
+        "snapshot": "sources/finalize_glb-4d1dec42be5cbf3d.py",
+        "sha256": "4d1dec42be5cbf3d6540facfa883948acd849c080f7117b8d7025749c08e2d1b"
+      },
+      "build_catalogue_v2.py": {
+        "snapshot": "sources/build_catalogue_v2-c85c57fa9d55ced1.py",
+        "sha256": "c85c57fa9d55ced1e2aea4a73f287062e07efd95f3abeec9a62a4a9daa120012"
+      },
+      "validate_library.py": {
+        "snapshot": "sources/validate_library-48e60483e2c3d05b.py",
+        "sha256": "48e60483e2c3d05bec2c7e2669523eb77571a4ba120cb5238bbec92b8a585e0c"
+      },
+      "support_checks.py": {
+        "snapshot": "sources/support_checks-f7ed4d0400abd5f2.py",
+        "sha256": "f7ed4d0400abd5f23f27c86a9013cfefaca71234a9da953dfe97daeabb8af640"
+      }
+    },
+    "parametersFile": "sources/v0.7.10/close-coupled-toilet.parameters.json"
+  },
+  "constructionKey": "bath|toilet-close|{}",
+  "sha256": "05fe95be34f7378c0a86dd6c23c5df90fcf42f8178ca439d230e14be8acbe01a",
+  "bytes": 58688,
+  "triangles": 1880,
+  "vertices": 1474,
+  "drawPrimitives": 3,
+  "bounds": {
+    "min": [
+      -0.24899999797344208,
+      0.0,
+      -0.343999981880188
+    ],
+    "max": [
+      0.24899999797344208,
+      0.844000025652349,
+      0.3199999928474426
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 0.49799999594688416,
+    "depth": 0.6639999747276306,
+    "height": 0.844000025652349
+  },
+  "footprint": [
+    [
+      -0.24899999797344208,
+      -0.343999981880188
+    ],
+    [
+      0.24899999797344208,
+      -0.343999981880188
+    ],
+    [
+      0.24899999797344208,
+      0.3199999928474426
+    ],
+    [
+      -0.24899999797344208,
+      0.3199999928474426
+    ]
+  ],
+  "variantSlots": [
+    "ceramic",
+    "metal",
+    "plastic"
+  ],
+  "requiredExtensions": [],
+  "textures": {
+    "count": 0,
+    "bytes": 0,
+    "estimatedRgbaBytesWithMipmaps": 0,
+    "images": []
+  },
+  "version": "0.7.10",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.close-coupled-toilet",
+  "file": "assets/v0.7.10/close-coupled-toilet.glb",
+  "sourceModel": "sources/v0.7.10/close-coupled-toilet.blend",
+  "thumbnail": "previews/v0.7.10/close-coupled-toilet.png",
+  "backThumbnail": "previews/v0.7.10/close-coupled-toilet-back.png",
+  "category": "bathroom-fixtures",
+  "subtype": "toilet-close",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.7.10/close-coupled-toilet.png",
+      "previews/v0.7.10/close-coupled-toilet-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.800000011920929,
+      0.8100000023841858,
+      0.7599999904632568
+    ],
+    [
+      0.11999999731779099,
+      0.14000000059604645,
+      0.12999999523162842
+    ],
+    [
+      0.8399999737739563,
+      0.8199999928474426,
+      0.7400000095367432
+    ]
+  ],
+  "colourTags": [
+    "dark grey",
+    "warm ivory",
+    "warm white"
+  ],
+  "materials": [
+    "ceramic",
+    "metal",
+    "plastic"
+  ],
+  "searchAliases": [
+    "bathroom",
+    "toilet close"
+  ],
+  "materialSlots": [
+    {
+      "id": "ceramic",
+      "material": "ceramic",
+      "recolourable": true
+    },
+    {
+      "id": "metal",
+      "material": "metal",
+      "recolourable": true
+    },
+    {
+      "id": "plastic",
+      "material": "plastic",
+      "recolourable": true
+    }
+  ],
+  "finalization": {
+    "unusedTangentAttributesRemoved": 1,
+    "unusedAccessorsRemoved": 1,
+    "unusedBufferViewsRemoved": 1,
+    "bytesRemoved": 2224,
+    "normalMappedTangents": "retained, never replaced with arbitrary fallback vectors"
+  },
+  "supportChecks": {
+    "method": "source-part upper-end ray to non-leg geometry, 15mm join tolerance",
+    "status": "pass",
+    "parts": [],
+    "limitation": "screening only; hidden joints, whole-model connectivity, load paths and safety remain visual/product-review concerns"
+  },
+  "materialFinish": {
+    "source": "materials/v1/manifest.json",
+    "repeatMetres": {
+      "wood": [
+        0.16,
+        0.75
+      ],
+      "fabric": [
+        0.14,
+        0.14
+      ],
+      "linen": [
+        0.12,
+        0.12
+      ]
+    },
+    "maps": "original base colour / roughness / tangent normal, embedded in GLB"
+  },
+  "geometryHash": "bd4c66a19448facef68c54c8ab08ac52a66679e43d8682e854fa7da3ddecd366",
+  "normalizedMirrorGeometryHash": "3ea38018cb16cb0326019712ea450015f198ed19b966686fb7b5be110a6f0342"
+}

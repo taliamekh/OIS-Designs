@@ -1,0 +1,65 @@
+{
+  "id": "ois.design.upholstered-dressing-stool",
+  "sha256": "cc9cda8f093cd28f1cf3dd7ce6aca49dd2aa29fb7301ad6d128af1dcd19f75f3",
+  "sourceModel": "sources/v0.7.4/upholstered-dressing-stool.blend",
+  "sourceSha256": "70497cec014d976e10270ea7a2f3d10f7300584d3d8c13ff66853b1effc4f40e",
+  "partCount": 6,
+  "componentCount": 1,
+  "components": [
+    {
+      "parts": [
+        "leg",
+        "leg.001",
+        "leg.002",
+        "leg.003",
+        "oval dressing stool pan",
+        "oval upholstered seat"
+      ],
+      "minimum": [
+        -0.30999982357025146,
+        -0.19999994337558746,
+        2.0372681319713593e-09
+      ],
+      "maximum": [
+        0.309999942779541,
+        0.20000000298023224,
+        0.46856391429901123
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "oval dressing stool pan",
+      "b": "leg",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "oval dressing stool pan",
+      "b": "leg.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "oval dressing stool pan",
+      "b": "leg.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "oval dressing stool pan",
+      "b": "leg.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "oval upholstered seat",
+      "b": "oval dressing stool pan",
+      "method": "triangle intersection",
+      "distance": 0
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; live-source reports are NOT exported-asset evidence; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T04:12:31Z"
+}

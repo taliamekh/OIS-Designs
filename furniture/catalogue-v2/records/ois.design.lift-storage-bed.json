@@ -24,27 +24,40 @@
     "thirdPartyGeometry": false,
     "thirdPartyTextures": false,
     "publicAssetLicence": "not separately granted",
-    "sourceSnapshot": "sources/pipeline-d16905f59f09f9a8.py",
-    "sourceSha256": "d16905f59f09f9a87fb41f80ba97ff26da2ccb9e270091128e877b7c1129937d",
+    "sourceSnapshot": "sources/pipeline-bf07453f548fd92d.py",
+    "sourceSha256": "bf07453f548fd92da637ecce41dc8b35010d5f15c955c971c9e3be2fb762ea2d",
+    "sourceModelSha256": "179cd1e349239d7d44d13f71c524e5c67421ffe9166ec8d3a0e5d3b9595693b4",
     "supportSources": {
       "signature_designs.py": {
-        "snapshot": "sources/signature_designs-c7ce1c9570491409.py",
-        "sha256": "c7ce1c95704914096c0af5c88272139fca2098556f75b752375dd03da6cd8ee2"
+        "snapshot": "sources/signature_designs-6d248dd7aaa49ed4.py",
+        "sha256": "6d248dd7aaa49ed40f05c473c5d46b6fe8c97972ebf6ce139553f9641fc82b3c"
       },
       "material_finish.py": {
-        "snapshot": "sources/material_finish-b9bb830e81d90e18.py",
-        "sha256": "b9bb830e81d90e18c05191c4e478ee7bbda04b117e4148687be9073a85d929c2"
+        "snapshot": "sources/material_finish-281279dfd17b0c92.py",
+        "sha256": "281279dfd17b0c929f9038bb8066b86216427feaaefbd503abb995d06dc35730"
       },
       "catalogue_inventory.py": {
-        "snapshot": "sources/catalogue_inventory-b67897df830f7144.py",
-        "sha256": "b67897df830f71449151337a656dae85d9e7b911fbc107aab78d72a60438f20e"
+        "snapshot": "sources/catalogue_inventory-db8b68fc872dbc12.py",
+        "sha256": "db8b68fc872dbc12d87e9ce013777e00d6b32cc0392e8cc09f31f8fef27b9365"
       },
       "finalize_glb.py": {
-        "snapshot": "sources/finalize_glb-dfc4ff54401c495d.py",
-        "sha256": "dfc4ff54401c495d3e17debd8f4aae1c5e68012a23ba8c85e023ed00397baae2"
+        "snapshot": "sources/finalize_glb-4d1dec42be5cbf3d.py",
+        "sha256": "4d1dec42be5cbf3d6540facfa883948acd849c080f7117b8d7025749c08e2d1b"
+      },
+      "build_catalogue_v2.py": {
+        "snapshot": "sources/build_catalogue_v2-9c22533830c3704c.py",
+        "sha256": "9c22533830c3704c1ce578b58b4350ebbbf5b8d32590a07db027f671d4975577"
+      },
+      "validate_library.py": {
+        "snapshot": "sources/validate_library-48e60483e2c3d05b.py",
+        "sha256": "48e60483e2c3d05bec2c7e2669523eb77571a4ba120cb5238bbec92b8a585e0c"
+      },
+      "support_checks.py": {
+        "snapshot": "sources/support_checks-f7ed4d0400abd5f2.py",
+        "sha256": "f7ed4d0400abd5f23f27c86a9013cfefaca71234a9da953dfe97daeabb8af640"
       }
     },
-    "parametersFile": "sources/v0.5.0/lift-storage-bed.parameters.json"
+    "parametersFile": "sources/v0.7.0/lift-storage-bed.parameters.json"
   },
   "constructionKey": "signature|lift-storage-bed|{}",
   "bedSize": "queen",
@@ -55,10 +68,10 @@
   ],
   "modelState": "deployed/open display pose",
   "safetyReviewRequired": false,
-  "sha256": "a31391ce33dd5018c41a574354c23d61352168f07c06a3962df2493bf5ad9144",
-  "bytes": 585236,
+  "sha256": "2ce6e9987e343ad8601689d3665c6cd58cc1ab249112c7b276f1287d0f03d453",
+  "bytes": 583424,
   "triangles": 1788,
-  "vertices": 4863,
+  "vertices": 4920,
   "drawPrimitives": 4,
   "bounds": {
     "min": [
@@ -68,14 +81,14 @@
     ],
     "max": [
       0.8319999575614929,
-      1.452732581958899,
+      1.4389167021371216,
       1.1176049203874316
     ]
   },
   "dimensionsMetres": {
     "width": 1.6639999151229858,
     "depth": 2.213604876518413,
-    "height": 1.452732581958899
+    "height": 1.4389167021371216
   },
   "footprint": [
     [
@@ -172,13 +185,13 @@
       }
     ]
   },
-  "version": "0.5.0",
+  "version": "0.7.0",
   "qualityStatus": "validated-candidate",
   "geometryFamily": "ois.family.lift-storage-bed",
-  "file": "assets/v0.5.0/lift-storage-bed.glb",
-  "sourceModel": "sources/v0.5.0/lift-storage-bed.blend",
-  "thumbnail": "previews/v0.5.0/lift-storage-bed.png",
-  "backThumbnail": "previews/v0.5.0/lift-storage-bed-back.png",
+  "file": "assets/v0.7.0/lift-storage-bed.glb",
+  "sourceModel": "sources/v0.7.0/lift-storage-bed.blend",
+  "thumbnail": "previews/v0.7.0/lift-storage-bed.png",
+  "backThumbnail": "previews/v0.7.0/lift-storage-bed-back.png",
   "category": "signature-furniture",
   "subtype": "lift-storage-bed",
   "units": "metres",
@@ -198,8 +211,8 @@
   "visualReview": {
     "status": "pending",
     "images": [
-      "previews/v0.5.0/lift-storage-bed.png",
-      "previews/v0.5.0/lift-storage-bed-back.png"
+      "previews/v0.7.0/lift-storage-bed.png",
+      "previews/v0.7.0/lift-storage-bed-back.png"
     ]
   },
   "favouriteStorage": "user set of stable catalogue IDs",
@@ -264,6 +277,9 @@
   ],
   "finalization": {
     "unusedTangentAttributesRemoved": 1,
+    "unusedAccessorsRemoved": 1,
+    "unusedBufferViewsRemoved": 1,
+    "bytesRemoved": 4560,
     "normalMappedTangents": "retained, never replaced with arbitrary fallback vectors"
   },
   "supportChecks": {
@@ -325,6 +341,6 @@
     "clay brown"
   ],
   "variantCountNote": "appearance overrides share this one design; do not increase distinct count",
-  "geometryHash": "3d8c81d482926ac0e7f03561d2c236f30b570a2ce7a2128be304f9ff0919121b",
-  "normalizedMirrorGeometryHash": "15c924dca7647e6ab939a72c1206b7c7fa6ffe0e4528a1ebed95c07425a30196"
+  "geometryHash": "7ee605b15ae2ca4501594fa425a0edda9bae39703fa03ee72ea2205efd43e462",
+  "normalizedMirrorGeometryHash": "07464f3e9d47e45a859fca0653cf9e5b3b4741bf896e80370c430e879aaf009a"
 }

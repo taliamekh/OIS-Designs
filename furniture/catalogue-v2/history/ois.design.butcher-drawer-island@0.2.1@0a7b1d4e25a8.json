@@ -1,0 +1,163 @@
+{
+  "designId": "ois.design.butcher-drawer-island",
+  "familyId": "ois.family.butcher-drawer-island",
+  "id": "ois.design.butcher-drawer-island",
+  "name": "Butcher block island",
+  "roomTags": [
+    "kitchen"
+  ],
+  "theme": "walnut-form",
+  "builder": "kitchen",
+  "parameters": {
+    "form": "butcher-block",
+    "w": 1.25,
+    "d": 0.75
+  },
+  "distinction": "Thick solid timber block over two banks of three drawers.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted",
+    "sourceSnapshot": "sources/pipeline-e797cb5c88af56f5.py",
+    "sourceSha256": "e797cb5c88af56f5b4455d819a512ab9be55f40e1fa2d0cb542aca7bb84b906f",
+    "parametersFile": "sources/v0.2.1/butcher-drawer-island.parameters.json"
+  },
+  "constructionKey": "kitchen|butcher-block|{}",
+  "sha256": "0a7b1d4e25a88ea9ea70bec44054a48ab6736decd8d9602c6ce9c108f019f60e",
+  "bytes": 139216,
+  "triangles": 2804,
+  "vertices": 3712,
+  "drawPrimitives": 3,
+  "bounds": {
+    "min": [
+      -0.6549999713897705,
+      0.0,
+      -0.431000011973083
+    ],
+    "max": [
+      0.6549999713897705,
+      0.9399999976158142,
+      0.4050000011920929
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 1.309999942779541,
+    "depth": 0.8360000131651759,
+    "height": 0.9399999976158142
+  },
+  "footprint": [
+    [
+      -0.6549999713897705,
+      -0.431000011973083
+    ],
+    [
+      0.6549999713897705,
+      -0.431000011973083
+    ],
+    [
+      0.6549999713897705,
+      0.4050000011920929
+    ],
+    [
+      -0.6549999713897705,
+      0.4050000011920929
+    ]
+  ],
+  "variantSlots": [
+    "dark",
+    "metal",
+    "wood"
+  ],
+  "requiredExtensions": [],
+  "version": "0.2.1",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.butcher-drawer-island",
+  "file": "assets/v0.2.1/butcher-drawer-island.glb",
+  "sourceModel": "sources/v0.2.1/butcher-drawer-island.blend",
+  "thumbnail": "previews/v0.2.1/butcher-drawer-island.png",
+  "backThumbnail": "previews/v0.2.1/butcher-drawer-island-back.png",
+  "category": "cabinetry",
+  "subtype": "butcher-block",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "textures": {
+    "count": 0,
+    "bytes": 0
+  },
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.2.1/butcher-drawer-island.png",
+      "previews/v0.2.1/butcher-drawer-island-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.22,
+      0.09,
+      0.038
+    ],
+    [
+      0.39,
+      0.18,
+      0.07
+    ],
+    [
+      0.47,
+      0.3,
+      0.1
+    ]
+  ],
+  "colourTags": [
+    "walnut",
+    "tobacco",
+    "brass"
+  ],
+  "materials": [
+    "metal",
+    "paint",
+    "wood"
+  ],
+  "searchAliases": [
+    "kitchen",
+    "butcher block"
+  ],
+  "materialSlots": [
+    {
+      "id": "dark",
+      "material": "dark",
+      "recolourable": true
+    },
+    {
+      "id": "metal",
+      "material": "metal",
+      "recolourable": true
+    },
+    {
+      "id": "wood",
+      "material": "wood",
+      "recolourable": true
+    }
+  ]
+}

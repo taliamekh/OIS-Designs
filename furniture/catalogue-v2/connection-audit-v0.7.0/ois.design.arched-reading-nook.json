@@ -1,0 +1,276 @@
+{
+  "id": "ois.design.arched-reading-nook",
+  "sha256": "1915f487789e0541ae7100af86fba1985a94fe3a38ae2406ae465ee87d9a9f85",
+  "sourceModel": "sources/v0.7.0/arched-reading-nook.blend",
+  "sourceSha256": "db0b3bcb1c9fead3697dc9ab7bb33ff32d61c014d447a3f0dcebd066312e3425",
+  "partCount": 19,
+  "componentCount": 1,
+  "components": [
+    {
+      "parts": [
+        "recessed plinth",
+        "bottom",
+        "top",
+        "side",
+        "side.001",
+        "shelf",
+        "shelf.001",
+        "recessed plinth.001",
+        "bottom.001",
+        "top.001",
+        "side.002",
+        "side.003",
+        "shelf.002",
+        "shelf.003",
+        "shared back",
+        "reading bench",
+        "reading pad",
+        "piping",
+        "reading arch canopy"
+      ],
+      "minimum": [
+        -0.800000011920929,
+        -0.2750000059604645,
+        0.0
+      ],
+      "maximum": [
+        0.800000011920929,
+        0.2750000059604645,
+        1.5
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "bottom",
+      "b": "recessed plinth",
+      "method": "surface distance",
+      "distance": 2.2429217594321926e-08
+    },
+    {
+      "a": "side",
+      "b": "bottom",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "side",
+      "b": "top",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "side.001",
+      "b": "bottom",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "side.001",
+      "b": "top",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "shelf",
+      "b": "side",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "shelf",
+      "b": "side.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "shelf.001",
+      "b": "side",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "shelf.001",
+      "b": "side.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "bottom.001",
+      "b": "recessed plinth.001",
+      "method": "surface distance",
+      "distance": 2.2429217594321926e-08
+    },
+    {
+      "a": "side.002",
+      "b": "bottom.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "side.002",
+      "b": "top.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "side.003",
+      "b": "bottom.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "side.003",
+      "b": "top.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "shelf.002",
+      "b": "side.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "shelf.002",
+      "b": "side.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "shelf.003",
+      "b": "side.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "shelf.003",
+      "b": "side.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "shared back",
+      "b": "bottom",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "shared back",
+      "b": "top",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "shared back",
+      "b": "side",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "shared back",
+      "b": "side.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "shared back",
+      "b": "bottom.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "shared back",
+      "b": "top.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "shared back",
+      "b": "side.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "shared back",
+      "b": "side.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "reading bench",
+      "b": "shared back",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "reading pad",
+      "b": "shared back",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "reading pad",
+      "b": "reading bench",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "piping",
+      "b": "side.001",
+      "method": "surface distance",
+      "distance": 0.0029999613761901855
+    },
+    {
+      "a": "piping",
+      "b": "side.002",
+      "method": "surface distance",
+      "distance": 0.0029999613761901855
+    },
+    {
+      "a": "piping",
+      "b": "shared back",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "piping",
+      "b": "reading pad",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "reading arch canopy",
+      "b": "top",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "reading arch canopy",
+      "b": "side",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "reading arch canopy",
+      "b": "top.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "reading arch canopy",
+      "b": "side.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "reading arch canopy",
+      "b": "shared back",
+      "method": "triangle intersection",
+      "distance": 0
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; live-source reports are NOT exported-asset evidence; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T04:10:54Z"
+}

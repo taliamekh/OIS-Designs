@@ -1,0 +1,116 @@
+{
+  "id": "ois.design.child-tablet-chair",
+  "sha256": "63a70e3772421ac5fe9ee830c5f82d7644ef74cbd853df6188f7254b77ef5305",
+  "sourceModel": "sources/v0.7.0/child-tablet-chair.blend",
+  "sourceSha256": "01a171d62911f9fa4d0999ee60b7e613b64761912579ad61ad112f44514518d2",
+  "partCount": 9,
+  "componentCount": 1,
+  "components": [
+    {
+      "parts": [
+        "leg",
+        "leg.001",
+        "leg.002",
+        "leg.003",
+        "structural chair seat pan",
+        "seat",
+        "backrest",
+        "writing tablet",
+        "tablet support"
+      ],
+      "minimum": [
+        -0.1574999988079071,
+        -0.19912654161453247,
+        -1.4551915228366852e-09
+      ],
+      "maximum": [
+        0.34700000286102295,
+        0.35500001907348633,
+        0.6330165266990662
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "structural chair seat pan",
+      "b": "leg",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "structural chair seat pan",
+      "b": "leg.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "structural chair seat pan",
+      "b": "leg.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "structural chair seat pan",
+      "b": "leg.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "seat",
+      "b": "leg",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "seat",
+      "b": "leg.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "seat",
+      "b": "leg.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "seat",
+      "b": "leg.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "seat",
+      "b": "structural chair seat pan",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "backrest",
+      "b": "seat",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "writing tablet",
+      "b": "backrest",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "tablet support",
+      "b": "seat",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "tablet support",
+      "b": "writing tablet",
+      "method": "triangle intersection",
+      "distance": 0
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; live-source reports are NOT exported-asset evidence; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T04:13:55Z"
+}

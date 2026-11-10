@@ -1,0 +1,156 @@
+{
+  "designId": "ois.design.retro-two-door-fridge",
+  "familyId": "ois.family.retro-two-door-fridge",
+  "id": "ois.design.retro-two-door-fridge",
+  "name": "Rounded retro refrigerator",
+  "roomTags": [
+    "kitchen"
+  ],
+  "theme": "walnut-form",
+  "builder": "appliance",
+  "parameters": {
+    "form": "retro-fridge",
+    "w": 0.68,
+    "h": 1.65
+  },
+  "distinction": "Rounded upper/lower doors and long vertical pull handles.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted",
+    "sourceSnapshot": "sources/pipeline-e797cb5c88af56f5.py",
+    "sourceSha256": "e797cb5c88af56f5b4455d819a512ab9be55f40e1fa2d0cb542aca7bb84b906f",
+    "parametersFile": "sources/v0.2.1/retro-two-door-fridge.parameters.json"
+  },
+  "constructionKey": "appliance|retro-fridge|{}",
+  "sha256": "5bd11894667677275746e7ce022cf06fb46add968a790c5289dbac469d07c98b",
+  "bytes": 75176,
+  "triangles": 1436,
+  "vertices": 1999,
+  "drawPrimitives": 2,
+  "bounds": {
+    "min": [
+      -0.34000000543892384,
+      0.0,
+      -0.3859999952837825
+    ],
+    "max": [
+      0.3400000035762787,
+      1.649999976158142,
+      0.3100000023841858
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 0.6800000090152025,
+    "depth": 0.6959999976679683,
+    "height": 1.649999976158142
+  },
+  "footprint": [
+    [
+      -0.34000000543892384,
+      -0.3859999952837825
+    ],
+    [
+      0.3400000035762787,
+      -0.3859999952837825
+    ],
+    [
+      0.3400000035762787,
+      0.3100000023841858
+    ],
+    [
+      -0.34000000543892384,
+      0.3100000023841858
+    ]
+  ],
+  "variantSlots": [
+    "ceramic",
+    "metal"
+  ],
+  "requiredExtensions": [],
+  "version": "0.2.1",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.retro-two-door-fridge",
+  "file": "assets/v0.2.1/retro-two-door-fridge.glb",
+  "sourceModel": "sources/v0.2.1/retro-two-door-fridge.blend",
+  "thumbnail": "previews/v0.2.1/retro-two-door-fridge.png",
+  "backThumbnail": "previews/v0.2.1/retro-two-door-fridge-back.png",
+  "category": "appliances",
+  "subtype": "retro-fridge",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "textures": {
+    "count": 0,
+    "bytes": 0
+  },
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.2.1/retro-two-door-fridge.png",
+      "previews/v0.2.1/retro-two-door-fridge-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.22,
+      0.09,
+      0.038
+    ],
+    [
+      0.39,
+      0.18,
+      0.07
+    ],
+    [
+      0.47,
+      0.3,
+      0.1
+    ]
+  ],
+  "colourTags": [
+    "walnut",
+    "tobacco",
+    "brass"
+  ],
+  "materials": [
+    "ceramic",
+    "metal"
+  ],
+  "searchAliases": [
+    "kitchen",
+    "retro fridge"
+  ],
+  "materialSlots": [
+    {
+      "id": "ceramic",
+      "material": "ceramic",
+      "recolourable": true
+    },
+    {
+      "id": "metal",
+      "material": "metal",
+      "recolourable": true
+    }
+  ]
+}

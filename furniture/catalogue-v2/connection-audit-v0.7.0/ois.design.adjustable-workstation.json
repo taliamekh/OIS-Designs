@@ -1,0 +1,111 @@
+{
+  "id": "ois.design.adjustable-workstation",
+  "sha256": "82dcdc693d22fefa95b0369d710475c6480f481442261a20f2ebd68786191752",
+  "sourceModel": "sources/v0.7.0/adjustable-workstation.blend",
+  "sourceSha256": "199226684fee76e0939b449953c75f8322ee31f8cc333f06f8881f946e41d27d",
+  "partCount": 10,
+  "componentCount": 1,
+  "components": [
+    {
+      "parts": [
+        "top",
+        "T foot",
+        "telescopic lower",
+        "telescopic upper",
+        "column top bracket",
+        "T foot.001",
+        "telescopic lower.001",
+        "telescopic upper.001",
+        "column top bracket.001",
+        "crossbeam"
+      ],
+      "minimum": [
+        -0.6499999761581421,
+        -0.32499998807907104,
+        0.0
+      ],
+      "maximum": [
+        0.6499999761581421,
+        0.32499998807907104,
+        1.0199999809265137
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "telescopic lower",
+      "b": "T foot",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "telescopic upper",
+      "b": "telescopic lower",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "column top bracket",
+      "b": "top",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "column top bracket",
+      "b": "telescopic upper",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "telescopic lower.001",
+      "b": "T foot.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "telescopic upper.001",
+      "b": "telescopic lower.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "column top bracket.001",
+      "b": "top",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "column top bracket.001",
+      "b": "telescopic upper.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "crossbeam",
+      "b": "telescopic upper",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "crossbeam",
+      "b": "column top bracket",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "crossbeam",
+      "b": "telescopic upper.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "crossbeam",
+      "b": "column top bracket.001",
+      "method": "triangle intersection",
+      "distance": 0
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; live-source reports are NOT exported-asset evidence; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T04:10:54Z"
+}

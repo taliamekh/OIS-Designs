@@ -1,0 +1,164 @@
+{
+  "designId": "ois.design.upright-room-piano",
+  "familyId": "ois.family.upright-room-piano",
+  "id": "ois.design.upright-room-piano",
+  "name": "Upright room piano",
+  "roomTags": [
+    "living"
+  ],
+  "theme": "walnut-form",
+  "builder": "special",
+  "parameters": {
+    "form": "piano",
+    "w": 1.42,
+    "d": 0.62,
+    "h": 1.18
+  },
+  "distinction": "Deep upright case, raised keyboard, independent keys and timber legs.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted",
+    "sourceSnapshot": "sources/pipeline-e797cb5c88af56f5.py",
+    "sourceSha256": "e797cb5c88af56f5b4455d819a512ab9be55f40e1fa2d0cb542aca7bb84b906f",
+    "parametersFile": "sources/v0.2.1/upright-room-piano.parameters.json"
+  },
+  "constructionKey": "special|piano|{\"cols\": 1, \"front\": \"cane\", \"panels\": 3}",
+  "sha256": "eb7227fe3a39f2845167454edb0c7795f5e4f000d7aed317248f13edd9d7b523",
+  "bytes": 538208,
+  "triangles": 9640,
+  "vertices": 14898,
+  "drawPrimitives": 3,
+  "bounds": {
+    "min": [
+      -0.7099999785423279,
+      0.0,
+      -0.37199999392032623
+    ],
+    "max": [
+      0.7099999785423279,
+      1.1799999475479126,
+      0.25049999356269836
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 1.4199999570846558,
+    "depth": 0.6224999874830246,
+    "height": 1.1799999475479126
+  },
+  "footprint": [
+    [
+      -0.7099999785423279,
+      -0.37199999392032623
+    ],
+    [
+      0.7099999785423279,
+      -0.37199999392032623
+    ],
+    [
+      0.7099999785423279,
+      0.25049999356269836
+    ],
+    [
+      -0.7099999785423279,
+      0.25049999356269836
+    ]
+  ],
+  "variantSlots": [
+    "dark",
+    "linen",
+    "wood"
+  ],
+  "requiredExtensions": [],
+  "version": "0.2.1",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.upright-room-piano",
+  "file": "assets/v0.2.1/upright-room-piano.glb",
+  "sourceModel": "sources/v0.2.1/upright-room-piano.blend",
+  "thumbnail": "previews/v0.2.1/upright-room-piano.png",
+  "backThumbnail": "previews/v0.2.1/upright-room-piano-back.png",
+  "category": "specialty",
+  "subtype": "piano",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "textures": {
+    "count": 0,
+    "bytes": 0
+  },
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.2.1/upright-room-piano.png",
+      "previews/v0.2.1/upright-room-piano-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.22,
+      0.09,
+      0.038
+    ],
+    [
+      0.39,
+      0.18,
+      0.07
+    ],
+    [
+      0.47,
+      0.3,
+      0.1
+    ]
+  ],
+  "colourTags": [
+    "walnut",
+    "tobacco",
+    "brass"
+  ],
+  "materials": [
+    "paint",
+    "textile",
+    "wood"
+  ],
+  "searchAliases": [
+    "living",
+    "piano"
+  ],
+  "materialSlots": [
+    {
+      "id": "dark",
+      "material": "dark",
+      "recolourable": true
+    },
+    {
+      "id": "linen",
+      "material": "linen",
+      "recolourable": true
+    },
+    {
+      "id": "wood",
+      "material": "wood",
+      "recolourable": true
+    }
+  ]
+}

@@ -28,33 +28,46 @@
     "thirdPartyGeometry": false,
     "thirdPartyTextures": false,
     "publicAssetLicence": "not separately granted",
-    "sourceSnapshot": "sources/pipeline-80bacc170bd1371e.py",
-    "sourceSha256": "80bacc170bd1371edd54e3e5203658724c4e90ee4562fa13275787f9884b1d45",
+    "sourceSnapshot": "sources/pipeline-bf07453f548fd92d.py",
+    "sourceSha256": "bf07453f548fd92da637ecce41dc8b35010d5f15c955c971c9e3be2fb762ea2d",
+    "sourceModelSha256": "f3cf5e988da8bf83d5321ec2ec0562c12de3b830b235159d012ab3fd781ad442",
     "supportSources": {
       "signature_designs.py": {
-        "snapshot": "sources/signature_designs-c7ce1c9570491409.py",
-        "sha256": "c7ce1c95704914096c0af5c88272139fca2098556f75b752375dd03da6cd8ee2"
+        "snapshot": "sources/signature_designs-6d248dd7aaa49ed4.py",
+        "sha256": "6d248dd7aaa49ed40f05c473c5d46b6fe8c97972ebf6ce139553f9641fc82b3c"
       },
       "material_finish.py": {
-        "snapshot": "sources/material_finish-b9bb830e81d90e18.py",
-        "sha256": "b9bb830e81d90e18c05191c4e478ee7bbda04b117e4148687be9073a85d929c2"
+        "snapshot": "sources/material_finish-281279dfd17b0c92.py",
+        "sha256": "281279dfd17b0c929f9038bb8066b86216427feaaefbd503abb995d06dc35730"
       },
       "catalogue_inventory.py": {
-        "snapshot": "sources/catalogue_inventory-b67897df830f7144.py",
-        "sha256": "b67897df830f71449151337a656dae85d9e7b911fbc107aab78d72a60438f20e"
+        "snapshot": "sources/catalogue_inventory-db8b68fc872dbc12.py",
+        "sha256": "db8b68fc872dbc12d87e9ce013777e00d6b32cc0392e8cc09f31f8fef27b9365"
       },
       "finalize_glb.py": {
-        "snapshot": "sources/finalize_glb-dfc4ff54401c495d.py",
-        "sha256": "dfc4ff54401c495d3e17debd8f4aae1c5e68012a23ba8c85e023ed00397baae2"
+        "snapshot": "sources/finalize_glb-4d1dec42be5cbf3d.py",
+        "sha256": "4d1dec42be5cbf3d6540facfa883948acd849c080f7117b8d7025749c08e2d1b"
+      },
+      "build_catalogue_v2.py": {
+        "snapshot": "sources/build_catalogue_v2-9c22533830c3704c.py",
+        "sha256": "9c22533830c3704c1ce578b58b4350ebbbf5b8d32590a07db027f671d4975577"
+      },
+      "validate_library.py": {
+        "snapshot": "sources/validate_library-48e60483e2c3d05b.py",
+        "sha256": "48e60483e2c3d05bec2c7e2669523eb77571a4ba120cb5238bbec92b8a585e0c"
+      },
+      "support_checks.py": {
+        "snapshot": "sources/support_checks-f7ed4d0400abd5f2.py",
+        "sha256": "f7ed4d0400abd5f23f27c86a9013cfefaca71234a9da953dfe97daeabb8af640"
       }
     },
-    "parametersFile": "sources/v0.5.0/rect-waterfall-dining.parameters.json"
+    "parametersFile": "sources/v0.7.0/rect-waterfall-dining.parameters.json"
   },
   "constructionKey": "table|waterfall|{\"drawers\": false, \"shape\": \"rect\", \"shelf\": false}",
-  "sha256": "44c2e86110fbc613dad0f77fc7babef89d37385f0ed59d7db92aab4400c3e83b",
-  "bytes": 259620,
+  "sha256": "456952a456c1490a75993f5a3a8654c69a31501105c18c0daccbf57d07e2258b",
+  "bytes": 261540,
   "triangles": 564,
-  "vertices": 1652,
+  "vertices": 1692,
   "drawPrimitives": 1,
   "bounds": {
     "min": [
@@ -123,13 +136,13 @@
       }
     ]
   },
-  "version": "0.5.0",
+  "version": "0.7.0",
   "qualityStatus": "validated-candidate",
   "geometryFamily": "ois.family.rect-waterfall-dining",
-  "file": "assets/v0.5.0/rect-waterfall-dining.glb",
-  "sourceModel": "sources/v0.5.0/rect-waterfall-dining.blend",
-  "thumbnail": "previews/v0.5.0/rect-waterfall-dining.png",
-  "backThumbnail": "previews/v0.5.0/rect-waterfall-dining-back.png",
+  "file": "assets/v0.7.0/rect-waterfall-dining.glb",
+  "sourceModel": "sources/v0.7.0/rect-waterfall-dining.blend",
+  "thumbnail": "previews/v0.7.0/rect-waterfall-dining.png",
+  "backThumbnail": "previews/v0.7.0/rect-waterfall-dining-back.png",
   "category": "tables",
   "subtype": "waterfall",
   "units": "metres",
@@ -149,8 +162,8 @@
   "visualReview": {
     "status": "pending",
     "images": [
-      "previews/v0.5.0/rect-waterfall-dining.png",
-      "previews/v0.5.0/rect-waterfall-dining-back.png"
+      "previews/v0.7.0/rect-waterfall-dining.png",
+      "previews/v0.7.0/rect-waterfall-dining-back.png"
     ]
   },
   "favouriteStorage": "user set of stable catalogue IDs",
@@ -180,6 +193,9 @@
   ],
   "finalization": {
     "unusedTangentAttributesRemoved": 0,
+    "unusedAccessorsRemoved": 0,
+    "unusedBufferViewsRemoved": 0,
+    "bytesRemoved": 0,
     "normalMappedTangents": "retained, never replaced with arbitrary fallback vectors"
   },
   "supportChecks": {

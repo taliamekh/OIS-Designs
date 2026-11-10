@@ -1,0 +1,57 @@
+{
+  "id": "ois.design.coat-shoe-rail",
+  "sha256": "ee2455330c9cf37beadac2eeecb02dadc2d45d38ab0743f88bbfe9f9ec7bb44f",
+  "sourceModel": "sources/v0.7.0/coat-shoe-rail.blend",
+  "sourceSha256": "44840e89f879e6d2f393cb9d6bf397636e342d23bc3f243d667f3d4fcdce30d4",
+  "partCount": 4,
+  "componentCount": 1,
+  "components": [
+    {
+      "parts": [
+        "rack side",
+        "rack side.001",
+        "garment bar",
+        "shoe platform"
+      ],
+      "minimum": [
+        -0.5189999938011169,
+        -0.23000000417232513,
+        0.0
+      ],
+      "maximum": [
+        0.5189999938011169,
+        0.24881362915039062,
+        1.6710000038146973
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "garment bar",
+      "b": "rack side",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "garment bar",
+      "b": "rack side.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "shoe platform",
+      "b": "rack side",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "shoe platform",
+      "b": "rack side.001",
+      "method": "triangle intersection",
+      "distance": 0
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; live-source reports are NOT exported-asset evidence; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T04:13:55Z"
+}
