@@ -41,8 +41,8 @@ The standard iPhone 13 can test an installed editor build and a compatible camer
 
 These historical guides establish the initial research and sample data handoff. The current Expo editor is implemented in progress; capture and the scan contract remain separate provider work. Use the numbered phase status for current evidence.
 
-## First milestone
+## Next acceptance
 
-Open the Expo starter on the iPhone 13. The next editor milestone is loading the sample room, placing one correctly sized furniture item, changing a wall finish, and saving/reopening the result. In parallel, the scanning team should supply one real structured room export and demonstrate capture on a LiDAR-capable test phone.
+The editor now has source/browser evidence for inside measurements, real furniture placement, finishes, save/recovery, connected room movement and multi-floor house views. The [overnight review](docs/coordination/OVERNIGHT_REVIEW.md) records the published checkpoint, checks and limits. Next acceptance includes physical iPhone/Android graphics/touch/storage testing and three fresh usability sessions. Supported attachments, stairs and advanced ceilings remain separate Phase 3 work; scanning keeps its real provider/device gate.
 
 The source repository is [taliamekh/OIS-Designs](https://github.com/taliamekh/OIS-Designs). Keep client scans, credentials, and signing keys out of this public repository.
