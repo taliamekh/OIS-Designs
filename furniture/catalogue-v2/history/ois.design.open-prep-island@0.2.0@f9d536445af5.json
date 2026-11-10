@@ -1,0 +1,155 @@
+{
+  "designId": "ois.design.open-prep-island",
+  "familyId": "ois.family.open-prep-island",
+  "id": "ois.design.open-prep-island",
+  "name": "Open preparation island",
+  "roomTags": [
+    "kitchen"
+  ],
+  "theme": "soft-japandi",
+  "builder": "kitchen",
+  "parameters": {
+    "form": "open-island",
+    "w": 1.2,
+    "d": 0.7
+  },
+  "distinction": "Open timber frame and low shelf with no enclosed cabinets.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted"
+  },
+  "constructionKey": "kitchen|open-island|{}",
+  "sha256": "f9d536445af5569698573940d79fc8efaf93aa3d6ea74597081335c7e123ec38",
+  "bytes": 32196,
+  "triangles": 616,
+  "vertices": 814,
+  "drawPrimitives": 2,
+  "bounds": {
+    "min": [
+      -0.6299999952316284,
+      -3.278811577800411e-08,
+      -0.3799999952316284
+    ],
+    "max": [
+      0.6299999952316284,
+      0.9087972231209278,
+      0.3799999952316284
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 1.2599999904632568,
+    "depth": 0.7599999904632568,
+    "height": 0.9087972559090436
+  },
+  "footprint": [
+    [
+      -0.6299999952316284,
+      -0.3799999952316284
+    ],
+    [
+      0.6299999952316284,
+      -0.3799999952316284
+    ],
+    [
+      0.6299999952316284,
+      0.3799999952316284
+    ],
+    [
+      -0.6299999952316284,
+      0.3799999952316284
+    ]
+  ],
+  "variantSlots": [
+    "stone",
+    "wood"
+  ],
+  "requiredExtensions": [],
+  "version": "0.2.0",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.open-prep-island",
+  "file": "assets/v0.2.0/open-prep-island.glb",
+  "sourceModel": "sources/v0.2.0/open-prep-island.blend",
+  "thumbnail": "previews/v0.2.0/open-prep-island.png",
+  "backThumbnail": "previews/v0.2.0/open-prep-island-back.png",
+  "category": "cabinetry",
+  "subtype": "open-island",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "textures": {
+    "count": 0,
+    "bytes": 0
+  },
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.2.0/open-prep-island.png",
+      "previews/v0.2.0/open-prep-island-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.34,
+      0.28,
+      0.19
+    ],
+    [
+      0.58,
+      0.54,
+      0.44
+    ],
+    [
+      0.15,
+      0.17,
+      0.15
+    ]
+  ],
+  "colourTags": [
+    "ash",
+    "flax",
+    "stone"
+  ],
+  "materials": [
+    "stone",
+    "wood"
+  ],
+  "searchAliases": [
+    "kitchen",
+    "open island"
+  ],
+  "materialSlots": [
+    {
+      "id": "stone",
+      "material": "stone",
+      "recolourable": true
+    },
+    {
+      "id": "wood",
+      "material": "wood",
+      "recolourable": true
+    }
+  ],
+  "geometryHash": "b64455c72a850b1a731a761531ea426412b427e7aa55edba67767dceb8788a22",
+  "normalizedMirrorGeometryHash": "19eae7e084586bc0267d44ea882862f3c4391398d19b73f7e7fb215b4e911a6d"
+}

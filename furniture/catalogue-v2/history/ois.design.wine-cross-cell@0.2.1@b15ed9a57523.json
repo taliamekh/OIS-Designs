@@ -1,0 +1,158 @@
+{
+  "designId": "ois.design.wine-cross-cell",
+  "familyId": "ois.family.wine-cross-cell",
+  "id": "ois.design.wine-cross-cell",
+  "name": "Wine cross-cell stand",
+  "roomTags": [
+    "storage"
+  ],
+  "theme": "soft-japandi",
+  "builder": "case",
+  "parameters": {
+    "form": "wine-lattice",
+    "front": "slab",
+    "w": 0.62,
+    "h": 0.86,
+    "base": "plinth"
+  },
+  "distinction": "Open diamond storage lattice; larger wine cabinet relative must be reviewed.",
+  "stage": "validated-candidate",
+  "countEligible": false,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted",
+    "sourceSnapshot": "sources/pipeline-e797cb5c88af56f5.py",
+    "sourceSha256": "e797cb5c88af56f5b4455d819a512ab9be55f40e1fa2d0cb542aca7bb84b906f",
+    "parametersFile": "sources/v0.2.1/wine-cross-cell.parameters.json"
+  },
+  "constructionKey": "case|wine-lattice|{\"base\": \"plinth\", \"cols\": 1, \"doors\": 2, \"drawersTop\": false, \"front\": \"slab\", \"rows\": 4}",
+  "sha256": "b15ed9a575236bace7a95cb997aa4a9d42b91b5efcb5b2a27f44a5fdbf9f7cf3",
+  "bytes": 58684,
+  "triangles": 1060,
+  "vertices": 1558,
+  "drawPrimitives": 2,
+  "bounds": {
+    "min": [
+      -0.3100000023841858,
+      0.0,
+      -0.20000000298023224
+    ],
+    "max": [
+      0.3100000023841858,
+      0.8600000143051147,
+      0.20000000298023224
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 0.6200000047683716,
+    "depth": 0.4000000059604645,
+    "height": 0.8600000143051147
+  },
+  "footprint": [
+    [
+      -0.3100000023841858,
+      -0.20000000298023224
+    ],
+    [
+      0.3100000023841858,
+      -0.20000000298023224
+    ],
+    [
+      0.3100000023841858,
+      0.20000000298023224
+    ],
+    [
+      -0.3100000023841858,
+      0.20000000298023224
+    ]
+  ],
+  "variantSlots": [
+    "dark",
+    "wood"
+  ],
+  "requiredExtensions": [],
+  "version": "0.2.1",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.wine-cross-cell",
+  "file": "assets/v0.2.1/wine-cross-cell.glb",
+  "sourceModel": "sources/v0.2.1/wine-cross-cell.blend",
+  "thumbnail": "previews/v0.2.1/wine-cross-cell.png",
+  "backThumbnail": "previews/v0.2.1/wine-cross-cell-back.png",
+  "category": "storage",
+  "subtype": "wine-lattice",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "textures": {
+    "count": 0,
+    "bytes": 0
+  },
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.2.1/wine-cross-cell.png",
+      "previews/v0.2.1/wine-cross-cell-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.34,
+      0.28,
+      0.19
+    ],
+    [
+      0.58,
+      0.54,
+      0.44
+    ],
+    [
+      0.15,
+      0.17,
+      0.15
+    ]
+  ],
+  "colourTags": [
+    "ash",
+    "flax",
+    "stone"
+  ],
+  "materials": [
+    "paint",
+    "wood"
+  ],
+  "searchAliases": [
+    "storage",
+    "wine lattice"
+  ],
+  "materialSlots": [
+    {
+      "id": "dark",
+      "material": "dark",
+      "recolourable": true
+    },
+    {
+      "id": "wood",
+      "material": "wood",
+      "recolourable": true
+    }
+  ]
+}

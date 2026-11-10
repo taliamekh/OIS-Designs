@@ -1,0 +1,129 @@
+{
+  "id": "ois.design.corner-wall-banquette",
+  "sha256": "unexported-source-a6a97ed1ff18ea7190f4c07e8ea17b6dba901563a653d7aed874183539ef16c1",
+  "sourceModel": null,
+  "sourceSha256": "a6a97ed1ff18ea7190f4c07e8ea17b6dba901563a653d7aed874183539ef16c1",
+  "partCount": 8,
+  "componentCount": 2,
+  "components": [
+    {
+      "parts": [
+        "banquette plinth",
+        "banquette seat",
+        "piping",
+        "banquette plinth.001",
+        "banquette seat.001",
+        "piping.001",
+        "return wall back"
+      ],
+      "minimum": [
+        -0.8270000219345093,
+        -0.24950000643730164,
+        0.0
+      ],
+      "maximum": [
+        0.8734999895095825,
+        0.7994999885559082,
+        0.9700000286102295
+      ]
+    },
+    {
+      "parts": [
+        "long wall back"
+      ],
+      "minimum": [
+        -0.824999988079071,
+        -0.3400000035762787,
+        0.4700000286102295
+      ],
+      "maximum": [
+        0.824999988079071,
+        -0.21000000834465027,
+        0.9700000286102295
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "banquette seat",
+      "b": "banquette plinth",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "piping",
+      "b": "banquette seat",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "banquette plinth.001",
+      "b": "banquette plinth",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "banquette plinth.001",
+      "b": "banquette seat",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "banquette seat.001",
+      "b": "banquette plinth",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "banquette seat.001",
+      "b": "banquette seat",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "banquette seat.001",
+      "b": "piping",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "banquette seat.001",
+      "b": "banquette plinth.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "piping.001",
+      "b": "banquette seat",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "piping.001",
+      "b": "piping",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "piping.001",
+      "b": "banquette seat.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "return wall back",
+      "b": "banquette seat",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "return wall back",
+      "b": "banquette seat.001",
+      "method": "triangle intersection",
+      "distance": 0
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; live-source reports are NOT exported-asset evidence; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T03:19:59Z"
+}

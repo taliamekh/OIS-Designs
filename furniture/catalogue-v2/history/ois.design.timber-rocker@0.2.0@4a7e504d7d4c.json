@@ -1,0 +1,159 @@
+{
+  "designId": "ois.design.timber-rocker",
+  "familyId": "ois.family.timber-rocker",
+  "id": "ois.design.timber-rocker",
+  "name": "Timber upholstered rocker",
+  "roomTags": [
+    "living"
+  ],
+  "theme": "calm-oak",
+  "builder": "seating",
+  "parameters": {
+    "form": "rocker",
+    "h": 1.0
+  },
+  "distinction": "Two continuous curved rocking runners support the frame.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted"
+  },
+  "sha256": "4a7e504d7d4c21b303161d27e52708641a23d6841cf30a96150ca94cbe37206d",
+  "bytes": 81004,
+  "triangles": 1964,
+  "vertices": 2056,
+  "drawPrimitives": 3,
+  "bounds": {
+    "min": [
+      -0.3546000123023987,
+      0.0,
+      -0.5093229413032532
+    ],
+    "max": [
+      0.3546000123023987,
+      1.026795893907547,
+      0.5093229413032532
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 0.7092000246047974,
+    "depth": 1.0186458826065063,
+    "height": 1.026795893907547
+  },
+  "footprint": [
+    [
+      -0.3546000123023987,
+      -0.5093229413032532
+    ],
+    [
+      0.3546000123023987,
+      -0.5093229413032532
+    ],
+    [
+      0.3546000123023987,
+      0.5093229413032532
+    ],
+    [
+      -0.3546000123023987,
+      0.5093229413032532
+    ]
+  ],
+  "variantSlots": [
+    "fabric",
+    "linen",
+    "wood"
+  ],
+  "requiredExtensions": [],
+  "version": "0.2.0",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.timber-rocker",
+  "file": "assets/v0.2.0/timber-rocker.glb",
+  "sourceModel": "sources/v0.2.0/timber-rocker.blend",
+  "thumbnail": "previews/v0.2.0/timber-rocker.png",
+  "backThumbnail": "previews/v0.2.0/timber-rocker-back.png",
+  "category": "seating",
+  "subtype": "rocker",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "textures": {
+    "count": 0,
+    "bytes": 0
+  },
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.2.0/timber-rocker.png",
+      "previews/v0.2.0/timber-rocker-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.58,
+      0.39,
+      0.2
+    ],
+    [
+      0.73,
+      0.7,
+      0.61
+    ],
+    [
+      0.12,
+      0.14,
+      0.13
+    ]
+  ],
+  "colourTags": [
+    "pale oak",
+    "ivory",
+    "oatmeal"
+  ],
+  "materials": [
+    "textile",
+    "wood"
+  ],
+  "searchAliases": [
+    "living",
+    "rocker"
+  ],
+  "materialSlots": [
+    {
+      "id": "fabric",
+      "material": "fabric",
+      "recolourable": true
+    },
+    {
+      "id": "linen",
+      "material": "linen",
+      "recolourable": true
+    },
+    {
+      "id": "wood",
+      "material": "wood",
+      "recolourable": true
+    }
+  ],
+  "geometryHash": "ea5df4be24a75c81fcc71ffa18deb707492e5243bb0b6e85ab4773de2c6f87e9",
+  "normalizedMirrorGeometryHash": "03e5eb4e7035e262ee01ba5282666b3c888ce0ff52231ad41555b5312cf6f216"
+}

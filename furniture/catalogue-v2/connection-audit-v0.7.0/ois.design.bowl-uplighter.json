@@ -1,0 +1,102 @@
+{
+  "id": "ois.design.bowl-uplighter",
+  "sha256": "fab34c0c3d933b83ccc10144df8beb7be2a0ea9a6a097561e52f20b314dd575a",
+  "sourceModel": "sources/v0.7.0/bowl-uplighter.blend",
+  "sourceSha256": "f82cf47d2667fcec0f0bfe541296ce22990b21c0caf2911e467cf1655860f67e",
+  "partCount": 7,
+  "componentCount": 1,
+  "components": [
+    {
+      "parts": [
+        "weighted base",
+        "stem",
+        "uplight bowl",
+        "lamp socket mast",
+        "shade spider",
+        "shade spider.001",
+        "shade spider.002"
+      ],
+      "minimum": [
+        -0.20000000298023224,
+        -0.20000000298023224,
+        0.0
+      ],
+      "maximum": [
+        0.20000000298023224,
+        0.20000000298023224,
+        1.7000000476837158
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "stem",
+      "b": "weighted base",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "lamp socket mast",
+      "b": "stem",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "shade spider",
+      "b": "uplight bowl",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "shade spider",
+      "b": "lamp socket mast",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "shade spider.001",
+      "b": "uplight bowl",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "shade spider.001",
+      "b": "lamp socket mast",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "shade spider.001",
+      "b": "shade spider",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "shade spider.002",
+      "b": "uplight bowl",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "shade spider.002",
+      "b": "lamp socket mast",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "shade spider.002",
+      "b": "shade spider",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "shade spider.002",
+      "b": "shade spider.001",
+      "method": "triangle intersection",
+      "distance": 0
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; live-source reports are NOT exported-asset evidence; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T03:51:55Z"
+}

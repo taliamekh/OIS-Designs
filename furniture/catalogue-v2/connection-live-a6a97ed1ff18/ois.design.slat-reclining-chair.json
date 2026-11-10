@@ -1,0 +1,379 @@
+{
+  "id": "ois.design.slat-reclining-chair",
+  "sha256": "unexported-source-a6a97ed1ff18ea7190f4c07e8ea17b6dba901563a653d7aed874183539ef16c1",
+  "sourceModel": null,
+  "sourceSha256": "a6a97ed1ff18ea7190f4c07e8ea17b6dba901563a653d7aed874183539ef16c1",
+  "partCount": 26,
+  "componentCount": 1,
+  "components": [
+    {
+      "parts": [
+        "front leg",
+        "rear frame",
+        "seat rail",
+        "front leg.001",
+        "rear frame.001",
+        "seat rail.001",
+        "seat plank",
+        "seat plank.001",
+        "seat plank.002",
+        "seat plank.003",
+        "seat plank.004",
+        "seat plank.005",
+        "seat plank.006",
+        "fan back plank",
+        "fan back plank.001",
+        "fan back plank.002",
+        "fan back plank.003",
+        "fan back plank.004",
+        "fan back plank.005",
+        "fan back plank.006",
+        "broad arm",
+        "broad arm.001",
+        "back crossrail",
+        "back crossrail.001",
+        "rear back stile",
+        "rear back stile.001"
+      ],
+      "minimum": [
+        -0.4350000023841858,
+        -0.47668421268463135,
+        -0.0287766270339489
+      ],
+      "maximum": [
+        0.4350000023841858,
+        0.35499998927116394,
+        1.0965644121170044
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "seat rail",
+      "b": "front leg",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "seat rail",
+      "b": "rear frame",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "seat rail.001",
+      "b": "front leg.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "seat rail.001",
+      "b": "rear frame.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "seat plank",
+      "b": "seat rail",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "seat plank",
+      "b": "seat rail.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "seat plank.001",
+      "b": "seat rail",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "seat plank.001",
+      "b": "seat rail.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "seat plank.002",
+      "b": "seat rail",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "seat plank.002",
+      "b": "seat rail.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "seat plank.003",
+      "b": "seat rail",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "seat plank.003",
+      "b": "seat rail.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "seat plank.004",
+      "b": "rear frame",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "seat plank.004",
+      "b": "seat rail",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "seat plank.004",
+      "b": "rear frame.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "seat plank.004",
+      "b": "seat rail.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "seat plank.005",
+      "b": "rear frame",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "seat plank.005",
+      "b": "seat rail",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "seat plank.005",
+      "b": "rear frame.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "seat plank.005",
+      "b": "seat rail.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "seat plank.006",
+      "b": "front leg",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "seat plank.006",
+      "b": "rear frame",
+      "method": "surface distance",
+      "distance": 0.003590368665754795
+    },
+    {
+      "a": "seat plank.006",
+      "b": "seat rail",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "seat plank.006",
+      "b": "front leg.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "seat plank.006",
+      "b": "rear frame.001",
+      "method": "surface distance",
+      "distance": 0.003590356558561325
+    },
+    {
+      "a": "seat plank.006",
+      "b": "seat rail.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "broad arm",
+      "b": "front leg",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "broad arm",
+      "b": "fan back plank",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "broad arm.001",
+      "b": "front leg.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "broad arm.001",
+      "b": "fan back plank.006",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "back crossrail",
+      "b": "fan back plank",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "back crossrail",
+      "b": "fan back plank.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "back crossrail",
+      "b": "fan back plank.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "back crossrail",
+      "b": "fan back plank.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "back crossrail",
+      "b": "fan back plank.004",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "back crossrail",
+      "b": "fan back plank.005",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "back crossrail",
+      "b": "fan back plank.006",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "back crossrail.001",
+      "b": "fan back plank",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "back crossrail.001",
+      "b": "fan back plank.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "back crossrail.001",
+      "b": "fan back plank.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "back crossrail.001",
+      "b": "fan back plank.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "back crossrail.001",
+      "b": "fan back plank.004",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "back crossrail.001",
+      "b": "fan back plank.005",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "back crossrail.001",
+      "b": "fan back plank.006",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "rear back stile",
+      "b": "rear frame",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "rear back stile",
+      "b": "fan back plank",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "rear back stile",
+      "b": "broad arm",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "rear back stile",
+      "b": "back crossrail",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "rear back stile",
+      "b": "back crossrail.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "rear back stile.001",
+      "b": "rear frame.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "rear back stile.001",
+      "b": "fan back plank.006",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "rear back stile.001",
+      "b": "broad arm.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "rear back stile.001",
+      "b": "back crossrail",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "rear back stile.001",
+      "b": "back crossrail.001",
+      "method": "triangle intersection",
+      "distance": 0
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; live-source reports are NOT exported-asset evidence; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T03:20:00Z"
+}

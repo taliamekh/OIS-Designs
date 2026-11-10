@@ -1,0 +1,162 @@
+{
+  "designId": "ois.design.drum-bar-stool",
+  "familyId": "ois.family.drum-bar-stool",
+  "id": "ois.design.drum-bar-stool",
+  "name": "Drum bar stool",
+  "roomTags": [
+    "dining"
+  ],
+  "theme": "soft-japandi",
+  "builder": "seating",
+  "parameters": {
+    "form": "drum-stool",
+    "w": 0.42,
+    "d": 0.42,
+    "h": 0.68
+  },
+  "distinction": "Full stave-sided timber drum forms the stool rather than legs.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted"
+  },
+  "sha256": "28a77e7508fd56ea5e2536ead2dc0bd4248c66369f16594114947ca61eab2f8a",
+  "bytes": 61552,
+  "triangles": 1852,
+  "vertices": 1570,
+  "drawPrimitives": 3,
+  "bounds": {
+    "min": [
+      -0.2279999852180481,
+      0.0,
+      -0.2279999852180481
+    ],
+    "max": [
+      0.2279999852180481,
+      0.6800000071525574,
+      0.2279999852180481
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 0.4559999704360962,
+    "depth": 0.4559999704360962,
+    "height": 0.6800000071525574
+  },
+  "footprint": [
+    [
+      -0.2279999852180481,
+      -0.2279999852180481
+    ],
+    [
+      0.2279999852180481,
+      -0.2279999852180481
+    ],
+    [
+      0.2279999852180481,
+      0.2279999852180481
+    ],
+    [
+      -0.2279999852180481,
+      0.2279999852180481
+    ]
+  ],
+  "variantSlots": [
+    "cane",
+    "metal",
+    "wood"
+  ],
+  "requiredExtensions": [],
+  "version": "0.2.0",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.drum-bar-stool",
+  "file": "assets/v0.2.0/drum-bar-stool.glb",
+  "sourceModel": "sources/v0.2.0/drum-bar-stool.blend",
+  "thumbnail": "previews/v0.2.0/drum-bar-stool.png",
+  "backThumbnail": "previews/v0.2.0/drum-bar-stool-back.png",
+  "category": "seating",
+  "subtype": "drum-stool",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "textures": {
+    "count": 0,
+    "bytes": 0
+  },
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.2.0/drum-bar-stool.png",
+      "previews/v0.2.0/drum-bar-stool-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.34,
+      0.28,
+      0.19
+    ],
+    [
+      0.58,
+      0.54,
+      0.44
+    ],
+    [
+      0.15,
+      0.17,
+      0.15
+    ]
+  ],
+  "colourTags": [
+    "ash",
+    "flax",
+    "stone"
+  ],
+  "materials": [
+    "metal",
+    "wood",
+    "woven-fibre"
+  ],
+  "searchAliases": [
+    "dining",
+    "drum stool"
+  ],
+  "materialSlots": [
+    {
+      "id": "cane",
+      "material": "cane",
+      "recolourable": true
+    },
+    {
+      "id": "metal",
+      "material": "metal",
+      "recolourable": true
+    },
+    {
+      "id": "wood",
+      "material": "wood",
+      "recolourable": true
+    }
+  ],
+  "geometryHash": "33423b0ce5114d38d75b34fe74138d71e6fb07227c2fc3d6698ae3de83fd538f",
+  "normalizedMirrorGeometryHash": "0574a152a62665c0a960b00f4b69bb4e3e7fa9c1ff7b7d3f2e27302a6f90c94d"
+}

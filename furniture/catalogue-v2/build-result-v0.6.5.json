@@ -1,0 +1,14 @@
+{
+  "version": "0.6.5",
+  "staged": true,
+  "selected": 6,
+  "errors": [
+    {
+      "id": "ois.design.tall-shaker-single",
+      "error": "non-unit normal-map tangents: 1",
+      "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\talia\\OneDrive\\Documents\\ChatGPT\\OIS Designs\\furniture\\scripts\\build_catalogue_v2.py\", line 136, in <module>\n    row=build(a)\n  File \"C:\\Users\\talia\\OneDrive\\Documents\\ChatGPT\\OIS Designs\\furniture\\scripts\\build_catalogue_v2.py\", line 98, in build\n    stats=inspect(glb)\n  File \"C:\\Users\\talia\\OneDrive\\Documents\\ChatGPT\\OIS Designs\\furniture\\scripts\\validate_library.py\", line 55, in inspect\n    for i in g['scenes'][g.get('scene',0)]['nodes']:walk(i,np.eye(4))\n                                                    ~~~~^^^^^^^^^^^^^\n  File \"C:\\Users\\talia\\OneDrive\\Documents\\ChatGPT\\OIS Designs\\furniture\\scripts\\validate_library.py\", line 51, in walk\n    assert np.all(np.isfinite(tangents)) and np.all(abs(lengths-1)<.001),f'non-unit normal-map tangents: {int(np.sum(abs(lengths-1)>=.001))}'\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: non-unit normal-map tangents: 1\n"
+    }
+  ],
+  "completeRecords": 5,
+  "finishedAtUtc": "2026-11-10T03:34:30Z"
+}

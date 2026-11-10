@@ -1,0 +1,160 @@
+{
+  "designId": "ois.design.reclined-floor-chair",
+  "familyId": "ois.family.reclined-floor-chair",
+  "id": "ois.design.reclined-floor-chair",
+  "name": "Reclined floor chair",
+  "roomTags": [
+    "bedroom"
+  ],
+  "theme": "soft-japandi",
+  "builder": "functional",
+  "parameters": {
+    "form": "floor-chair",
+    "w": 0.6,
+    "d": 0.7,
+    "h": 0.7
+  },
+  "distinction": "Floor cushion and angled back sit on continuous bent timber runners.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted"
+  },
+  "constructionKey": "functional|floor-chair|{}",
+  "sha256": "7c178788dd71f26789535e42a3d01cb866d28c027479f6f98707c9c3b96d766f",
+  "bytes": 33728,
+  "triangles": 652,
+  "vertices": 843,
+  "drawPrimitives": 3,
+  "bounds": {
+    "min": [
+      -0.28700000047683716,
+      0.0,
+      -0.41999998688697815
+    ],
+    "max": [
+      0.28700000047683716,
+      0.6854576468467712,
+      0.4671526551246643
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 0.5740000009536743,
+    "depth": 0.8871526420116425,
+    "height": 0.6854576468467712
+  },
+  "footprint": [
+    [
+      -0.28700000047683716,
+      -0.41999998688697815
+    ],
+    [
+      0.28700000047683716,
+      -0.41999998688697815
+    ],
+    [
+      0.28700000047683716,
+      0.4671526551246643
+    ],
+    [
+      -0.28700000047683716,
+      0.4671526551246643
+    ]
+  ],
+  "variantSlots": [
+    "fabric",
+    "linen",
+    "wood"
+  ],
+  "requiredExtensions": [],
+  "version": "0.2.0",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.reclined-floor-chair",
+  "file": "assets/v0.2.0/reclined-floor-chair.glb",
+  "sourceModel": "sources/v0.2.0/reclined-floor-chair.blend",
+  "thumbnail": "previews/v0.2.0/reclined-floor-chair.png",
+  "backThumbnail": "previews/v0.2.0/reclined-floor-chair-back.png",
+  "category": "functional-furniture",
+  "subtype": "floor-chair",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "textures": {
+    "count": 0,
+    "bytes": 0
+  },
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.2.0/reclined-floor-chair.png",
+      "previews/v0.2.0/reclined-floor-chair-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.34,
+      0.28,
+      0.19
+    ],
+    [
+      0.58,
+      0.54,
+      0.44
+    ],
+    [
+      0.15,
+      0.17,
+      0.15
+    ]
+  ],
+  "colourTags": [
+    "ash",
+    "flax",
+    "stone"
+  ],
+  "materials": [
+    "textile",
+    "wood"
+  ],
+  "searchAliases": [
+    "bedroom",
+    "floor chair"
+  ],
+  "materialSlots": [
+    {
+      "id": "fabric",
+      "material": "fabric",
+      "recolourable": true
+    },
+    {
+      "id": "linen",
+      "material": "linen",
+      "recolourable": true
+    },
+    {
+      "id": "wood",
+      "material": "wood",
+      "recolourable": true
+    }
+  ]
+}

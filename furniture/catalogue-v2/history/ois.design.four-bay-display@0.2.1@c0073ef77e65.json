@@ -1,0 +1,165 @@
+{
+  "designId": "ois.design.four-bay-display",
+  "familyId": "ois.family.four-bay-display",
+  "id": "ois.design.four-bay-display",
+  "name": "Four-bay display cabinet",
+  "roomTags": [
+    "storage"
+  ],
+  "theme": "walnut-form",
+  "builder": "case",
+  "parameters": {
+    "form": "doors",
+    "front": "glass",
+    "w": 1.8,
+    "h": 1.2,
+    "doors": 4
+  },
+  "distinction": "Four independent glazed doors make a horizontal display case.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted",
+    "sourceSnapshot": "sources/pipeline-e797cb5c88af56f5.py",
+    "sourceSha256": "e797cb5c88af56f5b4455d819a512ab9be55f40e1fa2d0cb542aca7bb84b906f",
+    "parametersFile": "sources/v0.2.1/four-bay-display.parameters.json"
+  },
+  "constructionKey": "case|doors|{\"base\": \"taper\", \"cols\": 1, \"drawersTop\": false, \"front\": \"glass\", \"rows\": 4}",
+  "sha256": "c0073ef77e65aaae578b84734c92e228c08759ce62d9033f52849b011f48b8c7",
+  "bytes": 278068,
+  "triangles": 5556,
+  "vertices": 7529,
+  "drawPrimitives": 3,
+  "bounds": {
+    "min": [
+      -0.9034072482953869,
+      -4.352732696499828e-08,
+      -0.25600000005215406
+    ],
+    "max": [
+      0.9034073519947674,
+      1.1952561283051977,
+      0.20000004400550964
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 1.8068146002901542,
+    "depth": 0.4560000440576637,
+    "height": 1.1952561718325247
+  },
+  "footprint": [
+    [
+      -0.9034072482953869,
+      -0.25600000005215406
+    ],
+    [
+      0.9034073519947674,
+      -0.25600000005215406
+    ],
+    [
+      0.9034073519947674,
+      0.20000004400550964
+    ],
+    [
+      -0.9034072482953869,
+      0.20000004400550964
+    ]
+  ],
+  "variantSlots": [
+    "glass",
+    "metal",
+    "wood"
+  ],
+  "requiredExtensions": [],
+  "version": "0.2.1",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.four-bay-display",
+  "file": "assets/v0.2.1/four-bay-display.glb",
+  "sourceModel": "sources/v0.2.1/four-bay-display.blend",
+  "thumbnail": "previews/v0.2.1/four-bay-display.png",
+  "backThumbnail": "previews/v0.2.1/four-bay-display-back.png",
+  "category": "storage",
+  "subtype": "doors",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "textures": {
+    "count": 0,
+    "bytes": 0
+  },
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.2.1/four-bay-display.png",
+      "previews/v0.2.1/four-bay-display-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.22,
+      0.09,
+      0.038
+    ],
+    [
+      0.39,
+      0.18,
+      0.07
+    ],
+    [
+      0.47,
+      0.3,
+      0.1
+    ]
+  ],
+  "colourTags": [
+    "walnut",
+    "tobacco",
+    "brass"
+  ],
+  "materials": [
+    "metal",
+    "tinted-glass",
+    "wood"
+  ],
+  "searchAliases": [
+    "storage",
+    "doors"
+  ],
+  "materialSlots": [
+    {
+      "id": "glass",
+      "material": "glass",
+      "recolourable": true
+    },
+    {
+      "id": "metal",
+      "material": "metal",
+      "recolourable": true
+    },
+    {
+      "id": "wood",
+      "material": "wood",
+      "recolourable": true
+    }
+  ]
+}

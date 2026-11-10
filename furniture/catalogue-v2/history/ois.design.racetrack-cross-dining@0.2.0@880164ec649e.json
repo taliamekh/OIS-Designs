@@ -1,0 +1,156 @@
+{
+  "designId": "ois.design.racetrack-cross-dining",
+  "familyId": "ois.family.racetrack-cross-dining",
+  "id": "ois.design.racetrack-cross-dining",
+  "name": "Racetrack crossed dining table",
+  "roomTags": [
+    "dining"
+  ],
+  "theme": "coastal-linen",
+  "builder": "table",
+  "parameters": {
+    "form": "cross",
+    "w": 1.65,
+    "d": 0.88,
+    "h": 0.75,
+    "shape": "racetrack"
+  },
+  "distinction": "Capsule top bridges two crossed-leg frames.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted"
+  },
+  "sha256": "880164ec649efe19f0b4ad54f7c19cedf2be9bb92061e5dd3c1f17507d9b9392",
+  "bytes": 20228,
+  "triangles": 428,
+  "vertices": 552,
+  "drawPrimitives": 2,
+  "bounds": {
+    "min": [
+      -0.824999988079071,
+      -1.6504646316306548e-08,
+      -0.4399999976158142
+    ],
+    "max": [
+      0.824999988079071,
+      0.7741803023964167,
+      0.4399999976158142
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 1.649999976158142,
+    "depth": 0.8799999952316284,
+    "height": 0.774180318901063
+  },
+  "footprint": [
+    [
+      -0.824999988079071,
+      -0.4399999976158142
+    ],
+    [
+      0.824999988079071,
+      -0.4399999976158142
+    ],
+    [
+      0.824999988079071,
+      0.4399999976158142
+    ],
+    [
+      -0.824999988079071,
+      0.4399999976158142
+    ]
+  ],
+  "variantSlots": [
+    "metal",
+    "wood"
+  ],
+  "requiredExtensions": [],
+  "version": "0.2.0",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.racetrack-cross-dining",
+  "file": "assets/v0.2.0/racetrack-cross-dining.glb",
+  "sourceModel": "sources/v0.2.0/racetrack-cross-dining.blend",
+  "thumbnail": "previews/v0.2.0/racetrack-cross-dining.png",
+  "backThumbnail": "previews/v0.2.0/racetrack-cross-dining-back.png",
+  "category": "tables",
+  "subtype": "cross",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "textures": {
+    "count": 0,
+    "bytes": 0
+  },
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.2.0/racetrack-cross-dining.png",
+      "previews/v0.2.0/racetrack-cross-dining-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.66,
+      0.53,
+      0.34
+    ],
+    [
+      0.36,
+      0.53,
+      0.58
+    ],
+    [
+      0.64,
+      0.6,
+      0.48
+    ]
+  ],
+  "colourTags": [
+    "mist blue",
+    "sand",
+    "pale oak"
+  ],
+  "materials": [
+    "metal",
+    "wood"
+  ],
+  "searchAliases": [
+    "dining",
+    "cross"
+  ],
+  "materialSlots": [
+    {
+      "id": "metal",
+      "material": "metal",
+      "recolourable": true
+    },
+    {
+      "id": "wood",
+      "material": "wood",
+      "recolourable": true
+    }
+  ],
+  "geometryHash": "a6701d13ce6c3a14a6fc70552356bb641225c5cce0bd68abd14066c26dbeb77b",
+  "normalizedMirrorGeometryHash": "2abbb4acfeffeb153557a62f26e90d8f559d35fbac9e8a85be5b7cc87fdade55"
+}

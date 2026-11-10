@@ -1,0 +1,157 @@
+{
+  "designId": "ois.design.hall-apothecary-chest",
+  "familyId": "ois.family.jewellery-bureau",
+  "id": "ois.design.hall-apothecary-chest",
+  "name": "Hall apothecary chest",
+  "roomTags": [
+    "entry-hall"
+  ],
+  "theme": "walnut-form",
+  "builder": "case",
+  "parameters": {
+    "form": "drawers",
+    "w": 1.0,
+    "d": 0.32,
+    "h": 0.82,
+    "rows": 3,
+    "cols": 4
+  },
+  "distinction": "Twelve small drawers in four columns distinguish the hallway key chest.",
+  "stage": "validated-candidate",
+  "countEligible": false,
+  "variants": [],
+  "variantOf": "ois.design.jewellery-bureau",
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted"
+  },
+  "constructionKey": "case|drawers|{\"base\": \"taper\", \"cols\": \"multiple\", \"doors\": 2, \"drawersTop\": false, \"front\": \"slab\", \"rows\": \"stack\"}",
+  "countExclusion": "same construction; dimension/material configuration retained as a variant",
+  "sha256": "5feaee01af2cb02bd05bcc4ce2fdf8b07086d3acd053736e93bbbfd9a7bebcc8",
+  "bytes": 191428,
+  "triangles": 4156,
+  "vertices": 5123,
+  "drawPrimitives": 2,
+  "bounds": {
+    "min": [
+      -0.5000000573667566,
+      1.2177066577301332e-09,
+      -0.21599999349564314
+    ],
+    "max": [
+      0.5000001025487866,
+      0.811982152508439,
+      0.16000005816066953
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 1.000000159915543,
+    "depth": 0.3760000516563127,
+    "height": 0.8119821512907324
+  },
+  "footprint": [
+    [
+      -0.5000000573667566,
+      -0.21599999349564314
+    ],
+    [
+      0.5000001025487866,
+      -0.21599999349564314
+    ],
+    [
+      0.5000001025487866,
+      0.16000005816066953
+    ],
+    [
+      -0.5000000573667566,
+      0.16000005816066953
+    ]
+  ],
+  "variantSlots": [
+    "metal",
+    "wood"
+  ],
+  "requiredExtensions": [],
+  "version": "0.2.0",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.jewellery-bureau",
+  "file": "assets/v0.2.0/hall-apothecary-chest.glb",
+  "sourceModel": "sources/v0.2.0/hall-apothecary-chest.blend",
+  "thumbnail": "previews/v0.2.0/hall-apothecary-chest.png",
+  "backThumbnail": "previews/v0.2.0/hall-apothecary-chest-back.png",
+  "category": "storage",
+  "subtype": "drawers",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "textures": {
+    "count": 0,
+    "bytes": 0
+  },
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.2.0/hall-apothecary-chest.png",
+      "previews/v0.2.0/hall-apothecary-chest-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.22,
+      0.09,
+      0.038
+    ],
+    [
+      0.39,
+      0.18,
+      0.07
+    ],
+    [
+      0.47,
+      0.3,
+      0.1
+    ]
+  ],
+  "colourTags": [
+    "walnut",
+    "tobacco",
+    "brass"
+  ],
+  "materials": [
+    "metal",
+    "wood"
+  ],
+  "searchAliases": [
+    "entry hall",
+    "drawers"
+  ],
+  "materialSlots": [
+    {
+      "id": "metal",
+      "material": "metal",
+      "recolourable": true
+    },
+    {
+      "id": "wood",
+      "material": "wood",
+      "recolourable": true
+    }
+  ]
+}

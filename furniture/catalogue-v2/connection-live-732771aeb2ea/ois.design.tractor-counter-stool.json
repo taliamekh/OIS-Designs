@@ -1,0 +1,65 @@
+{
+  "id": "ois.design.tractor-counter-stool",
+  "sha256": "unexported-source-732771aeb2eadd33599208170e38ff4e50d68878cbfb6795c9473e6f8553f36b",
+  "sourceModel": null,
+  "sourceSha256": "732771aeb2eadd33599208170e38ff4e50d68878cbfb6795c9473e6f8553f36b",
+  "partCount": 6,
+  "componentCount": 1,
+  "components": [
+    {
+      "parts": [
+        "leg",
+        "leg.001",
+        "leg.002",
+        "leg.003",
+        "saddle underpan",
+        "carved saddle"
+      ],
+      "minimum": [
+        -0.22499999403953552,
+        -0.1850000023841858,
+        0.01174921914935112
+      ],
+      "maximum": [
+        0.22499999403953552,
+        0.1850000023841858,
+        0.721520185470581
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "saddle underpan",
+      "b": "leg",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "saddle underpan",
+      "b": "leg.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "saddle underpan",
+      "b": "leg.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "saddle underpan",
+      "b": "leg.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "carved saddle",
+      "b": "saddle underpan",
+      "method": "triangle intersection",
+      "distance": 0
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; live-source reports are NOT exported-asset evidence; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T03:28:05Z"
+}

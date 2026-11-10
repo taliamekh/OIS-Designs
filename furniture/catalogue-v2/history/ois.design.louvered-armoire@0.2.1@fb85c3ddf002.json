@@ -1,0 +1,158 @@
+{
+  "designId": "ois.design.louvered-armoire",
+  "familyId": "ois.family.louvered-armoire",
+  "id": "ois.design.louvered-armoire",
+  "name": "Louvered armoire",
+  "roomTags": [
+    "bedroom"
+  ],
+  "theme": "coastal-linen",
+  "builder": "case",
+  "parameters": {
+    "form": "wardrobe",
+    "front": "louvre",
+    "w": 1.26,
+    "d": 0.58,
+    "h": 1.88
+  },
+  "distinction": "Ventilated overlapping louvres distinguish the full-height doors.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted",
+    "sourceSnapshot": "sources/pipeline-e797cb5c88af56f5.py",
+    "sourceSha256": "e797cb5c88af56f5b4455d819a512ab9be55f40e1fa2d0cb542aca7bb84b906f",
+    "parametersFile": "sources/v0.2.1/louvered-armoire.parameters.json"
+  },
+  "constructionKey": "case|wardrobe|{\"base\": \"taper\", \"cols\": 1, \"drawersTop\": false, \"front\": \"louvre\", \"rows\": 4}",
+  "sha256": "fb85c3ddf002b2e7cff3bfd91420ea2d2076809df7796687c5dfec0d9b11a797",
+  "bytes": 617284,
+  "triangles": 12452,
+  "vertices": 16871,
+  "drawPrimitives": 2,
+  "bounds": {
+    "min": [
+      -0.6300000305845237,
+      -3.007417759270936e-09,
+      -0.346000005573929
+    ],
+    "max": [
+      0.6300000963189272,
+      1.8733570174170524,
+      0.29000003663473295
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 1.2600001269034509,
+    "depth": 0.636000042208662,
+    "height": 1.87335702042447
+  },
+  "footprint": [
+    [
+      -0.6300000305845237,
+      -0.346000005573929
+    ],
+    [
+      0.6300000963189272,
+      -0.346000005573929
+    ],
+    [
+      0.6300000963189272,
+      0.29000003663473295
+    ],
+    [
+      -0.6300000305845237,
+      0.29000003663473295
+    ]
+  ],
+  "variantSlots": [
+    "metal",
+    "wood"
+  ],
+  "requiredExtensions": [],
+  "version": "0.2.1",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.louvered-armoire",
+  "file": "assets/v0.2.1/louvered-armoire.glb",
+  "sourceModel": "sources/v0.2.1/louvered-armoire.blend",
+  "thumbnail": "previews/v0.2.1/louvered-armoire.png",
+  "backThumbnail": "previews/v0.2.1/louvered-armoire-back.png",
+  "category": "storage",
+  "subtype": "wardrobe",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "textures": {
+    "count": 0,
+    "bytes": 0
+  },
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.2.1/louvered-armoire.png",
+      "previews/v0.2.1/louvered-armoire-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.66,
+      0.53,
+      0.34
+    ],
+    [
+      0.36,
+      0.53,
+      0.58
+    ],
+    [
+      0.64,
+      0.6,
+      0.48
+    ]
+  ],
+  "colourTags": [
+    "mist blue",
+    "sand",
+    "pale oak"
+  ],
+  "materials": [
+    "metal",
+    "wood"
+  ],
+  "searchAliases": [
+    "bedroom",
+    "wardrobe"
+  ],
+  "materialSlots": [
+    {
+      "id": "metal",
+      "material": "metal",
+      "recolourable": true
+    },
+    {
+      "id": "wood",
+      "material": "wood",
+      "recolourable": true
+    }
+  ]
+}

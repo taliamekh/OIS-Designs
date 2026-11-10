@@ -1,0 +1,53 @@
+{
+  "checkedAtUtc": "2026-11-10T02:37:26.023Z",
+  "before": {
+    "src/domain/persistence.ts": "ac166d419b677611c1b32d17fa0ddb9021d20f19cf3614fbd0e39719681e50ee",
+    "src/storage/fileStore.ts": "062c092688a76048828b94a81d3f4145cfd44722bfd62533e4c4c8dd23afad5e"
+  },
+  "after": {
+    "src/domain/persistence.ts": "ac166d419b677611c1b32d17fa0ddb9021d20f19cf3614fbd0e39719681e50ee",
+    "src/storage/fileStore.ts": "062c092688a76048828b94a81d3f4145cfd44722bfd62533e4c4c8dd23afad5e"
+  },
+  "stableSource": true,
+  "rows": [
+    {
+      "kind": "missing-primary",
+      "openedBackup": true,
+      "editingProtected": true,
+      "recoveryError": null,
+      "afterError": null,
+      "reopenedName": "verified backup",
+      "reopenedProtected": false,
+      "originalReadableBytesPreserved": true,
+      "pointerAfter": "payload-mwa2xv9i-7mztd8o.json",
+      "originalPointer": "payload-mwa2xv9h-eiyuyl5.json",
+      "payloadFiles": [
+        "payload-mwa2xv9h-q892cue.json",
+        "payload-mwa2xv9i-p1uw7i1.json",
+        "payload-mwa2xv9i-7mztd8o.json"
+      ],
+      "pass": true
+    },
+    {
+      "kind": "unreadable-primary",
+      "openedBackup": true,
+      "editingProtected": true,
+      "recoveryError": null,
+      "afterError": null,
+      "reopenedName": "verified backup",
+      "reopenedProtected": false,
+      "originalReadableBytesPreserved": true,
+      "pointerAfter": "payload-mwa2xv9j-rj2ma2p.json",
+      "originalPointer": "payload-mwa2xv9i-d4on10h.json",
+      "payloadFiles": [
+        "payload-mwa2xv9i-g550tvy.json",
+        "payload-mwa2xv9i-d4on10h.json",
+        "payload-mwa2xv9j-d4k8vqo.json",
+        "payload-mwa2xv9j-rj2ma2p.json"
+      ],
+      "pass": true
+    }
+  ],
+  "limits": "Production recovery/file-store logic with synthetic Map payloads and explicitly injected missing/read errors; not native filesystem/device failure or user data.",
+  "pass": true
+}

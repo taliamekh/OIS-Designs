@@ -1,0 +1,77 @@
+{
+  "id": "ois.design.tilted-instrument-board",
+  "sha256": "unexported-source-6226f7a5305865fd189dfcec35a3077205588e7999488a17cff703d94c6b1b9f",
+  "sourceModel": null,
+  "sourceSha256": "6226f7a5305865fd189dfcec35a3077205588e7999488a17cff703d94c6b1b9f",
+  "partCount": 6,
+  "componentCount": 1,
+  "components": [
+    {
+      "parts": [
+        "tilting drafting top",
+        "crossed drafting support",
+        "crossed drafting support.001",
+        "crossed drafting support.002",
+        "crossed drafting support.003",
+        "instrument ledge"
+      ],
+      "minimum": [
+        -0.6000000238418579,
+        -0.3341182768344879,
+        -0.020228615030646324
+      ],
+      "maximum": [
+        0.6000000238418579,
+        0.3369999825954437,
+        1.0887727737426758
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "crossed drafting support",
+      "b": "tilting drafting top",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "crossed drafting support.001",
+      "b": "tilting drafting top",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "crossed drafting support.001",
+      "b": "crossed drafting support",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "crossed drafting support.002",
+      "b": "tilting drafting top",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "crossed drafting support.003",
+      "b": "tilting drafting top",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "crossed drafting support.003",
+      "b": "crossed drafting support.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "instrument ledge",
+      "b": "tilting drafting top",
+      "method": "triangle intersection",
+      "distance": 0
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; live-source reports are NOT exported-asset evidence; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T03:36:31Z"
+}

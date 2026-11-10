@@ -1,0 +1,96 @@
+{
+  "id": "ois.design.drafting-frame-table",
+  "sha256": "4680b3715da4403299f084310156306ac7754211493bfb6ec88fb294ef53e27a",
+  "sourceModel": "sources/v0.5.0/drafting-frame-table.blend",
+  "sourceSha256": "fb832d4d8bbecabc605f488ed37818fec7f6a6f41c8b6581e574d34ecbe3a5d7",
+  "partCount": 7,
+  "componentCount": 4,
+  "components": [
+    {
+      "parts": [
+        "top",
+        "angle adjuster"
+      ],
+      "minimum": [
+        -0.6499999761581421,
+        -0.3194156289100647,
+        0.3771393299102783
+      ],
+      "maximum": [
+        0.6499999761581421,
+        0.3194156289100647,
+        0.9943655729293823
+      ]
+    },
+    {
+      "parts": [
+        "trestle",
+        "trestle.001"
+      ],
+      "minimum": [
+        -0.4460000693798065,
+        -0.28867340087890625,
+        -1.210719347000122e-08
+      ],
+      "maximum": [
+        -0.3859999477863312,
+        0.2886733114719391,
+        0.862645149230957
+      ]
+    },
+    {
+      "parts": [
+        "trestle.002",
+        "trestle.003"
+      ],
+      "minimum": [
+        0.3859999477863312,
+        -0.28867340087890625,
+        -1.210719347000122e-08
+      ],
+      "maximum": [
+        0.4460000693798065,
+        0.2886733114719391,
+        0.862645149230957
+      ]
+    },
+    {
+      "parts": [
+        "stretcher"
+      ],
+      "minimum": [
+        -0.41600000858306885,
+        -0.025000018998980522,
+        0.21982258558273315
+      ],
+      "maximum": [
+        0.41600000858306885,
+        0.025000018998980522,
+        0.2698226273059845
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "trestle.001",
+      "b": "trestle",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "trestle.003",
+      "b": "trestle.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "angle adjuster",
+      "b": "top",
+      "method": "triangle intersection",
+      "distance": 0
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T03:07:31Z"
+}

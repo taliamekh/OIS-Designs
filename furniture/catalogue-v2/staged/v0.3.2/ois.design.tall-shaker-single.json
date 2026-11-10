@@ -1,0 +1,222 @@
+{
+  "designId": "ois.design.tall-shaker-single",
+  "familyId": "ois.family.shaker-three-door-console",
+  "id": "ois.design.tall-shaker-single",
+  "name": "Single shaker cupboard",
+  "roomTags": [
+    "storage"
+  ],
+  "theme": "calm-oak",
+  "builder": "case",
+  "parameters": {
+    "form": "doors",
+    "front": "shaker",
+    "w": 0.6,
+    "h": 1.65,
+    "doors": 1
+  },
+  "distinction": "Single tall recessed-panel door, not split hanging wardrobe.",
+  "stage": "validated-candidate",
+  "countEligible": false,
+  "variants": [],
+  "variantOf": "ois.design.shaker-three-door-console",
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted",
+    "sourceSnapshot": "sources/pipeline-55642edf77b9875f.py",
+    "sourceSha256": "55642edf77b9875ff9620f3041b9999cee7807ac9d8ce9f01f78fdfc4bbc513f",
+    "parametersFile": "sources/v0.3.2/tall-shaker-single.parameters.json"
+  },
+  "constructionKey": "case|doors|{\"base\": \"taper\", \"drawersTop\": false, \"front\": \"shaker\"}",
+  "countExclusion": "same construction; dimension/material configuration retained as a variant",
+  "sha256": "141c99019c1981475ae270f759e6a845518edef562f009589ae17f7935be5eab",
+  "bytes": 531168,
+  "triangles": 2556,
+  "vertices": 7031,
+  "drawPrimitives": 2,
+  "bounds": {
+    "min": [
+      -0.3000001326366144,
+      -3.1556489366035834e-09,
+      -0.25600000005215406
+    ],
+    "max": [
+      0.3000001434293902,
+      1.6404977161832708,
+      0.20000007133036174
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 0.6000002760660046,
+    "depth": 0.4560000713825158,
+    "height": 1.6404977193389196
+  },
+  "footprint": [
+    [
+      -0.3000001326366144,
+      -0.25600000005215406
+    ],
+    [
+      0.3000001434293902,
+      -0.25600000005215406
+    ],
+    [
+      0.3000001434293902,
+      0.20000007133036174
+    ],
+    [
+      -0.3000001326366144,
+      0.20000007133036174
+    ]
+  ],
+  "variantSlots": [
+    "metal",
+    "wood"
+  ],
+  "requiredExtensions": [],
+  "textures": {
+    "count": 3,
+    "bytes": 174784,
+    "estimatedRgbaBytesWithMipmaps": 1048576,
+    "images": [
+      {
+        "name": "wood-normal",
+        "bytes": 102088,
+        "width": 256,
+        "height": 256,
+        "sha256": "6b8efcb5004552d884a527017922bfb5260b8bda4dc77f1365fe1cb8a09f1d56"
+      },
+      {
+        "name": "wood-neutral-base",
+        "bytes": 39353,
+        "width": 256,
+        "height": 256,
+        "sha256": "ddcf839a2addae78944a2d7a0588f9c2055852fc4ccb4e2dae2095d28541de44"
+      },
+      {
+        "name": "wood-roughness",
+        "bytes": 33343,
+        "width": 256,
+        "height": 256,
+        "sha256": "afc2180e58360e76fb178b52f225f7ba9045a7d0d266f10886763b0590335a1a"
+      }
+    ]
+  },
+  "version": "0.3.2",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.shaker-three-door-console",
+  "file": "assets/v0.3.2/tall-shaker-single.glb",
+  "sourceModel": "sources/v0.3.2/tall-shaker-single.blend",
+  "thumbnail": "previews/v0.3.2/tall-shaker-single.png",
+  "backThumbnail": "previews/v0.3.2/tall-shaker-single-back.png",
+  "category": "storage",
+  "subtype": "doors",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.3.2/tall-shaker-single.png",
+      "previews/v0.3.2/tall-shaker-single-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.11999999731779099,
+      0.14000000059604645,
+      0.12999999523162842
+    ],
+    [
+      0.5799999833106995,
+      0.38999998569488525,
+      0.20000000298023224
+    ]
+  ],
+  "colourTags": [
+    "dark grey",
+    "pale oak"
+  ],
+  "materials": [
+    "metal",
+    "wood"
+  ],
+  "searchAliases": [
+    "storage",
+    "doors"
+  ],
+  "materialSlots": [
+    {
+      "id": "metal",
+      "material": "metal",
+      "recolourable": true
+    },
+    {
+      "id": "wood",
+      "material": "wood",
+      "recolourable": true
+    }
+  ],
+  "supportChecks": {
+    "method": "source-part upper-end ray to non-leg geometry, 15mm join tolerance",
+    "status": "pass",
+    "parts": [
+      {
+        "part": "leg",
+        "gapMetresAlongSupport": 5.960464483090178e-09,
+        "status": "pass"
+      },
+      {
+        "part": "leg.001",
+        "gapMetresAlongSupport": 2.0861625676937834e-08,
+        "status": "pass"
+      },
+      {
+        "part": "leg.002",
+        "gapMetresAlongSupport": -8.940696710757479e-09,
+        "status": "pass"
+      },
+      {
+        "part": "leg.003",
+        "gapMetresAlongSupport": 2.0861625676937834e-08,
+        "status": "pass"
+      }
+    ],
+    "limitation": "screening only; hidden joints, whole-model connectivity, load paths and safety remain visual/product-review concerns"
+  },
+  "materialFinish": {
+    "source": "materials/v1/manifest.json",
+    "repeatMetres": {
+      "wood": [
+        0.16,
+        0.75
+      ],
+      "fabric": [
+        0.14,
+        0.14
+      ],
+      "linen": [
+        0.12,
+        0.12
+      ]
+    },
+    "maps": "original base colour / roughness / tangent normal, embedded in GLB"
+  }
+}

@@ -1,0 +1,136 @@
+{
+  "id": "ois.design.paper-rib-floor",
+  "sha256": "unexported-source-a6a97ed1ff18ea7190f4c07e8ea17b6dba901563a653d7aed874183539ef16c1",
+  "sourceModel": null,
+  "sourceSha256": "a6a97ed1ff18ea7190f4c07e8ea17b6dba901563a653d7aed874183539ef16c1",
+  "partCount": 15,
+  "componentCount": 2,
+  "components": [
+    {
+      "parts": [
+        "paper lantern",
+        "paper ribs",
+        "paper ribs.001",
+        "paper ribs.002",
+        "paper ribs.003",
+        "paper ribs.004",
+        "paper ribs.005",
+        "paper ribs.006",
+        "paper ribs.007",
+        "paper ribs.008",
+        "paper ribs.009",
+        "paper ribs.010",
+        "paper ribs.011"
+      ],
+      "minimum": [
+        -0.24380259215831757,
+        -0.24380259215831757,
+        1.0
+      ],
+      "maximum": [
+        0.24380259215831757,
+        0.24380259215831757,
+        1.5
+      ]
+    },
+    {
+      "parts": [
+        "weighted base",
+        "stem"
+      ],
+      "minimum": [
+        -0.1899999976158142,
+        -0.1899999976158142,
+        0.0
+      ],
+      "maximum": [
+        0.1899999976158142,
+        0.1899999976158142,
+        1.350000023841858
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "stem",
+      "b": "weighted base",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "paper ribs",
+      "b": "paper lantern",
+      "method": "surface distance",
+      "distance": 0.0027984417974948883
+    },
+    {
+      "a": "paper ribs.001",
+      "b": "paper lantern",
+      "method": "surface distance",
+      "distance": 0.0016829228261485696
+    },
+    {
+      "a": "paper ribs.002",
+      "b": "paper lantern",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "paper ribs.003",
+      "b": "paper lantern",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "paper ribs.004",
+      "b": "paper lantern",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "paper ribs.005",
+      "b": "paper lantern",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "paper ribs.006",
+      "b": "paper lantern",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "paper ribs.007",
+      "b": "paper lantern",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "paper ribs.008",
+      "b": "paper lantern",
+      "method": "surface distance",
+      "distance": 0.003251286456361413
+    },
+    {
+      "a": "paper ribs.009",
+      "b": "paper lantern",
+      "method": "point containment",
+      "distance": 0
+    },
+    {
+      "a": "paper ribs.010",
+      "b": "paper lantern",
+      "method": "point containment",
+      "distance": 0
+    },
+    {
+      "a": "paper ribs.011",
+      "b": "paper lantern",
+      "method": "point containment",
+      "distance": 0
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; live-source reports are NOT exported-asset evidence; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T03:19:57Z"
+}

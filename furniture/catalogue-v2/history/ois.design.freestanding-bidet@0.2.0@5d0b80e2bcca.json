@@ -1,0 +1,153 @@
+{
+  "designId": "ois.design.freestanding-bidet",
+  "familyId": "ois.family.freestanding-bidet",
+  "id": "ois.design.freestanding-bidet",
+  "name": "Freestanding bidet",
+  "roomTags": [
+    "bathroom"
+  ],
+  "theme": "soft-japandi",
+  "builder": "bath",
+  "parameters": {
+    "form": "bidet"
+  },
+  "distinction": "Open wash bowl and individual faucet with no seat/cistern.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted"
+  },
+  "constructionKey": "bath|bidet|{}",
+  "sha256": "5d0b80e2bccae532528a345b9c74692c774e4edfdd01a89a67a6028dc15705a4",
+  "bytes": 25508,
+  "triangles": 1096,
+  "vertices": 666,
+  "drawPrimitives": 2,
+  "bounds": {
+    "min": [
+      -0.2199999988079071,
+      0.0,
+      -0.3125
+    ],
+    "max": [
+      0.2199999988079071,
+      0.5816279053688049,
+      0.3125
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 0.4399999976158142,
+    "depth": 0.625,
+    "height": 0.5816279053688049
+  },
+  "footprint": [
+    [
+      -0.2199999988079071,
+      -0.3125
+    ],
+    [
+      0.2199999988079071,
+      -0.3125
+    ],
+    [
+      0.2199999988079071,
+      0.3125
+    ],
+    [
+      -0.2199999988079071,
+      0.3125
+    ]
+  ],
+  "variantSlots": [
+    "ceramic",
+    "metal"
+  ],
+  "requiredExtensions": [],
+  "version": "0.2.0",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.freestanding-bidet",
+  "file": "assets/v0.2.0/freestanding-bidet.glb",
+  "sourceModel": "sources/v0.2.0/freestanding-bidet.blend",
+  "thumbnail": "previews/v0.2.0/freestanding-bidet.png",
+  "backThumbnail": "previews/v0.2.0/freestanding-bidet-back.png",
+  "category": "bathroom-fixtures",
+  "subtype": "bidet",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "textures": {
+    "count": 0,
+    "bytes": 0
+  },
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.2.0/freestanding-bidet.png",
+      "previews/v0.2.0/freestanding-bidet-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.34,
+      0.28,
+      0.19
+    ],
+    [
+      0.58,
+      0.54,
+      0.44
+    ],
+    [
+      0.15,
+      0.17,
+      0.15
+    ]
+  ],
+  "colourTags": [
+    "ash",
+    "flax",
+    "stone"
+  ],
+  "materials": [
+    "ceramic",
+    "metal"
+  ],
+  "searchAliases": [
+    "bathroom",
+    "bidet"
+  ],
+  "materialSlots": [
+    {
+      "id": "ceramic",
+      "material": "ceramic",
+      "recolourable": true
+    },
+    {
+      "id": "metal",
+      "material": "metal",
+      "recolourable": true
+    }
+  ],
+  "geometryHash": "077fb01d320874cfce28290fb68255c25cb1aa4d1c0e04a95517afa6743013c8",
+  "normalizedMirrorGeometryHash": "0add1f949fb2c2a3c1fbcef74ce56d127ded9746b7e3afb4cb916fc07f19a5fa"
+}

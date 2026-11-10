@@ -1,0 +1,161 @@
+{
+  "designId": "ois.design.camelback-sofa",
+  "familyId": "ois.family.camelback-sofa",
+  "id": "ois.design.camelback-sofa",
+  "name": "Camelback sofa",
+  "roomTags": [
+    "living"
+  ],
+  "theme": "walnut-form",
+  "builder": "seating",
+  "parameters": {
+    "form": "camelback",
+    "w": 2.08
+  },
+  "distinction": "Back height follows a raised central camelback profile.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted",
+    "sourceSnapshot": "sources/pipeline-b3621415215e45c7.py",
+    "sourceSha256": "b3621415215e45c7b5194102a3db7926d719026fb1f967ab518c02160232143f",
+    "parametersFile": "sources/v0.2.1/camelback-sofa.parameters.json"
+  },
+  "constructionKey": "seating|camelback|{\"base\": \"taper\"}",
+  "sha256": "e6021f5eb36da32c85de507de5294c633a0546b0e84cc419004ebdef127e7ed0",
+  "bytes": 131976,
+  "triangles": 2496,
+  "vertices": 3541,
+  "drawPrimitives": 3,
+  "bounds": {
+    "min": [
+      -1.0496334989532652,
+      -6.210126457517617e-08,
+      -0.4262716583975279
+    ],
+    "max": [
+      1.0496337732485714,
+      0.9559553414583206,
+      0.42963194847106934
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 2.0992672722018364,
+    "depth": 0.8559036068685972,
+    "height": 0.9559554035595852
+  },
+  "footprint": [
+    [
+      -1.0496334989532652,
+      -0.4262716583975279
+    ],
+    [
+      1.0496337732485714,
+      -0.4262716583975279
+    ],
+    [
+      1.0496337732485714,
+      0.42963194847106934
+    ],
+    [
+      -1.0496334989532652,
+      0.42963194847106934
+    ]
+  ],
+  "variantSlots": [
+    "fabric",
+    "linen",
+    "wood"
+  ],
+  "requiredExtensions": [],
+  "version": "0.2.1",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.camelback-sofa",
+  "file": "assets/v0.2.1/camelback-sofa.glb",
+  "sourceModel": "sources/v0.2.1/camelback-sofa.blend",
+  "thumbnail": "previews/v0.2.1/camelback-sofa.png",
+  "backThumbnail": "previews/v0.2.1/camelback-sofa-back.png",
+  "category": "seating",
+  "subtype": "camelback",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "textures": {
+    "count": 0,
+    "bytes": 0
+  },
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.2.1/camelback-sofa.png",
+      "previews/v0.2.1/camelback-sofa-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.22,
+      0.09,
+      0.038
+    ],
+    [
+      0.39,
+      0.18,
+      0.07
+    ],
+    [
+      0.47,
+      0.3,
+      0.1
+    ]
+  ],
+  "colourTags": [
+    "walnut",
+    "tobacco",
+    "brass"
+  ],
+  "materials": [
+    "textile",
+    "wood"
+  ],
+  "searchAliases": [
+    "living",
+    "camelback"
+  ],
+  "materialSlots": [
+    {
+      "id": "fabric",
+      "material": "fabric",
+      "recolourable": true
+    },
+    {
+      "id": "linen",
+      "material": "linen",
+      "recolourable": true
+    },
+    {
+      "id": "wood",
+      "material": "wood",
+      "recolourable": true
+    }
+  ]
+}

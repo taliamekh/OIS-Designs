@@ -1,0 +1,44 @@
+{
+  "id": "ois.design.cantilever-c-table",
+  "sha256": "unexported-source-5d895d48596d1904d58f6d46821e68930ff8026c89e330f0004ff02f8ca332ff",
+  "sourceModel": null,
+  "sourceSha256": "5d895d48596d1904d58f6d46821e68930ff8026c89e330f0004ff02f8ca332ff",
+  "partCount": 3,
+  "componentCount": 1,
+  "components": [
+    {
+      "parts": [
+        "top",
+        "base plate",
+        "offset column"
+      ],
+      "minimum": [
+        -0.32499998807907104,
+        -0.22499999403953552,
+        0.0
+      ],
+      "maximum": [
+        0.32499998807907104,
+        0.22499999403953552,
+        0.5399999618530273
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "offset column",
+      "b": "top",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "offset column",
+      "b": "base plate",
+      "method": "triangle intersection",
+      "distance": 0
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; live-source reports are NOT exported-asset evidence; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T03:14:59Z"
+}

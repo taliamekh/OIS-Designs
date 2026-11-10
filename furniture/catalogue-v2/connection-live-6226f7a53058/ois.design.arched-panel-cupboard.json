@@ -1,0 +1,299 @@
+{
+  "id": "ois.design.arched-panel-cupboard",
+  "sha256": "unexported-source-6226f7a5305865fd189dfcec35a3077205588e7999488a17cff703d94c6b1b9f",
+  "sourceModel": null,
+  "sourceSha256": "6226f7a5305865fd189dfcec35a3077205588e7999488a17cff703d94c6b1b9f",
+  "partCount": 18,
+  "componentCount": 1,
+  "components": [
+    {
+      "parts": [
+        "arch side",
+        "arch side.001",
+        "arched crown",
+        "arch spring joint",
+        "arch spring joint.001",
+        "arch shelf",
+        "arch shelf.001",
+        "arch shelf.002",
+        "lower door stile",
+        "lower door stile.001",
+        "lower door rail",
+        "lower door rail.001",
+        "recessed panel",
+        "lower door stile.002",
+        "lower door stile.003",
+        "lower door rail.002",
+        "lower door rail.003",
+        "recessed panel.001"
+      ],
+      "minimum": [
+        -0.5,
+        -0.20999999344348907,
+        0.0
+      ],
+      "maximum": [
+        0.5,
+        0.24249999225139618,
+        1.850000023841858
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "arched crown",
+      "b": "arch side",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "arched crown",
+      "b": "arch side.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "arch spring joint",
+      "b": "arch side",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "arch spring joint",
+      "b": "arched crown",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "arch spring joint.001",
+      "b": "arch side.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "arch spring joint.001",
+      "b": "arched crown",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "arch shelf",
+      "b": "arch side",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "arch shelf",
+      "b": "arch side.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "arch shelf.001",
+      "b": "arch side",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "arch shelf.001",
+      "b": "arch side.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "arch shelf.002",
+      "b": "arch side",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "arch shelf.002",
+      "b": "arch side.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "lower door stile",
+      "b": "arch side",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "lower door stile",
+      "b": "arch shelf",
+      "method": "surface distance",
+      "distance": 0.0024748945143073797
+    },
+    {
+      "a": "lower door stile",
+      "b": "arch shelf.001",
+      "method": "surface distance",
+      "distance": 0.002474862849339843
+    },
+    {
+      "a": "lower door stile.001",
+      "b": "arch shelf",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "lower door stile.001",
+      "b": "arch shelf.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "lower door rail",
+      "b": "arch shelf",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "lower door rail",
+      "b": "lower door stile",
+      "method": "surface distance",
+      "distance": 2.9802322387695312e-08
+    },
+    {
+      "a": "lower door rail",
+      "b": "lower door stile.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "lower door rail.001",
+      "b": "lower door stile",
+      "method": "surface distance",
+      "distance": 2.9802322387695312e-08
+    },
+    {
+      "a": "lower door rail.001",
+      "b": "lower door stile.001",
+      "method": "surface distance",
+      "distance": 3.725290298461914e-09
+    },
+    {
+      "a": "recessed panel",
+      "b": "arch shelf.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "recessed panel",
+      "b": "lower door stile",
+      "method": "surface distance",
+      "distance": 0.0034082788042724133
+    },
+    {
+      "a": "recessed panel",
+      "b": "lower door stile.001",
+      "method": "surface distance",
+      "distance": 0.0034082524944096804
+    },
+    {
+      "a": "recessed panel",
+      "b": "lower door rail",
+      "method": "surface distance",
+      "distance": 0.003423251211643219
+    },
+    {
+      "a": "recessed panel",
+      "b": "lower door rail.001",
+      "method": "surface distance",
+      "distance": 0.003423245856538415
+    },
+    {
+      "a": "lower door stile.002",
+      "b": "arch shelf",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "lower door stile.002",
+      "b": "arch shelf.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "lower door stile.003",
+      "b": "arch side.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "lower door stile.003",
+      "b": "arch shelf",
+      "method": "surface distance",
+      "distance": 0.002474862849339843
+    },
+    {
+      "a": "lower door stile.003",
+      "b": "arch shelf.001",
+      "method": "surface distance",
+      "distance": 0.002474862849339843
+    },
+    {
+      "a": "lower door rail.002",
+      "b": "arch shelf",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "lower door rail.002",
+      "b": "lower door stile.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "lower door rail.002",
+      "b": "lower door stile.003",
+      "method": "surface distance",
+      "distance": 2.9802322387695312e-08
+    },
+    {
+      "a": "lower door rail.003",
+      "b": "lower door stile.002",
+      "method": "surface distance",
+      "distance": 3.725290298461914e-09
+    },
+    {
+      "a": "lower door rail.003",
+      "b": "lower door stile.003",
+      "method": "surface distance",
+      "distance": 2.9802322387695312e-08
+    },
+    {
+      "a": "recessed panel.001",
+      "b": "arch shelf.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "recessed panel.001",
+      "b": "lower door stile.002",
+      "method": "surface distance",
+      "distance": 0.003408265532925725
+    },
+    {
+      "a": "recessed panel.001",
+      "b": "lower door stile.003",
+      "method": "surface distance",
+      "distance": 0.0034082576166838408
+    },
+    {
+      "a": "recessed panel.001",
+      "b": "lower door rail.002",
+      "method": "surface distance",
+      "distance": 0.0034232523757964373
+    },
+    {
+      "a": "recessed panel.001",
+      "b": "lower door rail.003",
+      "method": "surface distance",
+      "distance": 0.0034232470206916332
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; live-source reports are NOT exported-asset evidence; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T03:36:28Z"
+}

@@ -1,0 +1,124 @@
+{
+  "id": "ois.design.cheval-dressing-mirror",
+  "sha256": "eecbf728de1871a871b427fc77269176e7205994fc7bc08c76f4fbd6156df6b5",
+  "sourceModel": "sources/v0.7.0/cheval-dressing-mirror.blend",
+  "sourceSha256": "4f334b8a674894092ab77a76f2505d7bc91836300ce81f71667fcc7a3b5d0e38",
+  "partCount": 11,
+  "componentCount": 1,
+  "components": [
+    {
+      "parts": [
+        "mirror sled",
+        "mirror sled.001",
+        "mirror frame stile",
+        "mirror frame stile.001",
+        "mirror frame rail",
+        "mirror frame rail.001",
+        "glazed pane",
+        "mirror support",
+        "mirror pivot",
+        "mirror support.001",
+        "mirror pivot.001"
+      ],
+      "minimum": [
+        -0.36249998211860657,
+        -0.20999999344348907,
+        0.0
+      ],
+      "maximum": [
+        0.36249998211860657,
+        0.20999999344348907,
+        1.567500114440918
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "mirror frame rail",
+      "b": "mirror frame stile",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "mirror frame rail",
+      "b": "mirror frame stile.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "mirror frame rail.001",
+      "b": "mirror frame stile",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "mirror frame rail.001",
+      "b": "mirror frame stile.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "glazed pane",
+      "b": "mirror frame stile",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "glazed pane",
+      "b": "mirror frame stile.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "glazed pane",
+      "b": "mirror frame rail",
+      "method": "surface distance",
+      "distance": 0.0006667375564575195
+    },
+    {
+      "a": "glazed pane",
+      "b": "mirror frame rail.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "mirror support",
+      "b": "mirror sled",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "mirror pivot",
+      "b": "mirror frame stile",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "mirror pivot",
+      "b": "mirror support",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "mirror support.001",
+      "b": "mirror sled.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "mirror pivot.001",
+      "b": "mirror frame stile.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "mirror pivot.001",
+      "b": "mirror support.001",
+      "method": "triangle intersection",
+      "distance": 0
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; live-source reports are NOT exported-asset evidence; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T03:51:55Z"
+}

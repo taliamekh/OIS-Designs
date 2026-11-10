@@ -1,0 +1,148 @@
+{
+  "designId": "ois.design.mushroom-bedside",
+  "familyId": "ois.family.mushroom-bedside",
+  "id": "ois.design.mushroom-bedside",
+  "name": "Mushroom bedside lamp",
+  "roomTags": [
+    "bedroom"
+  ],
+  "theme": "walnut-form",
+  "builder": "light",
+  "parameters": {
+    "form": "mushroom",
+    "h": 0.48
+  },
+  "distinction": "Broad domed cap and slim central stem over a weighted base.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted",
+    "sourceSnapshot": "sources/pipeline-e797cb5c88af56f5.py",
+    "sourceSha256": "e797cb5c88af56f5b4455d819a512ab9be55f40e1fa2d0cb542aca7bb84b906f",
+    "parametersFile": "sources/v0.2.1/mushroom-bedside.parameters.json"
+  },
+  "constructionKey": "light|mushroom|{}",
+  "sha256": "6f2ed69a19fc88c1b54722ea73c18eed4d6a68a969512867c0239c2b5c553cd2",
+  "bytes": 18356,
+  "triangles": 568,
+  "vertices": 422,
+  "drawPrimitives": 1,
+  "bounds": {
+    "min": [
+      -0.23000000417232513,
+      -1.862645149230957e-09,
+      -0.23000000417232513
+    ],
+    "max": [
+      0.23000000417232513,
+      0.4799999874085188,
+      0.23000000417232513
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 0.46000000834465027,
+    "depth": 0.46000000834465027,
+    "height": 0.47999998927116394
+  },
+  "footprint": [
+    [
+      -0.23000000417232513,
+      -0.23000000417232513
+    ],
+    [
+      0.23000000417232513,
+      -0.23000000417232513
+    ],
+    [
+      0.23000000417232513,
+      0.23000000417232513
+    ],
+    [
+      -0.23000000417232513,
+      0.23000000417232513
+    ]
+  ],
+  "variantSlots": [
+    "metal"
+  ],
+  "requiredExtensions": [],
+  "version": "0.2.1",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.mushroom-bedside",
+  "file": "assets/v0.2.1/mushroom-bedside.glb",
+  "sourceModel": "sources/v0.2.1/mushroom-bedside.blend",
+  "thumbnail": "previews/v0.2.1/mushroom-bedside.png",
+  "backThumbnail": "previews/v0.2.1/mushroom-bedside-back.png",
+  "category": "lighting",
+  "subtype": "mushroom",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "textures": {
+    "count": 0,
+    "bytes": 0
+  },
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.2.1/mushroom-bedside.png",
+      "previews/v0.2.1/mushroom-bedside-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.22,
+      0.09,
+      0.038
+    ],
+    [
+      0.39,
+      0.18,
+      0.07
+    ],
+    [
+      0.47,
+      0.3,
+      0.1
+    ]
+  ],
+  "colourTags": [
+    "walnut",
+    "tobacco",
+    "brass"
+  ],
+  "materials": [
+    "metal"
+  ],
+  "searchAliases": [
+    "bedroom",
+    "mushroom"
+  ],
+  "materialSlots": [
+    {
+      "id": "metal",
+      "material": "metal",
+      "recolourable": true
+    }
+  ]
+}

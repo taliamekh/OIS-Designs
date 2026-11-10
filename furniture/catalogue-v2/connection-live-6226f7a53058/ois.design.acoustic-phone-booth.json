@@ -1,0 +1,122 @@
+{
+  "id": "ois.design.acoustic-phone-booth",
+  "sha256": "unexported-source-6226f7a5305865fd189dfcec35a3077205588e7999488a17cff703d94c6b1b9f",
+  "sourceModel": null,
+  "sourceSha256": "6226f7a5305865fd189dfcec35a3077205588e7999488a17cff703d94c6b1b9f",
+  "partCount": 9,
+  "componentCount": 1,
+  "components": [
+    {
+      "parts": [
+        "booth floor",
+        "booth back",
+        "booth side",
+        "booth side.001",
+        "booth roof",
+        "booth desk",
+        "booth seat",
+        "piping",
+        "booth bench pedestal"
+      ],
+      "minimum": [
+        -0.5600000023841858,
+        -0.5350000262260437,
+        0.0
+      ],
+      "maximum": [
+        0.5600000023841858,
+        0.5,
+        1.9850000143051147
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "booth back",
+      "b": "booth floor",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "booth side",
+      "b": "booth floor",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "booth side",
+      "b": "booth back",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "booth side.001",
+      "b": "booth floor",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "booth side.001",
+      "b": "booth back",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "booth roof",
+      "b": "booth back",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "booth roof",
+      "b": "booth side",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "booth roof",
+      "b": "booth side.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "booth desk",
+      "b": "booth side",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "booth desk",
+      "b": "booth side.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "piping",
+      "b": "booth seat",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "booth bench pedestal",
+      "b": "booth floor",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "booth bench pedestal",
+      "b": "booth seat",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "booth bench pedestal",
+      "b": "piping",
+      "method": "surface distance",
+      "distance": 0.0004999935626983643
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; live-source reports are NOT exported-asset evidence; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T03:36:32Z"
+}

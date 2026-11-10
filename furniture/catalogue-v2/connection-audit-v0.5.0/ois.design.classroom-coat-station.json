@@ -1,0 +1,220 @@
+{
+  "id": "ois.design.classroom-coat-station",
+  "sha256": "2d4baacb6eaf6723f749e1bd79b56725af9b6b50985f76bfd430ab1768f79682",
+  "sourceModel": "sources/v0.5.0/classroom-coat-station.blend",
+  "sourceSha256": "4eff95951c59332d1b7aafc04c3a7114ed92bd3b0e56158c228c8c4720f30235",
+  "partCount": 17,
+  "componentCount": 4,
+  "components": [
+    {
+      "parts": [
+        "recessed plinth",
+        "bottom",
+        "top",
+        "side",
+        "side.001",
+        "partition",
+        "partition.001",
+        "bench seat",
+        "full-height back",
+        "upper bay partition",
+        "upper bay partition.001",
+        "upper bay partition.002",
+        "upper bay partition.003",
+        "shared upper shelf"
+      ],
+      "minimum": [
+        -0.762499988079071,
+        -0.20999999344348907,
+        0.0
+      ],
+      "maximum": [
+        0.762499988079071,
+        0.20999999344348907,
+        1.3675000667572021
+      ]
+    },
+    {
+      "parts": [
+        "school coat hook"
+      ],
+      "minimum": [
+        -0.5090000033378601,
+        -0.17000000178813934,
+        1.031000018119812
+      ],
+      "maximum": [
+        -0.4909999966621399,
+        -0.031573034822940826,
+        1.1231601238250732
+      ]
+    },
+    {
+      "parts": [
+        "school coat hook.001"
+      ],
+      "minimum": [
+        -0.008999999612569809,
+        -0.17000000178813934,
+        1.031000018119812
+      ],
+      "maximum": [
+        0.008999999612569809,
+        -0.031573034822940826,
+        1.1231601238250732
+      ]
+    },
+    {
+      "parts": [
+        "school coat hook.002"
+      ],
+      "minimum": [
+        0.4909999966621399,
+        -0.17000000178813934,
+        1.031000018119812
+      ],
+      "maximum": [
+        0.5090000033378601,
+        -0.031573034822940826,
+        1.1231601238250732
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "bottom",
+      "b": "recessed plinth",
+      "method": "surface distance",
+      "distance": 1.862645149230957e-09
+    },
+    {
+      "a": "side",
+      "b": "bottom",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "side",
+      "b": "top",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "side.001",
+      "b": "bottom",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "side.001",
+      "b": "top",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "partition",
+      "b": "top",
+      "method": "surface distance",
+      "distance": 0.003999978303909302
+    },
+    {
+      "a": "partition.001",
+      "b": "top",
+      "method": "surface distance",
+      "distance": 0.003999978303909302
+    },
+    {
+      "a": "bench seat",
+      "b": "top",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "full-height back",
+      "b": "bench seat",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "upper bay partition",
+      "b": "bench seat",
+      "method": "surface distance",
+      "distance": 0.0009045915794558823
+    },
+    {
+      "a": "upper bay partition",
+      "b": "full-height back",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "upper bay partition.001",
+      "b": "bench seat",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "upper bay partition.001",
+      "b": "full-height back",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "upper bay partition.002",
+      "b": "bench seat",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "upper bay partition.002",
+      "b": "full-height back",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "upper bay partition.003",
+      "b": "bench seat",
+      "method": "surface distance",
+      "distance": 0.0009045935585163534
+    },
+    {
+      "a": "upper bay partition.003",
+      "b": "full-height back",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "shared upper shelf",
+      "b": "full-height back",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "shared upper shelf",
+      "b": "upper bay partition",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "shared upper shelf",
+      "b": "upper bay partition.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "shared upper shelf",
+      "b": "upper bay partition.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "shared upper shelf",
+      "b": "upper bay partition.003",
+      "method": "triangle intersection",
+      "distance": 0
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T03:07:31Z"
+}

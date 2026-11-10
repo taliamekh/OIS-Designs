@@ -1,0 +1,159 @@
+{
+  "designId": "ois.design.curved-seven-sofa",
+  "familyId": "ois.family.curved-seven-sofa",
+  "id": "ois.design.curved-seven-sofa",
+  "name": "Crescent modular sofa",
+  "roomTags": [
+    "living"
+  ],
+  "theme": "soft-japandi",
+  "builder": "seating",
+  "parameters": {
+    "form": "curved-sofa",
+    "w": 2.1
+  },
+  "distinction": "Seven radial modules form a concave seat/back silhouette.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted"
+  },
+  "sha256": "9e152504217591d3b8817a53f16cb4a3ce13a72908b6f3dff656285d5dd03767",
+  "bytes": 221748,
+  "triangles": 4376,
+  "vertices": 5998,
+  "drawPrimitives": 3,
+  "bounds": {
+    "min": [
+      -1.0724215507507324,
+      8.668780554499378e-10,
+      -0.42626860926846577
+    ],
+    "max": [
+      1.0724215507507324,
+      0.9147796928882599,
+      0.7024168968200684
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 2.144843101501465,
+    "depth": 1.1286855060885341,
+    "height": 0.9147796920213819
+  },
+  "footprint": [
+    [
+      -1.0724215507507324,
+      -0.42626860926846577
+    ],
+    [
+      1.0724215507507324,
+      -0.42626860926846577
+    ],
+    [
+      1.0724215507507324,
+      0.7024168968200684
+    ],
+    [
+      -1.0724215507507324,
+      0.7024168968200684
+    ]
+  ],
+  "variantSlots": [
+    "fabric",
+    "linen",
+    "wood"
+  ],
+  "requiredExtensions": [],
+  "version": "0.2.0",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.curved-seven-sofa",
+  "file": "assets/v0.2.0/curved-seven-sofa.glb",
+  "sourceModel": "sources/v0.2.0/curved-seven-sofa.blend",
+  "thumbnail": "previews/v0.2.0/curved-seven-sofa.png",
+  "backThumbnail": "previews/v0.2.0/curved-seven-sofa-back.png",
+  "category": "seating",
+  "subtype": "curved-sofa",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "textures": {
+    "count": 0,
+    "bytes": 0
+  },
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.2.0/curved-seven-sofa.png",
+      "previews/v0.2.0/curved-seven-sofa-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.34,
+      0.28,
+      0.19
+    ],
+    [
+      0.58,
+      0.54,
+      0.44
+    ],
+    [
+      0.15,
+      0.17,
+      0.15
+    ]
+  ],
+  "colourTags": [
+    "ash",
+    "flax",
+    "stone"
+  ],
+  "materials": [
+    "textile",
+    "wood"
+  ],
+  "searchAliases": [
+    "living",
+    "curved sofa"
+  ],
+  "materialSlots": [
+    {
+      "id": "fabric",
+      "material": "fabric",
+      "recolourable": true
+    },
+    {
+      "id": "linen",
+      "material": "linen",
+      "recolourable": true
+    },
+    {
+      "id": "wood",
+      "material": "wood",
+      "recolourable": true
+    }
+  ],
+  "geometryHash": "eff3bef28229760882f86d5b03cccc636e6d44bd540642c69038f8ef53457ee4",
+  "normalizedMirrorGeometryHash": "2cfd620b17328a3b6918b9ad0a9656d6b72cc546278fa5169667c8e20d59ce65"
+}

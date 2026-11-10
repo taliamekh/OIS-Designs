@@ -1,0 +1,155 @@
+{
+  "designId": "ois.design.tambour-bedside",
+  "familyId": "ois.family.tambour-bedside",
+  "id": "ois.design.tambour-bedside",
+  "name": "Tambour bedside cabinet",
+  "roomTags": [
+    "bedroom"
+  ],
+  "theme": "soft-japandi",
+  "builder": "case",
+  "parameters": {
+    "form": "tambour",
+    "front": "slab",
+    "w": 0.5,
+    "h": 0.55
+  },
+  "distinction": "A continuous vertical-stave tambour front wraps the storage volume.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted"
+  },
+  "sha256": "4f16c45550ceb33fdd890f903b2169e19d2ebcbc18c1f7897a5edb4f7f716245",
+  "bytes": 181156,
+  "triangles": 3872,
+  "vertices": 4856,
+  "drawPrimitives": 2,
+  "bounds": {
+    "min": [
+      -0.250000049871357,
+      -6.467593093029134e-09,
+      -0.2609999952837825
+    ],
+    "max": [
+      0.250000049782187,
+      0.5401344986879881,
+      0.2000000204446027
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 0.500000099653544,
+    "depth": 0.46100001572838517,
+    "height": 0.5401345051555813
+  },
+  "footprint": [
+    [
+      -0.250000049871357,
+      -0.2609999952837825
+    ],
+    [
+      0.250000049782187,
+      -0.2609999952837825
+    ],
+    [
+      0.250000049782187,
+      0.2000000204446027
+    ],
+    [
+      -0.250000049871357,
+      0.2000000204446027
+    ]
+  ],
+  "variantSlots": [
+    "metal",
+    "wood"
+  ],
+  "requiredExtensions": [],
+  "version": "0.2.0",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.tambour-bedside",
+  "file": "assets/v0.2.0/tambour-bedside.glb",
+  "sourceModel": "sources/v0.2.0/tambour-bedside.blend",
+  "thumbnail": "previews/v0.2.0/tambour-bedside.png",
+  "backThumbnail": "previews/v0.2.0/tambour-bedside-back.png",
+  "category": "storage",
+  "subtype": "tambour",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "textures": {
+    "count": 0,
+    "bytes": 0
+  },
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.2.0/tambour-bedside.png",
+      "previews/v0.2.0/tambour-bedside-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.34,
+      0.28,
+      0.19
+    ],
+    [
+      0.58,
+      0.54,
+      0.44
+    ],
+    [
+      0.15,
+      0.17,
+      0.15
+    ]
+  ],
+  "colourTags": [
+    "ash",
+    "flax",
+    "stone"
+  ],
+  "materials": [
+    "metal",
+    "wood"
+  ],
+  "searchAliases": [
+    "bedroom",
+    "tambour"
+  ],
+  "materialSlots": [
+    {
+      "id": "metal",
+      "material": "metal",
+      "recolourable": true
+    },
+    {
+      "id": "wood",
+      "material": "wood",
+      "recolourable": true
+    }
+  ],
+  "geometryHash": "4457d977da992329ed237ad632884a02afc83e3da21021dda3d7e0c2e3564f3a",
+  "normalizedMirrorGeometryHash": "00d3e8cf3ecae385e3a54367fe38db4966463bb511b3957613decd0105844738"
+}

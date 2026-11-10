@@ -1,0 +1,154 @@
+{
+  "designId": "ois.design.tilted-instrument-board",
+  "familyId": "ois.family.tilted-instrument-board",
+  "id": "ois.design.tilted-instrument-board",
+  "name": "Tilted instrument board",
+  "roomTags": [
+    "office"
+  ],
+  "theme": "city-loft",
+  "builder": "functional",
+  "parameters": {
+    "form": "drafting-ledge",
+    "w": 1.2,
+    "d": 0.7,
+    "h": 0.95
+  },
+  "distinction": "Steep drawing plane, long instrument ledge and crossed steel support.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted"
+  },
+  "constructionKey": "functional|drafting-ledge|{}",
+  "sha256": "c5f55c2c497150fd38cd0dccefa7710af8ce65d4e6b59e7122cd199e6db331fd",
+  "bytes": 31300,
+  "triangles": 616,
+  "vertices": 784,
+  "drawPrimitives": 2,
+  "bounds": {
+    "min": [
+      -0.6000000238418579,
+      -4.309410234215605e-08,
+      -0.3369999953312974
+    ],
+    "max": [
+      0.6000000238418579,
+      1.1091290937061349,
+      0.3341182804297294
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 1.2000000476837158,
+    "depth": 0.6711182757610268,
+    "height": 1.1091291368002372
+  },
+  "footprint": [
+    [
+      -0.6000000238418579,
+      -0.3369999953312974
+    ],
+    [
+      0.6000000238418579,
+      -0.3369999953312974
+    ],
+    [
+      0.6000000238418579,
+      0.3341182804297294
+    ],
+    [
+      -0.6000000238418579,
+      0.3341182804297294
+    ]
+  ],
+  "variantSlots": [
+    "metal",
+    "wood"
+  ],
+  "requiredExtensions": [],
+  "version": "0.2.0",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.tilted-instrument-board",
+  "file": "assets/v0.2.0/tilted-instrument-board.glb",
+  "sourceModel": "sources/v0.2.0/tilted-instrument-board.blend",
+  "thumbnail": "previews/v0.2.0/tilted-instrument-board.png",
+  "backThumbnail": "previews/v0.2.0/tilted-instrument-board-back.png",
+  "category": "functional-furniture",
+  "subtype": "drafting-ledge",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "textures": {
+    "count": 0,
+    "bytes": 0
+  },
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.2.0/tilted-instrument-board.png",
+      "previews/v0.2.0/tilted-instrument-board-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.23,
+      0.15,
+      0.09
+    ],
+    [
+      0.12,
+      0.14,
+      0.16
+    ],
+    [
+      0.045,
+      0.05,
+      0.055
+    ]
+  ],
+  "colourTags": [
+    "charcoal",
+    "black",
+    "weathered wood"
+  ],
+  "materials": [
+    "metal",
+    "wood"
+  ],
+  "searchAliases": [
+    "office",
+    "drafting ledge"
+  ],
+  "materialSlots": [
+    {
+      "id": "metal",
+      "material": "metal",
+      "recolourable": true
+    },
+    {
+      "id": "wood",
+      "material": "wood",
+      "recolourable": true
+    }
+  ]
+}

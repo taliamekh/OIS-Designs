@@ -1,0 +1,162 @@
+{
+  "designId": "ois.design.gaslift-counter-stool",
+  "familyId": "ois.family.gaslift-counter-stool",
+  "id": "ois.design.gaslift-counter-stool",
+  "name": "Gas-lift counter stool",
+  "roomTags": [
+    "dining"
+  ],
+  "theme": "city-loft",
+  "builder": "seating",
+  "parameters": {
+    "form": "stool-pedestal",
+    "w": 0.46,
+    "d": 0.48,
+    "h": 1.03,
+    "seat": 0.7
+  },
+  "distinction": "Star base and gas-lift stem with upholstered raised back.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted"
+  },
+  "sha256": "adb23b07c72b639f4bca00cc6665a308c8ba16a9ce3bfd6f9ddeb50d31843674",
+  "bytes": 48420,
+  "triangles": 988,
+  "vertices": 1217,
+  "drawPrimitives": 3,
+  "bounds": {
+    "min": [
+      -0.19750000536441803,
+      -3.537479076332062e-08,
+      -0.2310000006109476
+    ],
+    "max": [
+      0.21041509590588797,
+      1.054395318031311,
+      0.24352655373513699
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 0.407915101270306,
+    "depth": 0.4745265543460846,
+    "height": 1.0543953534061017
+  },
+  "footprint": [
+    [
+      -0.19750000536441803,
+      -0.2310000006109476
+    ],
+    [
+      0.21041509590588797,
+      -0.2310000006109476
+    ],
+    [
+      0.21041509590588797,
+      0.24352655373513699
+    ],
+    [
+      -0.19750000536441803,
+      0.24352655373513699
+    ]
+  ],
+  "variantSlots": [
+    "fabric",
+    "linen",
+    "metal"
+  ],
+  "requiredExtensions": [],
+  "version": "0.2.0",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.gaslift-counter-stool",
+  "file": "assets/v0.2.0/gaslift-counter-stool.glb",
+  "sourceModel": "sources/v0.2.0/gaslift-counter-stool.blend",
+  "thumbnail": "previews/v0.2.0/gaslift-counter-stool.png",
+  "backThumbnail": "previews/v0.2.0/gaslift-counter-stool-back.png",
+  "category": "seating",
+  "subtype": "stool-pedestal",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "textures": {
+    "count": 0,
+    "bytes": 0
+  },
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.2.0/gaslift-counter-stool.png",
+      "previews/v0.2.0/gaslift-counter-stool-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.23,
+      0.15,
+      0.09
+    ],
+    [
+      0.12,
+      0.14,
+      0.16
+    ],
+    [
+      0.045,
+      0.05,
+      0.055
+    ]
+  ],
+  "colourTags": [
+    "charcoal",
+    "black",
+    "weathered wood"
+  ],
+  "materials": [
+    "metal",
+    "textile"
+  ],
+  "searchAliases": [
+    "dining",
+    "stool pedestal"
+  ],
+  "materialSlots": [
+    {
+      "id": "fabric",
+      "material": "fabric",
+      "recolourable": true
+    },
+    {
+      "id": "linen",
+      "material": "linen",
+      "recolourable": true
+    },
+    {
+      "id": "metal",
+      "material": "metal",
+      "recolourable": true
+    }
+  ],
+  "geometryHash": "32ba41522bfd26a87ce6e7a42c3b33bc4e34f0c7c0a16adff1d6d6cdace41eef",
+  "normalizedMirrorGeometryHash": "1210c00febbec905e39fd37dde51eed9a676ea4400b524b8c070260083daac1d"
+}

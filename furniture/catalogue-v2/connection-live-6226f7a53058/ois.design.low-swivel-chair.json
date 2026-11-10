@@ -1,0 +1,193 @@
+{
+  "id": "ois.design.low-swivel-chair",
+  "sha256": "unexported-source-6226f7a5305865fd189dfcec35a3077205588e7999488a17cff703d94c6b1b9f",
+  "sourceModel": null,
+  "sourceSha256": "6226f7a5305865fd189dfcec35a3077205588e7999488a17cff703d94c6b1b9f",
+  "partCount": 14,
+  "componentCount": 1,
+  "components": [
+    {
+      "parts": [
+        "star base",
+        "star base.001",
+        "star base.002",
+        "star base.003",
+        "star base.004",
+        "gas lift",
+        "structural chair seat pan",
+        "seat",
+        "piping",
+        "backrest",
+        "arm",
+        "arm upright",
+        "arm.001",
+        "arm upright.001"
+      ],
+      "minimum": [
+        -0.3116000294685364,
+        -0.29241904616355896,
+        0.0
+      ],
+      "maximum": [
+        0.3116000294685364,
+        0.2939999997615814,
+        0.8841705322265625
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "star base.001",
+      "b": "star base",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "star base.002",
+      "b": "star base",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "star base.002",
+      "b": "star base.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "star base.003",
+      "b": "star base",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "star base.003",
+      "b": "star base.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "star base.003",
+      "b": "star base.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "star base.004",
+      "b": "star base",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "star base.004",
+      "b": "star base.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "star base.004",
+      "b": "star base.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "star base.004",
+      "b": "star base.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "gas lift",
+      "b": "star base",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "gas lift",
+      "b": "star base.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "gas lift",
+      "b": "star base.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "gas lift",
+      "b": "star base.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "gas lift",
+      "b": "star base.004",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "structural chair seat pan",
+      "b": "gas lift",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "seat",
+      "b": "gas lift",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "seat",
+      "b": "structural chair seat pan",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "piping",
+      "b": "gas lift",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "piping",
+      "b": "seat",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "backrest",
+      "b": "seat",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "arm upright",
+      "b": "seat",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "arm upright",
+      "b": "arm",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "arm upright.001",
+      "b": "seat",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "arm upright.001",
+      "b": "arm.001",
+      "method": "triangle intersection",
+      "distance": 0
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; live-source reports are NOT exported-asset evidence; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T03:35:44Z"
+}

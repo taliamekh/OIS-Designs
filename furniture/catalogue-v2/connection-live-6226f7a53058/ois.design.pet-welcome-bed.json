@@ -1,0 +1,70 @@
+{
+  "id": "ois.design.pet-welcome-bed",
+  "sha256": "unexported-source-6226f7a5305865fd189dfcec35a3077205588e7999488a17cff703d94c6b1b9f",
+  "sourceModel": null,
+  "sourceSha256": "6226f7a5305865fd189dfcec35a3077205588e7999488a17cff703d94c6b1b9f",
+  "partCount": 5,
+  "componentCount": 1,
+  "components": [
+    {
+      "parts": [
+        "pet pad",
+        "piping",
+        "pet bolster",
+        "pet bolster.001",
+        "rear bolster"
+      ],
+      "minimum": [
+        -0.4300000071525574,
+        -0.3279999792575836,
+        0.0
+      ],
+      "maximum": [
+        0.4300000071525574,
+        0.3019999861717224,
+        0.36000001430511475
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "piping",
+      "b": "pet pad",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pet bolster",
+      "b": "pet pad",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pet bolster.001",
+      "b": "pet pad",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "rear bolster",
+      "b": "pet pad",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "rear bolster",
+      "b": "pet bolster",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "rear bolster",
+      "b": "pet bolster.001",
+      "method": "triangle intersection",
+      "distance": 0
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; live-source reports are NOT exported-asset evidence; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T03:35:59Z"
+}

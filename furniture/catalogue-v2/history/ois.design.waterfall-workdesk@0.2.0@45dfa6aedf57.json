@@ -1,0 +1,151 @@
+{
+  "designId": "ois.design.waterfall-workdesk",
+  "familyId": "ois.family.rect-waterfall-dining",
+  "id": "ois.design.waterfall-workdesk",
+  "name": "Waterfall work desk",
+  "roomTags": [
+    "office"
+  ],
+  "theme": "soft-japandi",
+  "builder": "table",
+  "parameters": {
+    "form": "waterfall",
+    "w": 1.3,
+    "d": 0.65,
+    "h": 0.75,
+    "shape": "rect"
+  },
+  "distinction": "Full depth end slabs give a portal-like closed side silhouette.",
+  "stage": "validated-candidate",
+  "countEligible": false,
+  "variants": [],
+  "variantOf": "ois.design.rect-waterfall-dining",
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted"
+  },
+  "constructionKey": "table|waterfall|{\"drawers\": false, \"shape\": \"rect\", \"shelf\": false}",
+  "countExclusion": "same construction; dimension/material configuration retained as a variant",
+  "sha256": "45dfa6aedf57182c3447630569e0ae6325efa913d0b756888316226374484473",
+  "bytes": 31740,
+  "triangles": 564,
+  "vertices": 846,
+  "drawPrimitives": 1,
+  "bounds": {
+    "min": [
+      -0.6499999761581421,
+      0.0,
+      -0.32499998807907104
+    ],
+    "max": [
+      0.6499999761581421,
+      0.7500000223517418,
+      0.32499998807907104
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 1.2999999523162842,
+    "depth": 0.6499999761581421,
+    "height": 0.7500000223517418
+  },
+  "footprint": [
+    [
+      -0.6499999761581421,
+      -0.32499998807907104
+    ],
+    [
+      0.6499999761581421,
+      -0.32499998807907104
+    ],
+    [
+      0.6499999761581421,
+      0.32499998807907104
+    ],
+    [
+      -0.6499999761581421,
+      0.32499998807907104
+    ]
+  ],
+  "variantSlots": [
+    "wood"
+  ],
+  "requiredExtensions": [],
+  "version": "0.2.0",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.rect-waterfall-dining",
+  "file": "assets/v0.2.0/waterfall-workdesk.glb",
+  "sourceModel": "sources/v0.2.0/waterfall-workdesk.blend",
+  "thumbnail": "previews/v0.2.0/waterfall-workdesk.png",
+  "backThumbnail": "previews/v0.2.0/waterfall-workdesk-back.png",
+  "category": "tables",
+  "subtype": "waterfall",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "textures": {
+    "count": 0,
+    "bytes": 0
+  },
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.2.0/waterfall-workdesk.png",
+      "previews/v0.2.0/waterfall-workdesk-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.34,
+      0.28,
+      0.19
+    ],
+    [
+      0.58,
+      0.54,
+      0.44
+    ],
+    [
+      0.15,
+      0.17,
+      0.15
+    ]
+  ],
+  "colourTags": [
+    "ash",
+    "flax",
+    "stone"
+  ],
+  "materials": [
+    "wood"
+  ],
+  "searchAliases": [
+    "office",
+    "waterfall"
+  ],
+  "materialSlots": [
+    {
+      "id": "wood",
+      "material": "wood",
+      "recolourable": true
+    }
+  ],
+  "geometryHash": "54ae8246c5a800927441ff93cc837194c0d9819b8d0cd8c4cefafc36a46fa53a",
+  "normalizedMirrorGeometryHash": "5e395de65f3a7b54888a44b25da4127c0daf7869ef59a22452fee0c55d9321a6"
+}

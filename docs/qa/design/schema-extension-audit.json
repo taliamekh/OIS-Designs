@@ -1,0 +1,43 @@
+{
+  "timestamp": "2026-11-10T02:25:49.437Z",
+  "evidence": "Production decode/encode with the newly rendered optional recentColours field; not a UI/native crash reproduction",
+  "cases": [
+    {
+      "field": "recentColours",
+      "value": "not-an-array",
+      "accepted": false,
+      "error": "Error: Saved recent colours are invalid.",
+      "expectedAccepted": false,
+      "pass": true
+    },
+    {
+      "field": "recentColours",
+      "value": [
+        null
+      ],
+      "accepted": false,
+      "error": "Error: Saved recent colours are invalid.",
+      "expectedAccepted": false,
+      "pass": true
+    },
+    {
+      "field": "recentColours",
+      "value": [
+        "not-a-hex"
+      ],
+      "accepted": false,
+      "error": "Error: Saved recent colours are invalid.",
+      "expectedAccepted": false,
+      "pass": true
+    },
+    {
+      "field": "recentColours",
+      "value": [
+        "#abcdef"
+      ],
+      "accepted": true,
+      "expectedAccepted": true,
+      "pass": true
+    }
+  ]
+}

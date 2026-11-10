@@ -1,0 +1,109 @@
+{
+  "id": "ois.design.arched-open-bookcase",
+  "sha256": "unexported-source-732771aeb2eadd33599208170e38ff4e50d68878cbfb6795c9473e6f8553f36b",
+  "sourceModel": null,
+  "sourceSha256": "732771aeb2eadd33599208170e38ff4e50d68878cbfb6795c9473e6f8553f36b",
+  "partCount": 8,
+  "componentCount": 1,
+  "components": [
+    {
+      "parts": [
+        "arch side",
+        "arch side.001",
+        "arched crown",
+        "arch spring joint",
+        "arch spring joint.001",
+        "arch shelf",
+        "arch shelf.001",
+        "arch shelf.002"
+      ],
+      "minimum": [
+        -0.45000001788139343,
+        -0.17000000178813934,
+        0.0
+      ],
+      "maximum": [
+        0.45000001788139343,
+        0.17000000178813934,
+        1.75
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "arched crown",
+      "b": "arch side",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "arched crown",
+      "b": "arch side.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "arch spring joint",
+      "b": "arch side",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "arch spring joint",
+      "b": "arched crown",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "arch spring joint.001",
+      "b": "arch side.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "arch spring joint.001",
+      "b": "arched crown",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "arch shelf",
+      "b": "arch side",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "arch shelf",
+      "b": "arch side.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "arch shelf.001",
+      "b": "arch side",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "arch shelf.001",
+      "b": "arch side.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "arch shelf.002",
+      "b": "arch side",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "arch shelf.002",
+      "b": "arch side.001",
+      "method": "triangle intersection",
+      "distance": 0
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; live-source reports are NOT exported-asset evidence; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T03:28:51Z"
+}

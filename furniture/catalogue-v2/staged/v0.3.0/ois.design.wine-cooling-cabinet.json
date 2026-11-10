@@ -1,0 +1,202 @@
+{
+  "designId": "ois.design.wine-cooling-cabinet",
+  "familyId": "ois.family.wine-cooling-cabinet",
+  "id": "ois.design.wine-cooling-cabinet",
+  "name": "Wine cooling cabinet",
+  "roomTags": [
+    "kitchen"
+  ],
+  "theme": "soft-japandi",
+  "builder": "appliance",
+  "parameters": {
+    "form": "wine-fridge",
+    "w": 0.6,
+    "h": 0.86
+  },
+  "distinction": "Glazed door reveals horizontal bottle racks and bottle geometry.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted",
+    "sourceSnapshot": "sources/pipeline-03467462e382a0ba.py",
+    "sourceSha256": "03467462e382a0ba245e8af2ab96ea7d469161e176c6f1698b26d422f848f108",
+    "parametersFile": "sources/v0.3.0/wine-cooling-cabinet.parameters.json"
+  },
+  "constructionKey": "appliance|wine-fridge|{}",
+  "sha256": "17778f8a6a9b2cc73ad112213e582f126805ed9024c4fdc99a3f1bb2bee41d41",
+  "bytes": 85408,
+  "triangles": 1728,
+  "vertices": 2193,
+  "drawPrimitives": 4,
+  "bounds": {
+    "min": [
+      -0.3000000137835741,
+      0.0,
+      -0.3859999952837825
+    ],
+    "max": [
+      0.30000001192092896,
+      0.8600000143051147,
+      0.3100000023841858
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 0.6000000257045031,
+    "depth": 0.6959999976679683,
+    "height": 0.8600000143051147
+  },
+  "footprint": [
+    [
+      -0.3000000137835741,
+      -0.3859999952837825
+    ],
+    [
+      0.30000001192092896,
+      -0.3859999952837825
+    ],
+    [
+      0.30000001192092896,
+      0.3100000023841858
+    ],
+    [
+      -0.3000000137835741,
+      0.3100000023841858
+    ]
+  ],
+  "variantSlots": [
+    "accent",
+    "ceramic",
+    "glass",
+    "metal"
+  ],
+  "requiredExtensions": [],
+  "textures": {
+    "count": 0,
+    "bytes": 0,
+    "estimatedRgbaBytesWithMipmaps": 0,
+    "images": []
+  },
+  "version": "0.3.0",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.wine-cooling-cabinet",
+  "file": "assets/v0.3.0/wine-cooling-cabinet.glb",
+  "sourceModel": "sources/v0.3.0/wine-cooling-cabinet.blend",
+  "thumbnail": "previews/v0.3.0/wine-cooling-cabinet.png",
+  "backThumbnail": "previews/v0.3.0/wine-cooling-cabinet-back.png",
+  "category": "appliances",
+  "subtype": "wine-fridge",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.3.0/wine-cooling-cabinet.png",
+      "previews/v0.3.0/wine-cooling-cabinet-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.27000001072883606,
+      0.4000000059604645,
+      0.3199999928474426
+    ],
+    [
+      0.800000011920929,
+      0.8100000023841858,
+      0.7599999904632568
+    ],
+    [
+      0.20000000298023224,
+      0.3199999928474426,
+      0.3499999940395355
+    ],
+    [
+      0.15000000596046448,
+      0.17000000178813934,
+      0.15000000596046448
+    ]
+  ],
+  "colourTags": [
+    "charcoal",
+    "clear blue grey",
+    "sage green",
+    "warm white"
+  ],
+  "materials": [
+    "ceramic",
+    "metal",
+    "paint",
+    "tinted-glass"
+  ],
+  "searchAliases": [
+    "kitchen",
+    "wine fridge"
+  ],
+  "materialSlots": [
+    {
+      "id": "accent",
+      "material": "accent",
+      "recolourable": true
+    },
+    {
+      "id": "ceramic",
+      "material": "ceramic",
+      "recolourable": true
+    },
+    {
+      "id": "glass",
+      "material": "glass",
+      "recolourable": true
+    },
+    {
+      "id": "metal",
+      "material": "metal",
+      "recolourable": true
+    }
+  ],
+  "supportChecks": {
+    "method": "source-part upper-end ray to non-leg geometry, 15mm join tolerance",
+    "status": "pass",
+    "parts": [],
+    "limitation": "screening only; hidden joints, whole-model connectivity, load paths and safety remain visual/product-review concerns"
+  },
+  "materialFinish": {
+    "source": "materials/v1/manifest.json",
+    "repeatMetres": {
+      "wood": [
+        0.16,
+        0.75
+      ],
+      "fabric": [
+        0.14,
+        0.14
+      ],
+      "linen": [
+        0.12,
+        0.12
+      ]
+    },
+    "maps": "original base colour / roughness / tangent normal, embedded in GLB"
+  }
+}

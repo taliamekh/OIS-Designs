@@ -1,0 +1,156 @@
+{
+  "designId": "ois.design.raised-train-table",
+  "familyId": "ois.family.raised-train-table",
+  "id": "ois.design.raised-train-table",
+  "name": "Raised train table",
+  "roomTags": [
+    "children"
+  ],
+  "theme": "walnut-form",
+  "builder": "special",
+  "parameters": {
+    "form": "train-table",
+    "w": 1.1,
+    "d": 0.75,
+    "h": 0.48
+  },
+  "distinction": "Raised retaining rim and continuous oval track on the play surface.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted"
+  },
+  "constructionKey": "special|train-table|{\"cols\": 1, \"front\": \"cane\", \"panels\": 3}",
+  "sha256": "2695be89f1855f2b894cde6dce773db8d533e39acfbc7836150281cbb4ad601c",
+  "bytes": 76876,
+  "triangles": 1896,
+  "vertices": 2077,
+  "drawPrimitives": 2,
+  "bounds": {
+    "min": [
+      -0.5625,
+      0.0,
+      -0.375
+    ],
+    "max": [
+      0.5625,
+      0.5699999779462814,
+      0.375
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 1.125,
+    "depth": 0.75,
+    "height": 0.5699999779462814
+  },
+  "footprint": [
+    [
+      -0.5625,
+      -0.375
+    ],
+    [
+      0.5625,
+      -0.375
+    ],
+    [
+      0.5625,
+      0.375
+    ],
+    [
+      -0.5625,
+      0.375
+    ]
+  ],
+  "variantSlots": [
+    "dark",
+    "wood"
+  ],
+  "requiredExtensions": [],
+  "version": "0.2.0",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.raised-train-table",
+  "file": "assets/v0.2.0/raised-train-table.glb",
+  "sourceModel": "sources/v0.2.0/raised-train-table.blend",
+  "thumbnail": "previews/v0.2.0/raised-train-table.png",
+  "backThumbnail": "previews/v0.2.0/raised-train-table-back.png",
+  "category": "specialty",
+  "subtype": "train-table",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "textures": {
+    "count": 0,
+    "bytes": 0
+  },
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.2.0/raised-train-table.png",
+      "previews/v0.2.0/raised-train-table-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.22,
+      0.09,
+      0.038
+    ],
+    [
+      0.39,
+      0.18,
+      0.07
+    ],
+    [
+      0.47,
+      0.3,
+      0.1
+    ]
+  ],
+  "colourTags": [
+    "walnut",
+    "tobacco",
+    "brass"
+  ],
+  "materials": [
+    "paint",
+    "wood"
+  ],
+  "searchAliases": [
+    "children",
+    "train table"
+  ],
+  "materialSlots": [
+    {
+      "id": "dark",
+      "material": "dark",
+      "recolourable": true
+    },
+    {
+      "id": "wood",
+      "material": "wood",
+      "recolourable": true
+    }
+  ],
+  "geometryHash": "8e440c424cd473fab20739aa2d12567ed2049eeb443ee18c392e872a3b5105eb",
+  "normalizedMirrorGeometryHash": "60d7f3cf79fd453b563b3fe8d8b3b80155980ec1f2db25e30da02d7537874141"
+}

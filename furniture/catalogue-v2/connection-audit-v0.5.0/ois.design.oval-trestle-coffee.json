@@ -1,0 +1,85 @@
+{
+  "id": "ois.design.oval-trestle-coffee",
+  "sha256": "4fc06d47a949bfa8251cafa177c2a0950a80f98e71a237ba49f3b98b3db63b0d",
+  "sourceModel": "sources/v0.5.0/oval-trestle-coffee.blend",
+  "sourceSha256": "b3e15ea3219b55af3d3df89dc40c31cd915839b233df8f57e2af22866b1c9af1",
+  "partCount": 6,
+  "componentCount": 2,
+  "components": [
+    {
+      "parts": [
+        "top",
+        "trestle",
+        "trestle.001",
+        "trestle.002",
+        "trestle.003"
+      ],
+      "minimum": [
+        -0.5400000214576721,
+        -0.3100000023841858,
+        1.862645149230957e-09
+      ],
+      "maximum": [
+        0.5400000214576721,
+        0.3100000023841858,
+        0.37961551547050476
+      ]
+    },
+    {
+      "parts": [
+        "stretcher"
+      ],
+      "minimum": [
+        -0.3328000009059906,
+        -0.02075001411139965,
+        0.07236548513174057
+      ],
+      "maximum": [
+        0.3328000009059906,
+        0.02075001411139965,
+        0.11386551707983017
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "trestle",
+      "b": "top",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "trestle.001",
+      "b": "top",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "trestle.001",
+      "b": "trestle",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "trestle.002",
+      "b": "top",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "trestle.003",
+      "b": "top",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "trestle.003",
+      "b": "trestle.002",
+      "method": "triangle intersection",
+      "distance": 0
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T03:07:33Z"
+}

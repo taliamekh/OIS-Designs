@@ -1,0 +1,79 @@
+{
+  "id": "ois.design.branch-book-tree",
+  "sha256": "2eb501b10cd20bd89d201f0cf4bc281359fbca245c59a2886388736f76785f31",
+  "sourceModel": "sources/v0.7.0/branch-book-tree.blend",
+  "sourceSha256": "0627ae06cb48e9fe765ab4583215a2fbe5fbedad80ea4223191623d14fb4c99f",
+  "partCount": 8,
+  "componentCount": 1,
+  "components": [
+    {
+      "parts": [
+        "tree foot",
+        "trunk",
+        "branch shelf",
+        "branch shelf.001",
+        "branch shelf.002",
+        "branch shelf.003",
+        "branch shelf.004",
+        "branch shelf.005"
+      ],
+      "minimum": [
+        -0.42500004172325134,
+        -0.15000000596046448,
+        -5.960464477539063e-08
+      ],
+      "maximum": [
+        0.42500004172325134,
+        0.15000000596046448,
+        1.7000000476837158
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "trunk",
+      "b": "tree foot",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "branch shelf",
+      "b": "trunk",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "branch shelf.001",
+      "b": "trunk",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "branch shelf.002",
+      "b": "trunk",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "branch shelf.003",
+      "b": "trunk",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "branch shelf.004",
+      "b": "trunk",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "branch shelf.005",
+      "b": "trunk",
+      "method": "triangle intersection",
+      "distance": 0
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; live-source reports are NOT exported-asset evidence; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T03:51:55Z"
+}

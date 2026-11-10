@@ -1,0 +1,59 @@
+{
+  "id": "ois.design.ceramic-pedestal-basin",
+  "sha256": "48bf9b17b2cc13b4100fb663e13dfcf70c0e2075eb23a8d96202c1278740daed",
+  "sourceModel": "sources/v0.5.0/ceramic-pedestal-basin.blend",
+  "sourceSha256": "d4be3a765a1a37f72a11bb541836fb0d47c214336a26d0839447f7d5a9638da8",
+  "partCount": 4,
+  "componentCount": 2,
+  "components": [
+    {
+      "parts": [
+        "pedestal",
+        "oval basin",
+        "curved faucet"
+      ],
+      "minimum": [
+        -0.31200000643730164,
+        -0.2443999946117401,
+        0.0
+      ],
+      "maximum": [
+        0.31200000643730164,
+        0.2443999946117401,
+        1.0312906503677368
+      ]
+    },
+    {
+      "parts": [
+        "tap lever"
+      ],
+      "minimum": [
+        0.03500000387430191,
+        -0.20800000429153442,
+        0.8919999599456787
+      ],
+      "maximum": [
+        0.10000000149011612,
+        -0.19200000166893005,
+        0.9079999923706055
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "oval basin",
+      "b": "pedestal",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "curved faucet",
+      "b": "oval basin",
+      "method": "triangle intersection",
+      "distance": 0
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T03:07:31Z"
+}

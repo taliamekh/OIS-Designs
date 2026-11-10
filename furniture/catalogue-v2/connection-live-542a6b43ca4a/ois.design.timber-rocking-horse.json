@@ -1,0 +1,128 @@
+{
+  "id": "ois.design.timber-rocking-horse",
+  "sha256": "unexported-source-542a6b43ca4abc9d4f4ac88dc7bd803746dd198c350ababac32d73431ffd328b",
+  "sourceModel": null,
+  "sourceSha256": "542a6b43ca4abc9d4f4ac88dc7bd803746dd198c350ababac32d73431ffd328b",
+  "partCount": 11,
+  "componentCount": 3,
+  "components": [
+    {
+      "parts": [
+        "horse body",
+        "neck",
+        "head",
+        "horse leg",
+        "horse leg.001",
+        "horse leg.002",
+        "horse leg.003",
+        "handgrip",
+        "saddle"
+      ],
+      "minimum": [
+        -0.2989998459815979,
+        -0.20000000298023224,
+        0.09657697379589081
+      ],
+      "maximum": [
+        0.4585999846458435,
+        0.20000000298023224,
+        0.9300000071525574
+      ]
+    },
+    {
+      "parts": [
+        "rocker"
+      ],
+      "minimum": [
+        -0.5177125334739685,
+        -0.15300001204013824,
+        -0.005000000819563866
+      ],
+      "maximum": [
+        0.5177125334739685,
+        -0.10300000756978989,
+        0.1820865422487259
+      ]
+    },
+    {
+      "parts": [
+        "rocker.001"
+      ],
+      "minimum": [
+        -0.5177125334739685,
+        0.10300000756978989,
+        -0.005000000819563866
+      ],
+      "maximum": [
+        0.5177125334739685,
+        0.15300001204013824,
+        0.1820865422487259
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "neck",
+      "b": "horse body",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "head",
+      "b": "neck",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "horse leg",
+      "b": "horse body",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "horse leg.001",
+      "b": "horse body",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "horse leg.002",
+      "b": "horse body",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "horse leg.003",
+      "b": "horse body",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "handgrip",
+      "b": "neck",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "handgrip",
+      "b": "head",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "saddle",
+      "b": "horse body",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "saddle",
+      "b": "neck",
+      "method": "triangle intersection",
+      "distance": 0
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; live-source reports are NOT exported-asset evidence; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T03:32:16Z"
+}

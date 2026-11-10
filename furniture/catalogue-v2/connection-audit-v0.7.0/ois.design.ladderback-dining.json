@@ -1,0 +1,185 @@
+{
+  "id": "ois.design.ladderback-dining",
+  "sha256": "f7d0f0d365272999e984013bd452a52a262d5aa4ea02862914a71eaee382ee3b",
+  "sourceModel": "sources/v0.7.0/ladderback-dining.blend",
+  "sourceSha256": "003a2e8b1981ebfedf5037f408f9f766eda5a7024ff1ccb9cfb1c906ebdbc03c",
+  "partCount": 12,
+  "componentCount": 1,
+  "components": [
+    {
+      "parts": [
+        "leg",
+        "leg.001",
+        "leg.002",
+        "leg.003",
+        "structural chair seat pan",
+        "seat",
+        "piping",
+        "back post",
+        "back post.001",
+        "ladder rail",
+        "ladder rail.001",
+        "ladder rail.002"
+      ],
+      "minimum": [
+        -0.2160000056028366,
+        -0.23727776110172272,
+        1.7462298274040222e-10
+      ],
+      "maximum": [
+        0.2160000056028366,
+        0.2521499991416931,
+        0.8795351386070251
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "structural chair seat pan",
+      "b": "leg",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "structural chair seat pan",
+      "b": "leg.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "structural chair seat pan",
+      "b": "leg.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "structural chair seat pan",
+      "b": "leg.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "seat",
+      "b": "leg",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "seat",
+      "b": "leg.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "seat",
+      "b": "leg.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "seat",
+      "b": "leg.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "seat",
+      "b": "structural chair seat pan",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "piping",
+      "b": "seat",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "back post",
+      "b": "leg",
+      "method": "surface distance",
+      "distance": 0.0008548659388907254
+    },
+    {
+      "a": "back post",
+      "b": "structural chair seat pan",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "back post",
+      "b": "seat",
+      "method": "surface distance",
+      "distance": 0.0007254475494846702
+    },
+    {
+      "a": "back post",
+      "b": "piping",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "back post.001",
+      "b": "leg.002",
+      "method": "surface distance",
+      "distance": 0.0003896647831425071
+    },
+    {
+      "a": "back post.001",
+      "b": "structural chair seat pan",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "back post.001",
+      "b": "seat",
+      "method": "surface distance",
+      "distance": 0.0007254400989040732
+    },
+    {
+      "a": "back post.001",
+      "b": "piping",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "ladder rail",
+      "b": "back post",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "ladder rail",
+      "b": "back post.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "ladder rail.001",
+      "b": "back post",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "ladder rail.001",
+      "b": "back post.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "ladder rail.002",
+      "b": "back post",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "ladder rail.002",
+      "b": "back post.001",
+      "method": "triangle intersection",
+      "distance": 0
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; live-source reports are NOT exported-asset evidence; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T03:51:56Z"
+}

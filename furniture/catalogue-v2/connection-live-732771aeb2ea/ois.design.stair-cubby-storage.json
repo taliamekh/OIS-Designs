@@ -1,0 +1,399 @@
+{
+  "id": "ois.design.stair-cubby-storage",
+  "sha256": "unexported-source-732771aeb2eadd33599208170e38ff4e50d68878cbfb6795c9473e6f8553f36b",
+  "sourceModel": null,
+  "sourceSha256": "732771aeb2eadd33599208170e38ff4e50d68878cbfb6795c9473e6f8553f36b",
+  "partCount": 22,
+  "componentCount": 1,
+  "components": [
+    {
+      "parts": [
+        "step side",
+        "step side.001",
+        "step shelf",
+        "step shelf.001",
+        "step side.002",
+        "step side.003",
+        "step shelf.002",
+        "step shelf.003",
+        "step shelf.004",
+        "step side.004",
+        "step side.005",
+        "step shelf.005",
+        "step shelf.006",
+        "step shelf.007",
+        "step shelf.008",
+        "step side.006",
+        "step side.007",
+        "step shelf.009",
+        "step shelf.010",
+        "step shelf.011",
+        "step shelf.012",
+        "step shelf.013"
+      ],
+      "minimum": [
+        -0.6004999876022339,
+        -0.17499999701976776,
+        -0.012500000186264515
+      ],
+      "maximum": [
+        0.6004999876022339,
+        0.17499999701976776,
+        1.2125000953674316
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "step shelf",
+      "b": "step side",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "step shelf",
+      "b": "step side.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "step shelf.001",
+      "b": "step side",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "step shelf.001",
+      "b": "step side.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "step side.002",
+      "b": "step side.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "step side.002",
+      "b": "step shelf",
+      "method": "surface distance",
+      "distance": 0.0021213232539594173
+    },
+    {
+      "a": "step side.002",
+      "b": "step shelf.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "step shelf.002",
+      "b": "step side.001",
+      "method": "surface distance",
+      "distance": 0.0021213279105722904
+    },
+    {
+      "a": "step shelf.002",
+      "b": "step shelf",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "step shelf.002",
+      "b": "step side.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "step shelf.002",
+      "b": "step side.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "step shelf.003",
+      "b": "step side.001",
+      "method": "surface distance",
+      "distance": 0.0021213351283222437
+    },
+    {
+      "a": "step shelf.003",
+      "b": "step shelf.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "step shelf.003",
+      "b": "step side.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "step shelf.003",
+      "b": "step side.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "step shelf.004",
+      "b": "step side.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "step shelf.004",
+      "b": "step side.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "step side.004",
+      "b": "step side.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "step side.004",
+      "b": "step shelf.002",
+      "method": "surface distance",
+      "distance": 0.0021213111467659473
+    },
+    {
+      "a": "step side.004",
+      "b": "step shelf.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "step side.004",
+      "b": "step shelf.004",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "step shelf.005",
+      "b": "step side.003",
+      "method": "surface distance",
+      "distance": 0.0021213132422417402
+    },
+    {
+      "a": "step shelf.005",
+      "b": "step shelf.002",
+      "method": "surface distance",
+      "distance": 0.0
+    },
+    {
+      "a": "step shelf.005",
+      "b": "step side.004",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "step shelf.005",
+      "b": "step side.005",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "step shelf.006",
+      "b": "step side.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "step shelf.006",
+      "b": "step shelf.003",
+      "method": "surface distance",
+      "distance": 0.0
+    },
+    {
+      "a": "step shelf.006",
+      "b": "step side.004",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "step shelf.006",
+      "b": "step side.005",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "step shelf.007",
+      "b": "step side.003",
+      "method": "surface distance",
+      "distance": 0.0021213435102254152
+    },
+    {
+      "a": "step shelf.007",
+      "b": "step shelf.004",
+      "method": "surface distance",
+      "distance": 0.0
+    },
+    {
+      "a": "step shelf.007",
+      "b": "step side.004",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "step shelf.007",
+      "b": "step side.005",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "step shelf.008",
+      "b": "step side.004",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "step shelf.008",
+      "b": "step side.005",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "step side.006",
+      "b": "step side.005",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "step side.006",
+      "b": "step shelf.005",
+      "method": "surface distance",
+      "distance": 0.0021213379222899675
+    },
+    {
+      "a": "step side.006",
+      "b": "step shelf.006",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "step side.006",
+      "b": "step shelf.007",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "step side.006",
+      "b": "step shelf.008",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "step shelf.009",
+      "b": "step side.005",
+      "method": "surface distance",
+      "distance": 0.0021213253494352102
+    },
+    {
+      "a": "step shelf.009",
+      "b": "step shelf.005",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "step shelf.009",
+      "b": "step side.006",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "step shelf.009",
+      "b": "step side.007",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "step shelf.010",
+      "b": "step side.005",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "step shelf.010",
+      "b": "step shelf.006",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "step shelf.010",
+      "b": "step side.006",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "step shelf.010",
+      "b": "step side.007",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "step shelf.011",
+      "b": "step side.005",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "step shelf.011",
+      "b": "step shelf.007",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "step shelf.011",
+      "b": "step side.006",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "step shelf.011",
+      "b": "step side.007",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "step shelf.012",
+      "b": "step side.005",
+      "method": "surface distance",
+      "distance": 0.0021213351283222437
+    },
+    {
+      "a": "step shelf.012",
+      "b": "step shelf.008",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "step shelf.012",
+      "b": "step side.006",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "step shelf.012",
+      "b": "step side.007",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "step shelf.013",
+      "b": "step side.006",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "step shelf.013",
+      "b": "step side.007",
+      "method": "triangle intersection",
+      "distance": 0
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; live-source reports are NOT exported-asset evidence; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T03:28:52Z"
+}

@@ -1,0 +1,65 @@
+{
+  "id": "ois.design.compass-desk",
+  "sha256": "5047ab628025c7ffe262965693adf4ce91473140117cc80e73b9ef6a408c77bf",
+  "sourceModel": "sources/v0.5.0/compass-desk.blend",
+  "sourceSha256": "fa52fa82b7ef054a9dfe35878661ed216fac6839f627561b8d8ec82a76d55b33",
+  "partCount": 6,
+  "componentCount": 1,
+  "components": [
+    {
+      "parts": [
+        "desktop",
+        "tapered compass plank",
+        "tapered compass plank.001",
+        "tapered compass plank.002",
+        "tapered compass plank.003",
+        "under-top spine"
+      ],
+      "minimum": [
+        -0.699999988079071,
+        -0.3499999940395355,
+        0.0
+      ],
+      "maximum": [
+        0.699999988079071,
+        0.3499999940395355,
+        0.75
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "tapered compass plank",
+      "b": "desktop",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "tapered compass plank.001",
+      "b": "desktop",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "tapered compass plank.002",
+      "b": "desktop",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "tapered compass plank.003",
+      "b": "desktop",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "under-top spine",
+      "b": "desktop",
+      "method": "triangle intersection",
+      "distance": 0
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T03:07:31Z"
+}

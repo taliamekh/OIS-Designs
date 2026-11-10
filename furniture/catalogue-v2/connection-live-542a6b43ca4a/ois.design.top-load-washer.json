@@ -1,0 +1,176 @@
+{
+  "id": "ois.design.top-load-washer",
+  "sha256": "unexported-source-542a6b43ca4abc9d4f4ac88dc7bd803746dd198c350ababac32d73431ffd328b",
+  "sourceModel": null,
+  "sourceSha256": "542a6b43ca4abc9d4f4ac88dc7bd803746dd198c350ababac32d73431ffd328b",
+  "partCount": 15,
+  "componentCount": 1,
+  "components": [
+    {
+      "parts": [
+        "appliance shell side",
+        "appliance shell side.001",
+        "appliance shell back",
+        "appliance shell bottom",
+        "front body panel",
+        "top drum bottom",
+        "top loading rim",
+        "top washer tub wall",
+        "tub suspension",
+        "tub suspension.001",
+        "lid",
+        "raised control",
+        "dial",
+        "dial.001",
+        "dial.002"
+      ],
+      "minimum": [
+        -0.30000001192092896,
+        -0.3100000023841858,
+        0.0
+      ],
+      "maximum": [
+        0.30000001192092896,
+        0.3125,
+        1.0499999523162842
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "appliance shell back",
+      "b": "appliance shell side",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "appliance shell back",
+      "b": "appliance shell side.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "appliance shell bottom",
+      "b": "appliance shell side",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "appliance shell bottom",
+      "b": "appliance shell side.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "appliance shell bottom",
+      "b": "appliance shell back",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "front body panel",
+      "b": "appliance shell side",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "front body panel",
+      "b": "appliance shell side.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "front body panel",
+      "b": "appliance shell bottom",
+      "method": "surface distance",
+      "distance": 0.002828434109687805
+    },
+    {
+      "a": "top washer tub wall",
+      "b": "top drum bottom",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "top washer tub wall",
+      "b": "top loading rim",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "tub suspension",
+      "b": "appliance shell side",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "tub suspension",
+      "b": "top drum bottom",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "tub suspension",
+      "b": "top washer tub wall",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "tub suspension.001",
+      "b": "appliance shell side.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "tub suspension.001",
+      "b": "top drum bottom",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "tub suspension.001",
+      "b": "top washer tub wall",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "raised control",
+      "b": "appliance shell side",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "raised control",
+      "b": "appliance shell side.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "raised control",
+      "b": "lid",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "dial",
+      "b": "raised control",
+      "method": "point containment",
+      "distance": 0
+    },
+    {
+      "a": "dial.001",
+      "b": "raised control",
+      "method": "point containment",
+      "distance": 0
+    },
+    {
+      "a": "dial.002",
+      "b": "raised control",
+      "method": "point containment",
+      "distance": 0
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; live-source reports are NOT exported-asset evidence; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T03:32:23Z"
+}

@@ -1,0 +1,157 @@
+{
+  "designId": "ois.design.deep-utility-sink",
+  "familyId": "ois.family.deep-utility-sink",
+  "id": "ois.design.deep-utility-sink",
+  "name": "Deep utility sink",
+  "roomTags": [
+    "laundry-utility"
+  ],
+  "theme": "soft-japandi",
+  "builder": "appliance",
+  "parameters": {
+    "form": "utility-sink",
+    "w": 0.68,
+    "d": 0.58,
+    "h": 0.9
+  },
+  "distinction": "Deep hollow service basin stands on exposed metal legs.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted",
+    "sourceSnapshot": "sources/pipeline-e797cb5c88af56f5.py",
+    "sourceSha256": "e797cb5c88af56f5b4455d819a512ab9be55f40e1fa2d0cb542aca7bb84b906f",
+    "parametersFile": "sources/v0.2.1/deep-utility-sink.parameters.json"
+  },
+  "constructionKey": "appliance|utility-sink|{}",
+  "sha256": "292c1a89e18295e5bbbf3bcad8750ce0e195d86fa7f390bfcf9f7b1269b24bf9",
+  "bytes": 60824,
+  "triangles": 1316,
+  "vertices": 1572,
+  "drawPrimitives": 2,
+  "bounds": {
+    "min": [
+      -0.3399999737739563,
+      -1.3704668344605153e-08,
+      -0.28999999165534973
+    ],
+    "max": [
+      0.3399999737739563,
+      1.119686455702656,
+      0.28999999165534973
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 0.6799999475479126,
+    "depth": 0.5799999833106995,
+    "height": 1.1196864694073243
+  },
+  "footprint": [
+    [
+      -0.3399999737739563,
+      -0.28999999165534973
+    ],
+    [
+      0.3399999737739563,
+      -0.28999999165534973
+    ],
+    [
+      0.3399999737739563,
+      0.28999999165534973
+    ],
+    [
+      -0.3399999737739563,
+      0.28999999165534973
+    ]
+  ],
+  "variantSlots": [
+    "ceramic",
+    "metal"
+  ],
+  "requiredExtensions": [],
+  "version": "0.2.1",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.deep-utility-sink",
+  "file": "assets/v0.2.1/deep-utility-sink.glb",
+  "sourceModel": "sources/v0.2.1/deep-utility-sink.blend",
+  "thumbnail": "previews/v0.2.1/deep-utility-sink.png",
+  "backThumbnail": "previews/v0.2.1/deep-utility-sink-back.png",
+  "category": "appliances",
+  "subtype": "utility-sink",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "textures": {
+    "count": 0,
+    "bytes": 0
+  },
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.2.1/deep-utility-sink.png",
+      "previews/v0.2.1/deep-utility-sink-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.34,
+      0.28,
+      0.19
+    ],
+    [
+      0.58,
+      0.54,
+      0.44
+    ],
+    [
+      0.15,
+      0.17,
+      0.15
+    ]
+  ],
+  "colourTags": [
+    "ash",
+    "flax",
+    "stone"
+  ],
+  "materials": [
+    "ceramic",
+    "metal"
+  ],
+  "searchAliases": [
+    "laundry utility",
+    "utility sink"
+  ],
+  "materialSlots": [
+    {
+      "id": "ceramic",
+      "material": "ceramic",
+      "recolourable": true
+    },
+    {
+      "id": "metal",
+      "material": "metal",
+      "recolourable": true
+    }
+  ]
+}

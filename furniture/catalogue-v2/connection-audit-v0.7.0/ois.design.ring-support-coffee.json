@@ -1,0 +1,44 @@
+{
+  "id": "ois.design.ring-support-coffee",
+  "sha256": "48c78432c21b2f73881c4f98132947ce0aa1d305de68e1a890344e05894440eb",
+  "sourceModel": "sources/v0.7.0/ring-support-coffee.blend",
+  "sourceSha256": "8b92d34755c034c97757ae614521459b5419821b5fe964e633ba6c1f1c238711",
+  "partCount": 3,
+  "componentCount": 1,
+  "components": [
+    {
+      "parts": [
+        "sculptural table top",
+        "ring support",
+        "ring support.001"
+      ],
+      "minimum": [
+        -0.550000011920929,
+        -0.30000001192092896,
+        0.0
+      ],
+      "maximum": [
+        0.550000011920929,
+        0.30000001192092896,
+        0.42500001192092896
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "ring support",
+      "b": "sculptural table top",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "ring support.001",
+      "b": "sculptural table top",
+      "method": "triangle intersection",
+      "distance": 0
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; live-source reports are NOT exported-asset evidence; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T04:00:31Z"
+}

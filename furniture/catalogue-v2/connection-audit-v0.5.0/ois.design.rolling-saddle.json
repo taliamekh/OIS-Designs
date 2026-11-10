@@ -1,0 +1,180 @@
+{
+  "id": "ois.design.rolling-saddle",
+  "sha256": "f6b49e8744d9e3911b38e97c7ea3ec00e243ebb28f54620433d47651eb7a4257",
+  "sourceModel": "sources/v0.5.0/rolling-saddle.blend",
+  "sourceSha256": "7ff4e077967bf25695e47dbf95b9a12f43522d2e74c099d6aa70a51a0d253c3f",
+  "partCount": 13,
+  "componentCount": 1,
+  "components": [
+    {
+      "parts": [
+        "star leg",
+        "caster",
+        "star leg.001",
+        "caster.001",
+        "star leg.002",
+        "caster.002",
+        "star leg.003",
+        "caster.003",
+        "star leg.004",
+        "caster.004",
+        "gas stem",
+        "saddle support",
+        "carved saddle"
+      ],
+      "minimum": [
+        -0.2640247344970703,
+        -0.2937958240509033,
+        0.0
+      ],
+      "maximum": [
+        0.3174999952316284,
+        0.2937958240509033,
+        0.6119483113288879
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "caster",
+      "b": "star leg",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "star leg.001",
+      "b": "star leg",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "caster.001",
+      "b": "star leg.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "star leg.002",
+      "b": "star leg",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "star leg.002",
+      "b": "star leg.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "caster.002",
+      "b": "star leg.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "star leg.003",
+      "b": "star leg",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "star leg.003",
+      "b": "star leg.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "star leg.003",
+      "b": "star leg.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "caster.003",
+      "b": "star leg.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "star leg.004",
+      "b": "star leg",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "star leg.004",
+      "b": "star leg.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "star leg.004",
+      "b": "star leg.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "star leg.004",
+      "b": "star leg.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "caster.004",
+      "b": "star leg.004",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "gas stem",
+      "b": "star leg",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "gas stem",
+      "b": "star leg.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "gas stem",
+      "b": "star leg.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "gas stem",
+      "b": "star leg.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "gas stem",
+      "b": "star leg.004",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "saddle support",
+      "b": "gas stem",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "carved saddle",
+      "b": "gas stem",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "carved saddle",
+      "b": "saddle support",
+      "method": "surface distance",
+      "distance": 0.00051116943359375
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T03:07:33Z"
+}

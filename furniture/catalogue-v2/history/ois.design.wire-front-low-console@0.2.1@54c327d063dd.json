@@ -1,0 +1,160 @@
+{
+  "designId": "ois.design.wire-front-low-console",
+  "familyId": "ois.family.metal-mesh-pantry",
+  "id": "ois.design.wire-front-low-console",
+  "name": "Wire-front low console",
+  "roomTags": [
+    "storage"
+  ],
+  "theme": "city-loft",
+  "builder": "case",
+  "parameters": {
+    "form": "doors",
+    "front": "mesh",
+    "w": 1.5,
+    "h": 0.58,
+    "doors": 3,
+    "base": "sled"
+  },
+  "distinction": "Three low mesh doors above two continuous metal sleds.",
+  "stage": "validated-candidate",
+  "countEligible": false,
+  "variants": [],
+  "variantOf": "ois.design.metal-mesh-pantry",
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted",
+    "sourceSnapshot": "sources/pipeline-e797cb5c88af56f5.py",
+    "sourceSha256": "e797cb5c88af56f5b4455d819a512ab9be55f40e1fa2d0cb542aca7bb84b906f",
+    "parametersFile": "sources/v0.2.1/wire-front-low-console.parameters.json"
+  },
+  "constructionKey": "case|doors|{\"base\": \"sled\", \"cols\": 1, \"drawersTop\": false, \"front\": \"mesh\", \"rows\": 4}",
+  "countExclusion": "same construction; dimension/material configuration retained as a variant",
+  "sha256": "54c327d063ddb6f8fc438fe105b186ff278ef3220066ed0b68c9d6ecc4fb301c",
+  "bytes": 249808,
+  "triangles": 5300,
+  "vertices": 6735,
+  "drawPrimitives": 2,
+  "bounds": {
+    "min": [
+      -0.75,
+      0.0,
+      -0.25600001215934753
+    ],
+    "max": [
+      0.75,
+      0.5759034752845764,
+      0.20000000298023224
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 1.5,
+    "depth": 0.4560000151395798,
+    "height": 0.5759034752845764
+  },
+  "footprint": [
+    [
+      -0.75,
+      -0.25600001215934753
+    ],
+    [
+      0.75,
+      -0.25600001215934753
+    ],
+    [
+      0.75,
+      0.20000000298023224
+    ],
+    [
+      -0.75,
+      0.20000000298023224
+    ]
+  ],
+  "variantSlots": [
+    "metal",
+    "wood"
+  ],
+  "requiredExtensions": [],
+  "version": "0.2.1",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.metal-mesh-pantry",
+  "file": "assets/v0.2.1/wire-front-low-console.glb",
+  "sourceModel": "sources/v0.2.1/wire-front-low-console.blend",
+  "thumbnail": "previews/v0.2.1/wire-front-low-console.png",
+  "backThumbnail": "previews/v0.2.1/wire-front-low-console-back.png",
+  "category": "storage",
+  "subtype": "doors",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "textures": {
+    "count": 0,
+    "bytes": 0
+  },
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.2.1/wire-front-low-console.png",
+      "previews/v0.2.1/wire-front-low-console-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.23,
+      0.15,
+      0.09
+    ],
+    [
+      0.12,
+      0.14,
+      0.16
+    ],
+    [
+      0.045,
+      0.05,
+      0.055
+    ]
+  ],
+  "colourTags": [
+    "charcoal",
+    "black",
+    "weathered wood"
+  ],
+  "materials": [
+    "metal",
+    "wood"
+  ],
+  "searchAliases": [
+    "storage",
+    "doors"
+  ],
+  "materialSlots": [
+    {
+      "id": "metal",
+      "material": "metal",
+      "recolourable": true
+    },
+    {
+      "id": "wood",
+      "material": "wood",
+      "recolourable": true
+    }
+  ]
+}

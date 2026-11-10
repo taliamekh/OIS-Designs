@@ -1,0 +1,183 @@
+{
+  "id": "ois.design.reclining-lounge",
+  "sha256": "unexported-source-5d895d48596d1904d58f6d46821e68930ff8026c89e330f0004ff02f8ca332ff",
+  "sourceModel": null,
+  "sourceSha256": "5d895d48596d1904d58f6d46821e68930ff8026c89e330f0004ff02f8ca332ff",
+  "partCount": 16,
+  "componentCount": 1,
+  "components": [
+    {
+      "parts": [
+        "leg",
+        "leg.001",
+        "leg.002",
+        "leg.003",
+        "structural chair seat pan",
+        "seat",
+        "piping",
+        "backrest",
+        "extended footrest",
+        "piping.001",
+        "footrest linkage",
+        "footrest linkage.001",
+        "arm",
+        "arm upright",
+        "arm.001",
+        "arm upright.001"
+      ],
+      "minimum": [
+        -0.3546000123023987,
+        -0.36010488867759705,
+        0.010946487076580524
+      ],
+      "maximum": [
+        0.3546000123023987,
+        0.6906000375747681,
+        1.0437458753585815
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "structural chair seat pan",
+      "b": "leg",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "structural chair seat pan",
+      "b": "leg.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "structural chair seat pan",
+      "b": "leg.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "structural chair seat pan",
+      "b": "leg.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "seat",
+      "b": "leg",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "seat",
+      "b": "leg.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "seat",
+      "b": "leg.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "seat",
+      "b": "leg.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "seat",
+      "b": "structural chair seat pan",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "piping",
+      "b": "seat",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "backrest",
+      "b": "seat",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "extended footrest",
+      "b": "leg.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "extended footrest",
+      "b": "leg.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "extended footrest",
+      "b": "structural chair seat pan",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "piping.001",
+      "b": "leg.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "piping.001",
+      "b": "leg.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "piping.001",
+      "b": "extended footrest",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "footrest linkage",
+      "b": "extended footrest",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "footrest linkage.001",
+      "b": "extended footrest",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "arm upright",
+      "b": "seat",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "arm upright",
+      "b": "arm",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "arm upright.001",
+      "b": "seat",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "arm upright.001",
+      "b": "arm.001",
+      "method": "triangle intersection",
+      "distance": 0
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; live-source reports are NOT exported-asset evidence; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T03:14:59Z"
+}

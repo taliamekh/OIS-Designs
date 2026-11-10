@@ -1,0 +1,309 @@
+{
+  "designId": "ois.design.hinged-futon",
+  "familyId": "ois.family.hinged-futon",
+  "id": "ois.design.hinged-futon",
+  "name": "Timber folding futon",
+  "roomTags": [
+    "living"
+  ],
+  "theme": "soft-japandi",
+  "builder": "seating",
+  "parameters": {
+    "form": "futon",
+    "w": 1.95
+  },
+  "distinction": "Inclined continuous folding back with exposed hinge rails.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted",
+    "sourceSnapshot": "sources/pipeline-03467462e382a0ba.py",
+    "sourceSha256": "03467462e382a0ba245e8af2ab96ea7d469161e176c6f1698b26d422f848f108",
+    "parametersFile": "sources/v0.3.0/hinged-futon.parameters.json"
+  },
+  "constructionKey": "seating|futon|{\"base\": \"taper\"}",
+  "sha256": "4647ce30e0a00c7a5e0f862079d89d6ba77dd5d456ac6ca350785f0c1497f30f",
+  "bytes": 394572,
+  "triangles": 1112,
+  "vertices": 1518,
+  "drawPrimitives": 3,
+  "bounds": {
+    "min": [
+      -0.982125621827794,
+      -1.6737885605300207e-08,
+      -0.42628300319714496
+    ],
+    "max": [
+      0.9821255477960633,
+      0.9448049813508987,
+      0.42628299486599996
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 1.9642511696238572,
+    "depth": 0.8525659980631449,
+    "height": 0.9448049980887844
+  },
+  "footprint": [
+    [
+      -0.982125621827794,
+      -0.42628300319714496
+    ],
+    [
+      0.9821255477960633,
+      -0.42628300319714496
+    ],
+    [
+      0.9821255477960633,
+      0.42628299486599996
+    ],
+    [
+      -0.982125621827794,
+      0.42628299486599996
+    ]
+  ],
+  "variantSlots": [
+    "fabric",
+    "linen",
+    "wood"
+  ],
+  "requiredExtensions": [],
+  "textures": {
+    "count": 9,
+    "bytes": 334041,
+    "estimatedRgbaBytesWithMipmaps": 3145728,
+    "images": [
+      {
+        "name": "fabric-normal",
+        "bytes": 1016,
+        "width": 256,
+        "height": 256,
+        "sha256": "5bbac800a495c0a30042ad832a3ea134aa66afad65fa0dde59103733a54e886c"
+      },
+      {
+        "name": "fabric-neutral-base",
+        "bytes": 4495,
+        "width": 256,
+        "height": 256,
+        "sha256": "898e022cb5ea1b2663884e7306bbd2c09f25ab2827974bd1328a81bcab08b1ac"
+      },
+      {
+        "name": "fabric-roughness",
+        "bytes": 2761,
+        "width": 256,
+        "height": 256,
+        "sha256": "397e1c119de5e5939f7f1260cfeb7a715d695240776f51b974989073b638eeb6"
+      },
+      {
+        "name": "linen-normal",
+        "bytes": 76292,
+        "width": 256,
+        "height": 256,
+        "sha256": "70b25282eb1daf2d7d6faad88d6b47ca1298d395b833d36d3ba28a542ed6d36e"
+      },
+      {
+        "name": "linen-neutral-base",
+        "bytes": 34309,
+        "width": 256,
+        "height": 256,
+        "sha256": "047df909f3cecf9ec0cdef6c8e2a92dea40e0116922d5b7a25bc7da6481e1ec9"
+      },
+      {
+        "name": "linen-roughness",
+        "bytes": 40384,
+        "width": 256,
+        "height": 256,
+        "sha256": "c31825bb85668747311407d1a5e5d9a56bc0e65aefbf79936d1d4665e83fdb45"
+      },
+      {
+        "name": "wood-normal",
+        "bytes": 102088,
+        "width": 256,
+        "height": 256,
+        "sha256": "6b8efcb5004552d884a527017922bfb5260b8bda4dc77f1365fe1cb8a09f1d56"
+      },
+      {
+        "name": "wood-neutral-base",
+        "bytes": 39353,
+        "width": 256,
+        "height": 256,
+        "sha256": "ddcf839a2addae78944a2d7a0588f9c2055852fc4ccb4e2dae2095d28541de44"
+      },
+      {
+        "name": "wood-roughness",
+        "bytes": 33343,
+        "width": 256,
+        "height": 256,
+        "sha256": "afc2180e58360e76fb178b52f225f7ba9045a7d0d266f10886763b0590335a1a"
+      }
+    ]
+  },
+  "version": "0.3.0",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.hinged-futon",
+  "file": "assets/v0.3.0/hinged-futon.glb",
+  "sourceModel": "sources/v0.3.0/hinged-futon.blend",
+  "thumbnail": "previews/v0.3.0/hinged-futon.png",
+  "backThumbnail": "previews/v0.3.0/hinged-futon-back.png",
+  "category": "seating",
+  "subtype": "futon",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.3.0/hinged-futon.png",
+      "previews/v0.3.0/hinged-futon-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.5799999833106995,
+      0.5400000214576721,
+      0.4399999976158142
+    ],
+    [
+      0.8399999737739563,
+      0.800000011920929,
+      0.6899999976158142
+    ],
+    [
+      0.3400000035762787,
+      0.2800000011920929,
+      0.1899999976158142
+    ]
+  ],
+  "colourTags": [
+    "flax",
+    "smoked ash",
+    "warm ivory"
+  ],
+  "materials": [
+    "textile",
+    "wood"
+  ],
+  "searchAliases": [
+    "living",
+    "futon"
+  ],
+  "materialSlots": [
+    {
+      "id": "fabric",
+      "material": "fabric",
+      "recolourable": true
+    },
+    {
+      "id": "linen",
+      "material": "linen",
+      "recolourable": true
+    },
+    {
+      "id": "wood",
+      "material": "wood",
+      "recolourable": true
+    }
+  ],
+  "supportChecks": {
+    "method": "source-part upper-end ray to non-leg geometry, 15mm join tolerance",
+    "status": "needs-visual-review",
+    "parts": [
+      {
+        "part": "leg",
+        "gapMetresAlongSupport": 0.042273795604705816,
+        "status": "needs-visual-review"
+      },
+      {
+        "part": "leg.001",
+        "gapMetresAlongSupport": 0.04227354228496552,
+        "status": "needs-visual-review"
+      },
+      {
+        "part": "leg.002",
+        "gapMetresAlongSupport": 0.04227352738380433,
+        "status": "needs-visual-review"
+      },
+      {
+        "part": "leg.003",
+        "gapMetresAlongSupport": 0.04227381050586701,
+        "status": "needs-visual-review"
+      }
+    ],
+    "limitation": "screening only; hidden joints, whole-model connectivity, load paths and safety remain visual/product-review concerns"
+  },
+  "materialFinish": {
+    "source": "materials/v1/manifest.json",
+    "repeatMetres": {
+      "wood": [
+        0.16,
+        0.75
+      ],
+      "fabric": [
+        0.14,
+        0.14
+      ],
+      "linen": [
+        0.12,
+        0.12
+      ]
+    },
+    "maps": "original base colour / roughness / tangent normal, embedded in GLB"
+  },
+  "appearanceVariants": [
+    {
+      "id": "ois.design.hinged-futon.finish.sage",
+      "name": "Sage textile",
+      "materialOverrides": {
+        "fabric": {
+          "baseColorFactor": [
+            0.25,
+            0.37,
+            0.28,
+            1
+          ]
+        }
+      }
+    },
+    {
+      "id": "ois.design.hinged-futon.finish.clay",
+      "name": "Clay textile",
+      "materialOverrides": {
+        "fabric": {
+          "baseColorFactor": [
+            0.45,
+            0.23,
+            0.15,
+            1
+          ]
+        }
+      }
+    }
+  ],
+  "variantColourTags": [
+    "sage green",
+    "clay brown"
+  ],
+  "variantCountNote": "appearance overrides share this one design; do not increase distinct count",
+  "geometryHash": "b2f3053019adbd159514dce59372a91747b01dfe610dfbb71d922c0cef15a3a2",
+  "normalizedMirrorGeometryHash": "1d4143d2d53036a1534834675a4887b70e4c6c3768d51fb512fbb21b84ecfdc2"
+}

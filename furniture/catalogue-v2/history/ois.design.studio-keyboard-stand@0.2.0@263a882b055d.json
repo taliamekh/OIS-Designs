@@ -1,0 +1,163 @@
+{
+  "designId": "ois.design.studio-keyboard-stand",
+  "familyId": "ois.family.studio-keyboard-stand",
+  "id": "ois.design.studio-keyboard-stand",
+  "name": "Studio keyboard stand",
+  "roomTags": [
+    "office"
+  ],
+  "theme": "city-loft",
+  "builder": "special",
+  "parameters": {
+    "form": "keyboard",
+    "w": 1.2,
+    "d": 0.36,
+    "h": 0.75
+  },
+  "distinction": "X support carries a real housing and individually modelled keys.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted"
+  },
+  "constructionKey": "special|keyboard|{\"cols\": 1, \"front\": \"cane\", \"panels\": 3}",
+  "sha256": "263a882b055d4798e5a945239275ff07a435bb9ea9f4221d485a02d2ae0c4a31",
+  "bytes": 519976,
+  "triangles": 9452,
+  "vertices": 14365,
+  "drawPrimitives": 3,
+  "bounds": {
+    "min": [
+      -0.6000000238418579,
+      -5.702673266938518e-08,
+      -0.1979999952018261
+    ],
+    "max": [
+      0.6000000238418579,
+      0.8073403015732765,
+      0.18000000715255737
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 1.2000000476837158,
+    "depth": 0.37800000235438347,
+    "height": 0.8073403586000092
+  },
+  "footprint": [
+    [
+      -0.6000000238418579,
+      -0.1979999952018261
+    ],
+    [
+      0.6000000238418579,
+      -0.1979999952018261
+    ],
+    [
+      0.6000000238418579,
+      0.18000000715255737
+    ],
+    [
+      -0.6000000238418579,
+      0.18000000715255737
+    ]
+  ],
+  "variantSlots": [
+    "dark",
+    "linen",
+    "metal"
+  ],
+  "requiredExtensions": [],
+  "version": "0.2.0",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.studio-keyboard-stand",
+  "file": "assets/v0.2.0/studio-keyboard-stand.glb",
+  "sourceModel": "sources/v0.2.0/studio-keyboard-stand.blend",
+  "thumbnail": "previews/v0.2.0/studio-keyboard-stand.png",
+  "backThumbnail": "previews/v0.2.0/studio-keyboard-stand-back.png",
+  "category": "specialty",
+  "subtype": "keyboard",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "textures": {
+    "count": 0,
+    "bytes": 0
+  },
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.2.0/studio-keyboard-stand.png",
+      "previews/v0.2.0/studio-keyboard-stand-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.23,
+      0.15,
+      0.09
+    ],
+    [
+      0.12,
+      0.14,
+      0.16
+    ],
+    [
+      0.045,
+      0.05,
+      0.055
+    ]
+  ],
+  "colourTags": [
+    "charcoal",
+    "black",
+    "weathered wood"
+  ],
+  "materials": [
+    "metal",
+    "paint",
+    "textile"
+  ],
+  "searchAliases": [
+    "office",
+    "keyboard"
+  ],
+  "materialSlots": [
+    {
+      "id": "dark",
+      "material": "dark",
+      "recolourable": true
+    },
+    {
+      "id": "linen",
+      "material": "linen",
+      "recolourable": true
+    },
+    {
+      "id": "metal",
+      "material": "metal",
+      "recolourable": true
+    }
+  ],
+  "geometryHash": "c3b380e28e327dc03e331e28bac68600ce3f015afb868d927ae92d276d904bb6",
+  "normalizedMirrorGeometryHash": "2e27cc9ac2daa8541bd37c6767e6cd7882939ccd5b7e68402bc63cb193eec275"
+}

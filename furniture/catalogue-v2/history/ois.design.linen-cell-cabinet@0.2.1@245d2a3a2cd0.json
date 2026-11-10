@@ -1,0 +1,159 @@
+{
+  "designId": "ois.design.linen-cell-cabinet",
+  "familyId": "ois.family.linen-cell-cabinet",
+  "id": "ois.design.linen-cell-cabinet",
+  "name": "Linen cell cabinet",
+  "roomTags": [
+    "storage"
+  ],
+  "theme": "coastal-linen",
+  "builder": "case",
+  "parameters": {
+    "form": "linen",
+    "front": "cane",
+    "w": 1.2,
+    "h": 1.25,
+    "rows": 2,
+    "cols": 3
+  },
+  "distinction": "Six wide cane-front storage compartments.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted",
+    "sourceSnapshot": "sources/pipeline-e797cb5c88af56f5.py",
+    "sourceSha256": "e797cb5c88af56f5b4455d819a512ab9be55f40e1fa2d0cb542aca7bb84b906f",
+    "parametersFile": "sources/v0.2.1/linen-cell-cabinet.parameters.json"
+  },
+  "constructionKey": "case|linen|{\"base\": \"taper\", \"cols\": 3, \"doors\": 2, \"drawersTop\": false, \"front\": \"cane\", \"rows\": 2}",
+  "sha256": "245d2a3a2cd0109b5afd9fe08bc62b9b83b342e3489137d13eb5a45f16974d12",
+  "bytes": 438632,
+  "triangles": 9112,
+  "vertices": 11915,
+  "drawPrimitives": 2,
+  "bounds": {
+    "min": [
+      -0.6000000660788838,
+      -3.5593905489683664e-08,
+      -0.22950024351468296
+    ],
+    "max": [
+      0.6000002448087054,
+      1.2428822597918012,
+      0.2000000631608086
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 1.2000003108875892,
+    "depth": 0.42950030667549155,
+    "height": 1.2428822953857068
+  },
+  "footprint": [
+    [
+      -0.6000000660788838,
+      -0.22950024351468296
+    ],
+    [
+      0.6000002448087054,
+      -0.22950024351468296
+    ],
+    [
+      0.6000002448087054,
+      0.2000000631608086
+    ],
+    [
+      -0.6000000660788838,
+      0.2000000631608086
+    ]
+  ],
+  "variantSlots": [
+    "cane",
+    "wood"
+  ],
+  "requiredExtensions": [],
+  "version": "0.2.1",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.linen-cell-cabinet",
+  "file": "assets/v0.2.1/linen-cell-cabinet.glb",
+  "sourceModel": "sources/v0.2.1/linen-cell-cabinet.blend",
+  "thumbnail": "previews/v0.2.1/linen-cell-cabinet.png",
+  "backThumbnail": "previews/v0.2.1/linen-cell-cabinet-back.png",
+  "category": "storage",
+  "subtype": "linen",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "textures": {
+    "count": 0,
+    "bytes": 0
+  },
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.2.1/linen-cell-cabinet.png",
+      "previews/v0.2.1/linen-cell-cabinet-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.66,
+      0.53,
+      0.34
+    ],
+    [
+      0.36,
+      0.53,
+      0.58
+    ],
+    [
+      0.64,
+      0.6,
+      0.48
+    ]
+  ],
+  "colourTags": [
+    "mist blue",
+    "sand",
+    "pale oak"
+  ],
+  "materials": [
+    "wood",
+    "woven-fibre"
+  ],
+  "searchAliases": [
+    "storage",
+    "linen"
+  ],
+  "materialSlots": [
+    {
+      "id": "cane",
+      "material": "cane",
+      "recolourable": true
+    },
+    {
+      "id": "wood",
+      "material": "wood",
+      "recolourable": true
+    }
+  ]
+}

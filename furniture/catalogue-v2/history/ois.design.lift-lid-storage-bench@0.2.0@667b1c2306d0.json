@@ -1,0 +1,154 @@
+{
+  "designId": "ois.design.lift-lid-storage-bench",
+  "familyId": "ois.family.lift-lid-storage-bench",
+  "id": "ois.design.lift-lid-storage-bench",
+  "name": "Lift-lid storage bench",
+  "roomTags": [
+    "entry-hall"
+  ],
+  "theme": "walnut-form",
+  "builder": "sculptural",
+  "parameters": {
+    "form": "storage-bench",
+    "w": 1.15,
+    "d": 0.42,
+    "h": 0.45
+  },
+  "distinction": "Slatted seat lifts over a fully enclosed storage box.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted"
+  },
+  "constructionKey": "sculptural|storage-bench|{}",
+  "sha256": "667b1c2306d07eafb132856ce6de4b0352cebe4b0674b956f47cebef444d4b06",
+  "bytes": 95696,
+  "triangles": 1992,
+  "vertices": 2538,
+  "drawPrimitives": 2,
+  "bounds": {
+    "min": [
+      -0.5749999820644113,
+      -4.563590602635337e-08,
+      -0.21599999349564314
+    ],
+    "max": [
+      0.5750002772639853,
+      0.4619337676601783,
+      0.21000002291933634
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 1.1500002593283964,
+    "depth": 0.4260000164149795,
+    "height": 0.4619338132960843
+  },
+  "footprint": [
+    [
+      -0.5749999820644113,
+      -0.21599999349564314
+    ],
+    [
+      0.5750002772639853,
+      -0.21599999349564314
+    ],
+    [
+      0.5750002772639853,
+      0.21000002291933634
+    ],
+    [
+      -0.5749999820644113,
+      0.21000002291933634
+    ]
+  ],
+  "variantSlots": [
+    "metal",
+    "wood"
+  ],
+  "requiredExtensions": [],
+  "version": "0.2.0",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.lift-lid-storage-bench",
+  "file": "assets/v0.2.0/lift-lid-storage-bench.glb",
+  "sourceModel": "sources/v0.2.0/lift-lid-storage-bench.blend",
+  "thumbnail": "previews/v0.2.0/lift-lid-storage-bench.png",
+  "backThumbnail": "previews/v0.2.0/lift-lid-storage-bench-back.png",
+  "category": "sculptural-furniture",
+  "subtype": "storage-bench",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "textures": {
+    "count": 0,
+    "bytes": 0
+  },
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.2.0/lift-lid-storage-bench.png",
+      "previews/v0.2.0/lift-lid-storage-bench-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.22,
+      0.09,
+      0.038
+    ],
+    [
+      0.39,
+      0.18,
+      0.07
+    ],
+    [
+      0.47,
+      0.3,
+      0.1
+    ]
+  ],
+  "colourTags": [
+    "walnut",
+    "tobacco",
+    "brass"
+  ],
+  "materials": [
+    "metal",
+    "wood"
+  ],
+  "searchAliases": [
+    "entry hall",
+    "storage bench"
+  ],
+  "materialSlots": [
+    {
+      "id": "metal",
+      "material": "metal",
+      "recolourable": true
+    },
+    {
+      "id": "wood",
+      "material": "wood",
+      "recolourable": true
+    }
+  ]
+}

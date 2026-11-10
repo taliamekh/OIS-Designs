@@ -1,0 +1,167 @@
+{
+  "designId": "ois.design.perpendicular-bunk",
+  "familyId": "ois.family.perpendicular-bunk",
+  "id": "ois.design.perpendicular-bunk",
+  "name": "Perpendicular lower bunk",
+  "roomTags": [
+    "children"
+  ],
+  "theme": "coastal-linen",
+  "builder": "bed",
+  "parameters": {
+    "form": "bunk-offset",
+    "size": "twin"
+  },
+  "distinction": "Lower mattress turns ninety degrees and extends beyond upper footprint.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted"
+  },
+  "constructionKey": "bed|bunk-offset|{}",
+  "bedSize": "twin",
+  "mattressMetres": [
+    0.9652,
+    1.905,
+    0.22
+  ],
+  "safetyReviewRequired": true,
+  "sha256": "eddb1c31d6ec60226c63a10dded615eb1209f69a60c24e30c1c242ac8431d60f",
+  "bytes": 203800,
+  "triangles": 4104,
+  "vertices": 5489,
+  "drawPrimitives": 3,
+  "bounds": {
+    "min": [
+      -0.6929403109342822,
+      -2.3613032751335084e-08,
+      -1.210439979128913
+    ],
+    "max": [
+      1.3320603464079355,
+      1.9564773806231297,
+      1.0425000460627614
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 2.0250006573422175,
+    "depth": 2.2529400251916742,
+    "height": 1.9564774042361623
+  },
+  "footprint": [
+    [
+      -0.6929403109342822,
+      -1.210439979128913
+    ],
+    [
+      1.3320603464079355,
+      -1.210439979128913
+    ],
+    [
+      1.3320603464079355,
+      1.0425000460627614
+    ],
+    [
+      -0.6929403109342822,
+      1.0425000460627614
+    ]
+  ],
+  "variantSlots": [
+    "fabric",
+    "linen",
+    "wood"
+  ],
+  "requiredExtensions": [],
+  "version": "0.2.0",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.perpendicular-bunk",
+  "file": "assets/v0.2.0/perpendicular-bunk.glb",
+  "sourceModel": "sources/v0.2.0/perpendicular-bunk.blend",
+  "thumbnail": "previews/v0.2.0/perpendicular-bunk.png",
+  "backThumbnail": "previews/v0.2.0/perpendicular-bunk-back.png",
+  "category": "beds",
+  "subtype": "bunk-offset",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "textures": {
+    "count": 0,
+    "bytes": 0
+  },
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.2.0/perpendicular-bunk.png",
+      "previews/v0.2.0/perpendicular-bunk-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.66,
+      0.53,
+      0.34
+    ],
+    [
+      0.36,
+      0.53,
+      0.58
+    ],
+    [
+      0.64,
+      0.6,
+      0.48
+    ]
+  ],
+  "colourTags": [
+    "mist blue",
+    "sand",
+    "pale oak"
+  ],
+  "materials": [
+    "textile",
+    "wood"
+  ],
+  "searchAliases": [
+    "children",
+    "bunk offset"
+  ],
+  "materialSlots": [
+    {
+      "id": "fabric",
+      "material": "fabric",
+      "recolourable": true
+    },
+    {
+      "id": "linen",
+      "material": "linen",
+      "recolourable": true
+    },
+    {
+      "id": "wood",
+      "material": "wood",
+      "recolourable": true
+    }
+  ],
+  "geometryHash": "0a71a962e473586b37621cca3b703d1a55a5d283972a1471f713a6554d9b328e",
+  "normalizedMirrorGeometryHash": "00b4f3c85c13c40caf9f90e0ed9415a115b19327707a50c6284bf75104deba0a"
+}

@@ -1,0 +1,157 @@
+{
+  "designId": "ois.design.plan-flatfile",
+  "familyId": "ois.family.plan-flatfile",
+  "id": "ois.design.plan-flatfile",
+  "name": "Architect plan flatfile",
+  "roomTags": [
+    "office"
+  ],
+  "theme": "walnut-form",
+  "builder": "case",
+  "parameters": {
+    "form": "flatfile",
+    "rows": 8,
+    "w": 1.1,
+    "d": 0.75,
+    "h": 0.83
+  },
+  "distinction": "Eight shallow wide plan drawers on a raised timber frame.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted"
+  },
+  "constructionKey": "case|flatfile|{\"base\": \"taper\", \"cols\": 1, \"doors\": 2, \"drawersTop\": false, \"front\": \"slab\", \"rows\": 8}",
+  "sha256": "a9fda267eb1aa77edc4a3cb17a070635b8c3c717668a42020ebaad1b8b8fedeb",
+  "bytes": 158096,
+  "triangles": 3164,
+  "vertices": 4268,
+  "drawPrimitives": 2,
+  "bounds": {
+    "min": [
+      -0.5500000697252526,
+      -2.2272798050337883e-08,
+      -0.431000011973083
+    ],
+    "max": [
+      0.5500001692903433,
+      0.8230943605148909,
+      0.37500002072004474
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 1.1000002390155958,
+    "depth": 0.8060000326931278,
+    "height": 0.823094382787689
+  },
+  "footprint": [
+    [
+      -0.5500000697252526,
+      -0.431000011973083
+    ],
+    [
+      0.5500001692903433,
+      -0.431000011973083
+    ],
+    [
+      0.5500001692903433,
+      0.37500002072004474
+    ],
+    [
+      -0.5500000697252526,
+      0.37500002072004474
+    ]
+  ],
+  "variantSlots": [
+    "metal",
+    "wood"
+  ],
+  "requiredExtensions": [],
+  "version": "0.2.0",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.plan-flatfile",
+  "file": "assets/v0.2.0/plan-flatfile.glb",
+  "sourceModel": "sources/v0.2.0/plan-flatfile.blend",
+  "thumbnail": "previews/v0.2.0/plan-flatfile.png",
+  "backThumbnail": "previews/v0.2.0/plan-flatfile-back.png",
+  "category": "storage",
+  "subtype": "flatfile",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "textures": {
+    "count": 0,
+    "bytes": 0
+  },
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.2.0/plan-flatfile.png",
+      "previews/v0.2.0/plan-flatfile-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.22,
+      0.09,
+      0.038
+    ],
+    [
+      0.39,
+      0.18,
+      0.07
+    ],
+    [
+      0.47,
+      0.3,
+      0.1
+    ]
+  ],
+  "colourTags": [
+    "walnut",
+    "tobacco",
+    "brass"
+  ],
+  "materials": [
+    "metal",
+    "wood"
+  ],
+  "searchAliases": [
+    "office",
+    "flatfile"
+  ],
+  "materialSlots": [
+    {
+      "id": "metal",
+      "material": "metal",
+      "recolourable": true
+    },
+    {
+      "id": "wood",
+      "material": "wood",
+      "recolourable": true
+    }
+  ],
+  "geometryHash": "d6a616efe25e3025c9b95811fc72c152402abd19e89d12759b94910ab1210593",
+  "normalizedMirrorGeometryHash": "0f3b04035cffeb0c5e207bbacdfb09b1de232eb2ca658a8147782baef283d810"
+}

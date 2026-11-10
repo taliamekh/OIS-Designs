@@ -1,0 +1,43 @@
+{
+  "timestamp": "2026-11-10T03:48:18.388Z",
+  "baseURL": "http://localhost:8081",
+  "evidence": "Actual combined room dimensions, floor inheritance/overrides and low adjacent-ceiling opening UI. Isolated validated two-room project.",
+  "storageOracle": {
+    "kind": "Production IndexedStorage.getItem, with its read-only legacy fallback",
+    "file": "mobile/src/storage/indexedStore.ts",
+    "sha256": "9943012679fd85da975028e6165febf8e149242bfef7b0a63f7ab6b98f76383d"
+  },
+  "checks": [
+    {
+      "id": "combined-dimensions-shows-inherited-height",
+      "pass": true
+    },
+    {
+      "id": "editing-height-creates-explicit-override",
+      "pass": true,
+      "observed": {
+        "field": "3.400",
+        "roomOverride": 3.4,
+        "floorDefault": 3,
+        "effective": 3.4
+      }
+    },
+    {
+      "id": "override-keeps-neighbour-and-floor-independent",
+      "pass": true
+    },
+    {
+      "id": "other-room-override-hydrates-independently",
+      "pass": true,
+      "observed": "2.400"
+    },
+    {
+      "id": "door-rejects-lowest-neighbour-ceiling-in-ui",
+      "pass": true,
+      "observed": "QA ceiling inheritance\nLiving room\n6.00 m\n5.00 m\n6.00 m\n5.00 m\nLiving room\n2D\n3D\nWalk\nSingle swing · Tap a wall to place\nDone\nLast opening\nOpening exceeds the lowest ceiling on this wall."
+    }
+  ],
+  "errors": [],
+  "consoleErrors": [],
+  "completed": true
+}

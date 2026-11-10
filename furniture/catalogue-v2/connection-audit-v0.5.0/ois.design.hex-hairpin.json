@@ -1,0 +1,58 @@
+{
+  "id": "ois.design.hex-hairpin",
+  "sha256": "114d41a9a5b9f5efb602c7104c5f5d48890790550afbd15862b22aee3ed60ac1",
+  "sourceModel": "sources/v0.5.0/hex-hairpin.blend",
+  "sourceSha256": "f801c8bc5b897c7191c30f271115abd38a3662e764a1a648e87fa6046a6d5266",
+  "partCount": 5,
+  "componentCount": 1,
+  "components": [
+    {
+      "parts": [
+        "top",
+        "hairpin",
+        "hairpin.001",
+        "hairpin.002",
+        "hairpin.003"
+      ],
+      "minimum": [
+        -0.5400000214576721,
+        -0.26846787333488464,
+        0.0
+      ],
+      "maximum": [
+        0.5400000214576721,
+        0.26846787333488464,
+        0.3839999735355377
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "hairpin",
+      "b": "top",
+      "method": "surface distance",
+      "distance": 0.003498256206512451
+    },
+    {
+      "a": "hairpin.001",
+      "b": "top",
+      "method": "surface distance",
+      "distance": 0.003498256206512451
+    },
+    {
+      "a": "hairpin.002",
+      "b": "top",
+      "method": "surface distance",
+      "distance": 0.003498256206512451
+    },
+    {
+      "a": "hairpin.003",
+      "b": "top",
+      "method": "surface distance",
+      "distance": 0.003498256206512451
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T03:07:32Z"
+}

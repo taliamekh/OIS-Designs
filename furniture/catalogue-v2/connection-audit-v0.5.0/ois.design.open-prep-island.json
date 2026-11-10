@@ -1,0 +1,73 @@
+{
+  "id": "ois.design.open-prep-island",
+  "sha256": "45c5c12464f67905f1ec9272c4cee46a8e0bd98c0a580d4d76399078f88354c9",
+  "sourceModel": "sources/v0.5.0/open-prep-island.blend",
+  "sourceSha256": "113740eb7c3bdb9c312ca46a0710863b068458ec06cb680cf1b23ba9f6e03116",
+  "partCount": 6,
+  "componentCount": 2,
+  "components": [
+    {
+      "parts": [
+        "leg",
+        "leg.001",
+        "leg.002",
+        "leg.003",
+        "open shelf"
+      ],
+      "minimum": [
+        -0.5926511883735657,
+        -0.33265888690948486,
+        -1.3271346688270569e-08
+      ],
+      "maximum": [
+        0.5926511883735657,
+        0.3326587677001953,
+        0.8093491792678833
+      ]
+    },
+    {
+      "parts": [
+        "worktop"
+      ],
+      "minimum": [
+        -0.6299999952316284,
+        -0.3799999952316284,
+        0.868797242641449
+      ],
+      "maximum": [
+        0.6299999952316284,
+        0.3799999952316284,
+        0.9087972044944763
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "open shelf",
+      "b": "leg",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "open shelf",
+      "b": "leg.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "open shelf",
+      "b": "leg.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "open shelf",
+      "b": "leg.003",
+      "method": "triangle intersection",
+      "distance": 0
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T03:07:33Z"
+}

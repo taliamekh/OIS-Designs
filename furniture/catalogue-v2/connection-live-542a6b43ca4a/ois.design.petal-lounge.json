@@ -1,0 +1,86 @@
+{
+  "id": "ois.design.petal-lounge",
+  "sha256": "unexported-source-542a6b43ca4abc9d4f4ac88dc7bd803746dd198c350ababac32d73431ffd328b",
+  "sourceModel": null,
+  "sourceSha256": "542a6b43ca4abc9d4f4ac88dc7bd803746dd198c350ababac32d73431ffd328b",
+  "partCount": 9,
+  "componentCount": 1,
+  "components": [
+    {
+      "parts": [
+        "leg",
+        "leg.001",
+        "leg.002",
+        "leg.003",
+        "curved chair structural seat pan",
+        "curved seat pad",
+        "curved enclosing shell",
+        "petal wing",
+        "petal wing.001"
+      ],
+      "minimum": [
+        -0.4000000059604645,
+        -0.3799999952316284,
+        0.01118443626910448
+      ],
+      "maximum": [
+        0.4000000059604645,
+        0.3417999744415283,
+        0.9200000166893005
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "curved chair structural seat pan",
+      "b": "leg",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "curved chair structural seat pan",
+      "b": "leg.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "curved chair structural seat pan",
+      "b": "leg.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "curved chair structural seat pan",
+      "b": "leg.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "curved seat pad",
+      "b": "curved chair structural seat pan",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "curved enclosing shell",
+      "b": "curved chair structural seat pan",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "petal wing",
+      "b": "curved enclosing shell",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "petal wing.001",
+      "b": "curved enclosing shell",
+      "method": "triangle intersection",
+      "distance": 0
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; live-source reports are NOT exported-asset evidence; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T03:31:45Z"
+}

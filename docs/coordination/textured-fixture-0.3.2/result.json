@@ -1,0 +1,759 @@
+{
+  "threeRevision": "180",
+  "rows": [
+    {
+      "id": "ois.design.rail-frame-sofa",
+      "version": "0.3.2",
+      "sha256": "4ebbfb7c13dc53b853325cf2081a9ac294486a4076ff03a17758b006f97f4ac6",
+      "pass": true,
+      "checks": [
+        {
+          "id": "WORLD-BOUNDS",
+          "pass": true,
+          "errorMetres": 0
+        },
+        {
+          "id": "EMBEDDED-TEXTURES-LOADED",
+          "pass": true,
+          "uniqueTextures": 9
+        },
+        {
+          "id": "DECODED-IMAGE-DIMENSIONS",
+          "pass": true,
+          "images": [
+            {
+              "name": "fabric-neutral-base",
+              "width": 256,
+              "height": 256,
+              "colourSpace": "srgb"
+            },
+            {
+              "name": "fabric-normal",
+              "width": 256,
+              "height": 256,
+              "colourSpace": ""
+            },
+            {
+              "name": "fabric-roughness",
+              "width": 256,
+              "height": 256,
+              "colourSpace": ""
+            },
+            {
+              "name": "linen-neutral-base",
+              "width": 256,
+              "height": 256,
+              "colourSpace": "srgb"
+            },
+            {
+              "name": "linen-normal",
+              "width": 256,
+              "height": 256,
+              "colourSpace": ""
+            },
+            {
+              "name": "linen-roughness",
+              "width": 256,
+              "height": 256,
+              "colourSpace": ""
+            },
+            {
+              "name": "wood-neutral-base",
+              "width": 256,
+              "height": 256,
+              "colourSpace": "srgb"
+            },
+            {
+              "name": "wood-normal",
+              "width": 256,
+              "height": 256,
+              "colourSpace": ""
+            },
+            {
+              "name": "wood-roughness",
+              "width": 256,
+              "height": 256,
+              "colourSpace": ""
+            }
+          ]
+        },
+        {
+          "id": "BINARY-TINT-FACTOR:fabric",
+          "pass": true
+        },
+        {
+          "id": "COLOUR-SPACE:fabric",
+          "pass": true
+        },
+        {
+          "id": "DATA-SPACE:fabric:normalMap",
+          "pass": true
+        },
+        {
+          "id": "DATA-SPACE:fabric:roughnessMap",
+          "pass": true
+        },
+        {
+          "id": "BINARY-TINT-FACTOR:linen",
+          "pass": true
+        },
+        {
+          "id": "COLOUR-SPACE:linen",
+          "pass": true
+        },
+        {
+          "id": "DATA-SPACE:linen:normalMap",
+          "pass": true
+        },
+        {
+          "id": "DATA-SPACE:linen:roughnessMap",
+          "pass": true
+        },
+        {
+          "id": "BINARY-TINT-FACTOR:wood",
+          "pass": true
+        },
+        {
+          "id": "COLOUR-SPACE:wood",
+          "pass": true
+        },
+        {
+          "id": "DATA-SPACE:wood:normalMap",
+          "pass": true
+        },
+        {
+          "id": "DATA-SPACE:wood:roughnessMap",
+          "pass": true
+        },
+        {
+          "id": "EDITABLE-SLOT-RENDERS",
+          "pass": true,
+          "slot": "fabric",
+          "changedMaterials": 1,
+          "meanChannelDifference": 11.47218482905983
+        },
+        {
+          "id": "ORIGINAL-MATERIAL-ISOLATION",
+          "pass": true
+        },
+        {
+          "id": "RENDERER-RESOURCE-RETURN",
+          "pass": true,
+          "during": {
+            "geometries": 3,
+            "textures": 9
+          },
+          "after": {
+            "geometries": 0,
+            "textures": 0
+          }
+        }
+      ],
+      "materialInfo": [
+        {
+          "name": "fabric",
+          "colour": [
+            0.7300000190734863,
+            0.699999988079071,
+            0.6100000143051147
+          ],
+          "map": true,
+          "normalMap": true,
+          "roughnessMap": true
+        },
+        {
+          "name": "linen",
+          "colour": [
+            0.8399999737739563,
+            0.800000011920929,
+            0.6899999976158142
+          ],
+          "map": true,
+          "normalMap": true,
+          "roughnessMap": true
+        },
+        {
+          "name": "wood",
+          "colour": [
+            0.5799999833106995,
+            0.38999998569488525,
+            0.20000000298023224
+          ],
+          "map": true,
+          "normalMap": true,
+          "roughnessMap": true
+        }
+      ],
+      "browserMilliseconds": 688.1000000014901
+    },
+    {
+      "id": "ois.design.barrel-enclosure",
+      "version": "0.3.2",
+      "sha256": "cdbcdc16771405fef9553f13ff7f67a6add5192790229c2effe825d9367af466",
+      "pass": true,
+      "checks": [
+        {
+          "id": "WORLD-BOUNDS",
+          "pass": true,
+          "errorMetres": 0
+        },
+        {
+          "id": "EMBEDDED-TEXTURES-LOADED",
+          "pass": true,
+          "uniqueTextures": 6
+        },
+        {
+          "id": "DECODED-IMAGE-DIMENSIONS",
+          "pass": true,
+          "images": [
+            {
+              "name": "fabric-neutral-base",
+              "width": 256,
+              "height": 256,
+              "colourSpace": "srgb"
+            },
+            {
+              "name": "fabric-normal",
+              "width": 256,
+              "height": 256,
+              "colourSpace": ""
+            },
+            {
+              "name": "fabric-roughness",
+              "width": 256,
+              "height": 256,
+              "colourSpace": ""
+            },
+            {
+              "name": "wood-neutral-base",
+              "width": 256,
+              "height": 256,
+              "colourSpace": "srgb"
+            },
+            {
+              "name": "wood-normal",
+              "width": 256,
+              "height": 256,
+              "colourSpace": ""
+            },
+            {
+              "name": "wood-roughness",
+              "width": 256,
+              "height": 256,
+              "colourSpace": ""
+            }
+          ]
+        },
+        {
+          "id": "BINARY-TINT-FACTOR:fabric",
+          "pass": true
+        },
+        {
+          "id": "COLOUR-SPACE:fabric",
+          "pass": true
+        },
+        {
+          "id": "DATA-SPACE:fabric:normalMap",
+          "pass": true
+        },
+        {
+          "id": "DATA-SPACE:fabric:roughnessMap",
+          "pass": true
+        },
+        {
+          "id": "BINARY-TINT-FACTOR:wood",
+          "pass": true
+        },
+        {
+          "id": "COLOUR-SPACE:wood",
+          "pass": true
+        },
+        {
+          "id": "DATA-SPACE:wood:normalMap",
+          "pass": true
+        },
+        {
+          "id": "DATA-SPACE:wood:roughnessMap",
+          "pass": true
+        },
+        {
+          "id": "EDITABLE-SLOT-RENDERS",
+          "pass": true,
+          "slot": "fabric",
+          "changedMaterials": 1,
+          "meanChannelDifference": 22.986832264957265
+        },
+        {
+          "id": "ORIGINAL-MATERIAL-ISOLATION",
+          "pass": true
+        },
+        {
+          "id": "RENDERER-RESOURCE-RETURN",
+          "pass": true,
+          "during": {
+            "geometries": 2,
+            "textures": 6
+          },
+          "after": {
+            "geometries": 0,
+            "textures": 0
+          }
+        }
+      ],
+      "materialInfo": [
+        {
+          "name": "fabric",
+          "colour": [
+            0.5799999833106995,
+            0.5400000214576721,
+            0.4399999976158142
+          ],
+          "map": true,
+          "normalMap": true,
+          "roughnessMap": true
+        },
+        {
+          "name": "wood",
+          "colour": [
+            0.3400000035762787,
+            0.2800000011920929,
+            0.1899999976158142
+          ],
+          "map": true,
+          "normalMap": true,
+          "roughnessMap": true
+        }
+      ],
+      "browserMilliseconds": 147.70000000298023
+    },
+    {
+      "id": "ois.design.draped-canopy-bed",
+      "version": "0.3.2",
+      "sha256": "926470e6b52ed710f3015fa677a15dd848e2c32978d56a5f86183951a8f98387",
+      "pass": true,
+      "checks": [
+        {
+          "id": "WORLD-BOUNDS",
+          "pass": true,
+          "errorMetres": 0
+        },
+        {
+          "id": "EMBEDDED-TEXTURES-LOADED",
+          "pass": true,
+          "uniqueTextures": 9
+        },
+        {
+          "id": "DECODED-IMAGE-DIMENSIONS",
+          "pass": true,
+          "images": [
+            {
+              "name": "fabric-neutral-base",
+              "width": 256,
+              "height": 256,
+              "colourSpace": "srgb"
+            },
+            {
+              "name": "fabric-normal",
+              "width": 256,
+              "height": 256,
+              "colourSpace": ""
+            },
+            {
+              "name": "fabric-roughness",
+              "width": 256,
+              "height": 256,
+              "colourSpace": ""
+            },
+            {
+              "name": "linen-neutral-base",
+              "width": 256,
+              "height": 256,
+              "colourSpace": "srgb"
+            },
+            {
+              "name": "linen-normal",
+              "width": 256,
+              "height": 256,
+              "colourSpace": ""
+            },
+            {
+              "name": "linen-roughness",
+              "width": 256,
+              "height": 256,
+              "colourSpace": ""
+            },
+            {
+              "name": "wood-neutral-base",
+              "width": 256,
+              "height": 256,
+              "colourSpace": "srgb"
+            },
+            {
+              "name": "wood-normal",
+              "width": 256,
+              "height": 256,
+              "colourSpace": ""
+            },
+            {
+              "name": "wood-roughness",
+              "width": 256,
+              "height": 256,
+              "colourSpace": ""
+            }
+          ]
+        },
+        {
+          "id": "BINARY-TINT-FACTOR:fabric",
+          "pass": true
+        },
+        {
+          "id": "COLOUR-SPACE:fabric",
+          "pass": true
+        },
+        {
+          "id": "DATA-SPACE:fabric:normalMap",
+          "pass": true
+        },
+        {
+          "id": "DATA-SPACE:fabric:roughnessMap",
+          "pass": true
+        },
+        {
+          "id": "BINARY-TINT-FACTOR:linen",
+          "pass": true
+        },
+        {
+          "id": "COLOUR-SPACE:linen",
+          "pass": true
+        },
+        {
+          "id": "DATA-SPACE:linen:normalMap",
+          "pass": true
+        },
+        {
+          "id": "DATA-SPACE:linen:roughnessMap",
+          "pass": true
+        },
+        {
+          "id": "BINARY-TINT-FACTOR:wood",
+          "pass": true
+        },
+        {
+          "id": "COLOUR-SPACE:wood",
+          "pass": true
+        },
+        {
+          "id": "DATA-SPACE:wood:normalMap",
+          "pass": true
+        },
+        {
+          "id": "DATA-SPACE:wood:roughnessMap",
+          "pass": true
+        },
+        {
+          "id": "EDITABLE-SLOT-RENDERS",
+          "pass": true,
+          "slot": "fabric",
+          "changedMaterials": 1,
+          "meanChannelDifference": 6.916907051282052
+        },
+        {
+          "id": "ORIGINAL-MATERIAL-ISOLATION",
+          "pass": true
+        },
+        {
+          "id": "RENDERER-RESOURCE-RETURN",
+          "pass": true,
+          "during": {
+            "geometries": 3,
+            "textures": 9
+          },
+          "after": {
+            "geometries": 0,
+            "textures": 0
+          }
+        }
+      ],
+      "materialInfo": [
+        {
+          "name": "fabric",
+          "colour": [
+            0.36000001430511475,
+            0.5299999713897705,
+            0.5799999833106995
+          ],
+          "map": true,
+          "normalMap": true,
+          "roughnessMap": true
+        },
+        {
+          "name": "linen",
+          "colour": [
+            0.8399999737739563,
+            0.800000011920929,
+            0.6899999976158142
+          ],
+          "map": true,
+          "normalMap": true,
+          "roughnessMap": true
+        },
+        {
+          "name": "wood",
+          "colour": [
+            0.6600000262260437,
+            0.5299999713897705,
+            0.3400000035762787
+          ],
+          "map": true,
+          "normalMap": true,
+          "roughnessMap": true
+        }
+      ],
+      "browserMilliseconds": 185.89999999850988
+    },
+    {
+      "id": "ois.design.glass-wall-cupboard",
+      "version": "0.3.2",
+      "sha256": "0ae214035326f6816152b0afc14e1078cfb6b59b6cc6ad162f66ce9faa702351",
+      "pass": true,
+      "checks": [
+        {
+          "id": "WORLD-BOUNDS",
+          "pass": true,
+          "errorMetres": 0
+        },
+        {
+          "id": "EMBEDDED-TEXTURES-LOADED",
+          "pass": true,
+          "uniqueTextures": 3
+        },
+        {
+          "id": "DECODED-IMAGE-DIMENSIONS",
+          "pass": true,
+          "images": [
+            {
+              "name": "wood-neutral-base",
+              "width": 256,
+              "height": 256,
+              "colourSpace": "srgb"
+            },
+            {
+              "name": "wood-normal",
+              "width": 256,
+              "height": 256,
+              "colourSpace": ""
+            },
+            {
+              "name": "wood-roughness",
+              "width": 256,
+              "height": 256,
+              "colourSpace": ""
+            }
+          ]
+        },
+        {
+          "id": "BINARY-TINT-FACTOR:dark",
+          "pass": true
+        },
+        {
+          "id": "BINARY-TINT-FACTOR:glass",
+          "pass": true
+        },
+        {
+          "id": "BINARY-TINT-FACTOR:metal",
+          "pass": true
+        },
+        {
+          "id": "BINARY-TINT-FACTOR:wood",
+          "pass": true
+        },
+        {
+          "id": "COLOUR-SPACE:wood",
+          "pass": true
+        },
+        {
+          "id": "DATA-SPACE:wood:normalMap",
+          "pass": true
+        },
+        {
+          "id": "DATA-SPACE:wood:roughnessMap",
+          "pass": true
+        },
+        {
+          "id": "EDITABLE-SLOT-RENDERS",
+          "pass": true,
+          "slot": "dark",
+          "changedMaterials": 1,
+          "meanChannelDifference": 1.5820940170940172
+        },
+        {
+          "id": "ORIGINAL-MATERIAL-ISOLATION",
+          "pass": true
+        },
+        {
+          "id": "RENDERER-RESOURCE-RETURN",
+          "pass": true,
+          "during": {
+            "geometries": 4,
+            "textures": 3
+          },
+          "after": {
+            "geometries": 0,
+            "textures": 0
+          }
+        }
+      ],
+      "materialInfo": [
+        {
+          "name": "dark",
+          "colour": [
+            0.02500000037252903,
+            0.03500000014901161,
+            0.03999999910593033
+          ],
+          "map": false,
+          "normalMap": false,
+          "roughnessMap": false
+        },
+        {
+          "name": "glass",
+          "colour": [
+            0.20000000298023224,
+            0.3199999928474426,
+            0.3499999940395355
+          ],
+          "map": false,
+          "normalMap": false,
+          "roughnessMap": false
+        },
+        {
+          "name": "metal",
+          "colour": [
+            0.6399999856948853,
+            0.6000000238418579,
+            0.47999998927116394
+          ],
+          "map": false,
+          "normalMap": false,
+          "roughnessMap": false
+        },
+        {
+          "name": "wood",
+          "colour": [
+            0.6600000262260437,
+            0.5299999713897705,
+            0.3400000035762787
+          ],
+          "map": true,
+          "normalMap": true,
+          "roughnessMap": true
+        }
+      ],
+      "browserMilliseconds": 366.6000000014901
+    },
+    {
+      "id": "ois.design.rect-trestle-dining",
+      "version": "0.3.2",
+      "sha256": "f12389fa9505fb9ac67448a8ee52bf0c0b6dcee48a7cb5927e4559a7f61aadc7",
+      "pass": true,
+      "checks": [
+        {
+          "id": "WORLD-BOUNDS",
+          "pass": true,
+          "errorMetres": 0
+        },
+        {
+          "id": "EMBEDDED-TEXTURES-LOADED",
+          "pass": true,
+          "uniqueTextures": 3
+        },
+        {
+          "id": "DECODED-IMAGE-DIMENSIONS",
+          "pass": true,
+          "images": [
+            {
+              "name": "wood-neutral-base",
+              "width": 256,
+              "height": 256,
+              "colourSpace": "srgb"
+            },
+            {
+              "name": "wood-normal",
+              "width": 256,
+              "height": 256,
+              "colourSpace": ""
+            },
+            {
+              "name": "wood-roughness",
+              "width": 256,
+              "height": 256,
+              "colourSpace": ""
+            }
+          ]
+        },
+        {
+          "id": "BINARY-TINT-FACTOR:wood",
+          "pass": true
+        },
+        {
+          "id": "COLOUR-SPACE:wood",
+          "pass": true
+        },
+        {
+          "id": "DATA-SPACE:wood:normalMap",
+          "pass": true
+        },
+        {
+          "id": "DATA-SPACE:wood:roughnessMap",
+          "pass": true
+        },
+        {
+          "id": "EDITABLE-SLOT-RENDERS",
+          "pass": true,
+          "slot": "wood",
+          "changedMaterials": 1,
+          "meanChannelDifference": 8.169134615384616
+        },
+        {
+          "id": "ORIGINAL-MATERIAL-ISOLATION",
+          "pass": true
+        },
+        {
+          "id": "RENDERER-RESOURCE-RETURN",
+          "pass": true,
+          "during": {
+            "geometries": 1,
+            "textures": 3
+          },
+          "after": {
+            "geometries": 0,
+            "textures": 0
+          }
+        }
+      ],
+      "materialInfo": [
+        {
+          "name": "wood",
+          "colour": [
+            0.5799999833106995,
+            0.38999998569488525,
+            0.20000000298023224
+          ],
+          "map": true,
+          "normalMap": true,
+          "roughnessMap": true
+        }
+      ],
+      "browserMilliseconds": 124.19999999552965
+    }
+  ],
+  "limits": "Actual browser GLTF decoding/software-WebGL render, per-instance material clone/tint and explicit disposal. Staged content only; not app integration, native GPU/thermal performance or visual/design acceptance.",
+  "checkedAtUtc": "2026-11-10T01:59:09.070Z",
+  "fixture": "furniture/catalogue-v2/fixtures/textured-v0.3.2.json",
+  "fixtureSha256": "ad94017d8ad89a7082aedfb0a7c69312d1f1b4fe99337dd92fb97f08e53b9d03",
+  "errors": [],
+  "warnings": [
+    "[.WebGL-0x2e7c001cdc00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+  ],
+  "pass": true
+}

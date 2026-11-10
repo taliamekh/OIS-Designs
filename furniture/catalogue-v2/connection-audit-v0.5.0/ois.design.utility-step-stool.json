@@ -1,0 +1,71 @@
+{
+  "id": "ois.design.utility-step-stool",
+  "sha256": "0dc5d154844803ff1253b128e88e943e135fc6825531b98bcb633481c0b9e137",
+  "sourceModel": "sources/v0.5.0/utility-step-stool.blend",
+  "sourceSha256": "3f49ef4f87f498be533fab3f9af875b792dc30f3d26b1bf697645bad71b2dc67",
+  "partCount": 6,
+  "componentCount": 1,
+  "components": [
+    {
+      "parts": [
+        "leg",
+        "leg.001",
+        "leg.002",
+        "leg.003",
+        "platform",
+        "step"
+      ],
+      "minimum": [
+        -0.23000000417232513,
+        -0.20999999344348907,
+        3.4924596548080444e-10
+      ],
+      "maximum": [
+        0.23000000417232513,
+        0.25200000405311584,
+        0.27147966623306274
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "platform",
+      "b": "leg",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "platform",
+      "b": "leg.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "platform",
+      "b": "leg.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "platform",
+      "b": "leg.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "step",
+      "b": "leg.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "step",
+      "b": "leg.003",
+      "method": "triangle intersection",
+      "distance": 0
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T03:07:34Z"
+}

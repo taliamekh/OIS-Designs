@@ -1,0 +1,149 @@
+{
+  "designId": "ois.design.kidney-tripod",
+  "familyId": "ois.family.kidney-tripod",
+  "id": "ois.design.kidney-tripod",
+  "name": "Kidney tripod table",
+  "roomTags": [
+    "living"
+  ],
+  "theme": "walnut-form",
+  "builder": "table",
+  "parameters": {
+    "form": "tripod",
+    "w": 1.08,
+    "d": 0.62,
+    "h": 0.39,
+    "shape": "kidney"
+  },
+  "distinction": "Asymmetric kidney top over three radial legs.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted"
+  },
+  "sha256": "9094d42a8f8cb990984d44ec7b7d932e14b7b634c9acac48a30e79914e562985",
+  "bytes": 19044,
+  "triangles": 368,
+  "vertices": 486,
+  "drawPrimitives": 1,
+  "bounds": {
+    "min": [
+      -0.6480000019073486,
+      -9.313225746154785e-10,
+      -0.33480000495910645
+    ],
+    "max": [
+      0.6480000019073486,
+      0.40174476709216833,
+      0.2228716015815735
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 1.2960000038146973,
+    "depth": 0.5576716065406799,
+    "height": 0.4017447680234909
+  },
+  "footprint": [
+    [
+      -0.6480000019073486,
+      -0.33480000495910645
+    ],
+    [
+      0.6480000019073486,
+      -0.33480000495910645
+    ],
+    [
+      0.6480000019073486,
+      0.2228716015815735
+    ],
+    [
+      -0.6480000019073486,
+      0.2228716015815735
+    ]
+  ],
+  "variantSlots": [
+    "wood"
+  ],
+  "requiredExtensions": [],
+  "version": "0.2.0",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.kidney-tripod",
+  "file": "assets/v0.2.0/kidney-tripod.glb",
+  "sourceModel": "sources/v0.2.0/kidney-tripod.blend",
+  "thumbnail": "previews/v0.2.0/kidney-tripod.png",
+  "backThumbnail": "previews/v0.2.0/kidney-tripod-back.png",
+  "category": "tables",
+  "subtype": "tripod",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "textures": {
+    "count": 0,
+    "bytes": 0
+  },
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.2.0/kidney-tripod.png",
+      "previews/v0.2.0/kidney-tripod-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.22,
+      0.09,
+      0.038
+    ],
+    [
+      0.39,
+      0.18,
+      0.07
+    ],
+    [
+      0.47,
+      0.3,
+      0.1
+    ]
+  ],
+  "colourTags": [
+    "walnut",
+    "tobacco",
+    "brass"
+  ],
+  "materials": [
+    "wood"
+  ],
+  "searchAliases": [
+    "living",
+    "tripod"
+  ],
+  "materialSlots": [
+    {
+      "id": "wood",
+      "material": "wood",
+      "recolourable": true
+    }
+  ],
+  "geometryHash": "1b52264d701894c27b7fe63acb07ebac7e1f63aa5b1fff77b4de0253f60be3c7",
+  "normalizedMirrorGeometryHash": "0dbe0f62dd728032db0ee4a4e9cb7fb800df55d2b8398b8b1aa190b4eb668f9b"
+}

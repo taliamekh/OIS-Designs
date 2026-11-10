@@ -1,0 +1,174 @@
+{
+  "id": "ois.design.kitchen-learning-tower",
+  "sha256": "unexported-source-732771aeb2eadd33599208170e38ff4e50d68878cbfb6795c9473e6f8553f36b",
+  "sourceModel": null,
+  "sourceSha256": "732771aeb2eadd33599208170e38ff4e50d68878cbfb6795c9473e6f8553f36b",
+  "partCount": 13,
+  "componentCount": 1,
+  "components": [
+    {
+      "parts": [
+        "leg",
+        "leg.001",
+        "leg.002",
+        "leg.003",
+        "platform",
+        "step",
+        "safety upright",
+        "safety upright.001",
+        "safety upright.002",
+        "safety upright.003",
+        "rear rail",
+        "side guard",
+        "side guard.001"
+      ],
+      "minimum": [
+        -0.23000000417232513,
+        -0.23999999463558197,
+        0.011408977210521698
+      ],
+      "maximum": [
+        0.23000000417232513,
+        0.2879999876022339,
+        0.9399999976158142
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "platform",
+      "b": "leg",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "platform",
+      "b": "leg.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "platform",
+      "b": "leg.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "platform",
+      "b": "leg.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "step",
+      "b": "leg.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "step",
+      "b": "leg.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "safety upright",
+      "b": "leg",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "safety upright",
+      "b": "platform",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "safety upright.001",
+      "b": "leg.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "safety upright.001",
+      "b": "platform",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "safety upright.002",
+      "b": "leg.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "safety upright.002",
+      "b": "platform",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "safety upright.003",
+      "b": "leg.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "safety upright.003",
+      "b": "platform",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "rear rail",
+      "b": "safety upright",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "rear rail",
+      "b": "safety upright.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "side guard",
+      "b": "safety upright",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "side guard",
+      "b": "safety upright.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "side guard",
+      "b": "rear rail",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "side guard.001",
+      "b": "safety upright.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "side guard.001",
+      "b": "safety upright.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "side guard.001",
+      "b": "rear rail",
+      "method": "triangle intersection",
+      "distance": 0
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; live-source reports are NOT exported-asset evidence; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T03:28:22Z"
+}

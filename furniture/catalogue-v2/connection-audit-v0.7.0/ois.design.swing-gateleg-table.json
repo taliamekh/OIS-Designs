@@ -1,0 +1,164 @@
+{
+  "id": "ois.design.swing-gateleg-table",
+  "sha256": "345ff57a9aa98b5e6ab0f96339d7fe9b394771202db7668ca6144f5c39e5b50f",
+  "sourceModel": "sources/v0.7.0/swing-gateleg-table.blend",
+  "sourceSha256": "4c96c7e3e337ec09f279dbef02b6595669a2afd82e55e25519159f4888940f08",
+  "partCount": 15,
+  "componentCount": 1,
+  "components": [
+    {
+      "parts": [
+        "central top",
+        "hinged leaf",
+        "hinge pin",
+        "hinged leaf.001",
+        "hinge pin.001",
+        "leg",
+        "leg.001",
+        "leg.002",
+        "leg.003",
+        "central gate pivot beam",
+        "swing gate rail",
+        "gate foot",
+        "central gate pivot beam.001",
+        "swing gate rail.001",
+        "gate foot.001"
+      ],
+      "minimum": [
+        -0.7267520427703857,
+        -0.4000000059604645,
+        0.0
+      ],
+      "maximum": [
+        0.7267520427703857,
+        0.4000000059604645,
+        0.7699999809265137
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "hinged leaf",
+      "b": "central top",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "hinge pin",
+      "b": "central top",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "hinge pin",
+      "b": "hinged leaf",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "hinged leaf.001",
+      "b": "central top",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "hinge pin.001",
+      "b": "central top",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "hinge pin.001",
+      "b": "hinged leaf.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "leg",
+      "b": "central top",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "leg.001",
+      "b": "central top",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "leg.002",
+      "b": "central top",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "leg.003",
+      "b": "central top",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "central gate pivot beam",
+      "b": "leg",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "central gate pivot beam",
+      "b": "leg.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "swing gate rail",
+      "b": "central gate pivot beam",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "gate foot",
+      "b": "hinged leaf",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "gate foot",
+      "b": "swing gate rail",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "central gate pivot beam.001",
+      "b": "leg.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "central gate pivot beam.001",
+      "b": "leg.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "swing gate rail.001",
+      "b": "central gate pivot beam.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "gate foot.001",
+      "b": "hinged leaf.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "gate foot.001",
+      "b": "swing gate rail.001",
+      "method": "triangle intersection",
+      "distance": 0
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; live-source reports are NOT exported-asset evidence; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T04:00:32Z"
+}

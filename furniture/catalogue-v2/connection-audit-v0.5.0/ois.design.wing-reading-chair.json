@@ -1,0 +1,114 @@
+{
+  "id": "ois.design.wing-reading-chair",
+  "sha256": "36dfced22ab4c97abd39934179e11a66f6b6853425891136e9ce3965c2ea04a6",
+  "sourceModel": "sources/v0.5.0/wing-reading-chair.blend",
+  "sourceSha256": "2308b7f4db1c4260b3a4887da0511fa84d8390cf5c841cac156d93f52182dac8",
+  "partCount": 13,
+  "componentCount": 1,
+  "components": [
+    {
+      "parts": [
+        "leg",
+        "leg.001",
+        "leg.002",
+        "leg.003",
+        "seat",
+        "piping",
+        "backrest",
+        "wing",
+        "wing.001",
+        "arm",
+        "arm upright",
+        "arm.001",
+        "arm upright.001"
+      ],
+      "minimum": [
+        -0.3546000123023987,
+        -0.3650965392589569,
+        4.307366907596588e-09
+      ],
+      "maximum": [
+        0.3546000123023987,
+        0.3499999940395355,
+        1.132549524307251
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "seat",
+      "b": "leg",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "seat",
+      "b": "leg.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "seat",
+      "b": "leg.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "seat",
+      "b": "leg.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "piping",
+      "b": "seat",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "backrest",
+      "b": "seat",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "wing",
+      "b": "backrest",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "wing.001",
+      "b": "backrest",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "arm upright",
+      "b": "seat",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "arm upright",
+      "b": "arm",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "arm upright.001",
+      "b": "seat",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "arm upright.001",
+      "b": "arm.001",
+      "method": "triangle intersection",
+      "distance": 0
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T03:07:35Z"
+}

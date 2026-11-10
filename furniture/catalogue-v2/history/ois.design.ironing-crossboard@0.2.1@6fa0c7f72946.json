@@ -1,0 +1,157 @@
+{
+  "designId": "ois.design.ironing-crossboard",
+  "familyId": "ois.family.ironing-crossboard",
+  "id": "ois.design.ironing-crossboard",
+  "name": "Cross-frame ironing board",
+  "roomTags": [
+    "laundry-utility"
+  ],
+  "theme": "coastal-linen",
+  "builder": "special",
+  "parameters": {
+    "form": "ironing-board",
+    "w": 1.25,
+    "d": 0.38,
+    "h": 0.86
+  },
+  "distinction": "Long capsule ironing pad and projecting iron rest on crossed legs.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted",
+    "sourceSnapshot": "sources/pipeline-e797cb5c88af56f5.py",
+    "sourceSha256": "e797cb5c88af56f5b4455d819a512ab9be55f40e1fa2d0cb542aca7bb84b906f",
+    "parametersFile": "sources/v0.2.1/ironing-crossboard.parameters.json"
+  },
+  "constructionKey": "special|ironing-board|{\"cols\": 1, \"front\": \"cane\", \"panels\": 3}",
+  "sha256": "6fa0c7f729468b78e177ebc82778f0bb06de355db2a3e66c46c68cfcc2a67a06",
+  "bytes": 30104,
+  "triangles": 616,
+  "vertices": 821,
+  "drawPrimitives": 2,
+  "bounds": {
+    "min": [
+      -0.8124999839015457,
+      -4.540409642705967e-08,
+      -0.19000002294274315
+    ],
+    "max": [
+      0.625,
+      0.8999954890459776,
+      0.1899999976158142
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 1.4374999839015457,
+    "depth": 0.38000002055855736,
+    "height": 0.8999955344500741
+  },
+  "footprint": [
+    [
+      -0.8124999839015457,
+      -0.19000002294274315
+    ],
+    [
+      0.625,
+      -0.19000002294274315
+    ],
+    [
+      0.625,
+      0.1899999976158142
+    ],
+    [
+      -0.8124999839015457,
+      0.1899999976158142
+    ]
+  ],
+  "variantSlots": [
+    "fabric",
+    "metal"
+  ],
+  "requiredExtensions": [],
+  "version": "0.2.1",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.ironing-crossboard",
+  "file": "assets/v0.2.1/ironing-crossboard.glb",
+  "sourceModel": "sources/v0.2.1/ironing-crossboard.blend",
+  "thumbnail": "previews/v0.2.1/ironing-crossboard.png",
+  "backThumbnail": "previews/v0.2.1/ironing-crossboard-back.png",
+  "category": "specialty",
+  "subtype": "ironing-board",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "textures": {
+    "count": 0,
+    "bytes": 0
+  },
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.2.1/ironing-crossboard.png",
+      "previews/v0.2.1/ironing-crossboard-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.66,
+      0.53,
+      0.34
+    ],
+    [
+      0.36,
+      0.53,
+      0.58
+    ],
+    [
+      0.64,
+      0.6,
+      0.48
+    ]
+  ],
+  "colourTags": [
+    "mist blue",
+    "sand",
+    "pale oak"
+  ],
+  "materials": [
+    "metal",
+    "textile"
+  ],
+  "searchAliases": [
+    "laundry utility",
+    "ironing board"
+  ],
+  "materialSlots": [
+    {
+      "id": "fabric",
+      "material": "fabric",
+      "recolourable": true
+    },
+    {
+      "id": "metal",
+      "material": "metal",
+      "recolourable": true
+    }
+  ]
+}

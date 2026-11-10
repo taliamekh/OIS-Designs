@@ -1,0 +1,89 @@
+{
+  "id": "ois.design.cantilever-lounge",
+  "sha256": "0aa1d2467b3b048e3e2ff6c30c2bbfc736ac96a1ea1f16f79bce49d5b757301b",
+  "sourceModel": "sources/v0.7.0/cantilever-lounge.blend",
+  "sourceSha256": "c5a870d3de5b31abb965e47a48df37740c567bdc752629b54ca94b5dd936becb",
+  "partCount": 6,
+  "componentCount": 1,
+  "components": [
+    {
+      "parts": [
+        "continuous side frame",
+        "continuous side frame.001",
+        "structural chair seat pan",
+        "seat",
+        "piping",
+        "backrest"
+      ],
+      "minimum": [
+        -0.3149999976158142,
+        -0.3595182001590729,
+        0.0
+      ],
+      "maximum": [
+        0.3149999976158142,
+        0.37769997119903564,
+        0.877145528793335
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "structural chair seat pan",
+      "b": "continuous side frame",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "structural chair seat pan",
+      "b": "continuous side frame.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "seat",
+      "b": "continuous side frame",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "seat",
+      "b": "continuous side frame.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "seat",
+      "b": "structural chair seat pan",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "piping",
+      "b": "continuous side frame",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "piping",
+      "b": "continuous side frame.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "piping",
+      "b": "seat",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "backrest",
+      "b": "seat",
+      "method": "triangle intersection",
+      "distance": 0
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; live-source reports are NOT exported-asset evidence; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T03:42:33Z"
+}

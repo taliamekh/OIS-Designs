@@ -1,0 +1,169 @@
+{
+  "designId": "ois.design.aquarium-console",
+  "familyId": "ois.family.aquarium-console",
+  "id": "ois.design.aquarium-console",
+  "name": "Aquarium console",
+  "roomTags": [
+    "living"
+  ],
+  "theme": "coastal-linen",
+  "builder": "special",
+  "parameters": {
+    "form": "aquarium-stand",
+    "w": 1.0,
+    "d": 0.4,
+    "h": 0.7
+  },
+  "distinction": "Storage pedestal supports a raised four-wall glass tank.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted"
+  },
+  "sha256": "c96daea5a13289292cb9148b3d07bf0b4eaf3e95e86f0c268eb733722c971187",
+  "bytes": 200432,
+  "triangles": 4120,
+  "vertices": 5346,
+  "drawPrimitives": 4,
+  "bounds": {
+    "min": [
+      -0.5060000000521541,
+      3.762747849411774e-09,
+      -0.2560000121705101
+    ],
+    "max": [
+      0.5060000419616699,
+      1.2520740032196045,
+      0.20600000023841858
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 1.012000042013824,
+    "depth": 0.4620000124089287,
+    "height": 1.2520739994568566
+  },
+  "footprint": [
+    [
+      -0.5060000000521541,
+      -0.2560000121705101
+    ],
+    [
+      0.5060000419616699,
+      -0.2560000121705101
+    ],
+    [
+      0.5060000419616699,
+      0.20600000023841858
+    ],
+    [
+      -0.5060000000521541,
+      0.20600000023841858
+    ]
+  ],
+  "variantSlots": [
+    "dark",
+    "glass",
+    "metal",
+    "wood"
+  ],
+  "requiredExtensions": [],
+  "version": "0.2.0",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.aquarium-console",
+  "file": "assets/v0.2.0/aquarium-console.glb",
+  "sourceModel": "sources/v0.2.0/aquarium-console.blend",
+  "thumbnail": "previews/v0.2.0/aquarium-console.png",
+  "backThumbnail": "previews/v0.2.0/aquarium-console-back.png",
+  "category": "specialty",
+  "subtype": "aquarium-stand",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "textures": {
+    "count": 0,
+    "bytes": 0
+  },
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.2.0/aquarium-console.png",
+      "previews/v0.2.0/aquarium-console-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.66,
+      0.53,
+      0.34
+    ],
+    [
+      0.36,
+      0.53,
+      0.58
+    ],
+    [
+      0.64,
+      0.6,
+      0.48
+    ]
+  ],
+  "colourTags": [
+    "mist blue",
+    "sand",
+    "pale oak"
+  ],
+  "materials": [
+    "metal",
+    "opaque-glass-study",
+    "paint",
+    "wood"
+  ],
+  "searchAliases": [
+    "living",
+    "aquarium stand"
+  ],
+  "materialSlots": [
+    {
+      "id": "dark",
+      "material": "dark",
+      "recolourable": true
+    },
+    {
+      "id": "glass",
+      "material": "glass",
+      "recolourable": true
+    },
+    {
+      "id": "metal",
+      "material": "metal",
+      "recolourable": true
+    },
+    {
+      "id": "wood",
+      "material": "wood",
+      "recolourable": true
+    }
+  ],
+  "geometryHash": "eadd866c1e7b272c68472168bd898c01fc551cdfad91e9c2dbd3feb94dd0c404",
+  "normalizedMirrorGeometryHash": "2f19c6b5468dbcdf4ab665ce625ddcc38780db507fb388640417935f697c00b5"
+}

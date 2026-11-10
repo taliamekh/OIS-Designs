@@ -1,0 +1,151 @@
+{
+  "designId": "ois.design.sawhorse-dining",
+  "familyId": "ois.family.sawhorse-dining",
+  "id": "ois.design.sawhorse-dining",
+  "name": "Sawhorse dining table",
+  "roomTags": [
+    "dining"
+  ],
+  "theme": "calm-oak",
+  "builder": "table",
+  "parameters": {
+    "form": "sawhorse",
+    "w": 1.65,
+    "d": 0.88,
+    "h": 0.75,
+    "shape": "rect"
+  },
+  "distinction": "Two separate trestle horses support a removable top.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted",
+    "sourceSnapshot": "sources/pipeline-e797cb5c88af56f5.py",
+    "sourceSha256": "e797cb5c88af56f5b4455d819a512ab9be55f40e1fa2d0cb542aca7bb84b906f",
+    "parametersFile": "sources/v0.2.1/sawhorse-dining.parameters.json"
+  },
+  "constructionKey": "table|sawhorse|{\"drawers\": false, \"shape\": \"rect\", \"shelf\": false}",
+  "sha256": "54d388803de10601d913742530b29fe9d56008922d106e6f2f009637cb0a7d90",
+  "bytes": 41444,
+  "triangles": 804,
+  "vertices": 1100,
+  "drawPrimitives": 1,
+  "bounds": {
+    "min": [
+      -0.824999988079071,
+      0.0,
+      -0.4399999976158142
+    ],
+    "max": [
+      0.824999988079071,
+      0.7567662820219994,
+      0.4399999976158142
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 1.649999976158142,
+    "depth": 0.8799999952316284,
+    "height": 0.7567662820219994
+  },
+  "footprint": [
+    [
+      -0.824999988079071,
+      -0.4399999976158142
+    ],
+    [
+      0.824999988079071,
+      -0.4399999976158142
+    ],
+    [
+      0.824999988079071,
+      0.4399999976158142
+    ],
+    [
+      -0.824999988079071,
+      0.4399999976158142
+    ]
+  ],
+  "variantSlots": [
+    "wood"
+  ],
+  "requiredExtensions": [],
+  "version": "0.2.1",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.sawhorse-dining",
+  "file": "assets/v0.2.1/sawhorse-dining.glb",
+  "sourceModel": "sources/v0.2.1/sawhorse-dining.blend",
+  "thumbnail": "previews/v0.2.1/sawhorse-dining.png",
+  "backThumbnail": "previews/v0.2.1/sawhorse-dining-back.png",
+  "category": "tables",
+  "subtype": "sawhorse",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "textures": {
+    "count": 0,
+    "bytes": 0
+  },
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.2.1/sawhorse-dining.png",
+      "previews/v0.2.1/sawhorse-dining-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.58,
+      0.39,
+      0.2
+    ],
+    [
+      0.73,
+      0.7,
+      0.61
+    ],
+    [
+      0.12,
+      0.14,
+      0.13
+    ]
+  ],
+  "colourTags": [
+    "pale oak",
+    "ivory",
+    "oatmeal"
+  ],
+  "materials": [
+    "wood"
+  ],
+  "searchAliases": [
+    "dining",
+    "sawhorse"
+  ],
+  "materialSlots": [
+    {
+      "id": "wood",
+      "material": "wood",
+      "recolourable": true
+    }
+  ]
+}

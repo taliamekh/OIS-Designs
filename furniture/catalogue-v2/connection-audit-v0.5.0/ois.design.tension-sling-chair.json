@@ -1,0 +1,98 @@
+{
+  "id": "ois.design.tension-sling-chair",
+  "sha256": "5f782b9ab2eca7ef052a0d6455b67321e4a298f870edf66ca4a6c72653bce3a7",
+  "sourceModel": "sources/v0.5.0/tension-sling-chair.blend",
+  "sourceSha256": "f5b0789bdcdc63587b27d44ba958649b3548864b1d9a41ae24be0eaca3bff9b0",
+  "partCount": 9,
+  "componentCount": 1,
+  "components": [
+    {
+      "parts": [
+        "continuous side frame",
+        "continuous side frame.001",
+        "sling surface",
+        "high sling frame",
+        "high sling frame.001",
+        "sling front clamp",
+        "sling rear clamp",
+        "front clamp brace",
+        "front clamp brace.001"
+      ],
+      "minimum": [
+        -0.3109999895095825,
+        -0.38291510939598083,
+        0.0
+      ],
+      "maximum": [
+        0.3109999895095825,
+        0.3199999928474426,
+        0.9749711751937866
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "high sling frame",
+      "b": "continuous side frame",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "high sling frame.001",
+      "b": "continuous side frame.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "sling front clamp",
+      "b": "sling surface",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "sling rear clamp",
+      "b": "sling surface",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "sling rear clamp",
+      "b": "high sling frame",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "sling rear clamp",
+      "b": "high sling frame.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "front clamp brace",
+      "b": "continuous side frame",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "front clamp brace",
+      "b": "sling front clamp",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "front clamp brace.001",
+      "b": "continuous side frame.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "front clamp brace.001",
+      "b": "sling front clamp",
+      "method": "triangle intersection",
+      "distance": 0
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T03:07:34Z"
+}

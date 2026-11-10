@@ -1,0 +1,157 @@
+{
+  "designId": "ois.design.industrial-open-etagere",
+  "familyId": "ois.family.industrial-open-etagere",
+  "id": "ois.design.industrial-open-etagere",
+  "name": "Industrial open etagere",
+  "roomTags": [
+    "storage"
+  ],
+  "theme": "city-loft",
+  "builder": "case",
+  "parameters": {
+    "form": "etagere",
+    "front": "slab",
+    "w": 1.2,
+    "h": 1.85,
+    "rows": 6,
+    "cols": 2,
+    "base": "sled"
+  },
+  "distinction": "Twelve open shelf bays on a raised steel sled base.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted"
+  },
+  "constructionKey": "case|etagere|{\"base\": \"sled\", \"cols\": 2, \"doors\": 2, \"drawersTop\": false, \"front\": \"slab\", \"rows\": 6}",
+  "sha256": "af93dbb165a30b5f0de10ed87098eb98e05cc48f62120542d26cf628ff708479",
+  "bytes": 104864,
+  "triangles": 2000,
+  "vertices": 2849,
+  "drawPrimitives": 2,
+  "bounds": {
+    "min": [
+      -0.6000000238418579,
+      0.0,
+      -0.20000000298023224
+    ],
+    "max": [
+      0.6000000238418579,
+      1.8459034860134125,
+      0.20000000298023224
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 1.2000000476837158,
+    "depth": 0.4000000059604645,
+    "height": 1.8459034860134125
+  },
+  "footprint": [
+    [
+      -0.6000000238418579,
+      -0.20000000298023224
+    ],
+    [
+      0.6000000238418579,
+      -0.20000000298023224
+    ],
+    [
+      0.6000000238418579,
+      0.20000000298023224
+    ],
+    [
+      -0.6000000238418579,
+      0.20000000298023224
+    ]
+  ],
+  "variantSlots": [
+    "metal",
+    "wood"
+  ],
+  "requiredExtensions": [],
+  "version": "0.2.0",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.industrial-open-etagere",
+  "file": "assets/v0.2.0/industrial-open-etagere.glb",
+  "sourceModel": "sources/v0.2.0/industrial-open-etagere.blend",
+  "thumbnail": "previews/v0.2.0/industrial-open-etagere.png",
+  "backThumbnail": "previews/v0.2.0/industrial-open-etagere-back.png",
+  "category": "storage",
+  "subtype": "etagere",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "textures": {
+    "count": 0,
+    "bytes": 0
+  },
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.2.0/industrial-open-etagere.png",
+      "previews/v0.2.0/industrial-open-etagere-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.23,
+      0.15,
+      0.09
+    ],
+    [
+      0.12,
+      0.14,
+      0.16
+    ],
+    [
+      0.045,
+      0.05,
+      0.055
+    ]
+  ],
+  "colourTags": [
+    "charcoal",
+    "black",
+    "weathered wood"
+  ],
+  "materials": [
+    "metal",
+    "wood"
+  ],
+  "searchAliases": [
+    "storage",
+    "etagere"
+  ],
+  "materialSlots": [
+    {
+      "id": "metal",
+      "material": "metal",
+      "recolourable": true
+    },
+    {
+      "id": "wood",
+      "material": "wood",
+      "recolourable": true
+    }
+  ]
+}

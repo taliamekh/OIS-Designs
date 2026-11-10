@@ -1,0 +1,51 @@
+{
+  "id": "ois.design.kidney-tripod",
+  "sha256": "unexported-source-5d895d48596d1904d58f6d46821e68930ff8026c89e330f0004ff02f8ca332ff",
+  "sourceModel": null,
+  "sourceSha256": "5d895d48596d1904d58f6d46821e68930ff8026c89e330f0004ff02f8ca332ff",
+  "partCount": 4,
+  "componentCount": 1,
+  "components": [
+    {
+      "parts": [
+        "top",
+        "tripod leg",
+        "tripod leg.001",
+        "tripod leg.002"
+      ],
+      "minimum": [
+        -0.6480000019073486,
+        -0.21080000698566437,
+        -0.009748167358338833
+      ],
+      "maximum": [
+        0.6480000019073486,
+        0.33480000495910645,
+        0.38999998569488525
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "tripod leg",
+      "b": "top",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "tripod leg.001",
+      "b": "top",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "tripod leg.002",
+      "b": "top",
+      "method": "triangle intersection",
+      "distance": 0
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; live-source reports are NOT exported-asset evidence; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T03:14:59Z"
+}

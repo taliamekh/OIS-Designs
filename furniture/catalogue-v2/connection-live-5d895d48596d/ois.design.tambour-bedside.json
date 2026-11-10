@@ -1,0 +1,381 @@
+{
+  "id": "ois.design.tambour-bedside",
+  "sha256": "unexported-source-5d895d48596d1904d58f6d46821e68930ff8026c89e330f0004ff02f8ca332ff",
+  "sourceModel": null,
+  "sourceSha256": "5d895d48596d1904d58f6d46821e68930ff8026c89e330f0004ff02f8ca332ff",
+  "partCount": 28,
+  "componentCount": 1,
+  "components": [
+    {
+      "parts": [
+        "leg",
+        "leg.001",
+        "leg.002",
+        "leg.003",
+        "bottom",
+        "top",
+        "side",
+        "side.001",
+        "back",
+        "tambour guide track",
+        "tambour guide track.001",
+        "tambour stave",
+        "tambour stave.001",
+        "tambour stave.002",
+        "tambour stave.003",
+        "tambour stave.004",
+        "tambour stave.005",
+        "tambour stave.006",
+        "tambour stave.007",
+        "tambour stave.008",
+        "tambour stave.009",
+        "tambour stave.010",
+        "tambour stave.011",
+        "tambour stave.012",
+        "tambour stave.013",
+        "pull",
+        "pull mounting standoff",
+        "pull mounting standoff.001"
+      ],
+      "minimum": [
+        -0.25,
+        -0.20000000298023224,
+        0.009865500032901764
+      ],
+      "maximum": [
+        0.25,
+        0.26100000739097595,
+        0.550000011920929
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "bottom",
+      "b": "leg",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "bottom",
+      "b": "leg.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "bottom",
+      "b": "leg.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "bottom",
+      "b": "leg.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "side",
+      "b": "bottom",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "side",
+      "b": "top",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "side.001",
+      "b": "bottom",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "side.001",
+      "b": "top",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "back",
+      "b": "bottom",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "back",
+      "b": "top",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "back",
+      "b": "side",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "back",
+      "b": "side.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "tambour guide track",
+      "b": "bottom",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "tambour guide track",
+      "b": "side",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "tambour guide track",
+      "b": "side.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "tambour guide track.001",
+      "b": "top",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "tambour guide track.001",
+      "b": "side",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "tambour guide track.001",
+      "b": "side.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "tambour stave",
+      "b": "side",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "tambour stave",
+      "b": "tambour guide track",
+      "method": "surface distance",
+      "distance": 0.003000006079673767
+    },
+    {
+      "a": "tambour stave",
+      "b": "tambour guide track.001",
+      "method": "surface distance",
+      "distance": 0.003000006079673767
+    },
+    {
+      "a": "tambour stave.001",
+      "b": "tambour guide track",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "tambour stave.001",
+      "b": "tambour guide track.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "tambour stave.002",
+      "b": "tambour guide track",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "tambour stave.002",
+      "b": "tambour guide track.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "tambour stave.003",
+      "b": "tambour guide track",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "tambour stave.003",
+      "b": "tambour guide track.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "tambour stave.004",
+      "b": "tambour guide track",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "tambour stave.004",
+      "b": "tambour guide track.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "tambour stave.005",
+      "b": "tambour guide track",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "tambour stave.005",
+      "b": "tambour guide track.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "tambour stave.006",
+      "b": "tambour guide track",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "tambour stave.006",
+      "b": "tambour guide track.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "tambour stave.007",
+      "b": "tambour guide track",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "tambour stave.007",
+      "b": "tambour guide track.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "tambour stave.008",
+      "b": "tambour guide track",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "tambour stave.008",
+      "b": "tambour guide track.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "tambour stave.009",
+      "b": "tambour guide track",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "tambour stave.009",
+      "b": "tambour guide track.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "tambour stave.010",
+      "b": "tambour guide track",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "tambour stave.010",
+      "b": "tambour guide track.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "tambour stave.011",
+      "b": "tambour guide track",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "tambour stave.011",
+      "b": "tambour guide track.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "tambour stave.012",
+      "b": "tambour guide track",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "tambour stave.012",
+      "b": "tambour guide track.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "tambour stave.013",
+      "b": "side.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "tambour stave.013",
+      "b": "tambour guide track",
+      "method": "surface distance",
+      "distance": 0.003000006079673767
+    },
+    {
+      "a": "tambour stave.013",
+      "b": "tambour guide track.001",
+      "method": "surface distance",
+      "distance": 0.003000006079673767
+    },
+    {
+      "a": "pull mounting standoff",
+      "b": "tambour stave.004",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pull mounting standoff",
+      "b": "tambour stave.005",
+      "method": "surface distance",
+      "distance": 0.003769233822822571
+    },
+    {
+      "a": "pull mounting standoff",
+      "b": "pull",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pull mounting standoff.001",
+      "b": "tambour stave.008",
+      "method": "surface distance",
+      "distance": 0.003769233822822571
+    },
+    {
+      "a": "pull mounting standoff.001",
+      "b": "tambour stave.009",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pull mounting standoff.001",
+      "b": "pull",
+      "method": "triangle intersection",
+      "distance": 0
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; live-source reports are NOT exported-asset evidence; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T03:15:01Z"
+}

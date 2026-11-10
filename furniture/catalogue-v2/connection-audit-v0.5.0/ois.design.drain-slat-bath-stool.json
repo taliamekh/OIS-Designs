@@ -1,0 +1,102 @@
+{
+  "id": "ois.design.drain-slat-bath-stool",
+  "sha256": "db507b9917812a3a74876f2e66bfd432b7fa3825afff5dd711736b56f1cd7fc7",
+  "sourceModel": "sources/v0.5.0/drain-slat-bath-stool.blend",
+  "sourceSha256": "52a2350b961ba70717e56e70fb4dc46869dc9683856fc2d091e35f9e360f38dc",
+  "partCount": 7,
+  "componentCount": 4,
+  "components": [
+    {
+      "parts": [
+        "panel leg",
+        "panel leg.001",
+        "drainage seat plank",
+        "drainage seat plank.004"
+      ],
+      "minimum": [
+        -0.23000000417232513,
+        -0.14499999582767487,
+        0.0
+      ],
+      "maximum": [
+        0.23000000417232513,
+        0.14499999582767487,
+        0.42250001430511475
+      ]
+    },
+    {
+      "parts": [
+        "drainage seat plank.001"
+      ],
+      "minimum": [
+        -0.23000000417232513,
+        -0.08500000089406967,
+        0.3774999976158142
+      ],
+      "maximum": [
+        0.23000000417232513,
+        -0.034999996423721313,
+        0.42250001430511475
+      ]
+    },
+    {
+      "parts": [
+        "drainage seat plank.002"
+      ],
+      "minimum": [
+        -0.23000000417232513,
+        -0.02500000037252903,
+        0.3774999976158142
+      ],
+      "maximum": [
+        0.23000000417232513,
+        0.02500000037252903,
+        0.42250001430511475
+      ]
+    },
+    {
+      "parts": [
+        "drainage seat plank.003"
+      ],
+      "minimum": [
+        -0.23000000417232513,
+        0.034999996423721313,
+        0.3774999976158142
+      ],
+      "maximum": [
+        0.23000000417232513,
+        0.08500000089406967,
+        0.42250001430511475
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "drainage seat plank",
+      "b": "panel leg",
+      "method": "surface distance",
+      "distance": 0.002499997615814209
+    },
+    {
+      "a": "drainage seat plank",
+      "b": "panel leg.001",
+      "method": "surface distance",
+      "distance": 0.002499997615814209
+    },
+    {
+      "a": "drainage seat plank.004",
+      "b": "panel leg",
+      "method": "surface distance",
+      "distance": 0.002499997615814209
+    },
+    {
+      "a": "drainage seat plank.004",
+      "b": "panel leg.001",
+      "method": "surface distance",
+      "distance": 0.002499997615814209
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T03:07:31Z"
+}

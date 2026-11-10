@@ -1,0 +1,37 @@
+{
+  "id": "ois.design.round-tulip-dining",
+  "sha256": "3ed956ec66d6460ad1b6c72bffdb8dfc5b9ecf1a282e37ae3c0ed5b6cc2df701",
+  "sourceModel": "sources/v0.7.0/round-tulip-dining.blend",
+  "sourceSha256": "d6aa2b7781d0d0b4396ba74cb03ad0d9e58b2b4e9c8ce91808adeb2b089150a8",
+  "partCount": 2,
+  "componentCount": 1,
+  "components": [
+    {
+      "parts": [
+        "top",
+        "tulip pedestal"
+      ],
+      "minimum": [
+        -0.5899999737739563,
+        -0.5899999737739563,
+        0.0
+      ],
+      "maximum": [
+        0.5899999737739563,
+        0.5899999737739563,
+        0.75
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "tulip pedestal",
+      "b": "top",
+      "method": "triangle intersection",
+      "distance": 0
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; live-source reports are NOT exported-asset evidence; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T03:51:57Z"
+}

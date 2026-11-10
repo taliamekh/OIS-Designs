@@ -1,0 +1,149 @@
+{
+  "designId": "ois.design.timber-reading-lectern",
+  "familyId": "ois.family.timber-reading-lectern",
+  "id": "ois.design.timber-reading-lectern",
+  "name": "Timber reading lectern",
+  "roomTags": [
+    "office"
+  ],
+  "theme": "walnut-form",
+  "builder": "special",
+  "parameters": {
+    "form": "lectern",
+    "w": 0.62,
+    "d": 0.45,
+    "h": 1.12
+  },
+  "distinction": "Inclined reading surface, raised book stop and broad central column.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted"
+  },
+  "constructionKey": "special|lectern|{\"cols\": 1, \"front\": \"cane\", \"panels\": 3}",
+  "sha256": "d1728af6f1c83a6e7d3d6ff7df4bad3e46c0843788892f4ab0511cb31ade3929",
+  "bytes": 39436,
+  "triangles": 752,
+  "vertices": 1051,
+  "drawPrimitives": 1,
+  "bounds": {
+    "min": [
+      -0.3100000023841858,
+      0.0,
+      -0.22499999403953552
+    ],
+    "max": [
+      0.3100000023841858,
+      1.1760666612535715,
+      0.22499999403953552
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 0.6200000047683716,
+    "depth": 0.44999998807907104,
+    "height": 1.1760666612535715
+  },
+  "footprint": [
+    [
+      -0.3100000023841858,
+      -0.22499999403953552
+    ],
+    [
+      0.3100000023841858,
+      -0.22499999403953552
+    ],
+    [
+      0.3100000023841858,
+      0.22499999403953552
+    ],
+    [
+      -0.3100000023841858,
+      0.22499999403953552
+    ]
+  ],
+  "variantSlots": [
+    "wood"
+  ],
+  "requiredExtensions": [],
+  "version": "0.2.0",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.timber-reading-lectern",
+  "file": "assets/v0.2.0/timber-reading-lectern.glb",
+  "sourceModel": "sources/v0.2.0/timber-reading-lectern.blend",
+  "thumbnail": "previews/v0.2.0/timber-reading-lectern.png",
+  "backThumbnail": "previews/v0.2.0/timber-reading-lectern-back.png",
+  "category": "specialty",
+  "subtype": "lectern",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "textures": {
+    "count": 0,
+    "bytes": 0
+  },
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.2.0/timber-reading-lectern.png",
+      "previews/v0.2.0/timber-reading-lectern-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.22,
+      0.09,
+      0.038
+    ],
+    [
+      0.39,
+      0.18,
+      0.07
+    ],
+    [
+      0.47,
+      0.3,
+      0.1
+    ]
+  ],
+  "colourTags": [
+    "walnut",
+    "tobacco",
+    "brass"
+  ],
+  "materials": [
+    "wood"
+  ],
+  "searchAliases": [
+    "office",
+    "lectern"
+  ],
+  "materialSlots": [
+    {
+      "id": "wood",
+      "material": "wood",
+      "recolourable": true
+    }
+  ],
+  "geometryHash": "d580f90ba5331f0a4dbbb5c2116ef487771635f526421a10baa6932b641c18c4",
+  "normalizedMirrorGeometryHash": "06451f88aca706f8a74105c7532c96571bff65f5ff33d4244f3246aef6d97a47"
+}

@@ -1,0 +1,557 @@
+{
+  "designId": "ois.design.mesh-task-chair",
+  "familyId": "ois.family.mesh-task-chair",
+  "id": "ois.design.mesh-task-chair.lod2",
+  "name": "Mesh suspension task chair",
+  "roomTags": [
+    "office"
+  ],
+  "theme": "city-loft",
+  "builder": "signature",
+  "parameters": {
+    "form": "mesh-task-chair"
+  },
+  "distinction": "Perforated flexible back and open seat frame over a five-caster base.",
+  "stage": "validated-candidate",
+  "countEligible": false,
+  "variants": [],
+  "variantOf": "ois.design.mesh-task-chair",
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted",
+    "sourceSnapshot": "sources/pipeline-d16905f59f09f9a8.py",
+    "sourceSha256": "d16905f59f09f9a87fb41f80ba97ff26da2ccb9e270091128e877b7c1129937d",
+    "supportSources": {
+      "signature_designs.py": {
+        "snapshot": "sources/signature_designs-c7ce1c9570491409.py",
+        "sha256": "c7ce1c95704914096c0af5c88272139fca2098556f75b752375dd03da6cd8ee2"
+      },
+      "material_finish.py": {
+        "snapshot": "sources/material_finish-b9bb830e81d90e18.py",
+        "sha256": "b9bb830e81d90e18c05191c4e478ee7bbda04b117e4148687be9073a85d929c2"
+      },
+      "catalogue_inventory.py": {
+        "snapshot": "sources/catalogue_inventory-b67897df830f7144.py",
+        "sha256": "b67897df830f71449151337a656dae85d9e7b911fbc107aab78d72a60438f20e"
+      },
+      "finalize_glb.py": {
+        "snapshot": "sources/finalize_glb-dfc4ff54401c495d.py",
+        "sha256": "dfc4ff54401c495d3e17debd8f4aae1c5e68012a23ba8c85e023ed00397baae2"
+      }
+    },
+    "parametersFile": "sources/v0.5.0/mesh-task-chair.parameters.json"
+  },
+  "constructionKey": "signature|mesh-task-chair|{}",
+  "sha256": "3871b499bf44bed1673d1e726c61a38ac0841490df8909c8b70426ee20e51045",
+  "bytes": 337500,
+  "triangles": 3986,
+  "vertices": 3083,
+  "drawPrimitives": 4,
+  "bounds": {
+    "min": [
+      -0.29993198082144074,
+      -1.6389252177617664e-09,
+      -0.31296015093023044
+    ],
+    "max": [
+      0.3374887458975606,
+      1.1190586229175594,
+      0.3497569858200842
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 0.6374207267190013,
+    "depth": 0.6627171367503146,
+    "height": 1.1190586245564846
+  },
+  "footprint": [
+    [
+      -0.29993198082144074,
+      -0.31296015093023044
+    ],
+    [
+      0.3374887458975606,
+      -0.31296015093023044
+    ],
+    [
+      0.3374887458975606,
+      0.3497569858200842
+    ],
+    [
+      -0.29993198082144074,
+      0.3497569858200842
+    ]
+  ],
+  "variantSlots": [
+    "dark",
+    "linen",
+    "fabric",
+    "metal"
+  ],
+  "requiredExtensions": [],
+  "textures": {
+    "count": 6,
+    "bytes": 159257,
+    "estimatedRgbaBytesWithMipmaps": 2097152,
+    "images": [
+      {
+        "name": "linen-normal",
+        "bytes": 76292,
+        "width": 256,
+        "height": 256,
+        "sha256": "70b25282eb1daf2d7d6faad88d6b47ca1298d395b833d36d3ba28a542ed6d36e"
+      },
+      {
+        "name": "linen-neutral-base",
+        "bytes": 34309,
+        "width": 256,
+        "height": 256,
+        "sha256": "047df909f3cecf9ec0cdef6c8e2a92dea40e0116922d5b7a25bc7da6481e1ec9"
+      },
+      {
+        "name": "linen-roughness",
+        "bytes": 40384,
+        "width": 256,
+        "height": 256,
+        "sha256": "c31825bb85668747311407d1a5e5d9a56bc0e65aefbf79936d1d4665e83fdb45"
+      },
+      {
+        "name": "fabric-normal",
+        "bytes": 1016,
+        "width": 256,
+        "height": 256,
+        "sha256": "5bbac800a495c0a30042ad832a3ea134aa66afad65fa0dde59103733a54e886c"
+      },
+      {
+        "name": "fabric-neutral-base",
+        "bytes": 4495,
+        "width": 256,
+        "height": 256,
+        "sha256": "898e022cb5ea1b2663884e7306bbd2c09f25ab2827974bd1328a81bcab08b1ac"
+      },
+      {
+        "name": "fabric-roughness",
+        "bytes": 2761,
+        "width": 256,
+        "height": 256,
+        "sha256": "397e1c119de5e5939f7f1260cfeb7a715d695240776f51b974989073b638eeb6"
+      }
+    ]
+  },
+  "version": "0.5.0-lod2",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.mesh-task-chair",
+  "file": "assets/v0.5.0-lod2/mesh-task-chair-lod2.glb",
+  "sourceModel": "sources/v0.5.0/mesh-task-chair.blend",
+  "thumbnail": "previews/v0.5.0-lod2/mesh-task-chair-lod2.png",
+  "backThumbnail": "previews/v0.5.0-lod2/mesh-task-chair-lod2-back.png",
+  "category": "signature-furniture",
+  "subtype": "mesh-task-chair",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending"
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.02500000037252903,
+      0.03500000014901161,
+      0.03999999910593033
+    ],
+    [
+      0.11999999731779099,
+      0.14000000059604645,
+      0.1599999964237213
+    ],
+    [
+      0.8399999737739563,
+      0.800000011920929,
+      0.6899999976158142
+    ],
+    [
+      0.04500000178813934,
+      0.05000000074505806,
+      0.054999999701976776
+    ]
+  ],
+  "colourTags": [
+    "black",
+    "charcoal",
+    "near black",
+    "warm ivory"
+  ],
+  "materials": [
+    "metal",
+    "paint",
+    "textile"
+  ],
+  "searchAliases": [
+    "office",
+    "mesh task chair"
+  ],
+  "materialSlots": [
+    {
+      "id": "dark",
+      "material": "dark",
+      "recolourable": true
+    },
+    {
+      "id": "fabric",
+      "material": "fabric",
+      "recolourable": true
+    },
+    {
+      "id": "linen",
+      "material": "linen",
+      "recolourable": true
+    },
+    {
+      "id": "metal",
+      "material": "metal",
+      "recolourable": true
+    }
+  ],
+  "finalization": {
+    "unusedTangentAttributesRemoved": 2,
+    "normalMappedTangents": "retained, never replaced with arbitrary fallback vectors"
+  },
+  "supportChecks": {
+    "method": "source-part upper-end ray to non-leg geometry, 15mm join tolerance",
+    "status": "needs-visual-review",
+    "parts": [
+      {
+        "part": "star leg",
+        "gapMetresAlongSupport": -2.3841857904605135e-08,
+        "status": "pass"
+      },
+      {
+        "part": "star leg.001",
+        "gapMetresAlongSupport": null,
+        "status": "needs-visual-review"
+      },
+      {
+        "part": "star leg.002",
+        "gapMetresAlongSupport": -2.3841857904605135e-08,
+        "status": "pass"
+      },
+      {
+        "part": "star leg.003",
+        "gapMetresAlongSupport": -3.874301909845279e-08,
+        "status": "pass"
+      },
+      {
+        "part": "star leg.004",
+        "gapMetresAlongSupport": -6.85453414861481e-08,
+        "status": "pass"
+      }
+    ],
+    "limitation": "screening only; hidden joints, whole-model connectivity, load paths and safety remain visual/product-review concerns"
+  },
+  "materialFinish": {
+    "source": "materials/v1/manifest.json",
+    "repeatMetres": {
+      "wood": [
+        0.16,
+        0.75
+      ],
+      "fabric": [
+        0.14,
+        0.14
+      ],
+      "linen": [
+        0.12,
+        0.12
+      ]
+    },
+    "maps": "original base colour / roughness / tangent normal, embedded in GLB"
+  },
+  "appearanceVariants": [
+    {
+      "id": "ois.design.mesh-task-chair.finish.sage",
+      "name": "Sage textile",
+      "materialOverrides": {
+        "fabric": {
+          "baseColorFactor": [
+            0.25,
+            0.37,
+            0.28,
+            1
+          ]
+        }
+      }
+    },
+    {
+      "id": "ois.design.mesh-task-chair.finish.clay",
+      "name": "Clay textile",
+      "materialOverrides": {
+        "fabric": {
+          "baseColorFactor": [
+            0.45,
+            0.23,
+            0.15,
+            1
+          ]
+        }
+      }
+    }
+  ],
+  "variantColourTags": [
+    "sage green",
+    "clay brown"
+  ],
+  "variantCountNote": "appearance overrides share this one design; do not increase distinct count",
+  "geometryHash": "e36127e320e9abb0d26560e07d0e6204e5950e930e7fb8bc731f6ecfc2a6b9fa",
+  "normalizedMirrorGeometryHash": "0cd915c0184535db3e685107757dbf3f7c8629a6d27b096a74a0d9977a1bf471",
+  "lodLevel": 2,
+  "lodParent": {
+    "id": "ois.design.mesh-task-chair",
+    "version": "0.5.0",
+    "sha256": "603b326f24b1e1674f28862750ecc149644a2609543bbf912fd7c2a2c4a573f6",
+    "file": "assets/v0.5.0/mesh-task-chair.glb",
+    "sourceModelSha256": "980c10be5896e757a1dd18d8f5b4b1051f1b31788339c46943e10f0fdcc8f9ad"
+  },
+  "lodMethod": {
+    "minimumPartTriangles": 180,
+    "collapseRatio": 0.3,
+    "parts": [
+      {
+        "part": "star leg",
+        "before": 60,
+        "after": 60
+      },
+      {
+        "part": "caster",
+        "before": 528,
+        "after": 158
+      },
+      {
+        "part": "star leg.001",
+        "before": 60,
+        "after": 60
+      },
+      {
+        "part": "caster.001",
+        "before": 528,
+        "after": 158
+      },
+      {
+        "part": "star leg.002",
+        "before": 60,
+        "after": 60
+      },
+      {
+        "part": "caster.002",
+        "before": 528,
+        "after": 158
+      },
+      {
+        "part": "star leg.003",
+        "before": 60,
+        "after": 60
+      },
+      {
+        "part": "caster.003",
+        "before": 528,
+        "after": 158
+      },
+      {
+        "part": "star leg.004",
+        "before": 60,
+        "after": 60
+      },
+      {
+        "part": "caster.004",
+        "before": 528,
+        "after": 158
+      },
+      {
+        "part": "gas stem",
+        "before": 124,
+        "after": 124
+      },
+      {
+        "part": "seat pan",
+        "before": 188,
+        "after": 56
+      },
+      {
+        "part": "seat",
+        "before": 188,
+        "after": 56
+      },
+      {
+        "part": "piping",
+        "before": 44,
+        "after": 44
+      },
+      {
+        "part": "back support spine",
+        "before": 44,
+        "after": 44
+      },
+      {
+        "part": "mesh back perimeter",
+        "before": 92,
+        "after": 92
+      },
+      {
+        "part": "back tension cord",
+        "before": 140,
+        "after": 140
+      },
+      {
+        "part": "back tension cord.001",
+        "before": 140,
+        "after": 140
+      },
+      {
+        "part": "back tension cord.002",
+        "before": 140,
+        "after": 140
+      },
+      {
+        "part": "back tension cord.003",
+        "before": 140,
+        "after": 140
+      },
+      {
+        "part": "back tension cord.004",
+        "before": 140,
+        "after": 140
+      },
+      {
+        "part": "back tension cord.005",
+        "before": 140,
+        "after": 140
+      },
+      {
+        "part": "back tension cord.006",
+        "before": 140,
+        "after": 140
+      },
+      {
+        "part": "back tension cord.007",
+        "before": 140,
+        "after": 140
+      },
+      {
+        "part": "back tension cord.008",
+        "before": 140,
+        "after": 140
+      },
+      {
+        "part": "back tension cord.009",
+        "before": 140,
+        "after": 140
+      },
+      {
+        "part": "back tension cord.010",
+        "before": 140,
+        "after": 140
+      },
+      {
+        "part": "back tension cord.011",
+        "before": 140,
+        "after": 140
+      },
+      {
+        "part": "back tension cord.012",
+        "before": 140,
+        "after": 140
+      },
+      {
+        "part": "back tension cord.013",
+        "before": 140,
+        "after": 140
+      },
+      {
+        "part": "back tension cord.014",
+        "before": 140,
+        "after": 140
+      },
+      {
+        "part": "weft cord",
+        "before": 28,
+        "after": 28
+      },
+      {
+        "part": "weft cord.001",
+        "before": 28,
+        "after": 28
+      },
+      {
+        "part": "weft cord.002",
+        "before": 28,
+        "after": 28
+      },
+      {
+        "part": "weft cord.003",
+        "before": 28,
+        "after": 28
+      },
+      {
+        "part": "weft cord.004",
+        "before": 28,
+        "after": 28
+      },
+      {
+        "part": "weft cord.005",
+        "before": 28,
+        "after": 28
+      },
+      {
+        "part": "weft cord.006",
+        "before": 28,
+        "after": 28
+      },
+      {
+        "part": "weft cord.007",
+        "before": 28,
+        "after": 28
+      },
+      {
+        "part": "weft cord.008",
+        "before": 28,
+        "after": 28
+      },
+      {
+        "part": "weft cord.009",
+        "before": 28,
+        "after": 28
+      },
+      {
+        "part": "weft cord.010",
+        "before": 28,
+        "after": 28
+      },
+      {
+        "part": "weft cord.011",
+        "before": 28,
+        "after": 28
+      },
+      {
+        "part": "lumbar pad",
+        "before": 44,
+        "after": 44
+      }
+    ]
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "id": "ois.design.floating-platform-bed",
+  "sha256": "068fcdf27457b6cf0a3059dbf955ee652fa9a6ab651343e42af776d3ab0e643f",
+  "sourceModel": "sources/v0.5.0/floating-platform-bed.blend",
+  "sourceSha256": "ebb7c6b03cf35277ea69117a2a836b5185c9cb69e7c23c05de21b2dd491bdd5a",
+  "partCount": 10,
+  "componentCount": 1,
+  "components": [
+    {
+      "parts": [
+        "inset support",
+        "cantilever platform",
+        "mattress",
+        "piping",
+        "duvet",
+        "pillow",
+        "piping.001",
+        "pillow.001",
+        "piping.002",
+        "headboard"
+      ],
+      "minimum": [
+        -0.8119999766349792,
+        -1.1059999465942383,
+        0.0
+      ],
+      "maximum": [
+        0.8119999766349792,
+        1.0759999752044678,
+        1.1399999856948853
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "cantilever platform",
+      "b": "inset support",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "mattress",
+      "b": "cantilever platform",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "piping",
+      "b": "mattress",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "duvet",
+      "b": "mattress",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pillow",
+      "b": "mattress",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "piping.001",
+      "b": "pillow",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pillow.001",
+      "b": "mattress",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "piping.002",
+      "b": "pillow.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "headboard",
+      "b": "cantilever platform",
+      "method": "triangle intersection",
+      "distance": 0
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T03:07:31Z"
+}

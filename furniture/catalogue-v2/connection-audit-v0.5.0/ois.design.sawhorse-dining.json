@@ -1,0 +1,88 @@
+{
+  "id": "ois.design.sawhorse-dining",
+  "sha256": "09a6a4b3ecf5c728dda7686fcf3c59218a305066f786517f7ddecc796210f69f",
+  "sourceModel": "sources/v0.5.0/sawhorse-dining.blend",
+  "sourceSha256": "90e7b10f950f702186c549e25688400bff0ff9b522303008c769eae058bbc76b",
+  "partCount": 7,
+  "componentCount": 3,
+  "components": [
+    {
+      "parts": [
+        "horse beam",
+        "horse leg",
+        "horse leg.001"
+      ],
+      "minimum": [
+        -0.578000009059906,
+        -0.41378700733184814,
+        1.30385160446167e-08
+      ],
+      "maximum": [
+        -0.4779999852180481,
+        0.41378700733184814,
+        0.7067662477493286
+      ]
+    },
+    {
+      "parts": [
+        "horse beam.001",
+        "horse leg.002",
+        "horse leg.003"
+      ],
+      "minimum": [
+        0.4779999852180481,
+        -0.41378700733184814,
+        1.30385160446167e-08
+      ],
+      "maximum": [
+        0.578000009059906,
+        0.41378700733184814,
+        0.7067662477493286
+      ]
+    },
+    {
+      "parts": [
+        "top"
+      ],
+      "minimum": [
+        -0.824999988079071,
+        -0.4399999976158142,
+        0.7117663025856018
+      ],
+      "maximum": [
+        0.824999988079071,
+        0.4399999976158142,
+        0.7567662596702576
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "horse leg",
+      "b": "horse beam",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "horse leg.001",
+      "b": "horse beam",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "horse leg.002",
+      "b": "horse beam.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "horse leg.003",
+      "b": "horse beam.001",
+      "method": "triangle intersection",
+      "distance": 0
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T03:07:33Z"
+}

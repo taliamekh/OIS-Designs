@@ -1,0 +1,44 @@
+{
+  "id": "ois.design.waterfall-hall-console",
+  "sha256": "unexported-source-732771aeb2eadd33599208170e38ff4e50d68878cbfb6795c9473e6f8553f36b",
+  "sourceModel": null,
+  "sourceSha256": "732771aeb2eadd33599208170e38ff4e50d68878cbfb6795c9473e6f8553f36b",
+  "partCount": 3,
+  "componentCount": 1,
+  "components": [
+    {
+      "parts": [
+        "top",
+        "waterfall end",
+        "waterfall end.001"
+      ],
+      "minimum": [
+        -0.574999988079071,
+        -0.17499999701976776,
+        0.0
+      ],
+      "maximum": [
+        0.574999988079071,
+        0.17499999701976776,
+        0.7900000214576721
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "waterfall end",
+      "b": "top",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "waterfall end.001",
+      "b": "top",
+      "method": "triangle intersection",
+      "distance": 0
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; live-source reports are NOT exported-asset evidence; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T03:28:26Z"
+}

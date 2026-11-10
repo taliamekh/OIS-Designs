@@ -1,0 +1,165 @@
+{
+  "designId": "ois.design.glass-display-hutch",
+  "familyId": "ois.family.glass-display-hutch",
+  "id": "ois.design.glass-display-hutch",
+  "name": "Glazed display hutch",
+  "roomTags": [
+    "dining"
+  ],
+  "theme": "walnut-form",
+  "builder": "case",
+  "parameters": {
+    "form": "hutch",
+    "w": 1.25,
+    "d": 0.43,
+    "h": 1.18,
+    "front": "glass"
+  },
+  "distinction": "Lower glazed cabinet and raised open display hutch.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted",
+    "sourceSnapshot": "sources/pipeline-e797cb5c88af56f5.py",
+    "sourceSha256": "e797cb5c88af56f5b4455d819a512ab9be55f40e1fa2d0cb542aca7bb84b906f",
+    "parametersFile": "sources/v0.2.1/glass-display-hutch.parameters.json"
+  },
+  "constructionKey": "case|hutch|{\"base\": \"taper\", \"cols\": 1, \"drawersTop\": false, \"front\": \"glass\", \"rows\": 4}",
+  "sha256": "e092778109fc6eb001d8ea011041b9ebb1602e3385edc4f4e51129e32be3a482",
+  "bytes": 206856,
+  "triangles": 4120,
+  "vertices": 5572,
+  "drawPrimitives": 3,
+  "bounds": {
+    "min": [
+      -0.6250001105200679,
+      -1.040388858397634e-09,
+      -0.2709999869375573
+    ],
+    "max": [
+      0.6250000932521347,
+      1.6731157863034822,
+      0.2150000847469139
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 1.2500002037722027,
+    "depth": 0.4860000716844712,
+    "height": 1.6731157873438711
+  },
+  "footprint": [
+    [
+      -0.6250001105200679,
+      -0.2709999869375573
+    ],
+    [
+      0.6250000932521347,
+      -0.2709999869375573
+    ],
+    [
+      0.6250000932521347,
+      0.2150000847469139
+    ],
+    [
+      -0.6250001105200679,
+      0.2150000847469139
+    ]
+  ],
+  "variantSlots": [
+    "glass",
+    "metal",
+    "wood"
+  ],
+  "requiredExtensions": [],
+  "version": "0.2.1",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.glass-display-hutch",
+  "file": "assets/v0.2.1/glass-display-hutch.glb",
+  "sourceModel": "sources/v0.2.1/glass-display-hutch.blend",
+  "thumbnail": "previews/v0.2.1/glass-display-hutch.png",
+  "backThumbnail": "previews/v0.2.1/glass-display-hutch-back.png",
+  "category": "storage",
+  "subtype": "hutch",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "textures": {
+    "count": 0,
+    "bytes": 0
+  },
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.2.1/glass-display-hutch.png",
+      "previews/v0.2.1/glass-display-hutch-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.22,
+      0.09,
+      0.038
+    ],
+    [
+      0.39,
+      0.18,
+      0.07
+    ],
+    [
+      0.47,
+      0.3,
+      0.1
+    ]
+  ],
+  "colourTags": [
+    "walnut",
+    "tobacco",
+    "brass"
+  ],
+  "materials": [
+    "metal",
+    "tinted-glass",
+    "wood"
+  ],
+  "searchAliases": [
+    "dining",
+    "hutch"
+  ],
+  "materialSlots": [
+    {
+      "id": "glass",
+      "material": "glass",
+      "recolourable": true
+    },
+    {
+      "id": "metal",
+      "material": "metal",
+      "recolourable": true
+    },
+    {
+      "id": "wood",
+      "material": "wood",
+      "recolourable": true
+    }
+  ]
+}

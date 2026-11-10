@@ -1,0 +1,162 @@
+{
+  "designId": "ois.design.paper-rib-floor",
+  "familyId": "ois.family.paper-rib-floor",
+  "id": "ois.design.paper-rib-floor",
+  "name": "Ribbed paper floor lamp",
+  "roomTags": [
+    "living"
+  ],
+  "theme": "soft-japandi",
+  "builder": "light",
+  "parameters": {
+    "form": "paper",
+    "h": 1.55
+  },
+  "distinction": "Ellipsoidal lantern with individually modelled circumferential ribs.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted",
+    "sourceSnapshot": "sources/pipeline-e797cb5c88af56f5.py",
+    "sourceSha256": "e797cb5c88af56f5b4455d819a512ab9be55f40e1fa2d0cb542aca7bb84b906f",
+    "parametersFile": "sources/v0.2.1/paper-rib-floor.parameters.json"
+  },
+  "constructionKey": "light|paper|{}",
+  "sha256": "8f54de47f9f8f56eb9aa305740508c84f9a64185724424f4574551e4ad6147c9",
+  "bytes": 205712,
+  "triangles": 10904,
+  "vertices": 5628,
+  "drawPrimitives": 3,
+  "bounds": {
+    "min": [
+      -0.24380259215831757,
+      -1.862645149230957e-09,
+      -0.24380259215831757
+    ],
+    "max": [
+      0.24380259215831757,
+      1.5,
+      0.24380259215831757
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 0.48760518431663513,
+    "depth": 0.48760518431663513,
+    "height": 1.5000000018626451
+  },
+  "footprint": [
+    [
+      -0.24380259215831757,
+      -0.24380259215831757
+    ],
+    [
+      0.24380259215831757,
+      -0.24380259215831757
+    ],
+    [
+      0.24380259215831757,
+      0.24380259215831757
+    ],
+    [
+      -0.24380259215831757,
+      0.24380259215831757
+    ]
+  ],
+  "variantSlots": [
+    "linen",
+    "metal",
+    "wood"
+  ],
+  "requiredExtensions": [],
+  "version": "0.2.1",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.paper-rib-floor",
+  "file": "assets/v0.2.1/paper-rib-floor.glb",
+  "sourceModel": "sources/v0.2.1/paper-rib-floor.blend",
+  "thumbnail": "previews/v0.2.1/paper-rib-floor.png",
+  "backThumbnail": "previews/v0.2.1/paper-rib-floor-back.png",
+  "category": "lighting",
+  "subtype": "paper",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "textures": {
+    "count": 0,
+    "bytes": 0
+  },
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.2.1/paper-rib-floor.png",
+      "previews/v0.2.1/paper-rib-floor-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.34,
+      0.28,
+      0.19
+    ],
+    [
+      0.58,
+      0.54,
+      0.44
+    ],
+    [
+      0.15,
+      0.17,
+      0.15
+    ]
+  ],
+  "colourTags": [
+    "ash",
+    "flax",
+    "stone"
+  ],
+  "materials": [
+    "metal",
+    "textile",
+    "wood"
+  ],
+  "searchAliases": [
+    "living",
+    "paper"
+  ],
+  "materialSlots": [
+    {
+      "id": "linen",
+      "material": "linen",
+      "recolourable": true
+    },
+    {
+      "id": "metal",
+      "material": "metal",
+      "recolourable": true
+    },
+    {
+      "id": "wood",
+      "material": "wood",
+      "recolourable": true
+    }
+  ]
+}

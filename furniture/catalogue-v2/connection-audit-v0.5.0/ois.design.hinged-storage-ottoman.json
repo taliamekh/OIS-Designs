@@ -1,0 +1,104 @@
+{
+  "id": "ois.design.hinged-storage-ottoman",
+  "sha256": "ee7e6b24631bd9151e27c8fae40d15d290e3338827b2ad22e4bb2d7c54d7a4c4",
+  "sourceModel": "sources/v0.5.0/hinged-storage-ottoman.blend",
+  "sourceSha256": "2e291c4a33a82f479c7501188ceae4620c2104b56c533e17551a4c409ff1ed4c",
+  "partCount": 7,
+  "componentCount": 2,
+  "components": [
+    {
+      "parts": [
+        "leg",
+        "leg.001",
+        "leg.002",
+        "leg.003",
+        "seat",
+        "hinged lower case"
+      ],
+      "minimum": [
+        -0.42500001192092896,
+        -0.28999999165534973,
+        -2.6775524020195007e-09
+      ],
+      "maximum": [
+        0.42500001192092896,
+        0.28999999165534973,
+        0.4193878173828125
+      ]
+    },
+    {
+      "parts": [
+        "pull"
+      ],
+      "minimum": [
+        -0.054999999701976776,
+        0.2959999740123749,
+        0.24138779938220978
+      ],
+      "maximum": [
+        0.054999999701976776,
+        0.30799999833106995,
+        0.25338780879974365
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "seat",
+      "b": "leg",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "seat",
+      "b": "leg.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "seat",
+      "b": "leg.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "seat",
+      "b": "leg.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "hinged lower case",
+      "b": "leg",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "hinged lower case",
+      "b": "leg.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "hinged lower case",
+      "b": "leg.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "hinged lower case",
+      "b": "leg.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "hinged lower case",
+      "b": "seat",
+      "method": "triangle intersection",
+      "distance": 0
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T03:07:32Z"
+}

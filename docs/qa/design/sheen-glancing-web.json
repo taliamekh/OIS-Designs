@@ -1,0 +1,257 @@
+{
+  "timestamp": "2026-11-10T04:02:01.068Z",
+  "evidence": "Actual five-sheen UI rendering viewed near the vertical wall/direct-light reflection angle; identical recorded Walk camera per capture. Browser physical-material response, not physical paint matching/native validation.",
+  "storageOracle": {
+    "kind": "Production IndexedStorage.getItem, with its read-only legacy fallback",
+    "file": "mobile/src/storage/indexedStore.ts",
+    "sha256": "9943012679fd85da975028e6165febf8e149242bfef7b0a63f7ab6b98f76383d"
+  },
+  "checks": [
+    {
+      "id": "walk-preserves-matte-project-history",
+      "pass": true
+    },
+    {
+      "id": "walk-preserves-eggshell-project-history",
+      "pass": true
+    },
+    {
+      "id": "walk-preserves-satin-project-history",
+      "pass": true
+    },
+    {
+      "id": "walk-preserves-semi-gloss-project-history",
+      "pass": true
+    },
+    {
+      "id": "walk-preserves-gloss-project-history",
+      "pass": true
+    },
+    {
+      "id": "same-camera-for-every-sheen",
+      "pass": true
+    }
+  ],
+  "frames": [
+    {
+      "sheen": "matte",
+      "file": "sheen-glancing-matte.png",
+      "sha256": "69cfb967d29264c6699de22e530784067656014b9f4d3821e6e361d68f3e3b6d",
+      "scene": {
+        "rooms": [
+          "room-mwa5yoni-alaaoif"
+        ],
+        "mode": "walk",
+        "camera": [
+          2.4,
+          1.6,
+          0.5949999999999989
+        ],
+        "items": [],
+        "memory": {
+          "geometries": 7,
+          "textures": 3
+        },
+        "draw": {
+          "frame": 52,
+          "calls": 7,
+          "triangles": 52,
+          "points": 0,
+          "lines": 0
+        },
+        "cache": {
+          "entries": 0,
+          "active": 0,
+          "pending": 0,
+          "wanted": 0,
+          "idle": 0,
+          "sourceBytes": 0,
+          "textureSets": 1,
+          "sharedTextures": {
+            "textures": 0,
+            "leases": 0,
+            "duplicates": 0
+          }
+        }
+      }
+    },
+    {
+      "sheen": "eggshell",
+      "file": "sheen-glancing-eggshell.png",
+      "sha256": "7be6f4972dd31a083c9de3c279051637d33ed60cf13eae84b15604b47c29d803",
+      "scene": {
+        "rooms": [
+          "room-mwa5yoni-alaaoif"
+        ],
+        "mode": "walk",
+        "camera": [
+          2.4,
+          1.6,
+          0.5949999999999989
+        ],
+        "items": [],
+        "memory": {
+          "geometries": 9,
+          "textures": 3
+        },
+        "draw": {
+          "frame": 63,
+          "calls": 7,
+          "triangles": 52,
+          "points": 0,
+          "lines": 0
+        },
+        "cache": {
+          "entries": 0,
+          "active": 0,
+          "pending": 0,
+          "wanted": 0,
+          "idle": 0,
+          "sourceBytes": 0,
+          "textureSets": 1,
+          "sharedTextures": {
+            "textures": 0,
+            "leases": 0,
+            "duplicates": 0
+          }
+        }
+      }
+    },
+    {
+      "sheen": "satin",
+      "file": "sheen-glancing-satin.png",
+      "sha256": "c50bfedb246b03e6a5ccdbc6b10303355db03868bbeb7ec12e792297a75cd0f8",
+      "scene": {
+        "rooms": [
+          "room-mwa5yoni-alaaoif"
+        ],
+        "mode": "walk",
+        "camera": [
+          2.4,
+          1.6,
+          0.5949999999999989
+        ],
+        "items": [],
+        "memory": {
+          "geometries": 9,
+          "textures": 3
+        },
+        "draw": {
+          "frame": 63,
+          "calls": 7,
+          "triangles": 52,
+          "points": 0,
+          "lines": 0
+        },
+        "cache": {
+          "entries": 0,
+          "active": 0,
+          "pending": 0,
+          "wanted": 0,
+          "idle": 0,
+          "sourceBytes": 0,
+          "textureSets": 1,
+          "sharedTextures": {
+            "textures": 0,
+            "leases": 0,
+            "duplicates": 0
+          }
+        }
+      }
+    },
+    {
+      "sheen": "semi-gloss",
+      "file": "sheen-glancing-semi-gloss.png",
+      "sha256": "59ff0deff87432d5fbaa3ed7e09f617d35f456c76b6f9833180c30c2be5cc9a5",
+      "scene": {
+        "rooms": [
+          "room-mwa5yoni-alaaoif"
+        ],
+        "mode": "walk",
+        "camera": [
+          2.4,
+          1.6,
+          0.5949999999999989
+        ],
+        "items": [],
+        "memory": {
+          "geometries": 9,
+          "textures": 3
+        },
+        "draw": {
+          "frame": 63,
+          "calls": 7,
+          "triangles": 52,
+          "points": 0,
+          "lines": 0
+        },
+        "cache": {
+          "entries": 0,
+          "active": 0,
+          "pending": 0,
+          "wanted": 0,
+          "idle": 0,
+          "sourceBytes": 0,
+          "textureSets": 1,
+          "sharedTextures": {
+            "textures": 0,
+            "leases": 0,
+            "duplicates": 0
+          }
+        }
+      }
+    },
+    {
+      "sheen": "gloss",
+      "file": "sheen-glancing-gloss.png",
+      "sha256": "c6ffd88e4e66418a7901a9cd90cbe1909de7424d8580597755daed1f8a0a4104",
+      "scene": {
+        "rooms": [
+          "room-mwa5yoni-alaaoif"
+        ],
+        "mode": "walk",
+        "camera": [
+          2.4,
+          1.6,
+          0.5949999999999989
+        ],
+        "items": [],
+        "memory": {
+          "geometries": 9,
+          "textures": 3
+        },
+        "draw": {
+          "frame": 62,
+          "calls": 7,
+          "triangles": 52,
+          "points": 0,
+          "lines": 0
+        },
+        "cache": {
+          "entries": 0,
+          "active": 0,
+          "pending": 0,
+          "wanted": 0,
+          "idle": 0,
+          "sourceBytes": 0,
+          "textureSets": 1,
+          "sharedTextures": {
+            "textures": 0,
+            "leases": 0,
+            "duplicates": 0
+          }
+        }
+      }
+    }
+  ],
+  "errors": [],
+  "consoleErrors": [],
+  "frozen": {
+    "id": "2026-11-10T03-50-04-350Z-frozen-web",
+    "url": "http://127.0.0.1:52894",
+    "sourceHash": "4d8d0e3ddba05a562e2b74bfb0c36f4cc5b354701e40afb94a4cdff7f7c69a2b",
+    "sourceMapPass": true,
+    "compiledSourceMatchCount": 54
+  },
+  "completed": true
+}

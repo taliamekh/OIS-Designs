@@ -1,0 +1,94 @@
+{
+  "id": "ois.design.bar-service-trolley",
+  "sha256": "0292b21d0055dccee79ad3811b2633afde8798cad3dab04c75a51f623a6f13c1",
+  "sourceModel": "sources/v0.5.0/bar-service-trolley.blend",
+  "sourceSha256": "54903a7a8d333883781451da6e9e98e0421bdfe4222db9c0224a0e140d742c8c",
+  "partCount": 9,
+  "componentCount": 2,
+  "components": [
+    {
+      "parts": [
+        "sled frame",
+        "sled frame.001",
+        "lower tray",
+        "caster",
+        "caster.001",
+        "caster.002",
+        "caster.003"
+      ],
+      "minimum": [
+        -0.4000000059604645,
+        -0.20999999344348907,
+        0.0
+      ],
+      "maximum": [
+        0.4000000059604645,
+        0.20999999344348907,
+        0.7300000190734863
+      ]
+    },
+    {
+      "parts": [
+        "top",
+        "push handle"
+      ],
+      "minimum": [
+        -0.41499999165534973,
+        -0.20999999344348907,
+        0.7350000143051147
+      ],
+      "maximum": [
+        0.4000000059604645,
+        0.20999999344348907,
+        0.943804144859314
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "lower tray",
+      "b": "sled frame",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "lower tray",
+      "b": "sled frame.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "caster",
+      "b": "sled frame",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "caster.001",
+      "b": "sled frame",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "caster.002",
+      "b": "sled frame.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "caster.003",
+      "b": "sled frame.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "push handle",
+      "b": "top",
+      "method": "surface distance",
+      "distance": 0.0019108179258182645
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T03:07:30Z"
+}

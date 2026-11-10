@@ -1,0 +1,150 @@
+{
+  "designId": "ois.design.sculpted-hourglass",
+  "familyId": "ois.family.sculpted-hourglass",
+  "id": "ois.design.sculpted-hourglass",
+  "name": "Hourglass side stool",
+  "roomTags": [
+    "living"
+  ],
+  "theme": "soft-japandi",
+  "builder": "seating",
+  "parameters": {
+    "form": "hourglass-stool",
+    "w": 0.46,
+    "d": 0.46,
+    "h": 0.45
+  },
+  "distinction": "Turned hourglass waist flares into broad seat and base.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted",
+    "sourceSnapshot": "sources/pipeline-e797cb5c88af56f5.py",
+    "sourceSha256": "e797cb5c88af56f5b4455d819a512ab9be55f40e1fa2d0cb542aca7bb84b906f",
+    "parametersFile": "sources/v0.2.1/sculpted-hourglass.parameters.json"
+  },
+  "constructionKey": "seating|hourglass-stool|{\"base\": \"taper\"}",
+  "sha256": "1a6239778e84f7dc8008af6e337c412e80d2e803394ad128c4d95f3265bd6739",
+  "bytes": 8472,
+  "triangles": 400,
+  "vertices": 202,
+  "drawPrimitives": 1,
+  "bounds": {
+    "min": [
+      -0.23000000417232513,
+      0.0,
+      -0.23000000417232513
+    ],
+    "max": [
+      0.23000000417232513,
+      0.44999998807907104,
+      0.23000000417232513
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 0.46000000834465027,
+    "depth": 0.46000000834465027,
+    "height": 0.44999998807907104
+  },
+  "footprint": [
+    [
+      -0.23000000417232513,
+      -0.23000000417232513
+    ],
+    [
+      0.23000000417232513,
+      -0.23000000417232513
+    ],
+    [
+      0.23000000417232513,
+      0.23000000417232513
+    ],
+    [
+      -0.23000000417232513,
+      0.23000000417232513
+    ]
+  ],
+  "variantSlots": [
+    "wood"
+  ],
+  "requiredExtensions": [],
+  "version": "0.2.1",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.sculpted-hourglass",
+  "file": "assets/v0.2.1/sculpted-hourglass.glb",
+  "sourceModel": "sources/v0.2.1/sculpted-hourglass.blend",
+  "thumbnail": "previews/v0.2.1/sculpted-hourglass.png",
+  "backThumbnail": "previews/v0.2.1/sculpted-hourglass-back.png",
+  "category": "seating",
+  "subtype": "hourglass-stool",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "textures": {
+    "count": 0,
+    "bytes": 0
+  },
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.2.1/sculpted-hourglass.png",
+      "previews/v0.2.1/sculpted-hourglass-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.34,
+      0.28,
+      0.19
+    ],
+    [
+      0.58,
+      0.54,
+      0.44
+    ],
+    [
+      0.15,
+      0.17,
+      0.15
+    ]
+  ],
+  "colourTags": [
+    "ash",
+    "flax",
+    "stone"
+  ],
+  "materials": [
+    "wood"
+  ],
+  "searchAliases": [
+    "living",
+    "hourglass stool"
+  ],
+  "materialSlots": [
+    {
+      "id": "wood",
+      "material": "wood",
+      "recolourable": true
+    }
+  ]
+}

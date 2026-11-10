@@ -1,0 +1,263 @@
+{
+  "designId": "ois.design.hall-apothecary-chest",
+  "familyId": "ois.family.jewellery-bureau",
+  "id": "ois.design.hall-apothecary-chest",
+  "name": "Hall apothecary chest",
+  "roomTags": [
+    "entry-hall"
+  ],
+  "theme": "walnut-form",
+  "builder": "case",
+  "parameters": {
+    "form": "drawers",
+    "w": 1.0,
+    "d": 0.32,
+    "h": 0.82,
+    "rows": 3,
+    "cols": 4
+  },
+  "distinction": "Twelve small drawers in four columns distinguish the hallway key chest.",
+  "stage": "validated-candidate",
+  "countEligible": false,
+  "variants": [],
+  "variantOf": "ois.design.jewellery-bureau",
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted",
+    "sourceSnapshot": "sources/pipeline-bf07453f548fd92d.py",
+    "sourceSha256": "bf07453f548fd92da637ecce41dc8b35010d5f15c955c971c9e3be2fb762ea2d",
+    "sourceModelSha256": "5a826342743e7724727fc30e60aa11b8871f22178587cf10f4521ab1fe2863b7",
+    "supportSources": {
+      "signature_designs.py": {
+        "snapshot": "sources/signature_designs-6d248dd7aaa49ed4.py",
+        "sha256": "6d248dd7aaa49ed40f05c473c5d46b6fe8c97972ebf6ce139553f9641fc82b3c"
+      },
+      "material_finish.py": {
+        "snapshot": "sources/material_finish-281279dfd17b0c92.py",
+        "sha256": "281279dfd17b0c929f9038bb8066b86216427feaaefbd503abb995d06dc35730"
+      },
+      "catalogue_inventory.py": {
+        "snapshot": "sources/catalogue_inventory-db8b68fc872dbc12.py",
+        "sha256": "db8b68fc872dbc12d87e9ce013777e00d6b32cc0392e8cc09f31f8fef27b9365"
+      },
+      "finalize_glb.py": {
+        "snapshot": "sources/finalize_glb-4d1dec42be5cbf3d.py",
+        "sha256": "4d1dec42be5cbf3d6540facfa883948acd849c080f7117b8d7025749c08e2d1b"
+      },
+      "build_catalogue_v2.py": {
+        "snapshot": "sources/build_catalogue_v2-9c22533830c3704c.py",
+        "sha256": "9c22533830c3704c1ce578b58b4350ebbbf5b8d32590a07db027f671d4975577"
+      },
+      "validate_library.py": {
+        "snapshot": "sources/validate_library-48e60483e2c3d05b.py",
+        "sha256": "48e60483e2c3d05bec2c7e2669523eb77571a4ba120cb5238bbec92b8a585e0c"
+      },
+      "support_checks.py": {
+        "snapshot": "sources/support_checks-f7ed4d0400abd5f2.py",
+        "sha256": "f7ed4d0400abd5f23f27c86a9013cfefaca71234a9da953dfe97daeabb8af640"
+      }
+    },
+    "parametersFile": "sources/v0.7.0/hall-apothecary-chest.parameters.json"
+  },
+  "constructionKey": "case|drawers|{\"base\": \"taper\", \"cols\": \"multiple\", \"doors\": 2, \"drawersTop\": false, \"front\": \"slab\", \"rows\": \"stack\"}",
+  "countExclusion": "same construction; dimension/material configuration retained as a variant",
+  "sha256": "4a7ee1012af8ede3e87c9c4bda6812ee1ee89e11f6eb38361bcb14b437cb72d7",
+  "bytes": 898388,
+  "triangles": 6592,
+  "vertices": 16421,
+  "drawPrimitives": 2,
+  "bounds": {
+    "min": [
+      -0.5000000573667566,
+      1.2177066577301332e-09,
+      -0.21599999349564314
+    ],
+    "max": [
+      0.5000001025487866,
+      0.811982152508439,
+      0.16000005816066953
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 1.000000159915543,
+    "depth": 0.3760000516563127,
+    "height": 0.8119821512907324
+  },
+  "footprint": [
+    [
+      -0.5000000573667566,
+      -0.21599999349564314
+    ],
+    [
+      0.5000001025487866,
+      -0.21599999349564314
+    ],
+    [
+      0.5000001025487866,
+      0.16000005816066953
+    ],
+    [
+      -0.5000000573667566,
+      0.16000005816066953
+    ]
+  ],
+  "variantSlots": [
+    "metal",
+    "wood"
+  ],
+  "requiredExtensions": [],
+  "textures": {
+    "count": 3,
+    "bytes": 174784,
+    "estimatedRgbaBytesWithMipmaps": 1048576,
+    "images": [
+      {
+        "name": "wood-normal",
+        "bytes": 102088,
+        "width": 256,
+        "height": 256,
+        "sha256": "6b8efcb5004552d884a527017922bfb5260b8bda4dc77f1365fe1cb8a09f1d56"
+      },
+      {
+        "name": "wood-neutral-base",
+        "bytes": 39353,
+        "width": 256,
+        "height": 256,
+        "sha256": "ddcf839a2addae78944a2d7a0588f9c2055852fc4ccb4e2dae2095d28541de44"
+      },
+      {
+        "name": "wood-roughness",
+        "bytes": 33343,
+        "width": 256,
+        "height": 256,
+        "sha256": "afc2180e58360e76fb178b52f225f7ba9045a7d0d266f10886763b0590335a1a"
+      }
+    ]
+  },
+  "version": "0.7.0",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.jewellery-bureau",
+  "file": "assets/v0.7.0/hall-apothecary-chest.glb",
+  "sourceModel": "sources/v0.7.0/hall-apothecary-chest.blend",
+  "thumbnail": "previews/v0.7.0/hall-apothecary-chest.png",
+  "backThumbnail": "previews/v0.7.0/hall-apothecary-chest-back.png",
+  "category": "storage",
+  "subtype": "drawers",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.7.0/hall-apothecary-chest.png",
+      "previews/v0.7.0/hall-apothecary-chest-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.4699999988079071,
+      0.30000001192092896,
+      0.10000000149011612
+    ],
+    [
+      0.2199999988079071,
+      0.09000000357627869,
+      0.03799999877810478
+    ]
+  ],
+  "colourTags": [
+    "muted brass",
+    "walnut brown"
+  ],
+  "materials": [
+    "metal",
+    "wood"
+  ],
+  "searchAliases": [
+    "entry hall",
+    "drawers"
+  ],
+  "materialSlots": [
+    {
+      "id": "metal",
+      "material": "metal",
+      "recolourable": true
+    },
+    {
+      "id": "wood",
+      "material": "wood",
+      "recolourable": true
+    }
+  ],
+  "finalization": {
+    "unusedTangentAttributesRemoved": 1,
+    "unusedAccessorsRemoved": 1,
+    "unusedBufferViewsRemoved": 1,
+    "bytesRemoved": 107748,
+    "normalMappedTangents": "retained, never replaced with arbitrary fallback vectors"
+  },
+  "supportChecks": {
+    "method": "source-part upper-end ray to non-leg geometry, 15mm join tolerance",
+    "status": "pass",
+    "parts": [
+      {
+        "part": "leg",
+        "gapMetresAlongSupport": 5.960464483090178e-09,
+        "status": "pass"
+      },
+      {
+        "part": "leg.001",
+        "gapMetresAlongSupport": 5.960464483090178e-09,
+        "status": "pass"
+      },
+      {
+        "part": "leg.002",
+        "gapMetresAlongSupport": -8.940696710757479e-09,
+        "status": "pass"
+      },
+      {
+        "part": "leg.003",
+        "gapMetresAlongSupport": 5.960464483090178e-09,
+        "status": "pass"
+      }
+    ],
+    "limitation": "screening only; hidden joints, whole-model connectivity, load paths and safety remain visual/product-review concerns"
+  },
+  "materialFinish": {
+    "source": "materials/v1/manifest.json",
+    "repeatMetres": {
+      "wood": [
+        0.16,
+        0.75
+      ],
+      "fabric": [
+        0.14,
+        0.14
+      ],
+      "linen": [
+        0.12,
+        0.12
+      ]
+    },
+    "maps": "original base colour / roughness / tangent normal, embedded in GLB"
+  },
+  "geometryHash": "af88fec0e97e131d9139f3f79eab05855076fb6460a5a5de8feed56d725e4b2a",
+  "normalizedMirrorGeometryHash": "46064c8c048cadf717f384d55cc2992abb8d01a16a05972f3b741fd0dc2b8cf6"
+}

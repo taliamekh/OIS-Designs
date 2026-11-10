@@ -1,0 +1,158 @@
+{
+  "designId": "ois.design.wire-dining",
+  "familyId": "ois.family.wire-lounge",
+  "id": "ois.design.wire-dining",
+  "name": "Wire dining chair",
+  "roomTags": [
+    "dining"
+  ],
+  "theme": "city-loft",
+  "builder": "seating",
+  "parameters": {
+    "form": "wire-chair",
+    "w": 0.48,
+    "d": 0.51,
+    "h": 0.85
+  },
+  "distinction": "Wire seat and back grid with a small floating seat cushion.",
+  "stage": "validated-candidate",
+  "countEligible": false,
+  "variants": [],
+  "variantOf": "ois.design.wire-lounge",
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted",
+    "sourceSnapshot": "sources/pipeline-e797cb5c88af56f5.py",
+    "sourceSha256": "e797cb5c88af56f5b4455d819a512ab9be55f40e1fa2d0cb542aca7bb84b906f",
+    "parametersFile": "sources/v0.2.1/wire-dining.parameters.json"
+  },
+  "constructionKey": "seating|wire-chair|{\"base\": \"taper\"}",
+  "countExclusion": "same construction; dimension/material configuration retained as a variant",
+  "sha256": "d229968ea8c83694efd73b15d8c14625bcf8bbd3c21c5a78421e7803187ca88f",
+  "bytes": 29292,
+  "triangles": 884,
+  "vertices": 672,
+  "drawPrimitives": 2,
+  "bounds": {
+    "min": [
+      -0.21000000834465027,
+      0.0,
+      -0.3199999928474426
+    ],
+    "max": [
+      0.21000000834465027,
+      0.8490000050514936,
+      0.3100705146789551
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 0.42000001668930054,
+    "depth": 0.6300705075263977,
+    "height": 0.8490000050514936
+  },
+  "footprint": [
+    [
+      -0.21000000834465027,
+      -0.3199999928474426
+    ],
+    [
+      0.21000000834465027,
+      -0.3199999928474426
+    ],
+    [
+      0.21000000834465027,
+      0.3100705146789551
+    ],
+    [
+      -0.21000000834465027,
+      0.3100705146789551
+    ]
+  ],
+  "variantSlots": [
+    "fabric",
+    "metal"
+  ],
+  "requiredExtensions": [],
+  "version": "0.2.1",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.wire-lounge",
+  "file": "assets/v0.2.1/wire-dining.glb",
+  "sourceModel": "sources/v0.2.1/wire-dining.blend",
+  "thumbnail": "previews/v0.2.1/wire-dining.png",
+  "backThumbnail": "previews/v0.2.1/wire-dining-back.png",
+  "category": "seating",
+  "subtype": "wire-chair",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "textures": {
+    "count": 0,
+    "bytes": 0
+  },
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.2.1/wire-dining.png",
+      "previews/v0.2.1/wire-dining-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.23,
+      0.15,
+      0.09
+    ],
+    [
+      0.12,
+      0.14,
+      0.16
+    ],
+    [
+      0.045,
+      0.05,
+      0.055
+    ]
+  ],
+  "colourTags": [
+    "charcoal",
+    "black",
+    "weathered wood"
+  ],
+  "materials": [
+    "metal",
+    "textile"
+  ],
+  "searchAliases": [
+    "dining",
+    "wire chair"
+  ],
+  "materialSlots": [
+    {
+      "id": "fabric",
+      "material": "fabric",
+      "recolourable": true
+    },
+    {
+      "id": "metal",
+      "material": "metal",
+      "recolourable": true
+    }
+  ]
+}

@@ -1,0 +1,155 @@
+{
+  "designId": "ois.design.cage-table-light",
+  "familyId": "ois.family.cage-table-light",
+  "id": "ois.design.cage-table-light",
+  "name": "Cage table light",
+  "roomTags": [
+    "office"
+  ],
+  "theme": "city-loft",
+  "builder": "light",
+  "parameters": {
+    "form": "cage",
+    "h": 0.56
+  },
+  "distinction": "Compact open cage is a size variant and excluded.",
+  "stage": "validated-candidate",
+  "countEligible": false,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted",
+    "sourceSnapshot": "sources/pipeline-e797cb5c88af56f5.py",
+    "sourceSha256": "e797cb5c88af56f5b4455d819a512ab9be55f40e1fa2d0cb542aca7bb84b906f",
+    "parametersFile": "sources/v0.2.1/cage-table-light.parameters.json"
+  },
+  "constructionKey": "light|cage|{}",
+  "sha256": "5e3e6233e144a7be353d75ef870ad9df558d35b2ef7479047efb362472a02705",
+  "bytes": 84328,
+  "triangles": 2912,
+  "vertices": 2011,
+  "drawPrimitives": 2,
+  "bounds": {
+    "min": [
+      -0.15800000727176666,
+      -1.862645149230957e-09,
+      -0.15800000727176666
+    ],
+    "max": [
+      0.15800000727176666,
+      0.568000016734004,
+      0.15800000727176666
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 0.3160000145435333,
+    "depth": 0.3160000145435333,
+    "height": 0.5680000185966492
+  },
+  "footprint": [
+    [
+      -0.15800000727176666,
+      -0.15800000727176666
+    ],
+    [
+      0.15800000727176666,
+      -0.15800000727176666
+    ],
+    [
+      0.15800000727176666,
+      0.15800000727176666
+    ],
+    [
+      -0.15800000727176666,
+      0.15800000727176666
+    ]
+  ],
+  "variantSlots": [
+    "linen",
+    "metal"
+  ],
+  "requiredExtensions": [],
+  "version": "0.2.1",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.cage-table-light",
+  "file": "assets/v0.2.1/cage-table-light.glb",
+  "sourceModel": "sources/v0.2.1/cage-table-light.blend",
+  "thumbnail": "previews/v0.2.1/cage-table-light.png",
+  "backThumbnail": "previews/v0.2.1/cage-table-light-back.png",
+  "category": "lighting",
+  "subtype": "cage",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "textures": {
+    "count": 0,
+    "bytes": 0
+  },
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.2.1/cage-table-light.png",
+      "previews/v0.2.1/cage-table-light-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.23,
+      0.15,
+      0.09
+    ],
+    [
+      0.12,
+      0.14,
+      0.16
+    ],
+    [
+      0.045,
+      0.05,
+      0.055
+    ]
+  ],
+  "colourTags": [
+    "charcoal",
+    "black",
+    "weathered wood"
+  ],
+  "materials": [
+    "metal",
+    "textile"
+  ],
+  "searchAliases": [
+    "office",
+    "cage"
+  ],
+  "materialSlots": [
+    {
+      "id": "linen",
+      "material": "linen",
+      "recolourable": true
+    },
+    {
+      "id": "metal",
+      "material": "metal",
+      "recolourable": true
+    }
+  ]
+}

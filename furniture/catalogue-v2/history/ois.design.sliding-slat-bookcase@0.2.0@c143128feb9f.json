@@ -1,0 +1,154 @@
+{
+  "designId": "ois.design.sliding-slat-bookcase",
+  "familyId": "ois.family.sliding-slat-bookcase",
+  "id": "ois.design.sliding-slat-bookcase",
+  "name": "Sliding slat bookcase",
+  "roomTags": [
+    "living"
+  ],
+  "theme": "walnut-form",
+  "builder": "functional",
+  "parameters": {
+    "form": "sliding-bookcase",
+    "w": 1.2,
+    "d": 0.38,
+    "h": 1.55
+  },
+  "distinction": "Partial-width sliding slatted door reveals the open shelves behind.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted"
+  },
+  "constructionKey": "functional|sliding-bookcase|{}",
+  "sha256": "c143128feb9fd9dca6f022508e6b9da4ae42c0d689ff20434e50add82720c333",
+  "bytes": 242392,
+  "triangles": 5060,
+  "vertices": 6546,
+  "drawPrimitives": 2,
+  "bounds": {
+    "min": [
+      -0.6090000234544277,
+      -3.808532925142494e-08,
+      -0.25249999296323566
+    ],
+    "max": [
+      0.6089999675751003,
+      1.5428612321523552,
+      0.19000015796966807
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 1.217999991029528,
+    "depth": 0.44250015093290374,
+    "height": 1.5428612702376845
+  },
+  "footprint": [
+    [
+      -0.6090000234544277,
+      -0.25249999296323566
+    ],
+    [
+      0.6089999675751003,
+      -0.25249999296323566
+    ],
+    [
+      0.6089999675751003,
+      0.19000015796966807
+    ],
+    [
+      -0.6090000234544277,
+      0.19000015796966807
+    ]
+  ],
+  "variantSlots": [
+    "metal",
+    "wood"
+  ],
+  "requiredExtensions": [],
+  "version": "0.2.0",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.sliding-slat-bookcase",
+  "file": "assets/v0.2.0/sliding-slat-bookcase.glb",
+  "sourceModel": "sources/v0.2.0/sliding-slat-bookcase.blend",
+  "thumbnail": "previews/v0.2.0/sliding-slat-bookcase.png",
+  "backThumbnail": "previews/v0.2.0/sliding-slat-bookcase-back.png",
+  "category": "functional-furniture",
+  "subtype": "sliding-bookcase",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "textures": {
+    "count": 0,
+    "bytes": 0
+  },
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.2.0/sliding-slat-bookcase.png",
+      "previews/v0.2.0/sliding-slat-bookcase-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.22,
+      0.09,
+      0.038
+    ],
+    [
+      0.39,
+      0.18,
+      0.07
+    ],
+    [
+      0.47,
+      0.3,
+      0.1
+    ]
+  ],
+  "colourTags": [
+    "walnut",
+    "tobacco",
+    "brass"
+  ],
+  "materials": [
+    "metal",
+    "wood"
+  ],
+  "searchAliases": [
+    "living",
+    "sliding bookcase"
+  ],
+  "materialSlots": [
+    {
+      "id": "metal",
+      "material": "metal",
+      "recolourable": true
+    },
+    {
+      "id": "wood",
+      "material": "wood",
+      "recolourable": true
+    }
+  ]
+}

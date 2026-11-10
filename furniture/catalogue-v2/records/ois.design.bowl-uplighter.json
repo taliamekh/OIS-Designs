@@ -1,0 +1,215 @@
+{
+  "designId": "ois.design.bowl-uplighter",
+  "familyId": "ois.family.bowl-uplighter",
+  "id": "ois.design.bowl-uplighter",
+  "name": "Bowl uplighter",
+  "roomTags": [
+    "living"
+  ],
+  "theme": "soft-japandi",
+  "builder": "light",
+  "parameters": {
+    "form": "uplighter",
+    "h": 1.7
+  },
+  "distinction": "Flared upward hollow bowl instead of a downward textile shade.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted",
+    "sourceSnapshot": "sources/pipeline-bf07453f548fd92d.py",
+    "sourceSha256": "bf07453f548fd92da637ecce41dc8b35010d5f15c955c971c9e3be2fb762ea2d",
+    "sourceModelSha256": "f82cf47d2667fcec0f0bfe541296ce22990b21c0caf2911e467cf1655860f67e",
+    "supportSources": {
+      "signature_designs.py": {
+        "snapshot": "sources/signature_designs-6d248dd7aaa49ed4.py",
+        "sha256": "6d248dd7aaa49ed40f05c473c5d46b6fe8c97972ebf6ce139553f9641fc82b3c"
+      },
+      "material_finish.py": {
+        "snapshot": "sources/material_finish-281279dfd17b0c92.py",
+        "sha256": "281279dfd17b0c929f9038bb8066b86216427feaaefbd503abb995d06dc35730"
+      },
+      "catalogue_inventory.py": {
+        "snapshot": "sources/catalogue_inventory-db8b68fc872dbc12.py",
+        "sha256": "db8b68fc872dbc12d87e9ce013777e00d6b32cc0392e8cc09f31f8fef27b9365"
+      },
+      "finalize_glb.py": {
+        "snapshot": "sources/finalize_glb-4d1dec42be5cbf3d.py",
+        "sha256": "4d1dec42be5cbf3d6540facfa883948acd849c080f7117b8d7025749c08e2d1b"
+      },
+      "build_catalogue_v2.py": {
+        "snapshot": "sources/build_catalogue_v2-9c22533830c3704c.py",
+        "sha256": "9c22533830c3704c1ce578b58b4350ebbbf5b8d32590a07db027f671d4975577"
+      },
+      "validate_library.py": {
+        "snapshot": "sources/validate_library-48e60483e2c3d05b.py",
+        "sha256": "48e60483e2c3d05bec2c7e2669523eb77571a4ba120cb5238bbec92b8a585e0c"
+      },
+      "support_checks.py": {
+        "snapshot": "sources/support_checks-f7ed4d0400abd5f2.py",
+        "sha256": "f7ed4d0400abd5f23f27c86a9013cfefaca71234a9da953dfe97daeabb8af640"
+      }
+    },
+    "parametersFile": "sources/v0.7.0/bowl-uplighter.parameters.json"
+  },
+  "constructionKey": "light|uplighter|{}",
+  "sha256": "fab34c0c3d933b83ccc10144df8beb7be2a0ea9a6a097561e52f20b314dd575a",
+  "bytes": 28240,
+  "triangles": 792,
+  "vertices": 722,
+  "drawPrimitives": 2,
+  "bounds": {
+    "min": [
+      -0.20000000298023224,
+      -1.862645149230957e-09,
+      -0.20000000298023224
+    ],
+    "max": [
+      0.20000000298023224,
+      1.7000000476837158,
+      0.20000000298023224
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 0.4000000059604645,
+    "depth": 0.4000000059604645,
+    "height": 1.700000049546361
+  },
+  "footprint": [
+    [
+      -0.20000000298023224,
+      -0.20000000298023224
+    ],
+    [
+      0.20000000298023224,
+      -0.20000000298023224
+    ],
+    [
+      0.20000000298023224,
+      0.20000000298023224
+    ],
+    [
+      -0.20000000298023224,
+      0.20000000298023224
+    ]
+  ],
+  "variantSlots": [
+    "ceramic",
+    "metal"
+  ],
+  "requiredExtensions": [],
+  "textures": {
+    "count": 0,
+    "bytes": 0,
+    "estimatedRgbaBytesWithMipmaps": 0,
+    "images": []
+  },
+  "version": "0.7.0",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.bowl-uplighter",
+  "file": "assets/v0.7.0/bowl-uplighter.glb",
+  "sourceModel": "sources/v0.7.0/bowl-uplighter.blend",
+  "thumbnail": "previews/v0.7.0/bowl-uplighter.png",
+  "backThumbnail": "previews/v0.7.0/bowl-uplighter-back.png",
+  "category": "lighting",
+  "subtype": "uplighter",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.7.0/bowl-uplighter.png",
+      "previews/v0.7.0/bowl-uplighter-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.800000011920929,
+      0.8100000023841858,
+      0.7599999904632568
+    ],
+    [
+      0.15000000596046448,
+      0.17000000178813934,
+      0.15000000596046448
+    ]
+  ],
+  "colourTags": [
+    "charcoal",
+    "warm white"
+  ],
+  "materials": [
+    "ceramic",
+    "metal"
+  ],
+  "searchAliases": [
+    "living",
+    "uplighter"
+  ],
+  "materialSlots": [
+    {
+      "id": "ceramic",
+      "material": "ceramic",
+      "recolourable": true
+    },
+    {
+      "id": "metal",
+      "material": "metal",
+      "recolourable": true
+    }
+  ],
+  "finalization": {
+    "unusedTangentAttributesRemoved": 1,
+    "unusedAccessorsRemoved": 1,
+    "unusedBufferViewsRemoved": 1,
+    "bytesRemoved": 7856,
+    "normalMappedTangents": "retained, never replaced with arbitrary fallback vectors"
+  },
+  "supportChecks": {
+    "method": "source-part upper-end ray to non-leg geometry, 15mm join tolerance",
+    "status": "pass",
+    "parts": [],
+    "limitation": "screening only; hidden joints, whole-model connectivity, load paths and safety remain visual/product-review concerns"
+  },
+  "materialFinish": {
+    "source": "materials/v1/manifest.json",
+    "repeatMetres": {
+      "wood": [
+        0.16,
+        0.75
+      ],
+      "fabric": [
+        0.14,
+        0.14
+      ],
+      "linen": [
+        0.12,
+        0.12
+      ]
+    },
+    "maps": "original base colour / roughness / tangent normal, embedded in GLB"
+  },
+  "geometryHash": "65da885209337142774bb9396494918a6911b69286c7038a1218ac50299fddd8",
+  "normalizedMirrorGeometryHash": "06e3db2888e2f489f56c99258dd6140c36dadf60e8800b66adb63f605702c101"
+}

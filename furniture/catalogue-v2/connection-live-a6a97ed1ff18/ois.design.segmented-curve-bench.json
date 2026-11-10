@@ -1,0 +1,146 @@
+{
+  "id": "ois.design.segmented-curve-bench",
+  "sha256": "unexported-source-a6a97ed1ff18ea7190f4c07e8ea17b6dba901563a653d7aed874183539ef16c1",
+  "sourceModel": null,
+  "sourceSha256": "a6a97ed1ff18ea7190f4c07e8ea17b6dba901563a653d7aed874183539ef16c1",
+  "partCount": 13,
+  "componentCount": 5,
+  "components": [
+    {
+      "parts": [
+        "curved seat stave",
+        "curved seat stave.001",
+        "curved seat stave.002",
+        "curved seat stave.003",
+        "curved seat stave.004",
+        "curved seat stave.005",
+        "curved seat stave.006",
+        "curved seat stave.007",
+        "curved seat stave.008"
+      ],
+      "minimum": [
+        -0.865570604801178,
+        -0.21483109891414642,
+        0.4274999797344208
+      ],
+      "maximum": [
+        0.865570604801178,
+        0.26792463660240173,
+        0.4724999964237213
+      ]
+    },
+    {
+      "parts": [
+        "leg"
+      ],
+      "minimum": [
+        -0.7223882675170898,
+        -0.18683987855911255,
+        0.010184580460190773
+      ],
+      "maximum": [
+        -0.652285099029541,
+        -0.13556009531021118,
+        0.4062568247318268
+      ]
+    },
+    {
+      "parts": [
+        "leg.001"
+      ],
+      "minimum": [
+        -0.7223882675170898,
+        0.13556015491485596,
+        0.010184582322835922
+      ],
+      "maximum": [
+        -0.652285099029541,
+        0.18683992326259613,
+        0.4062568247318268
+      ]
+    },
+    {
+      "parts": [
+        "leg.002"
+      ],
+      "minimum": [
+        0.652285099029541,
+        -0.18683987855911255,
+        0.010184580460190773
+      ],
+      "maximum": [
+        0.7223882675170898,
+        -0.13556009531021118,
+        0.4062568247318268
+      ]
+    },
+    {
+      "parts": [
+        "leg.003"
+      ],
+      "minimum": [
+        0.652285099029541,
+        0.13556015491485596,
+        0.010184582322835922
+      ],
+      "maximum": [
+        0.7223882675170898,
+        0.18683992326259613,
+        0.4062568247318268
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "curved seat stave.001",
+      "b": "curved seat stave",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "curved seat stave.002",
+      "b": "curved seat stave.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "curved seat stave.003",
+      "b": "curved seat stave.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "curved seat stave.004",
+      "b": "curved seat stave.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "curved seat stave.005",
+      "b": "curved seat stave.004",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "curved seat stave.006",
+      "b": "curved seat stave.005",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "curved seat stave.007",
+      "b": "curved seat stave.006",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "curved seat stave.008",
+      "b": "curved seat stave.007",
+      "method": "triangle intersection",
+      "distance": 0
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; live-source reports are NOT exported-asset evidence; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T03:19:58Z"
+}

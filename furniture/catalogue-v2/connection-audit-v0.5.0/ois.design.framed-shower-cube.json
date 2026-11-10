@@ -1,0 +1,108 @@
+{
+  "id": "ois.design.framed-shower-cube",
+  "sha256": "67a8e4afb4f6260aa8b775fc85c3303c8ffc275620e4a85906fcdd4d8490e1c7",
+  "sourceModel": "sources/v0.5.0/framed-shower-cube.blend",
+  "sourceSha256": "59fb4a56e73fd08901ce954f793f62dd529442d4c6af284164b75b7746ca27e8",
+  "partCount": 9,
+  "componentCount": 3,
+  "components": [
+    {
+      "parts": [
+        "shower tray",
+        "screen upright",
+        "side glass",
+        "screen upright.001",
+        "side glass.001",
+        "front glass"
+      ],
+      "minimum": [
+        -0.4619999825954437,
+        -0.4619999825954437,
+        0.0
+      ],
+      "maximum": [
+        0.4619999825954437,
+        0.4560000002384186,
+        2.0
+      ]
+    },
+    {
+      "parts": [
+        "shower riser",
+        "shower head"
+      ],
+      "minimum": [
+        -0.09000000357627869,
+        -0.41100001335144043,
+        0.800000011920929
+      ],
+      "maximum": [
+        0.09000000357627869,
+        -0.07999999821186066,
+        1.9110000133514404
+      ]
+    },
+    {
+      "parts": [
+        "pull"
+      ],
+      "minimum": [
+        0.21899999678134918,
+        0.46399998664855957,
+        0.9899999499320984
+      ],
+      "maximum": [
+        0.23099999129772186,
+        0.47600001096725464,
+        1.1699998378753662
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "screen upright",
+      "b": "shower tray",
+      "method": "surface distance",
+      "distance": 0.0012114217970520258
+    },
+    {
+      "a": "side glass",
+      "b": "screen upright",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "screen upright.001",
+      "b": "shower tray",
+      "method": "surface distance",
+      "distance": 0.001211420982144773
+    },
+    {
+      "a": "side glass.001",
+      "b": "screen upright.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "front glass",
+      "b": "side glass",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "front glass",
+      "b": "side glass.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "shower head",
+      "b": "shower riser",
+      "method": "triangle intersection",
+      "distance": 0
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T03:07:32Z"
+}

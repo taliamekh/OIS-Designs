@@ -1,0 +1,44 @@
+{
+  "id": "ois.design.waterfall-workdesk",
+  "sha256": "12bf6c48dc38ac83aab505903045c9551ecaa87cc0959c0f270e569241cd8789",
+  "sourceModel": "sources/v0.5.0/waterfall-workdesk.blend",
+  "sourceSha256": "92cfed55dc588c24195185f9e840eb5bed08b2c1e3d1c2c57fd81aef7582f087",
+  "partCount": 3,
+  "componentCount": 1,
+  "components": [
+    {
+      "parts": [
+        "top",
+        "waterfall end",
+        "waterfall end.001"
+      ],
+      "minimum": [
+        -0.6499999761581421,
+        -0.32499998807907104,
+        0.0
+      ],
+      "maximum": [
+        0.6499999761581421,
+        0.32499998807907104,
+        0.75
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "waterfall end",
+      "b": "top",
+      "method": "surface distance",
+      "distance": 5.960464477539063e-08
+    },
+    {
+      "a": "waterfall end.001",
+      "b": "top",
+      "method": "surface distance",
+      "distance": 5.960464477539063e-08
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T03:07:35Z"
+}

@@ -1,0 +1,90 @@
+{
+  "id": "ois.design.open-wall-cubby",
+  "sha256": "c23bc2878baba65cb8fd7dd5c0298d5032e713c1150a15b5e7b8421464b676ac",
+  "sourceModel": "sources/v0.5.0/open-wall-cubby.blend",
+  "sourceSha256": "30c3df0f88b7b2d58dee80881b9b21b21e55c1b14380d432396a805202856e85",
+  "partCount": 7,
+  "componentCount": 1,
+  "components": [
+    {
+      "parts": [
+        "recessed plinth",
+        "bottom",
+        "top",
+        "side",
+        "side.001",
+        "shelf",
+        "shelf.001"
+      ],
+      "minimum": [
+        -0.375,
+        -0.15000000596046448,
+        0.0
+      ],
+      "maximum": [
+        0.375,
+        0.15000000596046448,
+        0.7200000286102295
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "bottom",
+      "b": "recessed plinth",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "side",
+      "b": "bottom",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "side",
+      "b": "top",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "side.001",
+      "b": "bottom",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "side.001",
+      "b": "top",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "shelf",
+      "b": "side",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "shelf",
+      "b": "side.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "shelf.001",
+      "b": "side",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "shelf.001",
+      "b": "side.001",
+      "method": "triangle intersection",
+      "distance": 0
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T03:07:33Z"
+}

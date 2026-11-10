@@ -1,0 +1,253 @@
+{
+  "designId": "ois.design.steel-mesh-locker-bank",
+  "familyId": "ois.family.steel-mesh-locker-bank",
+  "id": "ois.design.steel-mesh-locker-bank",
+  "name": "Steel mesh locker bank",
+  "roomTags": [
+    "storage"
+  ],
+  "theme": "city-loft",
+  "builder": "case",
+  "parameters": {
+    "form": "linen",
+    "front": "mesh",
+    "w": 1.2,
+    "h": 1.8,
+    "rows": 3,
+    "cols": 3,
+    "base": "sled"
+  },
+  "distinction": "Nine independently framed locker cells.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted",
+    "sourceSnapshot": "sources/pipeline-3bfc724783125ec5.py",
+    "sourceSha256": "3bfc724783125ec5533255cba755c307b80e4f9fa43bf72c3d9b8d0ddfefdf00",
+    "sourceModelSha256": "0bb78870592f86ff3bd74be9f11daec33e22c45a4a5b830f917cb5373d50fc3c",
+    "supportSources": {
+      "signature_designs.py": {
+        "snapshot": "sources/signature_designs-6d248dd7aaa49ed4.py",
+        "sha256": "6d248dd7aaa49ed40f05c473c5d46b6fe8c97972ebf6ce139553f9641fc82b3c"
+      },
+      "material_finish.py": {
+        "snapshot": "sources/material_finish-281279dfd17b0c92.py",
+        "sha256": "281279dfd17b0c929f9038bb8066b86216427feaaefbd503abb995d06dc35730"
+      },
+      "catalogue_inventory.py": {
+        "snapshot": "sources/catalogue_inventory-db8b68fc872dbc12.py",
+        "sha256": "db8b68fc872dbc12d87e9ce013777e00d6b32cc0392e8cc09f31f8fef27b9365"
+      },
+      "finalize_glb.py": {
+        "snapshot": "sources/finalize_glb-4d1dec42be5cbf3d.py",
+        "sha256": "4d1dec42be5cbf3d6540facfa883948acd849c080f7117b8d7025749c08e2d1b"
+      },
+      "build_catalogue_v2.py": {
+        "snapshot": "sources/build_catalogue_v2-9c22533830c3704c.py",
+        "sha256": "9c22533830c3704c1ce578b58b4350ebbbf5b8d32590a07db027f671d4975577"
+      },
+      "validate_library.py": {
+        "snapshot": "sources/validate_library-48e60483e2c3d05b.py",
+        "sha256": "48e60483e2c3d05bec2c7e2669523eb77571a4ba120cb5238bbec92b8a585e0c"
+      },
+      "support_checks.py": {
+        "snapshot": "sources/support_checks-f7ed4d0400abd5f2.py",
+        "sha256": "f7ed4d0400abd5f23f27c86a9013cfefaca71234a9da953dfe97daeabb8af640"
+      }
+    },
+    "parametersFile": "sources/v0.7.1/steel-mesh-locker-bank.parameters.json"
+  },
+  "constructionKey": "case|linen|{\"base\": \"sled\"}",
+  "sha256": "02a43fb54ba2f5e7382555e33b7d6461c132f9e583dea445d9391b9a733b3f92",
+  "bytes": 962132,
+  "triangles": 8868,
+  "vertices": 17332,
+  "drawPrimitives": 2,
+  "bounds": {
+    "min": [
+      -0.6049999594688416,
+      0.0,
+      -0.22949999570846558
+    ],
+    "max": [
+      0.6000000238418579,
+      1.7959034144878387,
+      0.20000000298023224
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 1.2049999833106995,
+    "depth": 0.4294999986886978,
+    "height": 1.7959034144878387
+  },
+  "footprint": [
+    [
+      -0.6049999594688416,
+      -0.22949999570846558
+    ],
+    [
+      0.6000000238418579,
+      -0.22949999570846558
+    ],
+    [
+      0.6000000238418579,
+      0.20000000298023224
+    ],
+    [
+      -0.6049999594688416,
+      0.20000000298023224
+    ]
+  ],
+  "variantSlots": [
+    "metal",
+    "wood"
+  ],
+  "requiredExtensions": [],
+  "textures": {
+    "count": 3,
+    "bytes": 174784,
+    "estimatedRgbaBytesWithMipmaps": 1048576,
+    "images": [
+      {
+        "name": "wood-normal",
+        "bytes": 102088,
+        "width": 256,
+        "height": 256,
+        "sha256": "6b8efcb5004552d884a527017922bfb5260b8bda4dc77f1365fe1cb8a09f1d56"
+      },
+      {
+        "name": "wood-neutral-base",
+        "bytes": 39353,
+        "width": 256,
+        "height": 256,
+        "sha256": "ddcf839a2addae78944a2d7a0588f9c2055852fc4ccb4e2dae2095d28541de44"
+      },
+      {
+        "name": "wood-roughness",
+        "bytes": 33343,
+        "width": 256,
+        "height": 256,
+        "sha256": "afc2180e58360e76fb178b52f225f7ba9045a7d0d266f10886763b0590335a1a"
+      }
+    ]
+  },
+  "version": "0.7.1",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.steel-mesh-locker-bank",
+  "file": "assets/v0.7.1/steel-mesh-locker-bank.glb",
+  "sourceModel": "sources/v0.7.1/steel-mesh-locker-bank.blend",
+  "thumbnail": "previews/v0.7.1/steel-mesh-locker-bank.png",
+  "backThumbnail": "previews/v0.7.1/steel-mesh-locker-bank-back.png",
+  "category": "storage",
+  "subtype": "linen",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.7.1/steel-mesh-locker-bank.png",
+      "previews/v0.7.1/steel-mesh-locker-bank-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.04500000178813934,
+      0.05000000074505806,
+      0.054999999701976776
+    ],
+    [
+      0.23000000417232513,
+      0.15000000596046448,
+      0.09000000357627869
+    ]
+  ],
+  "colourTags": [
+    "black",
+    "weathered brown"
+  ],
+  "materials": [
+    "metal",
+    "wood"
+  ],
+  "searchAliases": [
+    "storage",
+    "linen"
+  ],
+  "materialSlots": [
+    {
+      "id": "metal",
+      "material": "metal",
+      "recolourable": true
+    },
+    {
+      "id": "wood",
+      "material": "wood",
+      "recolourable": true
+    }
+  ],
+  "finalization": {
+    "unusedTangentAttributesRemoved": 0,
+    "unusedAccessorsRemoved": 0,
+    "unusedBufferViewsRemoved": 0,
+    "bytesRemoved": 0,
+    "normalMappedTangents": "retained, never replaced with arbitrary fallback vectors"
+  },
+  "supportChecks": {
+    "method": "source-part upper-end ray to non-leg geometry, 15mm join tolerance",
+    "status": "pass",
+    "parts": [
+      {
+        "part": "sled frame",
+        "gapMetresAlongSupport": 5.960464483090178e-09,
+        "status": "pass"
+      },
+      {
+        "part": "sled frame.001",
+        "gapMetresAlongSupport": -8.940696710757479e-09,
+        "status": "pass"
+      }
+    ],
+    "limitation": "screening only; hidden joints, whole-model connectivity, load paths and safety remain visual/product-review concerns"
+  },
+  "materialFinish": {
+    "source": "materials/v1/manifest.json",
+    "repeatMetres": {
+      "wood": [
+        0.16,
+        0.75
+      ],
+      "fabric": [
+        0.14,
+        0.14
+      ],
+      "linen": [
+        0.12,
+        0.12
+      ]
+    },
+    "maps": "original base colour / roughness / tangent normal, embedded in GLB"
+  },
+  "geometryHash": "1b8ad7bdd401bdf3fd5da39577e83557a1745e176e684b41e666a5a39596fcbf",
+  "normalizedMirrorGeometryHash": "2392dd0b08f8e9e013fc5089cd26bc9ccc7133333cb9a8b1e01140b417eed99f"
+}

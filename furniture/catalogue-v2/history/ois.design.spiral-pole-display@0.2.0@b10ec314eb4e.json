@@ -1,0 +1,154 @@
+{
+  "designId": "ois.design.spiral-pole-display",
+  "familyId": "ois.family.spiral-pole-display",
+  "id": "ois.design.spiral-pole-display",
+  "name": "Spiral pole display",
+  "roomTags": [
+    "storage"
+  ],
+  "theme": "city-loft",
+  "builder": "functional",
+  "parameters": {
+    "form": "spiral-shelf",
+    "w": 0.75,
+    "d": 0.75,
+    "h": 1.7
+  },
+  "distinction": "Nine oval platforms rotate around a central vertical mast.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted"
+  },
+  "constructionKey": "functional|spiral-shelf|{}",
+  "sha256": "b10ec314eb4eaae0549ed34963d9451fdda671b141c3b2dd795590603933993f",
+  "bytes": 73336,
+  "triangles": 1816,
+  "vertices": 1876,
+  "drawPrimitives": 2,
+  "bounds": {
+    "min": [
+      -0.3450000423192989,
+      0.0,
+      -0.30039418946830665
+    ],
+    "max": [
+      0.3450000137090683,
+      1.7000000476837158,
+      0.30039418946830665
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 0.6900000560283672,
+    "depth": 0.6007883789366133,
+    "height": 1.7000000476837158
+  },
+  "footprint": [
+    [
+      -0.3450000423192989,
+      -0.30039418946830665
+    ],
+    [
+      0.3450000137090683,
+      -0.30039418946830665
+    ],
+    [
+      0.3450000137090683,
+      0.30039418946830665
+    ],
+    [
+      -0.3450000423192989,
+      0.30039418946830665
+    ]
+  ],
+  "variantSlots": [
+    "metal",
+    "wood"
+  ],
+  "requiredExtensions": [],
+  "version": "0.2.0",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.spiral-pole-display",
+  "file": "assets/v0.2.0/spiral-pole-display.glb",
+  "sourceModel": "sources/v0.2.0/spiral-pole-display.blend",
+  "thumbnail": "previews/v0.2.0/spiral-pole-display.png",
+  "backThumbnail": "previews/v0.2.0/spiral-pole-display-back.png",
+  "category": "functional-furniture",
+  "subtype": "spiral-shelf",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "textures": {
+    "count": 0,
+    "bytes": 0
+  },
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.2.0/spiral-pole-display.png",
+      "previews/v0.2.0/spiral-pole-display-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.23,
+      0.15,
+      0.09
+    ],
+    [
+      0.12,
+      0.14,
+      0.16
+    ],
+    [
+      0.045,
+      0.05,
+      0.055
+    ]
+  ],
+  "colourTags": [
+    "charcoal",
+    "black",
+    "weathered wood"
+  ],
+  "materials": [
+    "metal",
+    "wood"
+  ],
+  "searchAliases": [
+    "storage",
+    "spiral shelf"
+  ],
+  "materialSlots": [
+    {
+      "id": "metal",
+      "material": "metal",
+      "recolourable": true
+    },
+    {
+      "id": "wood",
+      "material": "wood",
+      "recolourable": true
+    }
+  ]
+}

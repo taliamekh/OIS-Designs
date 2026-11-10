@@ -1,0 +1,73 @@
+{
+  "id": "ois.design.double-sided-booth",
+  "sha256": "76b2b65c9d8c9e24962b22eed73c776e95ad2c8ca3eca7afd8e2e8ff3b2719e5",
+  "sourceModel": "sources/v0.5.0/double-sided-booth.blend",
+  "sourceSha256": "13fa423a2c8cf3144660dd5d2edf9b4692ce6b7276a55972f15688defd1e24ad",
+  "partCount": 6,
+  "componentCount": 2,
+  "components": [
+    {
+      "parts": [
+        "shared booth plinth",
+        "opposite booth seat",
+        "piping",
+        "opposite booth seat.001",
+        "piping.001"
+      ],
+      "minimum": [
+        -0.8019999861717224,
+        -0.6370000243186951,
+        0.0
+      ],
+      "maximum": [
+        0.8019999861717224,
+        0.6370000243186951,
+        0.5099999904632568
+      ]
+    },
+    {
+      "parts": [
+        "shared padded back"
+      ],
+      "minimum": [
+        -0.800000011920929,
+        -0.09000000357627869,
+        0.4000000059604645
+      ],
+      "maximum": [
+        0.800000011920929,
+        0.09000000357627869,
+        1.100000023841858
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "opposite booth seat",
+      "b": "shared booth plinth",
+      "method": "surface distance",
+      "distance": 8.940696716308594e-08
+    },
+    {
+      "a": "piping",
+      "b": "opposite booth seat",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "opposite booth seat.001",
+      "b": "shared booth plinth",
+      "method": "surface distance",
+      "distance": 8.024520781191313e-08
+    },
+    {
+      "a": "piping.001",
+      "b": "opposite booth seat.001",
+      "method": "triangle intersection",
+      "distance": 0
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T03:07:31Z"
+}

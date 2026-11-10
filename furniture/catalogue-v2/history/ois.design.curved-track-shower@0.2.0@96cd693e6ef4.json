@@ -1,0 +1,162 @@
+{
+  "designId": "ois.design.curved-track-shower",
+  "familyId": "ois.family.curved-track-shower",
+  "id": "ois.design.curved-track-shower",
+  "name": "Curved track shower",
+  "roomTags": [
+    "bathroom"
+  ],
+  "theme": "coastal-linen",
+  "builder": "bath",
+  "parameters": {
+    "form": "shower-quadrant",
+    "w": 1.0,
+    "d": 1.0
+  },
+  "distinction": "Oval top track added to the screen structure; must pass near-duplicate review.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted"
+  },
+  "constructionKey": "bath|shower-quadrant|{}",
+  "sha256": "96cd693e6ef4c34d4de0318290abd8b4e05e00bbd7b8ad8f4fec96c7b677e2a8",
+  "bytes": 47128,
+  "triangles": 1592,
+  "vertices": 1150,
+  "drawPrimitives": 3,
+  "bounds": {
+    "min": [
+      -0.5120000020884987,
+      0.0,
+      -0.5119999647140727
+    ],
+    "max": [
+      0.5119999647140727,
+      2.01200008392334,
+      0.5120000001043081
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 1.0239999668025714,
+    "depth": 1.0239999648183808,
+    "height": 2.01200008392334
+  },
+  "footprint": [
+    [
+      -0.5120000020884987,
+      -0.5119999647140727
+    ],
+    [
+      0.5119999647140727,
+      -0.5119999647140727
+    ],
+    [
+      0.5119999647140727,
+      0.5120000001043081
+    ],
+    [
+      -0.5120000020884987,
+      0.5120000001043081
+    ]
+  ],
+  "variantSlots": [
+    "ceramic",
+    "glass",
+    "metal"
+  ],
+  "requiredExtensions": [],
+  "version": "0.2.0",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.curved-track-shower",
+  "file": "assets/v0.2.0/curved-track-shower.glb",
+  "sourceModel": "sources/v0.2.0/curved-track-shower.blend",
+  "thumbnail": "previews/v0.2.0/curved-track-shower.png",
+  "backThumbnail": "previews/v0.2.0/curved-track-shower-back.png",
+  "category": "bathroom-fixtures",
+  "subtype": "shower-quadrant",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "textures": {
+    "count": 0,
+    "bytes": 0
+  },
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.2.0/curved-track-shower.png",
+      "previews/v0.2.0/curved-track-shower-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.66,
+      0.53,
+      0.34
+    ],
+    [
+      0.36,
+      0.53,
+      0.58
+    ],
+    [
+      0.64,
+      0.6,
+      0.48
+    ]
+  ],
+  "colourTags": [
+    "mist blue",
+    "sand",
+    "pale oak"
+  ],
+  "materials": [
+    "ceramic",
+    "metal",
+    "opaque-glass-study"
+  ],
+  "searchAliases": [
+    "bathroom",
+    "shower quadrant"
+  ],
+  "materialSlots": [
+    {
+      "id": "ceramic",
+      "material": "ceramic",
+      "recolourable": true
+    },
+    {
+      "id": "glass",
+      "material": "glass",
+      "recolourable": true
+    },
+    {
+      "id": "metal",
+      "material": "metal",
+      "recolourable": true
+    }
+  ],
+  "geometryHash": "1dfa5b6928ed6e7cdbce135f75df9baa5f30281c60c26486d7a024c54e9ae6a6",
+  "normalizedMirrorGeometryHash": "37613dbfee248a62e347f128f805660515083d739093018dac755699e00bed83"
+}

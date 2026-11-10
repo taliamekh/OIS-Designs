@@ -1,0 +1,156 @@
+{
+  "designId": "ois.design.four-door-louver-credenza",
+  "familyId": "ois.family.louver-shoe-cupboard",
+  "id": "ois.design.four-door-louver-credenza",
+  "name": "Louver credenza",
+  "roomTags": [
+    "storage"
+  ],
+  "theme": "coastal-linen",
+  "builder": "case",
+  "parameters": {
+    "form": "doors",
+    "front": "louvre",
+    "w": 1.7,
+    "h": 0.82,
+    "doors": 4
+  },
+  "distinction": "Four slatted ventilation panels create a long horizontal cabinet.",
+  "stage": "validated-candidate",
+  "countEligible": false,
+  "variants": [],
+  "variantOf": "ois.design.louver-shoe-cupboard",
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted"
+  },
+  "constructionKey": "case|doors|{\"base\": \"taper\", \"cols\": 1, \"drawersTop\": false, \"front\": \"louvre\", \"rows\": 4}",
+  "countExclusion": "same construction; dimension/material configuration retained as a variant",
+  "sha256": "95c604e4314091c56bb86cd2cfae0c51f40585507f3869c28a1882680c35e3b6",
+  "bytes": 540612,
+  "triangles": 11196,
+  "vertices": 14715,
+  "drawPrimitives": 2,
+  "bounds": {
+    "min": [
+      -0.8514691393486938,
+      -3.477776394644749e-08,
+      -0.25600002031557
+    ],
+    "max": [
+      0.8514695982304441,
+      0.8148693296151999,
+      0.20000000559186518
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 1.7029387375791378,
+    "depth": 0.45600002590743516,
+    "height": 0.8148693643929639
+  },
+  "footprint": [
+    [
+      -0.8514691393486938,
+      -0.25600002031557
+    ],
+    [
+      0.8514695982304441,
+      -0.25600002031557
+    ],
+    [
+      0.8514695982304441,
+      0.20000000559186518
+    ],
+    [
+      -0.8514691393486938,
+      0.20000000559186518
+    ]
+  ],
+  "variantSlots": [
+    "metal",
+    "wood"
+  ],
+  "requiredExtensions": [],
+  "version": "0.2.0",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.louver-shoe-cupboard",
+  "file": "assets/v0.2.0/four-door-louver-credenza.glb",
+  "sourceModel": "sources/v0.2.0/four-door-louver-credenza.blend",
+  "thumbnail": "previews/v0.2.0/four-door-louver-credenza.png",
+  "backThumbnail": "previews/v0.2.0/four-door-louver-credenza-back.png",
+  "category": "storage",
+  "subtype": "doors",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "textures": {
+    "count": 0,
+    "bytes": 0
+  },
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.2.0/four-door-louver-credenza.png",
+      "previews/v0.2.0/four-door-louver-credenza-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.66,
+      0.53,
+      0.34
+    ],
+    [
+      0.36,
+      0.53,
+      0.58
+    ],
+    [
+      0.64,
+      0.6,
+      0.48
+    ]
+  ],
+  "colourTags": [
+    "mist blue",
+    "sand",
+    "pale oak"
+  ],
+  "materials": [
+    "metal",
+    "wood"
+  ],
+  "searchAliases": [
+    "storage",
+    "doors"
+  ],
+  "materialSlots": [
+    {
+      "id": "metal",
+      "material": "metal",
+      "recolourable": true
+    },
+    {
+      "id": "wood",
+      "material": "wood",
+      "recolourable": true
+    }
+  ]
+}

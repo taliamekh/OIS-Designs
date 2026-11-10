@@ -1,0 +1,78 @@
+{
+  "id": "ois.design.clawfoot-bathtub",
+  "sha256": "c853e2740edf4ae18acbf149f211e984a039baba15018a6a6a9c6280a003e2d9",
+  "sourceModel": "sources/v0.7.0/clawfoot-bathtub.blend",
+  "sourceSha256": "03cbb1230a1fa1a111eaef87c9ef248cfd4264982b9607f33848d51ce34885c2",
+  "partCount": 7,
+  "componentCount": 1,
+  "components": [
+    {
+      "parts": [
+        "hollow tub",
+        "claw foot",
+        "claw foot.001",
+        "claw foot.002",
+        "claw foot.003",
+        "curved faucet",
+        "tap lever"
+      ],
+      "minimum": [
+        -0.824999988079071,
+        -0.38999998569488525,
+        0.0
+      ],
+      "maximum": [
+        0.824999988079071,
+        0.38999998569488525,
+        0.7409430742263794
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "claw foot",
+      "b": "hollow tub",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "claw foot.001",
+      "b": "hollow tub",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "claw foot.002",
+      "b": "hollow tub",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "claw foot.003",
+      "b": "hollow tub",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "curved faucet",
+      "b": "hollow tub",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "tap lever",
+      "b": "hollow tub",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "tap lever",
+      "b": "curved faucet",
+      "method": "triangle intersection",
+      "distance": 0
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; live-source reports are NOT exported-asset evidence; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T04:00:30Z"
+}

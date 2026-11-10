@@ -1,0 +1,168 @@
+{
+  "designId": "ois.design.reclining-lounge",
+  "familyId": "ois.family.reclining-lounge",
+  "id": "ois.design.reclining-lounge",
+  "name": "Extended reclining lounge",
+  "roomTags": [
+    "living"
+  ],
+  "theme": "walnut-form",
+  "builder": "seating",
+  "parameters": {
+    "form": "recliner",
+    "h": 1.02
+  },
+  "distinction": "Extended footrest and exposed linkage change the support/footprint.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted",
+    "sourceSnapshot": "sources/pipeline-b3621415215e45c7.py",
+    "sourceSha256": "b3621415215e45c7b5194102a3db7926d719026fb1f967ab518c02160232143f",
+    "parametersFile": "sources/v0.2.1/reclining-lounge.parameters.json"
+  },
+  "constructionKey": "seating|recliner|{\"base\": \"taper\"}",
+  "sha256": "60aa4e78bc8e3bfd7eda8e7fed92f8a1bcfd446e501896fb92f062cf6a819c11",
+  "bytes": 93624,
+  "triangles": 1796,
+  "vertices": 2437,
+  "drawPrimitives": 4,
+  "bounds": {
+    "min": [
+      -0.3546000123023987,
+      5.548874998373421e-09,
+      -0.6906000021845102
+    ],
+    "max": [
+      0.3546000123023987,
+      1.0327993333339691,
+      0.3601048942655325
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 0.7092000246047974,
+    "depth": 1.0507048964500427,
+    "height": 1.0327993277850942
+  },
+  "footprint": [
+    [
+      -0.3546000123023987,
+      -0.6906000021845102
+    ],
+    [
+      0.3546000123023987,
+      -0.6906000021845102
+    ],
+    [
+      0.3546000123023987,
+      0.3601048942655325
+    ],
+    [
+      -0.3546000123023987,
+      0.3601048942655325
+    ]
+  ],
+  "variantSlots": [
+    "fabric",
+    "linen",
+    "metal",
+    "wood"
+  ],
+  "requiredExtensions": [],
+  "version": "0.2.1",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.reclining-lounge",
+  "file": "assets/v0.2.1/reclining-lounge.glb",
+  "sourceModel": "sources/v0.2.1/reclining-lounge.blend",
+  "thumbnail": "previews/v0.2.1/reclining-lounge.png",
+  "backThumbnail": "previews/v0.2.1/reclining-lounge-back.png",
+  "category": "seating",
+  "subtype": "recliner",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "textures": {
+    "count": 0,
+    "bytes": 0
+  },
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.2.1/reclining-lounge.png",
+      "previews/v0.2.1/reclining-lounge-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.22,
+      0.09,
+      0.038
+    ],
+    [
+      0.39,
+      0.18,
+      0.07
+    ],
+    [
+      0.47,
+      0.3,
+      0.1
+    ]
+  ],
+  "colourTags": [
+    "walnut",
+    "tobacco",
+    "brass"
+  ],
+  "materials": [
+    "metal",
+    "textile",
+    "wood"
+  ],
+  "searchAliases": [
+    "living",
+    "recliner"
+  ],
+  "materialSlots": [
+    {
+      "id": "fabric",
+      "material": "fabric",
+      "recolourable": true
+    },
+    {
+      "id": "linen",
+      "material": "linen",
+      "recolourable": true
+    },
+    {
+      "id": "metal",
+      "material": "metal",
+      "recolourable": true
+    },
+    {
+      "id": "wood",
+      "material": "wood",
+      "recolourable": true
+    }
+  ]
+}

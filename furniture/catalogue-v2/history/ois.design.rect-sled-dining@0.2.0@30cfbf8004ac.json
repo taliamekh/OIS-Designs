@@ -1,0 +1,156 @@
+{
+  "designId": "ois.design.rect-sled-dining",
+  "familyId": "ois.family.rect-sled-dining",
+  "id": "ois.design.rect-sled-dining",
+  "name": "Steel sled dining table",
+  "roomTags": [
+    "dining"
+  ],
+  "theme": "city-loft",
+  "builder": "table",
+  "parameters": {
+    "form": "sled",
+    "w": 1.65,
+    "d": 0.88,
+    "h": 0.75,
+    "shape": "rect"
+  },
+  "distinction": "Slab top on two uninterrupted steel sleds.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted"
+  },
+  "sha256": "30cfbf8004ac7e8559b4be94e87b4d76784e9f379280b49a2372ffa1f5a5f43d",
+  "bytes": 12136,
+  "triangles": 308,
+  "vertices": 269,
+  "drawPrimitives": 2,
+  "bounds": {
+    "min": [
+      -0.824999988079071,
+      0.0,
+      -0.4399999976158142
+    ],
+    "max": [
+      0.824999988079071,
+      0.7413953170180321,
+      0.4399999976158142
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 1.649999976158142,
+    "depth": 0.8799999952316284,
+    "height": 0.7413953170180321
+  },
+  "footprint": [
+    [
+      -0.824999988079071,
+      -0.4399999976158142
+    ],
+    [
+      0.824999988079071,
+      -0.4399999976158142
+    ],
+    [
+      0.824999988079071,
+      0.4399999976158142
+    ],
+    [
+      -0.824999988079071,
+      0.4399999976158142
+    ]
+  ],
+  "variantSlots": [
+    "metal",
+    "wood"
+  ],
+  "requiredExtensions": [],
+  "version": "0.2.0",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.rect-sled-dining",
+  "file": "assets/v0.2.0/rect-sled-dining.glb",
+  "sourceModel": "sources/v0.2.0/rect-sled-dining.blend",
+  "thumbnail": "previews/v0.2.0/rect-sled-dining.png",
+  "backThumbnail": "previews/v0.2.0/rect-sled-dining-back.png",
+  "category": "tables",
+  "subtype": "sled",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "textures": {
+    "count": 0,
+    "bytes": 0
+  },
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.2.0/rect-sled-dining.png",
+      "previews/v0.2.0/rect-sled-dining-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.23,
+      0.15,
+      0.09
+    ],
+    [
+      0.12,
+      0.14,
+      0.16
+    ],
+    [
+      0.045,
+      0.05,
+      0.055
+    ]
+  ],
+  "colourTags": [
+    "charcoal",
+    "black",
+    "weathered wood"
+  ],
+  "materials": [
+    "metal",
+    "wood"
+  ],
+  "searchAliases": [
+    "dining",
+    "sled"
+  ],
+  "materialSlots": [
+    {
+      "id": "metal",
+      "material": "metal",
+      "recolourable": true
+    },
+    {
+      "id": "wood",
+      "material": "wood",
+      "recolourable": true
+    }
+  ],
+  "geometryHash": "b59f98ed2edd4e9fb7dfac31b7191db361a0ad42c5e036596c2e0258e5ff266e",
+  "normalizedMirrorGeometryHash": "0088fa993d2a90ff021557c11f58b96c0666c6e70cbbeccbb5dad36dbeb2c88d"
+}

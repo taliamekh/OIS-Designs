@@ -1,0 +1,70 @@
+{
+  "id": "ois.design.quilt-rail",
+  "sha256": "6e6dae2036a6a385c6903de259dcd83ddff565a6083b2864c9075a12d343fae1",
+  "sourceModel": "sources/v0.5.0/quilt-rail.blend",
+  "sourceSha256": "828c70bf40077b5972047cb00e3c31d8e6cbc321576afa7a6b22908392af5cb0",
+  "partCount": 5,
+  "componentCount": 1,
+  "components": [
+    {
+      "parts": [
+        "rack end",
+        "rack end.001",
+        "quilt rail",
+        "quilt rail.001",
+        "quilt rail.002"
+      ],
+      "minimum": [
+        -0.5,
+        -0.22500000894069672,
+        0.0
+      ],
+      "maximum": [
+        0.5,
+        0.22500000894069672,
+        0.8800000548362732
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "quilt rail",
+      "b": "rack end",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "quilt rail",
+      "b": "rack end.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "quilt rail.001",
+      "b": "rack end",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "quilt rail.001",
+      "b": "rack end.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "quilt rail.002",
+      "b": "rack end",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "quilt rail.002",
+      "b": "rack end.001",
+      "method": "triangle intersection",
+      "distance": 0
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T03:07:33Z"
+}

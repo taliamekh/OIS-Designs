@@ -1,0 +1,267 @@
+{
+  "id": "ois.design.chaise-return-sofa",
+  "sha256": "unexported-source-6226f7a5305865fd189dfcec35a3077205588e7999488a17cff703d94c6b1b9f",
+  "sourceModel": null,
+  "sourceSha256": "6226f7a5305865fd189dfcec35a3077205588e7999488a17cff703d94c6b1b9f",
+  "partCount": 22,
+  "componentCount": 1,
+  "components": [
+    {
+      "parts": [
+        "leg",
+        "leg.001",
+        "leg.002",
+        "leg.003",
+        "seat deck",
+        "concealed back frame",
+        "seat cushion",
+        "piping",
+        "back cushion",
+        "seat cushion.001",
+        "piping.001",
+        "back cushion.001",
+        "seat cushion.002",
+        "piping.002",
+        "back cushion.002",
+        "arm",
+        "arm.001",
+        "chaise foundation",
+        "chaise pad",
+        "piping.003",
+        "chaise foot",
+        "chaise foot.001"
+      ],
+      "minimum": [
+        -1.125,
+        -0.42185065150260925,
+        -1.4901161193847656e-08
+      ],
+      "maximum": [
+        1.125,
+        1.1169999837875366,
+        0.8316983580589294
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "seat deck",
+      "b": "leg",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "seat deck",
+      "b": "leg.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "seat deck",
+      "b": "leg.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "seat deck",
+      "b": "leg.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "concealed back frame",
+      "b": "seat deck",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "seat cushion",
+      "b": "seat deck",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "piping",
+      "b": "seat cushion",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "back cushion",
+      "b": "concealed back frame",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "back cushion",
+      "b": "seat cushion",
+      "method": "surface distance",
+      "distance": 0.003128368640318513
+    },
+    {
+      "a": "seat cushion.001",
+      "b": "seat deck",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "piping.001",
+      "b": "seat cushion.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "back cushion.001",
+      "b": "concealed back frame",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "back cushion.001",
+      "b": "seat cushion.001",
+      "method": "surface distance",
+      "distance": 0.003128376556560397
+    },
+    {
+      "a": "seat cushion.002",
+      "b": "seat deck",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "piping.002",
+      "b": "seat cushion.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "back cushion.002",
+      "b": "concealed back frame",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "back cushion.002",
+      "b": "seat cushion.002",
+      "method": "surface distance",
+      "distance": 0.003128376556560397
+    },
+    {
+      "a": "arm",
+      "b": "seat deck",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "arm",
+      "b": "concealed back frame",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "arm.001",
+      "b": "seat deck",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "arm.001",
+      "b": "concealed back frame",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "chaise foundation",
+      "b": "leg.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "chaise foundation",
+      "b": "seat deck",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "chaise foundation",
+      "b": "seat cushion.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "chaise foundation",
+      "b": "arm.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "chaise pad",
+      "b": "seat deck",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "chaise pad",
+      "b": "seat cushion.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "chaise pad",
+      "b": "piping.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "chaise pad",
+      "b": "arm.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "chaise pad",
+      "b": "chaise foundation",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "piping.003",
+      "b": "seat cushion.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "piping.003",
+      "b": "piping.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "piping.003",
+      "b": "arm.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "piping.003",
+      "b": "chaise pad",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "chaise foot",
+      "b": "chaise foundation",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "chaise foot.001",
+      "b": "chaise foundation",
+      "method": "triangle intersection",
+      "distance": 0
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; live-source reports are NOT exported-asset evidence; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T03:35:23Z"
+}

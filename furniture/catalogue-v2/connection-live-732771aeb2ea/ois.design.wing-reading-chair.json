@@ -1,0 +1,145 @@
+{
+  "id": "ois.design.wing-reading-chair",
+  "sha256": "unexported-source-732771aeb2eadd33599208170e38ff4e50d68878cbfb6795c9473e6f8553f36b",
+  "sourceModel": null,
+  "sourceSha256": "732771aeb2eadd33599208170e38ff4e50d68878cbfb6795c9473e6f8553f36b",
+  "partCount": 14,
+  "componentCount": 1,
+  "components": [
+    {
+      "parts": [
+        "leg",
+        "leg.001",
+        "leg.002",
+        "leg.003",
+        "structural chair seat pan",
+        "seat",
+        "piping",
+        "backrest",
+        "wing",
+        "wing.001",
+        "arm",
+        "arm upright",
+        "arm.001",
+        "arm upright.001"
+      ],
+      "minimum": [
+        -0.3546000123023987,
+        -0.3650965392589569,
+        0.010946487076580524
+      ],
+      "maximum": [
+        0.3546000123023987,
+        0.368399977684021,
+        1.143496036529541
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "structural chair seat pan",
+      "b": "leg",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "structural chair seat pan",
+      "b": "leg.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "structural chair seat pan",
+      "b": "leg.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "structural chair seat pan",
+      "b": "leg.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "seat",
+      "b": "leg",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "seat",
+      "b": "leg.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "seat",
+      "b": "leg.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "seat",
+      "b": "leg.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "seat",
+      "b": "structural chair seat pan",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "piping",
+      "b": "seat",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "backrest",
+      "b": "seat",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "wing",
+      "b": "backrest",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "wing.001",
+      "b": "backrest",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "arm upright",
+      "b": "seat",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "arm upright",
+      "b": "arm",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "arm upright.001",
+      "b": "seat",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "arm upright.001",
+      "b": "arm.001",
+      "method": "triangle intersection",
+      "distance": 0
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; live-source reports are NOT exported-asset evidence; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T03:27:54Z"
+}

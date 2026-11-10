@@ -1,0 +1,641 @@
+{
+  "id": "ois.design.upright-room-piano",
+  "sha256": "unexported-source-6226f7a5305865fd189dfcec35a3077205588e7999488a17cff703d94c6b1b9f",
+  "sourceModel": null,
+  "sourceSha256": "6226f7a5305865fd189dfcec35a3077205588e7999488a17cff703d94c6b1b9f",
+  "partCount": 54,
+  "componentCount": 1,
+  "components": [
+    {
+      "parts": [
+        "piano case",
+        "keyboard bed",
+        "leg",
+        "leg.001",
+        "leg.002",
+        "leg.003",
+        "ivory key",
+        "ivory key.001",
+        "ivory key.002",
+        "ivory key.003",
+        "ivory key.004",
+        "ivory key.005",
+        "ivory key.006",
+        "ivory key.007",
+        "ivory key.008",
+        "ivory key.009",
+        "ivory key.010",
+        "ivory key.011",
+        "ivory key.012",
+        "ivory key.013",
+        "ivory key.014",
+        "ivory key.015",
+        "ivory key.016",
+        "ivory key.017",
+        "ivory key.018",
+        "ivory key.019",
+        "ivory key.020",
+        "ivory key.021",
+        "ivory key.022",
+        "ivory key.023",
+        "ivory key.024",
+        "ivory key.025",
+        "ivory key.026",
+        "ivory key.027",
+        "black key",
+        "black key.001",
+        "black key.002",
+        "black key.003",
+        "black key.004",
+        "black key.005",
+        "black key.006",
+        "black key.007",
+        "black key.008",
+        "black key.009",
+        "black key.010",
+        "black key.011",
+        "black key.012",
+        "black key.013",
+        "black key.014",
+        "black key.015",
+        "black key.016",
+        "black key.017",
+        "black key.018",
+        "black key.019"
+      ],
+      "minimum": [
+        -0.7099999785423279,
+        -0.25049999356269836,
+        0.0
+      ],
+      "maximum": [
+        0.7099999785423279,
+        0.37199997901916504,
+        1.1799999475479126
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "keyboard bed",
+      "b": "piano case",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "leg",
+      "b": "piano case",
+      "method": "surface distance",
+      "distance": 0.0038779377937316895
+    },
+    {
+      "a": "leg.001",
+      "b": "keyboard bed",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "leg.002",
+      "b": "piano case",
+      "method": "surface distance",
+      "distance": 0.0038779377937316895
+    },
+    {
+      "a": "leg.003",
+      "b": "keyboard bed",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "ivory key",
+      "b": "keyboard bed",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "ivory key.001",
+      "b": "keyboard bed",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "ivory key.001",
+      "b": "ivory key",
+      "method": "surface distance",
+      "distance": 0.0031622368842363358
+    },
+    {
+      "a": "ivory key.002",
+      "b": "keyboard bed",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "ivory key.002",
+      "b": "ivory key.001",
+      "method": "surface distance",
+      "distance": 0.0031622368842363358
+    },
+    {
+      "a": "ivory key.003",
+      "b": "keyboard bed",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "ivory key.003",
+      "b": "ivory key.002",
+      "method": "surface distance",
+      "distance": 0.0031622368842363358
+    },
+    {
+      "a": "ivory key.004",
+      "b": "keyboard bed",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "ivory key.004",
+      "b": "ivory key.003",
+      "method": "surface distance",
+      "distance": 0.0031622934620827436
+    },
+    {
+      "a": "ivory key.005",
+      "b": "keyboard bed",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "ivory key.005",
+      "b": "ivory key.004",
+      "method": "surface distance",
+      "distance": 0.003162265056744218
+    },
+    {
+      "a": "ivory key.006",
+      "b": "keyboard bed",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "ivory key.006",
+      "b": "ivory key.005",
+      "method": "surface distance",
+      "distance": 0.003162265056744218
+    },
+    {
+      "a": "ivory key.007",
+      "b": "keyboard bed",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "ivory key.007",
+      "b": "ivory key.006",
+      "method": "surface distance",
+      "distance": 0.003162265056744218
+    },
+    {
+      "a": "ivory key.008",
+      "b": "keyboard bed",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "ivory key.008",
+      "b": "ivory key.007",
+      "method": "surface distance",
+      "distance": 0.003162265056744218
+    },
+    {
+      "a": "ivory key.009",
+      "b": "keyboard bed",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "ivory key.009",
+      "b": "ivory key.008",
+      "method": "surface distance",
+      "distance": 0.0031622792594134808
+    },
+    {
+      "a": "ivory key.010",
+      "b": "keyboard bed",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "ivory key.010",
+      "b": "ivory key.009",
+      "method": "surface distance",
+      "distance": 0.0031622792594134808
+    },
+    {
+      "a": "ivory key.011",
+      "b": "keyboard bed",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "ivory key.011",
+      "b": "ivory key.010",
+      "method": "surface distance",
+      "distance": 0.0031622792594134808
+    },
+    {
+      "a": "ivory key.012",
+      "b": "keyboard bed",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "ivory key.012",
+      "b": "ivory key.011",
+      "method": "surface distance",
+      "distance": 0.0031622792594134808
+    },
+    {
+      "a": "ivory key.013",
+      "b": "keyboard bed",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "ivory key.013",
+      "b": "ivory key.012",
+      "method": "surface distance",
+      "distance": 0.003162272274494171
+    },
+    {
+      "a": "ivory key.014",
+      "b": "keyboard bed",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "ivory key.014",
+      "b": "ivory key.013",
+      "method": "surface distance",
+      "distance": 0.0031622741371393204
+    },
+    {
+      "a": "ivory key.015",
+      "b": "keyboard bed",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "ivory key.015",
+      "b": "ivory key.014",
+      "method": "surface distance",
+      "distance": 0.0031622741371393204
+    },
+    {
+      "a": "ivory key.016",
+      "b": "keyboard bed",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "ivory key.016",
+      "b": "ivory key.015",
+      "method": "surface distance",
+      "distance": 0.003162272274494171
+    },
+    {
+      "a": "ivory key.017",
+      "b": "keyboard bed",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "ivory key.017",
+      "b": "ivory key.016",
+      "method": "surface distance",
+      "distance": 0.003162272274494171
+    },
+    {
+      "a": "ivory key.018",
+      "b": "keyboard bed",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "ivory key.018",
+      "b": "ivory key.017",
+      "method": "surface distance",
+      "distance": 0.0031622792594134808
+    },
+    {
+      "a": "ivory key.019",
+      "b": "keyboard bed",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "ivory key.019",
+      "b": "ivory key.018",
+      "method": "surface distance",
+      "distance": 0.0031622792594134808
+    },
+    {
+      "a": "ivory key.020",
+      "b": "keyboard bed",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "ivory key.020",
+      "b": "ivory key.019",
+      "method": "surface distance",
+      "distance": 0.0031622934620827436
+    },
+    {
+      "a": "ivory key.021",
+      "b": "keyboard bed",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "ivory key.021",
+      "b": "ivory key.020",
+      "method": "surface distance",
+      "distance": 0.003162265056744218
+    },
+    {
+      "a": "ivory key.022",
+      "b": "keyboard bed",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "ivory key.022",
+      "b": "ivory key.021",
+      "method": "surface distance",
+      "distance": 0.003162265056744218
+    },
+    {
+      "a": "ivory key.023",
+      "b": "keyboard bed",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "ivory key.023",
+      "b": "ivory key.022",
+      "method": "surface distance",
+      "distance": 0.003162265056744218
+    },
+    {
+      "a": "ivory key.024",
+      "b": "keyboard bed",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "ivory key.024",
+      "b": "ivory key.023",
+      "method": "surface distance",
+      "distance": 0.003162265056744218
+    },
+    {
+      "a": "ivory key.025",
+      "b": "keyboard bed",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "ivory key.025",
+      "b": "ivory key.024",
+      "method": "surface distance",
+      "distance": 0.0031622934620827436
+    },
+    {
+      "a": "ivory key.026",
+      "b": "keyboard bed",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "ivory key.026",
+      "b": "ivory key.025",
+      "method": "surface distance",
+      "distance": 0.0031622368842363358
+    },
+    {
+      "a": "ivory key.027",
+      "b": "keyboard bed",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "ivory key.027",
+      "b": "ivory key.026",
+      "method": "surface distance",
+      "distance": 0.0031622368842363358
+    },
+    {
+      "a": "black key",
+      "b": "ivory key",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "black key",
+      "b": "ivory key.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "black key.001",
+      "b": "ivory key.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "black key.002",
+      "b": "ivory key.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "black key.002",
+      "b": "ivory key.004",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "black key.003",
+      "b": "ivory key.004",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "black key.003",
+      "b": "ivory key.005",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "black key.004",
+      "b": "ivory key.006",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "black key.005",
+      "b": "ivory key.007",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "black key.005",
+      "b": "ivory key.008",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "black key.006",
+      "b": "ivory key.008",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "black key.006",
+      "b": "ivory key.009",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "black key.007",
+      "b": "ivory key.010",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "black key.008",
+      "b": "ivory key.011",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "black key.008",
+      "b": "ivory key.012",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "black key.009",
+      "b": "ivory key.012",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "black key.009",
+      "b": "ivory key.013",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "black key.010",
+      "b": "ivory key.014",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "black key.011",
+      "b": "ivory key.015",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "black key.011",
+      "b": "ivory key.016",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "black key.012",
+      "b": "ivory key.016",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "black key.012",
+      "b": "ivory key.017",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "black key.013",
+      "b": "ivory key.018",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "black key.014",
+      "b": "ivory key.019",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "black key.014",
+      "b": "ivory key.020",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "black key.015",
+      "b": "ivory key.020",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "black key.015",
+      "b": "ivory key.021",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "black key.016",
+      "b": "ivory key.022",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "black key.017",
+      "b": "ivory key.023",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "black key.017",
+      "b": "ivory key.024",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "black key.018",
+      "b": "ivory key.024",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "black key.018",
+      "b": "ivory key.025",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "black key.019",
+      "b": "ivory key.026",
+      "method": "triangle intersection",
+      "distance": 0
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; live-source reports are NOT exported-asset evidence; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T03:36:28Z"
+}

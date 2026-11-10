@@ -1,0 +1,160 @@
+{
+  "id": "ois.design.curved-track-shower",
+  "sha256": "6268a0cfd9dc620858a8fb13e8b23c1a587902c78aabc75e51cdd000f2e287af",
+  "sourceModel": "sources/v0.7.0/curved-track-shower.blend",
+  "sourceSha256": "e9c36d6c78451676265a75cde242dbd6c68267c90c2dac61efdfc1d2923133fd",
+  "partCount": 11,
+  "componentCount": 1,
+  "components": [
+    {
+      "parts": [
+        "quadrant tray",
+        "quadrant upright",
+        "quadrant upright.001",
+        "quadrant upright.002",
+        "curved front glass",
+        "quarter track",
+        "quarter track.001",
+        "shower riser",
+        "head",
+        "quadrant riser clamp",
+        "quadrant riser clamp.001"
+      ],
+      "minimum": [
+        -0.5120000243186951,
+        -0.5120000243186951,
+        0.0
+      ],
+      "maximum": [
+        0.5120000243186951,
+        0.5120000243186951,
+        2.01200008392334
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "quadrant upright",
+      "b": "quadrant tray",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "quadrant upright.001",
+      "b": "quadrant tray",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "quadrant upright.002",
+      "b": "quadrant tray",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "curved front glass",
+      "b": "quadrant upright",
+      "method": "point containment",
+      "distance": 0
+    },
+    {
+      "a": "curved front glass",
+      "b": "quadrant upright.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "curved front glass",
+      "b": "quadrant upright.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "quarter track",
+      "b": "quadrant tray",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "quarter track",
+      "b": "quadrant upright.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "quarter track",
+      "b": "quadrant upright.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "quarter track",
+      "b": "curved front glass",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "quarter track.001",
+      "b": "quadrant upright.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "quarter track.001",
+      "b": "quadrant upright.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "quarter track.001",
+      "b": "curved front glass",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "shower riser",
+      "b": "curved front glass",
+      "method": "point containment",
+      "distance": 0
+    },
+    {
+      "a": "head",
+      "b": "shower riser",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "quadrant riser clamp",
+      "b": "quadrant upright",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "quadrant riser clamp",
+      "b": "curved front glass",
+      "method": "point containment",
+      "distance": 0
+    },
+    {
+      "a": "quadrant riser clamp",
+      "b": "shower riser",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "quadrant riser clamp.001",
+      "b": "quadrant upright",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "quadrant riser clamp.001",
+      "b": "shower riser",
+      "method": "triangle intersection",
+      "distance": 0
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; live-source reports are NOT exported-asset evidence; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T04:00:30Z"
+}

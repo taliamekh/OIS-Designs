@@ -1,0 +1,151 @@
+{
+  "designId": "ois.design.round-drum-coffee",
+  "familyId": "ois.family.round-drum-coffee",
+  "id": "ois.design.round-drum-coffee",
+  "name": "Fluted drum coffee table",
+  "roomTags": [
+    "living"
+  ],
+  "theme": "soft-japandi",
+  "builder": "table",
+  "parameters": {
+    "form": "drum",
+    "w": 1.08,
+    "d": 0.62,
+    "h": 0.39,
+    "shape": "round"
+  },
+  "distinction": "Circular top over a full-height fluted cylindrical pedestal.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted",
+    "sourceSnapshot": "sources/pipeline-e797cb5c88af56f5.py",
+    "sourceSha256": "e797cb5c88af56f5b4455d819a512ab9be55f40e1fa2d0cb542aca7bb84b906f",
+    "parametersFile": "sources/v0.2.1/round-drum-coffee.parameters.json"
+  },
+  "constructionKey": "table|drum|{\"drawers\": false, \"shape\": \"ellipse\", \"shelf\": false}",
+  "sha256": "bfd09b7e0d766bd39d9d0f1f499046bbdb36a495b540ec9c8def7d622f165339",
+  "bytes": 82872,
+  "triangles": 1992,
+  "vertices": 2172,
+  "drawPrimitives": 1,
+  "bounds": {
+    "min": [
+      -0.5400000214576721,
+      -2.9802322387695312e-08,
+      -0.3100000023841858
+    ],
+    "max": [
+      0.5400000214576721,
+      0.39000000804662704,
+      0.3100000023841858
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 1.0800000429153442,
+    "depth": 0.6200000047683716,
+    "height": 0.39000003784894943
+  },
+  "footprint": [
+    [
+      -0.5400000214576721,
+      -0.3100000023841858
+    ],
+    [
+      0.5400000214576721,
+      -0.3100000023841858
+    ],
+    [
+      0.5400000214576721,
+      0.3100000023841858
+    ],
+    [
+      -0.5400000214576721,
+      0.3100000023841858
+    ]
+  ],
+  "variantSlots": [
+    "wood"
+  ],
+  "requiredExtensions": [],
+  "version": "0.2.1",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.round-drum-coffee",
+  "file": "assets/v0.2.1/round-drum-coffee.glb",
+  "sourceModel": "sources/v0.2.1/round-drum-coffee.blend",
+  "thumbnail": "previews/v0.2.1/round-drum-coffee.png",
+  "backThumbnail": "previews/v0.2.1/round-drum-coffee-back.png",
+  "category": "tables",
+  "subtype": "drum",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "textures": {
+    "count": 0,
+    "bytes": 0
+  },
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.2.1/round-drum-coffee.png",
+      "previews/v0.2.1/round-drum-coffee-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.34,
+      0.28,
+      0.19
+    ],
+    [
+      0.58,
+      0.54,
+      0.44
+    ],
+    [
+      0.15,
+      0.17,
+      0.15
+    ]
+  ],
+  "colourTags": [
+    "ash",
+    "flax",
+    "stone"
+  ],
+  "materials": [
+    "wood"
+  ],
+  "searchAliases": [
+    "living",
+    "drum"
+  ],
+  "materialSlots": [
+    {
+      "id": "wood",
+      "material": "wood",
+      "recolourable": true
+    }
+  ]
+}

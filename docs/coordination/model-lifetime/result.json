@@ -1,0 +1,239 @@
+{
+  "checkedAtUtc": "2026-11-10T03:40:56.547Z",
+  "sources": {
+    "src/scene/resources.ts": "d42aab6041fadfbc1ef9ddf5305a039614d9004c50eeecf1d3eeb13fd9e31d23",
+    "src/scene/textureBank.ts": "264898393e22f19a3b838cd4f6e00f9a715466c268e8e7d5fd77d37ca5e00409",
+    "src/scene/modelLoader.ts": "4ad06639eb7339e4c1fbfb9813a642ba2bf2328c3fdf17e0a7667463a34dec61",
+    "src/scene/Viewport.tsx": "a5a4cb391b2dd158961a1eeb8b5514beb69018e3d8a96160bf5fc9b9604df4b8"
+  },
+  "after": {
+    "src/scene/resources.ts": "d42aab6041fadfbc1ef9ddf5305a039614d9004c50eeecf1d3eeb13fd9e31d23",
+    "src/scene/textureBank.ts": "264898393e22f19a3b838cd4f6e00f9a715466c268e8e7d5fd77d37ca5e00409",
+    "src/scene/modelLoader.ts": "4ad06639eb7339e4c1fbfb9813a642ba2bf2328c3fdf17e0a7667463a34dec61",
+    "src/scene/Viewport.tsx": "a5a4cb391b2dd158961a1eeb8b5514beb69018e3d8a96160bf5fc9b9604df4b8"
+  },
+  "stableSource": true,
+  "passed": 11,
+  "failed": 0,
+  "checks": [
+    {
+      "id": "all-desired-delayed-commits-retain-leases",
+      "pass": true,
+      "observed": {
+        "entries": 14,
+        "active": 0,
+        "pending": 14,
+        "wanted": 14,
+        "idle": 0,
+        "sourceBytes": 14336,
+        "textureSets": 0,
+        "sharedTextures": {
+          "textures": 1,
+          "leases": 14,
+          "duplicates": 13
+        }
+      }
+    },
+    {
+      "id": "pending-native-canonical-texture-not-disposed",
+      "pass": true
+    },
+    {
+      "id": "intent-release-preserves-mounted-sources",
+      "pass": true,
+      "observed": {
+        "entries": 14,
+        "active": 14,
+        "pending": 0,
+        "wanted": 0,
+        "idle": 0,
+        "sourceBytes": 14336,
+        "textureSets": 0,
+        "sharedTextures": {
+          "textures": 1,
+          "leases": 14,
+          "duplicates": 13
+        }
+      }
+    },
+    {
+      "id": "ordinary-pressure-keeps-active-native-texture",
+      "pass": true,
+      "observed": {
+        "entries": 10,
+        "active": 2,
+        "pending": 0,
+        "wanted": 0,
+        "idle": 8,
+        "sourceBytes": 10240,
+        "textureSets": 0,
+        "sharedTextures": {
+          "textures": 1,
+          "leases": 10,
+          "duplicates": 13
+        }
+      }
+    },
+    {
+      "id": "last-old-source-eventually-disposes-native-texture-once",
+      "pass": true,
+      "observed": {
+        "entries": 8,
+        "active": 0,
+        "pending": 0,
+        "wanted": 0,
+        "idle": 8,
+        "sourceBytes": 8192,
+        "textureSets": 0,
+        "sharedTextures": {
+          "textures": 8,
+          "leases": 8,
+          "duplicates": 13
+        }
+      }
+    },
+    {
+      "id": "registered-loader-clear-callback-is-preserved",
+      "pass": true,
+      "observed": [
+        {
+          "kind": "registered",
+          "key": "source-0"
+        },
+        {
+          "kind": "registered",
+          "key": "source-1"
+        },
+        {
+          "kind": "registered",
+          "key": "source-2"
+        },
+        {
+          "kind": "registered",
+          "key": "source-3"
+        },
+        {
+          "kind": "registered",
+          "key": "source-4"
+        },
+        {
+          "kind": "registered",
+          "key": "source-5"
+        },
+        {
+          "kind": "registered",
+          "key": "source-6"
+        },
+        {
+          "kind": "registered",
+          "key": "source-7"
+        },
+        {
+          "kind": "registered",
+          "key": "source-8"
+        },
+        {
+          "kind": "registered",
+          "key": "source-9"
+        },
+        {
+          "kind": "registered",
+          "key": "source-10"
+        },
+        {
+          "kind": "registered",
+          "key": "source-11"
+        },
+        {
+          "kind": "registered",
+          "key": "source-12"
+        },
+        {
+          "kind": "registered",
+          "key": "source-13"
+        },
+        {
+          "kind": "registered",
+          "key": "source-20"
+        }
+      ]
+    },
+    {
+      "id": "overlapping-viewport-intent-keeps-shared-pending-source",
+      "pass": true,
+      "observed": {
+        "entries": 9,
+        "active": 0,
+        "pending": 1,
+        "wanted": 1,
+        "idle": 8,
+        "sourceBytes": 9216,
+        "textureSets": 0,
+        "sharedTextures": {
+          "textures": 1,
+          "leases": 9,
+          "duplicates": 14
+        }
+      }
+    },
+    {
+      "id": "released-unwanted-source-is-evicted-under-pressure",
+      "pass": true
+    },
+    {
+      "id": "final-intent-release-restores-eight-idle-bound",
+      "pass": true,
+      "observed": {
+        "entries": 8,
+        "active": 0,
+        "pending": 0,
+        "wanted": 0,
+        "idle": 8,
+        "sourceBytes": 8192,
+        "textureSets": 0,
+        "sharedTextures": {
+          "textures": 1,
+          "leases": 8,
+          "duplicates": 14
+        }
+      }
+    },
+    {
+      "id": "abandoned-completions-obey-byte-and-count-bounds",
+      "pass": true,
+      "observed": {
+        "entries": 4,
+        "active": 0,
+        "pending": 0,
+        "wanted": 0,
+        "idle": 4,
+        "sourceBytes": 16777216,
+        "textureSets": 0,
+        "sharedTextures": {
+          "textures": 1,
+          "leases": 4,
+          "duplicates": 29
+        }
+      }
+    },
+    {
+      "id": "abandoned-source-leases-match-retained-cache",
+      "pass": true,
+      "observed": {
+        "entries": 4,
+        "active": 0,
+        "pending": 0,
+        "wanted": 0,
+        "idle": 4,
+        "sourceBytes": 16777216,
+        "textureSets": 0,
+        "sharedTextures": {
+          "textures": 1,
+          "leases": 4,
+          "duplicates": 29
+        }
+      }
+    }
+  ],
+  "limits": "Actual production cache/texture-bank with installed Three, synthetic native-loader-shaped images and controlled intent/commit/time. Source bytes are declared fixture costs, not allocated buffers. No EXGL, physical device, browser GPU or OS execution."
+}

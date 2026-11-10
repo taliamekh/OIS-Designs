@@ -1,0 +1,37 @@
+{
+  "id": "ois.design.triangle-cone-table",
+  "sha256": "unexported-source-542a6b43ca4abc9d4f4ac88dc7bd803746dd198c350ababac32d73431ffd328b",
+  "sourceModel": null,
+  "sourceSha256": "542a6b43ca4abc9d4f4ac88dc7bd803746dd198c350ababac32d73431ffd328b",
+  "partCount": 2,
+  "componentCount": 1,
+  "components": [
+    {
+      "parts": [
+        "top",
+        "conical pedestal"
+      ],
+      "minimum": [
+        -0.5400000214576721,
+        -0.26660001277923584,
+        0.0
+      ],
+      "maximum": [
+        0.5400000214576721,
+        0.35339999198913574,
+        0.38999998569488525
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "conical pedestal",
+      "b": "top",
+      "method": "triangle intersection",
+      "distance": 0
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; live-source reports are NOT exported-asset evidence; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T03:31:45Z"
+}

@@ -1,0 +1,238 @@
+{
+  "designId": "ois.design.triangle-cantilever-console",
+  "familyId": "ois.family.triangle-cantilever-console",
+  "id": "ois.design.triangle-cantilever-console",
+  "name": "Triangular cantilever console",
+  "roomTags": [
+    "entry-hall"
+  ],
+  "theme": "soft-japandi",
+  "builder": "table",
+  "parameters": {
+    "form": "cantilever",
+    "w": 0.95,
+    "d": 0.42,
+    "h": 0.8,
+    "shape": "triangle"
+  },
+  "distinction": "Triangular shallow console projecting from an offset steel plate.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted",
+    "sourceSnapshot": "sources/pipeline-bf07453f548fd92d.py",
+    "sourceSha256": "bf07453f548fd92da637ecce41dc8b35010d5f15c955c971c9e3be2fb762ea2d",
+    "sourceModelSha256": "e8dfb0508372b0be0df60764159dc95bade0e61b218bba1d6d48038596df523c",
+    "supportSources": {
+      "signature_designs.py": {
+        "snapshot": "sources/signature_designs-6d248dd7aaa49ed4.py",
+        "sha256": "6d248dd7aaa49ed40f05c473c5d46b6fe8c97972ebf6ce139553f9641fc82b3c"
+      },
+      "material_finish.py": {
+        "snapshot": "sources/material_finish-281279dfd17b0c92.py",
+        "sha256": "281279dfd17b0c929f9038bb8066b86216427feaaefbd503abb995d06dc35730"
+      },
+      "catalogue_inventory.py": {
+        "snapshot": "sources/catalogue_inventory-db8b68fc872dbc12.py",
+        "sha256": "db8b68fc872dbc12d87e9ce013777e00d6b32cc0392e8cc09f31f8fef27b9365"
+      },
+      "finalize_glb.py": {
+        "snapshot": "sources/finalize_glb-4d1dec42be5cbf3d.py",
+        "sha256": "4d1dec42be5cbf3d6540facfa883948acd849c080f7117b8d7025749c08e2d1b"
+      },
+      "build_catalogue_v2.py": {
+        "snapshot": "sources/build_catalogue_v2-9c22533830c3704c.py",
+        "sha256": "9c22533830c3704c1ce578b58b4350ebbbf5b8d32590a07db027f671d4975577"
+      },
+      "validate_library.py": {
+        "snapshot": "sources/validate_library-48e60483e2c3d05b.py",
+        "sha256": "48e60483e2c3d05bec2c7e2669523eb77571a4ba120cb5238bbec92b8a585e0c"
+      },
+      "support_checks.py": {
+        "snapshot": "sources/support_checks-f7ed4d0400abd5f2.py",
+        "sha256": "f7ed4d0400abd5f23f27c86a9013cfefaca71234a9da953dfe97daeabb8af640"
+      }
+    },
+    "parametersFile": "sources/v0.7.0/triangle-cantilever-console.parameters.json"
+  },
+  "constructionKey": "table|cantilever|{\"drawers\": false, \"shape\": \"triangle\", \"shelf\": false}",
+  "sha256": "431cc38a614283f4a18cf0130f36d30e09d699d462bfacda805f836f7d01a49b",
+  "bytes": 202812,
+  "triangles": 240,
+  "vertices": 720,
+  "drawPrimitives": 2,
+  "bounds": {
+    "min": [
+      -0.4749999940395355,
+      0.0,
+      -0.2393999993801117
+    ],
+    "max": [
+      0.4749999940395355,
+      0.800000011920929,
+      0.18060000240802765
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 0.949999988079071,
+    "depth": 0.42000000178813934,
+    "height": 0.800000011920929
+  },
+  "footprint": [
+    [
+      -0.4749999940395355,
+      -0.2393999993801117
+    ],
+    [
+      0.4749999940395355,
+      -0.2393999993801117
+    ],
+    [
+      0.4749999940395355,
+      0.18060000240802765
+    ],
+    [
+      -0.4749999940395355,
+      0.18060000240802765
+    ]
+  ],
+  "variantSlots": [
+    "metal",
+    "wood"
+  ],
+  "requiredExtensions": [],
+  "textures": {
+    "count": 3,
+    "bytes": 174784,
+    "estimatedRgbaBytesWithMipmaps": 1048576,
+    "images": [
+      {
+        "name": "wood-normal",
+        "bytes": 102088,
+        "width": 256,
+        "height": 256,
+        "sha256": "6b8efcb5004552d884a527017922bfb5260b8bda4dc77f1365fe1cb8a09f1d56"
+      },
+      {
+        "name": "wood-neutral-base",
+        "bytes": 39353,
+        "width": 256,
+        "height": 256,
+        "sha256": "ddcf839a2addae78944a2d7a0588f9c2055852fc4ccb4e2dae2095d28541de44"
+      },
+      {
+        "name": "wood-roughness",
+        "bytes": 33343,
+        "width": 256,
+        "height": 256,
+        "sha256": "afc2180e58360e76fb178b52f225f7ba9045a7d0d266f10886763b0590335a1a"
+      }
+    ]
+  },
+  "version": "0.7.0",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.triangle-cantilever-console",
+  "file": "assets/v0.7.0/triangle-cantilever-console.glb",
+  "sourceModel": "sources/v0.7.0/triangle-cantilever-console.blend",
+  "thumbnail": "previews/v0.7.0/triangle-cantilever-console.png",
+  "backThumbnail": "previews/v0.7.0/triangle-cantilever-console-back.png",
+  "category": "tables",
+  "subtype": "cantilever",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.7.0/triangle-cantilever-console.png",
+      "previews/v0.7.0/triangle-cantilever-console-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.15000000596046448,
+      0.17000000178813934,
+      0.15000000596046448
+    ],
+    [
+      0.3400000035762787,
+      0.2800000011920929,
+      0.1899999976158142
+    ]
+  ],
+  "colourTags": [
+    "charcoal",
+    "smoked ash"
+  ],
+  "materials": [
+    "metal",
+    "wood"
+  ],
+  "searchAliases": [
+    "entry hall",
+    "cantilever"
+  ],
+  "materialSlots": [
+    {
+      "id": "metal",
+      "material": "metal",
+      "recolourable": true
+    },
+    {
+      "id": "wood",
+      "material": "wood",
+      "recolourable": true
+    }
+  ],
+  "finalization": {
+    "unusedTangentAttributesRemoved": 1,
+    "unusedAccessorsRemoved": 1,
+    "unusedBufferViewsRemoved": 1,
+    "bytesRemoved": 11280,
+    "normalMappedTangents": "retained, never replaced with arbitrary fallback vectors"
+  },
+  "supportChecks": {
+    "method": "source-part upper-end ray to non-leg geometry, 15mm join tolerance",
+    "status": "pass",
+    "parts": [],
+    "limitation": "screening only; hidden joints, whole-model connectivity, load paths and safety remain visual/product-review concerns"
+  },
+  "materialFinish": {
+    "source": "materials/v1/manifest.json",
+    "repeatMetres": {
+      "wood": [
+        0.16,
+        0.75
+      ],
+      "fabric": [
+        0.14,
+        0.14
+      ],
+      "linen": [
+        0.12,
+        0.12
+      ]
+    },
+    "maps": "original base colour / roughness / tangent normal, embedded in GLB"
+  }
+}

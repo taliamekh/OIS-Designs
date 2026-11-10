@@ -1,0 +1,74 @@
+{
+  "schemaVersion": 2,
+  "decisions": {
+    "ois.design.utility-litter-console": {
+      "sha256": "d45f9d327ad39902ae81397386094f2ddffc9bf68899f5efb6f6b147c407b05d",
+      "version": "0.7.3",
+      "status": "rework",
+      "notes": "Opening is now real, but coplanar front side/upper plates overlap and produce triangular z-fighting;0.7.7 removes overlap.",
+      "sheet": "catalogue-v2/review-v0.7.3/laundry-utility-01.jpg",
+      "sheetArchive": "catalogue-v2/sheet-history/c60551f7dce5b48935526e98d2cc23a47acab0ed295693b29826dd110d59ef8c.jpg",
+      "sheetSha256": "c60551f7dce5b48935526e98d2cc23a47acab0ed295693b29826dd110d59ef8c",
+      "memberBinding": {
+        "id": "ois.design.utility-litter-console",
+        "version": "0.7.3",
+        "assetSha256": "d45f9d327ad39902ae81397386094f2ddffc9bf68899f5efb6f6b147c407b05d",
+        "front": "previews/v0.7.3/utility-litter-console.png",
+        "frontSha256": "7c7ba87f513cd781883ee1c2017853c1456fe539991a31902cf6b5270b488c1f",
+        "back": "previews/v0.7.3/utility-litter-console-back.png",
+        "backSha256": "fbf91be581b2d0e1c63a4ac6ff261fa6aa86bae487116562d36491024946f000"
+      },
+      "imageSha256": {
+        "previews/v0.7.3/utility-litter-console.png": "7c7ba87f513cd781883ee1c2017853c1456fe539991a31902cf6b5270b488c1f",
+        "previews/v0.7.3/utility-litter-console-back.png": "fbf91be581b2d0e1c63a4ac6ff261fa6aa86bae487116562d36491024946f000"
+      },
+      "reviewedAtUtc": "2026-11-10T03:59:13Z"
+    },
+    "ois.design.nested-oval-tables": {
+      "sha256": "5cbb62b133d34b4887540af0fa0b29023ad7979555fb0b264c38891d7c3ed6ed",
+      "version": "0.7.3",
+      "status": "rework",
+      "notes": "Higher front leg still passes through lower top;0.7.6 changes to open C frames.",
+      "sheet": "catalogue-v2/review-v0.7.3/living-01.jpg",
+      "sheetArchive": "catalogue-v2/sheet-history/a3cb939e80c99393d61582bf6c787a41161fef4555dff623f55510f57b71d9cf.jpg",
+      "sheetSha256": "a3cb939e80c99393d61582bf6c787a41161fef4555dff623f55510f57b71d9cf",
+      "memberBinding": {
+        "id": "ois.design.nested-oval-tables",
+        "version": "0.7.3",
+        "assetSha256": "5cbb62b133d34b4887540af0fa0b29023ad7979555fb0b264c38891d7c3ed6ed",
+        "front": "previews/v0.7.3/nested-oval-tables.png",
+        "frontSha256": "36b831e31df13600fd28d2376f319ebd8893a0666743202b812ea2d92b6bdffa",
+        "back": "previews/v0.7.3/nested-oval-tables-back.png",
+        "backSha256": "968272bd5b4e406c8fce496000531e6e30a5f8d9dced001e36b8abb8b0f9b9ee"
+      },
+      "imageSha256": {
+        "previews/v0.7.3/nested-oval-tables.png": "36b831e31df13600fd28d2376f319ebd8893a0666743202b812ea2d92b6bdffa",
+        "previews/v0.7.3/nested-oval-tables-back.png": "968272bd5b4e406c8fce496000531e6e30a5f8d9dced001e36b8abb8b0f9b9ee"
+      },
+      "reviewedAtUtc": "2026-11-10T03:59:13Z"
+    },
+    "ois.design.round-two-level-nest": {
+      "sha256": "55c34cc6d5ca45cde93a48526f1482280c7f90efa5f6467a9ae808c00f742b58",
+      "version": "0.7.3",
+      "status": "rework",
+      "notes": "Higher frame intersects lower tabletop;0.7.6 fixes the actual nesting clearance.",
+      "sheet": "catalogue-v2/review-v0.7.3/living-01.jpg",
+      "sheetArchive": "catalogue-v2/sheet-history/a3cb939e80c99393d61582bf6c787a41161fef4555dff623f55510f57b71d9cf.jpg",
+      "sheetSha256": "a3cb939e80c99393d61582bf6c787a41161fef4555dff623f55510f57b71d9cf",
+      "memberBinding": {
+        "id": "ois.design.round-two-level-nest",
+        "version": "0.7.3",
+        "assetSha256": "55c34cc6d5ca45cde93a48526f1482280c7f90efa5f6467a9ae808c00f742b58",
+        "front": "previews/v0.7.3/round-two-level-nest.png",
+        "frontSha256": "f8353471251614101057cd09fd3a93b2dc23cec28f9d2b1608f6a6c4b9ede9de",
+        "back": "previews/v0.7.3/round-two-level-nest-back.png",
+        "backSha256": "960445c247d2828af1563ba89b93dabc956c998f58ff3d41a2d65b1187b53a99"
+      },
+      "imageSha256": {
+        "previews/v0.7.3/round-two-level-nest.png": "f8353471251614101057cd09fd3a93b2dc23cec28f9d2b1608f6a6c4b9ede9de",
+        "previews/v0.7.3/round-two-level-nest-back.png": "960445c247d2828af1563ba89b93dabc956c998f58ff3d41a2d65b1187b53a99"
+      },
+      "reviewedAtUtc": "2026-11-10T03:59:13Z"
+    }
+  }
+}

@@ -1,0 +1,154 @@
+{
+  "designId": "ois.design.utility-tool-workbench",
+  "familyId": "ois.family.utility-tool-workbench",
+  "id": "ois.design.utility-tool-workbench",
+  "name": "Utility tool workbench",
+  "roomTags": [
+    "laundry-utility"
+  ],
+  "theme": "calm-oak",
+  "builder": "special",
+  "parameters": {
+    "form": "workbench",
+    "w": 1.5,
+    "d": 0.65,
+    "h": 0.9
+  },
+  "distinction": "Heavy trestle work surface, two suspended drawers and lower shelf.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted"
+  },
+  "constructionKey": "special|workbench|{\"cols\": 1, \"front\": \"cane\", \"panels\": 3}",
+  "sha256": "2a32f822abf703109d39b818613dc20e3e264d764c85ffee6f618fed531b0c4d",
+  "bytes": 59552,
+  "triangles": 1172,
+  "vertices": 1567,
+  "drawPrimitives": 2,
+  "bounds": {
+    "min": [
+      -0.75,
+      0.0,
+      -0.32499998807907104
+    ],
+    "max": [
+      0.75,
+      0.8834612593054771,
+      0.32499998807907104
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 1.5,
+    "depth": 0.6499999761581421,
+    "height": 0.8834612593054771
+  },
+  "footprint": [
+    [
+      -0.75,
+      -0.32499998807907104
+    ],
+    [
+      0.75,
+      -0.32499998807907104
+    ],
+    [
+      0.75,
+      0.32499998807907104
+    ],
+    [
+      -0.75,
+      0.32499998807907104
+    ]
+  ],
+  "variantSlots": [
+    "metal",
+    "wood"
+  ],
+  "requiredExtensions": [],
+  "version": "0.2.0",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.utility-tool-workbench",
+  "file": "assets/v0.2.0/utility-tool-workbench.glb",
+  "sourceModel": "sources/v0.2.0/utility-tool-workbench.blend",
+  "thumbnail": "previews/v0.2.0/utility-tool-workbench.png",
+  "backThumbnail": "previews/v0.2.0/utility-tool-workbench-back.png",
+  "category": "specialty",
+  "subtype": "workbench",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "textures": {
+    "count": 0,
+    "bytes": 0
+  },
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.2.0/utility-tool-workbench.png",
+      "previews/v0.2.0/utility-tool-workbench-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.58,
+      0.39,
+      0.2
+    ],
+    [
+      0.73,
+      0.7,
+      0.61
+    ],
+    [
+      0.12,
+      0.14,
+      0.13
+    ]
+  ],
+  "colourTags": [
+    "pale oak",
+    "ivory",
+    "oatmeal"
+  ],
+  "materials": [
+    "metal",
+    "wood"
+  ],
+  "searchAliases": [
+    "laundry utility",
+    "workbench"
+  ],
+  "materialSlots": [
+    {
+      "id": "metal",
+      "material": "metal",
+      "recolourable": true
+    },
+    {
+      "id": "wood",
+      "material": "wood",
+      "recolourable": true
+    }
+  ]
+}

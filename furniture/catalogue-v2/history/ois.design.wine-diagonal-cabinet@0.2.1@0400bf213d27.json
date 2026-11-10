@@ -1,0 +1,150 @@
+{
+  "designId": "ois.design.wine-diagonal-cabinet",
+  "familyId": "ois.family.wine-diagonal-cabinet",
+  "id": "ois.design.wine-diagonal-cabinet",
+  "name": "Diagonal wine cabinet",
+  "roomTags": [
+    "dining"
+  ],
+  "theme": "city-loft",
+  "builder": "case",
+  "parameters": {
+    "form": "wine-lattice",
+    "w": 0.9,
+    "d": 0.36,
+    "h": 1.08
+  },
+  "distinction": "Diagonal X partitions form open wine storage cells.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted",
+    "sourceSnapshot": "sources/pipeline-e797cb5c88af56f5.py",
+    "sourceSha256": "e797cb5c88af56f5b4455d819a512ab9be55f40e1fa2d0cb542aca7bb84b906f",
+    "parametersFile": "sources/v0.2.1/wine-diagonal-cabinet.parameters.json"
+  },
+  "constructionKey": "case|wine-lattice|{\"base\": \"taper\", \"cols\": 1, \"doors\": 2, \"drawersTop\": false, \"front\": \"slab\", \"rows\": 4}",
+  "sha256": "0400bf213d2708f342b34da01e53f0054e2219e64a1b22477d8b2d1d11c56908",
+  "bytes": 59848,
+  "triangles": 1160,
+  "vertices": 1604,
+  "drawPrimitives": 1,
+  "bounds": {
+    "min": [
+      -0.4500000261651538,
+      -2.5129948871827068e-08,
+      -0.18000003027904643
+    ],
+    "max": [
+      0.4500000443231398,
+      1.071616044802907,
+      0.18000002318232666
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 0.9000000704882936,
+    "depth": 0.3600000534613731,
+    "height": 1.0716160699328559
+  },
+  "footprint": [
+    [
+      -0.4500000261651538,
+      -0.18000003027904643
+    ],
+    [
+      0.4500000443231398,
+      -0.18000003027904643
+    ],
+    [
+      0.4500000443231398,
+      0.18000002318232666
+    ],
+    [
+      -0.4500000261651538,
+      0.18000002318232666
+    ]
+  ],
+  "variantSlots": [
+    "wood"
+  ],
+  "requiredExtensions": [],
+  "version": "0.2.1",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.wine-diagonal-cabinet",
+  "file": "assets/v0.2.1/wine-diagonal-cabinet.glb",
+  "sourceModel": "sources/v0.2.1/wine-diagonal-cabinet.blend",
+  "thumbnail": "previews/v0.2.1/wine-diagonal-cabinet.png",
+  "backThumbnail": "previews/v0.2.1/wine-diagonal-cabinet-back.png",
+  "category": "storage",
+  "subtype": "wine-lattice",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "textures": {
+    "count": 0,
+    "bytes": 0
+  },
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.2.1/wine-diagonal-cabinet.png",
+      "previews/v0.2.1/wine-diagonal-cabinet-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.23,
+      0.15,
+      0.09
+    ],
+    [
+      0.12,
+      0.14,
+      0.16
+    ],
+    [
+      0.045,
+      0.05,
+      0.055
+    ]
+  ],
+  "colourTags": [
+    "charcoal",
+    "black",
+    "weathered wood"
+  ],
+  "materials": [
+    "wood"
+  ],
+  "searchAliases": [
+    "dining",
+    "wine lattice"
+  ],
+  "materialSlots": [
+    {
+      "id": "wood",
+      "material": "wood",
+      "recolourable": true
+    }
+  ]
+}

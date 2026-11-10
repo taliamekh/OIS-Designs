@@ -1,0 +1,132 @@
+{
+  "id": "ois.design.armless-modules",
+  "sha256": "89502058fbe3ffbf8e7724a36e98038145d52b173637569dfe091b77a149b489",
+  "sourceModel": "sources/v0.7.0/armless-modules.blend",
+  "sourceSha256": "bc69f1ddcde1d33cb54bb81aa54294e3bb2b83c6bb424c5569bab2afbd0b26e2",
+  "partCount": 13,
+  "componentCount": 1,
+  "components": [
+    {
+      "parts": [
+        "sled frame",
+        "sled frame.001",
+        "seat deck",
+        "concealed back frame",
+        "seat cushion",
+        "piping",
+        "back cushion",
+        "seat cushion.001",
+        "piping.001",
+        "back cushion.001",
+        "seat cushion.002",
+        "piping.002",
+        "back cushion.002"
+      ],
+      "minimum": [
+        -0.9750000834465027,
+        -0.42185065150260925,
+        0.0
+      ],
+      "maximum": [
+        0.9750000834465027,
+        0.39500001072883606,
+        0.8280983567237854
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "seat deck",
+      "b": "sled frame",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "seat deck",
+      "b": "sled frame.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "concealed back frame",
+      "b": "seat deck",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "seat cushion",
+      "b": "seat deck",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "piping",
+      "b": "seat cushion",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "back cushion",
+      "b": "concealed back frame",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "back cushion",
+      "b": "seat cushion",
+      "method": "surface distance",
+      "distance": 0.0031359747517853975
+    },
+    {
+      "a": "seat cushion.001",
+      "b": "seat deck",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "piping.001",
+      "b": "seat cushion.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "back cushion.001",
+      "b": "concealed back frame",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "back cushion.001",
+      "b": "seat cushion.001",
+      "method": "surface distance",
+      "distance": 0.0031359747517853975
+    },
+    {
+      "a": "seat cushion.002",
+      "b": "seat deck",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "piping.002",
+      "b": "seat cushion.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "back cushion.002",
+      "b": "concealed back frame",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "back cushion.002",
+      "b": "seat cushion.002",
+      "method": "surface distance",
+      "distance": 0.0031359747517853975
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; live-source reports are NOT exported-asset evidence; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T03:42:33Z"
+}

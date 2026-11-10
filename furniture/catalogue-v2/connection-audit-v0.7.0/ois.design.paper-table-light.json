@@ -1,0 +1,192 @@
+{
+  "id": "ois.design.paper-table-light",
+  "sha256": "f938cd6912467977836f08cd5ff6417024cec832f2ce1d8f6908fd04b661de90",
+  "sourceModel": "sources/v0.7.0/paper-table-light.blend",
+  "sourceSha256": "d8fcdc2e9dd1f2df41ede04513fb150ecff5352ed449062156ec4dbc1512c4fd",
+  "partCount": 19,
+  "componentCount": 1,
+  "components": [
+    {
+      "parts": [
+        "weighted base",
+        "stem",
+        "paper lantern",
+        "paper ribs",
+        "paper ribs.001",
+        "paper ribs.002",
+        "paper ribs.003",
+        "paper ribs.004",
+        "paper ribs.005",
+        "paper ribs.006",
+        "paper ribs.007",
+        "paper ribs.008",
+        "paper ribs.009",
+        "paper ribs.010",
+        "paper ribs.011",
+        "lamp socket mast",
+        "shade spider",
+        "shade spider.001",
+        "shade spider.002"
+      ],
+      "minimum": [
+        -0.24380259215831757,
+        -0.24380259215831757,
+        0.0
+      ],
+      "maximum": [
+        0.24380259215831757,
+        0.24380259215831757,
+        0.6019999980926514
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "stem",
+      "b": "weighted base",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "paper ribs",
+      "b": "paper lantern",
+      "method": "surface distance",
+      "distance": 0.0027985672932118177
+    },
+    {
+      "a": "paper ribs.001",
+      "b": "paper lantern",
+      "method": "surface distance",
+      "distance": 0.001682912465184927
+    },
+    {
+      "a": "paper ribs.002",
+      "b": "paper lantern",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "paper ribs.003",
+      "b": "paper lantern",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "paper ribs.004",
+      "b": "paper lantern",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "paper ribs.005",
+      "b": "paper lantern",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "paper ribs.006",
+      "b": "paper lantern",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "paper ribs.007",
+      "b": "paper lantern",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "paper ribs.008",
+      "b": "paper lantern",
+      "method": "surface distance",
+      "distance": 0.0032513272017240524
+    },
+    {
+      "a": "paper ribs.009",
+      "b": "paper lantern",
+      "method": "point containment",
+      "distance": 0
+    },
+    {
+      "a": "paper ribs.010",
+      "b": "paper lantern",
+      "method": "point containment",
+      "distance": 0
+    },
+    {
+      "a": "paper ribs.011",
+      "b": "paper lantern",
+      "method": "point containment",
+      "distance": 0
+    },
+    {
+      "a": "lamp socket mast",
+      "b": "stem",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "lamp socket mast",
+      "b": "paper lantern",
+      "method": "point containment",
+      "distance": 0
+    },
+    {
+      "a": "shade spider",
+      "b": "paper lantern",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "shade spider",
+      "b": "lamp socket mast",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "shade spider.001",
+      "b": "paper lantern",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "shade spider.001",
+      "b": "lamp socket mast",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "shade spider.001",
+      "b": "shade spider",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "shade spider.002",
+      "b": "paper lantern",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "shade spider.002",
+      "b": "lamp socket mast",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "shade spider.002",
+      "b": "shade spider",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "shade spider.002",
+      "b": "shade spider.001",
+      "method": "triangle intersection",
+      "distance": 0
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; live-source reports are NOT exported-asset evidence; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T03:51:56Z"
+}

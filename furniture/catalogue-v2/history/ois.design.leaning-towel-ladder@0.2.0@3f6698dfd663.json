@@ -1,0 +1,146 @@
+{
+  "designId": "ois.design.leaning-towel-ladder",
+  "familyId": "ois.family.leaning-towel-ladder",
+  "id": "ois.design.leaning-towel-ladder",
+  "name": "Leaning towel ladder",
+  "roomTags": [
+    "bathroom"
+  ],
+  "theme": "calm-oak",
+  "builder": "bath",
+  "parameters": {
+    "form": "towel-ladder"
+  },
+  "distinction": "Five horizontal rungs between sloping solid timber stiles.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted"
+  },
+  "constructionKey": "bath|towel-ladder|{}",
+  "sha256": "3f6698dfd663a8870e941a326c6810a321a9be3ef74e6bec1c476f7b7d67d57d",
+  "bytes": 18648,
+  "triangles": 420,
+  "vertices": 462,
+  "drawPrimitives": 1,
+  "bounds": {
+    "min": [
+      -0.2719999998807907,
+      -2.0493902019858012e-08,
+      -0.14175656297210457
+    ],
+    "max": [
+      0.2720000147819519,
+      1.6065269913572444,
+      0.14175656297210457
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 0.5440000146627426,
+    "depth": 0.28351312594420913,
+    "height": 1.6065270118511465
+  },
+  "footprint": [
+    [
+      -0.2719999998807907,
+      -0.14175656297210457
+    ],
+    [
+      0.2720000147819519,
+      -0.14175656297210457
+    ],
+    [
+      0.2720000147819519,
+      0.14175656297210457
+    ],
+    [
+      -0.2719999998807907,
+      0.14175656297210457
+    ]
+  ],
+  "variantSlots": [
+    "wood"
+  ],
+  "requiredExtensions": [],
+  "version": "0.2.0",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.leaning-towel-ladder",
+  "file": "assets/v0.2.0/leaning-towel-ladder.glb",
+  "sourceModel": "sources/v0.2.0/leaning-towel-ladder.blend",
+  "thumbnail": "previews/v0.2.0/leaning-towel-ladder.png",
+  "backThumbnail": "previews/v0.2.0/leaning-towel-ladder-back.png",
+  "category": "bathroom-fixtures",
+  "subtype": "towel-ladder",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "textures": {
+    "count": 0,
+    "bytes": 0
+  },
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.2.0/leaning-towel-ladder.png",
+      "previews/v0.2.0/leaning-towel-ladder-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.58,
+      0.39,
+      0.2
+    ],
+    [
+      0.73,
+      0.7,
+      0.61
+    ],
+    [
+      0.12,
+      0.14,
+      0.13
+    ]
+  ],
+  "colourTags": [
+    "pale oak",
+    "ivory",
+    "oatmeal"
+  ],
+  "materials": [
+    "wood"
+  ],
+  "searchAliases": [
+    "bathroom",
+    "towel ladder"
+  ],
+  "materialSlots": [
+    {
+      "id": "wood",
+      "material": "wood",
+      "recolourable": true
+    }
+  ],
+  "geometryHash": "efe2b80ae893f3eaca7281c7bd86b91871b2ef5badcaa8ad8458e9f6d6dff819",
+  "normalizedMirrorGeometryHash": "12843dae4bee866af143a555dd532fe29f4c3c32cb91db868883887aa612052f"
+}

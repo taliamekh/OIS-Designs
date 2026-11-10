@@ -1,0 +1,175 @@
+{
+  "designId": "ois.design.banker-desk-light",
+  "familyId": "ois.family.banker-desk-light",
+  "id": "ois.design.banker-desk-light",
+  "name": "Banker desk lamp",
+  "roomTags": [
+    "office"
+  ],
+  "theme": "walnut-form",
+  "builder": "light",
+  "parameters": {
+    "form": "banker",
+    "h": 0.43
+  },
+  "distinction": "Long rounded task shade held by a two-sided brass bracket.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted",
+    "sourceSnapshot": "sources/pipeline-55642edf77b9875f.py",
+    "sourceSha256": "55642edf77b9875ff9620f3041b9999cee7807ac9d8ce9f01f78fdfc4bbc513f",
+    "parametersFile": "sources/v0.3.2/banker-desk-light.parameters.json"
+  },
+  "constructionKey": "light|banker|{}",
+  "sha256": "f131bc51faa22a054b1c76476b362a2a8a5468b689c0e55529fda8a4adbb7ebf",
+  "bytes": 51992,
+  "triangles": 556,
+  "vertices": 956,
+  "drawPrimitives": 2,
+  "bounds": {
+    "min": [
+      -0.20999999344348907,
+      -1.862645149230957e-09,
+      -0.12999999523162842
+    ],
+    "max": [
+      0.20999999344348907,
+      0.4150000065565109,
+      0.12999999523162842
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 0.41999998688697815,
+    "depth": 0.25999999046325684,
+    "height": 0.4150000084191561
+  },
+  "footprint": [
+    [
+      -0.20999999344348907,
+      -0.12999999523162842
+    ],
+    [
+      0.20999999344348907,
+      -0.12999999523162842
+    ],
+    [
+      0.20999999344348907,
+      0.12999999523162842
+    ],
+    [
+      -0.20999999344348907,
+      0.12999999523162842
+    ]
+  ],
+  "variantSlots": [
+    "accent",
+    "metal"
+  ],
+  "requiredExtensions": [],
+  "textures": {
+    "count": 0,
+    "bytes": 0,
+    "estimatedRgbaBytesWithMipmaps": 0,
+    "images": []
+  },
+  "version": "0.3.2",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.banker-desk-light",
+  "file": "assets/v0.3.2/banker-desk-light.glb",
+  "sourceModel": "sources/v0.3.2/banker-desk-light.blend",
+  "thumbnail": "previews/v0.3.2/banker-desk-light.png",
+  "backThumbnail": "previews/v0.3.2/banker-desk-light-back.png",
+  "category": "lighting",
+  "subtype": "banker",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.3.2/banker-desk-light.png",
+      "previews/v0.3.2/banker-desk-light-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.27000001072883606,
+      0.4000000059604645,
+      0.3199999928474426
+    ],
+    [
+      0.4699999988079071,
+      0.30000001192092896,
+      0.10000000149011612
+    ]
+  ],
+  "colourTags": [
+    "muted brass",
+    "sage green"
+  ],
+  "materials": [
+    "metal",
+    "paint"
+  ],
+  "searchAliases": [
+    "office",
+    "banker"
+  ],
+  "materialSlots": [
+    {
+      "id": "accent",
+      "material": "accent",
+      "recolourable": true
+    },
+    {
+      "id": "metal",
+      "material": "metal",
+      "recolourable": true
+    }
+  ],
+  "supportChecks": {
+    "method": "source-part upper-end ray to non-leg geometry, 15mm join tolerance",
+    "status": "pass",
+    "parts": [],
+    "limitation": "screening only; hidden joints, whole-model connectivity, load paths and safety remain visual/product-review concerns"
+  },
+  "materialFinish": {
+    "source": "materials/v1/manifest.json",
+    "repeatMetres": {
+      "wood": [
+        0.16,
+        0.75
+      ],
+      "fabric": [
+        0.14,
+        0.14
+      ],
+      "linen": [
+        0.12,
+        0.12
+      ]
+    },
+    "maps": "original base colour / roughness / tangent normal, embedded in GLB"
+  }
+}

@@ -1,0 +1,162 @@
+{
+  "designId": "ois.design.canvas-play-tent",
+  "familyId": "ois.family.canvas-play-tent",
+  "id": "ois.design.canvas-play-tent",
+  "name": "Canvas play tent",
+  "roomTags": [
+    "children"
+  ],
+  "theme": "soft-japandi",
+  "builder": "special",
+  "parameters": {
+    "form": "teepee",
+    "w": 1.1,
+    "d": 1.1,
+    "h": 1.5
+  },
+  "distinction": "Four converging poles, open-front canvas enclosure and floor pad.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted"
+  },
+  "constructionKey": "special|teepee|{\"cols\": 1, \"front\": \"cane\", \"panels\": 3}",
+  "sha256": "9391382473ac51d217c7f27d21bd74196aeb8700ac017953cc8bb903d09d7f56",
+  "bytes": 32420,
+  "triangles": 619,
+  "vertices": 789,
+  "drawPrimitives": 3,
+  "bounds": {
+    "min": [
+      -0.5642611647406895,
+      2.7050770401437774e-08,
+      -0.5642611589371525
+    ],
+    "max": [
+      0.564261279004913,
+      1.63298484958192,
+      0.5642611222651999
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 1.1285224437456025,
+    "depth": 1.1285222812023523,
+    "height": 1.6329848225311494
+  },
+  "footprint": [
+    [
+      -0.5642611647406895,
+      -0.5642611589371525
+    ],
+    [
+      0.564261279004913,
+      -0.5642611589371525
+    ],
+    [
+      0.564261279004913,
+      0.5642611222651999
+    ],
+    [
+      -0.5642611647406895,
+      0.5642611222651999
+    ]
+  ],
+  "variantSlots": [
+    "fabric",
+    "linen",
+    "wood"
+  ],
+  "requiredExtensions": [],
+  "version": "0.2.0",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.canvas-play-tent",
+  "file": "assets/v0.2.0/canvas-play-tent.glb",
+  "sourceModel": "sources/v0.2.0/canvas-play-tent.blend",
+  "thumbnail": "previews/v0.2.0/canvas-play-tent.png",
+  "backThumbnail": "previews/v0.2.0/canvas-play-tent-back.png",
+  "category": "specialty",
+  "subtype": "teepee",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "textures": {
+    "count": 0,
+    "bytes": 0
+  },
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.2.0/canvas-play-tent.png",
+      "previews/v0.2.0/canvas-play-tent-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.34,
+      0.28,
+      0.19
+    ],
+    [
+      0.58,
+      0.54,
+      0.44
+    ],
+    [
+      0.15,
+      0.17,
+      0.15
+    ]
+  ],
+  "colourTags": [
+    "ash",
+    "flax",
+    "stone"
+  ],
+  "materials": [
+    "textile",
+    "wood"
+  ],
+  "searchAliases": [
+    "children",
+    "teepee"
+  ],
+  "materialSlots": [
+    {
+      "id": "fabric",
+      "material": "fabric",
+      "recolourable": true
+    },
+    {
+      "id": "linen",
+      "material": "linen",
+      "recolourable": true
+    },
+    {
+      "id": "wood",
+      "material": "wood",
+      "recolourable": true
+    }
+  ],
+  "geometryHash": "515eb5fcaad4d988d1f27bd1211719ae2b4dd6bd699bca98f4ea5ef8279ae67a",
+  "normalizedMirrorGeometryHash": "03549c02d3cf405dff7f11f87c27fcbec4f01a878a26837bdb33425515b9c3e1"
+}

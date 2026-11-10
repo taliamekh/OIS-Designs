@@ -1,0 +1,119 @@
+{
+  "timestamp": "2026-11-10T02:00:03.003Z",
+  "evidence": "Isolated Expo web preview with mobile-sized viewport; NOT native/device evidence",
+  "cases": [
+    {
+      "id": "editor-no-error-boundary",
+      "pass": true,
+      "observed": "Maple House\nLiving room\n2D\n3D\nWalk\nFurnish\nSurfaces\nBuild"
+    },
+    {
+      "id": "editor-canvas-visible",
+      "pass": true,
+      "observed": {
+        "x": 0,
+        "y": 65,
+        "width": 390,
+        "height": 779
+      }
+    },
+    {
+      "id": "catalogue-preserves-canvas",
+      "pass": true,
+      "observed": {
+        "sheet": {
+          "x": 0,
+          "y": 438.921875,
+          "width": 390,
+          "height": 405.078125,
+          "bottom": 844
+        },
+        "canvasBox": {
+          "x": 0,
+          "y": 65,
+          "width": 390,
+          "height": 779
+        }
+      }
+    },
+    {
+      "id": "catalogue-preserves-room",
+      "pass": true,
+      "observed": {
+        "roomBefore": "Choose room, current Living room",
+        "roomAfter": "Choose room, current Living room"
+      }
+    },
+    {
+      "id": "compact-catalogue-keeps-room-visible",
+      "pass": true,
+      "observed": {
+        "unobscuredRendererFraction": 0.48000240693196405,
+        "sheet": {
+          "x": 0,
+          "y": 438.921875,
+          "width": 390,
+          "height": 405.078125,
+          "bottom": 844
+        }
+      }
+    },
+    {
+      "id": "catalogue-has-search",
+      "pass": true
+    },
+    {
+      "id": "open-dimensions-convert-on-unit-change",
+      "pass": true,
+      "observed": {
+        "widthM": "4.800",
+        "widthFT": "15.748",
+        "expected": 15.74803149606299
+      }
+    },
+    {
+      "id": "unit-setting-preserves-exact-geometry",
+      "pass": true
+    },
+    {
+      "id": "settings-return-keeps-room",
+      "pass": true
+    },
+    {
+      "id": "add-room-follows-settings-units",
+      "pass": true,
+      "observed": [
+        "Width (ft)",
+        "Depth (ft)",
+        "X origin (ft)",
+        "Z origin (ft)"
+      ]
+    }
+  ],
+  "pageErrors": [],
+  "consoleErrors": [],
+  "snapshots": [
+    "editor-web-390.png",
+    "catalogue-web-390.png",
+    "dimensions-feet-web-390.png",
+    "add-room-feet-web-390.png"
+  ],
+  "sourceBefore": {
+    "src/screens/Editor.tsx": "b65f57e3761b01032d1a3242ccc09a6d3df5c1985287a3b42fb1e32ef749c411",
+    "src/screens/Build.tsx": "4513851e2d0501ecdb1d3ea135f1f85b1098c812c342908a0bf90872bb218a50",
+    "src/screens/Catalogue.tsx": "85ab7fb570dac2f4954573aa9a5c1c9b61de309b89595f241fbffdf15be2b6e8",
+    "src/ui/Sheet.tsx": "e933a9258a0cf35300742e4d325f77323084f910e26a59f569c6850b86bda04b",
+    "src/state/Studio.tsx": "ddf68fa962e6f4a3c32b3fed6faca5699bbc6c220b67ff8160b369b039dd5fcf"
+  },
+  "completed": true,
+  "sourceAfter": {
+    "src/screens/Editor.tsx": "b65f57e3761b01032d1a3242ccc09a6d3df5c1985287a3b42fb1e32ef749c411",
+    "src/screens/Build.tsx": "4513851e2d0501ecdb1d3ea135f1f85b1098c812c342908a0bf90872bb218a50",
+    "src/screens/Catalogue.tsx": "85ab7fb570dac2f4954573aa9a5c1c9b61de309b89595f241fbffdf15be2b6e8",
+    "src/ui/Sheet.tsx": "e933a9258a0cf35300742e4d325f77323084f910e26a59f569c6850b86bda04b",
+    "src/state/Studio.tsx": "ddf68fa962e6f4a3c32b3fed6faca5699bbc6c220b67ff8160b369b039dd5fcf"
+  },
+  "sourceChangedDuringRun": false,
+  "passed": 10,
+  "failed": 0
+}

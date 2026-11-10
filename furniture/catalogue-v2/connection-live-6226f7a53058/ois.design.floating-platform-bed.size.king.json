@@ -1,0 +1,93 @@
+{
+  "id": "ois.design.floating-platform-bed.size.king",
+  "sha256": "unexported-source-6226f7a5305865fd189dfcec35a3077205588e7999488a17cff703d94c6b1b9f",
+  "sourceModel": null,
+  "sourceSha256": "6226f7a5305865fd189dfcec35a3077205588e7999488a17cff703d94c6b1b9f",
+  "partCount": 10,
+  "componentCount": 1,
+  "components": [
+    {
+      "parts": [
+        "inset support",
+        "cantilever platform",
+        "mattress",
+        "piping",
+        "duvet",
+        "pillow",
+        "piping.001",
+        "pillow.001",
+        "piping.002",
+        "headboard"
+      ],
+      "minimum": [
+        -1.0152000188827515,
+        -1.1059999465942383,
+        0.0
+      ],
+      "maximum": [
+        1.0152000188827515,
+        1.0759999752044678,
+        1.1399999856948853
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "cantilever platform",
+      "b": "inset support",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "mattress",
+      "b": "cantilever platform",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "piping",
+      "b": "mattress",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "duvet",
+      "b": "mattress",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pillow",
+      "b": "mattress",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "piping.001",
+      "b": "pillow",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pillow.001",
+      "b": "mattress",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "piping.002",
+      "b": "pillow.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "headboard",
+      "b": "cantilever platform",
+      "method": "triangle intersection",
+      "distance": 0
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; live-source reports are NOT exported-asset evidence; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T03:36:35Z"
+}

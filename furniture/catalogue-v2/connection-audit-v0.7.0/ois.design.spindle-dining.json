@@ -1,0 +1,188 @@
+{
+  "id": "ois.design.spindle-dining",
+  "sha256": "fc1d22c61eec5e5caa2d05a7bf9bf9149454100ab59dac5e96f33f31bacd25ba",
+  "sourceModel": "sources/v0.7.0/spindle-dining.blend",
+  "sourceSha256": "008c00c4fda619b0db25131ccd05ae3788f6116ca10c70cdc5fb210ba9d16f3d",
+  "partCount": 15,
+  "componentCount": 1,
+  "components": [
+    {
+      "parts": [
+        "leg",
+        "leg.001",
+        "leg.002",
+        "leg.003",
+        "structural chair seat pan",
+        "seat",
+        "piping",
+        "back spindle",
+        "back spindle.001",
+        "back spindle.002",
+        "back spindle.003",
+        "back spindle.004",
+        "back spindle.005",
+        "back spindle.006",
+        "bent top bow"
+      ],
+      "minimum": [
+        -0.25175419449806213,
+        -0.22200000286102295,
+        2.3283064365386963e-10
+      ],
+      "maximum": [
+        0.25175419449806213,
+        0.2475000023841858,
+        0.8706442713737488
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "structural chair seat pan",
+      "b": "leg",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "structural chair seat pan",
+      "b": "leg.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "structural chair seat pan",
+      "b": "leg.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "structural chair seat pan",
+      "b": "leg.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "seat",
+      "b": "leg",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "seat",
+      "b": "leg.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "seat",
+      "b": "leg.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "seat",
+      "b": "leg.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "seat",
+      "b": "structural chair seat pan",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "piping",
+      "b": "seat",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "back spindle",
+      "b": "seat",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "back spindle.001",
+      "b": "seat",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "back spindle.002",
+      "b": "seat",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "back spindle.003",
+      "b": "seat",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "back spindle.004",
+      "b": "seat",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "back spindle.005",
+      "b": "seat",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "back spindle.006",
+      "b": "seat",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "bent top bow",
+      "b": "back spindle",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "bent top bow",
+      "b": "back spindle.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "bent top bow",
+      "b": "back spindle.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "bent top bow",
+      "b": "back spindle.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "bent top bow",
+      "b": "back spindle.004",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "bent top bow",
+      "b": "back spindle.005",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "bent top bow",
+      "b": "back spindle.006",
+      "method": "triangle intersection",
+      "distance": 0
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; live-source reports are NOT exported-asset evidence; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T03:51:57Z"
+}

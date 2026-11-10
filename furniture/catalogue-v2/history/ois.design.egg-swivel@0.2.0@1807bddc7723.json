@@ -1,0 +1,161 @@
+{
+  "designId": "ois.design.egg-swivel",
+  "familyId": "ois.family.egg-swivel",
+  "id": "ois.design.egg-swivel",
+  "name": "Egg shell lounge",
+  "roomTags": [
+    "living"
+  ],
+  "theme": "walnut-form",
+  "builder": "seating",
+  "parameters": {
+    "form": "egg",
+    "w": 0.86,
+    "d": 0.82,
+    "h": 1.12
+  },
+  "distinction": "Tapered high curved shell with a narrower crown.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted"
+  },
+  "sha256": "1807bddc77234279ed179875cebb0cba64b2cdc2b077378ec7896b33e219f0de",
+  "bytes": 38424,
+  "triangles": 912,
+  "vertices": 919,
+  "drawPrimitives": 3,
+  "bounds": {
+    "min": [
+      -0.4290793240070343,
+      -1.4343883941725366e-08,
+      -0.35360000282526016
+    ],
+    "max": [
+      0.4290793240070343,
+      1.1092235147953033,
+      0.4099999889731407
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 0.8581586480140686,
+    "depth": 0.7635999917984009,
+    "height": 1.1092235291391872
+  },
+  "footprint": [
+    [
+      -0.4290793240070343,
+      -0.35360000282526016
+    ],
+    [
+      0.4290793240070343,
+      -0.35360000282526016
+    ],
+    [
+      0.4290793240070343,
+      0.4099999889731407
+    ],
+    [
+      -0.4290793240070343,
+      0.4099999889731407
+    ]
+  ],
+  "variantSlots": [
+    "fabric",
+    "linen",
+    "wood"
+  ],
+  "requiredExtensions": [],
+  "version": "0.2.0",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.egg-swivel",
+  "file": "assets/v0.2.0/egg-swivel.glb",
+  "sourceModel": "sources/v0.2.0/egg-swivel.blend",
+  "thumbnail": "previews/v0.2.0/egg-swivel.png",
+  "backThumbnail": "previews/v0.2.0/egg-swivel-back.png",
+  "category": "seating",
+  "subtype": "egg",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "textures": {
+    "count": 0,
+    "bytes": 0
+  },
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.2.0/egg-swivel.png",
+      "previews/v0.2.0/egg-swivel-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.22,
+      0.09,
+      0.038
+    ],
+    [
+      0.39,
+      0.18,
+      0.07
+    ],
+    [
+      0.47,
+      0.3,
+      0.1
+    ]
+  ],
+  "colourTags": [
+    "walnut",
+    "tobacco",
+    "brass"
+  ],
+  "materials": [
+    "textile",
+    "wood"
+  ],
+  "searchAliases": [
+    "living",
+    "egg"
+  ],
+  "materialSlots": [
+    {
+      "id": "fabric",
+      "material": "fabric",
+      "recolourable": true
+    },
+    {
+      "id": "linen",
+      "material": "linen",
+      "recolourable": true
+    },
+    {
+      "id": "wood",
+      "material": "wood",
+      "recolourable": true
+    }
+  ],
+  "geometryHash": "799c771522dc6c9e1b5dd6379ac26f36f3fbb209eea761b44f81afee9e7337cb",
+  "normalizedMirrorGeometryHash": "09d56e8a3819e510c74dd1bc8a1b241ba7476af24fd03ec365c372d97cd5b83f"
+}

@@ -1,0 +1,159 @@
+{
+  "designId": "ois.design.vented-tumble-dryer",
+  "familyId": "ois.family.vented-tumble-dryer",
+  "id": "ois.design.vented-tumble-dryer",
+  "name": "Vented tumble dryer",
+  "roomTags": [
+    "laundry-utility"
+  ],
+  "theme": "city-loft",
+  "builder": "appliance",
+  "parameters": {
+    "form": "dryer",
+    "steel": true
+  },
+  "distinction": "Front drum door plus visibly vented lower grille.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted"
+  },
+  "constructionKey": "appliance|dryer|{}",
+  "sha256": "f2fa2a04eef295b2b55800d553c9de90d86f141f6b87322c64d07f50d0290991",
+  "bytes": 117208,
+  "triangles": 2832,
+  "vertices": 3021,
+  "drawPrimitives": 3,
+  "bounds": {
+    "min": [
+      -0.30000001192092896,
+      0.0,
+      -0.3630000054836273
+    ],
+    "max": [
+      0.30000001192092896,
+      0.8500000238418579,
+      0.3100000023841858
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 0.6000000238418579,
+    "depth": 0.6730000078678131,
+    "height": 0.8500000238418579
+  },
+  "footprint": [
+    [
+      -0.30000001192092896,
+      -0.3630000054836273
+    ],
+    [
+      0.30000001192092896,
+      -0.3630000054836273
+    ],
+    [
+      0.30000001192092896,
+      0.3100000023841858
+    ],
+    [
+      -0.30000001192092896,
+      0.3100000023841858
+    ]
+  ],
+  "variantSlots": [
+    "dark",
+    "glass",
+    "metal"
+  ],
+  "requiredExtensions": [],
+  "version": "0.2.0",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.vented-tumble-dryer",
+  "file": "assets/v0.2.0/vented-tumble-dryer.glb",
+  "sourceModel": "sources/v0.2.0/vented-tumble-dryer.blend",
+  "thumbnail": "previews/v0.2.0/vented-tumble-dryer.png",
+  "backThumbnail": "previews/v0.2.0/vented-tumble-dryer-back.png",
+  "category": "appliances",
+  "subtype": "dryer",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "textures": {
+    "count": 0,
+    "bytes": 0
+  },
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.2.0/vented-tumble-dryer.png",
+      "previews/v0.2.0/vented-tumble-dryer-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.23,
+      0.15,
+      0.09
+    ],
+    [
+      0.12,
+      0.14,
+      0.16
+    ],
+    [
+      0.045,
+      0.05,
+      0.055
+    ]
+  ],
+  "colourTags": [
+    "charcoal",
+    "black",
+    "weathered wood"
+  ],
+  "materials": [
+    "metal",
+    "paint",
+    "tinted-glass"
+  ],
+  "searchAliases": [
+    "laundry utility",
+    "dryer"
+  ],
+  "materialSlots": [
+    {
+      "id": "dark",
+      "material": "dark",
+      "recolourable": true
+    },
+    {
+      "id": "glass",
+      "material": "glass",
+      "recolourable": true
+    },
+    {
+      "id": "metal",
+      "material": "metal",
+      "recolourable": true
+    }
+  ]
+}

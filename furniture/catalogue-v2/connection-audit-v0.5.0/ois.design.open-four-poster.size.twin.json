@@ -1,0 +1,221 @@
+{
+  "id": "ois.design.open-four-poster.size.twin",
+  "sha256": "ecad92b1d3c166966fbc8c2b0c537d96be48a961c5d64ca78735bf8a433da975",
+  "sourceModel": "sources/v0.5.0/open-four-poster.size.twin.blend",
+  "sourceSha256": "45d2db0634fcca40fcb9cda79b2f22e8534733d535b9140181e77a7ec11931a6",
+  "partCount": 18,
+  "componentCount": 1,
+  "components": [
+    {
+      "parts": [
+        "leg",
+        "leg.001",
+        "leg.002",
+        "leg.003",
+        "frame",
+        "mattress",
+        "piping",
+        "duvet",
+        "pillow",
+        "piping.001",
+        "post",
+        "post.001",
+        "post.002",
+        "post.003",
+        "canopy crossbar",
+        "canopy crossbar.001",
+        "canopy side",
+        "canopy side.001"
+      ],
+      "minimum": [
+        -0.5605999827384949,
+        -1.0405000448226929,
+        0.0
+      ],
+      "maximum": [
+        0.5605999827384949,
+        1.0405000448226929,
+        2.074000120162964
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "frame",
+      "b": "leg",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "frame",
+      "b": "leg.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "frame",
+      "b": "leg.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "frame",
+      "b": "leg.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "mattress",
+      "b": "frame",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "piping",
+      "b": "mattress",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "duvet",
+      "b": "mattress",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pillow",
+      "b": "mattress",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "piping.001",
+      "b": "pillow",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "post",
+      "b": "leg",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "post",
+      "b": "frame",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "post.001",
+      "b": "leg.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "post.001",
+      "b": "frame",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "post.002",
+      "b": "leg.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "post.002",
+      "b": "frame",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "post.003",
+      "b": "leg.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "post.003",
+      "b": "frame",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "canopy crossbar",
+      "b": "post",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "canopy crossbar",
+      "b": "post.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "canopy crossbar.001",
+      "b": "post.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "canopy crossbar.001",
+      "b": "post.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "canopy side",
+      "b": "post",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "canopy side",
+      "b": "post.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "canopy side",
+      "b": "canopy crossbar",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "canopy side",
+      "b": "canopy crossbar.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "canopy side.001",
+      "b": "post.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "canopy side.001",
+      "b": "post.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "canopy side.001",
+      "b": "canopy crossbar",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "canopy side.001",
+      "b": "canopy crossbar.001",
+      "method": "triangle intersection",
+      "distance": 0
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T03:07:32Z"
+}

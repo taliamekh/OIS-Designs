@@ -1,0 +1,250 @@
+{
+  "designId": "ois.design.two-bay-low-bookcase",
+  "familyId": "ois.family.office-grid-bookcase",
+  "id": "ois.design.two-bay-low-bookcase",
+  "name": "Two-bay low bookcase",
+  "roomTags": [
+    "storage"
+  ],
+  "theme": "calm-oak",
+  "builder": "case",
+  "parameters": {
+    "form": "grid",
+    "front": "slab",
+    "w": 1.2,
+    "h": 0.9,
+    "rows": 3,
+    "cols": 2
+  },
+  "distinction": "Six rectangular open cells in two columns.",
+  "stage": "validated-candidate",
+  "countEligible": false,
+  "variants": [],
+  "variantOf": "ois.design.office-grid-bookcase",
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted",
+    "sourceSnapshot": "sources/pipeline-bf07453f548fd92d.py",
+    "sourceSha256": "bf07453f548fd92da637ecce41dc8b35010d5f15c955c971c9e3be2fb762ea2d",
+    "sourceModelSha256": "9a5bb6542d6e0325da1c7bc1a8a8f673e381d4e03a46c361f909cf1b355c1ad9",
+    "supportSources": {
+      "signature_designs.py": {
+        "snapshot": "sources/signature_designs-6d248dd7aaa49ed4.py",
+        "sha256": "6d248dd7aaa49ed40f05c473c5d46b6fe8c97972ebf6ce139553f9641fc82b3c"
+      },
+      "material_finish.py": {
+        "snapshot": "sources/material_finish-281279dfd17b0c92.py",
+        "sha256": "281279dfd17b0c929f9038bb8066b86216427feaaefbd503abb995d06dc35730"
+      },
+      "catalogue_inventory.py": {
+        "snapshot": "sources/catalogue_inventory-db8b68fc872dbc12.py",
+        "sha256": "db8b68fc872dbc12d87e9ce013777e00d6b32cc0392e8cc09f31f8fef27b9365"
+      },
+      "finalize_glb.py": {
+        "snapshot": "sources/finalize_glb-4d1dec42be5cbf3d.py",
+        "sha256": "4d1dec42be5cbf3d6540facfa883948acd849c080f7117b8d7025749c08e2d1b"
+      },
+      "build_catalogue_v2.py": {
+        "snapshot": "sources/build_catalogue_v2-9c22533830c3704c.py",
+        "sha256": "9c22533830c3704c1ce578b58b4350ebbbf5b8d32590a07db027f671d4975577"
+      },
+      "validate_library.py": {
+        "snapshot": "sources/validate_library-48e60483e2c3d05b.py",
+        "sha256": "48e60483e2c3d05bec2c7e2669523eb77571a4ba120cb5238bbec92b8a585e0c"
+      },
+      "support_checks.py": {
+        "snapshot": "sources/support_checks-f7ed4d0400abd5f2.py",
+        "sha256": "f7ed4d0400abd5f23f27c86a9013cfefaca71234a9da953dfe97daeabb8af640"
+      }
+    },
+    "parametersFile": "sources/v0.7.0/two-bay-low-bookcase.parameters.json"
+  },
+  "constructionKey": "case|open-shelf|{\"base\": \"taper\", \"partitioned\": true}",
+  "countExclusion": "same construction; dimension/material configuration retained as a variant",
+  "sha256": "134c31df3dcf0bb70594ac7429fd551009f8277637f88bbb0964b2bccd57a1b3",
+  "bytes": 259268,
+  "triangles": 548,
+  "vertices": 1644,
+  "drawPrimitives": 1,
+  "bounds": {
+    "min": [
+      -0.6000000736630318,
+      -3.5593905489683664e-08,
+      -0.20000024771841424
+    ],
+    "max": [
+      0.6000002448087054,
+      0.892882235488359,
+      0.2000000587651749
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 1.2000003184717372,
+    "depth": 0.40000030648358914,
+    "height": 0.8928822710822645
+  },
+  "footprint": [
+    [
+      -0.6000000736630318,
+      -0.20000024771841424
+    ],
+    [
+      0.6000002448087054,
+      -0.20000024771841424
+    ],
+    [
+      0.6000002448087054,
+      0.2000000587651749
+    ],
+    [
+      -0.6000000736630318,
+      0.2000000587651749
+    ]
+  ],
+  "variantSlots": [
+    "wood"
+  ],
+  "requiredExtensions": [],
+  "textures": {
+    "count": 3,
+    "bytes": 174784,
+    "estimatedRgbaBytesWithMipmaps": 1048576,
+    "images": [
+      {
+        "name": "wood-normal",
+        "bytes": 102088,
+        "width": 256,
+        "height": 256,
+        "sha256": "6b8efcb5004552d884a527017922bfb5260b8bda4dc77f1365fe1cb8a09f1d56"
+      },
+      {
+        "name": "wood-neutral-base",
+        "bytes": 39353,
+        "width": 256,
+        "height": 256,
+        "sha256": "ddcf839a2addae78944a2d7a0588f9c2055852fc4ccb4e2dae2095d28541de44"
+      },
+      {
+        "name": "wood-roughness",
+        "bytes": 33343,
+        "width": 256,
+        "height": 256,
+        "sha256": "afc2180e58360e76fb178b52f225f7ba9045a7d0d266f10886763b0590335a1a"
+      }
+    ]
+  },
+  "version": "0.7.0",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.office-grid-bookcase",
+  "file": "assets/v0.7.0/two-bay-low-bookcase.glb",
+  "sourceModel": "sources/v0.7.0/two-bay-low-bookcase.blend",
+  "thumbnail": "previews/v0.7.0/two-bay-low-bookcase.png",
+  "backThumbnail": "previews/v0.7.0/two-bay-low-bookcase-back.png",
+  "category": "storage",
+  "subtype": "grid",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.7.0/two-bay-low-bookcase.png",
+      "previews/v0.7.0/two-bay-low-bookcase-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.5799999833106995,
+      0.38999998569488525,
+      0.20000000298023224
+    ]
+  ],
+  "colourTags": [
+    "pale oak"
+  ],
+  "materials": [
+    "wood"
+  ],
+  "searchAliases": [
+    "storage",
+    "grid"
+  ],
+  "materialSlots": [
+    {
+      "id": "wood",
+      "material": "wood",
+      "recolourable": true
+    }
+  ],
+  "finalization": {
+    "unusedTangentAttributesRemoved": 0,
+    "unusedAccessorsRemoved": 0,
+    "unusedBufferViewsRemoved": 0,
+    "bytesRemoved": 0,
+    "normalMappedTangents": "retained, never replaced with arbitrary fallback vectors"
+  },
+  "supportChecks": {
+    "method": "source-part upper-end ray to non-leg geometry, 15mm join tolerance",
+    "status": "pass",
+    "parts": [
+      {
+        "part": "leg",
+        "gapMetresAlongSupport": 5.960464483090178e-09,
+        "status": "pass"
+      },
+      {
+        "part": "leg.001",
+        "gapMetresAlongSupport": 5.960464483090178e-09,
+        "status": "pass"
+      },
+      {
+        "part": "leg.002",
+        "gapMetresAlongSupport": 5.960464483090178e-09,
+        "status": "pass"
+      },
+      {
+        "part": "leg.003",
+        "gapMetresAlongSupport": 5.960464483090178e-09,
+        "status": "pass"
+      }
+    ],
+    "limitation": "screening only; hidden joints, whole-model connectivity, load paths and safety remain visual/product-review concerns"
+  },
+  "materialFinish": {
+    "source": "materials/v1/manifest.json",
+    "repeatMetres": {
+      "wood": [
+        0.16,
+        0.75
+      ],
+      "fabric": [
+        0.14,
+        0.14
+      ],
+      "linen": [
+        0.12,
+        0.12
+      ]
+    },
+    "maps": "original base colour / roughness / tangent normal, embedded in GLB"
+  },
+  "geometryHash": "34fa679f26d39d2ca102965a8088b6dd79eb51e99d3669c0cc77916ada6460f3",
+  "normalizedMirrorGeometryHash": "303c12ee5b4bec554ef41984acac7801789965febca1b88ffca6fe844af431fc"
+}

@@ -1,0 +1,162 @@
+{
+  "designId": "ois.design.three-laundry-sorter",
+  "familyId": "ois.family.three-laundry-sorter",
+  "id": "ois.design.three-laundry-sorter",
+  "name": "Three-bag laundry sorter",
+  "roomTags": [
+    "laundry-utility"
+  ],
+  "theme": "soft-japandi",
+  "builder": "special",
+  "parameters": {
+    "form": "sorter",
+    "w": 1.1,
+    "d": 0.4,
+    "h": 0.72,
+    "cols": 3
+  },
+  "distinction": "Three independent fabric bags between two metal frame ends.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted"
+  },
+  "constructionKey": "special|sorter|{\"cols\": 3, \"front\": \"cane\", \"panels\": 3}",
+  "sha256": "e149eb87797e66e766efe01d0a0ea3c5432c61e7ff9ce173e3536d0808895161",
+  "bytes": 72904,
+  "triangles": 1428,
+  "vertices": 1901,
+  "drawPrimitives": 3,
+  "bounds": {
+    "min": [
+      -0.5640000253915787,
+      -5.960464477539063e-08,
+      -0.2360000042244792
+    ],
+    "max": [
+      0.5640000104904175,
+      0.820000022649765,
+      0.20499999821186066
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 1.1280000358819962,
+    "depth": 0.44100000243633986,
+    "height": 0.8200000822544098
+  },
+  "footprint": [
+    [
+      -0.5640000253915787,
+      -0.2360000042244792
+    ],
+    [
+      0.5640000104904175,
+      -0.2360000042244792
+    ],
+    [
+      0.5640000104904175,
+      0.20499999821186066
+    ],
+    [
+      -0.5640000253915787,
+      0.20499999821186066
+    ]
+  ],
+  "variantSlots": [
+    "fabric",
+    "metal",
+    "wood"
+  ],
+  "requiredExtensions": [],
+  "version": "0.2.0",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.three-laundry-sorter",
+  "file": "assets/v0.2.0/three-laundry-sorter.glb",
+  "sourceModel": "sources/v0.2.0/three-laundry-sorter.blend",
+  "thumbnail": "previews/v0.2.0/three-laundry-sorter.png",
+  "backThumbnail": "previews/v0.2.0/three-laundry-sorter-back.png",
+  "category": "specialty",
+  "subtype": "sorter",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "textures": {
+    "count": 0,
+    "bytes": 0
+  },
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.2.0/three-laundry-sorter.png",
+      "previews/v0.2.0/three-laundry-sorter-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.34,
+      0.28,
+      0.19
+    ],
+    [
+      0.58,
+      0.54,
+      0.44
+    ],
+    [
+      0.15,
+      0.17,
+      0.15
+    ]
+  ],
+  "colourTags": [
+    "ash",
+    "flax",
+    "stone"
+  ],
+  "materials": [
+    "metal",
+    "textile",
+    "wood"
+  ],
+  "searchAliases": [
+    "laundry utility",
+    "sorter"
+  ],
+  "materialSlots": [
+    {
+      "id": "fabric",
+      "material": "fabric",
+      "recolourable": true
+    },
+    {
+      "id": "metal",
+      "material": "metal",
+      "recolourable": true
+    },
+    {
+      "id": "wood",
+      "material": "wood",
+      "recolourable": true
+    }
+  ]
+}

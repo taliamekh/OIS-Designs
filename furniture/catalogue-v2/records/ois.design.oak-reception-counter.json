@@ -1,0 +1,171 @@
+{
+  "designId": "ois.design.oak-reception-counter",
+  "familyId": "ois.family.oak-reception-counter",
+  "id": "ois.design.oak-reception-counter",
+  "name": "Slatted reception counter",
+  "roomTags": [
+    "office"
+  ],
+  "theme": "soft-japandi",
+  "builder": "special",
+  "parameters": {
+    "form": "reception",
+    "w": 1.65,
+    "d": 0.65,
+    "h": 1.08
+  },
+  "distinction": "Public raised transaction ledge above an internal desk plane.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted",
+    "sourceSnapshot": "sources/pipeline-e797cb5c88af56f5.py",
+    "sourceSha256": "e797cb5c88af56f5b4455d819a512ab9be55f40e1fa2d0cb542aca7bb84b906f",
+    "parametersFile": "sources/v0.2.1/oak-reception-counter.parameters.json"
+  },
+  "constructionKey": "special|reception|{\"cols\": 1, \"front\": \"cane\", \"panels\": 3}",
+  "sha256": "f0aa4549640972c41803b17fa64b472ecbeb26ef9cb169d3366ac434c40d182d",
+  "bytes": 528384,
+  "triangles": 9896,
+  "vertices": 14511,
+  "drawPrimitives": 4,
+  "bounds": {
+    "min": [
+      -0.875,
+      0.0,
+      -0.3810000016394993
+    ],
+    "max": [
+      0.875,
+      1.152499996125698,
+      0.48750001192092896
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 1.75,
+    "depth": 0.8685000135604283,
+    "height": 1.152499996125698
+  },
+  "footprint": [
+    [
+      -0.875,
+      -0.3810000016394993
+    ],
+    [
+      0.875,
+      -0.3810000016394993
+    ],
+    [
+      0.875,
+      0.48750001192092896
+    ],
+    [
+      -0.875,
+      0.48750001192092896
+    ]
+  ],
+  "variantSlots": [
+    "dark",
+    "metal",
+    "stone",
+    "wood"
+  ],
+  "requiredExtensions": [],
+  "version": "0.2.1",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.oak-reception-counter",
+  "file": "assets/v0.2.1/oak-reception-counter.glb",
+  "sourceModel": "sources/v0.2.1/oak-reception-counter.blend",
+  "thumbnail": "previews/v0.2.1/oak-reception-counter.png",
+  "backThumbnail": "previews/v0.2.1/oak-reception-counter-back.png",
+  "category": "specialty",
+  "subtype": "reception",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "textures": {
+    "count": 0,
+    "bytes": 0
+  },
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.2.1/oak-reception-counter.png",
+      "previews/v0.2.1/oak-reception-counter-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.34,
+      0.28,
+      0.19
+    ],
+    [
+      0.58,
+      0.54,
+      0.44
+    ],
+    [
+      0.15,
+      0.17,
+      0.15
+    ]
+  ],
+  "colourTags": [
+    "ash",
+    "flax",
+    "stone"
+  ],
+  "materials": [
+    "metal",
+    "paint",
+    "stone",
+    "wood"
+  ],
+  "searchAliases": [
+    "office",
+    "reception"
+  ],
+  "materialSlots": [
+    {
+      "id": "dark",
+      "material": "dark",
+      "recolourable": true
+    },
+    {
+      "id": "metal",
+      "material": "metal",
+      "recolourable": true
+    },
+    {
+      "id": "stone",
+      "material": "stone",
+      "recolourable": true
+    },
+    {
+      "id": "wood",
+      "material": "wood",
+      "recolourable": true
+    }
+  ]
+}

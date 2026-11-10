@@ -1,0 +1,51 @@
+{
+  "id": "ois.design.tripod-counter-stool",
+  "sha256": "unexported-source-6226f7a5305865fd189dfcec35a3077205588e7999488a17cff703d94c6b1b9f",
+  "sourceModel": null,
+  "sourceSha256": "6226f7a5305865fd189dfcec35a3077205588e7999488a17cff703d94c6b1b9f",
+  "partCount": 4,
+  "componentCount": 1,
+  "components": [
+    {
+      "parts": [
+        "seat",
+        "tripod",
+        "tripod.001",
+        "tripod.002"
+      ],
+      "minimum": [
+        -0.20999999344348907,
+        -0.20999999344348907,
+        -0.002417620737105608
+      ],
+      "maximum": [
+        0.20999999344348907,
+        0.20999999344348907,
+        0.6800000071525574
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "tripod",
+      "b": "seat",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "tripod.001",
+      "b": "seat",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "tripod.002",
+      "b": "seat",
+      "method": "triangle intersection",
+      "distance": 0
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; live-source reports are NOT exported-asset evidence; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T03:35:35Z"
+}

@@ -1,0 +1,159 @@
+{
+  "designId": "ois.design.vented-bath-locker",
+  "familyId": "ois.family.vented-bath-locker",
+  "id": "ois.design.vented-bath-locker",
+  "name": "Vented bath locker",
+  "roomTags": [
+    "bathroom"
+  ],
+  "theme": "city-loft",
+  "builder": "case",
+  "parameters": {
+    "form": "locker",
+    "w": 0.75,
+    "d": 0.35,
+    "h": 1.65,
+    "rows": 3,
+    "cols": 2,
+    "base": "sled"
+  },
+  "distinction": "Six ventilated louvre doors in two vertical banks.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted"
+  },
+  "constructionKey": "case|locker|{\"base\": \"sled\", \"cols\": 2, \"doors\": 2, \"drawersTop\": false, \"front\": \"slab\", \"rows\": 3}",
+  "sha256": "0a40b7cfa94e3ae20a25f568cec323f2cc824aec05c88c5f609e7e008408561f",
+  "bytes": 632324,
+  "triangles": 12904,
+  "vertices": 17288,
+  "drawPrimitives": 2,
+  "bounds": {
+    "min": [
+      -0.375,
+      0.0,
+      -0.2074500471353531
+    ],
+    "max": [
+      0.375,
+      1.6455040872097015,
+      0.17499999701976776
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 0.75,
+    "depth": 0.38245004415512085,
+    "height": 1.6455040872097015
+  },
+  "footprint": [
+    [
+      -0.375,
+      -0.2074500471353531
+    ],
+    [
+      0.375,
+      -0.2074500471353531
+    ],
+    [
+      0.375,
+      0.17499999701976776
+    ],
+    [
+      -0.375,
+      0.17499999701976776
+    ]
+  ],
+  "variantSlots": [
+    "metal",
+    "wood"
+  ],
+  "requiredExtensions": [],
+  "version": "0.2.0",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.vented-bath-locker",
+  "file": "assets/v0.2.0/vented-bath-locker.glb",
+  "sourceModel": "sources/v0.2.0/vented-bath-locker.blend",
+  "thumbnail": "previews/v0.2.0/vented-bath-locker.png",
+  "backThumbnail": "previews/v0.2.0/vented-bath-locker-back.png",
+  "category": "storage",
+  "subtype": "locker",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "textures": {
+    "count": 0,
+    "bytes": 0
+  },
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.2.0/vented-bath-locker.png",
+      "previews/v0.2.0/vented-bath-locker-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.23,
+      0.15,
+      0.09
+    ],
+    [
+      0.12,
+      0.14,
+      0.16
+    ],
+    [
+      0.045,
+      0.05,
+      0.055
+    ]
+  ],
+  "colourTags": [
+    "charcoal",
+    "black",
+    "weathered wood"
+  ],
+  "materials": [
+    "metal",
+    "wood"
+  ],
+  "searchAliases": [
+    "bathroom",
+    "locker"
+  ],
+  "materialSlots": [
+    {
+      "id": "metal",
+      "material": "metal",
+      "recolourable": true
+    },
+    {
+      "id": "wood",
+      "material": "wood",
+      "recolourable": true
+    }
+  ],
+  "geometryHash": "02c6ab5b2bfc3b42b49ba5557a334298cde15fa2f50a64ee86afd2ff1d62ad42",
+  "normalizedMirrorGeometryHash": "46adc2baba1907949093f18aa708668bcf752830388b4fb32f4cf8d30f4ef89e"
+}

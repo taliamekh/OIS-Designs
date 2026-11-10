@@ -1,0 +1,112 @@
+{
+  "id": "ois.design.rectilinear-bathtub",
+  "sha256": "9af6999fc73a40abee5c45619feb8cc9d31b384aff105a35953a6cb9cbdcc822",
+  "sourceModel": "sources/v0.5.0/rectilinear-bathtub.blend",
+  "sourceSha256": "1e44d88dc8debba76e8dc1cf0dc424fb94d8f070fdf327c6ee58f1c869a1eed3",
+  "partCount": 7,
+  "componentCount": 3,
+  "components": [
+    {
+      "parts": [
+        "bathtub bottom",
+        "bathtub side",
+        "bathtub side.001",
+        "bathtub end",
+        "bathtub end.001"
+      ],
+      "minimum": [
+        -0.8499999642372131,
+        -0.38999998569488525,
+        0.0
+      ],
+      "maximum": [
+        0.8499999642372131,
+        0.38999998569488525,
+        0.5799999833106995
+      ]
+    },
+    {
+      "parts": [
+        "curved faucet"
+      ],
+      "minimum": [
+        -0.7260000109672546,
+        -0.19139999151229858,
+        0.4099999964237213
+      ],
+      "maximum": [
+        -0.7019999623298645,
+        -0.018910111859440804,
+        0.7209430932998657
+      ]
+    },
+    {
+      "parts": [
+        "tap lever"
+      ],
+      "minimum": [
+        -0.6790000200271606,
+        -0.1873999983072281,
+        0.5519999861717224
+      ],
+      "maximum": [
+        -0.6139999628067017,
+        -0.17139999568462372,
+        0.5680000185966492
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "bathtub side",
+      "b": "bathtub bottom",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "bathtub side.001",
+      "b": "bathtub bottom",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "bathtub end",
+      "b": "bathtub bottom",
+      "method": "surface distance",
+      "distance": 2.7939677238464355e-09
+    },
+    {
+      "a": "bathtub end",
+      "b": "bathtub side",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "bathtub end",
+      "b": "bathtub side.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "bathtub end.001",
+      "b": "bathtub bottom",
+      "method": "surface distance",
+      "distance": 3.725290298461914e-09
+    },
+    {
+      "a": "bathtub end.001",
+      "b": "bathtub side",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "bathtub end.001",
+      "b": "bathtub side.001",
+      "method": "triangle intersection",
+      "distance": 0
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T03:07:33Z"
+}

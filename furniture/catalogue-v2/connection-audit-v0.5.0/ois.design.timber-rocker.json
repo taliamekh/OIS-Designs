@@ -1,0 +1,126 @@
+{
+  "id": "ois.design.timber-rocker",
+  "sha256": "a0e871deac40928d9e2b9002a69b6f4c773085ad207509549599c224bf849e15",
+  "sourceModel": "sources/v0.5.0/timber-rocker.blend",
+  "sourceSha256": "c5307ce5df59f773e6a80d101f7b783f80cdaf5b065c50b957fdf3cba58904af",
+  "partCount": 13,
+  "componentCount": 1,
+  "components": [
+    {
+      "parts": [
+        "curved rocker",
+        "curved rocker.001",
+        "leg",
+        "leg.001",
+        "leg.002",
+        "leg.003",
+        "seat",
+        "piping",
+        "backrest",
+        "arm",
+        "arm upright",
+        "arm.001",
+        "arm upright.001"
+      ],
+      "minimum": [
+        -0.3546000123023987,
+        -0.5093229413032532,
+        0.0
+      ],
+      "maximum": [
+        0.3546000123023987,
+        0.5093229413032532,
+        1.0267958641052246
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "leg",
+      "b": "curved rocker",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "leg.001",
+      "b": "curved rocker",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "leg.002",
+      "b": "curved rocker.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "leg.003",
+      "b": "curved rocker.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "seat",
+      "b": "leg",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "seat",
+      "b": "leg.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "seat",
+      "b": "leg.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "seat",
+      "b": "leg.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "piping",
+      "b": "seat",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "backrest",
+      "b": "seat",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "arm upright",
+      "b": "seat",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "arm upright",
+      "b": "arm",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "arm upright.001",
+      "b": "seat",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "arm upright.001",
+      "b": "arm.001",
+      "method": "triangle intersection",
+      "distance": 0
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T03:07:34Z"
+}

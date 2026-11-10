@@ -1,0 +1,212 @@
+{
+  "designId": "ois.design.metal-mesh-pantry",
+  "familyId": "ois.family.metal-mesh-pantry",
+  "id": "ois.design.metal-mesh-pantry",
+  "name": "Mesh pantry cabinet",
+  "roomTags": [
+    "kitchen"
+  ],
+  "theme": "city-loft",
+  "builder": "case",
+  "parameters": {
+    "form": "doors",
+    "w": 0.85,
+    "d": 0.4,
+    "h": 1.7,
+    "front": "mesh",
+    "base": "sled"
+  },
+  "distinction": "Two wire-grid pantry doors on tall open steel sleds.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted",
+    "sourceSnapshot": "sources/pipeline-55642edf77b9875f.py",
+    "sourceSha256": "55642edf77b9875ff9620f3041b9999cee7807ac9d8ce9f01f78fdfc4bbc513f",
+    "parametersFile": "sources/v0.3.2/metal-mesh-pantry.parameters.json"
+  },
+  "constructionKey": "case|doors|{\"base\": \"sled\", \"drawersTop\": false, \"front\": \"mesh\"}",
+  "sha256": "01ce561a130dbd108e0a1d70a452a9a8566c4308dc4566fddfae7f083aa05aca",
+  "bytes": 646812,
+  "triangles": 4012,
+  "vertices": 9726,
+  "drawPrimitives": 2,
+  "bounds": {
+    "min": [
+      -0.42500001192092896,
+      0.0,
+      -0.25600001215934753
+    ],
+    "max": [
+      0.42500001192092896,
+      1.6959035098552704,
+      0.20000000298023224
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 0.8500000238418579,
+    "depth": 0.4560000151395798,
+    "height": 1.6959035098552704
+  },
+  "footprint": [
+    [
+      -0.42500001192092896,
+      -0.25600001215934753
+    ],
+    [
+      0.42500001192092896,
+      -0.25600001215934753
+    ],
+    [
+      0.42500001192092896,
+      0.20000000298023224
+    ],
+    [
+      -0.42500001192092896,
+      0.20000000298023224
+    ]
+  ],
+  "variantSlots": [
+    "metal",
+    "wood"
+  ],
+  "requiredExtensions": [],
+  "textures": {
+    "count": 3,
+    "bytes": 174784,
+    "estimatedRgbaBytesWithMipmaps": 1048576,
+    "images": [
+      {
+        "name": "wood-normal",
+        "bytes": 102088,
+        "width": 256,
+        "height": 256,
+        "sha256": "6b8efcb5004552d884a527017922bfb5260b8bda4dc77f1365fe1cb8a09f1d56"
+      },
+      {
+        "name": "wood-neutral-base",
+        "bytes": 39353,
+        "width": 256,
+        "height": 256,
+        "sha256": "ddcf839a2addae78944a2d7a0588f9c2055852fc4ccb4e2dae2095d28541de44"
+      },
+      {
+        "name": "wood-roughness",
+        "bytes": 33343,
+        "width": 256,
+        "height": 256,
+        "sha256": "afc2180e58360e76fb178b52f225f7ba9045a7d0d266f10886763b0590335a1a"
+      }
+    ]
+  },
+  "version": "0.3.2",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.metal-mesh-pantry",
+  "file": "assets/v0.3.2/metal-mesh-pantry.glb",
+  "sourceModel": "sources/v0.3.2/metal-mesh-pantry.blend",
+  "thumbnail": "previews/v0.3.2/metal-mesh-pantry.png",
+  "backThumbnail": "previews/v0.3.2/metal-mesh-pantry-back.png",
+  "category": "storage",
+  "subtype": "doors",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.3.2/metal-mesh-pantry.png",
+      "previews/v0.3.2/metal-mesh-pantry-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.04500000178813934,
+      0.05000000074505806,
+      0.054999999701976776
+    ],
+    [
+      0.23000000417232513,
+      0.15000000596046448,
+      0.09000000357627869
+    ]
+  ],
+  "colourTags": [
+    "black",
+    "weathered brown"
+  ],
+  "materials": [
+    "metal",
+    "wood"
+  ],
+  "searchAliases": [
+    "kitchen",
+    "doors"
+  ],
+  "materialSlots": [
+    {
+      "id": "metal",
+      "material": "metal",
+      "recolourable": true
+    },
+    {
+      "id": "wood",
+      "material": "wood",
+      "recolourable": true
+    }
+  ],
+  "supportChecks": {
+    "method": "source-part upper-end ray to non-leg geometry, 15mm join tolerance",
+    "status": "pass",
+    "parts": [
+      {
+        "part": "sled frame",
+        "gapMetresAlongSupport": 5.960464483090178e-09,
+        "status": "pass"
+      },
+      {
+        "part": "sled frame.001",
+        "gapMetresAlongSupport": 5.960464483090178e-09,
+        "status": "pass"
+      }
+    ],
+    "limitation": "screening only; hidden joints, whole-model connectivity, load paths and safety remain visual/product-review concerns"
+  },
+  "materialFinish": {
+    "source": "materials/v1/manifest.json",
+    "repeatMetres": {
+      "wood": [
+        0.16,
+        0.75
+      ],
+      "fabric": [
+        0.14,
+        0.14
+      ],
+      "linen": [
+        0.12,
+        0.12
+      ]
+    },
+    "maps": "original base colour / roughness / tangent normal, embedded in GLB"
+  }
+}

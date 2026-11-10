@@ -1,0 +1,157 @@
+{
+  "id": "ois.design.timber-rocker",
+  "sha256": "2507003ff445c95309a6319b21a2565d4d86a8267dbf8cc85d52904f90334b24",
+  "sourceModel": "sources/v0.7.0/timber-rocker.blend",
+  "sourceSha256": "d815c856d48d73b1998cb0ba1ca0348a2e93f488b20bcc7ab07dd406c51cea7b",
+  "partCount": 14,
+  "componentCount": 1,
+  "components": [
+    {
+      "parts": [
+        "curved rocker",
+        "curved rocker.001",
+        "leg",
+        "leg.001",
+        "leg.002",
+        "leg.003",
+        "structural chair seat pan",
+        "seat",
+        "piping",
+        "backrest",
+        "arm",
+        "arm upright",
+        "arm.001",
+        "arm upright.001"
+      ],
+      "minimum": [
+        -0.3546000123023987,
+        -0.5093229413032532,
+        0.0
+      ],
+      "maximum": [
+        0.3546000123023987,
+        0.5093229413032532,
+        1.0267958641052246
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "leg",
+      "b": "curved rocker",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "leg.001",
+      "b": "curved rocker",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "leg.002",
+      "b": "curved rocker.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "leg.003",
+      "b": "curved rocker.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "structural chair seat pan",
+      "b": "leg",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "structural chair seat pan",
+      "b": "leg.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "structural chair seat pan",
+      "b": "leg.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "structural chair seat pan",
+      "b": "leg.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "seat",
+      "b": "leg",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "seat",
+      "b": "leg.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "seat",
+      "b": "leg.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "seat",
+      "b": "leg.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "seat",
+      "b": "structural chair seat pan",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "piping",
+      "b": "seat",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "backrest",
+      "b": "seat",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "arm upright",
+      "b": "seat",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "arm upright",
+      "b": "arm",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "arm upright.001",
+      "b": "seat",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "arm upright.001",
+      "b": "arm.001",
+      "method": "triangle intersection",
+      "distance": 0
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; live-source reports are NOT exported-asset evidence; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T03:42:34Z"
+}

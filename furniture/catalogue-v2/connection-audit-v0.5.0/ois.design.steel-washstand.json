@@ -1,0 +1,94 @@
+{
+  "id": "ois.design.steel-washstand",
+  "sha256": "1eaa4ab90c2a76f0349083fbd5c7d41780163e7e84c3f6807b134d3f6a058296",
+  "sourceModel": "sources/v0.5.0/steel-washstand.blend",
+  "sourceSha256": "59cba7e1adb5c876cf8dc0b0de8c4198a20dc3dc9e927b834dd037a21b8ca5f9",
+  "partCount": 7,
+  "componentCount": 3,
+  "components": [
+    {
+      "parts": [
+        "sled frame",
+        "sled frame.001",
+        "towel shelf"
+      ],
+      "minimum": [
+        -0.3370000123977661,
+        -0.23199999332427979,
+        0.0
+      ],
+      "maximum": [
+        0.3370000123977661,
+        0.23199999332427979,
+        0.7656949162483215
+      ]
+    },
+    {
+      "parts": [
+        "washstand top",
+        "vessel",
+        "curved faucet"
+      ],
+      "minimum": [
+        -0.375,
+        -0.25,
+        0.7756949663162231
+      ],
+      "maximum": [
+        0.375,
+        0.25,
+        1.0669857263565063
+      ]
+    },
+    {
+      "parts": [
+        "tap lever"
+      ],
+      "minimum": [
+        0.03500000387430191,
+        -0.18800000846385956,
+        0.9276949167251587
+      ],
+      "maximum": [
+        0.10000000149011612,
+        -0.1720000058412552,
+        0.9436949491500854
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "vessel",
+      "b": "washstand top",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "curved faucet",
+      "b": "washstand top",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "curved faucet",
+      "b": "vessel",
+      "method": "surface distance",
+      "distance": 0.000843614456243813
+    },
+    {
+      "a": "towel shelf",
+      "b": "sled frame",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "towel shelf",
+      "b": "sled frame.001",
+      "method": "triangle intersection",
+      "distance": 0
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T03:07:34Z"
+}

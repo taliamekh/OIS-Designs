@@ -1,0 +1,98 @@
+{
+  "id": "ois.design.globe-branch-floor",
+  "sha256": "unexported-source-732771aeb2eadd33599208170e38ff4e50d68878cbfb6795c9473e6f8553f36b",
+  "sourceModel": null,
+  "sourceSha256": "732771aeb2eadd33599208170e38ff4e50d68878cbfb6795c9473e6f8553f36b",
+  "partCount": 9,
+  "componentCount": 1,
+  "components": [
+    {
+      "parts": [
+        "weighted base",
+        "stem",
+        "branch",
+        "opal globe",
+        "branch.001",
+        "opal globe.001",
+        "branch.002",
+        "opal globe.002",
+        "lamp socket mast"
+      ],
+      "minimum": [
+        -0.3296247720718384,
+        -0.1899999976158142,
+        0.0
+      ],
+      "maximum": [
+        0.32999998331069946,
+        0.2823319137096405,
+        1.7599999904632568
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "stem",
+      "b": "weighted base",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "branch",
+      "b": "stem",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "opal globe",
+      "b": "branch",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "branch.001",
+      "b": "stem",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "opal globe.001",
+      "b": "branch.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "branch.002",
+      "b": "stem",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "opal globe.002",
+      "b": "branch.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "lamp socket mast",
+      "b": "stem",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "lamp socket mast",
+      "b": "branch",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "lamp socket mast",
+      "b": "branch.001",
+      "method": "triangle intersection",
+      "distance": 0
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; live-source reports are NOT exported-asset evidence; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T03:28:51Z"
+}

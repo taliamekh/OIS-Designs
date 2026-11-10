@@ -1,0 +1,151 @@
+{
+  "designId": "ois.design.racetrack-fluted-dining",
+  "familyId": "ois.family.racetrack-fluted-dining",
+  "id": "ois.design.racetrack-fluted-dining",
+  "name": "Fluted pedestal dining table",
+  "roomTags": [
+    "dining"
+  ],
+  "theme": "walnut-form",
+  "builder": "table",
+  "parameters": {
+    "form": "drum",
+    "w": 1.65,
+    "d": 0.88,
+    "h": 0.75,
+    "shape": "racetrack"
+  },
+  "distinction": "Capsule top on a substantial cylindrical fluted drum.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted",
+    "sourceSnapshot": "sources/pipeline-e797cb5c88af56f5.py",
+    "sourceSha256": "e797cb5c88af56f5b4455d819a512ab9be55f40e1fa2d0cb542aca7bb84b906f",
+    "parametersFile": "sources/v0.2.1/racetrack-fluted-dining.parameters.json"
+  },
+  "constructionKey": "table|drum|{\"drawers\": false, \"shape\": \"racetrack\", \"shelf\": false}",
+  "sha256": "e8993284fdfaf153170c7cff81f7a8e2f823f36a7e541a57f56d91e196aec753",
+  "bytes": 85820,
+  "triangles": 1992,
+  "vertices": 2266,
+  "drawPrimitives": 1,
+  "bounds": {
+    "min": [
+      -0.824999988079071,
+      0.0,
+      -0.4399999976158142
+    ],
+    "max": [
+      0.824999988079071,
+      0.75,
+      0.4399999976158142
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 1.649999976158142,
+    "depth": 0.8799999952316284,
+    "height": 0.75
+  },
+  "footprint": [
+    [
+      -0.824999988079071,
+      -0.4399999976158142
+    ],
+    [
+      0.824999988079071,
+      -0.4399999976158142
+    ],
+    [
+      0.824999988079071,
+      0.4399999976158142
+    ],
+    [
+      -0.824999988079071,
+      0.4399999976158142
+    ]
+  ],
+  "variantSlots": [
+    "wood"
+  ],
+  "requiredExtensions": [],
+  "version": "0.2.1",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.racetrack-fluted-dining",
+  "file": "assets/v0.2.1/racetrack-fluted-dining.glb",
+  "sourceModel": "sources/v0.2.1/racetrack-fluted-dining.blend",
+  "thumbnail": "previews/v0.2.1/racetrack-fluted-dining.png",
+  "backThumbnail": "previews/v0.2.1/racetrack-fluted-dining-back.png",
+  "category": "tables",
+  "subtype": "drum",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "textures": {
+    "count": 0,
+    "bytes": 0
+  },
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.2.1/racetrack-fluted-dining.png",
+      "previews/v0.2.1/racetrack-fluted-dining-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.22,
+      0.09,
+      0.038
+    ],
+    [
+      0.39,
+      0.18,
+      0.07
+    ],
+    [
+      0.47,
+      0.3,
+      0.1
+    ]
+  ],
+  "colourTags": [
+    "walnut",
+    "tobacco",
+    "brass"
+  ],
+  "materials": [
+    "wood"
+  ],
+  "searchAliases": [
+    "dining",
+    "drum"
+  ],
+  "materialSlots": [
+    {
+      "id": "wood",
+      "material": "wood",
+      "recolourable": true
+    }
+  ]
+}

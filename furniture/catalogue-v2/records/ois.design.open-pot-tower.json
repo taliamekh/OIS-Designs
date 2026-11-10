@@ -1,0 +1,150 @@
+{
+  "designId": "ois.design.open-pot-tower",
+  "familyId": "ois.family.open-pot-tower",
+  "id": "ois.design.open-pot-tower",
+  "name": "Open pot tower",
+  "roomTags": [
+    "kitchen"
+  ],
+  "theme": "city-loft",
+  "builder": "kitchen",
+  "parameters": {
+    "form": "pot-rack",
+    "w": 0.8,
+    "d": 0.45,
+    "h": 1.7
+  },
+  "distinction": "Four steel shelves and upper hanging pot hooks.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted",
+    "sourceSnapshot": "sources/pipeline-e797cb5c88af56f5.py",
+    "sourceSha256": "e797cb5c88af56f5b4455d819a512ab9be55f40e1fa2d0cb542aca7bb84b906f",
+    "parametersFile": "sources/v0.2.1/open-pot-tower.parameters.json"
+  },
+  "constructionKey": "kitchen|pot-rack|{}",
+  "sha256": "bcece37cad04cdb294cf05937dc248f364bdfc4bd125bada937982b78cbe0078",
+  "bytes": 48524,
+  "triangles": 1052,
+  "vertices": 1272,
+  "drawPrimitives": 1,
+  "bounds": {
+    "min": [
+      -0.40000000892423015,
+      0.0,
+      -0.22499998920767356
+    ],
+    "max": [
+      0.40000000892424814,
+      1.7140000462532043,
+      0.22499999969998546
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 0.8000000178484783,
+    "depth": 0.449999988907659,
+    "height": 1.7140000462532043
+  },
+  "footprint": [
+    [
+      -0.40000000892423015,
+      -0.22499998920767356
+    ],
+    [
+      0.40000000892424814,
+      -0.22499998920767356
+    ],
+    [
+      0.40000000892424814,
+      0.22499999969998546
+    ],
+    [
+      -0.40000000892423015,
+      0.22499999969998546
+    ]
+  ],
+  "variantSlots": [
+    "metal"
+  ],
+  "requiredExtensions": [],
+  "version": "0.2.1",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.open-pot-tower",
+  "file": "assets/v0.2.1/open-pot-tower.glb",
+  "sourceModel": "sources/v0.2.1/open-pot-tower.blend",
+  "thumbnail": "previews/v0.2.1/open-pot-tower.png",
+  "backThumbnail": "previews/v0.2.1/open-pot-tower-back.png",
+  "category": "cabinetry",
+  "subtype": "pot-rack",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "textures": {
+    "count": 0,
+    "bytes": 0
+  },
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.2.1/open-pot-tower.png",
+      "previews/v0.2.1/open-pot-tower-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.23,
+      0.15,
+      0.09
+    ],
+    [
+      0.12,
+      0.14,
+      0.16
+    ],
+    [
+      0.045,
+      0.05,
+      0.055
+    ]
+  ],
+  "colourTags": [
+    "charcoal",
+    "black",
+    "weathered wood"
+  ],
+  "materials": [
+    "metal"
+  ],
+  "searchAliases": [
+    "kitchen",
+    "pot rack"
+  ],
+  "materialSlots": [
+    {
+      "id": "metal",
+      "material": "metal",
+      "recolourable": true
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "id": "ois.design.close-coupled-toilet",
+  "sha256": "234d51dbefbc9bcfa4ea003f1d54cf3cd033e80b62e6497aae726fd042fdc67b",
+  "sourceModel": "sources/v0.5.0/close-coupled-toilet.blend",
+  "sourceSha256": "cb1c4c486beac7c06dc4049c2bd5c8233dc18cd7774139f51e288b7ff50a6d0a",
+  "partCount": 5,
+  "componentCount": 2,
+  "components": [
+    {
+      "parts": [
+        "toilet pedestal",
+        "hollow bowl",
+        "seat rim",
+        "cistern"
+      ],
+      "minimum": [
+        -0.24899999797344208,
+        -0.3199999928474426,
+        0.0
+      ],
+      "maximum": [
+        0.24899999797344208,
+        0.343999981880188,
+        0.8350000381469727
+      ]
+    },
+    {
+      "parts": [
+        "flush button"
+      ],
+      "minimum": [
+        -0.02500000037252903,
+        -0.26499998569488525,
+        0.8390000462532043
+      ],
+      "maximum": [
+        0.02500000037252903,
+        -0.2149999886751175,
+        0.8510000109672546
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "hollow bowl",
+      "b": "toilet pedestal",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "seat rim",
+      "b": "hollow bowl",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "cistern",
+      "b": "hollow bowl",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "cistern",
+      "b": "seat rim",
+      "method": "triangle intersection",
+      "distance": 0
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T03:07:31Z"
+}

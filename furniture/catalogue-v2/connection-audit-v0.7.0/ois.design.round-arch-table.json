@@ -1,0 +1,44 @@
+{
+  "id": "ois.design.round-arch-table",
+  "sha256": "2f8683f53d902511ce4cbb8e30139a6124f2cbc4bfe863ca1c9cb087a459b7a0",
+  "sourceModel": "sources/v0.7.0/round-arch-table.blend",
+  "sourceSha256": "f17f8b6d345944ded161049838f4403cc4d05af598eb4c7e5e9276f07d76c225",
+  "partCount": 3,
+  "componentCount": 1,
+  "components": [
+    {
+      "parts": [
+        "top",
+        "arch support",
+        "arch support.001"
+      ],
+      "minimum": [
+        -0.6000000238418579,
+        -0.6000000238418579,
+        0.0
+      ],
+      "maximum": [
+        0.6000000238418579,
+        0.6000000238418579,
+        0.7218486666679382
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "arch support",
+      "b": "top",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "arch support.001",
+      "b": "top",
+      "method": "triangle intersection",
+      "distance": 0
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; live-source reports are NOT exported-asset evidence; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T04:00:32Z"
+}

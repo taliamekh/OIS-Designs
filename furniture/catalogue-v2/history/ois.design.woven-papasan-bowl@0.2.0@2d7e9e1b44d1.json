@@ -1,0 +1,161 @@
+{
+  "designId": "ois.design.woven-papasan-bowl",
+  "familyId": "ois.family.woven-papasan-bowl",
+  "id": "ois.design.woven-papasan-bowl",
+  "name": "Woven papasan bowl chair",
+  "roomTags": [
+    "living"
+  ],
+  "theme": "coastal-linen",
+  "builder": "functional",
+  "parameters": {
+    "form": "papasan",
+    "w": 0.9,
+    "d": 0.9,
+    "h": 0.8
+  },
+  "distinction": "Tilted hollow wicker bowl and circular cushion sit on a short pedestal.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted"
+  },
+  "constructionKey": "functional|papasan|{}",
+  "sha256": "2d7e9e1b44d19cb1d67d88c28f5db48a2667a69c63768ac251502e601faa30f3",
+  "bytes": 49472,
+  "triangles": 2140,
+  "vertices": 1237,
+  "drawPrimitives": 3,
+  "bounds": {
+    "min": [
+      -0.4699999988079071,
+      0.0,
+      -0.5376642346382141
+    ],
+    "max": [
+      0.4699999988079071,
+      0.7204954922199249,
+      0.36713448533135107
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 0.9399999976158142,
+    "depth": 0.9047987199695652,
+    "height": 0.7204954922199249
+  },
+  "footprint": [
+    [
+      -0.4699999988079071,
+      -0.5376642346382141
+    ],
+    [
+      0.4699999988079071,
+      -0.5376642346382141
+    ],
+    [
+      0.4699999988079071,
+      0.36713448533135107
+    ],
+    [
+      -0.4699999988079071,
+      0.36713448533135107
+    ]
+  ],
+  "variantSlots": [
+    "cane",
+    "fabric",
+    "wood"
+  ],
+  "requiredExtensions": [],
+  "version": "0.2.0",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.woven-papasan-bowl",
+  "file": "assets/v0.2.0/woven-papasan-bowl.glb",
+  "sourceModel": "sources/v0.2.0/woven-papasan-bowl.blend",
+  "thumbnail": "previews/v0.2.0/woven-papasan-bowl.png",
+  "backThumbnail": "previews/v0.2.0/woven-papasan-bowl-back.png",
+  "category": "functional-furniture",
+  "subtype": "papasan",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "textures": {
+    "count": 0,
+    "bytes": 0
+  },
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.2.0/woven-papasan-bowl.png",
+      "previews/v0.2.0/woven-papasan-bowl-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.66,
+      0.53,
+      0.34
+    ],
+    [
+      0.36,
+      0.53,
+      0.58
+    ],
+    [
+      0.64,
+      0.6,
+      0.48
+    ]
+  ],
+  "colourTags": [
+    "mist blue",
+    "sand",
+    "pale oak"
+  ],
+  "materials": [
+    "textile",
+    "wood",
+    "woven-fibre"
+  ],
+  "searchAliases": [
+    "living",
+    "papasan"
+  ],
+  "materialSlots": [
+    {
+      "id": "cane",
+      "material": "cane",
+      "recolourable": true
+    },
+    {
+      "id": "fabric",
+      "material": "fabric",
+      "recolourable": true
+    },
+    {
+      "id": "wood",
+      "material": "wood",
+      "recolourable": true
+    }
+  ]
+}

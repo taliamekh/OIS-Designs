@@ -1,0 +1,150 @@
+{
+  "designId": "ois.design.braced-picnic-bench",
+  "familyId": "ois.family.braced-picnic-bench",
+  "id": "ois.design.braced-picnic-bench",
+  "name": "Braced picnic bench",
+  "roomTags": [
+    "dining"
+  ],
+  "theme": "city-loft",
+  "builder": "sculptural",
+  "parameters": {
+    "form": "picnic-bench",
+    "w": 1.45,
+    "d": 0.4,
+    "h": 0.45
+  },
+  "distinction": "Separated seat staves bridge two braced trestles and stretcher.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted",
+    "sourceSnapshot": "sources/pipeline-e797cb5c88af56f5.py",
+    "sourceSha256": "e797cb5c88af56f5b4455d819a512ab9be55f40e1fa2d0cb542aca7bb84b906f",
+    "parametersFile": "sources/v0.2.1/braced-picnic-bench.parameters.json"
+  },
+  "constructionKey": "sculptural|picnic-bench|{}",
+  "sha256": "35c94cec849e941d18778bd22d45c85b1ae22f36c350f1cca4a415797ea39df1",
+  "bytes": 62496,
+  "triangles": 1240,
+  "vertices": 1673,
+  "drawPrimitives": 1,
+  "bounds": {
+    "min": [
+      -0.7250000238418579,
+      -2.6012139442421756e-08,
+      -0.19400003618729522
+    ],
+    "max": [
+      0.7250000238418579,
+      0.4591417468813747,
+      0.19400002156124646
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 1.4500000476837158,
+    "depth": 0.3880000577485417,
+    "height": 0.45914177289351416
+  },
+  "footprint": [
+    [
+      -0.7250000238418579,
+      -0.19400003618729522
+    ],
+    [
+      0.7250000238418579,
+      -0.19400003618729522
+    ],
+    [
+      0.7250000238418579,
+      0.19400002156124646
+    ],
+    [
+      -0.7250000238418579,
+      0.19400002156124646
+    ]
+  ],
+  "variantSlots": [
+    "wood"
+  ],
+  "requiredExtensions": [],
+  "version": "0.2.1",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.braced-picnic-bench",
+  "file": "assets/v0.2.1/braced-picnic-bench.glb",
+  "sourceModel": "sources/v0.2.1/braced-picnic-bench.blend",
+  "thumbnail": "previews/v0.2.1/braced-picnic-bench.png",
+  "backThumbnail": "previews/v0.2.1/braced-picnic-bench-back.png",
+  "category": "sculptural-furniture",
+  "subtype": "picnic-bench",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "textures": {
+    "count": 0,
+    "bytes": 0
+  },
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.2.1/braced-picnic-bench.png",
+      "previews/v0.2.1/braced-picnic-bench-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.23,
+      0.15,
+      0.09
+    ],
+    [
+      0.12,
+      0.14,
+      0.16
+    ],
+    [
+      0.045,
+      0.05,
+      0.055
+    ]
+  ],
+  "colourTags": [
+    "charcoal",
+    "black",
+    "weathered wood"
+  ],
+  "materials": [
+    "wood"
+  ],
+  "searchAliases": [
+    "dining",
+    "picnic bench"
+  ],
+  "materialSlots": [
+    {
+      "id": "wood",
+      "material": "wood",
+      "recolourable": true
+    }
+  ]
+}

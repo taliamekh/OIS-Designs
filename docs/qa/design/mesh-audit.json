@@ -1,0 +1,330 @@
+{
+  "timestamp": "2026-11-10T02:02:49.951Z",
+  "evidence": "Actual Three geometry generation, topology/area/UV checks and FrontSide CPU ray intersections. Not native GPU proof.",
+  "sourceHashes": {
+    "src/scene/meshes.ts": "ceee1b0dd0ede22fae7d49c33707979af9ed6275703a0276d1cf198ac21a732d",
+    "src/scene/RoomScene.tsx": "de0cb945c7fe026fa2b3f887d4e5e086491041c6b3d1e2982c3bc4764986c573"
+  },
+  "passed": 33,
+  "failed": 0,
+  "checks": [
+    {
+      "id": "trim-flat-manifold",
+      "pass": true,
+      "observed": {
+        "vertices": 8,
+        "triangles": 12,
+        "volume": 0.003200000199675562,
+        "surfaceArea": 0.46720000919997684,
+        "nonManifoldEdges": 0,
+        "inconsistentWindingEdges": 0,
+        "allFinite": true
+      }
+    },
+    {
+      "id": "trim-flat-outward-front-face",
+      "pass": true,
+      "observed": {
+        "signedVolume": 0.003200000199675562,
+        "firstRayHitZ": 0.01600000075995922,
+        "expectedFrontZ": 0.016,
+        "hitDistances": [
+          0.9839999992400408
+        ]
+      }
+    },
+    {
+      "id": "trim-bevel-manifold",
+      "pass": true,
+      "observed": {
+        "vertices": 10,
+        "triangles": 16,
+        "volume": 0.003020000190213326,
+        "surfaceArea": 0.4546523058007894,
+        "nonManifoldEdges": 0,
+        "inconsistentWindingEdges": 0,
+        "allFinite": true
+      }
+    },
+    {
+      "id": "trim-bevel-outward-front-face",
+      "pass": true,
+      "observed": {
+        "signedVolume": 0.003020000190213326,
+        "firstRayHitZ": 0.01600000075995922,
+        "expectedFrontZ": 0.016,
+        "hitDistances": [
+          0.9839999992400408
+        ]
+      }
+    },
+    {
+      "id": "trim-ogee-manifold",
+      "pass": true,
+      "observed": {
+        "vertices": 16,
+        "triangles": 28,
+        "volume": 0.00278720015934408,
+        "surfaceArea": 0.46194089183876674,
+        "nonManifoldEdges": 0,
+        "inconsistentWindingEdges": 0,
+        "allFinite": true
+      }
+    },
+    {
+      "id": "trim-ogee-outward-front-face",
+      "pass": true,
+      "observed": {
+        "signedVolume": 0.00278720015934408,
+        "firstRayHitZ": 0.01600000075995922,
+        "expectedFrontZ": 0.016,
+        "hitDistances": [
+          0.9839999992400408
+        ]
+      }
+    },
+    {
+      "id": "trim-stepped-manifold",
+      "pass": true,
+      "observed": {
+        "vertices": 16,
+        "triangles": 28,
+        "volume": 0.0027328001077964875,
+        "surfaceArea": 0.4667328091080978,
+        "nonManifoldEdges": 0,
+        "inconsistentWindingEdges": 0,
+        "allFinite": true
+      }
+    },
+    {
+      "id": "trim-stepped-outward-front-face",
+      "pass": true,
+      "observed": {
+        "signedVolume": 0.0027328001077964875,
+        "firstRayHitZ": 0.01600000075995922,
+        "expectedFrontZ": 0.016,
+        "hitDistances": [
+          0.9839999992400408
+        ]
+      }
+    },
+    {
+      "id": "floor-rectangle-false-area",
+      "pass": true,
+      "observed": {
+        "area": 12,
+        "expected": 12
+      }
+    },
+    {
+      "id": "floor-rectangle-false-metre-UV",
+      "pass": true
+    },
+    {
+      "id": "floor-rectangle-true-area",
+      "pass": true,
+      "observed": {
+        "area": 12,
+        "expected": 12
+      }
+    },
+    {
+      "id": "floor-rectangle-true-metre-UV",
+      "pass": true
+    },
+    {
+      "id": "floor-L-false-area",
+      "pass": true,
+      "observed": {
+        "area": 27.899999856948853,
+        "expected": 27.900000000000006
+      }
+    },
+    {
+      "id": "floor-L-false-metre-UV",
+      "pass": true
+    },
+    {
+      "id": "floor-L-true-area",
+      "pass": true,
+      "observed": {
+        "area": 27.899999856948853,
+        "expected": 27.900000000000002
+      }
+    },
+    {
+      "id": "floor-L-true-metre-UV",
+      "pass": true
+    },
+    {
+      "id": "floor-U-false-area",
+      "pass": true,
+      "observed": {
+        "area": 28,
+        "expected": 28
+      }
+    },
+    {
+      "id": "floor-U-false-metre-UV",
+      "pass": true
+    },
+    {
+      "id": "floor-U-true-area",
+      "pass": true,
+      "observed": {
+        "area": 28,
+        "expected": 28
+      }
+    },
+    {
+      "id": "floor-U-true-metre-UV",
+      "pass": true
+    },
+    {
+      "id": "wall-single-hole-area",
+      "pass": true,
+      "observed": {
+        "actual": 19.5,
+        "expected": 19.5
+      }
+    },
+    {
+      "id": "trim-single-clear-opening",
+      "pass": true,
+      "observed": [
+        [
+          0,
+          2.9515000000000002
+        ],
+        [
+          4.048500000000001,
+          8
+        ]
+      ]
+    },
+    {
+      "id": "trim-terminates-at-visible-casing",
+      "pass": true,
+      "observed": {
+        "intervals": [
+          [
+            0,
+            2.9515000000000002
+          ],
+          [
+            4.048500000000001,
+            8
+          ]
+        ],
+        "renderedJambOuterExtent": 0.0475,
+        "source": "Openings jamb centre -.025 / leafWidth+.025; jamb width .045 in RoomScene at this snapshot"
+      }
+    },
+    {
+      "id": "wall-double-hole-area",
+      "pass": true,
+      "observed": {
+        "actual": 19.5,
+        "expected": 19.5
+      }
+    },
+    {
+      "id": "trim-double-clear-opening",
+      "pass": true,
+      "observed": [
+        [
+          0,
+          2.9515000000000002
+        ],
+        [
+          4.048500000000001,
+          8
+        ]
+      ]
+    },
+    {
+      "id": "wall-sliding-hole-area",
+      "pass": true,
+      "observed": {
+        "actual": 19.5,
+        "expected": 19.5
+      }
+    },
+    {
+      "id": "trim-sliding-clear-opening",
+      "pass": true,
+      "observed": [
+        [
+          0,
+          2.9515000000000002
+        ],
+        [
+          4.048500000000001,
+          8
+        ]
+      ]
+    },
+    {
+      "id": "wall-open-hole-area",
+      "pass": true,
+      "observed": {
+        "actual": 19.5,
+        "expected": 19.5
+      }
+    },
+    {
+      "id": "trim-open-clear-opening",
+      "pass": true,
+      "observed": [
+        [
+          0,
+          2.9515000000000002
+        ],
+        [
+          4.048500000000001,
+          8
+        ]
+      ]
+    },
+    {
+      "id": "wall-window-hole-area",
+      "pass": true,
+      "observed": {
+        "actual": 20.400000000000002,
+        "expected": 20.400000000000002
+      }
+    },
+    {
+      "id": "trim-window-clear-opening",
+      "pass": true,
+      "observed": [
+        [
+          0,
+          8
+        ]
+      ]
+    },
+    {
+      "id": "wall-pocket-hole-area",
+      "pass": true,
+      "observed": {
+        "actual": 19.5,
+        "expected": 19.5
+      }
+    },
+    {
+      "id": "trim-pocket-clear-opening",
+      "pass": true,
+      "observed": [
+        [
+          0,
+          2.9515000000000002
+        ],
+        [
+          4.048500000000001,
+          8
+        ]
+      ]
+    }
+  ]
+}

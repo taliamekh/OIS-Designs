@@ -1,0 +1,50 @@
+{
+  "id": "ois.design.oval-soaking-tub",
+  "sha256": "unexported-source-6226f7a5305865fd189dfcec35a3077205588e7999488a17cff703d94c6b1b9f",
+  "sourceModel": null,
+  "sourceSha256": "6226f7a5305865fd189dfcec35a3077205588e7999488a17cff703d94c6b1b9f",
+  "partCount": 3,
+  "componentCount": 1,
+  "components": [
+    {
+      "parts": [
+        "hollow tub",
+        "curved faucet",
+        "tap lever"
+      ],
+      "minimum": [
+        -0.625,
+        -0.38999998569488525,
+        0.07999999821186066
+      ],
+      "maximum": [
+        0.625,
+        0.38999998569488525,
+        0.9409430623054504
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "curved faucet",
+      "b": "hollow tub",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "tap lever",
+      "b": "hollow tub",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "tap lever",
+      "b": "curved faucet",
+      "method": "triangle intersection",
+      "distance": 0
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; live-source reports are NOT exported-asset evidence; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T03:35:40Z"
+}

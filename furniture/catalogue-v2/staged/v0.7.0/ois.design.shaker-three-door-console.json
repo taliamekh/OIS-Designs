@@ -1,0 +1,261 @@
+{
+  "designId": "ois.design.shaker-three-door-console",
+  "familyId": "ois.family.shaker-three-door-console",
+  "id": "ois.design.shaker-three-door-console",
+  "name": "Three-door shaker console",
+  "roomTags": [
+    "storage"
+  ],
+  "theme": "calm-oak",
+  "builder": "case",
+  "parameters": {
+    "form": "doors",
+    "front": "shaker",
+    "w": 1.4,
+    "h": 0.85,
+    "doors": 3
+  },
+  "distinction": "Three framed recessed panels and independent pulls.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted",
+    "sourceSnapshot": "sources/pipeline-bf07453f548fd92d.py",
+    "sourceSha256": "bf07453f548fd92da637ecce41dc8b35010d5f15c955c971c9e3be2fb762ea2d",
+    "sourceModelSha256": "5a8ac15ae34590ebfea16c075ecf986c0d1817be81f4efffeda743f95a618a64",
+    "supportSources": {
+      "signature_designs.py": {
+        "snapshot": "sources/signature_designs-6d248dd7aaa49ed4.py",
+        "sha256": "6d248dd7aaa49ed40f05c473c5d46b6fe8c97972ebf6ce139553f9641fc82b3c"
+      },
+      "material_finish.py": {
+        "snapshot": "sources/material_finish-281279dfd17b0c92.py",
+        "sha256": "281279dfd17b0c929f9038bb8066b86216427feaaefbd503abb995d06dc35730"
+      },
+      "catalogue_inventory.py": {
+        "snapshot": "sources/catalogue_inventory-db8b68fc872dbc12.py",
+        "sha256": "db8b68fc872dbc12d87e9ce013777e00d6b32cc0392e8cc09f31f8fef27b9365"
+      },
+      "finalize_glb.py": {
+        "snapshot": "sources/finalize_glb-4d1dec42be5cbf3d.py",
+        "sha256": "4d1dec42be5cbf3d6540facfa883948acd849c080f7117b8d7025749c08e2d1b"
+      },
+      "build_catalogue_v2.py": {
+        "snapshot": "sources/build_catalogue_v2-9c22533830c3704c.py",
+        "sha256": "9c22533830c3704c1ce578b58b4350ebbbf5b8d32590a07db027f671d4975577"
+      },
+      "validate_library.py": {
+        "snapshot": "sources/validate_library-48e60483e2c3d05b.py",
+        "sha256": "48e60483e2c3d05bec2c7e2669523eb77571a4ba120cb5238bbec92b8a585e0c"
+      },
+      "support_checks.py": {
+        "snapshot": "sources/support_checks-f7ed4d0400abd5f2.py",
+        "sha256": "f7ed4d0400abd5f23f27c86a9013cfefaca71234a9da953dfe97daeabb8af640"
+      }
+    },
+    "parametersFile": "sources/v0.7.0/shaker-three-door-console.parameters.json"
+  },
+  "constructionKey": "case|doors|{\"base\": \"taper\", \"drawersTop\": false, \"front\": \"shaker\"}",
+  "sha256": "23e4c699a9e5422fad137293a9677250fec2c424fedc99e39461043bbaa9f3a2",
+  "bytes": 422280,
+  "triangles": 2180,
+  "vertices": 5208,
+  "drawPrimitives": 2,
+  "bounds": {
+    "min": [
+      -0.7000000053560167,
+      3.406395998606371e-11,
+      -0.25600000005215406
+    ],
+    "max": [
+      0.7000000438293885,
+      0.8436856759247329,
+      0.2000000249607112
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 1.4000000491854052,
+    "depth": 0.4560000250128653,
+    "height": 0.8436856758906689
+  },
+  "footprint": [
+    [
+      -0.7000000053560167,
+      -0.25600000005215406
+    ],
+    [
+      0.7000000438293885,
+      -0.25600000005215406
+    ],
+    [
+      0.7000000438293885,
+      0.2000000249607112
+    ],
+    [
+      -0.7000000053560167,
+      0.2000000249607112
+    ]
+  ],
+  "variantSlots": [
+    "metal",
+    "wood"
+  ],
+  "requiredExtensions": [],
+  "textures": {
+    "count": 3,
+    "bytes": 174784,
+    "estimatedRgbaBytesWithMipmaps": 1048576,
+    "images": [
+      {
+        "name": "wood-normal",
+        "bytes": 102088,
+        "width": 256,
+        "height": 256,
+        "sha256": "6b8efcb5004552d884a527017922bfb5260b8bda4dc77f1365fe1cb8a09f1d56"
+      },
+      {
+        "name": "wood-neutral-base",
+        "bytes": 39353,
+        "width": 256,
+        "height": 256,
+        "sha256": "ddcf839a2addae78944a2d7a0588f9c2055852fc4ccb4e2dae2095d28541de44"
+      },
+      {
+        "name": "wood-roughness",
+        "bytes": 33343,
+        "width": 256,
+        "height": 256,
+        "sha256": "afc2180e58360e76fb178b52f225f7ba9045a7d0d266f10886763b0590335a1a"
+      }
+    ]
+  },
+  "version": "0.7.0",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.shaker-three-door-console",
+  "file": "assets/v0.7.0/shaker-three-door-console.glb",
+  "sourceModel": "sources/v0.7.0/shaker-three-door-console.blend",
+  "thumbnail": "previews/v0.7.0/shaker-three-door-console.png",
+  "backThumbnail": "previews/v0.7.0/shaker-three-door-console-back.png",
+  "category": "storage",
+  "subtype": "doors",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.7.0/shaker-three-door-console.png",
+      "previews/v0.7.0/shaker-three-door-console-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.11999999731779099,
+      0.14000000059604645,
+      0.12999999523162842
+    ],
+    [
+      0.5799999833106995,
+      0.38999998569488525,
+      0.20000000298023224
+    ]
+  ],
+  "colourTags": [
+    "dark grey",
+    "pale oak"
+  ],
+  "materials": [
+    "metal",
+    "wood"
+  ],
+  "searchAliases": [
+    "storage",
+    "doors"
+  ],
+  "materialSlots": [
+    {
+      "id": "metal",
+      "material": "metal",
+      "recolourable": true
+    },
+    {
+      "id": "wood",
+      "material": "wood",
+      "recolourable": true
+    }
+  ],
+  "finalization": {
+    "unusedTangentAttributesRemoved": 1,
+    "unusedAccessorsRemoved": 1,
+    "unusedBufferViewsRemoved": 1,
+    "bytesRemoved": 19152,
+    "normalMappedTangents": "retained, never replaced with arbitrary fallback vectors"
+  },
+  "supportChecks": {
+    "method": "source-part upper-end ray to non-leg geometry, 15mm join tolerance",
+    "status": "pass",
+    "parts": [
+      {
+        "part": "leg",
+        "gapMetresAlongSupport": 5.960464483090178e-09,
+        "status": "pass"
+      },
+      {
+        "part": "leg.001",
+        "gapMetresAlongSupport": 2.0861625676937834e-08,
+        "status": "pass"
+      },
+      {
+        "part": "leg.002",
+        "gapMetresAlongSupport": 2.0861625676937834e-08,
+        "status": "pass"
+      },
+      {
+        "part": "leg.003",
+        "gapMetresAlongSupport": 5.960464483090178e-09,
+        "status": "pass"
+      }
+    ],
+    "limitation": "screening only; hidden joints, whole-model connectivity, load paths and safety remain visual/product-review concerns"
+  },
+  "materialFinish": {
+    "source": "materials/v1/manifest.json",
+    "repeatMetres": {
+      "wood": [
+        0.16,
+        0.75
+      ],
+      "fabric": [
+        0.14,
+        0.14
+      ],
+      "linen": [
+        0.12,
+        0.12
+      ]
+    },
+    "maps": "original base colour / roughness / tangent normal, embedded in GLB"
+  },
+  "geometryHash": "54a3933dd69d7eae80e8187e288bb3741c08994ac80c9c7ea1673740db40065a",
+  "normalizedMirrorGeometryHash": "17f4076669410ebc2eb7a0348bbc5b77b08be62ac644f8dfae65bfb8fb1f2209"
+}

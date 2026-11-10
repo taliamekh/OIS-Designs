@@ -1,0 +1,452 @@
+{
+  "source": "mobile/assets/materials",
+  "floorMaterialCount": 10,
+  "errors": [],
+  "identicalNormalMapGroups": [
+    [
+      "white-oak",
+      "walnut",
+      "maple"
+    ]
+  ],
+  "highBrightnessCorrelations": [
+    {
+      "a": "white-oak",
+      "b": "walnut",
+      "normalizedBrightnessCorrelation": 0.9993639878654267
+    },
+    {
+      "a": "white-oak",
+      "b": "maple",
+      "normalizedBrightnessCorrelation": 0.9998078269491913
+    },
+    {
+      "a": "walnut",
+      "b": "maple",
+      "normalizedBrightnessCorrelation": 0.9992967932983033
+    }
+  ],
+  "limitations": "Image data and base-colour review only; does not prove full 3D appearance, correct UVs, colour space, physical paint/wood matching or device performance.",
+  "materials": [
+    {
+      "id": "white-oak",
+      "maps": {
+        "colour": {
+          "sha256": "3d1c2b797c46d294cda2d2a870c1e3d495eee1d02560910115e617541e5f45e2",
+          "bytes": 155966,
+          "size": [
+            512,
+            512
+          ],
+          "mode": "RGB",
+          "min": 71,
+          "max": 212,
+          "std": 33.959332581244716
+        },
+        "normal": {
+          "sha256": "9fd5ea3e2aba3bf3d1e7534f212abddaf27b957980f620b0f4007f7b0f18c0e8",
+          "bytes": 548074,
+          "size": [
+            512,
+            512
+          ],
+          "mode": "RGB",
+          "min": 30,
+          "max": 254,
+          "std": 61.012526454150844
+        },
+        "rough": {
+          "sha256": "2c6e4012f343c5596efffc923677706ca44099a7b7bf7b90ce6ab85b6da83377",
+          "bytes": 147804,
+          "size": [
+            512,
+            512
+          ],
+          "mode": "L",
+          "min": 152,
+          "max": 179,
+          "std": 3.0056235074529654
+        }
+      },
+      "normalLengthMaxError": 0.012052640764043776
+    },
+    {
+      "id": "walnut",
+      "maps": {
+        "colour": {
+          "sha256": "c631b8ad320807f4df6240c417273c07fbfa5ecabae70d46fde3bdb019aee0f7",
+          "bytes": 108428,
+          "size": [
+            512,
+            512
+          ],
+          "mode": "RGB",
+          "min": 24,
+          "max": 109,
+          "std": 24.687671927397474
+        },
+        "normal": {
+          "sha256": "9fd5ea3e2aba3bf3d1e7534f212abddaf27b957980f620b0f4007f7b0f18c0e8",
+          "bytes": 548074,
+          "size": [
+            512,
+            512
+          ],
+          "mode": "RGB",
+          "min": 30,
+          "max": 254,
+          "std": 61.012526454150844
+        },
+        "rough": {
+          "sha256": "61b626fbd746e3969a706c4ec65416575188d68ef2ccf401990038410d4bc596",
+          "bytes": 147857,
+          "size": [
+            512,
+            512
+          ],
+          "mode": "L",
+          "min": 108,
+          "max": 135,
+          "std": 3.005105004897057
+        }
+      },
+      "normalLengthMaxError": 0.012052640764043776
+    },
+    {
+      "id": "maple",
+      "maps": {
+        "colour": {
+          "sha256": "2199e2a46e7731c3529d54b85d81e0aa4750aa72e58f3c14b3db9fb520116699",
+          "bytes": 161346,
+          "size": [
+            512,
+            512
+          ],
+          "mode": "RGB",
+          "min": 86,
+          "max": 233,
+          "std": 32.70811328343193
+        },
+        "normal": {
+          "sha256": "9fd5ea3e2aba3bf3d1e7534f212abddaf27b957980f620b0f4007f7b0f18c0e8",
+          "bytes": 548074,
+          "size": [
+            512,
+            512
+          ],
+          "mode": "RGB",
+          "min": 30,
+          "max": 254,
+          "std": 61.012526454150844
+        },
+        "rough": {
+          "sha256": "02ffb82adb79748549ea6f35caf8722af112cbc552fef583109a669fb3df662d",
+          "bytes": 147802,
+          "size": [
+            512,
+            512
+          ],
+          "mode": "L",
+          "min": 126,
+          "max": 153,
+          "std": 3.005472911456355
+        }
+      },
+      "normalLengthMaxError": 0.012052640764043776
+    },
+    {
+      "id": "herringbone",
+      "maps": {
+        "colour": {
+          "sha256": "6b898addf4cdd82e1031fd2a52a70f683f4e7b6519eb126a6410c360248dafdf",
+          "bytes": 18101,
+          "size": [
+            512,
+            512
+          ],
+          "mode": "RGB",
+          "min": 54,
+          "max": 192,
+          "std": 39.87620991400766
+        },
+        "normal": {
+          "sha256": "1c9ceda9cbe1f10226b60bd312f7b586586e77e036666f6e23191250703621ac",
+          "bytes": 679401,
+          "size": [
+            512,
+            512
+          ],
+          "mode": "RGB",
+          "min": 29,
+          "max": 254,
+          "std": 61.98451273195976
+        },
+        "rough": {
+          "sha256": "ac95ceb6d3c3e1aa72f2eb47339683585de230704f1a04d136e3271959df225e",
+          "bytes": 147792,
+          "size": [
+            512,
+            512
+          ],
+          "mode": "L",
+          "min": 144,
+          "max": 171,
+          "std": 3.005399750238623
+        }
+      },
+      "normalLengthMaxError": 0.012862421053012829
+    },
+    {
+      "id": "bamboo",
+      "maps": {
+        "colour": {
+          "sha256": "71a22a1f008fc2dab7741bb83f4709bc1939c79247377bf33c9384c6e9bc2ccd",
+          "bytes": 160551,
+          "size": [
+            512,
+            512
+          ],
+          "mode": "RGB",
+          "min": 59,
+          "max": 208,
+          "std": 40.79288815841672
+        },
+        "normal": {
+          "sha256": "fcdfa288674e9d9ef5e08505b397f4f97e2002e29c5b979d9893561161905ae4",
+          "bytes": 550332,
+          "size": [
+            512,
+            512
+          ],
+          "mode": "RGB",
+          "min": 30,
+          "max": 254,
+          "std": 61.010283622708535
+        },
+        "rough": {
+          "sha256": "f3185dac775d4b6b895d6acadba99ee94f6a11b70afb5b8127ead1cc70a54628",
+          "bytes": 147828,
+          "size": [
+            512,
+            512
+          ],
+          "mode": "L",
+          "min": 118,
+          "max": 146,
+          "std": 3.0050787626278446
+        }
+      },
+      "normalLengthMaxError": 0.01180361109883965
+    },
+    {
+      "id": "slate",
+      "maps": {
+        "colour": {
+          "sha256": "6df112887f85e676443a1f8e2af4d4ea6a1f168d448c8b3ec7f121633c098c7c",
+          "bytes": 74204,
+          "size": [
+            512,
+            512
+          ],
+          "mode": "RGB",
+          "min": 53,
+          "max": 98,
+          "std": 8.046016408343878
+        },
+        "normal": {
+          "sha256": "e7b3eff310c9e50029198bcc489374923392301844b472d90569d1dad00565b4",
+          "bytes": 538381,
+          "size": [
+            512,
+            512
+          ],
+          "mode": "RGB",
+          "min": 42,
+          "max": 254,
+          "std": 60.526028385844
+        },
+        "rough": {
+          "sha256": "ffdc41dd69b6253623e44e760be3415d09fd437ebe2fe5094fbb34ce0a1a7eb1",
+          "bytes": 147565,
+          "size": [
+            512,
+            512
+          ],
+          "mode": "L",
+          "min": 205,
+          "max": 232,
+          "std": 3.0064076283119596
+        }
+      },
+      "normalLengthMaxError": 0.011119102883832555
+    },
+    {
+      "id": "marble",
+      "maps": {
+        "colour": {
+          "sha256": "1cc700fc348d8cb7189d72cc1e84c99db364f0795161f0f89a8e52a08c6bfbab",
+          "bytes": 27606,
+          "size": [
+            512,
+            512
+          ],
+          "mode": "RGB",
+          "min": 104,
+          "max": 222,
+          "std": 17.043878899622193
+        },
+        "normal": {
+          "sha256": "15d5e7bce3ea5b571e639586b45df3c58b5f05fbabf80f8f39a0cc499bc42ddf",
+          "bytes": 538181,
+          "size": [
+            512,
+            512
+          ],
+          "mode": "RGB",
+          "min": 43,
+          "max": 254,
+          "std": 60.523132464339916
+        },
+        "rough": {
+          "sha256": "bf96d973dcc743a933d7943a4cf6e971e8e9074b53899073811c6bb92e82b7c5",
+          "bytes": 147694,
+          "size": [
+            512,
+            512
+          ],
+          "mode": "L",
+          "min": 42,
+          "max": 69,
+          "std": 3.005399750238623
+        }
+      },
+      "normalLengthMaxError": 0.011554644174354367
+    },
+    {
+      "id": "terrazzo",
+      "maps": {
+        "colour": {
+          "sha256": "359ec94b4ef4801f0ab612f4791f64183d0d8377e9925a39de9a1610dc9de6d1",
+          "bytes": 23037,
+          "size": [
+            512,
+            512
+          ],
+          "mode": "RGB",
+          "min": 93,
+          "max": 255,
+          "std": 21.733992273909767
+        },
+        "normal": {
+          "sha256": "6fcaf5264842b8baace780f55df5dfcf955348264b17c9b86bff1c837fd7407e",
+          "bytes": 534473,
+          "size": [
+            512,
+            512
+          ],
+          "mode": "RGB",
+          "min": 83,
+          "max": 254,
+          "std": 60.272756588385434
+        },
+        "rough": {
+          "sha256": "55c4d98694a5af1c3634a11e139914bc9a21841808cb8b9c03d8c5a5abb834bd",
+          "bytes": 147812,
+          "size": [
+            512,
+            512
+          ],
+          "mode": "L",
+          "min": 121,
+          "max": 148,
+          "std": 3.0052495717159284
+        }
+      },
+      "normalLengthMaxError": 0.010000019417551353
+    },
+    {
+      "id": "concrete",
+      "maps": {
+        "colour": {
+          "sha256": "360fd1642c4971cc56e6f574505a85a488ab1af4182a6c9635deb0704b84e9c8",
+          "bytes": 217128,
+          "size": [
+            512,
+            512
+          ],
+          "mode": "RGB",
+          "min": 136,
+          "max": 169,
+          "std": 4.938284033229814
+        },
+        "normal": {
+          "sha256": "2971f24103c6f01d4df44ec514b111c169d2b01b89faabdb24bf9a5b30f2af90",
+          "bytes": 653233,
+          "size": [
+            512,
+            512
+          ],
+          "mode": "RGB",
+          "min": 46,
+          "max": 254,
+          "std": 61.06074083075957
+        },
+        "rough": {
+          "sha256": "d938cf94dd620cf2534e90573eb7e2811225391d3e8e9fe5d18687dc20551da6",
+          "bytes": 147719,
+          "size": [
+            512,
+            512
+          ],
+          "mode": "L",
+          "min": 177,
+          "max": 204,
+          "std": 3.005472911456355
+        }
+      },
+      "normalLengthMaxError": 0.011554644174354367
+    },
+    {
+      "id": "carpet",
+      "maps": {
+        "colour": {
+          "sha256": "ea160c6b24e85ba4377ba3e05a52d85e3a0cf63444fb807e33cc70e851a91a7e",
+          "bytes": 333707,
+          "size": [
+            512,
+            512
+          ],
+          "mode": "RGB",
+          "min": 121,
+          "max": 187,
+          "std": 11.521471783576464
+        },
+        "normal": {
+          "sha256": "380a450b90ceccb57ec3be0bce81deb871bcab6a0c8efb5646fdc7b92845c03d",
+          "bytes": 734519,
+          "size": [
+            512,
+            512
+          ],
+          "mode": "RGB",
+          "min": 20,
+          "max": 254,
+          "std": 62.698656260435584
+        },
+        "rough": {
+          "sha256": "8e71f3301c70c6d8cd244dda919bff0c07c6a28a5235ed5cd1937dfc94fbd9b5",
+          "bytes": 145929,
+          "size": [
+            512,
+            512
+          ],
+          "mode": "L",
+          "min": 236,
+          "max": 255,
+          "std": 2.925963229056502
+        }
+      },
+      "normalLengthMaxError": 0.01242630300452563
+    }
+  ]
+}

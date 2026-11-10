@@ -1,0 +1,152 @@
+{
+  "designId": "ois.design.panel-folding-station",
+  "familyId": "ois.family.panel-folding-station",
+  "id": "ois.design.panel-folding-station",
+  "name": "Panel laundry folding station",
+  "roomTags": [
+    "laundry-utility"
+  ],
+  "theme": "city-loft",
+  "builder": "table",
+  "parameters": {
+    "form": "panel",
+    "w": 1.35,
+    "d": 0.65,
+    "h": 0.9,
+    "shape": "rect",
+    "shelf": true
+  },
+  "distinction": "Wide folding worktop on full-height end panels and a low undershelf.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted",
+    "sourceSnapshot": "sources/pipeline-e797cb5c88af56f5.py",
+    "sourceSha256": "e797cb5c88af56f5b4455d819a512ab9be55f40e1fa2d0cb542aca7bb84b906f",
+    "parametersFile": "sources/v0.2.1/panel-folding-station.parameters.json"
+  },
+  "constructionKey": "table|panel|{\"drawers\": false, \"shape\": \"rect\", \"shelf\": true}",
+  "sha256": "161b22da2f2f85971ab9f6365662d65e21e8fc8b3bf15b1dc0481370cd3b60bd",
+  "bytes": 41428,
+  "triangles": 752,
+  "vertices": 1109,
+  "drawPrimitives": 1,
+  "bounds": {
+    "min": [
+      -0.675000011920929,
+      0.0,
+      -0.32499998807907104
+    ],
+    "max": [
+      0.675000011920929,
+      0.8999999985098839,
+      0.32499998807907104
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 1.350000023841858,
+    "depth": 0.6499999761581421,
+    "height": 0.8999999985098839
+  },
+  "footprint": [
+    [
+      -0.675000011920929,
+      -0.32499998807907104
+    ],
+    [
+      0.675000011920929,
+      -0.32499998807907104
+    ],
+    [
+      0.675000011920929,
+      0.32499998807907104
+    ],
+    [
+      -0.675000011920929,
+      0.32499998807907104
+    ]
+  ],
+  "variantSlots": [
+    "wood"
+  ],
+  "requiredExtensions": [],
+  "version": "0.2.1",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.panel-folding-station",
+  "file": "assets/v0.2.1/panel-folding-station.glb",
+  "sourceModel": "sources/v0.2.1/panel-folding-station.blend",
+  "thumbnail": "previews/v0.2.1/panel-folding-station.png",
+  "backThumbnail": "previews/v0.2.1/panel-folding-station-back.png",
+  "category": "tables",
+  "subtype": "panel",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "textures": {
+    "count": 0,
+    "bytes": 0
+  },
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.2.1/panel-folding-station.png",
+      "previews/v0.2.1/panel-folding-station-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.23,
+      0.15,
+      0.09
+    ],
+    [
+      0.12,
+      0.14,
+      0.16
+    ],
+    [
+      0.045,
+      0.05,
+      0.055
+    ]
+  ],
+  "colourTags": [
+    "charcoal",
+    "black",
+    "weathered wood"
+  ],
+  "materials": [
+    "wood"
+  ],
+  "searchAliases": [
+    "laundry utility",
+    "panel"
+  ],
+  "materialSlots": [
+    {
+      "id": "wood",
+      "material": "wood",
+      "recolourable": true
+    }
+  ]
+}

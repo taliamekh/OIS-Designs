@@ -1,0 +1,37 @@
+{
+  "id": "ois.design.ribbon-console",
+  "sha256": "65719da21469a400e1388046fb4cef50359aefd2facb08934ef95ffacfa269e8",
+  "sourceModel": "sources/v0.5.0/ribbon-console.blend",
+  "sourceSha256": "455ffeb35057e030bb6ac46b84eca7d9b0ddd5ebef7b6e58dc843182b2edb398",
+  "partCount": 2,
+  "componentCount": 1,
+  "components": [
+    {
+      "parts": [
+        "continuous bent console",
+        "console top"
+      ],
+      "minimum": [
+        -0.550000011920929,
+        -0.23429372906684875,
+        0.0
+      ],
+      "maximum": [
+        0.550000011920929,
+        0.23667539656162262,
+        0.818148136138916
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "console top",
+      "b": "continuous bent console",
+      "method": "triangle intersection",
+      "distance": 0
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T03:07:33Z"
+}

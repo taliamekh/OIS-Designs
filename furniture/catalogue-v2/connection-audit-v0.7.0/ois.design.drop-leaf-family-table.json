@@ -1,0 +1,84 @@
+{
+  "id": "ois.design.drop-leaf-family-table",
+  "sha256": "8ee3e482e1a8e53d5160e7371b9159d6a859993722c1747699910c33b41cac18",
+  "sourceModel": "sources/v0.7.0/drop-leaf-family-table.blend",
+  "sourceSha256": "affcf119755cd02eb5c8c65ff4bbb573b74a7d2562b6022daf190a9096243b8f",
+  "partCount": 7,
+  "componentCount": 1,
+  "components": [
+    {
+      "parts": [
+        "central top",
+        "hinged leaf",
+        "hinge pin",
+        "hinged leaf.001",
+        "hinge pin.001",
+        "panel leg",
+        "panel leg.001"
+      ],
+      "minimum": [
+        -0.798852264881134,
+        -0.4300000071525574,
+        0.0
+      ],
+      "maximum": [
+        0.798852264881134,
+        0.4300000071525574,
+        0.7699999809265137
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "hinged leaf",
+      "b": "central top",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "hinge pin",
+      "b": "central top",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "hinge pin",
+      "b": "hinged leaf",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "hinged leaf.001",
+      "b": "central top",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "hinge pin.001",
+      "b": "central top",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "hinge pin.001",
+      "b": "hinged leaf.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "panel leg",
+      "b": "central top",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "panel leg.001",
+      "b": "central top",
+      "method": "triangle intersection",
+      "distance": 0
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; live-source reports are NOT exported-asset evidence; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T04:00:30Z"
+}

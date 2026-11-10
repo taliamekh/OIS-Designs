@@ -1,0 +1,169 @@
+{
+  "designId": "ois.design.integrated-dishwasher",
+  "familyId": "ois.family.integrated-dishwasher",
+  "id": "ois.design.integrated-dishwasher",
+  "name": "Integrated dishwasher",
+  "roomTags": [
+    "kitchen"
+  ],
+  "theme": "coastal-linen",
+  "builder": "appliance",
+  "parameters": {
+    "form": "dishwasher",
+    "w": 0.6,
+    "h": 0.85
+  },
+  "distinction": "Full-width pull door with top control strip and glazing inset.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted"
+  },
+  "constructionKey": "appliance|dishwasher|{}",
+  "sha256": "32706add7470871152fea107abb5eb5a383cc1ec8ebaeb701684bca96d300284",
+  "bytes": 71828,
+  "triangles": 1376,
+  "vertices": 1844,
+  "drawPrimitives": 4,
+  "bounds": {
+    "min": [
+      -0.30000001192092896,
+      0.0,
+      -0.3859999952837825
+    ],
+    "max": [
+      0.30000001192092896,
+      0.8500000238418579,
+      0.3100000023841858
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 0.6000000238418579,
+    "depth": 0.6959999976679683,
+    "height": 0.8500000238418579
+  },
+  "footprint": [
+    [
+      -0.30000001192092896,
+      -0.3859999952837825
+    ],
+    [
+      0.30000001192092896,
+      -0.3859999952837825
+    ],
+    [
+      0.30000001192092896,
+      0.3100000023841858
+    ],
+    [
+      -0.30000001192092896,
+      0.3100000023841858
+    ]
+  ],
+  "variantSlots": [
+    "ceramic",
+    "dark",
+    "glass",
+    "metal"
+  ],
+  "requiredExtensions": [],
+  "version": "0.2.0",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.integrated-dishwasher",
+  "file": "assets/v0.2.0/integrated-dishwasher.glb",
+  "sourceModel": "sources/v0.2.0/integrated-dishwasher.blend",
+  "thumbnail": "previews/v0.2.0/integrated-dishwasher.png",
+  "backThumbnail": "previews/v0.2.0/integrated-dishwasher-back.png",
+  "category": "appliances",
+  "subtype": "dishwasher",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "textures": {
+    "count": 0,
+    "bytes": 0
+  },
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.2.0/integrated-dishwasher.png",
+      "previews/v0.2.0/integrated-dishwasher-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.66,
+      0.53,
+      0.34
+    ],
+    [
+      0.36,
+      0.53,
+      0.58
+    ],
+    [
+      0.64,
+      0.6,
+      0.48
+    ]
+  ],
+  "colourTags": [
+    "mist blue",
+    "sand",
+    "pale oak"
+  ],
+  "materials": [
+    "ceramic",
+    "metal",
+    "opaque-glass-study",
+    "paint"
+  ],
+  "searchAliases": [
+    "kitchen",
+    "dishwasher"
+  ],
+  "materialSlots": [
+    {
+      "id": "ceramic",
+      "material": "ceramic",
+      "recolourable": true
+    },
+    {
+      "id": "dark",
+      "material": "dark",
+      "recolourable": true
+    },
+    {
+      "id": "glass",
+      "material": "glass",
+      "recolourable": true
+    },
+    {
+      "id": "metal",
+      "material": "metal",
+      "recolourable": true
+    }
+  ],
+  "geometryHash": "20bb4c91b1bac0f4db9c0cd1b95097eee845043f2aca76ffa5ac5d1e99057c4a",
+  "normalizedMirrorGeometryHash": "1638b2ce064db398f94d1e8ca6d917178dd980e504706503c85bb15278ca34bf"
+}

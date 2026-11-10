@@ -1,0 +1,160 @@
+{
+  "designId": "ois.design.corner-wall-banquette",
+  "familyId": "ois.family.corner-wall-banquette",
+  "id": "ois.design.corner-wall-banquette",
+  "name": "Corner wall banquette",
+  "roomTags": [
+    "dining"
+  ],
+  "theme": "coastal-linen",
+  "builder": "functional",
+  "parameters": {
+    "form": "corner-banquette",
+    "w": 1.65,
+    "d": 1.1,
+    "h": 0.95
+  },
+  "distinction": "Two perpendicular padded plinths meet full-height wall backs.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted"
+  },
+  "constructionKey": "functional|corner-banquette|{}",
+  "sha256": "1e3516564f4baac9548a0a066afad948705de5b15acdcb254f60751d8c770332",
+  "bytes": 79860,
+  "triangles": 1504,
+  "vertices": 2108,
+  "drawPrimitives": 3,
+  "bounds": {
+    "min": [
+      -0.8270000219345093,
+      0.0,
+      -0.7994999885559082
+    ],
+    "max": [
+      0.8734999895095825,
+      0.9700000286102295,
+      0.3400000035762787
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 1.7005000114440918,
+    "depth": 1.139499992132187,
+    "height": 0.9700000286102295
+  },
+  "footprint": [
+    [
+      -0.8270000219345093,
+      -0.7994999885559082
+    ],
+    [
+      0.8734999895095825,
+      -0.7994999885559082
+    ],
+    [
+      0.8734999895095825,
+      0.3400000035762787
+    ],
+    [
+      -0.8270000219345093,
+      0.3400000035762787
+    ]
+  ],
+  "variantSlots": [
+    "fabric",
+    "linen",
+    "wood"
+  ],
+  "requiredExtensions": [],
+  "version": "0.2.0",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.corner-wall-banquette",
+  "file": "assets/v0.2.0/corner-wall-banquette.glb",
+  "sourceModel": "sources/v0.2.0/corner-wall-banquette.blend",
+  "thumbnail": "previews/v0.2.0/corner-wall-banquette.png",
+  "backThumbnail": "previews/v0.2.0/corner-wall-banquette-back.png",
+  "category": "functional-furniture",
+  "subtype": "corner-banquette",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "textures": {
+    "count": 0,
+    "bytes": 0
+  },
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.2.0/corner-wall-banquette.png",
+      "previews/v0.2.0/corner-wall-banquette-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.66,
+      0.53,
+      0.34
+    ],
+    [
+      0.36,
+      0.53,
+      0.58
+    ],
+    [
+      0.64,
+      0.6,
+      0.48
+    ]
+  ],
+  "colourTags": [
+    "mist blue",
+    "sand",
+    "pale oak"
+  ],
+  "materials": [
+    "textile",
+    "wood"
+  ],
+  "searchAliases": [
+    "dining",
+    "corner banquette"
+  ],
+  "materialSlots": [
+    {
+      "id": "fabric",
+      "material": "fabric",
+      "recolourable": true
+    },
+    {
+      "id": "linen",
+      "material": "linen",
+      "recolourable": true
+    },
+    {
+      "id": "wood",
+      "material": "wood",
+      "recolourable": true
+    }
+  ]
+}

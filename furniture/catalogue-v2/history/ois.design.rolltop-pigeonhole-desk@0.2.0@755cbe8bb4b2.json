@@ -1,0 +1,150 @@
+{
+  "designId": "ois.design.rolltop-pigeonhole-desk",
+  "familyId": "ois.family.rolltop-pigeonhole-desk",
+  "id": "ois.design.rolltop-pigeonhole-desk",
+  "name": "Pigeonhole secretary desk",
+  "roomTags": [
+    "office"
+  ],
+  "theme": "walnut-form",
+  "builder": "table",
+  "parameters": {
+    "form": "rolltop",
+    "w": 1.3,
+    "d": 0.65,
+    "h": 0.75,
+    "shape": "rect"
+  },
+  "distinction": "Raised rear pigeonholes and multiple small internal partitions.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted"
+  },
+  "constructionKey": "table|rolltop|{\"drawers\": false, \"shape\": \"rect\", \"shelf\": false}",
+  "sha256": "755cbe8bb4b25a7044794894ee6407e9c815e1c4cbe76c4893645bbaa62d4db3",
+  "bytes": 91540,
+  "triangles": 1692,
+  "vertices": 2503,
+  "drawPrimitives": 1,
+  "bounds": {
+    "min": [
+      -0.6499999761581421,
+      0.0,
+      -0.32499998807907104
+    ],
+    "max": [
+      0.6499999761581421,
+      1.090000033378601,
+      0.32499998807907104
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 1.2999999523162842,
+    "depth": 0.6499999761581421,
+    "height": 1.090000033378601
+  },
+  "footprint": [
+    [
+      -0.6499999761581421,
+      -0.32499998807907104
+    ],
+    [
+      0.6499999761581421,
+      -0.32499998807907104
+    ],
+    [
+      0.6499999761581421,
+      0.32499998807907104
+    ],
+    [
+      -0.6499999761581421,
+      0.32499998807907104
+    ]
+  ],
+  "variantSlots": [
+    "wood"
+  ],
+  "requiredExtensions": [],
+  "version": "0.2.0",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.rolltop-pigeonhole-desk",
+  "file": "assets/v0.2.0/rolltop-pigeonhole-desk.glb",
+  "sourceModel": "sources/v0.2.0/rolltop-pigeonhole-desk.blend",
+  "thumbnail": "previews/v0.2.0/rolltop-pigeonhole-desk.png",
+  "backThumbnail": "previews/v0.2.0/rolltop-pigeonhole-desk-back.png",
+  "category": "tables",
+  "subtype": "rolltop",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "textures": {
+    "count": 0,
+    "bytes": 0
+  },
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.2.0/rolltop-pigeonhole-desk.png",
+      "previews/v0.2.0/rolltop-pigeonhole-desk-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.22,
+      0.09,
+      0.038
+    ],
+    [
+      0.39,
+      0.18,
+      0.07
+    ],
+    [
+      0.47,
+      0.3,
+      0.1
+    ]
+  ],
+  "colourTags": [
+    "walnut",
+    "tobacco",
+    "brass"
+  ],
+  "materials": [
+    "wood"
+  ],
+  "searchAliases": [
+    "office",
+    "rolltop"
+  ],
+  "materialSlots": [
+    {
+      "id": "wood",
+      "material": "wood",
+      "recolourable": true
+    }
+  ],
+  "geometryHash": "7a714c1260ff2f5ec7546e787e73e16f399b4aad3a0ae24a3f4ffae36e9b4594",
+  "normalizedMirrorGeometryHash": "0f9f3120ad4ea22527dceecbb7c508ced5d6ced95e971c5b1c40af459a1b52f1"
+}

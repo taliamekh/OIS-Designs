@@ -1,0 +1,159 @@
+{
+  "designId": "ois.design.wing-reading-chair",
+  "familyId": "ois.family.wing-reading-chair",
+  "id": "ois.design.wing-reading-chair",
+  "name": "Wing reading chair",
+  "roomTags": [
+    "living"
+  ],
+  "theme": "walnut-form",
+  "builder": "seating",
+  "parameters": {
+    "form": "wing",
+    "h": 1.12
+  },
+  "distinction": "High padded back with projecting side wings and armrests.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted"
+  },
+  "sha256": "159f946b6136ef621f2d04f6bf88cd7c5a90783aac7e8e918fc6f4c2fe4aa075",
+  "bytes": 84904,
+  "triangles": 1676,
+  "vertices": 2228,
+  "drawPrimitives": 3,
+  "bounds": {
+    "min": [
+      -0.3546000123023987,
+      5.548874998373421e-09,
+      -0.3499999884516001
+    ],
+    "max": [
+      0.3546000123023987,
+      1.1325496137142181,
+      0.36509654484689236
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 0.7092000246047974,
+    "depth": 0.7150965332984924,
+    "height": 1.1325496081653432
+  },
+  "footprint": [
+    [
+      -0.3546000123023987,
+      -0.3499999884516001
+    ],
+    [
+      0.3546000123023987,
+      -0.3499999884516001
+    ],
+    [
+      0.3546000123023987,
+      0.36509654484689236
+    ],
+    [
+      -0.3546000123023987,
+      0.36509654484689236
+    ]
+  ],
+  "variantSlots": [
+    "fabric",
+    "linen",
+    "wood"
+  ],
+  "requiredExtensions": [],
+  "version": "0.2.0",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.wing-reading-chair",
+  "file": "assets/v0.2.0/wing-reading-chair.glb",
+  "sourceModel": "sources/v0.2.0/wing-reading-chair.blend",
+  "thumbnail": "previews/v0.2.0/wing-reading-chair.png",
+  "backThumbnail": "previews/v0.2.0/wing-reading-chair-back.png",
+  "category": "seating",
+  "subtype": "wing",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "textures": {
+    "count": 0,
+    "bytes": 0
+  },
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.2.0/wing-reading-chair.png",
+      "previews/v0.2.0/wing-reading-chair-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.22,
+      0.09,
+      0.038
+    ],
+    [
+      0.39,
+      0.18,
+      0.07
+    ],
+    [
+      0.47,
+      0.3,
+      0.1
+    ]
+  ],
+  "colourTags": [
+    "walnut",
+    "tobacco",
+    "brass"
+  ],
+  "materials": [
+    "textile",
+    "wood"
+  ],
+  "searchAliases": [
+    "living",
+    "wing"
+  ],
+  "materialSlots": [
+    {
+      "id": "fabric",
+      "material": "fabric",
+      "recolourable": true
+    },
+    {
+      "id": "linen",
+      "material": "linen",
+      "recolourable": true
+    },
+    {
+      "id": "wood",
+      "material": "wood",
+      "recolourable": true
+    }
+  ],
+  "geometryHash": "5b27ce5d0570e7757ea9211a87f70d546dc81c704b9bdb4a24380d7c6b823801",
+  "normalizedMirrorGeometryHash": "09ea2ab6b4d1ad53ef8af5c34856ea6dae8663002083e2b497f196dc1c2bfaf1"
+}

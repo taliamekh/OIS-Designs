@@ -1,0 +1,108 @@
+{
+  "timestamp": "2026-11-10T01:00:38.316Z",
+  "producerSha256": "2b00ecc3f0943f9f3ea5a0107864bdfa5a4c3bac88671086b278ef43a75983bc",
+  "searchSha256": "fc05865bb002112daf5149ce7e5285c4c4a7bbfa0e95e477d8c1d1eda1f70952",
+  "rendererSha256": "fed090d3ff2f75d72125360ba6deb323bcb6d48aab3d24a4c3671b8a77e05156",
+  "producerRecords": 263,
+  "consumerRecords": 39,
+  "unimportedRecords": 224,
+  "consumerIdsWithProducerVersionConflict": [],
+  "passed": 9,
+  "failed": 3,
+  "checks": [
+    {
+      "id": "ROOM-entry",
+      "expected": "Producer tag entry-hall maps to app room entry",
+      "pass": false,
+      "fixture": {
+        "id": "ois.calm-oak.entry-bench",
+        "roomTags": [
+          "entry-hall"
+        ]
+      },
+      "observed": {
+        "results": 0
+      }
+    },
+    {
+      "id": "ROOM-utility",
+      "expected": "Producer tag laundry-utility maps to app room utility",
+      "pass": false,
+      "fixture": {
+        "id": "ois.calm-oak.washer",
+        "roomTags": [
+          "laundry-utility"
+        ]
+      },
+      "observed": {
+        "results": 0
+      }
+    },
+    {
+      "id": "QUERY-SYNONYM",
+      "pass": true,
+      "fixture": "ois.calm-oak.sofa"
+    },
+    {
+      "id": "FAVOURITE",
+      "pass": true,
+      "fixture": "ois.calm-oak.sofa"
+    },
+    {
+      "id": "FIT-DIMENSION",
+      "pass": true,
+      "fixture": "ois.calm-oak.sofa"
+    },
+    {
+      "id": "BED-twin",
+      "pass": true,
+      "observed": {
+        "producerFixtures": 6
+      }
+    },
+    {
+      "id": "BED-full",
+      "pass": true,
+      "observed": {
+        "producerFixtures": 1
+      }
+    },
+    {
+      "id": "BED-queen",
+      "pass": true,
+      "observed": {
+        "producerFixtures": 13
+      }
+    },
+    {
+      "id": "BED-king",
+      "pass": true,
+      "observed": {
+        "producerFixtures": 1
+      }
+    },
+    {
+      "id": "BED-bunk",
+      "pass": true,
+      "observed": {
+        "producerFixtures": 1
+      }
+    },
+    {
+      "id": "BED-loft",
+      "pass": true,
+      "observed": {
+        "producerFixtures": 1
+      }
+    },
+    {
+      "id": "VERSION-CONFLICT-RECOVERY",
+      "evidence": "Static renderer guard, not rendered state",
+      "pass": false,
+      "expected": "Version/hash conflicts need visible, recoverable asset state; retain saved transform.",
+      "observed": {
+        "silentVersionReturn": true
+      }
+    }
+  ]
+}

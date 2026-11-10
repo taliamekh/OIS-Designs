@@ -1,0 +1,205 @@
+{
+  "id": "ois.design.entry-guitar-cradle",
+  "sha256": "unexported-source-6226f7a5305865fd189dfcec35a3077205588e7999488a17cff703d94c6b1b9f",
+  "sourceModel": null,
+  "sourceSha256": "6226f7a5305865fd189dfcec35a3077205588e7999488a17cff703d94c6b1b9f",
+  "partCount": 14,
+  "componentCount": 1,
+  "components": [
+    {
+      "parts": [
+        "trestle",
+        "trestle.001",
+        "trestle lower tie",
+        "trestle.002",
+        "trestle.003",
+        "trestle lower tie.001",
+        "stretcher",
+        "guitar stand foot",
+        "neck support",
+        "neck fork",
+        "body cradle",
+        "cradle bracket",
+        "body cradle.001",
+        "cradle bracket.001"
+      ],
+      "minimum": [
+        -0.23000000417232513,
+        -0.20000000298023224,
+        -0.0007956530898809433
+      ],
+      "maximum": [
+        0.23000000417232513,
+        0.22062958776950836,
+        0.8291110992431641
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "trestle.001",
+      "b": "trestle",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "trestle lower tie",
+      "b": "trestle",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "trestle lower tie",
+      "b": "trestle.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "trestle.003",
+      "b": "trestle.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "trestle lower tie.001",
+      "b": "trestle.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "trestle lower tie.001",
+      "b": "trestle.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "stretcher",
+      "b": "trestle lower tie",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "stretcher",
+      "b": "trestle lower tie.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "guitar stand foot",
+      "b": "trestle",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "guitar stand foot",
+      "b": "trestle.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "guitar stand foot",
+      "b": "trestle lower tie",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "guitar stand foot",
+      "b": "trestle.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "guitar stand foot",
+      "b": "trestle.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "guitar stand foot",
+      "b": "trestle lower tie.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "guitar stand foot",
+      "b": "stretcher",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "neck support",
+      "b": "guitar stand foot",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "neck fork",
+      "b": "neck support",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "body cradle",
+      "b": "trestle",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "body cradle",
+      "b": "trestle.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "cradle bracket",
+      "b": "trestle",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "cradle bracket",
+      "b": "trestle.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "cradle bracket",
+      "b": "body cradle",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "body cradle.001",
+      "b": "trestle.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "body cradle.001",
+      "b": "trestle.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "cradle bracket.001",
+      "b": "trestle.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "cradle bracket.001",
+      "b": "trestle.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "cradle bracket.001",
+      "b": "body cradle.001",
+      "method": "triangle intersection",
+      "distance": 0
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; live-source reports are NOT exported-asset evidence; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T03:35:59Z"
+}

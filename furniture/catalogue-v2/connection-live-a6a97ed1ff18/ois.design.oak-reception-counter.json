@@ -1,0 +1,847 @@
+{
+  "id": "ois.design.oak-reception-counter",
+  "sha256": "unexported-source-a6a97ed1ff18ea7190f4c07e8ea17b6dba901563a653d7aed874183539ef16c1",
+  "sourceModel": null,
+  "sourceSha256": "a6a97ed1ff18ea7190f4c07e8ea17b6dba901563a653d7aed874183539ef16c1",
+  "partCount": 66,
+  "componentCount": 2,
+  "components": [
+    {
+      "parts": [
+        "recessed plinth",
+        "bottom",
+        "top",
+        "side",
+        "side.001",
+        "back",
+        "door stile",
+        "door stile.001",
+        "door rail",
+        "door rail.001",
+        "vertical slat",
+        "vertical slat.001",
+        "vertical slat.002",
+        "vertical slat.003",
+        "vertical slat.004",
+        "vertical slat.005",
+        "vertical slat.006",
+        "vertical slat.007",
+        "vertical slat.008",
+        "vertical slat.009",
+        "vertical slat.010",
+        "vertical slat.011",
+        "vertical slat.012",
+        "vertical slat.013",
+        "vertical slat.014",
+        "vertical slat.015",
+        "vertical slat.016",
+        "pull",
+        "pull mounting plate",
+        "pull mounting standoff",
+        "pull mounting standoff.001",
+        "door hinge mounting stile",
+        "door hinge pin",
+        "door hinge pin.001",
+        "door stile.002",
+        "door stile.003",
+        "door rail.002",
+        "door rail.003",
+        "vertical slat.017",
+        "vertical slat.018",
+        "vertical slat.019",
+        "vertical slat.020",
+        "vertical slat.021",
+        "vertical slat.022",
+        "vertical slat.023",
+        "vertical slat.024",
+        "vertical slat.025",
+        "vertical slat.026",
+        "vertical slat.027",
+        "vertical slat.028",
+        "vertical slat.029",
+        "vertical slat.030",
+        "vertical slat.031",
+        "vertical slat.032",
+        "vertical slat.033",
+        "pull.001",
+        "pull mounting plate.001",
+        "pull mounting standoff.002",
+        "pull mounting standoff.003",
+        "door hinge mounting stile.001",
+        "door hinge pin.002",
+        "door hinge pin.003",
+        "interior shelf",
+        "interior shelf.001",
+        "inner desk"
+      ],
+      "minimum": [
+        -0.824999988079071,
+        -0.48750001192092896,
+        0.0
+      ],
+      "maximum": [
+        0.824999988079071,
+        0.38100001215934753,
+        1.0800000429153442
+      ]
+    },
+    {
+      "parts": [
+        "transaction ledge"
+      ],
+      "minimum": [
+        -0.875,
+        -0.04875001311302185,
+        1.1074999570846558
+      ],
+      "maximum": [
+        0.875,
+        0.3737500011920929,
+        1.152500033378601
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "bottom",
+      "b": "recessed plinth",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "side",
+      "b": "bottom",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "side",
+      "b": "top",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "side.001",
+      "b": "bottom",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "side.001",
+      "b": "top",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "back",
+      "b": "bottom",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "back",
+      "b": "top",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "back",
+      "b": "side",
+      "method": "surface distance",
+      "distance": 0.0
+    },
+    {
+      "a": "back",
+      "b": "side.001",
+      "method": "surface distance",
+      "distance": 0.0
+    },
+    {
+      "a": "door rail",
+      "b": "door stile",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "door rail",
+      "b": "door stile.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "door rail.001",
+      "b": "door stile",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "door rail.001",
+      "b": "door stile.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "vertical slat",
+      "b": "door rail",
+      "method": "surface distance",
+      "distance": 1.4901161193847656e-08
+    },
+    {
+      "a": "vertical slat",
+      "b": "door rail.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "vertical slat.001",
+      "b": "door rail",
+      "method": "surface distance",
+      "distance": 1.4901161193847656e-08
+    },
+    {
+      "a": "vertical slat.001",
+      "b": "door rail.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "vertical slat.002",
+      "b": "door rail",
+      "method": "surface distance",
+      "distance": 1.4901161193847656e-08
+    },
+    {
+      "a": "vertical slat.002",
+      "b": "door rail.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "vertical slat.003",
+      "b": "door rail",
+      "method": "surface distance",
+      "distance": 1.4901161193847656e-08
+    },
+    {
+      "a": "vertical slat.003",
+      "b": "door rail.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "vertical slat.004",
+      "b": "door rail",
+      "method": "surface distance",
+      "distance": 1.4901161193847656e-08
+    },
+    {
+      "a": "vertical slat.004",
+      "b": "door rail.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "vertical slat.005",
+      "b": "door rail",
+      "method": "surface distance",
+      "distance": 1.4901161193847656e-08
+    },
+    {
+      "a": "vertical slat.005",
+      "b": "door rail.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "vertical slat.006",
+      "b": "door rail",
+      "method": "surface distance",
+      "distance": 3.332000986233652e-08
+    },
+    {
+      "a": "vertical slat.006",
+      "b": "door rail.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "vertical slat.007",
+      "b": "door rail",
+      "method": "surface distance",
+      "distance": 1.4901161193847656e-08
+    },
+    {
+      "a": "vertical slat.007",
+      "b": "door rail.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "vertical slat.008",
+      "b": "door rail",
+      "method": "surface distance",
+      "distance": 3.332000986233652e-08
+    },
+    {
+      "a": "vertical slat.008",
+      "b": "door rail.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "vertical slat.009",
+      "b": "door rail",
+      "method": "surface distance",
+      "distance": 3.332000986233652e-08
+    },
+    {
+      "a": "vertical slat.009",
+      "b": "door rail.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "vertical slat.010",
+      "b": "door rail",
+      "method": "surface distance",
+      "distance": 3.332000986233652e-08
+    },
+    {
+      "a": "vertical slat.010",
+      "b": "door rail.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "vertical slat.011",
+      "b": "door rail",
+      "method": "surface distance",
+      "distance": 3.332000986233652e-08
+    },
+    {
+      "a": "vertical slat.011",
+      "b": "door rail.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "vertical slat.012",
+      "b": "door rail",
+      "method": "surface distance",
+      "distance": 1.4901161193847656e-08
+    },
+    {
+      "a": "vertical slat.012",
+      "b": "door rail.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "vertical slat.013",
+      "b": "door rail",
+      "method": "surface distance",
+      "distance": 3.332000986233652e-08
+    },
+    {
+      "a": "vertical slat.013",
+      "b": "door rail.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "vertical slat.014",
+      "b": "door rail",
+      "method": "surface distance",
+      "distance": 1.4901161193847656e-08
+    },
+    {
+      "a": "vertical slat.014",
+      "b": "door rail.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "vertical slat.015",
+      "b": "door rail",
+      "method": "surface distance",
+      "distance": 1.4901161193847656e-08
+    },
+    {
+      "a": "vertical slat.015",
+      "b": "door rail.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "vertical slat.016",
+      "b": "door rail",
+      "method": "surface distance",
+      "distance": 1.4901161193847656e-08
+    },
+    {
+      "a": "vertical slat.016",
+      "b": "door rail.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pull mounting plate",
+      "b": "vertical slat.014",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pull mounting standoff",
+      "b": "vertical slat.014",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pull mounting standoff",
+      "b": "pull",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pull mounting standoff",
+      "b": "pull mounting plate",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pull mounting standoff.001",
+      "b": "vertical slat.014",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pull mounting standoff.001",
+      "b": "pull",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pull mounting standoff.001",
+      "b": "pull mounting plate",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "door hinge mounting stile",
+      "b": "side",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "door hinge mounting stile",
+      "b": "door stile",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "door hinge pin",
+      "b": "door stile",
+      "method": "surface distance",
+      "distance": 0.003339707851409912
+    },
+    {
+      "a": "door hinge pin",
+      "b": "door hinge mounting stile",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "door hinge pin.001",
+      "b": "door stile",
+      "method": "surface distance",
+      "distance": 0.003339707851409912
+    },
+    {
+      "a": "door hinge pin.001",
+      "b": "door hinge mounting stile",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "door rail.002",
+      "b": "door stile.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "door rail.002",
+      "b": "door stile.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "door rail.003",
+      "b": "door stile.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "door rail.003",
+      "b": "door stile.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "vertical slat.017",
+      "b": "door rail.002",
+      "method": "surface distance",
+      "distance": 1.5359765015432458e-08
+    },
+    {
+      "a": "vertical slat.017",
+      "b": "door rail.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "vertical slat.018",
+      "b": "door rail.002",
+      "method": "surface distance",
+      "distance": 1.4901161193847656e-08
+    },
+    {
+      "a": "vertical slat.018",
+      "b": "door rail.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "vertical slat.019",
+      "b": "door rail.002",
+      "method": "surface distance",
+      "distance": 2.107342389479072e-08
+    },
+    {
+      "a": "vertical slat.019",
+      "b": "door rail.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "vertical slat.020",
+      "b": "door rail.002",
+      "method": "surface distance",
+      "distance": 2.107342389479072e-08
+    },
+    {
+      "a": "vertical slat.020",
+      "b": "door rail.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "vertical slat.021",
+      "b": "door rail.002",
+      "method": "surface distance",
+      "distance": 2.107342389479072e-08
+    },
+    {
+      "a": "vertical slat.021",
+      "b": "door rail.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "vertical slat.022",
+      "b": "door rail.002",
+      "method": "surface distance",
+      "distance": 1.4901161193847656e-08
+    },
+    {
+      "a": "vertical slat.022",
+      "b": "door rail.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "vertical slat.023",
+      "b": "door rail.002",
+      "method": "surface distance",
+      "distance": 1.4901161193847656e-08
+    },
+    {
+      "a": "vertical slat.023",
+      "b": "door rail.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "vertical slat.024",
+      "b": "door rail.002",
+      "method": "surface distance",
+      "distance": 3.332000986233652e-08
+    },
+    {
+      "a": "vertical slat.024",
+      "b": "door rail.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "vertical slat.025",
+      "b": "door rail.002",
+      "method": "surface distance",
+      "distance": 3.332000986233652e-08
+    },
+    {
+      "a": "vertical slat.025",
+      "b": "door rail.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "vertical slat.026",
+      "b": "door rail.002",
+      "method": "surface distance",
+      "distance": 4.470348358154297e-08
+    },
+    {
+      "a": "vertical slat.026",
+      "b": "door rail.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "vertical slat.027",
+      "b": "door rail.002",
+      "method": "surface distance",
+      "distance": 1.4901161193847656e-08
+    },
+    {
+      "a": "vertical slat.027",
+      "b": "door rail.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "vertical slat.028",
+      "b": "door rail.002",
+      "method": "surface distance",
+      "distance": 1.4901161193847656e-08
+    },
+    {
+      "a": "vertical slat.028",
+      "b": "door rail.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "vertical slat.029",
+      "b": "door rail.002",
+      "method": "surface distance",
+      "distance": 1.4901161193847656e-08
+    },
+    {
+      "a": "vertical slat.029",
+      "b": "door rail.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "vertical slat.030",
+      "b": "door rail.002",
+      "method": "surface distance",
+      "distance": 1.4901161193847656e-08
+    },
+    {
+      "a": "vertical slat.030",
+      "b": "door rail.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "vertical slat.031",
+      "b": "door rail.002",
+      "method": "surface distance",
+      "distance": 1.4901161193847656e-08
+    },
+    {
+      "a": "vertical slat.031",
+      "b": "door rail.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "vertical slat.032",
+      "b": "door rail.002",
+      "method": "surface distance",
+      "distance": 1.4901161193847656e-08
+    },
+    {
+      "a": "vertical slat.032",
+      "b": "door rail.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "vertical slat.033",
+      "b": "door rail.002",
+      "method": "surface distance",
+      "distance": 1.4901161193847656e-08
+    },
+    {
+      "a": "vertical slat.033",
+      "b": "door rail.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pull mounting plate.001",
+      "b": "vertical slat.031",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pull mounting standoff.002",
+      "b": "vertical slat.031",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pull mounting standoff.002",
+      "b": "pull.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pull mounting standoff.002",
+      "b": "pull mounting plate.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pull mounting standoff.003",
+      "b": "vertical slat.031",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pull mounting standoff.003",
+      "b": "pull.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pull mounting standoff.003",
+      "b": "pull mounting plate.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "door hinge mounting stile.001",
+      "b": "door stile.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "door hinge pin.002",
+      "b": "door stile.002",
+      "method": "surface distance",
+      "distance": 0.0033397451043128967
+    },
+    {
+      "a": "door hinge pin.002",
+      "b": "door hinge mounting stile.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "door hinge pin.003",
+      "b": "door stile.002",
+      "method": "surface distance",
+      "distance": 0.0033397451043128967
+    },
+    {
+      "a": "door hinge pin.003",
+      "b": "door hinge mounting stile.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "interior shelf",
+      "b": "side",
+      "method": "surface distance",
+      "distance": 0.003999948501586914
+    },
+    {
+      "a": "interior shelf",
+      "b": "side.001",
+      "method": "surface distance",
+      "distance": 0.003999948501586914
+    },
+    {
+      "a": "interior shelf",
+      "b": "back",
+      "method": "surface distance",
+      "distance": 0.0020000338554382324
+    },
+    {
+      "a": "interior shelf",
+      "b": "door hinge mounting stile",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "interior shelf",
+      "b": "door hinge mounting stile.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "interior shelf.001",
+      "b": "side",
+      "method": "surface distance",
+      "distance": 0.003999948501586914
+    },
+    {
+      "a": "interior shelf.001",
+      "b": "side.001",
+      "method": "surface distance",
+      "distance": 0.003999948501586914
+    },
+    {
+      "a": "interior shelf.001",
+      "b": "back",
+      "method": "surface distance",
+      "distance": 0.0020000338554382324
+    },
+    {
+      "a": "interior shelf.001",
+      "b": "door hinge mounting stile",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "inner desk",
+      "b": "side",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "inner desk",
+      "b": "side.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "inner desk",
+      "b": "back",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "inner desk",
+      "b": "interior shelf.001",
+      "method": "triangle intersection",
+      "distance": 0
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; live-source reports are NOT exported-asset evidence; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T03:19:26Z"
+}

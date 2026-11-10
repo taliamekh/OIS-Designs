@@ -1,0 +1,57 @@
+{
+  "id": "ois.design.wall-carrier-toilet",
+  "sha256": "d29aa667453ab60664f49d07ca5b5e8ef12790684de56cd3fbcd67a2d4fd14e6",
+  "sourceModel": "sources/v0.5.0/wall-carrier-toilet.blend",
+  "sourceSha256": "ad644f583d0f983100e3b323a3be1b41d55a5de9a75b6ed319214ddf094c7e99",
+  "partCount": 4,
+  "componentCount": 1,
+  "components": [
+    {
+      "parts": [
+        "toilet pedestal",
+        "hollow bowl",
+        "seat rim",
+        "wall carrier"
+      ],
+      "minimum": [
+        -0.24899999797344208,
+        -0.3199999928474426,
+        0.0
+      ],
+      "maximum": [
+        0.24899999797344208,
+        0.343999981880188,
+        0.5199999809265137
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "hollow bowl",
+      "b": "toilet pedestal",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "seat rim",
+      "b": "hollow bowl",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "wall carrier",
+      "b": "hollow bowl",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "wall carrier",
+      "b": "seat rim",
+      "method": "triangle intersection",
+      "distance": 0
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T03:07:35Z"
+}

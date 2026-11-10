@@ -1,0 +1,163 @@
+{
+  "designId": "ois.design.bead-maze-cube",
+  "familyId": "ois.family.bead-maze-cube",
+  "id": "ois.design.bead-maze-cube",
+  "name": "Bead maze activity cube",
+  "roomTags": [
+    "children"
+  ],
+  "theme": "calm-oak",
+  "builder": "special",
+  "parameters": {
+    "form": "activity-cube",
+    "w": 0.45,
+    "d": 0.45,
+    "h": 0.57
+  },
+  "distinction": "Three curved wires and nine beads rise above a broad activity block.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted"
+  },
+  "constructionKey": "special|activity-cube|{\"cols\": 1, \"front\": \"cane\", \"panels\": 3}",
+  "sha256": "dcab8b06b22a34d44d9cb538109e367aebd05953f32c2bf8cf68589179825620",
+  "bytes": 155508,
+  "triangles": 6128,
+  "vertices": 3757,
+  "drawPrimitives": 3,
+  "bounds": {
+    "min": [
+      -0.22499999403953552,
+      0.0,
+      -0.22499999403953552
+    ],
+    "max": [
+      0.22499999403953552,
+      0.6860000085477296,
+      0.22499999403953552
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 0.44999998807907104,
+    "depth": 0.44999998807907104,
+    "height": 0.6860000085477296
+  },
+  "footprint": [
+    [
+      -0.22499999403953552,
+      -0.22499999403953552
+    ],
+    [
+      0.22499999403953552,
+      -0.22499999403953552
+    ],
+    [
+      0.22499999403953552,
+      0.22499999403953552
+    ],
+    [
+      -0.22499999403953552,
+      0.22499999403953552
+    ]
+  ],
+  "variantSlots": [
+    "accent",
+    "metal",
+    "wood"
+  ],
+  "requiredExtensions": [],
+  "version": "0.2.0",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.bead-maze-cube",
+  "file": "assets/v0.2.0/bead-maze-cube.glb",
+  "sourceModel": "sources/v0.2.0/bead-maze-cube.blend",
+  "thumbnail": "previews/v0.2.0/bead-maze-cube.png",
+  "backThumbnail": "previews/v0.2.0/bead-maze-cube-back.png",
+  "category": "specialty",
+  "subtype": "activity-cube",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "textures": {
+    "count": 0,
+    "bytes": 0
+  },
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.2.0/bead-maze-cube.png",
+      "previews/v0.2.0/bead-maze-cube-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.58,
+      0.39,
+      0.2
+    ],
+    [
+      0.73,
+      0.7,
+      0.61
+    ],
+    [
+      0.12,
+      0.14,
+      0.13
+    ]
+  ],
+  "colourTags": [
+    "pale oak",
+    "ivory",
+    "oatmeal"
+  ],
+  "materials": [
+    "metal",
+    "paint",
+    "wood"
+  ],
+  "searchAliases": [
+    "children",
+    "activity cube"
+  ],
+  "materialSlots": [
+    {
+      "id": "accent",
+      "material": "accent",
+      "recolourable": true
+    },
+    {
+      "id": "metal",
+      "material": "metal",
+      "recolourable": true
+    },
+    {
+      "id": "wood",
+      "material": "wood",
+      "recolourable": true
+    }
+  ],
+  "geometryHash": "4dd4a2eaf09297f43964c9d1605abe2819548ba32c86cd0df0aa07055b1acc7c",
+  "normalizedMirrorGeometryHash": "167b6ddb97bfa09dc46c52a9a7b1c9f93eb1fda92fc5897d4cbaa2b6d08f5b28"
+}

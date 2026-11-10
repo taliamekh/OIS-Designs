@@ -1,0 +1,44 @@
+{
+  "id": "ois.design.rect-sled-dining",
+  "sha256": "fe0aa17c29fcf493377f41355989a3a0665e4c240a7aba8073dea9d71c911910",
+  "sourceModel": "sources/v0.7.0/rect-sled-dining.blend",
+  "sourceSha256": "317c64be9e72523a9e96a262f4ce68696529a588ad1ca5170c28bd9babfc7180",
+  "partCount": 3,
+  "componentCount": 1,
+  "components": [
+    {
+      "parts": [
+        "top",
+        "sled frame",
+        "sled frame.001"
+      ],
+      "minimum": [
+        -0.824999988079071,
+        -0.4399999976158142,
+        0.0
+      ],
+      "maximum": [
+        0.824999988079071,
+        0.4399999976158142,
+        0.7413952946662903
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "sled frame",
+      "b": "top",
+      "method": "surface distance",
+      "distance": 5.960464477539063e-08
+    },
+    {
+      "a": "sled frame.001",
+      "b": "top",
+      "method": "surface distance",
+      "distance": 8.429369557916289e-08
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; live-source reports are NOT exported-asset evidence; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T03:51:57Z"
+}

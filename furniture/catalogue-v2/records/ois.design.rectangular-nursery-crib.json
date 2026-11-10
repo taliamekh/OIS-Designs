@@ -1,0 +1,157 @@
+{
+  "designId": "ois.design.rectangular-nursery-crib",
+  "familyId": "ois.family.rectangular-nursery-crib",
+  "id": "ois.design.rectangular-nursery-crib",
+  "name": "Rectangular nursery crib",
+  "roomTags": [
+    "children"
+  ],
+  "theme": "calm-oak",
+  "builder": "special",
+  "parameters": {
+    "form": "crib",
+    "w": 1.4,
+    "d": 0.76,
+    "h": 0.95
+  },
+  "distinction": "Four-sided open spindle enclosure with elevated mattress.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted",
+    "sourceSnapshot": "sources/pipeline-e797cb5c88af56f5.py",
+    "sourceSha256": "e797cb5c88af56f5b4455d819a512ab9be55f40e1fa2d0cb542aca7bb84b906f",
+    "parametersFile": "sources/v0.2.1/rectangular-nursery-crib.parameters.json"
+  },
+  "constructionKey": "special|rectangular-spindle-enclosure|{\"cols\": 1, \"front\": \"cane\", \"panels\": 3}",
+  "sha256": "60b2e2fadb2c95ead630779b1fe320d4c7213f7268cadf775ba0892400670906",
+  "bytes": 204936,
+  "triangles": 4436,
+  "vertices": 5495,
+  "drawPrimitives": 2,
+  "bounds": {
+    "min": [
+      -0.7239999771118164,
+      0.0,
+      -0.40400001406669617
+    ],
+    "max": [
+      0.7239999771118164,
+      0.9740000367164612,
+      0.40400001406669617
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 1.4479999542236328,
+    "depth": 0.8080000281333923,
+    "height": 0.9740000367164612
+  },
+  "footprint": [
+    [
+      -0.7239999771118164,
+      -0.40400001406669617
+    ],
+    [
+      0.7239999771118164,
+      -0.40400001406669617
+    ],
+    [
+      0.7239999771118164,
+      0.40400001406669617
+    ],
+    [
+      -0.7239999771118164,
+      0.40400001406669617
+    ]
+  ],
+  "variantSlots": [
+    "linen",
+    "wood"
+  ],
+  "requiredExtensions": [],
+  "version": "0.2.1",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.rectangular-nursery-crib",
+  "file": "assets/v0.2.1/rectangular-nursery-crib.glb",
+  "sourceModel": "sources/v0.2.1/rectangular-nursery-crib.blend",
+  "thumbnail": "previews/v0.2.1/rectangular-nursery-crib.png",
+  "backThumbnail": "previews/v0.2.1/rectangular-nursery-crib-back.png",
+  "category": "specialty",
+  "subtype": "crib",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "textures": {
+    "count": 0,
+    "bytes": 0
+  },
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.2.1/rectangular-nursery-crib.png",
+      "previews/v0.2.1/rectangular-nursery-crib-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.58,
+      0.39,
+      0.2
+    ],
+    [
+      0.73,
+      0.7,
+      0.61
+    ],
+    [
+      0.12,
+      0.14,
+      0.13
+    ]
+  ],
+  "colourTags": [
+    "pale oak",
+    "ivory",
+    "oatmeal"
+  ],
+  "materials": [
+    "textile",
+    "wood"
+  ],
+  "searchAliases": [
+    "children",
+    "crib"
+  ],
+  "materialSlots": [
+    {
+      "id": "linen",
+      "material": "linen",
+      "recolourable": true
+    },
+    {
+      "id": "wood",
+      "material": "wood",
+      "recolourable": true
+    }
+  ]
+}

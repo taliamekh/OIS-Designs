@@ -1,0 +1,163 @@
+{
+  "designId": "ois.design.bar-service-trolley",
+  "familyId": "ois.family.bar-service-trolley",
+  "id": "ois.design.bar-service-trolley",
+  "name": "Bar service trolley",
+  "roomTags": [
+    "dining"
+  ],
+  "theme": "walnut-form",
+  "builder": "table",
+  "parameters": {
+    "form": "trolley",
+    "w": 0.8,
+    "d": 0.42,
+    "h": 0.78,
+    "shape": "rect"
+  },
+  "distinction": "Two rolling trays, four casters and raised push handle.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted"
+  },
+  "sha256": "0ad5423e6f4c47566a09e2b5933cd7e49108a16cc3920bf53e71bd07360d9f65",
+  "bytes": 79068,
+  "triangles": 2668,
+  "vertices": 1892,
+  "drawPrimitives": 3,
+  "bounds": {
+    "min": [
+      -0.41499999165534973,
+      0.0,
+      -0.20999999344348907
+    ],
+    "max": [
+      0.4000000059604645,
+      0.943804144859314,
+      0.20999999344348907
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 0.8149999976158142,
+    "depth": 0.41999998688697815,
+    "height": 0.943804144859314
+  },
+  "footprint": [
+    [
+      -0.41499999165534973,
+      -0.20999999344348907
+    ],
+    [
+      0.4000000059604645,
+      -0.20999999344348907
+    ],
+    [
+      0.4000000059604645,
+      0.20999999344348907
+    ],
+    [
+      -0.41499999165534973,
+      0.20999999344348907
+    ]
+  ],
+  "variantSlots": [
+    "dark",
+    "metal",
+    "wood"
+  ],
+  "requiredExtensions": [],
+  "version": "0.2.0",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.bar-service-trolley",
+  "file": "assets/v0.2.0/bar-service-trolley.glb",
+  "sourceModel": "sources/v0.2.0/bar-service-trolley.blend",
+  "thumbnail": "previews/v0.2.0/bar-service-trolley.png",
+  "backThumbnail": "previews/v0.2.0/bar-service-trolley-back.png",
+  "category": "tables",
+  "subtype": "trolley",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "textures": {
+    "count": 0,
+    "bytes": 0
+  },
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.2.0/bar-service-trolley.png",
+      "previews/v0.2.0/bar-service-trolley-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.22,
+      0.09,
+      0.038
+    ],
+    [
+      0.39,
+      0.18,
+      0.07
+    ],
+    [
+      0.47,
+      0.3,
+      0.1
+    ]
+  ],
+  "colourTags": [
+    "walnut",
+    "tobacco",
+    "brass"
+  ],
+  "materials": [
+    "metal",
+    "paint",
+    "wood"
+  ],
+  "searchAliases": [
+    "dining",
+    "trolley"
+  ],
+  "materialSlots": [
+    {
+      "id": "dark",
+      "material": "dark",
+      "recolourable": true
+    },
+    {
+      "id": "metal",
+      "material": "metal",
+      "recolourable": true
+    },
+    {
+      "id": "wood",
+      "material": "wood",
+      "recolourable": true
+    }
+  ],
+  "geometryHash": "27aba4145721a3b7db96ae9ec114636a1a3fcace12b2fe8d05b946a5ee963195",
+  "normalizedMirrorGeometryHash": "1270e4208c88029bd6f3f72b023d31ddf77eae700896d9c53de8c39ea841ba70"
+}

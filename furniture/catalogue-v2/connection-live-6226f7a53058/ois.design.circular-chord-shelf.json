@@ -1,0 +1,65 @@
+{
+  "id": "ois.design.circular-chord-shelf",
+  "sha256": "unexported-source-6226f7a5305865fd189dfcec35a3077205588e7999488a17cff703d94c6b1b9f",
+  "sourceModel": null,
+  "sourceSha256": "6226f7a5305865fd189dfcec35a3077205588e7999488a17cff703d94c6b1b9f",
+  "partCount": 6,
+  "componentCount": 1,
+  "components": [
+    {
+      "parts": [
+        "outer circular frame",
+        "chord shelf",
+        "chord shelf.001",
+        "chord shelf.002",
+        "panel leg",
+        "panel leg.001"
+      ],
+      "minimum": [
+        -0.6599999666213989,
+        -0.14000000059604645,
+        -0.03500000014901161
+      ],
+      "maximum": [
+        0.6600000262260437,
+        0.14000000059604645,
+        1.284999966621399
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "chord shelf",
+      "b": "outer circular frame",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "chord shelf.001",
+      "b": "outer circular frame",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "chord shelf.002",
+      "b": "outer circular frame",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "panel leg",
+      "b": "outer circular frame",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "panel leg.001",
+      "b": "outer circular frame",
+      "method": "triangle intersection",
+      "distance": 0
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; live-source reports are NOT exported-asset evidence; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T03:36:29Z"
+}

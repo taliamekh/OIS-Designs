@@ -1,0 +1,157 @@
+{
+  "designId": "ois.design.drop-leaf-family-table",
+  "familyId": "ois.family.drop-leaf-family-table",
+  "id": "ois.design.drop-leaf-family-table",
+  "name": "Drop-leaf family table",
+  "roomTags": [
+    "dining"
+  ],
+  "theme": "calm-oak",
+  "builder": "functional",
+  "parameters": {
+    "form": "drop-leaf",
+    "w": 1.65,
+    "d": 0.86,
+    "h": 0.75
+  },
+  "distinction": "Two visibly hinged downward leaves attach to a narrow supported centre.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted",
+    "sourceSnapshot": "sources/pipeline-e797cb5c88af56f5.py",
+    "sourceSha256": "e797cb5c88af56f5b4455d819a512ab9be55f40e1fa2d0cb542aca7bb84b906f",
+    "parametersFile": "sources/v0.2.1/drop-leaf-family-table.parameters.json"
+  },
+  "constructionKey": "functional|drop-leaf|{}",
+  "sha256": "24296d5a25b27d856b2b1849b8e0a3e373d8dade6bc3f7db0e2bfd354275cf07",
+  "bytes": 56496,
+  "triangles": 1060,
+  "vertices": 1487,
+  "drawPrimitives": 2,
+  "bounds": {
+    "min": [
+      -0.8246175050735474,
+      0.0,
+      -0.4300000071525574
+    ],
+    "max": [
+      0.8246175050735474,
+      0.8004115074872971,
+      0.4300000071525574
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 1.6492350101470947,
+    "depth": 0.8600000143051147,
+    "height": 0.8004115074872971
+  },
+  "footprint": [
+    [
+      -0.8246175050735474,
+      -0.4300000071525574
+    ],
+    [
+      0.8246175050735474,
+      -0.4300000071525574
+    ],
+    [
+      0.8246175050735474,
+      0.4300000071525574
+    ],
+    [
+      -0.8246175050735474,
+      0.4300000071525574
+    ]
+  ],
+  "variantSlots": [
+    "metal",
+    "wood"
+  ],
+  "requiredExtensions": [],
+  "version": "0.2.1",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.drop-leaf-family-table",
+  "file": "assets/v0.2.1/drop-leaf-family-table.glb",
+  "sourceModel": "sources/v0.2.1/drop-leaf-family-table.blend",
+  "thumbnail": "previews/v0.2.1/drop-leaf-family-table.png",
+  "backThumbnail": "previews/v0.2.1/drop-leaf-family-table-back.png",
+  "category": "functional-furniture",
+  "subtype": "drop-leaf",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "textures": {
+    "count": 0,
+    "bytes": 0
+  },
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.2.1/drop-leaf-family-table.png",
+      "previews/v0.2.1/drop-leaf-family-table-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.58,
+      0.39,
+      0.2
+    ],
+    [
+      0.73,
+      0.7,
+      0.61
+    ],
+    [
+      0.12,
+      0.14,
+      0.13
+    ]
+  ],
+  "colourTags": [
+    "pale oak",
+    "ivory",
+    "oatmeal"
+  ],
+  "materials": [
+    "metal",
+    "wood"
+  ],
+  "searchAliases": [
+    "dining",
+    "drop leaf"
+  ],
+  "materialSlots": [
+    {
+      "id": "metal",
+      "material": "metal",
+      "recolourable": true
+    },
+    {
+      "id": "wood",
+      "material": "wood",
+      "recolourable": true
+    }
+  ]
+}

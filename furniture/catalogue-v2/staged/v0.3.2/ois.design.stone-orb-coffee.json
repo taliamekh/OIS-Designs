@@ -1,0 +1,164 @@
+{
+  "designId": "ois.design.stone-orb-coffee",
+  "familyId": "ois.family.stone-orb-coffee",
+  "id": "ois.design.stone-orb-coffee",
+  "name": "Stone orb coffee table",
+  "roomTags": [
+    "living"
+  ],
+  "theme": "soft-japandi",
+  "builder": "sculptural",
+  "parameters": {
+    "form": "sphere-base-table",
+    "w": 0.9,
+    "d": 0.8,
+    "h": 0.39
+  },
+  "distinction": "A broad sculptural stone ellipsoid supports the stone top.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted",
+    "sourceSnapshot": "sources/pipeline-55642edf77b9875f.py",
+    "sourceSha256": "55642edf77b9875ff9620f3041b9999cee7807ac9d8ce9f01f78fdfc4bbc513f",
+    "parametersFile": "sources/v0.3.2/stone-orb-coffee.parameters.json"
+  },
+  "constructionKey": "sculptural|sphere-base-table|{}",
+  "sha256": "206a4f7a534baebc47c8f6d509ac50b4200f1e986f392971979c95ab84b1fde1",
+  "bytes": 30660,
+  "triangles": 716,
+  "vertices": 517,
+  "drawPrimitives": 1,
+  "bounds": {
+    "min": [
+      -0.44999998807907104,
+      -2.9802322387695312e-08,
+      -0.4000000059604645
+    ],
+    "max": [
+      0.44999998807907104,
+      0.3900000099092722,
+      0.4000000059604645
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 0.8999999761581421,
+    "depth": 0.800000011920929,
+    "height": 0.3900000397115946
+  },
+  "footprint": [
+    [
+      -0.44999998807907104,
+      -0.4000000059604645
+    ],
+    [
+      0.44999998807907104,
+      -0.4000000059604645
+    ],
+    [
+      0.44999998807907104,
+      0.4000000059604645
+    ],
+    [
+      -0.44999998807907104,
+      0.4000000059604645
+    ]
+  ],
+  "variantSlots": [
+    "stone"
+  ],
+  "requiredExtensions": [],
+  "textures": {
+    "count": 0,
+    "bytes": 0,
+    "estimatedRgbaBytesWithMipmaps": 0,
+    "images": []
+  },
+  "version": "0.3.2",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.stone-orb-coffee",
+  "file": "assets/v0.3.2/stone-orb-coffee.glb",
+  "sourceModel": "sources/v0.3.2/stone-orb-coffee.blend",
+  "thumbnail": "previews/v0.3.2/stone-orb-coffee.png",
+  "backThumbnail": "previews/v0.3.2/stone-orb-coffee-back.png",
+  "category": "sculptural-furniture",
+  "subtype": "sphere-base-table",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.3.2/stone-orb-coffee.png",
+      "previews/v0.3.2/stone-orb-coffee-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.4699999988079071,
+      0.47999998927116394,
+      0.4399999976158142
+    ]
+  ],
+  "colourTags": [
+    "warm grey"
+  ],
+  "materials": [
+    "stone"
+  ],
+  "searchAliases": [
+    "living",
+    "sphere base table"
+  ],
+  "materialSlots": [
+    {
+      "id": "stone",
+      "material": "stone",
+      "recolourable": true
+    }
+  ],
+  "supportChecks": {
+    "method": "source-part upper-end ray to non-leg geometry, 15mm join tolerance",
+    "status": "pass",
+    "parts": [],
+    "limitation": "screening only; hidden joints, whole-model connectivity, load paths and safety remain visual/product-review concerns"
+  },
+  "materialFinish": {
+    "source": "materials/v1/manifest.json",
+    "repeatMetres": {
+      "wood": [
+        0.16,
+        0.75
+      ],
+      "fabric": [
+        0.14,
+        0.14
+      ],
+      "linen": [
+        0.12,
+        0.12
+      ]
+    },
+    "maps": "original base colour / roughness / tangent normal, embedded in GLB"
+  }
+}

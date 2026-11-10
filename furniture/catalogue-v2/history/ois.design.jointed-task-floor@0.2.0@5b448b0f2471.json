@@ -1,0 +1,145 @@
+{
+  "designId": "ois.design.jointed-task-floor",
+  "familyId": "ois.family.jointed-task-floor",
+  "id": "ois.design.jointed-task-floor",
+  "name": "Jointed task floor lamp",
+  "roomTags": [
+    "living"
+  ],
+  "theme": "city-loft",
+  "builder": "light",
+  "parameters": {
+    "form": "task",
+    "h": 1.5
+  },
+  "distinction": "Three-segment articulated arm offsets a compact task shade.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted"
+  },
+  "constructionKey": "light|task|{}",
+  "sha256": "5b448b0f247168251668acbcb76fd6b1acdcc827356ade62dfd96ddc64f34127",
+  "bytes": 15912,
+  "triangles": 504,
+  "vertices": 362,
+  "drawPrimitives": 1,
+  "bounds": {
+    "min": [
+      -0.1899999976158142,
+      0.0,
+      -0.1899999976158142
+    ],
+    "max": [
+      0.6791592240333557,
+      1.5102804880589247,
+      0.1899999976158142
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 0.8691592216491699,
+    "depth": 0.3799999952316284,
+    "height": 1.5102804880589247
+  },
+  "footprint": [
+    [
+      -0.1899999976158142,
+      -0.1899999976158142
+    ],
+    [
+      0.6791592240333557,
+      -0.1899999976158142
+    ],
+    [
+      0.6791592240333557,
+      0.1899999976158142
+    ],
+    [
+      -0.1899999976158142,
+      0.1899999976158142
+    ]
+  ],
+  "variantSlots": [
+    "metal"
+  ],
+  "requiredExtensions": [],
+  "version": "0.2.0",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.jointed-task-floor",
+  "file": "assets/v0.2.0/jointed-task-floor.glb",
+  "sourceModel": "sources/v0.2.0/jointed-task-floor.blend",
+  "thumbnail": "previews/v0.2.0/jointed-task-floor.png",
+  "backThumbnail": "previews/v0.2.0/jointed-task-floor-back.png",
+  "category": "lighting",
+  "subtype": "task",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "textures": {
+    "count": 0,
+    "bytes": 0
+  },
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.2.0/jointed-task-floor.png",
+      "previews/v0.2.0/jointed-task-floor-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.23,
+      0.15,
+      0.09
+    ],
+    [
+      0.12,
+      0.14,
+      0.16
+    ],
+    [
+      0.045,
+      0.05,
+      0.055
+    ]
+  ],
+  "colourTags": [
+    "charcoal",
+    "black",
+    "weathered wood"
+  ],
+  "materials": [
+    "metal"
+  ],
+  "searchAliases": [
+    "living",
+    "task"
+  ],
+  "materialSlots": [
+    {
+      "id": "metal",
+      "material": "metal",
+      "recolourable": true
+    }
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "designId": "ois.design.woven-linen-basket",
+  "familyId": "ois.family.woven-linen-basket",
+  "id": "ois.design.woven-linen-basket",
+  "name": "Woven linen basket",
+  "roomTags": [
+    "bedroom"
+  ],
+  "theme": "coastal-linen",
+  "builder": "special",
+  "parameters": {
+    "form": "woven-basket",
+    "w": 0.48,
+    "d": 0.36,
+    "h": 0.54
+  },
+  "distinction": "Open oval wicker staves and horizontal woven bands.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted",
+    "sourceSnapshot": "sources/pipeline-e797cb5c88af56f5.py",
+    "sourceSha256": "e797cb5c88af56f5b4455d819a512ab9be55f40e1fa2d0cb542aca7bb84b906f",
+    "parametersFile": "sources/v0.2.1/woven-linen-basket.parameters.json"
+  },
+  "constructionKey": "special|woven-basket|{\"cols\": 1, \"front\": \"cane\", \"panels\": 3}",
+  "sha256": "2cd2b942f72293534eb7eb9feb99b0c9a641042128f15cb7c3e30890bd19d114",
+  "bytes": 265588,
+  "triangles": 11064,
+  "vertices": 6180,
+  "drawPrimitives": 1,
+  "bounds": {
+    "min": [
+      -0.24250000715255737,
+      0.0,
+      -0.19500000774860382
+    ],
+    "max": [
+      0.24250000715255737,
+      0.5500000072643161,
+      0.19500000774860382
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 0.48500001430511475,
+    "depth": 0.39000001549720764,
+    "height": 0.5500000072643161
+  },
+  "footprint": [
+    [
+      -0.24250000715255737,
+      -0.19500000774860382
+    ],
+    [
+      0.24250000715255737,
+      -0.19500000774860382
+    ],
+    [
+      0.24250000715255737,
+      0.19500000774860382
+    ],
+    [
+      -0.24250000715255737,
+      0.19500000774860382
+    ]
+  ],
+  "variantSlots": [
+    "cane"
+  ],
+  "requiredExtensions": [],
+  "version": "0.2.1",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.woven-linen-basket",
+  "file": "assets/v0.2.1/woven-linen-basket.glb",
+  "sourceModel": "sources/v0.2.1/woven-linen-basket.blend",
+  "thumbnail": "previews/v0.2.1/woven-linen-basket.png",
+  "backThumbnail": "previews/v0.2.1/woven-linen-basket-back.png",
+  "category": "specialty",
+  "subtype": "woven-basket",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "textures": {
+    "count": 0,
+    "bytes": 0
+  },
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.2.1/woven-linen-basket.png",
+      "previews/v0.2.1/woven-linen-basket-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.66,
+      0.53,
+      0.34
+    ],
+    [
+      0.36,
+      0.53,
+      0.58
+    ],
+    [
+      0.64,
+      0.6,
+      0.48
+    ]
+  ],
+  "colourTags": [
+    "mist blue",
+    "sand",
+    "pale oak"
+  ],
+  "materials": [
+    "woven-fibre"
+  ],
+  "searchAliases": [
+    "bedroom",
+    "woven basket"
+  ],
+  "materialSlots": [
+    {
+      "id": "cane",
+      "material": "cane",
+      "recolourable": true
+    }
+  ]
+}

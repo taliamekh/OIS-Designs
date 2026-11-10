@@ -1,0 +1,37 @@
+{
+  "id": "ois.design.round-cone-dining",
+  "sha256": "3b90ba27f79c0b4127bd65a79ace8dd2589a7614b95073f4704e0de4c238e78c",
+  "sourceModel": "sources/v0.5.0/round-cone-dining.blend",
+  "sourceSha256": "314b572ed3efea6b2a77e2217774c2d1827b98dac088438086ea5032bbc6109a",
+  "partCount": 2,
+  "componentCount": 1,
+  "components": [
+    {
+      "parts": [
+        "top",
+        "conical pedestal"
+      ],
+      "minimum": [
+        -0.5899999737739563,
+        -0.5899999737739563,
+        0.0
+      ],
+      "maximum": [
+        0.5899999737739563,
+        0.5899999737739563,
+        0.75
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "conical pedestal",
+      "b": "top",
+      "method": "surface distance",
+      "distance": 8.940696716308594e-08
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T03:07:33Z"
+}

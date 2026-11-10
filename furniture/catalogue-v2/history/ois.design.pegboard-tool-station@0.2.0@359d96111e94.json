@@ -1,0 +1,161 @@
+{
+  "designId": "ois.design.pegboard-tool-station",
+  "familyId": "ois.family.pegboard-tool-station",
+  "id": "ois.design.pegboard-tool-station",
+  "name": "Pegboard tool station",
+  "roomTags": [
+    "laundry-utility"
+  ],
+  "theme": "city-loft",
+  "builder": "special",
+  "parameters": {
+    "form": "tool-pegboard",
+    "w": 1.2,
+    "d": 0.55,
+    "h": 1.7
+  },
+  "distinction": "Tall hole-pattern pegboard rises behind a braced work surface.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted"
+  },
+  "constructionKey": "special|tool-pegboard|{\"cols\": 1, \"front\": \"cane\", \"panels\": 3}",
+  "sha256": "359d96111e94d7b74f1c03ba4ada7942c5b5944c638302ab512af5fd9c6fb1ae",
+  "bytes": 136992,
+  "triangles": 3940,
+  "vertices": 3463,
+  "drawPrimitives": 3,
+  "bounds": {
+    "min": [
+      -0.6150000095367432,
+      0.0,
+      -0.2750000059604645
+    ],
+    "max": [
+      0.6000000238418579,
+      1.8700000047683716,
+      0.2750000059604645
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 1.215000033378601,
+    "depth": 0.550000011920929,
+    "height": 1.8700000047683716
+  },
+  "footprint": [
+    [
+      -0.6150000095367432,
+      -0.2750000059604645
+    ],
+    [
+      0.6000000238418579,
+      -0.2750000059604645
+    ],
+    [
+      0.6000000238418579,
+      0.2750000059604645
+    ],
+    [
+      -0.6150000095367432,
+      0.2750000059604645
+    ]
+  ],
+  "variantSlots": [
+    "dark",
+    "metal",
+    "wood"
+  ],
+  "requiredExtensions": [],
+  "version": "0.2.0",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.pegboard-tool-station",
+  "file": "assets/v0.2.0/pegboard-tool-station.glb",
+  "sourceModel": "sources/v0.2.0/pegboard-tool-station.blend",
+  "thumbnail": "previews/v0.2.0/pegboard-tool-station.png",
+  "backThumbnail": "previews/v0.2.0/pegboard-tool-station-back.png",
+  "category": "specialty",
+  "subtype": "tool-pegboard",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "textures": {
+    "count": 0,
+    "bytes": 0
+  },
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.2.0/pegboard-tool-station.png",
+      "previews/v0.2.0/pegboard-tool-station-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.23,
+      0.15,
+      0.09
+    ],
+    [
+      0.12,
+      0.14,
+      0.16
+    ],
+    [
+      0.045,
+      0.05,
+      0.055
+    ]
+  ],
+  "colourTags": [
+    "charcoal",
+    "black",
+    "weathered wood"
+  ],
+  "materials": [
+    "metal",
+    "paint",
+    "wood"
+  ],
+  "searchAliases": [
+    "laundry utility",
+    "tool pegboard"
+  ],
+  "materialSlots": [
+    {
+      "id": "dark",
+      "material": "dark",
+      "recolourable": true
+    },
+    {
+      "id": "metal",
+      "material": "metal",
+      "recolourable": true
+    },
+    {
+      "id": "wood",
+      "material": "wood",
+      "recolourable": true
+    }
+  ]
+}

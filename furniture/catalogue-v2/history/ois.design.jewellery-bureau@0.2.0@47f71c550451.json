@@ -1,0 +1,157 @@
+{
+  "designId": "ois.design.jewellery-bureau",
+  "familyId": "ois.family.jewellery-bureau",
+  "id": "ois.design.jewellery-bureau",
+  "name": "Jewellery bureau",
+  "roomTags": [
+    "bedroom"
+  ],
+  "theme": "walnut-form",
+  "builder": "case",
+  "parameters": {
+    "form": "drawers",
+    "front": "slab",
+    "rows": 6,
+    "cols": 3,
+    "w": 0.9,
+    "h": 1.04
+  },
+  "distinction": "Eighteen small drawers for jewellery, rather than enlarged clothing drawers.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted"
+  },
+  "sha256": "47f71c5504515f7b684fc6b06423e64df780f85ef428fd7f2b62b43b6bc65281",
+  "bytes": 266432,
+  "triangles": 5644,
+  "vertices": 7188,
+  "drawPrimitives": 2,
+  "bounds": {
+    "min": [
+      -0.45000006236086176,
+      -1.2081386502327263e-08,
+      -0.25600000005215406
+    ],
+    "max": [
+      0.45000002596561184,
+      1.031671166421443,
+      0.20000002808234532
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 0.9000000883264736,
+    "depth": 0.45600002813449936,
+    "height": 1.0316711785028296
+  },
+  "footprint": [
+    [
+      -0.45000006236086176,
+      -0.25600000005215406
+    ],
+    [
+      0.45000002596561184,
+      -0.25600000005215406
+    ],
+    [
+      0.45000002596561184,
+      0.20000002808234532
+    ],
+    [
+      -0.45000006236086176,
+      0.20000002808234532
+    ]
+  ],
+  "variantSlots": [
+    "metal",
+    "wood"
+  ],
+  "requiredExtensions": [],
+  "version": "0.2.0",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.jewellery-bureau",
+  "file": "assets/v0.2.0/jewellery-bureau.glb",
+  "sourceModel": "sources/v0.2.0/jewellery-bureau.blend",
+  "thumbnail": "previews/v0.2.0/jewellery-bureau.png",
+  "backThumbnail": "previews/v0.2.0/jewellery-bureau-back.png",
+  "category": "storage",
+  "subtype": "drawers",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "textures": {
+    "count": 0,
+    "bytes": 0
+  },
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.2.0/jewellery-bureau.png",
+      "previews/v0.2.0/jewellery-bureau-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.22,
+      0.09,
+      0.038
+    ],
+    [
+      0.39,
+      0.18,
+      0.07
+    ],
+    [
+      0.47,
+      0.3,
+      0.1
+    ]
+  ],
+  "colourTags": [
+    "walnut",
+    "tobacco",
+    "brass"
+  ],
+  "materials": [
+    "metal",
+    "wood"
+  ],
+  "searchAliases": [
+    "bedroom",
+    "drawers"
+  ],
+  "materialSlots": [
+    {
+      "id": "metal",
+      "material": "metal",
+      "recolourable": true
+    },
+    {
+      "id": "wood",
+      "material": "wood",
+      "recolourable": true
+    }
+  ],
+  "geometryHash": "afba620198c414bfc4e5e517af71e05d07897c091f85351e0a3508fa2acf04a5",
+  "normalizedMirrorGeometryHash": "4dfc3aa416bb54473755fae2f35cf77ff30d6cfc5546520bd85fab3605f3cf67"
+}

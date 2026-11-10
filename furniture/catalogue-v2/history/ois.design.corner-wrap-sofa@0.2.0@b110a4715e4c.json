@@ -1,0 +1,167 @@
+{
+  "designId": "ois.design.corner-wrap-sofa",
+  "familyId": "ois.family.corner-wrap-sofa",
+  "id": "ois.design.corner-wrap-sofa",
+  "name": "Corner wrap sectional",
+  "roomTags": [
+    "living"
+  ],
+  "theme": "city-loft",
+  "builder": "seating",
+  "parameters": {
+    "form": "corner-sectional",
+    "w": 2.3,
+    "base": "sled"
+  },
+  "distinction": "L-plan chaise with a full return back, not a mirrored straight sofa.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted"
+  },
+  "sha256": "b110a4715e4c3e40140a26c2d7ce7b705791b2ebeba9edddce109d3a57afcc41",
+  "bytes": 163568,
+  "triangles": 3248,
+  "vertices": 4381,
+  "drawPrimitives": 4,
+  "bounds": {
+    "min": [
+      -1.1500000953674316,
+      0.0,
+      -1.1170000359416008
+    ],
+    "max": [
+      1.1950000524520874,
+      0.9200000017881393,
+      0.421999990940094
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 2.345000147819519,
+    "depth": 1.5390000268816948,
+    "height": 0.9200000017881393
+  },
+  "footprint": [
+    [
+      -1.1500000953674316,
+      -1.1170000359416008
+    ],
+    [
+      1.1950000524520874,
+      -1.1170000359416008
+    ],
+    [
+      1.1950000524520874,
+      0.421999990940094
+    ],
+    [
+      -1.1500000953674316,
+      0.421999990940094
+    ]
+  ],
+  "variantSlots": [
+    "fabric",
+    "linen",
+    "metal",
+    "wood"
+  ],
+  "requiredExtensions": [],
+  "version": "0.2.0",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.corner-wrap-sofa",
+  "file": "assets/v0.2.0/corner-wrap-sofa.glb",
+  "sourceModel": "sources/v0.2.0/corner-wrap-sofa.blend",
+  "thumbnail": "previews/v0.2.0/corner-wrap-sofa.png",
+  "backThumbnail": "previews/v0.2.0/corner-wrap-sofa-back.png",
+  "category": "seating",
+  "subtype": "corner-sectional",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "textures": {
+    "count": 0,
+    "bytes": 0
+  },
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.2.0/corner-wrap-sofa.png",
+      "previews/v0.2.0/corner-wrap-sofa-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.23,
+      0.15,
+      0.09
+    ],
+    [
+      0.12,
+      0.14,
+      0.16
+    ],
+    [
+      0.045,
+      0.05,
+      0.055
+    ]
+  ],
+  "colourTags": [
+    "charcoal",
+    "black",
+    "weathered wood"
+  ],
+  "materials": [
+    "metal",
+    "textile",
+    "wood"
+  ],
+  "searchAliases": [
+    "living",
+    "corner sectional"
+  ],
+  "materialSlots": [
+    {
+      "id": "fabric",
+      "material": "fabric",
+      "recolourable": true
+    },
+    {
+      "id": "linen",
+      "material": "linen",
+      "recolourable": true
+    },
+    {
+      "id": "metal",
+      "material": "metal",
+      "recolourable": true
+    },
+    {
+      "id": "wood",
+      "material": "wood",
+      "recolourable": true
+    }
+  ],
+  "geometryHash": "7c89813d4bc263b62831c0a94678f6f2239c7bed482fd74e7f10705e86d0dbec",
+  "normalizedMirrorGeometryHash": "3d2b171be293185cff7e4ca305de2aae5ef94ecc4772f6be2efe591eacd9d1b4"
+}

@@ -1,0 +1,147 @@
+{
+  "designId": "ois.design.wing-drying-rack",
+  "familyId": "ois.family.wing-drying-rack",
+  "id": "ois.design.wing-drying-rack",
+  "name": "Wing drying rack",
+  "roomTags": [
+    "laundry-utility"
+  ],
+  "theme": "calm-oak",
+  "builder": "special",
+  "parameters": {
+    "form": "drying-wings",
+    "w": 1.0,
+    "d": 0.56,
+    "h": 0.94
+  },
+  "distinction": "Main horizontal wires plus two raised folding wings.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted"
+  },
+  "constructionKey": "special|drying-wings|{\"cols\": 1, \"front\": \"cane\", \"panels\": 3}",
+  "sha256": "71a61c63fd2df2311b770fdcfbe0dccc24aa31c665ff9186a13f4171524be778",
+  "bytes": 65712,
+  "triangles": 1560,
+  "vertices": 1716,
+  "drawPrimitives": 1,
+  "bounds": {
+    "min": [
+      -0.8017888548569166,
+      -5.4775778357551985e-09,
+      -0.28400002871844043
+    ],
+    "max": [
+      0.8017889354253329,
+      1.1579553539377558,
+      0.28400005286764735
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 1.6035777902822494,
+    "depth": 0.5680000815860877,
+    "height": 1.1579553594153338
+  },
+  "footprint": [
+    [
+      -0.8017888548569166,
+      -0.28400002871844043
+    ],
+    [
+      0.8017889354253329,
+      -0.28400002871844043
+    ],
+    [
+      0.8017889354253329,
+      0.28400005286764735
+    ],
+    [
+      -0.8017888548569166,
+      0.28400005286764735
+    ]
+  ],
+  "variantSlots": [
+    "metal"
+  ],
+  "requiredExtensions": [],
+  "version": "0.2.0",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.wing-drying-rack",
+  "file": "assets/v0.2.0/wing-drying-rack.glb",
+  "sourceModel": "sources/v0.2.0/wing-drying-rack.blend",
+  "thumbnail": "previews/v0.2.0/wing-drying-rack.png",
+  "backThumbnail": "previews/v0.2.0/wing-drying-rack-back.png",
+  "category": "specialty",
+  "subtype": "drying-wings",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "textures": {
+    "count": 0,
+    "bytes": 0
+  },
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.2.0/wing-drying-rack.png",
+      "previews/v0.2.0/wing-drying-rack-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.58,
+      0.39,
+      0.2
+    ],
+    [
+      0.73,
+      0.7,
+      0.61
+    ],
+    [
+      0.12,
+      0.14,
+      0.13
+    ]
+  ],
+  "colourTags": [
+    "pale oak",
+    "ivory",
+    "oatmeal"
+  ],
+  "materials": [
+    "metal"
+  ],
+  "searchAliases": [
+    "laundry utility",
+    "drying wings"
+  ],
+  "materialSlots": [
+    {
+      "id": "metal",
+      "material": "metal",
+      "recolourable": true
+    }
+  ]
+}

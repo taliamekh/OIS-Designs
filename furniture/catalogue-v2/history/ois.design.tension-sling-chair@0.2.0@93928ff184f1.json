@@ -1,0 +1,159 @@
+{
+  "designId": "ois.design.tension-sling-chair",
+  "familyId": "ois.family.tension-sling-chair",
+  "id": "ois.design.tension-sling-chair",
+  "name": "Ash tension sling",
+  "roomTags": [
+    "living"
+  ],
+  "theme": "soft-japandi",
+  "builder": "seating",
+  "parameters": {
+    "form": "sling"
+  },
+  "distinction": "Tensioned rising fabric sling on exposed leaning frame.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted"
+  },
+  "sha256": "93928ff184f1d8c0fe713145736d4a8265c46575b1cffb76d546371025198b4b",
+  "bytes": 10820,
+  "triangles": 248,
+  "vertices": 212,
+  "drawPrimitives": 3,
+  "bounds": {
+    "min": [
+      -0.31099998764693737,
+      0.0,
+      -0.3199999928474426
+    ],
+    "max": [
+      0.3109999895095825,
+      0.9749711945710535,
+      0.3829151180171818
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 0.6219999771565199,
+    "depth": 0.7029151108646244,
+    "height": 0.9749711945710535
+  },
+  "footprint": [
+    [
+      -0.31099998764693737,
+      -0.3199999928474426
+    ],
+    [
+      0.3109999895095825,
+      -0.3199999928474426
+    ],
+    [
+      0.3109999895095825,
+      0.3829151180171818
+    ],
+    [
+      -0.31099998764693737,
+      0.3829151180171818
+    ]
+  ],
+  "variantSlots": [
+    "fabric",
+    "metal",
+    "wood"
+  ],
+  "requiredExtensions": [],
+  "version": "0.2.0",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.tension-sling-chair",
+  "file": "assets/v0.2.0/tension-sling-chair.glb",
+  "sourceModel": "sources/v0.2.0/tension-sling-chair.blend",
+  "thumbnail": "previews/v0.2.0/tension-sling-chair.png",
+  "backThumbnail": "previews/v0.2.0/tension-sling-chair-back.png",
+  "category": "seating",
+  "subtype": "sling",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "textures": {
+    "count": 0,
+    "bytes": 0
+  },
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.2.0/tension-sling-chair.png",
+      "previews/v0.2.0/tension-sling-chair-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.34,
+      0.28,
+      0.19
+    ],
+    [
+      0.58,
+      0.54,
+      0.44
+    ],
+    [
+      0.15,
+      0.17,
+      0.15
+    ]
+  ],
+  "colourTags": [
+    "ash",
+    "flax",
+    "stone"
+  ],
+  "materials": [
+    "metal",
+    "textile",
+    "wood"
+  ],
+  "searchAliases": [
+    "living",
+    "sling"
+  ],
+  "materialSlots": [
+    {
+      "id": "fabric",
+      "material": "fabric",
+      "recolourable": true
+    },
+    {
+      "id": "metal",
+      "material": "metal",
+      "recolourable": true
+    },
+    {
+      "id": "wood",
+      "material": "wood",
+      "recolourable": true
+    }
+  ],
+  "geometryHash": "c63fe665e561798bbfb6a0b63984663f04a5db9592eae74083cea7b37a8ae4e1",
+  "normalizedMirrorGeometryHash": "17cf503cbaf6a7b1f76b0e4fe13a7e08d227835b591f749dcfe0eb22420ff730"
+}

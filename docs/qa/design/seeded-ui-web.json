@@ -1,0 +1,173 @@
+{
+  "timestamp": "2026-11-10T02:25:49.803Z",
+  "evidence": "Isolated real Expo web UI seeded with validated QA projects; no production files or user browser/storage modified",
+  "runs": [
+    {
+      "name": "selected-wall-inspectors",
+      "checks": [
+        {
+          "id": "wall1-trim-hydrates",
+          "pass": true,
+          "observed": {
+            "height": "18",
+            "projection": "25",
+            "colour": "#abcdef"
+          }
+        },
+        {
+          "id": "wall2-trim-hydrates",
+          "pass": true,
+          "observed": {
+            "height": "7",
+            "projection": "8",
+            "colour": "#aabbcc"
+          }
+        },
+        {
+          "id": "wall-colour-hydrates-after-trim-wall-change",
+          "pass": true,
+          "observed": {
+            "expected": "#aaccbb",
+            "observed": "#aaccbb"
+          }
+        },
+        {
+          "id": "paint-one-shared-face-only",
+          "pass": true,
+          "observed": [
+            {
+              "name": "Living room",
+              "wallFaces": {
+                "wall:0,0:60000,0": {
+                  "colour": "#445566",
+                  "texture": "paint",
+                  "sheen": "satin"
+                },
+                "wall:60000,0:60000,50000": {
+                  "colour": "#123abc",
+                  "texture": "paint",
+                  "sheen": "matte"
+                }
+              }
+            },
+            {
+              "name": "Kitchen",
+              "wallFaces": {}
+            }
+          ]
+        },
+        {
+          "id": "whole-room-paint-stays-scoped",
+          "pass": true
+        }
+      ],
+      "trimScreenshot": "seeded-wall-trim.png",
+      "wallScreenshot": "seeded-one-wall-paint.png",
+      "completed": true
+    },
+    {
+      "name": "connected-room-walk",
+      "checks": [
+        {
+          "id": "walk-crosses-real-portal-and-tracks-room",
+          "pass": true,
+          "observed": {
+            "before": [
+              3,
+              1.6,
+              2.5
+            ],
+            "after": [
+              6.914999999999994,
+              1.6,
+              2.5
+            ],
+            "label": "Choose room, current Kitchen"
+          }
+        },
+        {
+          "id": "walk-hides-editor-actions",
+          "pass": true
+        },
+        {
+          "id": "walk-preserves-project-and-lock-bytes",
+          "pass": true
+        }
+      ],
+      "beforeCrossingScreenshot": "seeded-walk-living-floor.png",
+      "walkScreenshot": "seeded-walk-kitchen.png",
+      "completed": true
+    },
+    {
+      "name": "missing-revision-recovery",
+      "checks": [
+        {
+          "id": "missing-revision-visible-notice",
+          "pass": true,
+          "observed": "QA missing revision\nLiving room\n2D\n3D\nWalk\nFurnish\nSurfaces\nBuild\nFurniture ois.calm-oak.sofa (0.1.0) needs its saved model revision. Placement and lock state are preserved."
+        },
+        {
+          "id": "missing-marker-selects-in-3d",
+          "pass": true
+        },
+        {
+          "id": "missing-recovery-has-intentional-delete",
+          "pass": true
+        },
+        {
+          "id": "missing-placement-selectable-in-2d",
+          "pass": true,
+          "observed": {
+            "selected": 1,
+            "gesture": {
+              "phase": "release",
+              "hit": "qa-missing-model",
+              "locationX": 167.5833282470703,
+              "locationY": 239.66665649414062,
+              "point": {
+                "x": 2.4999999089027516,
+                "z": 1.9999998178055036
+              },
+              "moved": false,
+              "draft": null
+            }
+          }
+        },
+        {
+          "id": "missing-placement-preserves-transform-lock",
+          "pass": true,
+          "observed": {
+            "id": "qa-missing-model",
+            "roomId": "room-mwa2jbnq-apwy80q",
+            "assetId": "ois.calm-oak.sofa",
+            "assetVersion": "0.1.0",
+            "assetHash": "0000000000000000000000000000000000000000000000000000000000000000",
+            "x": 2.5,
+            "z": 2,
+            "yaw": 0,
+            "locked": true,
+            "materialOverrides": {}
+          }
+        }
+      ],
+      "missingScreenshot": "seeded-missing-revision-3d.png",
+      "planScreenshot": "seeded-missing-revision-2d.png",
+      "completed": true
+    }
+  ],
+  "sourceBefore": {
+    "src/screens/Surfaces.tsx": "6c54f4bb7f1f949f414520e4a1716f3ff0de9f510cca5fd684aeec945ae4089e",
+    "src/screens/Editor.tsx": "b846088ebd067613db21ae47decfb1c87c3c45cedb9759868af7f2a7bd147039",
+    "src/scene/Plan.tsx": "0f93565e9f99b1b94ebcd2e0f3b3cb63c03fe21e5b8eed246c1bca7f02c26f60",
+    "src/scene/Viewport.tsx": "5e20730adc1df6eb74b9ec594465fea482ddfb8a0dc5aa48b45095ecef5dff06",
+    "src/scene/RoomScene.tsx": "f794ee2d534ee583e93e15710f3821029573c28c5dd8a611bf4e41a3d83533ef"
+  },
+  "sources": {
+    "src/screens/Surfaces.tsx": "6c54f4bb7f1f949f414520e4a1716f3ff0de9f510cca5fd684aeec945ae4089e",
+    "src/screens/Editor.tsx": "b846088ebd067613db21ae47decfb1c87c3c45cedb9759868af7f2a7bd147039",
+    "src/scene/Plan.tsx": "0f93565e9f99b1b94ebcd2e0f3b3cb63c03fe21e5b8eed246c1bca7f02c26f60",
+    "src/scene/Viewport.tsx": "5e20730adc1df6eb74b9ec594465fea482ddfb8a0dc5aa48b45095ecef5dff06",
+    "src/scene/RoomScene.tsx": "f794ee2d534ee583e93e15710f3821029573c28c5dd8a611bf4e41a3d83533ef"
+  },
+  "sourceChangedDuringRun": false
+}

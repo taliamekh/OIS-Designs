@@ -1,0 +1,157 @@
+{
+  "designId": "ois.design.office-tambour-credenza",
+  "familyId": "ois.family.tambour-bedside",
+  "id": "ois.design.office-tambour-credenza",
+  "name": "Office tambour credenza",
+  "roomTags": [
+    "office"
+  ],
+  "theme": "walnut-form",
+  "builder": "case",
+  "parameters": {
+    "form": "tambour",
+    "w": 1.5,
+    "h": 0.82
+  },
+  "distinction": "Continuous stave curtain closes the full-width low office case.",
+  "stage": "validated-candidate",
+  "countEligible": false,
+  "variants": [],
+  "variantOf": "ois.design.tambour-bedside",
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted",
+    "sourceSnapshot": "sources/pipeline-e797cb5c88af56f5.py",
+    "sourceSha256": "e797cb5c88af56f5b4455d819a512ab9be55f40e1fa2d0cb542aca7bb84b906f",
+    "parametersFile": "sources/v0.2.1/office-tambour-credenza.parameters.json"
+  },
+  "constructionKey": "case|tambour|{\"base\": \"taper\", \"cols\": 1, \"doors\": 2, \"drawersTop\": false, \"front\": \"slab\", \"rows\": 4}",
+  "countExclusion": "same construction; dimension/material configuration retained as a variant",
+  "sha256": "e5bce7f6ad5081f6bd90f9008b06b7afa52731f314065728913bcbfcdcd42b5c",
+  "bytes": 432372,
+  "triangles": 9136,
+  "vertices": 11715,
+  "drawPrimitives": 2,
+  "bounds": {
+    "min": [
+      -0.7500001170424401,
+      -2.4613269478113153e-08,
+      -0.2609999952837825
+    ],
+    "max": [
+      0.7500001252988882,
+      0.8140837032480103,
+      0.2000000466948776
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 1.5000002423413283,
+    "depth": 0.46100004197866007,
+    "height": 0.8140837278612798
+  },
+  "footprint": [
+    [
+      -0.7500001170424401,
+      -0.2609999952837825
+    ],
+    [
+      0.7500001252988882,
+      -0.2609999952837825
+    ],
+    [
+      0.7500001252988882,
+      0.2000000466948776
+    ],
+    [
+      -0.7500001170424401,
+      0.2000000466948776
+    ]
+  ],
+  "variantSlots": [
+    "metal",
+    "wood"
+  ],
+  "requiredExtensions": [],
+  "version": "0.2.1",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.tambour-bedside",
+  "file": "assets/v0.2.1/office-tambour-credenza.glb",
+  "sourceModel": "sources/v0.2.1/office-tambour-credenza.blend",
+  "thumbnail": "previews/v0.2.1/office-tambour-credenza.png",
+  "backThumbnail": "previews/v0.2.1/office-tambour-credenza-back.png",
+  "category": "storage",
+  "subtype": "tambour",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "textures": {
+    "count": 0,
+    "bytes": 0
+  },
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.2.1/office-tambour-credenza.png",
+      "previews/v0.2.1/office-tambour-credenza-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.22,
+      0.09,
+      0.038
+    ],
+    [
+      0.39,
+      0.18,
+      0.07
+    ],
+    [
+      0.47,
+      0.3,
+      0.1
+    ]
+  ],
+  "colourTags": [
+    "walnut",
+    "tobacco",
+    "brass"
+  ],
+  "materials": [
+    "metal",
+    "wood"
+  ],
+  "searchAliases": [
+    "office",
+    "tambour"
+  ],
+  "materialSlots": [
+    {
+      "id": "metal",
+      "material": "metal",
+      "recolourable": true
+    },
+    {
+      "id": "wood",
+      "material": "wood",
+      "recolourable": true
+    }
+  ]
+}

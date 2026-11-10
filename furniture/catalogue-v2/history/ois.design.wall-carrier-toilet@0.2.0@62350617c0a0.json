@@ -1,0 +1,153 @@
+{
+  "designId": "ois.design.wall-carrier-toilet",
+  "familyId": "ois.family.wall-carrier-toilet",
+  "id": "ois.design.wall-carrier-toilet",
+  "name": "Wall-carrier toilet",
+  "roomTags": [
+    "bathroom"
+  ],
+  "theme": "city-loft",
+  "builder": "bath",
+  "parameters": {
+    "form": "toilet-wall"
+  },
+  "distinction": "Compact carrier-backed bowl with no exposed tank.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted"
+  },
+  "constructionKey": "bath|toilet-wall|{}",
+  "sha256": "62350617c0a011d9e43aa16aa0d3522b9818662444bee82e4d4f0078f748f3cb",
+  "bytes": 49164,
+  "triangles": 1916,
+  "vertices": 1208,
+  "drawPrimitives": 2,
+  "bounds": {
+    "min": [
+      -0.24899999797344208,
+      0.0,
+      -0.343999981880188
+    ],
+    "max": [
+      0.24899999797344208,
+      0.5199999809265137,
+      0.3199999928474426
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 0.49799999594688416,
+    "depth": 0.6639999747276306,
+    "height": 0.5199999809265137
+  },
+  "footprint": [
+    [
+      -0.24899999797344208,
+      -0.343999981880188
+    ],
+    [
+      0.24899999797344208,
+      -0.343999981880188
+    ],
+    [
+      0.24899999797344208,
+      0.3199999928474426
+    ],
+    [
+      -0.24899999797344208,
+      0.3199999928474426
+    ]
+  ],
+  "variantSlots": [
+    "ceramic",
+    "linen"
+  ],
+  "requiredExtensions": [],
+  "version": "0.2.0",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.wall-carrier-toilet",
+  "file": "assets/v0.2.0/wall-carrier-toilet.glb",
+  "sourceModel": "sources/v0.2.0/wall-carrier-toilet.blend",
+  "thumbnail": "previews/v0.2.0/wall-carrier-toilet.png",
+  "backThumbnail": "previews/v0.2.0/wall-carrier-toilet-back.png",
+  "category": "bathroom-fixtures",
+  "subtype": "toilet-wall",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "textures": {
+    "count": 0,
+    "bytes": 0
+  },
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.2.0/wall-carrier-toilet.png",
+      "previews/v0.2.0/wall-carrier-toilet-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.23,
+      0.15,
+      0.09
+    ],
+    [
+      0.12,
+      0.14,
+      0.16
+    ],
+    [
+      0.045,
+      0.05,
+      0.055
+    ]
+  ],
+  "colourTags": [
+    "charcoal",
+    "black",
+    "weathered wood"
+  ],
+  "materials": [
+    "ceramic",
+    "textile"
+  ],
+  "searchAliases": [
+    "bathroom",
+    "toilet wall"
+  ],
+  "materialSlots": [
+    {
+      "id": "ceramic",
+      "material": "ceramic",
+      "recolourable": true
+    },
+    {
+      "id": "linen",
+      "material": "linen",
+      "recolourable": true
+    }
+  ],
+  "geometryHash": "e99458e10ff8f842ca3ba3b5102e8bf98142649c0594f58fd76b74d9fbc14acc",
+  "normalizedMirrorGeometryHash": "0cd6ae41e1329f60b24f5399c93170ec772b85250c179f08c5b25e9ef1abe5bf"
+}

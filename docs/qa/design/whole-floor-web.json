@@ -1,0 +1,160 @@
+{
+  "timestamp": "2026-11-10T01:51:02.299Z",
+  "evidence": "Isolated real Expo web UI; no source/user data edits",
+  "observations": [
+    {
+      "step": "whole-floor-shape",
+      "body": "NEW PROJECT\nStarting shape\nSquare\nRectangle\nL-shape\nDraw walls"
+    },
+    {
+      "step": "whole-floor-editor",
+      "body": "Untitled floor plan\nLiving room\n4.80 m\n3.80 m\n4.80 m\n3.80 m\nLiving room\n2D\n3D\nWalk\nFurnish\nSurfaces\nBuild"
+    },
+    {
+      "step": "build-tools",
+      "body": "Untitled floor plan\nLiving room\n4.80 m\n3.80 m\n4.80 m\n3.80 m\nLiving room\n2D\n3D\nWalk\nBuild\nRoom dimensions\nAdd room\nDoors and openings\nWindows\nQuick door · Single swing\nCut away near walls\nWhole-floor view"
+    },
+    {
+      "step": "add-room-tools",
+      "body": "Untitled floor plan\nLiving room\n4.80 m\n3.80 m\n4.80 m\n3.80 m\nLiving room\n2D\n3D\nWalk\nAdd room\nliving\nbedroom\nkitchen\ndining\nbathroom\noffice\nchildren\nentry\nutility\nsquare\nrectangle\nl\nNew-room coordinates use the measurement units selected in Settings.\nWidth (m)\nDepth (m)\nX origin (m)\nZ origin (m)\nAdd room"
+    }
+  ],
+  "consoleErrors": [],
+  "createSourceSha256": "5282e4bca25ecd9b0ec4d5d9c47d8747e0c50026d8c97b09827787c2e7edb1b4",
+  "httpStatus": 200,
+  "createdProject": {
+    "id": "project-mwa1b0ou-6kgtx0e",
+    "schemaVersion": 1,
+    "name": "Untitled floor plan",
+    "updatedAt": 1794275500350,
+    "floors": [
+      {
+        "id": "floor-mwa1b0ou-h3xxln0",
+        "name": "Ground floor",
+        "elevation": 0,
+        "ceiling": 2.7,
+        "alignment": {
+          "x": 0,
+          "z": 0
+        },
+        "rooms": [
+          {
+            "id": "room-mwa1b0ou-ulxexa5",
+            "name": "Living room",
+            "kind": "living",
+            "polygon": [
+              {
+                "x": 0,
+                "z": 0
+              },
+              {
+                "x": 4.8,
+                "z": 0
+              },
+              {
+                "x": 4.8,
+                "z": 3.8
+              },
+              {
+                "x": 0,
+                "z": 3.8
+              }
+            ],
+            "ceiling": null,
+            "floorFinish": {
+              "id": "white-oak",
+              "repeat": 2,
+              "angle": 0
+            },
+            "wallFaces": {},
+            "trim": {
+              "profile": "flat",
+              "height": 0.1,
+              "projection": 0.016,
+              "colour": "#eeeae2",
+              "sheen": "satin"
+            },
+            "trimOverrides": {}
+          }
+        ],
+        "walls": [
+          {
+            "id": "wall:0,0:48000,0",
+            "a": {
+              "x": 0,
+              "z": 0
+            },
+            "b": {
+              "x": 4.8,
+              "z": 0
+            },
+            "thickness": 0.12,
+            "faces": [
+              {
+                "roomId": "room-mwa1b0ou-ulxexa5",
+                "reversed": false
+              }
+            ]
+          },
+          {
+            "id": "wall:48000,0:48000,38000",
+            "a": {
+              "x": 4.8,
+              "z": 0
+            },
+            "b": {
+              "x": 4.8,
+              "z": 3.8
+            },
+            "thickness": 0.12,
+            "faces": [
+              {
+                "roomId": "room-mwa1b0ou-ulxexa5",
+                "reversed": false
+              }
+            ]
+          },
+          {
+            "id": "wall:0,38000:48000,38000",
+            "a": {
+              "x": 0,
+              "z": 3.8
+            },
+            "b": {
+              "x": 4.8,
+              "z": 3.8
+            },
+            "thickness": 0.12,
+            "faces": [
+              {
+                "roomId": "room-mwa1b0ou-ulxexa5",
+                "reversed": true
+              }
+            ]
+          },
+          {
+            "id": "wall:0,0:0,38000",
+            "a": {
+              "x": 0,
+              "z": 0
+            },
+            "b": {
+              "x": 0,
+              "z": 3.8
+            },
+            "thickness": 0.12,
+            "faces": [
+              {
+                "roomId": "room-mwa1b0ou-ulxexa5",
+                "reversed": true
+              }
+            ]
+          }
+        ],
+        "openings": [],
+        "items": []
+      }
+    ]
+  },
+  "completed": true
+}

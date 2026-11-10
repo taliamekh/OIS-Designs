@@ -1,0 +1,375 @@
+{
+  "id": "ois.design.channel-upholstered-bed.size.full",
+  "sha256": "88cb0e831e05c167d74e00fa4909d23a50936bbd43458d1ef206ded534255798",
+  "sourceModel": "sources/v0.5.0/channel-upholstered-bed.size.full.blend",
+  "sourceSha256": "6e1f8888d74ef856997403b810ee0ca1cdc70f3fb576e0521ec783591b3f6d5d",
+  "partCount": 22,
+  "componentCount": 1,
+  "components": [
+    {
+      "parts": [
+        "leg",
+        "leg.001",
+        "leg.002",
+        "leg.003",
+        "frame",
+        "mattress",
+        "piping",
+        "duvet",
+        "pillow",
+        "piping.001",
+        "pillow.001",
+        "piping.002",
+        "padded headboard",
+        "headboard channel",
+        "headboard channel.001",
+        "headboard channel.002",
+        "headboard channel.003",
+        "headboard channel.004",
+        "headboard channel.005",
+        "headboard channel.006",
+        "headboard channel.007",
+        "headboard channel.008"
+      ],
+      "minimum": [
+        -0.7657999992370605,
+        -1.0775001049041748,
+        4.889443516731262e-09
+      ],
+      "maximum": [
+        0.7657999992370605,
+        1.0212855339050293,
+        1.2716875076293945
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "frame",
+      "b": "leg",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "frame",
+      "b": "leg.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "frame",
+      "b": "leg.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "frame",
+      "b": "leg.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "mattress",
+      "b": "frame",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "piping",
+      "b": "mattress",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "duvet",
+      "b": "mattress",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pillow",
+      "b": "mattress",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "piping.001",
+      "b": "pillow",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pillow.001",
+      "b": "mattress",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "piping.002",
+      "b": "pillow.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "padded headboard",
+      "b": "leg",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "padded headboard",
+      "b": "leg.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "padded headboard",
+      "b": "frame",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "padded headboard",
+      "b": "mattress",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "padded headboard",
+      "b": "piping",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "headboard channel",
+      "b": "leg",
+      "method": "surface distance",
+      "distance": 0.003245591651648283
+    },
+    {
+      "a": "headboard channel",
+      "b": "frame",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "headboard channel",
+      "b": "mattress",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "headboard channel",
+      "b": "piping",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "headboard channel",
+      "b": "padded headboard",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "headboard channel.001",
+      "b": "frame",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "headboard channel.001",
+      "b": "mattress",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "headboard channel.001",
+      "b": "piping",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "headboard channel.001",
+      "b": "padded headboard",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "headboard channel.002",
+      "b": "frame",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "headboard channel.002",
+      "b": "mattress",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "headboard channel.002",
+      "b": "piping",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "headboard channel.002",
+      "b": "padded headboard",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "headboard channel.003",
+      "b": "frame",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "headboard channel.003",
+      "b": "mattress",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "headboard channel.003",
+      "b": "piping",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "headboard channel.003",
+      "b": "padded headboard",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "headboard channel.004",
+      "b": "frame",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "headboard channel.004",
+      "b": "mattress",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "headboard channel.004",
+      "b": "piping",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "headboard channel.004",
+      "b": "padded headboard",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "headboard channel.005",
+      "b": "frame",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "headboard channel.005",
+      "b": "mattress",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "headboard channel.005",
+      "b": "piping",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "headboard channel.005",
+      "b": "padded headboard",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "headboard channel.006",
+      "b": "frame",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "headboard channel.006",
+      "b": "mattress",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "headboard channel.006",
+      "b": "piping",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "headboard channel.006",
+      "b": "padded headboard",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "headboard channel.007",
+      "b": "frame",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "headboard channel.007",
+      "b": "mattress",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "headboard channel.007",
+      "b": "piping",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "headboard channel.007",
+      "b": "padded headboard",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "headboard channel.008",
+      "b": "leg.002",
+      "method": "surface distance",
+      "distance": 0.0034124688245356083
+    },
+    {
+      "a": "headboard channel.008",
+      "b": "frame",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "headboard channel.008",
+      "b": "mattress",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "headboard channel.008",
+      "b": "piping",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "headboard channel.008",
+      "b": "padded headboard",
+      "method": "triangle intersection",
+      "distance": 0
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T03:07:31Z"
+}

@@ -1,0 +1,224 @@
+{
+  "designId": "ois.design.round-tulip-dining",
+  "familyId": "ois.family.round-tulip-dining",
+  "id": "ois.design.round-tulip-dining",
+  "name": "Tulip dining table",
+  "roomTags": [
+    "dining"
+  ],
+  "theme": "walnut-form",
+  "builder": "table",
+  "parameters": {
+    "form": "tulip",
+    "w": 1.18,
+    "d": 1.18,
+    "h": 0.75,
+    "shape": "round"
+  },
+  "distinction": "Swept waist flares smoothly into a disc foot and upper cup.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted",
+    "sourceSnapshot": "sources/pipeline-80bacc170bd1371e.py",
+    "sourceSha256": "80bacc170bd1371edd54e3e5203658724c4e90ee4562fa13275787f9884b1d45",
+    "supportSources": {
+      "signature_designs.py": {
+        "snapshot": "sources/signature_designs-c7ce1c9570491409.py",
+        "sha256": "c7ce1c95704914096c0af5c88272139fca2098556f75b752375dd03da6cd8ee2"
+      },
+      "material_finish.py": {
+        "snapshot": "sources/material_finish-b9bb830e81d90e18.py",
+        "sha256": "b9bb830e81d90e18c05191c4e478ee7bbda04b117e4148687be9073a85d929c2"
+      },
+      "catalogue_inventory.py": {
+        "snapshot": "sources/catalogue_inventory-b67897df830f7144.py",
+        "sha256": "b67897df830f71449151337a656dae85d9e7b911fbc107aab78d72a60438f20e"
+      },
+      "finalize_glb.py": {
+        "snapshot": "sources/finalize_glb-dfc4ff54401c495d.py",
+        "sha256": "dfc4ff54401c495d3e17debd8f4aae1c5e68012a23ba8c85e023ed00397baae2"
+      }
+    },
+    "parametersFile": "sources/v0.5.0/round-tulip-dining.parameters.json"
+  },
+  "constructionKey": "table|tulip|{\"drawers\": false, \"shape\": \"ellipse\", \"shelf\": false}",
+  "sha256": "118837b4fd57dd25b33e268ed670d95cbae471636c9ef4c7a4150ddc6303e5e0",
+  "bytes": 197252,
+  "triangles": 668,
+  "vertices": 442,
+  "drawPrimitives": 2,
+  "bounds": {
+    "min": [
+      -0.5899999737739563,
+      0.0,
+      -0.5899999737739563
+    ],
+    "max": [
+      0.5899999737739563,
+      0.7500000223517418,
+      0.5899999737739563
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 1.1799999475479126,
+    "depth": 1.1799999475479126,
+    "height": 0.7500000223517418
+  },
+  "footprint": [
+    [
+      -0.5899999737739563,
+      -0.5899999737739563
+    ],
+    [
+      0.5899999737739563,
+      -0.5899999737739563
+    ],
+    [
+      0.5899999737739563,
+      0.5899999737739563
+    ],
+    [
+      -0.5899999737739563,
+      0.5899999737739563
+    ]
+  ],
+  "variantSlots": [
+    "metal",
+    "wood"
+  ],
+  "requiredExtensions": [],
+  "textures": {
+    "count": 3,
+    "bytes": 174784,
+    "estimatedRgbaBytesWithMipmaps": 1048576,
+    "images": [
+      {
+        "name": "wood-normal",
+        "bytes": 102088,
+        "width": 256,
+        "height": 256,
+        "sha256": "6b8efcb5004552d884a527017922bfb5260b8bda4dc77f1365fe1cb8a09f1d56"
+      },
+      {
+        "name": "wood-neutral-base",
+        "bytes": 39353,
+        "width": 256,
+        "height": 256,
+        "sha256": "ddcf839a2addae78944a2d7a0588f9c2055852fc4ccb4e2dae2095d28541de44"
+      },
+      {
+        "name": "wood-roughness",
+        "bytes": 33343,
+        "width": 256,
+        "height": 256,
+        "sha256": "afc2180e58360e76fb178b52f225f7ba9045a7d0d266f10886763b0590335a1a"
+      }
+    ]
+  },
+  "version": "0.5.0",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.round-tulip-dining",
+  "file": "assets/v0.5.0/round-tulip-dining.glb",
+  "sourceModel": "sources/v0.5.0/round-tulip-dining.blend",
+  "thumbnail": "previews/v0.5.0/round-tulip-dining.png",
+  "backThumbnail": "previews/v0.5.0/round-tulip-dining-back.png",
+  "category": "tables",
+  "subtype": "tulip",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.5.0/round-tulip-dining.png",
+      "previews/v0.5.0/round-tulip-dining-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.4699999988079071,
+      0.30000001192092896,
+      0.10000000149011612
+    ],
+    [
+      0.2199999988079071,
+      0.09000000357627869,
+      0.03799999877810478
+    ]
+  ],
+  "colourTags": [
+    "muted brass",
+    "walnut brown"
+  ],
+  "materials": [
+    "metal",
+    "wood"
+  ],
+  "searchAliases": [
+    "dining",
+    "tulip"
+  ],
+  "materialSlots": [
+    {
+      "id": "metal",
+      "material": "metal",
+      "recolourable": true
+    },
+    {
+      "id": "wood",
+      "material": "wood",
+      "recolourable": true
+    }
+  ],
+  "finalization": {
+    "unusedTangentAttributesRemoved": 0,
+    "normalMappedTangents": "retained, never replaced with arbitrary fallback vectors"
+  },
+  "supportChecks": {
+    "method": "source-part upper-end ray to non-leg geometry, 15mm join tolerance",
+    "status": "pass",
+    "parts": [],
+    "limitation": "screening only; hidden joints, whole-model connectivity, load paths and safety remain visual/product-review concerns"
+  },
+  "materialFinish": {
+    "source": "materials/v1/manifest.json",
+    "repeatMetres": {
+      "wood": [
+        0.16,
+        0.75
+      ],
+      "fabric": [
+        0.14,
+        0.14
+      ],
+      "linen": [
+        0.12,
+        0.12
+      ]
+    },
+    "maps": "original base colour / roughness / tangent normal, embedded in GLB"
+  },
+  "geometryHash": "4021da1a8faf3846ba09e549d008e99d21ed9d28f5881316cd2bc86425d1c325",
+  "normalizedMirrorGeometryHash": "40fcf3487337813a375568628bc3248d211402c6812b847d0285c4955e597005"
+}

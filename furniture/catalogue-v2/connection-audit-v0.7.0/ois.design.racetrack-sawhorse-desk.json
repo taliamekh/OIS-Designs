@@ -1,0 +1,72 @@
+{
+  "id": "ois.design.racetrack-sawhorse-desk",
+  "sha256": "39b713ab7343bade74b8f86277d11464a2391eb0c5dfdbe4f2fbb6b52f1ad995",
+  "sourceModel": "sources/v0.7.0/racetrack-sawhorse-desk.blend",
+  "sourceSha256": "41a8c5697503fe439ac050fdb0e132cc779f0a8ca490401cdf63f6cdb095c242",
+  "partCount": 7,
+  "componentCount": 1,
+  "components": [
+    {
+      "parts": [
+        "top",
+        "horse beam",
+        "horse leg",
+        "horse leg.001",
+        "horse beam.001",
+        "horse leg.002",
+        "horse leg.003"
+      ],
+      "minimum": [
+        -0.7250000238418579,
+        -0.3499999940395355,
+        6.51925802230835e-09
+      ],
+      "maximum": [
+        0.7250000238418579,
+        0.3499999940395355,
+        0.7553145885467529
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "horse beam",
+      "b": "top",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "horse leg",
+      "b": "horse beam",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "horse leg.001",
+      "b": "horse beam",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "horse beam.001",
+      "b": "top",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "horse leg.002",
+      "b": "horse beam.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "horse leg.003",
+      "b": "horse beam.001",
+      "method": "triangle intersection",
+      "distance": 0
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; live-source reports are NOT exported-asset evidence; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T04:00:31Z"
+}

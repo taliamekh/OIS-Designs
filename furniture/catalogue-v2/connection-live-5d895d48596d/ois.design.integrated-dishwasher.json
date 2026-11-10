@@ -1,0 +1,224 @@
+{
+  "id": "ois.design.integrated-dishwasher",
+  "sha256": "unexported-source-5d895d48596d1904d58f6d46821e68930ff8026c89e330f0004ff02f8ca332ff",
+  "sourceModel": null,
+  "sourceSha256": "5d895d48596d1904d58f6d46821e68930ff8026c89e330f0004ff02f8ca332ff",
+  "partCount": 17,
+  "componentCount": 6,
+  "components": [
+    {
+      "parts": [
+        "appliance shell side",
+        "appliance shell side.001",
+        "appliance shell back",
+        "appliance shell bottom",
+        "appliance shell top",
+        "door side frame",
+        "door side frame.001",
+        "door cross frame",
+        "door cross frame.001"
+      ],
+      "minimum": [
+        -0.30000001192092896,
+        -0.3100000023841858,
+        0.0
+      ],
+      "maximum": [
+        0.30000001192092896,
+        0.34299999475479126,
+        0.8500000238418579
+      ]
+    },
+    {
+      "parts": [
+        "glazed viewing pane",
+        "pull",
+        "pull mounting standoff",
+        "pull mounting standoff.001"
+      ],
+      "minimum": [
+        -0.23999999463558197,
+        0.3400000035762787,
+        0.10000002384185791
+      ],
+      "maximum": [
+        0.23999999463558197,
+        0.38600000739097595,
+        0.75
+      ]
+    },
+    {
+      "parts": [
+        "button"
+      ],
+      "minimum": [
+        -0.17749999463558197,
+        0.35099998116493225,
+        0.7739999890327454
+      ],
+      "maximum": [
+        -0.14249999821186066,
+        0.35899999737739563,
+        0.7859999537467957
+      ]
+    },
+    {
+      "parts": [
+        "button.001"
+      ],
+      "minimum": [
+        -0.09749999642372131,
+        0.35099998116493225,
+        0.7739999890327454
+      ],
+      "maximum": [
+        -0.0625,
+        0.35899999737739563,
+        0.7859999537467957
+      ]
+    },
+    {
+      "parts": [
+        "button.002"
+      ],
+      "minimum": [
+        -0.017500000074505806,
+        0.35099998116493225,
+        0.7739999890327454
+      ],
+      "maximum": [
+        0.017500000074505806,
+        0.35899999737739563,
+        0.7859999537467957
+      ]
+    },
+    {
+      "parts": [
+        "button.003"
+      ],
+      "minimum": [
+        0.0625,
+        0.35099998116493225,
+        0.7739999890327454
+      ],
+      "maximum": [
+        0.09749999642372131,
+        0.35899999737739563,
+        0.7859999537467957
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "appliance shell back",
+      "b": "appliance shell side",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "appliance shell back",
+      "b": "appliance shell side.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "appliance shell bottom",
+      "b": "appliance shell side",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "appliance shell bottom",
+      "b": "appliance shell side.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "appliance shell bottom",
+      "b": "appliance shell back",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "appliance shell top",
+      "b": "appliance shell side",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "appliance shell top",
+      "b": "appliance shell side.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "appliance shell top",
+      "b": "appliance shell back",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "door side frame",
+      "b": "appliance shell side",
+      "method": "surface distance",
+      "distance": 0.003000020980834961
+    },
+    {
+      "a": "door side frame.001",
+      "b": "appliance shell side.001",
+      "method": "surface distance",
+      "distance": 0.003000020980834961
+    },
+    {
+      "a": "door cross frame",
+      "b": "door side frame",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "door cross frame",
+      "b": "door side frame.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "door cross frame.001",
+      "b": "door side frame",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "door cross frame.001",
+      "b": "door side frame.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pull mounting standoff",
+      "b": "glazed viewing pane",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pull mounting standoff",
+      "b": "pull",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pull mounting standoff.001",
+      "b": "glazed viewing pane",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pull mounting standoff.001",
+      "b": "pull",
+      "method": "triangle intersection",
+      "distance": 0
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; live-source reports are NOT exported-asset evidence; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T03:15:11Z"
+}

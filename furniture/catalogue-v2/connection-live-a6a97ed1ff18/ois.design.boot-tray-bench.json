@@ -1,0 +1,217 @@
+{
+  "id": "ois.design.boot-tray-bench",
+  "sha256": "unexported-source-a6a97ed1ff18ea7190f4c07e8ea17b6dba901563a653d7aed874183539ef16c1",
+  "sourceModel": null,
+  "sourceSha256": "a6a97ed1ff18ea7190f4c07e8ea17b6dba901563a653d7aed874183539ef16c1",
+  "partCount": 14,
+  "componentCount": 10,
+  "components": [
+    {
+      "parts": [
+        "boot tray bottom",
+        "boot tray side",
+        "boot tray side.001",
+        "boot tray end",
+        "boot tray end.001"
+      ],
+      "minimum": [
+        -0.3999999761581421,
+        -0.1889999955892563,
+        0.04999999701976776
+      ],
+      "maximum": [
+        0.3999999761581421,
+        0.1889999955892563,
+        0.10999999940395355
+      ]
+    },
+    {
+      "parts": [
+        "leg"
+      ],
+      "minimum": [
+        -0.48873093724250793,
+        -0.18715322017669678,
+        0.010754425078630447
+      ],
+      "maximum": [
+        -0.4270477592945099,
+        -0.13524675369262695,
+        0.40586233139038086
+      ]
+    },
+    {
+      "parts": [
+        "leg.001"
+      ],
+      "minimum": [
+        -0.48873090744018555,
+        0.13524679839611053,
+        0.010754428803920746
+      ],
+      "maximum": [
+        -0.42704781889915466,
+        0.18715326488018036,
+        0.40586230158805847
+      ]
+    },
+    {
+      "parts": [
+        "leg.002"
+      ],
+      "minimum": [
+        0.4270477592945099,
+        -0.18715322017669678,
+        0.010754425078630447
+      ],
+      "maximum": [
+        0.48873093724250793,
+        -0.13524675369262695,
+        0.40586233139038086
+      ]
+    },
+    {
+      "parts": [
+        "leg.003"
+      ],
+      "minimum": [
+        0.42704781889915466,
+        0.13524679839611053,
+        0.010754428803920746
+      ],
+      "maximum": [
+        0.48873090744018555,
+        0.18715326488018036,
+        0.40586230158805847
+      ]
+    },
+    {
+      "parts": [
+        "bench seat slat"
+      ],
+      "minimum": [
+        -0.5,
+        -0.2037000060081482,
+        0.4274999797344208
+      ],
+      "maximum": [
+        0.5,
+        -0.1322999894618988,
+        0.4724999964237213
+      ]
+    },
+    {
+      "parts": [
+        "bench seat slat.001"
+      ],
+      "minimum": [
+        -0.5,
+        -0.11969999969005585,
+        0.4274999797344208
+      ],
+      "maximum": [
+        0.5,
+        -0.04829999804496765,
+        0.4724999964237213
+      ]
+    },
+    {
+      "parts": [
+        "bench seat slat.002"
+      ],
+      "minimum": [
+        -0.5,
+        -0.0357000008225441,
+        0.4274999797344208
+      ],
+      "maximum": [
+        0.5,
+        0.0357000008225441,
+        0.4724999964237213
+      ]
+    },
+    {
+      "parts": [
+        "bench seat slat.003"
+      ],
+      "minimum": [
+        -0.5,
+        0.04829999804496765,
+        0.4274999797344208
+      ],
+      "maximum": [
+        0.5,
+        0.11969999969005585,
+        0.4724999964237213
+      ]
+    },
+    {
+      "parts": [
+        "bench seat slat.004"
+      ],
+      "minimum": [
+        -0.5,
+        0.1322999894618988,
+        0.4274999797344208
+      ],
+      "maximum": [
+        0.5,
+        0.2037000060081482,
+        0.4724999964237213
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "boot tray side",
+      "b": "boot tray bottom",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "boot tray side.001",
+      "b": "boot tray bottom",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "boot tray end",
+      "b": "boot tray bottom",
+      "method": "surface distance",
+      "distance": 0.0
+    },
+    {
+      "a": "boot tray end",
+      "b": "boot tray side",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "boot tray end",
+      "b": "boot tray side.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "boot tray end.001",
+      "b": "boot tray bottom",
+      "method": "surface distance",
+      "distance": 0.0
+    },
+    {
+      "a": "boot tray end.001",
+      "b": "boot tray side",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "boot tray end.001",
+      "b": "boot tray side.001",
+      "method": "triangle intersection",
+      "distance": 0
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; live-source reports are NOT exported-asset evidence; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T03:20:00Z"
+}

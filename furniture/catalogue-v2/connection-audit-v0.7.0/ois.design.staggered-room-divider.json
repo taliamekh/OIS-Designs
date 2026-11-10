@@ -1,0 +1,176 @@
+{
+  "id": "ois.design.staggered-room-divider",
+  "sha256": "fbacbfb1037172e160731dd3bf3e61eace9a26412d5279dc059000e7936acb3e",
+  "sourceModel": "sources/v0.7.0/staggered-room-divider.blend",
+  "sourceSha256": "079fd89ecaafb127dc1f8d04e2a85c4f63a6697b462a75952337ea32ba16116e",
+  "partCount": 15,
+  "componentCount": 1,
+  "components": [
+    {
+      "parts": [
+        "leg",
+        "leg.001",
+        "leg.002",
+        "leg.003",
+        "bottom",
+        "top",
+        "side",
+        "side.001",
+        "shelf",
+        "shelf.001",
+        "shelf.002",
+        "partition",
+        "offset partition",
+        "offset partition.001",
+        "offset partition.002"
+      ],
+      "minimum": [
+        -0.8254947662353516,
+        -0.20000000298023224,
+        -2.3283064365386963e-09
+      ],
+      "maximum": [
+        0.8254947662353516,
+        0.20000000298023224,
+        1.394674301147461
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "bottom",
+      "b": "leg",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "bottom",
+      "b": "leg.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "bottom",
+      "b": "leg.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "bottom",
+      "b": "leg.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "side",
+      "b": "bottom",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "side",
+      "b": "top",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "side.001",
+      "b": "bottom",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "side.001",
+      "b": "top",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "shelf",
+      "b": "side",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "shelf",
+      "b": "side.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "shelf.001",
+      "b": "side",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "shelf.001",
+      "b": "side.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "shelf.002",
+      "b": "side",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "shelf.002",
+      "b": "side.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "partition",
+      "b": "bottom",
+      "method": "surface distance",
+      "distance": 0.003999948501586914
+    },
+    {
+      "a": "partition",
+      "b": "top",
+      "method": "surface distance",
+      "distance": 0.003999948501586914
+    },
+    {
+      "a": "partition",
+      "b": "shelf",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "partition",
+      "b": "shelf.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "partition",
+      "b": "shelf.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "offset partition",
+      "b": "bottom",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "offset partition.001",
+      "b": "shelf",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "offset partition.002",
+      "b": "shelf.001",
+      "method": "triangle intersection",
+      "distance": 0
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; live-source reports are NOT exported-asset evidence; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T03:51:57Z"
+}

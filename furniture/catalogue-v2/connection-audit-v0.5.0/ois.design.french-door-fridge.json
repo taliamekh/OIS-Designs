@@ -1,0 +1,166 @@
+{
+  "id": "ois.design.french-door-fridge",
+  "sha256": "eebffb30b8e66aec6e5e326b60697ea8830d80cdbca1357eb0f87ae02d415e1f",
+  "sourceModel": "sources/v0.5.0/french-door-fridge.blend",
+  "sourceSha256": "1650d7acbcd144bd9dd113d31f3703de931d83f16f1a6dce927bf3adf2c2446a",
+  "partCount": 11,
+  "componentCount": 4,
+  "components": [
+    {
+      "parts": [
+        "appliance shell side",
+        "appliance shell side.001",
+        "appliance shell back",
+        "appliance shell bottom",
+        "appliance shell top",
+        "insulated door",
+        "insulated door.001",
+        "freezer drawer"
+      ],
+      "minimum": [
+        -0.44999998807907104,
+        -0.3100000023841858,
+        0.0
+      ],
+      "maximum": [
+        0.44999998807907104,
+        0.3569999933242798,
+        1.8200000524520874
+      ]
+    },
+    {
+      "parts": [
+        "pull"
+      ],
+      "minimum": [
+        -0.09600000083446503,
+        0.3739999830722809,
+        0.7699999809265137
+      ],
+      "maximum": [
+        -0.08400000631809235,
+        0.38600000739097595,
+        1.0499999523162842
+      ]
+    },
+    {
+      "parts": [
+        "pull.001"
+      ],
+      "minimum": [
+        0.3540000021457672,
+        0.3739999830722809,
+        0.7699999809265137
+      ],
+      "maximum": [
+        0.3660000264644623,
+        0.38600000739097595,
+        1.0499999523162842
+      ]
+    },
+    {
+      "parts": [
+        "pull.002"
+      ],
+      "minimum": [
+        -0.15000000596046448,
+        0.3789999783039093,
+        0.3033999800682068
+      ],
+      "maximum": [
+        0.15000000596046448,
+        0.39100000262260437,
+        0.31540000438690186
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "appliance shell back",
+      "b": "appliance shell side",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "appliance shell back",
+      "b": "appliance shell side.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "appliance shell bottom",
+      "b": "appliance shell side",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "appliance shell bottom",
+      "b": "appliance shell side.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "appliance shell bottom",
+      "b": "appliance shell back",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "appliance shell top",
+      "b": "appliance shell side",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "appliance shell top",
+      "b": "appliance shell side.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "appliance shell top",
+      "b": "appliance shell back",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "insulated door",
+      "b": "appliance shell side",
+      "method": "surface distance",
+      "distance": 0.0010606464929878712
+    },
+    {
+      "a": "insulated door",
+      "b": "appliance shell top",
+      "method": "surface distance",
+      "distance": 0.0031819185242056847
+    },
+    {
+      "a": "insulated door.001",
+      "b": "appliance shell side.001",
+      "method": "surface distance",
+      "distance": 0.001060646609403193
+    },
+    {
+      "a": "insulated door.001",
+      "b": "appliance shell top",
+      "method": "surface distance",
+      "distance": 0.0031819185242056847
+    },
+    {
+      "a": "freezer drawer",
+      "b": "insulated door",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "freezer drawer",
+      "b": "insulated door.001",
+      "method": "triangle intersection",
+      "distance": 0
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T03:07:32Z"
+}

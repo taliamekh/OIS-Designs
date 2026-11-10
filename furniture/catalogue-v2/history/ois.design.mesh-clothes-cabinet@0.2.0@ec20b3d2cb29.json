@@ -1,0 +1,157 @@
+{
+  "designId": "ois.design.mesh-clothes-cabinet",
+  "familyId": "ois.family.mesh-clothes-cabinet",
+  "id": "ois.design.mesh-clothes-cabinet",
+  "name": "Mesh clothes cabinet",
+  "roomTags": [
+    "bedroom"
+  ],
+  "theme": "city-loft",
+  "builder": "case",
+  "parameters": {
+    "form": "wardrobe",
+    "front": "mesh",
+    "w": 0.95,
+    "d": 0.58,
+    "h": 1.85,
+    "base": "sled"
+  },
+  "distinction": "Metal grid doors and exposed steel underframe surround hanging space.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted"
+  },
+  "sha256": "ec20b3d2cb292ce9527e5a11075397bcd74fba0d593d2a9ba4c9bb3142b41893",
+  "bytes": 250420,
+  "triangles": 5452,
+  "vertices": 6729,
+  "drawPrimitives": 2,
+  "bounds": {
+    "min": [
+      -0.4749999940395355,
+      0.0,
+      -0.3460000157356262
+    ],
+    "max": [
+      0.4749999940395355,
+      1.84653040766716,
+      0.28999999165534973
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 0.949999988079071,
+    "depth": 0.636000007390976,
+    "height": 1.84653040766716
+  },
+  "footprint": [
+    [
+      -0.4749999940395355,
+      -0.3460000157356262
+    ],
+    [
+      0.4749999940395355,
+      -0.3460000157356262
+    ],
+    [
+      0.4749999940395355,
+      0.28999999165534973
+    ],
+    [
+      -0.4749999940395355,
+      0.28999999165534973
+    ]
+  ],
+  "variantSlots": [
+    "metal",
+    "wood"
+  ],
+  "requiredExtensions": [],
+  "version": "0.2.0",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.mesh-clothes-cabinet",
+  "file": "assets/v0.2.0/mesh-clothes-cabinet.glb",
+  "sourceModel": "sources/v0.2.0/mesh-clothes-cabinet.blend",
+  "thumbnail": "previews/v0.2.0/mesh-clothes-cabinet.png",
+  "backThumbnail": "previews/v0.2.0/mesh-clothes-cabinet-back.png",
+  "category": "storage",
+  "subtype": "wardrobe",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "textures": {
+    "count": 0,
+    "bytes": 0
+  },
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.2.0/mesh-clothes-cabinet.png",
+      "previews/v0.2.0/mesh-clothes-cabinet-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.23,
+      0.15,
+      0.09
+    ],
+    [
+      0.12,
+      0.14,
+      0.16
+    ],
+    [
+      0.045,
+      0.05,
+      0.055
+    ]
+  ],
+  "colourTags": [
+    "charcoal",
+    "black",
+    "weathered wood"
+  ],
+  "materials": [
+    "metal",
+    "wood"
+  ],
+  "searchAliases": [
+    "bedroom",
+    "wardrobe"
+  ],
+  "materialSlots": [
+    {
+      "id": "metal",
+      "material": "metal",
+      "recolourable": true
+    },
+    {
+      "id": "wood",
+      "material": "wood",
+      "recolourable": true
+    }
+  ],
+  "geometryHash": "ff6d6b07c0a31b5813d7b0a3af340a4a9af2cd4964b46567bd28df3126c29757",
+  "normalizedMirrorGeometryHash": "04860ca00a2563ebf59b800d099430f310ab8e080489f71f63e877018917b4b9"
+}

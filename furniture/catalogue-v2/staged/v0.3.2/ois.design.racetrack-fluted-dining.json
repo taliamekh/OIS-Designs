@@ -1,0 +1,187 @@
+{
+  "designId": "ois.design.racetrack-fluted-dining",
+  "familyId": "ois.family.racetrack-fluted-dining",
+  "id": "ois.design.racetrack-fluted-dining",
+  "name": "Fluted pedestal dining table",
+  "roomTags": [
+    "dining"
+  ],
+  "theme": "walnut-form",
+  "builder": "table",
+  "parameters": {
+    "form": "drum",
+    "w": 1.65,
+    "d": 0.88,
+    "h": 0.75,
+    "shape": "racetrack"
+  },
+  "distinction": "Capsule top on a substantial cylindrical fluted drum.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted",
+    "sourceSnapshot": "sources/pipeline-55642edf77b9875f.py",
+    "sourceSha256": "55642edf77b9875ff9620f3041b9999cee7807ac9d8ce9f01f78fdfc4bbc513f",
+    "parametersFile": "sources/v0.3.2/racetrack-fluted-dining.parameters.json"
+  },
+  "constructionKey": "table|drum|{\"drawers\": false, \"shape\": \"racetrack\", \"shelf\": false}",
+  "sha256": "7889fc480fe03bbca1002822a2d90c4f4fd13d93103992af89356367890f4944",
+  "bytes": 310268,
+  "triangles": 1992,
+  "vertices": 2530,
+  "drawPrimitives": 1,
+  "bounds": {
+    "min": [
+      -0.824999988079071,
+      0.0,
+      -0.4399999976158142
+    ],
+    "max": [
+      0.824999988079071,
+      0.75,
+      0.4399999976158142
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 1.649999976158142,
+    "depth": 0.8799999952316284,
+    "height": 0.75
+  },
+  "footprint": [
+    [
+      -0.824999988079071,
+      -0.4399999976158142
+    ],
+    [
+      0.824999988079071,
+      -0.4399999976158142
+    ],
+    [
+      0.824999988079071,
+      0.4399999976158142
+    ],
+    [
+      -0.824999988079071,
+      0.4399999976158142
+    ]
+  ],
+  "variantSlots": [
+    "wood"
+  ],
+  "requiredExtensions": [],
+  "textures": {
+    "count": 3,
+    "bytes": 174784,
+    "estimatedRgbaBytesWithMipmaps": 1048576,
+    "images": [
+      {
+        "name": "wood-normal",
+        "bytes": 102088,
+        "width": 256,
+        "height": 256,
+        "sha256": "6b8efcb5004552d884a527017922bfb5260b8bda4dc77f1365fe1cb8a09f1d56"
+      },
+      {
+        "name": "wood-neutral-base",
+        "bytes": 39353,
+        "width": 256,
+        "height": 256,
+        "sha256": "ddcf839a2addae78944a2d7a0588f9c2055852fc4ccb4e2dae2095d28541de44"
+      },
+      {
+        "name": "wood-roughness",
+        "bytes": 33343,
+        "width": 256,
+        "height": 256,
+        "sha256": "afc2180e58360e76fb178b52f225f7ba9045a7d0d266f10886763b0590335a1a"
+      }
+    ]
+  },
+  "version": "0.3.2",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.racetrack-fluted-dining",
+  "file": "assets/v0.3.2/racetrack-fluted-dining.glb",
+  "sourceModel": "sources/v0.3.2/racetrack-fluted-dining.blend",
+  "thumbnail": "previews/v0.3.2/racetrack-fluted-dining.png",
+  "backThumbnail": "previews/v0.3.2/racetrack-fluted-dining-back.png",
+  "category": "tables",
+  "subtype": "drum",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.3.2/racetrack-fluted-dining.png",
+      "previews/v0.3.2/racetrack-fluted-dining-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.2199999988079071,
+      0.09000000357627869,
+      0.03799999877810478
+    ]
+  ],
+  "colourTags": [
+    "walnut brown"
+  ],
+  "materials": [
+    "wood"
+  ],
+  "searchAliases": [
+    "dining",
+    "drum"
+  ],
+  "materialSlots": [
+    {
+      "id": "wood",
+      "material": "wood",
+      "recolourable": true
+    }
+  ],
+  "supportChecks": {
+    "method": "source-part upper-end ray to non-leg geometry, 15mm join tolerance",
+    "status": "pass",
+    "parts": [],
+    "limitation": "screening only; hidden joints, whole-model connectivity, load paths and safety remain visual/product-review concerns"
+  },
+  "materialFinish": {
+    "source": "materials/v1/manifest.json",
+    "repeatMetres": {
+      "wood": [
+        0.16,
+        0.75
+      ],
+      "fabric": [
+        0.14,
+        0.14
+      ],
+      "linen": [
+        0.12,
+        0.12
+      ]
+    },
+    "maps": "original base colour / roughness / tangent normal, embedded in GLB"
+  }
+}

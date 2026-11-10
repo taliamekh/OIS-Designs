@@ -1,0 +1,92 @@
+{
+  "id": "ois.design.tablet-training-chair",
+  "sha256": "00ff2b63cfa36916fdeebf7cd94f40ab249008710d7e19473d9a293d05d3d22c",
+  "sourceModel": "sources/v0.5.0/tablet-training-chair.blend",
+  "sourceSha256": "0fe02dcac45283ca234299902b776e8ca7859a6add373ab7deb1d9121b61866b",
+  "partCount": 9,
+  "componentCount": 1,
+  "components": [
+    {
+      "parts": [
+        "leg",
+        "leg.001",
+        "leg.002",
+        "leg.003",
+        "seat",
+        "piping",
+        "backrest",
+        "writing tablet",
+        "tablet support"
+      ],
+      "minimum": [
+        -0.21449999511241913,
+        -0.2633182108402252,
+        4.598405212163925e-09
+      ],
+      "maximum": [
+        0.42500001192092896,
+        0.35500001907348633,
+        0.8728070259094238
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "seat",
+      "b": "leg",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "seat",
+      "b": "leg.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "seat",
+      "b": "leg.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "seat",
+      "b": "leg.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "piping",
+      "b": "seat",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "backrest",
+      "b": "seat",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "tablet support",
+      "b": "seat",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "tablet support",
+      "b": "piping",
+      "method": "surface distance",
+      "distance": 0.003416985273361206
+    },
+    {
+      "a": "tablet support",
+      "b": "writing tablet",
+      "method": "triangle intersection",
+      "distance": 0
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T03:07:34Z"
+}

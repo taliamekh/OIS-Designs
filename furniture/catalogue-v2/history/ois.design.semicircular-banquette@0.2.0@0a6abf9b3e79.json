@@ -1,0 +1,154 @@
+{
+  "designId": "ois.design.semicircular-banquette",
+  "familyId": "ois.family.semicircular-banquette",
+  "id": "ois.design.semicircular-banquette",
+  "name": "Semicircular banquette",
+  "roomTags": [
+    "dining"
+  ],
+  "theme": "walnut-form",
+  "builder": "functional",
+  "parameters": {
+    "form": "circular-banquette",
+    "w": 2.0,
+    "d": 1.7,
+    "h": 1.05
+  },
+  "distinction": "Nine radial padded seats and backs make a semicircular dining booth.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted"
+  },
+  "constructionKey": "functional|circular-banquette|{}",
+  "sha256": "0a6abf9b3e7940722ed03cce74be6575abb8ce9e10be6ceb0b6455b8be124374",
+  "bytes": 253068,
+  "triangles": 5076,
+  "vertices": 6879,
+  "drawPrimitives": 2,
+  "bounds": {
+    "min": [
+      -0.9550445290124747,
+      0.0,
+      -1.0050002227740673
+    ],
+    "max": [
+      0.95504477699572,
+      1.0099999904632568,
+      -0.2400358945960635
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 1.9100893060081947,
+    "depth": 0.7649643281780039,
+    "height": 1.0099999904632568
+  },
+  "footprint": [
+    [
+      -0.9550445290124747,
+      -1.0050002227740673
+    ],
+    [
+      0.95504477699572,
+      -1.0050002227740673
+    ],
+    [
+      0.95504477699572,
+      -0.2400358945960635
+    ],
+    [
+      -0.9550445290124747,
+      -0.2400358945960635
+    ]
+  ],
+  "variantSlots": [
+    "fabric",
+    "wood"
+  ],
+  "requiredExtensions": [],
+  "version": "0.2.0",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.semicircular-banquette",
+  "file": "assets/v0.2.0/semicircular-banquette.glb",
+  "sourceModel": "sources/v0.2.0/semicircular-banquette.blend",
+  "thumbnail": "previews/v0.2.0/semicircular-banquette.png",
+  "backThumbnail": "previews/v0.2.0/semicircular-banquette-back.png",
+  "category": "functional-furniture",
+  "subtype": "circular-banquette",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "textures": {
+    "count": 0,
+    "bytes": 0
+  },
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.2.0/semicircular-banquette.png",
+      "previews/v0.2.0/semicircular-banquette-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.22,
+      0.09,
+      0.038
+    ],
+    [
+      0.39,
+      0.18,
+      0.07
+    ],
+    [
+      0.47,
+      0.3,
+      0.1
+    ]
+  ],
+  "colourTags": [
+    "walnut",
+    "tobacco",
+    "brass"
+  ],
+  "materials": [
+    "textile",
+    "wood"
+  ],
+  "searchAliases": [
+    "dining",
+    "circular banquette"
+  ],
+  "materialSlots": [
+    {
+      "id": "fabric",
+      "material": "fabric",
+      "recolourable": true
+    },
+    {
+      "id": "wood",
+      "material": "wood",
+      "recolourable": true
+    }
+  ]
+}

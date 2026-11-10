@@ -1,0 +1,389 @@
+{
+  "id": "ois.design.pullout-trundle-bed",
+  "sha256": "unexported-source-5d895d48596d1904d58f6d46821e68930ff8026c89e330f0004ff02f8ca332ff",
+  "sourceModel": null,
+  "sourceSha256": "5d895d48596d1904d58f6d46821e68930ff8026c89e330f0004ff02f8ca332ff",
+  "partCount": 36,
+  "componentCount": 1,
+  "components": [
+    {
+      "parts": [
+        "leg",
+        "leg.001",
+        "leg.002",
+        "leg.003",
+        "frame",
+        "mattress",
+        "piping",
+        "duvet",
+        "pillow",
+        "piping.001",
+        "pillow.001",
+        "piping.002",
+        "headboard",
+        "storage drawer",
+        "pull",
+        "pull mounting standoff",
+        "pull mounting standoff.001",
+        "storage drawer.001",
+        "pull.001",
+        "pull mounting standoff.002",
+        "pull mounting standoff.003",
+        "storage drawer.002",
+        "pull.002",
+        "pull mounting standoff.004",
+        "pull mounting standoff.005",
+        "storage drawer.003",
+        "pull.003",
+        "pull mounting standoff.006",
+        "pull mounting standoff.007",
+        "pullout frame",
+        "trundle mattress",
+        "piping.003",
+        "trundle caster",
+        "trundle caster.001",
+        "trundle caster.002",
+        "trundle caster.003"
+      ],
+      "minimum": [
+        -0.8579999804496765,
+        -1.1059999465942383,
+        0.0
+      ],
+      "maximum": [
+        1.8671998977661133,
+        1.08738374710083,
+        1.1399999856948853
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "frame",
+      "b": "leg",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "frame",
+      "b": "leg.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "frame",
+      "b": "leg.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "frame",
+      "b": "leg.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "mattress",
+      "b": "frame",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "piping",
+      "b": "mattress",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "duvet",
+      "b": "mattress",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pillow",
+      "b": "mattress",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "piping.001",
+      "b": "pillow",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pillow.001",
+      "b": "mattress",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "piping.002",
+      "b": "pillow.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "headboard",
+      "b": "leg",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "headboard",
+      "b": "leg.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "headboard",
+      "b": "frame",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "storage drawer",
+      "b": "leg",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "storage drawer",
+      "b": "headboard",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pull mounting standoff",
+      "b": "storage drawer",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pull mounting standoff",
+      "b": "pull",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pull mounting standoff.001",
+      "b": "storage drawer",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pull mounting standoff.001",
+      "b": "pull",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "storage drawer.001",
+      "b": "leg.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pull mounting standoff.002",
+      "b": "storage drawer.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pull mounting standoff.002",
+      "b": "pull.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pull mounting standoff.003",
+      "b": "storage drawer.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pull mounting standoff.003",
+      "b": "pull.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "storage drawer.002",
+      "b": "leg.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "storage drawer.002",
+      "b": "headboard",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pull mounting standoff.004",
+      "b": "storage drawer.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pull mounting standoff.004",
+      "b": "pull.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pull mounting standoff.005",
+      "b": "storage drawer.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pull mounting standoff.005",
+      "b": "pull.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "storage drawer.003",
+      "b": "leg.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pull mounting standoff.006",
+      "b": "storage drawer.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pull mounting standoff.006",
+      "b": "pull.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pull mounting standoff.007",
+      "b": "storage drawer.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pull mounting standoff.007",
+      "b": "pull.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pullout frame",
+      "b": "storage drawer.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pullout frame",
+      "b": "pull.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pullout frame",
+      "b": "pull mounting standoff.004",
+      "method": "point containment",
+      "distance": 0
+    },
+    {
+      "a": "pullout frame",
+      "b": "storage drawer.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pullout frame",
+      "b": "pull.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pullout frame",
+      "b": "pull mounting standoff.006",
+      "method": "point containment",
+      "distance": 0
+    },
+    {
+      "a": "trundle mattress",
+      "b": "pull.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "trundle mattress",
+      "b": "pull mounting standoff.005",
+      "method": "surface distance",
+      "distance": 0.0032563921995460987
+    },
+    {
+      "a": "trundle mattress",
+      "b": "pull.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "trundle mattress",
+      "b": "pull mounting standoff.007",
+      "method": "surface distance",
+      "distance": 0.0032564536668360233
+    },
+    {
+      "a": "trundle mattress",
+      "b": "pullout frame",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "piping.003",
+      "b": "pull.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "piping.003",
+      "b": "pull.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "piping.003",
+      "b": "trundle mattress",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "trundle caster",
+      "b": "pullout frame",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "trundle caster.001",
+      "b": "pullout frame",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "trundle caster.002",
+      "b": "pullout frame",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "trundle caster.003",
+      "b": "pullout frame",
+      "method": "triangle intersection",
+      "distance": 0
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; live-source reports are NOT exported-asset evidence; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T03:15:01Z"
+}

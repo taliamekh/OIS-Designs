@@ -1,0 +1,168 @@
+{
+  "designId": "ois.design.toddler-spindle-bed",
+  "familyId": "ois.family.spindle-head-bed",
+  "id": "ois.design.toddler-spindle-bed",
+  "name": "Toddler spindle bed",
+  "roomTags": [
+    "children"
+  ],
+  "theme": "coastal-linen",
+  "builder": "bed",
+  "parameters": {
+    "form": "spindle",
+    "size": "toddler",
+    "platform": 0.17
+  },
+  "distinction": "Toddler-length bed uses open spindles with a low child platform.",
+  "stage": "validated-candidate",
+  "countEligible": false,
+  "variants": [],
+  "variantOf": "ois.design.spindle-head-bed",
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted"
+  },
+  "constructionKey": "bed|spindle|{}",
+  "bedSize": "toddler",
+  "mattressMetres": [
+    0.7,
+    1.4,
+    0.22
+  ],
+  "safetyReviewRequired": false,
+  "sha256": "0fb739b8ac4bb6c5d58a2ba7c0ac78d06a2893fd7e35c469424cb8ce7659309f",
+  "bytes": 104012,
+  "triangles": 2208,
+  "vertices": 2726,
+  "drawPrimitives": 3,
+  "bounds": {
+    "min": [
+      -0.41200002691072246,
+      -5.388822209295707e-08,
+      -0.7600000059285823
+    ],
+    "max": [
+      0.4120001070904581,
+      1.1200000128419585,
+      0.7899999299700393
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 0.8240001340011806,
+    "depth": 1.5499999358986216,
+    "height": 1.1200000667301806
+  },
+  "footprint": [
+    [
+      -0.41200002691072246,
+      -0.7600000059285823
+    ],
+    [
+      0.4120001070904581,
+      -0.7600000059285823
+    ],
+    [
+      0.4120001070904581,
+      0.7899999299700393
+    ],
+    [
+      -0.41200002691072246,
+      0.7899999299700393
+    ]
+  ],
+  "variantSlots": [
+    "fabric",
+    "linen",
+    "wood"
+  ],
+  "requiredExtensions": [],
+  "version": "0.2.0",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.spindle-head-bed",
+  "file": "assets/v0.2.0/toddler-spindle-bed.glb",
+  "sourceModel": "sources/v0.2.0/toddler-spindle-bed.blend",
+  "thumbnail": "previews/v0.2.0/toddler-spindle-bed.png",
+  "backThumbnail": "previews/v0.2.0/toddler-spindle-bed-back.png",
+  "category": "beds",
+  "subtype": "spindle",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "textures": {
+    "count": 0,
+    "bytes": 0
+  },
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.2.0/toddler-spindle-bed.png",
+      "previews/v0.2.0/toddler-spindle-bed-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.66,
+      0.53,
+      0.34
+    ],
+    [
+      0.36,
+      0.53,
+      0.58
+    ],
+    [
+      0.64,
+      0.6,
+      0.48
+    ]
+  ],
+  "colourTags": [
+    "mist blue",
+    "sand",
+    "pale oak"
+  ],
+  "materials": [
+    "textile",
+    "wood"
+  ],
+  "searchAliases": [
+    "children",
+    "spindle"
+  ],
+  "materialSlots": [
+    {
+      "id": "fabric",
+      "material": "fabric",
+      "recolourable": true
+    },
+    {
+      "id": "linen",
+      "material": "linen",
+      "recolourable": true
+    },
+    {
+      "id": "wood",
+      "material": "wood",
+      "recolourable": true
+    }
+  ],
+  "geometryHash": "74a2bd9824cf14c87093ac733650c5bc27b2d6a704081d5c2b212e066ca76e2c",
+  "normalizedMirrorGeometryHash": "03ae1d8e2203992233a5170a9556ecd6fccb8a35c1c4e980a2ab4ccc26a55786"
+}

@@ -1,0 +1,75 @@
+{
+  "timestamp": "2026-11-10T03:01:02.266Z",
+  "evidence": "Actual isolated web touch input for colour wheel/SV; no native-touch claim",
+  "storageOracle": {
+    "kind": "Production IndexedStorage.getItem, with its read-only legacy fallback",
+    "file": "mobile/src/storage/indexedStore.ts",
+    "sha256": "9943012679fd85da975028e6165febf8e149242bfef7b0a63f7ab6b98f76383d"
+  },
+  "checks": [
+    {
+      "id": "hue-on-white-keeps-value-white",
+      "pass": true,
+      "observed": "#ffffff"
+    },
+    {
+      "id": "remembered-green-hue-controls-sv",
+      "pass": true,
+      "observed": "#408040"
+    },
+    {
+      "id": "touch-colour-saves-one-face-and-recent",
+      "pass": true,
+      "observed": {
+        "colour": "#408040",
+        "painted": [
+          "wall:0,0:48000,0",
+          {
+            "colour": "#408040",
+            "texture": "paint",
+            "sheen": "eggshell"
+          }
+        ],
+        "recent": [
+          "#408040",
+          "#dedbd2",
+          "#ffffff",
+          "#b5b8a5",
+          "#87969a",
+          "#d9c9b5"
+        ]
+      }
+    },
+    {
+      "id": "undo-rehydrates-visible-wall-colour",
+      "pass": true,
+      "observed": {
+        "field": "#dedbd2",
+        "colour": "#408040"
+      }
+    },
+    {
+      "id": "redo-rehydrates-visible-wall-colour",
+      "pass": true,
+      "observed": {
+        "field": "#408040",
+        "colour": "#408040"
+      }
+    },
+    {
+      "id": "invalid-hex-disables-both-apply-actions",
+      "pass": true
+    },
+    {
+      "id": "recent-swatch-recovers-valid-input",
+      "pass": true
+    },
+    {
+      "id": "recent-swatch-survives-reload",
+      "pass": true
+    }
+  ],
+  "errors": [],
+  "consoleErrors": [],
+  "completed": true
+}

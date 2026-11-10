@@ -1,0 +1,175 @@
+{
+  "id": "ois.design.raised-lift-coffee",
+  "sha256": "3ac75188be6f06ccb40b54caa89c3414234daa9407d7f47907558e3560a2d7a5",
+  "sourceModel": "sources/v0.7.0/raised-lift-coffee.blend",
+  "sourceSha256": "81c0ce629d0f248fecb25c51a01031f3ebe6934bb1f7f213b6379c5704f4d51f",
+  "partCount": 14,
+  "componentCount": 1,
+  "components": [
+    {
+      "parts": [
+        "storage floor",
+        "case end",
+        "case end.001",
+        "case face",
+        "case face.001",
+        "raised lift top",
+        "scissor lift",
+        "scissor lift.001",
+        "scissor lift.002",
+        "scissor lift.003",
+        "lower lift axle",
+        "lower lift axle.001",
+        "sled frame",
+        "sled frame.001"
+      ],
+      "minimum": [
+        -0.5649999976158142,
+        -0.3149999976158142,
+        0.0
+      ],
+      "maximum": [
+        0.5649999976158142,
+        0.46799999475479126,
+        0.6963906288146973
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "case end",
+      "b": "storage floor",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "case end.001",
+      "b": "storage floor",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "case face",
+      "b": "storage floor",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "case face",
+      "b": "case end",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "case face",
+      "b": "case end.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "case face.001",
+      "b": "storage floor",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "case face.001",
+      "b": "case end",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "case face.001",
+      "b": "case end.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "scissor lift",
+      "b": "raised lift top",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "scissor lift.001",
+      "b": "raised lift top",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "scissor lift.002",
+      "b": "raised lift top",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "scissor lift.003",
+      "b": "raised lift top",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "lower lift axle",
+      "b": "case end",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "lower lift axle",
+      "b": "case end.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "lower lift axle",
+      "b": "scissor lift",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "lower lift axle",
+      "b": "scissor lift.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "lower lift axle.001",
+      "b": "case end",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "lower lift axle.001",
+      "b": "case end.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "lower lift axle.001",
+      "b": "scissor lift.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "lower lift axle.001",
+      "b": "scissor lift.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "sled frame",
+      "b": "storage floor",
+      "method": "surface distance",
+      "distance": 0.002499997615814209
+    },
+    {
+      "a": "sled frame.001",
+      "b": "storage floor",
+      "method": "surface distance",
+      "distance": 0.002499997615814209
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; live-source reports are NOT exported-asset evidence; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T04:00:31Z"
+}

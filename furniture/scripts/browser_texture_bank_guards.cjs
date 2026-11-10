@@ -1,0 +1,16 @@
+const {chromium}=require('C:/Users/talia/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/playwright');
+const fs=require('node:fs'),path=require('node:path');const root=path.resolve(__dirname,'..');let browser;
+(async()=>{browser=await chromium.launch({headless:true,channel:'msedge'});const page=await browser.newPage();await page.goto('http://127.0.0.1:8768/');await page.waitForFunction(()=>window.oisAssetReview?.ready);
+const results=await page.evaluate(async()=>{
+ const {GLTFLoader}=await import('three/addons/loaders/GLTFLoader.js'),{SharedTextureBank}=await import('/review/shared-texture-bank.js'),THREE=await import('three');const loader=new GLTFLoader(),url='/assets/v0.5.0/rail-frame-sofa.glb',results=[];
+ function mat(g){let result;g.scene.traverse(o=>{const materials=Array.isArray(o.material)?o.material:[o.material];for(const m of materials)if(m?.name==='wood')result=m});return result}
+ function assert(name,condition,detail){if(!condition)throw Error(name+': '+JSON.stringify(detail));results.push({name,pass:true,detail})}
+ const bank=new SharedTextureBank(),one=await loader.loadAsync(url),two=await loader.loadAsync(url);await bank.bind(one);await bank.bind(two);const count=bank.snapshot().uniqueTextures;
+ assert('identical image semantics share exact texture',mat(one).map===mat(two).map,{count,leases:bank.snapshot().rootLeases});
+ const previous=mat(two).color.toArray();mat(one).color.setRGB(.1,.7,.2);assert('material tint stays isolated between models',previous.every((v,i)=>v===mat(two).color.toArray()[i]),mat(two).color.toArray());
+ mat(one).normalScale.set(.9,.2);assert('normal strength stays isolated',mat(two).normalScale.x!==.9,mat(two).normalScale.toArray());
+ bank.releaseTree(one.scene);assert('disposing one model preserves the other leases',bank.snapshot().uniqueTextures===count&&bank.snapshot().rootLeases===count,bank.snapshot());bank.releaseTree(two.scene);assert('last release clears every lease',bank.snapshot().uniqueTextures===0&&bank.snapshot().rootLeases===0,bank.snapshot());
+ const cases={wrap:t=>t.wrapS=THREE.ClampToEdgeWrapping,filter:t=>t.magFilter=THREE.NearestFilter,colorSpace:t=>t.colorSpace=THREE.NoColorSpace,uvOffset:t=>t.offset.x=.125,uvRotation:t=>t.rotation=.25,uvChannel:t=>t.channel=1,flipY:t=>t.flipY=!t.flipY,anisotropy:t=>t.anisotropy=4};
+ for(const [name,change] of Object.entries(cases)){const bank=new SharedTextureBank(),a=await loader.loadAsync(url),b=await loader.loadAsync(url);change(mat(b).map);await bank.bind(a);await bank.bind(b);assert('separate key for '+name,mat(a).map!==mat(b).map,{textures:bank.snapshot().uniqueTextures});bank.releaseTree(a.scene);bank.releaseTree(b.scene);assert('no retained lease after '+name,bank.snapshot().uniqueTextures===0,{remaining:bank.snapshot().uniqueTextures})}
+ return results;
+});fs.writeFileSync(path.join(root,'catalogue-v2/browser-texture-bank-v0.5.0/guards.json'),JSON.stringify({timeUtc:new Date().toISOString(),scope:'actual GLTFLoader image/texture objects in installed Edge; semantic/refcount guards only',passed:results.length,results},null,2));console.log('PASS',results.length,'actual browser texture-bank guards');await browser.close()})().catch(async e=>{console.error(e);if(browser)await browser.close();process.exitCode=1});

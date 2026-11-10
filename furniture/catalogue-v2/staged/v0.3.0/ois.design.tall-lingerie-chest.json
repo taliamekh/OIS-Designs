@@ -1,0 +1,222 @@
+{
+  "designId": "ois.design.tall-lingerie-chest",
+  "familyId": "ois.family.three-drawer-nightstand",
+  "id": "ois.design.tall-lingerie-chest",
+  "name": "Tall lingerie chest",
+  "roomTags": [
+    "bedroom"
+  ],
+  "theme": "walnut-form",
+  "builder": "case",
+  "parameters": {
+    "form": "drawers",
+    "front": "slab",
+    "rows": 7,
+    "w": 0.55,
+    "h": 1.36
+  },
+  "distinction": "Seven slim drawers make a tall vertical chest with raised base.",
+  "stage": "validated-candidate",
+  "countEligible": false,
+  "variants": [],
+  "variantOf": "ois.design.three-drawer-nightstand",
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted",
+    "sourceSnapshot": "sources/pipeline-03467462e382a0ba.py",
+    "sourceSha256": "03467462e382a0ba245e8af2ab96ea7d469161e176c6f1698b26d422f848f108",
+    "parametersFile": "sources/v0.3.0/tall-lingerie-chest.parameters.json"
+  },
+  "constructionKey": "case|drawers|{\"base\": \"taper\", \"cols\": \"single\", \"doors\": 2, \"drawersTop\": false, \"front\": \"slab\", \"rows\": \"stack\"}",
+  "countExclusion": "same construction; dimension/material configuration retained as a variant",
+  "sha256": "e45c3a68661d4de76672e8e893a9e729da25d4f65e0be3cfcac2312a652aeab8",
+  "bytes": 323856,
+  "triangles": 2916,
+  "vertices": 4010,
+  "drawPrimitives": 2,
+  "bounds": {
+    "min": [
+      -0.27500001571174526,
+      -3.4813566474056756e-09,
+      -0.25600000005215406
+    ],
+    "max": [
+      0.275000013841024,
+      1.35031315396015,
+      0.20000003790169443
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 0.5500000295527693,
+    "depth": 0.45600003795384847,
+    "height": 1.3503131574415068
+  },
+  "footprint": [
+    [
+      -0.27500001571174526,
+      -0.25600000005215406
+    ],
+    [
+      0.275000013841024,
+      -0.25600000005215406
+    ],
+    [
+      0.275000013841024,
+      0.20000003790169443
+    ],
+    [
+      -0.27500001571174526,
+      0.20000003790169443
+    ]
+  ],
+  "variantSlots": [
+    "metal",
+    "wood"
+  ],
+  "requiredExtensions": [],
+  "textures": {
+    "count": 3,
+    "bytes": 174784,
+    "estimatedRgbaBytesWithMipmaps": 1048576,
+    "images": [
+      {
+        "name": "wood-normal",
+        "bytes": 102088,
+        "width": 256,
+        "height": 256,
+        "sha256": "6b8efcb5004552d884a527017922bfb5260b8bda4dc77f1365fe1cb8a09f1d56"
+      },
+      {
+        "name": "wood-neutral-base",
+        "bytes": 39353,
+        "width": 256,
+        "height": 256,
+        "sha256": "ddcf839a2addae78944a2d7a0588f9c2055852fc4ccb4e2dae2095d28541de44"
+      },
+      {
+        "name": "wood-roughness",
+        "bytes": 33343,
+        "width": 256,
+        "height": 256,
+        "sha256": "afc2180e58360e76fb178b52f225f7ba9045a7d0d266f10886763b0590335a1a"
+      }
+    ]
+  },
+  "version": "0.3.0",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.three-drawer-nightstand",
+  "file": "assets/v0.3.0/tall-lingerie-chest.glb",
+  "sourceModel": "sources/v0.3.0/tall-lingerie-chest.blend",
+  "thumbnail": "previews/v0.3.0/tall-lingerie-chest.png",
+  "backThumbnail": "previews/v0.3.0/tall-lingerie-chest-back.png",
+  "category": "storage",
+  "subtype": "drawers",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.3.0/tall-lingerie-chest.png",
+      "previews/v0.3.0/tall-lingerie-chest-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.4699999988079071,
+      0.30000001192092896,
+      0.10000000149011612
+    ],
+    [
+      0.2199999988079071,
+      0.09000000357627869,
+      0.03799999877810478
+    ]
+  ],
+  "colourTags": [
+    "muted brass",
+    "walnut brown"
+  ],
+  "materials": [
+    "metal",
+    "wood"
+  ],
+  "searchAliases": [
+    "bedroom",
+    "drawers"
+  ],
+  "materialSlots": [
+    {
+      "id": "metal",
+      "material": "metal",
+      "recolourable": true
+    },
+    {
+      "id": "wood",
+      "material": "wood",
+      "recolourable": true
+    }
+  ],
+  "supportChecks": {
+    "method": "source-part upper-end ray to non-leg geometry, 15mm join tolerance",
+    "status": "pass",
+    "parts": [
+      {
+        "part": "leg",
+        "gapMetresAlongSupport": 5.960464483090178e-09,
+        "status": "pass"
+      },
+      {
+        "part": "leg.001",
+        "gapMetresAlongSupport": -8.940696710757479e-09,
+        "status": "pass"
+      },
+      {
+        "part": "leg.002",
+        "gapMetresAlongSupport": 2.0861625676937834e-08,
+        "status": "pass"
+      },
+      {
+        "part": "leg.003",
+        "gapMetresAlongSupport": -8.940696710757479e-09,
+        "status": "pass"
+      }
+    ],
+    "limitation": "screening only; hidden joints, whole-model connectivity, load paths and safety remain visual/product-review concerns"
+  },
+  "materialFinish": {
+    "source": "materials/v1/manifest.json",
+    "repeatMetres": {
+      "wood": [
+        0.16,
+        0.75
+      ],
+      "fabric": [
+        0.14,
+        0.14
+      ],
+      "linen": [
+        0.12,
+        0.12
+      ]
+    },
+    "maps": "original base colour / roughness / tangent normal, embedded in GLB"
+  }
+}

@@ -1,0 +1,169 @@
+{
+  "designId": "ois.design.wine-cooling-cabinet",
+  "familyId": "ois.family.wine-cooling-cabinet",
+  "id": "ois.design.wine-cooling-cabinet",
+  "name": "Wine cooling cabinet",
+  "roomTags": [
+    "kitchen"
+  ],
+  "theme": "soft-japandi",
+  "builder": "appliance",
+  "parameters": {
+    "form": "wine-fridge",
+    "w": 0.6,
+    "h": 0.86
+  },
+  "distinction": "Glazed door reveals horizontal bottle racks and bottle geometry.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted"
+  },
+  "constructionKey": "appliance|wine-fridge|{}",
+  "sha256": "56309d7029fc1867248f89ece48c954825b88202fed3803c27cb29581209aa76",
+  "bytes": 48744,
+  "triangles": 976,
+  "vertices": 1194,
+  "drawPrimitives": 4,
+  "bounds": {
+    "min": [
+      -0.30000001192092896,
+      0.0,
+      -0.3859999952837825
+    ],
+    "max": [
+      0.30000001192092896,
+      0.8600000143051147,
+      0.3100000023841858
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 0.6000000238418579,
+    "depth": 0.6959999976679683,
+    "height": 0.8600000143051147
+  },
+  "footprint": [
+    [
+      -0.30000001192092896,
+      -0.3859999952837825
+    ],
+    [
+      0.30000001192092896,
+      -0.3859999952837825
+    ],
+    [
+      0.30000001192092896,
+      0.3100000023841858
+    ],
+    [
+      -0.30000001192092896,
+      0.3100000023841858
+    ]
+  ],
+  "variantSlots": [
+    "accent",
+    "ceramic",
+    "glass",
+    "metal"
+  ],
+  "requiredExtensions": [],
+  "version": "0.2.0",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.wine-cooling-cabinet",
+  "file": "assets/v0.2.0/wine-cooling-cabinet.glb",
+  "sourceModel": "sources/v0.2.0/wine-cooling-cabinet.blend",
+  "thumbnail": "previews/v0.2.0/wine-cooling-cabinet.png",
+  "backThumbnail": "previews/v0.2.0/wine-cooling-cabinet-back.png",
+  "category": "appliances",
+  "subtype": "wine-fridge",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "textures": {
+    "count": 0,
+    "bytes": 0
+  },
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.2.0/wine-cooling-cabinet.png",
+      "previews/v0.2.0/wine-cooling-cabinet-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.34,
+      0.28,
+      0.19
+    ],
+    [
+      0.58,
+      0.54,
+      0.44
+    ],
+    [
+      0.15,
+      0.17,
+      0.15
+    ]
+  ],
+  "colourTags": [
+    "ash",
+    "flax",
+    "stone"
+  ],
+  "materials": [
+    "ceramic",
+    "metal",
+    "opaque-glass-study",
+    "paint"
+  ],
+  "searchAliases": [
+    "kitchen",
+    "wine fridge"
+  ],
+  "materialSlots": [
+    {
+      "id": "accent",
+      "material": "accent",
+      "recolourable": true
+    },
+    {
+      "id": "ceramic",
+      "material": "ceramic",
+      "recolourable": true
+    },
+    {
+      "id": "glass",
+      "material": "glass",
+      "recolourable": true
+    },
+    {
+      "id": "metal",
+      "material": "metal",
+      "recolourable": true
+    }
+  ],
+  "geometryHash": "5de3001c6e4bed01b0e0b4d5d97126b30ce51a7b75f0dc9705b6f287218dd558",
+  "normalizedMirrorGeometryHash": "138852ede5a0b0cd566d6a59258489bf58b6937b912d4d1c2e3b6a4bdd9571e9"
+}

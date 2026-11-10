@@ -1,0 +1,429 @@
+{
+  "designId": "ois.design.string-hoop-chair",
+  "familyId": "ois.family.string-hoop-chair",
+  "id": "ois.design.string-hoop-chair.lod2",
+  "name": "String hoop chair",
+  "roomTags": [
+    "living"
+  ],
+  "theme": "city-loft",
+  "builder": "signature",
+  "parameters": {
+    "form": "string-hoop-chair"
+  },
+  "distinction": "Tension strings span an inclined circular frame on tubular supports.",
+  "stage": "validated-candidate",
+  "countEligible": false,
+  "variants": [],
+  "variantOf": "ois.design.string-hoop-chair",
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted",
+    "sourceSnapshot": "sources/pipeline-d16905f59f09f9a8.py",
+    "sourceSha256": "d16905f59f09f9a87fb41f80ba97ff26da2ccb9e270091128e877b7c1129937d",
+    "supportSources": {
+      "signature_designs.py": {
+        "snapshot": "sources/signature_designs-c7ce1c9570491409.py",
+        "sha256": "c7ce1c95704914096c0af5c88272139fca2098556f75b752375dd03da6cd8ee2"
+      },
+      "material_finish.py": {
+        "snapshot": "sources/material_finish-b9bb830e81d90e18.py",
+        "sha256": "b9bb830e81d90e18c05191c4e478ee7bbda04b117e4148687be9073a85d929c2"
+      },
+      "catalogue_inventory.py": {
+        "snapshot": "sources/catalogue_inventory-b67897df830f7144.py",
+        "sha256": "b67897df830f71449151337a656dae85d9e7b911fbc107aab78d72a60438f20e"
+      },
+      "finalize_glb.py": {
+        "snapshot": "sources/finalize_glb-dfc4ff54401c495d.py",
+        "sha256": "dfc4ff54401c495d3e17debd8f4aae1c5e68012a23ba8c85e023ed00397baae2"
+      }
+    },
+    "parametersFile": "sources/v0.5.0/string-hoop-chair.parameters.json"
+  },
+  "constructionKey": "signature|string-hoop-chair|{}",
+  "sha256": "b4c3126e8c54c0e998b236a969cc4ef05d55c74fa896da6bc969fa84b2bb6b26",
+  "bytes": 281864,
+  "triangles": 4236,
+  "vertices": 2476,
+  "drawPrimitives": 3,
+  "bounds": {
+    "min": [
+      -0.4701365066526149,
+      -1.3208022647814843e-08,
+      -0.25232255458831787
+    ],
+    "max": [
+      0.4701366271223636,
+      1.0900987001880849,
+      0.3510450931703161
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 0.9402731337749786,
+    "depth": 0.603367647758634,
+    "height": 1.0900987133961075
+  },
+  "footprint": [
+    [
+      -0.4701365066526149,
+      -0.25232255458831787
+    ],
+    [
+      0.4701366271223636,
+      -0.25232255458831787
+    ],
+    [
+      0.4701366271223636,
+      0.3510450931703161
+    ],
+    [
+      -0.4701365066526149,
+      0.3510450931703161
+    ]
+  ],
+  "variantSlots": [
+    "metal",
+    "wood",
+    "cane"
+  ],
+  "requiredExtensions": [],
+  "textures": {
+    "count": 3,
+    "bytes": 174784,
+    "estimatedRgbaBytesWithMipmaps": 1048576,
+    "images": [
+      {
+        "name": "wood-normal",
+        "bytes": 102088,
+        "width": 256,
+        "height": 256,
+        "sha256": "6b8efcb5004552d884a527017922bfb5260b8bda4dc77f1365fe1cb8a09f1d56"
+      },
+      {
+        "name": "wood-neutral-base",
+        "bytes": 39353,
+        "width": 256,
+        "height": 256,
+        "sha256": "ddcf839a2addae78944a2d7a0588f9c2055852fc4ccb4e2dae2095d28541de44"
+      },
+      {
+        "name": "wood-roughness",
+        "bytes": 33343,
+        "width": 256,
+        "height": 256,
+        "sha256": "afc2180e58360e76fb178b52f225f7ba9045a7d0d266f10886763b0590335a1a"
+      }
+    ]
+  },
+  "version": "0.5.0-lod2",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.string-hoop-chair",
+  "file": "assets/v0.5.0-lod2/string-hoop-chair-lod2.glb",
+  "sourceModel": "sources/v0.5.0/string-hoop-chair.blend",
+  "thumbnail": "previews/v0.5.0-lod2/string-hoop-chair-lod2.png",
+  "backThumbnail": "previews/v0.5.0-lod2/string-hoop-chair-lod2-back.png",
+  "category": "signature-furniture",
+  "subtype": "string-hoop-chair",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending"
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.47999998927116394,
+      0.3400000035762787,
+      0.17000000178813934
+    ],
+    [
+      0.04500000178813934,
+      0.05000000074505806,
+      0.054999999701976776
+    ],
+    [
+      0.23000000417232513,
+      0.15000000596046448,
+      0.09000000357627869
+    ]
+  ],
+  "colourTags": [
+    "black",
+    "natural tan",
+    "weathered brown"
+  ],
+  "materials": [
+    "metal",
+    "wood",
+    "woven-fibre"
+  ],
+  "searchAliases": [
+    "living",
+    "string hoop chair"
+  ],
+  "materialSlots": [
+    {
+      "id": "cane",
+      "material": "cane",
+      "recolourable": true
+    },
+    {
+      "id": "metal",
+      "material": "metal",
+      "recolourable": true
+    },
+    {
+      "id": "wood",
+      "material": "wood",
+      "recolourable": true
+    }
+  ],
+  "finalization": {
+    "unusedTangentAttributesRemoved": 1,
+    "normalMappedTangents": "retained, never replaced with arbitrary fallback vectors"
+  },
+  "supportChecks": {
+    "method": "source-part upper-end ray to non-leg geometry, 15mm join tolerance",
+    "status": "pass",
+    "parts": [
+      {
+        "part": "leg",
+        "gapMetresAlongSupport": -0.010003888607025141,
+        "status": "pass"
+      },
+      {
+        "part": "leg.001",
+        "gapMetresAlongSupport": -0.010003888607025141,
+        "status": "pass"
+      },
+      {
+        "part": "leg.002",
+        "gapMetresAlongSupport": -0.010003888607025141,
+        "status": "pass"
+      },
+      {
+        "part": "leg.003",
+        "gapMetresAlongSupport": -0.010003888607025141,
+        "status": "pass"
+      }
+    ],
+    "limitation": "screening only; hidden joints, whole-model connectivity, load paths and safety remain visual/product-review concerns"
+  },
+  "materialFinish": {
+    "source": "materials/v1/manifest.json",
+    "repeatMetres": {
+      "wood": [
+        0.16,
+        0.75
+      ],
+      "fabric": [
+        0.14,
+        0.14
+      ],
+      "linen": [
+        0.12,
+        0.12
+      ]
+    },
+    "maps": "original base colour / roughness / tangent normal, embedded in GLB"
+  },
+  "geometryHash": "2bcf28254f8a43a3232b0eec6b3238fe4ad96bb897d18ec37b5ad3f0c2df7c5c",
+  "normalizedMirrorGeometryHash": "00ac0f9c13496fc6c564202d360ecf3bba1ac9d3d584d84a224feb38d9b34865",
+  "lodLevel": 2,
+  "lodParent": {
+    "id": "ois.design.string-hoop-chair",
+    "version": "0.5.0",
+    "sha256": "df707aa339158c25f612cd10912f5cf7584329edc223e9a6266f39580ce5db44",
+    "file": "assets/v0.5.0/string-hoop-chair.glb",
+    "sourceModelSha256": "1b56d7cdbd8464d7e5325fafe69b72bfa575a6678359bd264042d76da1c74cc2"
+  },
+  "lodMethod": {
+    "minimumPartTriangles": 180,
+    "collapseRatio": 0.3,
+    "parts": [
+      {
+        "part": "underseat pan",
+        "before": 188,
+        "after": 56
+      },
+      {
+        "part": "leg",
+        "before": 60,
+        "after": 60
+      },
+      {
+        "part": "leg.001",
+        "before": 60,
+        "after": 60
+      },
+      {
+        "part": "leg.002",
+        "before": 60,
+        "after": 60
+      },
+      {
+        "part": "leg.003",
+        "before": 60,
+        "after": 60
+      },
+      {
+        "part": "outer hoop",
+        "before": 768,
+        "after": 230
+      },
+      {
+        "part": "woven radial cord",
+        "before": 140,
+        "after": 140
+      },
+      {
+        "part": "woven radial cord.001",
+        "before": 140,
+        "after": 140
+      },
+      {
+        "part": "woven radial cord.002",
+        "before": 140,
+        "after": 140
+      },
+      {
+        "part": "woven radial cord.003",
+        "before": 140,
+        "after": 140
+      },
+      {
+        "part": "woven radial cord.004",
+        "before": 140,
+        "after": 140
+      },
+      {
+        "part": "woven radial cord.005",
+        "before": 140,
+        "after": 140
+      },
+      {
+        "part": "woven radial cord.006",
+        "before": 140,
+        "after": 140
+      },
+      {
+        "part": "woven radial cord.007",
+        "before": 140,
+        "after": 140
+      },
+      {
+        "part": "woven radial cord.008",
+        "before": 140,
+        "after": 140
+      },
+      {
+        "part": "woven radial cord.009",
+        "before": 140,
+        "after": 140
+      },
+      {
+        "part": "woven radial cord.010",
+        "before": 140,
+        "after": 140
+      },
+      {
+        "part": "woven radial cord.011",
+        "before": 140,
+        "after": 140
+      },
+      {
+        "part": "woven radial cord.012",
+        "before": 140,
+        "after": 140
+      },
+      {
+        "part": "woven radial cord.013",
+        "before": 140,
+        "after": 140
+      },
+      {
+        "part": "woven radial cord.014",
+        "before": 140,
+        "after": 140
+      },
+      {
+        "part": "woven radial cord.015",
+        "before": 140,
+        "after": 140
+      },
+      {
+        "part": "woven radial cord.016",
+        "before": 140,
+        "after": 140
+      },
+      {
+        "part": "woven radial cord.017",
+        "before": 140,
+        "after": 140
+      },
+      {
+        "part": "woven radial cord.018",
+        "before": 140,
+        "after": 140
+      },
+      {
+        "part": "woven radial cord.019",
+        "before": 140,
+        "after": 140
+      },
+      {
+        "part": "woven radial cord.020",
+        "before": 140,
+        "after": 140
+      },
+      {
+        "part": "woven radial cord.021",
+        "before": 140,
+        "after": 140
+      },
+      {
+        "part": "woven radial cord.022",
+        "before": 140,
+        "after": 140
+      },
+      {
+        "part": "woven radial cord.023",
+        "before": 140,
+        "after": 140
+      },
+      {
+        "part": "inner anchor",
+        "before": 768,
+        "after": 230
+      },
+      {
+        "part": "hoop brace",
+        "before": 60,
+        "after": 60
+      },
+      {
+        "part": "hoop brace.001",
+        "before": 60,
+        "after": 60
+      }
+    ]
+  }
+}

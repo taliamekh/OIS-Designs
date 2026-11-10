@@ -1,0 +1,51 @@
+{
+  "id": "ois.design.triangle-hairpin-coffee",
+  "sha256": "unexported-source-a6a97ed1ff18ea7190f4c07e8ea17b6dba901563a653d7aed874183539ef16c1",
+  "sourceModel": null,
+  "sourceSha256": "a6a97ed1ff18ea7190f4c07e8ea17b6dba901563a653d7aed874183539ef16c1",
+  "partCount": 4,
+  "componentCount": 1,
+  "components": [
+    {
+      "parts": [
+        "top",
+        "hairpin",
+        "hairpin.001",
+        "hairpin.002"
+      ],
+      "minimum": [
+        -0.5,
+        -0.3009999990463257,
+        0.006000000052154064
+      ],
+      "maximum": [
+        0.5,
+        0.39899998903274536,
+        0.4000000059604645
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "hairpin",
+      "b": "top",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "hairpin.001",
+      "b": "top",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "hairpin.002",
+      "b": "top",
+      "method": "triangle intersection",
+      "distance": 0
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; live-source reports are NOT exported-asset evidence; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T03:19:58Z"
+}

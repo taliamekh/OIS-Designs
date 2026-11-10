@@ -1,0 +1,150 @@
+{
+  "designId": "ois.design.kidney-executive-desk",
+  "familyId": "ois.family.kidney-executive-desk",
+  "id": "ois.design.kidney-executive-desk",
+  "name": "Kidney executive desk",
+  "roomTags": [
+    "office"
+  ],
+  "theme": "walnut-form",
+  "builder": "table",
+  "parameters": {
+    "form": "panel",
+    "w": 1.6,
+    "d": 0.8,
+    "h": 0.75,
+    "shape": "kidney"
+  },
+  "distinction": "Asymmetric kidney work surface on broad timber panels.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted"
+  },
+  "constructionKey": "table|panel|{\"drawers\": false, \"shape\": \"kidney\", \"shelf\": false}",
+  "sha256": "87d79c8fa4994e77c9c8d5c3c3937738b4abcda7ca5cf02548544e422da61ea7",
+  "bytes": 32532,
+  "triangles": 564,
+  "vertices": 873,
+  "drawPrimitives": 1,
+  "bounds": {
+    "min": [
+      -0.9599999785423279,
+      0.0,
+      -0.4320000112056732
+    ],
+    "max": [
+      0.9599999785423279,
+      0.75,
+      0.30399999022483826
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 1.9199999570846558,
+    "depth": 0.7360000014305115,
+    "height": 0.75
+  },
+  "footprint": [
+    [
+      -0.9599999785423279,
+      -0.4320000112056732
+    ],
+    [
+      0.9599999785423279,
+      -0.4320000112056732
+    ],
+    [
+      0.9599999785423279,
+      0.30399999022483826
+    ],
+    [
+      -0.9599999785423279,
+      0.30399999022483826
+    ]
+  ],
+  "variantSlots": [
+    "wood"
+  ],
+  "requiredExtensions": [],
+  "version": "0.2.0",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.kidney-executive-desk",
+  "file": "assets/v0.2.0/kidney-executive-desk.glb",
+  "sourceModel": "sources/v0.2.0/kidney-executive-desk.blend",
+  "thumbnail": "previews/v0.2.0/kidney-executive-desk.png",
+  "backThumbnail": "previews/v0.2.0/kidney-executive-desk-back.png",
+  "category": "tables",
+  "subtype": "panel",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "textures": {
+    "count": 0,
+    "bytes": 0
+  },
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.2.0/kidney-executive-desk.png",
+      "previews/v0.2.0/kidney-executive-desk-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.22,
+      0.09,
+      0.038
+    ],
+    [
+      0.39,
+      0.18,
+      0.07
+    ],
+    [
+      0.47,
+      0.3,
+      0.1
+    ]
+  ],
+  "colourTags": [
+    "walnut",
+    "tobacco",
+    "brass"
+  ],
+  "materials": [
+    "wood"
+  ],
+  "searchAliases": [
+    "office",
+    "panel"
+  ],
+  "materialSlots": [
+    {
+      "id": "wood",
+      "material": "wood",
+      "recolourable": true
+    }
+  ],
+  "geometryHash": "4a8032f871807ab0f94fe363810d7e2a66652c6dc61149b8b44f98a03b46438f",
+  "normalizedMirrorGeometryHash": "3263e42df98dc921f7ff6cd8ff26e5477b4dc79fa451f3b2d90acb1ad6af927b"
+}

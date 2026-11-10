@@ -1,0 +1,648 @@
+{
+  "id": "ois.design.cane-head-bed.size.full",
+  "sha256": "27cb2ab501bfcfd05ea750292950301e3e1d19e99ecd8e5e2764abb4a4ac4762",
+  "sourceModel": "sources/v0.5.0/cane-head-bed.size.full.blend",
+  "sourceSha256": "305e334d16ede9a5e7268ab24e6a6eedb0e86c0614c79f97e84df5e9b07c7e3f",
+  "partCount": 35,
+  "componentCount": 2,
+  "components": [
+    {
+      "parts": [
+        "leg",
+        "leg.001",
+        "leg.002",
+        "leg.003",
+        "frame",
+        "mattress",
+        "piping",
+        "duvet",
+        "pillow",
+        "piping.001",
+        "pillow.001",
+        "piping.002",
+        "woven headboard stile",
+        "woven headboard stile.001",
+        "woven headboard rail",
+        "woven headboard rail.001",
+        "woven head support",
+        "woven head support.001"
+      ],
+      "minimum": [
+        -0.73580002784729,
+        -1.033500075340271,
+        4.889443516731262e-09
+      ],
+      "maximum": [
+        0.73580002784729,
+        1.0212855339050293,
+        1.1316875219345093
+      ]
+    },
+    {
+      "parts": [
+        "woven warp",
+        "woven warp.001",
+        "woven warp.002",
+        "woven warp.003",
+        "woven warp.004",
+        "woven warp.005",
+        "woven warp.006",
+        "woven weft",
+        "woven weft.001",
+        "woven weft.002",
+        "woven weft.003",
+        "woven weft.004",
+        "woven weft.005",
+        "woven weft.006",
+        "woven weft.007",
+        "woven weft.008",
+        "woven weft.009"
+      ],
+      "minimum": [
+        -0.6622200012207031,
+        -1.0160000324249268,
+        0.4856874942779541
+      ],
+      "maximum": [
+        0.6622200012207031,
+        -1.00600004196167,
+        1.0976874828338623
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "frame",
+      "b": "leg",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "frame",
+      "b": "leg.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "frame",
+      "b": "leg.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "frame",
+      "b": "leg.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "mattress",
+      "b": "frame",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "piping",
+      "b": "mattress",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "duvet",
+      "b": "mattress",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pillow",
+      "b": "mattress",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "piping.001",
+      "b": "pillow",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pillow.001",
+      "b": "mattress",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "piping.002",
+      "b": "pillow.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven headboard rail",
+      "b": "woven headboard stile",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven headboard rail",
+      "b": "woven headboard stile.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven headboard rail.001",
+      "b": "woven headboard stile",
+      "method": "surface distance",
+      "distance": 0.0
+    },
+    {
+      "a": "woven headboard rail.001",
+      "b": "woven headboard stile.001",
+      "method": "surface distance",
+      "distance": 0.0
+    },
+    {
+      "a": "woven weft",
+      "b": "woven warp",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven weft",
+      "b": "woven warp.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven weft",
+      "b": "woven warp.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven weft",
+      "b": "woven warp.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven weft",
+      "b": "woven warp.004",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven weft",
+      "b": "woven warp.005",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven weft",
+      "b": "woven warp.006",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven weft.001",
+      "b": "woven warp",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven weft.001",
+      "b": "woven warp.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven weft.001",
+      "b": "woven warp.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven weft.001",
+      "b": "woven warp.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven weft.001",
+      "b": "woven warp.004",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven weft.001",
+      "b": "woven warp.005",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven weft.001",
+      "b": "woven warp.006",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven weft.002",
+      "b": "woven warp",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven weft.002",
+      "b": "woven warp.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven weft.002",
+      "b": "woven warp.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven weft.002",
+      "b": "woven warp.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven weft.002",
+      "b": "woven warp.004",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven weft.002",
+      "b": "woven warp.005",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven weft.002",
+      "b": "woven warp.006",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven weft.003",
+      "b": "woven warp",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven weft.003",
+      "b": "woven warp.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven weft.003",
+      "b": "woven warp.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven weft.003",
+      "b": "woven warp.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven weft.003",
+      "b": "woven warp.004",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven weft.003",
+      "b": "woven warp.005",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven weft.003",
+      "b": "woven warp.006",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven weft.004",
+      "b": "woven warp",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven weft.004",
+      "b": "woven warp.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven weft.004",
+      "b": "woven warp.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven weft.004",
+      "b": "woven warp.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven weft.004",
+      "b": "woven warp.004",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven weft.004",
+      "b": "woven warp.005",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven weft.004",
+      "b": "woven warp.006",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven weft.005",
+      "b": "woven warp",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven weft.005",
+      "b": "woven warp.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven weft.005",
+      "b": "woven warp.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven weft.005",
+      "b": "woven warp.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven weft.005",
+      "b": "woven warp.004",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven weft.005",
+      "b": "woven warp.005",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven weft.005",
+      "b": "woven warp.006",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven weft.006",
+      "b": "woven warp",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven weft.006",
+      "b": "woven warp.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven weft.006",
+      "b": "woven warp.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven weft.006",
+      "b": "woven warp.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven weft.006",
+      "b": "woven warp.004",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven weft.006",
+      "b": "woven warp.005",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven weft.006",
+      "b": "woven warp.006",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven weft.007",
+      "b": "woven warp",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven weft.007",
+      "b": "woven warp.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven weft.007",
+      "b": "woven warp.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven weft.007",
+      "b": "woven warp.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven weft.007",
+      "b": "woven warp.004",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven weft.007",
+      "b": "woven warp.005",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven weft.007",
+      "b": "woven warp.006",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven weft.008",
+      "b": "woven warp",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven weft.008",
+      "b": "woven warp.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven weft.008",
+      "b": "woven warp.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven weft.008",
+      "b": "woven warp.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven weft.008",
+      "b": "woven warp.004",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven weft.008",
+      "b": "woven warp.005",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven weft.008",
+      "b": "woven warp.006",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven weft.009",
+      "b": "woven warp",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven weft.009",
+      "b": "woven warp.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven weft.009",
+      "b": "woven warp.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven weft.009",
+      "b": "woven warp.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven weft.009",
+      "b": "woven warp.004",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven weft.009",
+      "b": "woven warp.005",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven weft.009",
+      "b": "woven warp.006",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven head support",
+      "b": "leg",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven head support",
+      "b": "frame",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven head support",
+      "b": "woven headboard stile",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven head support",
+      "b": "woven headboard rail",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven head support",
+      "b": "woven headboard rail.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven head support.001",
+      "b": "leg.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven head support.001",
+      "b": "frame",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven head support.001",
+      "b": "woven headboard stile.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven head support.001",
+      "b": "woven headboard rail",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven head support.001",
+      "b": "woven headboard rail.001",
+      "method": "triangle intersection",
+      "distance": 0
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T03:07:30Z"
+}

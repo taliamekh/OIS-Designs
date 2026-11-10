@@ -1,0 +1,161 @@
+{
+  "designId": "ois.design.rope-suspended-shelves",
+  "familyId": "ois.family.rope-suspended-shelves",
+  "id": "ois.design.rope-suspended-shelves",
+  "name": "Rope suspended shelves",
+  "roomTags": [
+    "storage"
+  ],
+  "theme": "coastal-linen",
+  "builder": "functional",
+  "parameters": {
+    "form": "suspended-rope-shelf",
+    "w": 0.9,
+    "d": 0.35,
+    "h": 1.45
+  },
+  "distinction": "Four taut rope uprights suspend four broad shelf boards.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted"
+  },
+  "constructionKey": "functional|suspended-rope-shelf|{}",
+  "sha256": "fa06495b2a355ff5670820cc9296bb8f51cee5bcb82fe2858f70b48052ce70a8",
+  "bytes": 61052,
+  "triangles": 1180,
+  "vertices": 1578,
+  "drawPrimitives": 3,
+  "bounds": {
+    "min": [
+      -0.44999998807907104,
+      0.0,
+      -0.17499999701976776
+    ],
+    "max": [
+      0.44999998807907104,
+      1.4500000476837158,
+      0.17499999701976776
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 0.8999999761581421,
+    "depth": 0.3499999940395355,
+    "height": 1.4500000476837158
+  },
+  "footprint": [
+    [
+      -0.44999998807907104,
+      -0.17499999701976776
+    ],
+    [
+      0.44999998807907104,
+      -0.17499999701976776
+    ],
+    [
+      0.44999998807907104,
+      0.17499999701976776
+    ],
+    [
+      -0.44999998807907104,
+      0.17499999701976776
+    ]
+  ],
+  "variantSlots": [
+    "cane",
+    "metal",
+    "wood"
+  ],
+  "requiredExtensions": [],
+  "version": "0.2.0",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.rope-suspended-shelves",
+  "file": "assets/v0.2.0/rope-suspended-shelves.glb",
+  "sourceModel": "sources/v0.2.0/rope-suspended-shelves.blend",
+  "thumbnail": "previews/v0.2.0/rope-suspended-shelves.png",
+  "backThumbnail": "previews/v0.2.0/rope-suspended-shelves-back.png",
+  "category": "functional-furniture",
+  "subtype": "suspended-rope-shelf",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "textures": {
+    "count": 0,
+    "bytes": 0
+  },
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.2.0/rope-suspended-shelves.png",
+      "previews/v0.2.0/rope-suspended-shelves-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.66,
+      0.53,
+      0.34
+    ],
+    [
+      0.36,
+      0.53,
+      0.58
+    ],
+    [
+      0.64,
+      0.6,
+      0.48
+    ]
+  ],
+  "colourTags": [
+    "mist blue",
+    "sand",
+    "pale oak"
+  ],
+  "materials": [
+    "metal",
+    "wood",
+    "woven-fibre"
+  ],
+  "searchAliases": [
+    "storage",
+    "suspended rope shelf"
+  ],
+  "materialSlots": [
+    {
+      "id": "cane",
+      "material": "cane",
+      "recolourable": true
+    },
+    {
+      "id": "metal",
+      "material": "metal",
+      "recolourable": true
+    },
+    {
+      "id": "wood",
+      "material": "wood",
+      "recolourable": true
+    }
+  ]
+}

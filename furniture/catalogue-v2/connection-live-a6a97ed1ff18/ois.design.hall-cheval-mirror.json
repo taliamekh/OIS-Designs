@@ -1,0 +1,124 @@
+{
+  "id": "ois.design.hall-cheval-mirror",
+  "sha256": "unexported-source-a6a97ed1ff18ea7190f4c07e8ea17b6dba901563a653d7aed874183539ef16c1",
+  "sourceModel": null,
+  "sourceSha256": "a6a97ed1ff18ea7190f4c07e8ea17b6dba901563a653d7aed874183539ef16c1",
+  "partCount": 11,
+  "componentCount": 1,
+  "components": [
+    {
+      "parts": [
+        "mirror sled",
+        "mirror sled.001",
+        "mirror frame stile",
+        "mirror frame stile.001",
+        "mirror frame rail",
+        "mirror frame rail.001",
+        "glazed pane",
+        "mirror support",
+        "mirror pivot",
+        "mirror support.001",
+        "mirror pivot.001"
+      ],
+      "minimum": [
+        -0.4124999940395355,
+        -0.23999999463558197,
+        0.0
+      ],
+      "maximum": [
+        0.4124999940395355,
+        0.23999999463558197,
+        1.7100000381469727
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "mirror frame rail",
+      "b": "mirror frame stile",
+      "method": "surface distance",
+      "distance": 2.981687075021e-08
+    },
+    {
+      "a": "mirror frame rail",
+      "b": "mirror frame stile.001",
+      "method": "surface distance",
+      "distance": 2.9802322387695312e-08
+    },
+    {
+      "a": "mirror frame rail.001",
+      "b": "mirror frame stile",
+      "method": "surface distance",
+      "distance": 2.9802322387695312e-08
+    },
+    {
+      "a": "mirror frame rail.001",
+      "b": "mirror frame stile.001",
+      "method": "surface distance",
+      "distance": 2.9802322387695312e-08
+    },
+    {
+      "a": "glazed pane",
+      "b": "mirror frame stile",
+      "method": "surface distance",
+      "distance": 0.0010000169277191162
+    },
+    {
+      "a": "glazed pane",
+      "b": "mirror frame stile.001",
+      "method": "surface distance",
+      "distance": 0.0010000169277191162
+    },
+    {
+      "a": "glazed pane",
+      "b": "mirror frame rail",
+      "method": "surface distance",
+      "distance": 2.9802322387695312e-08
+    },
+    {
+      "a": "glazed pane",
+      "b": "mirror frame rail.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "mirror support",
+      "b": "mirror sled",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "mirror pivot",
+      "b": "mirror frame stile",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "mirror pivot",
+      "b": "mirror support",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "mirror support.001",
+      "b": "mirror sled.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "mirror pivot.001",
+      "b": "mirror frame stile.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "mirror pivot.001",
+      "b": "mirror support.001",
+      "method": "triangle intersection",
+      "distance": 0
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; live-source reports are NOT exported-asset evidence; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T03:19:32Z"
+}

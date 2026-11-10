@@ -1,0 +1,147 @@
+{
+  "designId": "ois.design.open-garment-rail",
+  "familyId": "ois.family.open-garment-rail",
+  "id": "ois.design.open-garment-rail",
+  "name": "Open garment rail",
+  "roomTags": [
+    "entry-hall"
+  ],
+  "theme": "city-loft",
+  "builder": "special",
+  "parameters": {
+    "form": "garment-rack",
+    "w": 1.1,
+    "d": 0.5,
+    "h": 1.6
+  },
+  "distinction": "Full-width hanging bar bridges two continuous tubular side stands.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted"
+  },
+  "constructionKey": "special|garment-rack|{\"cols\": 1, \"front\": \"cane\", \"panels\": 3}",
+  "sha256": "4e0df974a487e1b218522de60d6c344acd722db7b5ad52b7517fce95c11f2269",
+  "bytes": 6536,
+  "triangles": 180,
+  "vertices": 130,
+  "drawPrimitives": 1,
+  "bounds": {
+    "min": [
+      -0.5690000057220459,
+      0.0,
+      -0.26876652240753174
+    ],
+    "max": [
+      0.5690000057220459,
+      1.6210000980645418,
+      0.25
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 1.1380000114440918,
+    "depth": 0.5187665224075317,
+    "height": 1.6210000980645418
+  },
+  "footprint": [
+    [
+      -0.5690000057220459,
+      -0.26876652240753174
+    ],
+    [
+      0.5690000057220459,
+      -0.26876652240753174
+    ],
+    [
+      0.5690000057220459,
+      0.25
+    ],
+    [
+      -0.5690000057220459,
+      0.25
+    ]
+  ],
+  "variantSlots": [
+    "metal"
+  ],
+  "requiredExtensions": [],
+  "version": "0.2.0",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.open-garment-rail",
+  "file": "assets/v0.2.0/open-garment-rail.glb",
+  "sourceModel": "sources/v0.2.0/open-garment-rail.blend",
+  "thumbnail": "previews/v0.2.0/open-garment-rail.png",
+  "backThumbnail": "previews/v0.2.0/open-garment-rail-back.png",
+  "category": "specialty",
+  "subtype": "garment-rack",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "textures": {
+    "count": 0,
+    "bytes": 0
+  },
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.2.0/open-garment-rail.png",
+      "previews/v0.2.0/open-garment-rail-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.23,
+      0.15,
+      0.09
+    ],
+    [
+      0.12,
+      0.14,
+      0.16
+    ],
+    [
+      0.045,
+      0.05,
+      0.055
+    ]
+  ],
+  "colourTags": [
+    "charcoal",
+    "black",
+    "weathered wood"
+  ],
+  "materials": [
+    "metal"
+  ],
+  "searchAliases": [
+    "entry hall",
+    "garment rack"
+  ],
+  "materialSlots": [
+    {
+      "id": "metal",
+      "material": "metal",
+      "recolourable": true
+    }
+  ]
+}

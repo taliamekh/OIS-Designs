@@ -1,0 +1,154 @@
+{
+  "designId": "ois.design.woven-end-settle",
+  "familyId": "ois.family.woven-end-settle",
+  "id": "ois.design.woven-end-settle",
+  "name": "Woven end settle",
+  "roomTags": [
+    "bedroom"
+  ],
+  "theme": "coastal-linen",
+  "builder": "sculptural",
+  "parameters": {
+    "form": "cane-settle",
+    "w": 1.2,
+    "d": 0.45,
+    "h": 0.98
+  },
+  "distinction": "Cane-woven back and solid arms over a slatted timber seat.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted"
+  },
+  "constructionKey": "sculptural|cane-settle|{}",
+  "sha256": "62d9198e825c87088c87acddd378dc058dcf621f82601366ca18b03966010e1b",
+  "bytes": 155528,
+  "triangles": 3432,
+  "vertices": 4137,
+  "drawPrimitives": 2,
+  "bounds": {
+    "min": [
+      -0.6000000212165755,
+      -1.872876898012521e-08,
+      -0.21825002987283654
+    ],
+    "max": [
+      0.6000002417761203,
+      0.9795082650033957,
+      0.2275000368473719
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 1.2000002629926958,
+    "depth": 0.44575006672020845,
+    "height": 0.9795082837321647
+  },
+  "footprint": [
+    [
+      -0.6000000212165755,
+      -0.21825002987283654
+    ],
+    [
+      0.6000002417761203,
+      -0.21825002987283654
+    ],
+    [
+      0.6000002417761203,
+      0.2275000368473719
+    ],
+    [
+      -0.6000000212165755,
+      0.2275000368473719
+    ]
+  ],
+  "variantSlots": [
+    "cane",
+    "wood"
+  ],
+  "requiredExtensions": [],
+  "version": "0.2.0",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.woven-end-settle",
+  "file": "assets/v0.2.0/woven-end-settle.glb",
+  "sourceModel": "sources/v0.2.0/woven-end-settle.blend",
+  "thumbnail": "previews/v0.2.0/woven-end-settle.png",
+  "backThumbnail": "previews/v0.2.0/woven-end-settle-back.png",
+  "category": "sculptural-furniture",
+  "subtype": "cane-settle",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "textures": {
+    "count": 0,
+    "bytes": 0
+  },
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.2.0/woven-end-settle.png",
+      "previews/v0.2.0/woven-end-settle-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.66,
+      0.53,
+      0.34
+    ],
+    [
+      0.36,
+      0.53,
+      0.58
+    ],
+    [
+      0.64,
+      0.6,
+      0.48
+    ]
+  ],
+  "colourTags": [
+    "mist blue",
+    "sand",
+    "pale oak"
+  ],
+  "materials": [
+    "wood",
+    "woven-fibre"
+  ],
+  "searchAliases": [
+    "bedroom",
+    "cane settle"
+  ],
+  "materialSlots": [
+    {
+      "id": "cane",
+      "material": "cane",
+      "recolourable": true
+    },
+    {
+      "id": "wood",
+      "material": "wood",
+      "recolourable": true
+    }
+  ]
+}

@@ -1,0 +1,175 @@
+{
+  "designId": "ois.design.globe-branch-floor",
+  "familyId": "ois.family.globe-branch-floor",
+  "id": "ois.design.globe-branch-floor",
+  "name": "Branch globe floor lamp",
+  "roomTags": [
+    "living"
+  ],
+  "theme": "walnut-form",
+  "builder": "light",
+  "parameters": {
+    "form": "globe-cluster",
+    "h": 1.65
+  },
+  "distinction": "Three offset branches end in separate opal globes.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted",
+    "sourceSnapshot": "sources/pipeline-55642edf77b9875f.py",
+    "sourceSha256": "55642edf77b9875ff9620f3041b9999cee7807ac9d8ce9f01f78fdfc4bbc513f",
+    "parametersFile": "sources/v0.3.2/globe-branch-floor.parameters.json"
+  },
+  "constructionKey": "light|globe-cluster|{}",
+  "sha256": "dc0c4415e4117172815e16a55c42a946cd7ee4a1947965810ebe1af485341d8f",
+  "bytes": 89168,
+  "triangles": 2012,
+  "vertices": 1547,
+  "drawPrimitives": 2,
+  "bounds": {
+    "min": [
+      -0.3296248084327047,
+      -1.862645149230957e-09,
+      -0.282331908603517
+    ],
+    "max": [
+      0.329999978542328,
+      1.7599999755620956,
+      0.1899999976158142
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 0.6596247869750327,
+    "depth": 0.4723319062193312,
+    "height": 1.7599999774247408
+  },
+  "footprint": [
+    [
+      -0.3296248084327047,
+      -0.282331908603517
+    ],
+    [
+      0.329999978542328,
+      -0.282331908603517
+    ],
+    [
+      0.329999978542328,
+      0.1899999976158142
+    ],
+    [
+      -0.3296248084327047,
+      0.1899999976158142
+    ]
+  ],
+  "variantSlots": [
+    "ceramic",
+    "metal"
+  ],
+  "requiredExtensions": [],
+  "textures": {
+    "count": 0,
+    "bytes": 0,
+    "estimatedRgbaBytesWithMipmaps": 0,
+    "images": []
+  },
+  "version": "0.3.2",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.globe-branch-floor",
+  "file": "assets/v0.3.2/globe-branch-floor.glb",
+  "sourceModel": "sources/v0.3.2/globe-branch-floor.blend",
+  "thumbnail": "previews/v0.3.2/globe-branch-floor.png",
+  "backThumbnail": "previews/v0.3.2/globe-branch-floor-back.png",
+  "category": "lighting",
+  "subtype": "globe-cluster",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.3.2/globe-branch-floor.png",
+      "previews/v0.3.2/globe-branch-floor-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.800000011920929,
+      0.8100000023841858,
+      0.7599999904632568
+    ],
+    [
+      0.4699999988079071,
+      0.30000001192092896,
+      0.10000000149011612
+    ]
+  ],
+  "colourTags": [
+    "muted brass",
+    "warm white"
+  ],
+  "materials": [
+    "ceramic",
+    "metal"
+  ],
+  "searchAliases": [
+    "living",
+    "globe cluster"
+  ],
+  "materialSlots": [
+    {
+      "id": "ceramic",
+      "material": "ceramic",
+      "recolourable": true
+    },
+    {
+      "id": "metal",
+      "material": "metal",
+      "recolourable": true
+    }
+  ],
+  "supportChecks": {
+    "method": "source-part upper-end ray to non-leg geometry, 15mm join tolerance",
+    "status": "pass",
+    "parts": [],
+    "limitation": "screening only; hidden joints, whole-model connectivity, load paths and safety remain visual/product-review concerns"
+  },
+  "materialFinish": {
+    "source": "materials/v1/manifest.json",
+    "repeatMetres": {
+      "wood": [
+        0.16,
+        0.75
+      ],
+      "fabric": [
+        0.14,
+        0.14
+      ],
+      "linen": [
+        0.12,
+        0.12
+      ]
+    },
+    "maps": "original base colour / roughness / tangent normal, embedded in GLB"
+  }
+}

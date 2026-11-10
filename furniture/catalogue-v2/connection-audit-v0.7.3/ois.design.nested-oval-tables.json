@@ -1,0 +1,79 @@
+{
+  "id": "ois.design.nested-oval-tables",
+  "sha256": "5cbb62b133d34b4887540af0fa0b29023ad7979555fb0b264c38891d7c3ed6ed",
+  "sourceModel": "sources/v0.7.3/nested-oval-tables.blend",
+  "sourceSha256": "e6d036c52342fd9e1aca4fb855183b1bcb21ef705aa1453c51f347aa51653a61",
+  "partCount": 8,
+  "componentCount": 1,
+  "components": [
+    {
+      "parts": [
+        "top",
+        "sled frame",
+        "sled frame.001",
+        "lower nesting top",
+        "nesting leg",
+        "nesting leg.001",
+        "nesting leg.002",
+        "nesting leg.003"
+      ],
+      "minimum": [
+        -0.5400000214576721,
+        -0.3100000023841858,
+        -7.450580596923828e-09
+      ],
+      "maximum": [
+        0.7505999803543091,
+        0.3813000023365021,
+        0.39000001549720764
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "sled frame",
+      "b": "top",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "sled frame.001",
+      "b": "top",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "lower nesting top",
+      "b": "sled frame.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "nesting leg",
+      "b": "lower nesting top",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "nesting leg.001",
+      "b": "lower nesting top",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "nesting leg.002",
+      "b": "lower nesting top",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "nesting leg.003",
+      "b": "lower nesting top",
+      "method": "triangle intersection",
+      "distance": 0
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; live-source reports are NOT exported-asset evidence; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T03:57:54Z"
+}

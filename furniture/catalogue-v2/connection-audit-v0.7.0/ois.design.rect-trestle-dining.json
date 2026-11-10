@@ -1,0 +1,109 @@
+{
+  "id": "ois.design.rect-trestle-dining",
+  "sha256": "cd5e6df0f3afffdfc8ec527e241baab13dc082bef2b2495937e53ad499d4fde8",
+  "sourceModel": "sources/v0.7.0/rect-trestle-dining.blend",
+  "sourceSha256": "b5f19d243ddd7b060d73261df263efe7cce6c05d5109b1c3d590a7e0bf1069c8",
+  "partCount": 8,
+  "componentCount": 1,
+  "components": [
+    {
+      "parts": [
+        "top",
+        "trestle",
+        "trestle.001",
+        "trestle lower tie",
+        "trestle.002",
+        "trestle.003",
+        "trestle lower tie.001",
+        "stretcher"
+      ],
+      "minimum": [
+        -0.824999988079071,
+        -0.4399999976158142,
+        9.313225746154785e-09
+      ],
+      "maximum": [
+        0.824999988079071,
+        0.4399999976158142,
+        0.7382897734642029
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "trestle",
+      "b": "top",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "trestle.001",
+      "b": "top",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "trestle.001",
+      "b": "trestle",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "trestle lower tie",
+      "b": "trestle",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "trestle lower tie",
+      "b": "trestle.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "trestle.002",
+      "b": "top",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "trestle.003",
+      "b": "top",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "trestle.003",
+      "b": "trestle.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "trestle lower tie.001",
+      "b": "trestle.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "trestle lower tie.001",
+      "b": "trestle.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "stretcher",
+      "b": "trestle lower tie",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "stretcher",
+      "b": "trestle lower tie.001",
+      "method": "triangle intersection",
+      "distance": 0
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; live-source reports are NOT exported-asset evidence; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T03:51:57Z"
+}

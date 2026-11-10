@@ -1,0 +1,154 @@
+{
+  "designId": "ois.design.channel-chaise-longue",
+  "familyId": "ois.family.channel-chaise-longue",
+  "id": "ois.design.channel-chaise-longue",
+  "name": "Channel chaise longue",
+  "roomTags": [
+    "bedroom"
+  ],
+  "theme": "walnut-form",
+  "builder": "functional",
+  "parameters": {
+    "form": "chaise-longue",
+    "w": 0.7,
+    "d": 1.65,
+    "h": 0.95
+  },
+  "distinction": "Twelve inclined padded channels follow an ergonomic reclining frame.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted"
+  },
+  "constructionKey": "functional|chaise-longue|{}",
+  "sha256": "812f494318edb439c8e48996276b42cee0b074a9d9e511cbfeee7d877db0e6dc",
+  "bytes": 143900,
+  "triangles": 2616,
+  "vertices": 3933,
+  "drawPrimitives": 2,
+  "bounds": {
+    "min": [
+      -0.33000001311302185,
+      0.0,
+      -0.8156737167957171
+    ],
+    "max": [
+      0.33000001311302185,
+      0.9600884797750554,
+      0.8153023619596816
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 0.6600000262260437,
+    "depth": 1.6309760787553986,
+    "height": 0.9600884797750554
+  },
+  "footprint": [
+    [
+      -0.33000001311302185,
+      -0.8156737167957171
+    ],
+    [
+      0.33000001311302185,
+      -0.8156737167957171
+    ],
+    [
+      0.33000001311302185,
+      0.8153023619596816
+    ],
+    [
+      -0.33000001311302185,
+      0.8153023619596816
+    ]
+  ],
+  "variantSlots": [
+    "fabric",
+    "wood"
+  ],
+  "requiredExtensions": [],
+  "version": "0.2.0",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.channel-chaise-longue",
+  "file": "assets/v0.2.0/channel-chaise-longue.glb",
+  "sourceModel": "sources/v0.2.0/channel-chaise-longue.blend",
+  "thumbnail": "previews/v0.2.0/channel-chaise-longue.png",
+  "backThumbnail": "previews/v0.2.0/channel-chaise-longue-back.png",
+  "category": "functional-furniture",
+  "subtype": "chaise-longue",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "textures": {
+    "count": 0,
+    "bytes": 0
+  },
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.2.0/channel-chaise-longue.png",
+      "previews/v0.2.0/channel-chaise-longue-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.22,
+      0.09,
+      0.038
+    ],
+    [
+      0.39,
+      0.18,
+      0.07
+    ],
+    [
+      0.47,
+      0.3,
+      0.1
+    ]
+  ],
+  "colourTags": [
+    "walnut",
+    "tobacco",
+    "brass"
+  ],
+  "materials": [
+    "textile",
+    "wood"
+  ],
+  "searchAliases": [
+    "bedroom",
+    "chaise longue"
+  ],
+  "materialSlots": [
+    {
+      "id": "fabric",
+      "material": "fabric",
+      "recolourable": true
+    },
+    {
+      "id": "wood",
+      "material": "wood",
+      "recolourable": true
+    }
+  ]
+}

@@ -1,0 +1,160 @@
+{
+  "designId": "ois.design.woven-toy-lockers",
+  "familyId": "ois.family.woven-toy-lockers",
+  "id": "ois.design.woven-toy-lockers",
+  "name": "Woven toy lockers",
+  "roomTags": [
+    "children"
+  ],
+  "theme": "soft-japandi",
+  "builder": "case",
+  "parameters": {
+    "form": "linen",
+    "baseHeight": 0.05,
+    "w": 1.05,
+    "d": 0.38,
+    "h": 0.75,
+    "rows": 2,
+    "cols": 3
+  },
+  "distinction": "Six small woven-front doors separate toy storage compartments.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted",
+    "sourceSnapshot": "sources/pipeline-e797cb5c88af56f5.py",
+    "sourceSha256": "e797cb5c88af56f5b4455d819a512ab9be55f40e1fa2d0cb542aca7bb84b906f",
+    "parametersFile": "sources/v0.2.1/woven-toy-lockers.parameters.json"
+  },
+  "constructionKey": "case|linen|{\"base\": \"taper\", \"cols\": 3, \"doors\": 2, \"drawersTop\": false, \"front\": \"slab\", \"rows\": 2}",
+  "sha256": "7e53092a8722bf8eae32a29965bb0f523230b91806fc82f8ea368691fc6a1991",
+  "bytes": 429752,
+  "triangles": 9112,
+  "vertices": 11637,
+  "drawPrimitives": 2,
+  "bounds": {
+    "min": [
+      -0.5250001321351185,
+      -1.172062457088785e-07,
+      -0.21950035376801624
+    ],
+    "max": [
+      0.5250003029641861,
+      0.749899452334716,
+      0.1900001012471486
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 1.0500004350993046,
+    "depth": 0.40950045501516485,
+    "height": 0.7498995695409617
+  },
+  "footprint": [
+    [
+      -0.5250001321351185,
+      -0.21950035376801624
+    ],
+    [
+      0.5250003029641861,
+      -0.21950035376801624
+    ],
+    [
+      0.5250003029641861,
+      0.1900001012471486
+    ],
+    [
+      -0.5250001321351185,
+      0.1900001012471486
+    ]
+  ],
+  "variantSlots": [
+    "cane",
+    "wood"
+  ],
+  "requiredExtensions": [],
+  "version": "0.2.1",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.woven-toy-lockers",
+  "file": "assets/v0.2.1/woven-toy-lockers.glb",
+  "sourceModel": "sources/v0.2.1/woven-toy-lockers.blend",
+  "thumbnail": "previews/v0.2.1/woven-toy-lockers.png",
+  "backThumbnail": "previews/v0.2.1/woven-toy-lockers-back.png",
+  "category": "storage",
+  "subtype": "linen",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "textures": {
+    "count": 0,
+    "bytes": 0
+  },
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.2.1/woven-toy-lockers.png",
+      "previews/v0.2.1/woven-toy-lockers-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.34,
+      0.28,
+      0.19
+    ],
+    [
+      0.58,
+      0.54,
+      0.44
+    ],
+    [
+      0.15,
+      0.17,
+      0.15
+    ]
+  ],
+  "colourTags": [
+    "ash",
+    "flax",
+    "stone"
+  ],
+  "materials": [
+    "wood",
+    "woven-fibre"
+  ],
+  "searchAliases": [
+    "children",
+    "linen"
+  ],
+  "materialSlots": [
+    {
+      "id": "cane",
+      "material": "cane",
+      "recolourable": true
+    },
+    {
+      "id": "wood",
+      "material": "wood",
+      "recolourable": true
+    }
+  ]
+}

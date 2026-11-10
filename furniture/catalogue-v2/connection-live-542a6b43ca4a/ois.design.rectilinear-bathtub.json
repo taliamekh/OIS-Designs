@@ -1,0 +1,96 @@
+{
+  "id": "ois.design.rectilinear-bathtub",
+  "sha256": "unexported-source-542a6b43ca4abc9d4f4ac88dc7bd803746dd198c350ababac32d73431ffd328b",
+  "sourceModel": null,
+  "sourceSha256": "542a6b43ca4abc9d4f4ac88dc7bd803746dd198c350ababac32d73431ffd328b",
+  "partCount": 7,
+  "componentCount": 1,
+  "components": [
+    {
+      "parts": [
+        "bathtub bottom",
+        "bathtub side",
+        "bathtub side.001",
+        "bathtub end",
+        "bathtub end.001",
+        "curved faucet",
+        "tap lever"
+      ],
+      "minimum": [
+        -0.8499999642372131,
+        -0.38999998569488525,
+        0.019999999552965164
+      ],
+      "maximum": [
+        0.8499999642372131,
+        0.38999998569488525,
+        0.8709430694580078
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "bathtub side",
+      "b": "bathtub bottom",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "bathtub side.001",
+      "b": "bathtub bottom",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "bathtub end",
+      "b": "bathtub bottom",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "bathtub end",
+      "b": "bathtub side",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "bathtub end",
+      "b": "bathtub side.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "bathtub end.001",
+      "b": "bathtub bottom",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "bathtub end.001",
+      "b": "bathtub side",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "bathtub end.001",
+      "b": "bathtub side.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "curved faucet",
+      "b": "bathtub end",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "tap lever",
+      "b": "curved faucet",
+      "method": "triangle intersection",
+      "distance": 0
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; live-source reports are NOT exported-asset evidence; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T03:32:01Z"
+}

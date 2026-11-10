@@ -1,0 +1,169 @@
+{
+  "designId": "ois.design.tablet-training-chair",
+  "familyId": "ois.family.tablet-training-chair",
+  "id": "ois.design.tablet-training-chair",
+  "name": "Tablet training chair",
+  "roomTags": [
+    "office"
+  ],
+  "theme": "calm-oak",
+  "builder": "seating",
+  "parameters": {
+    "form": "school",
+    "w": 0.5,
+    "d": 0.52,
+    "h": 0.86
+  },
+  "distinction": "Integrated side writing tablet and its metal supporting arm.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted"
+  },
+  "constructionKey": "seating|school|{\"base\": \"taper\"}",
+  "sha256": "615aa6be5498a8a8b30a662986fc967e386f53638fa0d2eca7390a66cadaf519",
+  "bytes": 55248,
+  "triangles": 1052,
+  "vertices": 1379,
+  "drawPrimitives": 4,
+  "bounds": {
+    "min": [
+      -0.21449999511241913,
+      -1.9115953736603686e-08,
+      -0.35500032075750965
+    ],
+    "max": [
+      0.42500019126549593,
+      0.8728070171986424,
+      0.263318204101321
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 0.6395001863779151,
+    "depth": 0.6183185248588307,
+    "height": 0.8728070363145961
+  },
+  "footprint": [
+    [
+      -0.21449999511241913,
+      -0.35500032075750965
+    ],
+    [
+      0.42500019126549593,
+      -0.35500032075750965
+    ],
+    [
+      0.42500019126549593,
+      0.263318204101321
+    ],
+    [
+      -0.21449999511241913,
+      0.263318204101321
+    ]
+  ],
+  "variantSlots": [
+    "fabric",
+    "linen",
+    "metal",
+    "wood"
+  ],
+  "requiredExtensions": [],
+  "version": "0.2.0",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.tablet-training-chair",
+  "file": "assets/v0.2.0/tablet-training-chair.glb",
+  "sourceModel": "sources/v0.2.0/tablet-training-chair.blend",
+  "thumbnail": "previews/v0.2.0/tablet-training-chair.png",
+  "backThumbnail": "previews/v0.2.0/tablet-training-chair-back.png",
+  "category": "seating",
+  "subtype": "school",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "textures": {
+    "count": 0,
+    "bytes": 0
+  },
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.2.0/tablet-training-chair.png",
+      "previews/v0.2.0/tablet-training-chair-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.58,
+      0.39,
+      0.2
+    ],
+    [
+      0.73,
+      0.7,
+      0.61
+    ],
+    [
+      0.12,
+      0.14,
+      0.13
+    ]
+  ],
+  "colourTags": [
+    "pale oak",
+    "ivory",
+    "oatmeal"
+  ],
+  "materials": [
+    "metal",
+    "textile",
+    "wood"
+  ],
+  "searchAliases": [
+    "office",
+    "school"
+  ],
+  "materialSlots": [
+    {
+      "id": "fabric",
+      "material": "fabric",
+      "recolourable": true
+    },
+    {
+      "id": "linen",
+      "material": "linen",
+      "recolourable": true
+    },
+    {
+      "id": "metal",
+      "material": "metal",
+      "recolourable": true
+    },
+    {
+      "id": "wood",
+      "material": "wood",
+      "recolourable": true
+    }
+  ],
+  "geometryHash": "d0530dc1a18b96cc9a0ebe70724e2c4e237ad76505a31d41e4b1e2ee6d15e2e4",
+  "normalizedMirrorGeometryHash": "12c1786422bfceb202868cdf0ea968b7ec7339a7ffb26fc4cba4053c3adf2bc7"
+}

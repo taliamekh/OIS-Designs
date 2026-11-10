@@ -1,0 +1,100 @@
+{
+  "timestamp": "2026-11-10T03:17:59.375Z",
+  "baseURL": "http://127.0.0.1:57780",
+  "evidence": "Actual partial-shared-wall UI annotations compared to physical corners from validated production geometry; isolated synthetic project",
+  "storageOracle": {
+    "kind": "Production IndexedStorage.getItem, with its read-only legacy fallback",
+    "file": "mobile/src/storage/indexedStore.ts",
+    "sha256": "9943012679fd85da975028e6165febf8e149242bfef7b0a63f7ab6b98f76383d"
+  },
+  "checks": [
+    {
+      "id": "partial-shared-opening-saves-validly",
+      "pass": true
+    },
+    {
+      "id": "actual-room-corners-Living room",
+      "pass": false,
+      "observed": {
+        "expected": [
+          "0.90 m",
+          "1.65 m",
+          "3.45 m"
+        ],
+        "actual": {
+          "name": "Living room",
+          "values": [
+            "0.65 m",
+            "0.90 m",
+            "1.45 m"
+          ]
+        }
+      }
+    },
+    {
+      "id": "actual-room-corners-Kitchen",
+      "pass": true,
+      "observed": {
+        "expected": [
+          "0.65 m",
+          "0.90 m",
+          "1.45 m"
+        ],
+        "actual": {
+          "name": "Kitchen",
+          "values": [
+            "0.65 m",
+            "0.90 m",
+            "1.45 m"
+          ]
+        }
+      }
+    }
+  ],
+  "errors": [],
+  "consoleErrors": [],
+  "physicalOpening": {
+    "id": "opening-mwa4e2jr-6hf99hd",
+    "wallId": "wall:60000,10000:60000,40000",
+    "type": "single",
+    "offset": 0.6500000000000001,
+    "width": 0.9,
+    "height": 2.1,
+    "sill": 0,
+    "hinge": "left",
+    "flip": false
+  },
+  "expected": [
+    {
+      "roomId": "room-mwa4e0um-cypxadb",
+      "name": "Living room",
+      "before": 1.6500000000000001,
+      "after": 3.4499999999999997
+    },
+    {
+      "roomId": "room-mwa4e0um-ak30f22",
+      "name": "Kitchen",
+      "before": 1.4499999999999997,
+      "after": 0.6500000000000001
+    }
+  ],
+  "actual": [
+    {
+      "name": "Living room",
+      "values": [
+        "0.65 m",
+        "0.90 m",
+        "1.45 m"
+      ]
+    },
+    {
+      "name": "Kitchen",
+      "values": [
+        "0.65 m",
+        "0.90 m",
+        "1.45 m"
+      ]
+    }
+  ],
+  "completed": true
+}

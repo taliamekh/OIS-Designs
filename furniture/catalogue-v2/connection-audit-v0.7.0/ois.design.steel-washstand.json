@@ -1,0 +1,84 @@
+{
+  "id": "ois.design.steel-washstand",
+  "sha256": "83cc5247276752eca8b476c5cc0a834ebd66ceb60495106a99411fc8f330598b",
+  "sourceModel": "sources/v0.7.0/steel-washstand.blend",
+  "sourceSha256": "caed984dcdaa1cf2ac3d89e990bc81f566162adf7a3166cf9c59b59978626e95",
+  "partCount": 7,
+  "componentCount": 1,
+  "components": [
+    {
+      "parts": [
+        "sled frame",
+        "sled frame.001",
+        "washstand top",
+        "vessel",
+        "curved faucet",
+        "tap lever",
+        "towel shelf"
+      ],
+      "minimum": [
+        -0.375,
+        -0.25,
+        0.0
+      ],
+      "maximum": [
+        0.375,
+        0.25,
+        1.0667729377746582
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "washstand top",
+      "b": "sled frame",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "washstand top",
+      "b": "sled frame.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "vessel",
+      "b": "washstand top",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "curved faucet",
+      "b": "washstand top",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "curved faucet",
+      "b": "vessel",
+      "method": "surface distance",
+      "distance": 0.000843614456243813
+    },
+    {
+      "a": "tap lever",
+      "b": "curved faucet",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "towel shelf",
+      "b": "sled frame",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "towel shelf",
+      "b": "sled frame.001",
+      "method": "triangle intersection",
+      "distance": 0
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; live-source reports are NOT exported-asset evidence; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T04:00:32Z"
+}

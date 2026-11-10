@@ -1,0 +1,157 @@
+{
+  "designId": "ois.design.wide-flatfile-storage",
+  "familyId": "ois.family.wide-flatfile-storage",
+  "id": "ois.design.wide-flatfile-storage",
+  "name": "Wide flatfile chest",
+  "roomTags": [
+    "storage"
+  ],
+  "theme": "walnut-form",
+  "builder": "case",
+  "parameters": {
+    "form": "flatfile",
+    "front": "slab",
+    "w": 1.4,
+    "d": 0.8,
+    "h": 0.72,
+    "rows": 5,
+    "cols": 2
+  },
+  "distinction": "Ten wide shallow plan drawers arranged in two banks.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted"
+  },
+  "constructionKey": "case|flatfile|{\"base\": \"taper\", \"cols\": \"multiple\", \"doors\": 2, \"drawersTop\": false, \"front\": \"slab\", \"rows\": \"stack\"}",
+  "sha256": "44824de9db54cdaed4775ca0393c43115316b53a55f17534f217176bf023d959",
+  "bytes": 173984,
+  "triangles": 3660,
+  "vertices": 4671,
+  "drawPrimitives": 2,
+  "bounds": {
+    "min": [
+      -0.6999999901038986,
+      -2.9522399247472464e-08,
+      -0.4559999881312251
+    ],
+    "max": [
+      0.6999999912094763,
+      0.714257454734506,
+      0.40000004962298263
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 1.3999999813133748,
+    "depth": 0.8560000377542077,
+    "height": 0.7142574842569052
+  },
+  "footprint": [
+    [
+      -0.6999999901038986,
+      -0.4559999881312251
+    ],
+    [
+      0.6999999912094763,
+      -0.4559999881312251
+    ],
+    [
+      0.6999999912094763,
+      0.40000004962298263
+    ],
+    [
+      -0.6999999901038986,
+      0.40000004962298263
+    ]
+  ],
+  "variantSlots": [
+    "metal",
+    "wood"
+  ],
+  "requiredExtensions": [],
+  "version": "0.2.0",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.wide-flatfile-storage",
+  "file": "assets/v0.2.0/wide-flatfile-storage.glb",
+  "sourceModel": "sources/v0.2.0/wide-flatfile-storage.blend",
+  "thumbnail": "previews/v0.2.0/wide-flatfile-storage.png",
+  "backThumbnail": "previews/v0.2.0/wide-flatfile-storage-back.png",
+  "category": "storage",
+  "subtype": "flatfile",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "textures": {
+    "count": 0,
+    "bytes": 0
+  },
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.2.0/wide-flatfile-storage.png",
+      "previews/v0.2.0/wide-flatfile-storage-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.22,
+      0.09,
+      0.038
+    ],
+    [
+      0.39,
+      0.18,
+      0.07
+    ],
+    [
+      0.47,
+      0.3,
+      0.1
+    ]
+  ],
+  "colourTags": [
+    "walnut",
+    "tobacco",
+    "brass"
+  ],
+  "materials": [
+    "metal",
+    "wood"
+  ],
+  "searchAliases": [
+    "storage",
+    "flatfile"
+  ],
+  "materialSlots": [
+    {
+      "id": "metal",
+      "material": "metal",
+      "recolourable": true
+    },
+    {
+      "id": "wood",
+      "material": "wood",
+      "recolourable": true
+    }
+  ]
+}

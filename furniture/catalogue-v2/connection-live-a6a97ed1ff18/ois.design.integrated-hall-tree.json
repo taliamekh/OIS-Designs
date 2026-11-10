@@ -1,0 +1,305 @@
+{
+  "id": "ois.design.integrated-hall-tree",
+  "sha256": "unexported-source-a6a97ed1ff18ea7190f4c07e8ea17b6dba901563a653d7aed874183539ef16c1",
+  "sourceModel": null,
+  "sourceSha256": "a6a97ed1ff18ea7190f4c07e8ea17b6dba901563a653d7aed874183539ef16c1",
+  "partCount": 22,
+  "componentCount": 8,
+  "components": [
+    {
+      "parts": [
+        "leg",
+        "leg.001",
+        "leg.002",
+        "leg.003",
+        "bench seat slat",
+        "storage wall",
+        "storage wall.001",
+        "storage end",
+        "storage end.001",
+        "pull",
+        "pull mounting plate",
+        "pull mounting standoff",
+        "pull mounting standoff.001",
+        "hall-tree back",
+        "hat shelf"
+      ],
+      "minimum": [
+        -0.550000011920929,
+        -0.22574999928474426,
+        0.0
+      ],
+      "maximum": [
+        0.550000011920929,
+        0.22100000083446503,
+        1.7675000429153442
+      ]
+    },
+    {
+      "parts": [
+        "bench seat slat.001"
+      ],
+      "minimum": [
+        -0.550000011920929,
+        -0.12255000323057175,
+        0.4274999797344208
+      ],
+      "maximum": [
+        0.550000011920929,
+        -0.04945000261068344,
+        0.4724999964237213
+      ]
+    },
+    {
+      "parts": [
+        "bench seat slat.002"
+      ],
+      "minimum": [
+        -0.550000011920929,
+        -0.03655000030994415,
+        0.4274999797344208
+      ],
+      "maximum": [
+        0.550000011920929,
+        0.03655000030994415,
+        0.4724999964237213
+      ]
+    },
+    {
+      "parts": [
+        "bench seat slat.003"
+      ],
+      "minimum": [
+        -0.550000011920929,
+        0.04945000261068344,
+        0.4274999797344208
+      ],
+      "maximum": [
+        0.550000011920929,
+        0.12255000323057175,
+        0.4724999964237213
+      ]
+    },
+    {
+      "parts": [
+        "bench seat slat.004"
+      ],
+      "minimum": [
+        -0.550000011920929,
+        0.13545000553131104,
+        0.4274999797344208
+      ],
+      "maximum": [
+        0.550000011920929,
+        0.20855000615119934,
+        0.4724999964237213
+      ]
+    },
+    {
+      "parts": [
+        "coat hook"
+      ],
+      "minimum": [
+        -0.33900001645088196,
+        -0.1720000058412552,
+        1.2510000467300415
+      ],
+      "maximum": [
+        -0.32100000977516174,
+        -0.09849999845027924,
+        1.399999976158142
+      ]
+    },
+    {
+      "parts": [
+        "coat hook.001"
+      ],
+      "minimum": [
+        -0.008999999612569809,
+        -0.1720000058412552,
+        1.2510000467300415
+      ],
+      "maximum": [
+        0.008999999612569809,
+        -0.09849999845027924,
+        1.399999976158142
+      ]
+    },
+    {
+      "parts": [
+        "coat hook.002"
+      ],
+      "minimum": [
+        0.32100000977516174,
+        -0.1720000058412552,
+        1.2510000467300415
+      ],
+      "maximum": [
+        0.33900001645088196,
+        -0.09849999845027924,
+        1.399999976158142
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "storage wall",
+      "b": "leg",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "storage wall",
+      "b": "leg.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "storage wall.001",
+      "b": "leg.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "storage wall.001",
+      "b": "leg.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "storage end",
+      "b": "leg",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "storage end",
+      "b": "leg.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "storage end",
+      "b": "storage wall",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "storage end",
+      "b": "storage wall.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "storage end.001",
+      "b": "leg.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "storage end.001",
+      "b": "leg.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "storage end.001",
+      "b": "storage wall",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "storage end.001",
+      "b": "storage wall.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pull mounting plate",
+      "b": "storage wall.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pull mounting standoff",
+      "b": "storage wall.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pull mounting standoff",
+      "b": "pull",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pull mounting standoff",
+      "b": "pull mounting plate",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pull mounting standoff.001",
+      "b": "storage wall.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pull mounting standoff.001",
+      "b": "pull",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pull mounting standoff.001",
+      "b": "pull mounting plate",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "hall-tree back",
+      "b": "leg",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "hall-tree back",
+      "b": "leg.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "hall-tree back",
+      "b": "bench seat slat",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "hall-tree back",
+      "b": "storage wall",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "hall-tree back",
+      "b": "storage end",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "hall-tree back",
+      "b": "storage end.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "hat shelf",
+      "b": "hall-tree back",
+      "method": "triangle intersection",
+      "distance": 0
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; live-source reports are NOT exported-asset evidence; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T03:20:00Z"
+}

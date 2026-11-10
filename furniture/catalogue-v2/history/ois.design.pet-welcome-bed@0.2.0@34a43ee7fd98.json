@@ -1,0 +1,153 @@
+{
+  "designId": "ois.design.pet-welcome-bed",
+  "familyId": "ois.family.pet-welcome-bed",
+  "id": "ois.design.pet-welcome-bed",
+  "name": "Bolstered pet bed",
+  "roomTags": [
+    "entry-hall"
+  ],
+  "theme": "coastal-linen",
+  "builder": "special",
+  "parameters": {
+    "form": "pet-bed",
+    "w": 0.8,
+    "d": 0.6,
+    "h": 0.3
+  },
+  "distinction": "Low padded floor bed with three enclosing bolsters.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted"
+  },
+  "constructionKey": "special|pet-bed|{\"cols\": 1, \"front\": \"cane\", \"panels\": 3}",
+  "sha256": "34a43ee7fd98a1b0c0e5bd3b6aa3de8957d57cae7db0c2f35ed2a49d2e974658",
+  "bytes": 48936,
+  "triangles": 940,
+  "vertices": 1280,
+  "drawPrimitives": 2,
+  "bounds": {
+    "min": [
+      -0.4300000071525574,
+      0.0,
+      -0.3019999861717224
+    ],
+    "max": [
+      0.4300000071525574,
+      0.35999999195337296,
+      0.3279999792575836
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 0.8600000143051147,
+    "depth": 0.629999965429306,
+    "height": 0.35999999195337296
+  },
+  "footprint": [
+    [
+      -0.4300000071525574,
+      -0.3019999861717224
+    ],
+    [
+      0.4300000071525574,
+      -0.3019999861717224
+    ],
+    [
+      0.4300000071525574,
+      0.3279999792575836
+    ],
+    [
+      -0.4300000071525574,
+      0.3279999792575836
+    ]
+  ],
+  "variantSlots": [
+    "fabric",
+    "linen"
+  ],
+  "requiredExtensions": [],
+  "version": "0.2.0",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.pet-welcome-bed",
+  "file": "assets/v0.2.0/pet-welcome-bed.glb",
+  "sourceModel": "sources/v0.2.0/pet-welcome-bed.blend",
+  "thumbnail": "previews/v0.2.0/pet-welcome-bed.png",
+  "backThumbnail": "previews/v0.2.0/pet-welcome-bed-back.png",
+  "category": "specialty",
+  "subtype": "pet-bed",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "textures": {
+    "count": 0,
+    "bytes": 0
+  },
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.2.0/pet-welcome-bed.png",
+      "previews/v0.2.0/pet-welcome-bed-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.66,
+      0.53,
+      0.34
+    ],
+    [
+      0.36,
+      0.53,
+      0.58
+    ],
+    [
+      0.64,
+      0.6,
+      0.48
+    ]
+  ],
+  "colourTags": [
+    "mist blue",
+    "sand",
+    "pale oak"
+  ],
+  "materials": [
+    "textile"
+  ],
+  "searchAliases": [
+    "entry hall",
+    "pet bed"
+  ],
+  "materialSlots": [
+    {
+      "id": "fabric",
+      "material": "fabric",
+      "recolourable": true
+    },
+    {
+      "id": "linen",
+      "material": "linen",
+      "recolourable": true
+    }
+  ]
+}

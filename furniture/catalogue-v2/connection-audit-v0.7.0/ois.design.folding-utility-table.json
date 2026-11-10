@@ -1,0 +1,70 @@
+{
+  "id": "ois.design.folding-utility-table",
+  "sha256": "722fb3503fc50e83069cc5f25fd7dc035956ab1260dbbddf002db07affa29d57",
+  "sourceModel": "sources/v0.7.0/folding-utility-table.blend",
+  "sourceSha256": "ea46a04e363432b7ad88caf69e10bd678cfea4d823d7294b6b6ca15ac361f9c8",
+  "partCount": 5,
+  "componentCount": 1,
+  "components": [
+    {
+      "parts": [
+        "top",
+        "cross leg",
+        "cross leg.001",
+        "cross leg.002",
+        "cross leg.003"
+      ],
+      "minimum": [
+        -0.550000011920929,
+        -0.30000001192092896,
+        -1.30385160446167e-08
+      ],
+      "maximum": [
+        0.550000011920929,
+        0.30000001192092896,
+        0.8203031420707703
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "cross leg",
+      "b": "top",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "cross leg.001",
+      "b": "top",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "cross leg.001",
+      "b": "cross leg",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "cross leg.002",
+      "b": "top",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "cross leg.003",
+      "b": "top",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "cross leg.003",
+      "b": "cross leg.002",
+      "method": "triangle intersection",
+      "distance": 0
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; live-source reports are NOT exported-asset evidence; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T03:45:53Z"
+}

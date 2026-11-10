@@ -1,0 +1,164 @@
+{
+  "designId": "ois.design.rolling-appliance-garage",
+  "familyId": "ois.family.rolling-appliance-garage",
+  "id": "ois.design.rolling-appliance-garage",
+  "name": "Rolling appliance garage",
+  "roomTags": [
+    "kitchen"
+  ],
+  "theme": "walnut-form",
+  "builder": "kitchen",
+  "parameters": {
+    "form": "appliance-garage",
+    "w": 0.9,
+    "d": 0.52,
+    "h": 0.65
+  },
+  "distinction": "Horizontal rolling tambour curtain above a counter opening.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted",
+    "sourceSnapshot": "sources/pipeline-e797cb5c88af56f5.py",
+    "sourceSha256": "e797cb5c88af56f5b4455d819a512ab9be55f40e1fa2d0cb542aca7bb84b906f",
+    "parametersFile": "sources/v0.2.1/rolling-appliance-garage.parameters.json"
+  },
+  "constructionKey": "kitchen|appliance-garage|{}",
+  "sha256": "df4cd3e5b7ec01e06badb01e5b9fd31600ef8c106f36420dd4b9343a181b0668",
+  "bytes": 299304,
+  "triangles": 6136,
+  "vertices": 8090,
+  "drawPrimitives": 3,
+  "bounds": {
+    "min": [
+      -0.45000001788139343,
+      0.0,
+      -0.31600000700491293
+    ],
+    "max": [
+      0.45000001788139343,
+      0.6500000655651093,
+      0.25999999046325684
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 0.9000000357627869,
+    "depth": 0.5759999974681698,
+    "height": 0.6500000655651093
+  },
+  "footprint": [
+    [
+      -0.45000001788139343,
+      -0.31600000700491293
+    ],
+    [
+      0.45000001788139343,
+      -0.31600000700491293
+    ],
+    [
+      0.45000001788139343,
+      0.25999999046325684
+    ],
+    [
+      -0.45000001788139343,
+      0.25999999046325684
+    ]
+  ],
+  "variantSlots": [
+    "dark",
+    "metal",
+    "wood"
+  ],
+  "requiredExtensions": [],
+  "version": "0.2.1",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.rolling-appliance-garage",
+  "file": "assets/v0.2.1/rolling-appliance-garage.glb",
+  "sourceModel": "sources/v0.2.1/rolling-appliance-garage.blend",
+  "thumbnail": "previews/v0.2.1/rolling-appliance-garage.png",
+  "backThumbnail": "previews/v0.2.1/rolling-appliance-garage-back.png",
+  "category": "cabinetry",
+  "subtype": "appliance-garage",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "textures": {
+    "count": 0,
+    "bytes": 0
+  },
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.2.1/rolling-appliance-garage.png",
+      "previews/v0.2.1/rolling-appliance-garage-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.22,
+      0.09,
+      0.038
+    ],
+    [
+      0.39,
+      0.18,
+      0.07
+    ],
+    [
+      0.47,
+      0.3,
+      0.1
+    ]
+  ],
+  "colourTags": [
+    "walnut",
+    "tobacco",
+    "brass"
+  ],
+  "materials": [
+    "metal",
+    "paint",
+    "wood"
+  ],
+  "searchAliases": [
+    "kitchen",
+    "appliance garage"
+  ],
+  "materialSlots": [
+    {
+      "id": "dark",
+      "material": "dark",
+      "recolourable": true
+    },
+    {
+      "id": "metal",
+      "material": "metal",
+      "recolourable": true
+    },
+    {
+      "id": "wood",
+      "material": "wood",
+      "recolourable": true
+    }
+  ]
+}

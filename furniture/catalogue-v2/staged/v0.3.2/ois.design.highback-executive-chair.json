@@ -1,0 +1,282 @@
+{
+  "designId": "ois.design.highback-executive-chair",
+  "familyId": "ois.family.ergonomic-task-chair",
+  "id": "ois.design.highback-executive-chair",
+  "name": "High-back executive chair",
+  "roomTags": [
+    "office"
+  ],
+  "theme": "walnut-form",
+  "builder": "seating",
+  "parameters": {
+    "form": "executive",
+    "w": 0.7,
+    "d": 0.7,
+    "h": 1.25,
+    "seat": 0.49
+  },
+  "distinction": "Tall padded high back and raised arms on rolling star base.",
+  "stage": "validated-candidate",
+  "countEligible": false,
+  "variants": [],
+  "variantOf": "ois.design.ergonomic-task-chair",
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted",
+    "sourceSnapshot": "sources/pipeline-55642edf77b9875f.py",
+    "sourceSha256": "55642edf77b9875ff9620f3041b9999cee7807ac9d8ce9f01f78fdfc4bbc513f",
+    "parametersFile": "sources/v0.3.2/highback-executive-chair.parameters.json"
+  },
+  "constructionKey": "seating|rolling-task|{\"base\": \"taper\"}",
+  "countExclusion": "same construction; dimension/material configuration retained as a variant",
+  "sha256": "b997d8b66771fa2063ee9c03cf8e5c97f894ab2249cee3bf493c32ea52287734",
+  "bytes": 432428,
+  "triangles": 4124,
+  "vertices": 5040,
+  "drawPrimitives": 4,
+  "bounds": {
+    "min": [
+      -0.3460000157356262,
+      -2.8443800731414726e-08,
+      -0.32458282000694894
+    ],
+    "max": [
+      0.3499999915063381,
+      1.2733212113380432,
+      0.34639072977006435
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 0.6960000072419643,
+    "depth": 0.6709735497770133,
+    "height": 1.2733212397818439
+  },
+  "footprint": [
+    [
+      -0.3460000157356262,
+      -0.32458282000694894
+    ],
+    [
+      0.3499999915063381,
+      -0.32458282000694894
+    ],
+    [
+      0.3499999915063381,
+      0.34639072977006435
+    ],
+    [
+      -0.3460000157356262,
+      0.34639072977006435
+    ]
+  ],
+  "variantSlots": [
+    "dark",
+    "fabric",
+    "linen",
+    "metal"
+  ],
+  "requiredExtensions": [],
+  "textures": {
+    "count": 6,
+    "bytes": 159257,
+    "estimatedRgbaBytesWithMipmaps": 2097152,
+    "images": [
+      {
+        "name": "fabric-normal",
+        "bytes": 1016,
+        "width": 256,
+        "height": 256,
+        "sha256": "5bbac800a495c0a30042ad832a3ea134aa66afad65fa0dde59103733a54e886c"
+      },
+      {
+        "name": "fabric-neutral-base",
+        "bytes": 4495,
+        "width": 256,
+        "height": 256,
+        "sha256": "898e022cb5ea1b2663884e7306bbd2c09f25ab2827974bd1328a81bcab08b1ac"
+      },
+      {
+        "name": "fabric-roughness",
+        "bytes": 2761,
+        "width": 256,
+        "height": 256,
+        "sha256": "397e1c119de5e5939f7f1260cfeb7a715d695240776f51b974989073b638eeb6"
+      },
+      {
+        "name": "linen-normal",
+        "bytes": 76292,
+        "width": 256,
+        "height": 256,
+        "sha256": "70b25282eb1daf2d7d6faad88d6b47ca1298d395b833d36d3ba28a542ed6d36e"
+      },
+      {
+        "name": "linen-neutral-base",
+        "bytes": 34309,
+        "width": 256,
+        "height": 256,
+        "sha256": "047df909f3cecf9ec0cdef6c8e2a92dea40e0116922d5b7a25bc7da6481e1ec9"
+      },
+      {
+        "name": "linen-roughness",
+        "bytes": 40384,
+        "width": 256,
+        "height": 256,
+        "sha256": "c31825bb85668747311407d1a5e5d9a56bc0e65aefbf79936d1d4665e83fdb45"
+      }
+    ]
+  },
+  "version": "0.3.2",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.ergonomic-task-chair",
+  "file": "assets/v0.3.2/highback-executive-chair.glb",
+  "sourceModel": "sources/v0.3.2/highback-executive-chair.blend",
+  "thumbnail": "previews/v0.3.2/highback-executive-chair.png",
+  "backThumbnail": "previews/v0.3.2/highback-executive-chair-back.png",
+  "category": "seating",
+  "subtype": "executive",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.3.2/highback-executive-chair.png",
+      "previews/v0.3.2/highback-executive-chair-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.02500000037252903,
+      0.03500000014901161,
+      0.03999999910593033
+    ],
+    [
+      0.38999998569488525,
+      0.18000000715255737,
+      0.07000000029802322
+    ],
+    [
+      0.8399999737739563,
+      0.800000011920929,
+      0.6899999976158142
+    ],
+    [
+      0.4699999988079071,
+      0.30000001192092896,
+      0.10000000149011612
+    ]
+  ],
+  "colourTags": [
+    "muted brass",
+    "near black",
+    "tobacco",
+    "warm ivory"
+  ],
+  "materials": [
+    "metal",
+    "paint",
+    "textile"
+  ],
+  "searchAliases": [
+    "office",
+    "executive"
+  ],
+  "materialSlots": [
+    {
+      "id": "dark",
+      "material": "dark",
+      "recolourable": true
+    },
+    {
+      "id": "fabric",
+      "material": "fabric",
+      "recolourable": true
+    },
+    {
+      "id": "linen",
+      "material": "linen",
+      "recolourable": true
+    },
+    {
+      "id": "metal",
+      "material": "metal",
+      "recolourable": true
+    }
+  ],
+  "supportChecks": {
+    "method": "source-part upper-end ray to non-leg geometry, 15mm join tolerance",
+    "status": "pass",
+    "parts": [],
+    "limitation": "screening only; hidden joints, whole-model connectivity, load paths and safety remain visual/product-review concerns"
+  },
+  "materialFinish": {
+    "source": "materials/v1/manifest.json",
+    "repeatMetres": {
+      "wood": [
+        0.16,
+        0.75
+      ],
+      "fabric": [
+        0.14,
+        0.14
+      ],
+      "linen": [
+        0.12,
+        0.12
+      ]
+    },
+    "maps": "original base colour / roughness / tangent normal, embedded in GLB"
+  },
+  "appearanceVariants": [
+    {
+      "id": "ois.design.highback-executive-chair.finish.sage",
+      "name": "Sage textile",
+      "materialOverrides": {
+        "fabric": {
+          "baseColorFactor": [
+            0.25,
+            0.37,
+            0.28,
+            1
+          ]
+        }
+      }
+    },
+    {
+      "id": "ois.design.highback-executive-chair.finish.clay",
+      "name": "Clay textile",
+      "materialOverrides": {
+        "fabric": {
+          "baseColorFactor": [
+            0.45,
+            0.23,
+            0.15,
+            1
+          ]
+        }
+      }
+    }
+  ],
+  "variantColourTags": [
+    "sage green",
+    "clay brown"
+  ],
+  "variantCountNote": "appearance overrides share this one design; do not increase distinct count"
+}

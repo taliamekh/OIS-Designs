@@ -1,0 +1,108 @@
+{
+  "id": "ois.design.arc-shade-floor",
+  "sha256": "5e9e95e6999e17672aeedbd94c42d80dc345c521047e8b89ed7d3817562a32b7",
+  "sourceModel": "sources/v0.7.0/arc-shade-floor.blend",
+  "sourceSha256": "4416f4e6a2c9b82011a778a70874799ffa3dc5a3ebe136b72fc6971f6f320919",
+  "partCount": 7,
+  "componentCount": 1,
+  "components": [
+    {
+      "parts": [
+        "weighted base",
+        "curved arc",
+        "open shade",
+        "lamp socket mast",
+        "shade spider",
+        "shade spider.001",
+        "shade spider.002"
+      ],
+      "minimum": [
+        -0.1899999976158142,
+        -0.2199999988079071,
+        0.0
+      ],
+      "maximum": [
+        0.7699999809265137,
+        0.2199999988079071,
+        1.850000023841858
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "curved arc",
+      "b": "weighted base",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "open shade",
+      "b": "curved arc",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "lamp socket mast",
+      "b": "curved arc",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "shade spider",
+      "b": "open shade",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "shade spider",
+      "b": "lamp socket mast",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "shade spider.001",
+      "b": "open shade",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "shade spider.001",
+      "b": "lamp socket mast",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "shade spider.001",
+      "b": "shade spider",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "shade spider.002",
+      "b": "open shade",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "shade spider.002",
+      "b": "lamp socket mast",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "shade spider.002",
+      "b": "shade spider",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "shade spider.002",
+      "b": "shade spider.001",
+      "method": "triangle intersection",
+      "distance": 0
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; live-source reports are NOT exported-asset evidence; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T03:51:55Z"
+}

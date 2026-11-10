@@ -1,0 +1,157 @@
+{
+  "designId": "ois.design.bath-pedal-hamper",
+  "familyId": "ois.family.bath-pedal-hamper",
+  "id": "ois.design.bath-pedal-hamper",
+  "name": "Pedal laundry hamper",
+  "roomTags": [
+    "bathroom"
+  ],
+  "theme": "walnut-form",
+  "builder": "special",
+  "parameters": {
+    "form": "pedal-bin",
+    "w": 0.45,
+    "d": 0.38,
+    "h": 0.58
+  },
+  "distinction": "Lift lid and projecting foot pedal on a timber hamper.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted",
+    "sourceSnapshot": "sources/pipeline-e797cb5c88af56f5.py",
+    "sourceSha256": "e797cb5c88af56f5b4455d819a512ab9be55f40e1fa2d0cb542aca7bb84b906f",
+    "parametersFile": "sources/v0.2.1/bath-pedal-hamper.parameters.json"
+  },
+  "constructionKey": "special|pedal-bin|{\"cols\": 1, \"front\": \"cane\", \"panels\": 3}",
+  "sha256": "a0143c162738411214ca9c418f8025821516e00d441cf65db247bca0abf09f56",
+  "bytes": 34080,
+  "triangles": 624,
+  "vertices": 869,
+  "drawPrimitives": 2,
+  "bounds": {
+    "min": [
+      -0.2175000011920929,
+      0.0,
+      -0.2750000096857548
+    ],
+    "max": [
+      0.2175000011920929,
+      0.6060000061988831,
+      0.19499999284744263
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 0.4350000023841858,
+    "depth": 0.4700000025331974,
+    "height": 0.6060000061988831
+  },
+  "footprint": [
+    [
+      -0.2175000011920929,
+      -0.2750000096857548
+    ],
+    [
+      0.2175000011920929,
+      -0.2750000096857548
+    ],
+    [
+      0.2175000011920929,
+      0.19499999284744263
+    ],
+    [
+      -0.2175000011920929,
+      0.19499999284744263
+    ]
+  ],
+  "variantSlots": [
+    "metal",
+    "wood"
+  ],
+  "requiredExtensions": [],
+  "version": "0.2.1",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.bath-pedal-hamper",
+  "file": "assets/v0.2.1/bath-pedal-hamper.glb",
+  "sourceModel": "sources/v0.2.1/bath-pedal-hamper.blend",
+  "thumbnail": "previews/v0.2.1/bath-pedal-hamper.png",
+  "backThumbnail": "previews/v0.2.1/bath-pedal-hamper-back.png",
+  "category": "specialty",
+  "subtype": "pedal-bin",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "textures": {
+    "count": 0,
+    "bytes": 0
+  },
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.2.1/bath-pedal-hamper.png",
+      "previews/v0.2.1/bath-pedal-hamper-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.22,
+      0.09,
+      0.038
+    ],
+    [
+      0.39,
+      0.18,
+      0.07
+    ],
+    [
+      0.47,
+      0.3,
+      0.1
+    ]
+  ],
+  "colourTags": [
+    "walnut",
+    "tobacco",
+    "brass"
+  ],
+  "materials": [
+    "metal",
+    "wood"
+  ],
+  "searchAliases": [
+    "bathroom",
+    "pedal bin"
+  ],
+  "materialSlots": [
+    {
+      "id": "metal",
+      "material": "metal",
+      "recolourable": true
+    },
+    {
+      "id": "wood",
+      "material": "wood",
+      "recolourable": true
+    }
+  ]
+}

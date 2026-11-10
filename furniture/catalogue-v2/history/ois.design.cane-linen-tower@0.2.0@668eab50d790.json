@@ -1,0 +1,158 @@
+{
+  "designId": "ois.design.cane-linen-tower",
+  "familyId": "ois.family.cane-linen-tower",
+  "id": "ois.design.cane-linen-tower",
+  "name": "Cane linen tower",
+  "roomTags": [
+    "bathroom"
+  ],
+  "theme": "coastal-linen",
+  "builder": "case",
+  "parameters": {
+    "form": "linen",
+    "w": 0.62,
+    "d": 0.34,
+    "h": 1.6,
+    "rows": 3,
+    "cols": 2
+  },
+  "distinction": "Six separately woven cupboard cells rather than one large door.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted"
+  },
+  "constructionKey": "case|linen|{\"base\": \"taper\", \"cols\": 2, \"doors\": 2, \"drawersTop\": false, \"front\": \"slab\", \"rows\": 3}",
+  "sha256": "668eab50d7906124ad737fdbb54a35866469219624dcbb3650ca65f73cb2f56c",
+  "bytes": 627216,
+  "triangles": 13816,
+  "vertices": 16930,
+  "drawPrimitives": 2,
+  "bounds": {
+    "min": [
+      -0.3100000592093301,
+      -1.8318462996491647e-09,
+      -0.19950001437253245
+    ],
+    "max": [
+      0.31000001318967063,
+      1.5904543536272395,
+      0.17000004509600322
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 0.6200000723990007,
+    "depth": 0.3695000594685357,
+    "height": 1.5904543554590858
+  },
+  "footprint": [
+    [
+      -0.3100000592093301,
+      -0.19950001437253245
+    ],
+    [
+      0.31000001318967063,
+      -0.19950001437253245
+    ],
+    [
+      0.31000001318967063,
+      0.17000004509600322
+    ],
+    [
+      -0.3100000592093301,
+      0.17000004509600322
+    ]
+  ],
+  "variantSlots": [
+    "cane",
+    "wood"
+  ],
+  "requiredExtensions": [],
+  "version": "0.2.0",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.cane-linen-tower",
+  "file": "assets/v0.2.0/cane-linen-tower.glb",
+  "sourceModel": "sources/v0.2.0/cane-linen-tower.blend",
+  "thumbnail": "previews/v0.2.0/cane-linen-tower.png",
+  "backThumbnail": "previews/v0.2.0/cane-linen-tower-back.png",
+  "category": "storage",
+  "subtype": "linen",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "textures": {
+    "count": 0,
+    "bytes": 0
+  },
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.2.0/cane-linen-tower.png",
+      "previews/v0.2.0/cane-linen-tower-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.66,
+      0.53,
+      0.34
+    ],
+    [
+      0.36,
+      0.53,
+      0.58
+    ],
+    [
+      0.64,
+      0.6,
+      0.48
+    ]
+  ],
+  "colourTags": [
+    "mist blue",
+    "sand",
+    "pale oak"
+  ],
+  "materials": [
+    "wood",
+    "woven-fibre"
+  ],
+  "searchAliases": [
+    "bathroom",
+    "linen"
+  ],
+  "materialSlots": [
+    {
+      "id": "cane",
+      "material": "cane",
+      "recolourable": true
+    },
+    {
+      "id": "wood",
+      "material": "wood",
+      "recolourable": true
+    }
+  ],
+  "geometryHash": "1ec4170e6bcc169bd381753c0629adba8293ce81821503631bcfcfa814c1bc17",
+  "normalizedMirrorGeometryHash": "013e9a6b8e2aa2fb68170b4b10082467e7c71135593de89736e50b5bd307ac2d"
+}

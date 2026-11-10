@@ -1,0 +1,156 @@
+{
+  "designId": "ois.design.open-wall-cubby",
+  "familyId": "ois.family.open-wall-cubby",
+  "id": "ois.design.open-wall-cubby",
+  "name": "Open wall cubby",
+  "roomTags": [
+    "kitchen"
+  ],
+  "theme": "calm-oak",
+  "builder": "kitchen",
+  "parameters": {
+    "form": "open-wall",
+    "w": 0.75,
+    "d": 0.3,
+    "h": 0.72
+  },
+  "distinction": "Three open display shelves in a short wall cabinet.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted"
+  },
+  "constructionKey": "kitchen|open-wall|{}",
+  "sha256": "95c8bc38834d80fb35ede6bcc53b235e232b9db3b2258ea8fa74f44f11f0a87b",
+  "bytes": 69504,
+  "triangles": 1316,
+  "vertices": 1853,
+  "drawPrimitives": 2,
+  "bounds": {
+    "min": [
+      -0.375,
+      0.0,
+      -0.15000000596046448
+    ],
+    "max": [
+      0.375,
+      0.7199999988079071,
+      0.15000000596046448
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 0.75,
+    "depth": 0.30000001192092896,
+    "height": 0.7199999988079071
+  },
+  "footprint": [
+    [
+      -0.375,
+      -0.15000000596046448
+    ],
+    [
+      0.375,
+      -0.15000000596046448
+    ],
+    [
+      0.375,
+      0.15000000596046448
+    ],
+    [
+      -0.375,
+      0.15000000596046448
+    ]
+  ],
+  "variantSlots": [
+    "dark",
+    "wood"
+  ],
+  "requiredExtensions": [],
+  "version": "0.2.0",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.open-wall-cubby",
+  "file": "assets/v0.2.0/open-wall-cubby.glb",
+  "sourceModel": "sources/v0.2.0/open-wall-cubby.blend",
+  "thumbnail": "previews/v0.2.0/open-wall-cubby.png",
+  "backThumbnail": "previews/v0.2.0/open-wall-cubby-back.png",
+  "category": "cabinetry",
+  "subtype": "open-wall",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "textures": {
+    "count": 0,
+    "bytes": 0
+  },
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "wall",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.2.0/open-wall-cubby.png",
+      "previews/v0.2.0/open-wall-cubby-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.58,
+      0.39,
+      0.2
+    ],
+    [
+      0.73,
+      0.7,
+      0.61
+    ],
+    [
+      0.12,
+      0.14,
+      0.13
+    ]
+  ],
+  "colourTags": [
+    "pale oak",
+    "ivory",
+    "oatmeal"
+  ],
+  "materials": [
+    "paint",
+    "wood"
+  ],
+  "searchAliases": [
+    "kitchen",
+    "open wall"
+  ],
+  "materialSlots": [
+    {
+      "id": "dark",
+      "material": "dark",
+      "recolourable": true
+    },
+    {
+      "id": "wood",
+      "material": "wood",
+      "recolourable": true
+    }
+  ],
+  "geometryHash": "4de01cc98cdbf6a4d7b91b10d9a3a40d1f60c73b3db46ac0713d7e05614577a5",
+  "normalizedMirrorGeometryHash": "2eeb0089c78e3f91e2551e33053c24bb51142e6bf26c83306386ebb768b2fbdb"
+}

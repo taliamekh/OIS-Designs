@@ -1,0 +1,51 @@
+{
+  "id": "ois.design.round-tripod-dining",
+  "sha256": "99f8400e1141c1c2b94f1e203ae1b9f8ce188b9f4a8566ae4c0af4c3dbb1c1f6",
+  "sourceModel": "sources/v0.5.0/round-tripod-dining.blend",
+  "sourceSha256": "03656392f0d6c9b00dc1e4cb48bb0aa6a74195a1787c213f9123c07db4edc85e",
+  "partCount": 4,
+  "componentCount": 1,
+  "components": [
+    {
+      "parts": [
+        "top",
+        "tripod leg",
+        "tripod leg.001",
+        "tripod leg.002"
+      ],
+      "minimum": [
+        -0.5899999737739563,
+        -0.5899999737739563,
+        2.3283064365386963e-09
+      ],
+      "maximum": [
+        0.5899999737739563,
+        0.5899999737739563,
+        0.7556787729263306
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "tripod leg",
+      "b": "top",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "tripod leg.001",
+      "b": "top",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "tripod leg.002",
+      "b": "top",
+      "method": "triangle intersection",
+      "distance": 0
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T03:07:33Z"
+}

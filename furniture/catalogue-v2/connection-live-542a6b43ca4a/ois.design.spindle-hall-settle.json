@@ -1,0 +1,639 @@
+{
+  "id": "ois.design.spindle-hall-settle",
+  "sha256": "unexported-source-542a6b43ca4abc9d4f4ac88dc7bd803746dd198c350ababac32d73431ffd328b",
+  "sourceModel": null,
+  "sourceSha256": "542a6b43ca4abc9d4f4ac88dc7bd803746dd198c350ababac32d73431ffd328b",
+  "partCount": 46,
+  "componentCount": 1,
+  "components": [
+    {
+      "parts": [
+        "leg",
+        "leg.001",
+        "leg.002",
+        "leg.003",
+        "bench apron rail",
+        "bench apron rail.001",
+        "bench slat batten",
+        "bench slat batten.001",
+        "bench seat slat",
+        "bench seat slat.001",
+        "bench seat slat.002",
+        "bench seat slat.003",
+        "bench seat slat.004",
+        "settle back stile",
+        "settle back stile.001",
+        "settle back rail",
+        "settle back rail.001",
+        "vertical slat",
+        "vertical slat.001",
+        "vertical slat.002",
+        "vertical slat.003",
+        "vertical slat.004",
+        "vertical slat.005",
+        "vertical slat.006",
+        "vertical slat.007",
+        "vertical slat.008",
+        "vertical slat.009",
+        "vertical slat.010",
+        "vertical slat.011",
+        "vertical slat.012",
+        "vertical slat.013",
+        "vertical slat.014",
+        "vertical slat.015",
+        "vertical slat.016",
+        "vertical slat.017",
+        "vertical slat.018",
+        "vertical slat.019",
+        "vertical slat.020",
+        "vertical slat.021",
+        "vertical slat.022",
+        "vertical slat.023",
+        "vertical slat.024",
+        "back support",
+        "armrail",
+        "back support.001",
+        "armrail.001"
+      ],
+      "minimum": [
+        -0.574999988079071,
+        -0.22300000488758087,
+        0.010558517649769783
+      ],
+      "maximum": [
+        0.574999988079071,
+        0.2134000062942505,
+        0.9900000095367432
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "bench apron rail",
+      "b": "leg",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "bench apron rail",
+      "b": "leg.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "bench apron rail.001",
+      "b": "leg.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "bench apron rail.001",
+      "b": "leg.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "bench slat batten",
+      "b": "bench apron rail",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "bench slat batten",
+      "b": "bench apron rail.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "bench slat batten.001",
+      "b": "bench apron rail",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "bench slat batten.001",
+      "b": "bench apron rail.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "bench seat slat",
+      "b": "bench apron rail",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "bench seat slat",
+      "b": "bench slat batten",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "bench seat slat",
+      "b": "bench slat batten.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "bench seat slat.001",
+      "b": "bench slat batten",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "bench seat slat.001",
+      "b": "bench slat batten.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "bench seat slat.002",
+      "b": "bench slat batten",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "bench seat slat.002",
+      "b": "bench slat batten.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "bench seat slat.003",
+      "b": "bench slat batten",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "bench seat slat.003",
+      "b": "bench slat batten.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "bench seat slat.004",
+      "b": "bench apron rail.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "bench seat slat.004",
+      "b": "bench slat batten",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "bench seat slat.004",
+      "b": "bench slat batten.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "settle back rail",
+      "b": "settle back stile",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "settle back rail",
+      "b": "settle back stile.001",
+      "method": "surface distance",
+      "distance": 0.0
+    },
+    {
+      "a": "settle back rail.001",
+      "b": "settle back stile",
+      "method": "surface distance",
+      "distance": 0.0
+    },
+    {
+      "a": "settle back rail.001",
+      "b": "settle back stile.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "vertical slat",
+      "b": "settle back rail",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "vertical slat",
+      "b": "settle back rail.001",
+      "method": "surface distance",
+      "distance": 5.960464477539063e-08
+    },
+    {
+      "a": "vertical slat.001",
+      "b": "settle back rail",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "vertical slat.001",
+      "b": "settle back rail.001",
+      "method": "surface distance",
+      "distance": 5.960464477539063e-08
+    },
+    {
+      "a": "vertical slat.002",
+      "b": "settle back rail",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "vertical slat.002",
+      "b": "settle back rail.001",
+      "method": "surface distance",
+      "distance": 5.960464477539063e-08
+    },
+    {
+      "a": "vertical slat.003",
+      "b": "settle back rail",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "vertical slat.003",
+      "b": "settle back rail.001",
+      "method": "surface distance",
+      "distance": 5.960464477539063e-08
+    },
+    {
+      "a": "vertical slat.004",
+      "b": "settle back rail",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "vertical slat.004",
+      "b": "settle back rail.001",
+      "method": "surface distance",
+      "distance": 5.960464477539063e-08
+    },
+    {
+      "a": "vertical slat.005",
+      "b": "settle back rail",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "vertical slat.005",
+      "b": "settle back rail.001",
+      "method": "surface distance",
+      "distance": 5.960464477539063e-08
+    },
+    {
+      "a": "vertical slat.006",
+      "b": "settle back rail",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "vertical slat.006",
+      "b": "settle back rail.001",
+      "method": "surface distance",
+      "distance": 5.960464477539063e-08
+    },
+    {
+      "a": "vertical slat.007",
+      "b": "settle back rail",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "vertical slat.007",
+      "b": "settle back rail.001",
+      "method": "surface distance",
+      "distance": 7.450580596923828e-08
+    },
+    {
+      "a": "vertical slat.008",
+      "b": "settle back rail",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "vertical slat.008",
+      "b": "settle back rail.001",
+      "method": "surface distance",
+      "distance": 6.143906006172983e-08
+    },
+    {
+      "a": "vertical slat.009",
+      "b": "settle back rail",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "vertical slat.009",
+      "b": "settle back rail.001",
+      "method": "surface distance",
+      "distance": 6.365778659755961e-08
+    },
+    {
+      "a": "vertical slat.010",
+      "b": "settle back rail",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "vertical slat.010",
+      "b": "settle back rail.001",
+      "method": "surface distance",
+      "distance": 6.664001972467304e-08
+    },
+    {
+      "a": "vertical slat.011",
+      "b": "settle back rail",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "vertical slat.011",
+      "b": "settle back rail.001",
+      "method": "surface distance",
+      "distance": 6.244724204407248e-08
+    },
+    {
+      "a": "vertical slat.012",
+      "b": "settle back rail",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "vertical slat.012",
+      "b": "settle back rail.001",
+      "method": "surface distance",
+      "distance": 6.082185421973918e-08
+    },
+    {
+      "a": "vertical slat.013",
+      "b": "settle back rail",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "vertical slat.013",
+      "b": "settle back rail.001",
+      "method": "surface distance",
+      "distance": 5.972094641037984e-08
+    },
+    {
+      "a": "vertical slat.014",
+      "b": "settle back rail",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "vertical slat.014",
+      "b": "settle back rail.001",
+      "method": "surface distance",
+      "distance": 6.664001972467304e-08
+    },
+    {
+      "a": "vertical slat.015",
+      "b": "settle back rail",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "vertical slat.015",
+      "b": "settle back rail.001",
+      "method": "surface distance",
+      "distance": 6.006850128414953e-08
+    },
+    {
+      "a": "vertical slat.016",
+      "b": "settle back rail",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "vertical slat.016",
+      "b": "settle back rail.001",
+      "method": "surface distance",
+      "distance": 6.143906006172983e-08
+    },
+    {
+      "a": "vertical slat.017",
+      "b": "settle back rail",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "vertical slat.017",
+      "b": "settle back rail.001",
+      "method": "surface distance",
+      "distance": 6.143906006172983e-08
+    },
+    {
+      "a": "vertical slat.018",
+      "b": "settle back rail",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "vertical slat.018",
+      "b": "settle back rail.001",
+      "method": "surface distance",
+      "distance": 6.143906006172983e-08
+    },
+    {
+      "a": "vertical slat.019",
+      "b": "settle back rail",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "vertical slat.019",
+      "b": "settle back rail.001",
+      "method": "surface distance",
+      "distance": 5.960464477539063e-08
+    },
+    {
+      "a": "vertical slat.020",
+      "b": "settle back rail",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "vertical slat.020",
+      "b": "settle back rail.001",
+      "method": "surface distance",
+      "distance": 5.960464477539063e-08
+    },
+    {
+      "a": "vertical slat.021",
+      "b": "settle back rail",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "vertical slat.021",
+      "b": "settle back rail.001",
+      "method": "surface distance",
+      "distance": 5.960464477539063e-08
+    },
+    {
+      "a": "vertical slat.022",
+      "b": "settle back rail",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "vertical slat.022",
+      "b": "settle back rail.001",
+      "method": "surface distance",
+      "distance": 5.960464477539063e-08
+    },
+    {
+      "a": "vertical slat.023",
+      "b": "settle back rail",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "vertical slat.023",
+      "b": "settle back rail.001",
+      "method": "surface distance",
+      "distance": 5.960464477539063e-08
+    },
+    {
+      "a": "vertical slat.024",
+      "b": "settle back rail",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "vertical slat.024",
+      "b": "settle back rail.001",
+      "method": "surface distance",
+      "distance": 5.960464477539063e-08
+    },
+    {
+      "a": "back support",
+      "b": "leg",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "back support",
+      "b": "bench apron rail",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "back support",
+      "b": "bench seat slat",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "back support",
+      "b": "settle back stile",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "back support",
+      "b": "settle back rail",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "back support",
+      "b": "settle back rail.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "back support",
+      "b": "vertical slat",
+      "method": "surface distance",
+      "distance": 0.0013683481374755502
+    },
+    {
+      "a": "armrail",
+      "b": "settle back stile",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "armrail",
+      "b": "vertical slat",
+      "method": "surface distance",
+      "distance": 0.0024030208587646484
+    },
+    {
+      "a": "armrail",
+      "b": "back support",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "back support.001",
+      "b": "leg.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "back support.001",
+      "b": "bench apron rail",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "back support.001",
+      "b": "bench seat slat",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "back support.001",
+      "b": "settle back stile.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "back support.001",
+      "b": "settle back rail",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "back support.001",
+      "b": "settle back rail.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "back support.001",
+      "b": "vertical slat.024",
+      "method": "surface distance",
+      "distance": 0.001368289696983993
+    },
+    {
+      "a": "armrail.001",
+      "b": "settle back stile.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "armrail.001",
+      "b": "vertical slat.024",
+      "method": "surface distance",
+      "distance": 0.0024030208587646484
+    },
+    {
+      "a": "armrail.001",
+      "b": "back support.001",
+      "method": "triangle intersection",
+      "distance": 0
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; live-source reports are NOT exported-asset evidence; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T03:32:52Z"
+}

@@ -1,0 +1,101 @@
+{
+  "id": "ois.design.luggage-folding-rack",
+  "sha256": "af20700158731d05464fd90336a296089527f4a8f6536c009e3544a64477b0f4",
+  "sourceModel": "sources/v0.5.0/luggage-folding-rack.blend",
+  "sourceSha256": "15628e5b033d63bd5bc0ffa0258049c6e3db5c4a296064674b5d1dad0487c346",
+  "partCount": 8,
+  "componentCount": 3,
+  "components": [
+    {
+      "parts": [
+        "cross leg",
+        "cross leg.001",
+        "cross leg.002",
+        "cross leg.003",
+        "luggage strap",
+        "luggage strap.003"
+      ],
+      "minimum": [
+        -0.2921760082244873,
+        -0.22499999403953552,
+        1.1175870895385742e-08
+      ],
+      "maximum": [
+        0.2921760082244873,
+        0.22499999403953552,
+        0.5688292980194092
+      ]
+    },
+    {
+      "parts": [
+        "luggage strap.001"
+      ],
+      "minimum": [
+        -0.09550000727176666,
+        -0.22499999403953552,
+        0.5454146265983582
+      ],
+      "maximum": [
+        -0.04050000384449959,
+        0.22499999403953552,
+        0.5534146428108215
+      ]
+    },
+    {
+      "parts": [
+        "luggage strap.002"
+      ],
+      "minimum": [
+        0.04050000384449959,
+        -0.22499999403953552,
+        0.5454146265983582
+      ],
+      "maximum": [
+        0.09550000727176666,
+        0.22499999403953552,
+        0.5534146428108215
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "cross leg.001",
+      "b": "cross leg",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "cross leg.003",
+      "b": "cross leg.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "luggage strap",
+      "b": "cross leg.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "luggage strap",
+      "b": "cross leg.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "luggage strap.003",
+      "b": "cross leg",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "luggage strap.003",
+      "b": "cross leg.002",
+      "method": "triangle intersection",
+      "distance": 0
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T03:07:32Z"
+}

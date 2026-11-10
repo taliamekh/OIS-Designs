@@ -1,0 +1,65 @@
+{
+  "id": "ois.design.upholstered-dressing-stool",
+  "sha256": "aa226451e039becb95812e4dd26e215955068c3b8e6edcef4bd0b2a1957241d3",
+  "sourceModel": "sources/v0.5.0/upholstered-dressing-stool.blend",
+  "sourceSha256": "665116aaf7a5cf3b198a4bf7816652cc750730be29d41e228c76429d41014fd8",
+  "partCount": 6,
+  "componentCount": 1,
+  "components": [
+    {
+      "parts": [
+        "leg",
+        "leg.001",
+        "leg.002",
+        "leg.003",
+        "upholstered saddle",
+        "piping"
+      ],
+      "minimum": [
+        -0.31200000643730164,
+        -0.20200000703334808,
+        2.0372681319713593e-09
+      ],
+      "maximum": [
+        0.31200000643730164,
+        0.20200000703334808,
+        0.46856391429901123
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "upholstered saddle",
+      "b": "leg",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "upholstered saddle",
+      "b": "leg.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "upholstered saddle",
+      "b": "leg.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "upholstered saddle",
+      "b": "leg.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "piping",
+      "b": "upholstered saddle",
+      "method": "triangle intersection",
+      "distance": 0
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T03:07:34Z"
+}

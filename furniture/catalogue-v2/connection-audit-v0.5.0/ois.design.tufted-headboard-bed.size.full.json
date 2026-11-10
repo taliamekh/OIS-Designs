@@ -1,0 +1,237 @@
+{
+  "id": "ois.design.tufted-headboard-bed.size.full",
+  "sha256": "391bfdeedd9c5cb6015acd2909735c5b4d865cc63840a364e42bf4e18c1096a4",
+  "sourceModel": "sources/v0.5.0/tufted-headboard-bed.size.full.blend",
+  "sourceSha256": "7e777b15f050731249da5e02b2366d5e6e4832f8b2df4ff1ef35ae7ad37cd73a",
+  "partCount": 22,
+  "componentCount": 1,
+  "components": [
+    {
+      "parts": [
+        "leg",
+        "leg.001",
+        "leg.002",
+        "leg.003",
+        "frame",
+        "mattress",
+        "piping",
+        "duvet",
+        "pillow",
+        "piping.001",
+        "pillow.001",
+        "piping.002",
+        "padded headboard",
+        "tuft button",
+        "tuft button.001",
+        "tuft button.002",
+        "tuft button.003",
+        "tuft button.004",
+        "tuft button.005",
+        "tuft button.006",
+        "tuft button.007",
+        "tuft button.008"
+      ],
+      "minimum": [
+        -0.7657999992370605,
+        -1.0775001049041748,
+        4.889443516731262e-09
+      ],
+      "maximum": [
+        0.7657999992370605,
+        1.0212855339050293,
+        1.2716875076293945
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "frame",
+      "b": "leg",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "frame",
+      "b": "leg.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "frame",
+      "b": "leg.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "frame",
+      "b": "leg.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "mattress",
+      "b": "frame",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "piping",
+      "b": "mattress",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "duvet",
+      "b": "mattress",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pillow",
+      "b": "mattress",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "piping.001",
+      "b": "pillow",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pillow.001",
+      "b": "mattress",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "piping.002",
+      "b": "pillow.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "padded headboard",
+      "b": "leg",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "padded headboard",
+      "b": "leg.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "padded headboard",
+      "b": "frame",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "padded headboard",
+      "b": "mattress",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "padded headboard",
+      "b": "piping",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "tuft button",
+      "b": "mattress",
+      "method": "point containment",
+      "distance": 0
+    },
+    {
+      "a": "tuft button",
+      "b": "piping",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "tuft button",
+      "b": "padded headboard",
+      "method": "surface distance",
+      "distance": 0.003937900066375732
+    },
+    {
+      "a": "tuft button.001",
+      "b": "padded headboard",
+      "method": "surface distance",
+      "distance": 0.003937900066375732
+    },
+    {
+      "a": "tuft button.002",
+      "b": "padded headboard",
+      "method": "surface distance",
+      "distance": 0.003937900066375732
+    },
+    {
+      "a": "tuft button.003",
+      "b": "mattress",
+      "method": "point containment",
+      "distance": 0
+    },
+    {
+      "a": "tuft button.003",
+      "b": "piping",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "tuft button.003",
+      "b": "padded headboard",
+      "method": "surface distance",
+      "distance": 0.003937900066375732
+    },
+    {
+      "a": "tuft button.004",
+      "b": "padded headboard",
+      "method": "surface distance",
+      "distance": 0.003937900066375732
+    },
+    {
+      "a": "tuft button.005",
+      "b": "padded headboard",
+      "method": "surface distance",
+      "distance": 0.003937900066375732
+    },
+    {
+      "a": "tuft button.006",
+      "b": "mattress",
+      "method": "point containment",
+      "distance": 0
+    },
+    {
+      "a": "tuft button.006",
+      "b": "piping",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "tuft button.006",
+      "b": "padded headboard",
+      "method": "surface distance",
+      "distance": 0.003937900066375732
+    },
+    {
+      "a": "tuft button.007",
+      "b": "padded headboard",
+      "method": "surface distance",
+      "distance": 0.003937900066375732
+    },
+    {
+      "a": "tuft button.008",
+      "b": "padded headboard",
+      "method": "surface distance",
+      "distance": 0.003937900066375732
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T03:07:34Z"
+}

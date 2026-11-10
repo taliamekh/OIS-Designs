@@ -1,0 +1,630 @@
+{
+  "id": "ois.design.wing-drying-rack",
+  "sha256": "unexported-source-a6a97ed1ff18ea7190f4c07e8ea17b6dba901563a653d7aed874183539ef16c1",
+  "sourceModel": null,
+  "sourceSha256": "a6a97ed1ff18ea7190f4c07e8ea17b6dba901563a653d7aed874183539ef16c1",
+  "partCount": 37,
+  "componentCount": 1,
+  "components": [
+    {
+      "parts": [
+        "cross leg",
+        "cross leg.001",
+        "cross leg.002",
+        "cross leg.003",
+        "main drying perimeter",
+        "leg support beam",
+        "leg support beam.001",
+        "drying wire",
+        "drying wire.001",
+        "drying wire.002",
+        "drying wire.003",
+        "drying wire.004",
+        "drying wire.005",
+        "drying wire.006",
+        "drying wire.007",
+        "drying wire.008",
+        "drying wire.009",
+        "wing hinge rail",
+        "wing outer rail",
+        "wing edge",
+        "wing edge.001",
+        "wing wire",
+        "wing wire.001",
+        "wing wire.002",
+        "wing wire.003",
+        "wing wire.004",
+        "wing wire.005",
+        "wing hinge rail.001",
+        "wing outer rail.001",
+        "wing edge.002",
+        "wing edge.003",
+        "wing wire.006",
+        "wing wire.007",
+        "wing wire.008",
+        "wing wire.009",
+        "wing wire.010",
+        "wing wire.011"
+      ],
+      "minimum": [
+        -0.812000036239624,
+        -0.29200002551078796,
+        -0.012195706367492676
+      ],
+      "maximum": [
+        0.812000036239624,
+        0.29200002551078796,
+        1.1519999504089355
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "cross leg.001",
+      "b": "cross leg",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "cross leg.003",
+      "b": "cross leg.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "leg support beam",
+      "b": "cross leg",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "leg support beam",
+      "b": "cross leg.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "leg support beam.001",
+      "b": "cross leg.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "leg support beam.001",
+      "b": "cross leg.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "drying wire",
+      "b": "main drying perimeter",
+      "method": "point containment",
+      "distance": 0
+    },
+    {
+      "a": "drying wire.001",
+      "b": "main drying perimeter",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "drying wire.002",
+      "b": "cross leg",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "drying wire.002",
+      "b": "cross leg.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "drying wire.002",
+      "b": "main drying perimeter",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "drying wire.003",
+      "b": "main drying perimeter",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "drying wire.004",
+      "b": "main drying perimeter",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "drying wire.005",
+      "b": "main drying perimeter",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "drying wire.006",
+      "b": "main drying perimeter",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "drying wire.007",
+      "b": "cross leg.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "drying wire.007",
+      "b": "cross leg.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "drying wire.007",
+      "b": "main drying perimeter",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "drying wire.008",
+      "b": "main drying perimeter",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "drying wire.009",
+      "b": "main drying perimeter",
+      "method": "point containment",
+      "distance": 0
+    },
+    {
+      "a": "wing hinge rail",
+      "b": "main drying perimeter",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "wing hinge rail",
+      "b": "drying wire",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "wing hinge rail",
+      "b": "drying wire.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "wing hinge rail",
+      "b": "drying wire.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "wing hinge rail",
+      "b": "drying wire.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "wing hinge rail",
+      "b": "drying wire.004",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "wing hinge rail",
+      "b": "drying wire.005",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "wing hinge rail",
+      "b": "drying wire.006",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "wing hinge rail",
+      "b": "drying wire.007",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "wing hinge rail",
+      "b": "drying wire.008",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "wing hinge rail",
+      "b": "drying wire.009",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "wing edge",
+      "b": "main drying perimeter",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "wing edge",
+      "b": "drying wire",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "wing edge",
+      "b": "wing hinge rail",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "wing edge",
+      "b": "wing outer rail",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "wing edge.001",
+      "b": "main drying perimeter",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "wing edge.001",
+      "b": "drying wire.009",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "wing edge.001",
+      "b": "wing hinge rail",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "wing edge.001",
+      "b": "wing outer rail",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "wing wire",
+      "b": "main drying perimeter",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "wing wire",
+      "b": "drying wire",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "wing wire",
+      "b": "wing hinge rail",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "wing wire",
+      "b": "wing outer rail",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "wing wire",
+      "b": "wing edge",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "wing wire.001",
+      "b": "wing hinge rail",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "wing wire.001",
+      "b": "wing outer rail",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "wing wire.002",
+      "b": "wing hinge rail",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "wing wire.002",
+      "b": "wing outer rail",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "wing wire.003",
+      "b": "wing hinge rail",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "wing wire.003",
+      "b": "wing outer rail",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "wing wire.004",
+      "b": "wing hinge rail",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "wing wire.004",
+      "b": "wing outer rail",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "wing wire.005",
+      "b": "main drying perimeter",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "wing wire.005",
+      "b": "drying wire.009",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "wing wire.005",
+      "b": "wing hinge rail",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "wing wire.005",
+      "b": "wing outer rail",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "wing wire.005",
+      "b": "wing edge.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "wing hinge rail.001",
+      "b": "main drying perimeter",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "wing hinge rail.001",
+      "b": "drying wire",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "wing hinge rail.001",
+      "b": "drying wire.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "wing hinge rail.001",
+      "b": "drying wire.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "wing hinge rail.001",
+      "b": "drying wire.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "wing hinge rail.001",
+      "b": "drying wire.004",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "wing hinge rail.001",
+      "b": "drying wire.005",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "wing hinge rail.001",
+      "b": "drying wire.006",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "wing hinge rail.001",
+      "b": "drying wire.007",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "wing hinge rail.001",
+      "b": "drying wire.008",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "wing hinge rail.001",
+      "b": "drying wire.009",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "wing edge.002",
+      "b": "main drying perimeter",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "wing edge.002",
+      "b": "drying wire",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "wing edge.002",
+      "b": "wing hinge rail.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "wing edge.002",
+      "b": "wing outer rail.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "wing edge.003",
+      "b": "main drying perimeter",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "wing edge.003",
+      "b": "drying wire.009",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "wing edge.003",
+      "b": "wing hinge rail.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "wing edge.003",
+      "b": "wing outer rail.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "wing wire.006",
+      "b": "main drying perimeter",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "wing wire.006",
+      "b": "drying wire",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "wing wire.006",
+      "b": "wing hinge rail.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "wing wire.006",
+      "b": "wing outer rail.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "wing wire.006",
+      "b": "wing edge.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "wing wire.007",
+      "b": "wing hinge rail.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "wing wire.007",
+      "b": "wing outer rail.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "wing wire.008",
+      "b": "wing hinge rail.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "wing wire.008",
+      "b": "wing outer rail.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "wing wire.009",
+      "b": "wing hinge rail.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "wing wire.009",
+      "b": "wing outer rail.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "wing wire.010",
+      "b": "wing hinge rail.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "wing wire.010",
+      "b": "wing outer rail.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "wing wire.011",
+      "b": "main drying perimeter",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "wing wire.011",
+      "b": "drying wire.009",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "wing wire.011",
+      "b": "wing hinge rail.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "wing wire.011",
+      "b": "wing outer rail.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "wing wire.011",
+      "b": "wing edge.003",
+      "method": "triangle intersection",
+      "distance": 0
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; live-source reports are NOT exported-asset evidence; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T03:19:35Z"
+}

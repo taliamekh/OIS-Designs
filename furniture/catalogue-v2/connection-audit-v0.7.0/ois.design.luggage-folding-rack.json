@@ -1,0 +1,147 @@
+{
+  "id": "ois.design.luggage-folding-rack",
+  "sha256": "ba8691dbca00f625400f3c6fcff902cf7a494b87d32e8dd959a9690cceb4c304",
+  "sourceModel": "sources/v0.7.0/luggage-folding-rack.blend",
+  "sourceSha256": "ac55ecfc619c03477050d88942cf51cadb29548127024ef652a8c9e77e4900b3",
+  "partCount": 10,
+  "componentCount": 1,
+  "components": [
+    {
+      "parts": [
+        "cross leg",
+        "cross leg.001",
+        "cross leg.002",
+        "cross leg.003",
+        "strap attachment rail",
+        "strap attachment rail.001",
+        "luggage strap",
+        "luggage strap.001",
+        "luggage strap.002",
+        "luggage strap.003"
+      ],
+      "minimum": [
+        -0.3059999942779541,
+        -0.22499999403953552,
+        1.1175870895385742e-08
+      ],
+      "maximum": [
+        0.3059999942779541,
+        0.22499999403953552,
+        0.5694146752357483
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "cross leg.001",
+      "b": "cross leg",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "cross leg.003",
+      "b": "cross leg.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "strap attachment rail",
+      "b": "cross leg",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "strap attachment rail",
+      "b": "cross leg.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "strap attachment rail.001",
+      "b": "cross leg.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "strap attachment rail.001",
+      "b": "cross leg.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "luggage strap",
+      "b": "cross leg.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "luggage strap",
+      "b": "cross leg.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "luggage strap",
+      "b": "strap attachment rail",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "luggage strap",
+      "b": "strap attachment rail.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "luggage strap.001",
+      "b": "strap attachment rail",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "luggage strap.001",
+      "b": "strap attachment rail.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "luggage strap.002",
+      "b": "strap attachment rail",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "luggage strap.002",
+      "b": "strap attachment rail.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "luggage strap.003",
+      "b": "cross leg",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "luggage strap.003",
+      "b": "cross leg.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "luggage strap.003",
+      "b": "strap attachment rail",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "luggage strap.003",
+      "b": "strap attachment rail.001",
+      "method": "triangle intersection",
+      "distance": 0
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; live-source reports are NOT exported-asset evidence; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T03:51:56Z"
+}

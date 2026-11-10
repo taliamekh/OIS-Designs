@@ -1,0 +1,170 @@
+{
+  "designId": "ois.design.ergonomic-task-chair",
+  "familyId": "ois.family.ergonomic-task-chair",
+  "id": "ois.design.ergonomic-task-chair",
+  "name": "Five-star task chair",
+  "roomTags": [
+    "office"
+  ],
+  "theme": "city-loft",
+  "builder": "seating",
+  "parameters": {
+    "form": "task",
+    "w": 0.64,
+    "d": 0.64,
+    "h": 1.05,
+    "seat": 0.47
+  },
+  "distinction": "Five casters, gas lift and separate back/arm supports.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted"
+  },
+  "constructionKey": "seating|rolling-task|{\"base\": \"taper\"}",
+  "sha256": "d82fb816ffef6302bce562f9c7fd8a86da3ce6b5decb1860636fc5a7582cf495",
+  "bytes": 140424,
+  "triangles": 4124,
+  "vertices": 3469,
+  "drawPrimitives": 4,
+  "bounds": {
+    "min": [
+      -0.32020002603530884,
+      -5.911072353814717e-09,
+      -0.2989999894052744
+    ],
+    "max": [
+      0.32299998149275777,
+      1.0737708508968353,
+      0.31520569883286953
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 0.6432000075280666,
+    "depth": 0.6142056882381439,
+    "height": 1.0737708568079076
+  },
+  "footprint": [
+    [
+      -0.32020002603530884,
+      -0.2989999894052744
+    ],
+    [
+      0.32299998149275777,
+      -0.2989999894052744
+    ],
+    [
+      0.32299998149275777,
+      0.31520569883286953
+    ],
+    [
+      -0.32020002603530884,
+      0.31520569883286953
+    ]
+  ],
+  "variantSlots": [
+    "dark",
+    "fabric",
+    "linen",
+    "metal"
+  ],
+  "requiredExtensions": [],
+  "version": "0.2.0",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.ergonomic-task-chair",
+  "file": "assets/v0.2.0/ergonomic-task-chair.glb",
+  "sourceModel": "sources/v0.2.0/ergonomic-task-chair.blend",
+  "thumbnail": "previews/v0.2.0/ergonomic-task-chair.png",
+  "backThumbnail": "previews/v0.2.0/ergonomic-task-chair-back.png",
+  "category": "seating",
+  "subtype": "task",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "textures": {
+    "count": 0,
+    "bytes": 0
+  },
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.2.0/ergonomic-task-chair.png",
+      "previews/v0.2.0/ergonomic-task-chair-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.23,
+      0.15,
+      0.09
+    ],
+    [
+      0.12,
+      0.14,
+      0.16
+    ],
+    [
+      0.045,
+      0.05,
+      0.055
+    ]
+  ],
+  "colourTags": [
+    "charcoal",
+    "black",
+    "weathered wood"
+  ],
+  "materials": [
+    "metal",
+    "paint",
+    "textile"
+  ],
+  "searchAliases": [
+    "office",
+    "task"
+  ],
+  "materialSlots": [
+    {
+      "id": "dark",
+      "material": "dark",
+      "recolourable": true
+    },
+    {
+      "id": "fabric",
+      "material": "fabric",
+      "recolourable": true
+    },
+    {
+      "id": "linen",
+      "material": "linen",
+      "recolourable": true
+    },
+    {
+      "id": "metal",
+      "material": "metal",
+      "recolourable": true
+    }
+  ],
+  "geometryHash": "04c43f109aa6edb1441181d967145f0b8917bb04e125b1ff5b217aff21a3ec37",
+  "normalizedMirrorGeometryHash": "2ff2d2609a00eb27c685a22611eb0b012c30861055280c5cc730378b7b21e900"
+}

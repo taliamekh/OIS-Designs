@@ -1,0 +1,85 @@
+{
+  "id": "ois.design.arched-open-bookcase",
+  "sha256": "unexported-source-a6a97ed1ff18ea7190f4c07e8ea17b6dba901563a653d7aed874183539ef16c1",
+  "sourceModel": null,
+  "sourceSha256": "a6a97ed1ff18ea7190f4c07e8ea17b6dba901563a653d7aed874183539ef16c1",
+  "partCount": 6,
+  "componentCount": 2,
+  "components": [
+    {
+      "parts": [
+        "arch side",
+        "arch side.001",
+        "arch shelf",
+        "arch shelf.001",
+        "arch shelf.002"
+      ],
+      "minimum": [
+        -0.45000001788139343,
+        -0.17000000178813934,
+        0.0
+      ],
+      "maximum": [
+        0.45000001788139343,
+        0.17000000178813934,
+        1.2999999523162842
+      ]
+    },
+    {
+      "parts": [
+        "arched crown"
+      ],
+      "minimum": [
+        -0.44999998807907104,
+        -0.17000000178813934,
+        1.2999999523162842
+      ],
+      "maximum": [
+        0.44999998807907104,
+        0.17000000178813934,
+        1.75
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "arch shelf",
+      "b": "arch side",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "arch shelf",
+      "b": "arch side.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "arch shelf.001",
+      "b": "arch side",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "arch shelf.001",
+      "b": "arch side.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "arch shelf.002",
+      "b": "arch side",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "arch shelf.002",
+      "b": "arch side.001",
+      "method": "triangle intersection",
+      "distance": 0
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; live-source reports are NOT exported-asset evidence; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T03:19:57Z"
+}

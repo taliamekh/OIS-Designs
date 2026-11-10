@@ -1,0 +1,157 @@
+{
+  "id": "ois.design.woven-bow-chair",
+  "sha256": "d6011d67ddc0343ad1cb3fb3ecd23909e1b863f4dae45f2bfd8ad69ee96148b1",
+  "sourceModel": "sources/v0.5.0/woven-bow-chair.blend",
+  "sourceSha256": "aea4e129fbec6997b3f2a7bc0512129b359018fadc22d8736f588d7106268129",
+  "partCount": 14,
+  "componentCount": 1,
+  "components": [
+    {
+      "parts": [
+        "leg",
+        "leg.001",
+        "leg.002",
+        "leg.003",
+        "seat",
+        "piping",
+        "back spindle",
+        "back spindle.001",
+        "back spindle.002",
+        "back spindle.003",
+        "back spindle.004",
+        "back spindle.005",
+        "back spindle.006",
+        "bent top bow"
+      ],
+      "minimum": [
+        -0.2976486086845398,
+        -0.2540000081062317,
+        -1.1641532182693481e-10
+      ],
+      "maximum": [
+        0.2976486384868622,
+        0.273499995470047,
+        1.0107977390289307
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "seat",
+      "b": "leg",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "seat",
+      "b": "leg.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "seat",
+      "b": "leg.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "seat",
+      "b": "leg.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "piping",
+      "b": "seat",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "back spindle",
+      "b": "seat",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "back spindle.001",
+      "b": "seat",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "back spindle.002",
+      "b": "seat",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "back spindle.003",
+      "b": "seat",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "back spindle.004",
+      "b": "seat",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "back spindle.005",
+      "b": "seat",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "back spindle.006",
+      "b": "seat",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "bent top bow",
+      "b": "back spindle",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "bent top bow",
+      "b": "back spindle.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "bent top bow",
+      "b": "back spindle.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "bent top bow",
+      "b": "back spindle.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "bent top bow",
+      "b": "back spindle.004",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "bent top bow",
+      "b": "back spindle.005",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "bent top bow",
+      "b": "back spindle.006",
+      "method": "triangle intersection",
+      "distance": 0
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T03:07:35Z"
+}

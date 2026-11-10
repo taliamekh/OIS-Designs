@@ -1,0 +1,621 @@
+{
+  "scope": "isolated original texture/UV/export tests; not published catalogue designs",
+  "results": [
+    {
+      "id": "ois.design.rail-frame-sofa",
+      "sha256": "6c88b7a8002a481238805cdcf101567f18e546053232df256e0c597300b11d97",
+      "bytes": 470640,
+      "triangles": 2360,
+      "vertices": 3663,
+      "drawPrimitives": 3,
+      "bounds": {
+        "min": [
+          -1.0704016805218821,
+          -3.8845370628481923e-08,
+          -0.4262657026462253
+        ],
+        "max": [
+          1.0704019371060882,
+          0.826533168554306,
+          0.42626547018502037
+        ]
+      },
+      "dimensionsMetres": {
+        "width": 2.14080361762797,
+        "depth": 0.8525311728312457,
+        "height": 0.8265332073996766
+      },
+      "footprint": [
+        [
+          -1.0704016805218821,
+          -0.4262657026462253
+        ],
+        [
+          1.0704019371060882,
+          -0.4262657026462253
+        ],
+        [
+          1.0704019371060882,
+          0.42626547018502037
+        ],
+        [
+          -1.0704016805218821,
+          0.42626547018502037
+        ]
+      ],
+      "variantSlots": [
+        "fabric",
+        "linen",
+        "wood"
+      ],
+      "requiredExtensions": [],
+      "textures": {
+        "count": 9,
+        "bytes": 334041,
+        "estimatedRgbaBytesWithMipmaps": 3145728,
+        "images": [
+          {
+            "name": "fabric-normal",
+            "bytes": 1016,
+            "width": 256,
+            "height": 256,
+            "sha256": "5bbac800a495c0a30042ad832a3ea134aa66afad65fa0dde59103733a54e886c"
+          },
+          {
+            "name": "fabric-neutral-base",
+            "bytes": 4495,
+            "width": 256,
+            "height": 256,
+            "sha256": "898e022cb5ea1b2663884e7306bbd2c09f25ab2827974bd1328a81bcab08b1ac"
+          },
+          {
+            "name": "fabric-roughness",
+            "bytes": 2761,
+            "width": 256,
+            "height": 256,
+            "sha256": "397e1c119de5e5939f7f1260cfeb7a715d695240776f51b974989073b638eeb6"
+          },
+          {
+            "name": "linen-normal",
+            "bytes": 76292,
+            "width": 256,
+            "height": 256,
+            "sha256": "70b25282eb1daf2d7d6faad88d6b47ca1298d395b833d36d3ba28a542ed6d36e"
+          },
+          {
+            "name": "linen-neutral-base",
+            "bytes": 34309,
+            "width": 256,
+            "height": 256,
+            "sha256": "047df909f3cecf9ec0cdef6c8e2a92dea40e0116922d5b7a25bc7da6481e1ec9"
+          },
+          {
+            "name": "linen-roughness",
+            "bytes": 40384,
+            "width": 256,
+            "height": 256,
+            "sha256": "c31825bb85668747311407d1a5e5d9a56bc0e65aefbf79936d1d4665e83fdb45"
+          },
+          {
+            "name": "wood-normal",
+            "bytes": 102088,
+            "width": 256,
+            "height": 256,
+            "sha256": "6b8efcb5004552d884a527017922bfb5260b8bda4dc77f1365fe1cb8a09f1d56"
+          },
+          {
+            "name": "wood-neutral-base",
+            "bytes": 39353,
+            "width": 256,
+            "height": 256,
+            "sha256": "ddcf839a2addae78944a2d7a0588f9c2055852fc4ccb4e2dae2095d28541de44"
+          },
+          {
+            "name": "wood-roughness",
+            "bytes": 33343,
+            "width": 256,
+            "height": 256,
+            "sha256": "afc2180e58360e76fb178b52f225f7ba9045a7d0d266f10886763b0590335a1a"
+          }
+        ]
+      },
+      "materialFactors": [
+        {
+          "name": "fabric",
+          "pbr": {
+            "baseColorFactor": [
+              0.7300000190734863,
+              0.699999988079071,
+              0.6100000143051147,
+              1
+            ],
+            "baseColorTexture": {
+              "index": 1
+            },
+            "metallicFactor": 0,
+            "metallicRoughnessTexture": {
+              "index": 2
+            }
+          },
+          "normal": {
+            "index": 0,
+            "scale": 0.30000001192092896
+          }
+        },
+        {
+          "name": "linen",
+          "pbr": {
+            "baseColorFactor": [
+              0.8399999737739563,
+              0.800000011920929,
+              0.6899999976158142,
+              1
+            ],
+            "baseColorTexture": {
+              "index": 4
+            },
+            "metallicFactor": 0,
+            "metallicRoughnessTexture": {
+              "index": 5
+            }
+          },
+          "normal": {
+            "index": 3,
+            "scale": 0.30000001192092896
+          }
+        },
+        {
+          "name": "wood",
+          "pbr": {
+            "baseColorFactor": [
+              0.5799999833106995,
+              0.38999998569488525,
+              0.20000000298023224,
+              1
+            ],
+            "baseColorTexture": {
+              "index": 7
+            },
+            "metallicFactor": 0,
+            "metallicRoughnessTexture": {
+              "index": 8
+            }
+          },
+          "normal": {
+            "index": 6,
+            "scale": 0.2199999988079071
+          }
+        }
+      ]
+    },
+    {
+      "id": "ois.design.barrel-enclosure",
+      "sha256": "661bec1d229949cb7199eb736ff0726fb93b4f6cbe03513edf1f3dc88c4a93b6",
+      "bytes": 234876,
+      "triangles": 1444,
+      "vertices": 1236,
+      "drawPrimitives": 2,
+      "bounds": {
+        "min": [
+          -0.4099999708493556,
+          -1.2339244043202413e-08,
+          -0.35899998546872636
+        ],
+        "max": [
+          0.4099999708493556,
+          0.8188552776972458,
+          0.40000002179294825
+        ]
+      },
+      "dimensionsMetres": {
+        "width": 0.8199999416987112,
+        "depth": 0.7590000072616746,
+        "height": 0.8188552900364898
+      },
+      "footprint": [
+        [
+          -0.4099999708493556,
+          -0.35899998546872636
+        ],
+        [
+          0.4099999708493556,
+          -0.35899998546872636
+        ],
+        [
+          0.4099999708493556,
+          0.40000002179294825
+        ],
+        [
+          -0.4099999708493556,
+          0.40000002179294825
+        ]
+      ],
+      "variantSlots": [
+        "fabric",
+        "wood"
+      ],
+      "requiredExtensions": [],
+      "textures": {
+        "count": 6,
+        "bytes": 183056,
+        "estimatedRgbaBytesWithMipmaps": 2097152,
+        "images": [
+          {
+            "name": "fabric-normal",
+            "bytes": 1016,
+            "width": 256,
+            "height": 256,
+            "sha256": "5bbac800a495c0a30042ad832a3ea134aa66afad65fa0dde59103733a54e886c"
+          },
+          {
+            "name": "fabric-neutral-base",
+            "bytes": 4495,
+            "width": 256,
+            "height": 256,
+            "sha256": "898e022cb5ea1b2663884e7306bbd2c09f25ab2827974bd1328a81bcab08b1ac"
+          },
+          {
+            "name": "fabric-roughness",
+            "bytes": 2761,
+            "width": 256,
+            "height": 256,
+            "sha256": "397e1c119de5e5939f7f1260cfeb7a715d695240776f51b974989073b638eeb6"
+          },
+          {
+            "name": "wood-normal",
+            "bytes": 102088,
+            "width": 256,
+            "height": 256,
+            "sha256": "6b8efcb5004552d884a527017922bfb5260b8bda4dc77f1365fe1cb8a09f1d56"
+          },
+          {
+            "name": "wood-neutral-base",
+            "bytes": 39353,
+            "width": 256,
+            "height": 256,
+            "sha256": "ddcf839a2addae78944a2d7a0588f9c2055852fc4ccb4e2dae2095d28541de44"
+          },
+          {
+            "name": "wood-roughness",
+            "bytes": 33343,
+            "width": 256,
+            "height": 256,
+            "sha256": "afc2180e58360e76fb178b52f225f7ba9045a7d0d266f10886763b0590335a1a"
+          }
+        ]
+      },
+      "materialFactors": [
+        {
+          "name": "fabric",
+          "pbr": {
+            "baseColorFactor": [
+              0.5799999833106995,
+              0.5400000214576721,
+              0.4399999976158142,
+              1
+            ],
+            "baseColorTexture": {
+              "index": 1
+            },
+            "metallicFactor": 0,
+            "metallicRoughnessTexture": {
+              "index": 2
+            }
+          },
+          "normal": {
+            "index": 0,
+            "scale": 0.30000001192092896
+          }
+        },
+        {
+          "name": "wood",
+          "pbr": {
+            "baseColorFactor": [
+              0.3400000035762787,
+              0.2800000011920929,
+              0.1899999976158142,
+              1
+            ],
+            "baseColorTexture": {
+              "index": 4
+            },
+            "metallicFactor": 0,
+            "metallicRoughnessTexture": {
+              "index": 5
+            }
+          },
+          "normal": {
+            "index": 3,
+            "scale": 0.2199999988079071
+          }
+        }
+      ]
+    },
+    {
+      "id": "ois.design.draped-canopy-bed",
+      "sha256": "3924928342d97b8d15b76eb7dd56bb202d972b7fc5c61b9e42f7ab1cf265f2d0",
+      "bytes": 599648,
+      "triangles": 6576,
+      "vertices": 6906,
+      "drawPrimitives": 3,
+      "bounds": {
+        "min": [
+          -0.8400000618631063,
+          -1.4908353099252203e-07,
+          -1.1040001174122653
+        ],
+        "max": [
+          0.8399999403327971,
+          2.074000153914689,
+          1.104000135204357
+        ]
+      },
+      "dimensionsMetres": {
+        "width": 1.6800000021959034,
+        "depth": 2.208000252616622,
+        "height": 2.0740003029982197
+      },
+      "footprint": [
+        [
+          -0.8400000618631063,
+          -1.1040001174122653
+        ],
+        [
+          0.8399999403327971,
+          -1.1040001174122653
+        ],
+        [
+          0.8399999403327971,
+          1.104000135204357
+        ],
+        [
+          -0.8400000618631063,
+          1.104000135204357
+        ]
+      ],
+      "variantSlots": [
+        "fabric",
+        "linen",
+        "wood"
+      ],
+      "requiredExtensions": [],
+      "textures": {
+        "count": 9,
+        "bytes": 334041,
+        "estimatedRgbaBytesWithMipmaps": 3145728,
+        "images": [
+          {
+            "name": "fabric-normal",
+            "bytes": 1016,
+            "width": 256,
+            "height": 256,
+            "sha256": "5bbac800a495c0a30042ad832a3ea134aa66afad65fa0dde59103733a54e886c"
+          },
+          {
+            "name": "fabric-neutral-base",
+            "bytes": 4495,
+            "width": 256,
+            "height": 256,
+            "sha256": "898e022cb5ea1b2663884e7306bbd2c09f25ab2827974bd1328a81bcab08b1ac"
+          },
+          {
+            "name": "fabric-roughness",
+            "bytes": 2761,
+            "width": 256,
+            "height": 256,
+            "sha256": "397e1c119de5e5939f7f1260cfeb7a715d695240776f51b974989073b638eeb6"
+          },
+          {
+            "name": "linen-normal",
+            "bytes": 76292,
+            "width": 256,
+            "height": 256,
+            "sha256": "70b25282eb1daf2d7d6faad88d6b47ca1298d395b833d36d3ba28a542ed6d36e"
+          },
+          {
+            "name": "linen-neutral-base",
+            "bytes": 34309,
+            "width": 256,
+            "height": 256,
+            "sha256": "047df909f3cecf9ec0cdef6c8e2a92dea40e0116922d5b7a25bc7da6481e1ec9"
+          },
+          {
+            "name": "linen-roughness",
+            "bytes": 40384,
+            "width": 256,
+            "height": 256,
+            "sha256": "c31825bb85668747311407d1a5e5d9a56bc0e65aefbf79936d1d4665e83fdb45"
+          },
+          {
+            "name": "wood-normal",
+            "bytes": 102088,
+            "width": 256,
+            "height": 256,
+            "sha256": "6b8efcb5004552d884a527017922bfb5260b8bda4dc77f1365fe1cb8a09f1d56"
+          },
+          {
+            "name": "wood-neutral-base",
+            "bytes": 39353,
+            "width": 256,
+            "height": 256,
+            "sha256": "ddcf839a2addae78944a2d7a0588f9c2055852fc4ccb4e2dae2095d28541de44"
+          },
+          {
+            "name": "wood-roughness",
+            "bytes": 33343,
+            "width": 256,
+            "height": 256,
+            "sha256": "afc2180e58360e76fb178b52f225f7ba9045a7d0d266f10886763b0590335a1a"
+          }
+        ]
+      },
+      "materialFactors": [
+        {
+          "name": "fabric",
+          "pbr": {
+            "baseColorFactor": [
+              0.36000001430511475,
+              0.5299999713897705,
+              0.5799999833106995,
+              1
+            ],
+            "baseColorTexture": {
+              "index": 1
+            },
+            "metallicFactor": 0,
+            "metallicRoughnessTexture": {
+              "index": 2
+            }
+          },
+          "normal": {
+            "index": 0,
+            "scale": 0.30000001192092896
+          }
+        },
+        {
+          "name": "linen",
+          "pbr": {
+            "baseColorFactor": [
+              0.8399999737739563,
+              0.800000011920929,
+              0.6899999976158142,
+              1
+            ],
+            "baseColorTexture": {
+              "index": 4
+            },
+            "metallicFactor": 0,
+            "metallicRoughnessTexture": {
+              "index": 5
+            }
+          },
+          "normal": {
+            "index": 3,
+            "scale": 0.30000001192092896
+          }
+        },
+        {
+          "name": "wood",
+          "pbr": {
+            "baseColorFactor": [
+              0.6600000262260437,
+              0.5299999713897705,
+              0.3400000035762787,
+              1
+            ],
+            "baseColorTexture": {
+              "index": 7
+            },
+            "metallicFactor": 0,
+            "metallicRoughnessTexture": {
+              "index": 8
+            }
+          },
+          "normal": {
+            "index": 6,
+            "scale": 0.2199999988079071
+          }
+        }
+      ]
+    },
+    {
+      "id": "ois.design.rect-trestle-dining",
+      "sha256": "1dd8f7c575126207a4ec9bb3c6924233982ec04bd56369b4ca60ac41328a165f",
+      "bytes": 198108,
+      "triangles": 488,
+      "vertices": 579,
+      "drawPrimitives": 1,
+      "bounds": {
+        "min": [
+          -0.824999988079071,
+          0.0,
+          -0.4399999976158142
+        ],
+        "max": [
+          0.824999988079071,
+          0.7382897958159447,
+          0.4399999976158142
+        ]
+      },
+      "dimensionsMetres": {
+        "width": 1.649999976158142,
+        "depth": 0.8799999952316284,
+        "height": 0.7382897958159447
+      },
+      "footprint": [
+        [
+          -0.824999988079071,
+          -0.4399999976158142
+        ],
+        [
+          0.824999988079071,
+          -0.4399999976158142
+        ],
+        [
+          0.824999988079071,
+          0.4399999976158142
+        ],
+        [
+          -0.824999988079071,
+          0.4399999976158142
+        ]
+      ],
+      "variantSlots": [
+        "wood"
+      ],
+      "requiredExtensions": [],
+      "textures": {
+        "count": 3,
+        "bytes": 174784,
+        "estimatedRgbaBytesWithMipmaps": 1048576,
+        "images": [
+          {
+            "name": "wood-normal",
+            "bytes": 102088,
+            "width": 256,
+            "height": 256,
+            "sha256": "6b8efcb5004552d884a527017922bfb5260b8bda4dc77f1365fe1cb8a09f1d56"
+          },
+          {
+            "name": "wood-neutral-base",
+            "bytes": 39353,
+            "width": 256,
+            "height": 256,
+            "sha256": "ddcf839a2addae78944a2d7a0588f9c2055852fc4ccb4e2dae2095d28541de44"
+          },
+          {
+            "name": "wood-roughness",
+            "bytes": 33343,
+            "width": 256,
+            "height": 256,
+            "sha256": "afc2180e58360e76fb178b52f225f7ba9045a7d0d266f10886763b0590335a1a"
+          }
+        ]
+      },
+      "materialFactors": [
+        {
+          "name": "wood",
+          "pbr": {
+            "baseColorFactor": [
+              0.5799999833106995,
+              0.38999998569488525,
+              0.20000000298023224,
+              1
+            ],
+            "baseColorTexture": {
+              "index": 1
+            },
+            "metallicFactor": 0,
+            "metallicRoughnessTexture": {
+              "index": 2
+            }
+          },
+          "normal": {
+            "index": 0,
+            "scale": 0.2199999988079071
+          }
+        }
+      ]
+    }
+  ]
+}

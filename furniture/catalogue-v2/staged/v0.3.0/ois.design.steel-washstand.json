@@ -1,0 +1,234 @@
+{
+  "designId": "ois.design.steel-washstand",
+  "familyId": "ois.family.steel-washstand",
+  "id": "ois.design.steel-washstand",
+  "name": "Open steel washstand",
+  "roomTags": [
+    "bathroom"
+  ],
+  "theme": "city-loft",
+  "builder": "bath",
+  "parameters": {
+    "form": "washstand",
+    "w": 0.75
+  },
+  "distinction": "Open tubular support and towel shelf expose the basin underside.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted",
+    "sourceSnapshot": "sources/pipeline-03467462e382a0ba.py",
+    "sourceSha256": "03467462e382a0ba245e8af2ab96ea7d469161e176c6f1698b26d422f848f108",
+    "parametersFile": "sources/v0.3.0/steel-washstand.parameters.json"
+  },
+  "constructionKey": "bath|washstand|{}",
+  "sha256": "739a84e5f1ec557583e2a6039027d66e37fd566471235d8d916cb186eb104bbe",
+  "bytes": 214840,
+  "triangles": 1032,
+  "vertices": 952,
+  "drawPrimitives": 4,
+  "bounds": {
+    "min": [
+      -0.375,
+      0.0,
+      -0.25
+    ],
+    "max": [
+      0.375,
+      1.0669856742024422,
+      0.25
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 0.75,
+    "depth": 0.5,
+    "height": 1.0669856742024422
+  },
+  "footprint": [
+    [
+      -0.375,
+      -0.25
+    ],
+    [
+      0.375,
+      -0.25
+    ],
+    [
+      0.375,
+      0.25
+    ],
+    [
+      -0.375,
+      0.25
+    ]
+  ],
+  "variantSlots": [
+    "ceramic",
+    "metal",
+    "stone",
+    "wood"
+  ],
+  "requiredExtensions": [],
+  "textures": {
+    "count": 3,
+    "bytes": 174784,
+    "estimatedRgbaBytesWithMipmaps": 1048576,
+    "images": [
+      {
+        "name": "wood-normal",
+        "bytes": 102088,
+        "width": 256,
+        "height": 256,
+        "sha256": "6b8efcb5004552d884a527017922bfb5260b8bda4dc77f1365fe1cb8a09f1d56"
+      },
+      {
+        "name": "wood-neutral-base",
+        "bytes": 39353,
+        "width": 256,
+        "height": 256,
+        "sha256": "ddcf839a2addae78944a2d7a0588f9c2055852fc4ccb4e2dae2095d28541de44"
+      },
+      {
+        "name": "wood-roughness",
+        "bytes": 33343,
+        "width": 256,
+        "height": 256,
+        "sha256": "afc2180e58360e76fb178b52f225f7ba9045a7d0d266f10886763b0590335a1a"
+      }
+    ]
+  },
+  "version": "0.3.0",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.steel-washstand",
+  "file": "assets/v0.3.0/steel-washstand.glb",
+  "sourceModel": "sources/v0.3.0/steel-washstand.blend",
+  "thumbnail": "previews/v0.3.0/steel-washstand.png",
+  "backThumbnail": "previews/v0.3.0/steel-washstand-back.png",
+  "category": "bathroom-fixtures",
+  "subtype": "washstand",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.3.0/steel-washstand.png",
+      "previews/v0.3.0/steel-washstand-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.800000011920929,
+      0.8100000023841858,
+      0.7599999904632568
+    ],
+    [
+      0.04500000178813934,
+      0.05000000074505806,
+      0.054999999701976776
+    ],
+    [
+      0.4699999988079071,
+      0.47999998927116394,
+      0.4399999976158142
+    ],
+    [
+      0.23000000417232513,
+      0.15000000596046448,
+      0.09000000357627869
+    ]
+  ],
+  "colourTags": [
+    "black",
+    "warm grey",
+    "warm white",
+    "weathered brown"
+  ],
+  "materials": [
+    "ceramic",
+    "metal",
+    "stone",
+    "wood"
+  ],
+  "searchAliases": [
+    "bathroom",
+    "washstand"
+  ],
+  "materialSlots": [
+    {
+      "id": "ceramic",
+      "material": "ceramic",
+      "recolourable": true
+    },
+    {
+      "id": "metal",
+      "material": "metal",
+      "recolourable": true
+    },
+    {
+      "id": "stone",
+      "material": "stone",
+      "recolourable": true
+    },
+    {
+      "id": "wood",
+      "material": "wood",
+      "recolourable": true
+    }
+  ],
+  "supportChecks": {
+    "method": "source-part upper-end ray to non-leg geometry, 15mm join tolerance",
+    "status": "pass",
+    "parts": [
+      {
+        "part": "sled frame",
+        "gapMetresAlongSupport": 0.010000145435333258,
+        "status": "pass"
+      },
+      {
+        "part": "sled frame.001",
+        "gapMetresAlongSupport": 0.010000145435333258,
+        "status": "pass"
+      }
+    ],
+    "limitation": "screening only; hidden joints, whole-model connectivity, load paths and safety remain visual/product-review concerns"
+  },
+  "materialFinish": {
+    "source": "materials/v1/manifest.json",
+    "repeatMetres": {
+      "wood": [
+        0.16,
+        0.75
+      ],
+      "fabric": [
+        0.14,
+        0.14
+      ],
+      "linen": [
+        0.12,
+        0.12
+      ]
+    },
+    "maps": "original base colour / roughness / tangent normal, embedded in GLB"
+  }
+}

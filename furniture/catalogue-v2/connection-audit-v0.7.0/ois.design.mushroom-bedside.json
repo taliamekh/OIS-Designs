@@ -1,0 +1,57 @@
+{
+  "id": "ois.design.mushroom-bedside",
+  "sha256": "b7de65b83ef25f52aa3f146090be1a4c8f18a86b25d74fc1570f0667ec83cd8b",
+  "sourceModel": "sources/v0.7.0/mushroom-bedside.blend",
+  "sourceSha256": "f4ba60bd1a010ef5c996d84989bfb63f29329559b1657d635e50318473d57040",
+  "partCount": 4,
+  "componentCount": 1,
+  "components": [
+    {
+      "parts": [
+        "weighted base",
+        "stem",
+        "mushroom cap",
+        "lamp socket mast"
+      ],
+      "minimum": [
+        -0.23000000417232513,
+        -0.23000000417232513,
+        0.0
+      ],
+      "maximum": [
+        0.23000000417232513,
+        0.23000000417232513,
+        0.47999998927116394
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "stem",
+      "b": "weighted base",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "mushroom cap",
+      "b": "stem",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "lamp socket mast",
+      "b": "stem",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "lamp socket mast",
+      "b": "mushroom cap",
+      "method": "triangle intersection",
+      "distance": 0
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; live-source reports are NOT exported-asset evidence; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T03:51:56Z"
+}

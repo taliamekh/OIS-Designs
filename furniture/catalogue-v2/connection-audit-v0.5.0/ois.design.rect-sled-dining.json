@@ -1,0 +1,44 @@
+{
+  "id": "ois.design.rect-sled-dining",
+  "sha256": "00b78c0b810d29ba2afea5321609e48146f64da59727774450b87e9a538042a6",
+  "sourceModel": "sources/v0.5.0/rect-sled-dining.blend",
+  "sourceSha256": "17b215c11a84d1a281f7d74a15b1b1a4c436b790d659934359e50a68b0a53630",
+  "partCount": 3,
+  "componentCount": 1,
+  "components": [
+    {
+      "parts": [
+        "top",
+        "sled frame",
+        "sled frame.001"
+      ],
+      "minimum": [
+        -0.824999988079071,
+        -0.4399999976158142,
+        0.0
+      ],
+      "maximum": [
+        0.824999988079071,
+        0.4399999976158142,
+        0.7413952946662903
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "sled frame",
+      "b": "top",
+      "method": "surface distance",
+      "distance": 5.960464477539063e-08
+    },
+    {
+      "a": "sled frame.001",
+      "b": "top",
+      "method": "surface distance",
+      "distance": 8.429369557916289e-08
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T03:07:33Z"
+}

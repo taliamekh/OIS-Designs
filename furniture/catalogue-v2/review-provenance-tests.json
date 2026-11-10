@@ -1,0 +1,65 @@
+{
+  "results": [
+    {
+      "case": "current matched geometry/images/archived sheet",
+      "pass": true,
+      "reason": "asset, version, member images and immutable sheet archive match"
+    },
+    {
+      "case": "new geometry hash cannot inherit prior approval",
+      "pass": true,
+      "reason": "current GLB missing or bytes changed"
+    },
+    {
+      "case": "new version cannot inherit prior approval",
+      "pass": true,
+      "reason": "asset/version changed or legacy unbound decision"
+    },
+    {
+      "case": "legacy hash-only decision is insufficient",
+      "pass": true,
+      "reason": "asset/version changed or legacy unbound decision"
+    },
+    {
+      "case": "changed front render invalidates decision",
+      "pass": true,
+      "reason": "sheet/current image mismatch: front"
+    },
+    {
+      "case": "changed rear render invalidates decision",
+      "pass": true,
+      "reason": "sheet/current image mismatch: back"
+    },
+    {
+      "case": "changed archived sheet invalidates decision",
+      "pass": true,
+      "reason": "archived inspected sheet missing/changed"
+    },
+    {
+      "case": "sheet member mismatch invalidates approval",
+      "pass": true,
+      "reason": "sheet member asset binding missing/mismatched"
+    },
+    {
+      "case": "current matching review remains usable independently of mutable sheet names",
+      "pass": true,
+      "reason": "asset, version, member images and immutable sheet archive match"
+    },
+    {
+      "case": "changed GLB bytes despite unchanged metadata",
+      "pass": true,
+      "reason": "current GLB missing or bytes changed"
+    },
+    {
+      "case": "missing image and missing digests cannot compare equal",
+      "pass": true,
+      "reason": "sheet/current image mismatch: front"
+    },
+    {
+      "case": "missing archive and missing digest cannot compare equal",
+      "pass": true,
+      "reason": "archived inspected sheet missing/changed"
+    }
+  ],
+  "passed": 12
+}

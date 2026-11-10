@@ -1,0 +1,154 @@
+{
+  "designId": "ois.design.hinged-laundry-hamper",
+  "familyId": "ois.family.hinged-laundry-hamper",
+  "id": "ois.design.hinged-laundry-hamper",
+  "name": "Hinged laundry hamper",
+  "roomTags": [
+    "laundry-utility"
+  ],
+  "theme": "walnut-form",
+  "builder": "special",
+  "parameters": {
+    "form": "hamper",
+    "w": 0.5,
+    "d": 0.4,
+    "h": 0.7
+  },
+  "distinction": "Timber body and separate horizontal lift lid.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted"
+  },
+  "constructionKey": "special|hamper|{\"cols\": 1, \"front\": \"cane\", \"panels\": 3}",
+  "sha256": "6b4a339d148e9bb7855b6b9f04cac3aa704052aa168227f9b7a787677d71e286",
+  "bytes": 23916,
+  "triangles": 436,
+  "vertices": 591,
+  "drawPrimitives": 2,
+  "bounds": {
+    "min": [
+      -0.24250000715255737,
+      0.0,
+      -0.2360000042244792
+    ],
+    "max": [
+      0.24250000715255737,
+      0.7260000109672546,
+      0.20499999821186066
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 0.48500001430511475,
+    "depth": 0.44100000243633986,
+    "height": 0.7260000109672546
+  },
+  "footprint": [
+    [
+      -0.24250000715255737,
+      -0.2360000042244792
+    ],
+    [
+      0.24250000715255737,
+      -0.2360000042244792
+    ],
+    [
+      0.24250000715255737,
+      0.20499999821186066
+    ],
+    [
+      -0.24250000715255737,
+      0.20499999821186066
+    ]
+  ],
+  "variantSlots": [
+    "metal",
+    "wood"
+  ],
+  "requiredExtensions": [],
+  "version": "0.2.0",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.hinged-laundry-hamper",
+  "file": "assets/v0.2.0/hinged-laundry-hamper.glb",
+  "sourceModel": "sources/v0.2.0/hinged-laundry-hamper.blend",
+  "thumbnail": "previews/v0.2.0/hinged-laundry-hamper.png",
+  "backThumbnail": "previews/v0.2.0/hinged-laundry-hamper-back.png",
+  "category": "specialty",
+  "subtype": "hamper",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "textures": {
+    "count": 0,
+    "bytes": 0
+  },
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.2.0/hinged-laundry-hamper.png",
+      "previews/v0.2.0/hinged-laundry-hamper-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.22,
+      0.09,
+      0.038
+    ],
+    [
+      0.39,
+      0.18,
+      0.07
+    ],
+    [
+      0.47,
+      0.3,
+      0.1
+    ]
+  ],
+  "colourTags": [
+    "walnut",
+    "tobacco",
+    "brass"
+  ],
+  "materials": [
+    "metal",
+    "wood"
+  ],
+  "searchAliases": [
+    "laundry utility",
+    "hamper"
+  ],
+  "materialSlots": [
+    {
+      "id": "metal",
+      "material": "metal",
+      "recolourable": true
+    },
+    {
+      "id": "wood",
+      "material": "wood",
+      "recolourable": true
+    }
+  ]
+}

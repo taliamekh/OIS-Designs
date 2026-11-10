@@ -1,0 +1,66 @@
+{
+  "count": 3,
+  "passed": 3,
+  "errors": [],
+  "exactDuplicates": [],
+  "normalizedOrMirroredDuplicates": [],
+  "nearSilhouettePairs": [
+    {
+      "a": "ois.design.front-load-laundry",
+      "b": "ois.design.stacked-washer-dryer",
+      "silhouetteIoU": [
+        0.9671554252199414,
+        0.975835908963192,
+        1.0
+      ],
+      "decision": "requires construction/visual distinction review; silhouette alone cannot accept/reject"
+    },
+    {
+      "a": "ois.design.front-load-laundry",
+      "b": "ois.design.vented-tumble-dryer",
+      "silhouetteIoU": [
+        1.0,
+        0.9997154240182129,
+        0.9889705882352942
+      ],
+      "decision": "requires construction/visual distinction review; silhouette alone cannot accept/reject"
+    },
+    {
+      "a": "ois.design.stacked-washer-dryer",
+      "b": "ois.design.vented-tumble-dryer",
+      "silhouetteIoU": [
+        0.9671554252199414,
+        0.9761168867659454,
+        0.9889705882352942
+      ],
+      "decision": "requires construction/visual distinction review; silhouette alone cannot accept/reject"
+    }
+  ],
+  "checks": [
+    {
+      "id": "ois.design.front-load-laundry",
+      "geometryHash": "8a3f59ee2d825ec805b7a8582a7181c8c153c0cd8f42a3401c37ae5584541db5",
+      "normalizedMirrorGeometryHash": "33274b5d740443aeec4c0bbf9f2286af2f7be10e1bf2e03a8b6fd82f1f04550e",
+      "triangles": 2104,
+      "bytes": 90660,
+      "status": "pass"
+    },
+    {
+      "id": "ois.design.stacked-washer-dryer",
+      "geometryHash": "5a567a6c6757a1e716529f50bf68ad1f793adc32ef74a2315d0c7570c9977bcb",
+      "normalizedMirrorGeometryHash": "0acac3bf988ea8d99e8e2002754416208b0f0a23af502f27fdb9fca3662a0535",
+      "triangles": 4208,
+      "bytes": 176508,
+      "status": "pass"
+    },
+    {
+      "id": "ois.design.vented-tumble-dryer",
+      "geometryHash": "87fb5c0a138d70c377f3753db1aed7fcf65d0bc6e67147cd8ce3b16da860f15b",
+      "normalizedMirrorGeometryHash": "0b667931e9be8d620a372f97f6a3a4ab4d5c8a466976190195b154878a15f418",
+      "triangles": 2412,
+      "bytes": 121028,
+      "status": "pass"
+    }
+  ],
+  "limitations": "structural subset, no phone or user approval; canonical shape and silhouette are screening tools, visual construction review determines eligibility"
+}

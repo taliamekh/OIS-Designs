@@ -1,0 +1,320 @@
+{
+  "id": "ois.design.three-drawer-nightstand",
+  "sha256": "7ad30c597fb58557a35743ecdfeae0bba4ca70733776db66c8ae599bf37fb6b6",
+  "sourceModel": "sources/v0.5.0/three-drawer-nightstand.blend",
+  "sourceSha256": "23871e179f81c9bcc4fedca3590142bca163535d455243bd304af35740ac026f",
+  "partCount": 27,
+  "componentCount": 7,
+  "components": [
+    {
+      "parts": [
+        "leg",
+        "leg.001",
+        "leg.002",
+        "leg.003",
+        "bottom",
+        "top",
+        "side",
+        "side.001",
+        "back",
+        "drawer bottom",
+        "drawer side",
+        "drawer side.001",
+        "drawer back",
+        "drawer bottom.001",
+        "drawer side.002",
+        "drawer side.003",
+        "drawer back.001",
+        "drawer bottom.002",
+        "drawer side.004",
+        "drawer side.005",
+        "drawer back.002"
+      ],
+      "minimum": [
+        -0.25999999046325684,
+        -0.20000000298023224,
+        6.984919309616089e-10
+      ],
+      "maximum": [
+        0.25999999046325684,
+        0.20000000298023224,
+        0.6102051138877869
+      ]
+    },
+    {
+      "parts": [
+        "drawer front"
+      ],
+      "minimum": [
+        -0.22499999403953552,
+        0.1979999989271164,
+        0.16620509326457977
+      ],
+      "maximum": [
+        0.22499999403953552,
+        0.22599999606609344,
+        0.2908717691898346
+      ]
+    },
+    {
+      "parts": [
+        "pull"
+      ],
+      "minimum": [
+        -0.07000000029802322,
+        0.24400000274181366,
+        0.22253842651844025
+      ],
+      "maximum": [
+        0.07000000029802322,
+        0.25600001215934753,
+        0.23453842103481293
+      ]
+    },
+    {
+      "parts": [
+        "drawer front.001"
+      ],
+      "minimum": [
+        -0.22499999403953552,
+        0.1979999989271164,
+        0.3028717637062073
+      ],
+      "maximum": [
+        0.22499999403953552,
+        0.22599999606609344,
+        0.4275384545326233
+      ]
+    },
+    {
+      "parts": [
+        "pull.001"
+      ],
+      "minimum": [
+        -0.07000000029802322,
+        0.24400000274181366,
+        0.35920509696006775
+      ],
+      "maximum": [
+        0.07000000029802322,
+        0.25600001215934753,
+        0.3712051212787628
+      ]
+    },
+    {
+      "parts": [
+        "drawer front.002"
+      ],
+      "minimum": [
+        -0.22499999403953552,
+        0.1979999989271164,
+        0.4395384192466736
+      ],
+      "maximum": [
+        0.22499999403953552,
+        0.22599999606609344,
+        0.5642051100730896
+      ]
+    },
+    {
+      "parts": [
+        "pull.002"
+      ],
+      "minimum": [
+        -0.07000000029802322,
+        0.24400000274181366,
+        0.49587175250053406
+      ],
+      "maximum": [
+        0.07000000029802322,
+        0.25600001215934753,
+        0.5078717470169067
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "bottom",
+      "b": "leg",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "bottom",
+      "b": "leg.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "bottom",
+      "b": "leg.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "bottom",
+      "b": "leg.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "side",
+      "b": "bottom",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "side",
+      "b": "top",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "side.001",
+      "b": "bottom",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "side.001",
+      "b": "top",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "back",
+      "b": "bottom",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "back",
+      "b": "top",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "back",
+      "b": "side",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "back",
+      "b": "side.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "drawer side",
+      "b": "drawer bottom",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "drawer side.001",
+      "b": "drawer bottom",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "drawer back",
+      "b": "back",
+      "method": "surface distance",
+      "distance": 0.0009999871253967285
+    },
+    {
+      "a": "drawer back",
+      "b": "drawer bottom",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "drawer back",
+      "b": "drawer side",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "drawer back",
+      "b": "drawer side.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "drawer side.002",
+      "b": "drawer bottom.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "drawer side.003",
+      "b": "drawer bottom.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "drawer back.001",
+      "b": "back",
+      "method": "surface distance",
+      "distance": 0.0009999871253967285
+    },
+    {
+      "a": "drawer back.001",
+      "b": "drawer bottom.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "drawer back.001",
+      "b": "drawer side.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "drawer back.001",
+      "b": "drawer side.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "drawer side.004",
+      "b": "drawer bottom.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "drawer side.005",
+      "b": "drawer bottom.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "drawer back.002",
+      "b": "back",
+      "method": "surface distance",
+      "distance": 0.0009999871253967285
+    },
+    {
+      "a": "drawer back.002",
+      "b": "drawer bottom.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "drawer back.002",
+      "b": "drawer side.004",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "drawer back.002",
+      "b": "drawer side.005",
+      "method": "triangle intersection",
+      "distance": 0
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T03:07:34Z"
+}

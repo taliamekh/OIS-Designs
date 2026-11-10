@@ -1,0 +1,159 @@
+{
+  "id": "ois.design.tall-pullout-pantry",
+  "sha256": "440d08b219fe2a4f22977ec376c83f9b1f4456f12af7056700c575a4318300a4",
+  "sourceModel": "sources/v0.5.0/tall-pullout-pantry.blend",
+  "sourceSha256": "673c0040201d4ebd68fee45ce9de77fd966dac59ce5e91d49a860c248b7c944a",
+  "partCount": 12,
+  "componentCount": 3,
+  "components": [
+    {
+      "parts": [
+        "recessed plinth",
+        "bottom",
+        "top",
+        "side",
+        "side.001",
+        "shelf",
+        "shelf.001",
+        "basket rail",
+        "basket rail.001",
+        "basket rail.002"
+      ],
+      "minimum": [
+        -0.22499999403953552,
+        -0.30000001192092896,
+        0.0
+      ],
+      "maximum": [
+        0.22499999403953552,
+        0.32499998807907104,
+        1.9500000476837158
+      ]
+    },
+    {
+      "parts": [
+        "pullout face"
+      ],
+      "minimum": [
+        -0.20749999582767487,
+        0.4180000126361847,
+        0.07500004768371582
+      ],
+      "maximum": [
+        0.20749999582767487,
+        0.44200000166893005,
+        1.875
+      ]
+    },
+    {
+      "parts": [
+        "pull"
+      ],
+      "minimum": [
+        -0.006000000052154064,
+        0.46399998664855957,
+        1.25
+      ],
+      "maximum": [
+        0.006000000052154064,
+        0.47600001096725464,
+        1.4800000190734863
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "bottom",
+      "b": "recessed plinth",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "side",
+      "b": "bottom",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "side",
+      "b": "top",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "side.001",
+      "b": "bottom",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "side.001",
+      "b": "top",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "shelf",
+      "b": "side",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "shelf",
+      "b": "side.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "shelf.001",
+      "b": "side",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "shelf.001",
+      "b": "side.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "basket rail",
+      "b": "side",
+      "method": "surface distance",
+      "distance": 0.003569275140762329
+    },
+    {
+      "a": "basket rail",
+      "b": "side.001",
+      "method": "surface distance",
+      "distance": 0.0020000040531158447
+    },
+    {
+      "a": "basket rail.001",
+      "b": "side",
+      "method": "surface distance",
+      "distance": 0.003569275140762329
+    },
+    {
+      "a": "basket rail.001",
+      "b": "side.001",
+      "method": "surface distance",
+      "distance": 0.0020000040531158447
+    },
+    {
+      "a": "basket rail.002",
+      "b": "side",
+      "method": "surface distance",
+      "distance": 0.003569275140762329
+    },
+    {
+      "a": "basket rail.002",
+      "b": "side.001",
+      "method": "surface distance",
+      "distance": 0.0020000040531158447
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T03:07:34Z"
+}

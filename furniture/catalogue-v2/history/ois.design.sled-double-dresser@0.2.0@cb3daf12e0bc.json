@@ -1,0 +1,158 @@
+{
+  "designId": "ois.design.sled-double-dresser",
+  "familyId": "ois.family.sled-double-dresser",
+  "id": "ois.design.sled-double-dresser",
+  "name": "Sled double dresser",
+  "roomTags": [
+    "bedroom"
+  ],
+  "theme": "city-loft",
+  "builder": "case",
+  "parameters": {
+    "form": "drawers",
+    "front": "slab",
+    "cols": 2,
+    "rows": 3,
+    "w": 1.45,
+    "h": 0.83,
+    "base": "sled"
+  },
+  "distinction": "Six full-depth drawer fronts in two banks on exposed steel sleds.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted"
+  },
+  "sha256": "cb3daf12e0bc74999d39ed4b53f290f2198f944393e3030caa2c8374eff3284a",
+  "bytes": 125044,
+  "triangles": 2548,
+  "vertices": 3356,
+  "drawPrimitives": 2,
+  "bounds": {
+    "min": [
+      -0.7250000238418579,
+      0.0,
+      -0.25600001215934753
+    ],
+    "max": [
+      0.7250000238418579,
+      0.8259035050868988,
+      0.20000000298023224
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 1.4500000476837158,
+    "depth": 0.4560000151395798,
+    "height": 0.8259035050868988
+  },
+  "footprint": [
+    [
+      -0.7250000238418579,
+      -0.25600001215934753
+    ],
+    [
+      0.7250000238418579,
+      -0.25600001215934753
+    ],
+    [
+      0.7250000238418579,
+      0.20000000298023224
+    ],
+    [
+      -0.7250000238418579,
+      0.20000000298023224
+    ]
+  ],
+  "variantSlots": [
+    "metal",
+    "wood"
+  ],
+  "requiredExtensions": [],
+  "version": "0.2.0",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.sled-double-dresser",
+  "file": "assets/v0.2.0/sled-double-dresser.glb",
+  "sourceModel": "sources/v0.2.0/sled-double-dresser.blend",
+  "thumbnail": "previews/v0.2.0/sled-double-dresser.png",
+  "backThumbnail": "previews/v0.2.0/sled-double-dresser-back.png",
+  "category": "storage",
+  "subtype": "drawers",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "textures": {
+    "count": 0,
+    "bytes": 0
+  },
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.2.0/sled-double-dresser.png",
+      "previews/v0.2.0/sled-double-dresser-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.23,
+      0.15,
+      0.09
+    ],
+    [
+      0.12,
+      0.14,
+      0.16
+    ],
+    [
+      0.045,
+      0.05,
+      0.055
+    ]
+  ],
+  "colourTags": [
+    "charcoal",
+    "black",
+    "weathered wood"
+  ],
+  "materials": [
+    "metal",
+    "wood"
+  ],
+  "searchAliases": [
+    "bedroom",
+    "drawers"
+  ],
+  "materialSlots": [
+    {
+      "id": "metal",
+      "material": "metal",
+      "recolourable": true
+    },
+    {
+      "id": "wood",
+      "material": "wood",
+      "recolourable": true
+    }
+  ],
+  "geometryHash": "c9f9e77bd027b5eefdec53279b0491a8369ded939eb4e1fad750659a57296402",
+  "normalizedMirrorGeometryHash": "3a41b2add14e838518cfe19c3588682670f38e8d416f25ebd932daef43687795"
+}

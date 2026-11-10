@@ -1,0 +1,44 @@
+{
+  "id": "ois.design.racetrack-cantilever-coffee",
+  "sha256": "unexported-source-732771aeb2eadd33599208170e38ff4e50d68878cbfb6795c9473e6f8553f36b",
+  "sourceModel": null,
+  "sourceSha256": "732771aeb2eadd33599208170e38ff4e50d68878cbfb6795c9473e6f8553f36b",
+  "partCount": 3,
+  "componentCount": 1,
+  "components": [
+    {
+      "parts": [
+        "top",
+        "base plate",
+        "offset column"
+      ],
+      "minimum": [
+        -0.5249999761581421,
+        -0.2750000059604645,
+        0.0
+      ],
+      "maximum": [
+        0.5249999761581421,
+        0.2750000059604645,
+        0.4000000059604645
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "offset column",
+      "b": "top",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "offset column",
+      "b": "base plate",
+      "method": "surface distance",
+      "distance": 0.003065556986257434
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; live-source reports are NOT exported-asset evidence; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T03:28:53Z"
+}

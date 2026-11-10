@@ -1,0 +1,163 @@
+{
+  "designId": "ois.design.screen-arm-workstation",
+  "familyId": "ois.family.screen-arm-workstation",
+  "id": "ois.design.screen-arm-workstation",
+  "name": "Monitor arm stand",
+  "roomTags": [
+    "office"
+  ],
+  "theme": "calm-oak",
+  "builder": "special",
+  "parameters": {
+    "form": "monitor-arm",
+    "w": 0.68,
+    "d": 0.35,
+    "h": 0.68
+  },
+  "distinction": "Bent articulated display stem and a raised screen.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted"
+  },
+  "constructionKey": "special|monitor-arm|{\"cols\": 1, \"front\": \"cane\", \"panels\": 3}",
+  "sha256": "997d470372cd417891516809995e999fb6ab208ff05437815fea00d6f7d8b791",
+  "bytes": 27140,
+  "triangles": 560,
+  "vertices": 636,
+  "drawPrimitives": 3,
+  "bounds": {
+    "min": [
+      -0.3400000035762787,
+      0.0,
+      -0.2199999988079071
+    ],
+    "max": [
+      0.3400000035762787,
+      0.7310000360012054,
+      0.2199999988079071
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 0.6800000071525574,
+    "depth": 0.4399999976158142,
+    "height": 0.7310000360012054
+  },
+  "footprint": [
+    [
+      -0.3400000035762787,
+      -0.2199999988079071
+    ],
+    [
+      0.3400000035762787,
+      -0.2199999988079071
+    ],
+    [
+      0.3400000035762787,
+      0.2199999988079071
+    ],
+    [
+      -0.3400000035762787,
+      0.2199999988079071
+    ]
+  ],
+  "variantSlots": [
+    "dark",
+    "glass",
+    "metal"
+  ],
+  "requiredExtensions": [],
+  "version": "0.2.0",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.screen-arm-workstation",
+  "file": "assets/v0.2.0/screen-arm-workstation.glb",
+  "sourceModel": "sources/v0.2.0/screen-arm-workstation.blend",
+  "thumbnail": "previews/v0.2.0/screen-arm-workstation.png",
+  "backThumbnail": "previews/v0.2.0/screen-arm-workstation-back.png",
+  "category": "specialty",
+  "subtype": "monitor-arm",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "textures": {
+    "count": 0,
+    "bytes": 0
+  },
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.2.0/screen-arm-workstation.png",
+      "previews/v0.2.0/screen-arm-workstation-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.58,
+      0.39,
+      0.2
+    ],
+    [
+      0.73,
+      0.7,
+      0.61
+    ],
+    [
+      0.12,
+      0.14,
+      0.13
+    ]
+  ],
+  "colourTags": [
+    "pale oak",
+    "ivory",
+    "oatmeal"
+  ],
+  "materials": [
+    "metal",
+    "opaque-glass-study",
+    "paint"
+  ],
+  "searchAliases": [
+    "office",
+    "monitor arm"
+  ],
+  "materialSlots": [
+    {
+      "id": "dark",
+      "material": "dark",
+      "recolourable": true
+    },
+    {
+      "id": "glass",
+      "material": "glass",
+      "recolourable": true
+    },
+    {
+      "id": "metal",
+      "material": "metal",
+      "recolourable": true
+    }
+  ],
+  "geometryHash": "37f860cc93d816c7721bc49dd5efec1813c877c7fea4bea134c30c6cd53ff2bd",
+  "normalizedMirrorGeometryHash": "02e74358529a75d238f17f2365718147ba8a3de4d46d15af80c194dc7005d187"
+}

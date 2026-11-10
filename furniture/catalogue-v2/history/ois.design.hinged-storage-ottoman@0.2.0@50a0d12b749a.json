@@ -1,0 +1,162 @@
+{
+  "designId": "ois.design.hinged-storage-ottoman",
+  "familyId": "ois.family.hinged-storage-ottoman",
+  "id": "ois.design.hinged-storage-ottoman",
+  "name": "Hinged storage ottoman",
+  "roomTags": [
+    "living"
+  ],
+  "theme": "coastal-linen",
+  "builder": "seating",
+  "parameters": {
+    "form": "storage-ottoman",
+    "w": 0.85,
+    "d": 0.58,
+    "h": 0.43
+  },
+  "distinction": "Raised seat lid and enclosed storage case with a front pull.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted"
+  },
+  "sha256": "50a0d12b749a3ec952feaca532331ddf15e552356875436bf49cd263c3b0025a",
+  "bytes": 34480,
+  "triangles": 676,
+  "vertices": 839,
+  "drawPrimitives": 3,
+  "bounds": {
+    "min": [
+      -0.42500001192092896,
+      -1.856270237521329e-08,
+      -0.3079999862238765
+    ],
+    "max": [
+      0.42500001192092896,
+      0.4193878024816513,
+      0.28999999165534973
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 0.8500000238418579,
+    "depth": 0.5979999778792262,
+    "height": 0.4193878210443537
+  },
+  "footprint": [
+    [
+      -0.42500001192092896,
+      -0.3079999862238765
+    ],
+    [
+      0.42500001192092896,
+      -0.3079999862238765
+    ],
+    [
+      0.42500001192092896,
+      0.28999999165534973
+    ],
+    [
+      -0.42500001192092896,
+      0.28999999165534973
+    ]
+  ],
+  "variantSlots": [
+    "fabric",
+    "metal",
+    "wood"
+  ],
+  "requiredExtensions": [],
+  "version": "0.2.0",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.hinged-storage-ottoman",
+  "file": "assets/v0.2.0/hinged-storage-ottoman.glb",
+  "sourceModel": "sources/v0.2.0/hinged-storage-ottoman.blend",
+  "thumbnail": "previews/v0.2.0/hinged-storage-ottoman.png",
+  "backThumbnail": "previews/v0.2.0/hinged-storage-ottoman-back.png",
+  "category": "seating",
+  "subtype": "storage-ottoman",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "textures": {
+    "count": 0,
+    "bytes": 0
+  },
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.2.0/hinged-storage-ottoman.png",
+      "previews/v0.2.0/hinged-storage-ottoman-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.66,
+      0.53,
+      0.34
+    ],
+    [
+      0.36,
+      0.53,
+      0.58
+    ],
+    [
+      0.64,
+      0.6,
+      0.48
+    ]
+  ],
+  "colourTags": [
+    "mist blue",
+    "sand",
+    "pale oak"
+  ],
+  "materials": [
+    "metal",
+    "textile",
+    "wood"
+  ],
+  "searchAliases": [
+    "living",
+    "storage ottoman"
+  ],
+  "materialSlots": [
+    {
+      "id": "fabric",
+      "material": "fabric",
+      "recolourable": true
+    },
+    {
+      "id": "metal",
+      "material": "metal",
+      "recolourable": true
+    },
+    {
+      "id": "wood",
+      "material": "wood",
+      "recolourable": true
+    }
+  ],
+  "geometryHash": "4f25cb2121bc2b1b80751b08559cc80915f89fd08aa6efffb5a492635597c992",
+  "normalizedMirrorGeometryHash": "21c104ff6947f4a959d07a3d2248c50be24067290735413507409d691787d38d"
+}

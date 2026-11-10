@@ -1,0 +1,155 @@
+{
+  "designId": "ois.design.fold-down-dressing-case",
+  "familyId": "ois.family.fold-down-dressing-case",
+  "id": "ois.design.fold-down-dressing-case",
+  "name": "Fold-down dressing cabinet",
+  "roomTags": [
+    "bedroom"
+  ],
+  "theme": "soft-japandi",
+  "builder": "case",
+  "parameters": {
+    "form": "fold-down",
+    "front": "slab",
+    "w": 0.85,
+    "h": 1.35
+  },
+  "distinction": "Hinged horizontal writing/dressing leaf with diagonal stays.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted"
+  },
+  "sha256": "ee0e9dbc46432e5ba3b229c3c1dd746b13043eaf9a5726e1b5f9f9f25530ec4b",
+  "bytes": 81608,
+  "triangles": 1676,
+  "vertices": 2155,
+  "drawPrimitives": 2,
+  "bounds": {
+    "min": [
+      -0.4250000123944222,
+      -2.2089136075820193e-12,
+      -0.41999998526566595
+    ],
+    "max": [
+      0.42500000616681455,
+      1.3414713040447077,
+      0.20000005629504747
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 0.8500000185612367,
+    "depth": 0.6200000415607134,
+    "height": 1.3414713040469166
+  },
+  "footprint": [
+    [
+      -0.4250000123944222,
+      -0.41999998526566595
+    ],
+    [
+      0.42500000616681455,
+      -0.41999998526566595
+    ],
+    [
+      0.42500000616681455,
+      0.20000005629504747
+    ],
+    [
+      -0.4250000123944222,
+      0.20000005629504747
+    ]
+  ],
+  "variantSlots": [
+    "metal",
+    "wood"
+  ],
+  "requiredExtensions": [],
+  "version": "0.2.0",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.fold-down-dressing-case",
+  "file": "assets/v0.2.0/fold-down-dressing-case.glb",
+  "sourceModel": "sources/v0.2.0/fold-down-dressing-case.blend",
+  "thumbnail": "previews/v0.2.0/fold-down-dressing-case.png",
+  "backThumbnail": "previews/v0.2.0/fold-down-dressing-case-back.png",
+  "category": "storage",
+  "subtype": "fold-down",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "textures": {
+    "count": 0,
+    "bytes": 0
+  },
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.2.0/fold-down-dressing-case.png",
+      "previews/v0.2.0/fold-down-dressing-case-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.34,
+      0.28,
+      0.19
+    ],
+    [
+      0.58,
+      0.54,
+      0.44
+    ],
+    [
+      0.15,
+      0.17,
+      0.15
+    ]
+  ],
+  "colourTags": [
+    "ash",
+    "flax",
+    "stone"
+  ],
+  "materials": [
+    "metal",
+    "wood"
+  ],
+  "searchAliases": [
+    "bedroom",
+    "fold down"
+  ],
+  "materialSlots": [
+    {
+      "id": "metal",
+      "material": "metal",
+      "recolourable": true
+    },
+    {
+      "id": "wood",
+      "material": "wood",
+      "recolourable": true
+    }
+  ],
+  "geometryHash": "693bc19885f3e54e2b027fae806847408b19b4f23030c3e80fa19a3b9d2aab04",
+  "normalizedMirrorGeometryHash": "28733fcd4e5bfd96e199ebb17d73325987dd8da53a55f687e518184bcf509b19"
+}

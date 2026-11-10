@@ -1,0 +1,124 @@
+{
+  "id": "ois.design.deep-utility-sink",
+  "sha256": "bb37d6e12be14a052b9f37c723eead41561c42d623fbc2e1139918ed172d94a9",
+  "sourceModel": "sources/v0.7.0/deep-utility-sink.blend",
+  "sourceSha256": "282872bc9ea2bc2fd5a8d54b61572ecc4a9464c12bf6add1705bb9e32b1bdaf2",
+  "partCount": 11,
+  "componentCount": 1,
+  "components": [
+    {
+      "parts": [
+        "leg",
+        "leg.001",
+        "leg.002",
+        "leg.003",
+        "deep sink bottom",
+        "deep sink side",
+        "deep sink side.001",
+        "deep sink end",
+        "deep sink end.001",
+        "curved faucet",
+        "tap lever"
+      ],
+      "minimum": [
+        -0.3399999737739563,
+        -0.28999999165534973,
+        -1.4319084584712982e-08
+      ],
+      "maximum": [
+        0.3399999737739563,
+        0.28999999165534973,
+        1.119686484336853
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "deep sink bottom",
+      "b": "leg",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "deep sink bottom",
+      "b": "leg.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "deep sink bottom",
+      "b": "leg.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "deep sink bottom",
+      "b": "leg.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "deep sink side",
+      "b": "deep sink bottom",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "deep sink side.001",
+      "b": "deep sink bottom",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "deep sink end",
+      "b": "deep sink bottom",
+      "method": "surface distance",
+      "distance": 2.9802322387695312e-08
+    },
+    {
+      "a": "deep sink end",
+      "b": "deep sink side",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "deep sink end",
+      "b": "deep sink side.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "deep sink end.001",
+      "b": "deep sink bottom",
+      "method": "surface distance",
+      "distance": 2.9802322387695312e-08
+    },
+    {
+      "a": "deep sink end.001",
+      "b": "deep sink side",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "deep sink end.001",
+      "b": "deep sink side.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "curved faucet",
+      "b": "deep sink end",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "tap lever",
+      "b": "curved faucet",
+      "method": "triangle intersection",
+      "distance": 0
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; live-source reports are NOT exported-asset evidence; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T03:45:53Z"
+}

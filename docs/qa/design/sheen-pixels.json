@@ -1,0 +1,42 @@
+{
+  "timestampSource": "sheen-web.json",
+  "method": "RGBA screenshots converted to RGB; fixed manually specified inset wall-region polygon; includes some stable trim/furniture boundaries, not a calibrated paint measurement",
+  "results": [
+    {
+      "against": "matte",
+      "sheen": "eggshell",
+      "wallPixels": 29963,
+      "meanAbsoluteChannelDifference": 0.6388212128291559,
+      "rmse": 0.7992629184624769,
+      "maxChannelDifference": 1,
+      "changedPixels": 29009
+    },
+    {
+      "against": "matte",
+      "sheen": "satin",
+      "wallPixels": 29963,
+      "meanAbsoluteChannelDifference": 1.6066593242777203,
+      "rmse": 1.6979694544097208,
+      "maxChannelDifference": 2,
+      "changedPixels": 29033
+    },
+    {
+      "against": "matte",
+      "sheen": "semi-gloss",
+      "wallPixels": 29963,
+      "meanAbsoluteChannelDifference": 1.9293016943118735,
+      "rmse": 2.120246302061091,
+      "maxChannelDifference": 3,
+      "changedPixels": 29038
+    },
+    {
+      "against": "matte",
+      "sheen": "gloss",
+      "wallPixels": 29963,
+      "meanAbsoluteChannelDifference": 1.9293016943118735,
+      "rmse": 2.120246302061091,
+      "maxChannelDifference": 3,
+      "changedPixels": 29038
+    }
+  ]
+}

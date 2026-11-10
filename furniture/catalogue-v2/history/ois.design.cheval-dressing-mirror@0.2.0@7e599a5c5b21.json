@@ -1,0 +1,155 @@
+{
+  "designId": "ois.design.cheval-dressing-mirror",
+  "familyId": "ois.family.cheval-dressing-mirror",
+  "id": "ois.design.cheval-dressing-mirror",
+  "name": "Cheval dressing mirror",
+  "roomTags": [
+    "bedroom"
+  ],
+  "theme": "walnut-form",
+  "builder": "special",
+  "parameters": {
+    "form": "cheval",
+    "w": 0.65,
+    "d": 0.42,
+    "h": 1.65
+  },
+  "distinction": "Large framed mirror is suspended between independent upright supports.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted"
+  },
+  "sha256": "7e599a5c5b211a70f8705e108aed4115eae28a25ab03b04f9f7293c3aad7bab2",
+  "bytes": 56976,
+  "triangles": 1180,
+  "vertices": 1485,
+  "drawPrimitives": 2,
+  "bounds": {
+    "min": [
+      -0.3499999940395355,
+      0.0,
+      -0.19200000166893005
+    ],
+    "max": [
+      0.3499999940395355,
+      1.5636885557323694,
+      0.19200000166893005
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 0.699999988079071,
+    "depth": 0.3840000033378601,
+    "height": 1.5636885557323694
+  },
+  "footprint": [
+    [
+      -0.3499999940395355,
+      -0.19200000166893005
+    ],
+    [
+      0.3499999940395355,
+      -0.19200000166893005
+    ],
+    [
+      0.3499999940395355,
+      0.19200000166893005
+    ],
+    [
+      -0.3499999940395355,
+      0.19200000166893005
+    ]
+  ],
+  "variantSlots": [
+    "glass",
+    "wood"
+  ],
+  "requiredExtensions": [],
+  "version": "0.2.0",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.cheval-dressing-mirror",
+  "file": "assets/v0.2.0/cheval-dressing-mirror.glb",
+  "sourceModel": "sources/v0.2.0/cheval-dressing-mirror.blend",
+  "thumbnail": "previews/v0.2.0/cheval-dressing-mirror.png",
+  "backThumbnail": "previews/v0.2.0/cheval-dressing-mirror-back.png",
+  "category": "specialty",
+  "subtype": "cheval",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "textures": {
+    "count": 0,
+    "bytes": 0
+  },
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.2.0/cheval-dressing-mirror.png",
+      "previews/v0.2.0/cheval-dressing-mirror-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.22,
+      0.09,
+      0.038
+    ],
+    [
+      0.39,
+      0.18,
+      0.07
+    ],
+    [
+      0.47,
+      0.3,
+      0.1
+    ]
+  ],
+  "colourTags": [
+    "walnut",
+    "tobacco",
+    "brass"
+  ],
+  "materials": [
+    "opaque-glass-study",
+    "wood"
+  ],
+  "searchAliases": [
+    "bedroom",
+    "cheval"
+  ],
+  "materialSlots": [
+    {
+      "id": "glass",
+      "material": "glass",
+      "recolourable": true
+    },
+    {
+      "id": "wood",
+      "material": "wood",
+      "recolourable": true
+    }
+  ],
+  "geometryHash": "0374ebc4bf8c2a88b3799f7e0c595e640394430a615c72a87ea88c433c88f184",
+  "normalizedMirrorGeometryHash": "12e6237124322687190534b51527d16e555cdf90dfeeed77525d466e29b1f86d"
+}

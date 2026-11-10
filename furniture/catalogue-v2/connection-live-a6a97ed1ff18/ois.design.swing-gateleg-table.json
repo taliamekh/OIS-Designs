@@ -1,0 +1,162 @@
+{
+  "id": "ois.design.swing-gateleg-table",
+  "sha256": "unexported-source-a6a97ed1ff18ea7190f4c07e8ea17b6dba901563a653d7aed874183539ef16c1",
+  "sourceModel": null,
+  "sourceSha256": "a6a97ed1ff18ea7190f4c07e8ea17b6dba901563a653d7aed874183539ef16c1",
+  "partCount": 13,
+  "componentCount": 7,
+  "components": [
+    {
+      "parts": [
+        "central top",
+        "hinge pin",
+        "hinge pin.001"
+      ],
+      "minimum": [
+        -0.32100000977516174,
+        -0.4000000059604645,
+        0.718999981880188
+      ],
+      "maximum": [
+        0.32100000977516174,
+        0.4000000059604645,
+        0.7699999809265137
+      ]
+    },
+    {
+      "parts": [
+        "hinged leaf",
+        "swing gate rail",
+        "gate foot"
+      ],
+      "minimum": [
+        -0.7487506866455078,
+        -0.4000000059604645,
+        0.0
+      ],
+      "maximum": [
+        -0.21280603110790253,
+        0.4000000059604645,
+        0.783412516117096
+      ]
+    },
+    {
+      "parts": [
+        "hinged leaf.001",
+        "swing gate rail.001",
+        "gate foot.001"
+      ],
+      "minimum": [
+        0.21280603110790253,
+        -0.4000000059604645,
+        0.0
+      ],
+      "maximum": [
+        0.7487506866455078,
+        0.4000000059604645,
+        0.783412516117096
+      ]
+    },
+    {
+      "parts": [
+        "leg"
+      ],
+      "minimum": [
+        -0.2804315686225891,
+        -0.3844302296638489,
+        0.011382980272173882
+      ],
+      "maximum": [
+        -0.22725501656532288,
+        -0.3272559642791748,
+        0.7254272103309631
+      ]
+    },
+    {
+      "parts": [
+        "leg.001"
+      ],
+      "minimum": [
+        -0.28043121099472046,
+        0.32725608348846436,
+        0.011383002623915672
+      ],
+      "maximum": [
+        -0.22725535929203033,
+        0.3844301104545593,
+        0.7254272103309631
+      ]
+    },
+    {
+      "parts": [
+        "leg.002"
+      ],
+      "minimum": [
+        0.22725501656532288,
+        -0.3844302296638489,
+        0.011382980272173882
+      ],
+      "maximum": [
+        0.2804315686225891,
+        -0.3272559642791748,
+        0.7254272103309631
+      ]
+    },
+    {
+      "parts": [
+        "leg.003"
+      ],
+      "minimum": [
+        0.22725535929203033,
+        0.32725608348846436,
+        0.011383002623915672
+      ],
+      "maximum": [
+        0.28043121099472046,
+        0.3844301104545593,
+        0.7254272103309631
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "hinge pin",
+      "b": "central top",
+      "method": "surface distance",
+      "distance": 0.0028807371854782104
+    },
+    {
+      "a": "hinge pin.001",
+      "b": "central top",
+      "method": "surface distance",
+      "distance": 0.0028807371854782104
+    },
+    {
+      "a": "gate foot",
+      "b": "hinged leaf",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "gate foot",
+      "b": "swing gate rail",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "gate foot.001",
+      "b": "hinged leaf.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "gate foot.001",
+      "b": "swing gate rail.001",
+      "method": "triangle intersection",
+      "distance": 0
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; live-source reports are NOT exported-asset evidence; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T03:19:59Z"
+}

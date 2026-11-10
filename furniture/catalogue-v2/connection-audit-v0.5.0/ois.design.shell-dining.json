@@ -1,0 +1,72 @@
+{
+  "id": "ois.design.shell-dining",
+  "sha256": "7dd1317d1b200196593d2a6aadaec4bd7d45b799d2daad7b1f891b247b9b80bb",
+  "sourceModel": "sources/v0.5.0/shell-dining.blend",
+  "sourceSha256": "20a75780f49097eb5f47f0e09ade345e69bd953f296e2a0da5af36954dae0d05",
+  "partCount": 7,
+  "componentCount": 1,
+  "components": [
+    {
+      "parts": [
+        "leg",
+        "leg.001",
+        "leg.002",
+        "leg.003",
+        "curved chair structural seat pan",
+        "curved seat pad",
+        "curved enclosing shell"
+      ],
+      "minimum": [
+        -0.27000001072883606,
+        -0.27000001072883606,
+        -6.402842700481415e-10
+      ],
+      "maximum": [
+        0.27000001072883606,
+        0.24719999730587006,
+        0.8084949851036072
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "curved chair structural seat pan",
+      "b": "leg",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "curved chair structural seat pan",
+      "b": "leg.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "curved chair structural seat pan",
+      "b": "leg.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "curved chair structural seat pan",
+      "b": "leg.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "curved seat pad",
+      "b": "curved chair structural seat pan",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "curved enclosing shell",
+      "b": "curved chair structural seat pan",
+      "method": "triangle intersection",
+      "distance": 0
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T03:07:33Z"
+}

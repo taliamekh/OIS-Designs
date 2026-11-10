@@ -1,0 +1,164 @@
+{
+  "designId": "ois.design.utility-pet-crate",
+  "familyId": "ois.family.utility-pet-crate",
+  "id": "ois.design.utility-pet-crate",
+  "name": "Pet crate cabinet",
+  "roomTags": [
+    "laundry-utility"
+  ],
+  "theme": "coastal-linen",
+  "builder": "special",
+  "parameters": {
+    "form": "dog-crate",
+    "w": 0.92,
+    "d": 0.6,
+    "h": 0.72
+  },
+  "distinction": "Floor-level woven wire-grid doors form a ventilated enclosure.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted",
+    "sourceSnapshot": "sources/pipeline-e797cb5c88af56f5.py",
+    "sourceSha256": "e797cb5c88af56f5b4455d819a512ab9be55f40e1fa2d0cb542aca7bb84b906f",
+    "parametersFile": "sources/v0.2.1/utility-pet-crate.parameters.json"
+  },
+  "constructionKey": "special|dog-crate|{\"cols\": 1, \"front\": \"cane\", \"panels\": 3}",
+  "sha256": "93b83b99ec64775501a7dc4b72c16c3e10db2fc10d885e6b2778a24d5a01c5d1",
+  "bytes": 203204,
+  "triangles": 4080,
+  "vertices": 5473,
+  "drawPrimitives": 3,
+  "bounds": {
+    "min": [
+      -0.46000000834465027,
+      0.0,
+      -0.35599998611615374
+    ],
+    "max": [
+      0.46000000834465027,
+      0.7200000584125519,
+      0.30000001192092896
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 0.9200000166893005,
+    "depth": 0.6559999980370828,
+    "height": 0.7200000584125519
+  },
+  "footprint": [
+    [
+      -0.46000000834465027,
+      -0.35599998611615374
+    ],
+    [
+      0.46000000834465027,
+      -0.35599998611615374
+    ],
+    [
+      0.46000000834465027,
+      0.30000001192092896
+    ],
+    [
+      -0.46000000834465027,
+      0.30000001192092896
+    ]
+  ],
+  "variantSlots": [
+    "dark",
+    "metal",
+    "wood"
+  ],
+  "requiredExtensions": [],
+  "version": "0.2.1",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.utility-pet-crate",
+  "file": "assets/v0.2.1/utility-pet-crate.glb",
+  "sourceModel": "sources/v0.2.1/utility-pet-crate.blend",
+  "thumbnail": "previews/v0.2.1/utility-pet-crate.png",
+  "backThumbnail": "previews/v0.2.1/utility-pet-crate-back.png",
+  "category": "specialty",
+  "subtype": "dog-crate",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "textures": {
+    "count": 0,
+    "bytes": 0
+  },
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.2.1/utility-pet-crate.png",
+      "previews/v0.2.1/utility-pet-crate-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.66,
+      0.53,
+      0.34
+    ],
+    [
+      0.36,
+      0.53,
+      0.58
+    ],
+    [
+      0.64,
+      0.6,
+      0.48
+    ]
+  ],
+  "colourTags": [
+    "mist blue",
+    "sand",
+    "pale oak"
+  ],
+  "materials": [
+    "metal",
+    "paint",
+    "wood"
+  ],
+  "searchAliases": [
+    "laundry utility",
+    "dog crate"
+  ],
+  "materialSlots": [
+    {
+      "id": "dark",
+      "material": "dark",
+      "recolourable": true
+    },
+    {
+      "id": "metal",
+      "material": "metal",
+      "recolourable": true
+    },
+    {
+      "id": "wood",
+      "material": "wood",
+      "recolourable": true
+    }
+  ]
+}

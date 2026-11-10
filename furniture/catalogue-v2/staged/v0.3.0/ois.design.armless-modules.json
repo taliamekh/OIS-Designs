@@ -1,0 +1,279 @@
+{
+  "designId": "ois.design.armless-modules",
+  "familyId": "ois.family.armless-modules",
+  "id": "ois.design.armless-modules",
+  "name": "Armless modular sofa",
+  "roomTags": [
+    "living"
+  ],
+  "theme": "city-loft",
+  "builder": "seating",
+  "parameters": {
+    "form": "armless-modular",
+    "w": 2.05,
+    "base": "sled"
+  },
+  "distinction": "Independent cushions on a low sled base with no enclosing arms.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted",
+    "sourceSnapshot": "sources/pipeline-03467462e382a0ba.py",
+    "sourceSha256": "03467462e382a0ba245e8af2ab96ea7d469161e176c6f1698b26d422f848f108",
+    "parametersFile": "sources/v0.3.0/armless-modules.parameters.json"
+  },
+  "constructionKey": "seating|armless-modular|{\"base\": \"sled\"}",
+  "sha256": "cb0c307c2c615314379ad38951d83496ad2f05e8682a4359c5f34a16fede6113",
+  "bytes": 268672,
+  "triangles": 2000,
+  "vertices": 2918,
+  "drawPrimitives": 3,
+  "bounds": {
+    "min": [
+      -0.9869999885559082,
+      0.0,
+      -0.421999990940094
+    ],
+    "max": [
+      0.9869999885559082,
+      0.8283456414937973,
+      0.421999990940094
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 1.9739999771118164,
+    "depth": 0.843999981880188,
+    "height": 0.8283456414937973
+  },
+  "footprint": [
+    [
+      -0.9869999885559082,
+      -0.421999990940094
+    ],
+    [
+      0.9869999885559082,
+      -0.421999990940094
+    ],
+    [
+      0.9869999885559082,
+      0.421999990940094
+    ],
+    [
+      -0.9869999885559082,
+      0.421999990940094
+    ]
+  ],
+  "variantSlots": [
+    "fabric",
+    "linen",
+    "metal"
+  ],
+  "requiredExtensions": [],
+  "textures": {
+    "count": 6,
+    "bytes": 159257,
+    "estimatedRgbaBytesWithMipmaps": 2097152,
+    "images": [
+      {
+        "name": "fabric-normal",
+        "bytes": 1016,
+        "width": 256,
+        "height": 256,
+        "sha256": "5bbac800a495c0a30042ad832a3ea134aa66afad65fa0dde59103733a54e886c"
+      },
+      {
+        "name": "fabric-neutral-base",
+        "bytes": 4495,
+        "width": 256,
+        "height": 256,
+        "sha256": "898e022cb5ea1b2663884e7306bbd2c09f25ab2827974bd1328a81bcab08b1ac"
+      },
+      {
+        "name": "fabric-roughness",
+        "bytes": 2761,
+        "width": 256,
+        "height": 256,
+        "sha256": "397e1c119de5e5939f7f1260cfeb7a715d695240776f51b974989073b638eeb6"
+      },
+      {
+        "name": "linen-normal",
+        "bytes": 76292,
+        "width": 256,
+        "height": 256,
+        "sha256": "70b25282eb1daf2d7d6faad88d6b47ca1298d395b833d36d3ba28a542ed6d36e"
+      },
+      {
+        "name": "linen-neutral-base",
+        "bytes": 34309,
+        "width": 256,
+        "height": 256,
+        "sha256": "047df909f3cecf9ec0cdef6c8e2a92dea40e0116922d5b7a25bc7da6481e1ec9"
+      },
+      {
+        "name": "linen-roughness",
+        "bytes": 40384,
+        "width": 256,
+        "height": 256,
+        "sha256": "c31825bb85668747311407d1a5e5d9a56bc0e65aefbf79936d1d4665e83fdb45"
+      }
+    ]
+  },
+  "version": "0.3.0",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.armless-modules",
+  "file": "assets/v0.3.0/armless-modules.glb",
+  "sourceModel": "sources/v0.3.0/armless-modules.blend",
+  "thumbnail": "previews/v0.3.0/armless-modules.png",
+  "backThumbnail": "previews/v0.3.0/armless-modules-back.png",
+  "category": "seating",
+  "subtype": "armless-modular",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.3.0/armless-modules.png",
+      "previews/v0.3.0/armless-modules-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.11999999731779099,
+      0.14000000059604645,
+      0.1599999964237213
+    ],
+    [
+      0.8399999737739563,
+      0.800000011920929,
+      0.6899999976158142
+    ],
+    [
+      0.04500000178813934,
+      0.05000000074505806,
+      0.054999999701976776
+    ]
+  ],
+  "colourTags": [
+    "black",
+    "charcoal",
+    "warm ivory"
+  ],
+  "materials": [
+    "metal",
+    "textile"
+  ],
+  "searchAliases": [
+    "living",
+    "armless modular"
+  ],
+  "materialSlots": [
+    {
+      "id": "fabric",
+      "material": "fabric",
+      "recolourable": true
+    },
+    {
+      "id": "linen",
+      "material": "linen",
+      "recolourable": true
+    },
+    {
+      "id": "metal",
+      "material": "metal",
+      "recolourable": true
+    }
+  ],
+  "supportChecks": {
+    "method": "source-part upper-end ray to non-leg geometry, 15mm join tolerance",
+    "status": "pass",
+    "parts": [
+      {
+        "part": "sled frame",
+        "gapMetresAlongSupport": 0.00854135155677796,
+        "status": "pass"
+      },
+      {
+        "part": "sled frame.001",
+        "gapMetresAlongSupport": 0.008541426062583929,
+        "status": "pass"
+      }
+    ],
+    "limitation": "screening only; hidden joints, whole-model connectivity, load paths and safety remain visual/product-review concerns"
+  },
+  "materialFinish": {
+    "source": "materials/v1/manifest.json",
+    "repeatMetres": {
+      "wood": [
+        0.16,
+        0.75
+      ],
+      "fabric": [
+        0.14,
+        0.14
+      ],
+      "linen": [
+        0.12,
+        0.12
+      ]
+    },
+    "maps": "original base colour / roughness / tangent normal, embedded in GLB"
+  },
+  "appearanceVariants": [
+    {
+      "id": "ois.design.armless-modules.finish.sage",
+      "name": "Sage textile",
+      "materialOverrides": {
+        "fabric": {
+          "baseColorFactor": [
+            0.25,
+            0.37,
+            0.28,
+            1
+          ]
+        }
+      }
+    },
+    {
+      "id": "ois.design.armless-modules.finish.clay",
+      "name": "Clay textile",
+      "materialOverrides": {
+        "fabric": {
+          "baseColorFactor": [
+            0.45,
+            0.23,
+            0.15,
+            1
+          ]
+        }
+      }
+    }
+  ],
+  "variantColourTags": [
+    "sage green",
+    "clay brown"
+  ],
+  "variantCountNote": "appearance overrides share this one design; do not increase distinct count",
+  "geometryHash": "433061d77ee56ac4ae4c21e2b4ae73c5806c8eda77596a0a083f1b716f078403",
+  "normalizedMirrorGeometryHash": "0ff35ad1ce2426c02404c9e3f88d8b924434e8b2a8b5c1374549678882e9ab8e"
+}

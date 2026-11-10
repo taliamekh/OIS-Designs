@@ -1,0 +1,176 @@
+{
+  "designId": "ois.design.vessel-top-console",
+  "familyId": "ois.family.vessel-top-console",
+  "id": "ois.design.vessel-top-console",
+  "name": "Vessel console vanity",
+  "roomTags": [
+    "bathroom"
+  ],
+  "theme": "soft-japandi",
+  "builder": "bath",
+  "parameters": {
+    "form": "vessel-console",
+    "w": 1.0
+  },
+  "distinction": "Oval raised vessel basin contrasts with a timber door console.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted",
+    "sourceSnapshot": "sources/pipeline-e797cb5c88af56f5.py",
+    "sourceSha256": "e797cb5c88af56f5b4455d819a512ab9be55f40e1fa2d0cb542aca7bb84b906f",
+    "parametersFile": "sources/v0.2.1/vessel-top-console.parameters.json"
+  },
+  "constructionKey": "bath|vessel-console|{}",
+  "sha256": "0bc5956df83fd7a566628d0afc6ea3835743f90ee38df8e53d288119865422d9",
+  "bytes": 197312,
+  "triangles": 4228,
+  "vertices": 5251,
+  "drawPrimitives": 5,
+  "bounds": {
+    "min": [
+      -0.512499988079071,
+      0.0,
+      -0.30600002409144356
+    ],
+    "max": [
+      0.512499988079071,
+      1.1312906742095947,
+      0.26249998807907104
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 1.024999976158142,
+    "depth": 0.5685000121705146,
+    "height": 1.1312906742095947
+  },
+  "footprint": [
+    [
+      -0.512499988079071,
+      -0.30600002409144356
+    ],
+    [
+      0.512499988079071,
+      -0.30600002409144356
+    ],
+    [
+      0.512499988079071,
+      0.26249998807907104
+    ],
+    [
+      -0.512499988079071,
+      0.26249998807907104
+    ]
+  ],
+  "variantSlots": [
+    "ceramic",
+    "dark",
+    "metal",
+    "stone",
+    "wood"
+  ],
+  "requiredExtensions": [],
+  "version": "0.2.1",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.vessel-top-console",
+  "file": "assets/v0.2.1/vessel-top-console.glb",
+  "sourceModel": "sources/v0.2.1/vessel-top-console.blend",
+  "thumbnail": "previews/v0.2.1/vessel-top-console.png",
+  "backThumbnail": "previews/v0.2.1/vessel-top-console-back.png",
+  "category": "bathroom-fixtures",
+  "subtype": "vessel-console",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "textures": {
+    "count": 0,
+    "bytes": 0
+  },
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.2.1/vessel-top-console.png",
+      "previews/v0.2.1/vessel-top-console-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.34,
+      0.28,
+      0.19
+    ],
+    [
+      0.58,
+      0.54,
+      0.44
+    ],
+    [
+      0.15,
+      0.17,
+      0.15
+    ]
+  ],
+  "colourTags": [
+    "ash",
+    "flax",
+    "stone"
+  ],
+  "materials": [
+    "ceramic",
+    "metal",
+    "paint",
+    "stone",
+    "wood"
+  ],
+  "searchAliases": [
+    "bathroom",
+    "vessel console"
+  ],
+  "materialSlots": [
+    {
+      "id": "ceramic",
+      "material": "ceramic",
+      "recolourable": true
+    },
+    {
+      "id": "dark",
+      "material": "dark",
+      "recolourable": true
+    },
+    {
+      "id": "metal",
+      "material": "metal",
+      "recolourable": true
+    },
+    {
+      "id": "stone",
+      "material": "stone",
+      "recolourable": true
+    },
+    {
+      "id": "wood",
+      "material": "wood",
+      "recolourable": true
+    }
+  ]
+}

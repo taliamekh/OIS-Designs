@@ -1,0 +1,263 @@
+{
+  "id": "ois.design.wine-cooling-cabinet",
+  "sha256": "unexported-source-5d895d48596d1904d58f6d46821e68930ff8026c89e330f0004ff02f8ca332ff",
+  "sourceModel": null,
+  "sourceSha256": "5d895d48596d1904d58f6d46821e68930ff8026c89e330f0004ff02f8ca332ff",
+  "partCount": 18,
+  "componentCount": 10,
+  "components": [
+    {
+      "parts": [
+        "appliance shell side",
+        "appliance shell side.001",
+        "appliance shell back",
+        "appliance shell bottom",
+        "appliance shell top",
+        "insulated door",
+        "pull",
+        "pull mounting standoff",
+        "pull mounting standoff.001"
+      ],
+      "minimum": [
+        -0.30000001192092896,
+        -0.3100000023841858,
+        0.0
+      ],
+      "maximum": [
+        0.30000001192092896,
+        0.38600000739097595,
+        0.8600000143051147
+      ]
+    },
+    {
+      "parts": [
+        "wine bottle"
+      ],
+      "minimum": [
+        -0.20600000023841858,
+        -0.11999999731779099,
+        0.1639999896287918
+      ],
+      "maximum": [
+        -0.1340000033378601,
+        0.20000000298023224,
+        0.23600001633167267
+      ]
+    },
+    {
+      "parts": [
+        "wine bottle.001"
+      ],
+      "minimum": [
+        -0.035999998450279236,
+        -0.11999999731779099,
+        0.1639999896287918
+      ],
+      "maximum": [
+        0.035999998450279236,
+        0.20000000298023224,
+        0.23600001633167267
+      ]
+    },
+    {
+      "parts": [
+        "wine bottle.002"
+      ],
+      "minimum": [
+        0.1340000033378601,
+        -0.11999999731779099,
+        0.1639999896287918
+      ],
+      "maximum": [
+        0.20600000023841858,
+        0.20000000298023224,
+        0.23600001633167267
+      ]
+    },
+    {
+      "parts": [
+        "wine bottle.003"
+      ],
+      "minimum": [
+        -0.20600000023841858,
+        -0.11999999731779099,
+        0.36399999260902405
+      ],
+      "maximum": [
+        -0.1340000033378601,
+        0.20000000298023224,
+        0.4360000193119049
+      ]
+    },
+    {
+      "parts": [
+        "wine bottle.004"
+      ],
+      "minimum": [
+        -0.035999998450279236,
+        -0.11999999731779099,
+        0.36399999260902405
+      ],
+      "maximum": [
+        0.035999998450279236,
+        0.20000000298023224,
+        0.4360000193119049
+      ]
+    },
+    {
+      "parts": [
+        "wine bottle.005"
+      ],
+      "minimum": [
+        0.1340000033378601,
+        -0.11999999731779099,
+        0.36399999260902405
+      ],
+      "maximum": [
+        0.20600000023841858,
+        0.20000000298023224,
+        0.4360000193119049
+      ]
+    },
+    {
+      "parts": [
+        "wine bottle.006"
+      ],
+      "minimum": [
+        -0.20600000023841858,
+        -0.11999999731779099,
+        0.5640000104904175
+      ],
+      "maximum": [
+        -0.1340000033378601,
+        0.20000000298023224,
+        0.6360000371932983
+      ]
+    },
+    {
+      "parts": [
+        "wine bottle.007"
+      ],
+      "minimum": [
+        -0.035999998450279236,
+        -0.11999999731779099,
+        0.5640000104904175
+      ],
+      "maximum": [
+        0.035999998450279236,
+        0.20000000298023224,
+        0.6360000371932983
+      ]
+    },
+    {
+      "parts": [
+        "wine bottle.008"
+      ],
+      "minimum": [
+        0.1340000033378601,
+        -0.11999999731779099,
+        0.5640000104904175
+      ],
+      "maximum": [
+        0.20600000023841858,
+        0.20000000298023224,
+        0.6360000371932983
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "appliance shell back",
+      "b": "appliance shell side",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "appliance shell back",
+      "b": "appliance shell side.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "appliance shell bottom",
+      "b": "appliance shell side",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "appliance shell bottom",
+      "b": "appliance shell side.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "appliance shell bottom",
+      "b": "appliance shell back",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "appliance shell top",
+      "b": "appliance shell side",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "appliance shell top",
+      "b": "appliance shell side.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "appliance shell top",
+      "b": "appliance shell back",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "insulated door",
+      "b": "appliance shell side",
+      "method": "surface distance",
+      "distance": 0.0010606675641611218
+    },
+    {
+      "a": "insulated door",
+      "b": "appliance shell side.001",
+      "method": "surface distance",
+      "distance": 0.0010606675641611218
+    },
+    {
+      "a": "insulated door",
+      "b": "appliance shell top",
+      "method": "surface distance",
+      "distance": 0.0031820028088986874
+    },
+    {
+      "a": "pull mounting standoff",
+      "b": "insulated door",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pull mounting standoff",
+      "b": "pull",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pull mounting standoff.001",
+      "b": "insulated door",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pull mounting standoff.001",
+      "b": "pull",
+      "method": "triangle intersection",
+      "distance": 0
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; live-source reports are NOT exported-asset evidence; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T03:15:11Z"
+}

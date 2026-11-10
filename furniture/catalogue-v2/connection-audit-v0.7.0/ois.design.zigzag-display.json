@@ -1,0 +1,96 @@
+{
+  "id": "ois.design.zigzag-display",
+  "sha256": "d0c28dc3536564d88f097233296dd210ff42822ce7471d26c856f680242ac245",
+  "sourceModel": "sources/v0.7.0/zigzag-display.blend",
+  "sourceSha256": "d7184c2c75aed4edb88e928d1bef6bb006b24e0abda6fdbfacc9b74ab5892de2",
+  "partCount": 7,
+  "componentCount": 1,
+  "components": [
+    {
+      "parts": [
+        "zigzag shelf",
+        "zigzag shelf.001",
+        "zigzag shelf.002",
+        "zigzag shelf.003",
+        "zigzag shelf.004",
+        "outer rail",
+        "outer rail.001"
+      ],
+      "minimum": [
+        -0.5429999828338623,
+        -0.15000000596046448,
+        0.0
+      ],
+      "maximum": [
+        0.5429999828338623,
+        0.15000000596046448,
+        1.600000023841858
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "outer rail",
+      "b": "zigzag shelf",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "outer rail",
+      "b": "zigzag shelf.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "outer rail",
+      "b": "zigzag shelf.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "outer rail",
+      "b": "zigzag shelf.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "outer rail",
+      "b": "zigzag shelf.004",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "outer rail.001",
+      "b": "zigzag shelf",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "outer rail.001",
+      "b": "zigzag shelf.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "outer rail.001",
+      "b": "zigzag shelf.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "outer rail.001",
+      "b": "zigzag shelf.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "outer rail.001",
+      "b": "zigzag shelf.004",
+      "method": "triangle intersection",
+      "distance": 0
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; live-source reports are NOT exported-asset evidence; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T04:00:33Z"
+}

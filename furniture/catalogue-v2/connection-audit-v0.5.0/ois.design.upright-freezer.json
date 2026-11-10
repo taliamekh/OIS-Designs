@@ -1,0 +1,116 @@
+{
+  "id": "ois.design.upright-freezer",
+  "sha256": "f5a0f31525d360fade4d88db0bcc20f95cb1bc1bee7b8ae96ec09e684b34f0dd",
+  "sourceModel": "sources/v0.5.0/upright-freezer.blend",
+  "sourceSha256": "85896ced68e4e349e48ccdb61dfa98b18d6ba7276d413e6e3fb09cc39a6c3ef4",
+  "partCount": 7,
+  "componentCount": 2,
+  "components": [
+    {
+      "parts": [
+        "appliance shell side",
+        "appliance shell side.001",
+        "appliance shell back",
+        "appliance shell bottom",
+        "appliance shell top",
+        "insulated door"
+      ],
+      "minimum": [
+        -0.32499998807907104,
+        -0.3100000023841858,
+        0.0
+      ],
+      "maximum": [
+        0.32499998807907104,
+        0.3500000238418579,
+        1.75
+      ]
+    },
+    {
+      "parts": [
+        "pull"
+      ],
+      "minimum": [
+        0.1889999955892563,
+        0.3739999830722809,
+        0.7350000143051147
+      ],
+      "maximum": [
+        0.20099999010562897,
+        0.38600000739097595,
+        1.0149999856948853
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "appliance shell back",
+      "b": "appliance shell side",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "appliance shell back",
+      "b": "appliance shell side.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "appliance shell bottom",
+      "b": "appliance shell side",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "appliance shell bottom",
+      "b": "appliance shell side.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "appliance shell bottom",
+      "b": "appliance shell back",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "appliance shell top",
+      "b": "appliance shell side",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "appliance shell top",
+      "b": "appliance shell side.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "appliance shell top",
+      "b": "appliance shell back",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "insulated door",
+      "b": "appliance shell side",
+      "method": "surface distance",
+      "distance": 0.001060646609403193
+    },
+    {
+      "a": "insulated door",
+      "b": "appliance shell side.001",
+      "method": "surface distance",
+      "distance": 0.001060646609403193
+    },
+    {
+      "a": "insulated door",
+      "b": "appliance shell top",
+      "method": "surface distance",
+      "distance": 0.0031820449512451887
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T03:07:34Z"
+}

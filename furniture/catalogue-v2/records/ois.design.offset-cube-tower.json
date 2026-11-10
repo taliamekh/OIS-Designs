@@ -1,0 +1,150 @@
+{
+  "designId": "ois.design.offset-cube-tower",
+  "familyId": "ois.family.offset-cube-tower",
+  "id": "ois.design.offset-cube-tower",
+  "name": "Offset cube tower",
+  "roomTags": [
+    "storage"
+  ],
+  "theme": "walnut-form",
+  "builder": "functional",
+  "parameters": {
+    "form": "offset-cube-shelf",
+    "w": 0.9,
+    "d": 0.35,
+    "h": 1.65
+  },
+  "distinction": "Four complete open box modules alternate their horizontal offset.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted",
+    "sourceSnapshot": "sources/pipeline-e797cb5c88af56f5.py",
+    "sourceSha256": "e797cb5c88af56f5b4455d819a512ab9be55f40e1fa2d0cb542aca7bb84b906f",
+    "parametersFile": "sources/v0.2.1/offset-cube-tower.parameters.json"
+  },
+  "constructionKey": "functional|offset-cube-shelf|{}",
+  "sha256": "1ff6d57041bcab1b3d76255e968191d3e2aad8116748c157d609bf87d2eff686",
+  "bytes": 147692,
+  "triangles": 3008,
+  "vertices": 4006,
+  "drawPrimitives": 1,
+  "bounds": {
+    "min": [
+      -0.4894999861717224,
+      0.0,
+      -0.17499999701976776
+    ],
+    "max": [
+      0.4894999861717224,
+      1.6750000240281224,
+      0.17499999701976776
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 0.9789999723434448,
+    "depth": 0.3499999940395355,
+    "height": 1.6750000240281224
+  },
+  "footprint": [
+    [
+      -0.4894999861717224,
+      -0.17499999701976776
+    ],
+    [
+      0.4894999861717224,
+      -0.17499999701976776
+    ],
+    [
+      0.4894999861717224,
+      0.17499999701976776
+    ],
+    [
+      -0.4894999861717224,
+      0.17499999701976776
+    ]
+  ],
+  "variantSlots": [
+    "wood"
+  ],
+  "requiredExtensions": [],
+  "version": "0.2.1",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.offset-cube-tower",
+  "file": "assets/v0.2.1/offset-cube-tower.glb",
+  "sourceModel": "sources/v0.2.1/offset-cube-tower.blend",
+  "thumbnail": "previews/v0.2.1/offset-cube-tower.png",
+  "backThumbnail": "previews/v0.2.1/offset-cube-tower-back.png",
+  "category": "functional-furniture",
+  "subtype": "offset-cube-shelf",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "textures": {
+    "count": 0,
+    "bytes": 0
+  },
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.2.1/offset-cube-tower.png",
+      "previews/v0.2.1/offset-cube-tower-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.22,
+      0.09,
+      0.038
+    ],
+    [
+      0.39,
+      0.18,
+      0.07
+    ],
+    [
+      0.47,
+      0.3,
+      0.1
+    ]
+  ],
+  "colourTags": [
+    "walnut",
+    "tobacco",
+    "brass"
+  ],
+  "materials": [
+    "wood"
+  ],
+  "searchAliases": [
+    "storage",
+    "offset cube shelf"
+  ],
+  "materialSlots": [
+    {
+      "id": "wood",
+      "material": "wood",
+      "recolourable": true
+    }
+  ]
+}

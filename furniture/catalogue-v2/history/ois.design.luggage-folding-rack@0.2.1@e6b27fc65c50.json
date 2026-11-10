@@ -1,0 +1,157 @@
+{
+  "designId": "ois.design.luggage-folding-rack",
+  "familyId": "ois.family.luggage-folding-rack",
+  "id": "ois.design.luggage-folding-rack",
+  "name": "Folding luggage rack",
+  "roomTags": [
+    "bedroom"
+  ],
+  "theme": "city-loft",
+  "builder": "special",
+  "parameters": {
+    "form": "luggage-rack",
+    "w": 0.68,
+    "d": 0.45,
+    "h": 0.53
+  },
+  "distinction": "Crossed X legs carry four separate textile luggage straps.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted",
+    "sourceSnapshot": "sources/pipeline-e797cb5c88af56f5.py",
+    "sourceSha256": "e797cb5c88af56f5b4455d819a512ab9be55f40e1fa2d0cb542aca7bb84b906f",
+    "parametersFile": "sources/v0.2.1/luggage-folding-rack.parameters.json"
+  },
+  "constructionKey": "special|luggage-rack|{\"cols\": 1, \"front\": \"cane\", \"panels\": 3}",
+  "sha256": "e6b27fc65c50b25b1bc96579cf2840e1c8dab65ac0f0149140c4df5cd412d2f3",
+  "bytes": 52224,
+  "triangles": 992,
+  "vertices": 1364,
+  "drawPrimitives": 2,
+  "bounds": {
+    "min": [
+      -0.29217602529778214,
+      4.84117101962056e-09,
+      -0.22499999403953552
+    ],
+    "max": [
+      0.29217602466426823,
+      0.5688293079533879,
+      0.22499999403953552
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 0.5843520499620504,
+    "depth": 0.44999998807907104,
+    "height": 0.5688293031122169
+  },
+  "footprint": [
+    [
+      -0.29217602529778214,
+      -0.22499999403953552
+    ],
+    [
+      0.29217602466426823,
+      -0.22499999403953552
+    ],
+    [
+      0.29217602466426823,
+      0.22499999403953552
+    ],
+    [
+      -0.29217602529778214,
+      0.22499999403953552
+    ]
+  ],
+  "variantSlots": [
+    "fabric",
+    "wood"
+  ],
+  "requiredExtensions": [],
+  "version": "0.2.1",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.luggage-folding-rack",
+  "file": "assets/v0.2.1/luggage-folding-rack.glb",
+  "sourceModel": "sources/v0.2.1/luggage-folding-rack.blend",
+  "thumbnail": "previews/v0.2.1/luggage-folding-rack.png",
+  "backThumbnail": "previews/v0.2.1/luggage-folding-rack-back.png",
+  "category": "specialty",
+  "subtype": "luggage-rack",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "textures": {
+    "count": 0,
+    "bytes": 0
+  },
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.2.1/luggage-folding-rack.png",
+      "previews/v0.2.1/luggage-folding-rack-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.23,
+      0.15,
+      0.09
+    ],
+    [
+      0.12,
+      0.14,
+      0.16
+    ],
+    [
+      0.045,
+      0.05,
+      0.055
+    ]
+  ],
+  "colourTags": [
+    "charcoal",
+    "black",
+    "weathered wood"
+  ],
+  "materials": [
+    "textile",
+    "wood"
+  ],
+  "searchAliases": [
+    "bedroom",
+    "luggage rack"
+  ],
+  "materialSlots": [
+    {
+      "id": "fabric",
+      "material": "fabric",
+      "recolourable": true
+    },
+    {
+      "id": "wood",
+      "material": "wood",
+      "recolourable": true
+    }
+  ]
+}

@@ -1,0 +1,266 @@
+{
+  "timestamp": "2026-11-10T03:34:26.914Z",
+  "baseURL": "http://127.0.0.1:52020",
+  "evidence": "Chromium CDP actual browser touch events on production React handlers. Distinguishes browser multitouch from physical native gesture validation.",
+  "apiSource": "Installed playwright-core/types/protocol.d.ts Input.dispatchTouchEventParameters; touchEnd/cancel empty points, changed active point sets emit per-point events",
+  "storageOracle": {
+    "kind": "Production IndexedStorage.getItem, with its read-only legacy fallback",
+    "file": "mobile/src/storage/indexedStore.ts",
+    "sha256": "9943012679fd85da975028e6165febf8e149242bfef7b0a63f7ab6b98f76383d"
+  },
+  "checks": [
+    {
+      "id": "2d-pinch-zooms-without-item-or-history-change",
+      "pass": true,
+      "observed": {
+        "before": {
+          "box": {
+            "x": 0,
+            "y": 65,
+            "width": 390,
+            "height": 779
+          },
+          "v": [
+            28,
+            128,
+            363,
+            128,
+            363,
+            407.1666666666667,
+            28,
+            407.1666666666667
+          ],
+          "scale": 55.833333333333336
+        },
+        "after": {
+          "box": {
+            "x": 0,
+            "y": 65,
+            "width": 390,
+            "height": 779
+          },
+          "v": [
+            -174.74639916170958,
+            -35.7663406957962,
+            565.2927889898369,
+            -35.7663406957962,
+            565.2927889898369,
+            580.9329827638259,
+            -174.74639916170958,
+            580.9329827638259
+          ],
+          "scale": 123.33986469192443
+        }
+      }
+    },
+    {
+      "id": "3d-pinch-on-item-zooms-camera-without-committing-drag",
+      "pass": true,
+      "observed": {
+        "before": [
+          15.373161065637898,
+          16.03188414093517,
+          15.7816746280688
+        ],
+        "after": [
+          7.2721365422363125,
+          5.780991859233262,
+          7.182396393292629
+        ]
+      }
+    },
+    {
+      "id": "cancelled-3d-item-drag-preserves-history-and-pose",
+      "pass": true
+    },
+    {
+      "id": "two-finger-door-tool-tap-does-not-stamp-opening",
+      "pass": true
+    },
+    {
+      "id": "walk-multitouch-keeps-project-frozen",
+      "pass": true,
+      "observed": {
+        "beforeCamera": [
+          3.375,
+          1.6,
+          3.149519052838329
+        ],
+        "afterCamera": [
+          2.3850000000000002,
+          1.6,
+          3.239519052838329
+        ]
+      }
+    },
+    {
+      "id": "actual-two-touch-events-reached-document",
+      "pass": true
+    }
+  ],
+  "errors": [],
+  "consoleErrors": [],
+  "touchEvents": [
+    {
+      "type": "touchstart",
+      "touches": 1,
+      "changed": 1
+    },
+    {
+      "type": "touchstart",
+      "touches": 2,
+      "changed": 1
+    },
+    {
+      "type": "touchmove",
+      "touches": 2,
+      "changed": 1
+    },
+    {
+      "type": "touchmove",
+      "touches": 2,
+      "changed": 1
+    },
+    {
+      "type": "touchmove",
+      "touches": 2,
+      "changed": 1
+    },
+    {
+      "type": "touchmove",
+      "touches": 2,
+      "changed": 1
+    },
+    {
+      "type": "touchend",
+      "touches": 1,
+      "changed": 1
+    },
+    {
+      "type": "touchend",
+      "touches": 0,
+      "changed": 1
+    },
+    {
+      "type": "touchstart",
+      "touches": 1,
+      "changed": 1
+    },
+    {
+      "type": "touchstart",
+      "touches": 2,
+      "changed": 1
+    },
+    {
+      "type": "touchmove",
+      "touches": 2,
+      "changed": 1
+    },
+    {
+      "type": "touchmove",
+      "touches": 2,
+      "changed": 1
+    },
+    {
+      "type": "touchmove",
+      "touches": 2,
+      "changed": 1
+    },
+    {
+      "type": "touchmove",
+      "touches": 2,
+      "changed": 1
+    },
+    {
+      "type": "touchend",
+      "touches": 1,
+      "changed": 1
+    },
+    {
+      "type": "touchend",
+      "touches": 0,
+      "changed": 1
+    },
+    {
+      "type": "touchstart",
+      "touches": 1,
+      "changed": 1
+    },
+    {
+      "type": "touchmove",
+      "touches": 1,
+      "changed": 1
+    },
+    {
+      "type": "touchmove",
+      "touches": 1,
+      "changed": 1
+    },
+    {
+      "type": "touchcancel",
+      "touches": 0,
+      "changed": 1
+    },
+    {
+      "type": "touchstart",
+      "touches": 1,
+      "changed": 1
+    },
+    {
+      "type": "touchstart",
+      "touches": 2,
+      "changed": 1
+    },
+    {
+      "type": "touchend",
+      "touches": 1,
+      "changed": 1
+    },
+    {
+      "type": "touchend",
+      "touches": 0,
+      "changed": 1
+    },
+    {
+      "type": "touchstart",
+      "touches": 1,
+      "changed": 1
+    },
+    {
+      "type": "touchstart",
+      "touches": 2,
+      "changed": 1
+    },
+    {
+      "type": "touchmove",
+      "touches": 2,
+      "changed": 1
+    },
+    {
+      "type": "touchmove",
+      "touches": 2,
+      "changed": 1
+    },
+    {
+      "type": "touchmove",
+      "touches": 2,
+      "changed": 1
+    },
+    {
+      "type": "touchmove",
+      "touches": 2,
+      "changed": 1
+    },
+    {
+      "type": "touchend",
+      "touches": 1,
+      "changed": 1
+    },
+    {
+      "type": "touchend",
+      "touches": 0,
+      "changed": 1
+    }
+  ],
+  "completed": true
+}

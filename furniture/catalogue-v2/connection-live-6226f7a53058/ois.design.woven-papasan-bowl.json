@@ -1,0 +1,108 @@
+{
+  "id": "ois.design.woven-papasan-bowl",
+  "sha256": "unexported-source-6226f7a5305865fd189dfcec35a3077205588e7999488a17cff703d94c6b1b9f",
+  "sourceModel": null,
+  "sourceSha256": "6226f7a5305865fd189dfcec35a3077205588e7999488a17cff703d94c6b1b9f",
+  "partCount": 7,
+  "componentCount": 1,
+  "components": [
+    {
+      "parts": [
+        "bowl base",
+        "bowl pedestal",
+        "papasan base spoke",
+        "papasan base spoke.001",
+        "papasan base spoke.002",
+        "papasan bowl",
+        "bowl cushion"
+      ],
+      "minimum": [
+        -0.4699999988079071,
+        -0.3671345114707947,
+        0.034999996423721313
+      ],
+      "maximum": [
+        0.4699999988079071,
+        0.5376642346382141,
+        0.7554954886436462
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "papasan base spoke",
+      "b": "bowl base",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "papasan base spoke",
+      "b": "bowl pedestal",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "papasan base spoke.001",
+      "b": "bowl base",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "papasan base spoke.001",
+      "b": "bowl pedestal",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "papasan base spoke.001",
+      "b": "papasan base spoke",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "papasan base spoke.002",
+      "b": "bowl base",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "papasan base spoke.002",
+      "b": "bowl pedestal",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "papasan base spoke.002",
+      "b": "papasan base spoke",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "papasan base spoke.002",
+      "b": "papasan base spoke.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "papasan bowl",
+      "b": "bowl pedestal",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "bowl cushion",
+      "b": "bowl pedestal",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "bowl cushion",
+      "b": "papasan bowl",
+      "method": "triangle intersection",
+      "distance": 0
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; live-source reports are NOT exported-asset evidence; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T03:36:31Z"
+}

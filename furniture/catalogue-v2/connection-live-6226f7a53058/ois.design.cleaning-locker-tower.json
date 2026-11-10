@@ -1,0 +1,1133 @@
+{
+  "id": "ois.design.cleaning-locker-tower",
+  "sha256": "unexported-source-6226f7a5305865fd189dfcec35a3077205588e7999488a17cff703d94c6b1b9f",
+  "sourceModel": null,
+  "sourceSha256": "6226f7a5305865fd189dfcec35a3077205588e7999488a17cff703d94c6b1b9f",
+  "partCount": 84,
+  "componentCount": 1,
+  "components": [
+    {
+      "parts": [
+        "recessed plinth",
+        "bottom",
+        "top",
+        "side",
+        "side.001",
+        "back",
+        "shelf",
+        "partition",
+        "vented door stile",
+        "vented door stile.001",
+        "vented door rail",
+        "vented door rail.001",
+        "louvre",
+        "louvre.001",
+        "louvre.002",
+        "louvre.003",
+        "louvre.004",
+        "louvre.005",
+        "louvre.006",
+        "louvre.007",
+        "louvre.008",
+        "louvre.009",
+        "louvre.010",
+        "louvre.011",
+        "cell hinge mounting stile",
+        "cell hinge pin",
+        "cell hinge pin.001",
+        "vented door stile.002",
+        "vented door stile.003",
+        "vented door rail.002",
+        "vented door rail.003",
+        "louvre.012",
+        "louvre.013",
+        "louvre.014",
+        "louvre.015",
+        "louvre.016",
+        "louvre.017",
+        "louvre.018",
+        "louvre.019",
+        "louvre.020",
+        "louvre.021",
+        "louvre.022",
+        "louvre.023",
+        "cell hinge mounting stile.001",
+        "cell hinge pin.002",
+        "cell hinge pin.003",
+        "vented door stile.004",
+        "vented door stile.005",
+        "vented door rail.004",
+        "vented door rail.005",
+        "louvre.024",
+        "louvre.025",
+        "louvre.026",
+        "louvre.027",
+        "louvre.028",
+        "louvre.029",
+        "louvre.030",
+        "louvre.031",
+        "louvre.032",
+        "louvre.033",
+        "louvre.034",
+        "louvre.035",
+        "cell hinge mounting stile.002",
+        "cell hinge pin.004",
+        "cell hinge pin.005",
+        "vented door stile.006",
+        "vented door stile.007",
+        "vented door rail.006",
+        "vented door rail.007",
+        "louvre.036",
+        "louvre.037",
+        "louvre.038",
+        "louvre.039",
+        "louvre.040",
+        "louvre.041",
+        "louvre.042",
+        "louvre.043",
+        "louvre.044",
+        "louvre.045",
+        "louvre.046",
+        "louvre.047",
+        "cell hinge mounting stile.003",
+        "cell hinge pin.006",
+        "cell hinge pin.007"
+      ],
+      "minimum": [
+        -0.4050000011920929,
+        -0.24000000953674316,
+        0.0
+      ],
+      "maximum": [
+        0.4000000059604645,
+        0.2719608247280121,
+        1.850000023841858
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "bottom",
+      "b": "recessed plinth",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "side",
+      "b": "bottom",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "side",
+      "b": "top",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "side.001",
+      "b": "bottom",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "side.001",
+      "b": "top",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "back",
+      "b": "bottom",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "back",
+      "b": "top",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "back",
+      "b": "side",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "back",
+      "b": "side.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "shelf",
+      "b": "side",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "shelf",
+      "b": "side.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "shelf",
+      "b": "back",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "partition",
+      "b": "back",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "partition",
+      "b": "shelf",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "vented door stile",
+      "b": "bottom",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "vented door stile",
+      "b": "side",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "vented door stile.001",
+      "b": "bottom",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "vented door rail",
+      "b": "bottom",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "vented door rail",
+      "b": "vented door stile",
+      "method": "surface distance",
+      "distance": 3.332000986233652e-08
+    },
+    {
+      "a": "vented door rail",
+      "b": "vented door stile.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "vented door rail.001",
+      "b": "vented door stile",
+      "method": "surface distance",
+      "distance": 2.9802322387695312e-08
+    },
+    {
+      "a": "vented door rail.001",
+      "b": "vented door stile.001",
+      "method": "surface distance",
+      "distance": 7.450580596923828e-09
+    },
+    {
+      "a": "louvre",
+      "b": "vented door stile",
+      "method": "surface distance",
+      "distance": 2.9802322387695312e-08
+    },
+    {
+      "a": "louvre",
+      "b": "vented door stile.001",
+      "method": "surface distance",
+      "distance": 7.450580596923828e-09
+    },
+    {
+      "a": "louvre.001",
+      "b": "vented door stile",
+      "method": "surface distance",
+      "distance": 2.9802322387695312e-08
+    },
+    {
+      "a": "louvre.001",
+      "b": "vented door stile.001",
+      "method": "surface distance",
+      "distance": 7.450580596923828e-09
+    },
+    {
+      "a": "louvre.002",
+      "b": "vented door stile",
+      "method": "surface distance",
+      "distance": 2.9802322387695312e-08
+    },
+    {
+      "a": "louvre.002",
+      "b": "vented door stile.001",
+      "method": "surface distance",
+      "distance": 1.666000493116826e-08
+    },
+    {
+      "a": "louvre.003",
+      "b": "vented door stile",
+      "method": "surface distance",
+      "distance": 4.214684778958144e-08
+    },
+    {
+      "a": "louvre.003",
+      "b": "vented door stile.001",
+      "method": "surface distance",
+      "distance": 7.450580596923828e-09
+    },
+    {
+      "a": "louvre.004",
+      "b": "vented door stile",
+      "method": "surface distance",
+      "distance": 4.470348358154297e-08
+    },
+    {
+      "a": "louvre.004",
+      "b": "vented door stile.001",
+      "method": "surface distance",
+      "distance": 1.666000493116826e-08
+    },
+    {
+      "a": "louvre.005",
+      "b": "vented door stile",
+      "method": "surface distance",
+      "distance": 2.9802322387695312e-08
+    },
+    {
+      "a": "louvre.005",
+      "b": "vented door stile.001",
+      "method": "surface distance",
+      "distance": 7.450580596923828e-09
+    },
+    {
+      "a": "louvre.006",
+      "b": "vented door stile",
+      "method": "surface distance",
+      "distance": 3.332000986233652e-08
+    },
+    {
+      "a": "louvre.006",
+      "b": "vented door stile.001",
+      "method": "surface distance",
+      "distance": 1.666000493116826e-08
+    },
+    {
+      "a": "louvre.007",
+      "b": "vented door stile",
+      "method": "surface distance",
+      "distance": 3.332000986233652e-08
+    },
+    {
+      "a": "louvre.007",
+      "b": "vented door stile.001",
+      "method": "surface distance",
+      "distance": 6.188916756855178e-08
+    },
+    {
+      "a": "louvre.008",
+      "b": "vented door stile",
+      "method": "surface distance",
+      "distance": 2.9802322387695312e-08
+    },
+    {
+      "a": "louvre.008",
+      "b": "vented door stile.001",
+      "method": "surface distance",
+      "distance": 7.450580596923828e-09
+    },
+    {
+      "a": "louvre.009",
+      "b": "vented door stile",
+      "method": "surface distance",
+      "distance": 3.332000986233652e-08
+    },
+    {
+      "a": "louvre.009",
+      "b": "vented door stile.001",
+      "method": "surface distance",
+      "distance": 1.666000493116826e-08
+    },
+    {
+      "a": "louvre.010",
+      "b": "vented door stile",
+      "method": "surface distance",
+      "distance": 2.9802322387695312e-08
+    },
+    {
+      "a": "louvre.010",
+      "b": "vented door stile.001",
+      "method": "surface distance",
+      "distance": 7.450580596923828e-09
+    },
+    {
+      "a": "louvre.011",
+      "b": "vented door stile",
+      "method": "surface distance",
+      "distance": 2.9802322387695312e-08
+    },
+    {
+      "a": "louvre.011",
+      "b": "vented door stile.001",
+      "method": "surface distance",
+      "distance": 7.450580596923828e-09
+    },
+    {
+      "a": "cell hinge mounting stile",
+      "b": "bottom",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "cell hinge mounting stile",
+      "b": "side",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "cell hinge mounting stile",
+      "b": "vented door stile",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "cell hinge pin",
+      "b": "side",
+      "method": "surface distance",
+      "distance": 0.0014142269501462579
+    },
+    {
+      "a": "cell hinge pin",
+      "b": "vented door stile",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "cell hinge pin",
+      "b": "cell hinge mounting stile",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "cell hinge pin.001",
+      "b": "side",
+      "method": "surface distance",
+      "distance": 0.0014142058789730072
+    },
+    {
+      "a": "cell hinge pin.001",
+      "b": "vented door stile",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "cell hinge pin.001",
+      "b": "cell hinge mounting stile",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "vented door stile.002",
+      "b": "side",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "vented door rail.002",
+      "b": "vented door stile.002",
+      "method": "surface distance",
+      "distance": 6.664001972467304e-08
+    },
+    {
+      "a": "vented door rail.002",
+      "b": "vented door stile.003",
+      "method": "surface distance",
+      "distance": 7.450580596923828e-09
+    },
+    {
+      "a": "vented door rail.003",
+      "b": "vented door stile.002",
+      "method": "surface distance",
+      "distance": 2.9802322387695312e-08
+    },
+    {
+      "a": "vented door rail.003",
+      "b": "vented door stile.003",
+      "method": "surface distance",
+      "distance": 7.450580596923828e-09
+    },
+    {
+      "a": "louvre.012",
+      "b": "vented door stile.002",
+      "method": "surface distance",
+      "distance": 2.9802322387695312e-08
+    },
+    {
+      "a": "louvre.012",
+      "b": "vented door stile.003",
+      "method": "surface distance",
+      "distance": 7.450580596923828e-09
+    },
+    {
+      "a": "louvre.013",
+      "b": "vented door stile.002",
+      "method": "surface distance",
+      "distance": 3.332000986233652e-08
+    },
+    {
+      "a": "louvre.013",
+      "b": "vented door stile.003",
+      "method": "surface distance",
+      "distance": 1.666000493116826e-08
+    },
+    {
+      "a": "louvre.014",
+      "b": "vented door stile.002",
+      "method": "surface distance",
+      "distance": 2.9802322387695312e-08
+    },
+    {
+      "a": "louvre.014",
+      "b": "vented door stile.003",
+      "method": "surface distance",
+      "distance": 1.666000493116826e-08
+    },
+    {
+      "a": "louvre.015",
+      "b": "vented door stile.002",
+      "method": "surface distance",
+      "distance": 2.9802322387695312e-08
+    },
+    {
+      "a": "louvre.015",
+      "b": "vented door stile.003",
+      "method": "surface distance",
+      "distance": 7.450580596923828e-09
+    },
+    {
+      "a": "louvre.016",
+      "b": "vented door stile.002",
+      "method": "surface distance",
+      "distance": 3.332000986233652e-08
+    },
+    {
+      "a": "louvre.016",
+      "b": "vented door stile.003",
+      "method": "surface distance",
+      "distance": 1.666000493116826e-08
+    },
+    {
+      "a": "louvre.017",
+      "b": "vented door stile.002",
+      "method": "surface distance",
+      "distance": 2.9802322387695312e-08
+    },
+    {
+      "a": "louvre.017",
+      "b": "vented door stile.003",
+      "method": "surface distance",
+      "distance": 7.450580596923828e-09
+    },
+    {
+      "a": "louvre.018",
+      "b": "vented door stile.002",
+      "method": "surface distance",
+      "distance": 3.332000986233652e-08
+    },
+    {
+      "a": "louvre.018",
+      "b": "vented door stile.003",
+      "method": "surface distance",
+      "distance": 1.666000493116826e-08
+    },
+    {
+      "a": "louvre.019",
+      "b": "vented door stile.002",
+      "method": "surface distance",
+      "distance": 2.9802322387695312e-08
+    },
+    {
+      "a": "louvre.019",
+      "b": "vented door stile.003",
+      "method": "surface distance",
+      "distance": 1.2036781527058338e-07
+    },
+    {
+      "a": "louvre.020",
+      "b": "vented door stile.002",
+      "method": "surface distance",
+      "distance": 2.9802322387695312e-08
+    },
+    {
+      "a": "louvre.020",
+      "b": "vented door stile.003",
+      "method": "surface distance",
+      "distance": 1.1944189282075968e-07
+    },
+    {
+      "a": "louvre.021",
+      "b": "vented door stile.002",
+      "method": "surface distance",
+      "distance": 3.332000986233652e-08
+    },
+    {
+      "a": "louvre.021",
+      "b": "vented door stile.003",
+      "method": "surface distance",
+      "distance": 1.666000493116826e-08
+    },
+    {
+      "a": "louvre.022",
+      "b": "vented door stile.002",
+      "method": "surface distance",
+      "distance": 2.9802322387695312e-08
+    },
+    {
+      "a": "louvre.022",
+      "b": "vented door stile.003",
+      "method": "surface distance",
+      "distance": 7.450580596923828e-09
+    },
+    {
+      "a": "louvre.023",
+      "b": "vented door stile.002",
+      "method": "surface distance",
+      "distance": 2.9802322387695312e-08
+    },
+    {
+      "a": "louvre.023",
+      "b": "vented door stile.003",
+      "method": "surface distance",
+      "distance": 7.450580596923828e-09
+    },
+    {
+      "a": "cell hinge mounting stile.001",
+      "b": "side",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "cell hinge mounting stile.001",
+      "b": "shelf",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "cell hinge mounting stile.001",
+      "b": "cell hinge mounting stile",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "cell hinge mounting stile.001",
+      "b": "vented door stile.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "cell hinge pin.002",
+      "b": "side",
+      "method": "surface distance",
+      "distance": 0.0014142269501462579
+    },
+    {
+      "a": "cell hinge pin.002",
+      "b": "vented door stile.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "cell hinge pin.002",
+      "b": "cell hinge mounting stile.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "cell hinge pin.003",
+      "b": "side",
+      "method": "surface distance",
+      "distance": 0.0014142058789730072
+    },
+    {
+      "a": "cell hinge pin.003",
+      "b": "vented door stile.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "cell hinge pin.003",
+      "b": "cell hinge mounting stile.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "vented door stile.004",
+      "b": "bottom",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "vented door stile.005",
+      "b": "bottom",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "vented door stile.005",
+      "b": "side.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "vented door rail.004",
+      "b": "bottom",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "vented door rail.004",
+      "b": "vented door stile.004",
+      "method": "surface distance",
+      "distance": 1.666000493116826e-08
+    },
+    {
+      "a": "vented door rail.004",
+      "b": "vented door stile.005",
+      "method": "surface distance",
+      "distance": 3.332000986233652e-08
+    },
+    {
+      "a": "vented door rail.005",
+      "b": "vented door stile.004",
+      "method": "surface distance",
+      "distance": 7.450580596923828e-09
+    },
+    {
+      "a": "vented door rail.005",
+      "b": "vented door stile.005",
+      "method": "surface distance",
+      "distance": 2.9802322387695312e-08
+    },
+    {
+      "a": "louvre.024",
+      "b": "vented door stile.004",
+      "method": "surface distance",
+      "distance": 7.450580596923828e-09
+    },
+    {
+      "a": "louvre.024",
+      "b": "vented door stile.005",
+      "method": "surface distance",
+      "distance": 2.9802322387695312e-08
+    },
+    {
+      "a": "louvre.025",
+      "b": "vented door stile.004",
+      "method": "surface distance",
+      "distance": 7.450580596923828e-09
+    },
+    {
+      "a": "louvre.025",
+      "b": "vented door stile.005",
+      "method": "surface distance",
+      "distance": 2.9802322387695312e-08
+    },
+    {
+      "a": "louvre.026",
+      "b": "vented door stile.004",
+      "method": "surface distance",
+      "distance": 7.450580596923828e-09
+    },
+    {
+      "a": "louvre.026",
+      "b": "vented door stile.005",
+      "method": "surface distance",
+      "distance": 3.332000986233652e-08
+    },
+    {
+      "a": "louvre.027",
+      "b": "vented door stile.004",
+      "method": "surface distance",
+      "distance": 3.0719530030864917e-08
+    },
+    {
+      "a": "louvre.027",
+      "b": "vented door stile.005",
+      "method": "surface distance",
+      "distance": 2.9802322387695312e-08
+    },
+    {
+      "a": "louvre.028",
+      "b": "vented door stile.004",
+      "method": "surface distance",
+      "distance": 3.4142850324769825e-08
+    },
+    {
+      "a": "louvre.028",
+      "b": "vented door stile.005",
+      "method": "surface distance",
+      "distance": 3.332000986233652e-08
+    },
+    {
+      "a": "louvre.029",
+      "b": "vented door stile.004",
+      "method": "surface distance",
+      "distance": 7.450580596923828e-09
+    },
+    {
+      "a": "louvre.029",
+      "b": "vented door stile.005",
+      "method": "surface distance",
+      "distance": 2.9802322387695312e-08
+    },
+    {
+      "a": "louvre.030",
+      "b": "vented door stile.004",
+      "method": "surface distance",
+      "distance": 1.666000493116826e-08
+    },
+    {
+      "a": "louvre.030",
+      "b": "vented door stile.005",
+      "method": "surface distance",
+      "distance": 3.332000986233652e-08
+    },
+    {
+      "a": "louvre.031",
+      "b": "vented door stile.004",
+      "method": "surface distance",
+      "distance": 1.666000493116826e-08
+    },
+    {
+      "a": "louvre.031",
+      "b": "vented door stile.005",
+      "method": "surface distance",
+      "distance": 6.828570064953965e-08
+    },
+    {
+      "a": "louvre.032",
+      "b": "vented door stile.004",
+      "method": "surface distance",
+      "distance": 7.450580596923828e-09
+    },
+    {
+      "a": "louvre.032",
+      "b": "vented door stile.005",
+      "method": "surface distance",
+      "distance": 2.9802322387695312e-08
+    },
+    {
+      "a": "louvre.033",
+      "b": "vented door stile.004",
+      "method": "surface distance",
+      "distance": 1.666000493116826e-08
+    },
+    {
+      "a": "louvre.033",
+      "b": "vented door stile.005",
+      "method": "surface distance",
+      "distance": 3.332000986233652e-08
+    },
+    {
+      "a": "louvre.034",
+      "b": "vented door stile.004",
+      "method": "surface distance",
+      "distance": 7.450580596923828e-09
+    },
+    {
+      "a": "louvre.034",
+      "b": "vented door stile.005",
+      "method": "surface distance",
+      "distance": 2.9802322387695312e-08
+    },
+    {
+      "a": "louvre.035",
+      "b": "vented door stile.004",
+      "method": "surface distance",
+      "distance": 7.450580596923828e-09
+    },
+    {
+      "a": "louvre.035",
+      "b": "vented door stile.005",
+      "method": "surface distance",
+      "distance": 2.9802322387695312e-08
+    },
+    {
+      "a": "cell hinge mounting stile.002",
+      "b": "bottom",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "cell hinge mounting stile.002",
+      "b": "partition",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "cell hinge mounting stile.002",
+      "b": "vented door stile.004",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "cell hinge pin.004",
+      "b": "vented door stile.004",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "cell hinge pin.004",
+      "b": "cell hinge mounting stile.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "cell hinge pin.005",
+      "b": "vented door stile.004",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "cell hinge pin.005",
+      "b": "cell hinge mounting stile.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "vented door stile.007",
+      "b": "side.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "vented door rail.006",
+      "b": "vented door stile.006",
+      "method": "surface distance",
+      "distance": 6.006850128414953e-08
+    },
+    {
+      "a": "vented door rail.006",
+      "b": "vented door stile.007",
+      "method": "surface distance",
+      "distance": 2.9802322387695312e-08
+    },
+    {
+      "a": "vented door rail.007",
+      "b": "vented door stile.006",
+      "method": "surface distance",
+      "distance": 7.450580596923828e-09
+    },
+    {
+      "a": "vented door rail.007",
+      "b": "vented door stile.007",
+      "method": "surface distance",
+      "distance": 2.9802322387695312e-08
+    },
+    {
+      "a": "louvre.036",
+      "b": "vented door stile.006",
+      "method": "surface distance",
+      "distance": 7.450580596923828e-09
+    },
+    {
+      "a": "louvre.036",
+      "b": "vented door stile.007",
+      "method": "surface distance",
+      "distance": 2.9802322387695312e-08
+    },
+    {
+      "a": "louvre.037",
+      "b": "vented door stile.006",
+      "method": "surface distance",
+      "distance": 1.666000493116826e-08
+    },
+    {
+      "a": "louvre.037",
+      "b": "vented door stile.007",
+      "method": "surface distance",
+      "distance": 3.332000986233652e-08
+    },
+    {
+      "a": "louvre.038",
+      "b": "vented door stile.006",
+      "method": "surface distance",
+      "distance": 7.450580596923828e-09
+    },
+    {
+      "a": "louvre.038",
+      "b": "vented door stile.007",
+      "method": "surface distance",
+      "distance": 3.332000986233652e-08
+    },
+    {
+      "a": "louvre.039",
+      "b": "vented door stile.006",
+      "method": "surface distance",
+      "distance": 7.450580596923828e-09
+    },
+    {
+      "a": "louvre.039",
+      "b": "vented door stile.007",
+      "method": "surface distance",
+      "distance": 2.9802322387695312e-08
+    },
+    {
+      "a": "louvre.040",
+      "b": "vented door stile.006",
+      "method": "surface distance",
+      "distance": 1.666000493116826e-08
+    },
+    {
+      "a": "louvre.040",
+      "b": "vented door stile.007",
+      "method": "surface distance",
+      "distance": 3.332000986233652e-08
+    },
+    {
+      "a": "louvre.041",
+      "b": "vented door stile.006",
+      "method": "surface distance",
+      "distance": 7.450580596923828e-09
+    },
+    {
+      "a": "louvre.041",
+      "b": "vented door stile.007",
+      "method": "surface distance",
+      "distance": 2.9802322387695312e-08
+    },
+    {
+      "a": "louvre.042",
+      "b": "vented door stile.006",
+      "method": "surface distance",
+      "distance": 1.666000493116826e-08
+    },
+    {
+      "a": "louvre.042",
+      "b": "vented door stile.007",
+      "method": "surface distance",
+      "distance": 3.332000986233652e-08
+    },
+    {
+      "a": "louvre.043",
+      "b": "vented door stile.006",
+      "method": "surface distance",
+      "distance": 7.450580596923828e-09
+    },
+    {
+      "a": "louvre.043",
+      "b": "vented door stile.007",
+      "method": "surface distance",
+      "distance": 1.2377833513710357e-07
+    },
+    {
+      "a": "louvre.044",
+      "b": "vented door stile.006",
+      "method": "surface distance",
+      "distance": 7.450580596923828e-09
+    },
+    {
+      "a": "louvre.044",
+      "b": "vented door stile.007",
+      "method": "surface distance",
+      "distance": 1.2287812012345967e-07
+    },
+    {
+      "a": "louvre.045",
+      "b": "vented door stile.006",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "louvre.045",
+      "b": "vented door stile.007",
+      "method": "surface distance",
+      "distance": 3.332000986233652e-08
+    },
+    {
+      "a": "louvre.046",
+      "b": "vented door stile.006",
+      "method": "surface distance",
+      "distance": 7.450580596923828e-09
+    },
+    {
+      "a": "louvre.046",
+      "b": "vented door stile.007",
+      "method": "surface distance",
+      "distance": 2.9802322387695312e-08
+    },
+    {
+      "a": "louvre.047",
+      "b": "vented door stile.006",
+      "method": "surface distance",
+      "distance": 7.450580596923828e-09
+    },
+    {
+      "a": "louvre.047",
+      "b": "vented door stile.007",
+      "method": "surface distance",
+      "distance": 2.9802322387695312e-08
+    },
+    {
+      "a": "cell hinge mounting stile.003",
+      "b": "shelf",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "cell hinge mounting stile.003",
+      "b": "partition",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "cell hinge mounting stile.003",
+      "b": "cell hinge mounting stile.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "cell hinge mounting stile.003",
+      "b": "vented door stile.006",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "cell hinge pin.006",
+      "b": "vented door stile.006",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "cell hinge pin.006",
+      "b": "cell hinge mounting stile.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "cell hinge pin.007",
+      "b": "vented door stile.006",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "cell hinge pin.007",
+      "b": "cell hinge mounting stile.003",
+      "method": "triangle intersection",
+      "distance": 0
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; live-source reports are NOT exported-asset evidence; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T03:36:04Z"
+}

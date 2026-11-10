@@ -1,0 +1,57 @@
+#ois-phone-review [hidden]{display:none!important}
+#ois-phone-review .brand-header{display:flex;align-items:center;gap:10px;padding:19px 22px;background:var(--surface);border-bottom:1px solid var(--line);min-height:91px}
+#ois-phone-review .brand-mark{display:block;overflow:hidden;width:68px;height:34px;flex-shrink:0}
+#ois-phone-review .brand-mark img{display:block;width:68px;height:auto;max-width:none}
+#ois-phone-review .brand-name{font-size:18px;letter-spacing:.4px;font-weight:600}
+#ois-phone-review .brand-header .icon-btn{margin-left:auto}
+#ois-phone-review .brand-header.centered{justify-content:center;position:relative;padding-left:60px;padding-right:60px}
+#ois-phone-review .brand-header.centered .brand-mark{width:55px;height:28px}
+#ois-phone-review .brand-header.centered .brand-mark img{width:55px}
+#ois-phone-review .brand-header.centered .brand-name{font-size:16px}
+#ois-phone-review .brand-header.centered .icon-btn{position:absolute;right:15px;top:23px}
+#ois-phone-review .brand-header.cover{align-items:flex-start;min-height:150px;border-bottom:0;background:var(--paper);padding:26px 22px 10px}
+#ois-phone-review .brand-full{width:123px;height:auto;display:block}
+#ois-phone-review .start-title{padding-bottom:3px}
+#ois-phone-review .start-options{display:flex;flex-direction:column;gap:11px;padding-top:13px}
+#ois-phone-review .start-options h3,#ois-phone-review .recent-projects h3{margin-bottom:3px}
+#ois-phone-review .availability-badge{display:inline-flex;align-items:center;justify-content:center;flex-shrink:0;padding:6px 8px;min-width:78px;border-radius:7px;background:var(--soft);color:var(--ink);font-size:11px;white-space:nowrap}
+#ois-phone-review .entry{min-height:89px;gap:9px}
+#ois-phone-review .entry .copy{min-width:0}
+#ois-phone-review .entry .copy,#ois-phone-review .entry .copy strong,#ois-phone-review .entry .copy small{font-family:Arial,Helvetica,sans-serif}
+#ois-phone-review .entry strong{font-size:13px}
+#ois-phone-review .entry small{margin-top:4px}
+#ois-phone-review .entry .entry-symbol{width:34px;height:36px}
+#ois-phone-review .recent-projects{padding-top:18px}
+#ois-phone-review .project-row{display:flex;align-items:center;gap:12px;text-align:left;width:100%;padding:14px 0;border-bottom:1px solid var(--line);margin-top:6px}
+#ois-phone-review .project-row img{width:73px;height:73px;object-fit:cover;border-radius:11px}
+#ois-phone-review .project-row>span{flex:1}
+#ois-phone-review .project-row strong,#ois-phone-review .project-row small{display:block}
+#ois-phone-review .project-row small{font-size:11px;color:var(--sub);margin-top:5px}
+#ois-phone-review .editor-modes{gap:6px}
+#ois-phone-review .floor-control,#ois-phone-review .add-control{display:flex;align-items:center;gap:5px;min-height:44px;font-size:12px;padding:8px 5px}
+#ois-phone-review .add-control{border:1px solid var(--line);border-radius:10px;padding:8px 11px}
+#ois-phone-review .editor-modes .seg{padding:3px}
+#ois-phone-review .editor-modes .seg button{padding:7px 12px;min-height:38px}
+#ois-phone-review .property-summary{display:flex;align-items:center;justify-content:space-between;gap:10px;padding:13px 0;border-bottom:1px solid var(--line);font-size:12px}
+#ois-phone-review .property-summary .link-btn{display:flex;gap:6px;align-items:center}
+#ois-phone-review .plan-tools{margin:14px 0}
+#ois-phone-review .plan-tools button{flex:1}
+#ois-phone-review .door-types{display:grid;grid-template-columns:1fr 1fr;gap:7px;margin:12px 0}
+#ois-phone-review .door-types button{border:1px solid var(--line);border-radius:9px;min-height:44px;padding:8px 6px;font-size:12px}
+#ois-phone-review .door-types button:last-child{grid-column:1/-1}
+#ois-phone-review .door-types .sel{background:var(--active);color:var(--onactive);border-color:var(--active)}
+#ois-phone-review .door-canvas{min-height:282px}
+#ois-phone-review .door-canvas svg.scene{height:270px}
+#ois-phone-review #door-offset{display:block;width:100%;min-height:35px;accent-color:var(--accent)}
+#ois-phone-review .door-clearances{display:flex;flex-direction:column;gap:3px;font-size:11px;padding:8px 0 13px;color:var(--sub)}
+#ois-phone-review .placement-actions{display:flex;gap:9px;margin-top:15px}
+#ois-phone-review .placement-actions .primary{flex:1}
+#ois-phone-review .height-canvas{min-height:220px}
+#ois-phone-review .height-canvas svg.scene{height:200px}
+#ois-phone-review .scan-diagram{background:var(--soft);color:var(--ink);border:0;box-shadow:none;display:flex;align-items:center;justify-content:center;flex-direction:column;gap:15px;font-size:12px}
+#ois-phone-review .scan-diagram svg{width:58px;height:58px}
+#ois-phone-review #ois-logo-studies{width:100%;max-width:100%}
+#ois-phone-review #ois-logo-studies section{min-height:920px;display:flex;justify-content:center;align-items:flex-start;width:100%}
+#ois-phone-review #ois-logo-studies .phone{flex-shrink:1}
+@media(prefers-color-scheme:dark){#ois-phone-review .brand-mark img,#ois-phone-review .brand-full{filter:invert(1)}}
+@media(max-width:420px){#ois-phone-review .brand-header{padding-left:16px;padding-right:16px}#ois-phone-review .brand-header.centered{padding-left:50px;padding-right:50px}#ois-phone-review .brand-header.centered .brand-name{font-size:14px}#ois-phone-review .entry{padding:12px 9px;gap:7px}#ois-phone-review .entry .entry-symbol{width:27px;height:34px}#ois-phone-review .availability-badge{min-width:74px;padding:6px;font-size:11px}#ois-phone-review .editor-modes{padding-left:12px;padding-right:12px}#ois-phone-review .editor-modes .seg button{padding:7px 9px}#ois-phone-review .floor-control{font-size:11px}}

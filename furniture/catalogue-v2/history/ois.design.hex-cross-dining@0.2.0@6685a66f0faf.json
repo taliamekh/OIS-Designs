@@ -1,0 +1,156 @@
+{
+  "designId": "ois.design.hex-cross-dining",
+  "familyId": "ois.family.hex-cross-dining",
+  "id": "ois.design.hex-cross-dining",
+  "name": "Hexagonal crossed table",
+  "roomTags": [
+    "dining"
+  ],
+  "theme": "city-loft",
+  "builder": "table",
+  "parameters": {
+    "form": "cross",
+    "w": 1.18,
+    "d": 1.18,
+    "h": 0.75,
+    "shape": "hex"
+  },
+  "distinction": "Six-sided top exposes the crossed steel frame from oblique views.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted"
+  },
+  "sha256": "6685a66f0faf6fb6b29c1434e99b87f006d315605215de3a4b9958e44d64612c",
+  "bytes": 13168,
+  "triangles": 260,
+  "vertices": 300,
+  "drawPrimitives": 2,
+  "bounds": {
+    "min": [
+      -0.5899999737739563,
+      9.280615553830529e-09,
+      -0.5109549760818481
+    ],
+    "max": [
+      0.5899999737739563,
+      0.771603075787425,
+      0.5109549760818481
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 1.1799999475479126,
+    "depth": 1.0219099521636963,
+    "height": 0.7716030665068094
+  },
+  "footprint": [
+    [
+      -0.5899999737739563,
+      -0.5109549760818481
+    ],
+    [
+      0.5899999737739563,
+      -0.5109549760818481
+    ],
+    [
+      0.5899999737739563,
+      0.5109549760818481
+    ],
+    [
+      -0.5899999737739563,
+      0.5109549760818481
+    ]
+  ],
+  "variantSlots": [
+    "metal",
+    "wood"
+  ],
+  "requiredExtensions": [],
+  "version": "0.2.0",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.hex-cross-dining",
+  "file": "assets/v0.2.0/hex-cross-dining.glb",
+  "sourceModel": "sources/v0.2.0/hex-cross-dining.blend",
+  "thumbnail": "previews/v0.2.0/hex-cross-dining.png",
+  "backThumbnail": "previews/v0.2.0/hex-cross-dining-back.png",
+  "category": "tables",
+  "subtype": "cross",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "textures": {
+    "count": 0,
+    "bytes": 0
+  },
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.2.0/hex-cross-dining.png",
+      "previews/v0.2.0/hex-cross-dining-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.23,
+      0.15,
+      0.09
+    ],
+    [
+      0.12,
+      0.14,
+      0.16
+    ],
+    [
+      0.045,
+      0.05,
+      0.055
+    ]
+  ],
+  "colourTags": [
+    "charcoal",
+    "black",
+    "weathered wood"
+  ],
+  "materials": [
+    "metal",
+    "wood"
+  ],
+  "searchAliases": [
+    "dining",
+    "cross"
+  ],
+  "materialSlots": [
+    {
+      "id": "metal",
+      "material": "metal",
+      "recolourable": true
+    },
+    {
+      "id": "wood",
+      "material": "wood",
+      "recolourable": true
+    }
+  ],
+  "geometryHash": "068fedbb1b18a77c91e4563c1832d9bb35145ee1af8eb7813482787c507b67dd",
+  "normalizedMirrorGeometryHash": "0159f2764e3a6221895b2ad9492eab0fcb35f15d03788a207c76d9017c799072"
+}

@@ -1,0 +1,37 @@
+{
+  "id": "ois.design.hex-conical-breakfast",
+  "sha256": "23be56f98bcf925a40499355be728d0c9b7f06c4ab52fcc59f77009e64af33df",
+  "sourceModel": "sources/v0.7.0/hex-conical-breakfast.blend",
+  "sourceSha256": "01a2abb80ac7e9f42fb3f8068278f892a7f89ce731132bdce09807cdf11bc2f3",
+  "partCount": 2,
+  "componentCount": 1,
+  "components": [
+    {
+      "parts": [
+        "top",
+        "conical pedestal"
+      ],
+      "minimum": [
+        -0.550000011920929,
+        -0.4330126941204071,
+        0.0
+      ],
+      "maximum": [
+        0.550000011920929,
+        0.4330126941204071,
+        0.75
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "conical pedestal",
+      "b": "top",
+      "method": "triangle intersection",
+      "distance": 0
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; live-source reports are NOT exported-asset evidence; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T04:00:30Z"
+}

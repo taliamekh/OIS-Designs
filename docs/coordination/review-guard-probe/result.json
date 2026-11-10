@@ -1,0 +1,213 @@
+{
+  "checkedAtUtc": "2026-11-10T02:47:06Z",
+  "sourceSha256": {
+    "catalogue_manifest.py": "6cad21e28a7d9e309c0c03cb8c291dacbed7047cbf2040bfa29ee95e19eda314",
+    "record_visual_review.py": "4700b26a266e6320348d1a0719ff3b0a6130afd2f87387e50206399d31474e61"
+  },
+  "stableSource": true,
+  "checks": [
+    {
+      "guard": "publisher",
+      "case": "valid bound fixture",
+      "expected": true,
+      "actual": true,
+      "pass": true,
+      "reason": "asset, version, member images and immutable sheet archive match"
+    },
+    {
+      "guard": "publisher",
+      "case": "old geometry metadata",
+      "expected": false,
+      "actual": false,
+      "pass": true,
+      "reason": "current GLB missing or bytes changed"
+    },
+    {
+      "guard": "publisher",
+      "case": "old version",
+      "expected": false,
+      "actual": false,
+      "pass": true,
+      "reason": "asset/version changed or legacy unbound decision"
+    },
+    {
+      "guard": "publisher",
+      "case": "missing member binding",
+      "expected": false,
+      "actual": false,
+      "pass": true,
+      "reason": "sheet member asset binding missing/mismatched"
+    },
+    {
+      "guard": "publisher",
+      "case": "wrong member ID",
+      "expected": false,
+      "actual": false,
+      "pass": true,
+      "reason": "sheet member asset binding missing/mismatched"
+    },
+    {
+      "guard": "publisher",
+      "case": "wrong member geometry hash",
+      "expected": false,
+      "actual": false,
+      "pass": true,
+      "reason": "sheet member asset binding missing/mismatched"
+    },
+    {
+      "guard": "publisher",
+      "case": "wrong front path",
+      "expected": false,
+      "actual": false,
+      "pass": true,
+      "reason": "sheet/current image mismatch: front"
+    },
+    {
+      "guard": "publisher",
+      "case": "changed front pixels",
+      "expected": false,
+      "actual": false,
+      "pass": true,
+      "reason": "sheet/current image mismatch: front"
+    },
+    {
+      "guard": "publisher",
+      "case": "changed back pixels",
+      "expected": false,
+      "actual": false,
+      "pass": true,
+      "reason": "sheet/current image mismatch: back"
+    },
+    {
+      "guard": "publisher",
+      "case": "missing front file with normal binding",
+      "expected": false,
+      "actual": false,
+      "pass": true,
+      "reason": "sheet/current image mismatch: front"
+    },
+    {
+      "guard": "publisher",
+      "case": "changed archived sheet",
+      "expected": false,
+      "actual": false,
+      "pass": true,
+      "reason": "archived inspected sheet missing/changed"
+    },
+    {
+      "guard": "publisher",
+      "case": "missing archived sheet with normal binding",
+      "expected": false,
+      "actual": false,
+      "pass": true,
+      "reason": "archived inspected sheet missing/changed"
+    },
+    {
+      "guard": "publisher",
+      "case": "missing archive binding",
+      "expected": false,
+      "actual": false,
+      "pass": true,
+      "reason": "archived inspected sheet missing/changed"
+    },
+    {
+      "guard": "publisher",
+      "case": "GLB bytes altered but old record/decision retained",
+      "expected": false,
+      "actual": false,
+      "pass": true,
+      "reason": "current GLB missing or bytes changed"
+    },
+    {
+      "guard": "publisher",
+      "case": "missing image and omitted digest fields",
+      "expected": false,
+      "actual": false,
+      "pass": true,
+      "reason": "sheet/current image mismatch: front"
+    },
+    {
+      "guard": "publisher",
+      "case": "missing archive and omitted digest field",
+      "expected": false,
+      "actual": false,
+      "pass": true,
+      "reason": "archived inspected sheet missing/changed"
+    },
+    {
+      "guard": "recorder",
+      "case": "valid bound synthetic fixture",
+      "expected": true,
+      "actual": true,
+      "pass": true,
+      "reason": "returned"
+    },
+    {
+      "guard": "recorder",
+      "case": "legacy index without bindings",
+      "expected": false,
+      "actual": false,
+      "pass": true,
+      "reason": "Regenerate sheet index with asset/image hash bindings before review acceptance"
+    },
+    {
+      "guard": "recorder",
+      "case": "stale sheet geometry",
+      "expected": false,
+      "actual": false,
+      "pass": true,
+      "reason": "Stale sheet geometry: ois.design.synthetic"
+    },
+    {
+      "guard": "recorder",
+      "case": "stale sheet version",
+      "expected": false,
+      "actual": false,
+      "pass": true,
+      "reason": "Stale sheet geometry: ois.design.synthetic"
+    },
+    {
+      "guard": "recorder",
+      "case": "changed front source",
+      "expected": false,
+      "actual": false,
+      "pass": true,
+      "reason": "Stale sheet image: ois.design.synthetic front"
+    },
+    {
+      "guard": "recorder",
+      "case": "changed sheet pixels",
+      "expected": false,
+      "actual": false,
+      "pass": true,
+      "reason": "Changed sheet bytes: sheet.jpg"
+    },
+    {
+      "guard": "recorder",
+      "case": "missing sheet member",
+      "expected": false,
+      "actual": false,
+      "pass": true,
+      "reason": ""
+    },
+    {
+      "guard": "recorder",
+      "case": "changed GLB bytes with stale metadata",
+      "expected": false,
+      "actual": false,
+      "pass": true,
+      "reason": "Current GLB bytes changed: ois.design.synthetic"
+    },
+    {
+      "guard": "recorder",
+      "case": "missing GLB bytes",
+      "expected": false,
+      "actual": false,
+      "pass": true,
+      "reason": "[Errno 2] No such file or directory: 'C:\\\\Users\\\\talia\\\\OneDrive\\\\Documents\\\\ChatGPT\\\\OIS Designs\\\\docs\\\\coordination\\\\review-guard-probe\\\\synthetic-dvfaewu9\\\\model.glb'"
+    }
+  ],
+  "passed": 25,
+  "failed": 0,
+  "limits": "Production function ASTs executed against isolated synthetic bytes only. No real assets or producer decisions modified; not visual/native validation."
+}

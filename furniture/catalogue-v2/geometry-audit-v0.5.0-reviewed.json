@@ -1,0 +1,1008 @@
+{
+  "count": 112,
+  "passed": 112,
+  "errors": [],
+  "exactDuplicates": [],
+  "normalizedOrMirroredDuplicates": [],
+  "nearSilhouettePairs": [
+    {
+      "a": "ois.design.cane-bedside",
+      "b": "ois.design.three-drawer-nightstand",
+      "silhouetteIoU": [
+        0.9756345177664975,
+        0.9785964912280701,
+        0.9663120567375887
+      ],
+      "decision": "requires construction/visual distinction review; silhouette alone cannot accept/reject"
+    },
+    {
+      "a": "ois.design.channel-upholstered-bed",
+      "b": "ois.design.tufted-headboard-bed",
+      "silhouetteIoU": [
+        1.0,
+        0.9825625473843821,
+        1.0
+      ],
+      "decision": "requires construction/visual distinction review; silhouette alone cannot accept/reject"
+    },
+    {
+      "a": "ois.design.floating-platform-bed",
+      "b": "ois.design.floating-platform-bed.size.full",
+      "silhouetteIoU": [
+        0.9730878186968839,
+        0.9919540229885058,
+        1.0
+      ],
+      "decision": "requires construction/visual distinction review; silhouette alone cannot accept/reject"
+    },
+    {
+      "a": "ois.design.floating-platform-bed",
+      "b": "ois.design.floating-platform-bed.size.king",
+      "silhouetteIoU": [
+        0.9743319268635724,
+        1.0,
+        1.0
+      ],
+      "decision": "requires construction/visual distinction review; silhouette alone cannot accept/reject"
+    },
+    {
+      "a": "ois.design.floating-platform-bed",
+      "b": "ois.design.floating-platform-bed.size.twin",
+      "silhouetteIoU": [
+        0.9488817891373802,
+        0.9919540229885058,
+        1.0
+      ],
+      "decision": "requires construction/visual distinction review; silhouette alone cannot accept/reject"
+    },
+    {
+      "a": "ois.design.floating-platform-bed.size.full",
+      "b": "ois.design.floating-platform-bed.size.king",
+      "silhouetteIoU": [
+        0.9580298300381547,
+        0.9919540229885058,
+        1.0
+      ],
+      "decision": "requires construction/visual distinction review; silhouette alone cannot accept/reject"
+    },
+    {
+      "a": "ois.design.floating-platform-bed.size.full",
+      "b": "ois.design.floating-platform-bed.size.twin",
+      "silhouetteIoU": [
+        0.9707247411638701,
+        1.0,
+        1.0
+      ],
+      "decision": "requires construction/visual distinction review; silhouette alone cannot accept/reject"
+    },
+    {
+      "a": "ois.design.jewellery-bureau",
+      "b": "ois.design.tall-lingerie-chest",
+      "silhouetteIoU": [
+        0.9473684210526315,
+        0.9605723370429253,
+        0.9762393663831036
+      ],
+      "decision": "requires construction/visual distinction review; silhouette alone cannot accept/reject"
+    },
+    {
+      "a": "ois.design.louvered-armoire",
+      "b": "ois.design.shaker-wardrobe",
+      "silhouetteIoU": [
+        0.9923803718378543,
+        0.9901689708141321,
+        0.9988200589970502
+      ],
+      "decision": "requires construction/visual distinction review; silhouette alone cannot accept/reject"
+    },
+    {
+      "a": "ois.design.tambour-bedside",
+      "b": "ois.design.three-drawer-nightstand",
+      "silhouetteIoU": [
+        0.9618398637137989,
+        0.9467896417169209,
+        0.966824644549763
+      ],
+      "decision": "requires construction/visual distinction review; silhouette alone cannot accept/reject"
+    }
+  ],
+  "checks": [
+    {
+      "id": "ois.design.aquarium-console",
+      "geometryHash": "9a4c5f85533e86fadf69e7a6230703a1ac9afd63c60b1483267c6cd00af81550",
+      "normalizedMirrorGeometryHash": "52b393f08b1a35e0a00d25bf1a568179cc645e3c0f6f3401b6925a9f42b49a92",
+      "triangles": 1472,
+      "bytes": 368964,
+      "status": "pass"
+    },
+    {
+      "id": "ois.design.arch-side-table",
+      "geometryHash": "dec63d115648d258f719e056a73b29d30a9d561fba092ef13a8cbef0c558897b",
+      "normalizedMirrorGeometryHash": "128e72085428b148fb94b0a0bfd1d19e6534d36f54bffa3df17deff91ac6c9a2",
+      "triangles": 980,
+      "bytes": 223896,
+      "status": "pass"
+    },
+    {
+      "id": "ois.design.arched-iron-bed",
+      "geometryHash": "2b292ac94db2ca727dfdd0af2d83b4af740e63b78a01c04c3b7fcc5c87051717",
+      "normalizedMirrorGeometryHash": "132ac52c83551e2a7725bd93fc53eb0e9e36b87fca1d058a39900a6693eece44",
+      "triangles": 5380,
+      "bytes": 461696,
+      "status": "pass"
+    },
+    {
+      "id": "ois.design.arched-reading-nook",
+      "geometryHash": "a367b1b13b44bd6fc26a2ca89ca1a95809477286fa18951d655ebe3f8bc4805c",
+      "normalizedMirrorGeometryHash": "061e792e1568247c90b55d9a40826eb0e6cad0f52d5b82438aa785a2d18f738d",
+      "triangles": 1464,
+      "bytes": 530012,
+      "status": "pass"
+    },
+    {
+      "id": "ois.design.armless-modules",
+      "geometryHash": "2c6c752dae01c6a6874df071c62f43112aae46ee1a67667c8b93252d4f4b0643",
+      "normalizedMirrorGeometryHash": "0e47329f514916b50ebb387a454c60607205e1d180488bcf1201eb41f964971c",
+      "triangles": 1568,
+      "bytes": 382076,
+      "status": "pass"
+    },
+    {
+      "id": "ois.design.bakers-bin-hutch",
+      "geometryHash": "b142215c1bf80063a85fa8443229034fc27c5f0900283402c7d7cc7b6663c415",
+      "normalizedMirrorGeometryHash": "02eca7f85481a67729eb0b261dad7edb35061c004e135785c013393ee8a0769e",
+      "triangles": 1304,
+      "bytes": 356608,
+      "status": "pass"
+    },
+    {
+      "id": "ois.design.bar-service-trolley",
+      "geometryHash": "880625126d03619b787439c304e294e21bf389e138c4438c28a36fcb5bbf16da",
+      "normalizedMirrorGeometryHash": "1b5fad1a45117b7fbb8ff23e6a8359966f25f0943ea5ad429f70e04b839f247d",
+      "triangles": 2524,
+      "bytes": 291948,
+      "status": "pass"
+    },
+    {
+      "id": "ois.design.barrel-dining",
+      "geometryHash": "fb92f60dc4ca544b86ed9b14be8b74e4f202e67a95f45b785a47c239871ac4c1",
+      "normalizedMirrorGeometryHash": "20f5b15974594b5e79c8153ca8a0b80ed461605ec17fe2a7dc2772d0bbf3127c",
+      "triangles": 1444,
+      "bytes": 256428,
+      "status": "pass"
+    },
+    {
+      "id": "ois.design.barrel-enclosure",
+      "geometryHash": "55311bf463f28bbb92051af41629b416c73eac6b517cdd1b296ab0e899705080",
+      "normalizedMirrorGeometryHash": "333f5667a72f8f1894cbde8e02e1b06f8fa480334bf4980dfa00c5c05001e7ba",
+      "triangles": 1444,
+      "bytes": 258096,
+      "status": "pass"
+    },
+    {
+      "id": "ois.design.bolster-daybed",
+      "geometryHash": "8948cbab6703d97ca193ea1df670e964fbf75c350e7a6415daba8b8e503fef58",
+      "normalizedMirrorGeometryHash": "05ea9ea90034a4010c247eca93a172296d666c38cf8c66a85c79379b214538e7",
+      "triangles": 1620,
+      "bytes": 553084,
+      "status": "pass"
+    },
+    {
+      "id": "ois.design.camelback-sofa",
+      "geometryHash": "24f3dafa4e3acb75e864e1cd7d610c6aebfdc4943da3cfc023daffd915de2985",
+      "normalizedMirrorGeometryHash": "0a46270be39e2ebf1f2fde686b033e730f9283fbe598ba44d6ecee2f40bd8f66",
+      "triangles": 2064,
+      "bytes": 625596,
+      "status": "pass"
+    },
+    {
+      "id": "ois.design.cane-bedside",
+      "geometryHash": "9e89dabbb3ace4cc7372f4c84a96d0c7c9c69232d94e71c83b91727878051bc8",
+      "normalizedMirrorGeometryHash": "01bafc6336f0c5aa590fbfefc509be508e86b9b2a7b0ea5dac6671a884da7ac5",
+      "triangles": 1260,
+      "bytes": 300768,
+      "status": "pass"
+    },
+    {
+      "id": "ois.design.cane-dining-sideboard",
+      "geometryHash": "656d1d034bdb18a81462737b7e9afbc0dd91a217c50e4b8b46fa80e712afb244",
+      "normalizedMirrorGeometryHash": "373ae620bcd252e58ba440f3a4a142489438c48ecf5492d0a02eda89c5757d82",
+      "triangles": 2684,
+      "bytes": 424880,
+      "status": "pass"
+    },
+    {
+      "id": "ois.design.cane-head-bed",
+      "geometryHash": "7716b093702579c00c2a080a9ecc22df0d036cd723c60e5a4444aabbf0df9d10",
+      "normalizedMirrorGeometryHash": "3da8712f8ebc7623502612ac05458a628603407f4cf494f7604ed122fbe033fa",
+      "triangles": 2084,
+      "bytes": 581972,
+      "status": "pass"
+    },
+    {
+      "id": "ois.design.cantilever-c-table",
+      "geometryHash": "7c0c701cfd50347cf4bba1536f24e38dddfdff1061087a17c94c32c1f2b5db01",
+      "normalizedMirrorGeometryHash": "08c1d10666eed0b08b8e37744e6121c19ee4aa8ca4f743bf3b3ac6eb734be6e0",
+      "triangles": 420,
+      "bytes": 240464,
+      "status": "pass"
+    },
+    {
+      "id": "ois.design.cantilever-dining",
+      "geometryHash": "e2729e93f1a63c7b940bfa79fbefa53d3289591ba8f6a14ad9383b92d4a8b66f",
+      "normalizedMirrorGeometryHash": "100f21d68ee336bb5a8062f1a2590a4fd29c25168c83b2eab1607a3b71362490",
+      "triangles": 540,
+      "bytes": 227832,
+      "status": "pass"
+    },
+    {
+      "id": "ois.design.cantilever-lounge",
+      "geometryHash": "60293ffc2acdea610d24b51b4e99d10651a85fa26b1e4dced2dcebb610f9d855",
+      "normalizedMirrorGeometryHash": "5cff854a494dfa43a656ed13fbc261933a626953b745e0f003f4b092b0a2a79a",
+      "triangles": 540,
+      "bytes": 228500,
+      "status": "pass"
+    },
+    {
+      "id": "ois.design.captain-storage-bed",
+      "geometryHash": "66c5020d8d85a311c39365ff67bc96cbbd0d2e2cb0032cd422a17297c8a8055b",
+      "normalizedMirrorGeometryHash": "0464499e1c63bdd5af910b1b734b1090163fdb33072fe358fd4981cd89991e80",
+      "triangles": 2184,
+      "bytes": 645808,
+      "status": "pass"
+    },
+    {
+      "id": "ois.design.chaise-return-sofa",
+      "geometryHash": "6641988f4634e0389e3c2ddb0e11d4336da250ec2ac9838d71f3b546286c2453",
+      "normalizedMirrorGeometryHash": "338567f812a1f4fc175e312291f08d8626aa7970d6e221d9eb10f93e41919cc5",
+      "triangles": 2604,
+      "bytes": 698744,
+      "status": "pass"
+    },
+    {
+      "id": "ois.design.channel-upholstered-bed",
+      "geometryHash": "c2654c4fe9ca04a4f24715780a95ba8fda25e3d8de571465b0b778ab7ecb1cff",
+      "normalizedMirrorGeometryHash": "0f921067f109fee0b0134c3bc272b757cf5cd7122e3eb12784475c82d0cd1cb8",
+      "triangles": 3192,
+      "bytes": 786676,
+      "status": "pass"
+    },
+    {
+      "id": "ois.design.club-armchair",
+      "geometryHash": "8c104e047e1e7cb1939c34c4f99495c8d783fcb1aa0d952b3274155b216948e3",
+      "normalizedMirrorGeometryHash": "07a7700a30c8d5830dda45e2f3411757a619104b89a8a925d591ccf496d0f06c",
+      "triangles": 1156,
+      "bytes": 482144,
+      "status": "pass"
+    },
+    {
+      "id": "ois.design.compass-desk",
+      "geometryHash": "c32bcadf59b5766b352c866c9ecd8de6d4ae316c8b749f80943abcf9f1506f40",
+      "normalizedMirrorGeometryHash": "15a2f0a6c1809ca55c4e9167dd308ca3b51035d6d14173b76b4204b0398877e6",
+      "triangles": 424,
+      "bytes": 239176,
+      "status": "pass"
+    },
+    {
+      "id": "ois.design.corner-carousel",
+      "geometryHash": "24b8d51d1d66d0042c6c2ca9cefe9a027a6119ef7c9a19813227a342d8ca0ba6",
+      "normalizedMirrorGeometryHash": "2c7a4305df420721bd0a8700ae0b866ba65257af0a525c1755901079363a78f7",
+      "triangles": 4056,
+      "bytes": 369572,
+      "status": "pass"
+    },
+    {
+      "id": "ois.design.corner-wrap-sofa",
+      "geometryHash": "9b3fce9228a7a600d7d6e4da6bb71e6e4c2726e7364a339eae45ca1f50cbceb4",
+      "normalizedMirrorGeometryHash": "8691679d3376f9475be74b3edcbbb6aa0b2d367b9e641bed542f32bc34c815b3",
+      "triangles": 2672,
+      "bytes": 711064,
+      "status": "pass"
+    },
+    {
+      "id": "ois.design.crossback-dining",
+      "geometryHash": "5d37c9e35a58a48d95094c19e99b7610c3f8d2b19f3d902474716b92e51ba23d",
+      "normalizedMirrorGeometryHash": "0e51c68577d01aaa1098bd6a9dd75666b4527187ee5b9de419c44a4f4d61513e",
+      "triangles": 772,
+      "bytes": 400392,
+      "status": "pass"
+    },
+    {
+      "id": "ois.design.curved-breakfast-counter",
+      "geometryHash": "4af957a9b1c43dc63e762ae7a428195a2f575ec8cb66921d50d5d776c7f31bfa",
+      "normalizedMirrorGeometryHash": "14cad267f57761bea6ac676c942aa58ab33ac1149d1dfed8e844cbd1ed46b9d5",
+      "triangles": 2196,
+      "bytes": 308812,
+      "status": "pass"
+    },
+    {
+      "id": "ois.design.curved-rolltop-desk",
+      "geometryHash": "7e30850e9d6ab238a82d9ef19f811ef0300d308a0df1b3a90e70c6b70cfa1ab6",
+      "normalizedMirrorGeometryHash": "0f1e2c635d383c880aaf74455062f44a479048376b8f516ff679f02a98107295",
+      "triangles": 2808,
+      "bytes": 456724,
+      "status": "pass"
+    },
+    {
+      "id": "ois.design.curved-seven-sofa",
+      "geometryHash": "d84d4b6b765b7ed3a0d2fd8cb241b6890f0de9fed23aa663c79025b0c10df7f8",
+      "normalizedMirrorGeometryHash": "440ad289e5a6131aa8c26647266c15c9e70a325e2b98959762e5ef4009feef1a",
+      "triangles": 4788,
+      "bytes": 823528,
+      "status": "pass"
+    },
+    {
+      "id": "ois.design.cylinder-tambour-cabinet",
+      "geometryHash": "7274577eb74d64bc7b3e32d8b9041ec6ae2912e3df7b162410132ebc4b0d1e87",
+      "normalizedMirrorGeometryHash": "15f3a87df58970da35aeadfbe85fa54fb5118d8ab0d9aa6f3f900b7431e1fd28",
+      "triangles": 2960,
+      "bytes": 363992,
+      "status": "pass"
+    },
+    {
+      "id": "ois.design.director-chair",
+      "geometryHash": "46c8e7afdd5a61d4f6e97612e958ec3748e32c9eab292ee6ded64ef36ba1ae97",
+      "normalizedMirrorGeometryHash": "141538250ede1c42b79d50fcb6aefec4e5f7379c98cb370ee6d18eada6930475",
+      "triangles": 1780,
+      "bytes": 272148,
+      "status": "pass"
+    },
+    {
+      "id": "ois.design.double-sided-booth",
+      "geometryHash": "2f8b63eccf74a14ee55784cc9edd5ec5ef993d7f8aced8713a236c4b29458311",
+      "normalizedMirrorGeometryHash": "afe372e2c99e3c8826ee545a89b0b6f59222c5a1e75a43b95f0fa6eee9e75835",
+      "triangles": 840,
+      "bytes": 463328,
+      "status": "pass"
+    },
+    {
+      "id": "ois.design.draped-canopy-bed",
+      "geometryHash": "331d36ba3b14d5296baeb297e3346712a1352a2c27454ec4bc011a5be913e91a",
+      "normalizedMirrorGeometryHash": "05b862d781b5233d95932dd717f0f29260501d5a5f509b98c4177939e756083d",
+      "triangles": 6144,
+      "bytes": 801776,
+      "status": "pass"
+    },
+    {
+      "id": "ois.design.drum-bar-stool",
+      "geometryHash": "c77e76134e3b38c2eae0519b30558cfe06adf5e051537490ad93a18263e94da2",
+      "normalizedMirrorGeometryHash": "038d3870dbbf18675d906383bac38bb568d4b891dee6de8cdec544350ec90e6f",
+      "triangles": 1852,
+      "bytes": 256604,
+      "status": "pass"
+    },
+    {
+      "id": "ois.design.extension-dining-table",
+      "geometryHash": "aac5938279bfe2d98a0c2469b6710592d902e93037905a93759e2e4bd2f1d904",
+      "normalizedMirrorGeometryHash": "0757113ed5e42fd7b2cf4e6e2f28232e0d1457ba63f0a99323708dae147e57fc",
+      "triangles": 1356,
+      "bytes": 360352,
+      "status": "pass"
+    },
+    {
+      "id": "ois.design.floating-platform-bed",
+      "geometryHash": "65838f61e8a5bce4fb3275d7cbd3fa7880ece9dd37e0926158ab879e30a4ebce",
+      "normalizedMirrorGeometryHash": "0928161d02b0af72f12a83545987c363c385a603b48ed799aa26152c8e002e38",
+      "triangles": 1448,
+      "bytes": 552964,
+      "status": "pass"
+    },
+    {
+      "id": "ois.design.floating-platform-bed.size.full",
+      "geometryHash": "7bb045c12dadf11233427b9c4dda52d9a1a0f5838c8430e46ec3537ac1e28ff3",
+      "normalizedMirrorGeometryHash": "0767616cc85b40c5823c8b83a27bf1ae5c333165efa420480ba326629c032fa3",
+      "triangles": 1448,
+      "bytes": 554168,
+      "status": "pass"
+    },
+    {
+      "id": "ois.design.floating-platform-bed.size.king",
+      "geometryHash": "3926d4617c48a537dda07a71e60750b3e3488ea26080b3f2f88a7cff825ad300",
+      "normalizedMirrorGeometryHash": "110eddde548c47e986b8e923bcf990d3109d7d76081f2480793285f31b639446",
+      "triangles": 1448,
+      "bytes": 552684,
+      "status": "pass"
+    },
+    {
+      "id": "ois.design.floating-platform-bed.size.twin",
+      "geometryHash": "59378b2908d0a7a07c812a20f1dedfef9ba727414ce697e50e38bd99fc77989e",
+      "normalizedMirrorGeometryHash": "02d9ed0e43456b4871a0130005b6da31728fa99dd93ae18fb33ab062faedc443",
+      "triangles": 1216,
+      "bytes": 519328,
+      "status": "pass"
+    },
+    {
+      "id": "ois.design.fold-down-dressing-case",
+      "geometryHash": "72b06d584dbf201a2e7c561fa313ec6565fb4d071f3330e9e30eb1824bdc25ba",
+      "normalizedMirrorGeometryHash": "1622bda072dc88c562091c4bca66233da18306c4773aeb7cba9a583f4d78b7fb",
+      "triangles": 668,
+      "bytes": 246756,
+      "status": "pass"
+    },
+    {
+      "id": "ois.design.folding-dining",
+      "geometryHash": "6019d5ac5297b49afc3fb232b5f66afad5cc6325bc57ba3b0d0f1db5edac1eb9",
+      "normalizedMirrorGeometryHash": "01af829b918b120ab9c3ea667504188b8bd562a29278a6af9ee84965b17928af",
+      "triangles": 780,
+      "bytes": 426188,
+      "status": "pass"
+    },
+    {
+      "id": "ois.design.fork-back-dining",
+      "geometryHash": "22797df713a219c3eadefc3c3109dc6d90cfabebca768a9a8dd85243bfefc9e4",
+      "normalizedMirrorGeometryHash": "0399980f3b0bd1fe99032c1dc7da8f2dd60cfaa68173b7d729fdbbaeff1b6f8f",
+      "triangles": 988,
+      "bytes": 406204,
+      "status": "pass"
+    },
+    {
+      "id": "ois.design.gaslift-counter-stool",
+      "geometryHash": "4f5fd578b07c81afdcccb73144cbbc078c78b496aa8c61630cbcdad91842832e",
+      "normalizedMirrorGeometryHash": "002c050da287c2c86b678d339aac16075e63fd0218114b1f31f6a0dbb445490d",
+      "triangles": 844,
+      "bytes": 251152,
+      "status": "pass"
+    },
+    {
+      "id": "ois.design.glass-display-hutch",
+      "geometryHash": "2c807557ca2617f2d76c7e4e3811c5f0e68e354b21891489aa8ce95f4da5547e",
+      "normalizedMirrorGeometryHash": "274761f7ea8f66d028635a62d4f5f7e2d52a62f3a8acb7d36d930e9d9200fab6",
+      "triangles": 1240,
+      "bytes": 332348,
+      "status": "pass"
+    },
+    {
+      "id": "ois.design.hex-cross-dining",
+      "geometryHash": "48f1e18ffd7f8532dcdfe3272c45e02ed9dd221d282935cb36bccbd292c5c61a",
+      "normalizedMirrorGeometryHash": "2e734c83e5ea3f305883c1321ba764d0b93473990bc8e1e03a5f133a17ee33e6",
+      "triangles": 260,
+      "bytes": 195432,
+      "status": "pass"
+    },
+    {
+      "id": "ois.design.integrated-play-table",
+      "geometryHash": "3210995a8ffc2b9762a929da786fabdc54f6a484215c9be43b1fd435c720015e",
+      "normalizedMirrorGeometryHash": "1d678d0eee5832497dec2fe3772f1563d1fe52e208292b0b3f804c30b22ef3ae",
+      "triangles": 3204,
+      "bytes": 428220,
+      "status": "pass"
+    },
+    {
+      "id": "ois.design.jewellery-bureau",
+      "geometryHash": "4aa9b74af6ac6200b7aa68d17159b043e2eef86f788e5365e0ea3cd9f4001c70",
+      "normalizedMirrorGeometryHash": "2b7e1f3d0d11c9d3adde15425f4346c571a156a1c3928a93fdf5d7f4d954e175",
+      "triangles": 5500,
+      "bytes": 882052,
+      "status": "pass"
+    },
+    {
+      "id": "ois.design.kneeling-chair",
+      "geometryHash": "da100f797d7ce9dbf56911da36d2eb8426b77df153c24a5a72d210228f438df8",
+      "normalizedMirrorGeometryHash": "1354567af9496a36017139ae04ff2b297c065c8e3562c02bab7fca42b03bbea0",
+      "triangles": 1616,
+      "bytes": 467172,
+      "status": "pass"
+    },
+    {
+      "id": "ois.design.ladderback-dining",
+      "geometryHash": "d8b9598f301e3c179a06f94fa12eb558b6db031da323d7b773acbb9a6c6ce385",
+      "normalizedMirrorGeometryHash": "1245db0990e9ee30f2db1d76e10b06a29842079b1b931ef2323ae9b403b81490",
+      "triangles": 724,
+      "bytes": 407788,
+      "status": "pass"
+    },
+    {
+      "id": "ois.design.library-book-cart",
+      "geometryHash": "b31b36ad0bcaa7a52d0ead589a115fbc727df6d9d1af8d351ec8b11543b052b3",
+      "normalizedMirrorGeometryHash": "0b4ed72857c96c67bfe1aea1176d36653d04beefdcdfaed4ac1f7fcd0f1c90ca",
+      "triangles": 2880,
+      "bytes": 299628,
+      "status": "pass"
+    },
+    {
+      "id": "ois.design.lift-storage-bed",
+      "geometryHash": "3d8c81d482926ac0e7f03561d2c236f30b570a2ce7a2128be304f9ff0919121b",
+      "normalizedMirrorGeometryHash": "15c924dca7647e6ab939a72c1206b7c7fa6ffe0e4528a1ebed95c07425a30196",
+      "triangles": 1788,
+      "bytes": 585236,
+      "status": "pass"
+    },
+    {
+      "id": "ois.design.louvered-armoire",
+      "geometryHash": "ec42a2990e6dfea78d2272946ef51d33a50b1bd0e70c4d92502d362adb1a7529",
+      "normalizedMirrorGeometryHash": "0de162516e16dfedacc4160d2c04a13636b1f2da170a46a9c76306ffb5b6d858",
+      "triangles": 3236,
+      "bytes": 612048,
+      "status": "pass"
+    },
+    {
+      "id": "ois.design.mesh-clothes-cabinet",
+      "geometryHash": "246fc578855a58a9afedb3c42e1ad7ede8bc41f3af0690ba35a2422421728cc2",
+      "normalizedMirrorGeometryHash": "25193d147475f7ffb8fa50e4b0fa09cb512e50e11d187d306a27270d73e475c3",
+      "triangles": 1868,
+      "bytes": 325720,
+      "status": "pass"
+    },
+    {
+      "id": "ois.design.mesh-task-chair",
+      "geometryHash": "e36127e320e9abb0d26560e07d0e6204e5950e930e7fb8bc731f6ecfc2a6b9fa",
+      "normalizedMirrorGeometryHash": "0cd915c0184535db3e685107757dbf3f7c8629a6d27b096a74a0d9977a1bf471",
+      "triangles": 6100,
+      "bytes": 443096,
+      "status": "pass"
+    },
+    {
+      "id": "ois.design.murphy-bed",
+      "geometryHash": "0b1897bef856f5c74f22c8d8f73f9be2497f86a33fd4ec6598d6e9c820fad6ce",
+      "normalizedMirrorGeometryHash": "0a27f8a9fb23650dce644654647732e07900129650743380cee58fe7ba9701c3",
+      "triangles": 1440,
+      "bytes": 528284,
+      "status": "pass"
+    },
+    {
+      "id": "ois.design.open-cubby-nightstand",
+      "geometryHash": "94073ebfe172ac7666cebbf3f78953d67f4abc752eb1d9ad1e2bbb570a6773b2",
+      "normalizedMirrorGeometryHash": "0d5c93624efb1e257220fda61f51ba0543c59dc28519e8feb66b9d1c7a3a83c1",
+      "triangles": 460,
+      "bytes": 225532,
+      "status": "pass"
+    },
+    {
+      "id": "ois.design.open-four-poster",
+      "geometryHash": "ba36ccf06f78878b60ee146412ed3af6ce90b5121f30abc600011acf423b9f11",
+      "normalizedMirrorGeometryHash": "49d7ce83c7190c2541e55e5b21e9c2dc63903aa4bee91b3f330ecd1be04e88df",
+      "triangles": 1792,
+      "bytes": 554672,
+      "status": "pass"
+    },
+    {
+      "id": "ois.design.oval-dual-pedestal",
+      "geometryHash": "da3f1a977c1d77d5921cd221f782b9f3c7ea506ac83cb8714c032ad20f85350c",
+      "normalizedMirrorGeometryHash": "1bff7c9f0d02c1c968aad1b4881b4799624197fbef8517970da17f98363c70bb",
+      "triangles": 684,
+      "bytes": 218004,
+      "status": "pass"
+    },
+    {
+      "id": "ois.design.oval-panel-dining",
+      "geometryHash": "5ce64166ac113082ac1606ce274a85f18252864f980498efebf53cdea8dd026a",
+      "normalizedMirrorGeometryHash": "164bd70a1831f3051902afb943530811ead4dda754601ef942eb47e8bdef1def",
+      "triangles": 564,
+      "bytes": 244056,
+      "status": "pass"
+    },
+    {
+      "id": "ois.design.ovoid-open-nightstand",
+      "geometryHash": "7e523345bc24b460e4dbf6258fa5109b34d98ca7f85eba2dd5d467f9a8d0993c",
+      "normalizedMirrorGeometryHash": "159933bb271385b7d993b804bdddba950fd277035862d65d1674cd208535dc19",
+      "triangles": 1372,
+      "bytes": 249544,
+      "status": "pass"
+    },
+    {
+      "id": "ois.design.peacock-chair",
+      "geometryHash": "2e89a0cd848ab0f82860e0259b6603cb3fea7dee70ccbbcbded44df6d2c4ef49",
+      "normalizedMirrorGeometryHash": "1af9ef7a665950971e32536216ebcd4f5c96cecd656adb6393f24a7eed956c3d",
+      "triangles": 2548,
+      "bytes": 439912,
+      "status": "pass"
+    },
+    {
+      "id": "ois.design.plate-service-rack",
+      "geometryHash": "758b60af589b500c86e703c09ebcad190c6cc006eeb335f93927258e14b7a6e2",
+      "normalizedMirrorGeometryHash": "14939945470502e9d7f393bb629a04ba2eb63490929bf3d0cde6a0234e73680f",
+      "triangles": 1000,
+      "bytes": 263560,
+      "status": "pass"
+    },
+    {
+      "id": "ois.design.pullout-trundle-bed",
+      "geometryHash": "0e5dd7aadac1cd472b2a84ba49b053c380a887b809aa56cf5f59b6214744c4f2",
+      "normalizedMirrorGeometryHash": "1d8088287670a07d4e90daa5fc5dbf91d1dc4a44db000f281bb4c5f15a06177f",
+      "triangles": 4448,
+      "bytes": 724276,
+      "status": "pass"
+    },
+    {
+      "id": "ois.design.racetrack-cross-dining",
+      "geometryHash": "a90d8746766764dc6c0f64285b494d0e03eddb2e2e13109ba031c122e363f203",
+      "normalizedMirrorGeometryHash": "026ec82350c5ec4545f7595be08de74083d59d3077bb708b004e872f3d4a1ec3",
+      "triangles": 428,
+      "bytes": 208400,
+      "status": "pass"
+    },
+    {
+      "id": "ois.design.racetrack-fluted-dining",
+      "geometryHash": "59764325ae581e2c3798dd7b6869282f7327c6b04a1f87fac9d4de4df7744b4d",
+      "normalizedMirrorGeometryHash": "2e06c5189f283b74ad6cbc85fca613e41c4adbbf73d579bdbf87acda99a01ef5",
+      "triangles": 1992,
+      "bytes": 310268,
+      "status": "pass"
+    },
+    {
+      "id": "ois.design.racetrack-panel-coffee",
+      "geometryHash": "3cdc39e51af12986b88b097e57f85127c1f03de3015ea4754332a94efcfe248a",
+      "normalizedMirrorGeometryHash": "0f34db9db31334b770c8ee581e2af1efb2de5ab4d71d6ce7a6bf9e44b9d9e2ba",
+      "triangles": 564,
+      "bytes": 248240,
+      "status": "pass"
+    },
+    {
+      "id": "ois.design.rail-frame-sofa",
+      "geometryHash": "7d744f3ebf12cd81073d8c87c8e4c6d49e77485bd773c738141c55f615b2254d",
+      "normalizedMirrorGeometryHash": "07c9417b20f4720ffd66bd89c4669074ccff26d3ee781479bc86e78d0db5f7b5",
+      "triangles": 1928,
+      "bytes": 590068,
+      "status": "pass"
+    },
+    {
+      "id": "ois.design.reclining-lounge",
+      "geometryHash": "f51d153f841caf156965c636810f20ef967da012e23a3cac54657396cd25c2fd",
+      "normalizedMirrorGeometryHash": "00191939bcb2bc9c4513b2cf45ec05172b8eac1ca9e6f1f2306edcf8fffc4c4d",
+      "triangles": 1508,
+      "bytes": 523400,
+      "status": "pass"
+    },
+    {
+      "id": "ois.design.record-listening-console",
+      "geometryHash": "751246177c7eec254e80b93dcaa9455596a8095389ed43049316302874f91a99",
+      "normalizedMirrorGeometryHash": "01dddad44d61c2a5760725dd96767dbf9ffe3a21251d54dbd355e2712558c2aa",
+      "triangles": 1256,
+      "bytes": 336352,
+      "status": "pass"
+    },
+    {
+      "id": "ois.design.rect-sled-dining",
+      "geometryHash": "e3efe29884020a51547e0e74e8341b1f4e7b8a8b783e46692896037c9bba1d8a",
+      "normalizedMirrorGeometryHash": "0ad39c72c4bff3eb7792002dc84ed9c645d8c0eb2330881777251611c0d9cf0e",
+      "triangles": 308,
+      "bytes": 207340,
+      "status": "pass"
+    },
+    {
+      "id": "ois.design.rect-trestle-dining",
+      "geometryHash": "9fc6b1a27a4501a39685dbe92174523d21a1b5cd137e5d992d3b315e2e7cfa7e",
+      "normalizedMirrorGeometryHash": "1946f55e0b19343c91496997cf48cd54741a3d61b395d0de929bcf051b2af0e3",
+      "triangles": 488,
+      "bytes": 223252,
+      "status": "pass"
+    },
+    {
+      "id": "ois.design.rect-waterfall-dining",
+      "geometryHash": "732edc28f2a65745b9465e9fef419caabf8c7b9e44577594f50eea6e8d4e1ea4",
+      "normalizedMirrorGeometryHash": "178112db4dcc32346d3c0e99ac5c9a953ade38f5fab65b52c9d90c939d6a7495",
+      "triangles": 564,
+      "bytes": 259620,
+      "status": "pass"
+    },
+    {
+      "id": "ois.design.ribbon-s-bookcase",
+      "geometryHash": "86a549ed739e69452e1b0a8bb08f4344c81f69c88a6205c652bb941085793059",
+      "normalizedMirrorGeometryHash": "1614a9df6faa7ad7dd698fd4d0649674a3e6f67698e577a02507ef6956e2c9bf",
+      "triangles": 804,
+      "bytes": 240340,
+      "status": "pass"
+    },
+    {
+      "id": "ois.design.rolled-tuft-sofa",
+      "geometryHash": "87b6ca3d679be8a66f798f86549eba75eb11628bb1ba252936140cc719694e77",
+      "normalizedMirrorGeometryHash": "24b8bec2d449443611ee1179e192d5ab3cb3293cdcd29db76cc77b8ef0fb285d",
+      "triangles": 5352,
+      "bytes": 751944,
+      "status": "pass"
+    },
+    {
+      "id": "ois.design.rolling-saddle",
+      "geometryHash": "f68f8e14b215dba3ed18e02e60e0ad617d7477f145bfd51525f0058790b87ffd",
+      "normalizedMirrorGeometryHash": "2b171b7ddfb6bc2be67bfcafdd1da0fba7b3f338ef9ab33eeab087dedf4ce71f",
+      "triangles": 4788,
+      "bytes": 199572,
+      "status": "pass"
+    },
+    {
+      "id": "ois.design.round-cone-dining",
+      "geometryHash": "fbaeb15c32f36b77896fb6bb7a5c45d888230184a68321628707696de3312904",
+      "normalizedMirrorGeometryHash": "2c1fb73ba20edfc2f28a0be2d4d97ab185bc02530432482c2ee9d7e174f2e551",
+      "triangles": 312,
+      "bytes": 194916,
+      "status": "pass"
+    },
+    {
+      "id": "ois.design.round-drum-coffee",
+      "geometryHash": "f591bd8348331b89587a050077b85216d1bc37306f7e5107a52c6eab9a6bd0af",
+      "normalizedMirrorGeometryHash": "0bb44b5bbd785e5ce9357639b80e165cdf179a75fda6149fe0f47a154a2c0a06",
+      "triangles": 1992,
+      "bytes": 302932,
+      "status": "pass"
+    },
+    {
+      "id": "ois.design.round-tripod-dining",
+      "geometryHash": "08fc4f1206efb48e1d60de275fe30ae026f13d16cc89ebd59a3a5882eff1f770",
+      "normalizedMirrorGeometryHash": "27e87efea257f64bf643e46962044c18501700e33c286aeea595a07f9e16469a",
+      "triangles": 368,
+      "bytes": 201304,
+      "status": "pass"
+    },
+    {
+      "id": "ois.design.round-tulip-dining",
+      "geometryHash": "4021da1a8faf3846ba09e549d008e99d21ed9d28f5881316cd2bc86425d1c325",
+      "normalizedMirrorGeometryHash": "40fcf3487337813a375568628bc3248d211402c6812b847d0285c4955e597005",
+      "triangles": 668,
+      "bytes": 197252,
+      "status": "pass"
+    },
+    {
+      "id": "ois.design.sawhorse-dining",
+      "geometryHash": "f31f028507708bbc1c4beeadfefbe3740f5041d10866cd70fc3065ad90238b74",
+      "normalizedMirrorGeometryHash": "0692e21e0ce845bf9f88de05ce357e64c71225969668db54930029faa2c484f8",
+      "triangles": 804,
+      "bytes": 275936,
+      "status": "pass"
+    },
+    {
+      "id": "ois.design.sculpted-hourglass",
+      "geometryHash": "3c27cd8c0d2777c1e220f5a5f5fed94e4909f924d69dadcd5ad341db32f2eadc",
+      "normalizedMirrorGeometryHash": "bb29506ca952461432dad85e833e19f5e902466e36baf4c728562a1272e788c3",
+      "triangles": 400,
+      "bytes": 193776,
+      "status": "pass"
+    },
+    {
+      "id": "ois.design.shaker-wardrobe",
+      "geometryHash": "7074f6d3f11f650edfd5428ebd3eb15544f0e6084f52899642da19020048260e",
+      "normalizedMirrorGeometryHash": "05c09aac5a088693266aedbe1e37908e7adca111ced3ac45ec367aac576924d1",
+      "triangles": 1124,
+      "bytes": 309072,
+      "status": "pass"
+    },
+    {
+      "id": "ois.design.shell-dining",
+      "geometryHash": "f16fe61377f189e2b73ac111c78db8359b2cf33e19e543e01db05c209c639248",
+      "normalizedMirrorGeometryHash": "23aa0efb55198ddc8f03b8750efc5dfd5bae7cdf84b88dbe6dd56f0ab19a3e4b",
+      "triangles": 1444,
+      "bytes": 256808,
+      "status": "pass"
+    },
+    {
+      "id": "ois.design.slat-reclining-chair",
+      "geometryHash": "b6990cc286fd1a5b37cda224ef019a318800b9e6c3815ccc07abed63d67d2af1",
+      "normalizedMirrorGeometryHash": "05243efd2d2d3f446ee67ee296163b6caca0706dc3f000486bf1e3b245e37ae9",
+      "triangles": 1352,
+      "bytes": 345700,
+      "status": "pass"
+    },
+    {
+      "id": "ois.design.slatted-low-bed",
+      "geometryHash": "8bb9f4f905ce53065176815be34eff2cd5ca63a0e0db8013f84e2f4c277f7501",
+      "normalizedMirrorGeometryHash": "1c45998886a05818b1690f069a2f13a669e41c38a5b1da4702dcde1c89445f2e",
+      "triangles": 1976,
+      "bytes": 599884,
+      "status": "pass"
+    },
+    {
+      "id": "ois.design.sled-double-dresser",
+      "geometryHash": "d7885af3c1d9cd022b2d1bfab9ba3ecc8d302fc6c2f1bddea985d2ccc413bd06",
+      "normalizedMirrorGeometryHash": "0663f96335f317c02119c1240f6206086f1294d1331305f707c9828b35603f6e",
+      "triangles": 2020,
+      "bytes": 425788,
+      "status": "pass"
+    },
+    {
+      "id": "ois.design.sled-footstool",
+      "geometryHash": "7eb4df9ee938a3400b163985f99addc985f17625cd7b590d6c8429a8d1678cca",
+      "normalizedMirrorGeometryHash": "3a0f20cc5a2068031e9d38252d7af00616f8fd30faec86128a7f7e56b62d6d1e",
+      "triangles": 308,
+      "bytes": 222744,
+      "status": "pass"
+    },
+    {
+      "id": "ois.design.sleigh-panel-bed",
+      "geometryHash": "70a24000a8407256fa93622dde5395bb6cba2da5c768fea117b6da24fdd643e9",
+      "normalizedMirrorGeometryHash": "12443f755113e07bbe2694ddf67f5b26c283d70331240db0cb783c1a824fbad0",
+      "triangles": 3272,
+      "bytes": 641748,
+      "status": "pass"
+    },
+    {
+      "id": "ois.design.spindle-dining",
+      "geometryHash": "2af672de1d6489f1a00cfa4bdd871d19bd664bb737c710c202d95caa3033f9df",
+      "normalizedMirrorGeometryHash": "1baeddb02a883eb7647586a3a8d4e9e41be9f753709ae59c1567d244b2356753",
+      "triangles": 1288,
+      "bytes": 429860,
+      "status": "pass"
+    },
+    {
+      "id": "ois.design.spindle-head-bed",
+      "geometryHash": "8b62461ef4402f8d78d670d108ad537231e230d4a513f262e84e1f620d69f6f3",
+      "normalizedMirrorGeometryHash": "04387a32d80eb0d0e3e4611d1dbf4c49eff00eae75f82513aed5afa9102c5193",
+      "triangles": 2152,
+      "bytes": 581648,
+      "status": "pass"
+    },
+    {
+      "id": "ois.design.spindle-head-bed.size.twin",
+      "geometryHash": "edd812e880a5240bb841901272bb7a92974b2bcf2cec9514f9d6e08a808202aa",
+      "normalizedMirrorGeometryHash": "0857ce4cf87cd88eaaf62ee90bb5a51b07572241fa714132e224cbcaf76a79a9",
+      "triangles": 1920,
+      "bytes": 540140,
+      "status": "pass"
+    },
+    {
+      "id": "ois.design.stone-bridge-coffee",
+      "geometryHash": "1c068111aae337ab6e59b5a450aeedc9841da1d3df4aab61de40bcb9c266c22a",
+      "normalizedMirrorGeometryHash": "029ee7b430586a7cf0af65b6a03628e50d50dc1f2eb37cf3c9ae79645c614cbc",
+      "triangles": 176,
+      "bytes": 8768,
+      "status": "pass"
+    },
+    {
+      "id": "ois.design.string-hoop-chair",
+      "geometryHash": "2bcf28254f8a43a3232b0eec6b3238fe4ad96bb897d18ec37b5ad3f0c2df7c5c",
+      "normalizedMirrorGeometryHash": "00ac0f9c13496fc6c564202d360ecf3bba1ac9d3d584d84a224feb38d9b34865",
+      "triangles": 5444,
+      "bytes": 320024,
+      "status": "pass"
+    },
+    {
+      "id": "ois.design.suspended-wicker-chair",
+      "geometryHash": "779b152218c5b83cc36021874017f8df42fa8596dfd7b9e0fd0521e43e89ce38",
+      "normalizedMirrorGeometryHash": "2fcf6699ec3e716d336f6bf185311d8a2d2b1093a99317d401c4e7f21ed8d42f",
+      "triangles": 6344,
+      "bytes": 508348,
+      "status": "pass"
+    },
+    {
+      "id": "ois.design.tall-lingerie-chest",
+      "geometryHash": "999f29320e08fc24bff6bc5bdb77b80b0152a90fd1d533a8f9e811355b19ad36",
+      "normalizedMirrorGeometryHash": "13033cdcf08ff5c62de9227a21356693f168fb0652fc39a952763ca544393e7c",
+      "triangles": 2420,
+      "bytes": 476416,
+      "status": "pass"
+    },
+    {
+      "id": "ois.design.tambour-bedside",
+      "geometryHash": "28e786ad4ef0bdae35ad26a3e93179868dd8222fcc575e1f28bf3a40c6f5112d",
+      "normalizedMirrorGeometryHash": "1b014e6b57107ea88426b972abcfdc9ce4a1e3df72b30958dc5471dfc20121a9",
+      "triangles": 1136,
+      "bytes": 321300,
+      "status": "pass"
+    },
+    {
+      "id": "ois.design.tension-sling-chair",
+      "geometryHash": "b141db8dda2c4deb7918c4a2a6c1e5cab0551d8695c1fe3d6d3dbcd672f05bd7",
+      "normalizedMirrorGeometryHash": "016d0485cbe2162b5f225189d3e09a437ab224fdd90e716a118292d354f9602b",
+      "triangles": 488,
+      "bytes": 212568,
+      "status": "pass"
+    },
+    {
+      "id": "ois.design.three-drawer-nightstand",
+      "geometryHash": "453926de1ec79d4e38d89140e1b54fe3679663261e050d5467bb251e18c018cd",
+      "normalizedMirrorGeometryHash": "1ff7492d91e747e583e9ba120712b8e73bbaf3767d0ebb5b3cf85a3dafe086e1",
+      "triangles": 1300,
+      "bytes": 334240,
+      "status": "pass"
+    },
+    {
+      "id": "ois.design.tilting-shoe-cabinet",
+      "geometryHash": "a9d9061aad6b769891728ca959d56cf0545f5080b60e617883e5277a15e38171",
+      "normalizedMirrorGeometryHash": "0377a5f4dbdce506ebe2f9134cf2f89fd99a5633d56e3d02bdab7fd1ad57f893",
+      "triangles": 908,
+      "bytes": 296364,
+      "status": "pass"
+    },
+    {
+      "id": "ois.design.timber-rocker",
+      "geometryHash": "c6fb2a2194f2b24f34f588bbacc75350cd655d73feda1089cc6392770f4fe4ac",
+      "normalizedMirrorGeometryHash": "1eef0fecc758dc353877235e0cb70acfa3ae5e7b1cbbe3e04e818184a34eb25f",
+      "triangles": 1820,
+      "bytes": 510588,
+      "status": "pass"
+    },
+    {
+      "id": "ois.design.tractor-counter-stool",
+      "geometryHash": "df3434ddc582cce96087688849d714273f593770d0f509c859356271064e7354",
+      "normalizedMirrorGeometryHash": "31572f9bddaf93af7f20b858a330f1638e9d097d3087970fd2b9fdaf6527bbad",
+      "triangles": 2160,
+      "bytes": 259112,
+      "status": "pass"
+    },
+    {
+      "id": "ois.design.triangle-cone-table",
+      "geometryHash": "621884f430a08bbfe854c2069e37b6df277dd88a828f6d9bd3216d0aac06ac14",
+      "normalizedMirrorGeometryHash": "09f3e411dd824cb6fe65c995a06a9a3e4ea2fa4e58b6b3c0e888decf1f5aeda1",
+      "triangles": 132,
+      "bytes": 185052,
+      "status": "pass"
+    },
+    {
+      "id": "ois.design.tripod-counter-stool",
+      "geometryHash": "4286fa23a110d7a112e0d1af0e001581092cc8764bac063ea1bd8af9354e1350",
+      "normalizedMirrorGeometryHash": "151d64bf231c2b71b9f200b1bc6387dbb25e0aa8b46d03d5d882f510881dcdbe",
+      "triangles": 368,
+      "bytes": 226672,
+      "status": "pass"
+    },
+    {
+      "id": "ois.design.tufted-headboard-bed",
+      "geometryHash": "f8b6ca562fbc61f9fbf6da4afd37d26972c88746e27de250708012fd6983a25a",
+      "normalizedMirrorGeometryHash": "16f5c1f3ae07cdf12ba7fa3f6f6765a13bf1d26c5819327312436fcf1ee43adf",
+      "triangles": 6252,
+      "bytes": 718920,
+      "status": "pass"
+    },
+    {
+      "id": "ois.design.tv-media-pedestal",
+      "geometryHash": "1a165aa7a81d821bc4e8b666d85ecdcdf6defe62a468625870fb8c8182e0bb43",
+      "normalizedMirrorGeometryHash": "3e004b50f0f00077c55c5f2232e24dc267c13a6a242b5a2a9f12864c76e026c1",
+      "triangles": 1400,
+      "bytes": 350224,
+      "status": "pass"
+    },
+    {
+      "id": "ois.design.twisted-root-coffee",
+      "geometryHash": "e1ba08468bc02e830e2b7ad2c9e2e04b54dc6c3e5f0a6887bdd1dcf391d57318",
+      "normalizedMirrorGeometryHash": "0940e43d039381252695b8c54bc6f04d5e0ee3c151ad5b09b677c29457f4bbb7",
+      "triangles": 1424,
+      "bytes": 246052,
+      "status": "pass"
+    },
+    {
+      "id": "ois.design.wave-bookcase",
+      "geometryHash": "cd19a9f955a9678ef5243aaa4ad723b01ddd04097915f185be9af1772aa62f6f",
+      "normalizedMirrorGeometryHash": "095293c021b5eda538d725770b6d8b70c82b61c27523d019883aae4329c05253",
+      "triangles": 2120,
+      "bytes": 340456,
+      "status": "pass"
+    },
+    {
+      "id": "ois.design.wine-diagonal-cabinet",
+      "geometryHash": "38f627db9dc37aae620e0177faf306f19d8c00a61d6eafdc055f76160974f1c6",
+      "normalizedMirrorGeometryHash": "1d8c56135dd7f690d89f0b2e7206461fd065cba4228a42f85517697c904f4374",
+      "triangles": 584,
+      "bytes": 236304,
+      "status": "pass"
+    },
+    {
+      "id": "ois.design.wing-headboard-bed",
+      "geometryHash": "029f75f3274b938ebfae687936b9913395b86b59dd13ddb6fc2f1d2068d09f62",
+      "normalizedMirrorGeometryHash": "48e6f668a788e6e3477d0cf50fda3e8f11d76e8fbf1e79255320639247d05a24",
+      "triangles": 1876,
+      "bytes": 598868,
+      "status": "pass"
+    },
+    {
+      "id": "ois.design.wing-reading-chair",
+      "geometryHash": "e3d40245c55a9d7198966a9b5b4714e3cb391b97b2eec6d5290b4217e8b3d43c",
+      "normalizedMirrorGeometryHash": "05c43118a46d782a6862fb9eca29b0b14e9ed84cbbe2d8401cdbb422d5eb0d9a",
+      "triangles": 1532,
+      "bytes": 536636,
+      "status": "pass"
+    },
+    {
+      "id": "ois.design.wire-dining",
+      "geometryHash": "85712c5f077a1e6cdce12f8601bbdd46f515e07ef3b949b21c0c9d4cbfad0424",
+      "normalizedMirrorGeometryHash": "336a3499b94617bd1b4710039db16d22e283ec1f53983643118eb046fb460649",
+      "triangles": 884,
+      "bytes": 41688,
+      "status": "pass"
+    },
+    {
+      "id": "ois.design.wire-lounge",
+      "geometryHash": "de69ca14d6726554d322e89fd0a3fc7e09a4cc23a8d6076b28ef074546e891ca",
+      "normalizedMirrorGeometryHash": "0c5938c47ea818444694ced627d407282ce95433001c950fa2ad5537a39cfac3",
+      "triangles": 884,
+      "bytes": 42068,
+      "status": "pass"
+    },
+    {
+      "id": "ois.design.woven-bow-chair",
+      "geometryHash": "db2cf3ada1a46ee459c0cd303c7689028c5d53216318f8fd106c01781b041d40",
+      "normalizedMirrorGeometryHash": "3ad7c1f8a40bfe887730f01a5d752f300b5faefe46160af4fd49c7d9ea874e2d",
+      "triangles": 1288,
+      "bytes": 431352,
+      "status": "pass"
+    }
+  ],
+  "limitations": "structural subset, no phone or user approval; canonical shape and silhouette are screening tools, visual construction review determines eligibility"
+}

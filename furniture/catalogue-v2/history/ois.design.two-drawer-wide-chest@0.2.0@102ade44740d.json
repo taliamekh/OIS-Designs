@@ -1,0 +1,164 @@
+{
+  "designId": "ois.design.two-drawer-wide-chest",
+  "familyId": "ois.family.two-drawer-wide-chest",
+  "id": "ois.design.two-drawer-wide-chest",
+  "name": "Two drawer wide chest",
+  "roomTags": [
+    "storage"
+  ],
+  "theme": "soft-japandi",
+  "builder": "case",
+  "parameters": {
+    "form": "drawers",
+    "front": "slab",
+    "w": 1.2,
+    "h": 0.65,
+    "rows": 2,
+    "cols": 1,
+    "base": "plinth"
+  },
+  "distinction": "Two very broad low drawers over a recessed floor plinth.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted"
+  },
+  "constructionKey": "case|drawers|{\"base\": \"plinth\", \"cols\": \"single\", \"doors\": 2, \"drawersTop\": false, \"front\": \"slab\", \"rows\": \"stack\"}",
+  "sha256": "102ade44740d89dfe1fa9215cd46b47f3c3cc0367b20ec79dadf9c4ddf831259",
+  "bytes": 88920,
+  "triangles": 1624,
+  "vertices": 2367,
+  "drawPrimitives": 3,
+  "bounds": {
+    "min": [
+      -0.6000000238418579,
+      0.0,
+      -0.25600000005215406
+    ],
+    "max": [
+      0.6000000238418579,
+      0.6500000357627869,
+      0.20000000298023224
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 1.2000000476837158,
+    "depth": 0.4560000030323863,
+    "height": 0.6500000357627869
+  },
+  "footprint": [
+    [
+      -0.6000000238418579,
+      -0.25600000005215406
+    ],
+    [
+      0.6000000238418579,
+      -0.25600000005215406
+    ],
+    [
+      0.6000000238418579,
+      0.20000000298023224
+    ],
+    [
+      -0.6000000238418579,
+      0.20000000298023224
+    ]
+  ],
+  "variantSlots": [
+    "dark",
+    "metal",
+    "wood"
+  ],
+  "requiredExtensions": [],
+  "version": "0.2.0",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.two-drawer-wide-chest",
+  "file": "assets/v0.2.0/two-drawer-wide-chest.glb",
+  "sourceModel": "sources/v0.2.0/two-drawer-wide-chest.blend",
+  "thumbnail": "previews/v0.2.0/two-drawer-wide-chest.png",
+  "backThumbnail": "previews/v0.2.0/two-drawer-wide-chest-back.png",
+  "category": "storage",
+  "subtype": "drawers",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "textures": {
+    "count": 0,
+    "bytes": 0
+  },
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.2.0/two-drawer-wide-chest.png",
+      "previews/v0.2.0/two-drawer-wide-chest-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.34,
+      0.28,
+      0.19
+    ],
+    [
+      0.58,
+      0.54,
+      0.44
+    ],
+    [
+      0.15,
+      0.17,
+      0.15
+    ]
+  ],
+  "colourTags": [
+    "ash",
+    "flax",
+    "stone"
+  ],
+  "materials": [
+    "metal",
+    "paint",
+    "wood"
+  ],
+  "searchAliases": [
+    "storage",
+    "drawers"
+  ],
+  "materialSlots": [
+    {
+      "id": "dark",
+      "material": "dark",
+      "recolourable": true
+    },
+    {
+      "id": "metal",
+      "material": "metal",
+      "recolourable": true
+    },
+    {
+      "id": "wood",
+      "material": "wood",
+      "recolourable": true
+    }
+  ]
+}

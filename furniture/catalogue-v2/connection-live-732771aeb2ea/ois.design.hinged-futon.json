@@ -1,0 +1,124 @@
+{
+  "id": "ois.design.hinged-futon",
+  "sha256": "unexported-source-732771aeb2eadd33599208170e38ff4e50d68878cbfb6795c9473e6f8553f36b",
+  "sourceModel": null,
+  "sourceSha256": "732771aeb2eadd33599208170e38ff4e50d68878cbfb6795c9473e6f8553f36b",
+  "partCount": 11,
+  "componentCount": 1,
+  "components": [
+    {
+      "parts": [
+        "leg",
+        "leg.001",
+        "leg.002",
+        "leg.003",
+        "seat deck",
+        "folding back",
+        "continuous futon",
+        "piping",
+        "hinged side rail",
+        "hinged side rail.001",
+        "futon hinge beam"
+      ],
+      "minimum": [
+        -0.9769999980926514,
+        -0.41430380940437317,
+        0.00663332873955369
+      ],
+      "maximum": [
+        0.9769999980926514,
+        0.4187999963760376,
+        0.9504401087760925
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "seat deck",
+      "b": "leg",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "seat deck",
+      "b": "leg.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "seat deck",
+      "b": "leg.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "seat deck",
+      "b": "leg.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "continuous futon",
+      "b": "seat deck",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "piping",
+      "b": "continuous futon",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "hinged side rail",
+      "b": "leg",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "hinged side rail",
+      "b": "seat deck",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "hinged side rail",
+      "b": "continuous futon",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "hinged side rail.001",
+      "b": "leg.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "hinged side rail.001",
+      "b": "seat deck",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "hinged side rail.001",
+      "b": "continuous futon",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "futon hinge beam",
+      "b": "seat deck",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "futon hinge beam",
+      "b": "folding back",
+      "method": "triangle intersection",
+      "distance": 0
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; live-source reports are NOT exported-asset evidence; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T03:27:54Z"
+}

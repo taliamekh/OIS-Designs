@@ -1,0 +1,52 @@
+{
+  "id": "ois.design.mushroom-bedside",
+  "sha256": "unexported-source-a6a97ed1ff18ea7190f4c07e8ea17b6dba901563a653d7aed874183539ef16c1",
+  "sourceModel": null,
+  "sourceSha256": "a6a97ed1ff18ea7190f4c07e8ea17b6dba901563a653d7aed874183539ef16c1",
+  "partCount": 3,
+  "componentCount": 2,
+  "components": [
+    {
+      "parts": [
+        "weighted base",
+        "stem"
+      ],
+      "minimum": [
+        -0.12999999523162842,
+        -0.12999999523162842,
+        0.0
+      ],
+      "maximum": [
+        0.12999999523162842,
+        0.12999999523162842,
+        0.2800000011920929
+      ]
+    },
+    {
+      "parts": [
+        "mushroom cap"
+      ],
+      "minimum": [
+        -0.23000000417232513,
+        -0.23000000417232513,
+        0.33000001311302185
+      ],
+      "maximum": [
+        0.23000000417232513,
+        0.23000000417232513,
+        0.47999998927116394
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "stem",
+      "b": "weighted base",
+      "method": "triangle intersection",
+      "distance": 0
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; live-source reports are NOT exported-asset evidence; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T03:19:57Z"
+}

@@ -1,0 +1,123 @@
+{
+  "id": "ois.design.tree-torchiere",
+  "sha256": "877c23d72b0ae2b8d95ab93e0593355fa1348333a779618564ae4b77063381c2",
+  "sourceModel": "sources/v0.7.0/tree-torchiere.blend",
+  "sourceSha256": "110fe6574d4dd83266f7af791ee157995676367ea335ddfa3d8e31966c40b4e1",
+  "partCount": 10,
+  "componentCount": 1,
+  "components": [
+    {
+      "parts": [
+        "base",
+        "tree stem",
+        "tree bowl",
+        "bowl socket",
+        "tree stem.001",
+        "tree bowl.001",
+        "bowl socket.001",
+        "tree stem.002",
+        "tree bowl.002",
+        "bowl socket.002"
+      ],
+      "minimum": [
+        -0.2800000011920929,
+        -0.23000000417232513,
+        0.0
+      ],
+      "maximum": [
+        0.28999999165534973,
+        0.23000000417232513,
+        1.6799999475479126
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "tree stem",
+      "b": "base",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "bowl socket",
+      "b": "tree stem",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "bowl socket",
+      "b": "tree bowl",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "tree stem.001",
+      "b": "base",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "tree stem.001",
+      "b": "tree stem",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "bowl socket.001",
+      "b": "tree stem.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "bowl socket.001",
+      "b": "tree bowl.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "tree stem.002",
+      "b": "base",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "tree stem.002",
+      "b": "tree stem",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "tree stem.002",
+      "b": "tree stem.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "tree bowl.002",
+      "b": "tree stem.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "bowl socket.002",
+      "b": "tree stem.001",
+      "method": "surface distance",
+      "distance": 0.0038981973193585873
+    },
+    {
+      "a": "bowl socket.002",
+      "b": "tree stem.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "bowl socket.002",
+      "b": "tree bowl.002",
+      "method": "triangle intersection",
+      "distance": 0
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; live-source reports are NOT exported-asset evidence; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T03:51:57Z"
+}

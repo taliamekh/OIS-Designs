@@ -1,0 +1,174 @@
+{
+  "id": "ois.design.timber-highchair",
+  "sha256": "unexported-source-a6a97ed1ff18ea7190f4c07e8ea17b6dba901563a653d7aed874183539ef16c1",
+  "sourceModel": null,
+  "sourceSha256": "a6a97ed1ff18ea7190f4c07e8ea17b6dba901563a653d7aed874183539ef16c1",
+  "partCount": 13,
+  "componentCount": 1,
+  "components": [
+    {
+      "parts": [
+        "leg",
+        "leg.001",
+        "leg.002",
+        "leg.003",
+        "platform",
+        "step",
+        "safety upright",
+        "safety upright.001",
+        "safety upright.002",
+        "safety upright.003",
+        "rear rail",
+        "tray",
+        "backrest"
+      ],
+      "minimum": [
+        -0.29499998688697815,
+        -0.23000000417232513,
+        0.011559688486158848
+      ],
+      "maximum": [
+        0.29499998688697815,
+        0.29899999499320984,
+        0.9599999785423279
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "platform",
+      "b": "leg",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "platform",
+      "b": "leg.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "platform",
+      "b": "leg.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "platform",
+      "b": "leg.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "step",
+      "b": "leg.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "step",
+      "b": "leg.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "safety upright",
+      "b": "leg",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "safety upright",
+      "b": "platform",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "safety upright.001",
+      "b": "leg.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "safety upright.001",
+      "b": "platform",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "safety upright.002",
+      "b": "leg.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "safety upright.002",
+      "b": "platform",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "safety upright.003",
+      "b": "leg.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "safety upright.003",
+      "b": "platform",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "rear rail",
+      "b": "safety upright",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "rear rail",
+      "b": "safety upright.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "tray",
+      "b": "safety upright.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "tray",
+      "b": "safety upright.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "backrest",
+      "b": "platform",
+      "method": "surface distance",
+      "distance": 0.002499997615814209
+    },
+    {
+      "a": "backrest",
+      "b": "safety upright",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "backrest",
+      "b": "safety upright.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "backrest",
+      "b": "rear rail",
+      "method": "triangle intersection",
+      "distance": 0
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; live-source reports are NOT exported-asset evidence; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T03:19:28Z"
+}

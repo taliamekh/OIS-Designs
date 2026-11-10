@@ -1,0 +1,229 @@
+{
+  "id": "ois.design.library-book-cart",
+  "sha256": "unexported-source-542a6b43ca4abc9d4f4ac88dc7bd803746dd198c350ababac32d73431ffd328b",
+  "sourceModel": null,
+  "sourceSha256": "542a6b43ca4abc9d4f4ac88dc7bd803746dd198c350ababac32d73431ffd328b",
+  "partCount": 20,
+  "componentCount": 1,
+  "components": [
+    {
+      "parts": [
+        "base longitudinal rail",
+        "base longitudinal rail.001",
+        "base cross rail",
+        "base cross rail.001",
+        "end upright",
+        "push handle",
+        "end upright.001",
+        "push handle.001",
+        "caster",
+        "caster.001",
+        "caster.002",
+        "caster.003",
+        "inclined book tray",
+        "retaining ledge",
+        "inclined book tray.001",
+        "retaining ledge.001",
+        "inclined book tray.002",
+        "retaining ledge.002",
+        "inclined book tray.003",
+        "retaining ledge.003"
+      ],
+      "minimum": [
+        -0.4819999933242798,
+        -0.26749998331069946,
+        0.0
+      ],
+      "maximum": [
+        0.4819999933242798,
+        0.26749998331069946,
+        1.166853904724121
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "base cross rail",
+      "b": "base longitudinal rail",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "base cross rail",
+      "b": "base longitudinal rail.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "base cross rail.001",
+      "b": "base longitudinal rail",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "base cross rail.001",
+      "b": "base longitudinal rail.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "end upright",
+      "b": "base cross rail",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "push handle",
+      "b": "end upright",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "end upright.001",
+      "b": "base cross rail.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "push handle.001",
+      "b": "end upright.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "caster",
+      "b": "base longitudinal rail",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "caster",
+      "b": "base cross rail",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "caster.001",
+      "b": "base longitudinal rail.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "caster.001",
+      "b": "base cross rail",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "caster.002",
+      "b": "base longitudinal rail",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "caster.002",
+      "b": "base cross rail.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "caster.003",
+      "b": "base longitudinal rail.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "caster.003",
+      "b": "base cross rail.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "inclined book tray",
+      "b": "end upright",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "inclined book tray",
+      "b": "end upright.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "retaining ledge",
+      "b": "inclined book tray",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "inclined book tray.001",
+      "b": "end upright",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "inclined book tray.001",
+      "b": "end upright.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "inclined book tray.001",
+      "b": "inclined book tray",
+      "method": "surface distance",
+      "distance": 0.0
+    },
+    {
+      "a": "retaining ledge.001",
+      "b": "inclined book tray.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "inclined book tray.002",
+      "b": "end upright",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "inclined book tray.002",
+      "b": "end upright.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "retaining ledge.002",
+      "b": "inclined book tray.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "inclined book tray.003",
+      "b": "end upright",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "inclined book tray.003",
+      "b": "end upright.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "inclined book tray.003",
+      "b": "inclined book tray.002",
+      "method": "surface distance",
+      "distance": 0.0
+    },
+    {
+      "a": "retaining ledge.003",
+      "b": "inclined book tray.003",
+      "method": "triangle intersection",
+      "distance": 0
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; live-source reports are NOT exported-asset evidence; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T03:32:57Z"
+}

@@ -1,0 +1,77 @@
+{
+  "id": "ois.design.ironing-crossboard",
+  "sha256": "8dd6bccab4580d2178c07333c8a4b18d6787edbdbd71e674e7aa1f2e02f88282",
+  "sourceModel": "sources/v0.7.0/ironing-crossboard.blend",
+  "sourceSha256": "d341aa143032cf301f280fd5a7e6f34e8d96753d88ee20e882857ea4e7b54f01",
+  "partCount": 6,
+  "componentCount": 1,
+  "components": [
+    {
+      "parts": [
+        "ironing pad",
+        "cross leg",
+        "cross leg.001",
+        "cross leg.002",
+        "cross leg.003",
+        "iron rest"
+      ],
+      "minimum": [
+        -0.8125,
+        -0.1899999976158142,
+        0.0
+      ],
+      "maximum": [
+        0.625,
+        0.1899999976158142,
+        0.8998019099235535
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "cross leg",
+      "b": "ironing pad",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "cross leg.001",
+      "b": "ironing pad",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "cross leg.001",
+      "b": "cross leg",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "cross leg.002",
+      "b": "ironing pad",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "cross leg.003",
+      "b": "ironing pad",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "cross leg.003",
+      "b": "cross leg.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "iron rest",
+      "b": "ironing pad",
+      "method": "triangle intersection",
+      "distance": 0
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; live-source reports are NOT exported-asset evidence; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T03:45:53Z"
+}

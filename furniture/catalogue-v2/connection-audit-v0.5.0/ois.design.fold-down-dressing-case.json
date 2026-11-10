@@ -1,0 +1,154 @@
+{
+  "id": "ois.design.fold-down-dressing-case",
+  "sha256": "c6a2c45a2f24a0bb9687f45f339af23587d1e8f9fd167f5245e84d1d7e0c37a8",
+  "sourceModel": "sources/v0.5.0/fold-down-dressing-case.blend",
+  "sourceSha256": "b02f3a17d7b108b1c3b717ace4814b8c63ea296b0fd823704c232b9d43a66c65",
+  "partCount": 13,
+  "componentCount": 3,
+  "components": [
+    {
+      "parts": [
+        "leg",
+        "leg.001",
+        "leg.002",
+        "leg.003",
+        "bottom",
+        "top",
+        "side",
+        "side.001",
+        "back"
+      ],
+      "minimum": [
+        -0.42500001192092896,
+        -0.20000000298023224,
+        1.6298145055770874e-09
+      ],
+      "maximum": [
+        0.42500001192092896,
+        0.20000000298023224,
+        1.3414711952209473
+      ]
+    },
+    {
+      "parts": [
+        "fold-down writing leaf",
+        "leaf support",
+        "leaf support.001"
+      ],
+      "minimum": [
+        -0.38499999046325684,
+        0.0599999874830246,
+        0.4578534960746765
+      ],
+      "maximum": [
+        0.38499999046325684,
+        0.42000001668930054,
+        0.8154711127281189
+      ]
+    },
+    {
+      "parts": [
+        "upper door"
+      ],
+      "minimum": [
+        -0.38999998569488525,
+        0.1979999989271164,
+        0.9567211270332336
+      ],
+      "maximum": [
+        0.38999998569488525,
+        0.22199998795986176,
+        1.2942211627960205
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "bottom",
+      "b": "leg",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "bottom",
+      "b": "leg.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "bottom",
+      "b": "leg.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "bottom",
+      "b": "leg.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "side",
+      "b": "bottom",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "side",
+      "b": "top",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "side.001",
+      "b": "bottom",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "side.001",
+      "b": "top",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "back",
+      "b": "bottom",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "back",
+      "b": "top",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "back",
+      "b": "side",
+      "method": "surface distance",
+      "distance": 0.0
+    },
+    {
+      "a": "back",
+      "b": "side.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "leaf support",
+      "b": "fold-down writing leaf",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "leaf support.001",
+      "b": "fold-down writing leaf",
+      "method": "triangle intersection",
+      "distance": 0
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T03:07:32Z"
+}

@@ -1,0 +1,27 @@
+{
+  "counts": {
+    "glbFiles": 444,
+    "legacyFiles": 39,
+    "newCandidates": 405,
+    "plannedBriefs": 439,
+    "countEligibleCandidates": 345,
+    "visuallyReviewed": 201,
+    "internallyAcceptedDistinctDesigns": 158,
+    "reviewedVariants": 29,
+    "needsRework": 14,
+    "rejected": 0,
+    "phoneValidated": 0,
+    "userApproved": 0,
+    "acceptedExcludingAppliancesAndBathroomFixtures": 152,
+    "acceptedWithReviewedDistanceLods": 3,
+    "reviewedDistanceLodFiles": 5
+  },
+  "manifestSha256": "18523d9ea31a0aca013193220d2e80e4a21afe50e79b4d28a9543378fdc3c1de",
+  "reviewLedgerSha256": "d64e338c1607d0e4cd0d2be6c15c043ba3920638b504a11aa4f0624935adaa94",
+  "lastUpdateUtc": "2026-11-10T03:57:33Z",
+  "target": 300,
+  "minimumWorkGateUtc": "2026-11-10T06:53:00Z",
+  "goalStatus": "active",
+  "countPolicy": "catalogue-v2/COUNTING.md",
+  "countChangeRule": "Not monotonic: replacing geometry with a new hash invalidates prior current-asset acceptance until the new render is reviewed. Old decisions remain historical; regeneration does not copy approval."
+}

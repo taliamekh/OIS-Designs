@@ -1,0 +1,142 @@
+{
+  "id": "ois.design.raised-train-table",
+  "sha256": "unexported-source-542a6b43ca4abc9d4f4ac88dc7bd803746dd198c350ababac32d73431ffd328b",
+  "sourceModel": null,
+  "sourceSha256": "542a6b43ca4abc9d4f4ac88dc7bd803746dd198c350ababac32d73431ffd328b",
+  "partCount": 11,
+  "componentCount": 1,
+  "components": [
+    {
+      "parts": [
+        "top",
+        "panel leg",
+        "panel leg.001",
+        "undershelf",
+        "undershelf side support",
+        "undershelf side support.001",
+        "undershelf cross support",
+        "undershelf cross support.001",
+        "table rim",
+        "table rim.001",
+        "wood train track"
+      ],
+      "minimum": [
+        -0.5625,
+        -0.375,
+        0.0
+      ],
+      "maximum": [
+        0.5625,
+        0.375,
+        0.5699999928474426
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "panel leg",
+      "b": "top",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "panel leg.001",
+      "b": "top",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "undershelf",
+      "b": "panel leg",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "undershelf",
+      "b": "panel leg.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "undershelf cross support",
+      "b": "panel leg",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "undershelf cross support",
+      "b": "panel leg.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "undershelf cross support",
+      "b": "undershelf",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "undershelf cross support",
+      "b": "undershelf side support",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "undershelf cross support",
+      "b": "undershelf side support.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "undershelf cross support.001",
+      "b": "panel leg",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "undershelf cross support.001",
+      "b": "panel leg.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "undershelf cross support.001",
+      "b": "undershelf",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "undershelf cross support.001",
+      "b": "undershelf side support",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "undershelf cross support.001",
+      "b": "undershelf side support.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "table rim",
+      "b": "top",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "table rim.001",
+      "b": "top",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "wood train track",
+      "b": "top",
+      "method": "triangle intersection",
+      "distance": 0
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; live-source reports are NOT exported-asset evidence; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T03:32:16Z"
+}

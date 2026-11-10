@@ -1,0 +1,246 @@
+{
+  "designId": "ois.design.woven-toy-lockers",
+  "familyId": "ois.family.cane-linen-tower",
+  "id": "ois.design.woven-toy-lockers",
+  "name": "Woven toy lockers",
+  "roomTags": [
+    "children"
+  ],
+  "theme": "soft-japandi",
+  "builder": "case",
+  "parameters": {
+    "form": "linen",
+    "baseHeight": 0.05,
+    "w": 1.05,
+    "d": 0.38,
+    "h": 0.75,
+    "rows": 2,
+    "cols": 3
+  },
+  "distinction": "Six small woven-front doors separate toy storage compartments.",
+  "stage": "validated-candidate",
+  "countEligible": false,
+  "variants": [],
+  "variantOf": "ois.design.cane-linen-tower",
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted",
+    "sourceSnapshot": "sources/pipeline-80bacc170bd1371e.py",
+    "sourceSha256": "80bacc170bd1371edd54e3e5203658724c4e90ee4562fa13275787f9884b1d45",
+    "supportSources": {
+      "signature_designs.py": {
+        "snapshot": "sources/signature_designs-c7ce1c9570491409.py",
+        "sha256": "c7ce1c95704914096c0af5c88272139fca2098556f75b752375dd03da6cd8ee2"
+      },
+      "material_finish.py": {
+        "snapshot": "sources/material_finish-b9bb830e81d90e18.py",
+        "sha256": "b9bb830e81d90e18c05191c4e478ee7bbda04b117e4148687be9073a85d929c2"
+      },
+      "catalogue_inventory.py": {
+        "snapshot": "sources/catalogue_inventory-b67897df830f7144.py",
+        "sha256": "b67897df830f71449151337a656dae85d9e7b911fbc107aab78d72a60438f20e"
+      },
+      "finalize_glb.py": {
+        "snapshot": "sources/finalize_glb-dfc4ff54401c495d.py",
+        "sha256": "dfc4ff54401c495d3e17debd8f4aae1c5e68012a23ba8c85e023ed00397baae2"
+      }
+    },
+    "parametersFile": "sources/v0.5.0/woven-toy-lockers.parameters.json"
+  },
+  "constructionKey": "case|linen|{\"base\": \"taper\"}",
+  "countExclusion": "same construction; dimension/material configuration retained as a variant",
+  "sha256": "155ac2246343efd599bcf11e1da62c639dddffe9b5546aed931028067e71c85e",
+  "bytes": 583708,
+  "triangles": 4504,
+  "vertices": 7882,
+  "drawPrimitives": 2,
+  "bounds": {
+    "min": [
+      -0.5250001321351185,
+      -1.172062457088785e-07,
+      -0.21950035376801624
+    ],
+    "max": [
+      0.5250003029641861,
+      0.749899452334716,
+      0.1900001012471486
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 1.0500004350993046,
+    "depth": 0.40950045501516485,
+    "height": 0.7498995695409617
+  },
+  "footprint": [
+    [
+      -0.5250001321351185,
+      -0.21950035376801624
+    ],
+    [
+      0.5250003029641861,
+      -0.21950035376801624
+    ],
+    [
+      0.5250003029641861,
+      0.1900001012471486
+    ],
+    [
+      -0.5250001321351185,
+      0.1900001012471486
+    ]
+  ],
+  "variantSlots": [
+    "cane",
+    "wood"
+  ],
+  "requiredExtensions": [],
+  "textures": {
+    "count": 3,
+    "bytes": 174784,
+    "estimatedRgbaBytesWithMipmaps": 1048576,
+    "images": [
+      {
+        "name": "wood-normal",
+        "bytes": 102088,
+        "width": 256,
+        "height": 256,
+        "sha256": "6b8efcb5004552d884a527017922bfb5260b8bda4dc77f1365fe1cb8a09f1d56"
+      },
+      {
+        "name": "wood-neutral-base",
+        "bytes": 39353,
+        "width": 256,
+        "height": 256,
+        "sha256": "ddcf839a2addae78944a2d7a0588f9c2055852fc4ccb4e2dae2095d28541de44"
+      },
+      {
+        "name": "wood-roughness",
+        "bytes": 33343,
+        "width": 256,
+        "height": 256,
+        "sha256": "afc2180e58360e76fb178b52f225f7ba9045a7d0d266f10886763b0590335a1a"
+      }
+    ]
+  },
+  "version": "0.5.0",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.cane-linen-tower",
+  "file": "assets/v0.5.0/woven-toy-lockers.glb",
+  "sourceModel": "sources/v0.5.0/woven-toy-lockers.blend",
+  "thumbnail": "previews/v0.5.0/woven-toy-lockers.png",
+  "backThumbnail": "previews/v0.5.0/woven-toy-lockers-back.png",
+  "category": "storage",
+  "subtype": "linen",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.5.0/woven-toy-lockers.png",
+      "previews/v0.5.0/woven-toy-lockers-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.47999998927116394,
+      0.3400000035762787,
+      0.17000000178813934
+    ],
+    [
+      0.3400000035762787,
+      0.2800000011920929,
+      0.1899999976158142
+    ]
+  ],
+  "colourTags": [
+    "natural tan",
+    "smoked ash"
+  ],
+  "materials": [
+    "wood",
+    "woven-fibre"
+  ],
+  "searchAliases": [
+    "children",
+    "linen"
+  ],
+  "materialSlots": [
+    {
+      "id": "cane",
+      "material": "cane",
+      "recolourable": true
+    },
+    {
+      "id": "wood",
+      "material": "wood",
+      "recolourable": true
+    }
+  ],
+  "finalization": {
+    "unusedTangentAttributesRemoved": 1,
+    "normalMappedTangents": "retained, never replaced with arbitrary fallback vectors"
+  },
+  "supportChecks": {
+    "method": "source-part upper-end ray to non-leg geometry, 15mm join tolerance",
+    "status": "pass",
+    "parts": [
+      {
+        "part": "leg",
+        "gapMetresAlongSupport": 5.960464483090178e-09,
+        "status": "pass"
+      },
+      {
+        "part": "leg.001",
+        "gapMetresAlongSupport": 2.0861625676937834e-08,
+        "status": "pass"
+      },
+      {
+        "part": "leg.002",
+        "gapMetresAlongSupport": 2.0861625676937834e-08,
+        "status": "pass"
+      },
+      {
+        "part": "leg.003",
+        "gapMetresAlongSupport": 2.0861625676937834e-08,
+        "status": "pass"
+      }
+    ],
+    "limitation": "screening only; hidden joints, whole-model connectivity, load paths and safety remain visual/product-review concerns"
+  },
+  "materialFinish": {
+    "source": "materials/v1/manifest.json",
+    "repeatMetres": {
+      "wood": [
+        0.16,
+        0.75
+      ],
+      "fabric": [
+        0.14,
+        0.14
+      ],
+      "linen": [
+        0.12,
+        0.12
+      ]
+    },
+    "maps": "original base colour / roughness / tangent normal, embedded in GLB"
+  }
+}

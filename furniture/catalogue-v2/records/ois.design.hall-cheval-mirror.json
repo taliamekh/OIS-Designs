@@ -1,0 +1,157 @@
+{
+  "designId": "ois.design.hall-cheval-mirror",
+  "familyId": "ois.family.cheval-dressing-mirror",
+  "id": "ois.design.hall-cheval-mirror",
+  "name": "Hall cheval mirror",
+  "roomTags": [
+    "entry-hall"
+  ],
+  "theme": "walnut-form",
+  "builder": "special",
+  "parameters": {
+    "form": "cheval",
+    "w": 0.75,
+    "d": 0.48,
+    "h": 1.8
+  },
+  "distinction": "Wide freestanding mirror; size-only relative is excluded.",
+  "stage": "validated-candidate",
+  "countEligible": false,
+  "variants": [],
+  "variantOf": "ois.design.cheval-dressing-mirror",
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted",
+    "sourceSnapshot": "sources/pipeline-e797cb5c88af56f5.py",
+    "sourceSha256": "e797cb5c88af56f5b4455d819a512ab9be55f40e1fa2d0cb542aca7bb84b906f",
+    "parametersFile": "sources/v0.2.1/hall-cheval-mirror.parameters.json"
+  },
+  "constructionKey": "special|cheval|{\"cols\": 1, \"front\": \"cane\", \"panels\": 3}",
+  "sha256": "259b951dc76eebc6e193ca7f941d3bc8ead691da85620d7d2b9293c47a0aed99",
+  "bytes": 58616,
+  "triangles": 1180,
+  "vertices": 1533,
+  "drawPrimitives": 2,
+  "bounds": {
+    "min": [
+      -0.4000000059604645,
+      0.0,
+      -0.22200000286102295
+    ],
+    "max": [
+      0.4000000059604645,
+      1.7064046431332827,
+      0.22200000286102295
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 0.800000011920929,
+    "depth": 0.4440000057220459,
+    "height": 1.7064046431332827
+  },
+  "footprint": [
+    [
+      -0.4000000059604645,
+      -0.22200000286102295
+    ],
+    [
+      0.4000000059604645,
+      -0.22200000286102295
+    ],
+    [
+      0.4000000059604645,
+      0.22200000286102295
+    ],
+    [
+      -0.4000000059604645,
+      0.22200000286102295
+    ]
+  ],
+  "variantSlots": [
+    "mirror",
+    "wood"
+  ],
+  "requiredExtensions": [],
+  "version": "0.2.1",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.cheval-dressing-mirror",
+  "file": "assets/v0.2.1/hall-cheval-mirror.glb",
+  "sourceModel": "sources/v0.2.1/hall-cheval-mirror.blend",
+  "thumbnail": "previews/v0.2.1/hall-cheval-mirror.png",
+  "backThumbnail": "previews/v0.2.1/hall-cheval-mirror-back.png",
+  "category": "specialty",
+  "subtype": "cheval",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "textures": {
+    "count": 0,
+    "bytes": 0
+  },
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.2.1/hall-cheval-mirror.png",
+      "previews/v0.2.1/hall-cheval-mirror-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.22,
+      0.09,
+      0.038
+    ],
+    [
+      0.39,
+      0.18,
+      0.07
+    ],
+    [
+      0.47,
+      0.3,
+      0.1
+    ]
+  ],
+  "colourTags": [
+    "walnut",
+    "tobacco",
+    "brass"
+  ],
+  "materials": [
+    "mirror",
+    "wood"
+  ],
+  "searchAliases": [
+    "entry hall",
+    "cheval"
+  ],
+  "materialSlots": [
+    {
+      "id": "mirror",
+      "material": "mirror",
+      "recolourable": true
+    },
+    {
+      "id": "wood",
+      "material": "wood",
+      "recolourable": true
+    }
+  ]
+}

@@ -1,0 +1,255 @@
+{
+  "id": "ois.design.director-chair",
+  "sha256": "unexported-source-542a6b43ca4abc9d4f4ac88dc7bd803746dd198c350ababac32d73431ffd328b",
+  "sourceModel": null,
+  "sourceSha256": "542a6b43ca4abc9d4f4ac88dc7bd803746dd198c350ababac32d73431ffd328b",
+  "partCount": 16,
+  "componentCount": 1,
+  "components": [
+    {
+      "parts": [
+        "crossing leg",
+        "crossing leg.001",
+        "seat rail",
+        "back stile",
+        "arm rail",
+        "front arm support",
+        "hinge bolt",
+        "crossing leg.002",
+        "crossing leg.003",
+        "seat rail.001",
+        "back stile.001",
+        "arm rail.001",
+        "front arm support.001",
+        "hinge bolt.001",
+        "canvas seat",
+        "canvas back"
+      ],
+      "minimum": [
+        -0.27400001883506775,
+        -0.2666207551956177,
+        -0.017313309013843536
+      ],
+      "maximum": [
+        0.27400001883506775,
+        0.2666207551956177,
+        0.8799999952316284
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "crossing leg.001",
+      "b": "crossing leg",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "seat rail",
+      "b": "crossing leg",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "seat rail",
+      "b": "crossing leg.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "back stile",
+      "b": "crossing leg.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "back stile",
+      "b": "seat rail",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "arm rail",
+      "b": "back stile",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "front arm support",
+      "b": "crossing leg",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "front arm support",
+      "b": "seat rail",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "front arm support",
+      "b": "arm rail",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "hinge bolt",
+      "b": "crossing leg",
+      "method": "surface distance",
+      "distance": 0.0023440776858478785
+    },
+    {
+      "a": "hinge bolt",
+      "b": "crossing leg.001",
+      "method": "surface distance",
+      "distance": 0.002344074659049511
+    },
+    {
+      "a": "crossing leg.003",
+      "b": "crossing leg.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "seat rail.001",
+      "b": "crossing leg.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "seat rail.001",
+      "b": "crossing leg.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "back stile.001",
+      "b": "crossing leg.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "back stile.001",
+      "b": "seat rail.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "arm rail.001",
+      "b": "back stile.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "front arm support.001",
+      "b": "crossing leg.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "front arm support.001",
+      "b": "seat rail.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "front arm support.001",
+      "b": "arm rail.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "hinge bolt.001",
+      "b": "crossing leg.002",
+      "method": "surface distance",
+      "distance": 0.0023440741933882236
+    },
+    {
+      "a": "hinge bolt.001",
+      "b": "crossing leg.003",
+      "method": "surface distance",
+      "distance": 0.002344071865081787
+    },
+    {
+      "a": "canvas seat",
+      "b": "crossing leg",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "canvas seat",
+      "b": "crossing leg.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "canvas seat",
+      "b": "seat rail",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "canvas seat",
+      "b": "back stile",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "canvas seat",
+      "b": "front arm support",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "canvas seat",
+      "b": "crossing leg.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "canvas seat",
+      "b": "crossing leg.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "canvas seat",
+      "b": "seat rail.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "canvas seat",
+      "b": "back stile.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "canvas seat",
+      "b": "front arm support.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "canvas back",
+      "b": "back stile",
+      "method": "point containment",
+      "distance": 0
+    },
+    {
+      "a": "canvas back",
+      "b": "arm rail",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "canvas back",
+      "b": "arm rail.001",
+      "method": "triangle intersection",
+      "distance": 0
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; live-source reports are NOT exported-asset evidence; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T03:32:55Z"
+}

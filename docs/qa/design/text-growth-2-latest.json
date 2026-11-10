@@ -1,0 +1,1174 @@
+{
+  "timestamp": "2026-11-10T02:07:28.793Z",
+  "evidence": "Explicit DOM font-size AND line-height growth in isolated Expo WEB contexts. This is browser layout stress, NOT native font scaling or an accessibility pass.",
+  "runs": [
+    {
+      "width": 320,
+      "height": 568,
+      "scheme": "dark",
+      "factor": 2,
+      "cases": [
+        {
+          "name": "projects",
+          "growth": {
+            "nodes": 14,
+            "actuallyGrew": true,
+            "samples": [
+              {
+                "text": "ois designs",
+                "before": 23,
+                "after": 46
+              },
+              {
+                "text": "Projects",
+                "before": 26,
+                "after": 52
+              },
+              {
+                "text": "New project",
+                "before": 15,
+                "after": 30
+              },
+              {
+                "text": "Create room or floor plan",
+                "before": 14,
+                "after": 28
+              },
+              {
+                "text": "Choose a room, shape or blank floor plan.",
+                "before": 12,
+                "after": 24
+              },
+              {
+                "text": "Coming soon",
+                "before": 11,
+                "after": 22
+              },
+              {
+                "text": "Upload floor plan",
+                "before": 14,
+                "after": 28
+              },
+              {
+                "text": "Use a house-plan image or PDF.",
+                "before": 12,
+                "after": 24
+              },
+              {
+                "text": "Coming soon",
+                "before": 11,
+                "after": 22
+              },
+              {
+                "text": "Scan Room",
+                "before": 14,
+                "after": 28
+              },
+              {
+                "text": "Capture and review room geometry.",
+                "before": 12,
+                "after": 24
+              },
+              {
+                "text": "Recent projects",
+                "before": 15,
+                "after": 30
+              },
+              {
+                "text": "Maple House",
+                "before": 15,
+                "after": 30
+              },
+              {
+                "text": "2 floors · Saved locally",
+                "before": 12,
+                "after": 24
+              }
+            ]
+          },
+          "overflow": {
+            "viewport": 320,
+            "document": 320,
+            "body": 320
+          },
+          "geometry": [
+            {
+              "label": "Create room or floor plan",
+              "box": {
+                "x": 20,
+                "y": 246,
+                "width": 280,
+                "height": 234
+              },
+              "visibleFraction": 1,
+              "textBoxes": [
+                {
+                  "text": "Create room or floor plan",
+                  "x": 33,
+                  "y": 306,
+                  "width": 192.671875,
+                  "height": 37,
+                  "outsideControl": false,
+                  "outsideClip": false
+                },
+                {
+                  "text": "Create room or floor plan",
+                  "x": 225.671875,
+                  "y": 306,
+                  "width": 7.703125,
+                  "height": 37,
+                  "outsideControl": false,
+                  "outsideClip": false
+                },
+                {
+                  "text": "Create room or floor plan",
+                  "x": 33,
+                  "y": 350,
+                  "width": 123.609375,
+                  "height": 37,
+                  "outsideControl": false,
+                  "outsideClip": false
+                },
+                {
+                  "text": "Choose a room, shape or blank floor plan.",
+                  "x": 33,
+                  "y": 397,
+                  "width": 236.21875,
+                  "height": 32,
+                  "outsideControl": false,
+                  "outsideClip": false
+                },
+                {
+                  "text": "Choose a room, shape or blank floor plan.",
+                  "x": 269.21875,
+                  "y": 397,
+                  "width": 6.578125,
+                  "height": 32,
+                  "outsideControl": false,
+                  "outsideClip": false
+                },
+                {
+                  "text": "Choose a room, shape or blank floor plan.",
+                  "x": 33,
+                  "y": 433,
+                  "width": 200.484375,
+                  "height": 32,
+                  "outsideControl": false,
+                  "outsideClip": false
+                }
+              ],
+              "splitWords": []
+            },
+            {
+              "label": "Upload floor plan",
+              "box": {
+                "x": 20,
+                "y": 364,
+                "width": 280,
+                "height": 204
+              },
+              "visibleFraction": 1,
+              "textBoxes": [
+                {
+                  "text": "Coming soon",
+                  "x": 149.203125,
+                  "y": 386,
+                  "width": 129.796875,
+                  "height": 30,
+                  "outsideControl": false,
+                  "outsideClip": false
+                },
+                {
+                  "text": "Upload floor plan",
+                  "x": 33,
+                  "y": 438,
+                  "width": 223.0625,
+                  "height": 37,
+                  "outsideControl": false,
+                  "outsideClip": false
+                },
+                {
+                  "text": "Use a house-plan image or PDF.",
+                  "x": 33,
+                  "y": 485,
+                  "width": 183.859375,
+                  "height": 32,
+                  "outsideControl": false,
+                  "outsideClip": false
+                },
+                {
+                  "text": "Use a house-plan image or PDF.",
+                  "x": 216.859375,
+                  "y": 485,
+                  "width": 6.578125,
+                  "height": 32,
+                  "outsideControl": false,
+                  "outsideClip": false
+                },
+                {
+                  "text": "Use a house-plan image or PDF.",
+                  "x": 33,
+                  "y": 521,
+                  "width": 148.125,
+                  "height": 32,
+                  "outsideControl": false,
+                  "outsideClip": false
+                }
+              ],
+              "splitWords": []
+            },
+            {
+              "label": "Scan Room",
+              "box": {
+                "x": 20,
+                "y": 217,
+                "width": 280,
+                "height": 204
+              },
+              "visibleFraction": 1,
+              "textBoxes": [
+                {
+                  "text": "Coming soon",
+                  "x": 149.203125,
+                  "y": 239,
+                  "width": 129.796875,
+                  "height": 30,
+                  "outsideControl": false,
+                  "outsideClip": false
+                },
+                {
+                  "text": "Scan Room",
+                  "x": 33,
+                  "y": 291,
+                  "width": 141.984375,
+                  "height": 37,
+                  "outsideControl": false,
+                  "outsideClip": false
+                },
+                {
+                  "text": "Capture and review room geometry.",
+                  "x": 33,
+                  "y": 338,
+                  "width": 204.96875,
+                  "height": 32,
+                  "outsideControl": false,
+                  "outsideClip": false
+                },
+                {
+                  "text": "Capture and review room geometry.",
+                  "x": 237.96875,
+                  "y": 338,
+                  "width": 6.578125,
+                  "height": 32,
+                  "outsideControl": false,
+                  "outsideClip": false
+                },
+                {
+                  "text": "Capture and review room geometry.",
+                  "x": 33,
+                  "y": 374,
+                  "width": 170.984375,
+                  "height": 32,
+                  "outsideControl": false,
+                  "outsideClip": false
+                }
+              ],
+              "splitWords": []
+            }
+          ]
+        },
+        {
+          "name": "creation-dimensions",
+          "growth": {
+            "nodes": 24,
+            "actuallyGrew": true,
+            "samples": [
+              {
+                "text": "ois designs",
+                "before": 23,
+                "after": 46
+              },
+              {
+                "text": "Projects",
+                "before": 26,
+                "after": 52
+              },
+              {
+                "text": "New project",
+                "before": 15,
+                "after": 30
+              },
+              {
+                "text": "Create room or floor plan",
+                "before": 14,
+                "after": 28
+              },
+              {
+                "text": "Choose a room, shape or blank floor plan.",
+                "before": 12,
+                "after": 24
+              },
+              {
+                "text": "Coming soon",
+                "before": 11,
+                "after": 22
+              },
+              {
+                "text": "Upload floor plan",
+                "before": 14,
+                "after": 28
+              },
+              {
+                "text": "Use a house-plan image or PDF.",
+                "before": 12,
+                "after": 24
+              },
+              {
+                "text": "Coming soon",
+                "before": 11,
+                "after": 22
+              },
+              {
+                "text": "Scan Room",
+                "before": 14,
+                "after": 28
+              },
+              {
+                "text": "Capture and review room geometry.",
+                "before": 12,
+                "after": 24
+              },
+              {
+                "text": "Recent projects",
+                "before": 15,
+                "after": 30
+              },
+              {
+                "text": "Maple House",
+                "before": 15,
+                "after": 30
+              },
+              {
+                "text": "2 floors · Saved locally",
+                "before": 12,
+                "after": 24
+              },
+              {
+                "text": "NEW PROJECT",
+                "before": 10,
+                "after": 20
+              }
+            ]
+          },
+          "overflow": {
+            "viewport": 320,
+            "document": 320,
+            "body": 320
+          },
+          "geometry": [
+            {
+              "label": "Create room",
+              "box": {
+                "x": 20,
+                "y": 491,
+                "width": 280,
+                "height": 57
+              },
+              "visibleFraction": 1,
+              "textBoxes": [
+                {
+                  "text": "Create room",
+                  "x": 81.046875,
+                  "y": 501,
+                  "width": 157.890625,
+                  "height": 37,
+                  "outsideControl": false,
+                  "outsideClip": false
+                }
+              ],
+              "splitWords": []
+            }
+          ]
+        },
+        {
+          "name": "room-dimensions",
+          "growth": {
+            "nodes": 37,
+            "actuallyGrew": true,
+            "samples": [
+              {
+                "text": "ois designs",
+                "before": 23,
+                "after": 46
+              },
+              {
+                "text": "Projects",
+                "before": 26,
+                "after": 52
+              },
+              {
+                "text": "New project",
+                "before": 15,
+                "after": 30
+              },
+              {
+                "text": "Create room or floor plan",
+                "before": 14,
+                "after": 28
+              },
+              {
+                "text": "Choose a room, shape or blank floor plan.",
+                "before": 12,
+                "after": 24
+              },
+              {
+                "text": "Coming soon",
+                "before": 11,
+                "after": 22
+              },
+              {
+                "text": "Upload floor plan",
+                "before": 14,
+                "after": 28
+              },
+              {
+                "text": "Use a house-plan image or PDF.",
+                "before": 12,
+                "after": 24
+              },
+              {
+                "text": "Coming soon",
+                "before": 11,
+                "after": 22
+              },
+              {
+                "text": "Scan Room",
+                "before": 14,
+                "after": 28
+              },
+              {
+                "text": "Capture and review room geometry.",
+                "before": 12,
+                "after": 24
+              },
+              {
+                "text": "Recent projects",
+                "before": 15,
+                "after": 30
+              },
+              {
+                "text": "Untitled project",
+                "before": 15,
+                "after": 30
+              },
+              {
+                "text": "1 floor · Saved locally",
+                "before": 12,
+                "after": 24
+              },
+              {
+                "text": "Maple House",
+                "before": 15,
+                "after": 30
+              }
+            ]
+          },
+          "overflow": {
+            "viewport": 320,
+            "document": 320,
+            "body": 320
+          },
+          "geometry": [
+            {
+              "label": "Apply dimensions",
+              "box": {
+                "x": 16,
+                "y": 474.640625,
+                "width": 288,
+                "height": 57
+              },
+              "visibleFraction": 1,
+              "textBoxes": [
+                {
+                  "text": "Apply dimensions",
+                  "x": 46.734375,
+                  "y": 484.640625,
+                  "width": 226.515625,
+                  "height": 37,
+                  "outsideControl": false,
+                  "outsideClip": false
+                }
+              ],
+              "splitWords": []
+            },
+            {
+              "label": "Close Room dimensions",
+              "box": {
+                "x": 266,
+                "y": 372.640625,
+                "width": 44,
+                "height": 44
+              },
+              "visibleFraction": 1,
+              "textBoxes": [],
+              "splitWords": []
+            }
+          ]
+        },
+        {
+          "name": "catalogue-filters",
+          "growth": {
+            "nodes": 329,
+            "actuallyGrew": true,
+            "samples": [
+              {
+                "text": "ois designs",
+                "before": 23,
+                "after": 46
+              },
+              {
+                "text": "Projects",
+                "before": 26,
+                "after": 52
+              },
+              {
+                "text": "New project",
+                "before": 15,
+                "after": 30
+              },
+              {
+                "text": "Create room or floor plan",
+                "before": 14,
+                "after": 28
+              },
+              {
+                "text": "Choose a room, shape or blank floor plan.",
+                "before": 12,
+                "after": 24
+              },
+              {
+                "text": "Coming soon",
+                "before": 11,
+                "after": 22
+              },
+              {
+                "text": "Upload floor plan",
+                "before": 14,
+                "after": 28
+              },
+              {
+                "text": "Use a house-plan image or PDF.",
+                "before": 12,
+                "after": 24
+              },
+              {
+                "text": "Coming soon",
+                "before": 11,
+                "after": 22
+              },
+              {
+                "text": "Scan Room",
+                "before": 14,
+                "after": 28
+              },
+              {
+                "text": "Capture and review room geometry.",
+                "before": 12,
+                "after": 24
+              },
+              {
+                "text": "Recent projects",
+                "before": 15,
+                "after": 30
+              },
+              {
+                "text": "Untitled project",
+                "before": 15,
+                "after": 30
+              },
+              {
+                "text": "1 floor · Saved locally",
+                "before": 12,
+                "after": 24
+              },
+              {
+                "text": "Maple House",
+                "before": 15,
+                "after": 30
+              }
+            ]
+          },
+          "overflow": {
+            "viewport": 461,
+            "document": 461,
+            "body": 461
+          },
+          "geometry": [
+            {
+              "label": "Show results",
+              "box": {
+                "x": 16,
+                "y": 494.75,
+                "width": 288,
+                "height": 57
+              },
+              "visibleFraction": 1,
+              "textBoxes": [
+                {
+                  "text": "Show results",
+                  "x": 79.96875,
+                  "y": 504.75,
+                  "width": 160.046875,
+                  "height": 37,
+                  "outsideControl": false,
+                  "outsideClip": false
+                }
+              ],
+              "splitWords": []
+            },
+            {
+              "label": "Close Furniture",
+              "box": {
+                "x": 266,
+                "y": 217.75,
+                "width": 44,
+                "height": 44
+              },
+              "visibleFraction": 1,
+              "textBoxes": [],
+              "splitWords": []
+            }
+          ]
+        },
+        {
+          "name": "wall-surfaces",
+          "growth": {
+            "nodes": 57,
+            "actuallyGrew": true,
+            "samples": [
+              {
+                "text": "ois designs",
+                "before": 23,
+                "after": 46
+              },
+              {
+                "text": "Projects",
+                "before": 26,
+                "after": 52
+              },
+              {
+                "text": "New project",
+                "before": 15,
+                "after": 30
+              },
+              {
+                "text": "Create room or floor plan",
+                "before": 14,
+                "after": 28
+              },
+              {
+                "text": "Choose a room, shape or blank floor plan.",
+                "before": 12,
+                "after": 24
+              },
+              {
+                "text": "Coming soon",
+                "before": 11,
+                "after": 22
+              },
+              {
+                "text": "Upload floor plan",
+                "before": 14,
+                "after": 28
+              },
+              {
+                "text": "Use a house-plan image or PDF.",
+                "before": 12,
+                "after": 24
+              },
+              {
+                "text": "Coming soon",
+                "before": 11,
+                "after": 22
+              },
+              {
+                "text": "Scan Room",
+                "before": 14,
+                "after": 28
+              },
+              {
+                "text": "Capture and review room geometry.",
+                "before": 12,
+                "after": 24
+              },
+              {
+                "text": "Recent projects",
+                "before": 15,
+                "after": 30
+              },
+              {
+                "text": "Untitled project",
+                "before": 15,
+                "after": 30
+              },
+              {
+                "text": "1 floor · Saved locally",
+                "before": 12,
+                "after": 24
+              },
+              {
+                "text": "Maple House",
+                "before": 15,
+                "after": 30
+              }
+            ]
+          },
+          "overflow": {
+            "viewport": 320,
+            "document": 320,
+            "body": 320
+          },
+          "geometry": [
+            {
+              "label": "Paint selected wall",
+              "box": {
+                "x": 16,
+                "y": 447.640625,
+                "width": 139,
+                "height": 127
+              },
+              "visibleFraction": 0.8925935039370079,
+              "textBoxes": [
+                {
+                  "text": "Paint selected wall",
+                  "x": 31,
+                  "y": 457.640625,
+                  "width": 63.953125,
+                  "height": 37,
+                  "outsideControl": false,
+                  "outsideClip": false
+                },
+                {
+                  "text": "Paint selected wall",
+                  "x": 94.953125,
+                  "y": 457.640625,
+                  "width": 7.703125,
+                  "height": 37,
+                  "outsideControl": false,
+                  "outsideClip": false
+                },
+                {
+                  "text": "Paint selected wall",
+                  "x": 31,
+                  "y": 492.640625,
+                  "width": 104.015625,
+                  "height": 37,
+                  "outsideControl": false,
+                  "outsideClip": false
+                },
+                {
+                  "text": "Paint selected wall",
+                  "x": 135.015625,
+                  "y": 492.640625,
+                  "width": 7.703125,
+                  "height": 37,
+                  "outsideControl": false,
+                  "outsideClip": false
+                },
+                {
+                  "text": "Paint selected wall",
+                  "x": 31,
+                  "y": 527.640625,
+                  "width": 50.421875,
+                  "height": 37,
+                  "outsideControl": false,
+                  "outsideClip": false
+                }
+              ],
+              "splitWords": []
+            },
+            {
+              "label": "Apply to room",
+              "box": {
+                "x": 165,
+                "y": 465.140625,
+                "width": 139,
+                "height": 92
+              },
+              "visibleFraction": 1,
+              "textBoxes": [
+                {
+                  "text": "Apply to room",
+                  "x": 180,
+                  "y": 475.140625,
+                  "width": 104.890625,
+                  "height": 37,
+                  "outsideControl": false,
+                  "outsideClip": false
+                },
+                {
+                  "text": "Apply to room",
+                  "x": 284.890625,
+                  "y": 475.140625,
+                  "width": 7.671875,
+                  "height": 37,
+                  "outsideControl": false,
+                  "outsideClip": false
+                },
+                {
+                  "text": "Apply to room",
+                  "x": 180,
+                  "y": 510.140625,
+                  "width": 66.671875,
+                  "height": 37,
+                  "outsideControl": false,
+                  "outsideClip": false
+                }
+              ],
+              "splitWords": []
+            },
+            {
+              "label": "Close Surfaces",
+              "box": {
+                "x": 266,
+                "y": 350.640625,
+                "width": 44,
+                "height": 44
+              },
+              "visibleFraction": 1,
+              "textBoxes": [],
+              "splitWords": []
+            }
+          ]
+        },
+        {
+          "name": "door-picker",
+          "growth": {
+            "nodes": 38,
+            "actuallyGrew": true,
+            "samples": [
+              {
+                "text": "ois designs",
+                "before": 23,
+                "after": 46
+              },
+              {
+                "text": "Projects",
+                "before": 26,
+                "after": 52
+              },
+              {
+                "text": "New project",
+                "before": 15,
+                "after": 30
+              },
+              {
+                "text": "Create room or floor plan",
+                "before": 14,
+                "after": 28
+              },
+              {
+                "text": "Choose a room, shape or blank floor plan.",
+                "before": 12,
+                "after": 24
+              },
+              {
+                "text": "Coming soon",
+                "before": 11,
+                "after": 22
+              },
+              {
+                "text": "Upload floor plan",
+                "before": 14,
+                "after": 28
+              },
+              {
+                "text": "Use a house-plan image or PDF.",
+                "before": 12,
+                "after": 24
+              },
+              {
+                "text": "Coming soon",
+                "before": 11,
+                "after": 22
+              },
+              {
+                "text": "Scan Room",
+                "before": 14,
+                "after": 28
+              },
+              {
+                "text": "Capture and review room geometry.",
+                "before": 12,
+                "after": 24
+              },
+              {
+                "text": "Recent projects",
+                "before": 15,
+                "after": 30
+              },
+              {
+                "text": "Untitled project",
+                "before": 15,
+                "after": 30
+              },
+              {
+                "text": "1 floor · Saved locally",
+                "before": 12,
+                "after": 24
+              },
+              {
+                "text": "Maple House",
+                "before": 15,
+                "after": 30
+              }
+            ]
+          },
+          "overflow": {
+            "viewport": 320,
+            "document": 320,
+            "body": 320
+          },
+          "geometry": [
+            {
+              "label": "Place on floor plan",
+              "box": {
+                "x": 16,
+                "y": 494.640625,
+                "width": 288,
+                "height": 57
+              },
+              "visibleFraction": 1,
+              "textBoxes": [
+                {
+                  "text": "Place on floor plan",
+                  "x": 40.796875,
+                  "y": 504.640625,
+                  "width": 238.40625,
+                  "height": 37,
+                  "outsideControl": false,
+                  "outsideClip": false
+                }
+              ],
+              "splitWords": []
+            },
+            {
+              "label": "Close Doors",
+              "box": {
+                "x": 266,
+                "y": 350.640625,
+                "width": 44,
+                "height": 44
+              },
+              "visibleFraction": 1,
+              "textBoxes": [],
+              "splitWords": []
+            }
+          ]
+        },
+        {
+          "name": "door-properties",
+          "growth": {
+            "nodes": 44,
+            "actuallyGrew": true,
+            "samples": [
+              {
+                "text": "ois designs",
+                "before": 23,
+                "after": 46
+              },
+              {
+                "text": "Projects",
+                "before": 26,
+                "after": 52
+              },
+              {
+                "text": "New project",
+                "before": 15,
+                "after": 30
+              },
+              {
+                "text": "Create room or floor plan",
+                "before": 14,
+                "after": 28
+              },
+              {
+                "text": "Choose a room, shape or blank floor plan.",
+                "before": 12,
+                "after": 24
+              },
+              {
+                "text": "Coming soon",
+                "before": 11,
+                "after": 22
+              },
+              {
+                "text": "Upload floor plan",
+                "before": 14,
+                "after": 28
+              },
+              {
+                "text": "Use a house-plan image or PDF.",
+                "before": 12,
+                "after": 24
+              },
+              {
+                "text": "Coming soon",
+                "before": 11,
+                "after": 22
+              },
+              {
+                "text": "Scan Room",
+                "before": 14,
+                "after": 28
+              },
+              {
+                "text": "Capture and review room geometry.",
+                "before": 12,
+                "after": 24
+              },
+              {
+                "text": "Recent projects",
+                "before": 15,
+                "after": 30
+              },
+              {
+                "text": "Untitled project",
+                "before": 15,
+                "after": 30
+              },
+              {
+                "text": "1 floor · Saved locally",
+                "before": 12,
+                "after": 24
+              },
+              {
+                "text": "Maple House",
+                "before": 15,
+                "after": 30
+              }
+            ]
+          },
+          "overflow": {
+            "viewport": 320,
+            "document": 320,
+            "body": 320
+          },
+          "geometry": [
+            {
+              "label": "Apply opening",
+              "box": {
+                "x": 16,
+                "y": 452.640625,
+                "width": 288,
+                "height": 57
+              },
+              "visibleFraction": 1,
+              "textBoxes": [
+                {
+                  "text": "Apply opening",
+                  "x": 66.4375,
+                  "y": 462.640625,
+                  "width": 187.125,
+                  "height": 37,
+                  "outsideControl": false,
+                  "outsideClip": false
+                }
+              ],
+              "splitWords": []
+            },
+            {
+              "label": "Delete opening",
+              "box": {
+                "x": 16,
+                "y": 494.640625,
+                "width": 288,
+                "height": 57
+              },
+              "visibleFraction": 1,
+              "textBoxes": [
+                {
+                  "text": "Delete opening",
+                  "x": 78.5,
+                  "y": 504.640625,
+                  "width": 189.984375,
+                  "height": 37,
+                  "outsideControl": false,
+                  "outsideClip": false
+                }
+              ],
+              "splitWords": []
+            },
+            {
+              "label": "Close Opening",
+              "box": {
+                "x": 266,
+                "y": 350.640625,
+                "width": 44,
+                "height": 44
+              },
+              "visibleFraction": 1,
+              "textBoxes": [],
+              "splitWords": []
+            }
+          ]
+        }
+      ],
+      "screens": [
+        "text-2-projects.png",
+        "text-2-creation-dimensions.png",
+        "text-2-room-dimensions.png",
+        "text-2-catalogue-filters.png",
+        "text-2-wall-surfaces.png",
+        "text-2-door-picker.png",
+        "text-2-door-properties.png"
+      ],
+      "pageErrors": [],
+      "consoleErrors": [],
+      "doorPlacement": {
+        "tap": {
+          "x": 156.21052631578948,
+          "y": 456
+        },
+        "plan": {
+          "x": 0,
+          "y": 125,
+          "width": 320,
+          "height": 443
+        },
+        "camera": {
+          "width": 320,
+          "height": 443,
+          "scale": 53.42105263157895,
+          "ox": 28,
+          "oz": 128,
+          "gesture": {},
+          "items": []
+        },
+        "lastEnabled": true,
+        "gesture": {
+          "phase": "release",
+          "locationX": 156.2105255126953,
+          "locationY": 331,
+          "point": {
+            "x": 2.39999998496671,
+            "z": 3.8
+          },
+          "moved": false,
+          "draft": null
+        },
+        "body": "Untitled project\nBedroom\n4.80 m\n3.80 m\n4.80 m\n3.80 m\n0.90 m\nBedroom\n2D\n3D\nWalk\nSingle swing · Tap a wall to place\nDone\nLast opening"
+      },
+      "completed": true,
+      "findings": [],
+      "partialControlDiagnostics": [
+        {
+          "screen": "wall-surfaces",
+          "label": "Paint selected wall",
+          "visibleFraction": 0.8925935039370079,
+          "note": "Control background partly outside scroll viewport, but labels visible/action reachable; not an inaccessible-control finding."
+        }
+      ]
+    }
+  ]
+}

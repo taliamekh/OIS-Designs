@@ -1,0 +1,65 @@
+{
+  "id": "ois.design.ovoid-open-nightstand",
+  "sha256": "77affabd9b423967ed566fea93fb384c5d196a7d9d2119399488a206e50a7ad3",
+  "sourceModel": "sources/v0.5.0/ovoid-open-nightstand.blend",
+  "sourceSha256": "63ae40ec3659a58a5d82863c5c5ebb4625de03d1e3ae13a311a7fa3f1884fb46",
+  "partCount": 6,
+  "componentCount": 1,
+  "components": [
+    {
+      "parts": [
+        "ovoid open shell",
+        "oval internal shelf",
+        "oval bottom",
+        "pod foot",
+        "pod foot.001",
+        "pod foot.002"
+      ],
+      "minimum": [
+        -0.3094264268875122,
+        -0.3100000023841858,
+        0.0
+      ],
+      "maximum": [
+        0.3094264268875122,
+        0.26500001549720764,
+        0.5799999833106995
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "oval internal shelf",
+      "b": "ovoid open shell",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "oval bottom",
+      "b": "ovoid open shell",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pod foot",
+      "b": "oval bottom",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pod foot.001",
+      "b": "oval bottom",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pod foot.002",
+      "b": "oval bottom",
+      "method": "triangle intersection",
+      "distance": 0
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T03:07:33Z"
+}

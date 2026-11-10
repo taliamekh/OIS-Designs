@@ -1,0 +1,70 @@
+{
+  "id": "ois.design.tiered-towel-stand",
+  "sha256": "unexported-source-732771aeb2eadd33599208170e38ff4e50d68878cbfb6795c9473e6f8553f36b",
+  "sourceModel": null,
+  "sourceSha256": "732771aeb2eadd33599208170e38ff4e50d68878cbfb6795c9473e6f8553f36b",
+  "partCount": 5,
+  "componentCount": 1,
+  "components": [
+    {
+      "parts": [
+        "common towel-stand floor beam",
+        "common towel-stand floor beam.001",
+        "towel hoop",
+        "towel hoop.001",
+        "towel hoop.002"
+      ],
+      "minimum": [
+        -0.2199999988079071,
+        -0.23600001633167267,
+        -9.616505813880849e-09
+      ],
+      "maximum": [
+        0.2199999988079071,
+        0.23600001633167267,
+        1.1557174921035767
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "towel hoop",
+      "b": "common towel-stand floor beam",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "towel hoop",
+      "b": "common towel-stand floor beam.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "towel hoop.001",
+      "b": "common towel-stand floor beam",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "towel hoop.001",
+      "b": "common towel-stand floor beam.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "towel hoop.002",
+      "b": "common towel-stand floor beam",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "towel hoop.002",
+      "b": "common towel-stand floor beam.001",
+      "method": "triangle intersection",
+      "distance": 0
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; live-source reports are NOT exported-asset evidence; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T03:28:10Z"
+}

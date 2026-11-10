@@ -1,0 +1,145 @@
+{
+  "designId": "ois.design.umbrella-wire-stand",
+  "familyId": "ois.family.umbrella-wire-stand",
+  "id": "ois.design.umbrella-wire-stand",
+  "name": "Wire umbrella stand",
+  "roomTags": [
+    "entry-hall"
+  ],
+  "theme": "city-loft",
+  "builder": "special",
+  "parameters": {
+    "form": "umbrella",
+    "h": 0.56
+  },
+  "distinction": "Open circular basket has a separate metal drip tray.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted"
+  },
+  "constructionKey": "special|umbrella|{\"cols\": 1, \"front\": \"cane\", \"panels\": 3}",
+  "sha256": "665e0f2f16a5edf2be92798e2ccd4d52a1e587cb327ab961a94e8b8eb43d431b",
+  "bytes": 69676,
+  "triangles": 2380,
+  "vertices": 1690,
+  "drawPrimitives": 1,
+  "bounds": {
+    "min": [
+      -0.20399999618530273,
+      0.0,
+      -0.20399999618530273
+    ],
+    "max": [
+      0.20399999618530273,
+      0.5740000251680613,
+      0.20399999618530273
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 0.40799999237060547,
+    "depth": 0.40799999237060547,
+    "height": 0.5740000251680613
+  },
+  "footprint": [
+    [
+      -0.20399999618530273,
+      -0.20399999618530273
+    ],
+    [
+      0.20399999618530273,
+      -0.20399999618530273
+    ],
+    [
+      0.20399999618530273,
+      0.20399999618530273
+    ],
+    [
+      -0.20399999618530273,
+      0.20399999618530273
+    ]
+  ],
+  "variantSlots": [
+    "metal"
+  ],
+  "requiredExtensions": [],
+  "version": "0.2.0",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.umbrella-wire-stand",
+  "file": "assets/v0.2.0/umbrella-wire-stand.glb",
+  "sourceModel": "sources/v0.2.0/umbrella-wire-stand.blend",
+  "thumbnail": "previews/v0.2.0/umbrella-wire-stand.png",
+  "backThumbnail": "previews/v0.2.0/umbrella-wire-stand-back.png",
+  "category": "specialty",
+  "subtype": "umbrella",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "textures": {
+    "count": 0,
+    "bytes": 0
+  },
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.2.0/umbrella-wire-stand.png",
+      "previews/v0.2.0/umbrella-wire-stand-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.23,
+      0.15,
+      0.09
+    ],
+    [
+      0.12,
+      0.14,
+      0.16
+    ],
+    [
+      0.045,
+      0.05,
+      0.055
+    ]
+  ],
+  "colourTags": [
+    "charcoal",
+    "black",
+    "weathered wood"
+  ],
+  "materials": [
+    "metal"
+  ],
+  "searchAliases": [
+    "entry hall",
+    "umbrella"
+  ],
+  "materialSlots": [
+    {
+      "id": "metal",
+      "material": "metal",
+      "recolourable": true
+    }
+  ]
+}

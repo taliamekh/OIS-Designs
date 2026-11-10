@@ -1,0 +1,155 @@
+{
+  "designId": "ois.design.globe-branch-floor",
+  "familyId": "ois.family.globe-branch-floor",
+  "id": "ois.design.globe-branch-floor",
+  "name": "Branch globe floor lamp",
+  "roomTags": [
+    "living"
+  ],
+  "theme": "walnut-form",
+  "builder": "light",
+  "parameters": {
+    "form": "globe-cluster",
+    "h": 1.65
+  },
+  "distinction": "Three offset branches end in separate opal globes.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted",
+    "sourceSnapshot": "sources/pipeline-e797cb5c88af56f5.py",
+    "sourceSha256": "e797cb5c88af56f5b4455d819a512ab9be55f40e1fa2d0cb542aca7bb84b906f",
+    "parametersFile": "sources/v0.2.1/globe-branch-floor.parameters.json"
+  },
+  "constructionKey": "light|globe-cluster|{}",
+  "sha256": "d0e50b69729161901712c45b96227b981ddba598b6092955b893a81e51bf6b13",
+  "bytes": 60292,
+  "triangles": 2012,
+  "vertices": 1427,
+  "drawPrimitives": 2,
+  "bounds": {
+    "min": [
+      -0.3296248084327047,
+      -1.862645149230957e-09,
+      -0.282331908603517
+    ],
+    "max": [
+      0.329999978542328,
+      1.7599999755620956,
+      0.1899999976158142
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 0.6596247869750327,
+    "depth": 0.4723319062193312,
+    "height": 1.7599999774247408
+  },
+  "footprint": [
+    [
+      -0.3296248084327047,
+      -0.282331908603517
+    ],
+    [
+      0.329999978542328,
+      -0.282331908603517
+    ],
+    [
+      0.329999978542328,
+      0.1899999976158142
+    ],
+    [
+      -0.3296248084327047,
+      0.1899999976158142
+    ]
+  ],
+  "variantSlots": [
+    "ceramic",
+    "metal"
+  ],
+  "requiredExtensions": [],
+  "version": "0.2.1",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.globe-branch-floor",
+  "file": "assets/v0.2.1/globe-branch-floor.glb",
+  "sourceModel": "sources/v0.2.1/globe-branch-floor.blend",
+  "thumbnail": "previews/v0.2.1/globe-branch-floor.png",
+  "backThumbnail": "previews/v0.2.1/globe-branch-floor-back.png",
+  "category": "lighting",
+  "subtype": "globe-cluster",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "textures": {
+    "count": 0,
+    "bytes": 0
+  },
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.2.1/globe-branch-floor.png",
+      "previews/v0.2.1/globe-branch-floor-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.22,
+      0.09,
+      0.038
+    ],
+    [
+      0.39,
+      0.18,
+      0.07
+    ],
+    [
+      0.47,
+      0.3,
+      0.1
+    ]
+  ],
+  "colourTags": [
+    "walnut",
+    "tobacco",
+    "brass"
+  ],
+  "materials": [
+    "ceramic",
+    "metal"
+  ],
+  "searchAliases": [
+    "living",
+    "globe cluster"
+  ],
+  "materialSlots": [
+    {
+      "id": "ceramic",
+      "material": "ceramic",
+      "recolourable": true
+    },
+    {
+      "id": "metal",
+      "material": "metal",
+      "recolourable": true
+    }
+  ]
+}

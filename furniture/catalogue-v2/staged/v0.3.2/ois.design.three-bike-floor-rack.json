@@ -1,0 +1,164 @@
+{
+  "designId": "ois.design.three-bike-floor-rack",
+  "familyId": "ois.family.three-bike-floor-rack",
+  "id": "ois.design.three-bike-floor-rack",
+  "name": "Three-bike floor rack",
+  "roomTags": [
+    "entry-hall"
+  ],
+  "theme": "city-loft",
+  "builder": "special",
+  "parameters": {
+    "form": "bike-rack",
+    "w": 1.15,
+    "d": 0.48,
+    "h": 0.6
+  },
+  "distinction": "Three upright wheel hoops above a flat shared metal base.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted",
+    "sourceSnapshot": "sources/pipeline-55642edf77b9875f.py",
+    "sourceSha256": "55642edf77b9875ff9620f3041b9999cee7807ac9d8ce9f01f78fdfc4bbc513f",
+    "parametersFile": "sources/v0.3.2/three-bike-floor-rack.parameters.json"
+  },
+  "constructionKey": "special|bike-rack|{\"cols\": 1, \"front\": \"cane\", \"panels\": 3}",
+  "sha256": "a98e0ac0058055fd8a6e3f4b575d443b32787a46eaf4b80fe6ade902fa4d8166",
+  "bytes": 35428,
+  "triangles": 368,
+  "vertices": 659,
+  "drawPrimitives": 1,
+  "bounds": {
+    "min": [
+      -0.574999988079071,
+      0.0,
+      -0.23999999463558197
+    ],
+    "max": [
+      0.574999988079071,
+      0.5608270950615406,
+      0.23999999463558197
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 1.149999976158142,
+    "depth": 0.47999998927116394,
+    "height": 0.5608270950615406
+  },
+  "footprint": [
+    [
+      -0.574999988079071,
+      -0.23999999463558197
+    ],
+    [
+      0.574999988079071,
+      -0.23999999463558197
+    ],
+    [
+      0.574999988079071,
+      0.23999999463558197
+    ],
+    [
+      -0.574999988079071,
+      0.23999999463558197
+    ]
+  ],
+  "variantSlots": [
+    "metal"
+  ],
+  "requiredExtensions": [],
+  "textures": {
+    "count": 0,
+    "bytes": 0,
+    "estimatedRgbaBytesWithMipmaps": 0,
+    "images": []
+  },
+  "version": "0.3.2",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.three-bike-floor-rack",
+  "file": "assets/v0.3.2/three-bike-floor-rack.glb",
+  "sourceModel": "sources/v0.3.2/three-bike-floor-rack.blend",
+  "thumbnail": "previews/v0.3.2/three-bike-floor-rack.png",
+  "backThumbnail": "previews/v0.3.2/three-bike-floor-rack-back.png",
+  "category": "specialty",
+  "subtype": "bike-rack",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.3.2/three-bike-floor-rack.png",
+      "previews/v0.3.2/three-bike-floor-rack-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.04500000178813934,
+      0.05000000074505806,
+      0.054999999701976776
+    ]
+  ],
+  "colourTags": [
+    "black"
+  ],
+  "materials": [
+    "metal"
+  ],
+  "searchAliases": [
+    "entry hall",
+    "bike rack"
+  ],
+  "materialSlots": [
+    {
+      "id": "metal",
+      "material": "metal",
+      "recolourable": true
+    }
+  ],
+  "supportChecks": {
+    "method": "source-part upper-end ray to non-leg geometry, 15mm join tolerance",
+    "status": "pass",
+    "parts": [],
+    "limitation": "screening only; hidden joints, whole-model connectivity, load paths and safety remain visual/product-review concerns"
+  },
+  "materialFinish": {
+    "source": "materials/v1/manifest.json",
+    "repeatMetres": {
+      "wood": [
+        0.16,
+        0.75
+      ],
+      "fabric": [
+        0.14,
+        0.14
+      ],
+      "linen": [
+        0.12,
+        0.12
+      ]
+    },
+    "maps": "original base colour / roughness / tangent normal, embedded in GLB"
+  }
+}

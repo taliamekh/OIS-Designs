@@ -1,0 +1,150 @@
+{
+  "designId": "ois.design.soft-bean-chair",
+  "familyId": "ois.family.soft-bean-chair",
+  "id": "ois.design.soft-bean-chair",
+  "name": "Soft bean chair",
+  "roomTags": [
+    "children"
+  ],
+  "theme": "calm-oak",
+  "builder": "functional",
+  "parameters": {
+    "form": "bean-chair",
+    "w": 0.88,
+    "d": 0.78,
+    "h": 0.8
+  },
+  "distinction": "Two large sculptural soft volumes make a low self-supporting seat/back.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted",
+    "sourceSnapshot": "sources/pipeline-e797cb5c88af56f5.py",
+    "sourceSha256": "e797cb5c88af56f5b4455d819a512ab9be55f40e1fa2d0cb542aca7bb84b906f",
+    "parametersFile": "sources/v0.2.1/soft-bean-chair.parameters.json"
+  },
+  "constructionKey": "functional|bean-chair|{}",
+  "sha256": "ca2d60b652fba81a31ebe39aafbde8ca3172dc89c6829098b5e04d99612ac0bd",
+  "bytes": 28476,
+  "triangles": 1056,
+  "vertices": 646,
+  "drawPrimitives": 1,
+  "bounds": {
+    "min": [
+      -0.4399997615814222,
+      0.0,
+      -0.5099999830126762
+    ],
+    "max": [
+      0.43999991893768353,
+      0.8456891967725255,
+      0.4393818891504395
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 0.8799996805191057,
+    "depth": 0.9493818721631158,
+    "height": 0.8456891967725255
+  },
+  "footprint": [
+    [
+      -0.4399997615814222,
+      -0.5099999830126762
+    ],
+    [
+      0.43999991893768353,
+      -0.5099999830126762
+    ],
+    [
+      0.43999991893768353,
+      0.4393818891504395
+    ],
+    [
+      -0.4399997615814222,
+      0.4393818891504395
+    ]
+  ],
+  "variantSlots": [
+    "fabric"
+  ],
+  "requiredExtensions": [],
+  "version": "0.2.1",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.soft-bean-chair",
+  "file": "assets/v0.2.1/soft-bean-chair.glb",
+  "sourceModel": "sources/v0.2.1/soft-bean-chair.blend",
+  "thumbnail": "previews/v0.2.1/soft-bean-chair.png",
+  "backThumbnail": "previews/v0.2.1/soft-bean-chair-back.png",
+  "category": "functional-furniture",
+  "subtype": "bean-chair",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "textures": {
+    "count": 0,
+    "bytes": 0
+  },
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.2.1/soft-bean-chair.png",
+      "previews/v0.2.1/soft-bean-chair-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.58,
+      0.39,
+      0.2
+    ],
+    [
+      0.73,
+      0.7,
+      0.61
+    ],
+    [
+      0.12,
+      0.14,
+      0.13
+    ]
+  ],
+  "colourTags": [
+    "pale oak",
+    "ivory",
+    "oatmeal"
+  ],
+  "materials": [
+    "textile"
+  ],
+  "searchAliases": [
+    "children",
+    "bean chair"
+  ],
+  "materialSlots": [
+    {
+      "id": "fabric",
+      "material": "fabric",
+      "recolourable": true
+    }
+  ]
+}

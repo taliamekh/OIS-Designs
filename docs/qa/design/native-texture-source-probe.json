@@ -1,0 +1,47 @@
+{
+  "timestamp": "2026-11-10T02:42:36.933Z",
+  "evidence": "Installed source path plus real Three texture and actual production clone callback. This is NOT a physical EXGL/native execution or observed phone crash.",
+  "versions": {
+    "expo": "58.0.23",
+    "expoGL": "58.0.4",
+    "fiber": "9.8.2",
+    "three": "180"
+  },
+  "sourceHashes": {
+    "src/scene/RoomScene.tsx": "4c9ded8bd972220c2706e6e12178e12fd5f2319c7921675ae38b6167448e5366",
+    "src/scene/fiber.native.ts": "b85e23f72138150666e21122cc17f9cdbf90f634a389893466f74dd6c4c361e7",
+    "node_modules/@react-three/fiber/native/dist/react-three-fiber-native.cjs.dev.js": "b6c01e03e5608ef0ca2f652c14169fb1dd0f258674103a0c89b3f34c4c68dc5b",
+    "node_modules/three/src/textures/Texture.js": "ca120e07c101c3137fa25b13a2fc07ac7baf58c7e85690f0a584f7f39393bc87",
+    "node_modules/three/src/renderers/webgl/WebGLTextures.js": "b163f0d958d36ed9985ebecfa8b69e6496642bb26e56a5af1b499a92b350ff79"
+  },
+  "productionCallback": "(t, i) => {\n        const q = t.clone();\n        // R3F/native marks a base Texture as a data texture for EXGL's localUri\n        // upload. Three.Texture.copy omits this adapter flag. Keep it only when\n        // the source uses that path; normal browser images stay ordinary textures.\n        if (\"isDataTexture\" in t && t.isDataTexture === true)\n          Object.assign(q, { isDataTexture: true });\n        q.wrapS = q.wrapT = THREE.RepeatWrapping;\n        q.repeat.set(repeatX, repeatY);\n        q.rotation = angle;\n        q.offset.set(offsetX, offsetY);\n        q.colorSpace = i === 0 ? THREE.SRGBColorSpace : THREE.NoColorSpace;\n        q.needsUpdate = true;\n        return q;\n      }",
+  "checks": [
+    {
+      "id": "native-loader-shape-retained-through-production-clone",
+      "pass": true,
+      "observed": {
+        "sourceConstructor": "Texture",
+        "sourceIsDataTexture": true,
+        "cloneConstructor": "Texture",
+        "cloneIsDataTexture": true,
+        "cloneImage": {
+          "data": {
+            "localUri": "file:///qa-only-image.png"
+          },
+          "width": 4,
+          "height": 4
+        }
+      }
+    },
+    {
+      "id": "native-model-material-clone-retains-texture-adapter",
+      "pass": true
+    },
+    {
+      "id": "repeat-and-offset-are-independent",
+      "pass": true
+    }
+  ],
+  "passed": 3,
+  "failed": 0
+}

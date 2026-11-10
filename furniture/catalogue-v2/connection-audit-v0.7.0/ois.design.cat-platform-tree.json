@@ -1,0 +1,84 @@
+{
+  "id": "ois.design.cat-platform-tree",
+  "sha256": "5c25c6eb7ec560717108941ab6c053b7708655bd1150c1ff18595ea5b1813c0f",
+  "sourceModel": "sources/v0.7.0/cat-platform-tree.blend",
+  "sourceSha256": "dd7ed3ffeec6e357f67d98c3c388191d897d2f96f6327b82a2fc8b2172122e6a",
+  "partCount": 7,
+  "componentCount": 1,
+  "components": [
+    {
+      "parts": [
+        "tower base",
+        "scratching post",
+        "cat platform",
+        "scratching post.001",
+        "cat platform.001",
+        "scratching post.002",
+        "cat platform.002"
+      ],
+      "minimum": [
+        -0.4375,
+        -0.3100000023841858,
+        0.0
+      ],
+      "maximum": [
+        0.4375,
+        0.3100000023841858,
+        1.3224999904632568
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "scratching post",
+      "b": "tower base",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "cat platform",
+      "b": "scratching post",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "scratching post.001",
+      "b": "tower base",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "cat platform.001",
+      "b": "scratching post.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "scratching post.002",
+      "b": "tower base",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "scratching post.002",
+      "b": "cat platform",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "scratching post.002",
+      "b": "cat platform.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "cat platform.002",
+      "b": "scratching post.002",
+      "method": "triangle intersection",
+      "distance": 0
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; live-source reports are NOT exported-asset evidence; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T03:51:55Z"
+}

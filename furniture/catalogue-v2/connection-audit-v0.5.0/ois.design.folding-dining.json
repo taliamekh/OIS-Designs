@@ -1,0 +1,122 @@
+{
+  "id": "ois.design.folding-dining",
+  "sha256": "900b30a1ffa986acb3feef8969786c19d41f017f3f2f9b28d2c6d111747bfb2e",
+  "sourceModel": "sources/v0.5.0/folding-dining.blend",
+  "sourceSha256": "7ff05430677751db54c0f88ae8e1aa2e7462cf0b6088cc6994d895c18b5b7563",
+  "partCount": 9,
+  "componentCount": 1,
+  "components": [
+    {
+      "parts": [
+        "leg",
+        "leg.001",
+        "leg.002",
+        "leg.003",
+        "seat",
+        "piping",
+        "backrest",
+        "folding diagonal",
+        "folding diagonal.001"
+      ],
+      "minimum": [
+        -0.2019999921321869,
+        -0.2549198865890503,
+        -9.313225746154785e-10
+      ],
+      "maximum": [
+        0.2019999921321869,
+        0.2395000010728836,
+        0.8760262727737427
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "seat",
+      "b": "leg",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "seat",
+      "b": "leg.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "seat",
+      "b": "leg.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "seat",
+      "b": "leg.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "piping",
+      "b": "seat",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "backrest",
+      "b": "seat",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "folding diagonal",
+      "b": "leg",
+      "method": "surface distance",
+      "distance": 0.0038668347988277674
+    },
+    {
+      "a": "folding diagonal",
+      "b": "leg.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "folding diagonal",
+      "b": "seat",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "folding diagonal",
+      "b": "piping",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "folding diagonal.001",
+      "b": "leg.002",
+      "method": "surface distance",
+      "distance": 0.0019181572133675218
+    },
+    {
+      "a": "folding diagonal.001",
+      "b": "leg.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "folding diagonal.001",
+      "b": "seat",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "folding diagonal.001",
+      "b": "piping",
+      "method": "triangle intersection",
+      "distance": 0
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T03:07:32Z"
+}

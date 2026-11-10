@@ -1,0 +1,167 @@
+{
+  "designId": "ois.design.cubby-under-loft",
+  "familyId": "ois.family.cubby-under-loft",
+  "id": "ois.design.cubby-under-loft",
+  "name": "Cubby under loft",
+  "roomTags": [
+    "children"
+  ],
+  "theme": "soft-japandi",
+  "builder": "bed",
+  "parameters": {
+    "form": "loft-cubby",
+    "size": "twin"
+  },
+  "distinction": "Three low bookcase shelves and dividers beneath the raised sleep deck.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted"
+  },
+  "constructionKey": "bed|loft-cubby|{}",
+  "bedSize": "twin",
+  "mattressMetres": [
+    0.9652,
+    1.905,
+    0.22
+  ],
+  "safetyReviewRequired": true,
+  "sha256": "d0c7249ef2212856ea70edd3d86be185134cb7153b41937bfb4588b1915391fa",
+  "bytes": 217708,
+  "triangles": 4480,
+  "vertices": 5853,
+  "drawPrimitives": 3,
+  "bounds": {
+    "min": [
+      -0.5601001507711763,
+      -2.3613032751335084e-08,
+      -1.210439979128913
+    ],
+    "max": [
+      0.5601002376434372,
+      1.9564773806231297,
+      1.0425000460627614
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 1.1202003884146134,
+    "depth": 2.2529400251916742,
+    "height": 1.9564774042361623
+  },
+  "footprint": [
+    [
+      -0.5601001507711763,
+      -1.210439979128913
+    ],
+    [
+      0.5601002376434372,
+      -1.210439979128913
+    ],
+    [
+      0.5601002376434372,
+      1.0425000460627614
+    ],
+    [
+      -0.5601001507711763,
+      1.0425000460627614
+    ]
+  ],
+  "variantSlots": [
+    "fabric",
+    "linen",
+    "wood"
+  ],
+  "requiredExtensions": [],
+  "version": "0.2.0",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.cubby-under-loft",
+  "file": "assets/v0.2.0/cubby-under-loft.glb",
+  "sourceModel": "sources/v0.2.0/cubby-under-loft.blend",
+  "thumbnail": "previews/v0.2.0/cubby-under-loft.png",
+  "backThumbnail": "previews/v0.2.0/cubby-under-loft-back.png",
+  "category": "beds",
+  "subtype": "loft-cubby",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "textures": {
+    "count": 0,
+    "bytes": 0
+  },
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.2.0/cubby-under-loft.png",
+      "previews/v0.2.0/cubby-under-loft-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.34,
+      0.28,
+      0.19
+    ],
+    [
+      0.58,
+      0.54,
+      0.44
+    ],
+    [
+      0.15,
+      0.17,
+      0.15
+    ]
+  ],
+  "colourTags": [
+    "ash",
+    "flax",
+    "stone"
+  ],
+  "materials": [
+    "textile",
+    "wood"
+  ],
+  "searchAliases": [
+    "children",
+    "loft cubby"
+  ],
+  "materialSlots": [
+    {
+      "id": "fabric",
+      "material": "fabric",
+      "recolourable": true
+    },
+    {
+      "id": "linen",
+      "material": "linen",
+      "recolourable": true
+    },
+    {
+      "id": "wood",
+      "material": "wood",
+      "recolourable": true
+    }
+  ],
+  "geometryHash": "202c9286cbe3cc4f16d08723c2b9a81fd453ba8c4127725b95f40c9fa25ebabf",
+  "normalizedMirrorGeometryHash": "0433a240c963c317eb6d305c2bb41d4b465d192a9213ba1115b85954dae97821"
+}

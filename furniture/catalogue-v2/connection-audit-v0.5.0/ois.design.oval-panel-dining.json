@@ -1,0 +1,44 @@
+{
+  "id": "ois.design.oval-panel-dining",
+  "sha256": "179284934d1b657f831831e06e54b684e2cf9e37f6887da17774a5b4c3d2ef43",
+  "sourceModel": "sources/v0.5.0/oval-panel-dining.blend",
+  "sourceSha256": "4490283e2a63909e5b3ae7ccabbc7addd76e59248bee5fbdf3c481dbebb11233",
+  "partCount": 3,
+  "componentCount": 1,
+  "components": [
+    {
+      "parts": [
+        "top",
+        "panel leg",
+        "panel leg.001"
+      ],
+      "minimum": [
+        -0.824999988079071,
+        -0.4399999976158142,
+        0.0
+      ],
+      "maximum": [
+        0.824999988079071,
+        0.4399999976158142,
+        0.75
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "panel leg",
+      "b": "top",
+      "method": "surface distance",
+      "distance": 8.940696716308594e-08
+    },
+    {
+      "a": "panel leg.001",
+      "b": "top",
+      "method": "surface distance",
+      "distance": 1.2287812012345967e-07
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T03:07:33Z"
+}

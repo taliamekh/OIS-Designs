@@ -1,0 +1,167 @@
+{
+  "designId": "ois.design.stair-storage-bunk",
+  "familyId": "ois.family.stair-storage-bunk",
+  "id": "ois.design.stair-storage-bunk",
+  "name": "Stair storage bunk",
+  "roomTags": [
+    "children"
+  ],
+  "theme": "calm-oak",
+  "builder": "bed",
+  "parameters": {
+    "form": "bunk-stair",
+    "size": "twin"
+  },
+  "distinction": "Four stair-storage blocks access the upper twin bunk.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted"
+  },
+  "constructionKey": "bed|bunk-stair|{}",
+  "bedSize": "twin",
+  "mattressMetres": [
+    0.9652,
+    1.905,
+    0.22
+  ],
+  "safetyReviewRequired": true,
+  "sha256": "7abd92e49375b1f098dae5378487f3f151149d6078de85c86fa8d72af839f3f9",
+  "bytes": 218456,
+  "triangles": 4376,
+  "vertices": 5896,
+  "drawPrimitives": 3,
+  "bounds": {
+    "min": [
+      -0.5601002041088113,
+      -7.702674575948976e-08,
+      -1.0400005703091457
+    ],
+    "max": [
+      0.9726002585979021,
+      1.9550000198977324,
+      1.0425000327603975
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 1.5327004627067136,
+    "depth": 2.082500603069543,
+    "height": 1.9550000969244783
+  },
+  "footprint": [
+    [
+      -0.5601002041088113,
+      -1.0400005703091457
+    ],
+    [
+      0.9726002585979021,
+      -1.0400005703091457
+    ],
+    [
+      0.9726002585979021,
+      1.0425000327603975
+    ],
+    [
+      -0.5601002041088113,
+      1.0425000327603975
+    ]
+  ],
+  "variantSlots": [
+    "fabric",
+    "linen",
+    "wood"
+  ],
+  "requiredExtensions": [],
+  "version": "0.2.0",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.stair-storage-bunk",
+  "file": "assets/v0.2.0/stair-storage-bunk.glb",
+  "sourceModel": "sources/v0.2.0/stair-storage-bunk.blend",
+  "thumbnail": "previews/v0.2.0/stair-storage-bunk.png",
+  "backThumbnail": "previews/v0.2.0/stair-storage-bunk-back.png",
+  "category": "beds",
+  "subtype": "bunk-stair",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "textures": {
+    "count": 0,
+    "bytes": 0
+  },
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.2.0/stair-storage-bunk.png",
+      "previews/v0.2.0/stair-storage-bunk-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.58,
+      0.39,
+      0.2
+    ],
+    [
+      0.73,
+      0.7,
+      0.61
+    ],
+    [
+      0.12,
+      0.14,
+      0.13
+    ]
+  ],
+  "colourTags": [
+    "pale oak",
+    "ivory",
+    "oatmeal"
+  ],
+  "materials": [
+    "textile",
+    "wood"
+  ],
+  "searchAliases": [
+    "children",
+    "bunk stair"
+  ],
+  "materialSlots": [
+    {
+      "id": "fabric",
+      "material": "fabric",
+      "recolourable": true
+    },
+    {
+      "id": "linen",
+      "material": "linen",
+      "recolourable": true
+    },
+    {
+      "id": "wood",
+      "material": "wood",
+      "recolourable": true
+    }
+  ],
+  "geometryHash": "99b790f20788b4a971fb377fe1145c5a16b34d5f17fb10763a7a348be958c8d3",
+  "normalizedMirrorGeometryHash": "088c47caa2bcfbbf0c2d14f4f0b974b64b5b65637f319bd906f55610ee87705d"
+}

@@ -1,0 +1,129 @@
+{
+  "id": "ois.design.fork-back-dining",
+  "sha256": "3270fc2ddcfad721234fce5d5ffa09c6245db212e41691d1977b7ce4b6c5faa6",
+  "sourceModel": "sources/v0.7.0/fork-back-dining.blend",
+  "sourceSha256": "ace2bf8033b47bb3a374fd75c1a5bfff8b886e24f8792a0fa6cff0c3c72827e7",
+  "partCount": 10,
+  "componentCount": 1,
+  "components": [
+    {
+      "parts": [
+        "leg",
+        "leg.001",
+        "leg.002",
+        "leg.003",
+        "structural chair seat pan",
+        "seat",
+        "piping",
+        "horseshoe arm",
+        "forked back",
+        "forked back.001"
+      ],
+      "minimum": [
+        -0.2552264630794525,
+        -0.30550000071525574,
+        1.7462298274040222e-10
+      ],
+      "maximum": [
+        0.2552264630794525,
+        0.2521499991416931,
+        0.8036361932754517
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "structural chair seat pan",
+      "b": "leg",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "structural chair seat pan",
+      "b": "leg.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "structural chair seat pan",
+      "b": "leg.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "structural chair seat pan",
+      "b": "leg.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "seat",
+      "b": "leg",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "seat",
+      "b": "leg.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "seat",
+      "b": "leg.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "seat",
+      "b": "leg.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "seat",
+      "b": "structural chair seat pan",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "piping",
+      "b": "seat",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "forked back",
+      "b": "structural chair seat pan",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "forked back",
+      "b": "horseshoe arm",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "forked back.001",
+      "b": "structural chair seat pan",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "forked back.001",
+      "b": "horseshoe arm",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "forked back.001",
+      "b": "forked back",
+      "method": "triangle intersection",
+      "distance": 0
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; live-source reports are NOT exported-asset evidence; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T03:51:56Z"
+}

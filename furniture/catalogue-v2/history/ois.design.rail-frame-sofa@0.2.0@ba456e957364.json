@@ -1,0 +1,159 @@
+{
+  "designId": "ois.design.rail-frame-sofa",
+  "familyId": "ois.family.rail-frame-sofa",
+  "id": "ois.design.rail-frame-sofa",
+  "name": "Exposed rail sofa",
+  "roomTags": [
+    "living"
+  ],
+  "theme": "calm-oak",
+  "builder": "seating",
+  "parameters": {
+    "form": "rail-sofa",
+    "w": 2.12
+  },
+  "distinction": "Visible timber arm rails and uprights instead of upholstered box arms.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted"
+  },
+  "sha256": "ba456e957364af4ad6aff03fc5ede5f38acd2ed91601137b5e1866b3dc4cfda6",
+  "bytes": 126196,
+  "triangles": 2360,
+  "vertices": 3389,
+  "drawPrimitives": 3,
+  "bounds": {
+    "min": [
+      -1.0704016805218821,
+      -3.8845370628481923e-08,
+      -0.4262657026462253
+    ],
+    "max": [
+      1.0704019371060882,
+      0.826533168554306,
+      0.42626547018502037
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 2.14080361762797,
+    "depth": 0.8525311728312457,
+    "height": 0.8265332073996766
+  },
+  "footprint": [
+    [
+      -1.0704016805218821,
+      -0.4262657026462253
+    ],
+    [
+      1.0704019371060882,
+      -0.4262657026462253
+    ],
+    [
+      1.0704019371060882,
+      0.42626547018502037
+    ],
+    [
+      -1.0704016805218821,
+      0.42626547018502037
+    ]
+  ],
+  "variantSlots": [
+    "fabric",
+    "linen",
+    "wood"
+  ],
+  "requiredExtensions": [],
+  "version": "0.2.0",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.rail-frame-sofa",
+  "file": "assets/v0.2.0/rail-frame-sofa.glb",
+  "sourceModel": "sources/v0.2.0/rail-frame-sofa.blend",
+  "thumbnail": "previews/v0.2.0/rail-frame-sofa.png",
+  "backThumbnail": "previews/v0.2.0/rail-frame-sofa-back.png",
+  "category": "seating",
+  "subtype": "rail-sofa",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "textures": {
+    "count": 0,
+    "bytes": 0
+  },
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.2.0/rail-frame-sofa.png",
+      "previews/v0.2.0/rail-frame-sofa-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.58,
+      0.39,
+      0.2
+    ],
+    [
+      0.73,
+      0.7,
+      0.61
+    ],
+    [
+      0.12,
+      0.14,
+      0.13
+    ]
+  ],
+  "colourTags": [
+    "pale oak",
+    "ivory",
+    "oatmeal"
+  ],
+  "materials": [
+    "textile",
+    "wood"
+  ],
+  "searchAliases": [
+    "living",
+    "rail sofa"
+  ],
+  "materialSlots": [
+    {
+      "id": "fabric",
+      "material": "fabric",
+      "recolourable": true
+    },
+    {
+      "id": "linen",
+      "material": "linen",
+      "recolourable": true
+    },
+    {
+      "id": "wood",
+      "material": "wood",
+      "recolourable": true
+    }
+  ],
+  "geometryHash": "e9b95dc7331d58c81c7d517f1ba1cef4095fb7e22f5a6cf118e85798938efd29",
+  "normalizedMirrorGeometryHash": "04993dadf4c3672f54aa3ff914e7f10ec9520b288fad7723fea2014305bb0d7f"
+}

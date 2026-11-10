@@ -1,0 +1,147 @@
+{
+  "designId": "ois.design.stepped-display-case",
+  "familyId": "ois.family.stepped-display-case",
+  "id": "ois.design.stepped-display-case",
+  "name": "Stepped display case",
+  "roomTags": [
+    "storage"
+  ],
+  "theme": "calm-oak",
+  "builder": "case",
+  "parameters": {
+    "form": "step",
+    "front": "slab",
+    "w": 1.1,
+    "h": 0.75
+  },
+  "distinction": "Three offset raised top ledges create a stepped outline.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted"
+  },
+  "constructionKey": "case|step|{\"base\": \"taper\", \"cols\": 1, \"doors\": 2, \"drawersTop\": false, \"front\": \"slab\", \"rows\": 4}",
+  "sha256": "a1e23509cb107b06aeebcf1fc4947268ea099b77a6e10fc8b7a529d8593f3e0e",
+  "bytes": 86764,
+  "triangles": 1744,
+  "vertices": 2340,
+  "drawPrimitives": 1,
+  "bounds": {
+    "min": [
+      -0.5500001257915963,
+      -4.369982076202206e-08,
+      -0.2000003971208717
+    ],
+    "max": [
+      0.5500002969170548,
+      0.8949781190213235,
+      0.20000004822308526
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 1.100000422708651,
+    "depth": 0.40000044534395696,
+    "height": 0.8949781627211443
+  },
+  "footprint": [
+    [
+      -0.5500001257915963,
+      -0.2000003971208717
+    ],
+    [
+      0.5500002969170548,
+      -0.2000003971208717
+    ],
+    [
+      0.5500002969170548,
+      0.20000004822308526
+    ],
+    [
+      -0.5500001257915963,
+      0.20000004822308526
+    ]
+  ],
+  "variantSlots": [
+    "wood"
+  ],
+  "requiredExtensions": [],
+  "version": "0.2.0",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.stepped-display-case",
+  "file": "assets/v0.2.0/stepped-display-case.glb",
+  "sourceModel": "sources/v0.2.0/stepped-display-case.blend",
+  "thumbnail": "previews/v0.2.0/stepped-display-case.png",
+  "backThumbnail": "previews/v0.2.0/stepped-display-case-back.png",
+  "category": "storage",
+  "subtype": "step",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "textures": {
+    "count": 0,
+    "bytes": 0
+  },
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.2.0/stepped-display-case.png",
+      "previews/v0.2.0/stepped-display-case-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.58,
+      0.39,
+      0.2
+    ],
+    [
+      0.73,
+      0.7,
+      0.61
+    ],
+    [
+      0.12,
+      0.14,
+      0.13
+    ]
+  ],
+  "colourTags": [
+    "pale oak",
+    "ivory",
+    "oatmeal"
+  ],
+  "materials": [
+    "wood"
+  ],
+  "searchAliases": [
+    "storage",
+    "step"
+  ],
+  "materialSlots": [
+    {
+      "id": "wood",
+      "material": "wood",
+      "recolourable": true
+    }
+  ]
+}

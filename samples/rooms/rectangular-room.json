@@ -1,0 +1,74 @@
+{
+  "schemaVersion": "1.0.0",
+  "roomId": "sample-room-001",
+  "name": "Synthetic rectangular room",
+  "source": {
+    "type": "synthetic",
+    "pipeline": "ois-authored-fixture",
+    "pipelineVersion": "1.0.0"
+  },
+  "units": "meters",
+  "coordinateSystem": "left_handed_y_up_z_forward",
+  "metricScale": {
+    "status": "synthetic_known",
+    "method": "Authored dimensions; not a measured scan"
+  },
+  "floor": {
+    "id": "floor-001",
+    "boundary": [[0, 0, 0], [4, 0, 0], [4, 0, 3], [0, 0, 3]],
+    "defaultMaterialId": "sample-floor-neutral",
+    "confidence": null
+  },
+  "walls": [
+    {
+      "id": "wall-south",
+      "start": [0, 0, 0],
+      "end": [4, 0, 0],
+      "height": 2.6,
+      "thickness": 0.12,
+      "defaultMaterialId": "sample-wall-neutral",
+      "confidence": null
+    },
+    {
+      "id": "wall-east",
+      "start": [4, 0, 0],
+      "end": [4, 0, 3],
+      "height": 2.6,
+      "thickness": 0.12,
+      "defaultMaterialId": "sample-wall-neutral",
+      "confidence": null
+    },
+    {
+      "id": "wall-north",
+      "start": [4, 0, 3],
+      "end": [0, 0, 3],
+      "height": 2.6,
+      "thickness": 0.12,
+      "defaultMaterialId": "sample-wall-neutral",
+      "confidence": null
+    },
+    {
+      "id": "wall-west",
+      "start": [0, 0, 3],
+      "end": [0, 0, 0],
+      "height": 2.6,
+      "thickness": 0.12,
+      "defaultMaterialId": "sample-wall-neutral",
+      "confidence": null
+    }
+  ],
+  "openings": [
+    {
+      "id": "door-opening-001",
+      "wallId": "wall-south",
+      "type": "door",
+      "offsetAlongWall": 0.4,
+      "width": 0.9,
+      "baseHeight": 0.0,
+      "height": 2.1,
+      "confidence": null
+    }
+  ],
+  "detectedObjects": [],
+  "visualAssets": []
+}

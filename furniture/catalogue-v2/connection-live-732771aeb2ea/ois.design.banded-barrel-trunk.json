@@ -1,0 +1,175 @@
+{
+  "id": "ois.design.banded-barrel-trunk",
+  "sha256": "unexported-source-732771aeb2eadd33599208170e38ff4e50d68878cbfb6795c9473e6f8553f36b",
+  "sourceModel": null,
+  "sourceSha256": "732771aeb2eadd33599208170e38ff4e50d68878cbfb6795c9473e6f8553f36b",
+  "partCount": 14,
+  "componentCount": 1,
+  "components": [
+    {
+      "parts": [
+        "trunk body",
+        "barrel trunk lid",
+        "trunk lid hinge",
+        "trunk lid hinge.001",
+        "trunk band",
+        "pull",
+        "pull mounting plate",
+        "pull mounting standoff",
+        "pull mounting standoff.001",
+        "trunk band.001",
+        "pull.001",
+        "pull mounting plate.001",
+        "pull mounting standoff.002",
+        "pull mounting standoff.003"
+      ],
+      "minimum": [
+        -0.5,
+        -0.25184208154678345,
+        0.0
+      ],
+      "maximum": [
+        0.5,
+        0.2709999978542328,
+        0.5400000214576721
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "trunk lid hinge",
+      "b": "trunk body",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "trunk lid hinge",
+      "b": "barrel trunk lid",
+      "method": "surface distance",
+      "distance": 0.0005273763672448695
+    },
+    {
+      "a": "trunk lid hinge.001",
+      "b": "trunk body",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "trunk lid hinge.001",
+      "b": "barrel trunk lid",
+      "method": "surface distance",
+      "distance": 0.0005273765418678522
+    },
+    {
+      "a": "trunk band",
+      "b": "barrel trunk lid",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "trunk band",
+      "b": "trunk lid hinge",
+      "method": "surface distance",
+      "distance": 0.0014861529925838113
+    },
+    {
+      "a": "pull mounting plate",
+      "b": "trunk body",
+      "method": "point containment",
+      "distance": 0
+    },
+    {
+      "a": "pull mounting standoff",
+      "b": "trunk body",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pull mounting standoff",
+      "b": "pull",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pull mounting standoff",
+      "b": "pull mounting plate",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pull mounting standoff.001",
+      "b": "trunk body",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pull mounting standoff.001",
+      "b": "pull",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pull mounting standoff.001",
+      "b": "pull mounting plate",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "trunk band.001",
+      "b": "barrel trunk lid",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "trunk band.001",
+      "b": "trunk lid hinge.001",
+      "method": "surface distance",
+      "distance": 0.0014861199306324124
+    },
+    {
+      "a": "pull mounting plate.001",
+      "b": "trunk body",
+      "method": "point containment",
+      "distance": 0
+    },
+    {
+      "a": "pull mounting standoff.002",
+      "b": "trunk body",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pull mounting standoff.002",
+      "b": "pull.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pull mounting standoff.002",
+      "b": "pull mounting plate.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pull mounting standoff.003",
+      "b": "trunk body",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pull mounting standoff.003",
+      "b": "pull.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pull mounting standoff.003",
+      "b": "pull mounting plate.001",
+      "method": "triangle intersection",
+      "distance": 0
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; live-source reports are NOT exported-asset evidence; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T03:28:53Z"
+}

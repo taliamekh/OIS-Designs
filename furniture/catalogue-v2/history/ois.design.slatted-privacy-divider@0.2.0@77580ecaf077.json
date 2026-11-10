@@ -1,0 +1,147 @@
+{
+  "designId": "ois.design.slatted-privacy-divider",
+  "familyId": "ois.family.slatted-privacy-divider",
+  "id": "ois.design.slatted-privacy-divider",
+  "name": "Slatted privacy divider",
+  "roomTags": [
+    "entry-hall"
+  ],
+  "theme": "soft-japandi",
+  "builder": "special",
+  "parameters": {
+    "form": "screen",
+    "w": 1.65,
+    "h": 1.7,
+    "front": "slatted"
+  },
+  "distinction": "Three articulated frames filled with open solid timber slats.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted"
+  },
+  "constructionKey": "special|screen|{\"cols\": 1, \"front\": \"slatted\", \"panels\": 3}",
+  "sha256": "77580ecaf07776c395aed7ee1ccf8048589c4444eb1a0518aa880e1fd6cc836b",
+  "bytes": 452116,
+  "triangles": 8460,
+  "vertices": 12499,
+  "drawPrimitives": 1,
+  "bounds": {
+    "min": [
+      -0.8082463052898314,
+      -5.960464477539063e-08,
+      -0.13261769493968653
+    ],
+    "max": [
+      0.8082464156077627,
+      1.6600000262260437,
+      0.1326176443881162
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 1.616492720897594,
+    "depth": 0.26523533932780274,
+    "height": 1.6600000858306885
+  },
+  "footprint": [
+    [
+      -0.8082463052898314,
+      -0.13261769493968653
+    ],
+    [
+      0.8082464156077627,
+      -0.13261769493968653
+    ],
+    [
+      0.8082464156077627,
+      0.1326176443881162
+    ],
+    [
+      -0.8082463052898314,
+      0.1326176443881162
+    ]
+  ],
+  "variantSlots": [
+    "wood"
+  ],
+  "requiredExtensions": [],
+  "version": "0.2.0",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.slatted-privacy-divider",
+  "file": "assets/v0.2.0/slatted-privacy-divider.glb",
+  "sourceModel": "sources/v0.2.0/slatted-privacy-divider.blend",
+  "thumbnail": "previews/v0.2.0/slatted-privacy-divider.png",
+  "backThumbnail": "previews/v0.2.0/slatted-privacy-divider-back.png",
+  "category": "specialty",
+  "subtype": "screen",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "textures": {
+    "count": 0,
+    "bytes": 0
+  },
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.2.0/slatted-privacy-divider.png",
+      "previews/v0.2.0/slatted-privacy-divider-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.34,
+      0.28,
+      0.19
+    ],
+    [
+      0.58,
+      0.54,
+      0.44
+    ],
+    [
+      0.15,
+      0.17,
+      0.15
+    ]
+  ],
+  "colourTags": [
+    "ash",
+    "flax",
+    "stone"
+  ],
+  "materials": [
+    "wood"
+  ],
+  "searchAliases": [
+    "entry hall",
+    "screen"
+  ],
+  "materialSlots": [
+    {
+      "id": "wood",
+      "material": "wood",
+      "recolourable": true
+    }
+  ]
+}

@@ -1,0 +1,195 @@
+{
+  "id": "ois.design.offset-cube-tower",
+  "sha256": "0d08935653837c08d3493ae0b1f3a81a132ec3e49e9f650941849813acf21ac5",
+  "sourceModel": "sources/v0.7.0/offset-cube-tower.blend",
+  "sourceSha256": "d5bf1349b4fc982db9ebbb5ea482b376c04876eddf3e0329ad6a8800c8642bcb",
+  "partCount": 16,
+  "componentCount": 1,
+  "components": [
+    {
+      "parts": [
+        "offset cube shelf",
+        "offset cube shelf.001",
+        "offset cube side",
+        "offset cube side.001",
+        "offset cube shelf.002",
+        "offset cube shelf.003",
+        "offset cube side.002",
+        "offset cube side.003",
+        "offset cube shelf.004",
+        "offset cube shelf.005",
+        "offset cube side.004",
+        "offset cube side.005",
+        "offset cube shelf.006",
+        "offset cube shelf.007",
+        "offset cube side.006",
+        "offset cube side.007"
+      ],
+      "minimum": [
+        -0.4894999861717224,
+        -0.17499999701976776,
+        0.0
+      ],
+      "maximum": [
+        0.4894999861717224,
+        0.17499999701976776,
+        1.6750000715255737
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "offset cube side",
+      "b": "offset cube shelf",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "offset cube side",
+      "b": "offset cube shelf.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "offset cube side.001",
+      "b": "offset cube shelf",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "offset cube side.001",
+      "b": "offset cube shelf.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "offset cube shelf.002",
+      "b": "offset cube shelf.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "offset cube shelf.002",
+      "b": "offset cube side",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "offset cube side.002",
+      "b": "offset cube shelf.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "offset cube side.002",
+      "b": "offset cube shelf.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "offset cube side.003",
+      "b": "offset cube shelf.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "offset cube side.003",
+      "b": "offset cube shelf.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "offset cube side.003",
+      "b": "offset cube shelf.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "offset cube shelf.004",
+      "b": "offset cube shelf.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "offset cube shelf.004",
+      "b": "offset cube side.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "offset cube side.004",
+      "b": "offset cube shelf.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "offset cube side.004",
+      "b": "offset cube shelf.004",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "offset cube side.004",
+      "b": "offset cube shelf.005",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "offset cube side.005",
+      "b": "offset cube shelf.004",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "offset cube side.005",
+      "b": "offset cube shelf.005",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "offset cube shelf.006",
+      "b": "offset cube shelf.005",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "offset cube shelf.006",
+      "b": "offset cube side.004",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "offset cube side.006",
+      "b": "offset cube shelf.006",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "offset cube side.006",
+      "b": "offset cube shelf.007",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "offset cube side.007",
+      "b": "offset cube shelf.005",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "offset cube side.007",
+      "b": "offset cube shelf.006",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "offset cube side.007",
+      "b": "offset cube shelf.007",
+      "method": "triangle intersection",
+      "distance": 0
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; live-source reports are NOT exported-asset evidence; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T04:00:31Z"
+}

@@ -1,0 +1,158 @@
+{
+  "designId": "ois.design.racetrack-cantilever-coffee",
+  "familyId": "ois.family.racetrack-cantilever-coffee",
+  "id": "ois.design.racetrack-cantilever-coffee",
+  "name": "Capsule cantilever coffee table",
+  "roomTags": [
+    "living"
+  ],
+  "theme": "city-loft",
+  "builder": "table",
+  "parameters": {
+    "form": "cantilever",
+    "w": 1.05,
+    "d": 0.55,
+    "h": 0.4,
+    "shape": "racetrack"
+  },
+  "distinction": "Capsule top cantilevers from one offset broad plate.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted",
+    "sourceSnapshot": "sources/pipeline-e797cb5c88af56f5.py",
+    "sourceSha256": "e797cb5c88af56f5b4455d819a512ab9be55f40e1fa2d0cb542aca7bb84b906f",
+    "parametersFile": "sources/v0.2.1/racetrack-cantilever-coffee.parameters.json"
+  },
+  "constructionKey": "table|cantilever|{\"drawers\": false, \"shape\": \"racetrack\", \"shelf\": false}",
+  "sha256": "bb9391d6ecec2934aa82672c7731935e11d960f2b304b479d36f79e39d7be591",
+  "bytes": 28444,
+  "triangles": 564,
+  "vertices": 783,
+  "drawPrimitives": 2,
+  "bounds": {
+    "min": [
+      -0.5249999761581421,
+      0.0,
+      -0.2750000059604645
+    ],
+    "max": [
+      0.5249999761581421,
+      0.4000000059604645,
+      0.2750000059604645
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 1.0499999523162842,
+    "depth": 0.550000011920929,
+    "height": 0.4000000059604645
+  },
+  "footprint": [
+    [
+      -0.5249999761581421,
+      -0.2750000059604645
+    ],
+    [
+      0.5249999761581421,
+      -0.2750000059604645
+    ],
+    [
+      0.5249999761581421,
+      0.2750000059604645
+    ],
+    [
+      -0.5249999761581421,
+      0.2750000059604645
+    ]
+  ],
+  "variantSlots": [
+    "metal",
+    "wood"
+  ],
+  "requiredExtensions": [],
+  "version": "0.2.1",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.racetrack-cantilever-coffee",
+  "file": "assets/v0.2.1/racetrack-cantilever-coffee.glb",
+  "sourceModel": "sources/v0.2.1/racetrack-cantilever-coffee.blend",
+  "thumbnail": "previews/v0.2.1/racetrack-cantilever-coffee.png",
+  "backThumbnail": "previews/v0.2.1/racetrack-cantilever-coffee-back.png",
+  "category": "tables",
+  "subtype": "cantilever",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "textures": {
+    "count": 0,
+    "bytes": 0
+  },
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.2.1/racetrack-cantilever-coffee.png",
+      "previews/v0.2.1/racetrack-cantilever-coffee-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.23,
+      0.15,
+      0.09
+    ],
+    [
+      0.12,
+      0.14,
+      0.16
+    ],
+    [
+      0.045,
+      0.05,
+      0.055
+    ]
+  ],
+  "colourTags": [
+    "charcoal",
+    "black",
+    "weathered wood"
+  ],
+  "materials": [
+    "metal",
+    "wood"
+  ],
+  "searchAliases": [
+    "living",
+    "cantilever"
+  ],
+  "materialSlots": [
+    {
+      "id": "metal",
+      "material": "metal",
+      "recolourable": true
+    },
+    {
+      "id": "wood",
+      "material": "wood",
+      "recolourable": true
+    }
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "designId": "ois.design.three-way-y-coffee",
+  "familyId": "ois.family.three-way-y-coffee",
+  "id": "ois.design.three-way-y-coffee",
+  "name": "Three-way Y coffee table",
+  "roomTags": [
+    "living"
+  ],
+  "theme": "walnut-form",
+  "builder": "sculptural",
+  "parameters": {
+    "form": "y-base-table",
+    "w": 0.95,
+    "d": 0.68,
+    "h": 0.42
+  },
+  "distinction": "Three converging branches form a Y-shaped pedestal.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted",
+    "sourceSnapshot": "sources/pipeline-e797cb5c88af56f5.py",
+    "sourceSha256": "e797cb5c88af56f5b4455d819a512ab9be55f40e1fa2d0cb542aca7bb84b906f",
+    "parametersFile": "sources/v0.2.1/three-way-y-coffee.parameters.json"
+  },
+  "constructionKey": "sculptural|y-base-table|{}",
+  "sha256": "f355000205a630b561152cdfb62e23eaeec099fb47e5270da3296e7da7a1a5d6",
+  "bytes": 21064,
+  "triangles": 492,
+  "vertices": 522,
+  "drawPrimitives": 1,
+  "bounds": {
+    "min": [
+      -0.4749999940395355,
+      2.9802322387695312e-08,
+      -0.3400000035762787
+    ],
+    "max": [
+      0.4749999940395355,
+      0.4558636490255594,
+      0.3400000035762787
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 0.949999988079071,
+    "depth": 0.6800000071525574,
+    "height": 0.45586361922323704
+  },
+  "footprint": [
+    [
+      -0.4749999940395355,
+      -0.3400000035762787
+    ],
+    [
+      0.4749999940395355,
+      -0.3400000035762787
+    ],
+    [
+      0.4749999940395355,
+      0.3400000035762787
+    ],
+    [
+      -0.4749999940395355,
+      0.3400000035762787
+    ]
+  ],
+  "variantSlots": [
+    "wood"
+  ],
+  "requiredExtensions": [],
+  "version": "0.2.1",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.three-way-y-coffee",
+  "file": "assets/v0.2.1/three-way-y-coffee.glb",
+  "sourceModel": "sources/v0.2.1/three-way-y-coffee.blend",
+  "thumbnail": "previews/v0.2.1/three-way-y-coffee.png",
+  "backThumbnail": "previews/v0.2.1/three-way-y-coffee-back.png",
+  "category": "sculptural-furniture",
+  "subtype": "y-base-table",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "textures": {
+    "count": 0,
+    "bytes": 0
+  },
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.2.1/three-way-y-coffee.png",
+      "previews/v0.2.1/three-way-y-coffee-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.22,
+      0.09,
+      0.038
+    ],
+    [
+      0.39,
+      0.18,
+      0.07
+    ],
+    [
+      0.47,
+      0.3,
+      0.1
+    ]
+  ],
+  "colourTags": [
+    "walnut",
+    "tobacco",
+    "brass"
+  ],
+  "materials": [
+    "wood"
+  ],
+  "searchAliases": [
+    "living",
+    "y base table"
+  ],
+  "materialSlots": [
+    {
+      "id": "wood",
+      "material": "wood",
+      "recolourable": true
+    }
+  ]
+}

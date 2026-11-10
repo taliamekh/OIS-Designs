@@ -1,0 +1,72 @@
+{
+  "id": "ois.design.sawhorse-dining",
+  "sha256": "876db08440929a28bfe00d982ee7d2d10f96b05b8012854b28b7d40ceb2d4e9d",
+  "sourceModel": "sources/v0.7.0/sawhorse-dining.blend",
+  "sourceSha256": "56ac1de30b5cb682478fad6bd3c997bcba5e1ecc757bbadad701df1cfbe428a1",
+  "partCount": 7,
+  "componentCount": 1,
+  "components": [
+    {
+      "parts": [
+        "top",
+        "horse beam",
+        "horse leg",
+        "horse leg.001",
+        "horse beam.001",
+        "horse leg.002",
+        "horse leg.003"
+      ],
+      "minimum": [
+        -0.824999988079071,
+        -0.4399999976158142,
+        -8.381903171539307e-09
+      ],
+      "maximum": [
+        0.824999988079071,
+        0.4399999976158142,
+        0.7566211819648743
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "horse beam",
+      "b": "top",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "horse leg",
+      "b": "horse beam",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "horse leg.001",
+      "b": "horse beam",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "horse beam.001",
+      "b": "top",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "horse leg.002",
+      "b": "horse beam.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "horse leg.003",
+      "b": "horse beam.001",
+      "method": "triangle intersection",
+      "distance": 0
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; live-source reports are NOT exported-asset evidence; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T04:00:32Z"
+}

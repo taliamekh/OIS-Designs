@@ -1,0 +1,231 @@
+{
+  "designId": "ois.design.paper-table-light",
+  "familyId": "ois.family.paper-table-light",
+  "id": "ois.design.paper-table-light",
+  "name": "Paper table light",
+  "roomTags": [
+    "bedroom"
+  ],
+  "theme": "soft-japandi",
+  "builder": "light",
+  "parameters": {
+    "form": "paper",
+    "h": 0.62
+  },
+  "distinction": "Paper floor-lamp size variant; excluded.",
+  "stage": "validated-candidate",
+  "countEligible": false,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted",
+    "sourceSnapshot": "sources/pipeline-55642edf77b9875f.py",
+    "sourceSha256": "55642edf77b9875ff9620f3041b9999cee7807ac9d8ce9f01f78fdfc4bbc513f",
+    "parametersFile": "sources/v0.3.2/paper-table-light.parameters.json"
+  },
+  "constructionKey": "light|paper|{}",
+  "sha256": "c4a34948dd7c158a66ee02d0c26b92543e67442961999270b6e5cf4de98adeaa",
+  "bytes": 799808,
+  "triangles": 10904,
+  "vertices": 8408,
+  "drawPrimitives": 3,
+  "bounds": {
+    "min": [
+      -0.24380259215831757,
+      -1.862645149230957e-09,
+      -0.24380259215831757
+    ],
+    "max": [
+      0.24380259215831757,
+      0.5699999928474426,
+      0.24380259215831757
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 0.48760518431663513,
+    "depth": 0.48760518431663513,
+    "height": 0.5699999947100878
+  },
+  "footprint": [
+    [
+      -0.24380259215831757,
+      -0.24380259215831757
+    ],
+    [
+      0.24380259215831757,
+      -0.24380259215831757
+    ],
+    [
+      0.24380259215831757,
+      0.24380259215831757
+    ],
+    [
+      -0.24380259215831757,
+      0.24380259215831757
+    ]
+  ],
+  "variantSlots": [
+    "linen",
+    "metal",
+    "wood"
+  ],
+  "requiredExtensions": [],
+  "textures": {
+    "count": 6,
+    "bytes": 325769,
+    "estimatedRgbaBytesWithMipmaps": 2097152,
+    "images": [
+      {
+        "name": "linen-normal",
+        "bytes": 76292,
+        "width": 256,
+        "height": 256,
+        "sha256": "70b25282eb1daf2d7d6faad88d6b47ca1298d395b833d36d3ba28a542ed6d36e"
+      },
+      {
+        "name": "linen-neutral-base",
+        "bytes": 34309,
+        "width": 256,
+        "height": 256,
+        "sha256": "047df909f3cecf9ec0cdef6c8e2a92dea40e0116922d5b7a25bc7da6481e1ec9"
+      },
+      {
+        "name": "linen-roughness",
+        "bytes": 40384,
+        "width": 256,
+        "height": 256,
+        "sha256": "c31825bb85668747311407d1a5e5d9a56bc0e65aefbf79936d1d4665e83fdb45"
+      },
+      {
+        "name": "wood-normal",
+        "bytes": 102088,
+        "width": 256,
+        "height": 256,
+        "sha256": "6b8efcb5004552d884a527017922bfb5260b8bda4dc77f1365fe1cb8a09f1d56"
+      },
+      {
+        "name": "wood-neutral-base",
+        "bytes": 39353,
+        "width": 256,
+        "height": 256,
+        "sha256": "ddcf839a2addae78944a2d7a0588f9c2055852fc4ccb4e2dae2095d28541de44"
+      },
+      {
+        "name": "wood-roughness",
+        "bytes": 33343,
+        "width": 256,
+        "height": 256,
+        "sha256": "afc2180e58360e76fb178b52f225f7ba9045a7d0d266f10886763b0590335a1a"
+      }
+    ]
+  },
+  "version": "0.3.2",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.paper-table-light",
+  "file": "assets/v0.3.2/paper-table-light.glb",
+  "sourceModel": "sources/v0.3.2/paper-table-light.blend",
+  "thumbnail": "previews/v0.3.2/paper-table-light.png",
+  "backThumbnail": "previews/v0.3.2/paper-table-light-back.png",
+  "category": "lighting",
+  "subtype": "paper",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.3.2/paper-table-light.png",
+      "previews/v0.3.2/paper-table-light-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.8399999737739563,
+      0.800000011920929,
+      0.6899999976158142
+    ],
+    [
+      0.15000000596046448,
+      0.17000000178813934,
+      0.15000000596046448
+    ],
+    [
+      0.3400000035762787,
+      0.2800000011920929,
+      0.1899999976158142
+    ]
+  ],
+  "colourTags": [
+    "charcoal",
+    "smoked ash",
+    "warm ivory"
+  ],
+  "materials": [
+    "metal",
+    "textile",
+    "wood"
+  ],
+  "searchAliases": [
+    "bedroom",
+    "paper"
+  ],
+  "materialSlots": [
+    {
+      "id": "linen",
+      "material": "linen",
+      "recolourable": true
+    },
+    {
+      "id": "metal",
+      "material": "metal",
+      "recolourable": true
+    },
+    {
+      "id": "wood",
+      "material": "wood",
+      "recolourable": true
+    }
+  ],
+  "supportChecks": {
+    "method": "source-part upper-end ray to non-leg geometry, 15mm join tolerance",
+    "status": "pass",
+    "parts": [],
+    "limitation": "screening only; hidden joints, whole-model connectivity, load paths and safety remain visual/product-review concerns"
+  },
+  "materialFinish": {
+    "source": "materials/v1/manifest.json",
+    "repeatMetres": {
+      "wood": [
+        0.16,
+        0.75
+      ],
+      "fabric": [
+        0.14,
+        0.14
+      ],
+      "linen": [
+        0.12,
+        0.12
+      ]
+    },
+    "maps": "original base colour / roughness / tangent normal, embedded in GLB"
+  }
+}

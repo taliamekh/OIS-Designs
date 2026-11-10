@@ -1,0 +1,154 @@
+{
+  "designId": "ois.design.oval-floor-pouf",
+  "familyId": "ois.family.oval-floor-pouf",
+  "id": "ois.design.oval-floor-pouf",
+  "name": "Oval floor pouf",
+  "roomTags": [
+    "living"
+  ],
+  "theme": "soft-japandi",
+  "builder": "seating",
+  "parameters": {
+    "form": "pouf",
+    "w": 0.78,
+    "d": 0.64,
+    "h": 0.31
+  },
+  "distinction": "Soft ellipsoidal floor form with equator seam and no rigid legs.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted"
+  },
+  "sha256": "54bdcf2f245f4d8acd47416a75a5ea310c8013201bbb03c6e58bcaeae6a55bbe",
+  "bytes": 29488,
+  "triangles": 1296,
+  "vertices": 707,
+  "drawPrimitives": 2,
+  "bounds": {
+    "min": [
+      -0.3910999894142151,
+      0.0,
+      -0.32179999351501465
+    ],
+    "max": [
+      0.3910999894142151,
+      0.3100000023841858,
+      0.32179999351501465
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 0.7821999788284302,
+    "depth": 0.6435999870300293,
+    "height": 0.3100000023841858
+  },
+  "footprint": [
+    [
+      -0.3910999894142151,
+      -0.32179999351501465
+    ],
+    [
+      0.3910999894142151,
+      -0.32179999351501465
+    ],
+    [
+      0.3910999894142151,
+      0.32179999351501465
+    ],
+    [
+      -0.3910999894142151,
+      0.32179999351501465
+    ]
+  ],
+  "variantSlots": [
+    "fabric",
+    "linen"
+  ],
+  "requiredExtensions": [],
+  "version": "0.2.0",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.oval-floor-pouf",
+  "file": "assets/v0.2.0/oval-floor-pouf.glb",
+  "sourceModel": "sources/v0.2.0/oval-floor-pouf.blend",
+  "thumbnail": "previews/v0.2.0/oval-floor-pouf.png",
+  "backThumbnail": "previews/v0.2.0/oval-floor-pouf-back.png",
+  "category": "seating",
+  "subtype": "pouf",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "textures": {
+    "count": 0,
+    "bytes": 0
+  },
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.2.0/oval-floor-pouf.png",
+      "previews/v0.2.0/oval-floor-pouf-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.34,
+      0.28,
+      0.19
+    ],
+    [
+      0.58,
+      0.54,
+      0.44
+    ],
+    [
+      0.15,
+      0.17,
+      0.15
+    ]
+  ],
+  "colourTags": [
+    "ash",
+    "flax",
+    "stone"
+  ],
+  "materials": [
+    "textile"
+  ],
+  "searchAliases": [
+    "living",
+    "pouf"
+  ],
+  "materialSlots": [
+    {
+      "id": "fabric",
+      "material": "fabric",
+      "recolourable": true
+    },
+    {
+      "id": "linen",
+      "material": "linen",
+      "recolourable": true
+    }
+  ],
+  "geometryHash": "1fa925f2255e86a6724a60e4171917462ec1a0ee05939646f6ec9b50237774e2",
+  "normalizedMirrorGeometryHash": "082f75dc5855832b5f938d5e9f11c8459ff71c21cfd555167934b11c0b655b5a"
+}

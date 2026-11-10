@@ -1,0 +1,319 @@
+{
+  "id": "ois.design.tambour-bedside",
+  "sha256": "d7c17267c97f33058ce862e3f171c92173ef07e5b11167a9d72ef26e08a2f162",
+  "sourceModel": "sources/v0.5.0/tambour-bedside.blend",
+  "sourceSha256": "519d37a292a3a8514c580d2710d6b59d256506b55295bab818cdd705937ed5d6",
+  "partCount": 24,
+  "componentCount": 14,
+  "components": [
+    {
+      "parts": [
+        "leg",
+        "leg.001",
+        "leg.002",
+        "leg.003",
+        "bottom",
+        "top",
+        "side",
+        "side.001",
+        "back",
+        "tambour stave",
+        "tambour stave.013"
+      ],
+      "minimum": [
+        -0.25,
+        -0.20000000298023224,
+        2.3283064365386963e-10
+      ],
+      "maximum": [
+        0.25,
+        0.22450000047683716,
+        0.5401344895362854
+      ]
+    },
+    {
+      "parts": [
+        "tambour stave.001"
+      ],
+      "minimum": [
+        -0.21084614098072052,
+        0.19949999451637268,
+        0.16013450920581818
+      ],
+      "maximum": [
+        -0.18684615194797516,
+        0.22450000047683716,
+        0.5001345276832581
+      ]
+    },
+    {
+      "parts": [
+        "tambour stave.002"
+      ],
+      "minimum": [
+        -0.174692302942276,
+        0.19949999451637268,
+        0.16013450920581818
+      ],
+      "maximum": [
+        -0.15069231390953064,
+        0.22450000047683716,
+        0.5001345276832581
+      ]
+    },
+    {
+      "parts": [
+        "tambour stave.003"
+      ],
+      "minimum": [
+        -0.1385384500026703,
+        0.19949999451637268,
+        0.16013450920581818
+      ],
+      "maximum": [
+        -0.11453845351934433,
+        0.22450000047683716,
+        0.5001345276832581
+      ]
+    },
+    {
+      "parts": [
+        "tambour stave.004"
+      ],
+      "minimum": [
+        -0.10238461941480637,
+        0.19949999451637268,
+        0.16013450920581818
+      ],
+      "maximum": [
+        -0.07838461548089981,
+        0.22450000047683716,
+        0.5001345276832581
+      ]
+    },
+    {
+      "parts": [
+        "tambour stave.005"
+      ],
+      "minimum": [
+        -0.06623076647520065,
+        0.19949999451637268,
+        0.16013450920581818
+      ],
+      "maximum": [
+        -0.042230769991874695,
+        0.22450000047683716,
+        0.5001345276832581
+      ]
+    },
+    {
+      "parts": [
+        "tambour stave.006"
+      ],
+      "minimum": [
+        -0.030076922848820686,
+        0.19949999451637268,
+        0.16013450920581818
+      ],
+      "maximum": [
+        -0.00607692264020443,
+        0.22450000047683716,
+        0.5001345276832581
+      ]
+    },
+    {
+      "parts": [
+        "tambour stave.007"
+      ],
+      "minimum": [
+        0.00607692264020443,
+        0.19949999451637268,
+        0.16013450920581818
+      ],
+      "maximum": [
+        0.030076922848820686,
+        0.22450000047683716,
+        0.5001345276832581
+      ]
+    },
+    {
+      "parts": [
+        "tambour stave.008"
+      ],
+      "minimum": [
+        0.042230769991874695,
+        0.19949999451637268,
+        0.16013450920581818
+      ],
+      "maximum": [
+        0.06623076647520065,
+        0.22450000047683716,
+        0.5001345276832581
+      ]
+    },
+    {
+      "parts": [
+        "tambour stave.009"
+      ],
+      "minimum": [
+        0.07838461548089981,
+        0.19949999451637268,
+        0.16013450920581818
+      ],
+      "maximum": [
+        0.10238461941480637,
+        0.22450000047683716,
+        0.5001345276832581
+      ]
+    },
+    {
+      "parts": [
+        "tambour stave.010"
+      ],
+      "minimum": [
+        0.11453845351934433,
+        0.19949999451637268,
+        0.16013450920581818
+      ],
+      "maximum": [
+        0.1385384500026703,
+        0.22450000047683716,
+        0.5001345276832581
+      ]
+    },
+    {
+      "parts": [
+        "tambour stave.011"
+      ],
+      "minimum": [
+        0.15069231390953064,
+        0.19949999451637268,
+        0.16013450920581818
+      ],
+      "maximum": [
+        0.174692302942276,
+        0.22450000047683716,
+        0.5001345276832581
+      ]
+    },
+    {
+      "parts": [
+        "tambour stave.012"
+      ],
+      "minimum": [
+        0.18684615194797516,
+        0.19949999451637268,
+        0.16013450920581818
+      ],
+      "maximum": [
+        0.21084614098072052,
+        0.22450000047683716,
+        0.5001345276832581
+      ]
+    },
+    {
+      "parts": [
+        "pull"
+      ],
+      "minimum": [
+        -0.07500000298023224,
+        0.24899999797344208,
+        0.32413449883461
+      ],
+      "maximum": [
+        0.07500000298023224,
+        0.26100000739097595,
+        0.33613452315330505
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "bottom",
+      "b": "leg",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "bottom",
+      "b": "leg.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "bottom",
+      "b": "leg.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "bottom",
+      "b": "leg.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "side",
+      "b": "bottom",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "side",
+      "b": "top",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "side.001",
+      "b": "bottom",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "side.001",
+      "b": "top",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "back",
+      "b": "bottom",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "back",
+      "b": "top",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "back",
+      "b": "side",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "back",
+      "b": "side.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "tambour stave",
+      "b": "side",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "tambour stave.013",
+      "b": "side.001",
+      "method": "triangle intersection",
+      "distance": 0
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T03:07:34Z"
+}

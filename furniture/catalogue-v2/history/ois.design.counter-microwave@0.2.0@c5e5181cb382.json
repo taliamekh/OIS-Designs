@@ -1,0 +1,170 @@
+{
+  "designId": "ois.design.counter-microwave",
+  "familyId": "ois.family.counter-microwave",
+  "id": "ois.design.counter-microwave",
+  "name": "Countertop microwave",
+  "roomTags": [
+    "kitchen"
+  ],
+  "theme": "calm-oak",
+  "builder": "appliance",
+  "parameters": {
+    "form": "microwave",
+    "w": 0.52,
+    "d": 0.4,
+    "h": 0.32
+  },
+  "distinction": "Low horizontal glazed cavity and pull handle.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted"
+  },
+  "constructionKey": "appliance|microwave|{}",
+  "sha256": "c5e5181cb3821316b450b0580fe12d005200fd9ba4370f7170cb3b449cb2eb25",
+  "bytes": 34380,
+  "triangles": 624,
+  "vertices": 814,
+  "drawPrimitives": 4,
+  "bounds": {
+    "min": [
+      -0.25999999046325684,
+      0.0,
+      -0.2760000260695815
+    ],
+    "max": [
+      0.25999999046325684,
+      0.3199999928474426,
+      0.20000000298023224
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 0.5199999809265137,
+    "depth": 0.47600002904981376,
+    "height": 0.3199999928474426
+  },
+  "footprint": [
+    [
+      -0.25999999046325684,
+      -0.2760000260695815
+    ],
+    [
+      0.25999999046325684,
+      -0.2760000260695815
+    ],
+    [
+      0.25999999046325684,
+      0.20000000298023224
+    ],
+    [
+      -0.25999999046325684,
+      0.20000000298023224
+    ]
+  ],
+  "variantSlots": [
+    "ceramic",
+    "dark",
+    "glass",
+    "metal"
+  ],
+  "requiredExtensions": [],
+  "version": "0.2.0",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.counter-microwave",
+  "file": "assets/v0.2.0/counter-microwave.glb",
+  "sourceModel": "sources/v0.2.0/counter-microwave.blend",
+  "thumbnail": "previews/v0.2.0/counter-microwave.png",
+  "backThumbnail": "previews/v0.2.0/counter-microwave-back.png",
+  "category": "appliances",
+  "subtype": "microwave",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "textures": {
+    "count": 0,
+    "bytes": 0
+  },
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.2.0/counter-microwave.png",
+      "previews/v0.2.0/counter-microwave-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.58,
+      0.39,
+      0.2
+    ],
+    [
+      0.73,
+      0.7,
+      0.61
+    ],
+    [
+      0.12,
+      0.14,
+      0.13
+    ]
+  ],
+  "colourTags": [
+    "pale oak",
+    "ivory",
+    "oatmeal"
+  ],
+  "materials": [
+    "ceramic",
+    "metal",
+    "opaque-glass-study",
+    "paint"
+  ],
+  "searchAliases": [
+    "kitchen",
+    "microwave"
+  ],
+  "materialSlots": [
+    {
+      "id": "ceramic",
+      "material": "ceramic",
+      "recolourable": true
+    },
+    {
+      "id": "dark",
+      "material": "dark",
+      "recolourable": true
+    },
+    {
+      "id": "glass",
+      "material": "glass",
+      "recolourable": true
+    },
+    {
+      "id": "metal",
+      "material": "metal",
+      "recolourable": true
+    }
+  ],
+  "geometryHash": "cc89245816a09dc6aaf47e1f8ceb7cf433b7326a8830512a1c0419427bfe36e3",
+  "normalizedMirrorGeometryHash": "457f923bbf3b7aef2fa12b6ceaa4bbecbaaf1b7058f71d9a9a3af2355eb7ddd2"
+}

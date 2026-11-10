@@ -1,0 +1,235 @@
+{
+  "designId": "ois.design.wing-drying-rack",
+  "familyId": "ois.family.wing-drying-rack",
+  "id": "ois.design.wing-drying-rack",
+  "name": "Wing drying rack",
+  "roomTags": [
+    "laundry-utility"
+  ],
+  "theme": "calm-oak",
+  "builder": "special",
+  "parameters": {
+    "form": "drying-wings",
+    "w": 1.0,
+    "d": 0.56,
+    "h": 0.94
+  },
+  "distinction": "Main horizontal wires plus two raised folding wings.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted",
+    "sourceSnapshot": "sources/pipeline-bf07453f548fd92d.py",
+    "sourceSha256": "bf07453f548fd92da637ecce41dc8b35010d5f15c955c971c9e3be2fb762ea2d",
+    "sourceModelSha256": "edf50345a3a4ae5e93d76e6593a5e37c46884f02e2760bd00bc47608110a28ed",
+    "supportSources": {
+      "signature_designs.py": {
+        "snapshot": "sources/signature_designs-6d248dd7aaa49ed4.py",
+        "sha256": "6d248dd7aaa49ed40f05c473c5d46b6fe8c97972ebf6ce139553f9641fc82b3c"
+      },
+      "material_finish.py": {
+        "snapshot": "sources/material_finish-281279dfd17b0c92.py",
+        "sha256": "281279dfd17b0c929f9038bb8066b86216427feaaefbd503abb995d06dc35730"
+      },
+      "catalogue_inventory.py": {
+        "snapshot": "sources/catalogue_inventory-db8b68fc872dbc12.py",
+        "sha256": "db8b68fc872dbc12d87e9ce013777e00d6b32cc0392e8cc09f31f8fef27b9365"
+      },
+      "finalize_glb.py": {
+        "snapshot": "sources/finalize_glb-4d1dec42be5cbf3d.py",
+        "sha256": "4d1dec42be5cbf3d6540facfa883948acd849c080f7117b8d7025749c08e2d1b"
+      },
+      "build_catalogue_v2.py": {
+        "snapshot": "sources/build_catalogue_v2-9c22533830c3704c.py",
+        "sha256": "9c22533830c3704c1ce578b58b4350ebbbf5b8d32590a07db027f671d4975577"
+      },
+      "validate_library.py": {
+        "snapshot": "sources/validate_library-48e60483e2c3d05b.py",
+        "sha256": "48e60483e2c3d05bec2c7e2669523eb77571a4ba120cb5238bbec92b8a585e0c"
+      },
+      "support_checks.py": {
+        "snapshot": "sources/support_checks-f7ed4d0400abd5f2.py",
+        "sha256": "f7ed4d0400abd5f23f27c86a9013cfefaca71234a9da953dfe97daeabb8af640"
+      }
+    },
+    "parametersFile": "sources/v0.7.0/wing-drying-rack.parameters.json"
+  },
+  "constructionKey": "special|drying-wings|{\"cols\": 1, \"front\": \"cane\", \"panels\": 3}",
+  "sha256": "c74d98abb3f928b99646dc61bc58e3c10846a4d81bf78de79b972ce8bd00acbb",
+  "bytes": 120424,
+  "triangles": 2224,
+  "vertices": 3297,
+  "drawPrimitives": 1,
+  "bounds": {
+    "min": [
+      -0.8120000708911732,
+      -1.810002836499791e-08,
+      -0.29200002267284547
+    ],
+    "max": [
+      0.8119999700962794,
+      1.1641956975756698,
+      0.2920000410455075
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 1.6240000409874527,
+    "depth": 0.5840000637183529,
+    "height": 1.1641957156756981
+  },
+  "footprint": [
+    [
+      -0.8120000708911732,
+      -0.29200002267284547
+    ],
+    [
+      0.8119999700962794,
+      -0.29200002267284547
+    ],
+    [
+      0.8119999700962794,
+      0.2920000410455075
+    ],
+    [
+      -0.8120000708911732,
+      0.2920000410455075
+    ]
+  ],
+  "variantSlots": [
+    "metal"
+  ],
+  "requiredExtensions": [],
+  "textures": {
+    "count": 0,
+    "bytes": 0,
+    "estimatedRgbaBytesWithMipmaps": 0,
+    "images": []
+  },
+  "version": "0.7.0",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.wing-drying-rack",
+  "file": "assets/v0.7.0/wing-drying-rack.glb",
+  "sourceModel": "sources/v0.7.0/wing-drying-rack.blend",
+  "thumbnail": "previews/v0.7.0/wing-drying-rack.png",
+  "backThumbnail": "previews/v0.7.0/wing-drying-rack-back.png",
+  "category": "specialty",
+  "subtype": "drying-wings",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.7.0/wing-drying-rack.png",
+      "previews/v0.7.0/wing-drying-rack-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.11999999731779099,
+      0.14000000059604645,
+      0.12999999523162842
+    ]
+  ],
+  "colourTags": [
+    "dark grey"
+  ],
+  "materials": [
+    "metal"
+  ],
+  "searchAliases": [
+    "laundry utility",
+    "drying wings"
+  ],
+  "materialSlots": [
+    {
+      "id": "metal",
+      "material": "metal",
+      "recolourable": true
+    }
+  ],
+  "finalization": {
+    "unusedTangentAttributesRemoved": 1,
+    "unusedAccessorsRemoved": 1,
+    "unusedBufferViewsRemoved": 1,
+    "bytesRemoved": 52896,
+    "normalMappedTangents": "retained, never replaced with arbitrary fallback vectors"
+  },
+  "supportChecks": {
+    "method": "source-part upper-end ray to non-leg geometry, 15mm join tolerance",
+    "status": "needs-visual-review",
+    "parts": [
+      {
+        "part": "cross leg",
+        "gapMetresAlongSupport": null,
+        "status": "needs-visual-review"
+      },
+      {
+        "part": "cross leg.001",
+        "gapMetresAlongSupport": null,
+        "status": "needs-visual-review"
+      },
+      {
+        "part": "cross leg.002",
+        "gapMetresAlongSupport": null,
+        "status": "needs-visual-review"
+      },
+      {
+        "part": "cross leg.003",
+        "gapMetresAlongSupport": null,
+        "status": "needs-visual-review"
+      },
+      {
+        "part": "leg support beam",
+        "gapMetresAlongSupport": 0.09378176033496857,
+        "status": "needs-visual-review"
+      },
+      {
+        "part": "leg support beam.001",
+        "gapMetresAlongSupport": 0.09378167092800141,
+        "status": "needs-visual-review"
+      }
+    ],
+    "limitation": "screening only; hidden joints, whole-model connectivity, load paths and safety remain visual/product-review concerns"
+  },
+  "materialFinish": {
+    "source": "materials/v1/manifest.json",
+    "repeatMetres": {
+      "wood": [
+        0.16,
+        0.75
+      ],
+      "fabric": [
+        0.14,
+        0.14
+      ],
+      "linen": [
+        0.12,
+        0.12
+      ]
+    },
+    "maps": "original base colour / roughness / tangent normal, embedded in GLB"
+  },
+  "geometryHash": "430053c28f90877cc256d43a8a31259ea3f2887349d7b5d8cac1a7d093939e08",
+  "normalizedMirrorGeometryHash": "1b92fd0e66768e6e7a3c35aeab69c30f075c94f03de5f8b57251efdb45982c60"
+}

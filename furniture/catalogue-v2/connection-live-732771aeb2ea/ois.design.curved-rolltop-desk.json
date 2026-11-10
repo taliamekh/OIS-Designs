@@ -1,0 +1,561 @@
+{
+  "id": "ois.design.curved-rolltop-desk",
+  "sha256": "unexported-source-732771aeb2eadd33599208170e38ff4e50d68878cbfb6795c9473e6f8553f36b",
+  "sourceModel": null,
+  "sourceSha256": "732771aeb2eadd33599208170e38ff4e50d68878cbfb6795c9473e6f8553f36b",
+  "partCount": 40,
+  "componentCount": 1,
+  "components": [
+    {
+      "parts": [
+        "top",
+        "leg",
+        "leg.001",
+        "leg.002",
+        "leg.003",
+        "suspended drawer",
+        "pull",
+        "pull mounting plate",
+        "pull mounting standoff",
+        "pull mounting standoff.001",
+        "suspended drawer.001",
+        "pull.001",
+        "pull mounting plate.001",
+        "pull mounting standoff.002",
+        "pull mounting standoff.003",
+        "curved tambour track",
+        "curved tambour track.001",
+        "hutch back",
+        "rolling tambour slat",
+        "rolling tambour slat.001",
+        "rolling tambour slat.002",
+        "rolling tambour slat.003",
+        "rolling tambour slat.004",
+        "rolling tambour slat.005",
+        "rolling tambour slat.006",
+        "rolling tambour slat.007",
+        "rolling tambour slat.008",
+        "rolling tambour slat.009",
+        "rolling tambour slat.010",
+        "rolling tambour slat.011",
+        "rolling tambour slat.012",
+        "rolling tambour slat.013",
+        "rolling tambour slat.014",
+        "pigeonhole partition",
+        "pigeonhole partition.001",
+        "pigeonhole shelf",
+        "tambour front stile",
+        "tambour rear anchor",
+        "tambour front stile.001",
+        "tambour rear anchor.001"
+      ],
+      "minimum": [
+        -0.625,
+        -0.32499998807907104,
+        0.011127863079309464
+      ],
+      "maximum": [
+        0.625,
+        0.32499998807907104,
+        1.190000057220459
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "leg",
+      "b": "top",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "leg.001",
+      "b": "top",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "leg.002",
+      "b": "top",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "leg.003",
+      "b": "top",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "suspended drawer",
+      "b": "leg",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "suspended drawer",
+      "b": "leg.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pull",
+      "b": "suspended drawer",
+      "method": "surface distance",
+      "distance": 0.0037500113248825073
+    },
+    {
+      "a": "pull mounting plate",
+      "b": "suspended drawer",
+      "method": "point containment",
+      "distance": 0
+    },
+    {
+      "a": "pull mounting standoff",
+      "b": "suspended drawer",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pull mounting standoff",
+      "b": "pull",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pull mounting standoff",
+      "b": "pull mounting plate",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pull mounting standoff.001",
+      "b": "suspended drawer",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pull mounting standoff.001",
+      "b": "pull",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pull mounting standoff.001",
+      "b": "pull mounting plate",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "suspended drawer.001",
+      "b": "leg.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "suspended drawer.001",
+      "b": "leg.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pull.001",
+      "b": "suspended drawer.001",
+      "method": "surface distance",
+      "distance": 0.0037500113248825073
+    },
+    {
+      "a": "pull mounting plate.001",
+      "b": "suspended drawer.001",
+      "method": "point containment",
+      "distance": 0
+    },
+    {
+      "a": "pull mounting standoff.002",
+      "b": "suspended drawer.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pull mounting standoff.002",
+      "b": "pull.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pull mounting standoff.002",
+      "b": "pull mounting plate.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pull mounting standoff.003",
+      "b": "suspended drawer.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pull mounting standoff.003",
+      "b": "pull.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pull mounting standoff.003",
+      "b": "pull mounting plate.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "hutch back",
+      "b": "top",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "rolling tambour slat",
+      "b": "curved tambour track",
+      "method": "surface distance",
+      "distance": 0.0016646994045004249
+    },
+    {
+      "a": "rolling tambour slat",
+      "b": "curved tambour track.001",
+      "method": "surface distance",
+      "distance": 0.0016646994045004249
+    },
+    {
+      "a": "rolling tambour slat.001",
+      "b": "curved tambour track",
+      "method": "surface distance",
+      "distance": 0.0016619913512840867
+    },
+    {
+      "a": "rolling tambour slat.001",
+      "b": "curved tambour track.001",
+      "method": "surface distance",
+      "distance": 0.0016619873931631446
+    },
+    {
+      "a": "rolling tambour slat.001",
+      "b": "rolling tambour slat",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "rolling tambour slat.002",
+      "b": "curved tambour track",
+      "method": "surface distance",
+      "distance": 0.00165941275190562
+    },
+    {
+      "a": "rolling tambour slat.002",
+      "b": "curved tambour track.001",
+      "method": "surface distance",
+      "distance": 0.00165941275190562
+    },
+    {
+      "a": "rolling tambour slat.002",
+      "b": "rolling tambour slat.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "rolling tambour slat.003",
+      "b": "curved tambour track",
+      "method": "surface distance",
+      "distance": 0.0016569598810747266
+    },
+    {
+      "a": "rolling tambour slat.003",
+      "b": "curved tambour track.001",
+      "method": "surface distance",
+      "distance": 0.0016570258885622025
+    },
+    {
+      "a": "rolling tambour slat.003",
+      "b": "rolling tambour slat.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "rolling tambour slat.004",
+      "b": "curved tambour track",
+      "method": "surface distance",
+      "distance": 0.0016547065461054444
+    },
+    {
+      "a": "rolling tambour slat.004",
+      "b": "curved tambour track.001",
+      "method": "surface distance",
+      "distance": 0.0016547065461054444
+    },
+    {
+      "a": "rolling tambour slat.004",
+      "b": "rolling tambour slat.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "rolling tambour slat.005",
+      "b": "curved tambour track",
+      "method": "surface distance",
+      "distance": 0.0016525761457160115
+    },
+    {
+      "a": "rolling tambour slat.005",
+      "b": "curved tambour track.001",
+      "method": "surface distance",
+      "distance": 0.0016525761457160115
+    },
+    {
+      "a": "rolling tambour slat.005",
+      "b": "rolling tambour slat.004",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "rolling tambour slat.006",
+      "b": "curved tambour track",
+      "method": "surface distance",
+      "distance": 0.001650583348236978
+    },
+    {
+      "a": "rolling tambour slat.006",
+      "b": "curved tambour track.001",
+      "method": "surface distance",
+      "distance": 0.0016505810199305415
+    },
+    {
+      "a": "rolling tambour slat.006",
+      "b": "rolling tambour slat.005",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "rolling tambour slat.007",
+      "b": "curved tambour track",
+      "method": "surface distance",
+      "distance": 0.0016486917156726122
+    },
+    {
+      "a": "rolling tambour slat.007",
+      "b": "curved tambour track.001",
+      "method": "surface distance",
+      "distance": 0.0016486917156726122
+    },
+    {
+      "a": "rolling tambour slat.007",
+      "b": "rolling tambour slat.006",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "rolling tambour slat.008",
+      "b": "curved tambour track",
+      "method": "surface distance",
+      "distance": 0.001647039782255888
+    },
+    {
+      "a": "rolling tambour slat.008",
+      "b": "curved tambour track.001",
+      "method": "surface distance",
+      "distance": 0.0016470056725665927
+    },
+    {
+      "a": "rolling tambour slat.008",
+      "b": "rolling tambour slat.007",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "rolling tambour slat.009",
+      "b": "curved tambour track",
+      "method": "surface distance",
+      "distance": 0.0016454270808026195
+    },
+    {
+      "a": "rolling tambour slat.009",
+      "b": "curved tambour track.001",
+      "method": "surface distance",
+      "distance": 0.0016454268479719758
+    },
+    {
+      "a": "rolling tambour slat.009",
+      "b": "rolling tambour slat.008",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "rolling tambour slat.010",
+      "b": "curved tambour track",
+      "method": "surface distance",
+      "distance": 0.0016439909813925624
+    },
+    {
+      "a": "rolling tambour slat.010",
+      "b": "curved tambour track.001",
+      "method": "surface distance",
+      "distance": 0.0016439916798844934
+    },
+    {
+      "a": "rolling tambour slat.010",
+      "b": "rolling tambour slat.009",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "rolling tambour slat.011",
+      "b": "curved tambour track",
+      "method": "surface distance",
+      "distance": 0.0016426945803686976
+    },
+    {
+      "a": "rolling tambour slat.011",
+      "b": "curved tambour track.001",
+      "method": "surface distance",
+      "distance": 0.0016426945803686976
+    },
+    {
+      "a": "rolling tambour slat.011",
+      "b": "rolling tambour slat.010",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "rolling tambour slat.012",
+      "b": "curved tambour track",
+      "method": "surface distance",
+      "distance": 0.0016414886340498924
+    },
+    {
+      "a": "rolling tambour slat.012",
+      "b": "curved tambour track.001",
+      "method": "surface distance",
+      "distance": 0.0016414877027273178
+    },
+    {
+      "a": "rolling tambour slat.012",
+      "b": "rolling tambour slat.011",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "rolling tambour slat.013",
+      "b": "curved tambour track",
+      "method": "surface distance",
+      "distance": 0.001640578848309815
+    },
+    {
+      "a": "rolling tambour slat.013",
+      "b": "curved tambour track.001",
+      "method": "surface distance",
+      "distance": 0.001640578848309815
+    },
+    {
+      "a": "rolling tambour slat.013",
+      "b": "rolling tambour slat.012",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "rolling tambour slat.014",
+      "b": "curved tambour track",
+      "method": "surface distance",
+      "distance": 0.0016396529972553253
+    },
+    {
+      "a": "rolling tambour slat.014",
+      "b": "curved tambour track.001",
+      "method": "surface distance",
+      "distance": 0.0016396536957472563
+    },
+    {
+      "a": "rolling tambour slat.014",
+      "b": "rolling tambour slat.013",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pigeonhole partition",
+      "b": "hutch back",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pigeonhole partition.001",
+      "b": "hutch back",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pigeonhole shelf",
+      "b": "hutch back",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pigeonhole shelf",
+      "b": "pigeonhole partition",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pigeonhole shelf",
+      "b": "pigeonhole partition.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "tambour front stile",
+      "b": "top",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "tambour front stile",
+      "b": "curved tambour track",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "tambour rear anchor",
+      "b": "curved tambour track",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "tambour rear anchor",
+      "b": "hutch back",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "tambour front stile.001",
+      "b": "top",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "tambour front stile.001",
+      "b": "curved tambour track.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "tambour rear anchor.001",
+      "b": "curved tambour track.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "tambour rear anchor.001",
+      "b": "hutch back",
+      "method": "triangle intersection",
+      "distance": 0
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; live-source reports are NOT exported-asset evidence; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T03:28:56Z"
+}

@@ -1,0 +1,162 @@
+{
+  "designId": "ois.design.cantilever-lounge",
+  "familyId": "ois.family.cantilever-lounge",
+  "id": "ois.design.cantilever-lounge",
+  "name": "Cantilever lounge chair",
+  "roomTags": [
+    "living"
+  ],
+  "theme": "city-loft",
+  "builder": "seating",
+  "parameters": {
+    "form": "cantilever",
+    "w": 0.7,
+    "d": 0.78
+  },
+  "distinction": "Continuous metal side rails eliminate rear legs.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted",
+    "sourceSnapshot": "sources/pipeline-b3621415215e45c7.py",
+    "sourceSha256": "b3621415215e45c7b5194102a3db7926d719026fb1f967ab518c02160232143f",
+    "parametersFile": "sources/v0.2.1/cantilever-lounge.parameters.json"
+  },
+  "constructionKey": "seating|cantilever|{\"base\": \"taper\"}",
+  "sha256": "d63048e60ee680e963474a28d194e52fa64695694571271d3cc1e1f6dd38e3da",
+  "bytes": 34040,
+  "triangles": 684,
+  "vertices": 844,
+  "drawPrimitives": 3,
+  "bounds": {
+    "min": [
+      -0.2994999885559082,
+      0.0,
+      -0.3584999982267618
+    ],
+    "max": [
+      0.2994999885559082,
+      0.8771454989910126,
+      0.3595182057470083
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 0.5989999771118164,
+    "depth": 0.7180182039737701,
+    "height": 0.8771454989910126
+  },
+  "footprint": [
+    [
+      -0.2994999885559082,
+      -0.3584999982267618
+    ],
+    [
+      0.2994999885559082,
+      -0.3584999982267618
+    ],
+    [
+      0.2994999885559082,
+      0.3595182057470083
+    ],
+    [
+      -0.2994999885559082,
+      0.3595182057470083
+    ]
+  ],
+  "variantSlots": [
+    "fabric",
+    "linen",
+    "metal"
+  ],
+  "requiredExtensions": [],
+  "version": "0.2.1",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.cantilever-lounge",
+  "file": "assets/v0.2.1/cantilever-lounge.glb",
+  "sourceModel": "sources/v0.2.1/cantilever-lounge.blend",
+  "thumbnail": "previews/v0.2.1/cantilever-lounge.png",
+  "backThumbnail": "previews/v0.2.1/cantilever-lounge-back.png",
+  "category": "seating",
+  "subtype": "cantilever",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "textures": {
+    "count": 0,
+    "bytes": 0
+  },
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.2.1/cantilever-lounge.png",
+      "previews/v0.2.1/cantilever-lounge-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.23,
+      0.15,
+      0.09
+    ],
+    [
+      0.12,
+      0.14,
+      0.16
+    ],
+    [
+      0.045,
+      0.05,
+      0.055
+    ]
+  ],
+  "colourTags": [
+    "charcoal",
+    "black",
+    "weathered wood"
+  ],
+  "materials": [
+    "metal",
+    "textile"
+  ],
+  "searchAliases": [
+    "living",
+    "cantilever"
+  ],
+  "materialSlots": [
+    {
+      "id": "fabric",
+      "material": "fabric",
+      "recolourable": true
+    },
+    {
+      "id": "linen",
+      "material": "linen",
+      "recolourable": true
+    },
+    {
+      "id": "metal",
+      "material": "metal",
+      "recolourable": true
+    }
+  ]
+}

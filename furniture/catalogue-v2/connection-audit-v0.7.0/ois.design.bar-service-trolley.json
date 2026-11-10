@@ -1,0 +1,92 @@
+{
+  "id": "ois.design.bar-service-trolley",
+  "sha256": "202c270eac3c5c70db038f58b951277c144e0fc7b8a4ee3e66de14533d2f8c63",
+  "sourceModel": "sources/v0.7.0/bar-service-trolley.blend",
+  "sourceSha256": "ec5fecf80714d5a45a3393528c992fe7a40f1dd6292e6e47a32ae8068b4f6276",
+  "partCount": 9,
+  "componentCount": 1,
+  "components": [
+    {
+      "parts": [
+        "top",
+        "rolling side frame",
+        "rolling side frame.001",
+        "lower tray",
+        "caster",
+        "caster.001",
+        "caster.002",
+        "caster.003",
+        "push handle"
+      ],
+      "minimum": [
+        -0.4000000059604645,
+        -0.20999999344348907,
+        0.0
+      ],
+      "maximum": [
+        0.4000000059604645,
+        0.20999999344348907,
+        0.9420343041419983
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "rolling side frame",
+      "b": "top",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "rolling side frame.001",
+      "b": "top",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "lower tray",
+      "b": "rolling side frame",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "lower tray",
+      "b": "rolling side frame.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "caster",
+      "b": "rolling side frame",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "caster.001",
+      "b": "rolling side frame",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "caster.002",
+      "b": "rolling side frame.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "caster.003",
+      "b": "rolling side frame.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "push handle",
+      "b": "top",
+      "method": "triangle intersection",
+      "distance": 0
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; live-source reports are NOT exported-asset evidence; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T04:00:29Z"
+}

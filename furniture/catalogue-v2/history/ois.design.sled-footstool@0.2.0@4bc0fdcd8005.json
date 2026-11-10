@@ -1,0 +1,155 @@
+{
+  "designId": "ois.design.sled-footstool",
+  "familyId": "ois.family.sled-footstool",
+  "id": "ois.design.sled-footstool",
+  "name": "Sled frame footstool",
+  "roomTags": [
+    "living"
+  ],
+  "theme": "city-loft",
+  "builder": "seating",
+  "parameters": {
+    "form": "footstool",
+    "w": 0.68,
+    "d": 0.46,
+    "h": 0.35
+  },
+  "distinction": "Thin cushion sits above two continuous metal sled frames.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted"
+  },
+  "sha256": "4bc0fdcd80058c563c0c1cff70a00dba53fa9d3db423f8c99e900e55f89a22fe",
+  "bytes": 14236,
+  "triangles": 308,
+  "vertices": 335,
+  "drawPrimitives": 2,
+  "bounds": {
+    "min": [
+      -0.3400000035762787,
+      0.0,
+      -0.23000000417232513
+    ],
+    "max": [
+      0.3400000035762787,
+      0.34371109306812286,
+      0.23000000417232513
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 0.6800000071525574,
+    "depth": 0.46000000834465027,
+    "height": 0.34371109306812286
+  },
+  "footprint": [
+    [
+      -0.3400000035762787,
+      -0.23000000417232513
+    ],
+    [
+      0.3400000035762787,
+      -0.23000000417232513
+    ],
+    [
+      0.3400000035762787,
+      0.23000000417232513
+    ],
+    [
+      -0.3400000035762787,
+      0.23000000417232513
+    ]
+  ],
+  "variantSlots": [
+    "fabric",
+    "wood"
+  ],
+  "requiredExtensions": [],
+  "version": "0.2.0",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.sled-footstool",
+  "file": "assets/v0.2.0/sled-footstool.glb",
+  "sourceModel": "sources/v0.2.0/sled-footstool.blend",
+  "thumbnail": "previews/v0.2.0/sled-footstool.png",
+  "backThumbnail": "previews/v0.2.0/sled-footstool-back.png",
+  "category": "seating",
+  "subtype": "footstool",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "textures": {
+    "count": 0,
+    "bytes": 0
+  },
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.2.0/sled-footstool.png",
+      "previews/v0.2.0/sled-footstool-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.23,
+      0.15,
+      0.09
+    ],
+    [
+      0.12,
+      0.14,
+      0.16
+    ],
+    [
+      0.045,
+      0.05,
+      0.055
+    ]
+  ],
+  "colourTags": [
+    "charcoal",
+    "black",
+    "weathered wood"
+  ],
+  "materials": [
+    "textile",
+    "wood"
+  ],
+  "searchAliases": [
+    "living",
+    "footstool"
+  ],
+  "materialSlots": [
+    {
+      "id": "fabric",
+      "material": "fabric",
+      "recolourable": true
+    },
+    {
+      "id": "wood",
+      "material": "wood",
+      "recolourable": true
+    }
+  ],
+  "geometryHash": "544f4f42ad78610a83bace0dde951294c1841ef17399a56f1278eb365bbb4258",
+  "normalizedMirrorGeometryHash": "17fad49babde98511fd19afcd04024a1b9fb69330f826e1f52ad5c2b0d20ca9f"
+}

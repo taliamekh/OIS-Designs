@@ -1,0 +1,98 @@
+{
+  "id": "ois.design.writing-drawer-desk",
+  "sha256": "3857a3c4d712c591d59a0c6f2b5fac304f630107d0c84bee4596610f626a542b",
+  "sourceModel": "sources/v0.5.0/writing-drawer-desk.blend",
+  "sourceSha256": "641f9d8e36a0ac0a897ba8bf2e3d26fb764e3e04877c988bb111ae0634b6be34",
+  "partCount": 9,
+  "componentCount": 1,
+  "components": [
+    {
+      "parts": [
+        "top",
+        "leg",
+        "leg.001",
+        "leg.002",
+        "leg.003",
+        "suspended drawer",
+        "pull",
+        "suspended drawer.001",
+        "pull.001"
+      ],
+      "minimum": [
+        -0.6499999761581421,
+        -0.32499998807907104,
+        5.122274160385132e-09
+      ],
+      "maximum": [
+        0.6499999761581421,
+        0.32499998807907104,
+        0.7389403581619263
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "leg",
+      "b": "top",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "leg.001",
+      "b": "top",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "leg.002",
+      "b": "top",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "leg.003",
+      "b": "top",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "suspended drawer",
+      "b": "leg",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "suspended drawer",
+      "b": "leg.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pull",
+      "b": "suspended drawer",
+      "method": "surface distance",
+      "distance": 0.0037500113248825073
+    },
+    {
+      "a": "suspended drawer.001",
+      "b": "leg.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "suspended drawer.001",
+      "b": "leg.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pull.001",
+      "b": "suspended drawer.001",
+      "method": "surface distance",
+      "distance": 0.0037500113248825073
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T03:07:35Z"
+}

@@ -1,0 +1,305 @@
+{
+  "timestamp": "2026-11-10T03:45:58.667Z",
+  "baseURL": "http://localhost:8081",
+  "evidence": "Actual partial shared-wall annotations on four sides, metric/imperial and two phone sizes. Isolated validated synthetic projects; no native claim.",
+  "storageOracle": {
+    "kind": "Production IndexedStorage.getItem, with its read-only legacy fallback",
+    "file": "mobile/src/storage/indexedStore.ts",
+    "sha256": "9943012679fd85da975028e6165febf8e149242bfef7b0a63f7ab6b98f76383d"
+  },
+  "runs": [
+    {
+      "side": "top",
+      "unit": "ft",
+      "viewport": {
+        "width": 320,
+        "height": 568
+      },
+      "checks": [
+        {
+          "id": "physical-corner-values-Living room",
+          "pass": true,
+          "observed": {
+            "expected": [
+              "11′ 4″",
+              "2′ 11″",
+              "5′ 5″"
+            ],
+            "actual": [
+              "5′ 5″",
+              "2′ 11″",
+              "11′ 4″"
+            ]
+          }
+        },
+        {
+          "id": "chain-reaches-real-corners-Living room",
+          "pass": true,
+          "observed": {
+            "expectedMetres": 6,
+            "actualMetres": 6
+          }
+        },
+        {
+          "id": "all-labels-fit-Living room",
+          "pass": true,
+          "observed": [
+            {
+              "text": "5′ 5″",
+              "x": 81.9156265258789,
+              "y": 206,
+              "width": 18.21875,
+              "height": 10,
+              "inside": true
+            },
+            {
+              "text": "2′ 11″",
+              "x": 119.62968444824219,
+              "y": 206,
+              "width": 23.384765625,
+              "height": 10,
+              "inside": true
+            },
+            {
+              "text": "11′ 4″",
+              "x": 190.2296905517578,
+              "y": 206,
+              "width": 22.384765625,
+              "height": 10,
+              "inside": true
+            },
+            {
+              "text": "Living room",
+              "x": 74.93499755859375,
+              "y": 224,
+              "width": 47.24560546875,
+              "height": 10,
+              "inside": true
+            }
+          ]
+        },
+        {
+          "id": "physical-corner-values-Kitchen",
+          "pass": true,
+          "observed": {
+            "expected": [
+              "2′ 11″",
+              "2′ 2″",
+              "8′ 0″"
+            ],
+            "actual": [
+              "2′ 2″",
+              "2′ 11″",
+              "8′ 0″"
+            ]
+          }
+        },
+        {
+          "id": "chain-reaches-real-corners-Kitchen",
+          "pass": true,
+          "observed": {
+            "expectedMetres": 4,
+            "actualMetres": 4
+          }
+        },
+        {
+          "id": "all-labels-fit-Kitchen",
+          "pass": true,
+          "observed": [
+            {
+              "text": "2′ 2″",
+              "x": 96.9156265258789,
+              "y": 166,
+              "width": 19.21875,
+              "height": 10,
+              "inside": true
+            },
+            {
+              "text": "2′ 11″",
+              "x": 119.62968444824219,
+              "y": 166,
+              "width": 23.384765625,
+              "height": 10,
+              "inside": true
+            },
+            {
+              "text": "8′ 0″",
+              "x": 176.3156280517578,
+              "y": 166,
+              "width": 18.21875,
+              "height": 10,
+              "inside": true
+            },
+            {
+              "text": "Kitchen",
+              "x": 185.7100067138672,
+              "y": 184,
+              "width": 29.98974609375,
+              "height": 10,
+              "inside": true
+            }
+          ]
+        },
+        {
+          "id": "annotations-do-not-overlap-ordinary-plan-labels",
+          "pass": false,
+          "observed": [
+            {
+              "annotation": "5′ 5″",
+              "ordinaryLabel": "Living room",
+              "intersectionPixels": 83.8063611984253,
+              "fractionOfSmaller": 0.4600006103515625,
+              "annotationBox": {
+                "x": 81.9156265258789,
+                "y": 206,
+                "width": 18.21875,
+                "height": 10
+              },
+              "ordinaryBox": {
+                "x": 69.4000015258789,
+                "y": 198.60000610351562,
+                "width": 56.74462890625,
+                "height": 12
+              }
+            }
+          ]
+        },
+        {
+          "id": "inspection-preserves-project",
+          "pass": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": [],
+      "actual": {
+        "scale": 32,
+        "rows": [
+          {
+            "name": "Living room",
+            "values": [
+              "5′ 5″",
+              "2′ 11″",
+              "11′ 4″"
+            ],
+            "chainLengthMetres": 6,
+            "boxes": [
+              {
+                "text": "5′ 5″",
+                "x": 81.9156265258789,
+                "y": 206,
+                "width": 18.21875,
+                "height": 10,
+                "inside": true
+              },
+              {
+                "text": "2′ 11″",
+                "x": 119.62968444824219,
+                "y": 206,
+                "width": 23.384765625,
+                "height": 10,
+                "inside": true
+              },
+              {
+                "text": "11′ 4″",
+                "x": 190.2296905517578,
+                "y": 206,
+                "width": 22.384765625,
+                "height": 10,
+                "inside": true
+              },
+              {
+                "text": "Living room",
+                "x": 74.93499755859375,
+                "y": 224,
+                "width": 47.24560546875,
+                "height": 10,
+                "inside": true
+              }
+            ]
+          },
+          {
+            "name": "Kitchen",
+            "values": [
+              "2′ 2″",
+              "2′ 11″",
+              "8′ 0″"
+            ],
+            "chainLengthMetres": 4,
+            "boxes": [
+              {
+                "text": "2′ 2″",
+                "x": 96.9156265258789,
+                "y": 166,
+                "width": 19.21875,
+                "height": 10,
+                "inside": true
+              },
+              {
+                "text": "2′ 11″",
+                "x": 119.62968444824219,
+                "y": 166,
+                "width": 23.384765625,
+                "height": 10,
+                "inside": true
+              },
+              {
+                "text": "8′ 0″",
+                "x": 176.3156280517578,
+                "y": 166,
+                "width": 18.21875,
+                "height": 10,
+                "inside": true
+              },
+              {
+                "text": "Kitchen",
+                "x": 185.7100067138672,
+                "y": 184,
+                "width": 29.98974609375,
+                "height": 10,
+                "inside": true
+              }
+            ]
+          }
+        ],
+        "overlaps": [
+          {
+            "annotation": "5′ 5″",
+            "ordinaryLabel": "Living room",
+            "intersectionPixels": 83.8063611984253,
+            "fractionOfSmaller": 0.4600006103515625,
+            "annotationBox": {
+              "x": 81.9156265258789,
+              "y": 206,
+              "width": 18.21875,
+              "height": 10
+            },
+            "ordinaryBox": {
+              "x": 69.4000015258789,
+              "y": 198.60000610351562,
+              "width": 56.74462890625,
+              "height": 12
+            }
+          }
+        ]
+      },
+      "expected": [
+        {
+          "roomId": "room-mwa5e0xf-ulqjkw4",
+          "name": "Living room",
+          "before": 1.65,
+          "after": 3.4499999999999997
+        },
+        {
+          "roomId": "room-mwa5e0xf-ecslg3o",
+          "name": "Kitchen",
+          "before": 2.45,
+          "after": 0.65
+        }
+      ],
+      "screenshot": "door-matrix-top-ft-320.png",
+      "completed": true
+    }
+  ],
+  "passed": 7,
+  "failed": 1
+}

@@ -1,0 +1,207 @@
+{
+  "id": "ois.design.equipment-safe",
+  "sha256": "unexported-source-732771aeb2eadd33599208170e38ff4e50d68878cbfb6795c9473e6f8553f36b",
+  "sourceModel": null,
+  "sourceSha256": "732771aeb2eadd33599208170e38ff4e50d68878cbfb6795c9473e6f8553f36b",
+  "partCount": 16,
+  "componentCount": 1,
+  "components": [
+    {
+      "parts": [
+        "recessed plinth",
+        "bottom",
+        "top",
+        "side",
+        "side.001",
+        "back",
+        "door",
+        "pull",
+        "pull mounting plate",
+        "pull mounting standoff",
+        "pull mounting standoff.001",
+        "door hinge mounting stile",
+        "door hinge pin",
+        "door hinge pin.001",
+        "interior shelf",
+        "interior shelf.001"
+      ],
+      "minimum": [
+        -0.32500001788139343,
+        -0.20000000298023224,
+        0.0
+      ],
+      "maximum": [
+        0.32500001788139343,
+        0.25600001215934753,
+        0.949999988079071
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "bottom",
+      "b": "recessed plinth",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "side",
+      "b": "bottom",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "side",
+      "b": "top",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "side.001",
+      "b": "bottom",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "side.001",
+      "b": "top",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "back",
+      "b": "bottom",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "back",
+      "b": "top",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "back",
+      "b": "side",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "back",
+      "b": "side.001",
+      "method": "surface distance",
+      "distance": 0.0
+    },
+    {
+      "a": "pull mounting plate",
+      "b": "door",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pull mounting standoff",
+      "b": "door",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pull mounting standoff",
+      "b": "pull",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pull mounting standoff",
+      "b": "pull mounting plate",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pull mounting standoff.001",
+      "b": "door",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pull mounting standoff.001",
+      "b": "pull",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pull mounting standoff.001",
+      "b": "pull mounting plate",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "door hinge mounting stile",
+      "b": "top",
+      "method": "surface distance",
+      "distance": 0.003999948501586914
+    },
+    {
+      "a": "door hinge mounting stile",
+      "b": "side",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "door hinge mounting stile",
+      "b": "door",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "door hinge pin",
+      "b": "door",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "door hinge pin",
+      "b": "door hinge mounting stile",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "door hinge pin.001",
+      "b": "door",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "door hinge pin.001",
+      "b": "door hinge mounting stile",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "interior shelf",
+      "b": "back",
+      "method": "surface distance",
+      "distance": 0.001999989151954651
+    },
+    {
+      "a": "interior shelf",
+      "b": "door hinge mounting stile",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "interior shelf.001",
+      "b": "back",
+      "method": "surface distance",
+      "distance": 0.001999989151954651
+    },
+    {
+      "a": "interior shelf.001",
+      "b": "door hinge mounting stile",
+      "method": "triangle intersection",
+      "distance": 0
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; live-source reports are NOT exported-asset evidence; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T03:28:50Z"
+}

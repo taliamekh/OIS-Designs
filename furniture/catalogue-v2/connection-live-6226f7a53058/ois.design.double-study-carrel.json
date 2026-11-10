@@ -1,0 +1,77 @@
+{
+  "id": "ois.design.double-study-carrel",
+  "sha256": "unexported-source-6226f7a5305865fd189dfcec35a3077205588e7999488a17cff703d94c6b1b9f",
+  "sourceModel": null,
+  "sourceSha256": "6226f7a5305865fd189dfcec35a3077205588e7999488a17cff703d94c6b1b9f",
+  "partCount": 6,
+  "componentCount": 1,
+  "components": [
+    {
+      "parts": [
+        "top",
+        "sled frame",
+        "sled frame.001",
+        "central privacy screen",
+        "end privacy screen",
+        "end privacy screen.001"
+      ],
+      "minimum": [
+        -0.824999988079071,
+        -0.550000011920929,
+        0.006925063207745552
+      ],
+      "maximum": [
+        0.824999988079071,
+        0.550000011920929,
+        1.25
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "sled frame",
+      "b": "top",
+      "method": "surface distance",
+      "distance": 5.960464477539063e-08
+    },
+    {
+      "a": "sled frame.001",
+      "b": "top",
+      "method": "surface distance",
+      "distance": 6.664001972467304e-08
+    },
+    {
+      "a": "central privacy screen",
+      "b": "top",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "end privacy screen",
+      "b": "top",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "end privacy screen",
+      "b": "central privacy screen",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "end privacy screen.001",
+      "b": "top",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "end privacy screen.001",
+      "b": "central privacy screen",
+      "method": "triangle intersection",
+      "distance": 0
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; live-source reports are NOT exported-asset evidence; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T03:36:32Z"
+}

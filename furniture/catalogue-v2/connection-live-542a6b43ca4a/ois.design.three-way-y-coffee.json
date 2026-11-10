@@ -1,0 +1,76 @@
+{
+  "id": "ois.design.three-way-y-coffee",
+  "sha256": "unexported-source-542a6b43ca4abc9d4f4ac88dc7bd803746dd198c350ababac32d73431ffd328b",
+  "sourceModel": null,
+  "sourceSha256": "542a6b43ca4abc9d4f4ac88dc7bd803746dd198c350ababac32d73431ffd328b",
+  "partCount": 5,
+  "componentCount": 1,
+  "components": [
+    {
+      "parts": [
+        "sculptural table top",
+        "Y leg",
+        "Y leg.001",
+        "Y leg.002",
+        "upper stem"
+      ],
+      "minimum": [
+        -0.4749999940395355,
+        -0.3400000035762787,
+        -0.035863641649484634
+      ],
+      "maximum": [
+        0.4749999940395355,
+        0.3400000035762787,
+        0.42000001668930054
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "Y leg.001",
+      "b": "Y leg",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "Y leg.002",
+      "b": "Y leg",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "Y leg.002",
+      "b": "Y leg.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "upper stem",
+      "b": "sculptural table top",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "upper stem",
+      "b": "Y leg",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "upper stem",
+      "b": "Y leg.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "upper stem",
+      "b": "Y leg.002",
+      "method": "triangle intersection",
+      "distance": 0
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; live-source reports are NOT exported-asset evidence; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T03:32:53Z"
+}

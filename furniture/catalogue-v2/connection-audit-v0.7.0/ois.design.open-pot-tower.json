@@ -1,0 +1,104 @@
+{
+  "id": "ois.design.open-pot-tower",
+  "sha256": "75066efd6d3efff460a36983ba19f627e5f7bf6cc506a8df16b89c28f4a84c5a",
+  "sourceModel": "sources/v0.7.0/open-pot-tower.blend",
+  "sourceSha256": "e7f4597d8f45eefa873606acc59100da1407e131a964743a86aa0efd57e96f16",
+  "partCount": 9,
+  "componentCount": 1,
+  "components": [
+    {
+      "parts": [
+        "upright",
+        "upright.001",
+        "rack shelf",
+        "rack shelf.001",
+        "rack shelf.002",
+        "rack shelf.003",
+        "pot hook",
+        "pot hook.001",
+        "pot hook.002"
+      ],
+      "minimum": [
+        -0.4000000059604645,
+        -0.22499999403953552,
+        -5.960464477539063e-08
+      ],
+      "maximum": [
+        0.4000000059604645,
+        0.22499999403953552,
+        1.7140001058578491
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "rack shelf",
+      "b": "upright",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "rack shelf",
+      "b": "upright.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "rack shelf.001",
+      "b": "upright",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "rack shelf.001",
+      "b": "upright.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "rack shelf.002",
+      "b": "upright",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "rack shelf.002",
+      "b": "upright.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "rack shelf.003",
+      "b": "upright",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "rack shelf.003",
+      "b": "upright.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pot hook",
+      "b": "rack shelf.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pot hook.001",
+      "b": "rack shelf.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pot hook.002",
+      "b": "rack shelf.003",
+      "method": "triangle intersection",
+      "distance": 0
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; live-source reports are NOT exported-asset evidence; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T04:00:31Z"
+}

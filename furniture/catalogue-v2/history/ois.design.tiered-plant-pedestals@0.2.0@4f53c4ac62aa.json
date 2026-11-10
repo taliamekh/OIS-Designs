@@ -1,0 +1,154 @@
+{
+  "designId": "ois.design.tiered-plant-pedestals",
+  "familyId": "ois.family.tiered-plant-pedestals",
+  "id": "ois.design.tiered-plant-pedestals",
+  "name": "Tiered plant pedestals",
+  "roomTags": [
+    "entry-hall"
+  ],
+  "theme": "soft-japandi",
+  "builder": "special",
+  "parameters": {
+    "form": "plant-tier",
+    "w": 0.82,
+    "d": 0.43,
+    "h": 0.98
+  },
+  "distinction": "Three independent circular trays rise from a common floor plate.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted"
+  },
+  "constructionKey": "special|plant-tier|{\"cols\": 1, \"front\": \"cane\", \"panels\": 3}",
+  "sha256": "4f53c4ac62aa682f7c462858b6ca13dc45688ff2d9ac61b0ee421c227177addd",
+  "bytes": 49800,
+  "triangles": 1124,
+  "vertices": 1271,
+  "drawPrimitives": 2,
+  "bounds": {
+    "min": [
+      -0.4099999964237213,
+      0.0,
+      -0.2150000035762787
+    ],
+    "max": [
+      0.4100000113248825,
+      0.9925000369548798,
+      0.2150000035762787
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 0.8200000077486038,
+    "depth": 0.4300000071525574,
+    "height": 0.9925000369548798
+  },
+  "footprint": [
+    [
+      -0.4099999964237213,
+      -0.2150000035762787
+    ],
+    [
+      0.4100000113248825,
+      -0.2150000035762787
+    ],
+    [
+      0.4100000113248825,
+      0.2150000035762787
+    ],
+    [
+      -0.4099999964237213,
+      0.2150000035762787
+    ]
+  ],
+  "variantSlots": [
+    "metal",
+    "wood"
+  ],
+  "requiredExtensions": [],
+  "version": "0.2.0",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.tiered-plant-pedestals",
+  "file": "assets/v0.2.0/tiered-plant-pedestals.glb",
+  "sourceModel": "sources/v0.2.0/tiered-plant-pedestals.blend",
+  "thumbnail": "previews/v0.2.0/tiered-plant-pedestals.png",
+  "backThumbnail": "previews/v0.2.0/tiered-plant-pedestals-back.png",
+  "category": "specialty",
+  "subtype": "plant-tier",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "textures": {
+    "count": 0,
+    "bytes": 0
+  },
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.2.0/tiered-plant-pedestals.png",
+      "previews/v0.2.0/tiered-plant-pedestals-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.34,
+      0.28,
+      0.19
+    ],
+    [
+      0.58,
+      0.54,
+      0.44
+    ],
+    [
+      0.15,
+      0.17,
+      0.15
+    ]
+  ],
+  "colourTags": [
+    "ash",
+    "flax",
+    "stone"
+  ],
+  "materials": [
+    "metal",
+    "wood"
+  ],
+  "searchAliases": [
+    "entry hall",
+    "plant tier"
+  ],
+  "materialSlots": [
+    {
+      "id": "metal",
+      "material": "metal",
+      "recolourable": true
+    },
+    {
+      "id": "wood",
+      "material": "wood",
+      "recolourable": true
+    }
+  ]
+}

@@ -1,0 +1,147 @@
+{
+  "designId": "ois.design.arched-panel-cupboard",
+  "familyId": "ois.family.arched-panel-cupboard",
+  "id": "ois.design.arched-panel-cupboard",
+  "name": "Arched panel cupboard",
+  "roomTags": [
+    "bedroom"
+  ],
+  "theme": "walnut-form",
+  "builder": "sculptural",
+  "parameters": {
+    "form": "arch-door",
+    "w": 1.0,
+    "d": 0.42,
+    "h": 1.85
+  },
+  "distinction": "Arched upper display plus two recessed lower cupboard doors.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted"
+  },
+  "constructionKey": "sculptural|arch-door|{}",
+  "sha256": "fc6a937086a9a11002f6ee056fdf6eafdfc590bea5d2ee058e31373f735e3d3c",
+  "bytes": 145528,
+  "triangles": 3076,
+  "vertices": 3930,
+  "drawPrimitives": 1,
+  "bounds": {
+    "min": [
+      -0.5,
+      0.0,
+      -0.24249999225139618
+    ],
+    "max": [
+      0.4999999701976776,
+      1.8499999642372131,
+      0.20999999344348907
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 0.9999999701976776,
+    "depth": 0.45249998569488525,
+    "height": 1.8499999642372131
+  },
+  "footprint": [
+    [
+      -0.5,
+      -0.24249999225139618
+    ],
+    [
+      0.4999999701976776,
+      -0.24249999225139618
+    ],
+    [
+      0.4999999701976776,
+      0.20999999344348907
+    ],
+    [
+      -0.5,
+      0.20999999344348907
+    ]
+  ],
+  "variantSlots": [
+    "wood"
+  ],
+  "requiredExtensions": [],
+  "version": "0.2.0",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.arched-panel-cupboard",
+  "file": "assets/v0.2.0/arched-panel-cupboard.glb",
+  "sourceModel": "sources/v0.2.0/arched-panel-cupboard.blend",
+  "thumbnail": "previews/v0.2.0/arched-panel-cupboard.png",
+  "backThumbnail": "previews/v0.2.0/arched-panel-cupboard-back.png",
+  "category": "sculptural-furniture",
+  "subtype": "arch-door",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "textures": {
+    "count": 0,
+    "bytes": 0
+  },
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.2.0/arched-panel-cupboard.png",
+      "previews/v0.2.0/arched-panel-cupboard-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.22,
+      0.09,
+      0.038
+    ],
+    [
+      0.39,
+      0.18,
+      0.07
+    ],
+    [
+      0.47,
+      0.3,
+      0.1
+    ]
+  ],
+  "colourTags": [
+    "walnut",
+    "tobacco",
+    "brass"
+  ],
+  "materials": [
+    "wood"
+  ],
+  "searchAliases": [
+    "bedroom",
+    "arch door"
+  ],
+  "materialSlots": [
+    {
+      "id": "wood",
+      "material": "wood",
+      "recolourable": true
+    }
+  ]
+}

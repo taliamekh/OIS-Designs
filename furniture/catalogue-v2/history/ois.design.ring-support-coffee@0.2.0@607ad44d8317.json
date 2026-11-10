@@ -1,0 +1,154 @@
+{
+  "designId": "ois.design.ring-support-coffee",
+  "familyId": "ois.family.ring-support-coffee",
+  "id": "ois.design.ring-support-coffee",
+  "name": "Ring support coffee table",
+  "roomTags": [
+    "living"
+  ],
+  "theme": "city-loft",
+  "builder": "sculptural",
+  "parameters": {
+    "form": "ring-base-table",
+    "w": 1.1,
+    "d": 0.6,
+    "h": 0.4
+  },
+  "distinction": "Two complete circular-plane steel rings support a thin top.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted"
+  },
+  "constructionKey": "sculptural|ring-base-table|{}",
+  "sha256": "607ad44d83179f1452c621b124b8bfee9ee727b1464a3f389c2128c060fb0a61",
+  "bytes": 37172,
+  "triangles": 1724,
+  "vertices": 962,
+  "drawPrimitives": 2,
+  "bounds": {
+    "min": [
+      -0.550000011920929,
+      0.0,
+      -0.30000001192092896
+    ],
+    "max": [
+      0.550000011920929,
+      0.4250000063329935,
+      0.30000001192092896
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 1.100000023841858,
+    "depth": 0.6000000238418579,
+    "height": 0.4250000063329935
+  },
+  "footprint": [
+    [
+      -0.550000011920929,
+      -0.30000001192092896
+    ],
+    [
+      0.550000011920929,
+      -0.30000001192092896
+    ],
+    [
+      0.550000011920929,
+      0.30000001192092896
+    ],
+    [
+      -0.550000011920929,
+      0.30000001192092896
+    ]
+  ],
+  "variantSlots": [
+    "metal",
+    "wood"
+  ],
+  "requiredExtensions": [],
+  "version": "0.2.0",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.ring-support-coffee",
+  "file": "assets/v0.2.0/ring-support-coffee.glb",
+  "sourceModel": "sources/v0.2.0/ring-support-coffee.blend",
+  "thumbnail": "previews/v0.2.0/ring-support-coffee.png",
+  "backThumbnail": "previews/v0.2.0/ring-support-coffee-back.png",
+  "category": "sculptural-furniture",
+  "subtype": "ring-base-table",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "textures": {
+    "count": 0,
+    "bytes": 0
+  },
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.2.0/ring-support-coffee.png",
+      "previews/v0.2.0/ring-support-coffee-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.23,
+      0.15,
+      0.09
+    ],
+    [
+      0.12,
+      0.14,
+      0.16
+    ],
+    [
+      0.045,
+      0.05,
+      0.055
+    ]
+  ],
+  "colourTags": [
+    "charcoal",
+    "black",
+    "weathered wood"
+  ],
+  "materials": [
+    "metal",
+    "wood"
+  ],
+  "searchAliases": [
+    "living",
+    "ring base table"
+  ],
+  "materialSlots": [
+    {
+      "id": "metal",
+      "material": "metal",
+      "recolourable": true
+    },
+    {
+      "id": "wood",
+      "material": "wood",
+      "recolourable": true
+    }
+  ]
+}

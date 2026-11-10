@@ -1,0 +1,210 @@
+{
+  "designId": "ois.design.hanging-valet-stand",
+  "familyId": "ois.family.hanging-valet-stand",
+  "id": "ois.design.hanging-valet-stand",
+  "name": "Dressing valet stand",
+  "roomTags": [
+    "bedroom"
+  ],
+  "theme": "calm-oak",
+  "builder": "special",
+  "parameters": {
+    "form": "valet",
+    "w": 0.52,
+    "d": 0.35,
+    "h": 1.2
+  },
+  "distinction": "Shoulder-shaped coat hanger, trouser bar and floor support.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted",
+    "sourceSnapshot": "sources/pipeline-55642edf77b9875f.py",
+    "sourceSha256": "55642edf77b9875ff9620f3041b9999cee7807ac9d8ce9f01f78fdfc4bbc513f",
+    "parametersFile": "sources/v0.3.2/hanging-valet-stand.parameters.json"
+  },
+  "constructionKey": "special|valet|{\"cols\": 1, \"front\": \"cane\", \"panels\": 3}",
+  "sha256": "1e840014dde983bec1309d45b9adf540aa74f7858edb9651ea8912c8a1ad106e",
+  "bytes": 199144,
+  "triangles": 284,
+  "vertices": 401,
+  "drawPrimitives": 2,
+  "bounds": {
+    "min": [
+      -0.24382425844669342,
+      0.0,
+      -0.17599999718368053
+    ],
+    "max": [
+      0.24382425844669342,
+      1.2215573079884052,
+      0.15700000524520874
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 0.48764851689338684,
+    "depth": 0.3330000024288893,
+    "height": 1.2215573079884052
+  },
+  "footprint": [
+    [
+      -0.24382425844669342,
+      -0.17599999718368053
+    ],
+    [
+      0.24382425844669342,
+      -0.17599999718368053
+    ],
+    [
+      0.24382425844669342,
+      0.15700000524520874
+    ],
+    [
+      -0.24382425844669342,
+      0.15700000524520874
+    ]
+  ],
+  "variantSlots": [
+    "metal",
+    "wood"
+  ],
+  "requiredExtensions": [],
+  "textures": {
+    "count": 3,
+    "bytes": 174784,
+    "estimatedRgbaBytesWithMipmaps": 1048576,
+    "images": [
+      {
+        "name": "wood-normal",
+        "bytes": 102088,
+        "width": 256,
+        "height": 256,
+        "sha256": "6b8efcb5004552d884a527017922bfb5260b8bda4dc77f1365fe1cb8a09f1d56"
+      },
+      {
+        "name": "wood-neutral-base",
+        "bytes": 39353,
+        "width": 256,
+        "height": 256,
+        "sha256": "ddcf839a2addae78944a2d7a0588f9c2055852fc4ccb4e2dae2095d28541de44"
+      },
+      {
+        "name": "wood-roughness",
+        "bytes": 33343,
+        "width": 256,
+        "height": 256,
+        "sha256": "afc2180e58360e76fb178b52f225f7ba9045a7d0d266f10886763b0590335a1a"
+      }
+    ]
+  },
+  "version": "0.3.2",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.hanging-valet-stand",
+  "file": "assets/v0.3.2/hanging-valet-stand.glb",
+  "sourceModel": "sources/v0.3.2/hanging-valet-stand.blend",
+  "thumbnail": "previews/v0.3.2/hanging-valet-stand.png",
+  "backThumbnail": "previews/v0.3.2/hanging-valet-stand-back.png",
+  "category": "specialty",
+  "subtype": "valet",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.3.2/hanging-valet-stand.png",
+      "previews/v0.3.2/hanging-valet-stand-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.11999999731779099,
+      0.14000000059604645,
+      0.12999999523162842
+    ],
+    [
+      0.5799999833106995,
+      0.38999998569488525,
+      0.20000000298023224
+    ]
+  ],
+  "colourTags": [
+    "dark grey",
+    "pale oak"
+  ],
+  "materials": [
+    "metal",
+    "wood"
+  ],
+  "searchAliases": [
+    "bedroom",
+    "valet"
+  ],
+  "materialSlots": [
+    {
+      "id": "metal",
+      "material": "metal",
+      "recolourable": true
+    },
+    {
+      "id": "wood",
+      "material": "wood",
+      "recolourable": true
+    }
+  ],
+  "supportChecks": {
+    "method": "source-part upper-end ray to non-leg geometry, 15mm join tolerance",
+    "status": "needs-visual-review",
+    "parts": [
+      {
+        "part": "sled frame",
+        "gapMetresAlongSupport": null,
+        "status": "needs-visual-review"
+      },
+      {
+        "part": "sled frame.001",
+        "gapMetresAlongSupport": null,
+        "status": "needs-visual-review"
+      }
+    ],
+    "limitation": "screening only; hidden joints, whole-model connectivity, load paths and safety remain visual/product-review concerns"
+  },
+  "materialFinish": {
+    "source": "materials/v1/manifest.json",
+    "repeatMetres": {
+      "wood": [
+        0.16,
+        0.75
+      ],
+      "fabric": [
+        0.14,
+        0.14
+      ],
+      "linen": [
+        0.12,
+        0.12
+      ]
+    },
+    "maps": "original base colour / roughness / tangent normal, embedded in GLB"
+  }
+}

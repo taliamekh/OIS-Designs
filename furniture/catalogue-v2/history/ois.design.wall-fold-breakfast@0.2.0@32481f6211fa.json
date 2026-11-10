@@ -1,0 +1,154 @@
+{
+  "designId": "ois.design.wall-fold-breakfast",
+  "familyId": "ois.family.wall-fold-breakfast",
+  "id": "ois.design.wall-fold-breakfast",
+  "name": "Wall-fold breakfast table",
+  "roomTags": [
+    "kitchen"
+  ],
+  "theme": "soft-japandi",
+  "builder": "functional",
+  "parameters": {
+    "form": "fold-wall",
+    "w": 0.9,
+    "d": 0.55,
+    "h": 1.15
+  },
+  "distinction": "Horizontal folding leaf and wall plate connect through diagonal metal stays.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted"
+  },
+  "constructionKey": "functional|fold-wall|{}",
+  "sha256": "32481f6211fa3f5acd2e5114165215d702633cd3014a9502c60bef9a8ef0229e",
+  "bytes": 28264,
+  "triangles": 496,
+  "vertices": 713,
+  "drawPrimitives": 2,
+  "bounds": {
+    "min": [
+      -0.44999998807907104,
+      -1.1259409016250999e-08,
+      -0.27500003576278687
+    ],
+    "max": [
+      0.44999998807907104,
+      0.7611194252967834,
+      0.2750000059604645
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 0.8999999761581421,
+    "depth": 0.5500000417232513,
+    "height": 0.7611194365561924
+  },
+  "footprint": [
+    [
+      -0.44999998807907104,
+      -0.27500003576278687
+    ],
+    [
+      0.44999998807907104,
+      -0.27500003576278687
+    ],
+    [
+      0.44999998807907104,
+      0.2750000059604645
+    ],
+    [
+      -0.44999998807907104,
+      0.2750000059604645
+    ]
+  ],
+  "variantSlots": [
+    "metal",
+    "wood"
+  ],
+  "requiredExtensions": [],
+  "version": "0.2.0",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.wall-fold-breakfast",
+  "file": "assets/v0.2.0/wall-fold-breakfast.glb",
+  "sourceModel": "sources/v0.2.0/wall-fold-breakfast.blend",
+  "thumbnail": "previews/v0.2.0/wall-fold-breakfast.png",
+  "backThumbnail": "previews/v0.2.0/wall-fold-breakfast-back.png",
+  "category": "functional-furniture",
+  "subtype": "fold-wall",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "textures": {
+    "count": 0,
+    "bytes": 0
+  },
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.2.0/wall-fold-breakfast.png",
+      "previews/v0.2.0/wall-fold-breakfast-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.34,
+      0.28,
+      0.19
+    ],
+    [
+      0.58,
+      0.54,
+      0.44
+    ],
+    [
+      0.15,
+      0.17,
+      0.15
+    ]
+  ],
+  "colourTags": [
+    "ash",
+    "flax",
+    "stone"
+  ],
+  "materials": [
+    "metal",
+    "wood"
+  ],
+  "searchAliases": [
+    "kitchen",
+    "fold wall"
+  ],
+  "materialSlots": [
+    {
+      "id": "metal",
+      "material": "metal",
+      "recolourable": true
+    },
+    {
+      "id": "wood",
+      "material": "wood",
+      "recolourable": true
+    }
+  ]
+}

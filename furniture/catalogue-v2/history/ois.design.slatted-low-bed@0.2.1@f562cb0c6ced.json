@@ -1,0 +1,169 @@
+{
+  "designId": "ois.design.slatted-low-bed",
+  "familyId": "ois.family.slatted-low-bed",
+  "id": "ois.design.slatted-low-bed",
+  "name": "Slatted low bed",
+  "roomTags": [
+    "bedroom"
+  ],
+  "theme": "soft-japandi",
+  "builder": "bed",
+  "parameters": {
+    "form": "slat-head",
+    "size": "queen",
+    "platform": 0.3
+  },
+  "distinction": "Low platform with open flat headboard slats.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted",
+    "sourceSnapshot": "sources/pipeline-e797cb5c88af56f5.py",
+    "sourceSha256": "e797cb5c88af56f5b4455d819a512ab9be55f40e1fa2d0cb542aca7bb84b906f",
+    "parametersFile": "sources/v0.2.1/slatted-low-bed.parameters.json"
+  },
+  "constructionKey": "bed|slat-head|{}",
+  "bedSize": "queen",
+  "mattressMetres": [
+    1.524,
+    2.032,
+    0.22
+  ],
+  "safetyReviewRequired": false,
+  "sha256": "f562cb0c6ced925914b0db40d097a23986ce340ef7af1eb47859b43644cb1b35",
+  "bytes": 201212,
+  "triangles": 3992,
+  "vertices": 5425,
+  "drawPrimitives": 3,
+  "bounds": {
+    "min": [
+      -0.8127751409899995,
+      -3.78418793522961e-09,
+      -1.087257353001903
+    ],
+    "max": [
+      0.8127750669779525,
+      1.120000145146492,
+      1.106000100293964
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 1.625550207967952,
+    "depth": 2.1932574532958666,
+    "height": 1.12000014893068
+  },
+  "footprint": [
+    [
+      -0.8127751409899995,
+      -1.087257353001903
+    ],
+    [
+      0.8127750669779525,
+      -1.087257353001903
+    ],
+    [
+      0.8127750669779525,
+      1.106000100293964
+    ],
+    [
+      -0.8127751409899995,
+      1.106000100293964
+    ]
+  ],
+  "variantSlots": [
+    "fabric",
+    "linen",
+    "wood"
+  ],
+  "requiredExtensions": [],
+  "version": "0.2.1",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.slatted-low-bed",
+  "file": "assets/v0.2.1/slatted-low-bed.glb",
+  "sourceModel": "sources/v0.2.1/slatted-low-bed.blend",
+  "thumbnail": "previews/v0.2.1/slatted-low-bed.png",
+  "backThumbnail": "previews/v0.2.1/slatted-low-bed-back.png",
+  "category": "beds",
+  "subtype": "slat-head",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "textures": {
+    "count": 0,
+    "bytes": 0
+  },
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.2.1/slatted-low-bed.png",
+      "previews/v0.2.1/slatted-low-bed-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.34,
+      0.28,
+      0.19
+    ],
+    [
+      0.58,
+      0.54,
+      0.44
+    ],
+    [
+      0.15,
+      0.17,
+      0.15
+    ]
+  ],
+  "colourTags": [
+    "ash",
+    "flax",
+    "stone"
+  ],
+  "materials": [
+    "textile",
+    "wood"
+  ],
+  "searchAliases": [
+    "bedroom",
+    "slat head"
+  ],
+  "materialSlots": [
+    {
+      "id": "fabric",
+      "material": "fabric",
+      "recolourable": true
+    },
+    {
+      "id": "linen",
+      "material": "linen",
+      "recolourable": true
+    },
+    {
+      "id": "wood",
+      "material": "wood",
+      "recolourable": true
+    }
+  ]
+}

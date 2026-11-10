@@ -1,0 +1,102 @@
+{
+  "timestamp": "2026-11-10T03:41:05.221Z",
+  "evidence": "Actual isolated Expo web catalogue workflows; synthetic validated empty two-room house",
+  "baseURL": "http://localhost:8081",
+  "storageOracle": {
+    "kind": "Production IndexedStorage.getItem, with its read-only legacy fallback",
+    "file": "mobile/src/storage/indexedStore.ts",
+    "sha256": "9943012679fd85da975028e6165febf8e149242bfef7b0a63f7ab6b98f76383d"
+  },
+  "sourceBefore": {
+    "src/screens/Catalogue.tsx": "cf5cc467e6340b672c228f1a450a40ba6bf18f74d0df2c081537eaa57038ec9e",
+    "src/screens/Editor.tsx": "429823aad62d75f118f4e4ba7fdfa86c9307c8eca9f3677f07d336579c747ea9",
+    "src/catalogue/search.ts": "bf190fcc21fec67f2cf0a966b45add8dfd6209cbc87278305b3d7395e52e3bc3",
+    "src/catalogue/assets.json": "cb699b8aed7cdaaca8d205a7f9155dea800872af0207e56b5ea5537b9b55e919"
+  },
+  "checks": [
+    {
+      "id": "favourite-and-query-combine",
+      "pass": true
+    },
+    {
+      "id": "no-results-preserves-query-and-favourite",
+      "pass": true
+    },
+    {
+      "id": "clearing-query-retains-favourite",
+      "pass": true
+    },
+    {
+      "id": "combined-fit-theme-shows-clearable-state",
+      "pass": true
+    },
+    {
+      "id": "clearing-fit-keeps-theme",
+      "pass": true
+    },
+    {
+      "id": "catalogue-places-real-revision-and-records-recent",
+      "pass": true,
+      "observed": {
+        "placed": "ois.design.cantilever-c-table",
+        "recent": [
+          "ois.design.cantilever-c-table"
+        ]
+      }
+    },
+    {
+      "id": "return-from-placement-restores-scroll",
+      "pass": false,
+      "observed": {
+        "before": {
+          "top": 512,
+          "height": 481,
+          "total": 1558
+        },
+        "after": {
+          "top": 0,
+          "height": 247,
+          "total": 595
+        },
+        "selected": {
+          "label": "Place Cantilever C table",
+          "disabled": null,
+          "box": {
+            "x": 16,
+            "y": 309.234375,
+            "width": 314,
+            "height": 106
+          }
+        }
+      }
+    },
+    {
+      "id": "new-room-has-independent-current-room-query",
+      "pass": true
+    },
+    {
+      "id": "return-room-restores-own-query",
+      "pass": true
+    },
+    {
+      "id": "other-room-query-also-retained",
+      "pass": true
+    },
+    {
+      "id": "cold-reload-retains-favourite-recent-and-placement",
+      "pass": true
+    }
+  ],
+  "errors": [],
+  "consoleErrors": [],
+  "completed": true,
+  "sourceAfter": {
+    "src/screens/Catalogue.tsx": "cf5cc467e6340b672c228f1a450a40ba6bf18f74d0df2c081537eaa57038ec9e",
+    "src/screens/Editor.tsx": "429823aad62d75f118f4e4ba7fdfa86c9307c8eca9f3677f07d336579c747ea9",
+    "src/catalogue/search.ts": "bf190fcc21fec67f2cf0a966b45add8dfd6209cbc87278305b3d7395e52e3bc3",
+    "src/catalogue/assets.json": "cb699b8aed7cdaaca8d205a7f9155dea800872af0207e56b5ea5537b9b55e919"
+  },
+  "stableSourceSamples": true,
+  "passed": 10,
+  "failed": 1
+}

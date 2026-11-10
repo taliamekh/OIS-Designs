@@ -1,0 +1,242 @@
+{
+  "designId": "ois.design.spindle-dining",
+  "familyId": "ois.family.woven-bow-chair",
+  "id": "ois.design.spindle-dining",
+  "name": "Spindle dining chair",
+  "roomTags": [
+    "dining"
+  ],
+  "theme": "walnut-form",
+  "builder": "seating",
+  "parameters": {
+    "form": "spindle",
+    "w": 0.5,
+    "d": 0.5,
+    "h": 0.84
+  },
+  "distinction": "Low bowed top rail and seven exposed timber spindles.",
+  "stage": "validated-candidate",
+  "countEligible": false,
+  "variants": [],
+  "variantOf": "ois.design.woven-bow-chair",
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted",
+    "sourceSnapshot": "sources/pipeline-03467462e382a0ba.py",
+    "sourceSha256": "03467462e382a0ba245e8af2ab96ea7d469161e176c6f1698b26d422f848f108",
+    "parametersFile": "sources/v0.3.0/spindle-dining.parameters.json"
+  },
+  "constructionKey": "seating|bow-spindle|{\"base\": \"taper\"}",
+  "countExclusion": "same construction; dimension/material configuration retained as a variant",
+  "sha256": "10068cb567d92a1a2648233d9cee13d8fa3ff9e2b6d0bd8a725403950f6bb192",
+  "bytes": 390376,
+  "triangles": 1432,
+  "vertices": 1634,
+  "drawPrimitives": 2,
+  "bounds": {
+    "min": [
+      -0.25175420758129996,
+      8.731979472820228e-09,
+      -0.23949999548494816
+    ],
+    "max": [
+      0.2517542333072142,
+      0.8706442524780224,
+      0.2220000154930853
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 0.5035084408885142,
+    "depth": 0.46150001097803345,
+    "height": 0.8706442437460429
+  },
+  "footprint": [
+    [
+      -0.25175420758129996,
+      -0.23949999548494816
+    ],
+    [
+      0.2517542333072142,
+      -0.23949999548494816
+    ],
+    [
+      0.2517542333072142,
+      0.2220000154930853
+    ],
+    [
+      -0.25175420758129996,
+      0.2220000154930853
+    ]
+  ],
+  "variantSlots": [
+    "linen",
+    "wood"
+  ],
+  "requiredExtensions": [],
+  "textures": {
+    "count": 6,
+    "bytes": 325769,
+    "estimatedRgbaBytesWithMipmaps": 2097152,
+    "images": [
+      {
+        "name": "linen-normal",
+        "bytes": 76292,
+        "width": 256,
+        "height": 256,
+        "sha256": "70b25282eb1daf2d7d6faad88d6b47ca1298d395b833d36d3ba28a542ed6d36e"
+      },
+      {
+        "name": "linen-neutral-base",
+        "bytes": 34309,
+        "width": 256,
+        "height": 256,
+        "sha256": "047df909f3cecf9ec0cdef6c8e2a92dea40e0116922d5b7a25bc7da6481e1ec9"
+      },
+      {
+        "name": "linen-roughness",
+        "bytes": 40384,
+        "width": 256,
+        "height": 256,
+        "sha256": "c31825bb85668747311407d1a5e5d9a56bc0e65aefbf79936d1d4665e83fdb45"
+      },
+      {
+        "name": "wood-normal",
+        "bytes": 102088,
+        "width": 256,
+        "height": 256,
+        "sha256": "6b8efcb5004552d884a527017922bfb5260b8bda4dc77f1365fe1cb8a09f1d56"
+      },
+      {
+        "name": "wood-neutral-base",
+        "bytes": 39353,
+        "width": 256,
+        "height": 256,
+        "sha256": "ddcf839a2addae78944a2d7a0588f9c2055852fc4ccb4e2dae2095d28541de44"
+      },
+      {
+        "name": "wood-roughness",
+        "bytes": 33343,
+        "width": 256,
+        "height": 256,
+        "sha256": "afc2180e58360e76fb178b52f225f7ba9045a7d0d266f10886763b0590335a1a"
+      }
+    ]
+  },
+  "version": "0.3.0",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.woven-bow-chair",
+  "file": "assets/v0.3.0/spindle-dining.glb",
+  "sourceModel": "sources/v0.3.0/spindle-dining.blend",
+  "thumbnail": "previews/v0.3.0/spindle-dining.png",
+  "backThumbnail": "previews/v0.3.0/spindle-dining-back.png",
+  "category": "seating",
+  "subtype": "spindle",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.3.0/spindle-dining.png",
+      "previews/v0.3.0/spindle-dining-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.8399999737739563,
+      0.800000011920929,
+      0.6899999976158142
+    ],
+    [
+      0.2199999988079071,
+      0.09000000357627869,
+      0.03799999877810478
+    ]
+  ],
+  "colourTags": [
+    "walnut brown",
+    "warm ivory"
+  ],
+  "materials": [
+    "textile",
+    "wood"
+  ],
+  "searchAliases": [
+    "dining",
+    "spindle"
+  ],
+  "materialSlots": [
+    {
+      "id": "linen",
+      "material": "linen",
+      "recolourable": true
+    },
+    {
+      "id": "wood",
+      "material": "wood",
+      "recolourable": true
+    }
+  ],
+  "supportChecks": {
+    "method": "source-part upper-end ray to non-leg geometry, 15mm join tolerance",
+    "status": "pass",
+    "parts": [
+      {
+        "part": "leg",
+        "gapMetresAlongSupport": -0.005633258819580073,
+        "status": "pass"
+      },
+      {
+        "part": "leg.001",
+        "gapMetresAlongSupport": -0.02214720249176025,
+        "status": "pass"
+      },
+      {
+        "part": "leg.002",
+        "gapMetresAlongSupport": -0.005633273720741266,
+        "status": "pass"
+      },
+      {
+        "part": "leg.003",
+        "gapMetresAlongSupport": -0.022147232294082636,
+        "status": "pass"
+      }
+    ],
+    "limitation": "screening only; hidden joints, whole-model connectivity, load paths and safety remain visual/product-review concerns"
+  },
+  "materialFinish": {
+    "source": "materials/v1/manifest.json",
+    "repeatMetres": {
+      "wood": [
+        0.16,
+        0.75
+      ],
+      "fabric": [
+        0.14,
+        0.14
+      ],
+      "linen": [
+        0.12,
+        0.12
+      ]
+    },
+    "maps": "original base colour / roughness / tangent normal, embedded in GLB"
+  }
+}

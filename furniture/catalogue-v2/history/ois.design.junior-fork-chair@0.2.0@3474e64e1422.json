@@ -1,0 +1,150 @@
+{
+  "designId": "ois.design.junior-fork-chair",
+  "familyId": "ois.family.fork-back-dining",
+  "id": "ois.design.junior-fork-chair",
+  "name": "Junior fork chair",
+  "roomTags": [
+    "children"
+  ],
+  "theme": "calm-oak",
+  "builder": "seating",
+  "parameters": {
+    "form": "wishbone",
+    "w": 0.34,
+    "d": 0.34,
+    "h": 0.6,
+    "seat": 0.28
+  },
+  "distinction": "Child-sized fork chair is retained as a size variant, not a new design.",
+  "stage": "validated-candidate",
+  "countEligible": false,
+  "variants": [],
+  "variantOf": "ois.design.fork-back-dining",
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted"
+  },
+  "constructionKey": "seating|wishbone|{\"base\": \"taper\"}",
+  "sha256": "3474e64e14225e0c707adae4ef0379e7d12555216037140bb2eb1235f3104f31",
+  "bytes": 34536,
+  "triangles": 944,
+  "vertices": 858,
+  "drawPrimitives": 1,
+  "bounds": {
+    "min": [
+      -0.18800438277809647,
+      -9.270664486082936e-09,
+      -0.16950005039713856
+    ],
+    "max": [
+      0.18800440360033593,
+      0.513605494507784,
+      0.21200002761151754
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 0.3760087863784324,
+    "depth": 0.3815000780086561,
+    "height": 0.5136055037784485
+  },
+  "footprint": [
+    [
+      -0.18800438277809647,
+      -0.16950005039713856
+    ],
+    [
+      0.18800440360033593,
+      -0.16950005039713856
+    ],
+    [
+      0.18800440360033593,
+      0.21200002761151754
+    ],
+    [
+      -0.18800438277809647,
+      0.21200002761151754
+    ]
+  ],
+  "variantSlots": [
+    "wood"
+  ],
+  "requiredExtensions": [],
+  "version": "0.2.0",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.fork-back-dining",
+  "file": "assets/v0.2.0/junior-fork-chair.glb",
+  "sourceModel": "sources/v0.2.0/junior-fork-chair.blend",
+  "thumbnail": "previews/v0.2.0/junior-fork-chair.png",
+  "backThumbnail": "previews/v0.2.0/junior-fork-chair-back.png",
+  "category": "seating",
+  "subtype": "wishbone",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "textures": {
+    "count": 0,
+    "bytes": 0
+  },
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.2.0/junior-fork-chair.png",
+      "previews/v0.2.0/junior-fork-chair-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.58,
+      0.39,
+      0.2
+    ],
+    [
+      0.73,
+      0.7,
+      0.61
+    ],
+    [
+      0.12,
+      0.14,
+      0.13
+    ]
+  ],
+  "colourTags": [
+    "pale oak",
+    "ivory",
+    "oatmeal"
+  ],
+  "materials": [
+    "wood"
+  ],
+  "searchAliases": [
+    "children",
+    "wishbone"
+  ],
+  "materialSlots": [
+    {
+      "id": "wood",
+      "material": "wood",
+      "recolourable": true
+    }
+  ],
+  "geometryHash": "0cb71778aa7a73bc944dafade44601b3d2f0f8d5c6b02f8adaaba884a647b5ae",
+  "normalizedMirrorGeometryHash": "4f46a8759b55076e564050d6d3e1fe0079c97b4d6ef23ebf0a8fdea4cc5ab84a"
+}

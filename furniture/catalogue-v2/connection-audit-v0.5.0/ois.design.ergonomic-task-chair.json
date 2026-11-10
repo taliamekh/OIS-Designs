@@ -1,0 +1,215 @@
+{
+  "id": "ois.design.ergonomic-task-chair",
+  "sha256": "33d0522af9e4e963af9e1af3962dd2be3460ff1066a1de020c69f8e796cd9159",
+  "sourceModel": "sources/v0.5.0/ergonomic-task-chair.blend",
+  "sourceSha256": "9218412121ac5b4947f420dbe171b6690834d0d2d51b90245a2932497b650d29",
+  "partCount": 18,
+  "componentCount": 1,
+  "components": [
+    {
+      "parts": [
+        "star base",
+        "caster",
+        "star base.001",
+        "caster.001",
+        "star base.002",
+        "caster.002",
+        "star base.003",
+        "caster.003",
+        "star base.004",
+        "caster.004",
+        "gas lift",
+        "seat",
+        "piping",
+        "backrest",
+        "arm",
+        "arm upright",
+        "arm.001",
+        "arm upright.001"
+      ],
+      "minimum": [
+        -0.32020002603530884,
+        -0.31520572304725647,
+        0.0
+      ],
+      "maximum": [
+        0.3229999840259552,
+        0.29899999499320984,
+        1.0737708806991577
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "caster",
+      "b": "star base",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "star base.001",
+      "b": "star base",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "caster.001",
+      "b": "star base.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "star base.002",
+      "b": "star base",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "star base.002",
+      "b": "star base.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "caster.002",
+      "b": "star base.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "star base.003",
+      "b": "star base",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "star base.003",
+      "b": "star base.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "star base.003",
+      "b": "star base.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "caster.003",
+      "b": "star base.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "star base.004",
+      "b": "star base",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "star base.004",
+      "b": "star base.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "star base.004",
+      "b": "star base.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "star base.004",
+      "b": "star base.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "caster.004",
+      "b": "star base.004",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "gas lift",
+      "b": "star base",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "gas lift",
+      "b": "star base.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "gas lift",
+      "b": "star base.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "gas lift",
+      "b": "star base.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "gas lift",
+      "b": "star base.004",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "seat",
+      "b": "gas lift",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "piping",
+      "b": "gas lift",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "piping",
+      "b": "seat",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "backrest",
+      "b": "seat",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "arm upright",
+      "b": "seat",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "arm upright",
+      "b": "arm",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "arm upright.001",
+      "b": "seat",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "arm upright.001",
+      "b": "arm.001",
+      "method": "triangle intersection",
+      "distance": 0
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T03:07:31Z"
+}

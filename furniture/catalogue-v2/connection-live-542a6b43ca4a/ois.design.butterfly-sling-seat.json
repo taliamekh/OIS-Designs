@@ -1,0 +1,44 @@
+{
+  "id": "ois.design.butterfly-sling-seat",
+  "sha256": "unexported-source-542a6b43ca4abc9d4f4ac88dc7bd803746dd198c350ababac32d73431ffd328b",
+  "sourceModel": null,
+  "sourceSha256": "542a6b43ca4abc9d4f4ac88dc7bd803746dd198c350ababac32d73431ffd328b",
+  "partCount": 3,
+  "componentCount": 1,
+  "components": [
+    {
+      "parts": [
+        "butterfly frame",
+        "butterfly frame.001",
+        "suspended butterfly sling"
+      ],
+      "minimum": [
+        -0.37400001287460327,
+        -0.3711834251880646,
+        0.03830975294113159
+      ],
+      "maximum": [
+        0.37400001287460327,
+        0.3505890965461731,
+        0.8584221005439758
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "suspended butterfly sling",
+      "b": "butterfly frame",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "suspended butterfly sling",
+      "b": "butterfly frame.001",
+      "method": "triangle intersection",
+      "distance": 0
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; live-source reports are NOT exported-asset evidence; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T03:32:54Z"
+}

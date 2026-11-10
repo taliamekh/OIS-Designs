@@ -1,0 +1,155 @@
+{
+  "designId": "ois.design.shelf-floor-light",
+  "familyId": "ois.family.shelf-floor-light",
+  "id": "ois.design.shelf-floor-light",
+  "name": "Shelf floor light",
+  "roomTags": [
+    "living"
+  ],
+  "theme": "coastal-linen",
+  "builder": "light",
+  "parameters": {
+    "form": "shelf-lamp",
+    "h": 1.55
+  },
+  "distinction": "Three usable circular shelves surround an integrated light stem.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted",
+    "sourceSnapshot": "sources/pipeline-e797cb5c88af56f5.py",
+    "sourceSha256": "e797cb5c88af56f5b4455d819a512ab9be55f40e1fa2d0cb542aca7bb84b906f",
+    "parametersFile": "sources/v0.2.1/shelf-floor-light.parameters.json"
+  },
+  "constructionKey": "light|shelf-lamp|{}",
+  "sha256": "18c72e8b06f2f97324afad291b67d7bfda7f5e337bb43ea59d2eb09226309dda",
+  "bytes": 37444,
+  "triangles": 1064,
+  "vertices": 940,
+  "drawPrimitives": 2,
+  "bounds": {
+    "min": [
+      -0.23000000417232513,
+      7.450580596923828e-09,
+      -0.23000000417232513
+    ],
+    "max": [
+      0.23000000417232513,
+      1.5499999523162842,
+      0.23000000417232513
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 0.46000000834465027,
+    "depth": 0.46000000834465027,
+    "height": 1.5499999448657036
+  },
+  "footprint": [
+    [
+      -0.23000000417232513,
+      -0.23000000417232513
+    ],
+    [
+      0.23000000417232513,
+      -0.23000000417232513
+    ],
+    [
+      0.23000000417232513,
+      0.23000000417232513
+    ],
+    [
+      -0.23000000417232513,
+      0.23000000417232513
+    ]
+  ],
+  "variantSlots": [
+    "linen",
+    "wood"
+  ],
+  "requiredExtensions": [],
+  "version": "0.2.1",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.shelf-floor-light",
+  "file": "assets/v0.2.1/shelf-floor-light.glb",
+  "sourceModel": "sources/v0.2.1/shelf-floor-light.blend",
+  "thumbnail": "previews/v0.2.1/shelf-floor-light.png",
+  "backThumbnail": "previews/v0.2.1/shelf-floor-light-back.png",
+  "category": "lighting",
+  "subtype": "shelf-lamp",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "textures": {
+    "count": 0,
+    "bytes": 0
+  },
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.2.1/shelf-floor-light.png",
+      "previews/v0.2.1/shelf-floor-light-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.66,
+      0.53,
+      0.34
+    ],
+    [
+      0.36,
+      0.53,
+      0.58
+    ],
+    [
+      0.64,
+      0.6,
+      0.48
+    ]
+  ],
+  "colourTags": [
+    "mist blue",
+    "sand",
+    "pale oak"
+  ],
+  "materials": [
+    "textile",
+    "wood"
+  ],
+  "searchAliases": [
+    "living",
+    "shelf lamp"
+  ],
+  "materialSlots": [
+    {
+      "id": "linen",
+      "material": "linen",
+      "recolourable": true
+    },
+    {
+      "id": "wood",
+      "material": "wood",
+      "recolourable": true
+    }
+  ]
+}

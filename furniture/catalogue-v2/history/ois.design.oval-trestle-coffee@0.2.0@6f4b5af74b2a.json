@@ -1,0 +1,149 @@
+{
+  "designId": "ois.design.oval-trestle-coffee",
+  "familyId": "ois.family.oval-trestle-coffee",
+  "id": "ois.design.oval-trestle-coffee",
+  "name": "Oval trestle coffee table",
+  "roomTags": [
+    "living"
+  ],
+  "theme": "coastal-linen",
+  "builder": "table",
+  "parameters": {
+    "form": "trestle",
+    "w": 1.08,
+    "d": 0.62,
+    "h": 0.39,
+    "shape": "oval"
+  },
+  "distinction": "Oval top with two braced A trestles and longitudinal stretcher.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted"
+  },
+  "sha256": "6f4b5af74b2a4fc5f870e127213f5b2dd9bc50902bd2500d48d2e1071c1831d5",
+  "bytes": 20968,
+  "triangles": 488,
+  "vertices": 524,
+  "drawPrimitives": 1,
+  "bounds": {
+    "min": [
+      -0.5400000214576721,
+      0.0,
+      -0.3100000023841858
+    ],
+    "max": [
+      0.5400000214576721,
+      0.3826090320944786,
+      0.3100000023841858
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 1.0800000429153442,
+    "depth": 0.6200000047683716,
+    "height": 0.3826090320944786
+  },
+  "footprint": [
+    [
+      -0.5400000214576721,
+      -0.3100000023841858
+    ],
+    [
+      0.5400000214576721,
+      -0.3100000023841858
+    ],
+    [
+      0.5400000214576721,
+      0.3100000023841858
+    ],
+    [
+      -0.5400000214576721,
+      0.3100000023841858
+    ]
+  ],
+  "variantSlots": [
+    "wood"
+  ],
+  "requiredExtensions": [],
+  "version": "0.2.0",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.oval-trestle-coffee",
+  "file": "assets/v0.2.0/oval-trestle-coffee.glb",
+  "sourceModel": "sources/v0.2.0/oval-trestle-coffee.blend",
+  "thumbnail": "previews/v0.2.0/oval-trestle-coffee.png",
+  "backThumbnail": "previews/v0.2.0/oval-trestle-coffee-back.png",
+  "category": "tables",
+  "subtype": "trestle",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "textures": {
+    "count": 0,
+    "bytes": 0
+  },
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.2.0/oval-trestle-coffee.png",
+      "previews/v0.2.0/oval-trestle-coffee-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.66,
+      0.53,
+      0.34
+    ],
+    [
+      0.36,
+      0.53,
+      0.58
+    ],
+    [
+      0.64,
+      0.6,
+      0.48
+    ]
+  ],
+  "colourTags": [
+    "mist blue",
+    "sand",
+    "pale oak"
+  ],
+  "materials": [
+    "wood"
+  ],
+  "searchAliases": [
+    "living",
+    "trestle"
+  ],
+  "materialSlots": [
+    {
+      "id": "wood",
+      "material": "wood",
+      "recolourable": true
+    }
+  ],
+  "geometryHash": "4ec048a4ac0388a6ec22ed55f691f34e90431d1ee4f73ad09c232d5fcd9949b8",
+  "normalizedMirrorGeometryHash": "136f5b56c7efcb35fa5f6d3ed979d49ba475c8377036a2054d9f75ce3db94617"
+}

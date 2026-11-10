@@ -1,0 +1,67 @@
+{
+  "id": "ois.design.freestanding-bidet",
+  "sha256": "59a7ff36e499dafbedb42ad8539df966aee7995f76c421e3e345d0ccd65e0114",
+  "sourceModel": "sources/v0.5.0/freestanding-bidet.blend",
+  "sourceSha256": "ef3148d5d92c4769d7fec531b7ecea507a6aee20cba846fceb2575a1ab162d96",
+  "partCount": 4,
+  "componentCount": 3,
+  "components": [
+    {
+      "parts": [
+        "toilet pedestal",
+        "hollow bowl"
+      ],
+      "minimum": [
+        -0.2199999988079071,
+        -0.3125,
+        0.0
+      ],
+      "maximum": [
+        0.2199999988079071,
+        0.3125,
+        0.46000000834465027
+      ]
+    },
+    {
+      "parts": [
+        "curved faucet"
+      ],
+      "minimum": [
+        -0.012000000104308128,
+        -0.21199999749660492,
+        0.4000000059604645
+      ],
+      "maximum": [
+        0.012000000104308128,
+        -0.04143112525343895,
+        0.5816279053688049
+      ]
+    },
+    {
+      "parts": [
+        "tap lever"
+      ],
+      "minimum": [
+        0.03500000387430191,
+        -0.20800000429153442,
+        0.47699999809265137
+      ],
+      "maximum": [
+        0.10000000149011612,
+        -0.19200000166893005,
+        0.4930000305175781
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "hollow bowl",
+      "b": "toilet pedestal",
+      "method": "triangle intersection",
+      "distance": 0
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T03:07:32Z"
+}

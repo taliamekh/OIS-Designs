@@ -1,0 +1,44 @@
+{
+  "id": "ois.design.triangle-cantilever-console",
+  "sha256": "unexported-source-542a6b43ca4abc9d4f4ac88dc7bd803746dd198c350ababac32d73431ffd328b",
+  "sourceModel": null,
+  "sourceSha256": "542a6b43ca4abc9d4f4ac88dc7bd803746dd198c350ababac32d73431ffd328b",
+  "partCount": 3,
+  "componentCount": 1,
+  "components": [
+    {
+      "parts": [
+        "top",
+        "base plate",
+        "rear offset column"
+      ],
+      "minimum": [
+        -0.4749999940395355,
+        -0.18060000240802765,
+        0.0
+      ],
+      "maximum": [
+        0.4749999940395355,
+        0.2393999993801117,
+        0.800000011920929
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "rear offset column",
+      "b": "top",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "rear offset column",
+      "b": "base plate",
+      "method": "triangle intersection",
+      "distance": 0
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; live-source reports are NOT exported-asset evidence; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T03:32:53Z"
+}

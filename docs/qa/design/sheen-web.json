@@ -1,0 +1,116 @@
+{
+  "timestamp": "2026-11-10T03:40:14.625Z",
+  "baseURL": "http://127.0.0.1:58062",
+  "evidence": "Actual saved five-sheen wall choices and corresponding browser canvas captures under unchanged lighting/camera. Not physical paint matching or native proof.",
+  "storageOracle": {
+    "kind": "Production IndexedStorage.getItem, with its read-only legacy fallback",
+    "file": "mobile/src/storage/indexedStore.ts",
+    "sha256": "9943012679fd85da975028e6165febf8e149242bfef7b0a63f7ab6b98f76383d"
+  },
+  "checks": [
+    {
+      "id": "saved-matte",
+      "pass": true
+    },
+    {
+      "id": "opposite-room-unchanged-matte",
+      "pass": true
+    },
+    {
+      "id": "saved-eggshell",
+      "pass": true
+    },
+    {
+      "id": "opposite-room-unchanged-eggshell",
+      "pass": true
+    },
+    {
+      "id": "saved-satin",
+      "pass": true
+    },
+    {
+      "id": "opposite-room-unchanged-satin",
+      "pass": true
+    },
+    {
+      "id": "saved-semi-gloss",
+      "pass": true
+    },
+    {
+      "id": "opposite-room-unchanged-semi-gloss",
+      "pass": true
+    },
+    {
+      "id": "saved-gloss",
+      "pass": true
+    },
+    {
+      "id": "opposite-room-unchanged-gloss",
+      "pass": true
+    },
+    {
+      "id": "fixed-camera-through-all-sheens",
+      "pass": true
+    }
+  ],
+  "frames": [
+    {
+      "sheen": "matte",
+      "file": "sheen-matte.png",
+      "sha256": "6077ec68de8e53e6fd57e0234fca0fb0e7585b8abefbb578cd81e95bd868da77",
+      "camera": [
+        12.275235675950023,
+        13.002457885872985,
+        12.500336197652441
+      ]
+    },
+    {
+      "sheen": "eggshell",
+      "file": "sheen-eggshell.png",
+      "sha256": "3ef6057151cfec9b50fa717b094c9bcd07eaaecc0cf8361cec71cc48cb699a7a",
+      "camera": [
+        12.275235675950023,
+        13.002457885872985,
+        12.500336197652441
+      ]
+    },
+    {
+      "sheen": "satin",
+      "file": "sheen-satin.png",
+      "sha256": "619b9a1c0622b53efa0989ede8fa1f695bfda814133428b614ab6371fedede9a",
+      "camera": [
+        12.275235675950023,
+        13.002457885872985,
+        12.500336197652441
+      ]
+    },
+    {
+      "sheen": "semi-gloss",
+      "file": "sheen-semi-gloss.png",
+      "sha256": "9305fa7ff1f55e4eacd33bfccfee17875d07e5097acf6d5e662984cc4f884753",
+      "camera": [
+        12.275235675950023,
+        13.002457885872985,
+        12.500336197652441
+      ]
+    },
+    {
+      "sheen": "gloss",
+      "file": "sheen-gloss.png",
+      "sha256": "a24deca80e84e4078ae80867771a415cf8492967463160f05d17ccc346f6f142",
+      "camera": [
+        12.275235675950023,
+        13.002457885872985,
+        12.500336197652441
+      ]
+    }
+  ],
+  "errors": [],
+  "consoleErrors": [],
+  "beforeCamera": [
+    12.275235675950023,
+    13.002457885872985,
+    12.500336197652441
+  ],
+  "completed": true
+}

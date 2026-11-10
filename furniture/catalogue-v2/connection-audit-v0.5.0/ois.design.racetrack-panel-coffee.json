@@ -1,0 +1,44 @@
+{
+  "id": "ois.design.racetrack-panel-coffee",
+  "sha256": "09c4b5cf6a852bc7daee475f5a7c954f64b0a332db25e1e748b692fb5dc96161",
+  "sourceModel": "sources/v0.5.0/racetrack-panel-coffee.blend",
+  "sourceSha256": "9b4631d9da82fd14d9bb1510f6ec2100c6777ef6342f134227e0a664b5a4c90b",
+  "partCount": 3,
+  "componentCount": 1,
+  "components": [
+    {
+      "parts": [
+        "top",
+        "panel leg",
+        "panel leg.001"
+      ],
+      "minimum": [
+        -0.5400000214576721,
+        -0.3100000023841858,
+        0.0
+      ],
+      "maximum": [
+        0.5400000214576721,
+        0.3100000023841858,
+        0.38999998569488525
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "panel leg",
+      "b": "top",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "panel leg.001",
+      "b": "top",
+      "method": "triangle intersection",
+      "distance": 0
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T03:07:33Z"
+}

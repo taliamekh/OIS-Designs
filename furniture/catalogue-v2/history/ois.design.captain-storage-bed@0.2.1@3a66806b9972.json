@@ -1,0 +1,183 @@
+{
+  "designId": "ois.design.captain-storage-bed",
+  "familyId": "ois.family.captain-storage-bed",
+  "id": "ois.design.captain-storage-bed",
+  "name": "Captain storage bed",
+  "roomTags": [
+    "bedroom"
+  ],
+  "theme": "calm-oak",
+  "builder": "bed",
+  "parameters": {
+    "form": "captain",
+    "size": "queen",
+    "platform": 0.38
+  },
+  "distinction": "Raised enclosed frame with four accessible drawer fronts.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted",
+    "sourceSnapshot": "sources/pipeline-e797cb5c88af56f5.py",
+    "sourceSha256": "e797cb5c88af56f5b4455d819a512ab9be55f40e1fa2d0cb542aca7bb84b906f",
+    "parametersFile": "sources/v0.2.1/captain-storage-bed.parameters.json"
+  },
+  "constructionKey": "bed|captain|{}",
+  "bedSize": "queen",
+  "mattressMetres": [
+    1.524,
+    2.032,
+    0.22
+  ],
+  "safetyReviewRequired": false,
+  "sha256": "3a66806b9972c4ff28255d5e9e60b13fcbc9a343f4d47e283089ff5545a97c20",
+  "bytes": 193908,
+  "triangles": 3624,
+  "vertices": 5201,
+  "drawPrimitives": 5,
+  "bounds": {
+    "min": [
+      -0.824999988079071,
+      0.0,
+      -1.0759999752044678
+    ],
+    "max": [
+      0.824999988079071,
+      1.1399999856948853,
+      1.1059999465942383
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 1.649999976158142,
+    "depth": 2.181999921798706,
+    "height": 1.1399999856948853
+  },
+  "footprint": [
+    [
+      -0.824999988079071,
+      -1.0759999752044678
+    ],
+    [
+      0.824999988079071,
+      -1.0759999752044678
+    ],
+    [
+      0.824999988079071,
+      1.1059999465942383
+    ],
+    [
+      -0.824999988079071,
+      1.1059999465942383
+    ]
+  ],
+  "variantSlots": [
+    "dark",
+    "fabric",
+    "linen",
+    "metal",
+    "wood"
+  ],
+  "requiredExtensions": [],
+  "version": "0.2.1",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.captain-storage-bed",
+  "file": "assets/v0.2.1/captain-storage-bed.glb",
+  "sourceModel": "sources/v0.2.1/captain-storage-bed.blend",
+  "thumbnail": "previews/v0.2.1/captain-storage-bed.png",
+  "backThumbnail": "previews/v0.2.1/captain-storage-bed-back.png",
+  "category": "beds",
+  "subtype": "captain",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "textures": {
+    "count": 0,
+    "bytes": 0
+  },
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.2.1/captain-storage-bed.png",
+      "previews/v0.2.1/captain-storage-bed-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.58,
+      0.39,
+      0.2
+    ],
+    [
+      0.73,
+      0.7,
+      0.61
+    ],
+    [
+      0.12,
+      0.14,
+      0.13
+    ]
+  ],
+  "colourTags": [
+    "pale oak",
+    "ivory",
+    "oatmeal"
+  ],
+  "materials": [
+    "metal",
+    "paint",
+    "textile",
+    "wood"
+  ],
+  "searchAliases": [
+    "bedroom",
+    "captain"
+  ],
+  "materialSlots": [
+    {
+      "id": "dark",
+      "material": "dark",
+      "recolourable": true
+    },
+    {
+      "id": "fabric",
+      "material": "fabric",
+      "recolourable": true
+    },
+    {
+      "id": "linen",
+      "material": "linen",
+      "recolourable": true
+    },
+    {
+      "id": "metal",
+      "material": "metal",
+      "recolourable": true
+    },
+    {
+      "id": "wood",
+      "material": "wood",
+      "recolourable": true
+    }
+  ]
+}

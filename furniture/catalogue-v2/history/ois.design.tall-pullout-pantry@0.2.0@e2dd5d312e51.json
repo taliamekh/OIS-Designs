@@ -1,0 +1,163 @@
+{
+  "designId": "ois.design.tall-pullout-pantry",
+  "familyId": "ois.family.tall-pullout-pantry",
+  "id": "ois.design.tall-pullout-pantry",
+  "name": "Pullout pantry tower",
+  "roomTags": [
+    "kitchen"
+  ],
+  "theme": "walnut-form",
+  "builder": "kitchen",
+  "parameters": {
+    "form": "pullout-pantry",
+    "w": 0.45,
+    "d": 0.6,
+    "h": 1.95
+  },
+  "distinction": "Basket rails and projecting full-height pullout face.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted"
+  },
+  "constructionKey": "kitchen|pullout-pantry|{}",
+  "sha256": "e2dd5d312e51f16f122cce212274880ce60794c71a32725918bc38174e0c559f",
+  "bytes": 133116,
+  "triangles": 3868,
+  "vertices": 3330,
+  "drawPrimitives": 3,
+  "bounds": {
+    "min": [
+      -0.22499999403953552,
+      0.0,
+      -0.47600001096725464
+    ],
+    "max": [
+      0.22499999403953552,
+      1.9499999955296516,
+      0.30000001192092896
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 0.44999998807907104,
+    "depth": 0.7760000228881836,
+    "height": 1.9499999955296516
+  },
+  "footprint": [
+    [
+      -0.22499999403953552,
+      -0.47600001096725464
+    ],
+    [
+      0.22499999403953552,
+      -0.47600001096725464
+    ],
+    [
+      0.22499999403953552,
+      0.30000001192092896
+    ],
+    [
+      -0.22499999403953552,
+      0.30000001192092896
+    ]
+  ],
+  "variantSlots": [
+    "dark",
+    "metal",
+    "wood"
+  ],
+  "requiredExtensions": [],
+  "version": "0.2.0",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.tall-pullout-pantry",
+  "file": "assets/v0.2.0/tall-pullout-pantry.glb",
+  "sourceModel": "sources/v0.2.0/tall-pullout-pantry.blend",
+  "thumbnail": "previews/v0.2.0/tall-pullout-pantry.png",
+  "backThumbnail": "previews/v0.2.0/tall-pullout-pantry-back.png",
+  "category": "cabinetry",
+  "subtype": "pullout-pantry",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "textures": {
+    "count": 0,
+    "bytes": 0
+  },
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.2.0/tall-pullout-pantry.png",
+      "previews/v0.2.0/tall-pullout-pantry-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.22,
+      0.09,
+      0.038
+    ],
+    [
+      0.39,
+      0.18,
+      0.07
+    ],
+    [
+      0.47,
+      0.3,
+      0.1
+    ]
+  ],
+  "colourTags": [
+    "walnut",
+    "tobacco",
+    "brass"
+  ],
+  "materials": [
+    "metal",
+    "paint",
+    "wood"
+  ],
+  "searchAliases": [
+    "kitchen",
+    "pullout pantry"
+  ],
+  "materialSlots": [
+    {
+      "id": "dark",
+      "material": "dark",
+      "recolourable": true
+    },
+    {
+      "id": "metal",
+      "material": "metal",
+      "recolourable": true
+    },
+    {
+      "id": "wood",
+      "material": "wood",
+      "recolourable": true
+    }
+  ],
+  "geometryHash": "4eb6059bf42105adffe0ec97731d190eeed3d3fc18df4898a41667874c6f4e89",
+  "normalizedMirrorGeometryHash": "07f0055f583fc0241a950a7bc95434c261114ee53e7a2e2935764cd6f5c278a0"
+}

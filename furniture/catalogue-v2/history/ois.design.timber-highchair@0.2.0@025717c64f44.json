@@ -1,0 +1,149 @@
+{
+  "designId": "ois.design.timber-highchair",
+  "familyId": "ois.family.timber-highchair",
+  "id": "ois.design.timber-highchair",
+  "name": "Timber highchair",
+  "roomTags": [
+    "children"
+  ],
+  "theme": "walnut-form",
+  "builder": "special",
+  "parameters": {
+    "form": "highchair",
+    "w": 0.44,
+    "d": 0.46,
+    "h": 0.94
+  },
+  "distinction": "Raised seat with front food tray and an independent step.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted"
+  },
+  "constructionKey": "special|highchair|{\"cols\": 1, \"front\": \"cane\", \"panels\": 3}",
+  "sha256": "025717c64f44c8944def9993d5d5819bb87513f3084d9a0d000eb32b708eb846",
+  "bytes": 59028,
+  "triangles": 1292,
+  "vertices": 1558,
+  "drawPrimitives": 1,
+  "bounds": {
+    "min": [
+      -0.2949999899054633,
+      -8.41124098149848e-09,
+      -0.29900001592730346
+    ],
+    "max": [
+      0.2950000648560829,
+      0.9484403504304828,
+      0.23000003548274026
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 0.5900000547615462,
+    "depth": 0.5290000514100437,
+    "height": 0.9484403588417238
+  },
+  "footprint": [
+    [
+      -0.2949999899054633,
+      -0.29900001592730346
+    ],
+    [
+      0.2950000648560829,
+      -0.29900001592730346
+    ],
+    [
+      0.2950000648560829,
+      0.23000003548274026
+    ],
+    [
+      -0.2949999899054633,
+      0.23000003548274026
+    ]
+  ],
+  "variantSlots": [
+    "wood"
+  ],
+  "requiredExtensions": [],
+  "version": "0.2.0",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.timber-highchair",
+  "file": "assets/v0.2.0/timber-highchair.glb",
+  "sourceModel": "sources/v0.2.0/timber-highchair.blend",
+  "thumbnail": "previews/v0.2.0/timber-highchair.png",
+  "backThumbnail": "previews/v0.2.0/timber-highchair-back.png",
+  "category": "specialty",
+  "subtype": "highchair",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "textures": {
+    "count": 0,
+    "bytes": 0
+  },
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.2.0/timber-highchair.png",
+      "previews/v0.2.0/timber-highchair-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.22,
+      0.09,
+      0.038
+    ],
+    [
+      0.39,
+      0.18,
+      0.07
+    ],
+    [
+      0.47,
+      0.3,
+      0.1
+    ]
+  ],
+  "colourTags": [
+    "walnut",
+    "tobacco",
+    "brass"
+  ],
+  "materials": [
+    "wood"
+  ],
+  "searchAliases": [
+    "children",
+    "highchair"
+  ],
+  "materialSlots": [
+    {
+      "id": "wood",
+      "material": "wood",
+      "recolourable": true
+    }
+  ],
+  "geometryHash": "89b8a9f27ec05eae0342c516fc373be1401b560da30ac664775febac183a7206",
+  "normalizedMirrorGeometryHash": "105fe5b0ad1f44ff2ca5932745363022eb3d0659a7793b13072018956d4cd684"
+}

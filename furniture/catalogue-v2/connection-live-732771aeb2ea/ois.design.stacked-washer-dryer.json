@@ -1,0 +1,291 @@
+{
+  "id": "ois.design.stacked-washer-dryer",
+  "sha256": "unexported-source-732771aeb2eadd33599208170e38ff4e50d68878cbfb6795c9473e6f8553f36b",
+  "sourceModel": null,
+  "sourceSha256": "732771aeb2eadd33599208170e38ff4e50d68878cbfb6795c9473e6f8553f36b",
+  "partCount": 24,
+  "componentCount": 3,
+  "components": [
+    {
+      "parts": [
+        "appliance shell side",
+        "appliance shell side.001",
+        "appliance shell back",
+        "appliance shell bottom",
+        "appliance shell top",
+        "upper unit side",
+        "upper unit side.001",
+        "upper unit back",
+        "upper unit bottom",
+        "upper unit top",
+        "washer front opening",
+        "door ring",
+        "door glazing",
+        "control strip",
+        "control dial",
+        "control dial.001",
+        "washer front opening.001",
+        "door ring.001",
+        "door glazing.001",
+        "control strip.001",
+        "control dial.002",
+        "control dial.003"
+      ],
+      "minimum": [
+        -0.30000001192092896,
+        -0.3100000023841858,
+        0.0
+      ],
+      "maximum": [
+        0.30000001192092896,
+        0.3630000054836273,
+        1.7000000476837158
+      ]
+    },
+    {
+      "parts": [
+        "open metal drum"
+      ],
+      "minimum": [
+        -0.20499999821186066,
+        -0.20000001788139343,
+        0.2149999737739563
+      ],
+      "maximum": [
+        0.20499999821186066,
+        0.20000001788139343,
+        0.625
+      ]
+    },
+    {
+      "parts": [
+        "open metal drum.001"
+      ],
+      "minimum": [
+        -0.20499999821186066,
+        -0.20000001788139343,
+        1.0649999380111694
+      ],
+      "maximum": [
+        0.20499999821186066,
+        0.20000001788139343,
+        1.475000023841858
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "appliance shell back",
+      "b": "appliance shell side",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "appliance shell back",
+      "b": "appliance shell side.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "appliance shell bottom",
+      "b": "appliance shell side",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "appliance shell bottom",
+      "b": "appliance shell side.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "appliance shell bottom",
+      "b": "appliance shell back",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "appliance shell top",
+      "b": "appliance shell side",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "appliance shell top",
+      "b": "appliance shell side.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "appliance shell top",
+      "b": "appliance shell back",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "upper unit side",
+      "b": "appliance shell side",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "upper unit side",
+      "b": "appliance shell top",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "upper unit side.001",
+      "b": "appliance shell side.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "upper unit side.001",
+      "b": "appliance shell top",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "upper unit back",
+      "b": "upper unit side",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "upper unit back",
+      "b": "upper unit side.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "upper unit bottom",
+      "b": "appliance shell top",
+      "method": "surface distance",
+      "distance": 6.664001972467304e-08
+    },
+    {
+      "a": "upper unit bottom",
+      "b": "upper unit side",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "upper unit bottom",
+      "b": "upper unit side.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "upper unit bottom",
+      "b": "upper unit back",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "upper unit top",
+      "b": "upper unit side",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "upper unit top",
+      "b": "upper unit side.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "upper unit top",
+      "b": "upper unit back",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "washer front opening",
+      "b": "appliance shell side",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "washer front opening",
+      "b": "appliance shell side.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "door ring",
+      "b": "washer front opening",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "door glazing",
+      "b": "door ring",
+      "method": "surface distance",
+      "distance": 0.0037919902242720127
+    },
+    {
+      "a": "control strip",
+      "b": "washer front opening",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "control dial",
+      "b": "control strip",
+      "method": "surface distance",
+      "distance": 0.0020000040531158447
+    },
+    {
+      "a": "control dial.001",
+      "b": "control strip",
+      "method": "surface distance",
+      "distance": 0.0020000040531158447
+    },
+    {
+      "a": "washer front opening.001",
+      "b": "upper unit side",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "washer front opening.001",
+      "b": "upper unit side.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "door ring.001",
+      "b": "washer front opening.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "door glazing.001",
+      "b": "door ring.001",
+      "method": "surface distance",
+      "distance": 0.003791922703385353
+    },
+    {
+      "a": "control strip.001",
+      "b": "washer front opening.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "control dial.002",
+      "b": "control strip.001",
+      "method": "surface distance",
+      "distance": 0.0020000040531158447
+    },
+    {
+      "a": "control dial.003",
+      "b": "control strip.001",
+      "method": "surface distance",
+      "distance": 0.0020000040531158447
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; live-source reports are NOT exported-asset evidence; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T03:28:29Z"
+}

@@ -1,0 +1,159 @@
+{
+  "designId": "ois.design.bolster-daybed",
+  "familyId": "ois.family.bolster-daybed",
+  "id": "ois.design.bolster-daybed",
+  "name": "Bolster daybed",
+  "roomTags": [
+    "living"
+  ],
+  "theme": "calm-oak",
+  "builder": "seating",
+  "parameters": {
+    "form": "daybed",
+    "w": 2.04
+  },
+  "distinction": "Backless upholstered deck with two cylindrical end bolsters.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted"
+  },
+  "sha256": "9f9fc6d3c1c7759c3678c927e93716c1ebb44ceb0d7394ed517a4245e49bc2a0",
+  "bytes": 109036,
+  "triangles": 2052,
+  "vertices": 2912,
+  "drawPrimitives": 3,
+  "bounds": {
+    "min": [
+      -1.0288639467802532,
+      -5.686291298934165e-10,
+      -0.4262765812133261
+    ],
+    "max": [
+      1.028863929714857,
+      0.6896138191223145,
+      0.42627652004437255
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 2.05772787649511,
+    "depth": 0.8525531012576987,
+    "height": 0.6896138196909436
+  },
+  "footprint": [
+    [
+      -1.0288639467802532,
+      -0.4262765812133261
+    ],
+    [
+      1.028863929714857,
+      -0.4262765812133261
+    ],
+    [
+      1.028863929714857,
+      0.42627652004437255
+    ],
+    [
+      -1.0288639467802532,
+      0.42627652004437255
+    ]
+  ],
+  "variantSlots": [
+    "fabric",
+    "linen",
+    "wood"
+  ],
+  "requiredExtensions": [],
+  "version": "0.2.0",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.bolster-daybed",
+  "file": "assets/v0.2.0/bolster-daybed.glb",
+  "sourceModel": "sources/v0.2.0/bolster-daybed.blend",
+  "thumbnail": "previews/v0.2.0/bolster-daybed.png",
+  "backThumbnail": "previews/v0.2.0/bolster-daybed-back.png",
+  "category": "seating",
+  "subtype": "daybed",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "textures": {
+    "count": 0,
+    "bytes": 0
+  },
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.2.0/bolster-daybed.png",
+      "previews/v0.2.0/bolster-daybed-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.58,
+      0.39,
+      0.2
+    ],
+    [
+      0.73,
+      0.7,
+      0.61
+    ],
+    [
+      0.12,
+      0.14,
+      0.13
+    ]
+  ],
+  "colourTags": [
+    "pale oak",
+    "ivory",
+    "oatmeal"
+  ],
+  "materials": [
+    "textile",
+    "wood"
+  ],
+  "searchAliases": [
+    "living",
+    "daybed"
+  ],
+  "materialSlots": [
+    {
+      "id": "fabric",
+      "material": "fabric",
+      "recolourable": true
+    },
+    {
+      "id": "linen",
+      "material": "linen",
+      "recolourable": true
+    },
+    {
+      "id": "wood",
+      "material": "wood",
+      "recolourable": true
+    }
+  ],
+  "geometryHash": "d2f4c8b6fdbf8aa97e0ae8d092eb05c15776e17a590d6bb4ae508a5546915f05",
+  "normalizedMirrorGeometryHash": "1ba7cdfb9ef59b669b8e57f0918e6aed1dc74d5d9985dd87dca10cf32422f005"
+}

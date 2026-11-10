@@ -1,0 +1,154 @@
+{
+  "designId": "ois.design.integrated-hall-tree",
+  "familyId": "ois.family.integrated-hall-tree",
+  "id": "ois.design.integrated-hall-tree",
+  "name": "Integrated hall tree",
+  "roomTags": [
+    "entry-hall"
+  ],
+  "theme": "calm-oak",
+  "builder": "functional",
+  "parameters": {
+    "form": "hall-tree",
+    "w": 1.1,
+    "d": 0.43,
+    "h": 1.75
+  },
+  "distinction": "Storage bench, tall timber back, hat shelf and three coat hooks form one unit.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted"
+  },
+  "constructionKey": "functional|hall-tree|{}",
+  "sha256": "a2e9b156082daf9461129ad21e44e79008cd472b6dc563e05e1b3bf737fbdd4e",
+  "bytes": 118076,
+  "triangles": 2500,
+  "vertices": 3142,
+  "drawPrimitives": 2,
+  "bounds": {
+    "min": [
+      -0.550000074026027,
+      2.2258291043630862e-08,
+      -0.22100000362843275
+    ],
+    "max": [
+      0.5500002066571374,
+      1.7674999640427655,
+      0.22575003450600414
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 1.1000002806831644,
+    "depth": 0.4467500381344369,
+    "height": 1.7674999417844746
+  },
+  "footprint": [
+    [
+      -0.550000074026027,
+      -0.22100000362843275
+    ],
+    [
+      0.5500002066571374,
+      -0.22100000362843275
+    ],
+    [
+      0.5500002066571374,
+      0.22575003450600414
+    ],
+    [
+      -0.550000074026027,
+      0.22575003450600414
+    ]
+  ],
+  "variantSlots": [
+    "metal",
+    "wood"
+  ],
+  "requiredExtensions": [],
+  "version": "0.2.0",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.integrated-hall-tree",
+  "file": "assets/v0.2.0/integrated-hall-tree.glb",
+  "sourceModel": "sources/v0.2.0/integrated-hall-tree.blend",
+  "thumbnail": "previews/v0.2.0/integrated-hall-tree.png",
+  "backThumbnail": "previews/v0.2.0/integrated-hall-tree-back.png",
+  "category": "functional-furniture",
+  "subtype": "hall-tree",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "textures": {
+    "count": 0,
+    "bytes": 0
+  },
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.2.0/integrated-hall-tree.png",
+      "previews/v0.2.0/integrated-hall-tree-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.58,
+      0.39,
+      0.2
+    ],
+    [
+      0.73,
+      0.7,
+      0.61
+    ],
+    [
+      0.12,
+      0.14,
+      0.13
+    ]
+  ],
+  "colourTags": [
+    "pale oak",
+    "ivory",
+    "oatmeal"
+  ],
+  "materials": [
+    "metal",
+    "wood"
+  ],
+  "searchAliases": [
+    "entry hall",
+    "hall tree"
+  ],
+  "materialSlots": [
+    {
+      "id": "metal",
+      "material": "metal",
+      "recolourable": true
+    },
+    {
+      "id": "wood",
+      "material": "wood",
+      "recolourable": true
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "id": "ois.design.task-desk-light",
+  "sha256": "unexported-source-a6a97ed1ff18ea7190f4c07e8ea17b6dba901563a653d7aed874183539ef16c1",
+  "sourceModel": null,
+  "sourceSha256": "a6a97ed1ff18ea7190f4c07e8ea17b6dba901563a653d7aed874183539ef16c1",
+  "partCount": 3,
+  "componentCount": 1,
+  "components": [
+    {
+      "parts": [
+        "weighted base",
+        "task arm",
+        "task shade"
+      ],
+      "minimum": [
+        -0.12999999523162842,
+        -0.12999999523162842,
+        0.0
+      ],
+      "maximum": [
+        0.3737071752548218,
+        0.12999999523162842,
+        0.6266310811042786
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "task arm",
+      "b": "weighted base",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "task shade",
+      "b": "task arm",
+      "method": "triangle intersection",
+      "distance": 0
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; live-source reports are NOT exported-asset evidence; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T03:19:57Z"
+}

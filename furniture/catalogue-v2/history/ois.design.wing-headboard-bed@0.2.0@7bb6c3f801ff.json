@@ -1,0 +1,167 @@
+{
+  "designId": "ois.design.wing-headboard-bed",
+  "familyId": "ois.family.wing-headboard-bed",
+  "id": "ois.design.wing-headboard-bed",
+  "name": "Wing headboard bed",
+  "roomTags": [
+    "bedroom"
+  ],
+  "theme": "coastal-linen",
+  "builder": "bed",
+  "parameters": {
+    "form": "wing-head",
+    "size": "queen",
+    "platform": 0.38
+  },
+  "distinction": "Headboard side wings project alongside the pillows.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted"
+  },
+  "bedSize": "queen",
+  "mattressMetres": [
+    1.524,
+    2.032,
+    0.22
+  ],
+  "safetyReviewRequired": false,
+  "sha256": "7bb6c3f801ff05b53dfd6a3993a19f191dbc510a996a2e0a51c048871e669d3b",
+  "bytes": 120736,
+  "triangles": 2308,
+  "vertices": 3230,
+  "drawPrimitives": 3,
+  "bounds": {
+    "min": [
+      -0.8819999694824219,
+      -2.992943248791846e-08,
+      -1.0873838430643858
+    ],
+    "max": [
+      0.8819999694824219,
+      1.32698255777359,
+      1.141000047326088
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 1.7639999389648438,
+    "depth": 2.228383890390474,
+    "height": 1.3269825877030226
+  },
+  "footprint": [
+    [
+      -0.8819999694824219,
+      -1.0873838430643858
+    ],
+    [
+      0.8819999694824219,
+      -1.0873838430643858
+    ],
+    [
+      0.8819999694824219,
+      1.141000047326088
+    ],
+    [
+      -0.8819999694824219,
+      1.141000047326088
+    ]
+  ],
+  "variantSlots": [
+    "fabric",
+    "linen",
+    "wood"
+  ],
+  "requiredExtensions": [],
+  "version": "0.2.0",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.wing-headboard-bed",
+  "file": "assets/v0.2.0/wing-headboard-bed.glb",
+  "sourceModel": "sources/v0.2.0/wing-headboard-bed.blend",
+  "thumbnail": "previews/v0.2.0/wing-headboard-bed.png",
+  "backThumbnail": "previews/v0.2.0/wing-headboard-bed-back.png",
+  "category": "beds",
+  "subtype": "wing-head",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "textures": {
+    "count": 0,
+    "bytes": 0
+  },
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.2.0/wing-headboard-bed.png",
+      "previews/v0.2.0/wing-headboard-bed-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.66,
+      0.53,
+      0.34
+    ],
+    [
+      0.36,
+      0.53,
+      0.58
+    ],
+    [
+      0.64,
+      0.6,
+      0.48
+    ]
+  ],
+  "colourTags": [
+    "mist blue",
+    "sand",
+    "pale oak"
+  ],
+  "materials": [
+    "textile",
+    "wood"
+  ],
+  "searchAliases": [
+    "bedroom",
+    "wing head"
+  ],
+  "materialSlots": [
+    {
+      "id": "fabric",
+      "material": "fabric",
+      "recolourable": true
+    },
+    {
+      "id": "linen",
+      "material": "linen",
+      "recolourable": true
+    },
+    {
+      "id": "wood",
+      "material": "wood",
+      "recolourable": true
+    }
+  ],
+  "geometryHash": "4d59cff4a1fb5e3954e4e191b66076de48dafeb06f54ddf2628b2d97263cdb17",
+  "normalizedMirrorGeometryHash": "1415c76b85cb91f62c2027a0b52ad99cee2e480c078913c816e2a8efbc543411"
+}

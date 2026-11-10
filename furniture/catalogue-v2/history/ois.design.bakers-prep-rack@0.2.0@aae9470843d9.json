@@ -1,0 +1,156 @@
+{
+  "designId": "ois.design.bakers-prep-rack",
+  "familyId": "ois.family.bakers-prep-rack",
+  "id": "ois.design.bakers-prep-rack",
+  "name": "Bakers preparation rack",
+  "roomTags": [
+    "kitchen"
+  ],
+  "theme": "coastal-linen",
+  "builder": "kitchen",
+  "parameters": {
+    "form": "bakers-rack",
+    "w": 1.0,
+    "d": 0.5,
+    "h": 1.65
+  },
+  "distinction": "Worktop at mid-height with separate raised display shelves.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted"
+  },
+  "constructionKey": "kitchen|bakers-rack|{}",
+  "sha256": "aae9470843d9cf239b16655ce707aa1a7078e1ca83d9b7c8a0cc2668ea954762",
+  "bytes": 38820,
+  "triangles": 804,
+  "vertices": 991,
+  "drawPrimitives": 2,
+  "bounds": {
+    "min": [
+      -0.5,
+      0.0,
+      -0.25
+    ],
+    "max": [
+      0.5,
+      1.6352263214066625,
+      0.25
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 1.0,
+    "depth": 0.5,
+    "height": 1.6352263214066625
+  },
+  "footprint": [
+    [
+      -0.5,
+      -0.25
+    ],
+    [
+      0.5,
+      -0.25
+    ],
+    [
+      0.5,
+      0.25
+    ],
+    [
+      -0.5,
+      0.25
+    ]
+  ],
+  "variantSlots": [
+    "metal",
+    "wood"
+  ],
+  "requiredExtensions": [],
+  "version": "0.2.0",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.bakers-prep-rack",
+  "file": "assets/v0.2.0/bakers-prep-rack.glb",
+  "sourceModel": "sources/v0.2.0/bakers-prep-rack.blend",
+  "thumbnail": "previews/v0.2.0/bakers-prep-rack.png",
+  "backThumbnail": "previews/v0.2.0/bakers-prep-rack-back.png",
+  "category": "cabinetry",
+  "subtype": "bakers-rack",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "textures": {
+    "count": 0,
+    "bytes": 0
+  },
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.2.0/bakers-prep-rack.png",
+      "previews/v0.2.0/bakers-prep-rack-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.66,
+      0.53,
+      0.34
+    ],
+    [
+      0.36,
+      0.53,
+      0.58
+    ],
+    [
+      0.64,
+      0.6,
+      0.48
+    ]
+  ],
+  "colourTags": [
+    "mist blue",
+    "sand",
+    "pale oak"
+  ],
+  "materials": [
+    "metal",
+    "wood"
+  ],
+  "searchAliases": [
+    "kitchen",
+    "bakers rack"
+  ],
+  "materialSlots": [
+    {
+      "id": "metal",
+      "material": "metal",
+      "recolourable": true
+    },
+    {
+      "id": "wood",
+      "material": "wood",
+      "recolourable": true
+    }
+  ],
+  "geometryHash": "7e024ca9290f2c33eee4376522f65e097799e3109e8c7547d0bf2a9375659087",
+  "normalizedMirrorGeometryHash": "0977ab0be2c80f7ceb966510d5762b6d463666cb8e89e84d7abbcd48b1e300c8"
+}

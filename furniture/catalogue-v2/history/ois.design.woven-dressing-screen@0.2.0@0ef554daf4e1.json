@@ -1,0 +1,156 @@
+{
+  "designId": "ois.design.woven-dressing-screen",
+  "familyId": "ois.family.woven-dressing-screen",
+  "id": "ois.design.woven-dressing-screen",
+  "name": "Woven dressing screen",
+  "roomTags": [
+    "bedroom"
+  ],
+  "theme": "coastal-linen",
+  "builder": "special",
+  "parameters": {
+    "form": "screen",
+    "w": 1.5,
+    "d": 0.04,
+    "h": 1.7,
+    "front": "cane"
+  },
+  "distinction": "Three hinged cane panels form a folded freestanding divider.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted"
+  },
+  "sha256": "0ef554daf4e110e81b729389f13fb5fb00d29a3df40e2b5bc4ae31a42cb3c7b2",
+  "bytes": 269876,
+  "triangles": 6036,
+  "vertices": 7223,
+  "drawPrimitives": 2,
+  "bounds": {
+    "min": [
+      -0.739211669269171,
+      -5.960464477539063e-08,
+      -0.27236193060611513
+    ],
+    "max": [
+      0.7392117853409466,
+      1.6600000262260437,
+      0.2663618928012443
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 1.4784234546101176,
+    "depth": 0.5387238234073595,
+    "height": 1.6600000858306885
+  },
+  "footprint": [
+    [
+      -0.739211669269171,
+      -0.27236193060611513
+    ],
+    [
+      0.7392117853409466,
+      -0.27236193060611513
+    ],
+    [
+      0.7392117853409466,
+      0.2663618928012443
+    ],
+    [
+      -0.739211669269171,
+      0.2663618928012443
+    ]
+  ],
+  "variantSlots": [
+    "cane",
+    "wood"
+  ],
+  "requiredExtensions": [],
+  "version": "0.2.0",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.woven-dressing-screen",
+  "file": "assets/v0.2.0/woven-dressing-screen.glb",
+  "sourceModel": "sources/v0.2.0/woven-dressing-screen.blend",
+  "thumbnail": "previews/v0.2.0/woven-dressing-screen.png",
+  "backThumbnail": "previews/v0.2.0/woven-dressing-screen-back.png",
+  "category": "specialty",
+  "subtype": "screen",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "textures": {
+    "count": 0,
+    "bytes": 0
+  },
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.2.0/woven-dressing-screen.png",
+      "previews/v0.2.0/woven-dressing-screen-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.66,
+      0.53,
+      0.34
+    ],
+    [
+      0.36,
+      0.53,
+      0.58
+    ],
+    [
+      0.64,
+      0.6,
+      0.48
+    ]
+  ],
+  "colourTags": [
+    "mist blue",
+    "sand",
+    "pale oak"
+  ],
+  "materials": [
+    "wood",
+    "woven-fibre"
+  ],
+  "searchAliases": [
+    "bedroom",
+    "screen"
+  ],
+  "materialSlots": [
+    {
+      "id": "cane",
+      "material": "cane",
+      "recolourable": true
+    },
+    {
+      "id": "wood",
+      "material": "wood",
+      "recolourable": true
+    }
+  ],
+  "geometryHash": "5579ae7d8a5719fd928bd32357c968b3b03a3a67c6bd38e3eb9e6e701b178d0c",
+  "normalizedMirrorGeometryHash": "036a5c6ff80b999ce3ee77c880d98c84c66728568ae3bd0781d54b5ef2ce25c8"
+}

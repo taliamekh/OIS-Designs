@@ -1,0 +1,212 @@
+{
+  "designId": "ois.design.mesh-clothes-cabinet",
+  "familyId": "ois.family.mesh-clothes-cabinet",
+  "id": "ois.design.mesh-clothes-cabinet",
+  "name": "Mesh clothes cabinet",
+  "roomTags": [
+    "bedroom"
+  ],
+  "theme": "city-loft",
+  "builder": "case",
+  "parameters": {
+    "form": "wardrobe",
+    "front": "mesh",
+    "w": 0.95,
+    "d": 0.58,
+    "h": 1.85,
+    "base": "sled"
+  },
+  "distinction": "Metal grid doors and exposed steel underframe surround hanging space.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted",
+    "sourceSnapshot": "sources/pipeline-03467462e382a0ba.py",
+    "sourceSha256": "03467462e382a0ba245e8af2ab96ea7d469161e176c6f1698b26d422f848f108",
+    "parametersFile": "sources/v0.3.0/mesh-clothes-cabinet.parameters.json"
+  },
+  "constructionKey": "case|wardrobe|{\"base\": \"sled\", \"cols\": 1, \"drawersTop\": false, \"front\": \"mesh\", \"rows\": 4}",
+  "sha256": "1abbd0aa53daaadfb7c472703b1d98d47d8ea79514cde8810d73abbace0f81db",
+  "bytes": 374440,
+  "triangles": 3884,
+  "vertices": 5414,
+  "drawPrimitives": 2,
+  "bounds": {
+    "min": [
+      -0.4749999940395355,
+      0.0,
+      -0.3460000157356262
+    ],
+    "max": [
+      0.4749999940395355,
+      1.84653040766716,
+      0.28999999165534973
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 0.949999988079071,
+    "depth": 0.636000007390976,
+    "height": 1.84653040766716
+  },
+  "footprint": [
+    [
+      -0.4749999940395355,
+      -0.3460000157356262
+    ],
+    [
+      0.4749999940395355,
+      -0.3460000157356262
+    ],
+    [
+      0.4749999940395355,
+      0.28999999165534973
+    ],
+    [
+      -0.4749999940395355,
+      0.28999999165534973
+    ]
+  ],
+  "variantSlots": [
+    "metal",
+    "wood"
+  ],
+  "requiredExtensions": [],
+  "textures": {
+    "count": 3,
+    "bytes": 174784,
+    "estimatedRgbaBytesWithMipmaps": 1048576,
+    "images": [
+      {
+        "name": "wood-normal",
+        "bytes": 102088,
+        "width": 256,
+        "height": 256,
+        "sha256": "6b8efcb5004552d884a527017922bfb5260b8bda4dc77f1365fe1cb8a09f1d56"
+      },
+      {
+        "name": "wood-neutral-base",
+        "bytes": 39353,
+        "width": 256,
+        "height": 256,
+        "sha256": "ddcf839a2addae78944a2d7a0588f9c2055852fc4ccb4e2dae2095d28541de44"
+      },
+      {
+        "name": "wood-roughness",
+        "bytes": 33343,
+        "width": 256,
+        "height": 256,
+        "sha256": "afc2180e58360e76fb178b52f225f7ba9045a7d0d266f10886763b0590335a1a"
+      }
+    ]
+  },
+  "version": "0.3.0",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.mesh-clothes-cabinet",
+  "file": "assets/v0.3.0/mesh-clothes-cabinet.glb",
+  "sourceModel": "sources/v0.3.0/mesh-clothes-cabinet.blend",
+  "thumbnail": "previews/v0.3.0/mesh-clothes-cabinet.png",
+  "backThumbnail": "previews/v0.3.0/mesh-clothes-cabinet-back.png",
+  "category": "storage",
+  "subtype": "wardrobe",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.3.0/mesh-clothes-cabinet.png",
+      "previews/v0.3.0/mesh-clothes-cabinet-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.04500000178813934,
+      0.05000000074505806,
+      0.054999999701976776
+    ],
+    [
+      0.23000000417232513,
+      0.15000000596046448,
+      0.09000000357627869
+    ]
+  ],
+  "colourTags": [
+    "black",
+    "weathered brown"
+  ],
+  "materials": [
+    "metal",
+    "wood"
+  ],
+  "searchAliases": [
+    "bedroom",
+    "wardrobe"
+  ],
+  "materialSlots": [
+    {
+      "id": "metal",
+      "material": "metal",
+      "recolourable": true
+    },
+    {
+      "id": "wood",
+      "material": "wood",
+      "recolourable": true
+    }
+  ],
+  "supportChecks": {
+    "method": "source-part upper-end ray to non-leg geometry, 15mm join tolerance",
+    "status": "pass",
+    "parts": [
+      {
+        "part": "sled frame",
+        "gapMetresAlongSupport": -8.940696710757479e-09,
+        "status": "pass"
+      },
+      {
+        "part": "sled frame.001",
+        "gapMetresAlongSupport": -8.940696710757479e-09,
+        "status": "pass"
+      }
+    ],
+    "limitation": "screening only; hidden joints, whole-model connectivity, load paths and safety remain visual/product-review concerns"
+  },
+  "materialFinish": {
+    "source": "materials/v1/manifest.json",
+    "repeatMetres": {
+      "wood": [
+        0.16,
+        0.75
+      ],
+      "fabric": [
+        0.14,
+        0.14
+      ],
+      "linen": [
+        0.12,
+        0.12
+      ]
+    },
+    "maps": "original base colour / roughness / tangent normal, embedded in GLB"
+  }
+}

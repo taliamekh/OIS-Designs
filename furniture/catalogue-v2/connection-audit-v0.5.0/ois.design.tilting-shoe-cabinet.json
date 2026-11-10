@@ -1,0 +1,279 @@
+{
+  "id": "ois.design.tilting-shoe-cabinet",
+  "sha256": "cd85b635e92efbf45081eb94a8252e6b7aa919614bc69a3e26d3accd37d4c328",
+  "sourceModel": "sources/v0.5.0/tilting-shoe-cabinet.blend",
+  "sourceSha256": "2812eb2ace8455477224cfc11c83ad4b6c3041b9700fe210316cfc751fb07f36",
+  "partCount": 22,
+  "componentCount": 7,
+  "components": [
+    {
+      "parts": [
+        "recessed plinth",
+        "bottom",
+        "top",
+        "side",
+        "side.001",
+        "shelf",
+        "shelf.001"
+      ],
+      "minimum": [
+        -0.42500001192092896,
+        -0.13500000536441803,
+        0.0
+      ],
+      "maximum": [
+        0.42500001192092896,
+        0.13500000536441803,
+        1.1200000047683716
+      ]
+    },
+    {
+      "parts": [
+        "tilt bin front",
+        "tilt bin bottom",
+        "triangular bin cheek",
+        "triangular bin cheek.001"
+      ],
+      "minimum": [
+        -0.39500001072883606,
+        -0.03980404511094093,
+        0.10845696181058884
+      ],
+      "maximum": [
+        0.39500001072883606,
+        0.2650103271007538,
+        0.3920994997024536
+      ]
+    },
+    {
+      "parts": [
+        "tilt bin front.001",
+        "tilt bin bottom.001",
+        "triangular bin cheek.002",
+        "triangular bin cheek.003"
+      ],
+      "minimum": [
+        -0.39500001072883606,
+        -0.039804037660360336,
+        0.4384569525718689
+      ],
+      "maximum": [
+        0.39500001072883606,
+        0.2650103271007538,
+        0.7220994830131531
+      ]
+    },
+    {
+      "parts": [
+        "tilt bin front.002",
+        "tilt bin bottom.002",
+        "triangular bin cheek.004",
+        "triangular bin cheek.005"
+      ],
+      "minimum": [
+        -0.39500001072883606,
+        -0.039804037660360336,
+        0.7684569954872131
+      ],
+      "maximum": [
+        0.39500001072883606,
+        0.26501035690307617,
+        1.0520994663238525
+      ]
+    },
+    {
+      "parts": [
+        "pull"
+      ],
+      "minimum": [
+        -0.07000000029802322,
+        0.265749990940094,
+        0.30805978178977966
+      ],
+      "maximum": [
+        0.07000000029802322,
+        0.2777390480041504,
+        0.32004883885383606
+      ]
+    },
+    {
+      "parts": [
+        "pull.001"
+      ],
+      "minimum": [
+        -0.07000000029802322,
+        0.265749990940094,
+        0.6380597949028015
+      ],
+      "maximum": [
+        0.07000000029802322,
+        0.2777390480041504,
+        0.6500489115715027
+      ]
+    },
+    {
+      "parts": [
+        "pull.002"
+      ],
+      "minimum": [
+        -0.07000000029802322,
+        0.265749990940094,
+        0.968059778213501
+      ],
+      "maximum": [
+        0.07000000029802322,
+        0.2777390480041504,
+        0.9800488948822021
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "bottom",
+      "b": "recessed plinth",
+      "method": "surface distance",
+      "distance": 1.5359765015432458e-08
+    },
+    {
+      "a": "side",
+      "b": "bottom",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "side",
+      "b": "top",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "side.001",
+      "b": "bottom",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "side.001",
+      "b": "top",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "shelf",
+      "b": "side",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "shelf",
+      "b": "side.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "shelf.001",
+      "b": "side",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "shelf.001",
+      "b": "side.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "tilt bin bottom",
+      "b": "tilt bin front",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "triangular bin cheek",
+      "b": "tilt bin front",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "triangular bin cheek",
+      "b": "tilt bin bottom",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "triangular bin cheek.001",
+      "b": "tilt bin front",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "triangular bin cheek.001",
+      "b": "tilt bin bottom",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "tilt bin bottom.001",
+      "b": "tilt bin front.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "triangular bin cheek.002",
+      "b": "tilt bin front.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "triangular bin cheek.002",
+      "b": "tilt bin bottom.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "triangular bin cheek.003",
+      "b": "tilt bin front.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "triangular bin cheek.003",
+      "b": "tilt bin bottom.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "tilt bin bottom.002",
+      "b": "tilt bin front.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "triangular bin cheek.004",
+      "b": "tilt bin front.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "triangular bin cheek.004",
+      "b": "tilt bin bottom.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "triangular bin cheek.005",
+      "b": "tilt bin front.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "triangular bin cheek.005",
+      "b": "tilt bin bottom.002",
+      "method": "triangle intersection",
+      "distance": 0
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T03:07:34Z"
+}

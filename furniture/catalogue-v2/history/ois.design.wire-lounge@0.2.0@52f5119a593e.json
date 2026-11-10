@@ -1,0 +1,152 @@
+{
+  "designId": "ois.design.wire-lounge",
+  "familyId": "ois.family.wire-lounge",
+  "id": "ois.design.wire-lounge",
+  "name": "Wire lattice lounge",
+  "roomTags": [
+    "living"
+  ],
+  "theme": "city-loft",
+  "builder": "seating",
+  "parameters": {
+    "form": "wire-chair"
+  },
+  "distinction": "Open tubular seat/back ribs and narrow cushion on cantilever rails.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted"
+  },
+  "sha256": "52f5119a593ef38bdccac120127c46b20a432de2031786f4ab1133e0f36cf68e",
+  "bytes": 29160,
+  "triangles": 884,
+  "vertices": 672,
+  "drawPrimitives": 2,
+  "bounds": {
+    "min": [
+      -0.3059999942779541,
+      0.0,
+      -0.3199999928474426
+    ],
+    "max": [
+      0.3059999942779541,
+      0.8590000551193953,
+      0.3100705146789551
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 0.6119999885559082,
+    "depth": 0.6300705075263977,
+    "height": 0.8590000551193953
+  },
+  "footprint": [
+    [
+      -0.3059999942779541,
+      -0.3199999928474426
+    ],
+    [
+      0.3059999942779541,
+      -0.3199999928474426
+    ],
+    [
+      0.3059999942779541,
+      0.3100705146789551
+    ],
+    [
+      -0.3059999942779541,
+      0.3100705146789551
+    ]
+  ],
+  "variantSlots": [
+    "fabric",
+    "metal"
+  ],
+  "requiredExtensions": [],
+  "version": "0.2.0",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.wire-lounge",
+  "file": "assets/v0.2.0/wire-lounge.glb",
+  "sourceModel": "sources/v0.2.0/wire-lounge.blend",
+  "thumbnail": "previews/v0.2.0/wire-lounge.png",
+  "backThumbnail": "previews/v0.2.0/wire-lounge-back.png",
+  "category": "seating",
+  "subtype": "wire-chair",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "textures": {
+    "count": 0,
+    "bytes": 0
+  },
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.2.0/wire-lounge.png",
+      "previews/v0.2.0/wire-lounge-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.23,
+      0.15,
+      0.09
+    ],
+    [
+      0.12,
+      0.14,
+      0.16
+    ],
+    [
+      0.045,
+      0.05,
+      0.055
+    ]
+  ],
+  "colourTags": [
+    "charcoal",
+    "black",
+    "weathered wood"
+  ],
+  "materials": [
+    "metal",
+    "textile"
+  ],
+  "searchAliases": [
+    "living",
+    "wire chair"
+  ],
+  "materialSlots": [
+    {
+      "id": "fabric",
+      "material": "fabric",
+      "recolourable": true
+    },
+    {
+      "id": "metal",
+      "material": "metal",
+      "recolourable": true
+    }
+  ],
+  "geometryHash": "5a2ef915e1a26bab0c4f9e0349e61332237328c5ba3c36b305bfdcc351e02acd",
+  "normalizedMirrorGeometryHash": "036f30d02ec010e7cbdb4966c030716c6851bc885e00e819e0545ae7c610d17d"
+}

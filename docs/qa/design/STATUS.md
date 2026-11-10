@@ -1,0 +1,103 @@
+# Independent design QA — live status
+
+## Opaque-wall gesture finding / publication ownership — 03:55 UTC
+
+QA-SPATIAL01 is reproduced in the real source-verified4d8d0e3d… browser: with cutaway off, the wholly hidden sofa selects through the opaque wall; dragging that wall keeps the camera fixed but saves sofa(3,4.1)→(2.9,3.2). Two negative cases fail/no errors; before/after images confirm actual occlusion. hit() chooses any item ray hit, bypassing nearer walls. Repair must respect opaque/visible ancestry and retain valid cutaway picking. This belongs to original PHONE_APP_PLAN Phases2/3. Coordinator now has explicit user GitHub publication authorization and is sole publisher; this QA continues only its owned files, without git mutations or new approval requests. Ready-checkpoint scope is recorded separately.
+
+## Ceiling repair passes / queued spatial phase — 03:49 UTC
+
+QA-CEIL01 now passes all5actual UI checks: explicit3.4m entry saves as override, floor/other-room defaults remain independent, and the shorter neighbouring ceiling still rejects a too-tall door. No captured errors. Earlier live500 was an incomplete boot, not a failed repair. Read updated preferences/decisions and NEXT_SPATIAL_PHASE.md: furniture owner moves to full3D placement/whole-house views after genuine library completion; production ownership remains with app. QA will evaluate integrated framing,occlusion,visibility,view-state immutability and phone layout; separate prototypes do not count as native. Current camelback fixture acceptance was withdrawn later, so its runtime/tint evidence is explicitly separated from current design counts.
+
+## Door repair matrix / remaining overlap — 03:47 UTC
+
+Numeric door fixes pass112 assertions across16actual layouts: four sides×two units×two phone sizes, room-specific corner values, actual full chain lengths, text within canvas and exact project preservation. QA-DOOR01/05 are resolved for this coverage. Fresh screenshot review then quantified QA-DOOR06: top/feet/320 selected5′5″ overlaps the ordinary Living room label by46%. The first catalogue restore repair still loses512→0 (10/11pass on stable samples), apparently gated by595px virtual content never reaching the759px restore threshold. Ceiling input repair is visible in source but its first live retest hit HTTP500 and is not a UI pass. Five-sheen UI/camera/isolation checks pass11; actual overview changes are subtle (max3/255), and semi-gloss/gloss coincide at this light/view angle, so glancing-angle appearance remains additional coverage.
+
+## Actual browser multitouch — 03:35 UTC
+
+Six new actual two-touch/cancel cases pass against immutable baa7f697…: 2D/3Dpinch changes view while preserving item/history, cancelled3Ddrag commits nothing, two-finger quick-door tap stamps nothing, and Walk remains project-readonly. DOM touch event counts verify real two-finger delivery; these are browser React handlers, not physical native gestures. Walk camera changes were observed and retained in the report; only project immutability was asserted. The Catalogue source changed after the scroll finding and is being reviewed for targeted retest; no broad unchanged suites are repeated.
+
+## Ceiling input finding / trim view — 03:27 UTC
+
+QA-CEIL01: typing3.4m in an inherited3m room ceiling field then Apply leaves the field3.4 but saved/effective height3.0, until the user manually switches off Use floor ceiling. Actual immutable UI5pass/1fail, no errors. Other room overrides and lowest-adjacent-ceiling door rejection pass. Room/floor inheritance should remain distinct, while explicit height entry must have a clear effect. Trim browser inspection now supplements root's144CPU endpoint cases: actual unequal-thickness trapezoid flat/ogee profiles render with joined corners/distinct silhouettes and preserve exact project bytes (4checks, no errors). New16-case dimension matrix is prepared for the door annotation repair: four sides × two units × two phone sizes, checking actual corner values, chain lengths and text boxes. It is not run against unchanged known-bad code simply for another count.
+
+## Partial-wall accuracy / draft closure — 03:18 UTC
+
+QA-DOOR05: actual plan wrongly repeats the shared segment's corner distances for both rooms when the room edges have different lengths.6×6Living / Kitchen sharing onlyz1..4: door physically startsz1.65, so Living chain should1.65/.90/3.45m; UI shows.65/.90/1.45m for both. Domain helper already returns correct room-specific values. Immutable a875374c… matches current Plan6132b4de…; door-partial-shared-web.json proves2pass/1fail with no errors. This needs both numeric and chain-endpoint correction, alongside existing annotation clipping. QA-FLOW02 is resolved: revised scrollable draft passes both320×568/390×8442×text scenarios with all critical actions reachable and normal creation complete. Browser stress remains separate from native Dynamic Type.
+
+## Fresh immutable UI — 03:15 UTC
+
+Door8/9: pocket correction/warning/history/repeat pass; the required outer chain is measurably cropped atx386..396 on390px. Current Plan6132b4de… matches the tested immutable a875374c… snapshot; source-map verification matches51compiled app files. Both room labels are now separated. QA-DOOR01 remains open for numerical visibility; QA-DOOR04 is resolved. Two-instance real textured-sofa UI passes5 cases with inspected before/after canvas images, direct3D touch selection, isolated fabric change, Undo,lock and cold reload. The985-slot/444record source callback fixture passes addressability/ambiguity checks, not design-count acceptance. Short-screen draft repair is next for actual retest. The live500 was bypassed using the runtime QA's existing immutable export; no shared server was restarted.
+
+## Catalogue finding — 03:06 UTC
+
+QA-CAT01 reproduces actual scroll loss: expanded catalogue scrollTop512 → place visible Bolster daybed → reopen at0/first row. Samples of all four tested source files are unchanged. Favourites/search combination, no-results retention, individual filter clears, fit/theme combination, real saved revision/recent, independent room queries and cold saved state otherwise work. The second false assertion used aria-selected on a button; correct the UI oracle before treating default-room selection as a defect. The reviewed-first sort now requires selecting an actually rendered card, not assuming legacy Linen sofa is in the virtualized initial window.
+
+## New short-screen draft finding — 03:04 UTC
+
+QA-FLOW02: actual320×568 dark draft with2× DOM text/line-height has no reachable Create action; the240px-minimum drawing view covers the remaining viewport and the footer cannot scroll into a usable area. Screenshot and normal-click failure are recorded in draft-text-web.json. The390×844 equivalent passes and creates the plan. This is browser layout stress, not physical/native Dynamic Type. Colour-wheel actual touch workflow passes8 cases (green hue from white→SV#408040, one-face save/recent, Undo/Redo hydration, invalid HEX, swatch reload), with no captured errors. Catalogue workflow harness is adapting to reviewed-first sorting/virtualization instead of assuming the legacy Linen sofa is initially rendered; no catalogue defect is inferred from that original selector timeout.
+
+## Floor draft closure — 02:57 UTC
+
+All15 real UI draft assertions pass. Blank/manual shared-edge rooms, overlap rejection, exact reload/resume of unfinished points, explicit square guide, archival reset, validated two-room creation and3.1m ceiling persistence work. Earlier QA-FLOW01 describes the superseded one-room-only branch and is now resolved by actual workflow evidence. Screenshot review confirms draft context; the footer scrolls to its actions. Additional narrow/text-growth and interruption edge cases remain separate coverage.
+
+## Current — 02:56 UTC
+
+Fresh real UI door audit with the production IndexedDB reader:7 pass/1 fail. Both-face plan chains, inline pocket-wall correction, quick repeat and stale Last opening after Undo are fixed. The remaining finding is an obsolete pocket error still displayed after the correction and actual persisted opening succeed (QA-DOOR04). Browser material regression passes8 checks, with visually inspected distinct planks/herringbone/slate and selected-wall brick/colour/sheen. Native clone source fixture now passes3 cases; coordinator independently accepted24. Physical EXGL remains unverified. New blank-floor draft UI audit is running. Read-only QA scope continues through06:53UTC.
+
+The web persistence test oracle was corrected: reading raw localStorage now sees only the legacy seed, because the app uses IndexedDB. The old timeout was a harness limitation, not evidence of a save failure. Updated probes execute the actual production adapter's read method.
+
+## Native source finding — 02:34 UTC
+
+P1 QA-NATIVE01: the actual surface-map clone callback drops the installed native loader's isDataTexture flag. A real Three fixture reproduces the lost adapter, and installed Three/EXGL source shows why its localUri upload payload must remain on the data path. See NATIVE_SOURCE_AUDIT.md and native-texture-source-probe.json. This is a native-source contract defect, not a physical-device result. The suspected raw RN Blob ArrayBuffer issue is already handled by installed R3F polyfills and is explicitly **not** reported as a blocker.
+
+## Latest — 02:26 UTC
+
+Fresh stable-source seeded UI:13 checks pass. Cross-tab wall paint hydration and2D missing-revision recovery are now resolved. All15 assertions across Square,L,drawn rectangle and crossed-outline UI paths pass. Optional recentColours validation passes4 cases. The concise current open board is whole-floor draft capability plus the three real door workflow/dimension/history findings. Next audit includes actual plan dimension/door controls and native-loader compatibility from matching installed source/docs, without claiming physical-device validation.
+
+## Current board — 02:18 UTC
+
+FINDINGS.md is now a concise current board; prior detail is preserved in FINDINGS_HISTORY.md. Latest2×/320px dark seven-screen stress passes after the responsive status-row fix. Downward-looking Walk screenshots visibly change from white oak in Living room to slate in Kitchen while exact project/lock bytes remain unchanged. Fresh live repeat-door audit reproduces three actionable gaps: both-face corner chains absent from placement plan, no direct resolution of pocket-wall thickness, and stale Last opening after Undo opening a generic Build menu. One-by-one repeat Undo/Redo work. New owner fixes for cross-tab paint state and2D missing markers are queued for independent retest. No production edit is in flight here.
+
+## Current follow-up — 02:03 UTC
+
+Owner fixes retested: all33 actual mesh checks pass (winding and casing findings resolved); fresh Create/Settings flows are console-clean; per-wall trim values hydrate correctly. A seeded actual UI reproduces two remaining issues: wall paint fields stay stale after switching the selected wall via Trim, and missing furniture cannot be located/selected in2D despite good3D recovery and preserved data. Connected-room Walk crosses the real portal, updates header, blocks editing and preserves exact project/lock bytes; separate downward floor-contrast evidence is next. Production ownership remains with the app owner; this chat makes no production edits.
+
+## New findings — 01:48 UTC
+
+Actual mesh audit:28 checks pass, four inward-wound trim profile cases fail FrontSide ray depth, and trim/casing termination overlaps12.5mm. See mesh-audit.json and QA-M01/M02 in FINDINGS for exact reproduction. This is real geometry/CPU ray evidence; native GPU remains unverified.
+
+Explicit320px dark text growth confirms a2× home-entry readability issue (short words split into letters because the status badge squeezes the text column). Other partial control rectangles were correctly classified as scroll diagnostics when labels/taps remain available. The first full1.5× matrix passed6 screens; its broadened rerun had a transient server500 at boot. Door-property flow and connected-room Walk still need actual UI evidence.
+
+## Current checkpoint — 01:24 UTC
+
+01:31 follow-up: stable390px editor web audit passes10 assertions (real3D visible, compact catalogue retains48% of renderer, room context preserved, Settings units convert open dimensions and Add room correctly, stored geometry unchanged). Two raw-text-in-View console warnings remain recorded; no native-device claim. Actual consumer/resolver/retained-binary catalogue audit passes641 assertions. Original raw-producer/regex checks are historical, not current failures. Selected-wall trim hydration, connected-room Walk rendering and large-text/narrow layouts are next.
+
+The coordinator-authorized three-file domain repair is returned in **DOMAIN_RETURN.md**; no production edit is in flight. **22 focused checks, 4,453 broader assertions, the app's15 tests, full TypeScript and scoped lint pass.** QA-D01..D09 now pass at module level; the underlying first-cycle evidence is retained. New invalid creation/import, pocket-cavity and U-notch cases are covered. The 300-item transform benchmark improved from~113ms to1–2ms median on this laptop. See final hashes, limitations and required app integration in the return document.
+
+The existing preview now loads its home at390×844 with two matching Coming soon badges, all three entry options, no page overflow and no captured errors. Screenshot: preview-home-390.png. This supersedes the earlier failed HTTP500 probe; it does not establish editor or native phone behaviour. Work continues as read-only UI/asset/renderer regression audit through06:53UTC. Production files require another explicit handoff before this chat edits them again.
+
+First-cycle record follows. Work remains active through the shared minimum-work gate **06:53 UTC / 01:53 America/Toronto**. This is an audit of an in-progress build, not an approval or overall completion report.
+
+## Evidence so far
+
+- Read current preferences, decisions, design contract, parity checklist and production source.
+- `probe-domain.cjs`: **18 independent checks: 9 pass, 9 reproduce a problem/gap**. Exact source hashes and observations are in `domain-results.json`.
+- Positive evidence: all 17 mutation command families plus undo/redo are blocked in Walk; locked furniture rejects transforms; lock Undo restores the original state; one-wall-face painting isolates the adjacent room; metre/feet helper round trips pass 2,000 values; generated trim profiles differ; walls have real geometric opening holes; encoded saves round-trip and corrupt-save backup/future-schema protection work in tested paths.
+- Prioritized reproductions and static concerns are in `FINDINGS.md`. Dynamic probes execute the production modules transpiled in memory and do not edit app files or persisted user data.
+- Catalogue room-tag mapping and asset version-conflict recovery are being added using real producer/consumer fixtures, per coordinator direction.
+
+## Evidence limits
+
+No claim yet of native execution, phone-sized browser smoke, successful iOS export, actual iPhone/Android gestures, GPU performance or thermal validation. Pure domain checks do not prove a screen works. Static findings are labelled separately until reproduced. The app owner is changing files concurrently; source hashes identify which implementation was tested. New increments will be reviewed and retested where they affect findings, rather than blindly rerunning an unchanged suite.
+
+## Ownership and next cycle
+
+This chat writes only `docs/qa/design/`. Production fixes belong to the app chat. Next: catalogue producer-contract fixture; missing/conflicting model recovery; isolated preview smoke if available; phone viewport/context preservation and unit-switch panel regressions; actual material/trim geometry audit; retest meaningful fixes.
+
+Run with the bundled Node executable from the repository root:
+
+```powershell
+& 'C:\Users\talia\.cache\codex-runtimes\codex-primary-runtime\dependencies\node\bin\node.exe' docs\qa\design\probe-domain.cjs
+```
+
+The harness writes its reports only beneath this QA directory and records production source SHA-256 digests.

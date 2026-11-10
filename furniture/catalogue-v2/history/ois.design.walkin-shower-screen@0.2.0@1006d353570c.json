@@ -1,0 +1,162 @@
+{
+  "designId": "ois.design.walkin-shower-screen",
+  "familyId": "ois.family.walkin-shower-screen",
+  "id": "ois.design.walkin-shower-screen",
+  "name": "Walk-in shower screens",
+  "roomTags": [
+    "bathroom"
+  ],
+  "theme": "soft-japandi",
+  "builder": "bath",
+  "parameters": {
+    "form": "shower-walkin",
+    "w": 1.2,
+    "d": 0.9
+  },
+  "distinction": "Open entrance between two side screens with no front door.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted"
+  },
+  "constructionKey": "bath|shower-walkin|{}",
+  "sha256": "1006d353570c170db0fbe1bf0a9898fd06e8bcf25bb12f64d29578c682f2c3d2",
+  "bytes": 44492,
+  "triangles": 852,
+  "vertices": 1121,
+  "drawPrimitives": 3,
+  "bounds": {
+    "min": [
+      -0.612000023946166,
+      0.0,
+      -0.44999998807907104
+    ],
+    "max": [
+      0.6119999885559353,
+      2.0,
+      0.4619999881833792
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 1.2240000125021013,
+    "depth": 0.9119999762624502,
+    "height": 2.0
+  },
+  "footprint": [
+    [
+      -0.612000023946166,
+      -0.44999998807907104
+    ],
+    [
+      0.6119999885559353,
+      -0.44999998807907104
+    ],
+    [
+      0.6119999885559353,
+      0.4619999881833792
+    ],
+    [
+      -0.612000023946166,
+      0.4619999881833792
+    ]
+  ],
+  "variantSlots": [
+    "ceramic",
+    "glass",
+    "metal"
+  ],
+  "requiredExtensions": [],
+  "version": "0.2.0",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.walkin-shower-screen",
+  "file": "assets/v0.2.0/walkin-shower-screen.glb",
+  "sourceModel": "sources/v0.2.0/walkin-shower-screen.blend",
+  "thumbnail": "previews/v0.2.0/walkin-shower-screen.png",
+  "backThumbnail": "previews/v0.2.0/walkin-shower-screen-back.png",
+  "category": "bathroom-fixtures",
+  "subtype": "shower-walkin",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "textures": {
+    "count": 0,
+    "bytes": 0
+  },
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.2.0/walkin-shower-screen.png",
+      "previews/v0.2.0/walkin-shower-screen-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.34,
+      0.28,
+      0.19
+    ],
+    [
+      0.58,
+      0.54,
+      0.44
+    ],
+    [
+      0.15,
+      0.17,
+      0.15
+    ]
+  ],
+  "colourTags": [
+    "ash",
+    "flax",
+    "stone"
+  ],
+  "materials": [
+    "ceramic",
+    "metal",
+    "opaque-glass-study"
+  ],
+  "searchAliases": [
+    "bathroom",
+    "shower walkin"
+  ],
+  "materialSlots": [
+    {
+      "id": "ceramic",
+      "material": "ceramic",
+      "recolourable": true
+    },
+    {
+      "id": "glass",
+      "material": "glass",
+      "recolourable": true
+    },
+    {
+      "id": "metal",
+      "material": "metal",
+      "recolourable": true
+    }
+  ],
+  "geometryHash": "409119a4025b03b8cf05ffcfaaddc072a19bd0947d49c2353fc4c08487799d49",
+  "normalizedMirrorGeometryHash": "1d16fed5d57db3ca3de87cbd23562e74c966a55ae4a66cea4b78f8477a0c9440"
+}

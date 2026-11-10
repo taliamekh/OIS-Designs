@@ -1,0 +1,37 @@
+{
+  "id": "ois.design.triangle-tulip-table",
+  "sha256": "b36fcc1684a01ca58550c5500ed0a42166ccbed3d29a56a43a1a6db1ac4f3e65",
+  "sourceModel": "sources/v0.7.0/triangle-tulip-table.blend",
+  "sourceSha256": "bfccd64d552466d9b165fe443c739224677fb98fb1085d372a6cfec093fba0ff",
+  "partCount": 2,
+  "componentCount": 1,
+  "components": [
+    {
+      "parts": [
+        "top",
+        "tulip pedestal"
+      ],
+      "minimum": [
+        -0.6000000238418579,
+        -0.4515000283718109,
+        0.0
+      ],
+      "maximum": [
+        0.6000000238418579,
+        0.5985000133514404,
+        0.75
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "tulip pedestal",
+      "b": "top",
+      "method": "triangle intersection",
+      "distance": 0
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; live-source reports are NOT exported-asset evidence; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T04:00:32Z"
+}

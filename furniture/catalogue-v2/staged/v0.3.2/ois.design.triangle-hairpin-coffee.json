@@ -1,0 +1,216 @@
+{
+  "designId": "ois.design.triangle-hairpin-coffee",
+  "familyId": "ois.family.triangle-hairpin-coffee",
+  "id": "ois.design.triangle-hairpin-coffee",
+  "name": "Triangle hairpin coffee table",
+  "roomTags": [
+    "living"
+  ],
+  "theme": "city-loft",
+  "builder": "table",
+  "parameters": {
+    "form": "hairpin",
+    "w": 1.0,
+    "d": 0.7,
+    "h": 0.4,
+    "shape": "triangle"
+  },
+  "distinction": "Triangular occasional top with three bent-wire supports placed inside its outline.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted",
+    "sourceSnapshot": "sources/pipeline-55642edf77b9875f.py",
+    "sourceSha256": "55642edf77b9875ff9620f3041b9999cee7807ac9d8ce9f01f78fdfc4bbc513f",
+    "parametersFile": "sources/v0.3.2/triangle-hairpin-coffee.parameters.json"
+  },
+  "constructionKey": "table|hairpin|{\"drawers\": false, \"shape\": \"triangle\", \"shelf\": false}",
+  "sha256": "c3754f572689399d537a61c4bdec418ccffe9d1cdabe68030b14789f52e8b244",
+  "bytes": 181240,
+  "triangles": 140,
+  "vertices": 90,
+  "drawPrimitives": 2,
+  "bounds": {
+    "min": [
+      -0.5,
+      0.0,
+      -0.39899998903274536
+    ],
+    "max": [
+      0.5,
+      0.3940000059083104,
+      0.3009999990463257
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 1.0,
+    "depth": 0.699999988079071,
+    "height": 0.3940000059083104
+  },
+  "footprint": [
+    [
+      -0.5,
+      -0.39899998903274536
+    ],
+    [
+      0.5,
+      -0.39899998903274536
+    ],
+    [
+      0.5,
+      0.3009999990463257
+    ],
+    [
+      -0.5,
+      0.3009999990463257
+    ]
+  ],
+  "variantSlots": [
+    "metal",
+    "wood"
+  ],
+  "requiredExtensions": [],
+  "textures": {
+    "count": 3,
+    "bytes": 174784,
+    "estimatedRgbaBytesWithMipmaps": 1048576,
+    "images": [
+      {
+        "name": "wood-normal",
+        "bytes": 102088,
+        "width": 256,
+        "height": 256,
+        "sha256": "6b8efcb5004552d884a527017922bfb5260b8bda4dc77f1365fe1cb8a09f1d56"
+      },
+      {
+        "name": "wood-neutral-base",
+        "bytes": 39353,
+        "width": 256,
+        "height": 256,
+        "sha256": "ddcf839a2addae78944a2d7a0588f9c2055852fc4ccb4e2dae2095d28541de44"
+      },
+      {
+        "name": "wood-roughness",
+        "bytes": 33343,
+        "width": 256,
+        "height": 256,
+        "sha256": "afc2180e58360e76fb178b52f225f7ba9045a7d0d266f10886763b0590335a1a"
+      }
+    ]
+  },
+  "version": "0.3.2",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.triangle-hairpin-coffee",
+  "file": "assets/v0.3.2/triangle-hairpin-coffee.glb",
+  "sourceModel": "sources/v0.3.2/triangle-hairpin-coffee.blend",
+  "thumbnail": "previews/v0.3.2/triangle-hairpin-coffee.png",
+  "backThumbnail": "previews/v0.3.2/triangle-hairpin-coffee-back.png",
+  "category": "tables",
+  "subtype": "hairpin",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.3.2/triangle-hairpin-coffee.png",
+      "previews/v0.3.2/triangle-hairpin-coffee-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.04500000178813934,
+      0.05000000074505806,
+      0.054999999701976776
+    ],
+    [
+      0.23000000417232513,
+      0.15000000596046448,
+      0.09000000357627869
+    ]
+  ],
+  "colourTags": [
+    "black",
+    "weathered brown"
+  ],
+  "materials": [
+    "metal",
+    "wood"
+  ],
+  "searchAliases": [
+    "living",
+    "hairpin"
+  ],
+  "materialSlots": [
+    {
+      "id": "metal",
+      "material": "metal",
+      "recolourable": true
+    },
+    {
+      "id": "wood",
+      "material": "wood",
+      "recolourable": true
+    }
+  ],
+  "supportChecks": {
+    "method": "source-part upper-end ray to non-leg geometry, 15mm join tolerance",
+    "status": "pass",
+    "parts": [
+      {
+        "part": "hairpin",
+        "gapMetresAlongSupport": 0.005000030994415289,
+        "status": "pass"
+      },
+      {
+        "part": "hairpin.001",
+        "gapMetresAlongSupport": 0.005000016093254095,
+        "status": "pass"
+      },
+      {
+        "part": "hairpin.002",
+        "gapMetresAlongSupport": 0.005000030994415289,
+        "status": "pass"
+      }
+    ],
+    "limitation": "screening only; hidden joints, whole-model connectivity, load paths and safety remain visual/product-review concerns"
+  },
+  "materialFinish": {
+    "source": "materials/v1/manifest.json",
+    "repeatMetres": {
+      "wood": [
+        0.16,
+        0.75
+      ],
+      "fabric": [
+        0.14,
+        0.14
+      ],
+      "linen": [
+        0.12,
+        0.12
+      ]
+    },
+    "maps": "original base colour / roughness / tangent normal, embedded in GLB"
+  }
+}

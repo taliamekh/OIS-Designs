@@ -1,0 +1,174 @@
+{
+  "designId": "ois.design.house-frame-floor-bed",
+  "familyId": "ois.family.house-frame-floor-bed",
+  "id": "ois.design.house-frame-floor-bed",
+  "name": "House frame floor bed",
+  "roomTags": [
+    "children"
+  ],
+  "theme": "calm-oak",
+  "builder": "bed",
+  "parameters": {
+    "form": "floor-house",
+    "size": "toddler"
+  },
+  "distinction": "Floor-level bed enclosed by a real pitched roof/ridge frame.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted"
+  },
+  "constructionKey": "bed|floor-house|{}",
+  "bedSize": "toddler",
+  "mattressMetres": [
+    0.7,
+    1.4,
+    0.22
+  ],
+  "safetyReviewRequired": true,
+  "sha256": "99e4867dba9a5890ae46c7a9df1fe356329bb80b5e0d31c25efc215b7de28cc5",
+  "bytes": 103596,
+  "triangles": 2096,
+  "vertices": 2705,
+  "drawPrimitives": 4,
+  "bounds": {
+    "min": [
+      -0.42800000309944153,
+      0.0,
+      -0.7879999876022339
+    ],
+    "max": [
+      0.42800000309944153,
+      1.9450000077486038,
+      0.7879999876022339
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 0.8560000061988831,
+    "depth": 1.5759999752044678,
+    "height": 1.9450000077486038
+  },
+  "footprint": [
+    [
+      -0.42800000309944153,
+      -0.7879999876022339
+    ],
+    [
+      0.42800000309944153,
+      -0.7879999876022339
+    ],
+    [
+      0.42800000309944153,
+      0.7879999876022339
+    ],
+    [
+      -0.42800000309944153,
+      0.7879999876022339
+    ]
+  ],
+  "variantSlots": [
+    "dark",
+    "fabric",
+    "linen",
+    "wood"
+  ],
+  "requiredExtensions": [],
+  "version": "0.2.0",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.house-frame-floor-bed",
+  "file": "assets/v0.2.0/house-frame-floor-bed.glb",
+  "sourceModel": "sources/v0.2.0/house-frame-floor-bed.blend",
+  "thumbnail": "previews/v0.2.0/house-frame-floor-bed.png",
+  "backThumbnail": "previews/v0.2.0/house-frame-floor-bed-back.png",
+  "category": "beds",
+  "subtype": "floor-house",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "textures": {
+    "count": 0,
+    "bytes": 0
+  },
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.2.0/house-frame-floor-bed.png",
+      "previews/v0.2.0/house-frame-floor-bed-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.58,
+      0.39,
+      0.2
+    ],
+    [
+      0.73,
+      0.7,
+      0.61
+    ],
+    [
+      0.12,
+      0.14,
+      0.13
+    ]
+  ],
+  "colourTags": [
+    "pale oak",
+    "ivory",
+    "oatmeal"
+  ],
+  "materials": [
+    "paint",
+    "textile",
+    "wood"
+  ],
+  "searchAliases": [
+    "children",
+    "floor house"
+  ],
+  "materialSlots": [
+    {
+      "id": "dark",
+      "material": "dark",
+      "recolourable": true
+    },
+    {
+      "id": "fabric",
+      "material": "fabric",
+      "recolourable": true
+    },
+    {
+      "id": "linen",
+      "material": "linen",
+      "recolourable": true
+    },
+    {
+      "id": "wood",
+      "material": "wood",
+      "recolourable": true
+    }
+  ],
+  "geometryHash": "6deaed42eeb8651b8d21f48f2bbbd62467f99426a6b1c41018243d31f28ce470",
+  "normalizedMirrorGeometryHash": "0d0b01294ee94181e8b2135b8d963628e9799d36d199c875631155ee32829803"
+}

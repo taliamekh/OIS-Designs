@@ -1,0 +1,555 @@
+{
+  "id": "ois.design.tilting-shoe-cabinet",
+  "sha256": "unexported-source-6226f7a5305865fd189dfcec35a3077205588e7999488a17cff703d94c6b1b9f",
+  "sourceModel": null,
+  "sourceSha256": "6226f7a5305865fd189dfcec35a3077205588e7999488a17cff703d94c6b1b9f",
+  "partCount": 40,
+  "componentCount": 1,
+  "components": [
+    {
+      "parts": [
+        "recessed plinth",
+        "bottom",
+        "top",
+        "side",
+        "side.001",
+        "shelf",
+        "shelf.001",
+        "tilt bin front",
+        "pull",
+        "pull mounting plate",
+        "pull mounting standoff",
+        "pull mounting standoff.001",
+        "tilt bin bottom",
+        "triangular bin cheek",
+        "triangular bin cheek.001",
+        "tilt bin hinge",
+        "bin hinge bracket",
+        "bin hinge bracket.001",
+        "tilt bin front.001",
+        "pull.001",
+        "pull mounting plate.001",
+        "pull mounting standoff.002",
+        "pull mounting standoff.003",
+        "tilt bin bottom.001",
+        "triangular bin cheek.002",
+        "triangular bin cheek.003",
+        "tilt bin hinge.001",
+        "bin hinge bracket.002",
+        "bin hinge bracket.003",
+        "tilt bin front.002",
+        "pull.002",
+        "pull mounting plate.002",
+        "pull mounting standoff.004",
+        "pull mounting standoff.005",
+        "tilt bin bottom.002",
+        "triangular bin cheek.004",
+        "triangular bin cheek.005",
+        "tilt bin hinge.002",
+        "bin hinge bracket.004",
+        "bin hinge bracket.005"
+      ],
+      "minimum": [
+        -0.42500001192092896,
+        -0.13500000536441803,
+        0.0
+      ],
+      "maximum": [
+        0.42500001192092896,
+        0.2777390480041504,
+        1.1200000047683716
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "bottom",
+      "b": "recessed plinth",
+      "method": "surface distance",
+      "distance": 3.725290298461914e-09
+    },
+    {
+      "a": "side",
+      "b": "bottom",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "side",
+      "b": "top",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "side.001",
+      "b": "bottom",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "side.001",
+      "b": "top",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "shelf",
+      "b": "side",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "shelf",
+      "b": "side.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "shelf.001",
+      "b": "side",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "shelf.001",
+      "b": "side.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pull mounting plate",
+      "b": "tilt bin front",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pull mounting standoff",
+      "b": "tilt bin front",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pull mounting standoff",
+      "b": "pull",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pull mounting standoff",
+      "b": "pull mounting plate",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pull mounting standoff.001",
+      "b": "tilt bin front",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pull mounting standoff.001",
+      "b": "pull",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pull mounting standoff.001",
+      "b": "pull mounting plate",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "tilt bin bottom",
+      "b": "tilt bin front",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "triangular bin cheek",
+      "b": "tilt bin front",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "triangular bin cheek",
+      "b": "tilt bin bottom",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "triangular bin cheek.001",
+      "b": "tilt bin front",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "triangular bin cheek.001",
+      "b": "tilt bin bottom",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "tilt bin hinge",
+      "b": "tilt bin front",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "tilt bin hinge",
+      "b": "tilt bin bottom",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "tilt bin hinge",
+      "b": "triangular bin cheek",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "tilt bin hinge",
+      "b": "triangular bin cheek.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "bin hinge bracket",
+      "b": "bottom",
+      "method": "surface distance",
+      "distance": 0.002913445234298706
+    },
+    {
+      "a": "bin hinge bracket",
+      "b": "side",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "bin hinge bracket",
+      "b": "tilt bin front",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "bin hinge bracket",
+      "b": "tilt bin hinge",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "bin hinge bracket.001",
+      "b": "bottom",
+      "method": "surface distance",
+      "distance": 0.002913445234298706
+    },
+    {
+      "a": "bin hinge bracket.001",
+      "b": "side.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "bin hinge bracket.001",
+      "b": "tilt bin front",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "bin hinge bracket.001",
+      "b": "tilt bin hinge",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pull mounting plate.001",
+      "b": "tilt bin front.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pull mounting standoff.002",
+      "b": "tilt bin front.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pull mounting standoff.002",
+      "b": "pull.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pull mounting standoff.002",
+      "b": "pull mounting plate.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pull mounting standoff.003",
+      "b": "tilt bin front.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pull mounting standoff.003",
+      "b": "pull.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pull mounting standoff.003",
+      "b": "pull mounting plate.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "tilt bin bottom.001",
+      "b": "tilt bin front.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "triangular bin cheek.002",
+      "b": "tilt bin front.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "triangular bin cheek.002",
+      "b": "tilt bin bottom.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "triangular bin cheek.003",
+      "b": "tilt bin front.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "triangular bin cheek.003",
+      "b": "tilt bin bottom.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "tilt bin hinge.001",
+      "b": "tilt bin front.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "tilt bin hinge.001",
+      "b": "tilt bin bottom.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "tilt bin hinge.001",
+      "b": "triangular bin cheek.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "tilt bin hinge.001",
+      "b": "triangular bin cheek.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "bin hinge bracket.002",
+      "b": "side",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "bin hinge bracket.002",
+      "b": "shelf",
+      "method": "surface distance",
+      "distance": 0.0022306221071630716
+    },
+    {
+      "a": "bin hinge bracket.002",
+      "b": "tilt bin front.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "bin hinge bracket.002",
+      "b": "tilt bin hinge.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "bin hinge bracket.003",
+      "b": "side.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "bin hinge bracket.003",
+      "b": "shelf",
+      "method": "surface distance",
+      "distance": 0.0022306221071630716
+    },
+    {
+      "a": "bin hinge bracket.003",
+      "b": "tilt bin front.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "bin hinge bracket.003",
+      "b": "tilt bin hinge.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pull mounting plate.002",
+      "b": "tilt bin front.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pull mounting standoff.004",
+      "b": "tilt bin front.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pull mounting standoff.004",
+      "b": "pull.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pull mounting standoff.004",
+      "b": "pull mounting plate.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pull mounting standoff.005",
+      "b": "tilt bin front.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pull mounting standoff.005",
+      "b": "pull.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pull mounting standoff.005",
+      "b": "pull mounting plate.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "tilt bin bottom.002",
+      "b": "tilt bin front.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "triangular bin cheek.004",
+      "b": "tilt bin front.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "triangular bin cheek.004",
+      "b": "tilt bin bottom.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "triangular bin cheek.005",
+      "b": "tilt bin front.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "triangular bin cheek.005",
+      "b": "tilt bin bottom.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "tilt bin hinge.002",
+      "b": "tilt bin front.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "tilt bin hinge.002",
+      "b": "tilt bin bottom.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "tilt bin hinge.002",
+      "b": "triangular bin cheek.004",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "tilt bin hinge.002",
+      "b": "triangular bin cheek.005",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "bin hinge bracket.004",
+      "b": "side",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "bin hinge bracket.004",
+      "b": "shelf.001",
+      "method": "surface distance",
+      "distance": 0.003674214705824852
+    },
+    {
+      "a": "bin hinge bracket.004",
+      "b": "tilt bin front.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "bin hinge bracket.004",
+      "b": "tilt bin hinge.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "bin hinge bracket.005",
+      "b": "side.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "bin hinge bracket.005",
+      "b": "shelf.001",
+      "method": "surface distance",
+      "distance": 0.003674193751066923
+    },
+    {
+      "a": "bin hinge bracket.005",
+      "b": "tilt bin front.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "bin hinge bracket.005",
+      "b": "tilt bin hinge.002",
+      "method": "triangle intersection",
+      "distance": 0
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; live-source reports are NOT exported-asset evidence; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T03:36:33Z"
+}

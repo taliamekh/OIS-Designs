@@ -1,0 +1,44 @@
+{
+  "id": "ois.design.chimney-rangehood",
+  "sha256": "ccd3d9b56d5832727e97a22067244c9bf764e90bf3705478a52bc86e5bf2c3d8",
+  "sourceModel": "sources/v0.7.0/chimney-rangehood.blend",
+  "sourceSha256": "efc3246dca09c1b8984940728d33688b0e1ea4a6725d24735ca948806e97b490",
+  "partCount": 3,
+  "componentCount": 1,
+  "components": [
+    {
+      "parts": [
+        "hood canopy",
+        "flue",
+        "underside filter"
+      ],
+      "minimum": [
+        -0.44999998807907104,
+        -0.3100000023841858,
+        0.0
+      ],
+      "maximum": [
+        0.44999998807907104,
+        0.3100000023841858,
+        0.8500000238418579
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "flue",
+      "b": "hood canopy",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "underside filter",
+      "b": "hood canopy",
+      "method": "surface distance",
+      "distance": 0.0005000005476176739
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; live-source reports are NOT exported-asset evidence; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T04:00:30Z"
+}

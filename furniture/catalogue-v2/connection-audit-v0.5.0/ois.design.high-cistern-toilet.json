@@ -1,0 +1,66 @@
+{
+  "id": "ois.design.high-cistern-toilet",
+  "sha256": "fd197fa81cb12f36668b9172c60df15f6ac50d5384b980638e6b00424feeb82b",
+  "sourceModel": "sources/v0.5.0/high-cistern-toilet.blend",
+  "sourceSha256": "a613d8b0bafdcffed3a5df74e490eb3e4949bb5c49ff91d655eba5854d2b02e9",
+  "partCount": 5,
+  "componentCount": 2,
+  "components": [
+    {
+      "parts": [
+        "toilet pedestal",
+        "hollow bowl",
+        "seat rim"
+      ],
+      "minimum": [
+        -0.24899999797344208,
+        -0.3125,
+        0.0
+      ],
+      "maximum": [
+        0.24899999797344208,
+        0.343999981880188,
+        0.4989999830722809
+      ]
+    },
+    {
+      "parts": [
+        "high cistern",
+        "flush pipe"
+      ],
+      "minimum": [
+        -0.22499999403953552,
+        -0.36000001430511475,
+        0.5500000715255737
+      ],
+      "maximum": [
+        0.22499999403953552,
+        -0.20000000298023224,
+        1.709999918937683
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "hollow bowl",
+      "b": "toilet pedestal",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "seat rim",
+      "b": "hollow bowl",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "flush pipe",
+      "b": "high cistern",
+      "method": "triangle intersection",
+      "distance": 0
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T03:07:32Z"
+}

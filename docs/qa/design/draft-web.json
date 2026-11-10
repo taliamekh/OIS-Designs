@@ -1,0 +1,504 @@
+{
+  "timestamp": "2026-11-10T02:56:27.649Z",
+  "evidence": "Isolated real Expo web draft UI and production durable web adapter; no device claim",
+  "storageOracle": {
+    "kind": "Production IndexedStorage.getItem, with its read-only legacy fallback",
+    "file": "mobile/src/storage/indexedStore.ts",
+    "sha256": "9943012679fd85da975028e6165febf8e149242bfef7b0a63f7ab6b98f76383d"
+  },
+  "runs": [
+    {
+      "scenario": "blank-resume-shared",
+      "checks": [
+        {
+          "id": "blank-is-draft-not-invalid-project",
+          "pass": true
+        },
+        {
+          "id": "first-room-stays-unsaved-draft",
+          "pass": true,
+          "observed": {
+            "id": "room-mwa3mghg-1o0msyq",
+            "name": "Living room",
+            "kind": "living",
+            "polygon": [
+              {
+                "x": 1,
+                "z": 1
+              },
+              {
+                "x": 4,
+                "z": 1
+              },
+              {
+                "x": 4,
+                "z": 4
+              },
+              {
+                "x": 1,
+                "z": 4
+              }
+            ],
+            "ceiling": null,
+            "floorFinish": {
+              "id": "white-oak",
+              "repeat": 2,
+              "angle": 0
+            },
+            "wallFaces": {},
+            "trim": {
+              "profile": "flat",
+              "height": 0.1,
+              "projection": 0.016,
+              "colour": "#eeeae2",
+              "sheen": "satin"
+            },
+            "trimOverrides": {}
+          }
+        },
+        {
+          "id": "overlap-rejected-in-ui",
+          "pass": true
+        },
+        {
+          "id": "shared-edge-accepted-with-room-type",
+          "pass": true
+        },
+        {
+          "id": "unfinished-room-blocks-create",
+          "pass": true
+        },
+        {
+          "id": "reload-resumes-exact-rooms-and-points",
+          "pass": true,
+          "observed": {
+            "before": {
+              "version": 1,
+              "rooms": [
+                {
+                  "id": "room-mwa3mghg-1o0msyq",
+                  "name": "Living room",
+                  "kind": "living",
+                  "polygon": [
+                    {
+                      "x": 1,
+                      "z": 1
+                    },
+                    {
+                      "x": 4,
+                      "z": 1
+                    },
+                    {
+                      "x": 4,
+                      "z": 4
+                    },
+                    {
+                      "x": 1,
+                      "z": 4
+                    }
+                  ],
+                  "ceiling": null,
+                  "floorFinish": {
+                    "id": "white-oak",
+                    "repeat": 2,
+                    "angle": 0
+                  },
+                  "wallFaces": {},
+                  "trim": {
+                    "profile": "flat",
+                    "height": 0.1,
+                    "projection": 0.016,
+                    "colour": "#eeeae2",
+                    "sheen": "satin"
+                  },
+                  "trimOverrides": {}
+                },
+                {
+                  "id": "room-mwa3mh0e-nr1fsjg",
+                  "name": "Kitchen",
+                  "kind": "kitchen",
+                  "polygon": [
+                    {
+                      "x": 4,
+                      "z": 1
+                    },
+                    {
+                      "x": 7,
+                      "z": 1
+                    },
+                    {
+                      "x": 7,
+                      "z": 4
+                    },
+                    {
+                      "x": 4,
+                      "z": 4
+                    }
+                  ],
+                  "ceiling": null,
+                  "floorFinish": {
+                    "id": "white-oak",
+                    "repeat": 2,
+                    "angle": 0
+                  },
+                  "wallFaces": {},
+                  "trim": {
+                    "profile": "flat",
+                    "height": 0.1,
+                    "projection": 0.016,
+                    "colour": "#eeeae2",
+                    "sheen": "satin"
+                  },
+                  "trimOverrides": {}
+                }
+              ],
+              "points": [
+                {
+                  "x": 7,
+                  "z": 4
+                },
+                {
+                  "x": 8,
+                  "z": 4
+                }
+              ],
+              "kind": "kitchen",
+              "height": "2.700",
+              "unit": "m"
+            },
+            "after": {
+              "version": 1,
+              "rooms": [
+                {
+                  "id": "room-mwa3mghg-1o0msyq",
+                  "name": "Living room",
+                  "kind": "living",
+                  "polygon": [
+                    {
+                      "x": 1,
+                      "z": 1
+                    },
+                    {
+                      "x": 4,
+                      "z": 1
+                    },
+                    {
+                      "x": 4,
+                      "z": 4
+                    },
+                    {
+                      "x": 1,
+                      "z": 4
+                    }
+                  ],
+                  "ceiling": null,
+                  "floorFinish": {
+                    "id": "white-oak",
+                    "repeat": 2,
+                    "angle": 0
+                  },
+                  "wallFaces": {},
+                  "trim": {
+                    "profile": "flat",
+                    "height": 0.1,
+                    "projection": 0.016,
+                    "colour": "#eeeae2",
+                    "sheen": "satin"
+                  },
+                  "trimOverrides": {}
+                },
+                {
+                  "id": "room-mwa3mh0e-nr1fsjg",
+                  "name": "Kitchen",
+                  "kind": "kitchen",
+                  "polygon": [
+                    {
+                      "x": 4,
+                      "z": 1
+                    },
+                    {
+                      "x": 7,
+                      "z": 1
+                    },
+                    {
+                      "x": 7,
+                      "z": 4
+                    },
+                    {
+                      "x": 4,
+                      "z": 4
+                    }
+                  ],
+                  "ceiling": null,
+                  "floorFinish": {
+                    "id": "white-oak",
+                    "repeat": 2,
+                    "angle": 0
+                  },
+                  "wallFaces": {},
+                  "trim": {
+                    "profile": "flat",
+                    "height": 0.1,
+                    "projection": 0.016,
+                    "colour": "#eeeae2",
+                    "sheen": "satin"
+                  },
+                  "trimOverrides": {}
+                }
+              ],
+              "points": [
+                {
+                  "x": 7,
+                  "z": 4
+                },
+                {
+                  "x": 8,
+                  "z": 4
+                }
+              ],
+              "kind": "kitchen",
+              "height": "2.700",
+              "unit": "m"
+            }
+          }
+        },
+        {
+          "id": "real-multiroom-project-valid",
+          "pass": true,
+          "observed": {
+            "rooms": [
+              {
+                "id": "room-mwa3mghg-1o0msyq",
+                "name": "Living room",
+                "kind": "living",
+                "polygon": [
+                  {
+                    "x": 1,
+                    "z": 1
+                  },
+                  {
+                    "x": 4,
+                    "z": 1
+                  },
+                  {
+                    "x": 4,
+                    "z": 4
+                  },
+                  {
+                    "x": 1,
+                    "z": 4
+                  }
+                ],
+                "ceiling": null,
+                "floorFinish": {
+                  "id": "white-oak",
+                  "repeat": 2,
+                  "angle": 0
+                },
+                "wallFaces": {},
+                "trim": {
+                  "profile": "flat",
+                  "height": 0.1,
+                  "projection": 0.016,
+                  "colour": "#eeeae2",
+                  "sheen": "satin"
+                },
+                "trimOverrides": {}
+              },
+              {
+                "id": "room-mwa3mh0e-nr1fsjg",
+                "name": "Kitchen",
+                "kind": "kitchen",
+                "polygon": [
+                  {
+                    "x": 4,
+                    "z": 1
+                  },
+                  {
+                    "x": 7,
+                    "z": 1
+                  },
+                  {
+                    "x": 7,
+                    "z": 4
+                  },
+                  {
+                    "x": 4,
+                    "z": 4
+                  }
+                ],
+                "ceiling": null,
+                "floorFinish": {
+                  "id": "white-oak",
+                  "repeat": 2,
+                  "angle": 0
+                },
+                "wallFaces": {},
+                "trim": {
+                  "profile": "flat",
+                  "height": 0.1,
+                  "projection": 0.016,
+                  "colour": "#eeeae2",
+                  "sheen": "satin"
+                },
+                "trimOverrides": {}
+              }
+            ],
+            "validation": true
+          }
+        },
+        {
+          "id": "shared-edge-rebuilt-one-two-face-wall",
+          "pass": true,
+          "observed": [
+            {
+              "id": "wall:40000,10000:40000,40000",
+              "a": {
+                "x": 4,
+                "z": 1
+              },
+              "b": {
+                "x": 4,
+                "z": 4
+              },
+              "thickness": 0.12,
+              "faces": [
+                {
+                  "roomId": "room-mwa3mghg-1o0msyq",
+                  "reversed": false
+                },
+                {
+                  "roomId": "room-mwa3mh0e-nr1fsjg",
+                  "reversed": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ceiling-persisted-on-first-project",
+          "pass": true,
+          "observed": 3.1
+        },
+        {
+          "id": "completed-draft-cleared",
+          "pass": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": [],
+      "firstDraw": {
+        "box": {
+          "x": 0,
+          "y": 166,
+          "width": 390,
+          "height": 428
+        },
+        "scale": 34.2,
+        "points": [
+          [
+            1,
+            1
+          ],
+          [
+            4,
+            1
+          ],
+          [
+            4,
+            4
+          ],
+          [
+            1,
+            4
+          ]
+        ]
+      },
+      "completed": true
+    },
+    {
+      "scenario": "guide-reset",
+      "checks": [
+        {
+          "id": "blank-is-draft-not-invalid-project",
+          "pass": true
+        },
+        {
+          "id": "guide-is-explicit-room-template",
+          "pass": true,
+          "observed": {
+            "rooms": [
+              {
+                "id": "room-mwa3mnse-qrqrl49",
+                "name": "Living room",
+                "kind": "living",
+                "polygon": [
+                  {
+                    "x": 0,
+                    "z": 0
+                  },
+                  {
+                    "x": 4,
+                    "z": 0
+                  },
+                  {
+                    "x": 4,
+                    "z": 4
+                  },
+                  {
+                    "x": 0,
+                    "z": 4
+                  }
+                ],
+                "ceiling": null,
+                "floorFinish": {
+                  "id": "white-oak",
+                  "repeat": 2,
+                  "angle": 0
+                },
+                "wallFaces": {},
+                "trim": {
+                  "profile": "flat",
+                  "height": 0.1,
+                  "projection": 0.016,
+                  "colour": "#eeeae2",
+                  "sheen": "satin"
+                },
+                "trimOverrides": {}
+              }
+            ],
+            "height": "3.100"
+          }
+        },
+        {
+          "id": "start-new-clears-current-drawing",
+          "pass": true
+        },
+        {
+          "id": "reset-archives-exact-previous-bytes",
+          "pass": true,
+          "observed": {
+            "keys": [
+              "ois.floor-draft.v1.before-reset.draft-mwa3mqmd-l9rinv5"
+            ],
+            "exactCopy": true
+          }
+        },
+        {
+          "id": "reset-does-not-create-project",
+          "pass": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": [],
+      "completed": true
+    }
+  ],
+  "sources": {
+    "src/screens/Create.tsx": "ee8615b265bce78a18e1804ab94ff090b49b9ffd37be3032d04a3ffcaecdff07",
+    "src/screens/FloorPlanDraft.tsx": "5bb84805fad9a44e6f90db9d37fdb4843e6543b62c68f7ca929e623e8e5300b9",
+    "src/domain/draft.ts": "eabb7c9ccf78cb69fc9be28b7f326a37b253611044539f7ef319718417f4bf61"
+  },
+  "passed": 15,
+  "failed": 0
+}

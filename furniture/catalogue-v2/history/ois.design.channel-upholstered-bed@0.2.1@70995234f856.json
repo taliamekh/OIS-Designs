@@ -1,0 +1,169 @@
+{
+  "designId": "ois.design.channel-upholstered-bed",
+  "familyId": "ois.family.channel-upholstered-bed",
+  "id": "ois.design.channel-upholstered-bed",
+  "name": "Channel headboard bed",
+  "roomTags": [
+    "bedroom"
+  ],
+  "theme": "calm-oak",
+  "builder": "bed",
+  "parameters": {
+    "form": "channel-head",
+    "size": "queen",
+    "platform": 0.38
+  },
+  "distinction": "Nine broad upholstered headboard channels.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted",
+    "sourceSnapshot": "sources/pipeline-e797cb5c88af56f5.py",
+    "sourceSha256": "e797cb5c88af56f5b4455d819a512ab9be55f40e1fa2d0cb542aca7bb84b906f",
+    "parametersFile": "sources/v0.2.1/channel-upholstered-bed.parameters.json"
+  },
+  "constructionKey": "bed|channel-head|{}",
+  "bedSize": "queen",
+  "mattressMetres": [
+    1.524,
+    2.032,
+    0.22
+  ],
+  "safetyReviewRequired": false,
+  "sha256": "70995234f8561f8807b8dee1f0958177c25a03f64a3093cc490f2ef05e6ecf9e",
+  "bytes": 185904,
+  "triangles": 3624,
+  "vertices": 5015,
+  "drawPrimitives": 3,
+  "bounds": {
+    "min": [
+      -0.8420000076293945,
+      -2.992943248791846e-08,
+      -1.0873838430643858
+    ],
+    "max": [
+      0.8420000076293945,
+      1.2719825506210327,
+      1.141000047326088
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 1.684000015258789,
+    "depth": 2.228383890390474,
+    "height": 1.2719825805504652
+  },
+  "footprint": [
+    [
+      -0.8420000076293945,
+      -1.0873838430643858
+    ],
+    [
+      0.8420000076293945,
+      -1.0873838430643858
+    ],
+    [
+      0.8420000076293945,
+      1.141000047326088
+    ],
+    [
+      -0.8420000076293945,
+      1.141000047326088
+    ]
+  ],
+  "variantSlots": [
+    "fabric",
+    "linen",
+    "wood"
+  ],
+  "requiredExtensions": [],
+  "version": "0.2.1",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.channel-upholstered-bed",
+  "file": "assets/v0.2.1/channel-upholstered-bed.glb",
+  "sourceModel": "sources/v0.2.1/channel-upholstered-bed.blend",
+  "thumbnail": "previews/v0.2.1/channel-upholstered-bed.png",
+  "backThumbnail": "previews/v0.2.1/channel-upholstered-bed-back.png",
+  "category": "beds",
+  "subtype": "channel-head",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "textures": {
+    "count": 0,
+    "bytes": 0
+  },
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.2.1/channel-upholstered-bed.png",
+      "previews/v0.2.1/channel-upholstered-bed-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.58,
+      0.39,
+      0.2
+    ],
+    [
+      0.73,
+      0.7,
+      0.61
+    ],
+    [
+      0.12,
+      0.14,
+      0.13
+    ]
+  ],
+  "colourTags": [
+    "pale oak",
+    "ivory",
+    "oatmeal"
+  ],
+  "materials": [
+    "textile",
+    "wood"
+  ],
+  "searchAliases": [
+    "bedroom",
+    "channel head"
+  ],
+  "materialSlots": [
+    {
+      "id": "fabric",
+      "material": "fabric",
+      "recolourable": true
+    },
+    {
+      "id": "linen",
+      "material": "linen",
+      "recolourable": true
+    },
+    {
+      "id": "wood",
+      "material": "wood",
+      "recolourable": true
+    }
+  ]
+}

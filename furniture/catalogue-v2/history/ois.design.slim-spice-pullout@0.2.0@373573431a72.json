@@ -1,0 +1,163 @@
+{
+  "designId": "ois.design.slim-spice-pullout",
+  "familyId": "ois.family.slim-spice-pullout",
+  "id": "ois.design.slim-spice-pullout",
+  "name": "Open spice pullout",
+  "roomTags": [
+    "kitchen"
+  ],
+  "theme": "soft-japandi",
+  "builder": "kitchen",
+  "parameters": {
+    "form": "spice-pullout",
+    "w": 0.22,
+    "d": 0.55,
+    "h": 0.88
+  },
+  "distinction": "Low narrow open rack with three basket supports and pullout face.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted"
+  },
+  "constructionKey": "kitchen|spice-pullout|{}",
+  "sha256": "373573431a72c1c775aadc6c9e542086d97d31e79185ed77f5c69f9508453a4a",
+  "bytes": 130740,
+  "triangles": 3868,
+  "vertices": 3255,
+  "drawPrimitives": 3,
+  "bounds": {
+    "min": [
+      -0.10999999940395355,
+      0.0,
+      -0.45100000500679016
+    ],
+    "max": [
+      0.10999999940395355,
+      0.879999965429306,
+      0.2750000059604645
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 0.2199999988079071,
+    "depth": 0.7260000109672546,
+    "height": 0.879999965429306
+  },
+  "footprint": [
+    [
+      -0.10999999940395355,
+      -0.45100000500679016
+    ],
+    [
+      0.10999999940395355,
+      -0.45100000500679016
+    ],
+    [
+      0.10999999940395355,
+      0.2750000059604645
+    ],
+    [
+      -0.10999999940395355,
+      0.2750000059604645
+    ]
+  ],
+  "variantSlots": [
+    "dark",
+    "metal",
+    "wood"
+  ],
+  "requiredExtensions": [],
+  "version": "0.2.0",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.slim-spice-pullout",
+  "file": "assets/v0.2.0/slim-spice-pullout.glb",
+  "sourceModel": "sources/v0.2.0/slim-spice-pullout.blend",
+  "thumbnail": "previews/v0.2.0/slim-spice-pullout.png",
+  "backThumbnail": "previews/v0.2.0/slim-spice-pullout-back.png",
+  "category": "cabinetry",
+  "subtype": "spice-pullout",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "textures": {
+    "count": 0,
+    "bytes": 0
+  },
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.2.0/slim-spice-pullout.png",
+      "previews/v0.2.0/slim-spice-pullout-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.34,
+      0.28,
+      0.19
+    ],
+    [
+      0.58,
+      0.54,
+      0.44
+    ],
+    [
+      0.15,
+      0.17,
+      0.15
+    ]
+  ],
+  "colourTags": [
+    "ash",
+    "flax",
+    "stone"
+  ],
+  "materials": [
+    "metal",
+    "paint",
+    "wood"
+  ],
+  "searchAliases": [
+    "kitchen",
+    "spice pullout"
+  ],
+  "materialSlots": [
+    {
+      "id": "dark",
+      "material": "dark",
+      "recolourable": true
+    },
+    {
+      "id": "metal",
+      "material": "metal",
+      "recolourable": true
+    },
+    {
+      "id": "wood",
+      "material": "wood",
+      "recolourable": true
+    }
+  ],
+  "geometryHash": "2b618ac0305a82551ec137c061324e52c1f1ce19ddee2ca4af56086fc1486156",
+  "normalizedMirrorGeometryHash": "2eff0e82471c825ba3f901db83117059c9b252645cdd73a31b3a4203d7b9a330"
+}

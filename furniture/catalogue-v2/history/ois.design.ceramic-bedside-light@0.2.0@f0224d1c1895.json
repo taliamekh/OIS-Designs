@@ -1,0 +1,152 @@
+{
+  "designId": "ois.design.ceramic-bedside-light",
+  "familyId": "ois.family.ceramic-bedside-light",
+  "id": "ois.design.ceramic-bedside-light",
+  "name": "Ceramic bedside lamp",
+  "roomTags": [
+    "bedroom"
+  ],
+  "theme": "coastal-linen",
+  "builder": "light",
+  "parameters": {
+    "form": "ceramic-table",
+    "h": 0.66
+  },
+  "distinction": "Turned ceramic body and open linen shade on a low footprint.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted"
+  },
+  "constructionKey": "light|ceramic-table|{}",
+  "sha256": "f0224d1c18958bc8e0e74c9c9b8b70749ee0a3e05c43d003b339d5d1e8e01ca1",
+  "bytes": 16828,
+  "triangles": 720,
+  "vertices": 440,
+  "drawPrimitives": 2,
+  "bounds": {
+    "min": [
+      -0.2199999988079071,
+      0.0,
+      -0.2199999988079071
+    ],
+    "max": [
+      0.2199999988079071,
+      0.6600000262260437,
+      0.2199999988079071
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 0.4399999976158142,
+    "depth": 0.4399999976158142,
+    "height": 0.6600000262260437
+  },
+  "footprint": [
+    [
+      -0.2199999988079071,
+      -0.2199999988079071
+    ],
+    [
+      0.2199999988079071,
+      -0.2199999988079071
+    ],
+    [
+      0.2199999988079071,
+      0.2199999988079071
+    ],
+    [
+      -0.2199999988079071,
+      0.2199999988079071
+    ]
+  ],
+  "variantSlots": [
+    "ceramic",
+    "linen"
+  ],
+  "requiredExtensions": [],
+  "version": "0.2.0",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.ceramic-bedside-light",
+  "file": "assets/v0.2.0/ceramic-bedside-light.glb",
+  "sourceModel": "sources/v0.2.0/ceramic-bedside-light.blend",
+  "thumbnail": "previews/v0.2.0/ceramic-bedside-light.png",
+  "backThumbnail": "previews/v0.2.0/ceramic-bedside-light-back.png",
+  "category": "lighting",
+  "subtype": "ceramic-table",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "textures": {
+    "count": 0,
+    "bytes": 0
+  },
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.2.0/ceramic-bedside-light.png",
+      "previews/v0.2.0/ceramic-bedside-light-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.66,
+      0.53,
+      0.34
+    ],
+    [
+      0.36,
+      0.53,
+      0.58
+    ],
+    [
+      0.64,
+      0.6,
+      0.48
+    ]
+  ],
+  "colourTags": [
+    "mist blue",
+    "sand",
+    "pale oak"
+  ],
+  "materials": [
+    "ceramic",
+    "textile"
+  ],
+  "searchAliases": [
+    "bedroom",
+    "ceramic table"
+  ],
+  "materialSlots": [
+    {
+      "id": "ceramic",
+      "material": "ceramic",
+      "recolourable": true
+    },
+    {
+      "id": "linen",
+      "material": "linen",
+      "recolourable": true
+    }
+  ]
+}

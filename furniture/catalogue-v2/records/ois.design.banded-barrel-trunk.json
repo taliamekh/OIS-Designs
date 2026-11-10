@@ -1,0 +1,157 @@
+{
+  "designId": "ois.design.banded-barrel-trunk",
+  "familyId": "ois.family.banded-barrel-trunk",
+  "id": "ois.design.banded-barrel-trunk",
+  "name": "Banded barrel trunk",
+  "roomTags": [
+    "storage"
+  ],
+  "theme": "city-loft",
+  "builder": "sculptural",
+  "parameters": {
+    "form": "ribbed-trunk",
+    "w": 1.0,
+    "d": 0.48,
+    "h": 0.53
+  },
+  "distinction": "Twin structural metal bands wrap over a barrel lid.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted",
+    "sourceSnapshot": "sources/pipeline-e797cb5c88af56f5.py",
+    "sourceSha256": "e797cb5c88af56f5b4455d819a512ab9be55f40e1fa2d0cb542aca7bb84b906f",
+    "parametersFile": "sources/v0.2.1/banded-barrel-trunk.parameters.json"
+  },
+  "constructionKey": "sculptural|ribbed-trunk|{}",
+  "sha256": "09c5e558c332ece4486ef3022ceb98192a3ad41a0c4bb4203456ecf0109e01aa",
+  "bytes": 37872,
+  "triangles": 1194,
+  "vertices": 884,
+  "drawPrimitives": 2,
+  "bounds": {
+    "min": [
+      -0.5,
+      0.0,
+      -0.2709999978542328
+    ],
+    "max": [
+      0.5,
+      0.5400000214576721,
+      0.25184208154678345
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 1.0,
+    "depth": 0.5228420794010162,
+    "height": 0.5400000214576721
+  },
+  "footprint": [
+    [
+      -0.5,
+      -0.2709999978542328
+    ],
+    [
+      0.5,
+      -0.2709999978542328
+    ],
+    [
+      0.5,
+      0.25184208154678345
+    ],
+    [
+      -0.5,
+      0.25184208154678345
+    ]
+  ],
+  "variantSlots": [
+    "metal",
+    "wood"
+  ],
+  "requiredExtensions": [],
+  "version": "0.2.1",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.banded-barrel-trunk",
+  "file": "assets/v0.2.1/banded-barrel-trunk.glb",
+  "sourceModel": "sources/v0.2.1/banded-barrel-trunk.blend",
+  "thumbnail": "previews/v0.2.1/banded-barrel-trunk.png",
+  "backThumbnail": "previews/v0.2.1/banded-barrel-trunk-back.png",
+  "category": "sculptural-furniture",
+  "subtype": "ribbed-trunk",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "textures": {
+    "count": 0,
+    "bytes": 0
+  },
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.2.1/banded-barrel-trunk.png",
+      "previews/v0.2.1/banded-barrel-trunk-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.23,
+      0.15,
+      0.09
+    ],
+    [
+      0.12,
+      0.14,
+      0.16
+    ],
+    [
+      0.045,
+      0.05,
+      0.055
+    ]
+  ],
+  "colourTags": [
+    "charcoal",
+    "black",
+    "weathered wood"
+  ],
+  "materials": [
+    "metal",
+    "wood"
+  ],
+  "searchAliases": [
+    "storage",
+    "ribbed trunk"
+  ],
+  "materialSlots": [
+    {
+      "id": "metal",
+      "material": "metal",
+      "recolourable": true
+    },
+    {
+      "id": "wood",
+      "material": "wood",
+      "recolourable": true
+    }
+  ]
+}

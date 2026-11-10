@@ -1,0 +1,161 @@
+{
+  "designId": "ois.design.barrel-enclosure",
+  "familyId": "ois.family.barrel-enclosure",
+  "id": "ois.design.barrel-enclosure",
+  "name": "Barrel lounge chair",
+  "roomTags": [
+    "living"
+  ],
+  "theme": "soft-japandi",
+  "builder": "seating",
+  "parameters": {
+    "form": "barrel",
+    "w": 0.82,
+    "d": 0.8,
+    "h": 0.83
+  },
+  "distinction": "Continuous curved enclosing barrel shell with open front.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted"
+  },
+  "sha256": "769c1c5bc2eeb407aec4bf0d2ccde6b3035cb18fb15c5feaf253297216a42fd2",
+  "bytes": 39284,
+  "triangles": 912,
+  "vertices": 946,
+  "drawPrimitives": 3,
+  "bounds": {
+    "min": [
+      -0.40912216901779175,
+      -1.0379634651780378e-09,
+      -0.34599999338388443
+    ],
+    "max": [
+      0.40912216901779175,
+      0.8191721439361572,
+      0.3999999985098839
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 0.8182443380355835,
+    "depth": 0.7459999918937683,
+    "height": 0.8191721449741207
+  },
+  "footprint": [
+    [
+      -0.40912216901779175,
+      -0.34599999338388443
+    ],
+    [
+      0.40912216901779175,
+      -0.34599999338388443
+    ],
+    [
+      0.40912216901779175,
+      0.3999999985098839
+    ],
+    [
+      -0.40912216901779175,
+      0.3999999985098839
+    ]
+  ],
+  "variantSlots": [
+    "fabric",
+    "linen",
+    "wood"
+  ],
+  "requiredExtensions": [],
+  "version": "0.2.0",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.barrel-enclosure",
+  "file": "assets/v0.2.0/barrel-enclosure.glb",
+  "sourceModel": "sources/v0.2.0/barrel-enclosure.blend",
+  "thumbnail": "previews/v0.2.0/barrel-enclosure.png",
+  "backThumbnail": "previews/v0.2.0/barrel-enclosure-back.png",
+  "category": "seating",
+  "subtype": "barrel",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "textures": {
+    "count": 0,
+    "bytes": 0
+  },
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.2.0/barrel-enclosure.png",
+      "previews/v0.2.0/barrel-enclosure-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.34,
+      0.28,
+      0.19
+    ],
+    [
+      0.58,
+      0.54,
+      0.44
+    ],
+    [
+      0.15,
+      0.17,
+      0.15
+    ]
+  ],
+  "colourTags": [
+    "ash",
+    "flax",
+    "stone"
+  ],
+  "materials": [
+    "textile",
+    "wood"
+  ],
+  "searchAliases": [
+    "living",
+    "barrel"
+  ],
+  "materialSlots": [
+    {
+      "id": "fabric",
+      "material": "fabric",
+      "recolourable": true
+    },
+    {
+      "id": "linen",
+      "material": "linen",
+      "recolourable": true
+    },
+    {
+      "id": "wood",
+      "material": "wood",
+      "recolourable": true
+    }
+  ],
+  "geometryHash": "1ef4dc97eeb7bc47c9c68ce232dc4118757745cae3cc67109abe0d52986dbe3b",
+  "normalizedMirrorGeometryHash": "04035939483c1b3067f94f3a5d5c2bf9a865c8c4f97acc4e4f08d75d092baeb1"
+}

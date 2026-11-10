@@ -1,0 +1,135 @@
+{
+  "id": "ois.design.kidney-hairpin-vanity",
+  "sha256": "a3247680025550dc2d73879a2f376bda1ce9d1bbaccb5f5eefda46327c740ab5",
+  "sourceModel": "sources/v0.7.0/kidney-hairpin-vanity.blend",
+  "sourceSha256": "025231c9a4e6fc40f40dac1ff84b6892518373769e643097111fec4c2a7abf11",
+  "partCount": 10,
+  "componentCount": 1,
+  "components": [
+    {
+      "parts": [
+        "top",
+        "hairpin",
+        "hairpin.001",
+        "hairpin.002",
+        "hairpin.003",
+        "suspended drawer",
+        "pull",
+        "pull mounting plate",
+        "pull mounting standoff",
+        "pull mounting standoff.001"
+      ],
+      "minimum": [
+        -0.6899999976158142,
+        -0.24375002086162567,
+        0.0
+      ],
+      "maximum": [
+        0.6899999976158142,
+        0.35100001096725464,
+        0.7440000176429749
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "hairpin",
+      "b": "top",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "hairpin.001",
+      "b": "top",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "hairpin.002",
+      "b": "top",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "hairpin.003",
+      "b": "top",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "suspended drawer",
+      "b": "hairpin",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "suspended drawer",
+      "b": "hairpin.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "suspended drawer",
+      "b": "hairpin.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "suspended drawer",
+      "b": "hairpin.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pull",
+      "b": "suspended drawer",
+      "method": "point containment",
+      "distance": 0
+    },
+    {
+      "a": "pull mounting plate",
+      "b": "suspended drawer",
+      "method": "point containment",
+      "distance": 0
+    },
+    {
+      "a": "pull mounting standoff",
+      "b": "suspended drawer",
+      "method": "point containment",
+      "distance": 0
+    },
+    {
+      "a": "pull mounting standoff",
+      "b": "pull",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pull mounting standoff",
+      "b": "pull mounting plate",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pull mounting standoff.001",
+      "b": "suspended drawer",
+      "method": "point containment",
+      "distance": 0
+    },
+    {
+      "a": "pull mounting standoff.001",
+      "b": "pull",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pull mounting standoff.001",
+      "b": "pull mounting plate",
+      "method": "triangle intersection",
+      "distance": 0
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; live-source reports are NOT exported-asset evidence; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T04:00:31Z"
+}

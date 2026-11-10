@@ -1,0 +1,148 @@
+{
+  "id": "ois.design.tripod-linen-floor",
+  "sha256": "unexported-source-542a6b43ca4abc9d4f4ac88dc7bd803746dd198c350ababac32d73431ffd328b",
+  "sourceModel": null,
+  "sourceSha256": "542a6b43ca4abc9d4f4ac88dc7bd803746dd198c350ababac32d73431ffd328b",
+  "partCount": 11,
+  "componentCount": 1,
+  "components": [
+    {
+      "parts": [
+        "tripod",
+        "tripod.001",
+        "tripod.002",
+        "open shade",
+        "lamp socket mast",
+        "tripod collar spoke",
+        "tripod collar spoke.001",
+        "tripod collar spoke.002",
+        "shade spider",
+        "shade spider.001",
+        "shade spider.002"
+      ],
+      "minimum": [
+        -0.2199999988079071,
+        -0.28230923414230347,
+        -0.004147541709244251
+      ],
+      "maximum": [
+        0.32262295484542847,
+        0.2823091447353363,
+        1.5800000429153442
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "tripod collar spoke",
+      "b": "tripod",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "tripod collar spoke",
+      "b": "lamp socket mast",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "tripod collar spoke.001",
+      "b": "tripod.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "tripod collar spoke.001",
+      "b": "lamp socket mast",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "tripod collar spoke.001",
+      "b": "tripod collar spoke",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "tripod collar spoke.002",
+      "b": "tripod.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "tripod collar spoke.002",
+      "b": "lamp socket mast",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "tripod collar spoke.002",
+      "b": "tripod collar spoke",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "tripod collar spoke.002",
+      "b": "tripod collar spoke.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "shade spider",
+      "b": "open shade",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "shade spider",
+      "b": "lamp socket mast",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "shade spider.001",
+      "b": "open shade",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "shade spider.001",
+      "b": "lamp socket mast",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "shade spider.001",
+      "b": "shade spider",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "shade spider.002",
+      "b": "open shade",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "shade spider.002",
+      "b": "lamp socket mast",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "shade spider.002",
+      "b": "shade spider",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "shade spider.002",
+      "b": "shade spider.001",
+      "method": "triangle intersection",
+      "distance": 0
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; live-source reports are NOT exported-asset evidence; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T03:32:51Z"
+}

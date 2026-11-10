@@ -1,0 +1,154 @@
+{
+  "designId": "ois.design.ceramic-pedestal-basin",
+  "familyId": "ois.family.ceramic-pedestal-basin",
+  "id": "ois.design.ceramic-pedestal-basin",
+  "name": "Pedestal wash basin",
+  "roomTags": [
+    "bathroom"
+  ],
+  "theme": "calm-oak",
+  "builder": "bath",
+  "parameters": {
+    "form": "pedestal-sink"
+  },
+  "distinction": "Turned ceramic pedestal below a hollow oval basin.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted",
+    "sourceSnapshot": "sources/pipeline-e797cb5c88af56f5.py",
+    "sourceSha256": "e797cb5c88af56f5b4455d819a512ab9be55f40e1fa2d0cb542aca7bb84b906f",
+    "parametersFile": "sources/v0.2.1/ceramic-pedestal-basin.parameters.json"
+  },
+  "constructionKey": "bath|pedestal-sink|{}",
+  "sha256": "06ff9ed3a87c98795ed706fe3767e417f25521aaab79988351f7410c5a0e0c5e",
+  "bytes": 19256,
+  "triangles": 816,
+  "vertices": 469,
+  "drawPrimitives": 2,
+  "bounds": {
+    "min": [
+      -0.31200000643730164,
+      0.0,
+      -0.2443999946117401
+    ],
+    "max": [
+      0.31200000643730164,
+      1.0312906503677368,
+      0.2443999946117401
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 0.6240000128746033,
+    "depth": 0.4887999892234802,
+    "height": 1.0312906503677368
+  },
+  "footprint": [
+    [
+      -0.31200000643730164,
+      -0.2443999946117401
+    ],
+    [
+      0.31200000643730164,
+      -0.2443999946117401
+    ],
+    [
+      0.31200000643730164,
+      0.2443999946117401
+    ],
+    [
+      -0.31200000643730164,
+      0.2443999946117401
+    ]
+  ],
+  "variantSlots": [
+    "ceramic",
+    "metal"
+  ],
+  "requiredExtensions": [],
+  "version": "0.2.1",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.ceramic-pedestal-basin",
+  "file": "assets/v0.2.1/ceramic-pedestal-basin.glb",
+  "sourceModel": "sources/v0.2.1/ceramic-pedestal-basin.blend",
+  "thumbnail": "previews/v0.2.1/ceramic-pedestal-basin.png",
+  "backThumbnail": "previews/v0.2.1/ceramic-pedestal-basin-back.png",
+  "category": "bathroom-fixtures",
+  "subtype": "pedestal-sink",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "textures": {
+    "count": 0,
+    "bytes": 0
+  },
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.2.1/ceramic-pedestal-basin.png",
+      "previews/v0.2.1/ceramic-pedestal-basin-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.58,
+      0.39,
+      0.2
+    ],
+    [
+      0.73,
+      0.7,
+      0.61
+    ],
+    [
+      0.12,
+      0.14,
+      0.13
+    ]
+  ],
+  "colourTags": [
+    "pale oak",
+    "ivory",
+    "oatmeal"
+  ],
+  "materials": [
+    "ceramic",
+    "metal"
+  ],
+  "searchAliases": [
+    "bathroom",
+    "pedestal sink"
+  ],
+  "materialSlots": [
+    {
+      "id": "ceramic",
+      "material": "ceramic",
+      "recolourable": true
+    },
+    {
+      "id": "metal",
+      "material": "metal",
+      "recolourable": true
+    }
+  ]
+}

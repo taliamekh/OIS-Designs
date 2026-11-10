@@ -1,0 +1,301 @@
+{
+  "id": "ois.design.slat-reclining-chair",
+  "sha256": "dab7be1d91468669cab7decddcde95ca3b1f59798a8b84dc2b9f4f272d2ce29c",
+  "sourceModel": "sources/v0.5.0/slat-reclining-chair.blend",
+  "sourceSha256": "94ef4de9a36c2bff7111ba5d16959de20b4825e01400d51e5f89dc99e066979c",
+  "partCount": 22,
+  "componentCount": 6,
+  "components": [
+    {
+      "parts": [
+        "front leg",
+        "rear frame",
+        "seat rail",
+        "front leg.001",
+        "rear frame.001",
+        "seat rail.001",
+        "seat plank",
+        "seat plank.001",
+        "seat plank.002",
+        "seat plank.003",
+        "seat plank.004",
+        "seat plank.005",
+        "seat plank.006",
+        "fan back plank",
+        "fan back plank.006",
+        "broad arm",
+        "broad arm.001"
+      ],
+      "minimum": [
+        -0.4350000023841858,
+        -0.46992236375808716,
+        -1.1175870895385742e-08
+      ],
+      "maximum": [
+        0.4350000023841858,
+        0.35499998927116394,
+        1.0061074495315552
+      ]
+    },
+    {
+      "parts": [
+        "fan back plank.001"
+      ],
+      "minimum": [
+        -0.2005000114440918,
+        -0.40838631987571716,
+        0.3817012906074524
+      ],
+      "maximum": [
+        -0.1274999976158142,
+        -0.2716136872768402,
+        1.0458519458770752
+      ]
+    },
+    {
+      "parts": [
+        "fan back plank.002"
+      ],
+      "minimum": [
+        -0.1185000017285347,
+        -0.41157266497612,
+        0.3819567561149597
+      ],
+      "maximum": [
+        -0.045500002801418304,
+        -0.2684273421764374,
+        1.0855964422225952
+      ]
+    },
+    {
+      "parts": [
+        "fan back plank.003"
+      ],
+      "minimum": [
+        -0.0364999994635582,
+        -0.4147590398788452,
+        0.38221222162246704
+      ],
+      "maximum": [
+        0.0364999994635582,
+        -0.26524096727371216,
+        1.1253410577774048
+      ]
+    },
+    {
+      "parts": [
+        "fan back plank.004"
+      ],
+      "minimum": [
+        0.045500002801418304,
+        -0.41157266497612,
+        0.3819567561149597
+      ],
+      "maximum": [
+        0.1185000017285347,
+        -0.2684273421764374,
+        1.0855964422225952
+      ]
+    },
+    {
+      "parts": [
+        "fan back plank.005"
+      ],
+      "minimum": [
+        0.1274999976158142,
+        -0.40838631987571716,
+        0.3817012906074524
+      ],
+      "maximum": [
+        0.2005000114440918,
+        -0.2716136872768402,
+        1.0458519458770752
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "seat rail",
+      "b": "front leg",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "seat rail",
+      "b": "rear frame",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "seat rail.001",
+      "b": "front leg.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "seat rail.001",
+      "b": "rear frame.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "seat plank",
+      "b": "seat rail",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "seat plank",
+      "b": "seat rail.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "seat plank.001",
+      "b": "seat rail",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "seat plank.001",
+      "b": "seat rail.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "seat plank.002",
+      "b": "seat rail",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "seat plank.002",
+      "b": "seat rail.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "seat plank.003",
+      "b": "seat rail",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "seat plank.003",
+      "b": "seat rail.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "seat plank.004",
+      "b": "rear frame",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "seat plank.004",
+      "b": "seat rail",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "seat plank.004",
+      "b": "rear frame.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "seat plank.004",
+      "b": "seat rail.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "seat plank.005",
+      "b": "rear frame",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "seat plank.005",
+      "b": "seat rail",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "seat plank.005",
+      "b": "rear frame.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "seat plank.005",
+      "b": "seat rail.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "seat plank.006",
+      "b": "front leg",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "seat plank.006",
+      "b": "rear frame",
+      "method": "surface distance",
+      "distance": 0.003590368665754795
+    },
+    {
+      "a": "seat plank.006",
+      "b": "seat rail",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "seat plank.006",
+      "b": "front leg.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "seat plank.006",
+      "b": "rear frame.001",
+      "method": "surface distance",
+      "distance": 0.003590356558561325
+    },
+    {
+      "a": "seat plank.006",
+      "b": "seat rail.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "broad arm",
+      "b": "front leg",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "broad arm",
+      "b": "fan back plank",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "broad arm.001",
+      "b": "front leg.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "broad arm.001",
+      "b": "fan back plank.006",
+      "method": "triangle intersection",
+      "distance": 0
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T03:05:53Z"
+}

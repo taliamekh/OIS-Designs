@@ -1,0 +1,152 @@
+{
+  "designId": "ois.design.banker-desk-light",
+  "familyId": "ois.family.banker-desk-light",
+  "id": "ois.design.banker-desk-light",
+  "name": "Banker desk lamp",
+  "roomTags": [
+    "office"
+  ],
+  "theme": "walnut-form",
+  "builder": "light",
+  "parameters": {
+    "form": "banker",
+    "h": 0.43
+  },
+  "distinction": "Long rounded task shade held by a two-sided brass bracket.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted"
+  },
+  "constructionKey": "light|banker|{}",
+  "sha256": "0635505e4f25aa08ab173dca06578868d47e4169e1d6e81be4c63b1c3f53c49d",
+  "bytes": 26196,
+  "triangles": 556,
+  "vertices": 641,
+  "drawPrimitives": 2,
+  "bounds": {
+    "min": [
+      -0.20999999344348907,
+      -1.862645149230957e-09,
+      -0.12999999523162842
+    ],
+    "max": [
+      0.20999999344348907,
+      0.4150000065565109,
+      0.12999999523162842
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 0.41999998688697815,
+    "depth": 0.25999999046325684,
+    "height": 0.4150000084191561
+  },
+  "footprint": [
+    [
+      -0.20999999344348907,
+      -0.12999999523162842
+    ],
+    [
+      0.20999999344348907,
+      -0.12999999523162842
+    ],
+    [
+      0.20999999344348907,
+      0.12999999523162842
+    ],
+    [
+      -0.20999999344348907,
+      0.12999999523162842
+    ]
+  ],
+  "variantSlots": [
+    "accent",
+    "metal"
+  ],
+  "requiredExtensions": [],
+  "version": "0.2.0",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.banker-desk-light",
+  "file": "assets/v0.2.0/banker-desk-light.glb",
+  "sourceModel": "sources/v0.2.0/banker-desk-light.blend",
+  "thumbnail": "previews/v0.2.0/banker-desk-light.png",
+  "backThumbnail": "previews/v0.2.0/banker-desk-light-back.png",
+  "category": "lighting",
+  "subtype": "banker",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "textures": {
+    "count": 0,
+    "bytes": 0
+  },
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.2.0/banker-desk-light.png",
+      "previews/v0.2.0/banker-desk-light-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.22,
+      0.09,
+      0.038
+    ],
+    [
+      0.39,
+      0.18,
+      0.07
+    ],
+    [
+      0.47,
+      0.3,
+      0.1
+    ]
+  ],
+  "colourTags": [
+    "walnut",
+    "tobacco",
+    "brass"
+  ],
+  "materials": [
+    "metal",
+    "paint"
+  ],
+  "searchAliases": [
+    "office",
+    "banker"
+  ],
+  "materialSlots": [
+    {
+      "id": "accent",
+      "material": "accent",
+      "recolourable": true
+    },
+    {
+      "id": "metal",
+      "material": "metal",
+      "recolourable": true
+    }
+  ]
+}

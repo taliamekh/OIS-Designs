@@ -1,0 +1,155 @@
+{
+  "designId": "ois.design.upholstered-dressing-stool",
+  "familyId": "ois.family.upholstered-dressing-stool",
+  "id": "ois.design.upholstered-dressing-stool",
+  "name": "Saddle dressing stool",
+  "roomTags": [
+    "bedroom"
+  ],
+  "theme": "walnut-form",
+  "builder": "seating",
+  "parameters": {
+    "form": "saddle-stool",
+    "w": 0.62,
+    "d": 0.4,
+    "h": 0.48
+  },
+  "distinction": "Oval saddle-shaped upholstered seat on four tapered legs.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted"
+  },
+  "sha256": "668352e85db71d57f9e0717b69b871cbb54f7716d95cb24fdc86b397046f84fb",
+  "bytes": 19672,
+  "triangles": 428,
+  "vertices": 458,
+  "drawPrimitives": 2,
+  "bounds": {
+    "min": [
+      -0.3100000023841858,
+      1.2002840665825687e-08,
+      -0.20000000298023224
+    ],
+    "max": [
+      0.3100000023841858,
+      0.4688066989183426,
+      0.20000000298023224
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 0.6200000047683716,
+    "depth": 0.4000000059604645,
+    "height": 0.4688066869155019
+  },
+  "footprint": [
+    [
+      -0.3100000023841858,
+      -0.20000000298023224
+    ],
+    [
+      0.3100000023841858,
+      -0.20000000298023224
+    ],
+    [
+      0.3100000023841858,
+      0.20000000298023224
+    ],
+    [
+      -0.3100000023841858,
+      0.20000000298023224
+    ]
+  ],
+  "variantSlots": [
+    "fabric",
+    "wood"
+  ],
+  "requiredExtensions": [],
+  "version": "0.2.0",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.upholstered-dressing-stool",
+  "file": "assets/v0.2.0/upholstered-dressing-stool.glb",
+  "sourceModel": "sources/v0.2.0/upholstered-dressing-stool.blend",
+  "thumbnail": "previews/v0.2.0/upholstered-dressing-stool.png",
+  "backThumbnail": "previews/v0.2.0/upholstered-dressing-stool-back.png",
+  "category": "seating",
+  "subtype": "saddle-stool",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "textures": {
+    "count": 0,
+    "bytes": 0
+  },
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.2.0/upholstered-dressing-stool.png",
+      "previews/v0.2.0/upholstered-dressing-stool-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.22,
+      0.09,
+      0.038
+    ],
+    [
+      0.39,
+      0.18,
+      0.07
+    ],
+    [
+      0.47,
+      0.3,
+      0.1
+    ]
+  ],
+  "colourTags": [
+    "walnut",
+    "tobacco",
+    "brass"
+  ],
+  "materials": [
+    "textile",
+    "wood"
+  ],
+  "searchAliases": [
+    "bedroom",
+    "saddle stool"
+  ],
+  "materialSlots": [
+    {
+      "id": "fabric",
+      "material": "fabric",
+      "recolourable": true
+    },
+    {
+      "id": "wood",
+      "material": "wood",
+      "recolourable": true
+    }
+  ],
+  "geometryHash": "1c6da8f07b7df11cf9f71bd04c7219fbb391804371651d5ee36c460649136e6b",
+  "normalizedMirrorGeometryHash": "12c04caec2147e501d053cecb85a9bbd3548e7db727dacfbc07524f49abd7da3"
+}

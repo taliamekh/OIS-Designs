@@ -1,0 +1,151 @@
+{
+  "designId": "ois.design.triangle-cone-table",
+  "familyId": "ois.family.triangle-cone-table",
+  "id": "ois.design.triangle-cone-table",
+  "name": "Triangular cone table",
+  "roomTags": [
+    "living"
+  ],
+  "theme": "soft-japandi",
+  "builder": "table",
+  "parameters": {
+    "form": "cone",
+    "w": 1.08,
+    "d": 0.62,
+    "h": 0.39,
+    "shape": "triangle"
+  },
+  "distinction": "Triangular top and tapering central cone have different plan silhouettes.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted",
+    "sourceSnapshot": "sources/pipeline-e797cb5c88af56f5.py",
+    "sourceSha256": "e797cb5c88af56f5b4455d819a512ab9be55f40e1fa2d0cb542aca7bb84b906f",
+    "parametersFile": "sources/v0.2.1/triangle-cone-table.parameters.json"
+  },
+  "constructionKey": "table|cone|{\"drawers\": false, \"shape\": \"triangle\", \"shelf\": false}",
+  "sha256": "24a782e3e50f7307fa3e0289e6622256618daf776055aab52cf96a4059be585c",
+  "bytes": 6884,
+  "triangles": 132,
+  "vertices": 148,
+  "drawPrimitives": 1,
+  "bounds": {
+    "min": [
+      -0.5400000214576721,
+      0.0,
+      -0.35339999198913574
+    ],
+    "max": [
+      0.5400000214576721,
+      0.38999998569488525,
+      0.26660001277923584
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 1.0800000429153442,
+    "depth": 0.6200000047683716,
+    "height": 0.38999998569488525
+  },
+  "footprint": [
+    [
+      -0.5400000214576721,
+      -0.35339999198913574
+    ],
+    [
+      0.5400000214576721,
+      -0.35339999198913574
+    ],
+    [
+      0.5400000214576721,
+      0.26660001277923584
+    ],
+    [
+      -0.5400000214576721,
+      0.26660001277923584
+    ]
+  ],
+  "variantSlots": [
+    "wood"
+  ],
+  "requiredExtensions": [],
+  "version": "0.2.1",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.triangle-cone-table",
+  "file": "assets/v0.2.1/triangle-cone-table.glb",
+  "sourceModel": "sources/v0.2.1/triangle-cone-table.blend",
+  "thumbnail": "previews/v0.2.1/triangle-cone-table.png",
+  "backThumbnail": "previews/v0.2.1/triangle-cone-table-back.png",
+  "category": "tables",
+  "subtype": "cone",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "textures": {
+    "count": 0,
+    "bytes": 0
+  },
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.2.1/triangle-cone-table.png",
+      "previews/v0.2.1/triangle-cone-table-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.34,
+      0.28,
+      0.19
+    ],
+    [
+      0.58,
+      0.54,
+      0.44
+    ],
+    [
+      0.15,
+      0.17,
+      0.15
+    ]
+  ],
+  "colourTags": [
+    "ash",
+    "flax",
+    "stone"
+  ],
+  "materials": [
+    "wood"
+  ],
+  "searchAliases": [
+    "living",
+    "cone"
+  ],
+  "materialSlots": [
+    {
+      "id": "wood",
+      "material": "wood",
+      "recolourable": true
+    }
+  ]
+}

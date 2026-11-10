@@ -1,0 +1,147 @@
+{
+  "designId": "ois.design.cross-panel-coffee",
+  "familyId": "ois.family.cross-panel-coffee",
+  "id": "ois.design.cross-panel-coffee",
+  "name": "Cross-panel coffee table",
+  "roomTags": [
+    "living"
+  ],
+  "theme": "calm-oak",
+  "builder": "sculptural",
+  "parameters": {
+    "form": "cross-panel-table",
+    "w": 0.9,
+    "d": 0.9,
+    "h": 0.39
+  },
+  "distinction": "Two interlocking perpendicular full-height timber panels.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted"
+  },
+  "constructionKey": "sculptural|cross-panel-table|{}",
+  "sha256": "2299614c786b079bdb01b5bde9742591da2626835a07cb258c0b79359bae916e",
+  "bytes": 34676,
+  "triangles": 564,
+  "vertices": 938,
+  "drawPrimitives": 1,
+  "bounds": {
+    "min": [
+      -0.44999998807907104,
+      0.0,
+      -0.44999998807907104
+    ],
+    "max": [
+      0.44999998807907104,
+      0.3900000099092722,
+      0.44999998807907104
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 0.8999999761581421,
+    "depth": 0.8999999761581421,
+    "height": 0.3900000099092722
+  },
+  "footprint": [
+    [
+      -0.44999998807907104,
+      -0.44999998807907104
+    ],
+    [
+      0.44999998807907104,
+      -0.44999998807907104
+    ],
+    [
+      0.44999998807907104,
+      0.44999998807907104
+    ],
+    [
+      -0.44999998807907104,
+      0.44999998807907104
+    ]
+  ],
+  "variantSlots": [
+    "wood"
+  ],
+  "requiredExtensions": [],
+  "version": "0.2.0",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.cross-panel-coffee",
+  "file": "assets/v0.2.0/cross-panel-coffee.glb",
+  "sourceModel": "sources/v0.2.0/cross-panel-coffee.blend",
+  "thumbnail": "previews/v0.2.0/cross-panel-coffee.png",
+  "backThumbnail": "previews/v0.2.0/cross-panel-coffee-back.png",
+  "category": "sculptural-furniture",
+  "subtype": "cross-panel-table",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "textures": {
+    "count": 0,
+    "bytes": 0
+  },
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.2.0/cross-panel-coffee.png",
+      "previews/v0.2.0/cross-panel-coffee-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.58,
+      0.39,
+      0.2
+    ],
+    [
+      0.73,
+      0.7,
+      0.61
+    ],
+    [
+      0.12,
+      0.14,
+      0.13
+    ]
+  ],
+  "colourTags": [
+    "pale oak",
+    "ivory",
+    "oatmeal"
+  ],
+  "materials": [
+    "wood"
+  ],
+  "searchAliases": [
+    "living",
+    "cross panel table"
+  ],
+  "materialSlots": [
+    {
+      "id": "wood",
+      "material": "wood",
+      "recolourable": true
+    }
+  ]
+}

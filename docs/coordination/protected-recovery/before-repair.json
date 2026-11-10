@@ -1,0 +1,49 @@
+{
+  "checkedAtUtc": "2026-11-10T02:29:25.135Z",
+  "before": {
+    "src/domain/persistence.ts": "f810b69b111a0dcc231d37d6a573ccca287533e3cdfa30772ac6aa7aff9c6c7e",
+    "src/storage/fileStore.ts": "06354b6663217a4da4ca7b0b47d5100e1076df6a99cc0bede7342040b3321ca7"
+  },
+  "after": {
+    "src/domain/persistence.ts": "f810b69b111a0dcc231d37d6a573ccca287533e3cdfa30772ac6aa7aff9c6c7e",
+    "src/storage/fileStore.ts": "06354b6663217a4da4ca7b0b47d5100e1076df6a99cc0bede7342040b3321ca7"
+  },
+  "stableSource": true,
+  "rows": [
+    {
+      "kind": "missing-primary",
+      "openedBackup": true,
+      "editingProtected": true,
+      "recoveryError": "Error: Injected missing payload",
+      "afterError": null,
+      "reopenedName": "verified backup",
+      "reopenedProtected": true,
+      "originalReadableBytesPreserved": true,
+      "pointerAfter": "payload-mwa2nk7g-5xxxl8k.json",
+      "originalPointer": "payload-mwa2nk7g-5xxxl8k.json",
+      "payloadFiles": [
+        "payload-mwa2nk7g-qkvswvb.json"
+      ],
+      "pass": false
+    },
+    {
+      "kind": "unreadable-primary",
+      "openedBackup": true,
+      "editingProtected": true,
+      "recoveryError": "Error: Injected payload read unavailable",
+      "afterError": null,
+      "reopenedName": "verified backup",
+      "reopenedProtected": true,
+      "originalReadableBytesPreserved": true,
+      "pointerAfter": "payload-mwa2nk7i-yqblon2.json",
+      "originalPointer": "payload-mwa2nk7i-yqblon2.json",
+      "payloadFiles": [
+        "payload-mwa2nk7i-ivpyygt.json",
+        "payload-mwa2nk7i-yqblon2.json"
+      ],
+      "pass": false
+    }
+  ],
+  "limits": "Production recovery/file-store logic with synthetic Map payloads and explicitly injected missing/read errors; not native filesystem/device failure or user data.",
+  "pass": false
+}

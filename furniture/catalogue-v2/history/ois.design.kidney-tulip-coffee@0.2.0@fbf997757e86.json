@@ -1,0 +1,155 @@
+{
+  "designId": "ois.design.kidney-tulip-coffee",
+  "familyId": "ois.family.kidney-tulip-coffee",
+  "id": "ois.design.kidney-tulip-coffee",
+  "name": "Kidney tulip coffee table",
+  "roomTags": [
+    "living"
+  ],
+  "theme": "walnut-form",
+  "builder": "table",
+  "parameters": {
+    "form": "tulip",
+    "w": 1.1,
+    "d": 0.65,
+    "h": 0.4,
+    "shape": "kidney"
+  },
+  "distinction": "Concave kidney top on a flared metal tulip foot.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted"
+  },
+  "constructionKey": "table|tulip|{\"drawers\": false, \"shape\": \"kidney\", \"shelf\": false}",
+  "sha256": "fbf997757e86236cb943e5d4bb16d8766ea14a3a6118a170161fee1ce788e952",
+  "bytes": 21092,
+  "triangles": 748,
+  "vertices": 608,
+  "drawPrimitives": 2,
+  "bounds": {
+    "min": [
+      -0.6600000262260437,
+      0.0,
+      -0.35100001096725464
+    ],
+    "max": [
+      0.6600000262260437,
+      0.4000000059604645,
+      0.2904999892115594
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 1.3200000524520874,
+    "depth": 0.641500000178814,
+    "height": 0.4000000059604645
+  },
+  "footprint": [
+    [
+      -0.6600000262260437,
+      -0.35100001096725464
+    ],
+    [
+      0.6600000262260437,
+      -0.35100001096725464
+    ],
+    [
+      0.6600000262260437,
+      0.2904999892115594
+    ],
+    [
+      -0.6600000262260437,
+      0.2904999892115594
+    ]
+  ],
+  "variantSlots": [
+    "metal",
+    "wood"
+  ],
+  "requiredExtensions": [],
+  "version": "0.2.0",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.kidney-tulip-coffee",
+  "file": "assets/v0.2.0/kidney-tulip-coffee.glb",
+  "sourceModel": "sources/v0.2.0/kidney-tulip-coffee.blend",
+  "thumbnail": "previews/v0.2.0/kidney-tulip-coffee.png",
+  "backThumbnail": "previews/v0.2.0/kidney-tulip-coffee-back.png",
+  "category": "tables",
+  "subtype": "tulip",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "textures": {
+    "count": 0,
+    "bytes": 0
+  },
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.2.0/kidney-tulip-coffee.png",
+      "previews/v0.2.0/kidney-tulip-coffee-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.22,
+      0.09,
+      0.038
+    ],
+    [
+      0.39,
+      0.18,
+      0.07
+    ],
+    [
+      0.47,
+      0.3,
+      0.1
+    ]
+  ],
+  "colourTags": [
+    "walnut",
+    "tobacco",
+    "brass"
+  ],
+  "materials": [
+    "metal",
+    "wood"
+  ],
+  "searchAliases": [
+    "living",
+    "tulip"
+  ],
+  "materialSlots": [
+    {
+      "id": "metal",
+      "material": "metal",
+      "recolourable": true
+    },
+    {
+      "id": "wood",
+      "material": "wood",
+      "recolourable": true
+    }
+  ]
+}

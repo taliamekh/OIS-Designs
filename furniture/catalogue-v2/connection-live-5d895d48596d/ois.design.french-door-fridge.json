@@ -1,0 +1,214 @@
+{
+  "id": "ois.design.french-door-fridge",
+  "sha256": "unexported-source-5d895d48596d1904d58f6d46821e68930ff8026c89e330f0004ff02f8ca332ff",
+  "sourceModel": null,
+  "sourceSha256": "5d895d48596d1904d58f6d46821e68930ff8026c89e330f0004ff02f8ca332ff",
+  "partCount": 17,
+  "componentCount": 1,
+  "components": [
+    {
+      "parts": [
+        "appliance shell side",
+        "appliance shell side.001",
+        "appliance shell back",
+        "appliance shell bottom",
+        "appliance shell top",
+        "insulated door",
+        "pull",
+        "pull mounting standoff",
+        "pull mounting standoff.001",
+        "insulated door.001",
+        "pull.001",
+        "pull mounting standoff.002",
+        "pull mounting standoff.003",
+        "freezer drawer",
+        "pull.002",
+        "pull mounting standoff.004",
+        "pull mounting standoff.005"
+      ],
+      "minimum": [
+        -0.44999998807907104,
+        -0.3100000023841858,
+        0.0
+      ],
+      "maximum": [
+        0.44999998807907104,
+        0.39100000262260437,
+        1.8200000524520874
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "appliance shell back",
+      "b": "appliance shell side",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "appliance shell back",
+      "b": "appliance shell side.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "appliance shell bottom",
+      "b": "appliance shell side",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "appliance shell bottom",
+      "b": "appliance shell side.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "appliance shell bottom",
+      "b": "appliance shell back",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "appliance shell top",
+      "b": "appliance shell side",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "appliance shell top",
+      "b": "appliance shell side.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "appliance shell top",
+      "b": "appliance shell back",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "insulated door",
+      "b": "appliance shell side",
+      "method": "surface distance",
+      "distance": 0.0010606464929878712
+    },
+    {
+      "a": "insulated door",
+      "b": "appliance shell top",
+      "method": "surface distance",
+      "distance": 0.0031819185242056847
+    },
+    {
+      "a": "pull mounting standoff",
+      "b": "insulated door",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pull mounting standoff",
+      "b": "pull",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pull mounting standoff.001",
+      "b": "insulated door",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pull mounting standoff.001",
+      "b": "pull",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "insulated door.001",
+      "b": "appliance shell side.001",
+      "method": "surface distance",
+      "distance": 0.0010606464929878712
+    },
+    {
+      "a": "insulated door.001",
+      "b": "appliance shell top",
+      "method": "surface distance",
+      "distance": 0.0031819185242056847
+    },
+    {
+      "a": "pull mounting standoff.002",
+      "b": "insulated door.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pull mounting standoff.002",
+      "b": "pull.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pull mounting standoff.003",
+      "b": "insulated door.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pull mounting standoff.003",
+      "b": "pull.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "freezer drawer",
+      "b": "insulated door",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "freezer drawer",
+      "b": "insulated door.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pull mounting standoff.004",
+      "b": "insulated door",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pull mounting standoff.004",
+      "b": "freezer drawer",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pull mounting standoff.004",
+      "b": "pull.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pull mounting standoff.005",
+      "b": "insulated door.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pull mounting standoff.005",
+      "b": "freezer drawer",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pull mounting standoff.005",
+      "b": "pull.002",
+      "method": "triangle intersection",
+      "distance": 0
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; live-source reports are NOT exported-asset evidence; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T03:15:11Z"
+}

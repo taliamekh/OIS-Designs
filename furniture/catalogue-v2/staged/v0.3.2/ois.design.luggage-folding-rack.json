@@ -1,0 +1,276 @@
+{
+  "designId": "ois.design.luggage-folding-rack",
+  "familyId": "ois.family.luggage-folding-rack",
+  "id": "ois.design.luggage-folding-rack",
+  "name": "Folding luggage rack",
+  "roomTags": [
+    "bedroom"
+  ],
+  "theme": "city-loft",
+  "builder": "special",
+  "parameters": {
+    "form": "luggage-rack",
+    "w": 0.68,
+    "d": 0.45,
+    "h": 0.53
+  },
+  "distinction": "Crossed X legs carry four separate textile luggage straps.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted",
+    "sourceSnapshot": "sources/pipeline-55642edf77b9875f.py",
+    "sourceSha256": "55642edf77b9875ff9620f3041b9999cee7807ac9d8ce9f01f78fdfc4bbc513f",
+    "parametersFile": "sources/v0.3.2/luggage-folding-rack.parameters.json"
+  },
+  "constructionKey": "special|luggage-rack|{\"cols\": 1, \"front\": \"cane\", \"panels\": 3}",
+  "sha256": "fd586d9f4f4ba16d36d778be0085ead77342afb5c3cce022f15dba2d1adf2fae",
+  "bytes": 315100,
+  "triangles": 992,
+  "vertices": 2543,
+  "drawPrimitives": 2,
+  "bounds": {
+    "min": [
+      -0.29217602529778214,
+      4.84117101962056e-09,
+      -0.22499999403953552
+    ],
+    "max": [
+      0.29217602466426823,
+      0.5688293079533879,
+      0.22499999403953552
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 0.5843520499620504,
+    "depth": 0.44999998807907104,
+    "height": 0.5688293031122169
+  },
+  "footprint": [
+    [
+      -0.29217602529778214,
+      -0.22499999403953552
+    ],
+    [
+      0.29217602466426823,
+      -0.22499999403953552
+    ],
+    [
+      0.29217602466426823,
+      0.22499999403953552
+    ],
+    [
+      -0.29217602529778214,
+      0.22499999403953552
+    ]
+  ],
+  "variantSlots": [
+    "fabric",
+    "wood"
+  ],
+  "requiredExtensions": [],
+  "textures": {
+    "count": 6,
+    "bytes": 183056,
+    "estimatedRgbaBytesWithMipmaps": 2097152,
+    "images": [
+      {
+        "name": "fabric-normal",
+        "bytes": 1016,
+        "width": 256,
+        "height": 256,
+        "sha256": "5bbac800a495c0a30042ad832a3ea134aa66afad65fa0dde59103733a54e886c"
+      },
+      {
+        "name": "fabric-neutral-base",
+        "bytes": 4495,
+        "width": 256,
+        "height": 256,
+        "sha256": "898e022cb5ea1b2663884e7306bbd2c09f25ab2827974bd1328a81bcab08b1ac"
+      },
+      {
+        "name": "fabric-roughness",
+        "bytes": 2761,
+        "width": 256,
+        "height": 256,
+        "sha256": "397e1c119de5e5939f7f1260cfeb7a715d695240776f51b974989073b638eeb6"
+      },
+      {
+        "name": "wood-normal",
+        "bytes": 102088,
+        "width": 256,
+        "height": 256,
+        "sha256": "6b8efcb5004552d884a527017922bfb5260b8bda4dc77f1365fe1cb8a09f1d56"
+      },
+      {
+        "name": "wood-neutral-base",
+        "bytes": 39353,
+        "width": 256,
+        "height": 256,
+        "sha256": "ddcf839a2addae78944a2d7a0588f9c2055852fc4ccb4e2dae2095d28541de44"
+      },
+      {
+        "name": "wood-roughness",
+        "bytes": 33343,
+        "width": 256,
+        "height": 256,
+        "sha256": "afc2180e58360e76fb178b52f225f7ba9045a7d0d266f10886763b0590335a1a"
+      }
+    ]
+  },
+  "version": "0.3.2",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.luggage-folding-rack",
+  "file": "assets/v0.3.2/luggage-folding-rack.glb",
+  "sourceModel": "sources/v0.3.2/luggage-folding-rack.blend",
+  "thumbnail": "previews/v0.3.2/luggage-folding-rack.png",
+  "backThumbnail": "previews/v0.3.2/luggage-folding-rack-back.png",
+  "category": "specialty",
+  "subtype": "luggage-rack",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.3.2/luggage-folding-rack.png",
+      "previews/v0.3.2/luggage-folding-rack-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.11999999731779099,
+      0.14000000059604645,
+      0.1599999964237213
+    ],
+    [
+      0.23000000417232513,
+      0.15000000596046448,
+      0.09000000357627869
+    ]
+  ],
+  "colourTags": [
+    "charcoal",
+    "weathered brown"
+  ],
+  "materials": [
+    "textile",
+    "wood"
+  ],
+  "searchAliases": [
+    "bedroom",
+    "luggage rack"
+  ],
+  "materialSlots": [
+    {
+      "id": "fabric",
+      "material": "fabric",
+      "recolourable": true
+    },
+    {
+      "id": "wood",
+      "material": "wood",
+      "recolourable": true
+    }
+  ],
+  "supportChecks": {
+    "method": "source-part upper-end ray to non-leg geometry, 15mm join tolerance",
+    "status": "needs-visual-review",
+    "parts": [
+      {
+        "part": "cross leg",
+        "gapMetresAlongSupport": null,
+        "status": "needs-visual-review"
+      },
+      {
+        "part": "cross leg.001",
+        "gapMetresAlongSupport": null,
+        "status": "needs-visual-review"
+      },
+      {
+        "part": "cross leg.002",
+        "gapMetresAlongSupport": null,
+        "status": "needs-visual-review"
+      },
+      {
+        "part": "cross leg.003",
+        "gapMetresAlongSupport": null,
+        "status": "needs-visual-review"
+      }
+    ],
+    "limitation": "screening only; hidden joints, whole-model connectivity, load paths and safety remain visual/product-review concerns"
+  },
+  "materialFinish": {
+    "source": "materials/v1/manifest.json",
+    "repeatMetres": {
+      "wood": [
+        0.16,
+        0.75
+      ],
+      "fabric": [
+        0.14,
+        0.14
+      ],
+      "linen": [
+        0.12,
+        0.12
+      ]
+    },
+    "maps": "original base colour / roughness / tangent normal, embedded in GLB"
+  },
+  "appearanceVariants": [
+    {
+      "id": "ois.design.luggage-folding-rack.finish.sage",
+      "name": "Sage textile",
+      "materialOverrides": {
+        "fabric": {
+          "baseColorFactor": [
+            0.25,
+            0.37,
+            0.28,
+            1
+          ]
+        }
+      }
+    },
+    {
+      "id": "ois.design.luggage-folding-rack.finish.clay",
+      "name": "Clay textile",
+      "materialOverrides": {
+        "fabric": {
+          "baseColorFactor": [
+            0.45,
+            0.23,
+            0.15,
+            1
+          ]
+        }
+      }
+    }
+  ],
+  "variantColourTags": [
+    "sage green",
+    "clay brown"
+  ],
+  "variantCountNote": "appearance overrides share this one design; do not increase distinct count"
+}

@@ -1,0 +1,149 @@
+{
+  "designId": "ois.design.staggered-reference-shelf",
+  "familyId": "ois.family.staggered-reference-shelf",
+  "id": "ois.design.staggered-reference-shelf",
+  "name": "Staggered reference shelf",
+  "roomTags": [
+    "office"
+  ],
+  "theme": "soft-japandi",
+  "builder": "case",
+  "parameters": {
+    "form": "staggered",
+    "rows": 5,
+    "w": 1.15,
+    "h": 1.8
+  },
+  "distinction": "Alternating half-bay partitions interrupt each open shelf.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted"
+  },
+  "constructionKey": "case|staggered|{\"base\": \"taper\", \"cols\": 1, \"doors\": 2, \"drawersTop\": false, \"front\": \"slab\", \"rows\": 5}",
+  "sha256": "252a844a4b27cdfdc66aa2aaead5671f0997159297142ef04f5b2a516d5ba3f5",
+  "bytes": 120492,
+  "triangles": 2496,
+  "vertices": 3253,
+  "drawPrimitives": 1,
+  "bounds": {
+    "min": [
+      -0.5749999876847184,
+      -2.9412081381519073e-09,
+      -0.20000004842792596
+    ],
+    "max": [
+      0.5750001323603227,
+      1.7926802118659124,
+      0.2000000321315123
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 1.150000120045041,
+    "depth": 0.40000008055943825,
+    "height": 1.7926802148071206
+  },
+  "footprint": [
+    [
+      -0.5749999876847184,
+      -0.20000004842792596
+    ],
+    [
+      0.5750001323603227,
+      -0.20000004842792596
+    ],
+    [
+      0.5750001323603227,
+      0.2000000321315123
+    ],
+    [
+      -0.5749999876847184,
+      0.2000000321315123
+    ]
+  ],
+  "variantSlots": [
+    "wood"
+  ],
+  "requiredExtensions": [],
+  "version": "0.2.0",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.staggered-reference-shelf",
+  "file": "assets/v0.2.0/staggered-reference-shelf.glb",
+  "sourceModel": "sources/v0.2.0/staggered-reference-shelf.blend",
+  "thumbnail": "previews/v0.2.0/staggered-reference-shelf.png",
+  "backThumbnail": "previews/v0.2.0/staggered-reference-shelf-back.png",
+  "category": "storage",
+  "subtype": "staggered",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "textures": {
+    "count": 0,
+    "bytes": 0
+  },
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.2.0/staggered-reference-shelf.png",
+      "previews/v0.2.0/staggered-reference-shelf-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.34,
+      0.28,
+      0.19
+    ],
+    [
+      0.58,
+      0.54,
+      0.44
+    ],
+    [
+      0.15,
+      0.17,
+      0.15
+    ]
+  ],
+  "colourTags": [
+    "ash",
+    "flax",
+    "stone"
+  ],
+  "materials": [
+    "wood"
+  ],
+  "searchAliases": [
+    "office",
+    "staggered"
+  ],
+  "materialSlots": [
+    {
+      "id": "wood",
+      "material": "wood",
+      "recolourable": true
+    }
+  ],
+  "geometryHash": "27b1be6f2468b43573ab90f3a6600a7dcd18420a9cc7a0db54e4eb41fcbc19d8",
+  "normalizedMirrorGeometryHash": "431e6ab4e5e98deb168cab4699511a4d087ed29ead4f8ace7a70ab1e820e380b"
+}

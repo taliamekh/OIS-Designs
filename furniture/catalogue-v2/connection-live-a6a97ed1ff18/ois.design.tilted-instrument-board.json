@@ -1,0 +1,87 @@
+{
+  "id": "ois.design.tilted-instrument-board",
+  "sha256": "unexported-source-a6a97ed1ff18ea7190f4c07e8ea17b6dba901563a653d7aed874183539ef16c1",
+  "sourceModel": null,
+  "sourceSha256": "a6a97ed1ff18ea7190f4c07e8ea17b6dba901563a653d7aed874183539ef16c1",
+  "partCount": 6,
+  "componentCount": 3,
+  "components": [
+    {
+      "parts": [
+        "tilting drafting top",
+        "cross leg",
+        "cross leg.001"
+      ],
+      "minimum": [
+        -0.6000000238418579,
+        -0.3341182768344879,
+        -0.02035634033381939
+      ],
+      "maximum": [
+        0.6000000238418579,
+        0.3341182768344879,
+        1.0887727737426758
+      ]
+    },
+    {
+      "parts": [
+        "cross leg.002",
+        "cross leg.003"
+      ],
+      "minimum": [
+        -0.4992254674434662,
+        0.19599996507167816,
+        -0.02035634033381939
+      ],
+      "maximum": [
+        0.4992254674434662,
+        0.25200003385543823,
+        0.8703563809394836
+      ]
+    },
+    {
+      "parts": [
+        "instrument ledge"
+      ],
+      "minimum": [
+        -0.6000000238418579,
+        0.3070000112056732,
+        0.7900000214576721
+      ],
+      "maximum": [
+        0.6000000238418579,
+        0.3369999825954437,
+        0.8299999833106995
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "cross leg",
+      "b": "tilting drafting top",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "cross leg.001",
+      "b": "tilting drafting top",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "cross leg.001",
+      "b": "cross leg",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "cross leg.003",
+      "b": "cross leg.002",
+      "method": "triangle intersection",
+      "distance": 0
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; live-source reports are NOT exported-asset evidence; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T03:19:59Z"
+}

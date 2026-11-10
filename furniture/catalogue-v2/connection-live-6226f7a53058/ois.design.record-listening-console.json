@@ -1,0 +1,195 @@
+{
+  "id": "ois.design.record-listening-console",
+  "sha256": "unexported-source-6226f7a5305865fd189dfcec35a3077205588e7999488a17cff703d94c6b1b9f",
+  "sourceModel": null,
+  "sourceSha256": "6226f7a5305865fd189dfcec35a3077205588e7999488a17cff703d94c6b1b9f",
+  "partCount": 22,
+  "componentCount": 1,
+  "components": [
+    {
+      "parts": [
+        "leg",
+        "leg.001",
+        "leg.002",
+        "leg.003",
+        "bottom",
+        "top",
+        "side",
+        "side.001",
+        "partition",
+        "partition.001",
+        "record sleeve",
+        "record sleeve.001",
+        "record sleeve.002",
+        "record sleeve.003",
+        "record sleeve.004",
+        "record sleeve.005",
+        "record sleeve.006",
+        "record sleeve.007",
+        "record sleeve.008",
+        "record sleeve.009",
+        "turntable",
+        "platter"
+      ],
+      "minimum": [
+        -0.7250000238418579,
+        -0.2150000035762787,
+        0.0060879141092300415
+      ],
+      "maximum": [
+        0.7250000238418579,
+        0.2150000035762787,
+        0.7859999537467957
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "bottom",
+      "b": "leg",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "bottom",
+      "b": "leg.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "bottom",
+      "b": "leg.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "bottom",
+      "b": "leg.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "side",
+      "b": "bottom",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "side",
+      "b": "top",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "side.001",
+      "b": "bottom",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "side.001",
+      "b": "top",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "partition",
+      "b": "bottom",
+      "method": "surface distance",
+      "distance": 0.003999978303909302
+    },
+    {
+      "a": "partition.001",
+      "b": "bottom",
+      "method": "surface distance",
+      "distance": 0.003999978303909302
+    },
+    {
+      "a": "record sleeve",
+      "b": "bottom",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "record sleeve.001",
+      "b": "bottom",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "record sleeve.002",
+      "b": "bottom",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "record sleeve.003",
+      "b": "bottom",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "record sleeve.004",
+      "b": "bottom",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "record sleeve.005",
+      "b": "bottom",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "record sleeve.006",
+      "b": "bottom",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "record sleeve.007",
+      "b": "bottom",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "record sleeve.007",
+      "b": "partition",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "record sleeve.008",
+      "b": "bottom",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "record sleeve.008",
+      "b": "partition",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "record sleeve.009",
+      "b": "bottom",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "turntable",
+      "b": "top",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "platter",
+      "b": "turntable",
+      "method": "surface distance",
+      "distance": 0.003999948501586914
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; live-source reports are NOT exported-asset evidence; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T03:35:24Z"
+}

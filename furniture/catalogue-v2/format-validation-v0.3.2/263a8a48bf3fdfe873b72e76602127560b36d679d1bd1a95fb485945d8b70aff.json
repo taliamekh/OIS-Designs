@@ -1,0 +1,55 @@
+{
+  "validatorVersion": "2.0.0-dev.3.10",
+  "sha256": "263a8a48bf3fdfe873b72e76602127560b36d679d1bd1a95fb485945d8b70aff",
+  "report": {
+    "uri": "ois.design.three-basket-bath-caddy@0.3.2.glb",
+    "mimeType": "model/gltf-binary",
+    "validatorVersion": "2.0.0-dev.3.10",
+    "validatedAt": "2026-11-10T02:04:39.891Z",
+    "issues": {
+      "numErrors": 0,
+      "numWarnings": 0,
+      "numInfos": 2,
+      "numHints": 0,
+      "messages": [
+        {
+          "code": "UNUSED_MESH_TANGENT",
+          "message": "Tangents are not used because the material has no normal texture.",
+          "severity": 2,
+          "pointer": "/meshes/0/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "UNUSED_OBJECT",
+          "message": "This object may be unused.",
+          "severity": 2,
+          "pointer": "/meshes/0/primitives/0/attributes/TEXCOORD_0"
+        }
+      ],
+      "truncated": false
+    },
+    "info": {
+      "version": "2.0",
+      "generator": "Khronos glTF Blender I/O v5.2.40",
+      "resources": [
+        {
+          "pointer": "/buffers/0",
+          "mimeType": "application/gltf-buffer",
+          "storage": "glb",
+          "byteLength": 427368
+        }
+      ],
+      "animationCount": 0,
+      "materialCount": 1,
+      "hasMorphTargets": false,
+      "hasSkins": false,
+      "hasTextures": false,
+      "hasDefaultScene": true,
+      "drawCallCount": 1,
+      "totalVertexCount": 8536,
+      "totalTriangleCount": 2940,
+      "maxUVs": 1,
+      "maxInfluences": 0,
+      "maxAttributes": 4
+    }
+  }
+}

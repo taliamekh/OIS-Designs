@@ -1,0 +1,896 @@
+{
+  "id": "ois.design.louvered-armoire",
+  "sha256": "f8c5e265cdfe9fd428dbe4f521f1a57f11b2c483d33cd66193cf54cc15060f35",
+  "sourceModel": "sources/v0.5.0/louvered-armoire.blend",
+  "sourceSha256": "a89cce95ce7aed568a0c5297adfc28eea22568418c13cd4a49ae3538b109d596",
+  "partCount": 71,
+  "componentCount": 6,
+  "components": [
+    {
+      "parts": [
+        "door stile",
+        "door stile.001",
+        "door rail",
+        "door rail.001",
+        "louvre",
+        "louvre.001",
+        "louvre.002",
+        "louvre.003",
+        "louvre.004",
+        "louvre.005",
+        "louvre.006",
+        "louvre.007",
+        "louvre.008",
+        "louvre.009",
+        "louvre.010",
+        "louvre.011",
+        "louvre.012",
+        "louvre.013",
+        "louvre.014",
+        "louvre.015",
+        "louvre.016",
+        "louvre.017",
+        "louvre.018",
+        "louvre.019",
+        "louvre.020",
+        "louvre.021",
+        "louvre.022",
+        "louvre.023",
+        "louvre.024"
+      ],
+      "minimum": [
+        -0.5974999666213989,
+        0.28203916549682617,
+        0.1633572280406952
+      ],
+      "maximum": [
+        -0.0075000012293457985,
+        0.32196080684661865,
+        1.8333572149276733
+      ]
+    },
+    {
+      "parts": [
+        "door stile.002",
+        "door stile.003",
+        "door rail.002",
+        "door rail.003",
+        "louvre.025",
+        "louvre.026",
+        "louvre.027",
+        "louvre.028",
+        "louvre.029",
+        "louvre.030",
+        "louvre.031",
+        "louvre.032",
+        "louvre.033",
+        "louvre.034",
+        "louvre.035",
+        "louvre.036",
+        "louvre.037",
+        "louvre.038",
+        "louvre.039",
+        "louvre.040",
+        "louvre.041",
+        "louvre.042",
+        "louvre.043",
+        "louvre.044",
+        "louvre.045",
+        "louvre.046",
+        "louvre.047",
+        "louvre.048",
+        "louvre.049"
+      ],
+      "minimum": [
+        0.0075000012293457985,
+        0.28203916549682617,
+        0.1633572280406952
+      ],
+      "maximum": [
+        0.5974999666213989,
+        0.32196080684661865,
+        1.8333572149276733
+      ]
+    },
+    {
+      "parts": [
+        "leg",
+        "leg.001",
+        "leg.002",
+        "leg.003",
+        "bottom",
+        "top",
+        "side",
+        "side.001",
+        "back",
+        "top interior shelf"
+      ],
+      "minimum": [
+        -0.6299999952316284,
+        -0.28999999165534973,
+        -2.3283064365386963e-09
+      ],
+      "maximum": [
+        0.6299999952316284,
+        0.28999999165534973,
+        1.8733571767807007
+      ]
+    },
+    {
+      "parts": [
+        "pull"
+      ],
+      "minimum": [
+        -0.11949999630451202,
+        0.33399999141693115,
+        0.9483572244644165
+      ],
+      "maximum": [
+        -0.10750000178813934,
+        0.3460000157356262,
+        1.0483572483062744
+      ]
+    },
+    {
+      "parts": [
+        "pull.001"
+      ],
+      "minimum": [
+        0.4854999780654907,
+        0.33399999141693115,
+        0.9483572244644165
+      ],
+      "maximum": [
+        0.4975000023841858,
+        0.3460000157356262,
+        1.0483572483062744
+      ]
+    },
+    {
+      "parts": [
+        "hanging rail"
+      ],
+      "minimum": [
+        -0.52920001745224,
+        -0.03200002387166023,
+        1.6813572645187378
+      ],
+      "maximum": [
+        0.52920001745224,
+        -0.00799997616559267,
+        1.7053571939468384
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "bottom",
+      "b": "leg",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "bottom",
+      "b": "leg.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "bottom",
+      "b": "leg.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "bottom",
+      "b": "leg.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "side",
+      "b": "bottom",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "side",
+      "b": "top",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "side.001",
+      "b": "bottom",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "side.001",
+      "b": "top",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "back",
+      "b": "bottom",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "back",
+      "b": "top",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "back",
+      "b": "side",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "back",
+      "b": "side.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "door rail",
+      "b": "door stile",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "door rail",
+      "b": "door stile.001",
+      "method": "surface distance",
+      "distance": 4.485843518864385e-08
+    },
+    {
+      "a": "door rail.001",
+      "b": "door stile",
+      "method": "surface distance",
+      "distance": 0.0
+    },
+    {
+      "a": "door rail.001",
+      "b": "door stile.001",
+      "method": "surface distance",
+      "distance": 2.2351741790771484e-08
+    },
+    {
+      "a": "louvre",
+      "b": "door stile",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "louvre",
+      "b": "door stile.001",
+      "method": "surface distance",
+      "distance": 2.2351741790771484e-08
+    },
+    {
+      "a": "louvre.001",
+      "b": "door stile",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "louvre.001",
+      "b": "door stile.001",
+      "method": "surface distance",
+      "distance": 2.2351741790771484e-08
+    },
+    {
+      "a": "louvre.002",
+      "b": "door stile",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "louvre.002",
+      "b": "door stile.001",
+      "method": "surface distance",
+      "distance": 2.2351741790771484e-08
+    },
+    {
+      "a": "louvre.003",
+      "b": "door stile",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "louvre.003",
+      "b": "door stile.001",
+      "method": "surface distance",
+      "distance": 3.725290298461914e-08
+    },
+    {
+      "a": "louvre.004",
+      "b": "door stile",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "louvre.004",
+      "b": "door stile.001",
+      "method": "surface distance",
+      "distance": 2.2351741790771484e-08
+    },
+    {
+      "a": "louvre.005",
+      "b": "door stile",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "louvre.005",
+      "b": "door stile.001",
+      "method": "surface distance",
+      "distance": 7.407574685203144e-06
+    },
+    {
+      "a": "louvre.006",
+      "b": "door stile",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "louvre.006",
+      "b": "door stile.001",
+      "method": "surface distance",
+      "distance": 8.977849938673899e-05
+    },
+    {
+      "a": "louvre.007",
+      "b": "door stile",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "louvre.007",
+      "b": "door stile.001",
+      "method": "surface distance",
+      "distance": 0.00011511602497193962
+    },
+    {
+      "a": "louvre.008",
+      "b": "door stile",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "louvre.008",
+      "b": "door stile.001",
+      "method": "surface distance",
+      "distance": 6.548009696416557e-05
+    },
+    {
+      "a": "louvre.009",
+      "b": "door stile",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "louvre.009",
+      "b": "door stile.001",
+      "method": "surface distance",
+      "distance": 0.00013870900147594512
+    },
+    {
+      "a": "louvre.010",
+      "b": "door stile",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "louvre.010",
+      "b": "door stile.001",
+      "method": "surface distance",
+      "distance": 8.185242040781304e-05
+    },
+    {
+      "a": "louvre.011",
+      "b": "door stile",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "louvre.011",
+      "b": "door stile.001",
+      "method": "surface distance",
+      "distance": 2.4905284590204246e-05
+    },
+    {
+      "a": "louvre.012",
+      "b": "door stile",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "louvre.012",
+      "b": "door stile.001",
+      "method": "surface distance",
+      "distance": 3.216571712982841e-05
+    },
+    {
+      "a": "louvre.013",
+      "b": "door stile",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "louvre.013",
+      "b": "door stile.001",
+      "method": "surface distance",
+      "distance": 0.00011063749843742698
+    },
+    {
+      "a": "louvre.014",
+      "b": "door stile",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "louvre.014",
+      "b": "door stile.001",
+      "method": "surface distance",
+      "distance": 5.9017820603912696e-05
+    },
+    {
+      "a": "louvre.015",
+      "b": "door stile",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "louvre.015",
+      "b": "door stile.001",
+      "method": "surface distance",
+      "distance": 3.5854018278769217e-06
+    },
+    {
+      "a": "louvre.016",
+      "b": "door stile",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "louvre.016",
+      "b": "door stile.001",
+      "method": "surface distance",
+      "distance": 1.232280283147702e-05
+    },
+    {
+      "a": "louvre.017",
+      "b": "door stile",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "louvre.017",
+      "b": "door stile.001",
+      "method": "surface distance",
+      "distance": 4.983149119652808e-05
+    },
+    {
+      "a": "louvre.018",
+      "b": "door stile",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "louvre.018",
+      "b": "door stile.001",
+      "method": "surface distance",
+      "distance": 4.507184712565504e-05
+    },
+    {
+      "a": "louvre.019",
+      "b": "door stile",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "louvre.019",
+      "b": "door stile.001",
+      "method": "surface distance",
+      "distance": 1.959036490006838e-05
+    },
+    {
+      "a": "louvre.020",
+      "b": "door stile",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "louvre.020",
+      "b": "door stile.001",
+      "method": "surface distance",
+      "distance": 5.611751475953497e-06
+    },
+    {
+      "a": "louvre.021",
+      "b": "door stile",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "louvre.021",
+      "b": "door stile.001",
+      "method": "surface distance",
+      "distance": 2.2797696146881208e-05
+    },
+    {
+      "a": "louvre.022",
+      "b": "door stile",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "louvre.022",
+      "b": "door stile.001",
+      "method": "surface distance",
+      "distance": 1.688257725618314e-05
+    },
+    {
+      "a": "louvre.023",
+      "b": "door stile",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "louvre.023",
+      "b": "door stile.001",
+      "method": "surface distance",
+      "distance": 4.175895810476504e-06
+    },
+    {
+      "a": "louvre.024",
+      "b": "door stile",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "louvre.024",
+      "b": "door stile.001",
+      "method": "surface distance",
+      "distance": 2.5879267013806384e-06
+    },
+    {
+      "a": "door rail.002",
+      "b": "door stile.002",
+      "method": "surface distance",
+      "distance": 4.485843518864385e-08
+    },
+    {
+      "a": "door rail.002",
+      "b": "door stile.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "door rail.003",
+      "b": "door stile.002",
+      "method": "surface distance",
+      "distance": 2.2351741790771484e-08
+    },
+    {
+      "a": "door rail.003",
+      "b": "door stile.003",
+      "method": "surface distance",
+      "distance": 0.0
+    },
+    {
+      "a": "louvre.025",
+      "b": "door stile.002",
+      "method": "surface distance",
+      "distance": 2.2351741790771484e-08
+    },
+    {
+      "a": "louvre.025",
+      "b": "door stile.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "louvre.026",
+      "b": "door stile.002",
+      "method": "surface distance",
+      "distance": 2.2351741790771484e-08
+    },
+    {
+      "a": "louvre.026",
+      "b": "door stile.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "louvre.027",
+      "b": "door stile.002",
+      "method": "surface distance",
+      "distance": 2.2351741790771484e-08
+    },
+    {
+      "a": "louvre.027",
+      "b": "door stile.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "louvre.028",
+      "b": "door stile.002",
+      "method": "surface distance",
+      "distance": 2.2351741790771484e-08
+    },
+    {
+      "a": "louvre.028",
+      "b": "door stile.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "louvre.029",
+      "b": "door stile.002",
+      "method": "surface distance",
+      "distance": 2.2351741790771484e-08
+    },
+    {
+      "a": "louvre.029",
+      "b": "door stile.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "louvre.030",
+      "b": "door stile.002",
+      "method": "surface distance",
+      "distance": 3.725290298461914e-08
+    },
+    {
+      "a": "louvre.030",
+      "b": "door stile.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "louvre.031",
+      "b": "door stile.002",
+      "method": "surface distance",
+      "distance": 6.365778659755961e-08
+    },
+    {
+      "a": "louvre.031",
+      "b": "door stile.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "louvre.032",
+      "b": "door stile.002",
+      "method": "surface distance",
+      "distance": 2.2351741790771484e-08
+    },
+    {
+      "a": "louvre.032",
+      "b": "door stile.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "louvre.033",
+      "b": "door stile.002",
+      "method": "surface distance",
+      "distance": 6.365778659755961e-08
+    },
+    {
+      "a": "louvre.033",
+      "b": "door stile.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "louvre.034",
+      "b": "door stile.002",
+      "method": "surface distance",
+      "distance": 6.365778659755961e-08
+    },
+    {
+      "a": "louvre.034",
+      "b": "door stile.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "louvre.035",
+      "b": "door stile.002",
+      "method": "surface distance",
+      "distance": 2.2351741790771484e-08
+    },
+    {
+      "a": "louvre.035",
+      "b": "door stile.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "louvre.036",
+      "b": "door stile.002",
+      "method": "surface distance",
+      "distance": 6.365778659755961e-08
+    },
+    {
+      "a": "louvre.036",
+      "b": "door stile.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "louvre.037",
+      "b": "door stile.002",
+      "method": "surface distance",
+      "distance": 6.365778659755961e-08
+    },
+    {
+      "a": "louvre.037",
+      "b": "door stile.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "louvre.038",
+      "b": "door stile.002",
+      "method": "surface distance",
+      "distance": 2.2351741790771484e-08
+    },
+    {
+      "a": "louvre.038",
+      "b": "door stile.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "louvre.039",
+      "b": "door stile.002",
+      "method": "surface distance",
+      "distance": 1.212866607147589e-07
+    },
+    {
+      "a": "louvre.039",
+      "b": "door stile.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "louvre.040",
+      "b": "door stile.002",
+      "method": "surface distance",
+      "distance": 1.212866607147589e-07
+    },
+    {
+      "a": "louvre.040",
+      "b": "door stile.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "louvre.041",
+      "b": "door stile.002",
+      "method": "surface distance",
+      "distance": 1.212866607147589e-07
+    },
+    {
+      "a": "louvre.041",
+      "b": "door stile.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "louvre.042",
+      "b": "door stile.002",
+      "method": "surface distance",
+      "distance": 1.212866607147589e-07
+    },
+    {
+      "a": "louvre.042",
+      "b": "door stile.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "louvre.043",
+      "b": "door stile.002",
+      "method": "surface distance",
+      "distance": 1.212866607147589e-07
+    },
+    {
+      "a": "louvre.043",
+      "b": "door stile.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "louvre.044",
+      "b": "door stile.002",
+      "method": "surface distance",
+      "distance": 1.212866607147589e-07
+    },
+    {
+      "a": "louvre.044",
+      "b": "door stile.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "louvre.045",
+      "b": "door stile.002",
+      "method": "surface distance",
+      "distance": 3.3470136258983985e-05
+    },
+    {
+      "a": "louvre.045",
+      "b": "door stile.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "louvre.046",
+      "b": "door stile.002",
+      "method": "surface distance",
+      "distance": 1.3858066267857794e-05
+    },
+    {
+      "a": "louvre.046",
+      "b": "door stile.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "louvre.047",
+      "b": "door stile.002",
+      "method": "surface distance",
+      "distance": 1.706071816443e-05
+    },
+    {
+      "a": "louvre.047",
+      "b": "door stile.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "louvre.048",
+      "b": "door stile.002",
+      "method": "surface distance",
+      "distance": 7.514001936215209e-06
+    },
+    {
+      "a": "louvre.048",
+      "b": "door stile.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "louvre.049",
+      "b": "door stile.002",
+      "method": "surface distance",
+      "distance": 7.636390932930226e-07
+    },
+    {
+      "a": "louvre.049",
+      "b": "door stile.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "top interior shelf",
+      "b": "back",
+      "method": "surface distance",
+      "distance": 0.001999974250793457
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T03:07:32Z"
+}

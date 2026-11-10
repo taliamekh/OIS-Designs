@@ -1,0 +1,163 @@
+{
+  "designId": "ois.design.cane-bedside",
+  "familyId": "ois.family.cane-bedside",
+  "id": "ois.design.cane-bedside",
+  "name": "Cane bedside cupboard",
+  "roomTags": [
+    "bedroom"
+  ],
+  "theme": "coastal-linen",
+  "builder": "case",
+  "parameters": {
+    "form": "doors",
+    "front": "cane",
+    "doors": 1,
+    "w": 0.48,
+    "h": 0.62
+  },
+  "distinction": "One open woven cane door and recessed interior.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted"
+  },
+  "sha256": "3c18dee9604d4ab55cfb4e9420c6ad2a76a3b8cad518383954a8de21babb1ff5",
+  "bytes": 149344,
+  "triangles": 3252,
+  "vertices": 3942,
+  "drawPrimitives": 3,
+  "bounds": {
+    "min": [
+      -0.24000000237768027,
+      -4.1968941238978985e-09,
+      -0.25600000005215406
+    ],
+    "max": [
+      0.24000005362820542,
+      0.6100651787062628,
+      0.20000003089622012
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 0.4800000560058857,
+    "depth": 0.45600003094837416,
+    "height": 0.6100651829031569
+  },
+  "footprint": [
+    [
+      -0.24000000237768027,
+      -0.25600000005215406
+    ],
+    [
+      0.24000005362820542,
+      -0.25600000005215406
+    ],
+    [
+      0.24000005362820542,
+      0.20000003089622012
+    ],
+    [
+      -0.24000000237768027,
+      0.20000003089622012
+    ]
+  ],
+  "variantSlots": [
+    "cane",
+    "metal",
+    "wood"
+  ],
+  "requiredExtensions": [],
+  "version": "0.2.0",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.cane-bedside",
+  "file": "assets/v0.2.0/cane-bedside.glb",
+  "sourceModel": "sources/v0.2.0/cane-bedside.blend",
+  "thumbnail": "previews/v0.2.0/cane-bedside.png",
+  "backThumbnail": "previews/v0.2.0/cane-bedside-back.png",
+  "category": "storage",
+  "subtype": "doors",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "textures": {
+    "count": 0,
+    "bytes": 0
+  },
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.2.0/cane-bedside.png",
+      "previews/v0.2.0/cane-bedside-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.66,
+      0.53,
+      0.34
+    ],
+    [
+      0.36,
+      0.53,
+      0.58
+    ],
+    [
+      0.64,
+      0.6,
+      0.48
+    ]
+  ],
+  "colourTags": [
+    "mist blue",
+    "sand",
+    "pale oak"
+  ],
+  "materials": [
+    "metal",
+    "wood",
+    "woven-fibre"
+  ],
+  "searchAliases": [
+    "bedroom",
+    "doors"
+  ],
+  "materialSlots": [
+    {
+      "id": "cane",
+      "material": "cane",
+      "recolourable": true
+    },
+    {
+      "id": "metal",
+      "material": "metal",
+      "recolourable": true
+    },
+    {
+      "id": "wood",
+      "material": "wood",
+      "recolourable": true
+    }
+  ],
+  "geometryHash": "7c1e050360efe35bf2bc54372920969718b9926bcb60b576682ff8cb9f3bfceb",
+  "normalizedMirrorGeometryHash": "01ca94ae8b17a08c5d94b92ab78af17afb8aab132f8c788932ec486e0f9d0528"
+}

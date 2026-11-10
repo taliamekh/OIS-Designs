@@ -1,0 +1,3569 @@
+{
+  "timestamp": "2026-11-10T01:31:08.169Z",
+  "evidence": "Actual consumer catalogue/search and immutable revision resolver/registry/bindings; not raw-producer bypass or renderer regex",
+  "producerSha256": "4e90df915a8e77ee8841ae3ebf612f9f29b7319ab09c3c70a6e75975a8ca7541",
+  "consumerSha256": "38d10b5dd4350b738e9b32f462295d4308a0a3334a389b9ba4a38c4a31ff32c0",
+  "resolverSha256": "9729a0f7fc0b0d26c1277c77512a7a60520ba4ff07e0a6a3f42d7ae1201eb66f",
+  "studioSha256": "4a1db823d88ca8e507b299fc07586f5cd5692b76afc8b2d173070964d5fc7e16",
+  "producerRecords": 412,
+  "consumerRecords": 314,
+  "retainedRevisions": 314,
+  "unimportedRecords": 98,
+  "passed": 641,
+  "failed": 0,
+  "checks": [
+    {
+      "id": "CONSUMER-ROOM-entry",
+      "pass": true,
+      "observed": {
+        "sourceId": "ois.calm-oak.entry-bench",
+        "sourceRoomTags": [
+          "entry-hall"
+        ],
+        "consumerRoomTags": [
+          "entry-hall",
+          "entry"
+        ]
+      }
+    },
+    {
+      "id": "CONSUMER-ROOM-utility",
+      "pass": true,
+      "observed": {
+        "sourceId": "ois.calm-oak.washer",
+        "sourceRoomTags": [
+          "laundry-utility"
+        ],
+        "consumerRoomTags": [
+          "laundry-utility",
+          "utility"
+        ]
+      }
+    },
+    {
+      "id": "QUERY-SYNONYM",
+      "pass": true,
+      "observed": "ois.calm-oak.sofa"
+    },
+    {
+      "id": "FAVOURITE",
+      "pass": true,
+      "observed": "ois.calm-oak.sofa"
+    },
+    {
+      "id": "FIT-DIMENSION",
+      "pass": true,
+      "observed": "ois.calm-oak.sofa"
+    },
+    {
+      "id": "CONSUMER-BED-twin",
+      "pass": true,
+      "observed": {
+        "consumerFixtures": 6
+      }
+    },
+    {
+      "id": "CONSUMER-BED-full",
+      "pass": true,
+      "observed": {
+        "consumerFixtures": 1
+      }
+    },
+    {
+      "id": "CONSUMER-BED-queen",
+      "pass": true,
+      "observed": {
+        "consumerFixtures": 13
+      }
+    },
+    {
+      "id": "CONSUMER-BED-king",
+      "pass": true,
+      "observed": {
+        "consumerFixtures": 1
+      }
+    },
+    {
+      "id": "CONSUMER-BED-bunk",
+      "pass": true,
+      "observed": {
+        "consumerFixtures": 1
+      }
+    },
+    {
+      "id": "CONSUMER-BED-loft",
+      "pass": true,
+      "observed": {
+        "consumerFixtures": 1
+      }
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.calm-oak.sofa@0.1.0:416c851f19a44033209ce5a08018abae860a9e1202452532325ef09a29cafaf8",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.walnut-form.sofa@0.1.0:a88d1624f542ccaa518e9f85013e8a793962cc08ab8aea16d5aa148f31269551",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.soft-japandi.sofa@0.1.0:49eeb14334ed67df6a041da553a5719a04f9c6a60fcef2103eb1d9daeccc28a1",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.city-loft.sofa@0.1.0:146f35ef1b664a96f5a442894acc8e2dbfb534ab4c85c4f015ead82398cbe668",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.coastal-linen.sofa@0.1.0:783c9968b98ff6f72c0cb8b52b4f5abee7ec274e043a0c8b9cc1524af33e511f",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.calm-oak.lounge-chair@0.1.0:8d1841f07427b1707cd131d64cdd03fdbb2cbea4a82a3ca1910c133a063e9c2c",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.walnut-form.lounge-chair@0.1.0:6287c33b0c53706974b44d3c850ee290515a5f03b2daf7d40e1b1e0bc7021c6c",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.soft-japandi.lounge-chair@0.1.0:56e25a0a7da4411338caae02a09a1a3ecc7881e51f61362a9fef3e283cf3fe11",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.city-loft.lounge-chair@0.1.0:aee8247935142f625ff56fcb23562748446a7bee8f41506aa92edd4eec932f62",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.coastal-linen.lounge-chair@0.1.0:1d748d50bee022859030d0912d5c69806f2dae836e2418db6a21831174a153cd",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.calm-oak.coffee-table@0.1.0:199971988dea43ad7470d7c823e230ea0e50f8733781ed34bfc9f9ecb1e97a82",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.walnut-form.coffee-table@0.1.0:f5624829f5cee673553f299de6b1de937704e3547f023d0cddbf41bf3b73dd7a",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.soft-japandi.coffee-table@0.1.0:3d7ac64dd26c11ddcfe87959842b5e92d7e2738a8aaed28d58d324713b26c98a",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.city-loft.coffee-table@0.1.0:93a1f4af1d71f3ff3fd7b8a3681f8b9aafa3df9d51262ed1c50b2bf444bbe27e",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.coastal-linen.coffee-table@0.1.0:dbb50c66fc6b06a7b2a6c28ce03ef0bc50830cecebc7d92c46ecd6265daafd40",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.calm-oak.media-unit@0.1.0:6b106793763d271d9ff942460a84470f18f9e0f5c067480a11552865cf726156",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.walnut-form.media-unit@0.1.0:60af8054ef3c7aff84a59b5864eee917373700c7777f54b2b08431ba8d607a05",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.soft-japandi.media-unit@0.1.0:013403c6428ebcaa0e9b601db732b1251fdded56c0b0c90e8ba53409997a0063",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.city-loft.media-unit@0.1.0:6ce5c2326ea00f2c11880a3718c21d7636f76b3a8a466bc10148cda36e5b8ebf",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.coastal-linen.media-unit@0.1.0:4d4f88ad5c8d9cfd4d3c7159e716dc0d322b22ed01ee310397f84c92de9e156a",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.calm-oak.floor-lamp@0.1.0:01c4272d9b2f3ad4c0fa78a945b42da31a13fc27998042007f89bccf539b0a9a",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.walnut-form.floor-lamp@0.1.0:b9d43ca6c1f45f0cfdaea2af1bfa4a3fb34270d7d3c6714e454707a6d590655f",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.soft-japandi.floor-lamp@0.1.0:a6d9f1c3466e61c72ad6ac292cf7a5246d077ed2dee2c75038dd62343ff55ccb",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.city-loft.floor-lamp@0.1.0:4d33980824b8fd9d260c80bc6e192432d1131954627e17cc9cad0cb3a4449354",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.coastal-linen.floor-lamp@0.1.0:9f5a3b1076eaad85caa37938669c5756dcdd5475253bd0d2f170062e42ac7a7e",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.calm-oak.bed-twin@0.1.0:7fe0b07df921a1d461c80f7a862be0afb499ff6aef669a5fdc53ed0acdfd6396",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.calm-oak.bed-full@0.1.0:8bb7b470d3a345a8c91c3b04f2ba955fb9e384b4976c068ed95920f14dceff40",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.calm-oak.bed-queen@0.1.0:18a8edda595ca1121bee743d780045675e3236ece2f55bebcf49f995019cd146",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.calm-oak.bed-king@0.1.0:e99457d2b8aab670f99be32ac6fe16769778aae2c51702d2d9039d5b35f5e130",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.calm-oak.bed-bunk@0.1.0:17a9864293b9a8e6c881ebc737727f74d537007aece365e5c1f3b4e5e28e12ce",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.calm-oak.bed-loft@0.1.0:a6af2889c60f36a04ac8c19fd3be83dea8f31a055d0fabe0a39f23e825259801",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.calm-oak.dining-table@0.1.0:658a060ae062baed4efad9bde6c210714378c5f52fa02f6aab06e820e1a66bb6",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.calm-oak.dining-chair@0.1.0:daef15d3855c18147278fc917972563696b15c6eba65e98679a022d2b5d3e703",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.calm-oak.kitchen-base@0.1.0:50feb5b77773185282de5a3694f6e764d5f2e87b323f906aa394c6187669928a",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.calm-oak.bath-vanity@0.1.0:6ab993cfb6623942e0816c64d5d05140206273d54ec8b87c7f1012b6d5bf16a3",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.calm-oak.desk@0.1.0:6bacd83cba4d4106792cd4958e8887cb0e49492d66ee949574861350bb5000d2",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.calm-oak.entry-bench@0.1.0:cc1156d517dd5be4caa0606343bdbe11ed14f6d16ef149c61fc3ca165b0785f9",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.calm-oak.washer@0.1.0:0067298246a482a1490e3dc623076178a5fea3ab28f3748e853206b69176b619",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.calm-oak.toy-storage@0.1.0:4d3dddef1ea7919d37e3d34720ef7219f306b686a26536ba352d9d84405764e3",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.adjustable-workstation@0.2.0:6ee68cf2d15f734e72bc1352d0f93c6e64bc413685fba48fb9459cc6e429a3f1",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.aquarium-console@0.2.0:c96daea5a13289292cb9148b3d07bf0b4eaf3e95e86f0c268eb733722c971187",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.arch-hall-console@0.2.0:7abf98ff19ef9634bfe98cb3ba0977e6d4727edff3c79891a328a0574073419f",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.arch-side-table@0.2.0:fbcef0f1a7ce39718c0e540e19cfb357fbef67464baefd97c5b991956b5cc27c",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.armless-modules@0.2.0:c8990192fc506ae340bb66aaa7057ee6f05dcbf0ec7a1e32902b187aa8a65681",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.bakers-prep-rack@0.2.0:aae9470843d9cf239b16655ce707aa1a7078e1ca83d9b7c8a0cc2668ea954762",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.bar-service-trolley@0.2.0:0ad5423e6f4c47566a09e2b5933cd7e49108a16cc3920bf53e71bd07360d9f65",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.barrel-dining@0.2.0:617d32414394712d9bf6aa1a6481b71aa85d0b602c62b3fb566106266561bb8d",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.barrel-enclosure@0.2.0:769c1c5bc2eeb407aec4bf0d2ccde6b3035cb18fb15c5feaf253297216a42fd2",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.bath-open-towel-shelf@0.2.0:4b8e8d0d4b945957045132c8fa7f88f18de2a554e1f4afa5cd02b73b0adf9720",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.bath-pedal-hamper@0.2.0:b253796733fa97ecfbd4bad8066ba3879b00aebd25fb7e6246cf00688fe11f85",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.bead-maze-cube@0.2.0:dcab8b06b22a34d44d9cb538109e367aebd05953f32c2bf8cf68589179825620",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.bolster-daybed@0.2.0:9f9fc6d3c1c7759c3678c927e93716c1ebb44ceb0d7394ed517a4245e49bc2a0",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.branch-coat-tree@0.2.0:01bad08df6b23a1ab6befe2e1e9f5ad12bc090ae1977e879ed145c942b62e467",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.breakfast-overhang-island@0.2.0:afea258a853aff5a1e5f97fbf52c484f65ef327176ec63d3962132ef9e7b177d",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.butcher-drawer-island@0.2.0:21c38301d124f768afcaafc4ec2f73ada15d0df68e6252329c13584b65a2f44f",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.camelback-sofa@0.2.0:45fc4c7a651983cf1425eca0a975c104e7b526da60660c38e923c61ed8c88ba8",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.cane-bedside@0.2.0:3c18dee9604d4ab55cfb4e9420c6ad2a76a3b8cad518383954a8de21babb1ff5",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.cane-dining-sideboard@0.2.0:a776a9187749dfb6347020f3187bd399bc96c45e3be685fed4a01b4719d73732",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.cane-head-bed@0.2.0:43b0e91a2e1e9a162e788de5e6b8900b24232d1f53e4751e8d4cc638d5b44741",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.cane-linen-tower@0.2.0:668eab50d7906124ad737fdbb54a35866469219624dcbb3650ca65f73cb2f56c",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.cantilever-c-table@0.2.0:449f7319b6728dd5bf306d1523033f29769ff05a0eac848b190f69620b13fff8",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.cantilever-dining@0.2.0:e20fd9f31481393f742f005d28d4fa5d82ef504096df648df1d4cf230706ba8d",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.cantilever-lounge@0.2.0:e22d8018e099be423ae9deeb9d6bcb3cbe8fb049aa05923f5eb840073d24c09f",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.canvas-book-sling@0.2.0:2cd101e9da84609ecaec077521864bf591ff7e109e1987ba6d2a0222d4e68157",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.canvas-play-tent@0.2.0:9391382473ac51d217c7f27d21bd74196aeb8700ac017953cc8bb903d09d7f56",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.captain-storage-bed@0.2.0:2130d458983e34f7b842972a71f950c01c78e0c3477ced1876bbb28328cb9e8a",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.ceramic-pedestal-basin@0.2.0:ff118e753214afae1dc600f4c3102e97e2926843a83481a176081661e62967e3",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.chaise-return-sofa@0.2.0:ef32713ba78e2be3190733ceead7414717a48a22266decae076fac896f8155d9",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.channel-upholstered-bed@0.2.0:d843539102c1d3df21b0a87af3bb1701562ebd320e8a410052108317be37c3d4",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.chest-utility-freezer@0.2.0:abe759179c849f2cb9d0d175003dc2ad05ba83d277018e8fad045e21bdf68a78",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.cheval-dressing-mirror@0.2.0:7e599a5c5b211a70f8705e108aed4115eae28a25ab03b04f9f7293c3aad7bab2",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.child-art-easel@0.2.0:8a563fc35fa249fb3659f66d3bae22531cd29a5921e41aad542917b1aa3f6fbd",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.child-tablet-chair@0.2.0:b84b15cb1a97937c4b89f6be8bf64c73e070215d0d0d837c097344f251218283",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.chimney-rangehood@0.2.0:2245fb111a66db3ed7ce47c85c4de35a9f912f2981069a6305e2005a97cf0e9b",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.clawfoot-bathtub@0.2.0:d814a905c263c5537973da26c7b0a8007552dc3f14655c2d37f20cdf35f739cd",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.cleaning-locker-tower@0.2.0:cf3230d75bb52e9445ae6ccf1af6a8f0157f99b357290594bd70966aa13ce7ca",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.close-coupled-toilet@0.2.0:912494e29b52e2cde2b7e00c459e2dbe9d830dcfe2ca149ebb066e3b29b879ac",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.club-armchair@0.2.0:11e7690610149023a646135d85caae0f2cc50e66e37e89ef436fbdf10d0af497",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.coat-shoe-rail@0.2.0:4963c8a59edbccc5c06a2cd90e990928b178f6172d8537340eec2b89c216dd2a",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.corner-l-base@0.2.0:85b2240f6ce8181b9c7e9a6114860ca05d5c5b7cfbd642ed8d546aee02c2ae6b",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.corner-wrap-sofa@0.2.0:b110a4715e4c3e40140a26c2d7ce7b705791b2ebeba9edddce109d3a57afcc41",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.counter-microwave@0.2.0:c5e5181cb3821316b450b0580fe12d005200fd9ba4370f7170cb3b449cb2eb25",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.crossback-dining@0.2.0:290199b61efe071b4dd739c659026046ad6ee50b3b8de589ec313bef2fe2f995",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.cubby-under-loft@0.2.0:d0c7249ef2212856ea70edd3d86be185134cb7153b41937bfb4588b1915391fa",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.curved-seven-sofa@0.2.0:9e152504217591d3b8817a53f16cb4a3ce13a72908b6f3dff656285d5dd03767",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.curved-track-shower@0.2.0:96cd693e6ef4c34d4de0318290abd8b4e05e00bbd7b8ad8f4fec96c7b677e2a8",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.deep-drawer-base@0.2.0:3f83aab8256ac919af56c85ac0225f4fb40655d70238b74b96ec98e4b3694741",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.deep-utility-sink@0.2.0:23611095c945df12cf6160d199f0f11fc7a3dd24125c420333f0e9aee558f46a",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.desk-under-loft@0.2.0:c67b57d633e9be76d58a0830baa21998916e51f1cd05fba6d085721b49e04592",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.document-drawer-grid@0.2.0:d5f9f81902a0c4e1d30f789a100b3898a293bbd639b4712debb0a3415e5b0b4c",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.double-drawer-vanity@0.2.0:1480332d1b67eb08213d4f3bef76d2c2c188113d9bc33fa1e58b6bfaa10436f5",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.double-wall-oven@0.2.0:6ce7f693d32a8c416a7aee141a91bff98c3ef861c346a3218ec781016ac3abe3",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.drafting-frame-table@0.2.0:d2c867f1dce63dfecef2ce24a60d2a8560dc96c23da8b3c7af3576c1fa92ace1",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.drain-slat-bath-stool@0.2.0:6328cb3bc815225a7098e752c55ae57d559477131fc31beee314ed08b0bc473c",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.draped-canopy-bed@0.2.0:63f44f41557efde797cd96319a51c4405b411e91af853b8572b88367c18db45a",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.drum-bar-stool@0.2.0:28a77e7508fd56ea5e2536ead2dc0bd4248c66369f16594114947ca61eab2f8a",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.egg-swivel@0.2.0:1807bddc77234279ed179875cebb0cba64b2cdc2b077378ec7896b33e219f0de",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.entry-guitar-cradle@0.2.0:f2979b34e718be95d07abef4f1dc9c211c977a7c5af0d0cb0c67efce01bfdd1e",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.ergonomic-task-chair@0.2.0:d82fb816ffef6302bce562f9c7fd8a86da3ce6b5decb1860636fc5a7582cf495",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.farmhouse-sink-base@0.2.0:d96274c869c32598cf248d5a7f0458f4202447a5784c89eb4cfa7bd72c373f32",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.five-tier-open-tower@0.2.0:56c71685aebc0ac6a058e789429e4461ac727b0ee2a410d13f01f1a32ef56b93",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.floating-bath-drawers@0.2.0:af546b8e6fe74bd84364956154708135d82f7aa4a22267a1be6047464275d932",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.floating-platform-bed@0.2.0:e6463caf5ef7d9a98ff9346f9b58edcbd873ddf4b2e80c1fcf2fc6e2a1761a12",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.fold-down-dressing-case@0.2.0:ee0e9dbc46432e5ba3b229c3c1dd746b13043eaf9a5726e1b5f9f9f25530ec4b",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.folding-dining@0.2.0:106f4dad7849f287ca54dd62592e6bd9d44f789541718b61ba53a94bd96bca7b",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.folding-utility-table@0.2.0:d887caada9d4d888ae07688670ea2c6daca7673e87ef8eda39b688f1f4f111b7",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.fork-back-dining@0.2.0:e777102511defc2a3bf9b61bd08c9afd1c2fb1a9d47d4c904cb458fc75dd7d30",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.four-bay-display@0.2.0:1de185bb38030512724ef94cf9b4ee450c8d4831560830ce9796e13d9dbbb45d",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.four-door-louver-credenza@0.2.0:95c604e4314091c56bb86cd2cfae0c51f40585507f3869c28a1882680c35e3b6",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.framed-shower-cube@0.2.0:99e06aff3fa40417764ae1bbed6b1f24a2d6391770f60479275188aed25ac989",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.freestanding-bidet@0.2.0:5d0b80e2bccae532528a345b9c74692c774e4edfdd01a89a67a6028dc15705a4",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.french-door-fridge@0.2.0:4b91555fc7dfb6380325f198400421d20837339fadd6ceb8f6bf821af8c0a60b",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.front-load-laundry@0.2.0:7189c2341850dff37dab4b6888cbd4ec4550b68682754fe53a1c2a07fc55ef9e",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.gable-dollhouse@0.2.0:5f3864d8d63eaf788cbe74afa4c631edb245f6fdcd6ff08c2cf65c88e308ce11",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.gaslift-counter-stool@0.2.0:adb23b07c72b639f4bca00cc6665a308c8ba16a9ce3bfd6f9ddeb50d31843674",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.glass-display-hutch@0.2.0:68838ad2c3ae8d4612f43ad0a79f549b786e3924044ebc2a91306402311efa3d",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.glass-wall-cupboard@0.2.0:97218da67a4d002863c95d12e2b57d6a823c3314550d1aac19a319cdcbaf7f1a",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.hairpin-hall-console@0.2.0:b25b3c595a127ab4a0e2434602d80c77a591b5adb4305b40c79df75286a003fc",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.hairpin-writing-desk@0.2.0:86230bbe800e242902f2c1b07ad45b8469390c9cbd6f461afa3b6a641d9ee6aa",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.half-hex-console@0.2.0:3d6c77558c6ec284506d2fb04efa71a93f58258b264ff6ebc3fe7ef0cc01c882",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.hall-apothecary-chest@0.2.0:5feaee01af2cb02bd05bcc4ce2fdf8b07086d3acd053736e93bbbfd9a7bebcc8",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.hall-cheval-mirror@0.2.0:4447c28c8e2744b4c90694ef499b8ed46c168bcac0f3156f7a746b69adb5e00c",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.hall-plant-tripod@0.2.0:37bf87261f65a8902d9d8825f4a6c8576033e64407fe3f04f1b42b749ed897c1",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.hanging-valet-stand@0.2.0:3a17dc12db3418312225d89fb4a8e057c1d8aee918bc6d8816fb6bf65a9b7043",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.hex-child-pedestal@0.2.0:228dcc9772bd02a09b6a092d949fc047ff57e89a5e730dadf520f111269b3993",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.hex-cross-dining@0.2.0:6685a66f0faf6fb6b29c1434e99b87f006d315605215de3a4b9958e44d64612c",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.hex-hairpin@0.2.0:b7defe09bccd33c9eefa4b246d16cfdea77ffe7354ff99d15fe26d6d0c6c6238",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.high-cistern-toilet@0.2.0:297214522ff88f5bd7ca59b474654b8c14dd81b0f4160935e87eedff6e78d986",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.highback-executive-chair@0.2.0:2cb88a4c64507c28750009839fe82e3053ce687f9bf8242c8fac089f1a58354b",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.hinged-futon@0.2.0:abf7b3308722103502877c0fb5d147da5931258447a4954eb188390583f2ab4a",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.hinged-laundry-hamper@0.2.0:6b4a339d148e9bb7855b6b9f04cac3aa704052aa168227f9b7a787677d71e286",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.hinged-storage-ottoman@0.2.0:50a0d12b749a3ec952feaca532331ddf15e552356875436bf49cd263c3b0025a",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.house-frame-floor-bed@0.2.0:99e4867dba9a5890ae46c7a9df1fe356329bb80b5e0d31c25efc215b7de28cc5",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.house-toy-cubby@0.2.0:f357e3b134176937584f94302730498e95e4f0171f85987865442926e550fa09",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.industrial-open-etagere@0.2.0:af93dbb165a30b5f0de10ed87098eb98e05cc48f62120542d26cf628ff708479",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.integrated-dishwasher@0.2.0:32706add7470871152fea107abb5eb5a383cc1ec8ebaeb701684bca96d300284",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.ironing-crossboard@0.2.0:15e5d7cea89abc5de8221b4733b16d0423054be666cc41c68f59bb1dde311caf",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.jewellery-bureau@0.2.0:47f71c5504515f7b684fc6b06423e64df780f85ef428fd7f2b62b43b6bc65281",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.junior-fork-chair@0.2.0:3474e64e14225e0c707adae4ef0379e7d12555216037140bb2eb1235f3104f31",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.junior-gear-locker@0.2.0:91ba2f0a5de363487fc8d2a1b5aa9ba4c8889de5a6a7b7ee1292e8d36faeb280",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.junior-tool-bench@0.2.0:83f721d839441c112401167c0d1c7934e842291640d97ea378c5128cfed2f310",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.key-charging-console@0.2.0:14739104e8bdacee135981c88d44b999672d40c6c9bde4c9577483cb928079af",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.kidney-executive-desk@0.2.0:87d79c8fa4994e77c9c8d5c3c3937738b4abcda7ca5cf02548544e422da61ea7",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.kidney-tripod@0.2.0:9094d42a8f8cb990984d44ec7b7d932e14b7b634c9acac48a30e79914e562985",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.kitchen-learning-tower@0.2.0:4d0c6423a24eee780bef215170e592577e80a2951c235af750ddd5eda29d3765",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.kitchen-wall-pantry@0.2.0:286eca7572ebe1d829430514ca2a8842f10a644127f2b31df79c05e9a979492c",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.l-return-workdesk@0.2.0:6f2eeb68270c788eb9a12b0a51105d844d2f6bd1a7c9e1fc9d6b9cc28d00a80c",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.labelled-filing-tower@0.2.0:90fa2b66142c6a30b0ad2788bad4d34fdd89610e61fd9f9653b25245f07026ca",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.ladder-reference-shelf@0.2.0:df064651ea1237341176dcedf6c21b91fbbb935b6be076e91491a947fe1e9544",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.ladder-shelf-desk@0.2.0:2033f2cd87cf514fb5097842a291c22b73e49c71bb46f65cebbf2f1d8afccebe",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.ladderback-dining@0.2.0:edc9b243e41587a403cdf3a38b05ba65f690eb8348bf9e2474f9f5be19347c50",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.laundry-open-grid@0.2.0:e90044e5b9f648314bde68898588ea53bc519e5a43b20896f5116f798b13a9d0",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.leaning-open-display@0.2.0:56eccef40cab1f390e5e36d93f5992e925205d79f2fd652197e818f5cf190c2f",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.leaning-towel-ladder@0.2.0:3f6698dfd663a8870e941a326c6810a321a9be3ef74e6bec1c476f7b7d67d57d",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.linen-cell-cabinet@0.2.0:ce7bcf52b911d964dcc1de8e252600b6063c77fdcb0847428ce99cd24027a753",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.louver-shoe-cupboard@0.2.0:e28befdac322198bd6ee151ff1c9d7480f659a02f38d1e2a061a69b711cc7772",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.louvered-armoire@0.2.0:65d182dfb4c163e5aa1a8fd7e006db305e30fec3cf4d027203a346bf78de2236",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.low-swivel-chair@0.2.0:b5ae7c460c6763bb139aef39a8ad8b3b9a1f0fdbc1da718d3c809a54d7cc4d5a",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.luggage-folding-rack@0.2.0:1c06e145a2e8a5afe0cbfc3d8f4b2c39e107bf1a3eb56b389991e369a5ca2b96",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.mantel-fireplace@0.2.0:095047d53b09373f417dc3378d7859906d644b9723f836558e31ead59d8607aa",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.mesh-clothes-cabinet@0.2.0:ec20b3d2cb292ce9527e5a11075397bcd74fba0d593d2a9ba4c9bb3142b41893",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.mesh-hall-divider@0.2.0:52901688d6fe2dd957e348dd2637f814dcb66009225719cbe3bec4f6742209ff",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.mesh-office-cabinet@0.2.0:433be83ea60ffb002562be3b3cee0c83fb289e0b705aaa7301f85871d4560cb1",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.metal-mesh-pantry@0.2.0:332d7b6376d23e205eaef281a774ab8ef3c0d63de5b010c960acc0e1aebede1a",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.nested-oval-tables@0.2.0:57b2e5299836f7ea6f094853b0cbadade64b5a1e5d3e5167bfc0c5898a71b22b",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.nine-square-cubby@0.2.0:c641d44dee4c1a190e64642f1abaa0fccaef52c3a9f01652ecb330bf24d5d68a",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.nursery-changing-chest@0.2.0:43a76155788e8fd933669b8af97d2b5ae6fd2958b39ae235dfdb38877c94d0dc",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.oak-reception-counter@0.2.0:ed785abfc8ab19a34c44199be4ba8a5c4f7daaf1729b4e7695a92d9fc3df4eac",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.office-grid-bookcase@0.2.0:bb6cbdc177bc4ad4cfabb968468a1959469b0abd8615faceb2bb1f6017e3cdae",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.office-tambour-credenza@0.2.0:9b8276f55f21c531d20be0be21e7e4887a62b9136206bc59fd1a1d7524e70e59",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.open-cubby-nightstand@0.2.0:a337e8bb162082761a2e16c386e1adbb17f80af40c08c854da1919d69fa73400",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.open-four-poster@0.2.0:04937b84e44805b656f4142a76d1b1f39c6b97aa6fe92435d5def5debfcf106c",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.open-garment-rail@0.2.0:4e0df974a487e1b218522de60d6c344acd722db7b5ad52b7517fce95c11f2269",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.open-playpen@0.2.0:659137d2f3a4efd6af19f5d61fbe0b0d3cb9ae396c922fdb91a260c2bd4de102",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.open-pot-tower@0.2.0:2a7b3f96ea62617925862f04eab9ee801771c3f89f8195aade3351cb5445a98d",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.open-prep-island@0.2.0:f9d536445af5569698573940d79fc8efaf93aa3d6ea74597081335c7e123ec38",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.open-shoe-slope-rack@0.2.0:5abc689ad8d5909ed1f6dd2748a2ae02666bbd0974f5d613a08f332af5dde108",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.open-wall-cubby@0.2.0:95c8bc38834d80fb35ede6bcc53b235e232b9db3b2258ea8fa74f44f11f0a87b",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.oval-dual-pedestal@0.2.0:837be0ae7e7f2421d6edeae6a8b92b08fb248fcd3beabf6498ae724e955c4ad0",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.oval-floor-pouf@0.2.0:54bdcf2f245f4d8acd47416a75a5ea310c8013201bbb03c6e58bcaeae6a55bbe",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.oval-floor-tub@0.2.0:656318e7ca9dd87d888fbdf9621b6a33e71a596d02a6c1be2820ccaffbb94898",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.oval-hall-console@0.2.0:ed9b9be5f4d38ca5a934c4c890cbce4f1f01ecba471adf0a77acbf6fbb315d5c",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.oval-nursery-crib@0.2.0:a023f5dc53b3f5ea5eb79054e3b7510d1dc6191f82f57291e49fcef6a18025b6",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.oval-panel-dining@0.2.0:aebdd1758e3ddee58041037976a63c8b4d5bfa8f30d92c80be0cd0e3d3cca2e8",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.oval-pedestal-desk@0.2.0:1dec4f1297c6253217071cf8ee83ae2cbe1954a26fdbbb40400b7aae61a6107b",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.oval-soaking-tub@0.2.0:dce9424e16a66a9ca28906d1b4c745ddfa346d6474fb88304663fcf789f243dd",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.oval-trestle-coffee@0.2.0:6f4b5af74b2a4fc5f870e127213f5b2dd9bc50902bd2500d48d2e1071c1831d5",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.pegboard-tool-station@0.2.0:359d96111e94d7b74f1c03ba4ada7942c5b5944c638302ab512af5fd9c6fb1ae",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.perpendicular-bunk@0.2.0:eddb1c31d6ec60226c63a10dded615eb1209f69a60c24e30c1c242ac8431d60f",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.pet-welcome-bed@0.2.0:34a43ee7fd98a1b0c0e5bd3b6aa3de8957d57cae7db0c2f35ed2a49d2e974658",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.petal-lounge@0.2.0:1584916ced9aeb20b21e7af5b3ef1e2b2f3c4a753c10e3ef7613add4e081b0ec",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.plan-flatfile@0.2.0:a9fda267eb1aa77edc4a3cb17a070635b8c3c717668a42020ebaad1b8b8fedeb",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.plate-service-rack@0.2.0:5ceee9e499f9d349a2c3effd66f44883b234a0374cd0a3d7d91970b6426356a5",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.play-sink-kitchen@0.2.0:be54da0545f7218219711556f2f6a0b44ec3363a04287c4b7d66e50be5f058e2",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.pullout-trundle-bed@0.2.0:238545825cb9e0d248de758929ee0cb76b3c85eefc8c3f458e4ee8450a9a0998",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.quilt-rail@0.2.0:1347bdf1eab4d40212051a275c5d0d257c2300424d6a8a3a4ecec51c2bf45a15",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.racetrack-cross-dining@0.2.0:880164ec649efe19f0b4ad54f7c19cedf2be9bb92061e5dd3c1f17507d9b9392",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.racetrack-fluted-dining@0.2.0:2295f8be8a63983b4b96c141fb3581c98792e8b1fe1b49e6b16ce04d2a893a1f",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.racetrack-panel-coffee@0.2.0:efdeeaa1d4d936d872674d43d15b5cc01674362efd3a287c20ad7e7d6f44e0a0",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.rail-frame-sofa@0.2.0:ba456e957364af4ad6aff03fc5ede5f38acd2ed91601137b5e1866b3dc4cfda6",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.raised-train-table@0.2.0:2695be89f1855f2b894cde6dce773db8d533e39acfbc7836150281cbb4ad601c",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.reading-magazine-sling@0.2.0:e77768c785225b8ed3f47b6dfc53bf1a77a0728b11499dc3b354b583bc52be86",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.reclining-lounge@0.2.0:d882d587d62b57acd91d15f8a7e8fbd7ea33a23422104080cdc763ce2c055f62",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.record-listening-console@0.2.0:cfe816dcba3b2e25d59dd95eab74003964f0e6917192e40df3144f039988c813",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.rect-sled-dining@0.2.0:30cfbf8004ac7e8559b4be94e87b4d76784e9f379280b49a2372ffa1f5a5f43d",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.rect-trestle-dining@0.2.0:5ff13e5edd80a7df209720dc3a3b52abedc282cba6d6550d39446a5712d8423b",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.rect-waterfall-dining@0.2.0:5b8b3626e8d4d7a78bd938c51ab5d691100ccf794dab0d1c34a240efbc28208a",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.rectangular-nursery-crib@0.2.0:4686e60f63bd7efe66d157cfa1a1752cabb94628b881c621c9fde3c84880a5fe",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.rectilinear-bathtub@0.2.0:90f23ac7bc90dfda87a38b6005a8e80fd0af66355e100758e2229441099057fa",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.retro-two-door-fridge@0.2.0:129c7880cab7fbe6abf5ec3569314d737ff4c3f64e06bed7ec2dc0e40a3d019f",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.ring-hat-stand@0.2.0:320ff55ce19a238b0ae92f40160462a67eafabc8fc6d0c493d86da02a5d27397",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.rolled-tuft-sofa@0.2.0:a5dbadc7075857820e617ee772dfb56ca71561c8cf381e1ca002cbdede46968f",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.rolling-appliance-garage@0.2.0:42c0dab33d886ed31c99fcaeaf7531efc9ca10b07e81c0a9e40f39d335641f8e",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.rolling-art-pots@0.2.0:ff0366f1a96d903950ee53ed79f47479cbb7292aee9e599742973291a0a7e0b3",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.rolling-printer-station@0.2.0:ee08ecbf185aad5bf995df4398bfc2b5dd77152e47ce7215bb1c2497720d8857",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.rolltop-pigeonhole-desk@0.2.0:755cbe8bb4b25a7044794894ee6407e9c815e1c4cbe76c4893645bbaa62d4db3",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.round-child-activity-table@0.2.0:7f204fd3ca4bef0eb17a76cc7add52ddae5739f02dc384dfbde550cbbb2dedf2",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.round-cone-dining@0.2.0:98bb459f549af19f3b45d3840538f78e0483920598609bb178e44921c817cf94",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.round-drum-coffee@0.2.0:2bb0ab94d23ef0a52118e5297dfb7a49e32498096640a8c6d5997c6618e6a894",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.round-tripod-dining@0.2.0:934b59f4aaffcae6fff85a8db447f19df1455df3a96c5079798c344d851f5d91",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.round-tulip-dining@0.2.0:2dd9d1753e93184bcd6a4f0897a8d9bd390079c15c3400f8d7017330ffe3470c",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.sawhorse-dining@0.2.0:aa9f636e391a8f57c34d94e5adbe60bde5791cb8dec82e63aa2b9b735719e6d9",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.screen-arm-workstation@0.2.0:997d470372cd417891516809995e999fb6ab208ff05437815fea00d6f7d8b791",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.sculpted-hourglass@0.2.0:f7b4dcc2f9aec509ac79b03d194fc69b31a33601b7f027c9fbf6e3811e326758",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.server-equipment-rack@0.2.0:f9b803df493026ada23052e69ffaa8e93df894868a9b24f884d7738d9a5d659b",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.shaker-single-vanity@0.2.0:a1bbc37aa06a7f363a18a13eb9297814c19459dcef5b9c78455bd596ce424fc9",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.shaker-three-door-console@0.2.0:d3f417352cee608b2bee0652861e4bffa5509e71d269759626b93147c49d63a1",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.shaker-wardrobe@0.2.0:8969385ae130da0e7f7827ffaa465e5900eb3791202c98e5cf9aa289545044ef",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.shell-dining@0.2.0:6c486e1535590a4ced14a151af19d8f2ae487b9841fecc775df446e90b9eb186",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.six-burner-range@0.2.0:2a918d3f75dc9cf38490bd4b5b0aa48cdac83d1df5e08fafca7aec213b574949",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.six-drawer-double-chest@0.2.0:df471ed95bf8aec118d774632c881790dca78eb3315992fe53ed00dd74bd0b43",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.slatted-low-bed@0.2.0:78c6055383f97bcd69bacc8e433f3fe96e4720ef736ed2181f8153d661e3855e",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.slatted-privacy-divider@0.2.0:77580ecaf07776c395aed7ee1ccf8048589c4444eb1a0518aa880e1fd6cc836b",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.sled-double-dresser@0.2.0:cb3daf12e0bc74999d39ed4b53f290f2198f944393e3030caa2c8374eff3284a",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.sled-footstool@0.2.0:4bc0fdcd80058c563c0c1cff70a00dba53fa9d3db423f8c99e900e55f89a22fe",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.sleigh-panel-bed@0.2.0:f00e0d2ac9ed926231078153296e5a510d071e743b33b4695fbe7c79e000d3a9",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.slim-spice-pullout@0.2.0:373573431a72c1c775aadc6c9e542086d97d31e79185ed77f5c69f9508453a4a",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.small-parts-apothecary@0.2.0:18320445238783f8411f9987fef8da4451e42a9c1da01cd31d925decaff7eb98",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.spindle-dining@0.2.0:4b4cb8042ef980501c5b282150b91f2d2d5799d48dc3b86c41878d4d5b2fb9de",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.spindle-head-bed@0.2.0:40f450c7a4299eece3948360c157996186944b78ca6ea701cd11f09068bda4b1",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.stacked-washer-dryer@0.2.0:77679a22a2ac32233214720be96b78f566a77b019dcbaba9ce91be65b129d132",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.staggered-reference-shelf@0.2.0:252a844a4b27cdfdc66aa2aaead5671f0997159297142ef04f5b2a516d5ba3f5",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.staggered-room-divider@0.2.0:47e858bf9d8e7d9208c2ba23dd1b44c08410d67ba1b29d642e5ff3430d5a9438",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.stair-storage-bunk@0.2.0:7abd92e49375b1f098dae5378487f3f151149d6078de85c86fa8d72af839f3f9",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.steel-sink-island@0.2.0:0567813077fe5457a904643a5cc200f8917515aaddb6fd94cca47e0a1e9e2a68",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.steel-sled-workdesk@0.2.0:0f51f319e1fd019f596aed9b453f6f88523690b3e19f0c3a177595ef386aa80c",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.steel-washstand@0.2.0:d5c29aebf3dc4a7dba94fbe8ef9963d18c7aab1a22fba1bb4f7c86e9fbf3e0ad",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.stepped-display-case@0.2.0:a1e23509cb107b06aeebcf1fc4947268ea099b77a6e10fc8b7a529d8593f3e0e",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.studio-keyboard-stand@0.2.0:263a882b055d4798e5a945239275ff07a435bb9ea9f4221d485a02d2ae0c4a31",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.tablet-training-chair@0.2.0:615aa6be5498a8a8b30a662986fc967e386f53638fa0d2eca7390a66cadaf519",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.tall-lingerie-chest@0.2.0:3cf91fd372e79bce8fddae7079010f5dd6edc2be24c0c91640c94ab8eb7d07ab",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.tall-pullout-pantry@0.2.0:e2dd5d312e51f16f122cce212274880ce60794c71a32725918bc38174e0c559f",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.tall-shaker-single@0.2.0:bab07c554dc8b3221908ad3ade7b0429fd315c3d9b61ee6014c6971954a0d408",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.tambour-bedside@0.2.0:4f16c45550ceb33fdd890f903b2169e19d2ebcbc18c1f7897a5edb4f7f716245",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.tambour-tall-case@0.2.0:e7b4c9a5cfc00b366833ae893b7e2d3291099b752a234505600027fe75fe5ef2",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.tension-sling-chair@0.2.0:93928ff184f1d8c0fe713145736d4a8265c46575b1cffb76d546371025198b4b",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.three-basket-bath-caddy@0.2.0:8546cc3786c460a34710fc96652eaa8967374d18d65b4adc2a2ad5f2690a5f38",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.three-bike-floor-rack@0.2.0:05950067667c57507eb86abf6402091233197d94c699267fa2d8c8ad5a4123d5",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.three-drawer-nightstand@0.2.0:8031eddeb2f6e202cbebba38745a6f7692e555674c61b8c05dd6707f144b6722",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.three-laundry-sorter@0.2.0:e149eb87797e66e766efe01d0a0ea3c5432c61e7ff9ce173e3536d0808895161",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.tiered-book-display@0.2.0:eec5c84b76c16781a88497c6bccbf206008c46325e0d55bf18b852d64ea6a6ce",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.tiered-plant-pedestals@0.2.0:4f53c4ac62aa682f7c462858b6ca13dc45688ff2d9ac61b0ee421c227177addd",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.tiered-towel-stand@0.2.0:35cfb1acbd71e9a8ad1848076904ebb3388bc73d4225d38013de0b43c092deac",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.timber-highchair@0.2.0:025717c64f44c8944def9993d5d5819bb87513f3084d9a0d000eb32b708eb846",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.timber-reading-lectern@0.2.0:d1728af6f1c83a6e7d3d6ff7df4bad3e46c0843788892f4ab0511cb31ade3929",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.timber-rocker@0.2.0:4a7e504d7d4c21b303161d27e52708641a23d6841cf30a96150ca94cbe37206d",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.timber-rocking-horse@0.2.0:14d43477234f83cbdbe6b6f1093f38034d7464bd2d897331879bf5eaa45062c7",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.toddler-spindle-bed@0.2.0:0fb739b8ac4bb6c5d58a2ba7c0ac78d06a2893fd7e35c469424cb8ce7659309f",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.top-load-washer@0.2.0:fd59a7751d12c031bc972b202daa748fe57f1db81e4c0e22bf487cc350b4288f",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.tower-drying-rack@0.2.0:8d94fe5868e95b3b18bd05dcd5bde02670eb1691a2aaaf5b490f7ca6e55e1fb6",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.toy-drawer-apothecary@0.2.0:a72a83a79a2a3bfff540b98f93277ee7d703d221dbd38afde907d308e1aab054",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.tractor-counter-stool@0.2.0:cc0f85bf3857e7d08f33fa62bfc68d0c9e280294bfd6d8f6c16e1f2aad592819",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.trestle-project-desk@0.2.0:470a41b7b768085a423fe194ff84ab10009b6e94e54d939700dee53de927a87c",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.triangle-cone-table@0.2.0:e20951f91116030b54034d69989b6b062c2f2c293d3d0d8c8f3d3ce176e629af",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.triangular-child-table@0.2.0:a0014f9742311a73a0dac48277b737792cc958085f637fb79cdd093d5110c1d5",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.triple-sleep-bunk@0.2.0:e29074ffe2e8167a24c5667b7cab983efa086077b8d85744c8d4b6f0fdce05fc",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.tripod-counter-stool@0.2.0:6075efa9b3fbfa1cfc506faede6f30965d6f0c45c33802b3702b4a45e6d74e6e",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.tufted-headboard-bed@0.2.0:220b8e5058d7c3e4c62fce2c0d14261508c685c1a9447acbe012c92f030c177b",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.tv-media-pedestal@0.2.0:ccfba41699aa9988866a3517ea0331f94fb96bb23dbd1345098e887acec2390f",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.two-bay-low-bookcase@0.2.0:2e463a06ac575988259f117e64cd5e5cbcf44c3b9ba182f485b93a11f1c80dca",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.two-column-label-file@0.2.0:d3152f14eccff0049649c463be7ecdfd5468ff9bd3758cfcf389552c5fa10077",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.two-drawer-wide-chest@0.2.0:102ade44740d89dfe1fa9215cd46b47f3c3cc0367b20ec79dadf9c4ddf831259",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.umbrella-wire-stand@0.2.0:665e0f2f16a5edf2be92798e2ccd4d52a1e587cb327ab961a94e8b8eb43d431b",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.upholstered-dressing-stool@0.2.0:668352e85db71d57f9e0717b69b871cbb54f7716d95cb24fdc86b397046f84fb",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.upright-freezer@0.2.0:61e8eea05223e21405905f4c10f27f0fb9a1319fd127607d1d00d66f0c625146",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.utility-litter-console@0.2.0:dc4cd494fd764b86e8169773f71be3c24b4ba2c3f0a6899988c7b3e5c53c6b47",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.utility-pet-crate@0.2.0:9fd26cf9af2ba522eeb6c73d7be1e40d5d115089a891ecb86342ec122ae79610",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.utility-step-stool@0.2.0:dbe5fa109001479939d17ba49a43eee6bd9a68955cf4a5911f176a7141638b46",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.utility-tool-workbench@0.2.0:2a32f822abf703109d39b818613dc20e3e264d764c85ffee6f618fed531b0c4d",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.vented-bath-locker@0.2.0:0a40b7cfa94e3ae20a25f568cec323f2cc824aec05c88c5f609e7e008408561f",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.vented-tumble-dryer@0.2.0:f2fa2a04eef295b2b55800d553c9de90d86f141f6b87322c64d07f50d0290991",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.vessel-top-console@0.2.0:b79618ee7e804c9f36f3206cd6154466f90bc53ab53bf130b7158bbb79e2cc75",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.walkin-shower-screen@0.2.0:1006d353570c170db0fbe1bf0a9898fd06e8bcf25bb12f64d29578c682f2c3d2",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.wall-carrier-toilet@0.2.0:62350617c0a011d9e43aa16aa0d3522b9818662444bee82e4d4f0078f748f3cb",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.wall-plate-cupboard@0.2.0:4180e9efe391747d30a8a58ccc537c2bae749c55dcb5d9a61a6dbca4ef8dfa7f",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.waterfall-hall-console@0.2.0:a3126c3bb95dfbeba3f0d0eac8cd5e5b13c75a39b61ec1c0ec7cd8aef1c69cad",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.waterfall-workdesk@0.2.0:45dfa6aedf57182c3447630569e0ae6325efa913d0b756888316226374484473",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.wide-cane-credenza@0.2.0:9a0c65a891cfcab8195c4a6435cb6b01297d4affc78c58518607834b67689f81",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.wide-flatfile-storage@0.2.0:44824de9db54cdaed4775ca0393c43115316b53a55f17534f217176bf023d959",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.wine-cooling-cabinet@0.2.0:56309d7029fc1867248f89ece48c954825b88202fed3803c27cb29581209aa76",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.wine-diagonal-cabinet@0.2.0:1214d0290cbd12bef29abb01c486fe51e9fd671b2bc14a472d37d7a28bef3da5",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.wing-drying-rack@0.2.0:71a61c63fd2df2311b770fdcfbe0dccc24aa31c665ff9186a13f4171524be778",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.wing-headboard-bed@0.2.0:7bb6c3f801ff05b53dfd6a3993a19f191dbc510a996a2e0a51c048871e669d3b",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.wing-reading-chair@0.2.0:159f946b6136ef621f2d04f6bf88cd7c5a90783aac7e8e918fc6f4c2fe4aa075",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.wire-dining@0.2.0:b27251e1634e59b2c05e8341bb1acdd0229b170d1a5da4a5140f1bada9bde498",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.wire-front-low-console@0.2.0:597a96b4509ddbddba7624575fddc451e8040920c01e1c963faf0bfecf10029b",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.wire-lounge@0.2.0:52f5119a593ef38bdccac120127c46b20a432de2031786f4ab1133e0f36cf68e",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.workroom-sewing-table@0.2.0:e4a2e4ff021304b44fa67bdd6403da20a939596876548842c0ac22020e9d9444",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.woven-bow-chair@0.2.0:5768cca13081678fdd43fe5216acdba2d05082ddf5f2402dcc2089b8fc8a63fe",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.woven-dressing-screen@0.2.0:0ef554daf4e110e81b729389f13fb5fb00d29a3df40e2b5bc4ae31a42cb3c7b2",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.woven-linen-basket@0.2.0:b8046dfc0252460895634ba1c6b1936287afd2f7421685db1ea479ab6c106ee7",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.woven-toy-lockers@0.2.0:350fe40893610ba13898559dc997cf9f399e49b182e710785d8c2801c9f1231c",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.writing-bureau-cabinet@0.2.0:9eb15fa11f320d9c4fd5ca5801c94a82fa7275611d53bcdb0ab0af8226751821",
+      "pass": true
+    },
+    {
+      "id": "RESOLVE-EXACT-ois.design.writing-drawer-desk@0.2.0:fcb1bb7b946a264276e92acaad8f1999adb04a03f1e5534fb922e6cbc3c2136d",
+      "pass": true
+    },
+    {
+      "id": "MISSING-REVISION-ACTIONABLE",
+      "pass": true,
+      "observed": "Furniture ois.calm-oak.sofa (0.1.0) needs its saved model revision. Placement and lock state are preserved."
+    },
+    {
+      "id": "PLACEMENT-REGISTRY-COVERS-RETAINED-TUPLES",
+      "pass": true,
+      "observed": {
+        "registryRows": 314,
+        "retainedRows": 314,
+        "omitted": []
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.calm-oak.sofa@0.1.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.walnut-form.sofa@0.1.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.soft-japandi.sofa@0.1.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.city-loft.sofa@0.1.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.coastal-linen.sofa@0.1.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.calm-oak.lounge-chair@0.1.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.walnut-form.lounge-chair@0.1.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.soft-japandi.lounge-chair@0.1.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.city-loft.lounge-chair@0.1.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.coastal-linen.lounge-chair@0.1.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.calm-oak.coffee-table@0.1.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.walnut-form.coffee-table@0.1.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.soft-japandi.coffee-table@0.1.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.city-loft.coffee-table@0.1.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.coastal-linen.coffee-table@0.1.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.calm-oak.media-unit@0.1.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.walnut-form.media-unit@0.1.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.soft-japandi.media-unit@0.1.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.city-loft.media-unit@0.1.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.coastal-linen.media-unit@0.1.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.calm-oak.floor-lamp@0.1.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.walnut-form.floor-lamp@0.1.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.soft-japandi.floor-lamp@0.1.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.city-loft.floor-lamp@0.1.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.coastal-linen.floor-lamp@0.1.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.calm-oak.bed-twin@0.1.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.calm-oak.bed-full@0.1.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.calm-oak.bed-queen@0.1.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.calm-oak.bed-king@0.1.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.calm-oak.bed-bunk@0.1.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.calm-oak.bed-loft@0.1.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.calm-oak.dining-table@0.1.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.calm-oak.dining-chair@0.1.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.calm-oak.kitchen-base@0.1.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.calm-oak.bath-vanity@0.1.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.calm-oak.desk@0.1.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.calm-oak.entry-bench@0.1.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.calm-oak.washer@0.1.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.calm-oak.toy-storage@0.1.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.adjustable-workstation@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.aquarium-console@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.arch-hall-console@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.arch-side-table@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.armless-modules@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.bakers-prep-rack@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.bar-service-trolley@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.barrel-dining@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.barrel-enclosure@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.bath-open-towel-shelf@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.bath-pedal-hamper@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.bead-maze-cube@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.bolster-daybed@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.branch-coat-tree@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.breakfast-overhang-island@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.butcher-drawer-island@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.camelback-sofa@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.cane-bedside@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.cane-dining-sideboard@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.cane-head-bed@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.cane-linen-tower@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.cantilever-c-table@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.cantilever-dining@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.cantilever-lounge@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.canvas-book-sling@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.canvas-play-tent@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.captain-storage-bed@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.ceramic-pedestal-basin@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.chaise-return-sofa@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.channel-upholstered-bed@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.chest-utility-freezer@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.cheval-dressing-mirror@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.child-art-easel@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.child-tablet-chair@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.chimney-rangehood@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.clawfoot-bathtub@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.cleaning-locker-tower@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.close-coupled-toilet@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.club-armchair@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.coat-shoe-rail@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.corner-l-base@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.corner-wrap-sofa@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.counter-microwave@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.crossback-dining@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.cubby-under-loft@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.curved-seven-sofa@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.curved-track-shower@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.deep-drawer-base@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.deep-utility-sink@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.desk-under-loft@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.document-drawer-grid@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.double-drawer-vanity@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.double-wall-oven@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.drafting-frame-table@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.drain-slat-bath-stool@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.draped-canopy-bed@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.drum-bar-stool@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.egg-swivel@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.entry-guitar-cradle@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.ergonomic-task-chair@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.farmhouse-sink-base@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.five-tier-open-tower@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.floating-bath-drawers@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.floating-platform-bed@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.fold-down-dressing-case@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.folding-dining@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.folding-utility-table@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.fork-back-dining@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.four-bay-display@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.four-door-louver-credenza@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.framed-shower-cube@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.freestanding-bidet@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.french-door-fridge@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.front-load-laundry@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.gable-dollhouse@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.gaslift-counter-stool@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.glass-display-hutch@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.glass-wall-cupboard@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.hairpin-hall-console@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.hairpin-writing-desk@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.half-hex-console@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.hall-apothecary-chest@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.hall-cheval-mirror@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.hall-plant-tripod@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.hanging-valet-stand@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.hex-child-pedestal@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.hex-cross-dining@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.hex-hairpin@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.high-cistern-toilet@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.highback-executive-chair@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.hinged-futon@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.hinged-laundry-hamper@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.hinged-storage-ottoman@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.house-frame-floor-bed@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.house-toy-cubby@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.industrial-open-etagere@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.integrated-dishwasher@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.ironing-crossboard@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.jewellery-bureau@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.junior-fork-chair@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.junior-gear-locker@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.junior-tool-bench@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.key-charging-console@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.kidney-executive-desk@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.kidney-tripod@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.kitchen-learning-tower@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.kitchen-wall-pantry@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.l-return-workdesk@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.labelled-filing-tower@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.ladder-reference-shelf@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.ladder-shelf-desk@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.ladderback-dining@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.laundry-open-grid@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.leaning-open-display@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.leaning-towel-ladder@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.linen-cell-cabinet@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.louver-shoe-cupboard@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.louvered-armoire@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.low-swivel-chair@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.luggage-folding-rack@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.mantel-fireplace@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.mesh-clothes-cabinet@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.mesh-hall-divider@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.mesh-office-cabinet@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.metal-mesh-pantry@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.nested-oval-tables@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.nine-square-cubby@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.nursery-changing-chest@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.oak-reception-counter@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.office-grid-bookcase@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.office-tambour-credenza@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.open-cubby-nightstand@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.open-four-poster@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.open-garment-rail@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.open-playpen@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.open-pot-tower@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.open-prep-island@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.open-shoe-slope-rack@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.open-wall-cubby@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.oval-dual-pedestal@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.oval-floor-pouf@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.oval-floor-tub@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.oval-hall-console@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.oval-nursery-crib@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.oval-panel-dining@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.oval-pedestal-desk@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.oval-soaking-tub@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.oval-trestle-coffee@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.pegboard-tool-station@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.perpendicular-bunk@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.pet-welcome-bed@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.petal-lounge@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.plan-flatfile@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.plate-service-rack@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.play-sink-kitchen@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.pullout-trundle-bed@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.quilt-rail@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.racetrack-cross-dining@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.racetrack-fluted-dining@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.racetrack-panel-coffee@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.rail-frame-sofa@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.raised-train-table@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.reading-magazine-sling@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.reclining-lounge@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.record-listening-console@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.rect-sled-dining@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.rect-trestle-dining@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.rect-waterfall-dining@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.rectangular-nursery-crib@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.rectilinear-bathtub@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.retro-two-door-fridge@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.ring-hat-stand@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.rolled-tuft-sofa@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.rolling-appliance-garage@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.rolling-art-pots@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.rolling-printer-station@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.rolltop-pigeonhole-desk@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.round-child-activity-table@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.round-cone-dining@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.round-drum-coffee@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.round-tripod-dining@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.round-tulip-dining@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.sawhorse-dining@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.screen-arm-workstation@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.sculpted-hourglass@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.server-equipment-rack@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.shaker-single-vanity@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.shaker-three-door-console@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.shaker-wardrobe@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.shell-dining@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.six-burner-range@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.six-drawer-double-chest@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.slatted-low-bed@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.slatted-privacy-divider@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.sled-double-dresser@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.sled-footstool@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.sleigh-panel-bed@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.slim-spice-pullout@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.small-parts-apothecary@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.spindle-dining@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.spindle-head-bed@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.stacked-washer-dryer@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.staggered-reference-shelf@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.staggered-room-divider@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.stair-storage-bunk@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.steel-sink-island@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.steel-sled-workdesk@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.steel-washstand@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.stepped-display-case@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.studio-keyboard-stand@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.tablet-training-chair@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.tall-lingerie-chest@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.tall-pullout-pantry@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.tall-shaker-single@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.tambour-bedside@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.tambour-tall-case@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.tension-sling-chair@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.three-basket-bath-caddy@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.three-bike-floor-rack@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.three-drawer-nightstand@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.three-laundry-sorter@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.tiered-book-display@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.tiered-plant-pedestals@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.tiered-towel-stand@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.timber-highchair@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.timber-reading-lectern@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.timber-rocker@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.timber-rocking-horse@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.toddler-spindle-bed@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.top-load-washer@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.tower-drying-rack@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.toy-drawer-apothecary@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.tractor-counter-stool@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.trestle-project-desk@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.triangle-cone-table@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.triangular-child-table@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.triple-sleep-bunk@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.tripod-counter-stool@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.tufted-headboard-bed@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.tv-media-pedestal@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.two-bay-low-bookcase@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.two-column-label-file@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.two-drawer-wide-chest@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.umbrella-wire-stand@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.upholstered-dressing-stool@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.upright-freezer@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.utility-litter-console@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.utility-pet-crate@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.utility-step-stool@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.utility-tool-workbench@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.vented-bath-locker@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.vented-tumble-dryer@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.vessel-top-console@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.walkin-shower-screen@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.wall-carrier-toilet@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.wall-plate-cupboard@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.waterfall-hall-console@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.waterfall-workdesk@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.wide-cane-credenza@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.wide-flatfile-storage@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.wine-cooling-cabinet@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.wine-diagonal-cabinet@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.wing-drying-rack@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.wing-headboard-bed@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.wing-reading-chair@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.wire-dining@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.wire-front-low-console@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.wire-lounge@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.workroom-sewing-table@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.woven-bow-chair@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.woven-dressing-screen@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.woven-linen-basket@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.woven-toy-lockers@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.writing-bureau-cabinet@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    },
+    {
+      "id": "RETAINED-BINARY-ois.design.writing-drawer-desk@0.2.0",
+      "pass": true,
+      "observed": {
+        "bound": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,215 @@
+{
+  "id": "ois.design.junior-tool-bench",
+  "sha256": "unexported-source-a6a97ed1ff18ea7190f4c07e8ea17b6dba901563a653d7aed874183539ef16c1",
+  "sourceModel": null,
+  "sourceSha256": "a6a97ed1ff18ea7190f4c07e8ea17b6dba901563a653d7aed874183539ef16c1",
+  "partCount": 18,
+  "componentCount": 7,
+  "components": [
+    {
+      "parts": [
+        "leg",
+        "leg.001",
+        "leg.002",
+        "leg.003",
+        "bottom",
+        "top",
+        "side",
+        "side.001",
+        "shelf",
+        "worktop",
+        "pegboard",
+        "vice"
+      ],
+      "minimum": [
+        -0.41999998688697815,
+        -0.20999999344348907,
+        -0.00016211532056331635
+      ],
+      "maximum": [
+        0.41999998688697815,
+        0.20999999344348907,
+        0.9751999974250793
+      ]
+    },
+    {
+      "parts": [
+        "peg"
+      ],
+      "minimum": [
+        -0.30799999833106995,
+        -0.1679999977350235,
+        0.7612000107765198
+      ],
+      "maximum": [
+        -0.29200002551078796,
+        -0.15199999511241913,
+        0.8211999535560608
+      ]
+    },
+    {
+      "parts": [
+        "peg.001"
+      ],
+      "minimum": [
+        -0.18800000846385956,
+        -0.1679999977350235,
+        0.7612000107765198
+      ],
+      "maximum": [
+        -0.1720000058412552,
+        -0.15199999511241913,
+        0.8211999535560608
+      ]
+    },
+    {
+      "parts": [
+        "peg.002"
+      ],
+      "minimum": [
+        -0.06799999624490738,
+        -0.1679999977350235,
+        0.7612000107765198
+      ],
+      "maximum": [
+        -0.05199999734759331,
+        -0.15199999511241913,
+        0.8211999535560608
+      ]
+    },
+    {
+      "parts": [
+        "peg.003"
+      ],
+      "minimum": [
+        0.05199999734759331,
+        -0.1679999977350235,
+        0.7612000107765198
+      ],
+      "maximum": [
+        0.06799999624490738,
+        -0.15199999511241913,
+        0.8211999535560608
+      ]
+    },
+    {
+      "parts": [
+        "peg.004"
+      ],
+      "minimum": [
+        0.1720000058412552,
+        -0.1679999977350235,
+        0.7612000107765198
+      ],
+      "maximum": [
+        0.18800000846385956,
+        -0.15199999511241913,
+        0.8211999535560608
+      ]
+    },
+    {
+      "parts": [
+        "peg.005"
+      ],
+      "minimum": [
+        0.29200002551078796,
+        -0.1679999977350235,
+        0.7612000107765198
+      ],
+      "maximum": [
+        0.30799999833106995,
+        -0.15199999511241913,
+        0.8211999535560608
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "bottom",
+      "b": "leg",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "bottom",
+      "b": "leg.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "bottom",
+      "b": "leg.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "bottom",
+      "b": "leg.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "side",
+      "b": "bottom",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "side",
+      "b": "top",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "side.001",
+      "b": "bottom",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "side.001",
+      "b": "top",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "shelf",
+      "b": "side",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "shelf",
+      "b": "side.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "worktop",
+      "b": "top",
+      "method": "surface distance",
+      "distance": 0.0009000301361083984
+    },
+    {
+      "a": "pegboard",
+      "b": "top",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pegboard",
+      "b": "worktop",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "vice",
+      "b": "worktop",
+      "method": "triangle intersection",
+      "distance": 0
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; live-source reports are NOT exported-asset evidence; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T03:19:29Z"
+}

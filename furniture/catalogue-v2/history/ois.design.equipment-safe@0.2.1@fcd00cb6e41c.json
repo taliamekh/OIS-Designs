@@ -1,0 +1,166 @@
+{
+  "designId": "ois.design.equipment-safe",
+  "familyId": "ois.family.equipment-safe",
+  "id": "ois.design.equipment-safe",
+  "name": "Equipment safe",
+  "roomTags": [
+    "storage"
+  ],
+  "theme": "city-loft",
+  "builder": "case",
+  "parameters": {
+    "form": "doors",
+    "front": "slab",
+    "w": 0.65,
+    "h": 0.95,
+    "doors": 1,
+    "base": "plinth"
+  },
+  "distinction": "Single heavy slab door; safe locking wheel is supplied by separate builder.",
+  "stage": "validated-candidate",
+  "countEligible": false,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted",
+    "sourceSnapshot": "sources/pipeline-e797cb5c88af56f5.py",
+    "sourceSha256": "e797cb5c88af56f5b4455d819a512ab9be55f40e1fa2d0cb542aca7bb84b906f",
+    "parametersFile": "sources/v0.2.1/equipment-safe.parameters.json"
+  },
+  "constructionKey": "case|doors|{\"base\": \"plinth\", \"cols\": 1, \"drawersTop\": false, \"front\": \"slab\", \"rows\": 4}",
+  "sha256": "fcd00cb6e41c0bd298cbed0060823580370e6d7a7ccca4f7f866957fc9e48b99",
+  "bytes": 92412,
+  "triangles": 1752,
+  "vertices": 2447,
+  "drawPrimitives": 3,
+  "bounds": {
+    "min": [
+      -0.32500001788139343,
+      0.0,
+      -0.25600000005215406
+    ],
+    "max": [
+      0.32500001788139343,
+      0.949999988079071,
+      0.20000000298023224
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 0.6500000357627869,
+    "depth": 0.4560000030323863,
+    "height": 0.949999988079071
+  },
+  "footprint": [
+    [
+      -0.32500001788139343,
+      -0.25600000005215406
+    ],
+    [
+      0.32500001788139343,
+      -0.25600000005215406
+    ],
+    [
+      0.32500001788139343,
+      0.20000000298023224
+    ],
+    [
+      -0.32500001788139343,
+      0.20000000298023224
+    ]
+  ],
+  "variantSlots": [
+    "dark",
+    "metal",
+    "wood"
+  ],
+  "requiredExtensions": [],
+  "version": "0.2.1",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.equipment-safe",
+  "file": "assets/v0.2.1/equipment-safe.glb",
+  "sourceModel": "sources/v0.2.1/equipment-safe.blend",
+  "thumbnail": "previews/v0.2.1/equipment-safe.png",
+  "backThumbnail": "previews/v0.2.1/equipment-safe-back.png",
+  "category": "storage",
+  "subtype": "doors",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "textures": {
+    "count": 0,
+    "bytes": 0
+  },
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.2.1/equipment-safe.png",
+      "previews/v0.2.1/equipment-safe-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.23,
+      0.15,
+      0.09
+    ],
+    [
+      0.12,
+      0.14,
+      0.16
+    ],
+    [
+      0.045,
+      0.05,
+      0.055
+    ]
+  ],
+  "colourTags": [
+    "charcoal",
+    "black",
+    "weathered wood"
+  ],
+  "materials": [
+    "metal",
+    "paint",
+    "wood"
+  ],
+  "searchAliases": [
+    "storage",
+    "doors"
+  ],
+  "materialSlots": [
+    {
+      "id": "dark",
+      "material": "dark",
+      "recolourable": true
+    },
+    {
+      "id": "metal",
+      "material": "metal",
+      "recolourable": true
+    },
+    {
+      "id": "wood",
+      "material": "wood",
+      "recolourable": true
+    }
+  ]
+}

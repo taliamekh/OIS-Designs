@@ -1,0 +1,157 @@
+{
+  "designId": "ois.design.gable-dollhouse",
+  "familyId": "ois.family.gable-dollhouse",
+  "id": "ois.design.gable-dollhouse",
+  "name": "Gable dollhouse",
+  "roomTags": [
+    "children"
+  ],
+  "theme": "coastal-linen",
+  "builder": "special",
+  "parameters": {
+    "form": "dollhouse",
+    "w": 0.85,
+    "d": 0.3,
+    "h": 1.05
+  },
+  "distinction": "Two-storey open play house with a real pitched roof.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted",
+    "sourceSnapshot": "sources/pipeline-e797cb5c88af56f5.py",
+    "sourceSha256": "e797cb5c88af56f5b4455d819a512ab9be55f40e1fa2d0cb542aca7bb84b906f",
+    "parametersFile": "sources/v0.2.1/gable-dollhouse.parameters.json"
+  },
+  "constructionKey": "special|dollhouse|{\"cols\": 1, \"front\": \"cane\", \"panels\": 3}",
+  "sha256": "c852d92859eddbf142f92bd892a43b4c0a1b5e0bcbbfe8104b740a9fd51f772b",
+  "bytes": 85932,
+  "triangles": 1744,
+  "vertices": 2275,
+  "drawPrimitives": 2,
+  "bounds": {
+    "min": [
+      -0.446388702210944,
+      -1.610453958383884e-08,
+      -0.18000000715255737
+    ],
+    "max": [
+      0.4463887131903982,
+      1.0319071033242648,
+      0.18000000715255737
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 0.8927774154013421,
+    "depth": 0.36000001430511475,
+    "height": 1.0319071194288043
+  },
+  "footprint": [
+    [
+      -0.446388702210944,
+      -0.18000000715255737
+    ],
+    [
+      0.4463887131903982,
+      -0.18000000715255737
+    ],
+    [
+      0.4463887131903982,
+      0.18000000715255737
+    ],
+    [
+      -0.446388702210944,
+      0.18000000715255737
+    ]
+  ],
+  "variantSlots": [
+    "accent",
+    "wood"
+  ],
+  "requiredExtensions": [],
+  "version": "0.2.1",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.gable-dollhouse",
+  "file": "assets/v0.2.1/gable-dollhouse.glb",
+  "sourceModel": "sources/v0.2.1/gable-dollhouse.blend",
+  "thumbnail": "previews/v0.2.1/gable-dollhouse.png",
+  "backThumbnail": "previews/v0.2.1/gable-dollhouse-back.png",
+  "category": "specialty",
+  "subtype": "dollhouse",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "textures": {
+    "count": 0,
+    "bytes": 0
+  },
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.2.1/gable-dollhouse.png",
+      "previews/v0.2.1/gable-dollhouse-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.66,
+      0.53,
+      0.34
+    ],
+    [
+      0.36,
+      0.53,
+      0.58
+    ],
+    [
+      0.64,
+      0.6,
+      0.48
+    ]
+  ],
+  "colourTags": [
+    "mist blue",
+    "sand",
+    "pale oak"
+  ],
+  "materials": [
+    "paint",
+    "wood"
+  ],
+  "searchAliases": [
+    "children",
+    "dollhouse"
+  ],
+  "materialSlots": [
+    {
+      "id": "accent",
+      "material": "accent",
+      "recolourable": true
+    },
+    {
+      "id": "wood",
+      "material": "wood",
+      "recolourable": true
+    }
+  ]
+}

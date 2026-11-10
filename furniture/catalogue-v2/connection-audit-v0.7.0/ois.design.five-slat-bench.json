@@ -1,0 +1,174 @@
+{
+  "id": "ois.design.five-slat-bench",
+  "sha256": "f0c3678564b59651d658fcc2fd0ad51e7f4df85422fac4854a4d47bb290292a9",
+  "sourceModel": "sources/v0.7.0/five-slat-bench.blend",
+  "sourceSha256": "ac97c89188d58b0cada74aa4b76313bcd61b1ca79ea05619c72bf4ec8094d9b3",
+  "partCount": 13,
+  "componentCount": 1,
+  "components": [
+    {
+      "parts": [
+        "leg",
+        "leg.001",
+        "leg.002",
+        "leg.003",
+        "bench apron rail",
+        "bench apron rail.001",
+        "bench slat batten",
+        "bench slat batten.001",
+        "bench seat slat",
+        "bench seat slat.001",
+        "bench seat slat.002",
+        "bench seat slat.003",
+        "bench seat slat.004"
+      ],
+      "minimum": [
+        -0.550000011920929,
+        -0.1940000057220459,
+        1.979060471057892e-09
+      ],
+      "maximum": [
+        0.550000011920929,
+        0.1940000057220459,
+        0.46186310052871704
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "bench apron rail",
+      "b": "leg",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "bench apron rail",
+      "b": "leg.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "bench apron rail.001",
+      "b": "leg.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "bench apron rail.001",
+      "b": "leg.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "bench slat batten",
+      "b": "bench apron rail",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "bench slat batten",
+      "b": "bench apron rail.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "bench slat batten.001",
+      "b": "bench apron rail",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "bench slat batten.001",
+      "b": "bench apron rail.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "bench seat slat",
+      "b": "bench apron rail",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "bench seat slat",
+      "b": "bench slat batten",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "bench seat slat",
+      "b": "bench slat batten.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "bench seat slat.001",
+      "b": "bench apron rail",
+      "method": "surface distance",
+      "distance": 0.0038554533384740353
+    },
+    {
+      "a": "bench seat slat.001",
+      "b": "bench slat batten",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "bench seat slat.001",
+      "b": "bench slat batten.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "bench seat slat.002",
+      "b": "bench slat batten",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "bench seat slat.002",
+      "b": "bench slat batten.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "bench seat slat.003",
+      "b": "bench apron rail.001",
+      "method": "surface distance",
+      "distance": 0.0038554533384740353
+    },
+    {
+      "a": "bench seat slat.003",
+      "b": "bench slat batten",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "bench seat slat.003",
+      "b": "bench slat batten.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "bench seat slat.004",
+      "b": "bench apron rail.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "bench seat slat.004",
+      "b": "bench slat batten",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "bench seat slat.004",
+      "b": "bench slat batten.001",
+      "method": "triangle intersection",
+      "distance": 0
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; live-source reports are NOT exported-asset evidence; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T04:00:30Z"
+}

@@ -1,0 +1,232 @@
+{
+  "designId": "ois.design.deep-drawer-base",
+  "familyId": "ois.family.deep-drawer-base",
+  "id": "ois.design.deep-drawer-base",
+  "name": "Deep drawer base",
+  "roomTags": [
+    "kitchen"
+  ],
+  "theme": "city-loft",
+  "builder": "kitchen",
+  "parameters": {
+    "form": "drawer-base",
+    "w": 0.8
+  },
+  "distinction": "Three full-width functional drawer banks.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted",
+    "sourceSnapshot": "sources/pipeline-80bacc170bd1371e.py",
+    "sourceSha256": "80bacc170bd1371edd54e3e5203658724c4e90ee4562fa13275787f9884b1d45",
+    "supportSources": {
+      "signature_designs.py": {
+        "snapshot": "sources/signature_designs-c7ce1c9570491409.py",
+        "sha256": "c7ce1c95704914096c0af5c88272139fca2098556f75b752375dd03da6cd8ee2"
+      },
+      "material_finish.py": {
+        "snapshot": "sources/material_finish-b9bb830e81d90e18.py",
+        "sha256": "b9bb830e81d90e18c05191c4e478ee7bbda04b117e4148687be9073a85d929c2"
+      },
+      "catalogue_inventory.py": {
+        "snapshot": "sources/catalogue_inventory-b67897df830f7144.py",
+        "sha256": "b67897df830f71449151337a656dae85d9e7b911fbc107aab78d72a60438f20e"
+      },
+      "finalize_glb.py": {
+        "snapshot": "sources/finalize_glb-dfc4ff54401c495d.py",
+        "sha256": "dfc4ff54401c495d3e17debd8f4aae1c5e68012a23ba8c85e023ed00397baae2"
+      }
+    },
+    "parametersFile": "sources/v0.5.0/deep-drawer-base.parameters.json"
+  },
+  "constructionKey": "kitchen|drawer-base|{}",
+  "sha256": "0ba617adfaf1cc6a561558046dd3d8ca87484f7a328914d13612070df3f6cae9",
+  "bytes": 345284,
+  "triangles": 1248,
+  "vertices": 3301,
+  "drawPrimitives": 3,
+  "bounds": {
+    "min": [
+      -0.4000000059604645,
+      0.0,
+      -0.3559999940916896
+    ],
+    "max": [
+      0.4000000059604645,
+      0.9000000655651093,
+      0.30000001192092896
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 0.800000011920929,
+    "depth": 0.6560000060126185,
+    "height": 0.9000000655651093
+  },
+  "footprint": [
+    [
+      -0.4000000059604645,
+      -0.3559999940916896
+    ],
+    [
+      0.4000000059604645,
+      -0.3559999940916896
+    ],
+    [
+      0.4000000059604645,
+      0.30000001192092896
+    ],
+    [
+      -0.4000000059604645,
+      0.30000001192092896
+    ]
+  ],
+  "variantSlots": [
+    "dark",
+    "metal",
+    "wood"
+  ],
+  "requiredExtensions": [],
+  "textures": {
+    "count": 3,
+    "bytes": 174784,
+    "estimatedRgbaBytesWithMipmaps": 1048576,
+    "images": [
+      {
+        "name": "wood-normal",
+        "bytes": 102088,
+        "width": 256,
+        "height": 256,
+        "sha256": "6b8efcb5004552d884a527017922bfb5260b8bda4dc77f1365fe1cb8a09f1d56"
+      },
+      {
+        "name": "wood-neutral-base",
+        "bytes": 39353,
+        "width": 256,
+        "height": 256,
+        "sha256": "ddcf839a2addae78944a2d7a0588f9c2055852fc4ccb4e2dae2095d28541de44"
+      },
+      {
+        "name": "wood-roughness",
+        "bytes": 33343,
+        "width": 256,
+        "height": 256,
+        "sha256": "afc2180e58360e76fb178b52f225f7ba9045a7d0d266f10886763b0590335a1a"
+      }
+    ]
+  },
+  "version": "0.5.0",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.deep-drawer-base",
+  "file": "assets/v0.5.0/deep-drawer-base.glb",
+  "sourceModel": "sources/v0.5.0/deep-drawer-base.blend",
+  "thumbnail": "previews/v0.5.0/deep-drawer-base.png",
+  "backThumbnail": "previews/v0.5.0/deep-drawer-base-back.png",
+  "category": "cabinetry",
+  "subtype": "drawer-base",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.5.0/deep-drawer-base.png",
+      "previews/v0.5.0/deep-drawer-base-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.02500000037252903,
+      0.03500000014901161,
+      0.03999999910593033
+    ],
+    [
+      0.04500000178813934,
+      0.05000000074505806,
+      0.054999999701976776
+    ],
+    [
+      0.23000000417232513,
+      0.15000000596046448,
+      0.09000000357627869
+    ]
+  ],
+  "colourTags": [
+    "black",
+    "near black",
+    "weathered brown"
+  ],
+  "materials": [
+    "metal",
+    "paint",
+    "wood"
+  ],
+  "searchAliases": [
+    "kitchen",
+    "drawer base"
+  ],
+  "materialSlots": [
+    {
+      "id": "dark",
+      "material": "dark",
+      "recolourable": true
+    },
+    {
+      "id": "metal",
+      "material": "metal",
+      "recolourable": true
+    },
+    {
+      "id": "wood",
+      "material": "wood",
+      "recolourable": true
+    }
+  ],
+  "finalization": {
+    "unusedTangentAttributesRemoved": 2,
+    "normalMappedTangents": "retained, never replaced with arbitrary fallback vectors"
+  },
+  "supportChecks": {
+    "method": "source-part upper-end ray to non-leg geometry, 15mm join tolerance",
+    "status": "pass",
+    "parts": [],
+    "limitation": "screening only; hidden joints, whole-model connectivity, load paths and safety remain visual/product-review concerns"
+  },
+  "materialFinish": {
+    "source": "materials/v1/manifest.json",
+    "repeatMetres": {
+      "wood": [
+        0.16,
+        0.75
+      ],
+      "fabric": [
+        0.14,
+        0.14
+      ],
+      "linen": [
+        0.12,
+        0.12
+      ]
+    },
+    "maps": "original base colour / roughness / tangent normal, embedded in GLB"
+  }
+}

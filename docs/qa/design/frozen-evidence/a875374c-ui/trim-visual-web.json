@@ -1,0 +1,392 @@
+{
+  "timestamp": "2026-11-10T03:22:12.886Z",
+  "baseURL": "http://127.0.0.1:57780",
+  "evidence": "Actual browser room with exaggerated trim dimensions to inspect unequal-wall/non-right-angle joints. CPU endpoint proof is separately coordinator-owned; not a native or pixel-perfect join measurement.",
+  "storageOracle": {
+    "kind": "Production IndexedStorage.getItem, with its read-only legacy fallback",
+    "file": "mobile/src/storage/indexedStore.ts",
+    "sha256": "9943012679fd85da975028e6165febf8e149242bfef7b0a63f7ab6b98f76383d"
+  },
+  "runs": [
+    {
+      "profile": "flat",
+      "project": {
+        "id": "project-mwa4jgt2-wfht3qn",
+        "schemaVersion": 1,
+        "name": "QA trim flat",
+        "updatedAt": 1794280933334,
+        "floors": [
+          {
+            "id": "floor-mwa4jgt2-hwupvqj",
+            "name": "Ground floor",
+            "elevation": 0,
+            "ceiling": 3,
+            "alignment": {
+              "x": 0,
+              "z": 0
+            },
+            "rooms": [
+              {
+                "id": "room-mwa4jgt2-4rxq7i0",
+                "name": "Living room",
+                "kind": "living",
+                "polygon": [
+                  {
+                    "x": 0,
+                    "z": 0
+                  },
+                  {
+                    "x": 6,
+                    "z": 0
+                  },
+                  {
+                    "x": 5,
+                    "z": 5
+                  },
+                  {
+                    "x": 0,
+                    "z": 5
+                  }
+                ],
+                "ceiling": null,
+                "floorFinish": {
+                  "id": "slate",
+                  "repeat": 2,
+                  "angle": 0
+                },
+                "wallFaces": {},
+                "trim": {
+                  "profile": "flat",
+                  "height": 0.3,
+                  "projection": 0.07,
+                  "colour": "#e8e0cc",
+                  "sheen": "satin",
+                  "material": "white-oak"
+                },
+                "trimOverrides": {
+                  "wall:50000,50000:60000,0": {
+                    "profile": "flat",
+                    "height": 0.3,
+                    "projection": 0.06,
+                    "colour": "#e8e0cc",
+                    "sheen": "satin",
+                    "material": "white-oak"
+                  }
+                }
+              }
+            ],
+            "walls": [
+              {
+                "id": "wall:0,0:60000,0",
+                "a": {
+                  "x": 0,
+                  "z": 0
+                },
+                "b": {
+                  "x": 6,
+                  "z": 0
+                },
+                "thickness": 0.3,
+                "faces": [
+                  {
+                    "roomId": "room-mwa4jgt2-4rxq7i0",
+                    "reversed": false
+                  }
+                ]
+              },
+              {
+                "id": "wall:50000,50000:60000,0",
+                "a": {
+                  "x": 5,
+                  "z": 5
+                },
+                "b": {
+                  "x": 6,
+                  "z": 0
+                },
+                "thickness": 0.12,
+                "faces": [
+                  {
+                    "roomId": "room-mwa4jgt2-4rxq7i0",
+                    "reversed": true
+                  }
+                ]
+              },
+              {
+                "id": "wall:0,50000:50000,50000",
+                "a": {
+                  "x": 0,
+                  "z": 5
+                },
+                "b": {
+                  "x": 5,
+                  "z": 5
+                },
+                "thickness": 0.12,
+                "faces": [
+                  {
+                    "roomId": "room-mwa4jgt2-4rxq7i0",
+                    "reversed": true
+                  }
+                ]
+              },
+              {
+                "id": "wall:0,0:0,50000",
+                "a": {
+                  "x": 0,
+                  "z": 0
+                },
+                "b": {
+                  "x": 0,
+                  "z": 5
+                },
+                "thickness": 0.12,
+                "faces": [
+                  {
+                    "roomId": "room-mwa4jgt2-4rxq7i0",
+                    "reversed": true
+                  }
+                ]
+              }
+            ],
+            "openings": [],
+            "items": []
+          }
+        ]
+      },
+      "checks": [
+        {
+          "id": "room-rendered-with-no-boundary-failure",
+          "pass": true
+        },
+        {
+          "id": "rendering-does-not-mutate-trim-wall-or-geometry",
+          "pass": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": [],
+      "scene": {
+        "rooms": [
+          "room-mwa4jgt2-4rxq7i0"
+        ],
+        "mode": "3d",
+        "camera": [
+          9.490515614548313,
+          9.011547522106175,
+          9.46708917822419
+        ],
+        "items": [],
+        "memory": {
+          "geometries": 5,
+          "textures": 6
+        },
+        "draw": {
+          "frame": 2,
+          "calls": 7,
+          "triangles": 50,
+          "points": 0,
+          "lines": 0
+        },
+        "cache": {
+          "entries": 0,
+          "active": 0,
+          "idle": 0,
+          "sourceBytes": 0,
+          "textureSets": 2
+        }
+      },
+      "completed": true
+    },
+    {
+      "profile": "ogee",
+      "project": {
+        "id": "project-mwa4jiil-9s1zj18",
+        "schemaVersion": 1,
+        "name": "QA trim ogee",
+        "updatedAt": 1794280935549,
+        "floors": [
+          {
+            "id": "floor-mwa4jiil-sx5ti54",
+            "name": "Ground floor",
+            "elevation": 0,
+            "ceiling": 3,
+            "alignment": {
+              "x": 0,
+              "z": 0
+            },
+            "rooms": [
+              {
+                "id": "room-mwa4jiil-2ecb1xs",
+                "name": "Living room",
+                "kind": "living",
+                "polygon": [
+                  {
+                    "x": 0,
+                    "z": 0
+                  },
+                  {
+                    "x": 6,
+                    "z": 0
+                  },
+                  {
+                    "x": 5,
+                    "z": 5
+                  },
+                  {
+                    "x": 0,
+                    "z": 5
+                  }
+                ],
+                "ceiling": null,
+                "floorFinish": {
+                  "id": "slate",
+                  "repeat": 2,
+                  "angle": 0
+                },
+                "wallFaces": {},
+                "trim": {
+                  "profile": "ogee",
+                  "height": 0.3,
+                  "projection": 0.07,
+                  "colour": "#e8e0cc",
+                  "sheen": "satin",
+                  "material": "white-oak"
+                },
+                "trimOverrides": {
+                  "wall:50000,50000:60000,0": {
+                    "profile": "ogee",
+                    "height": 0.3,
+                    "projection": 0.06,
+                    "colour": "#e8e0cc",
+                    "sheen": "satin",
+                    "material": "white-oak"
+                  }
+                }
+              }
+            ],
+            "walls": [
+              {
+                "id": "wall:0,0:60000,0",
+                "a": {
+                  "x": 0,
+                  "z": 0
+                },
+                "b": {
+                  "x": 6,
+                  "z": 0
+                },
+                "thickness": 0.3,
+                "faces": [
+                  {
+                    "roomId": "room-mwa4jiil-2ecb1xs",
+                    "reversed": false
+                  }
+                ]
+              },
+              {
+                "id": "wall:50000,50000:60000,0",
+                "a": {
+                  "x": 5,
+                  "z": 5
+                },
+                "b": {
+                  "x": 6,
+                  "z": 0
+                },
+                "thickness": 0.12,
+                "faces": [
+                  {
+                    "roomId": "room-mwa4jiil-2ecb1xs",
+                    "reversed": true
+                  }
+                ]
+              },
+              {
+                "id": "wall:0,50000:50000,50000",
+                "a": {
+                  "x": 0,
+                  "z": 5
+                },
+                "b": {
+                  "x": 5,
+                  "z": 5
+                },
+                "thickness": 0.12,
+                "faces": [
+                  {
+                    "roomId": "room-mwa4jiil-2ecb1xs",
+                    "reversed": true
+                  }
+                ]
+              },
+              {
+                "id": "wall:0,0:0,50000",
+                "a": {
+                  "x": 0,
+                  "z": 0
+                },
+                "b": {
+                  "x": 0,
+                  "z": 5
+                },
+                "thickness": 0.12,
+                "faces": [
+                  {
+                    "roomId": "room-mwa4jiil-2ecb1xs",
+                    "reversed": true
+                  }
+                ]
+              }
+            ],
+            "openings": [],
+            "items": []
+          }
+        ]
+      },
+      "checks": [
+        {
+          "id": "room-rendered-with-no-boundary-failure",
+          "pass": true
+        },
+        {
+          "id": "rendering-does-not-mutate-trim-wall-or-geometry",
+          "pass": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": [],
+      "scene": {
+        "rooms": [
+          "room-mwa4jiil-2ecb1xs"
+        ],
+        "mode": "3d",
+        "camera": [
+          9.490515614548313,
+          9.011547522106175,
+          9.46708917822419
+        ],
+        "items": [],
+        "memory": {
+          "geometries": 5,
+          "textures": 6
+        },
+        "draw": {
+          "frame": 2,
+          "calls": 7,
+          "triangles": 82,
+          "points": 0,
+          "lines": 0
+        },
+        "cache": {
+          "entries": 0,
+          "active": 0,
+          "idle": 0,
+          "sourceBytes": 0,
+          "textureSets": 2
+        }
+      },
+      "completed": true
+    }
+  ]
+}

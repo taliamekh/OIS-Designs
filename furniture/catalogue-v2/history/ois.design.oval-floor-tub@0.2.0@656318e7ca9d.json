@@ -1,0 +1,156 @@
+{
+  "designId": "ois.design.oval-floor-tub",
+  "familyId": "ois.family.oval-floor-tub",
+  "id": "ois.design.oval-floor-tub",
+  "name": "Oval floor bathtub",
+  "roomTags": [
+    "bathroom"
+  ],
+  "theme": "coastal-linen",
+  "builder": "bath",
+  "parameters": {
+    "form": "oval-tub",
+    "w": 1.72,
+    "d": 0.8,
+    "h": 0.55
+  },
+  "distinction": "Long low continuous hollow oval vessel without separate feet.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted"
+  },
+  "constructionKey": "bath|oval-tub|{}",
+  "sha256": "656318e7ca9dd87d888fbdf9621b6a33e71a596d02a6c1be2820ccaffbb94898",
+  "bytes": 18888,
+  "triangles": 776,
+  "vertices": 466,
+  "drawPrimitives": 2,
+  "bounds": {
+    "min": [
+      -0.8600000143051147,
+      0.0,
+      -0.4000000059604645
+    ],
+    "max": [
+      0.8600000143051147,
+      0.6309430450201035,
+      0.4000000059604645
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 1.7200000286102295,
+    "depth": 0.800000011920929,
+    "height": 0.6309430450201035
+  },
+  "footprint": [
+    [
+      -0.8600000143051147,
+      -0.4000000059604645
+    ],
+    [
+      0.8600000143051147,
+      -0.4000000059604645
+    ],
+    [
+      0.8600000143051147,
+      0.4000000059604645
+    ],
+    [
+      -0.8600000143051147,
+      0.4000000059604645
+    ]
+  ],
+  "variantSlots": [
+    "ceramic",
+    "metal"
+  ],
+  "requiredExtensions": [],
+  "version": "0.2.0",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.oval-floor-tub",
+  "file": "assets/v0.2.0/oval-floor-tub.glb",
+  "sourceModel": "sources/v0.2.0/oval-floor-tub.blend",
+  "thumbnail": "previews/v0.2.0/oval-floor-tub.png",
+  "backThumbnail": "previews/v0.2.0/oval-floor-tub-back.png",
+  "category": "bathroom-fixtures",
+  "subtype": "oval-tub",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "textures": {
+    "count": 0,
+    "bytes": 0
+  },
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.2.0/oval-floor-tub.png",
+      "previews/v0.2.0/oval-floor-tub-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.66,
+      0.53,
+      0.34
+    ],
+    [
+      0.36,
+      0.53,
+      0.58
+    ],
+    [
+      0.64,
+      0.6,
+      0.48
+    ]
+  ],
+  "colourTags": [
+    "mist blue",
+    "sand",
+    "pale oak"
+  ],
+  "materials": [
+    "ceramic",
+    "metal"
+  ],
+  "searchAliases": [
+    "bathroom",
+    "oval tub"
+  ],
+  "materialSlots": [
+    {
+      "id": "ceramic",
+      "material": "ceramic",
+      "recolourable": true
+    },
+    {
+      "id": "metal",
+      "material": "metal",
+      "recolourable": true
+    }
+  ],
+  "geometryHash": "34bac1334effd94e72d2a28914b7045d85688bb56362bd8097aecb6ab330e111",
+  "normalizedMirrorGeometryHash": "1471eceeb753587c90f991bb6c477c2047f216f3560d814dc23ce910403e28f1"
+}

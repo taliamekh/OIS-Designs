@@ -1,0 +1,239 @@
+{
+  "timestamp": "2026-11-10T02:15:53.668Z",
+  "baseURL": "http://localhost:8081",
+  "evidence": "Isolated Expo web UI; plan taps derive from actual rendered SVG edges",
+  "checks": [
+    {
+      "id": "pocket-precondition-has-in-place-resolution",
+      "pass": false,
+      "observed": {
+        "pocketCount": 0,
+        "body": "QA shared door workflow\nLiving room\n6.00 m\n5.00 m\n6.00 m\n5.00 m\nLiving room\n2D\n3D\nWalk\nPocket sliding · Tap a wall to place\nDone\nLast opening\nPocket doors need a ≥15 cm wall and an unobstructed full-width pocket beside the opening.",
+        "visibleActions": [
+          "Back",
+          "Settings",
+          "Choose room, current Living room",
+          "View 2D",
+          "View 3D",
+          "View Walk",
+          "Done",
+          "Last opening",
+          "Dismiss message"
+        ]
+      }
+    },
+    {
+      "id": "both-face-corner-chains-visible-during-placement",
+      "pass": false,
+      "observed": {
+        "svgText": [
+          "Living room",
+          "6.00 m",
+          "5.00 m",
+          "6.00 m",
+          "5.00 m",
+          "0.90 m"
+        ],
+        "expected": "1.30 m",
+        "expectedAfter": "2.80 m",
+        "chains": [
+          {
+            "roomId": "room-mwa266ev-xmtzemj",
+            "name": "Living room",
+            "before": 1.3000001821944964,
+            "after": 2.7999998178055034
+          },
+          {
+            "roomId": "room-mwa266ew-jtd00iw",
+            "name": "Kitchen",
+            "before": 2.7999998178055034,
+            "after": 1.3000001821944964
+          }
+        ]
+      }
+    },
+    {
+      "id": "repeat-door-stays-active",
+      "pass": true
+    },
+    {
+      "id": "undo-removes-one-repeat-door",
+      "pass": true
+    },
+    {
+      "id": "last-opening-after-undo-points-to-existing-opening",
+      "pass": false,
+      "observed": {
+        "body": "QA shared door workflow\nLiving room\n6.00 m\n5.00 m\n6.00 m\n5.00 m\n0.90 m\nLiving room\n2D\n3D\nWalk\nOpening\nRoom dimensions\nAdd room\nDoors and openings\nWindows\nQuick door · Single swing\nCut away near walls\nWhole-floor view"
+      }
+    },
+    {
+      "id": "redo-restores-one-repeat-door",
+      "pass": true
+    }
+  ],
+  "errors": [],
+  "consoleErrors": [],
+  "tapEvents": [
+    {
+      "target": {
+        "x": 363,
+        "y": 290.7083333333333,
+        "points": [
+          {
+            "x": 28,
+            "y": 128
+          },
+          {
+            "x": 363,
+            "y": 128
+          },
+          {
+            "x": 363,
+            "y": 407.1666666666667
+          },
+          {
+            "x": 28,
+            "y": 407.1666666666667
+          }
+        ]
+      },
+      "probe": {
+        "width": 390,
+        "height": 779,
+        "scale": 55.833333333333336,
+        "ox": 28,
+        "oz": 128,
+        "gesture": {
+          "phase": "release",
+          "locationX": 363,
+          "locationY": 225.70834350585938,
+          "point": {
+            "x": 6,
+            "z": 1.7500001821944962
+          },
+          "moved": false,
+          "draft": null
+        },
+        "items": []
+      },
+      "body": "QA shared door workflow\nLiving room\n6.00 m\n5.00 m\n6.00 m\n5.00 m\nLiving room\n2D\n3D\nWalk\nPocket sliding · Tap a wall to place\nDone\nLast opening\nPocket doors need a ≥15 cm wall and an unobstructed full-width pocket beside the opening.",
+      "openings": 0
+    },
+    {
+      "target": {
+        "x": 363,
+        "y": 290.7083333333333,
+        "points": [
+          {
+            "x": 28,
+            "y": 128
+          },
+          {
+            "x": 363,
+            "y": 128
+          },
+          {
+            "x": 363,
+            "y": 407.1666666666667
+          },
+          {
+            "x": 28,
+            "y": 407.1666666666667
+          }
+        ]
+      },
+      "probe": {
+        "width": 390,
+        "height": 779,
+        "scale": 55.833333333333336,
+        "ox": 28,
+        "oz": 128,
+        "gesture": {
+          "phase": "release",
+          "locationX": 363,
+          "locationY": 225.70834350585938,
+          "point": {
+            "x": 6,
+            "z": 1.7500001821944962
+          },
+          "moved": false,
+          "draft": null
+        },
+        "items": []
+      },
+      "body": "QA shared door workflow\nLiving room\n6.00 m\n5.00 m\n6.00 m\n5.00 m\n0.90 m\nLiving room\n2D\n3D\nWalk\nSingle swing · Tap a wall to place\nDone\nLast opening",
+      "openings": 0
+    },
+    {
+      "target": {
+        "x": 28,
+        "y": 374.45833333333337,
+        "points": [
+          {
+            "x": 28,
+            "y": 128
+          },
+          {
+            "x": 363,
+            "y": 128
+          },
+          {
+            "x": 363,
+            "y": 407.1666666666667
+          },
+          {
+            "x": 28,
+            "y": 407.1666666666667
+          }
+        ]
+      },
+      "probe": {
+        "width": 390,
+        "height": 779,
+        "scale": 55.833333333333336,
+        "ox": 28,
+        "oz": 128,
+        "gesture": {
+          "phase": "release",
+          "locationX": 28,
+          "locationY": 309.4583435058594,
+          "point": {
+            "x": 0,
+            "z": 3.250000182194496
+          },
+          "moved": false,
+          "draft": null
+        },
+        "items": []
+      },
+      "body": "QA shared door workflow\nLiving room\n6.00 m\n5.00 m\n6.00 m\n5.00 m\n0.90 m\n0.90 m\nLiving room\n2D\n3D\nWalk\nSingle swing · Tap a wall to place\nDone\nLast opening",
+      "openings": 1
+    }
+  ],
+  "pocketTap": {
+    "x": 363,
+    "y": 290.7083333333333,
+    "points": [
+      {
+        "x": 28,
+        "y": 128
+      },
+      {
+        "x": 363,
+        "y": 128
+      },
+      {
+        "x": 363,
+        "y": 407.1666666666667
+      },
+      {
+        "x": 28,
+        "y": 407.1666666666667
+      }
+    ]
+  },
+  "completed": true,
+  "passed": 3,
+  "failed": 3
+}

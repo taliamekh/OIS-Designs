@@ -1,0 +1,59 @@
+{
+  "id": "ois.design.timber-reading-lectern",
+  "sha256": "unexported-source-a6a97ed1ff18ea7190f4c07e8ea17b6dba901563a653d7aed874183539ef16c1",
+  "sourceModel": null,
+  "sourceSha256": "a6a97ed1ff18ea7190f4c07e8ea17b6dba901563a653d7aed874183539ef16c1",
+  "partCount": 4,
+  "componentCount": 2,
+  "components": [
+    {
+      "parts": [
+        "lectern foot",
+        "lectern column",
+        "reading slope"
+      ],
+      "minimum": [
+        -0.3100000023841858,
+        -0.22499999403953552,
+        0.0
+      ],
+      "maximum": [
+        0.3100000023841858,
+        0.22499999403953552,
+        1.1760666370391846
+      ]
+    },
+    {
+      "parts": [
+        "book stop"
+      ],
+      "minimum": [
+        -0.3100000023841858,
+        0.1809999942779541,
+        1.0774999856948853
+      ],
+      "maximum": [
+        0.3100000023841858,
+        0.20600000023841858,
+        1.102500081062317
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "lectern column",
+      "b": "lectern foot",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "reading slope",
+      "b": "lectern column",
+      "method": "triangle intersection",
+      "distance": 0
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; live-source reports are NOT exported-asset evidence; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T03:19:25Z"
+}

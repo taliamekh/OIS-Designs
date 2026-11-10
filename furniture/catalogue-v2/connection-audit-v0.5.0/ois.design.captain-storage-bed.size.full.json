@@ -1,0 +1,235 @@
+{
+  "id": "ois.design.captain-storage-bed.size.full",
+  "sha256": "fdcb20fec4bd4811c326511a28ea02d086359fac702d3e8f6fbe7dcfc00de6de",
+  "sourceModel": "sources/v0.5.0/captain-storage-bed.size.full.blend",
+  "sourceSha256": "b1cb6161a062a191c603db3feb9adc869c2fc9fa3a31247ec44181ae1d7dc4d9",
+  "partCount": 22,
+  "componentCount": 3,
+  "components": [
+    {
+      "parts": [
+        "recessed plinth",
+        "frame",
+        "mattress",
+        "piping",
+        "duvet",
+        "pillow",
+        "piping.001",
+        "pillow.001",
+        "piping.002",
+        "headboard",
+        "underbed storage base",
+        "storage end wall",
+        "storage end wall.001",
+        "central drawer partition",
+        "storage drawer",
+        "pull",
+        "storage drawer.002",
+        "pull.002"
+      ],
+      "minimum": [
+        -0.7488000392913818,
+        -1.0425000190734863,
+        0.0
+      ],
+      "maximum": [
+        0.7488000392913818,
+        1.0125000476837158,
+        1.1399999856948853
+      ]
+    },
+    {
+      "parts": [
+        "storage drawer.001",
+        "pull.001"
+      ],
+      "minimum": [
+        -0.7488000392913818,
+        0.14174997806549072,
+        0.07000000029802322
+      ],
+      "maximum": [
+        -0.7228000164031982,
+        0.9922499656677246,
+        0.3100000023841858
+      ]
+    },
+    {
+      "parts": [
+        "storage drawer.003",
+        "pull.003"
+      ],
+      "minimum": [
+        0.7228000164031982,
+        0.14174997806549072,
+        0.07000000029802322
+      ],
+      "maximum": [
+        0.7488000392913818,
+        0.9922499656677246,
+        0.3100000023841858
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "frame",
+      "b": "recessed plinth",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "mattress",
+      "b": "frame",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "piping",
+      "b": "mattress",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "duvet",
+      "b": "mattress",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pillow",
+      "b": "mattress",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "piping.001",
+      "b": "pillow",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pillow.001",
+      "b": "mattress",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "piping.002",
+      "b": "pillow.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "headboard",
+      "b": "frame",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "underbed storage base",
+      "b": "recessed plinth",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "storage end wall",
+      "b": "frame",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "storage end wall",
+      "b": "headboard",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "storage end wall",
+      "b": "underbed storage base",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "storage end wall.001",
+      "b": "frame",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "storage end wall.001",
+      "b": "underbed storage base",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "central drawer partition",
+      "b": "recessed plinth",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "central drawer partition",
+      "b": "frame",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "central drawer partition",
+      "b": "underbed storage base",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "central drawer partition",
+      "b": "storage end wall",
+      "method": "surface distance",
+      "distance": 0.0004999637603759766
+    },
+    {
+      "a": "central drawer partition",
+      "b": "storage end wall.001",
+      "method": "surface distance",
+      "distance": 0.0004999637603759766
+    },
+    {
+      "a": "storage drawer",
+      "b": "headboard",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pull",
+      "b": "storage drawer",
+      "method": "point containment",
+      "distance": 0
+    },
+    {
+      "a": "pull.001",
+      "b": "storage drawer.001",
+      "method": "point containment",
+      "distance": 0
+    },
+    {
+      "a": "storage drawer.002",
+      "b": "headboard",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pull.002",
+      "b": "storage drawer.002",
+      "method": "point containment",
+      "distance": 0
+    },
+    {
+      "a": "pull.003",
+      "b": "storage drawer.003",
+      "method": "point containment",
+      "distance": 0
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T03:07:31Z"
+}

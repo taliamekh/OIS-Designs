@@ -1,0 +1,1603 @@
+{
+  "id": "ois.design.mesh-task-chair",
+  "sha256": "unexported-source-6226f7a5305865fd189dfcec35a3077205588e7999488a17cff703d94c6b1b9f",
+  "sourceModel": null,
+  "sourceSha256": "6226f7a5305865fd189dfcec35a3077205588e7999488a17cff703d94c6b1b9f",
+  "partCount": 44,
+  "componentCount": 1,
+  "components": [
+    {
+      "parts": [
+        "star leg",
+        "caster",
+        "star leg.001",
+        "caster.001",
+        "star leg.002",
+        "caster.002",
+        "star leg.003",
+        "caster.003",
+        "star leg.004",
+        "caster.004",
+        "gas stem",
+        "seat pan",
+        "seat",
+        "piping",
+        "back support spine",
+        "mesh back perimeter",
+        "back tension cord",
+        "back tension cord.001",
+        "back tension cord.002",
+        "back tension cord.003",
+        "back tension cord.004",
+        "back tension cord.005",
+        "back tension cord.006",
+        "back tension cord.007",
+        "back tension cord.008",
+        "back tension cord.009",
+        "back tension cord.010",
+        "back tension cord.011",
+        "back tension cord.012",
+        "back tension cord.013",
+        "back tension cord.014",
+        "weft cord",
+        "weft cord.001",
+        "weft cord.002",
+        "weft cord.003",
+        "weft cord.004",
+        "weft cord.005",
+        "weft cord.006",
+        "weft cord.007",
+        "weft cord.008",
+        "weft cord.009",
+        "weft cord.010",
+        "weft cord.011",
+        "lumbar pad"
+      ],
+      "minimum": [
+        -0.2999320328235626,
+        -0.34975698590278625,
+        0.0
+      ],
+      "maximum": [
+        0.3375000059604645,
+        0.31281694769859314,
+        1.1191062927246094
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "caster",
+      "b": "star leg",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "star leg.001",
+      "b": "star leg",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "caster.001",
+      "b": "star leg.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "star leg.002",
+      "b": "star leg",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "star leg.002",
+      "b": "star leg.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "caster.002",
+      "b": "star leg.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "star leg.003",
+      "b": "star leg",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "star leg.003",
+      "b": "star leg.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "star leg.003",
+      "b": "star leg.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "caster.003",
+      "b": "star leg.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "star leg.004",
+      "b": "star leg",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "star leg.004",
+      "b": "star leg.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "star leg.004",
+      "b": "star leg.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "star leg.004",
+      "b": "star leg.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "caster.004",
+      "b": "star leg.004",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "gas stem",
+      "b": "star leg",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "gas stem",
+      "b": "star leg.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "gas stem",
+      "b": "star leg.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "gas stem",
+      "b": "star leg.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "gas stem",
+      "b": "star leg.004",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "seat pan",
+      "b": "gas stem",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "seat",
+      "b": "gas stem",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "seat",
+      "b": "seat pan",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "piping",
+      "b": "seat",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "back support spine",
+      "b": "seat pan",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "back support spine",
+      "b": "seat",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "back support spine",
+      "b": "piping",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "back tension cord",
+      "b": "mesh back perimeter",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "back tension cord.001",
+      "b": "mesh back perimeter",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "back tension cord.002",
+      "b": "mesh back perimeter",
+      "method": "surface distance",
+      "distance": 0.0015423217555508018
+    },
+    {
+      "a": "back tension cord.003",
+      "b": "mesh back perimeter",
+      "method": "surface distance",
+      "distance": 0.0015420196577906609
+    },
+    {
+      "a": "back tension cord.004",
+      "b": "mesh back perimeter",
+      "method": "surface distance",
+      "distance": 0.0015422023134306073
+    },
+    {
+      "a": "back tension cord.005",
+      "b": "mesh back perimeter",
+      "method": "surface distance",
+      "distance": 0.0015425275778397918
+    },
+    {
+      "a": "back tension cord.006",
+      "b": "mesh back perimeter",
+      "method": "surface distance",
+      "distance": 0.0015428976621478796
+    },
+    {
+      "a": "back tension cord.007",
+      "b": "back support spine",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "back tension cord.007",
+      "b": "mesh back perimeter",
+      "method": "surface distance",
+      "distance": 0.0015431387582793832
+    },
+    {
+      "a": "back tension cord.008",
+      "b": "mesh back perimeter",
+      "method": "surface distance",
+      "distance": 0.0015435809036716819
+    },
+    {
+      "a": "back tension cord.009",
+      "b": "mesh back perimeter",
+      "method": "surface distance",
+      "distance": 0.0015438429545611143
+    },
+    {
+      "a": "back tension cord.010",
+      "b": "mesh back perimeter",
+      "method": "surface distance",
+      "distance": 0.0015441798605024815
+    },
+    {
+      "a": "back tension cord.011",
+      "b": "mesh back perimeter",
+      "method": "surface distance",
+      "distance": 0.0015444436576217413
+    },
+    {
+      "a": "back tension cord.012",
+      "b": "mesh back perimeter",
+      "method": "surface distance",
+      "distance": 0.0015448121121153235
+    },
+    {
+      "a": "back tension cord.013",
+      "b": "mesh back perimeter",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "back tension cord.014",
+      "b": "mesh back perimeter",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "weft cord",
+      "b": "back support spine",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "weft cord",
+      "b": "mesh back perimeter",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "weft cord",
+      "b": "back tension cord",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "weft cord",
+      "b": "back tension cord.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "weft cord",
+      "b": "back tension cord.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "weft cord",
+      "b": "back tension cord.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "weft cord",
+      "b": "back tension cord.004",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "weft cord",
+      "b": "back tension cord.005",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "weft cord",
+      "b": "back tension cord.006",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "weft cord",
+      "b": "back tension cord.007",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "weft cord",
+      "b": "back tension cord.008",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "weft cord",
+      "b": "back tension cord.009",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "weft cord",
+      "b": "back tension cord.010",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "weft cord",
+      "b": "back tension cord.011",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "weft cord",
+      "b": "back tension cord.012",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "weft cord",
+      "b": "back tension cord.013",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "weft cord",
+      "b": "back tension cord.014",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "weft cord.001",
+      "b": "back support spine",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "weft cord.001",
+      "b": "mesh back perimeter",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "weft cord.001",
+      "b": "back tension cord",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "weft cord.001",
+      "b": "back tension cord.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "weft cord.001",
+      "b": "back tension cord.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "weft cord.001",
+      "b": "back tension cord.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "weft cord.001",
+      "b": "back tension cord.004",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "weft cord.001",
+      "b": "back tension cord.005",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "weft cord.001",
+      "b": "back tension cord.006",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "weft cord.001",
+      "b": "back tension cord.007",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "weft cord.001",
+      "b": "back tension cord.008",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "weft cord.001",
+      "b": "back tension cord.009",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "weft cord.001",
+      "b": "back tension cord.010",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "weft cord.001",
+      "b": "back tension cord.011",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "weft cord.001",
+      "b": "back tension cord.012",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "weft cord.001",
+      "b": "back tension cord.013",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "weft cord.001",
+      "b": "back tension cord.014",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "weft cord.002",
+      "b": "back support spine",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "weft cord.002",
+      "b": "mesh back perimeter",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "weft cord.002",
+      "b": "back tension cord",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "weft cord.002",
+      "b": "back tension cord.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "weft cord.002",
+      "b": "back tension cord.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "weft cord.002",
+      "b": "back tension cord.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "weft cord.002",
+      "b": "back tension cord.004",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "weft cord.002",
+      "b": "back tension cord.005",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "weft cord.002",
+      "b": "back tension cord.006",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "weft cord.002",
+      "b": "back tension cord.007",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "weft cord.002",
+      "b": "back tension cord.008",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "weft cord.002",
+      "b": "back tension cord.009",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "weft cord.002",
+      "b": "back tension cord.010",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "weft cord.002",
+      "b": "back tension cord.011",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "weft cord.002",
+      "b": "back tension cord.012",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "weft cord.002",
+      "b": "back tension cord.013",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "weft cord.002",
+      "b": "back tension cord.014",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "weft cord.003",
+      "b": "back support spine",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "weft cord.003",
+      "b": "mesh back perimeter",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "weft cord.003",
+      "b": "back tension cord",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "weft cord.003",
+      "b": "back tension cord.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "weft cord.003",
+      "b": "back tension cord.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "weft cord.003",
+      "b": "back tension cord.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "weft cord.003",
+      "b": "back tension cord.004",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "weft cord.003",
+      "b": "back tension cord.005",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "weft cord.003",
+      "b": "back tension cord.006",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "weft cord.003",
+      "b": "back tension cord.007",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "weft cord.003",
+      "b": "back tension cord.008",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "weft cord.003",
+      "b": "back tension cord.009",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "weft cord.003",
+      "b": "back tension cord.010",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "weft cord.003",
+      "b": "back tension cord.011",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "weft cord.003",
+      "b": "back tension cord.012",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "weft cord.003",
+      "b": "back tension cord.013",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "weft cord.003",
+      "b": "back tension cord.014",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "weft cord.004",
+      "b": "back support spine",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "weft cord.004",
+      "b": "mesh back perimeter",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "weft cord.004",
+      "b": "back tension cord",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "weft cord.004",
+      "b": "back tension cord.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "weft cord.004",
+      "b": "back tension cord.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "weft cord.004",
+      "b": "back tension cord.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "weft cord.004",
+      "b": "back tension cord.004",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "weft cord.004",
+      "b": "back tension cord.005",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "weft cord.004",
+      "b": "back tension cord.006",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "weft cord.004",
+      "b": "back tension cord.007",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "weft cord.004",
+      "b": "back tension cord.008",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "weft cord.004",
+      "b": "back tension cord.009",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "weft cord.004",
+      "b": "back tension cord.010",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "weft cord.004",
+      "b": "back tension cord.011",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "weft cord.004",
+      "b": "back tension cord.012",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "weft cord.004",
+      "b": "back tension cord.013",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "weft cord.004",
+      "b": "back tension cord.014",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "weft cord.005",
+      "b": "back support spine",
+      "method": "surface distance",
+      "distance": 0.003241974860429764
+    },
+    {
+      "a": "weft cord.005",
+      "b": "mesh back perimeter",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "weft cord.005",
+      "b": "back tension cord",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "weft cord.005",
+      "b": "back tension cord.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "weft cord.005",
+      "b": "back tension cord.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "weft cord.005",
+      "b": "back tension cord.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "weft cord.005",
+      "b": "back tension cord.004",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "weft cord.005",
+      "b": "back tension cord.005",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "weft cord.005",
+      "b": "back tension cord.006",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "weft cord.005",
+      "b": "back tension cord.007",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "weft cord.005",
+      "b": "back tension cord.008",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "weft cord.005",
+      "b": "back tension cord.009",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "weft cord.005",
+      "b": "back tension cord.010",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "weft cord.005",
+      "b": "back tension cord.011",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "weft cord.005",
+      "b": "back tension cord.012",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "weft cord.005",
+      "b": "back tension cord.013",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "weft cord.005",
+      "b": "back tension cord.014",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "weft cord.006",
+      "b": "mesh back perimeter",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "weft cord.006",
+      "b": "back tension cord",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "weft cord.006",
+      "b": "back tension cord.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "weft cord.006",
+      "b": "back tension cord.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "weft cord.006",
+      "b": "back tension cord.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "weft cord.006",
+      "b": "back tension cord.004",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "weft cord.006",
+      "b": "back tension cord.005",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "weft cord.006",
+      "b": "back tension cord.006",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "weft cord.006",
+      "b": "back tension cord.007",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "weft cord.006",
+      "b": "back tension cord.008",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "weft cord.006",
+      "b": "back tension cord.009",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "weft cord.006",
+      "b": "back tension cord.010",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "weft cord.006",
+      "b": "back tension cord.011",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "weft cord.006",
+      "b": "back tension cord.012",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "weft cord.006",
+      "b": "back tension cord.013",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "weft cord.006",
+      "b": "back tension cord.014",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "weft cord.007",
+      "b": "mesh back perimeter",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "weft cord.007",
+      "b": "back tension cord",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "weft cord.007",
+      "b": "back tension cord.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "weft cord.007",
+      "b": "back tension cord.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "weft cord.007",
+      "b": "back tension cord.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "weft cord.007",
+      "b": "back tension cord.004",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "weft cord.007",
+      "b": "back tension cord.005",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "weft cord.007",
+      "b": "back tension cord.006",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "weft cord.007",
+      "b": "back tension cord.007",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "weft cord.007",
+      "b": "back tension cord.008",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "weft cord.007",
+      "b": "back tension cord.009",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "weft cord.007",
+      "b": "back tension cord.010",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "weft cord.007",
+      "b": "back tension cord.011",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "weft cord.007",
+      "b": "back tension cord.012",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "weft cord.007",
+      "b": "back tension cord.013",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "weft cord.007",
+      "b": "back tension cord.014",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "weft cord.008",
+      "b": "mesh back perimeter",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "weft cord.008",
+      "b": "back tension cord",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "weft cord.008",
+      "b": "back tension cord.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "weft cord.008",
+      "b": "back tension cord.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "weft cord.008",
+      "b": "back tension cord.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "weft cord.008",
+      "b": "back tension cord.004",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "weft cord.008",
+      "b": "back tension cord.005",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "weft cord.008",
+      "b": "back tension cord.006",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "weft cord.008",
+      "b": "back tension cord.007",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "weft cord.008",
+      "b": "back tension cord.008",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "weft cord.008",
+      "b": "back tension cord.009",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "weft cord.008",
+      "b": "back tension cord.010",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "weft cord.008",
+      "b": "back tension cord.011",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "weft cord.008",
+      "b": "back tension cord.012",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "weft cord.008",
+      "b": "back tension cord.013",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "weft cord.008",
+      "b": "back tension cord.014",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "weft cord.009",
+      "b": "mesh back perimeter",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "weft cord.009",
+      "b": "back tension cord",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "weft cord.009",
+      "b": "back tension cord.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "weft cord.009",
+      "b": "back tension cord.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "weft cord.009",
+      "b": "back tension cord.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "weft cord.009",
+      "b": "back tension cord.004",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "weft cord.009",
+      "b": "back tension cord.005",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "weft cord.009",
+      "b": "back tension cord.006",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "weft cord.009",
+      "b": "back tension cord.007",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "weft cord.009",
+      "b": "back tension cord.008",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "weft cord.009",
+      "b": "back tension cord.009",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "weft cord.009",
+      "b": "back tension cord.010",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "weft cord.009",
+      "b": "back tension cord.011",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "weft cord.009",
+      "b": "back tension cord.012",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "weft cord.009",
+      "b": "back tension cord.013",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "weft cord.009",
+      "b": "back tension cord.014",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "weft cord.010",
+      "b": "mesh back perimeter",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "weft cord.010",
+      "b": "back tension cord",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "weft cord.010",
+      "b": "back tension cord.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "weft cord.010",
+      "b": "back tension cord.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "weft cord.010",
+      "b": "back tension cord.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "weft cord.010",
+      "b": "back tension cord.004",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "weft cord.010",
+      "b": "back tension cord.005",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "weft cord.010",
+      "b": "back tension cord.006",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "weft cord.010",
+      "b": "back tension cord.007",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "weft cord.010",
+      "b": "back tension cord.008",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "weft cord.010",
+      "b": "back tension cord.009",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "weft cord.010",
+      "b": "back tension cord.010",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "weft cord.010",
+      "b": "back tension cord.011",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "weft cord.010",
+      "b": "back tension cord.012",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "weft cord.010",
+      "b": "back tension cord.013",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "weft cord.010",
+      "b": "back tension cord.014",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "weft cord.011",
+      "b": "mesh back perimeter",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "weft cord.011",
+      "b": "back tension cord",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "weft cord.011",
+      "b": "back tension cord.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "weft cord.011",
+      "b": "back tension cord.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "weft cord.011",
+      "b": "back tension cord.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "weft cord.011",
+      "b": "back tension cord.004",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "weft cord.011",
+      "b": "back tension cord.005",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "weft cord.011",
+      "b": "back tension cord.006",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "weft cord.011",
+      "b": "back tension cord.007",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "weft cord.011",
+      "b": "back tension cord.008",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "weft cord.011",
+      "b": "back tension cord.009",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "weft cord.011",
+      "b": "back tension cord.010",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "weft cord.011",
+      "b": "back tension cord.011",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "weft cord.011",
+      "b": "back tension cord.012",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "weft cord.011",
+      "b": "back tension cord.013",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "weft cord.011",
+      "b": "back tension cord.014",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "lumbar pad",
+      "b": "back support spine",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "lumbar pad",
+      "b": "back tension cord.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "lumbar pad",
+      "b": "back tension cord.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "lumbar pad",
+      "b": "back tension cord.004",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "lumbar pad",
+      "b": "back tension cord.005",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "lumbar pad",
+      "b": "back tension cord.006",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "lumbar pad",
+      "b": "back tension cord.007",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "lumbar pad",
+      "b": "back tension cord.008",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "lumbar pad",
+      "b": "back tension cord.009",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "lumbar pad",
+      "b": "back tension cord.010",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "lumbar pad",
+      "b": "back tension cord.011",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "lumbar pad",
+      "b": "back tension cord.012",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "lumbar pad",
+      "b": "weft cord.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "lumbar pad",
+      "b": "weft cord.004",
+      "method": "triangle intersection",
+      "distance": 0
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; live-source reports are NOT exported-asset evidence; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T03:36:32Z"
+}

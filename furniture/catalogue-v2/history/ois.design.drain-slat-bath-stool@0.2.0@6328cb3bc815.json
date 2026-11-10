@@ -1,0 +1,153 @@
+{
+  "designId": "ois.design.drain-slat-bath-stool",
+  "familyId": "ois.family.drain-slat-bath-stool",
+  "id": "ois.design.drain-slat-bath-stool",
+  "name": "Slatted bath stool",
+  "roomTags": [
+    "bathroom"
+  ],
+  "theme": "soft-japandi",
+  "builder": "bath",
+  "parameters": {
+    "form": "bath-stool"
+  },
+  "distinction": "Wide panel supports and a drain-slotted timber seat.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted"
+  },
+  "constructionKey": "bath|bath-stool|{}",
+  "sha256": "6328cb3bc815225a7098e752c55ae57d559477131fc31beee314ed08b0bc473c",
+  "bytes": 56804,
+  "triangles": 1128,
+  "vertices": 1490,
+  "drawPrimitives": 2,
+  "bounds": {
+    "min": [
+      -0.23000000417232513,
+      0.0,
+      -0.15000000596046448
+    ],
+    "max": [
+      0.23000000417232513,
+      0.42700001201592386,
+      0.15000000596046448
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 0.46000000834465027,
+    "depth": 0.30000001192092896,
+    "height": 0.42700001201592386
+  },
+  "footprint": [
+    [
+      -0.23000000417232513,
+      -0.15000000596046448
+    ],
+    [
+      0.23000000417232513,
+      -0.15000000596046448
+    ],
+    [
+      0.23000000417232513,
+      0.15000000596046448
+    ],
+    [
+      -0.23000000417232513,
+      0.15000000596046448
+    ]
+  ],
+  "variantSlots": [
+    "dark",
+    "wood"
+  ],
+  "requiredExtensions": [],
+  "version": "0.2.0",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.drain-slat-bath-stool",
+  "file": "assets/v0.2.0/drain-slat-bath-stool.glb",
+  "sourceModel": "sources/v0.2.0/drain-slat-bath-stool.blend",
+  "thumbnail": "previews/v0.2.0/drain-slat-bath-stool.png",
+  "backThumbnail": "previews/v0.2.0/drain-slat-bath-stool-back.png",
+  "category": "bathroom-fixtures",
+  "subtype": "bath-stool",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "textures": {
+    "count": 0,
+    "bytes": 0
+  },
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.2.0/drain-slat-bath-stool.png",
+      "previews/v0.2.0/drain-slat-bath-stool-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.34,
+      0.28,
+      0.19
+    ],
+    [
+      0.58,
+      0.54,
+      0.44
+    ],
+    [
+      0.15,
+      0.17,
+      0.15
+    ]
+  ],
+  "colourTags": [
+    "ash",
+    "flax",
+    "stone"
+  ],
+  "materials": [
+    "paint",
+    "wood"
+  ],
+  "searchAliases": [
+    "bathroom",
+    "bath stool"
+  ],
+  "materialSlots": [
+    {
+      "id": "dark",
+      "material": "dark",
+      "recolourable": true
+    },
+    {
+      "id": "wood",
+      "material": "wood",
+      "recolourable": true
+    }
+  ],
+  "geometryHash": "5372d7972e43753600e98d3039c222360edd68a70d851ad3825ea6f459ada0c7",
+  "normalizedMirrorGeometryHash": "2f5e2bc6aabbeb24a669597092dd33fceaea9783c648b87d8144022871941a79"
+}

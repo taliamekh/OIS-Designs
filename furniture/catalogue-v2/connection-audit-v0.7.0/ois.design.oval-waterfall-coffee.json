@@ -1,0 +1,44 @@
+{
+  "id": "ois.design.oval-waterfall-coffee",
+  "sha256": "3aa2c1008e4e52ff12dad6208c388528638d3e6b5bf2704000e03bdfb0a2098a",
+  "sourceModel": "sources/v0.7.0/oval-waterfall-coffee.blend",
+  "sourceSha256": "a79766abb45ea7e1fba54e89cbc594603b4db83bf1f65c6fe8937a5222e7e2b3",
+  "partCount": 3,
+  "componentCount": 1,
+  "components": [
+    {
+      "parts": [
+        "top",
+        "waterfall end",
+        "waterfall end.001"
+      ],
+      "minimum": [
+        -0.5249999761581421,
+        -0.30000001192092896,
+        0.0
+      ],
+      "maximum": [
+        0.5249999761581421,
+        0.30000001192092896,
+        0.4000000059604645
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "waterfall end",
+      "b": "top",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "waterfall end.001",
+      "b": "top",
+      "method": "triangle intersection",
+      "distance": 0
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; live-source reports are NOT exported-asset evidence; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T04:00:31Z"
+}

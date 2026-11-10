@@ -1,0 +1,37 @@
+{
+  "id": "ois.design.stone-orb-coffee",
+  "sha256": "81a2febe8ace25fad971b5968bdb4ef3f1f024b766f4e0fbdc387583a277c0ef",
+  "sourceModel": "sources/v0.7.0/stone-orb-coffee.blend",
+  "sourceSha256": "adcc0d495795aec2a0b79d462ced475c22fb749352e1c74cadec59507147ea72",
+  "partCount": 2,
+  "componentCount": 1,
+  "components": [
+    {
+      "parts": [
+        "sculptural table top",
+        "sculptural sphere base"
+      ],
+      "minimum": [
+        -0.44999998807907104,
+        -0.4000000059604645,
+        0.0
+      ],
+      "maximum": [
+        0.44999998807907104,
+        0.4000000059604645,
+        0.39000001549720764
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "sculptural sphere base",
+      "b": "sculptural table top",
+      "method": "triangle intersection",
+      "distance": 0
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; live-source reports are NOT exported-asset evidence; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T04:00:32Z"
+}

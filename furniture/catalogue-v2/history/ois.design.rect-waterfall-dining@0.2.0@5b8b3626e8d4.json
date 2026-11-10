@@ -1,0 +1,149 @@
+{
+  "designId": "ois.design.rect-waterfall-dining",
+  "familyId": "ois.family.rect-waterfall-dining",
+  "id": "ois.design.rect-waterfall-dining",
+  "name": "Waterfall dining table",
+  "roomTags": [
+    "dining"
+  ],
+  "theme": "soft-japandi",
+  "builder": "table",
+  "parameters": {
+    "form": "waterfall",
+    "w": 1.65,
+    "d": 0.88,
+    "h": 0.75,
+    "shape": "rect"
+  },
+  "distinction": "Continuous top and full-depth end slabs make a portal silhouette.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted"
+  },
+  "sha256": "5b8b3626e8d4d7a78bd938c51ab5d691100ccf794dab0d1c34a240efbc28208a",
+  "bytes": 29108,
+  "triangles": 564,
+  "vertices": 764,
+  "drawPrimitives": 1,
+  "bounds": {
+    "min": [
+      -0.824999988079071,
+      0.0,
+      -0.4399999976158142
+    ],
+    "max": [
+      0.824999988079071,
+      0.7500000223517418,
+      0.4399999976158142
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 1.649999976158142,
+    "depth": 0.8799999952316284,
+    "height": 0.7500000223517418
+  },
+  "footprint": [
+    [
+      -0.824999988079071,
+      -0.4399999976158142
+    ],
+    [
+      0.824999988079071,
+      -0.4399999976158142
+    ],
+    [
+      0.824999988079071,
+      0.4399999976158142
+    ],
+    [
+      -0.824999988079071,
+      0.4399999976158142
+    ]
+  ],
+  "variantSlots": [
+    "wood"
+  ],
+  "requiredExtensions": [],
+  "version": "0.2.0",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.rect-waterfall-dining",
+  "file": "assets/v0.2.0/rect-waterfall-dining.glb",
+  "sourceModel": "sources/v0.2.0/rect-waterfall-dining.blend",
+  "thumbnail": "previews/v0.2.0/rect-waterfall-dining.png",
+  "backThumbnail": "previews/v0.2.0/rect-waterfall-dining-back.png",
+  "category": "tables",
+  "subtype": "waterfall",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "textures": {
+    "count": 0,
+    "bytes": 0
+  },
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.2.0/rect-waterfall-dining.png",
+      "previews/v0.2.0/rect-waterfall-dining-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.34,
+      0.28,
+      0.19
+    ],
+    [
+      0.58,
+      0.54,
+      0.44
+    ],
+    [
+      0.15,
+      0.17,
+      0.15
+    ]
+  ],
+  "colourTags": [
+    "ash",
+    "flax",
+    "stone"
+  ],
+  "materials": [
+    "wood"
+  ],
+  "searchAliases": [
+    "dining",
+    "waterfall"
+  ],
+  "materialSlots": [
+    {
+      "id": "wood",
+      "material": "wood",
+      "recolourable": true
+    }
+  ],
+  "geometryHash": "732edc28f2a65745b9465e9fef419caabf8c7b9e44577594f50eea6e8d4e1ea4",
+  "normalizedMirrorGeometryHash": "178112db4dcc32346d3c0e99ac5c9a953ade38f5fab65b52c9d90c939d6a7495"
+}

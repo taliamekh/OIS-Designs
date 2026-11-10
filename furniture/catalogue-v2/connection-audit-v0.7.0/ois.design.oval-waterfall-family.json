@@ -1,0 +1,44 @@
+{
+  "id": "ois.design.oval-waterfall-family",
+  "sha256": "02a83d5855ad2dc59ef8903264b7333371f121b4d92bf5ae8a278f167939f558",
+  "sourceModel": "sources/v0.7.0/oval-waterfall-family.blend",
+  "sourceSha256": "052f00822980f7f4ad40288a0a9fdca0e5b0bcfb1757d2f42ceb11e439003499",
+  "partCount": 3,
+  "componentCount": 1,
+  "components": [
+    {
+      "parts": [
+        "top",
+        "waterfall end",
+        "waterfall end.001"
+      ],
+      "minimum": [
+        -0.8999999761581421,
+        -0.44999998807907104,
+        0.0
+      ],
+      "maximum": [
+        0.8999999761581421,
+        0.44999998807907104,
+        0.75
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "waterfall end",
+      "b": "top",
+      "method": "surface distance",
+      "distance": 0.0016031861305236816
+    },
+    {
+      "a": "waterfall end.001",
+      "b": "top",
+      "method": "surface distance",
+      "distance": 0.0016031861305236816
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; live-source reports are NOT exported-asset evidence; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T04:00:31Z"
+}

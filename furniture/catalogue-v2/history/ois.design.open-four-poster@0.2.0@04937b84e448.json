@@ -1,0 +1,167 @@
+{
+  "designId": "ois.design.open-four-poster",
+  "familyId": "ois.family.open-four-poster",
+  "id": "ois.design.open-four-poster",
+  "name": "Open four-poster bed",
+  "roomTags": [
+    "bedroom"
+  ],
+  "theme": "city-loft",
+  "builder": "bed",
+  "parameters": {
+    "form": "four-poster",
+    "size": "queen",
+    "platform": 0.38
+  },
+  "distinction": "Four full-height posts and open upper connecting rails.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted"
+  },
+  "bedSize": "queen",
+  "mattressMetres": [
+    1.524,
+    2.032,
+    0.22
+  ],
+  "safetyReviewRequired": false,
+  "sha256": "04937b84e44805b656f4142a76d1b1f39c6b97aa6fe92435d5def5debfcf106c",
+  "bytes": 111844,
+  "triangles": 2224,
+  "vertices": 2968,
+  "drawPrimitives": 3,
+  "bounds": {
+    "min": [
+      -0.8400000618631063,
+      -1.4908353099252203e-07,
+      -1.1040001174122653
+    ],
+    "max": [
+      0.8399999403327971,
+      2.074000153914689,
+      1.104000135204357
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 1.6800000021959034,
+    "depth": 2.208000252616622,
+    "height": 2.0740003029982197
+  },
+  "footprint": [
+    [
+      -0.8400000618631063,
+      -1.1040001174122653
+    ],
+    [
+      0.8399999403327971,
+      -1.1040001174122653
+    ],
+    [
+      0.8399999403327971,
+      1.104000135204357
+    ],
+    [
+      -0.8400000618631063,
+      1.104000135204357
+    ]
+  ],
+  "variantSlots": [
+    "fabric",
+    "linen",
+    "wood"
+  ],
+  "requiredExtensions": [],
+  "version": "0.2.0",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.open-four-poster",
+  "file": "assets/v0.2.0/open-four-poster.glb",
+  "sourceModel": "sources/v0.2.0/open-four-poster.blend",
+  "thumbnail": "previews/v0.2.0/open-four-poster.png",
+  "backThumbnail": "previews/v0.2.0/open-four-poster-back.png",
+  "category": "beds",
+  "subtype": "four-poster",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "textures": {
+    "count": 0,
+    "bytes": 0
+  },
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.2.0/open-four-poster.png",
+      "previews/v0.2.0/open-four-poster-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.23,
+      0.15,
+      0.09
+    ],
+    [
+      0.12,
+      0.14,
+      0.16
+    ],
+    [
+      0.045,
+      0.05,
+      0.055
+    ]
+  ],
+  "colourTags": [
+    "charcoal",
+    "black",
+    "weathered wood"
+  ],
+  "materials": [
+    "textile",
+    "wood"
+  ],
+  "searchAliases": [
+    "bedroom",
+    "four poster"
+  ],
+  "materialSlots": [
+    {
+      "id": "fabric",
+      "material": "fabric",
+      "recolourable": true
+    },
+    {
+      "id": "linen",
+      "material": "linen",
+      "recolourable": true
+    },
+    {
+      "id": "wood",
+      "material": "wood",
+      "recolourable": true
+    }
+  ],
+  "geometryHash": "e232831247e5d525a8204c2d0dac0b4c58c67bc756635261d0e9e4c9af542f3e",
+  "normalizedMirrorGeometryHash": "3633c6ad1aebf818154176ea032f8bb0b773cb7923363ddd5f82a310a34daf1f"
+}

@@ -1,0 +1,162 @@
+{
+  "designId": "ois.design.record-listening-console",
+  "familyId": "ois.family.record-listening-console",
+  "id": "ois.design.record-listening-console",
+  "name": "Record listening console",
+  "roomTags": [
+    "living"
+  ],
+  "theme": "walnut-form",
+  "builder": "special",
+  "parameters": {
+    "form": "record-console",
+    "w": 1.45,
+    "d": 0.43,
+    "h": 0.7
+  },
+  "distinction": "Open record bays, angled LP sleeves, top turntable and platter.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted"
+  },
+  "sha256": "cfe816dcba3b2e25d59dd95eab74003964f0e6917192e40df3144f039988c813",
+  "bytes": 169820,
+  "triangles": 3560,
+  "vertices": 4525,
+  "drawPrimitives": 3,
+  "bounds": {
+    "min": [
+      -0.7250001413190034,
+      -2.3464894971514383e-08,
+      -0.21500002293961568
+    ],
+    "max": [
+      0.7250000716371283,
+      0.7799120722338557,
+      0.2150000550335901
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 1.4500002129561316,
+    "depth": 0.4300000779732058,
+    "height": 0.7799120956987506
+  },
+  "footprint": [
+    [
+      -0.7250001413190034,
+      -0.21500002293961568
+    ],
+    [
+      0.7250000716371283,
+      -0.21500002293961568
+    ],
+    [
+      0.7250000716371283,
+      0.2150000550335901
+    ],
+    [
+      -0.7250001413190034,
+      0.2150000550335901
+    ]
+  ],
+  "variantSlots": [
+    "dark",
+    "metal",
+    "wood"
+  ],
+  "requiredExtensions": [],
+  "version": "0.2.0",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.record-listening-console",
+  "file": "assets/v0.2.0/record-listening-console.glb",
+  "sourceModel": "sources/v0.2.0/record-listening-console.blend",
+  "thumbnail": "previews/v0.2.0/record-listening-console.png",
+  "backThumbnail": "previews/v0.2.0/record-listening-console-back.png",
+  "category": "specialty",
+  "subtype": "record-console",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "textures": {
+    "count": 0,
+    "bytes": 0
+  },
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.2.0/record-listening-console.png",
+      "previews/v0.2.0/record-listening-console-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.22,
+      0.09,
+      0.038
+    ],
+    [
+      0.39,
+      0.18,
+      0.07
+    ],
+    [
+      0.47,
+      0.3,
+      0.1
+    ]
+  ],
+  "colourTags": [
+    "walnut",
+    "tobacco",
+    "brass"
+  ],
+  "materials": [
+    "metal",
+    "paint",
+    "wood"
+  ],
+  "searchAliases": [
+    "living",
+    "record console"
+  ],
+  "materialSlots": [
+    {
+      "id": "dark",
+      "material": "dark",
+      "recolourable": true
+    },
+    {
+      "id": "metal",
+      "material": "metal",
+      "recolourable": true
+    },
+    {
+      "id": "wood",
+      "material": "wood",
+      "recolourable": true
+    }
+  ],
+  "geometryHash": "2671a774026c4a92e4f7c235fbfb75d7d678f96fba31ff5710db81bd8ebbf527",
+  "normalizedMirrorGeometryHash": "030765d5a4fe0e98bf61bee03989337c8b9a9db5a3882e94bfaabb8497885719"
+}

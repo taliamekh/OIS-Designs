@@ -1,0 +1,151 @@
+{
+  "designId": "ois.design.hex-conical-breakfast",
+  "familyId": "ois.family.hex-conical-breakfast",
+  "id": "ois.design.hex-conical-breakfast",
+  "name": "Hex conical breakfast table",
+  "roomTags": [
+    "dining"
+  ],
+  "theme": "soft-japandi",
+  "builder": "table",
+  "parameters": {
+    "form": "cone",
+    "w": 1.1,
+    "d": 1.0,
+    "h": 0.75,
+    "shape": "hex"
+  },
+  "distinction": "Hexagonal breakfast top sits on a tapered timber central cone.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted",
+    "sourceSnapshot": "sources/pipeline-e797cb5c88af56f5.py",
+    "sourceSha256": "e797cb5c88af56f5b4455d819a512ab9be55f40e1fa2d0cb542aca7bb84b906f",
+    "parametersFile": "sources/v0.2.1/hex-conical-breakfast.parameters.json"
+  },
+  "constructionKey": "table|cone|{\"drawers\": false, \"shape\": \"hex\", \"shelf\": false}",
+  "sha256": "a981716dffb62cedb07d36cba651b205fe414c6a8b12955e4d2b8b433f70a5df",
+  "bytes": 7516,
+  "triangles": 144,
+  "vertices": 166,
+  "drawPrimitives": 1,
+  "bounds": {
+    "min": [
+      -0.550000011920929,
+      0.0,
+      -0.4330126941204071
+    ],
+    "max": [
+      0.550000011920929,
+      0.75,
+      0.4330126941204071
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 1.100000023841858,
+    "depth": 0.8660253882408142,
+    "height": 0.75
+  },
+  "footprint": [
+    [
+      -0.550000011920929,
+      -0.4330126941204071
+    ],
+    [
+      0.550000011920929,
+      -0.4330126941204071
+    ],
+    [
+      0.550000011920929,
+      0.4330126941204071
+    ],
+    [
+      -0.550000011920929,
+      0.4330126941204071
+    ]
+  ],
+  "variantSlots": [
+    "wood"
+  ],
+  "requiredExtensions": [],
+  "version": "0.2.1",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.hex-conical-breakfast",
+  "file": "assets/v0.2.1/hex-conical-breakfast.glb",
+  "sourceModel": "sources/v0.2.1/hex-conical-breakfast.blend",
+  "thumbnail": "previews/v0.2.1/hex-conical-breakfast.png",
+  "backThumbnail": "previews/v0.2.1/hex-conical-breakfast-back.png",
+  "category": "tables",
+  "subtype": "cone",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "textures": {
+    "count": 0,
+    "bytes": 0
+  },
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.2.1/hex-conical-breakfast.png",
+      "previews/v0.2.1/hex-conical-breakfast-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.34,
+      0.28,
+      0.19
+    ],
+    [
+      0.58,
+      0.54,
+      0.44
+    ],
+    [
+      0.15,
+      0.17,
+      0.15
+    ]
+  ],
+  "colourTags": [
+    "ash",
+    "flax",
+    "stone"
+  ],
+  "materials": [
+    "wood"
+  ],
+  "searchAliases": [
+    "dining",
+    "cone"
+  ],
+  "materialSlots": [
+    {
+      "id": "wood",
+      "material": "wood",
+      "recolourable": true
+    }
+  ]
+}

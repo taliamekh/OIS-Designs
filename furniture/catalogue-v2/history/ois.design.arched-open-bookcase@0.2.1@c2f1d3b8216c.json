@@ -1,0 +1,150 @@
+{
+  "designId": "ois.design.arched-open-bookcase",
+  "familyId": "ois.family.arched-open-bookcase",
+  "id": "ois.design.arched-open-bookcase",
+  "name": "Arched open bookcase",
+  "roomTags": [
+    "living"
+  ],
+  "theme": "calm-oak",
+  "builder": "sculptural",
+  "parameters": {
+    "form": "arch-bookcase",
+    "w": 0.9,
+    "d": 0.34,
+    "h": 1.75
+  },
+  "distinction": "Continuous real arched crown over three open display shelves.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted",
+    "sourceSnapshot": "sources/pipeline-e797cb5c88af56f5.py",
+    "sourceSha256": "e797cb5c88af56f5b4455d819a512ab9be55f40e1fa2d0cb542aca7bb84b906f",
+    "parametersFile": "sources/v0.2.1/arched-open-bookcase.parameters.json"
+  },
+  "constructionKey": "sculptural|arch-bookcase|{}",
+  "sha256": "c2f1d3b8216cc6859221c1c69311dbaf71ba022b976e25192951b3936bd53d38",
+  "bytes": 68976,
+  "triangles": 1196,
+  "vertices": 1886,
+  "drawPrimitives": 1,
+  "bounds": {
+    "min": [
+      -0.4500000048428774,
+      0.0,
+      -0.17000000178813934
+    ],
+    "max": [
+      0.44999998807907104,
+      1.75,
+      0.17000000178813934
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 0.8999999929219484,
+    "depth": 0.3400000035762787,
+    "height": 1.75
+  },
+  "footprint": [
+    [
+      -0.4500000048428774,
+      -0.17000000178813934
+    ],
+    [
+      0.44999998807907104,
+      -0.17000000178813934
+    ],
+    [
+      0.44999998807907104,
+      0.17000000178813934
+    ],
+    [
+      -0.4500000048428774,
+      0.17000000178813934
+    ]
+  ],
+  "variantSlots": [
+    "wood"
+  ],
+  "requiredExtensions": [],
+  "version": "0.2.1",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.arched-open-bookcase",
+  "file": "assets/v0.2.1/arched-open-bookcase.glb",
+  "sourceModel": "sources/v0.2.1/arched-open-bookcase.blend",
+  "thumbnail": "previews/v0.2.1/arched-open-bookcase.png",
+  "backThumbnail": "previews/v0.2.1/arched-open-bookcase-back.png",
+  "category": "sculptural-furniture",
+  "subtype": "arch-bookcase",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "textures": {
+    "count": 0,
+    "bytes": 0
+  },
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.2.1/arched-open-bookcase.png",
+      "previews/v0.2.1/arched-open-bookcase-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.58,
+      0.39,
+      0.2
+    ],
+    [
+      0.73,
+      0.7,
+      0.61
+    ],
+    [
+      0.12,
+      0.14,
+      0.13
+    ]
+  ],
+  "colourTags": [
+    "pale oak",
+    "ivory",
+    "oatmeal"
+  ],
+  "materials": [
+    "wood"
+  ],
+  "searchAliases": [
+    "living",
+    "arch bookcase"
+  ],
+  "materialSlots": [
+    {
+      "id": "wood",
+      "material": "wood",
+      "recolourable": true
+    }
+  ]
+}

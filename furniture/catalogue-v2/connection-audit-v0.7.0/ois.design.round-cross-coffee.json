@@ -1,0 +1,70 @@
+{
+  "id": "ois.design.round-cross-coffee",
+  "sha256": "9b0178d2766bdc410b0badfb6a8093992f06fae04be33702ce8169ce46d52dc8",
+  "sourceModel": "sources/v0.7.0/round-cross-coffee.blend",
+  "sourceSha256": "e99f9bd17fbc6cd3cd937901c5cc733d365ac54a0715734a3e2f6ac77eeeb7f9",
+  "partCount": 5,
+  "componentCount": 1,
+  "components": [
+    {
+      "parts": [
+        "top",
+        "cross leg",
+        "cross leg.001",
+        "cross leg.002",
+        "cross leg.003"
+      ],
+      "minimum": [
+        -0.42500001192092896,
+        -0.42500001192092896,
+        -3.725290298461914e-09
+      ],
+      "maximum": [
+        0.42500001192092896,
+        0.42500001192092896,
+        0.40850427746772766
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "cross leg",
+      "b": "top",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "cross leg.001",
+      "b": "top",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "cross leg.001",
+      "b": "cross leg",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "cross leg.002",
+      "b": "top",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "cross leg.003",
+      "b": "top",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "cross leg.003",
+      "b": "cross leg.002",
+      "method": "triangle intersection",
+      "distance": 0
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; live-source reports are NOT exported-asset evidence; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T04:00:32Z"
+}

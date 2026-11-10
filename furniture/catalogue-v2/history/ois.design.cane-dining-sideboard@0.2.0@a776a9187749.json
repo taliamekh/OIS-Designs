@@ -1,0 +1,164 @@
+{
+  "designId": "ois.design.cane-dining-sideboard",
+  "familyId": "ois.family.cane-dining-sideboard",
+  "id": "ois.design.cane-dining-sideboard",
+  "name": "Cane dining sideboard",
+  "roomTags": [
+    "dining"
+  ],
+  "theme": "coastal-linen",
+  "builder": "case",
+  "parameters": {
+    "form": "doors",
+    "w": 1.65,
+    "d": 0.43,
+    "h": 0.82,
+    "doors": 3,
+    "front": "cane"
+  },
+  "distinction": "Three wide woven doors on a low raised sideboard.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted"
+  },
+  "sha256": "a776a9187749dfb6347020f3187bd399bc96c45e3be685fed4a01b4719d73732",
+  "bytes": 333492,
+  "triangles": 7396,
+  "vertices": 8919,
+  "drawPrimitives": 3,
+  "bounds": {
+    "min": [
+      -0.8255492221987134,
+      -7.2060714340072e-10,
+      -0.2709999857470393
+    ],
+    "max": [
+      0.8255489953459252,
+      0.814697563265325,
+      0.21500006522596982
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 1.6510982175446385,
+    "depth": 0.48600005097300913,
+    "height": 0.8146975639859322
+  },
+  "footprint": [
+    [
+      -0.8255492221987134,
+      -0.2709999857470393
+    ],
+    [
+      0.8255489953459252,
+      -0.2709999857470393
+    ],
+    [
+      0.8255489953459252,
+      0.21500006522596982
+    ],
+    [
+      -0.8255492221987134,
+      0.21500006522596982
+    ]
+  ],
+  "variantSlots": [
+    "cane",
+    "metal",
+    "wood"
+  ],
+  "requiredExtensions": [],
+  "version": "0.2.0",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.cane-dining-sideboard",
+  "file": "assets/v0.2.0/cane-dining-sideboard.glb",
+  "sourceModel": "sources/v0.2.0/cane-dining-sideboard.blend",
+  "thumbnail": "previews/v0.2.0/cane-dining-sideboard.png",
+  "backThumbnail": "previews/v0.2.0/cane-dining-sideboard-back.png",
+  "category": "storage",
+  "subtype": "doors",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "textures": {
+    "count": 0,
+    "bytes": 0
+  },
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.2.0/cane-dining-sideboard.png",
+      "previews/v0.2.0/cane-dining-sideboard-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.66,
+      0.53,
+      0.34
+    ],
+    [
+      0.36,
+      0.53,
+      0.58
+    ],
+    [
+      0.64,
+      0.6,
+      0.48
+    ]
+  ],
+  "colourTags": [
+    "mist blue",
+    "sand",
+    "pale oak"
+  ],
+  "materials": [
+    "metal",
+    "wood",
+    "woven-fibre"
+  ],
+  "searchAliases": [
+    "dining",
+    "doors"
+  ],
+  "materialSlots": [
+    {
+      "id": "cane",
+      "material": "cane",
+      "recolourable": true
+    },
+    {
+      "id": "metal",
+      "material": "metal",
+      "recolourable": true
+    },
+    {
+      "id": "wood",
+      "material": "wood",
+      "recolourable": true
+    }
+  ],
+  "geometryHash": "0e3e6b947a4e4a3b6261f9b45eecdf6cb4096ea687bd2cd3e1bea9c8694d42ba",
+  "normalizedMirrorGeometryHash": "10c2d81a193aba2fd5cc0443495343d587669ab49a68d3e661d75508a883798c"
+}

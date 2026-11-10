@@ -1,0 +1,333 @@
+{
+  "id": "ois.design.vessel-top-console",
+  "sha256": "bf7bf7823f6fa043bc0083088641a34f8240445a42e0147f89d7f4ad5c952419",
+  "sourceModel": "sources/v0.5.0/vessel-top-console.blend",
+  "sourceSha256": "c3b6eef6b49431cdd776a8afad69bfd0be02a845a5ce61ed5bd8c3221eca782e",
+  "partCount": 24,
+  "componentCount": 6,
+  "components": [
+    {
+      "parts": [
+        "recessed plinth",
+        "bottom",
+        "top",
+        "side",
+        "side.001",
+        "back",
+        "interior shelf",
+        "interior shelf.001",
+        "stone counter",
+        "basin",
+        "curved faucet"
+      ],
+      "minimum": [
+        -0.512499988079071,
+        -0.26249998807907104,
+        0.0
+      ],
+      "maximum": [
+        0.512499988079071,
+        0.26249998807907104,
+        1.1312906742095947
+      ]
+    },
+    {
+      "parts": [
+        "door stile",
+        "door stile.001",
+        "door rail",
+        "door rail.001",
+        "recessed panel"
+      ],
+      "minimum": [
+        -0.4674999713897705,
+        0.23999999463558197,
+        0.1599999964237213
+      ],
+      "maximum": [
+        -0.0075000012293457985,
+        0.27950000762939453,
+        0.8100000023841858
+      ]
+    },
+    {
+      "parts": [
+        "door stile.002",
+        "door stile.003",
+        "door rail.002",
+        "door rail.003",
+        "recessed panel.001"
+      ],
+      "minimum": [
+        0.0075000012293457985,
+        0.23999999463558197,
+        0.1599999964237213
+      ],
+      "maximum": [
+        0.4674999713897705,
+        0.27950000762939453,
+        0.8100000023841858
+      ]
+    },
+    {
+      "parts": [
+        "pull"
+      ],
+      "minimum": [
+        -0.09349999576807022,
+        0.2939999997615814,
+        0.4350000023841858
+      ],
+      "maximum": [
+        -0.08150000125169754,
+        0.3060000240802765,
+        0.5350000262260437
+      ]
+    },
+    {
+      "parts": [
+        "pull.001"
+      ],
+      "minimum": [
+        0.3814999759197235,
+        0.2939999997615814,
+        0.4350000023841858
+      ],
+      "maximum": [
+        0.3935000002384186,
+        0.3060000240802765,
+        0.5350000262260437
+      ]
+    },
+    {
+      "parts": [
+        "tap lever"
+      ],
+      "minimum": [
+        0.03500000387430191,
+        -0.18299999833106995,
+        0.9919999837875366
+      ],
+      "maximum": [
+        0.10000000149011612,
+        -0.16699999570846558,
+        1.0080000162124634
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "bottom",
+      "b": "recessed plinth",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "side",
+      "b": "bottom",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "side",
+      "b": "top",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "side.001",
+      "b": "bottom",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "side.001",
+      "b": "top",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "back",
+      "b": "bottom",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "back",
+      "b": "top",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "back",
+      "b": "side",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "back",
+      "b": "side.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "door rail",
+      "b": "door stile",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "door rail",
+      "b": "door stile.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "door rail.001",
+      "b": "door stile",
+      "method": "surface distance",
+      "distance": 0.0
+    },
+    {
+      "a": "door rail.001",
+      "b": "door stile.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "recessed panel",
+      "b": "door stile",
+      "method": "surface distance",
+      "distance": 0.0034082364290952682
+    },
+    {
+      "a": "recessed panel",
+      "b": "door stile.001",
+      "method": "surface distance",
+      "distance": 0.003408260177820921
+    },
+    {
+      "a": "recessed panel",
+      "b": "door rail",
+      "method": "surface distance",
+      "distance": 0.0034232591278851032
+    },
+    {
+      "a": "recessed panel",
+      "b": "door rail.001",
+      "method": "surface distance",
+      "distance": 0.0034232905600219965
+    },
+    {
+      "a": "door rail.002",
+      "b": "door stile.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "door rail.002",
+      "b": "door stile.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "door rail.003",
+      "b": "door stile.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "door rail.003",
+      "b": "door stile.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "recessed panel.001",
+      "b": "door stile.002",
+      "method": "surface distance",
+      "distance": 0.0034082417842000723
+    },
+    {
+      "a": "recessed panel.001",
+      "b": "door stile.003",
+      "method": "surface distance",
+      "distance": 0.0034082788042724133
+    },
+    {
+      "a": "recessed panel.001",
+      "b": "door rail.002",
+      "method": "surface distance",
+      "distance": 0.0034232577309012413
+    },
+    {
+      "a": "recessed panel.001",
+      "b": "door rail.003",
+      "method": "surface distance",
+      "distance": 0.0034232891630381346
+    },
+    {
+      "a": "interior shelf",
+      "b": "side",
+      "method": "surface distance",
+      "distance": 0.003999978303909302
+    },
+    {
+      "a": "interior shelf",
+      "b": "side.001",
+      "method": "surface distance",
+      "distance": 0.003999978303909302
+    },
+    {
+      "a": "interior shelf",
+      "b": "back",
+      "method": "surface distance",
+      "distance": 0.001999989151954651
+    },
+    {
+      "a": "interior shelf.001",
+      "b": "side",
+      "method": "surface distance",
+      "distance": 0.003999978303909302
+    },
+    {
+      "a": "interior shelf.001",
+      "b": "side.001",
+      "method": "surface distance",
+      "distance": 0.003999978303909302
+    },
+    {
+      "a": "interior shelf.001",
+      "b": "back",
+      "method": "surface distance",
+      "distance": 0.001999989151954651
+    },
+    {
+      "a": "stone counter",
+      "b": "top",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "basin",
+      "b": "stone counter",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "curved faucet",
+      "b": "stone counter",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "curved faucet",
+      "b": "basin",
+      "method": "triangle intersection",
+      "distance": 0
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T03:07:35Z"
+}

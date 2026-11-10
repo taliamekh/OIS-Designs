@@ -1,0 +1,154 @@
+{
+  "designId": "ois.design.butterfly-sling-seat",
+  "familyId": "ois.family.butterfly-sling-seat",
+  "id": "ois.design.butterfly-sling-seat",
+  "name": "Butterfly sling seat",
+  "roomTags": [
+    "living"
+  ],
+  "theme": "city-loft",
+  "builder": "functional",
+  "parameters": {
+    "form": "butterfly",
+    "w": 0.75,
+    "d": 0.75,
+    "h": 0.87
+  },
+  "distinction": "Six-point suspended saddle textile connects two crossed tubular frames.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted"
+  },
+  "constructionKey": "functional|butterfly|{}",
+  "sha256": "da7ceeb62a0efa3fae4cb10773654816248b743411fe3a75738b6c915a594e2e",
+  "bytes": 4700,
+  "triangles": 126,
+  "vertices": 78,
+  "drawPrimitives": 2,
+  "bounds": {
+    "min": [
+      -0.37400001287460327,
+      0.0,
+      -0.3505890965461731
+    ],
+    "max": [
+      0.37400001287460327,
+      0.8201123476028442,
+      0.3711834251880646
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 0.7480000257492065,
+    "depth": 0.7217725217342377,
+    "height": 0.8201123476028442
+  },
+  "footprint": [
+    [
+      -0.37400001287460327,
+      -0.3505890965461731
+    ],
+    [
+      0.37400001287460327,
+      -0.3505890965461731
+    ],
+    [
+      0.37400001287460327,
+      0.3711834251880646
+    ],
+    [
+      -0.37400001287460327,
+      0.3711834251880646
+    ]
+  ],
+  "variantSlots": [
+    "fabric",
+    "metal"
+  ],
+  "requiredExtensions": [],
+  "version": "0.2.0",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.butterfly-sling-seat",
+  "file": "assets/v0.2.0/butterfly-sling-seat.glb",
+  "sourceModel": "sources/v0.2.0/butterfly-sling-seat.blend",
+  "thumbnail": "previews/v0.2.0/butterfly-sling-seat.png",
+  "backThumbnail": "previews/v0.2.0/butterfly-sling-seat-back.png",
+  "category": "functional-furniture",
+  "subtype": "butterfly",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "textures": {
+    "count": 0,
+    "bytes": 0
+  },
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.2.0/butterfly-sling-seat.png",
+      "previews/v0.2.0/butterfly-sling-seat-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.23,
+      0.15,
+      0.09
+    ],
+    [
+      0.12,
+      0.14,
+      0.16
+    ],
+    [
+      0.045,
+      0.05,
+      0.055
+    ]
+  ],
+  "colourTags": [
+    "charcoal",
+    "black",
+    "weathered wood"
+  ],
+  "materials": [
+    "metal",
+    "textile"
+  ],
+  "searchAliases": [
+    "living",
+    "butterfly"
+  ],
+  "materialSlots": [
+    {
+      "id": "fabric",
+      "material": "fabric",
+      "recolourable": true
+    },
+    {
+      "id": "metal",
+      "material": "metal",
+      "recolourable": true
+    }
+  ]
+}

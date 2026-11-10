@@ -1,0 +1,1519 @@
+{
+  "id": "ois.design.arched-cane-display",
+  "sha256": "unexported-source-732771aeb2eadd33599208170e38ff4e50d68878cbfb6795c9473e6f8553f36b",
+  "sourceModel": null,
+  "sourceSha256": "732771aeb2eadd33599208170e38ff4e50d68878cbfb6795c9473e6f8553f36b",
+  "partCount": 50,
+  "componentCount": 1,
+  "components": [
+    {
+      "parts": [
+        "arch side",
+        "arch side.001",
+        "arched crown",
+        "arch spring joint",
+        "arch spring joint.001",
+        "arch shelf",
+        "arch shelf.001",
+        "arch shelf.002",
+        "lower door stile",
+        "lower door stile.001",
+        "lower door rail",
+        "lower door rail.001",
+        "woven warp",
+        "woven warp.001",
+        "woven warp.002",
+        "woven warp.003",
+        "woven warp.004",
+        "woven warp.005",
+        "woven warp.006",
+        "woven weft",
+        "woven weft.001",
+        "woven weft.002",
+        "woven weft.003",
+        "woven weft.004",
+        "woven weft.005",
+        "woven weft.006",
+        "woven weft.007",
+        "woven weft.008",
+        "woven weft.009",
+        "lower door stile.002",
+        "lower door stile.003",
+        "lower door rail.002",
+        "lower door rail.003",
+        "woven warp.007",
+        "woven warp.008",
+        "woven warp.009",
+        "woven warp.010",
+        "woven warp.011",
+        "woven warp.012",
+        "woven warp.013",
+        "woven weft.010",
+        "woven weft.011",
+        "woven weft.012",
+        "woven weft.013",
+        "woven weft.014",
+        "woven weft.015",
+        "woven weft.016",
+        "woven weft.017",
+        "woven weft.018",
+        "woven weft.019"
+      ],
+      "minimum": [
+        -0.5249999761581421,
+        -0.20000000298023224,
+        0.0
+      ],
+      "maximum": [
+        0.5249999761581421,
+        0.23250000178813934,
+        1.7999999523162842
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "arched crown",
+      "b": "arch side",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "arched crown",
+      "b": "arch side.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "arch spring joint",
+      "b": "arch side",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "arch spring joint",
+      "b": "arched crown",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "arch spring joint.001",
+      "b": "arch side.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "arch spring joint.001",
+      "b": "arched crown",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "arch shelf",
+      "b": "arch side",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "arch shelf",
+      "b": "arch side.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "arch shelf.001",
+      "b": "arch side",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "arch shelf.001",
+      "b": "arch side.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "arch shelf.002",
+      "b": "arch side",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "arch shelf.002",
+      "b": "arch side.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "lower door stile",
+      "b": "arch side",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "lower door stile",
+      "b": "arch shelf",
+      "method": "surface distance",
+      "distance": 0.002474862849339843
+    },
+    {
+      "a": "lower door stile",
+      "b": "arch shelf.001",
+      "method": "surface distance",
+      "distance": 0.002474862849339843
+    },
+    {
+      "a": "lower door stile.001",
+      "b": "arch shelf",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "lower door stile.001",
+      "b": "arch shelf.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "lower door rail",
+      "b": "arch shelf",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "lower door rail",
+      "b": "lower door stile",
+      "method": "surface distance",
+      "distance": 2.9802322387695312e-08
+    },
+    {
+      "a": "lower door rail",
+      "b": "lower door stile.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "lower door rail.001",
+      "b": "lower door stile",
+      "method": "surface distance",
+      "distance": 2.9802322387695312e-08
+    },
+    {
+      "a": "lower door rail.001",
+      "b": "lower door stile.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven warp",
+      "b": "lower door rail",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven warp",
+      "b": "lower door rail.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven warp.001",
+      "b": "lower door rail",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven warp.001",
+      "b": "lower door rail.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven warp.002",
+      "b": "lower door rail",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven warp.002",
+      "b": "lower door rail.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven warp.003",
+      "b": "lower door rail",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven warp.003",
+      "b": "lower door rail.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven warp.004",
+      "b": "lower door rail",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven warp.004",
+      "b": "lower door rail.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven warp.005",
+      "b": "lower door rail",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven warp.005",
+      "b": "lower door rail.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven warp.006",
+      "b": "lower door rail",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven warp.006",
+      "b": "lower door rail.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven weft",
+      "b": "lower door stile",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven weft",
+      "b": "lower door stile.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven weft",
+      "b": "woven warp",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven weft",
+      "b": "woven warp.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven weft",
+      "b": "woven warp.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven weft",
+      "b": "woven warp.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven weft",
+      "b": "woven warp.004",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven weft",
+      "b": "woven warp.005",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven weft",
+      "b": "woven warp.006",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven weft.001",
+      "b": "lower door stile",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven weft.001",
+      "b": "lower door stile.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven weft.001",
+      "b": "woven warp",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven weft.001",
+      "b": "woven warp.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven weft.001",
+      "b": "woven warp.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven weft.001",
+      "b": "woven warp.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven weft.001",
+      "b": "woven warp.004",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven weft.001",
+      "b": "woven warp.005",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven weft.001",
+      "b": "woven warp.006",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven weft.002",
+      "b": "lower door stile",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven weft.002",
+      "b": "lower door stile.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven weft.002",
+      "b": "woven warp",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven weft.002",
+      "b": "woven warp.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven weft.002",
+      "b": "woven warp.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven weft.002",
+      "b": "woven warp.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven weft.002",
+      "b": "woven warp.004",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven weft.002",
+      "b": "woven warp.005",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven weft.002",
+      "b": "woven warp.006",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven weft.003",
+      "b": "lower door stile",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven weft.003",
+      "b": "lower door stile.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven weft.003",
+      "b": "woven warp",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven weft.003",
+      "b": "woven warp.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven weft.003",
+      "b": "woven warp.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven weft.003",
+      "b": "woven warp.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven weft.003",
+      "b": "woven warp.004",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven weft.003",
+      "b": "woven warp.005",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven weft.003",
+      "b": "woven warp.006",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven weft.004",
+      "b": "lower door stile",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven weft.004",
+      "b": "lower door stile.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven weft.004",
+      "b": "woven warp",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven weft.004",
+      "b": "woven warp.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven weft.004",
+      "b": "woven warp.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven weft.004",
+      "b": "woven warp.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven weft.004",
+      "b": "woven warp.004",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven weft.004",
+      "b": "woven warp.005",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven weft.004",
+      "b": "woven warp.006",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven weft.005",
+      "b": "lower door stile",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven weft.005",
+      "b": "lower door stile.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven weft.005",
+      "b": "woven warp",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven weft.005",
+      "b": "woven warp.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven weft.005",
+      "b": "woven warp.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven weft.005",
+      "b": "woven warp.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven weft.005",
+      "b": "woven warp.004",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven weft.005",
+      "b": "woven warp.005",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven weft.005",
+      "b": "woven warp.006",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven weft.006",
+      "b": "lower door stile",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven weft.006",
+      "b": "lower door stile.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven weft.006",
+      "b": "woven warp",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven weft.006",
+      "b": "woven warp.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven weft.006",
+      "b": "woven warp.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven weft.006",
+      "b": "woven warp.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven weft.006",
+      "b": "woven warp.004",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven weft.006",
+      "b": "woven warp.005",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven weft.006",
+      "b": "woven warp.006",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven weft.007",
+      "b": "lower door stile",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven weft.007",
+      "b": "lower door stile.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven weft.007",
+      "b": "woven warp",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven weft.007",
+      "b": "woven warp.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven weft.007",
+      "b": "woven warp.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven weft.007",
+      "b": "woven warp.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven weft.007",
+      "b": "woven warp.004",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven weft.007",
+      "b": "woven warp.005",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven weft.007",
+      "b": "woven warp.006",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven weft.008",
+      "b": "lower door stile",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven weft.008",
+      "b": "lower door stile.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven weft.008",
+      "b": "woven warp",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven weft.008",
+      "b": "woven warp.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven weft.008",
+      "b": "woven warp.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven weft.008",
+      "b": "woven warp.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven weft.008",
+      "b": "woven warp.004",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven weft.008",
+      "b": "woven warp.005",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven weft.008",
+      "b": "woven warp.006",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven weft.009",
+      "b": "lower door stile",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven weft.009",
+      "b": "lower door stile.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven weft.009",
+      "b": "woven warp",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven weft.009",
+      "b": "woven warp.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven weft.009",
+      "b": "woven warp.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven weft.009",
+      "b": "woven warp.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven weft.009",
+      "b": "woven warp.004",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven weft.009",
+      "b": "woven warp.005",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven weft.009",
+      "b": "woven warp.006",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "lower door stile.002",
+      "b": "arch shelf",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "lower door stile.002",
+      "b": "arch shelf.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "lower door stile.003",
+      "b": "arch side.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "lower door stile.003",
+      "b": "arch shelf",
+      "method": "surface distance",
+      "distance": 0.0024748733267188072
+    },
+    {
+      "a": "lower door stile.003",
+      "b": "arch shelf.001",
+      "method": "surface distance",
+      "distance": 0.0024748733267188072
+    },
+    {
+      "a": "lower door rail.002",
+      "b": "arch shelf",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "lower door rail.002",
+      "b": "lower door stile.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "lower door rail.002",
+      "b": "lower door stile.003",
+      "method": "surface distance",
+      "distance": 2.9802322387695312e-08
+    },
+    {
+      "a": "lower door rail.003",
+      "b": "lower door stile.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "lower door rail.003",
+      "b": "lower door stile.003",
+      "method": "surface distance",
+      "distance": 2.9802322387695312e-08
+    },
+    {
+      "a": "woven warp.007",
+      "b": "lower door rail.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven warp.007",
+      "b": "lower door rail.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven warp.008",
+      "b": "lower door rail.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven warp.008",
+      "b": "lower door rail.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven warp.009",
+      "b": "lower door rail.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven warp.009",
+      "b": "lower door rail.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven warp.010",
+      "b": "lower door rail.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven warp.010",
+      "b": "lower door rail.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven warp.011",
+      "b": "lower door rail.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven warp.011",
+      "b": "lower door rail.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven warp.012",
+      "b": "lower door rail.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven warp.012",
+      "b": "lower door rail.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven warp.013",
+      "b": "lower door rail.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven warp.013",
+      "b": "lower door rail.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven weft.010",
+      "b": "lower door stile.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven weft.010",
+      "b": "lower door stile.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven weft.010",
+      "b": "woven warp.007",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven weft.010",
+      "b": "woven warp.008",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven weft.010",
+      "b": "woven warp.009",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven weft.010",
+      "b": "woven warp.010",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven weft.010",
+      "b": "woven warp.011",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven weft.010",
+      "b": "woven warp.012",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven weft.010",
+      "b": "woven warp.013",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven weft.011",
+      "b": "lower door stile.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven weft.011",
+      "b": "lower door stile.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven weft.011",
+      "b": "woven warp.007",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven weft.011",
+      "b": "woven warp.008",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven weft.011",
+      "b": "woven warp.009",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven weft.011",
+      "b": "woven warp.010",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven weft.011",
+      "b": "woven warp.011",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven weft.011",
+      "b": "woven warp.012",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven weft.011",
+      "b": "woven warp.013",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven weft.012",
+      "b": "lower door stile.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven weft.012",
+      "b": "lower door stile.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven weft.012",
+      "b": "woven warp.007",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven weft.012",
+      "b": "woven warp.008",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven weft.012",
+      "b": "woven warp.009",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven weft.012",
+      "b": "woven warp.010",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven weft.012",
+      "b": "woven warp.011",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven weft.012",
+      "b": "woven warp.012",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven weft.012",
+      "b": "woven warp.013",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven weft.013",
+      "b": "lower door stile.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven weft.013",
+      "b": "lower door stile.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven weft.013",
+      "b": "woven warp.007",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven weft.013",
+      "b": "woven warp.008",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven weft.013",
+      "b": "woven warp.009",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven weft.013",
+      "b": "woven warp.010",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven weft.013",
+      "b": "woven warp.011",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven weft.013",
+      "b": "woven warp.012",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven weft.013",
+      "b": "woven warp.013",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven weft.014",
+      "b": "lower door stile.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven weft.014",
+      "b": "lower door stile.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven weft.014",
+      "b": "woven warp.007",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven weft.014",
+      "b": "woven warp.008",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven weft.014",
+      "b": "woven warp.009",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven weft.014",
+      "b": "woven warp.010",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven weft.014",
+      "b": "woven warp.011",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven weft.014",
+      "b": "woven warp.012",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven weft.014",
+      "b": "woven warp.013",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven weft.015",
+      "b": "lower door stile.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven weft.015",
+      "b": "lower door stile.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven weft.015",
+      "b": "woven warp.007",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven weft.015",
+      "b": "woven warp.008",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven weft.015",
+      "b": "woven warp.009",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven weft.015",
+      "b": "woven warp.010",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven weft.015",
+      "b": "woven warp.011",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven weft.015",
+      "b": "woven warp.012",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven weft.015",
+      "b": "woven warp.013",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven weft.016",
+      "b": "lower door stile.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven weft.016",
+      "b": "lower door stile.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven weft.016",
+      "b": "woven warp.007",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven weft.016",
+      "b": "woven warp.008",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven weft.016",
+      "b": "woven warp.009",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven weft.016",
+      "b": "woven warp.010",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven weft.016",
+      "b": "woven warp.011",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven weft.016",
+      "b": "woven warp.012",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven weft.016",
+      "b": "woven warp.013",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven weft.017",
+      "b": "lower door stile.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven weft.017",
+      "b": "lower door stile.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven weft.017",
+      "b": "woven warp.007",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven weft.017",
+      "b": "woven warp.008",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven weft.017",
+      "b": "woven warp.009",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven weft.017",
+      "b": "woven warp.010",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven weft.017",
+      "b": "woven warp.011",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven weft.017",
+      "b": "woven warp.012",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven weft.017",
+      "b": "woven warp.013",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven weft.018",
+      "b": "lower door stile.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven weft.018",
+      "b": "lower door stile.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven weft.018",
+      "b": "woven warp.007",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven weft.018",
+      "b": "woven warp.008",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven weft.018",
+      "b": "woven warp.009",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven weft.018",
+      "b": "woven warp.010",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven weft.018",
+      "b": "woven warp.011",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven weft.018",
+      "b": "woven warp.012",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven weft.018",
+      "b": "woven warp.013",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven weft.019",
+      "b": "lower door stile.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven weft.019",
+      "b": "lower door stile.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven weft.019",
+      "b": "woven warp.007",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven weft.019",
+      "b": "woven warp.008",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven weft.019",
+      "b": "woven warp.009",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven weft.019",
+      "b": "woven warp.010",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven weft.019",
+      "b": "woven warp.011",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven weft.019",
+      "b": "woven warp.012",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "woven weft.019",
+      "b": "woven warp.013",
+      "method": "triangle intersection",
+      "distance": 0
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; live-source reports are NOT exported-asset evidence; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T03:28:52Z"
+}

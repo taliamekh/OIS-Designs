@@ -1,0 +1,149 @@
+{
+  "designId": "ois.design.utility-step-stool",
+  "familyId": "ois.family.utility-step-stool",
+  "id": "ois.design.utility-step-stool",
+  "name": "Kitchen step stool",
+  "roomTags": [
+    "kitchen"
+  ],
+  "theme": "soft-japandi",
+  "builder": "special",
+  "parameters": {
+    "form": "step-stool",
+    "w": 0.46,
+    "d": 0.42,
+    "h": 0.5
+  },
+  "distinction": "Two reachable horizontal steps with open timber leg frame.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted"
+  },
+  "constructionKey": "special|step-stool|{\"cols\": 1, \"front\": \"cane\", \"panels\": 3}",
+  "sha256": "dbe5fa109001479939d17ba49a43eee6bd9a68955cf4a5911f176a7141638b46",
+  "bytes": 29972,
+  "triangles": 616,
+  "vertices": 777,
+  "drawPrimitives": 1,
+  "bounds": {
+    "min": [
+      -0.23000003017311677,
+      -1.577319577727998e-08,
+      -0.2520000828744869
+    ],
+    "max": [
+      0.23000008732061944,
+      0.2714796708390819,
+      0.21000000601559515
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 0.4600001174937362,
+    "depth": 0.46200008889008204,
+    "height": 0.2714796866122777
+  },
+  "footprint": [
+    [
+      -0.23000003017311677,
+      -0.2520000828744869
+    ],
+    [
+      0.23000008732061944,
+      -0.2520000828744869
+    ],
+    [
+      0.23000008732061944,
+      0.21000000601559515
+    ],
+    [
+      -0.23000003017311677,
+      0.21000000601559515
+    ]
+  ],
+  "variantSlots": [
+    "wood"
+  ],
+  "requiredExtensions": [],
+  "version": "0.2.0",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.utility-step-stool",
+  "file": "assets/v0.2.0/utility-step-stool.glb",
+  "sourceModel": "sources/v0.2.0/utility-step-stool.blend",
+  "thumbnail": "previews/v0.2.0/utility-step-stool.png",
+  "backThumbnail": "previews/v0.2.0/utility-step-stool-back.png",
+  "category": "specialty",
+  "subtype": "step-stool",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "textures": {
+    "count": 0,
+    "bytes": 0
+  },
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.2.0/utility-step-stool.png",
+      "previews/v0.2.0/utility-step-stool-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.34,
+      0.28,
+      0.19
+    ],
+    [
+      0.58,
+      0.54,
+      0.44
+    ],
+    [
+      0.15,
+      0.17,
+      0.15
+    ]
+  ],
+  "colourTags": [
+    "ash",
+    "flax",
+    "stone"
+  ],
+  "materials": [
+    "wood"
+  ],
+  "searchAliases": [
+    "kitchen",
+    "step stool"
+  ],
+  "materialSlots": [
+    {
+      "id": "wood",
+      "material": "wood",
+      "recolourable": true
+    }
+  ],
+  "geometryHash": "910de6b235db554c29cd0132fd0ac31158ac8bf8604ede79b36f8cfd56800e72",
+  "normalizedMirrorGeometryHash": "17e81d8e10a5c68f99d01d3a871bae45f150a73df6af5ec73906a763ba1e9b42"
+}

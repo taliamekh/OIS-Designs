@@ -1,0 +1,167 @@
+{
+  "designId": "ois.design.desk-under-loft",
+  "familyId": "ois.family.desk-under-loft",
+  "id": "ois.design.desk-under-loft",
+  "name": "Desk under loft",
+  "roomTags": [
+    "children"
+  ],
+  "theme": "city-loft",
+  "builder": "bed",
+  "parameters": {
+    "form": "loft-desk",
+    "size": "twin"
+  },
+  "distinction": "Fixed writing desk and modesty panel occupy the space beneath the upper bed.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted"
+  },
+  "constructionKey": "bed|loft-desk|{}",
+  "bedSize": "twin",
+  "mattressMetres": [
+    0.9652,
+    1.905,
+    0.22
+  ],
+  "safetyReviewRequired": true,
+  "sha256": "c67b57d633e9be76d58a0830baa21998916e51f1cd05fba6d085721b49e04592",
+  "bytes": 189940,
+  "triangles": 3916,
+  "vertices": 5091,
+  "drawPrimitives": 3,
+  "bounds": {
+    "min": [
+      -0.5601001507711763,
+      -2.3613032751335084e-08,
+      -1.210439979128913
+    ],
+    "max": [
+      0.5601002376434372,
+      1.9564773806231297,
+      1.0425000460627614
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 1.1202003884146134,
+    "depth": 2.2529400251916742,
+    "height": 1.9564774042361623
+  },
+  "footprint": [
+    [
+      -0.5601001507711763,
+      -1.210439979128913
+    ],
+    [
+      0.5601002376434372,
+      -1.210439979128913
+    ],
+    [
+      0.5601002376434372,
+      1.0425000460627614
+    ],
+    [
+      -0.5601001507711763,
+      1.0425000460627614
+    ]
+  ],
+  "variantSlots": [
+    "fabric",
+    "linen",
+    "wood"
+  ],
+  "requiredExtensions": [],
+  "version": "0.2.0",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.desk-under-loft",
+  "file": "assets/v0.2.0/desk-under-loft.glb",
+  "sourceModel": "sources/v0.2.0/desk-under-loft.blend",
+  "thumbnail": "previews/v0.2.0/desk-under-loft.png",
+  "backThumbnail": "previews/v0.2.0/desk-under-loft-back.png",
+  "category": "beds",
+  "subtype": "loft-desk",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "textures": {
+    "count": 0,
+    "bytes": 0
+  },
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.2.0/desk-under-loft.png",
+      "previews/v0.2.0/desk-under-loft-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.23,
+      0.15,
+      0.09
+    ],
+    [
+      0.12,
+      0.14,
+      0.16
+    ],
+    [
+      0.045,
+      0.05,
+      0.055
+    ]
+  ],
+  "colourTags": [
+    "charcoal",
+    "black",
+    "weathered wood"
+  ],
+  "materials": [
+    "textile",
+    "wood"
+  ],
+  "searchAliases": [
+    "children",
+    "loft desk"
+  ],
+  "materialSlots": [
+    {
+      "id": "fabric",
+      "material": "fabric",
+      "recolourable": true
+    },
+    {
+      "id": "linen",
+      "material": "linen",
+      "recolourable": true
+    },
+    {
+      "id": "wood",
+      "material": "wood",
+      "recolourable": true
+    }
+  ],
+  "geometryHash": "3fd9d34d4abedf69410f84c2855d643de99231789753c740c487de83e609ae71",
+  "normalizedMirrorGeometryHash": "327cf40baf8a519cc730b5bf412d479076407acc9ccd7dc646abcc35818fba53"
+}

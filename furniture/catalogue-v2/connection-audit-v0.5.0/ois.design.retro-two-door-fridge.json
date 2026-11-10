@@ -1,0 +1,138 @@
+{
+  "id": "ois.design.retro-two-door-fridge",
+  "sha256": "a37aff2cd77c098cdb425690c72b383c38ca58cc324b58bf6720b44f58fdad3c",
+  "sourceModel": "sources/v0.5.0/retro-two-door-fridge.blend",
+  "sourceSha256": "2140791cae4e0688ea7a7f166a879a8bf9461b83f70deafdc41c6737b2f73119",
+  "partCount": 9,
+  "componentCount": 3,
+  "components": [
+    {
+      "parts": [
+        "appliance shell side",
+        "appliance shell side.001",
+        "appliance shell back",
+        "appliance shell bottom",
+        "appliance shell top",
+        "insulated door",
+        "insulated door.001"
+      ],
+      "minimum": [
+        -0.3400000035762787,
+        -0.3100000023841858,
+        0.0
+      ],
+      "maximum": [
+        0.3400000035762787,
+        0.3500000238418579,
+        1.649999976158142
+      ]
+    },
+    {
+      "parts": [
+        "pull"
+      ],
+      "minimum": [
+        0.1979999989271164,
+        0.3739999830722809,
+        0.27250003814697266
+      ],
+      "maximum": [
+        0.20999999344348907,
+        0.38600000739097595,
+        0.5525000095367432
+      ]
+    },
+    {
+      "parts": [
+        "pull.001"
+      ],
+      "minimum": [
+        0.1979999989271164,
+        0.3739999830722809,
+        1.0974998474121094
+      ],
+      "maximum": [
+        0.20999999344348907,
+        0.38600000739097595,
+        1.377500057220459
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "appliance shell back",
+      "b": "appliance shell side",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "appliance shell back",
+      "b": "appliance shell side.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "appliance shell bottom",
+      "b": "appliance shell side",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "appliance shell bottom",
+      "b": "appliance shell side.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "appliance shell bottom",
+      "b": "appliance shell back",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "appliance shell top",
+      "b": "appliance shell side",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "appliance shell top",
+      "b": "appliance shell side.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "appliance shell top",
+      "b": "appliance shell back",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "insulated door",
+      "b": "appliance shell side",
+      "method": "surface distance",
+      "distance": 0.00279596378095448
+    },
+    {
+      "a": "insulated door",
+      "b": "appliance shell side.001",
+      "method": "surface distance",
+      "distance": 0.002795951906591654
+    },
+    {
+      "a": "insulated door.001",
+      "b": "appliance shell side",
+      "method": "surface distance",
+      "distance": 0.00279596378095448
+    },
+    {
+      "a": "insulated door.001",
+      "b": "appliance shell side.001",
+      "method": "surface distance",
+      "distance": 0.002795951906591654
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T03:07:33Z"
+}

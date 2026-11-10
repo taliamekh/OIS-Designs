@@ -1,0 +1,163 @@
+{
+  "baseURL": "http://127.0.0.1:57780",
+  "timestamp": "2026-11-10T03:14:29.315Z",
+  "evidence": "Real browser UI on two GLB instances with exact revision identity; source fixture complements appearance review, not native proof",
+  "asset": {
+    "id": "ois.design.camelback-sofa",
+    "sha256": "f876f010c416c81c5536b9679efb023c8a8e9a2eb39fb3dc4e4767121a945c4a",
+    "slots": [
+      "fabric",
+      "linen",
+      "wood"
+    ]
+  },
+  "storageOracle": {
+    "kind": "Production IndexedStorage.getItem, with its read-only legacy fallback",
+    "file": "mobile/src/storage/indexedStore.ts",
+    "sha256": "9943012679fd85da975028e6165febf8e149242bfef7b0a63f7ab6b98f76383d"
+  },
+  "checks": [
+    {
+      "id": "both-real-model-instances-load",
+      "pass": true
+    },
+    {
+      "id": "material-applies-only-to-selected-instance",
+      "pass": true,
+      "observed": {
+        "items": [
+          {
+            "id": "qa-instance-0",
+            "roomId": "room-mwa49irl-esk2bw2",
+            "assetId": "ois.design.camelback-sofa",
+            "assetVersion": "0.5.0",
+            "assetHash": "f876f010c416c81c5536b9679efb023c8a8e9a2eb39fb3dc4e4767121a945c4a",
+            "x": 1.5,
+            "z": 2.4,
+            "yaw": 3.141592653589793,
+            "locked": false,
+            "materialOverrides": {
+              "fabric": "#333d40"
+            }
+          },
+          {
+            "id": "qa-instance-1",
+            "roomId": "room-mwa49irl-esk2bw2",
+            "assetId": "ois.design.camelback-sofa",
+            "assetVersion": "0.5.0",
+            "assetHash": "f876f010c416c81c5536b9679efb023c8a8e9a2eb39fb3dc4e4767121a945c4a",
+            "x": 4.5,
+            "z": 2.4,
+            "yaw": 3.141592653589793,
+            "locked": false,
+            "materialOverrides": {}
+          }
+        ]
+      }
+    },
+    {
+      "id": "material-undo-preserves-both-poses",
+      "pass": true
+    },
+    {
+      "id": "locking-keeps-colour-and-pose",
+      "pass": true
+    },
+    {
+      "id": "reload-retains-isolated-material-lock-and-revision",
+      "pass": true
+    }
+  ],
+  "errors": [],
+  "consoleErrors": [],
+  "initialScene": {
+    "rooms": [
+      "room-mwa49irl-esk2bw2"
+    ],
+    "mode": "3d",
+    "camera": [
+      15.373161065637898,
+      16.03188414093517,
+      15.7816746280688
+    ],
+    "items": [
+      {
+        "id": "qa-instance-0",
+        "x": 153.49042631709005,
+        "y": 384.85471829158774,
+        "roomId": "room-mwa49irl-esk2bw2",
+        "materials": [
+          {
+            "slot": "fabric",
+            "colour": "a8764b",
+            "mapped": true,
+            "width": 256,
+            "height": 256
+          },
+          {
+            "slot": "linen",
+            "colour": "ece7d8",
+            "mapped": true,
+            "width": 256,
+            "height": 256
+          },
+          {
+            "slot": "wood",
+            "colour": "815537",
+            "mapped": true,
+            "width": 256,
+            "height": 256
+          }
+        ]
+      },
+      {
+        "id": "qa-instance-1",
+        "x": 243.80133799786998,
+        "y": 439.8122652375253,
+        "roomId": "room-mwa49irl-esk2bw2",
+        "materials": [
+          {
+            "slot": "fabric",
+            "colour": "a8764b",
+            "mapped": true,
+            "width": 256,
+            "height": 256
+          },
+          {
+            "slot": "linen",
+            "colour": "ece7d8",
+            "mapped": true,
+            "width": 256,
+            "height": 256
+          },
+          {
+            "slot": "wood",
+            "colour": "815537",
+            "mapped": true,
+            "width": 256,
+            "height": 256
+          }
+        ]
+      }
+    ],
+    "memory": {
+      "geometries": 8,
+      "textures": 12
+    },
+    "draw": {
+      "frame": 2,
+      "calls": 13,
+      "triangles": 4178,
+      "points": 0,
+      "lines": 0
+    },
+    "cache": {
+      "entries": 1,
+      "active": 1,
+      "idle": 0,
+      "sourceBytes": 625596,
+      "textureSets": 1
+    }
+  },
+  "completed": true
+}

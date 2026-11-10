@@ -1,0 +1,114 @@
+{
+  "id": "ois.design.bolster-daybed",
+  "sha256": "fcef3a649d94e149275271aec8244beb253abf9940f3ace9555e3a7d749ddf53",
+  "sourceModel": "sources/v0.7.0/bolster-daybed.blend",
+  "sourceSha256": "1b0dc335202c91793f62cd0be7464b4af6733035b758410303db29974cccef56",
+  "partCount": 13,
+  "componentCount": 1,
+  "components": [
+    {
+      "parts": [
+        "leg",
+        "leg.001",
+        "leg.002",
+        "leg.003",
+        "seat deck",
+        "seat cushion",
+        "piping",
+        "seat cushion.001",
+        "piping.001",
+        "seat cushion.002",
+        "piping.002",
+        "bolster",
+        "bolster.001"
+      ],
+      "minimum": [
+        -1.0199999809265137,
+        -0.39500001072883606,
+        4.656612873077393e-10
+      ],
+      "maximum": [
+        1.0199999809265137,
+        0.39500001072883606,
+        0.6836111545562744
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "seat deck",
+      "b": "leg",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "seat deck",
+      "b": "leg.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "seat deck",
+      "b": "leg.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "seat deck",
+      "b": "leg.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "seat cushion",
+      "b": "seat deck",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "piping",
+      "b": "seat cushion",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "seat cushion.001",
+      "b": "seat deck",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "piping.001",
+      "b": "seat cushion.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "seat cushion.002",
+      "b": "seat deck",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "piping.002",
+      "b": "seat cushion.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "bolster",
+      "b": "seat cushion",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "bolster.001",
+      "b": "seat cushion.002",
+      "method": "triangle intersection",
+      "distance": 0
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; live-source reports are NOT exported-asset evidence; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T03:42:33Z"
+}

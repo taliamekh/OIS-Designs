@@ -1,0 +1,140 @@
+{
+  "deadline": "2026-11-10T06:53:00.000Z",
+  "pid": 22072,
+  "events": [
+    {
+      "at": "2026-11-10T03:43:30.943Z",
+      "type": "check-result",
+      "check": "typecheck",
+      "exitCode": 0,
+      "signal": null,
+      "output": "{\"id\":\"2026-11-10T03-43-21-400Z-typecheck\",\"kind\":\"typecheck\",\"startedAt\":\"2026-11-10T03:43:22.247Z\",\"finishedAt\":\"2026-11-10T03:43:30.910Z\",\"durationMs\":8663,\"executable\":\"C:\\\\Users\\\\talia\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\node\\\\bin\\\\node.exe\",\"args\":[\"node_modules/typescript/bin/tsc\",\"--noEmit\",\"--incremental\",\"false\"],\"cwd\":\"C:\\\\Users\\\\talia\\\\OneDrive\\\\Documents\\\\ChatGPT\\\\OIS Designs\\\\mobile\",\"exitCode\":0,\"signal\":null,\"beforeHash\":\"d3407148bed720f8540fa0382c6748f2df6347e7a1795f0a1f0c8c00639e18a6\",\"afterHash\":\"e6ba9bfdba203b61245c4a31dd5e05879647defee672c288e1e70ad7d49705b5\",\"stableSnapshot\":false,\"changedFiles\":[\"scripts/freeze-web.cjs\",\"scripts/verify-phone-repairs.cjs\"],\"outputTruncated\":false,\"installed\":{\"expo\":\"58.0.23\",\"react\":\"19.3.0\",\"react-native\":\"0.88.1\",\"expo-router\":\"58.0.30\",\"typescript\":\"6.0.3\",\"eslint\":\"9.39.5\",\"expo-gl\":\"58.0.4\",\"@react-three/fiber\":\"9.8.2\",\"three\":\"0.180.0\",\"expo-file-system\":\"58.0.13\",\"expo-sharing\":\"58.0.22\",\"expo-document-picker\":\"58.0.4\",\"@react-native-async-storage/async-storage\":\"2.2.0\"}}"
+    },
+    {
+      "at": "2026-11-10T03:43:51.212Z",
+      "type": "check-result",
+      "check": "lint",
+      "exitCode": 0,
+      "signal": null,
+      "output": "{\"id\":\"2026-11-10T03-43-31-066Z-lint\",\"kind\":\"lint\",\"startedAt\":\"2026-11-10T03:43:32.159Z\",\"finishedAt\":\"2026-11-10T03:43:51.190Z\",\"durationMs\":19031,\"executable\":\"C:\\\\Users\\\\talia\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\node\\\\bin\\\\node.exe\",\"args\":[\"node_modules/expo/bin/cli\",\"lint\",\"--no-cache\"],\"cwd\":\"C:\\\\Users\\\\talia\\\\OneDrive\\\\Documents\\\\ChatGPT\\\\OIS Designs\\\\mobile\",\"exitCode\":0,\"signal\":null,\"beforeHash\":\"e6ba9bfdba203b61245c4a31dd5e05879647defee672c288e1e70ad7d49705b5\",\"afterHash\":\"e6ba9bfdba203b61245c4a31dd5e05879647defee672c288e1e70ad7d49705b5\",\"stableSnapshot\":true,\"changedFiles\":[],\"outputTruncated\":false,\"installed\":{\"expo\":\"58.0.23\",\"react\":\"19.3.0\",\"react-native\":\"0.88.1\",\"expo-router\":\"58.0.30\",\"typescript\":\"6.0.3\",\"eslint\":\"9.39.5\",\"expo-gl\":\"58.0.4\",\"@react-three/fiber\":\"9.8.2\",\"three\":\"0.180.0\",\"expo-file-system\":\"58.0.13\",\"expo-sharing\":\"58.0.22\",\"expo-document-picker\":\"58.0.4\",\"@react-native-async-storage/async-storage\":\"2.2.0\"}}"
+    },
+    {
+      "at": "2026-11-10T03:43:52.024Z",
+      "type": "asset-audit-result",
+      "exitCode": 0,
+      "signal": null,
+      "output": "{\"startedAt\":\"2026-11-10T03:43:51.342Z\",\"finishedAt\":\"2026-11-10T03:43:51.994Z\",\"stableInputs\":true,\"catalogueHash\":\"cb699b8aed7cdaaca8d205a7f9155dea800872af0207e56b5ea5537b9b55e919\",\"bundledHash\":\"a1b4f3eace560c04bf2b4b9d98a6e3bbf58d5bfb562e48d17baadd461237cb4d\",\"records\":444,\"geometryFamilies\":384,\"totalGLBBytes\":73731304,\"textureFiles\":57,\"textureCompressedBytes\":5299592,\"textureBaseRGBADecodeBytes\":59768832,\"sourceRecords\":444,\"sourceDifferences\":[\"ois.design.bar-service-trolley\",\"ois.design.barrel-dining\",\"ois.design.cane-dining-sideboard\",\"ois.design.cantilever-dining\",\"ois.design.crossback-dining\",\"ois.design.drum-bar-stool\",\"ois.design.folding-dining\",\"ois.design.fork-back-dining\",\"ois.design.gaslift-counter-stool\",\"ois.design.glass-display-hutch\",\"ois.design.hex-cross-dining\",\"ois.design.ladderback-dining\",\"ois.design.oval-dual-pedestal\",\"ois.design.oval-panel-dining\",\"ois.design.plate-service-rack\",\"ois.design.racetrack-cross-dining\",\"ois.design.racetrack-fluted-dining\",\"ois.design.rect-sled-dining\",\"ois.design.rect-trestle-dining\",\"ois.design.rect-waterfall-dining\",\"ois.design.round-cone-dining\",\"ois.design.round-tripod-dining\",\"ois.design.round-tulip-dining\",\"ois.design.sawhorse-dining\",\"ois.design.shell-dining\",\"ois.design.spindle-dining\",\"ois.design.tripod-counter-stool\",\"ois.design.wine-diagonal-cabinet\",\"ois.design.wire-dining\"],\"errors\":[],\"scope\":\"Static app-integrated asset bytes only; does not claim GPU residency, physical memory, native decoding, design count, or render quality.\",\"errorCount\":0,\"artifact\":\"C:\\\\Users\\\\talia\\\\OneDrive\\\\Documents\\\\ChatGPT\\\\OIS Designs\\\\docs\\\\qa\\\\runtime\\\\runs\\\\2026-11-10T03-43-51-341Z-asset-audit\\\\result.json\"}"
+    },
+    {
+      "at": "2026-11-10T03:44:19.696Z",
+      "type": "check-result",
+      "check": "ios-export",
+      "exitCode": 0,
+      "signal": null,
+      "output": "{\"id\":\"2026-11-10T03-43-52-342Z-ios-export\",\"kind\":\"ios-export\",\"startedAt\":\"2026-11-10T03:43:53.494Z\",\"finishedAt\":\"2026-11-10T03:44:19.656Z\",\"durationMs\":26162,\"executable\":\"C:\\\\Users\\\\talia\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\node\\\\bin\\\\node.exe\",\"args\":[\"node_modules/expo/bin/cli\",\"export\",\"--platform\",\"ios\",\"--output-dir\",\"C:\\\\Users\\\\talia\\\\OneDrive\\\\Documents\\\\ChatGPT\\\\OIS Designs\\\\docs\\\\qa\\\\runtime\\\\runs\\\\2026-11-10T03-43-52-342Z-ios-export\\\\export\",\"--no-bytecode\",\"--max-workers\",\"2\",\"--dump-assetmap\"],\"cwd\":\"C:\\\\Users\\\\talia\\\\OneDrive\\\\Documents\\\\ChatGPT\\\\OIS Designs\\\\mobile\",\"exitCode\":0,\"signal\":null,\"beforeHash\":\"e6ba9bfdba203b61245c4a31dd5e05879647defee672c288e1e70ad7d49705b5\",\"afterHash\":\"e6ba9bfdba203b61245c4a31dd5e05879647defee672c288e1e70ad7d49705b5\",\"stableSnapshot\":true,\"changedFiles\":[],\"outputTruncated\":false,\"installed\":{\"expo\":\"58.0.23\",\"react\":\"19.3.0\",\"react-native\":\"0.88.1\",\"expo-router\":\"58.0.30\",\"typescript\":\"6.0.3\",\"eslint\":\"9.39.5\",\"expo-gl\":\"58.0.4\",\"@react-three/fiber\":\"9.8.2\",\"three\":\"0.180.0\",\"expo-file-system\":\"58.0.13\",\"expo-sharing\":\"58.0.22\",\"expo-document-picker\":\"58.0.4\",\"@react-native-async-storage/async-storage\":\"2.2.0\"}}"
+    },
+    {
+      "at": "2026-11-10T03:44:46.843Z",
+      "type": "check-result",
+      "check": "web-export",
+      "exitCode": 0,
+      "signal": null,
+      "output": "{\"id\":\"2026-11-10T03-44-19-809Z-web-export\",\"kind\":\"web-export\",\"startedAt\":\"2026-11-10T03:44:20.691Z\",\"finishedAt\":\"2026-11-10T03:44:46.824Z\",\"durationMs\":26133,\"executable\":\"C:\\\\Users\\\\talia\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\node\\\\bin\\\\node.exe\",\"args\":[\"node_modules/expo/bin/cli\",\"export\",\"--platform\",\"web\",\"--output-dir\",\"C:\\\\Users\\\\talia\\\\OneDrive\\\\Documents\\\\ChatGPT\\\\OIS Designs\\\\docs\\\\qa\\\\runtime\\\\runs\\\\2026-11-10T03-44-19-809Z-web-export\\\\export\",\"--max-workers\",\"2\",\"--dump-assetmap\"],\"cwd\":\"C:\\\\Users\\\\talia\\\\OneDrive\\\\Documents\\\\ChatGPT\\\\OIS Designs\\\\mobile\",\"exitCode\":0,\"signal\":null,\"beforeHash\":\"e6ba9bfdba203b61245c4a31dd5e05879647defee672c288e1e70ad7d49705b5\",\"afterHash\":\"085db0f1aca17a603e35d379f73e51e9ba895a3fd8319671a17f1328b6da6a8f\",\"stableSnapshot\":false,\"changedFiles\":[\"scripts/freeze-web.cjs\",\"scripts/serve-frozen.cjs\"],\"outputTruncated\":false,\"installed\":{\"expo\":\"58.0.23\",\"react\":\"19.3.0\",\"react-native\":\"0.88.1\",\"expo-router\":\"58.0.30\",\"typescript\":\"6.0.3\",\"eslint\":\"9.39.5\",\"expo-gl\":\"58.0.4\",\"@react-three/fiber\":\"9.8.2\",\"three\":\"0.180.0\",\"expo-file-system\":\"58.0.13\",\"expo-sharing\":\"58.0.22\",\"expo-document-picker\":\"58.0.4\",\"@react-native-async-storage/async-storage\":\"2.2.0\"}}"
+    },
+    {
+      "at": "2026-11-10T03:46:31.462Z",
+      "type": "monitor-heartbeat",
+      "fingerprint": "b1b3d2e9096ad8ce41d2907af0603407a4fba3d81684aab561d706514f357a4f",
+      "awaitingSettledChanges": false
+    },
+    {
+      "at": "2026-11-10T03:49:01.620Z",
+      "type": "source-change-observed",
+      "fingerprint": "129f8337ef2376d7926714cb6b6e61e5afc12e63d99a226b4b9e686cec427a7c"
+    },
+    {
+      "at": "2026-11-10T03:50:01.655Z",
+      "type": "verification-started",
+      "fingerprint": "129f8337ef2376d7926714cb6b6e61e5afc12e63d99a226b4b9e686cec427a7c"
+    },
+    {
+      "at": "2026-11-10T03:50:13.432Z",
+      "type": "check-result",
+      "check": "typecheck",
+      "exitCode": 0,
+      "signal": null,
+      "output": "{\"id\":\"2026-11-10T03-50-01-767Z-typecheck\",\"kind\":\"typecheck\",\"startedAt\":\"2026-11-10T03:50:02.837Z\",\"finishedAt\":\"2026-11-10T03:50:13.390Z\",\"durationMs\":10553,\"executable\":\"C:\\\\Users\\\\talia\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\node\\\\bin\\\\node.exe\",\"args\":[\"node_modules/typescript/bin/tsc\",\"--noEmit\",\"--incremental\",\"false\"],\"cwd\":\"C:\\\\Users\\\\talia\\\\OneDrive\\\\Documents\\\\ChatGPT\\\\OIS Designs\\\\mobile\",\"exitCode\":0,\"signal\":null,\"beforeHash\":\"67e2a7743135f1a269e1a0618b3ccd6e5b77ec0f4e06e06eb7ec28de910d791d\",\"afterHash\":\"67e2a7743135f1a269e1a0618b3ccd6e5b77ec0f4e06e06eb7ec28de910d791d\",\"stableSnapshot\":true,\"changedFiles\":[],\"outputTruncated\":false,\"installed\":{\"expo\":\"58.0.23\",\"react\":\"19.3.0\",\"react-native\":\"0.88.1\",\"expo-router\":\"58.0.30\",\"typescript\":\"6.0.3\",\"eslint\":\"9.39.5\",\"expo-gl\":\"58.0.4\",\"@react-three/fiber\":\"9.8.2\",\"three\":\"0.180.0\",\"expo-file-system\":\"58.0.13\",\"expo-sharing\":\"58.0.22\",\"expo-document-picker\":\"58.0.4\",\"@react-native-async-storage/async-storage\":\"2.2.0\"}}"
+    },
+    {
+      "at": "2026-11-10T03:50:32.947Z",
+      "type": "check-result",
+      "check": "lint",
+      "exitCode": 0,
+      "signal": null,
+      "output": "{\"id\":\"2026-11-10T03-50-13-590Z-lint\",\"kind\":\"lint\",\"startedAt\":\"2026-11-10T03:50:14.934Z\",\"finishedAt\":\"2026-11-10T03:50:32.922Z\",\"durationMs\":17988,\"executable\":\"C:\\\\Users\\\\talia\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\node\\\\bin\\\\node.exe\",\"args\":[\"node_modules/expo/bin/cli\",\"lint\",\"--no-cache\"],\"cwd\":\"C:\\\\Users\\\\talia\\\\OneDrive\\\\Documents\\\\ChatGPT\\\\OIS Designs\\\\mobile\",\"exitCode\":0,\"signal\":null,\"beforeHash\":\"9fb41d3bf87dcf4d6c12348ef2873368fd3be97425edf21dd972c447f6e002b9\",\"afterHash\":\"9fb41d3bf87dcf4d6c12348ef2873368fd3be97425edf21dd972c447f6e002b9\",\"stableSnapshot\":true,\"changedFiles\":[],\"outputTruncated\":false,\"installed\":{\"expo\":\"58.0.23\",\"react\":\"19.3.0\",\"react-native\":\"0.88.1\",\"expo-router\":\"58.0.30\",\"typescript\":\"6.0.3\",\"eslint\":\"9.39.5\",\"expo-gl\":\"58.0.4\",\"@react-three/fiber\":\"9.8.2\",\"three\":\"0.180.0\",\"expo-file-system\":\"58.0.13\",\"expo-sharing\":\"58.0.22\",\"expo-document-picker\":\"58.0.4\",\"@react-native-async-storage/async-storage\":\"2.2.0\"}}"
+    },
+    {
+      "at": "2026-11-10T03:50:33.795Z",
+      "type": "asset-audit-result",
+      "exitCode": 0,
+      "signal": null,
+      "output": "{\"startedAt\":\"2026-11-10T03:50:33.071Z\",\"finishedAt\":\"2026-11-10T03:50:33.763Z\",\"stableInputs\":true,\"catalogueHash\":\"844d5c4e7747241f9eab870a3c1fbd1ecdc05eb2d313059bae84929763b2b4c0\",\"bundledHash\":\"9a134cbb2358bf49814599d05d541e3a1485ba8a8277d22a0b98181e7d964393\",\"records\":444,\"geometryFamilies\":383,\"totalGLBBytes\":90595696,\"textureFiles\":57,\"textureCompressedBytes\":5299592,\"textureBaseRGBADecodeBytes\":59768832,\"sourceRecords\":444,\"sourceDifferences\":[\"ois.design.front-load-laundry\",\"ois.design.stacked-washer-dryer\",\"ois.design.steel-mesh-locker-bank\",\"ois.design.vented-tumble-dryer\"],\"errors\":[],\"scope\":\"Static app-integrated asset bytes only; does not claim GPU residency, physical memory, native decoding, design count, or render quality.\",\"errorCount\":0,\"artifact\":\"C:\\\\Users\\\\talia\\\\OneDrive\\\\Documents\\\\ChatGPT\\\\OIS Designs\\\\docs\\\\qa\\\\runtime\\\\runs\\\\2026-11-10T03-50-33-069Z-asset-audit\\\\result.json\"}"
+    },
+    {
+      "at": "2026-11-10T03:51:21.780Z",
+      "type": "source-change-observed",
+      "fingerprint": "064b9181c56640e222bbcc8b1f0684296451871bb3381df33f4fb58f65f93bf7"
+    },
+    {
+      "at": "2026-11-10T03:51:31.750Z",
+      "type": "monitor-heartbeat",
+      "fingerprint": "064b9181c56640e222bbcc8b1f0684296451871bb3381df33f4fb58f65f93bf7",
+      "awaitingSettledChanges": true
+    },
+    {
+      "at": "2026-11-10T03:52:11.835Z",
+      "type": "source-change-observed",
+      "fingerprint": "b65b7d249a802b66e8c62f4801677a6a1b4321b671270465303bb146092bf591"
+    },
+    {
+      "at": "2026-11-10T03:53:11.854Z",
+      "type": "verification-started",
+      "fingerprint": "b65b7d249a802b66e8c62f4801677a6a1b4321b671270465303bb146092bf591"
+    },
+    {
+      "at": "2026-11-10T03:53:23.730Z",
+      "type": "check-result",
+      "check": "typecheck",
+      "exitCode": 0,
+      "signal": null,
+      "output": "{\"id\":\"2026-11-10T03-53-11-959Z-typecheck\",\"kind\":\"typecheck\",\"startedAt\":\"2026-11-10T03:53:13.249Z\",\"finishedAt\":\"2026-11-10T03:53:23.696Z\",\"durationMs\":10447,\"executable\":\"C:\\\\Users\\\\talia\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\node\\\\bin\\\\node.exe\",\"args\":[\"node_modules/typescript/bin/tsc\",\"--noEmit\",\"--incremental\",\"false\"],\"cwd\":\"C:\\\\Users\\\\talia\\\\OneDrive\\\\Documents\\\\ChatGPT\\\\OIS Designs\\\\mobile\",\"exitCode\":0,\"signal\":null,\"beforeHash\":\"abc1918ef661f0f958cdb9e76148f604610f95c10eabe8b758ee604ea286a1d0\",\"afterHash\":\"abc1918ef661f0f958cdb9e76148f604610f95c10eabe8b758ee604ea286a1d0\",\"stableSnapshot\":true,\"changedFiles\":[],\"outputTruncated\":false,\"installed\":{\"expo\":\"58.0.23\",\"react\":\"19.3.0\",\"react-native\":\"0.88.1\",\"expo-router\":\"58.0.30\",\"typescript\":\"6.0.3\",\"eslint\":\"9.39.5\",\"expo-gl\":\"58.0.4\",\"@react-three/fiber\":\"9.8.2\",\"three\":\"0.180.0\",\"expo-file-system\":\"58.0.13\",\"expo-sharing\":\"58.0.22\",\"expo-document-picker\":\"58.0.4\",\"@react-native-async-storage/async-storage\":\"2.2.0\"}}"
+    },
+    {
+      "at": "2026-11-10T03:53:40.122Z",
+      "type": "check-result",
+      "check": "lint",
+      "exitCode": 0,
+      "signal": null,
+      "output": "{\"id\":\"2026-11-10T03-53-23-840Z-lint\",\"kind\":\"lint\",\"startedAt\":\"2026-11-10T03:53:25.303Z\",\"finishedAt\":\"2026-11-10T03:53:40.098Z\",\"durationMs\":14795,\"executable\":\"C:\\\\Users\\\\talia\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\node\\\\bin\\\\node.exe\",\"args\":[\"node_modules/expo/bin/cli\",\"lint\",\"--no-cache\"],\"cwd\":\"C:\\\\Users\\\\talia\\\\OneDrive\\\\Documents\\\\ChatGPT\\\\OIS Designs\\\\mobile\",\"exitCode\":0,\"signal\":null,\"beforeHash\":\"abc1918ef661f0f958cdb9e76148f604610f95c10eabe8b758ee604ea286a1d0\",\"afterHash\":\"abc1918ef661f0f958cdb9e76148f604610f95c10eabe8b758ee604ea286a1d0\",\"stableSnapshot\":true,\"changedFiles\":[],\"outputTruncated\":false,\"installed\":{\"expo\":\"58.0.23\",\"react\":\"19.3.0\",\"react-native\":\"0.88.1\",\"expo-router\":\"58.0.30\",\"typescript\":\"6.0.3\",\"eslint\":\"9.39.5\",\"expo-gl\":\"58.0.4\",\"@react-three/fiber\":\"9.8.2\",\"three\":\"0.180.0\",\"expo-file-system\":\"58.0.13\",\"expo-sharing\":\"58.0.22\",\"expo-document-picker\":\"58.0.4\",\"@react-native-async-storage/async-storage\":\"2.2.0\"}}"
+    },
+    {
+      "at": "2026-11-10T03:53:41.029Z",
+      "type": "asset-audit-result",
+      "exitCode": 0,
+      "signal": null,
+      "output": "{\"startedAt\":\"2026-11-10T03:53:40.323Z\",\"finishedAt\":\"2026-11-10T03:53:40.991Z\",\"stableInputs\":true,\"catalogueHash\":\"d879f5e62a6081587825712243cd13ff77a7ccae54ab799a5d357da49e4889c2\",\"bundledHash\":\"d2619614d7f53b42c54f1b4f6f147328ac96010be8225cd98ce52346cbe59d64\",\"records\":444,\"geometryFamilies\":383,\"totalGLBBytes\":90782240,\"textureFiles\":57,\"textureCompressedBytes\":5299592,\"textureBaseRGBADecodeBytes\":59768832,\"sourceRecords\":444,\"sourceDifferences\":[],\"errors\":[],\"scope\":\"Static app-integrated asset bytes only; does not claim GPU residency, physical memory, native decoding, design count, or render quality.\",\"errorCount\":0,\"artifact\":\"C:\\\\Users\\\\talia\\\\OneDrive\\\\Documents\\\\ChatGPT\\\\OIS Designs\\\\docs\\\\qa\\\\runtime\\\\runs\\\\2026-11-10T03-53-40-320Z-asset-audit\\\\result.json\"}"
+    },
+    {
+      "at": "2026-11-10T03:56:32.035Z",
+      "type": "monitor-heartbeat",
+      "fingerprint": "b65b7d249a802b66e8c62f4801677a6a1b4321b671270465303bb146092bf591",
+      "awaitingSettledChanges": false
+    },
+    {
+      "at": "2026-11-10T04:01:32.469Z",
+      "type": "monitor-heartbeat",
+      "fingerprint": "b65b7d249a802b66e8c62f4801677a6a1b4321b671270465303bb146092bf591",
+      "awaitingSettledChanges": false
+    }
+  ]
+}

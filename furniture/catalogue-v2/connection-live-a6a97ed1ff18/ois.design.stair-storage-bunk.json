@@ -1,0 +1,614 @@
+{
+  "id": "ois.design.stair-storage-bunk",
+  "sha256": "unexported-source-a6a97ed1ff18ea7190f4c07e8ea17b6dba901563a653d7aed874183539ef16c1",
+  "sourceModel": null,
+  "sourceSha256": "a6a97ed1ff18ea7190f4c07e8ea17b6dba901563a653d7aed874183539ef16c1",
+  "partCount": 59,
+  "componentCount": 3,
+  "components": [
+    {
+      "parts": [
+        "upper structural platform",
+        "mattress",
+        "piping",
+        "duvet",
+        "pillow",
+        "piping.001",
+        "tall upright",
+        "tall upright.001",
+        "tall upright.002",
+        "tall upright.003",
+        "end guard",
+        "end guard.001",
+        "lower platform",
+        "lower mattress",
+        "piping.002",
+        "stair storage",
+        "stair storage face",
+        "pull",
+        "pull mounting plate",
+        "pull mounting standoff",
+        "pull mounting standoff.001",
+        "stair storage.001",
+        "stair storage face.001",
+        "pull.001",
+        "pull mounting plate.001",
+        "pull mounting standoff.002",
+        "pull mounting standoff.003",
+        "stair storage.002",
+        "stair storage face.002",
+        "pull.002",
+        "pull mounting plate.002",
+        "pull mounting standoff.004",
+        "pull mounting standoff.005",
+        "stair storage.003",
+        "stair storage face.003",
+        "pull.003",
+        "pull mounting plate.003",
+        "pull mounting standoff.006",
+        "pull mounting standoff.007",
+        "stair storage.004",
+        "stair storage face.004",
+        "pull.004",
+        "pull mounting plate.004",
+        "pull mounting standoff.008",
+        "pull mounting standoff.009",
+        "stair storage.005",
+        "stair storage face.005",
+        "pull.005",
+        "pull mounting plate.005",
+        "pull mounting standoff.010",
+        "pull mounting standoff.011",
+        "stair storage.006",
+        "stair storage face.006",
+        "pull.006",
+        "pull mounting plate.006",
+        "pull mounting standoff.012",
+        "pull mounting standoff.013"
+      ],
+      "minimum": [
+        -0.5600999593734741,
+        -1.040000081062317,
+        0.0
+      ],
+      "maximum": [
+        1.0236001014709473,
+        1.040000081062317,
+        1.9550000429153442
+      ]
+    },
+    {
+      "parts": [
+        "upper guard"
+      ],
+      "minimum": [
+        -0.5525999665260315,
+        -0.9624999761581421,
+        1.8049999475479126
+      ],
+      "maximum": [
+        -0.5126000046730042,
+        0.9624999761581421,
+        1.9550000429153442
+      ]
+    },
+    {
+      "parts": [
+        "upper guard.001"
+      ],
+      "minimum": [
+        0.5126000046730042,
+        -0.9624999761581421,
+        1.8049999475479126
+      ],
+      "maximum": [
+        0.5525999665260315,
+        0.9624999761581421,
+        1.9550000429153442
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "mattress",
+      "b": "upper structural platform",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "piping",
+      "b": "mattress",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "duvet",
+      "b": "mattress",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pillow",
+      "b": "mattress",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "piping.001",
+      "b": "pillow",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "tall upright",
+      "b": "upper structural platform",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "tall upright.001",
+      "b": "upper structural platform",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "tall upright.002",
+      "b": "upper structural platform",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "tall upright.003",
+      "b": "upper structural platform",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "end guard",
+      "b": "tall upright",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "end guard",
+      "b": "tall upright.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "end guard.001",
+      "b": "tall upright.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "end guard.001",
+      "b": "tall upright.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "lower platform",
+      "b": "tall upright",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "lower platform",
+      "b": "tall upright.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "lower platform",
+      "b": "tall upright.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "lower platform",
+      "b": "tall upright.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "lower mattress",
+      "b": "lower platform",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "piping.002",
+      "b": "lower mattress",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "stair storage",
+      "b": "tall upright.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "stair storage face",
+      "b": "stair storage",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pull mounting plate",
+      "b": "stair storage face",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pull mounting standoff",
+      "b": "stair storage face",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pull mounting standoff",
+      "b": "pull",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pull mounting standoff",
+      "b": "pull mounting plate",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pull mounting standoff.001",
+      "b": "stair storage face",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pull mounting standoff.001",
+      "b": "pull",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pull mounting standoff.001",
+      "b": "pull mounting plate",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "stair storage.001",
+      "b": "stair storage",
+      "method": "surface distance",
+      "distance": 5.960464477539063e-08
+    },
+    {
+      "a": "stair storage face.001",
+      "b": "stair storage.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pull mounting plate.001",
+      "b": "stair storage face.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pull mounting standoff.002",
+      "b": "stair storage face.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pull mounting standoff.002",
+      "b": "pull.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pull mounting standoff.002",
+      "b": "pull mounting plate.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pull mounting standoff.003",
+      "b": "stair storage face.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pull mounting standoff.003",
+      "b": "pull.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pull mounting standoff.003",
+      "b": "pull mounting plate.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "stair storage.002",
+      "b": "stair storage.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "stair storage face.002",
+      "b": "stair storage.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pull mounting plate.002",
+      "b": "stair storage face.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pull mounting standoff.004",
+      "b": "stair storage face.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pull mounting standoff.004",
+      "b": "pull.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pull mounting standoff.004",
+      "b": "pull mounting plate.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pull mounting standoff.005",
+      "b": "stair storage face.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pull mounting standoff.005",
+      "b": "pull.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pull mounting standoff.005",
+      "b": "pull mounting plate.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "stair storage.003",
+      "b": "stair storage.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "stair storage face.003",
+      "b": "stair storage.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pull mounting plate.003",
+      "b": "stair storage face.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pull mounting standoff.006",
+      "b": "stair storage face.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pull mounting standoff.006",
+      "b": "pull.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pull mounting standoff.006",
+      "b": "pull mounting plate.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pull mounting standoff.007",
+      "b": "stair storage face.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pull mounting standoff.007",
+      "b": "pull.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pull mounting standoff.007",
+      "b": "pull mounting plate.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "stair storage.004",
+      "b": "stair storage.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "stair storage face.004",
+      "b": "stair storage.004",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pull mounting plate.004",
+      "b": "stair storage face.004",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pull mounting standoff.008",
+      "b": "stair storage face.004",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pull mounting standoff.008",
+      "b": "pull.004",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pull mounting standoff.008",
+      "b": "pull mounting plate.004",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pull mounting standoff.009",
+      "b": "stair storage face.004",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pull mounting standoff.009",
+      "b": "pull.004",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pull mounting standoff.009",
+      "b": "pull mounting plate.004",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "stair storage.005",
+      "b": "stair storage.004",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "stair storage face.005",
+      "b": "stair storage.005",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pull mounting plate.005",
+      "b": "stair storage face.005",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pull mounting standoff.010",
+      "b": "stair storage face.005",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pull mounting standoff.010",
+      "b": "pull.005",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pull mounting standoff.010",
+      "b": "pull mounting plate.005",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pull mounting standoff.011",
+      "b": "stair storage face.005",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pull mounting standoff.011",
+      "b": "pull.005",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pull mounting standoff.011",
+      "b": "pull mounting plate.005",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "stair storage.006",
+      "b": "upper structural platform",
+      "method": "surface distance",
+      "distance": 1.3328003944934608e-07
+    },
+    {
+      "a": "stair storage.006",
+      "b": "stair storage.005",
+      "method": "surface distance",
+      "distance": 5.960464477539063e-08
+    },
+    {
+      "a": "stair storage face.006",
+      "b": "stair storage.006",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pull mounting plate.006",
+      "b": "stair storage face.006",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pull mounting standoff.012",
+      "b": "stair storage face.006",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pull mounting standoff.012",
+      "b": "pull.006",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pull mounting standoff.012",
+      "b": "pull mounting plate.006",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pull mounting standoff.013",
+      "b": "stair storage face.006",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pull mounting standoff.013",
+      "b": "pull.006",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pull mounting standoff.013",
+      "b": "pull mounting plate.006",
+      "method": "triangle intersection",
+      "distance": 0
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; live-source reports are NOT exported-asset evidence; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T03:19:27Z"
+}

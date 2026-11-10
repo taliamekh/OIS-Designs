@@ -1,0 +1,165 @@
+{
+  "designId": "ois.design.labelled-filing-tower",
+  "familyId": "ois.family.labelled-filing-tower",
+  "id": "ois.design.labelled-filing-tower",
+  "name": "Labelled filing tower",
+  "roomTags": [
+    "office"
+  ],
+  "theme": "city-loft",
+  "builder": "case",
+  "parameters": {
+    "form": "file",
+    "rows": 4,
+    "w": 0.48,
+    "d": 0.58,
+    "h": 1.32,
+    "base": "plinth"
+  },
+  "distinction": "Four deep file drawers include individual metal label frames.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted"
+  },
+  "constructionKey": "case|file|{\"base\": \"plinth\", \"cols\": 1, \"doors\": 2, \"drawersTop\": false, \"front\": \"slab\", \"rows\": 4}",
+  "sha256": "90fa2b66142c6a30b0ad2788bad4d34fdd89610e61fd9f9653b25245f07026ca",
+  "bytes": 139704,
+  "triangles": 2872,
+  "vertices": 3719,
+  "drawPrimitives": 3,
+  "bounds": {
+    "min": [
+      -0.24000000953674316,
+      0.0,
+      -0.34600000362843275
+    ],
+    "max": [
+      0.24000000953674316,
+      1.3200000524520874,
+      0.28999999165534973
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 0.48000001907348633,
+    "depth": 0.6359999952837825,
+    "height": 1.3200000524520874
+  },
+  "footprint": [
+    [
+      -0.24000000953674316,
+      -0.34600000362843275
+    ],
+    [
+      0.24000000953674316,
+      -0.34600000362843275
+    ],
+    [
+      0.24000000953674316,
+      0.28999999165534973
+    ],
+    [
+      -0.24000000953674316,
+      0.28999999165534973
+    ]
+  ],
+  "variantSlots": [
+    "dark",
+    "metal",
+    "wood"
+  ],
+  "requiredExtensions": [],
+  "version": "0.2.0",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.labelled-filing-tower",
+  "file": "assets/v0.2.0/labelled-filing-tower.glb",
+  "sourceModel": "sources/v0.2.0/labelled-filing-tower.blend",
+  "thumbnail": "previews/v0.2.0/labelled-filing-tower.png",
+  "backThumbnail": "previews/v0.2.0/labelled-filing-tower-back.png",
+  "category": "storage",
+  "subtype": "file",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "textures": {
+    "count": 0,
+    "bytes": 0
+  },
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.2.0/labelled-filing-tower.png",
+      "previews/v0.2.0/labelled-filing-tower-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.23,
+      0.15,
+      0.09
+    ],
+    [
+      0.12,
+      0.14,
+      0.16
+    ],
+    [
+      0.045,
+      0.05,
+      0.055
+    ]
+  ],
+  "colourTags": [
+    "charcoal",
+    "black",
+    "weathered wood"
+  ],
+  "materials": [
+    "metal",
+    "paint",
+    "wood"
+  ],
+  "searchAliases": [
+    "office",
+    "file"
+  ],
+  "materialSlots": [
+    {
+      "id": "dark",
+      "material": "dark",
+      "recolourable": true
+    },
+    {
+      "id": "metal",
+      "material": "metal",
+      "recolourable": true
+    },
+    {
+      "id": "wood",
+      "material": "wood",
+      "recolourable": true
+    }
+  ],
+  "geometryHash": "45fcf8a73d1c19d07c84dd8cb934346006156c3c991bfcd7a8d3ce3899e46ad8",
+  "normalizedMirrorGeometryHash": "09655a5f9cf8c350e62278e7691f52c3b165f85b444437d9e66edc91fca0fd39"
+}

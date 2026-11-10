@@ -1,0 +1,37 @@
+{
+  "id": "ois.design.kidney-tulip-coffee",
+  "sha256": "3345a86dd97808406fa319e192512e916a6d7664ac1ca967c2ae031a3f5856c0",
+  "sourceModel": "sources/v0.7.0/kidney-tulip-coffee.blend",
+  "sourceSha256": "68b5c3e9faa24aca3c1ab65ab37f8d4b062a1bc426b592ea914a2404ec0fe867",
+  "partCount": 2,
+  "componentCount": 1,
+  "components": [
+    {
+      "parts": [
+        "top",
+        "tulip pedestal"
+      ],
+      "minimum": [
+        -0.6600000262260437,
+        -0.26600000262260437,
+        0.0
+      ],
+      "maximum": [
+        0.6600000262260437,
+        0.35100001096725464,
+        0.4000000059604645
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "tulip pedestal",
+      "b": "top",
+      "method": "triangle intersection",
+      "distance": 0
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; live-source reports are NOT exported-asset evidence; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T04:00:31Z"
+}

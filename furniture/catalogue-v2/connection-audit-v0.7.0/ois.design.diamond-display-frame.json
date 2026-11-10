@@ -1,0 +1,63 @@
+{
+  "id": "ois.design.diamond-display-frame",
+  "sha256": "8ccafa8727e2624ede5534f2d3998249acf804222bebebabf4cfed7c0257b917",
+  "sourceModel": "sources/v0.7.0/diamond-display-frame.blend",
+  "sourceSha256": "eb91345ea3cbab380d08f18b0152b266adc6b126d176823bce6574de4bfb5ac4",
+  "partCount": 4,
+  "componentCount": 1,
+  "components": [
+    {
+      "parts": [
+        "diamond frame",
+        "diamond frame.001",
+        "diamond frame.002",
+        "centre display shelf"
+      ],
+      "minimum": [
+        -0.843999981880188,
+        -0.1599999964237213,
+        0.0
+      ],
+      "maximum": [
+        0.843999981880188,
+        0.1599999964237213,
+        0.9799998998641968
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "diamond frame.001",
+      "b": "diamond frame",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "diamond frame.002",
+      "b": "diamond frame.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "centre display shelf",
+      "b": "diamond frame",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "centre display shelf",
+      "b": "diamond frame.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "centre display shelf",
+      "b": "diamond frame.002",
+      "method": "triangle intersection",
+      "distance": 0
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; live-source reports are NOT exported-asset evidence; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T04:00:30Z"
+}

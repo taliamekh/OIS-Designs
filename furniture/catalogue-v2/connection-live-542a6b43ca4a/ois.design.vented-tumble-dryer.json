@@ -1,0 +1,193 @@
+{
+  "id": "ois.design.vented-tumble-dryer",
+  "sha256": "unexported-source-542a6b43ca4abc9d4f4ac88dc7bd803746dd198c350ababac32d73431ffd328b",
+  "sourceModel": null,
+  "sourceSha256": "542a6b43ca4abc9d4f4ac88dc7bd803746dd198c350ababac32d73431ffd328b",
+  "partCount": 20,
+  "componentCount": 1,
+  "components": [
+    {
+      "parts": [
+        "appliance shell side",
+        "appliance shell side.001",
+        "appliance shell back",
+        "appliance shell bottom",
+        "appliance shell top",
+        "washer front opening",
+        "open metal drum",
+        "drum rear bearing",
+        "door ring",
+        "door glazing",
+        "control strip",
+        "control dial",
+        "control dial.001",
+        "vent slit",
+        "vent slit.001",
+        "vent slit.002",
+        "vent slit.003",
+        "vent slit.004",
+        "vent slit.005",
+        "vent slit.006"
+      ],
+      "minimum": [
+        -0.30000001192092896,
+        -0.3100000023841858,
+        0.0
+      ],
+      "maximum": [
+        0.30000001192092896,
+        0.3630000054836273,
+        0.8500000238418579
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "appliance shell back",
+      "b": "appliance shell side",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "appliance shell back",
+      "b": "appliance shell side.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "appliance shell bottom",
+      "b": "appliance shell side",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "appliance shell bottom",
+      "b": "appliance shell side.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "appliance shell bottom",
+      "b": "appliance shell back",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "appliance shell top",
+      "b": "appliance shell side",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "appliance shell top",
+      "b": "appliance shell side.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "appliance shell top",
+      "b": "appliance shell back",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "washer front opening",
+      "b": "appliance shell side",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "washer front opening",
+      "b": "appliance shell side.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "drum rear bearing",
+      "b": "appliance shell back",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "drum rear bearing",
+      "b": "open metal drum",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "door ring",
+      "b": "washer front opening",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "door glazing",
+      "b": "door ring",
+      "method": "surface distance",
+      "distance": 0.0037920454051345587
+    },
+    {
+      "a": "control strip",
+      "b": "washer front opening",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "control dial",
+      "b": "control strip",
+      "method": "surface distance",
+      "distance": 0.0020000040531158447
+    },
+    {
+      "a": "control dial.001",
+      "b": "control strip",
+      "method": "surface distance",
+      "distance": 0.0020000040531158447
+    },
+    {
+      "a": "vent slit",
+      "b": "washer front opening",
+      "method": "surface distance",
+      "distance": 0.003999978303909302
+    },
+    {
+      "a": "vent slit.001",
+      "b": "washer front opening",
+      "method": "surface distance",
+      "distance": 0.003999978303909302
+    },
+    {
+      "a": "vent slit.002",
+      "b": "washer front opening",
+      "method": "surface distance",
+      "distance": 0.003999978303909302
+    },
+    {
+      "a": "vent slit.003",
+      "b": "washer front opening",
+      "method": "surface distance",
+      "distance": 0.003999978303909302
+    },
+    {
+      "a": "vent slit.004",
+      "b": "washer front opening",
+      "method": "surface distance",
+      "distance": 0.003999978303909302
+    },
+    {
+      "a": "vent slit.005",
+      "b": "washer front opening",
+      "method": "surface distance",
+      "distance": 0.003999978303909302
+    },
+    {
+      "a": "vent slit.006",
+      "b": "washer front opening",
+      "method": "surface distance",
+      "distance": 0.003999978303909302
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; live-source reports are NOT exported-asset evidence; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T03:32:23Z"
+}

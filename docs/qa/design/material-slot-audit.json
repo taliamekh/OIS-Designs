@@ -1,0 +1,36 @@
+{
+  "timestamp": "2026-11-10T03:09:15.349Z",
+  "evidence": "Actual production Furniture clone callback + real Three material objects named from integrated GLB JSON. CPU source-contract fixture, not native/browser appearance.",
+  "before": {
+    "src/catalogue/assets.json": "9980272d2bb359525820d41d171f889e3717fafe6ec788d5d99de8c43bb1fbf8",
+    "src/catalogue/revisions.json": "064f506cab8dd9d5ba02d62158fb417a19778cb5a851ba7fda656c812e8675b5",
+    "src/catalogue/bundled.ts": "a1b4f3eace560c04bf2b4b9d98a6e3bbf58d5bfb562e48d17baadd461237cb4d",
+    "src/scene/RoomScene.tsx": "25fee09b0decaeea69bae3a71a9cbc0fb135293ab72373d0f223c9323e95927e"
+  },
+  "checks": [
+    {
+      "id": "every-exposed-slot-addresses-a-real-material",
+      "pass": true,
+      "slots": 985,
+      "missing": 0
+    },
+    {
+      "id": "material-slots-are-unambiguous",
+      "pass": true,
+      "overlap": 0
+    }
+  ],
+  "issues": [],
+  "records": 444,
+  "slots": 985,
+  "unaddressedSlots": 0,
+  "overlappingMaterials": 0,
+  "after": {
+    "src/catalogue/assets.json": "9980272d2bb359525820d41d171f889e3717fafe6ec788d5d99de8c43bb1fbf8",
+    "src/catalogue/revisions.json": "064f506cab8dd9d5ba02d62158fb417a19778cb5a851ba7fda656c812e8675b5",
+    "src/catalogue/bundled.ts": "a1b4f3eace560c04bf2b4b9d98a6e3bbf58d5bfb562e48d17baadd461237cb4d",
+    "src/scene/RoomScene.tsx": "25fee09b0decaeea69bae3a71a9cbc0fb135293ab72373d0f223c9323e95927e"
+  },
+  "stableSource": true,
+  "productionCallback": "() => {\n    const clone = gltf.scene.clone(true);\n    clone.traverse((node) => {\n      if (node instanceof THREE.Mesh) {\n        node.userData.itemId = item.id;\n        node.material = Array.isArray(node.material)\n          ? node.material.map((m) => m.clone())\n          : node.material.clone();\n        const mats = Array.isArray(node.material)\n          ? node.material\n          : [node.material];\n        for (const m of mats) {\n          const override = Object.entries(item.materialOverrides).find(\n            ([slot]) => m.name.toLowerCase().includes(slot.toLowerCase()),\n          );\n          if (override && m instanceof THREE.MeshStandardMaterial)\n            m.color.set(override[1]);\n        }\n      }\n    });\n    return clone;\n  }"
+}

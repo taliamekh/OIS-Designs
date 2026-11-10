@@ -1,0 +1,235 @@
+{
+  "designId": "ois.design.wire-dining",
+  "familyId": "ois.family.wire-lounge",
+  "id": "ois.design.wire-dining",
+  "name": "Wire dining chair",
+  "roomTags": [
+    "dining"
+  ],
+  "theme": "city-loft",
+  "builder": "seating",
+  "parameters": {
+    "form": "wire-chair",
+    "w": 0.48,
+    "d": 0.51,
+    "h": 0.85
+  },
+  "distinction": "Wire seat and back grid with a small floating seat cushion.",
+  "stage": "validated-candidate",
+  "countEligible": false,
+  "variants": [],
+  "variantOf": "ois.design.wire-lounge",
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted",
+    "sourceSnapshot": "sources/pipeline-03467462e382a0ba.py",
+    "sourceSha256": "03467462e382a0ba245e8af2ab96ea7d469161e176c6f1698b26d422f848f108",
+    "parametersFile": "sources/v0.3.0/wire-dining.parameters.json"
+  },
+  "constructionKey": "seating|wire-chair|{\"base\": \"taper\"}",
+  "countExclusion": "same construction; dimension/material configuration retained as a variant",
+  "sha256": "24d8795fc1f8ca8d5b5f55a8e9e433ed0a2357656af02affd97a4c6a5f775818",
+  "bytes": 38220,
+  "triangles": 884,
+  "vertices": 674,
+  "drawPrimitives": 2,
+  "bounds": {
+    "min": [
+      -0.21000000834465027,
+      0.0,
+      -0.3199999928474426
+    ],
+    "max": [
+      0.21000000834465027,
+      0.8490000050514936,
+      0.3100705146789551
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 0.42000001668930054,
+    "depth": 0.6300705075263977,
+    "height": 0.8490000050514936
+  },
+  "footprint": [
+    [
+      -0.21000000834465027,
+      -0.3199999928474426
+    ],
+    [
+      0.21000000834465027,
+      -0.3199999928474426
+    ],
+    [
+      0.21000000834465027,
+      0.3100705146789551
+    ],
+    [
+      -0.21000000834465027,
+      0.3100705146789551
+    ]
+  ],
+  "variantSlots": [
+    "fabric",
+    "metal"
+  ],
+  "requiredExtensions": [],
+  "textures": {
+    "count": 3,
+    "bytes": 8272,
+    "estimatedRgbaBytesWithMipmaps": 1048576,
+    "images": [
+      {
+        "name": "fabric-normal",
+        "bytes": 1016,
+        "width": 256,
+        "height": 256,
+        "sha256": "5bbac800a495c0a30042ad832a3ea134aa66afad65fa0dde59103733a54e886c"
+      },
+      {
+        "name": "fabric-neutral-base",
+        "bytes": 4495,
+        "width": 256,
+        "height": 256,
+        "sha256": "898e022cb5ea1b2663884e7306bbd2c09f25ab2827974bd1328a81bcab08b1ac"
+      },
+      {
+        "name": "fabric-roughness",
+        "bytes": 2761,
+        "width": 256,
+        "height": 256,
+        "sha256": "397e1c119de5e5939f7f1260cfeb7a715d695240776f51b974989073b638eeb6"
+      }
+    ]
+  },
+  "version": "0.3.0",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.wire-lounge",
+  "file": "assets/v0.3.0/wire-dining.glb",
+  "sourceModel": "sources/v0.3.0/wire-dining.blend",
+  "thumbnail": "previews/v0.3.0/wire-dining.png",
+  "backThumbnail": "previews/v0.3.0/wire-dining-back.png",
+  "category": "seating",
+  "subtype": "wire-chair",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.3.0/wire-dining.png",
+      "previews/v0.3.0/wire-dining-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.11999999731779099,
+      0.14000000059604645,
+      0.1599999964237213
+    ],
+    [
+      0.04500000178813934,
+      0.05000000074505806,
+      0.054999999701976776
+    ]
+  ],
+  "colourTags": [
+    "black",
+    "charcoal"
+  ],
+  "materials": [
+    "metal",
+    "textile"
+  ],
+  "searchAliases": [
+    "dining",
+    "wire chair"
+  ],
+  "materialSlots": [
+    {
+      "id": "fabric",
+      "material": "fabric",
+      "recolourable": true
+    },
+    {
+      "id": "metal",
+      "material": "metal",
+      "recolourable": true
+    }
+  ],
+  "supportChecks": {
+    "method": "source-part upper-end ray to non-leg geometry, 15mm join tolerance",
+    "status": "pass",
+    "parts": [],
+    "limitation": "screening only; hidden joints, whole-model connectivity, load paths and safety remain visual/product-review concerns"
+  },
+  "materialFinish": {
+    "source": "materials/v1/manifest.json",
+    "repeatMetres": {
+      "wood": [
+        0.16,
+        0.75
+      ],
+      "fabric": [
+        0.14,
+        0.14
+      ],
+      "linen": [
+        0.12,
+        0.12
+      ]
+    },
+    "maps": "original base colour / roughness / tangent normal, embedded in GLB"
+  },
+  "appearanceVariants": [
+    {
+      "id": "ois.design.wire-dining.finish.sage",
+      "name": "Sage textile",
+      "materialOverrides": {
+        "fabric": {
+          "baseColorFactor": [
+            0.25,
+            0.37,
+            0.28,
+            1
+          ]
+        }
+      }
+    },
+    {
+      "id": "ois.design.wire-dining.finish.clay",
+      "name": "Clay textile",
+      "materialOverrides": {
+        "fabric": {
+          "baseColorFactor": [
+            0.45,
+            0.23,
+            0.15,
+            1
+          ]
+        }
+      }
+    }
+  ],
+  "variantColourTags": [
+    "sage green",
+    "clay brown"
+  ],
+  "variantCountNote": "appearance overrides share this one design; do not increase distinct count"
+}

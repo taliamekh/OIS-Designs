@@ -1,0 +1,155 @@
+{
+  "designId": "ois.design.arc-shade-floor",
+  "familyId": "ois.family.arc-shade-floor",
+  "id": "ois.design.arc-shade-floor",
+  "name": "Arc shade floor lamp",
+  "roomTags": [
+    "living"
+  ],
+  "theme": "walnut-form",
+  "builder": "light",
+  "parameters": {
+    "form": "arc",
+    "h": 1.85
+  },
+  "distinction": "Swept metal arc offsets an open shade from its weighted floor base.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted",
+    "sourceSnapshot": "sources/pipeline-e797cb5c88af56f5.py",
+    "sourceSha256": "e797cb5c88af56f5b4455d819a512ab9be55f40e1fa2d0cb542aca7bb84b906f",
+    "parametersFile": "sources/v0.2.1/arc-shade-floor.parameters.json"
+  },
+  "constructionKey": "light|arc|{}",
+  "sha256": "8b37fcb982b1c0454e37e3e7cfb1f688e185b7e6af10ef3002ff7f2f856a4446",
+  "bytes": 24548,
+  "triangles": 968,
+  "vertices": 554,
+  "drawPrimitives": 2,
+  "bounds": {
+    "min": [
+      -0.1899999976158142,
+      0.0,
+      -0.2199999988079071
+    ],
+    "max": [
+      0.7699999809265137,
+      1.850000023841858,
+      0.2199999988079071
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 0.9599999785423279,
+    "depth": 0.4399999976158142,
+    "height": 1.850000023841858
+  },
+  "footprint": [
+    [
+      -0.1899999976158142,
+      -0.2199999988079071
+    ],
+    [
+      0.7699999809265137,
+      -0.2199999988079071
+    ],
+    [
+      0.7699999809265137,
+      0.2199999988079071
+    ],
+    [
+      -0.1899999976158142,
+      0.2199999988079071
+    ]
+  ],
+  "variantSlots": [
+    "linen",
+    "metal"
+  ],
+  "requiredExtensions": [],
+  "version": "0.2.1",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.arc-shade-floor",
+  "file": "assets/v0.2.1/arc-shade-floor.glb",
+  "sourceModel": "sources/v0.2.1/arc-shade-floor.blend",
+  "thumbnail": "previews/v0.2.1/arc-shade-floor.png",
+  "backThumbnail": "previews/v0.2.1/arc-shade-floor-back.png",
+  "category": "lighting",
+  "subtype": "arc",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "textures": {
+    "count": 0,
+    "bytes": 0
+  },
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.2.1/arc-shade-floor.png",
+      "previews/v0.2.1/arc-shade-floor-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.22,
+      0.09,
+      0.038
+    ],
+    [
+      0.39,
+      0.18,
+      0.07
+    ],
+    [
+      0.47,
+      0.3,
+      0.1
+    ]
+  ],
+  "colourTags": [
+    "walnut",
+    "tobacco",
+    "brass"
+  ],
+  "materials": [
+    "metal",
+    "textile"
+  ],
+  "searchAliases": [
+    "living",
+    "arc"
+  ],
+  "materialSlots": [
+    {
+      "id": "linen",
+      "material": "linen",
+      "recolourable": true
+    },
+    {
+      "id": "metal",
+      "material": "metal",
+      "recolourable": true
+    }
+  ]
+}

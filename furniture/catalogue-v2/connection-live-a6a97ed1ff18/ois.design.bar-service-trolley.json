@@ -1,0 +1,92 @@
+{
+  "id": "ois.design.bar-service-trolley",
+  "sha256": "unexported-source-a6a97ed1ff18ea7190f4c07e8ea17b6dba901563a653d7aed874183539ef16c1",
+  "sourceModel": null,
+  "sourceSha256": "a6a97ed1ff18ea7190f4c07e8ea17b6dba901563a653d7aed874183539ef16c1",
+  "partCount": 9,
+  "componentCount": 1,
+  "components": [
+    {
+      "parts": [
+        "top",
+        "sled frame",
+        "sled frame.001",
+        "lower tray",
+        "caster",
+        "caster.001",
+        "caster.002",
+        "caster.003",
+        "push handle"
+      ],
+      "minimum": [
+        -0.41499999165534973,
+        -0.20999999344348907,
+        0.0
+      ],
+      "maximum": [
+        0.4000000059604645,
+        0.20999999344348907,
+        0.943804144859314
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "sled frame",
+      "b": "top",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "sled frame.001",
+      "b": "top",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "lower tray",
+      "b": "sled frame",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "lower tray",
+      "b": "sled frame.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "caster",
+      "b": "sled frame",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "caster.001",
+      "b": "sled frame",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "caster.002",
+      "b": "sled frame.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "caster.003",
+      "b": "sled frame.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "push handle",
+      "b": "top",
+      "method": "surface distance",
+      "distance": 0.0019108179258182645
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; live-source reports are NOT exported-asset evidence; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T03:18:59Z"
+}

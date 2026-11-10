@@ -1,0 +1,84 @@
+{
+  "id": "ois.design.cat-platform-tree",
+  "sha256": "unexported-source-a6a97ed1ff18ea7190f4c07e8ea17b6dba901563a653d7aed874183539ef16c1",
+  "sourceModel": null,
+  "sourceSha256": "a6a97ed1ff18ea7190f4c07e8ea17b6dba901563a653d7aed874183539ef16c1",
+  "partCount": 7,
+  "componentCount": 1,
+  "components": [
+    {
+      "parts": [
+        "tower base",
+        "scratching post",
+        "cat platform",
+        "scratching post.001",
+        "cat platform.001",
+        "scratching post.002",
+        "cat platform.002"
+      ],
+      "minimum": [
+        -0.4375,
+        -0.3100000023841858,
+        0.0
+      ],
+      "maximum": [
+        0.4375,
+        0.3100000023841858,
+        1.3224999904632568
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "scratching post",
+      "b": "tower base",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "cat platform",
+      "b": "scratching post",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "scratching post.001",
+      "b": "tower base",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "cat platform.001",
+      "b": "scratching post.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "scratching post.002",
+      "b": "tower base",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "scratching post.002",
+      "b": "cat platform",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "scratching post.002",
+      "b": "cat platform.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "cat platform.002",
+      "b": "scratching post.002",
+      "method": "triangle intersection",
+      "distance": 0
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; live-source reports are NOT exported-asset evidence; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T03:19:56Z"
+}

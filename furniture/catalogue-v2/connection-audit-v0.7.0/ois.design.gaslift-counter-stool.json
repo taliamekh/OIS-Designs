@@ -1,0 +1,165 @@
+{
+  "id": "ois.design.gaslift-counter-stool",
+  "sha256": "a9b4dd2db60ca22d6b91aa418dd3d1194a33f0dd7dbf865125d8fe3307afcf76",
+  "sourceModel": "sources/v0.7.0/gaslift-counter-stool.blend",
+  "sourceSha256": "2a6b6ab7c1b5cdbb3d1c4d49ef16c2a9635195da54abbd565e47b69be38af53d",
+  "partCount": 10,
+  "componentCount": 1,
+  "components": [
+    {
+      "parts": [
+        "star base",
+        "star base.001",
+        "star base.002",
+        "star base.003",
+        "star base.004",
+        "gas lift",
+        "structural chair seat pan",
+        "seat",
+        "piping",
+        "backrest"
+      ],
+      "minimum": [
+        -0.2070000022649765,
+        -0.24352653324604034,
+        0.0
+      ],
+      "maximum": [
+        0.2104150801897049,
+        0.23820000886917114,
+        1.054395318031311
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "star base.001",
+      "b": "star base",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "star base.002",
+      "b": "star base",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "star base.002",
+      "b": "star base.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "star base.003",
+      "b": "star base",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "star base.003",
+      "b": "star base.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "star base.003",
+      "b": "star base.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "star base.004",
+      "b": "star base",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "star base.004",
+      "b": "star base.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "star base.004",
+      "b": "star base.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "star base.004",
+      "b": "star base.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "gas lift",
+      "b": "star base",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "gas lift",
+      "b": "star base.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "gas lift",
+      "b": "star base.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "gas lift",
+      "b": "star base.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "gas lift",
+      "b": "star base.004",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "structural chair seat pan",
+      "b": "gas lift",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "seat",
+      "b": "gas lift",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "seat",
+      "b": "structural chair seat pan",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "piping",
+      "b": "gas lift",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "piping",
+      "b": "seat",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "backrest",
+      "b": "seat",
+      "method": "triangle intersection",
+      "distance": 0
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; live-source reports are NOT exported-asset evidence; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T04:00:30Z"
+}

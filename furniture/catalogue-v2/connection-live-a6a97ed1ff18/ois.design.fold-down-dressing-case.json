@@ -1,0 +1,171 @@
+{
+  "id": "ois.design.fold-down-dressing-case",
+  "sha256": "unexported-source-a6a97ed1ff18ea7190f4c07e8ea17b6dba901563a653d7aed874183539ef16c1",
+  "sourceModel": null,
+  "sourceSha256": "a6a97ed1ff18ea7190f4c07e8ea17b6dba901563a653d7aed874183539ef16c1",
+  "partCount": 16,
+  "componentCount": 1,
+  "components": [
+    {
+      "parts": [
+        "leg",
+        "leg.001",
+        "leg.002",
+        "leg.003",
+        "bottom",
+        "top",
+        "side",
+        "side.001",
+        "back",
+        "fold-down writing leaf",
+        "upper door",
+        "leaf support",
+        "leaf support.001",
+        "fold-down rear hinge beam",
+        "upper door hinge block",
+        "upper door hinge block.001"
+      ],
+      "minimum": [
+        -0.42500001192092896,
+        -0.20000000298023224,
+        0.008528867736458778
+      ],
+      "maximum": [
+        0.42500001192092896,
+        0.42000001668930054,
+        1.350000023841858
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "bottom",
+      "b": "leg",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "bottom",
+      "b": "leg.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "bottom",
+      "b": "leg.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "bottom",
+      "b": "leg.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "side",
+      "b": "bottom",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "side",
+      "b": "top",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "side.001",
+      "b": "bottom",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "side.001",
+      "b": "top",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "back",
+      "b": "bottom",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "back",
+      "b": "top",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "back",
+      "b": "side",
+      "method": "surface distance",
+      "distance": 0.0
+    },
+    {
+      "a": "back",
+      "b": "side.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "leaf support",
+      "b": "fold-down writing leaf",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "leaf support.001",
+      "b": "fold-down writing leaf",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "fold-down rear hinge beam",
+      "b": "side",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "fold-down rear hinge beam",
+      "b": "side.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "fold-down rear hinge beam",
+      "b": "fold-down writing leaf",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "upper door hinge block",
+      "b": "side",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "upper door hinge block",
+      "b": "upper door",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "upper door hinge block.001",
+      "b": "side",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "upper door hinge block.001",
+      "b": "upper door",
+      "method": "triangle intersection",
+      "distance": 0
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; live-source reports are NOT exported-asset evidence; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T03:18:54Z"
+}

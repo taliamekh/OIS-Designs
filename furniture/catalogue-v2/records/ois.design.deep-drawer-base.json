@@ -1,0 +1,162 @@
+{
+  "designId": "ois.design.deep-drawer-base",
+  "familyId": "ois.family.deep-drawer-base",
+  "id": "ois.design.deep-drawer-base",
+  "name": "Deep drawer base",
+  "roomTags": [
+    "kitchen"
+  ],
+  "theme": "city-loft",
+  "builder": "kitchen",
+  "parameters": {
+    "form": "drawer-base",
+    "w": 0.8
+  },
+  "distinction": "Three full-width functional drawer banks.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted",
+    "sourceSnapshot": "sources/pipeline-e797cb5c88af56f5.py",
+    "sourceSha256": "e797cb5c88af56f5b4455d819a512ab9be55f40e1fa2d0cb542aca7bb84b906f",
+    "parametersFile": "sources/v0.2.1/deep-drawer-base.parameters.json"
+  },
+  "constructionKey": "kitchen|drawer-base|{}",
+  "sha256": "69d9d456e3f32cd768d5d7e738a6fdf15e24cc5083c80d7551708bcfab07bdef",
+  "bytes": 98504,
+  "triangles": 1872,
+  "vertices": 2616,
+  "drawPrimitives": 3,
+  "bounds": {
+    "min": [
+      -0.4000000059604645,
+      0.0,
+      -0.3559999940916896
+    ],
+    "max": [
+      0.4000000059604645,
+      0.9000000655651093,
+      0.30000001192092896
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 0.800000011920929,
+    "depth": 0.6560000060126185,
+    "height": 0.9000000655651093
+  },
+  "footprint": [
+    [
+      -0.4000000059604645,
+      -0.3559999940916896
+    ],
+    [
+      0.4000000059604645,
+      -0.3559999940916896
+    ],
+    [
+      0.4000000059604645,
+      0.30000001192092896
+    ],
+    [
+      -0.4000000059604645,
+      0.30000001192092896
+    ]
+  ],
+  "variantSlots": [
+    "dark",
+    "metal",
+    "wood"
+  ],
+  "requiredExtensions": [],
+  "version": "0.2.1",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.deep-drawer-base",
+  "file": "assets/v0.2.1/deep-drawer-base.glb",
+  "sourceModel": "sources/v0.2.1/deep-drawer-base.blend",
+  "thumbnail": "previews/v0.2.1/deep-drawer-base.png",
+  "backThumbnail": "previews/v0.2.1/deep-drawer-base-back.png",
+  "category": "cabinetry",
+  "subtype": "drawer-base",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "textures": {
+    "count": 0,
+    "bytes": 0
+  },
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.2.1/deep-drawer-base.png",
+      "previews/v0.2.1/deep-drawer-base-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.23,
+      0.15,
+      0.09
+    ],
+    [
+      0.12,
+      0.14,
+      0.16
+    ],
+    [
+      0.045,
+      0.05,
+      0.055
+    ]
+  ],
+  "colourTags": [
+    "charcoal",
+    "black",
+    "weathered wood"
+  ],
+  "materials": [
+    "metal",
+    "paint",
+    "wood"
+  ],
+  "searchAliases": [
+    "kitchen",
+    "drawer base"
+  ],
+  "materialSlots": [
+    {
+      "id": "dark",
+      "material": "dark",
+      "recolourable": true
+    },
+    {
+      "id": "metal",
+      "material": "metal",
+      "recolourable": true
+    },
+    {
+      "id": "wood",
+      "material": "wood",
+      "recolourable": true
+    }
+  ]
+}

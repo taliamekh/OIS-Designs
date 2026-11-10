@@ -1,0 +1,159 @@
+{
+  "designId": "ois.design.rolled-tuft-sofa",
+  "familyId": "ois.family.rolled-tuft-sofa",
+  "id": "ois.design.rolled-tuft-sofa",
+  "name": "Rolled tuft sofa",
+  "roomTags": [
+    "living"
+  ],
+  "theme": "walnut-form",
+  "builder": "seating",
+  "parameters": {
+    "form": "chester",
+    "w": 2.2
+  },
+  "distinction": "Continuous cylindrical rolled arms and deep buttoned back.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted"
+  },
+  "sha256": "a5dbadc7075857820e617ee772dfb56ca71561c8cf381e1ca002cbdede46968f",
+  "bytes": 217660,
+  "triangles": 5784,
+  "vertices": 5606,
+  "drawPrimitives": 3,
+  "bounds": {
+    "min": [
+      -1.1449999809265137,
+      -1.34903570536693e-07,
+      -0.4262505846011866
+    ],
+    "max": [
+      1.1449999809265137,
+      0.8267538100481033,
+      0.4262505619311213
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 2.2899999618530273,
+    "depth": 0.8525011465323079,
+    "height": 0.8267539449516739
+  },
+  "footprint": [
+    [
+      -1.1449999809265137,
+      -0.4262505846011866
+    ],
+    [
+      1.1449999809265137,
+      -0.4262505846011866
+    ],
+    [
+      1.1449999809265137,
+      0.4262505619311213
+    ],
+    [
+      -1.1449999809265137,
+      0.4262505619311213
+    ]
+  ],
+  "variantSlots": [
+    "fabric",
+    "linen",
+    "wood"
+  ],
+  "requiredExtensions": [],
+  "version": "0.2.0",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.rolled-tuft-sofa",
+  "file": "assets/v0.2.0/rolled-tuft-sofa.glb",
+  "sourceModel": "sources/v0.2.0/rolled-tuft-sofa.blend",
+  "thumbnail": "previews/v0.2.0/rolled-tuft-sofa.png",
+  "backThumbnail": "previews/v0.2.0/rolled-tuft-sofa-back.png",
+  "category": "seating",
+  "subtype": "chester",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "textures": {
+    "count": 0,
+    "bytes": 0
+  },
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.2.0/rolled-tuft-sofa.png",
+      "previews/v0.2.0/rolled-tuft-sofa-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.22,
+      0.09,
+      0.038
+    ],
+    [
+      0.39,
+      0.18,
+      0.07
+    ],
+    [
+      0.47,
+      0.3,
+      0.1
+    ]
+  ],
+  "colourTags": [
+    "walnut",
+    "tobacco",
+    "brass"
+  ],
+  "materials": [
+    "textile",
+    "wood"
+  ],
+  "searchAliases": [
+    "living",
+    "chester"
+  ],
+  "materialSlots": [
+    {
+      "id": "fabric",
+      "material": "fabric",
+      "recolourable": true
+    },
+    {
+      "id": "linen",
+      "material": "linen",
+      "recolourable": true
+    },
+    {
+      "id": "wood",
+      "material": "wood",
+      "recolourable": true
+    }
+  ],
+  "geometryHash": "27aacf88a81ccb225a65be587d146e502e4cd129855d3d404f98051fd2f6fddf",
+  "normalizedMirrorGeometryHash": "6936a15003f0a2b8232409f955844984a57fd5d32aafbd3025ef7f02f26ec257"
+}

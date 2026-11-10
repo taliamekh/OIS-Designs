@@ -1,0 +1,150 @@
+{
+  "designId": "ois.design.a-frame-display",
+  "familyId": "ois.family.a-frame-display",
+  "id": "ois.design.a-frame-display",
+  "name": "A-frame display shelf",
+  "roomTags": [
+    "storage"
+  ],
+  "theme": "soft-japandi",
+  "builder": "functional",
+  "parameters": {
+    "form": "a-frame-shelf",
+    "w": 1.0,
+    "d": 0.65,
+    "h": 1.65
+  },
+  "distinction": "Tapering triangular side frames support successively shallower shelves.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted",
+    "sourceSnapshot": "sources/pipeline-e797cb5c88af56f5.py",
+    "sourceSha256": "e797cb5c88af56f5b4455d819a512ab9be55f40e1fa2d0cb542aca7bb84b906f",
+    "parametersFile": "sources/v0.2.1/a-frame-display.parameters.json"
+  },
+  "constructionKey": "functional|a-frame-shelf|{}",
+  "sha256": "4c2c67a7e930547d5dd647c8ffa1095511e158a37ff9bed68791ace4dfe3de8f",
+  "bytes": 37780,
+  "triangles": 804,
+  "vertices": 982,
+  "drawPrimitives": 1,
+  "bounds": {
+    "min": [
+      -0.5000000071460846,
+      2.9652031496851805e-08,
+      -0.3495286825112164
+    ],
+    "max": [
+      0.500000123802903,
+      1.6596628047287134,
+      0.34952884525585026
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 1.0000001309489877,
+    "depth": 0.6990575277670666,
+    "height": 1.659662775076682
+  },
+  "footprint": [
+    [
+      -0.5000000071460846,
+      -0.3495286825112164
+    ],
+    [
+      0.500000123802903,
+      -0.3495286825112164
+    ],
+    [
+      0.500000123802903,
+      0.34952884525585026
+    ],
+    [
+      -0.5000000071460846,
+      0.34952884525585026
+    ]
+  ],
+  "variantSlots": [
+    "wood"
+  ],
+  "requiredExtensions": [],
+  "version": "0.2.1",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.a-frame-display",
+  "file": "assets/v0.2.1/a-frame-display.glb",
+  "sourceModel": "sources/v0.2.1/a-frame-display.blend",
+  "thumbnail": "previews/v0.2.1/a-frame-display.png",
+  "backThumbnail": "previews/v0.2.1/a-frame-display-back.png",
+  "category": "functional-furniture",
+  "subtype": "a-frame-shelf",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "textures": {
+    "count": 0,
+    "bytes": 0
+  },
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.2.1/a-frame-display.png",
+      "previews/v0.2.1/a-frame-display-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.34,
+      0.28,
+      0.19
+    ],
+    [
+      0.58,
+      0.54,
+      0.44
+    ],
+    [
+      0.15,
+      0.17,
+      0.15
+    ]
+  ],
+  "colourTags": [
+    "ash",
+    "flax",
+    "stone"
+  ],
+  "materials": [
+    "wood"
+  ],
+  "searchAliases": [
+    "storage",
+    "a frame shelf"
+  ],
+  "materialSlots": [
+    {
+      "id": "wood",
+      "material": "wood",
+      "recolourable": true
+    }
+  ]
+}

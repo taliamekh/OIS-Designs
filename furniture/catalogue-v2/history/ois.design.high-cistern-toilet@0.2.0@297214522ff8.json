@@ -1,0 +1,160 @@
+{
+  "designId": "ois.design.high-cistern-toilet",
+  "familyId": "ois.family.high-cistern-toilet",
+  "id": "ois.design.high-cistern-toilet",
+  "name": "High cistern toilet",
+  "roomTags": [
+    "bathroom"
+  ],
+  "theme": "walnut-form",
+  "builder": "bath",
+  "parameters": {
+    "form": "toilet-vintage"
+  },
+  "distinction": "High wall cistern and exposed vertical flush pipe.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted"
+  },
+  "constructionKey": "bath|toilet-vintage|{}",
+  "sha256": "297214522ff88f5bd7ca59b474654b8c14dd81b0f4160935e87eedff6e78d986",
+  "bytes": 68260,
+  "triangles": 2288,
+  "vertices": 1701,
+  "drawPrimitives": 3,
+  "bounds": {
+    "min": [
+      -0.24899999797344208,
+      0.0,
+      -0.343999981880188
+    ],
+    "max": [
+      0.24899999797344208,
+      1.709999918937683,
+      0.36000001430511475
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 0.49799999594688416,
+    "depth": 0.7039999961853027,
+    "height": 1.709999918937683
+  },
+  "footprint": [
+    [
+      -0.24899999797344208,
+      -0.343999981880188
+    ],
+    [
+      0.24899999797344208,
+      -0.343999981880188
+    ],
+    [
+      0.24899999797344208,
+      0.36000001430511475
+    ],
+    [
+      -0.24899999797344208,
+      0.36000001430511475
+    ]
+  ],
+  "variantSlots": [
+    "ceramic",
+    "linen",
+    "metal"
+  ],
+  "requiredExtensions": [],
+  "version": "0.2.0",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.high-cistern-toilet",
+  "file": "assets/v0.2.0/high-cistern-toilet.glb",
+  "sourceModel": "sources/v0.2.0/high-cistern-toilet.blend",
+  "thumbnail": "previews/v0.2.0/high-cistern-toilet.png",
+  "backThumbnail": "previews/v0.2.0/high-cistern-toilet-back.png",
+  "category": "bathroom-fixtures",
+  "subtype": "toilet-vintage",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "textures": {
+    "count": 0,
+    "bytes": 0
+  },
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.2.0/high-cistern-toilet.png",
+      "previews/v0.2.0/high-cistern-toilet-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.22,
+      0.09,
+      0.038
+    ],
+    [
+      0.39,
+      0.18,
+      0.07
+    ],
+    [
+      0.47,
+      0.3,
+      0.1
+    ]
+  ],
+  "colourTags": [
+    "walnut",
+    "tobacco",
+    "brass"
+  ],
+  "materials": [
+    "ceramic",
+    "metal",
+    "textile"
+  ],
+  "searchAliases": [
+    "bathroom",
+    "toilet vintage"
+  ],
+  "materialSlots": [
+    {
+      "id": "ceramic",
+      "material": "ceramic",
+      "recolourable": true
+    },
+    {
+      "id": "linen",
+      "material": "linen",
+      "recolourable": true
+    },
+    {
+      "id": "metal",
+      "material": "metal",
+      "recolourable": true
+    }
+  ],
+  "geometryHash": "07504efc9384495308956acf5e1634b859e5770f6135f7b118989212f38bdf76",
+  "normalizedMirrorGeometryHash": "4254d1a31ad7e5db85b5bca74c216a547b20b083aae448955ed44bb83700a9ad"
+}

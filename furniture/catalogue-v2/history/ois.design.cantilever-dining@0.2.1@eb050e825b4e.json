@@ -1,0 +1,164 @@
+{
+  "designId": "ois.design.cantilever-dining",
+  "familyId": "ois.family.cantilever-lounge",
+  "id": "ois.design.cantilever-dining",
+  "name": "Cantilever dining chair",
+  "roomTags": [
+    "dining"
+  ],
+  "theme": "city-loft",
+  "builder": "seating",
+  "parameters": {
+    "form": "cantilever",
+    "w": 0.48,
+    "d": 0.55,
+    "h": 0.86
+  },
+  "distinction": "Tubular continuous C frames support a padded back and seat.",
+  "stage": "validated-candidate",
+  "countEligible": false,
+  "variants": [],
+  "variantOf": "ois.design.cantilever-lounge",
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted",
+    "sourceSnapshot": "sources/pipeline-e797cb5c88af56f5.py",
+    "sourceSha256": "e797cb5c88af56f5b4455d819a512ab9be55f40e1fa2d0cb542aca7bb84b906f",
+    "parametersFile": "sources/v0.2.1/cantilever-dining.parameters.json"
+  },
+  "constructionKey": "seating|cantilever|{\"base\": \"taper\"}",
+  "countExclusion": "same construction; dimension/material configuration retained as a variant",
+  "sha256": "eb050e825b4e4e370a8de58722cc5737ca1113cffafbbeaa400e0f38dd77d388",
+  "bytes": 34108,
+  "triangles": 684,
+  "vertices": 846,
+  "drawPrimitives": 3,
+  "bounds": {
+    "min": [
+      -0.21000000834465027,
+      0.0,
+      -0.3199999928474426
+    ],
+    "max": [
+      0.21000000834465027,
+      0.8771454989910126,
+      0.3100705146789551
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 0.42000001668930054,
+    "depth": 0.6300705075263977,
+    "height": 0.8771454989910126
+  },
+  "footprint": [
+    [
+      -0.21000000834465027,
+      -0.3199999928474426
+    ],
+    [
+      0.21000000834465027,
+      -0.3199999928474426
+    ],
+    [
+      0.21000000834465027,
+      0.3100705146789551
+    ],
+    [
+      -0.21000000834465027,
+      0.3100705146789551
+    ]
+  ],
+  "variantSlots": [
+    "fabric",
+    "linen",
+    "metal"
+  ],
+  "requiredExtensions": [],
+  "version": "0.2.1",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.cantilever-lounge",
+  "file": "assets/v0.2.1/cantilever-dining.glb",
+  "sourceModel": "sources/v0.2.1/cantilever-dining.blend",
+  "thumbnail": "previews/v0.2.1/cantilever-dining.png",
+  "backThumbnail": "previews/v0.2.1/cantilever-dining-back.png",
+  "category": "seating",
+  "subtype": "cantilever",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "textures": {
+    "count": 0,
+    "bytes": 0
+  },
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.2.1/cantilever-dining.png",
+      "previews/v0.2.1/cantilever-dining-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.23,
+      0.15,
+      0.09
+    ],
+    [
+      0.12,
+      0.14,
+      0.16
+    ],
+    [
+      0.045,
+      0.05,
+      0.055
+    ]
+  ],
+  "colourTags": [
+    "charcoal",
+    "black",
+    "weathered wood"
+  ],
+  "materials": [
+    "metal",
+    "textile"
+  ],
+  "searchAliases": [
+    "dining",
+    "cantilever"
+  ],
+  "materialSlots": [
+    {
+      "id": "fabric",
+      "material": "fabric",
+      "recolourable": true
+    },
+    {
+      "id": "linen",
+      "material": "linen",
+      "recolourable": true
+    },
+    {
+      "id": "metal",
+      "material": "metal",
+      "recolourable": true
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "id": "ois.design.drop-leaf-family-table",
+  "sha256": "unexported-source-a6a97ed1ff18ea7190f4c07e8ea17b6dba901563a653d7aed874183539ef16c1",
+  "sourceModel": null,
+  "sourceSha256": "a6a97ed1ff18ea7190f4c07e8ea17b6dba901563a653d7aed874183539ef16c1",
+  "partCount": 7,
+  "componentCount": 5,
+  "components": [
+    {
+      "parts": [
+        "central top",
+        "hinge pin",
+        "hinge pin.001"
+      ],
+      "minimum": [
+        -0.3525000214576721,
+        -0.4300000071525574,
+        0.718999981880188
+      ],
+      "maximum": [
+        0.3525000214576721,
+        0.4300000071525574,
+        0.7699999809265137
+      ]
+    },
+    {
+      "parts": [
+        "hinged leaf"
+      ],
+      "minimum": [
+        -0.8230507373809814,
+        -0.4300000071525574,
+        0.44115525484085083
+      ],
+      "maximum": [
+        -0.36494919657707214,
+        0.4300000071525574,
+        0.7988447546958923
+      ]
+    },
+    {
+      "parts": [
+        "hinged leaf.001"
+      ],
+      "minimum": [
+        0.36494919657707214,
+        -0.4300000071525574,
+        0.44115525484085083
+      ],
+      "maximum": [
+        0.8230507373809814,
+        0.4300000071525574,
+        0.7988447546958923
+      ]
+    },
+    {
+      "parts": [
+        "panel leg"
+      ],
+      "minimum": [
+        -0.278300017118454,
+        -0.3440000116825104,
+        0.0
+      ],
+      "maximum": [
+        -0.2233000099658966,
+        0.3440000116825104,
+        0.7250000238418579
+      ]
+    },
+    {
+      "parts": [
+        "panel leg.001"
+      ],
+      "minimum": [
+        0.2233000099658966,
+        -0.3440000116825104,
+        0.0
+      ],
+      "maximum": [
+        0.278300017118454,
+        0.3440000116825104,
+        0.7250000238418579
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "hinge pin",
+      "b": "central top",
+      "method": "surface distance",
+      "distance": 0.0028807371854782104
+    },
+    {
+      "a": "hinge pin.001",
+      "b": "central top",
+      "method": "surface distance",
+      "distance": 0.0028807371854782104
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; live-source reports are NOT exported-asset evidence; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T03:19:59Z"
+}

@@ -1,0 +1,155 @@
+{
+  "designId": "ois.design.fork-back-dining",
+  "familyId": "ois.family.fork-back-dining",
+  "id": "ois.design.fork-back-dining",
+  "name": "Fork-back dining chair",
+  "roomTags": [
+    "dining"
+  ],
+  "theme": "walnut-form",
+  "builder": "seating",
+  "parameters": {
+    "form": "wishbone",
+    "w": 0.48,
+    "d": 0.51,
+    "h": 0.89
+  },
+  "distinction": "Forked central back rises into a continuous horseshoe rail.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted"
+  },
+  "sha256": "e777102511defc2a3bf9b61bd08c9afd1c2fb1a9d47d4c904cb458fc75dd7d30",
+  "bytes": 44960,
+  "triangles": 1132,
+  "vertices": 1116,
+  "drawPrimitives": 2,
+  "bounds": {
+    "min": [
+      -0.25522646141229355,
+      -4.866014036153388e-09,
+      -0.24375000037252903
+    ],
+    "max": [
+      0.2552264864768303,
+      0.8036362333330792,
+      0.3054999856065435
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 0.5104529478891239,
+    "depth": 0.5492499859790725,
+    "height": 0.8036362381990932
+  },
+  "footprint": [
+    [
+      -0.25522646141229355,
+      -0.24375000037252903
+    ],
+    [
+      0.2552264864768303,
+      -0.24375000037252903
+    ],
+    [
+      0.2552264864768303,
+      0.3054999856065435
+    ],
+    [
+      -0.25522646141229355,
+      0.3054999856065435
+    ]
+  ],
+  "variantSlots": [
+    "linen",
+    "wood"
+  ],
+  "requiredExtensions": [],
+  "version": "0.2.0",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.fork-back-dining",
+  "file": "assets/v0.2.0/fork-back-dining.glb",
+  "sourceModel": "sources/v0.2.0/fork-back-dining.blend",
+  "thumbnail": "previews/v0.2.0/fork-back-dining.png",
+  "backThumbnail": "previews/v0.2.0/fork-back-dining-back.png",
+  "category": "seating",
+  "subtype": "wishbone",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "textures": {
+    "count": 0,
+    "bytes": 0
+  },
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.2.0/fork-back-dining.png",
+      "previews/v0.2.0/fork-back-dining-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.22,
+      0.09,
+      0.038
+    ],
+    [
+      0.39,
+      0.18,
+      0.07
+    ],
+    [
+      0.47,
+      0.3,
+      0.1
+    ]
+  ],
+  "colourTags": [
+    "walnut",
+    "tobacco",
+    "brass"
+  ],
+  "materials": [
+    "textile",
+    "wood"
+  ],
+  "searchAliases": [
+    "dining",
+    "wishbone"
+  ],
+  "materialSlots": [
+    {
+      "id": "linen",
+      "material": "linen",
+      "recolourable": true
+    },
+    {
+      "id": "wood",
+      "material": "wood",
+      "recolourable": true
+    }
+  ],
+  "geometryHash": "40e74455f11913adca09fb9473c3f656fc434edfe2ae02cfc6d2fd3d5468e626",
+  "normalizedMirrorGeometryHash": "204e2d23037568bc92391c78b7ce12b7ad7e394f33ce159398a12303695ba3f3"
+}

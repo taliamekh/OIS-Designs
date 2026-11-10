@@ -1,0 +1,165 @@
+{
+  "designId": "ois.design.stacked-washer-dryer",
+  "familyId": "ois.family.stacked-washer-dryer",
+  "id": "ois.design.stacked-washer-dryer",
+  "name": "Stacked washer and dryer",
+  "roomTags": [
+    "laundry-utility"
+  ],
+  "theme": "city-loft",
+  "builder": "appliance",
+  "parameters": {
+    "form": "stacked-laundry"
+  },
+  "distinction": "Two full drum units with independent front controls.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted"
+  },
+  "constructionKey": "appliance|stacked-laundry|{}",
+  "sha256": "77679a22a2ac32233214720be96b78f566a77b019dcbaba9ce91be65b129d132",
+  "bytes": 105596,
+  "triangles": 3032,
+  "vertices": 2589,
+  "drawPrimitives": 4,
+  "bounds": {
+    "min": [
+      -0.30000001192092896,
+      0.0,
+      -0.3630000054836273
+    ],
+    "max": [
+      0.30000001192092896,
+      1.699999988079071,
+      0.3100000023841858
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 0.6000000238418579,
+    "depth": 0.6730000078678131,
+    "height": 1.699999988079071
+  },
+  "footprint": [
+    [
+      -0.30000001192092896,
+      -0.3630000054836273
+    ],
+    [
+      0.30000001192092896,
+      -0.3630000054836273
+    ],
+    [
+      0.30000001192092896,
+      0.3100000023841858
+    ],
+    [
+      -0.30000001192092896,
+      0.3100000023841858
+    ]
+  ],
+  "variantSlots": [
+    "ceramic",
+    "dark",
+    "glass",
+    "metal"
+  ],
+  "requiredExtensions": [],
+  "version": "0.2.0",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.stacked-washer-dryer",
+  "file": "assets/v0.2.0/stacked-washer-dryer.glb",
+  "sourceModel": "sources/v0.2.0/stacked-washer-dryer.blend",
+  "thumbnail": "previews/v0.2.0/stacked-washer-dryer.png",
+  "backThumbnail": "previews/v0.2.0/stacked-washer-dryer-back.png",
+  "category": "appliances",
+  "subtype": "stacked-laundry",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "textures": {
+    "count": 0,
+    "bytes": 0
+  },
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.2.0/stacked-washer-dryer.png",
+      "previews/v0.2.0/stacked-washer-dryer-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.23,
+      0.15,
+      0.09
+    ],
+    [
+      0.12,
+      0.14,
+      0.16
+    ],
+    [
+      0.045,
+      0.05,
+      0.055
+    ]
+  ],
+  "colourTags": [
+    "charcoal",
+    "black",
+    "weathered wood"
+  ],
+  "materials": [
+    "ceramic",
+    "metal",
+    "paint",
+    "tinted-glass"
+  ],
+  "searchAliases": [
+    "laundry utility",
+    "stacked laundry"
+  ],
+  "materialSlots": [
+    {
+      "id": "ceramic",
+      "material": "ceramic",
+      "recolourable": true
+    },
+    {
+      "id": "dark",
+      "material": "dark",
+      "recolourable": true
+    },
+    {
+      "id": "glass",
+      "material": "glass",
+      "recolourable": true
+    },
+    {
+      "id": "metal",
+      "material": "metal",
+      "recolourable": true
+    }
+  ]
+}

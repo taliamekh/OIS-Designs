@@ -1,0 +1,50 @@
+{
+  "id": "ois.design.oval-floor-tub",
+  "sha256": "042a1543ca22af3c35de2f4056663f963b334ba16b43ce1ddd4561d02810ed10",
+  "sourceModel": "sources/v0.7.0/oval-floor-tub.blend",
+  "sourceSha256": "b2c91d79710fcff4a6373483b9a10a8d33889261e9237ccf0f400c1abfaa6342",
+  "partCount": 3,
+  "componentCount": 1,
+  "components": [
+    {
+      "parts": [
+        "hollow tub",
+        "curved faucet",
+        "tap lever"
+      ],
+      "minimum": [
+        -0.8600000143051147,
+        -0.4000000059604645,
+        0.0
+      ],
+      "maximum": [
+        0.8600000143051147,
+        0.4000000059604645,
+        0.6309430599212646
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "curved faucet",
+      "b": "hollow tub",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "tap lever",
+      "b": "hollow tub",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "tap lever",
+      "b": "curved faucet",
+      "method": "triangle intersection",
+      "distance": 0
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; live-source reports are NOT exported-asset evidence; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T04:00:31Z"
+}

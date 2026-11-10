@@ -1,0 +1,150 @@
+{
+  "id": "ois.design.lift-storage-bed",
+  "sha256": "unexported-source-6226f7a5305865fd189dfcec35a3077205588e7999488a17cff703d94c6b1b9f",
+  "sourceModel": null,
+  "sourceSha256": "6226f7a5305865fd189dfcec35a3077205588e7999488a17cff703d94c6b1b9f",
+  "partCount": 13,
+  "componentCount": 1,
+  "components": [
+    {
+      "parts": [
+        "storage floor",
+        "side wall",
+        "side wall.001",
+        "end wall",
+        "end wall.001",
+        "lift deck",
+        "lift mattress",
+        "piping",
+        "duvet",
+        "gas strut barrel",
+        "gas strut piston",
+        "gas strut barrel.001",
+        "gas strut piston.001"
+      ],
+      "minimum": [
+        -0.8319999575614929,
+        -1.1176049709320068,
+        0.0
+      ],
+      "maximum": [
+        0.8319999575614929,
+        1.0959999561309814,
+        1.4389166831970215
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "side wall",
+      "b": "storage floor",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "side wall.001",
+      "b": "storage floor",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "end wall",
+      "b": "storage floor",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "end wall",
+      "b": "side wall",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "end wall",
+      "b": "side wall.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "end wall.001",
+      "b": "storage floor",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "end wall.001",
+      "b": "side wall",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "end wall.001",
+      "b": "side wall.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "lift deck",
+      "b": "side wall",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "lift deck",
+      "b": "side wall.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "lift deck",
+      "b": "end wall",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "lift mattress",
+      "b": "lift deck",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "piping",
+      "b": "lift mattress",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "duvet",
+      "b": "lift mattress",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "gas strut piston",
+      "b": "lift deck",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "gas strut piston",
+      "b": "gas strut barrel",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "gas strut piston.001",
+      "b": "lift deck",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "gas strut piston.001",
+      "b": "gas strut barrel.001",
+      "method": "triangle intersection",
+      "distance": 0
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; live-source reports are NOT exported-asset evidence; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T03:36:33Z"
+}

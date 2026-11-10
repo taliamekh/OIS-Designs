@@ -1,0 +1,324 @@
+{
+  "id": "ois.design.three-laundry-sorter",
+  "sha256": "unexported-source-a6a97ed1ff18ea7190f4c07e8ea17b6dba901563a653d7aed874183539ef16c1",
+  "sourceModel": null,
+  "sourceSha256": "a6a97ed1ff18ea7190f4c07e8ea17b6dba901563a653d7aed874183539ef16c1",
+  "partCount": 19,
+  "componentCount": 1,
+  "components": [
+    {
+      "parts": [
+        "hamper floor",
+        "hamper side",
+        "hamper end",
+        "hamper side.001",
+        "hamper end.001",
+        "hamper floor.001",
+        "hamper side.002",
+        "hamper end.002",
+        "hamper side.003",
+        "hamper end.003",
+        "hamper floor.002",
+        "hamper side.004",
+        "hamper end.004",
+        "hamper side.005",
+        "hamper end.005",
+        "sorter frame",
+        "sorter frame.001",
+        "bag suspension rail",
+        "bag suspension rail.001"
+      ],
+      "minimum": [
+        -0.5640000104904175,
+        -0.21400003135204315,
+        0.0
+      ],
+      "maximum": [
+        0.5640000104904175,
+        0.21400003135204315,
+        0.8199999928474426
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "hamper side",
+      "b": "hamper floor",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "hamper end",
+      "b": "hamper floor",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "hamper end",
+      "b": "hamper side",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "hamper side.001",
+      "b": "hamper floor",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "hamper side.001",
+      "b": "hamper end",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "hamper end.001",
+      "b": "hamper floor",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "hamper end.001",
+      "b": "hamper side",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "hamper end.001",
+      "b": "hamper side.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "hamper side.002",
+      "b": "hamper floor.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "hamper end.002",
+      "b": "hamper floor.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "hamper end.002",
+      "b": "hamper side.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "hamper side.003",
+      "b": "hamper floor.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "hamper side.003",
+      "b": "hamper end.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "hamper end.003",
+      "b": "hamper floor.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "hamper end.003",
+      "b": "hamper side.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "hamper end.003",
+      "b": "hamper side.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "hamper side.004",
+      "b": "hamper floor.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "hamper end.004",
+      "b": "hamper floor.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "hamper end.004",
+      "b": "hamper side.004",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "hamper side.005",
+      "b": "hamper floor.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "hamper side.005",
+      "b": "hamper end.004",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "hamper end.005",
+      "b": "hamper floor.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "hamper end.005",
+      "b": "hamper side.004",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "hamper end.005",
+      "b": "hamper side.005",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "sorter frame",
+      "b": "hamper floor",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "sorter frame",
+      "b": "hamper side",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "sorter frame.001",
+      "b": "hamper floor.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "sorter frame.001",
+      "b": "hamper side.005",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "bag suspension rail",
+      "b": "hamper side",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "bag suspension rail",
+      "b": "hamper end",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "bag suspension rail",
+      "b": "hamper side.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "bag suspension rail",
+      "b": "hamper side.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "bag suspension rail",
+      "b": "hamper end.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "bag suspension rail",
+      "b": "hamper side.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "bag suspension rail",
+      "b": "hamper side.004",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "bag suspension rail",
+      "b": "hamper end.004",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "bag suspension rail",
+      "b": "hamper side.005",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "bag suspension rail.001",
+      "b": "hamper side",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "bag suspension rail.001",
+      "b": "hamper side.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "bag suspension rail.001",
+      "b": "hamper end.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "bag suspension rail.001",
+      "b": "hamper side.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "bag suspension rail.001",
+      "b": "hamper side.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "bag suspension rail.001",
+      "b": "hamper end.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "bag suspension rail.001",
+      "b": "hamper side.004",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "bag suspension rail.001",
+      "b": "hamper side.005",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "bag suspension rail.001",
+      "b": "hamper end.005",
+      "method": "triangle intersection",
+      "distance": 0
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; live-source reports are NOT exported-asset evidence; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T03:19:35Z"
+}

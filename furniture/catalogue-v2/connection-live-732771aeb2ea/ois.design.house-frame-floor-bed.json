@@ -1,0 +1,289 @@
+{
+  "id": "ois.design.house-frame-floor-bed",
+  "sha256": "unexported-source-732771aeb2eadd33599208170e38ff4e50d68878cbfb6795c9473e6f8553f36b",
+  "sourceModel": null,
+  "sourceSha256": "732771aeb2eadd33599208170e38ff4e50d68878cbfb6795c9473e6f8553f36b",
+  "partCount": 20,
+  "componentCount": 1,
+  "components": [
+    {
+      "parts": [
+        "recessed plinth",
+        "frame",
+        "mattress",
+        "piping",
+        "duvet",
+        "pillow",
+        "piping.001",
+        "post",
+        "post.001",
+        "post.002",
+        "post.003",
+        "canopy crossbar",
+        "canopy crossbar.001",
+        "canopy side",
+        "canopy side.001",
+        "roof slope",
+        "roof slope.001",
+        "roof slope.002",
+        "roof slope.003",
+        "ridge"
+      ],
+      "minimum": [
+        -0.42800000309944153,
+        -0.7879999876022339,
+        0.0
+      ],
+      "maximum": [
+        0.42800000309944153,
+        0.7879999876022339,
+        1.9450000524520874
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "frame",
+      "b": "recessed plinth",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "mattress",
+      "b": "frame",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "piping",
+      "b": "mattress",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "duvet",
+      "b": "mattress",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pillow",
+      "b": "mattress",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "piping.001",
+      "b": "pillow",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "post",
+      "b": "frame",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "post.001",
+      "b": "frame",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "post.002",
+      "b": "frame",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "post.003",
+      "b": "frame",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "canopy crossbar",
+      "b": "post",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "canopy crossbar",
+      "b": "post.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "canopy crossbar.001",
+      "b": "post.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "canopy crossbar.001",
+      "b": "post.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "canopy side",
+      "b": "post",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "canopy side",
+      "b": "post.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "canopy side",
+      "b": "canopy crossbar",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "canopy side",
+      "b": "canopy crossbar.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "canopy side.001",
+      "b": "post.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "canopy side.001",
+      "b": "post.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "canopy side.001",
+      "b": "canopy crossbar",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "canopy side.001",
+      "b": "canopy crossbar.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "roof slope",
+      "b": "post",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "roof slope",
+      "b": "canopy crossbar",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "roof slope",
+      "b": "canopy side",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "roof slope.001",
+      "b": "post.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "roof slope.001",
+      "b": "canopy crossbar",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "roof slope.001",
+      "b": "canopy side.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "roof slope.001",
+      "b": "roof slope",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "roof slope.002",
+      "b": "post.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "roof slope.002",
+      "b": "canopy crossbar.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "roof slope.002",
+      "b": "canopy side",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "roof slope.003",
+      "b": "post.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "roof slope.003",
+      "b": "canopy crossbar.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "roof slope.003",
+      "b": "canopy side.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "roof slope.003",
+      "b": "roof slope.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "ridge",
+      "b": "roof slope",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "ridge",
+      "b": "roof slope.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "ridge",
+      "b": "roof slope.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "ridge",
+      "b": "roof slope.003",
+      "method": "triangle intersection",
+      "distance": 0
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; live-source reports are NOT exported-asset evidence; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T03:28:21Z"
+}

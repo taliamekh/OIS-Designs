@@ -1,0 +1,44 @@
+{
+  "id": "ois.design.sled-footstool",
+  "sha256": "unexported-source-542a6b43ca4abc9d4f4ac88dc7bd803746dd198c350ababac32d73431ffd328b",
+  "sourceModel": null,
+  "sourceSha256": "542a6b43ca4abc9d4f4ac88dc7bd803746dd198c350ababac32d73431ffd328b",
+  "partCount": 3,
+  "componentCount": 1,
+  "components": [
+    {
+      "parts": [
+        "sled frame",
+        "sled frame.001",
+        "seat"
+      ],
+      "minimum": [
+        -0.3400000035762787,
+        -0.23000000417232513,
+        0.0062889214605093
+      ],
+      "maximum": [
+        0.3400000035762787,
+        0.23000000417232513,
+        0.3500000238418579
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "seat",
+      "b": "sled frame",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "seat",
+      "b": "sled frame.001",
+      "method": "triangle intersection",
+      "distance": 0
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; live-source reports are NOT exported-asset evidence; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T03:31:45Z"
+}

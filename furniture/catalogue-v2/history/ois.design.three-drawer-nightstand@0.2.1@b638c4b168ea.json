@@ -1,0 +1,158 @@
+{
+  "designId": "ois.design.three-drawer-nightstand",
+  "familyId": "ois.family.three-drawer-nightstand",
+  "id": "ois.design.three-drawer-nightstand",
+  "name": "Three drawer bedside chest",
+  "roomTags": [
+    "bedroom"
+  ],
+  "theme": "walnut-form",
+  "builder": "case",
+  "parameters": {
+    "form": "drawers",
+    "front": "slab",
+    "rows": 3,
+    "w": 0.52,
+    "h": 0.62
+  },
+  "distinction": "Three shallow independent full-width drawers on tall tapered legs.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted",
+    "sourceSnapshot": "sources/pipeline-e797cb5c88af56f5.py",
+    "sourceSha256": "e797cb5c88af56f5b4455d819a512ab9be55f40e1fa2d0cb542aca7bb84b906f",
+    "parametersFile": "sources/v0.2.1/three-drawer-nightstand.parameters.json"
+  },
+  "constructionKey": "case|drawers|{\"base\": \"taper\", \"cols\": \"single\", \"doors\": 2, \"drawersTop\": false, \"front\": \"slab\", \"rows\": \"stack\"}",
+  "sha256": "b638c4b168ea061ea04789f1310cb0a443687c22aaa6db42191b1d866248b10f",
+  "bytes": 95228,
+  "triangles": 1924,
+  "vertices": 2532,
+  "drawPrimitives": 2,
+  "bounds": {
+    "min": [
+      -0.2600000133840229,
+      -2.3151591407866157e-09,
+      -0.25600000005215406
+    ],
+    "max": [
+      0.2600000976678315,
+      0.6102050760736276,
+      0.20000001916653826
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 0.5200001110518544,
+    "depth": 0.4560000192186923,
+    "height": 0.6102050783887868
+  },
+  "footprint": [
+    [
+      -0.2600000133840229,
+      -0.25600000005215406
+    ],
+    [
+      0.2600000976678315,
+      -0.25600000005215406
+    ],
+    [
+      0.2600000976678315,
+      0.20000001916653826
+    ],
+    [
+      -0.2600000133840229,
+      0.20000001916653826
+    ]
+  ],
+  "variantSlots": [
+    "metal",
+    "wood"
+  ],
+  "requiredExtensions": [],
+  "version": "0.2.1",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.three-drawer-nightstand",
+  "file": "assets/v0.2.1/three-drawer-nightstand.glb",
+  "sourceModel": "sources/v0.2.1/three-drawer-nightstand.blend",
+  "thumbnail": "previews/v0.2.1/three-drawer-nightstand.png",
+  "backThumbnail": "previews/v0.2.1/three-drawer-nightstand-back.png",
+  "category": "storage",
+  "subtype": "drawers",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "textures": {
+    "count": 0,
+    "bytes": 0
+  },
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.2.1/three-drawer-nightstand.png",
+      "previews/v0.2.1/three-drawer-nightstand-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.22,
+      0.09,
+      0.038
+    ],
+    [
+      0.39,
+      0.18,
+      0.07
+    ],
+    [
+      0.47,
+      0.3,
+      0.1
+    ]
+  ],
+  "colourTags": [
+    "walnut",
+    "tobacco",
+    "brass"
+  ],
+  "materials": [
+    "metal",
+    "wood"
+  ],
+  "searchAliases": [
+    "bedroom",
+    "drawers"
+  ],
+  "materialSlots": [
+    {
+      "id": "metal",
+      "material": "metal",
+      "recolourable": true
+    },
+    {
+      "id": "wood",
+      "material": "wood",
+      "recolourable": true
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "id": "ois.design.oval-pedestal-desk",
+  "sha256": "unexported-source-a6a97ed1ff18ea7190f4c07e8ea17b6dba901563a653d7aed874183539ef16c1",
+  "sourceModel": null,
+  "sourceSha256": "a6a97ed1ff18ea7190f4c07e8ea17b6dba901563a653d7aed874183539ef16c1",
+  "partCount": 5,
+  "componentCount": 1,
+  "components": [
+    {
+      "parts": [
+        "top",
+        "disc base",
+        "stem",
+        "disc base.001",
+        "stem.001"
+      ],
+      "minimum": [
+        -0.75,
+        -0.32499998807907104,
+        0.0
+      ],
+      "maximum": [
+        0.75,
+        0.32499998807907104,
+        0.75
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "stem",
+      "b": "top",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "stem",
+      "b": "disc base",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "stem.001",
+      "b": "top",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "stem.001",
+      "b": "disc base.001",
+      "method": "triangle intersection",
+      "distance": 0
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; live-source reports are NOT exported-asset evidence; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T03:19:18Z"
+}

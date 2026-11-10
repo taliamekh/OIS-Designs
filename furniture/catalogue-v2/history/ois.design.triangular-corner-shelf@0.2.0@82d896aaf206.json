@@ -1,0 +1,147 @@
+{
+  "designId": "ois.design.triangular-corner-shelf",
+  "familyId": "ois.family.triangular-corner-shelf",
+  "id": "ois.design.triangular-corner-shelf",
+  "name": "Triangular corner shelf",
+  "roomTags": [
+    "storage"
+  ],
+  "theme": "calm-oak",
+  "builder": "functional",
+  "parameters": {
+    "form": "corner-shelf",
+    "w": 0.85,
+    "d": 0.7,
+    "h": 1.6
+  },
+  "distinction": "Five triangular shelf planes connect three separate corner uprights.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted"
+  },
+  "constructionKey": "functional|corner-shelf|{}",
+  "sha256": "82d896aaf2067bebdb59491da4a9bbf3ff1022cd362086ea4922e8b28a120081",
+  "bytes": 11772,
+  "triangles": 220,
+  "vertices": 288,
+  "drawPrimitives": 1,
+  "bounds": {
+    "min": [
+      -0.445000022649765,
+      0.0,
+      -0.4189999997615814
+    ],
+    "max": [
+      0.445000022649765,
+      1.600000023841858,
+      0.32100000977516174
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 0.89000004529953,
+    "depth": 0.7400000095367432,
+    "height": 1.600000023841858
+  },
+  "footprint": [
+    [
+      -0.445000022649765,
+      -0.4189999997615814
+    ],
+    [
+      0.445000022649765,
+      -0.4189999997615814
+    ],
+    [
+      0.445000022649765,
+      0.32100000977516174
+    ],
+    [
+      -0.445000022649765,
+      0.32100000977516174
+    ]
+  ],
+  "variantSlots": [
+    "wood"
+  ],
+  "requiredExtensions": [],
+  "version": "0.2.0",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.triangular-corner-shelf",
+  "file": "assets/v0.2.0/triangular-corner-shelf.glb",
+  "sourceModel": "sources/v0.2.0/triangular-corner-shelf.blend",
+  "thumbnail": "previews/v0.2.0/triangular-corner-shelf.png",
+  "backThumbnail": "previews/v0.2.0/triangular-corner-shelf-back.png",
+  "category": "functional-furniture",
+  "subtype": "corner-shelf",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "textures": {
+    "count": 0,
+    "bytes": 0
+  },
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.2.0/triangular-corner-shelf.png",
+      "previews/v0.2.0/triangular-corner-shelf-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.58,
+      0.39,
+      0.2
+    ],
+    [
+      0.73,
+      0.7,
+      0.61
+    ],
+    [
+      0.12,
+      0.14,
+      0.13
+    ]
+  ],
+  "colourTags": [
+    "pale oak",
+    "ivory",
+    "oatmeal"
+  ],
+  "materials": [
+    "wood"
+  ],
+  "searchAliases": [
+    "storage",
+    "corner shelf"
+  ],
+  "materialSlots": [
+    {
+      "id": "wood",
+      "material": "wood",
+      "recolourable": true
+    }
+  ]
+}

@@ -1,0 +1,307 @@
+{
+  "id": "ois.design.triple-sleep-bunk",
+  "sha256": "unexported-source-a6a97ed1ff18ea7190f4c07e8ea17b6dba901563a653d7aed874183539ef16c1",
+  "sourceModel": null,
+  "sourceSha256": "a6a97ed1ff18ea7190f4c07e8ea17b6dba901563a653d7aed874183539ef16c1",
+  "partCount": 28,
+  "componentCount": 3,
+  "components": [
+    {
+      "parts": [
+        "upper structural platform",
+        "mattress",
+        "piping",
+        "duvet",
+        "pillow",
+        "piping.001",
+        "tall upright",
+        "tall upright.001",
+        "tall upright.002",
+        "tall upright.003",
+        "end guard",
+        "end guard.001",
+        "lower platform",
+        "lower mattress",
+        "piping.002",
+        "pullout third bed",
+        "third mattress",
+        "piping.003",
+        "ladder",
+        "ladder.001",
+        "ladder rung",
+        "ladder rung.001",
+        "ladder rung.002",
+        "ladder rung.003",
+        "ladder rung.004",
+        "ladder rung.005"
+      ],
+      "minimum": [
+        -0.5600999593734741,
+        -1.040000081062317,
+        -0.0014773537404835224
+      ],
+      "maximum": [
+        0.9639400243759155,
+        1.2104393243789673,
+        1.9550000429153442
+      ]
+    },
+    {
+      "parts": [
+        "upper guard"
+      ],
+      "minimum": [
+        -0.5525999665260315,
+        -0.9624999761581421,
+        1.8049999475479126
+      ],
+      "maximum": [
+        -0.5126000046730042,
+        0.9624999761581421,
+        1.9550000429153442
+      ]
+    },
+    {
+      "parts": [
+        "upper guard.001"
+      ],
+      "minimum": [
+        0.5126000046730042,
+        -0.9624999761581421,
+        1.8049999475479126
+      ],
+      "maximum": [
+        0.5525999665260315,
+        0.9624999761581421,
+        1.9550000429153442
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "mattress",
+      "b": "upper structural platform",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "piping",
+      "b": "mattress",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "duvet",
+      "b": "mattress",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pillow",
+      "b": "mattress",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "piping.001",
+      "b": "pillow",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "tall upright",
+      "b": "upper structural platform",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "tall upright.001",
+      "b": "upper structural platform",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "tall upright.002",
+      "b": "upper structural platform",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "tall upright.003",
+      "b": "upper structural platform",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "end guard",
+      "b": "tall upright",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "end guard",
+      "b": "tall upright.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "end guard.001",
+      "b": "tall upright.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "end guard.001",
+      "b": "tall upright.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "lower platform",
+      "b": "tall upright",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "lower platform",
+      "b": "tall upright.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "lower platform",
+      "b": "tall upright.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "lower platform",
+      "b": "tall upright.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "lower mattress",
+      "b": "lower platform",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "piping.002",
+      "b": "lower mattress",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pullout third bed",
+      "b": "tall upright.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pullout third bed",
+      "b": "tall upright.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "third mattress",
+      "b": "lower platform",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "third mattress",
+      "b": "pullout third bed",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "piping.003",
+      "b": "third mattress",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "ladder.001",
+      "b": "tall upright.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "ladder rung",
+      "b": "ladder",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "ladder rung",
+      "b": "ladder.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "ladder rung.001",
+      "b": "ladder",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "ladder rung.001",
+      "b": "ladder.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "ladder rung.002",
+      "b": "ladder",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "ladder rung.002",
+      "b": "ladder.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "ladder rung.003",
+      "b": "ladder",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "ladder rung.003",
+      "b": "ladder.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "ladder rung.004",
+      "b": "ladder",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "ladder rung.004",
+      "b": "ladder.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "ladder rung.005",
+      "b": "ladder",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "ladder rung.005",
+      "b": "ladder.001",
+      "method": "triangle intersection",
+      "distance": 0
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; live-source reports are NOT exported-asset evidence; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T03:19:27Z"
+}

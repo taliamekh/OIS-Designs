@@ -1,0 +1,157 @@
+{
+  "designId": "ois.design.hanging-valet-stand",
+  "familyId": "ois.family.hanging-valet-stand",
+  "id": "ois.design.hanging-valet-stand",
+  "name": "Dressing valet stand",
+  "roomTags": [
+    "bedroom"
+  ],
+  "theme": "calm-oak",
+  "builder": "special",
+  "parameters": {
+    "form": "valet",
+    "w": 0.52,
+    "d": 0.35,
+    "h": 1.2
+  },
+  "distinction": "Shoulder-shaped coat hanger, trouser bar and floor support.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted",
+    "sourceSnapshot": "sources/pipeline-e797cb5c88af56f5.py",
+    "sourceSha256": "e797cb5c88af56f5b4455d819a512ab9be55f40e1fa2d0cb542aca7bb84b906f",
+    "parametersFile": "sources/v0.2.1/hanging-valet-stand.parameters.json"
+  },
+  "constructionKey": "special|valet|{\"cols\": 1, \"front\": \"cane\", \"panels\": 3}",
+  "sha256": "5deb3731d203b09fa2efd6ac4ed2223321d3787d6a553f36daeffbab30f419e9",
+  "bytes": 11276,
+  "triangles": 284,
+  "vertices": 220,
+  "drawPrimitives": 2,
+  "bounds": {
+    "min": [
+      -0.24382425844669342,
+      0.0,
+      -0.17599999718368053
+    ],
+    "max": [
+      0.24382425844669342,
+      1.2215573079884052,
+      0.15700000524520874
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 0.48764851689338684,
+    "depth": 0.3330000024288893,
+    "height": 1.2215573079884052
+  },
+  "footprint": [
+    [
+      -0.24382425844669342,
+      -0.17599999718368053
+    ],
+    [
+      0.24382425844669342,
+      -0.17599999718368053
+    ],
+    [
+      0.24382425844669342,
+      0.15700000524520874
+    ],
+    [
+      -0.24382425844669342,
+      0.15700000524520874
+    ]
+  ],
+  "variantSlots": [
+    "metal",
+    "wood"
+  ],
+  "requiredExtensions": [],
+  "version": "0.2.1",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.hanging-valet-stand",
+  "file": "assets/v0.2.1/hanging-valet-stand.glb",
+  "sourceModel": "sources/v0.2.1/hanging-valet-stand.blend",
+  "thumbnail": "previews/v0.2.1/hanging-valet-stand.png",
+  "backThumbnail": "previews/v0.2.1/hanging-valet-stand-back.png",
+  "category": "specialty",
+  "subtype": "valet",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "textures": {
+    "count": 0,
+    "bytes": 0
+  },
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.2.1/hanging-valet-stand.png",
+      "previews/v0.2.1/hanging-valet-stand-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.58,
+      0.39,
+      0.2
+    ],
+    [
+      0.73,
+      0.7,
+      0.61
+    ],
+    [
+      0.12,
+      0.14,
+      0.13
+    ]
+  ],
+  "colourTags": [
+    "pale oak",
+    "ivory",
+    "oatmeal"
+  ],
+  "materials": [
+    "metal",
+    "wood"
+  ],
+  "searchAliases": [
+    "bedroom",
+    "valet"
+  ],
+  "materialSlots": [
+    {
+      "id": "metal",
+      "material": "metal",
+      "recolourable": true
+    },
+    {
+      "id": "wood",
+      "material": "wood",
+      "recolourable": true
+    }
+  ]
+}

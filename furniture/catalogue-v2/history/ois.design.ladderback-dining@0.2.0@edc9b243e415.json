@@ -1,0 +1,155 @@
+{
+  "designId": "ois.design.ladderback-dining",
+  "familyId": "ois.family.ladderback-dining",
+  "id": "ois.design.ladderback-dining",
+  "name": "Ladderback dining chair",
+  "roomTags": [
+    "dining"
+  ],
+  "theme": "calm-oak",
+  "builder": "seating",
+  "parameters": {
+    "form": "ladder",
+    "w": 0.48,
+    "d": 0.51,
+    "h": 0.89
+  },
+  "distinction": "Three broad horizontal ladder rails between tall posts.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted"
+  },
+  "sha256": "edc9b243e41587a403cdf3a38b05ba65f690eb8348bf9e2474f9f5be19347c50",
+  "bytes": 61172,
+  "triangles": 1300,
+  "vertices": 1591,
+  "drawPrimitives": 2,
+  "bounds": {
+    "min": [
+      -0.21000000728472085,
+      -4.866014036153388e-09,
+      -0.24375000037252903
+    ],
+    "max": [
+      0.20999999950791892,
+      0.879535103906928,
+      0.23727776441325973
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 0.42000000679263977,
+    "depth": 0.4810277647857888,
+    "height": 0.879535108772942
+  },
+  "footprint": [
+    [
+      -0.21000000728472085,
+      -0.24375000037252903
+    ],
+    [
+      0.20999999950791892,
+      -0.24375000037252903
+    ],
+    [
+      0.20999999950791892,
+      0.23727776441325973
+    ],
+    [
+      -0.21000000728472085,
+      0.23727776441325973
+    ]
+  ],
+  "variantSlots": [
+    "linen",
+    "wood"
+  ],
+  "requiredExtensions": [],
+  "version": "0.2.0",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.ladderback-dining",
+  "file": "assets/v0.2.0/ladderback-dining.glb",
+  "sourceModel": "sources/v0.2.0/ladderback-dining.blend",
+  "thumbnail": "previews/v0.2.0/ladderback-dining.png",
+  "backThumbnail": "previews/v0.2.0/ladderback-dining-back.png",
+  "category": "seating",
+  "subtype": "ladder",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "textures": {
+    "count": 0,
+    "bytes": 0
+  },
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.2.0/ladderback-dining.png",
+      "previews/v0.2.0/ladderback-dining-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.58,
+      0.39,
+      0.2
+    ],
+    [
+      0.73,
+      0.7,
+      0.61
+    ],
+    [
+      0.12,
+      0.14,
+      0.13
+    ]
+  ],
+  "colourTags": [
+    "pale oak",
+    "ivory",
+    "oatmeal"
+  ],
+  "materials": [
+    "textile",
+    "wood"
+  ],
+  "searchAliases": [
+    "dining",
+    "ladder"
+  ],
+  "materialSlots": [
+    {
+      "id": "linen",
+      "material": "linen",
+      "recolourable": true
+    },
+    {
+      "id": "wood",
+      "material": "wood",
+      "recolourable": true
+    }
+  ],
+  "geometryHash": "90b8e15a8b99bd412aabfc8a99ebb6ef4770000f5256cb7c81bdff26e1b46539",
+  "normalizedMirrorGeometryHash": "39734fc70d67d6e204d0b6f0e0fa6a8b9d884c389d8f8e3ff31066465b868680"
+}

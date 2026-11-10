@@ -1,0 +1,84 @@
+{
+  "id": "ois.design.drop-leaf-family-table",
+  "sha256": "unexported-source-6226f7a5305865fd189dfcec35a3077205588e7999488a17cff703d94c6b1b9f",
+  "sourceModel": null,
+  "sourceSha256": "6226f7a5305865fd189dfcec35a3077205588e7999488a17cff703d94c6b1b9f",
+  "partCount": 7,
+  "componentCount": 1,
+  "components": [
+    {
+      "parts": [
+        "central top",
+        "hinged leaf",
+        "hinge pin",
+        "hinged leaf.001",
+        "hinge pin.001",
+        "panel leg",
+        "panel leg.001"
+      ],
+      "minimum": [
+        -0.798852264881134,
+        -0.4300000071525574,
+        0.0
+      ],
+      "maximum": [
+        0.798852264881134,
+        0.4300000071525574,
+        0.7699999809265137
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "hinged leaf",
+      "b": "central top",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "hinge pin",
+      "b": "central top",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "hinge pin",
+      "b": "hinged leaf",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "hinged leaf.001",
+      "b": "central top",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "hinge pin.001",
+      "b": "central top",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "hinge pin.001",
+      "b": "hinged leaf.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "panel leg",
+      "b": "central top",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "panel leg.001",
+      "b": "central top",
+      "method": "triangle intersection",
+      "distance": 0
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; live-source reports are NOT exported-asset evidence; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T03:36:31Z"
+}

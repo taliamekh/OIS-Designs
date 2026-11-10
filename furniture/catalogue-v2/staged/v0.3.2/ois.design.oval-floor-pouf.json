@@ -1,0 +1,254 @@
+{
+  "designId": "ois.design.oval-floor-pouf",
+  "familyId": "ois.family.oval-floor-pouf",
+  "id": "ois.design.oval-floor-pouf",
+  "name": "Oval floor pouf",
+  "roomTags": [
+    "living"
+  ],
+  "theme": "soft-japandi",
+  "builder": "seating",
+  "parameters": {
+    "form": "pouf",
+    "w": 0.78,
+    "d": 0.64,
+    "h": 0.31
+  },
+  "distinction": "Soft ellipsoidal floor form with equator seam and no rigid legs.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted",
+    "sourceSnapshot": "sources/pipeline-55642edf77b9875f.py",
+    "sourceSha256": "55642edf77b9875ff9620f3041b9999cee7807ac9d8ce9f01f78fdfc4bbc513f",
+    "parametersFile": "sources/v0.3.2/oval-floor-pouf.parameters.json"
+  },
+  "constructionKey": "seating|pouf|{\"base\": \"taper\"}",
+  "sha256": "b3cedebae5ba85827c288cdfb3cdca3727ba52667323d4778992ddc09f9ef711",
+  "bytes": 216084,
+  "triangles": 1296,
+  "vertices": 942,
+  "drawPrimitives": 2,
+  "bounds": {
+    "min": [
+      -0.3910999894142151,
+      0.0,
+      -0.32179999351501465
+    ],
+    "max": [
+      0.3910999894142151,
+      0.3100000023841858,
+      0.32179999351501465
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 0.7821999788284302,
+    "depth": 0.6435999870300293,
+    "height": 0.3100000023841858
+  },
+  "footprint": [
+    [
+      -0.3910999894142151,
+      -0.32179999351501465
+    ],
+    [
+      0.3910999894142151,
+      -0.32179999351501465
+    ],
+    [
+      0.3910999894142151,
+      0.32179999351501465
+    ],
+    [
+      -0.3910999894142151,
+      0.32179999351501465
+    ]
+  ],
+  "variantSlots": [
+    "fabric",
+    "linen"
+  ],
+  "requiredExtensions": [],
+  "textures": {
+    "count": 6,
+    "bytes": 159257,
+    "estimatedRgbaBytesWithMipmaps": 2097152,
+    "images": [
+      {
+        "name": "fabric-normal",
+        "bytes": 1016,
+        "width": 256,
+        "height": 256,
+        "sha256": "5bbac800a495c0a30042ad832a3ea134aa66afad65fa0dde59103733a54e886c"
+      },
+      {
+        "name": "fabric-neutral-base",
+        "bytes": 4495,
+        "width": 256,
+        "height": 256,
+        "sha256": "898e022cb5ea1b2663884e7306bbd2c09f25ab2827974bd1328a81bcab08b1ac"
+      },
+      {
+        "name": "fabric-roughness",
+        "bytes": 2761,
+        "width": 256,
+        "height": 256,
+        "sha256": "397e1c119de5e5939f7f1260cfeb7a715d695240776f51b974989073b638eeb6"
+      },
+      {
+        "name": "linen-normal",
+        "bytes": 76292,
+        "width": 256,
+        "height": 256,
+        "sha256": "70b25282eb1daf2d7d6faad88d6b47ca1298d395b833d36d3ba28a542ed6d36e"
+      },
+      {
+        "name": "linen-neutral-base",
+        "bytes": 34309,
+        "width": 256,
+        "height": 256,
+        "sha256": "047df909f3cecf9ec0cdef6c8e2a92dea40e0116922d5b7a25bc7da6481e1ec9"
+      },
+      {
+        "name": "linen-roughness",
+        "bytes": 40384,
+        "width": 256,
+        "height": 256,
+        "sha256": "c31825bb85668747311407d1a5e5d9a56bc0e65aefbf79936d1d4665e83fdb45"
+      }
+    ]
+  },
+  "version": "0.3.2",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.oval-floor-pouf",
+  "file": "assets/v0.3.2/oval-floor-pouf.glb",
+  "sourceModel": "sources/v0.3.2/oval-floor-pouf.blend",
+  "thumbnail": "previews/v0.3.2/oval-floor-pouf.png",
+  "backThumbnail": "previews/v0.3.2/oval-floor-pouf-back.png",
+  "category": "seating",
+  "subtype": "pouf",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.3.2/oval-floor-pouf.png",
+      "previews/v0.3.2/oval-floor-pouf-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.5799999833106995,
+      0.5400000214576721,
+      0.4399999976158142
+    ],
+    [
+      0.8399999737739563,
+      0.800000011920929,
+      0.6899999976158142
+    ]
+  ],
+  "colourTags": [
+    "flax",
+    "warm ivory"
+  ],
+  "materials": [
+    "textile"
+  ],
+  "searchAliases": [
+    "living",
+    "pouf"
+  ],
+  "materialSlots": [
+    {
+      "id": "fabric",
+      "material": "fabric",
+      "recolourable": true
+    },
+    {
+      "id": "linen",
+      "material": "linen",
+      "recolourable": true
+    }
+  ],
+  "supportChecks": {
+    "method": "source-part upper-end ray to non-leg geometry, 15mm join tolerance",
+    "status": "pass",
+    "parts": [],
+    "limitation": "screening only; hidden joints, whole-model connectivity, load paths and safety remain visual/product-review concerns"
+  },
+  "materialFinish": {
+    "source": "materials/v1/manifest.json",
+    "repeatMetres": {
+      "wood": [
+        0.16,
+        0.75
+      ],
+      "fabric": [
+        0.14,
+        0.14
+      ],
+      "linen": [
+        0.12,
+        0.12
+      ]
+    },
+    "maps": "original base colour / roughness / tangent normal, embedded in GLB"
+  },
+  "appearanceVariants": [
+    {
+      "id": "ois.design.oval-floor-pouf.finish.sage",
+      "name": "Sage textile",
+      "materialOverrides": {
+        "fabric": {
+          "baseColorFactor": [
+            0.25,
+            0.37,
+            0.28,
+            1
+          ]
+        }
+      }
+    },
+    {
+      "id": "ois.design.oval-floor-pouf.finish.clay",
+      "name": "Clay textile",
+      "materialOverrides": {
+        "fabric": {
+          "baseColorFactor": [
+            0.45,
+            0.23,
+            0.15,
+            1
+          ]
+        }
+      }
+    }
+  ],
+  "variantColourTags": [
+    "sage green",
+    "clay brown"
+  ],
+  "variantCountNote": "appearance overrides share this one design; do not increase distinct count"
+}

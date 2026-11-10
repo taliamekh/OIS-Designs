@@ -1,0 +1,159 @@
+{
+  "id": "ois.design.braced-picnic-bench",
+  "sha256": "unexported-source-a6a97ed1ff18ea7190f4c07e8ea17b6dba901563a653d7aed874183539ef16c1",
+  "sourceModel": null,
+  "sourceSha256": "a6a97ed1ff18ea7190f4c07e8ea17b6dba901563a653d7aed874183539ef16c1",
+  "partCount": 12,
+  "componentCount": 6,
+  "components": [
+    {
+      "parts": [
+        "trestle",
+        "trestle.001",
+        "trestle lower tie",
+        "trestle.002",
+        "trestle.003",
+        "trestle lower tie.001",
+        "stretcher"
+      ],
+      "minimum": [
+        -0.49400001764297485,
+        -0.18764907121658325,
+        0.013358287513256073
+      ],
+      "maximum": [
+        0.49400001764297485,
+        0.18764901161193848,
+        0.4166417121887207
+      ]
+    },
+    {
+      "parts": [
+        "bench seat slat"
+      ],
+      "minimum": [
+        -0.7250000238418579,
+        -0.1940000057220459,
+        0.4274999797344208
+      ],
+      "maximum": [
+        0.7250000238418579,
+        -0.12599998712539673,
+        0.4724999964237213
+      ]
+    },
+    {
+      "parts": [
+        "bench seat slat.001"
+      ],
+      "minimum": [
+        -0.7250000238418579,
+        -0.11400000005960464,
+        0.4274999797344208
+      ],
+      "maximum": [
+        0.7250000238418579,
+        -0.04599999636411667,
+        0.4724999964237213
+      ]
+    },
+    {
+      "parts": [
+        "bench seat slat.002"
+      ],
+      "minimum": [
+        -0.7250000238418579,
+        -0.03400000184774399,
+        0.4274999797344208
+      ],
+      "maximum": [
+        0.7250000238418579,
+        0.03400000184774399,
+        0.4724999964237213
+      ]
+    },
+    {
+      "parts": [
+        "bench seat slat.003"
+      ],
+      "minimum": [
+        -0.7250000238418579,
+        0.04599999636411667,
+        0.4274999797344208
+      ],
+      "maximum": [
+        0.7250000238418579,
+        0.11400000005960464,
+        0.4724999964237213
+      ]
+    },
+    {
+      "parts": [
+        "bench seat slat.004"
+      ],
+      "minimum": [
+        -0.7250000238418579,
+        0.12599998712539673,
+        0.4274999797344208
+      ],
+      "maximum": [
+        0.7250000238418579,
+        0.1940000057220459,
+        0.4724999964237213
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "trestle.001",
+      "b": "trestle",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "trestle lower tie",
+      "b": "trestle",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "trestle lower tie",
+      "b": "trestle.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "trestle.003",
+      "b": "trestle.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "trestle lower tie.001",
+      "b": "trestle.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "trestle lower tie.001",
+      "b": "trestle.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "stretcher",
+      "b": "trestle lower tie",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "stretcher",
+      "b": "trestle lower tie.001",
+      "method": "triangle intersection",
+      "distance": 0
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; live-source reports are NOT exported-asset evidence; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T03:19:58Z"
+}

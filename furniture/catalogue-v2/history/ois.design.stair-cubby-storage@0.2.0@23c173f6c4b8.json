@@ -1,0 +1,147 @@
+{
+  "designId": "ois.design.stair-cubby-storage",
+  "familyId": "ois.family.stair-cubby-storage",
+  "id": "ois.design.stair-cubby-storage",
+  "name": "Stair cubby storage",
+  "roomTags": [
+    "children"
+  ],
+  "theme": "calm-oak",
+  "builder": "sculptural",
+  "parameters": {
+    "form": "stair-cubby",
+    "w": 1.2,
+    "d": 0.35,
+    "h": 1.2
+  },
+  "distinction": "Four stepped vertical banks contain one to four accessible cubbies.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted"
+  },
+  "constructionKey": "sculptural|stair-cubby|{}",
+  "sha256": "23c173f6c4b87cd6d70d622d77b7ef59177a6fb79e011c2a7fd61405d11e9e68",
+  "bytes": 219700,
+  "triangles": 4136,
+  "vertices": 6049,
+  "drawPrimitives": 1,
+  "bounds": {
+    "min": [
+      -0.6004999997094274,
+      0.0,
+      -0.17499999701976776
+    ],
+    "max": [
+      0.6005000472068787,
+      1.2250001281499863,
+      0.17499999701976776
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 1.201000046916306,
+    "depth": 0.3499999940395355,
+    "height": 1.2250001281499863
+  },
+  "footprint": [
+    [
+      -0.6004999997094274,
+      -0.17499999701976776
+    ],
+    [
+      0.6005000472068787,
+      -0.17499999701976776
+    ],
+    [
+      0.6005000472068787,
+      0.17499999701976776
+    ],
+    [
+      -0.6004999997094274,
+      0.17499999701976776
+    ]
+  ],
+  "variantSlots": [
+    "wood"
+  ],
+  "requiredExtensions": [],
+  "version": "0.2.0",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.stair-cubby-storage",
+  "file": "assets/v0.2.0/stair-cubby-storage.glb",
+  "sourceModel": "sources/v0.2.0/stair-cubby-storage.blend",
+  "thumbnail": "previews/v0.2.0/stair-cubby-storage.png",
+  "backThumbnail": "previews/v0.2.0/stair-cubby-storage-back.png",
+  "category": "sculptural-furniture",
+  "subtype": "stair-cubby",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "textures": {
+    "count": 0,
+    "bytes": 0
+  },
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.2.0/stair-cubby-storage.png",
+      "previews/v0.2.0/stair-cubby-storage-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.58,
+      0.39,
+      0.2
+    ],
+    [
+      0.73,
+      0.7,
+      0.61
+    ],
+    [
+      0.12,
+      0.14,
+      0.13
+    ]
+  ],
+  "colourTags": [
+    "pale oak",
+    "ivory",
+    "oatmeal"
+  ],
+  "materials": [
+    "wood"
+  ],
+  "searchAliases": [
+    "children",
+    "stair cubby"
+  ],
+  "materialSlots": [
+    {
+      "id": "wood",
+      "material": "wood",
+      "recolourable": true
+    }
+  ]
+}

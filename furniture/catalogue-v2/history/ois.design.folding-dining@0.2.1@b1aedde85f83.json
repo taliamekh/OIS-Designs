@@ -1,0 +1,170 @@
+{
+  "designId": "ois.design.folding-dining",
+  "familyId": "ois.family.folding-dining",
+  "id": "ois.design.folding-dining",
+  "name": "Folding dining chair",
+  "roomTags": [
+    "dining"
+  ],
+  "theme": "calm-oak",
+  "builder": "seating",
+  "parameters": {
+    "form": "folding",
+    "w": 0.46,
+    "d": 0.5,
+    "h": 0.84
+  },
+  "distinction": "Cross-braced folding leg mechanism beneath flat timber seat/back.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted",
+    "sourceSnapshot": "sources/pipeline-e797cb5c88af56f5.py",
+    "sourceSha256": "e797cb5c88af56f5b4455d819a512ab9be55f40e1fa2d0cb542aca7bb84b906f",
+    "parametersFile": "sources/v0.2.1/folding-dining.parameters.json"
+  },
+  "constructionKey": "seating|folding|{\"base\": \"taper\"}",
+  "sha256": "b1aedde85f83c608fde8fdd51b9ba81992ac22ab8f4160f8a7fa5aa1d937492e",
+  "bytes": 47540,
+  "triangles": 924,
+  "vertices": 1159,
+  "drawPrimitives": 4,
+  "bounds": {
+    "min": [
+      -0.2019999995827675,
+      1.756097303684534e-08,
+      -0.23949999548494816
+    ],
+    "max": [
+      0.20200003683567047,
+      0.8760262588502477,
+      0.25491987816817746
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 0.40400003641843796,
+    "depth": 0.4944198736531256,
+    "height": 0.8760262412892746
+  },
+  "footprint": [
+    [
+      -0.2019999995827675,
+      -0.23949999548494816
+    ],
+    [
+      0.20200003683567047,
+      -0.23949999548494816
+    ],
+    [
+      0.20200003683567047,
+      0.25491987816817746
+    ],
+    [
+      -0.2019999995827675,
+      0.25491987816817746
+    ]
+  ],
+  "variantSlots": [
+    "fabric",
+    "linen",
+    "metal",
+    "wood"
+  ],
+  "requiredExtensions": [],
+  "version": "0.2.1",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.folding-dining",
+  "file": "assets/v0.2.1/folding-dining.glb",
+  "sourceModel": "sources/v0.2.1/folding-dining.blend",
+  "thumbnail": "previews/v0.2.1/folding-dining.png",
+  "backThumbnail": "previews/v0.2.1/folding-dining-back.png",
+  "category": "seating",
+  "subtype": "folding",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "textures": {
+    "count": 0,
+    "bytes": 0
+  },
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.2.1/folding-dining.png",
+      "previews/v0.2.1/folding-dining-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.58,
+      0.39,
+      0.2
+    ],
+    [
+      0.73,
+      0.7,
+      0.61
+    ],
+    [
+      0.12,
+      0.14,
+      0.13
+    ]
+  ],
+  "colourTags": [
+    "pale oak",
+    "ivory",
+    "oatmeal"
+  ],
+  "materials": [
+    "metal",
+    "textile",
+    "wood"
+  ],
+  "searchAliases": [
+    "dining",
+    "folding"
+  ],
+  "materialSlots": [
+    {
+      "id": "fabric",
+      "material": "fabric",
+      "recolourable": true
+    },
+    {
+      "id": "linen",
+      "material": "linen",
+      "recolourable": true
+    },
+    {
+      "id": "metal",
+      "material": "metal",
+      "recolourable": true
+    },
+    {
+      "id": "wood",
+      "material": "wood",
+      "recolourable": true
+    }
+  ]
+}

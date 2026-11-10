@@ -1,0 +1,127 @@
+{
+  "id": "ois.design.wave-bookcase",
+  "sha256": "779815eeb44dbfd5b53675a0ceeb772ed5b2c3a8d0a8010ebc90b91a4a02ecae",
+  "sourceModel": "sources/v0.5.0/wave-bookcase.blend",
+  "sourceSha256": "7fed452ce3a1fe8ce9176dafb82b8aa82400ee61adef2e7dc428ce475db04dfb",
+  "partCount": 8,
+  "componentCount": 1,
+  "components": [
+    {
+      "parts": [
+        "shelf mast",
+        "shelf mast.001",
+        "shelf mast.002",
+        "continuous wave shelf",
+        "continuous wave shelf.001",
+        "continuous wave shelf.002",
+        "continuous wave shelf.003",
+        "continuous wave shelf.004"
+      ],
+      "minimum": [
+        -0.7029478549957275,
+        -0.15000000596046448,
+        0.0
+      ],
+      "maximum": [
+        0.7029478549957275,
+        0.15000000596046448,
+        1.6799999475479126
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "continuous wave shelf",
+      "b": "shelf mast",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "continuous wave shelf",
+      "b": "shelf mast.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "continuous wave shelf",
+      "b": "shelf mast.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "continuous wave shelf.001",
+      "b": "shelf mast",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "continuous wave shelf.001",
+      "b": "shelf mast.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "continuous wave shelf.001",
+      "b": "shelf mast.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "continuous wave shelf.002",
+      "b": "shelf mast",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "continuous wave shelf.002",
+      "b": "shelf mast.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "continuous wave shelf.002",
+      "b": "shelf mast.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "continuous wave shelf.003",
+      "b": "shelf mast",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "continuous wave shelf.003",
+      "b": "shelf mast.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "continuous wave shelf.003",
+      "b": "shelf mast.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "continuous wave shelf.004",
+      "b": "shelf mast",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "continuous wave shelf.004",
+      "b": "shelf mast.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "continuous wave shelf.004",
+      "b": "shelf mast.002",
+      "method": "triangle intersection",
+      "distance": 0
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T03:07:35Z"
+}

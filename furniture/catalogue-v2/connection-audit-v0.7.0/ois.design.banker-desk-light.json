@@ -1,0 +1,89 @@
+{
+  "id": "ois.design.banker-desk-light",
+  "sha256": "a2ca0ea289c68006f8dcadaaf22f76f9edc8e48b62283c1eb8ded12d3064aa19",
+  "sourceModel": "sources/v0.7.0/banker-desk-light.blend",
+  "sourceSha256": "cb61e1f2ede142635f1495b04c33e6e502220647c4fb0432a656262090438385",
+  "partCount": 6,
+  "componentCount": 1,
+  "components": [
+    {
+      "parts": [
+        "weighted base",
+        "stem",
+        "banker shade",
+        "shade bracket",
+        "shade bracket.001",
+        "lamp socket mast"
+      ],
+      "minimum": [
+        -0.20999999344348907,
+        -0.12999999523162842,
+        0.0
+      ],
+      "maximum": [
+        0.20999999344348907,
+        0.12999999523162842,
+        0.4150000214576721
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "stem",
+      "b": "weighted base",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "banker shade",
+      "b": "stem",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "shade bracket",
+      "b": "stem",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "shade bracket",
+      "b": "banker shade",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "shade bracket.001",
+      "b": "stem",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "shade bracket.001",
+      "b": "banker shade",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "shade bracket.001",
+      "b": "shade bracket",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "lamp socket mast",
+      "b": "banker shade",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "lamp socket mast",
+      "b": "shade bracket.001",
+      "method": "triangle intersection",
+      "distance": 0
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; live-source reports are NOT exported-asset evidence; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T03:51:55Z"
+}

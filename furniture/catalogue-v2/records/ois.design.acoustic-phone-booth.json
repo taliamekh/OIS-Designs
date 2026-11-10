@@ -1,0 +1,163 @@
+{
+  "designId": "ois.design.acoustic-phone-booth",
+  "familyId": "ois.family.acoustic-phone-booth",
+  "id": "ois.design.acoustic-phone-booth",
+  "name": "Acoustic phone booth",
+  "roomTags": [
+    "office"
+  ],
+  "theme": "city-loft",
+  "builder": "functional",
+  "parameters": {
+    "form": "acoustic-booth",
+    "w": 1.05,
+    "d": 1.0,
+    "h": 1.95
+  },
+  "distinction": "Floor, roof and padded sides enclose a desk and fixed seat; front remains open.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted",
+    "sourceSnapshot": "sources/pipeline-e797cb5c88af56f5.py",
+    "sourceSha256": "e797cb5c88af56f5b4455d819a512ab9be55f40e1fa2d0cb542aca7bb84b906f",
+    "parametersFile": "sources/v0.2.1/acoustic-phone-booth.parameters.json"
+  },
+  "constructionKey": "functional|acoustic-booth|{}",
+  "sha256": "0fcc97a1f71239fc47e92ce5d3639a3f3fe536e8ba07383cec02015c998113c4",
+  "bytes": 79980,
+  "triangles": 1504,
+  "vertices": 2108,
+  "drawPrimitives": 3,
+  "bounds": {
+    "min": [
+      -0.5600000023841858,
+      0.0,
+      -0.5
+    ],
+    "max": [
+      0.5600000023841858,
+      1.9850000143051147,
+      0.5350000001490116
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 1.1200000047683716,
+    "depth": 1.0350000001490116,
+    "height": 1.9850000143051147
+  },
+  "footprint": [
+    [
+      -0.5600000023841858,
+      -0.5
+    ],
+    [
+      0.5600000023841858,
+      -0.5
+    ],
+    [
+      0.5600000023841858,
+      0.5350000001490116
+    ],
+    [
+      -0.5600000023841858,
+      0.5350000001490116
+    ]
+  ],
+  "variantSlots": [
+    "fabric",
+    "linen",
+    "wood"
+  ],
+  "requiredExtensions": [],
+  "version": "0.2.1",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.acoustic-phone-booth",
+  "file": "assets/v0.2.1/acoustic-phone-booth.glb",
+  "sourceModel": "sources/v0.2.1/acoustic-phone-booth.blend",
+  "thumbnail": "previews/v0.2.1/acoustic-phone-booth.png",
+  "backThumbnail": "previews/v0.2.1/acoustic-phone-booth-back.png",
+  "category": "functional-furniture",
+  "subtype": "acoustic-booth",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "textures": {
+    "count": 0,
+    "bytes": 0
+  },
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.2.1/acoustic-phone-booth.png",
+      "previews/v0.2.1/acoustic-phone-booth-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.23,
+      0.15,
+      0.09
+    ],
+    [
+      0.12,
+      0.14,
+      0.16
+    ],
+    [
+      0.045,
+      0.05,
+      0.055
+    ]
+  ],
+  "colourTags": [
+    "charcoal",
+    "black",
+    "weathered wood"
+  ],
+  "materials": [
+    "textile",
+    "wood"
+  ],
+  "searchAliases": [
+    "office",
+    "acoustic booth"
+  ],
+  "materialSlots": [
+    {
+      "id": "fabric",
+      "material": "fabric",
+      "recolourable": true
+    },
+    {
+      "id": "linen",
+      "material": "linen",
+      "recolourable": true
+    },
+    {
+      "id": "wood",
+      "material": "wood",
+      "recolourable": true
+    }
+  ]
+}

@@ -1,0 +1,183 @@
+{
+  "id": "ois.design.pullout-trundle-bed",
+  "sha256": "unexported-source-732771aeb2eadd33599208170e38ff4e50d68878cbfb6795c9473e6f8553f36b",
+  "sourceModel": null,
+  "sourceSha256": "732771aeb2eadd33599208170e38ff4e50d68878cbfb6795c9473e6f8553f36b",
+  "partCount": 20,
+  "componentCount": 2,
+  "components": [
+    {
+      "parts": [
+        "leg",
+        "leg.001",
+        "leg.002",
+        "leg.003",
+        "frame",
+        "mattress",
+        "piping",
+        "duvet",
+        "pillow",
+        "piping.001",
+        "pillow.001",
+        "piping.002",
+        "headboard"
+      ],
+      "minimum": [
+        -0.8128688931465149,
+        -1.1059999465942383,
+        0.00801748689264059
+      ],
+      "maximum": [
+        0.8128688931465149,
+        1.08738374710083,
+        1.1399999856948853
+      ]
+    },
+    {
+      "parts": [
+        "pullout frame",
+        "trundle mattress",
+        "piping.003",
+        "trundle caster",
+        "trundle caster.001",
+        "trundle caster.002",
+        "trundle caster.003"
+      ],
+      "minimum": [
+        0.8019999861717224,
+        -1.0125000476837158,
+        0.0
+      ],
+      "maximum": [
+        1.8671998977661133,
+        1.0125000476837158,
+        0.28999999165534973
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "frame",
+      "b": "leg",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "frame",
+      "b": "leg.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "frame",
+      "b": "leg.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "frame",
+      "b": "leg.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "mattress",
+      "b": "frame",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "piping",
+      "b": "mattress",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "duvet",
+      "b": "mattress",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pillow",
+      "b": "mattress",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "piping.001",
+      "b": "pillow",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pillow.001",
+      "b": "mattress",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "piping.002",
+      "b": "pillow.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "headboard",
+      "b": "leg",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "headboard",
+      "b": "leg.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "headboard",
+      "b": "frame",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "trundle mattress",
+      "b": "pullout frame",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "piping.003",
+      "b": "trundle mattress",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "trundle caster",
+      "b": "pullout frame",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "trundle caster.001",
+      "b": "pullout frame",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "trundle caster.002",
+      "b": "pullout frame",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "trundle caster.003",
+      "b": "pullout frame",
+      "method": "triangle intersection",
+      "distance": 0
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; live-source reports are NOT exported-asset evidence; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T03:27:56Z"
+}

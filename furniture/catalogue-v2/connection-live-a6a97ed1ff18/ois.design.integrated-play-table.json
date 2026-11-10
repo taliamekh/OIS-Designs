@@ -1,0 +1,172 @@
+{
+  "id": "ois.design.integrated-play-table",
+  "sha256": "unexported-source-a6a97ed1ff18ea7190f4c07e8ea17b6dba901563a653d7aed874183539ef16c1",
+  "sourceModel": null,
+  "sourceSha256": "a6a97ed1ff18ea7190f4c07e8ea17b6dba901563a653d7aed874183539ef16c1",
+  "partCount": 15,
+  "componentCount": 2,
+  "components": [
+    {
+      "parts": [
+        "table foot",
+        "centre mast",
+        "integrated wedge seat base",
+        "wedge cushion",
+        "fixed seat outrigger",
+        "integrated wedge seat base.001",
+        "wedge cushion.001",
+        "fixed seat outrigger.001",
+        "integrated wedge seat base.002",
+        "wedge cushion.002",
+        "fixed seat outrigger.002",
+        "integrated wedge seat base.003",
+        "wedge cushion.003",
+        "fixed seat outrigger.003"
+      ],
+      "minimum": [
+        -0.7807179689407349,
+        -0.7807179689407349,
+        0.0
+      ],
+      "maximum": [
+        0.7807179689407349,
+        0.7807179689407349,
+        0.5199999809265137
+      ]
+    },
+    {
+      "parts": [
+        "round play top"
+      ],
+      "minimum": [
+        -0.4749999940395355,
+        -0.4749999940395355,
+        0.5275000333786011
+      ],
+      "maximum": [
+        0.4749999940395355,
+        0.4749999940395355,
+        0.5724999904632568
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "centre mast",
+      "b": "table foot",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "wedge cushion",
+      "b": "integrated wedge seat base",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "fixed seat outrigger",
+      "b": "centre mast",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "fixed seat outrigger",
+      "b": "integrated wedge seat base",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "wedge cushion.001",
+      "b": "integrated wedge seat base.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "fixed seat outrigger.001",
+      "b": "centre mast",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "fixed seat outrigger.001",
+      "b": "fixed seat outrigger",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "fixed seat outrigger.001",
+      "b": "integrated wedge seat base.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "wedge cushion.002",
+      "b": "integrated wedge seat base.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "fixed seat outrigger.002",
+      "b": "centre mast",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "fixed seat outrigger.002",
+      "b": "fixed seat outrigger",
+      "method": "surface distance",
+      "distance": 4.3895539647564874e-08
+    },
+    {
+      "a": "fixed seat outrigger.002",
+      "b": "fixed seat outrigger.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "fixed seat outrigger.002",
+      "b": "integrated wedge seat base.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "wedge cushion.003",
+      "b": "integrated wedge seat base.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "fixed seat outrigger.003",
+      "b": "centre mast",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "fixed seat outrigger.003",
+      "b": "fixed seat outrigger",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "fixed seat outrigger.003",
+      "b": "fixed seat outrigger.001",
+      "method": "surface distance",
+      "distance": 4.3895539647564874e-08
+    },
+    {
+      "a": "fixed seat outrigger.003",
+      "b": "fixed seat outrigger.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "fixed seat outrigger.003",
+      "b": "integrated wedge seat base.003",
+      "method": "triangle intersection",
+      "distance": 0
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; live-source reports are NOT exported-asset evidence; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T03:20:01Z"
+}

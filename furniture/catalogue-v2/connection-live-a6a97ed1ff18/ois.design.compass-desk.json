@@ -1,0 +1,153 @@
+{
+  "id": "ois.design.compass-desk",
+  "sha256": "unexported-source-a6a97ed1ff18ea7190f4c07e8ea17b6dba901563a653d7aed874183539ef16c1",
+  "sourceModel": null,
+  "sourceSha256": "a6a97ed1ff18ea7190f4c07e8ea17b6dba901563a653d7aed874183539ef16c1",
+  "partCount": 10,
+  "componentCount": 1,
+  "components": [
+    {
+      "parts": [
+        "desktop",
+        "tapered compass plank",
+        "tapered compass plank.001",
+        "low compass pivot",
+        "compass top beam",
+        "tapered compass plank.002",
+        "tapered compass plank.003",
+        "low compass pivot.001",
+        "compass top beam.001",
+        "under-top spine"
+      ],
+      "minimum": [
+        -0.699999988079071,
+        -0.3499999940395355,
+        0.0
+      ],
+      "maximum": [
+        0.699999988079071,
+        0.3499999940395355,
+        0.75
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "tapered compass plank",
+      "b": "desktop",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "tapered compass plank.001",
+      "b": "desktop",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "tapered compass plank.001",
+      "b": "tapered compass plank",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "low compass pivot",
+      "b": "tapered compass plank",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "low compass pivot",
+      "b": "tapered compass plank.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "compass top beam",
+      "b": "desktop",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "compass top beam",
+      "b": "tapered compass plank",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "compass top beam",
+      "b": "tapered compass plank.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "tapered compass plank.002",
+      "b": "desktop",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "tapered compass plank.003",
+      "b": "desktop",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "tapered compass plank.003",
+      "b": "tapered compass plank.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "low compass pivot.001",
+      "b": "tapered compass plank.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "low compass pivot.001",
+      "b": "tapered compass plank.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "compass top beam.001",
+      "b": "desktop",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "compass top beam.001",
+      "b": "tapered compass plank.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "compass top beam.001",
+      "b": "tapered compass plank.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "under-top spine",
+      "b": "desktop",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "under-top spine",
+      "b": "compass top beam",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "under-top spine",
+      "b": "compass top beam.001",
+      "method": "triangle intersection",
+      "distance": 0
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; live-source reports are NOT exported-asset evidence; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T03:20:01Z"
+}

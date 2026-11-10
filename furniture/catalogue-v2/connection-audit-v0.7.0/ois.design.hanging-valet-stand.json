@@ -1,0 +1,91 @@
+{
+  "id": "ois.design.hanging-valet-stand",
+  "sha256": "20ff9f9a1cb33bda568e58ac1408e753ef477e580bf093639850bb24ba3ef08d",
+  "sourceModel": "sources/v0.7.0/hanging-valet-stand.blend",
+  "sourceSha256": "63996106bb4a5933a05eecb7c3b4e5d3dec8b79e75a3cdf9512ea01c6ead9302",
+  "partCount": 8,
+  "componentCount": 1,
+  "components": [
+    {
+      "parts": [
+        "valet sled",
+        "valet sled.001",
+        "valet crossmember",
+        "valet upright",
+        "shoulder hanger",
+        "trouser rail",
+        "trouser bracket",
+        "trouser bracket.001"
+      ],
+      "minimum": [
+        -0.24382425844669342,
+        -0.17499999701976776,
+        0.0
+      ],
+      "maximum": [
+        0.24382425844669342,
+        0.17599999904632568,
+        1.225000023841858
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "valet crossmember",
+      "b": "valet sled",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "valet crossmember",
+      "b": "valet sled.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "valet upright",
+      "b": "valet crossmember",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "shoulder hanger",
+      "b": "valet upright",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "trouser bracket",
+      "b": "valet upright",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "trouser bracket",
+      "b": "trouser rail",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "trouser bracket.001",
+      "b": "valet upright",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "trouser bracket.001",
+      "b": "trouser rail",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "trouser bracket.001",
+      "b": "trouser bracket",
+      "method": "triangle intersection",
+      "distance": 0
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; live-source reports are NOT exported-asset evidence; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T03:51:56Z"
+}

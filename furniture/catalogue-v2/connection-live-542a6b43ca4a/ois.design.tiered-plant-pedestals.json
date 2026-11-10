@@ -1,0 +1,72 @@
+{
+  "id": "ois.design.tiered-plant-pedestals",
+  "sha256": "unexported-source-542a6b43ca4abc9d4f4ac88dc7bd803746dd198c350ababac32d73431ffd328b",
+  "sourceModel": null,
+  "sourceSha256": "542a6b43ca4abc9d4f4ac88dc7bd803746dd198c350ababac32d73431ffd328b",
+  "partCount": 7,
+  "componentCount": 1,
+  "components": [
+    {
+      "parts": [
+        "plant post",
+        "plant tray",
+        "plant post.001",
+        "plant tray.001",
+        "plant post.002",
+        "plant tray.002",
+        "base"
+      ],
+      "minimum": [
+        -0.4099999964237213,
+        -0.2150000035762787,
+        0.0
+      ],
+      "maximum": [
+        0.4099999964237213,
+        0.2150000035762787,
+        0.9925000071525574
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "plant tray",
+      "b": "plant post",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "plant tray.001",
+      "b": "plant post.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "plant tray.002",
+      "b": "plant post.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "base",
+      "b": "plant post",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "base",
+      "b": "plant post.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "base",
+      "b": "plant post.002",
+      "method": "triangle intersection",
+      "distance": 0
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; live-source reports are NOT exported-asset evidence; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T03:32:20Z"
+}

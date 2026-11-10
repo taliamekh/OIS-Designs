@@ -1,0 +1,152 @@
+{
+  "designId": "ois.design.ring-hat-stand",
+  "familyId": "ois.family.ring-hat-stand",
+  "id": "ois.design.ring-hat-stand",
+  "name": "Hat ring stand",
+  "roomTags": [
+    "entry-hall"
+  ],
+  "theme": "walnut-form",
+  "builder": "special",
+  "parameters": {
+    "form": "hat-stand",
+    "h": 1.78
+  },
+  "distinction": "Hat ring and radial coat branches share a turned centre stem.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted"
+  },
+  "constructionKey": "special|hat-stand|{\"cols\": 1, \"front\": \"cane\", \"panels\": 3}",
+  "sha256": "320ff55ce19a238b0ae92f40160462a67eafabc8fc6d0c493d86da02a5d27397",
+  "bytes": 127428,
+  "triangles": 4604,
+  "vertices": 3044,
+  "drawPrimitives": 2,
+  "bounds": {
+    "min": [
+      -0.2724999785423345,
+      -1.862645149230957e-09,
+      -0.2540000081062317
+    ],
+    "max": [
+      0.2725000083446566,
+      1.7799999713897705,
+      0.2540000081062317
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 0.544999986886991,
+    "depth": 0.5080000162124634,
+    "height": 1.7799999732524157
+  },
+  "footprint": [
+    [
+      -0.2724999785423345,
+      -0.2540000081062317
+    ],
+    [
+      0.2725000083446566,
+      -0.2540000081062317
+    ],
+    [
+      0.2725000083446566,
+      0.2540000081062317
+    ],
+    [
+      -0.2724999785423345,
+      0.2540000081062317
+    ]
+  ],
+  "variantSlots": [
+    "metal",
+    "wood"
+  ],
+  "requiredExtensions": [],
+  "version": "0.2.0",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.ring-hat-stand",
+  "file": "assets/v0.2.0/ring-hat-stand.glb",
+  "sourceModel": "sources/v0.2.0/ring-hat-stand.blend",
+  "thumbnail": "previews/v0.2.0/ring-hat-stand.png",
+  "backThumbnail": "previews/v0.2.0/ring-hat-stand-back.png",
+  "category": "specialty",
+  "subtype": "hat-stand",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "textures": {
+    "count": 0,
+    "bytes": 0
+  },
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.2.0/ring-hat-stand.png",
+      "previews/v0.2.0/ring-hat-stand-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.22,
+      0.09,
+      0.038
+    ],
+    [
+      0.39,
+      0.18,
+      0.07
+    ],
+    [
+      0.47,
+      0.3,
+      0.1
+    ]
+  ],
+  "colourTags": [
+    "walnut",
+    "tobacco",
+    "brass"
+  ],
+  "materials": [
+    "metal",
+    "wood"
+  ],
+  "searchAliases": [
+    "entry hall",
+    "hat stand"
+  ],
+  "materialSlots": [
+    {
+      "id": "metal",
+      "material": "metal",
+      "recolourable": true
+    },
+    {
+      "id": "wood",
+      "material": "wood",
+      "recolourable": true
+    }
+  ]
+}

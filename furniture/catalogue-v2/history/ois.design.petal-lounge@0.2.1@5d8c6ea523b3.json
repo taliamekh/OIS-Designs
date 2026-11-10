@@ -1,0 +1,156 @@
+{
+  "designId": "ois.design.petal-lounge",
+  "familyId": "ois.family.petal-lounge",
+  "id": "ois.design.petal-lounge",
+  "name": "Petal lounge chair",
+  "roomTags": [
+    "living"
+  ],
+  "theme": "coastal-linen",
+  "builder": "seating",
+  "parameters": {
+    "form": "petal",
+    "w": 0.8,
+    "h": 0.92
+  },
+  "distinction": "Curved shell with separate raised petal wings.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted",
+    "sourceSnapshot": "sources/pipeline-b3621415215e45c7.py",
+    "sourceSha256": "b3621415215e45c7b5194102a3db7926d719026fb1f967ab518c02160232143f",
+    "parametersFile": "sources/v0.2.1/petal-lounge.parameters.json"
+  },
+  "constructionKey": "seating|petal|{\"base\": \"taper\"}",
+  "sha256": "5d8c6ea523b396ea641eed9868643cabd71a3350ee4066e7fda73dc93566f8f8",
+  "bytes": 59620,
+  "triangles": 2120,
+  "vertices": 1383,
+  "drawPrimitives": 2,
+  "bounds": {
+    "min": [
+      -0.3991435832816137,
+      -1.0670455630190645e-08,
+      -0.32445635448650734
+    ],
+    "max": [
+      0.3991435832816137,
+      0.9091215507189432,
+      0.38000000034664794
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 0.7982871665632274,
+    "depth": 0.7044563548331553,
+    "height": 0.9091215613893988
+  },
+  "footprint": [
+    [
+      -0.3991435832816137,
+      -0.32445635448650734
+    ],
+    [
+      0.3991435832816137,
+      -0.32445635448650734
+    ],
+    [
+      0.3991435832816137,
+      0.38000000034664794
+    ],
+    [
+      -0.3991435832816137,
+      0.38000000034664794
+    ]
+  ],
+  "variantSlots": [
+    "fabric",
+    "wood"
+  ],
+  "requiredExtensions": [],
+  "version": "0.2.1",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.petal-lounge",
+  "file": "assets/v0.2.1/petal-lounge.glb",
+  "sourceModel": "sources/v0.2.1/petal-lounge.blend",
+  "thumbnail": "previews/v0.2.1/petal-lounge.png",
+  "backThumbnail": "previews/v0.2.1/petal-lounge-back.png",
+  "category": "seating",
+  "subtype": "petal",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "textures": {
+    "count": 0,
+    "bytes": 0
+  },
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.2.1/petal-lounge.png",
+      "previews/v0.2.1/petal-lounge-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.66,
+      0.53,
+      0.34
+    ],
+    [
+      0.36,
+      0.53,
+      0.58
+    ],
+    [
+      0.64,
+      0.6,
+      0.48
+    ]
+  ],
+  "colourTags": [
+    "mist blue",
+    "sand",
+    "pale oak"
+  ],
+  "materials": [
+    "textile",
+    "wood"
+  ],
+  "searchAliases": [
+    "living",
+    "petal"
+  ],
+  "materialSlots": [
+    {
+      "id": "fabric",
+      "material": "fabric",
+      "recolourable": true
+    },
+    {
+      "id": "wood",
+      "material": "wood",
+      "recolourable": true
+    }
+  ]
+}

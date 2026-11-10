@@ -1,0 +1,306 @@
+{
+  "id": "ois.design.rolling-art-pots",
+  "sha256": "unexported-source-a6a97ed1ff18ea7190f4c07e8ea17b6dba901563a653d7aed874183539ef16c1",
+  "sourceModel": null,
+  "sourceSha256": "a6a97ed1ff18ea7190f4c07e8ea17b6dba901563a653d7aed874183539ef16c1",
+  "partCount": 25,
+  "componentCount": 4,
+  "components": [
+    {
+      "parts": [
+        "top",
+        "sled frame",
+        "sled frame.001",
+        "lower tray",
+        "caster",
+        "caster.001",
+        "caster.002",
+        "caster.003",
+        "push handle",
+        "undershelf"
+      ],
+      "minimum": [
+        -0.375,
+        -0.20000000298023224,
+        0.0
+      ],
+      "maximum": [
+        0.36000001430511475,
+        0.20000000298023224,
+        0.8436970710754395
+      ]
+    },
+    {
+      "parts": [
+        "art pot bottom",
+        "art pot side",
+        "art pot side.001",
+        "art pot end",
+        "art pot end.001"
+      ],
+      "minimum": [
+        -0.3059999942779541,
+        -0.09000000357627869,
+        0.7049999833106995
+      ],
+      "maximum": [
+        -0.12600000202655792,
+        0.09000000357627869,
+        0.824999988079071
+      ]
+    },
+    {
+      "parts": [
+        "art pot bottom.001",
+        "art pot side.002",
+        "art pot side.003",
+        "art pot end.002",
+        "art pot end.003"
+      ],
+      "minimum": [
+        -0.09000000357627869,
+        -0.09000000357627869,
+        0.7049999833106995
+      ],
+      "maximum": [
+        0.09000000357627869,
+        0.09000000357627869,
+        0.824999988079071
+      ]
+    },
+    {
+      "parts": [
+        "art pot bottom.002",
+        "art pot side.004",
+        "art pot side.005",
+        "art pot end.004",
+        "art pot end.005"
+      ],
+      "minimum": [
+        0.12600000202655792,
+        -0.09000000357627869,
+        0.7049999833106995
+      ],
+      "maximum": [
+        0.3059999942779541,
+        0.09000000357627869,
+        0.824999988079071
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "sled frame",
+      "b": "top",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "sled frame.001",
+      "b": "top",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "lower tray",
+      "b": "sled frame",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "lower tray",
+      "b": "sled frame.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "caster",
+      "b": "sled frame",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "caster.001",
+      "b": "sled frame",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "caster.002",
+      "b": "sled frame.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "caster.003",
+      "b": "sled frame.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "push handle",
+      "b": "top",
+      "method": "surface distance",
+      "distance": 0.0019108179258182645
+    },
+    {
+      "a": "undershelf",
+      "b": "sled frame",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "undershelf",
+      "b": "sled frame.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "art pot side",
+      "b": "art pot bottom",
+      "method": "surface distance",
+      "distance": 2.9802322387695312e-08
+    },
+    {
+      "a": "art pot side.001",
+      "b": "art pot bottom",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "art pot end",
+      "b": "art pot bottom",
+      "method": "surface distance",
+      "distance": 3.725290298461914e-09
+    },
+    {
+      "a": "art pot end",
+      "b": "art pot side",
+      "method": "surface distance",
+      "distance": 2.9802322387695312e-08
+    },
+    {
+      "a": "art pot end",
+      "b": "art pot side.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "art pot end.001",
+      "b": "art pot bottom",
+      "method": "surface distance",
+      "distance": 3.725290298461914e-09
+    },
+    {
+      "a": "art pot end.001",
+      "b": "art pot side",
+      "method": "surface distance",
+      "distance": 2.9802322387695312e-08
+    },
+    {
+      "a": "art pot end.001",
+      "b": "art pot side.001",
+      "method": "surface distance",
+      "distance": 0.0
+    },
+    {
+      "a": "art pot side.002",
+      "b": "art pot bottom.001",
+      "method": "surface distance",
+      "distance": 3.725290298461914e-09
+    },
+    {
+      "a": "art pot side.003",
+      "b": "art pot bottom.001",
+      "method": "surface distance",
+      "distance": 3.725290298461914e-09
+    },
+    {
+      "a": "art pot end.002",
+      "b": "art pot bottom.001",
+      "method": "surface distance",
+      "distance": 3.725290298461914e-09
+    },
+    {
+      "a": "art pot end.002",
+      "b": "art pot side.002",
+      "method": "surface distance",
+      "distance": 3.725290298461914e-09
+    },
+    {
+      "a": "art pot end.002",
+      "b": "art pot side.003",
+      "method": "surface distance",
+      "distance": 3.725290298461914e-09
+    },
+    {
+      "a": "art pot end.003",
+      "b": "art pot bottom.001",
+      "method": "surface distance",
+      "distance": 3.725290298461914e-09
+    },
+    {
+      "a": "art pot end.003",
+      "b": "art pot side.002",
+      "method": "surface distance",
+      "distance": 3.725290298461914e-09
+    },
+    {
+      "a": "art pot end.003",
+      "b": "art pot side.003",
+      "method": "surface distance",
+      "distance": 3.725290298461914e-09
+    },
+    {
+      "a": "art pot side.004",
+      "b": "art pot bottom.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "art pot side.005",
+      "b": "art pot bottom.002",
+      "method": "surface distance",
+      "distance": 2.9802322387695312e-08
+    },
+    {
+      "a": "art pot end.004",
+      "b": "art pot bottom.002",
+      "method": "surface distance",
+      "distance": 3.725290298461914e-09
+    },
+    {
+      "a": "art pot end.004",
+      "b": "art pot side.004",
+      "method": "surface distance",
+      "distance": 0.0
+    },
+    {
+      "a": "art pot end.004",
+      "b": "art pot side.005",
+      "method": "surface distance",
+      "distance": 2.9802322387695312e-08
+    },
+    {
+      "a": "art pot end.005",
+      "b": "art pot bottom.002",
+      "method": "surface distance",
+      "distance": 3.725290298461914e-09
+    },
+    {
+      "a": "art pot end.005",
+      "b": "art pot side.004",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "art pot end.005",
+      "b": "art pot side.005",
+      "method": "surface distance",
+      "distance": 2.9802322387695312e-08
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; live-source reports are NOT exported-asset evidence; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T03:19:29Z"
+}

@@ -1,0 +1,161 @@
+{
+  "designId": "ois.design.shell-dining",
+  "familyId": "ois.family.shell-dining",
+  "id": "ois.design.shell-dining",
+  "name": "Curved shell dining chair",
+  "roomTags": [
+    "dining"
+  ],
+  "theme": "soft-japandi",
+  "builder": "seating",
+  "parameters": {
+    "form": "shell",
+    "w": 0.54,
+    "d": 0.54,
+    "h": 0.82
+  },
+  "distinction": "Thin continuous curved shell wraps behind a separate padded seat.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted"
+  },
+  "sha256": "6c486e1535590a4ced14a151af19d8f2ae487b9841fecc775df446e90b9eb186",
+  "bytes": 39192,
+  "triangles": 912,
+  "vertices": 943,
+  "drawPrimitives": 3,
+  "bounds": {
+    "min": [
+      -0.27000001072883606,
+      -1.0041931675086602e-08,
+      -0.24720000475645065
+    ],
+    "max": [
+      0.27000001072883606,
+      0.8087123930454254,
+      0.27000000327825546
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 0.5400000214576721,
+    "depth": 0.5172000080347061,
+    "height": 0.8087124030873571
+  },
+  "footprint": [
+    [
+      -0.27000001072883606,
+      -0.24720000475645065
+    ],
+    [
+      0.27000001072883606,
+      -0.24720000475645065
+    ],
+    [
+      0.27000001072883606,
+      0.27000000327825546
+    ],
+    [
+      -0.27000001072883606,
+      0.27000000327825546
+    ]
+  ],
+  "variantSlots": [
+    "fabric",
+    "linen",
+    "wood"
+  ],
+  "requiredExtensions": [],
+  "version": "0.2.0",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.shell-dining",
+  "file": "assets/v0.2.0/shell-dining.glb",
+  "sourceModel": "sources/v0.2.0/shell-dining.blend",
+  "thumbnail": "previews/v0.2.0/shell-dining.png",
+  "backThumbnail": "previews/v0.2.0/shell-dining-back.png",
+  "category": "seating",
+  "subtype": "shell",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "textures": {
+    "count": 0,
+    "bytes": 0
+  },
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.2.0/shell-dining.png",
+      "previews/v0.2.0/shell-dining-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.34,
+      0.28,
+      0.19
+    ],
+    [
+      0.58,
+      0.54,
+      0.44
+    ],
+    [
+      0.15,
+      0.17,
+      0.15
+    ]
+  ],
+  "colourTags": [
+    "ash",
+    "flax",
+    "stone"
+  ],
+  "materials": [
+    "textile",
+    "wood"
+  ],
+  "searchAliases": [
+    "dining",
+    "shell"
+  ],
+  "materialSlots": [
+    {
+      "id": "fabric",
+      "material": "fabric",
+      "recolourable": true
+    },
+    {
+      "id": "linen",
+      "material": "linen",
+      "recolourable": true
+    },
+    {
+      "id": "wood",
+      "material": "wood",
+      "recolourable": true
+    }
+  ],
+  "geometryHash": "b4f4beb82d27ccc02b2c054c625c7bf129a5074f389616cefbba248d7d116b7f",
+  "normalizedMirrorGeometryHash": "04b03667a68c9bf0f3e2447d86bcf59fd59b8358b628ee3f14b92c0a7f9ff00d"
+}

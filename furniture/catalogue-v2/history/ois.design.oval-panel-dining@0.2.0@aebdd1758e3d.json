@@ -1,0 +1,149 @@
+{
+  "designId": "ois.design.oval-panel-dining",
+  "familyId": "ois.family.oval-panel-dining",
+  "id": "ois.design.oval-panel-dining",
+  "name": "Oval panel-leg dining table",
+  "roomTags": [
+    "dining"
+  ],
+  "theme": "calm-oak",
+  "builder": "table",
+  "parameters": {
+    "form": "panel",
+    "w": 1.65,
+    "d": 0.88,
+    "h": 0.75,
+    "shape": "oval"
+  },
+  "distinction": "Wide vertical timber panels support a thin oval top.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted"
+  },
+  "sha256": "aebdd1758e3ddee58041037976a63c8b4d5bfa8f30d92c80be0cd0e3d3cca2e8",
+  "bytes": 35440,
+  "triangles": 564,
+  "vertices": 962,
+  "drawPrimitives": 1,
+  "bounds": {
+    "min": [
+      -0.824999988079071,
+      0.0,
+      -0.4399999976158142
+    ],
+    "max": [
+      0.824999988079071,
+      0.7500000223517418,
+      0.4399999976158142
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 1.649999976158142,
+    "depth": 0.8799999952316284,
+    "height": 0.7500000223517418
+  },
+  "footprint": [
+    [
+      -0.824999988079071,
+      -0.4399999976158142
+    ],
+    [
+      0.824999988079071,
+      -0.4399999976158142
+    ],
+    [
+      0.824999988079071,
+      0.4399999976158142
+    ],
+    [
+      -0.824999988079071,
+      0.4399999976158142
+    ]
+  ],
+  "variantSlots": [
+    "wood"
+  ],
+  "requiredExtensions": [],
+  "version": "0.2.0",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.oval-panel-dining",
+  "file": "assets/v0.2.0/oval-panel-dining.glb",
+  "sourceModel": "sources/v0.2.0/oval-panel-dining.blend",
+  "thumbnail": "previews/v0.2.0/oval-panel-dining.png",
+  "backThumbnail": "previews/v0.2.0/oval-panel-dining-back.png",
+  "category": "tables",
+  "subtype": "panel",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "textures": {
+    "count": 0,
+    "bytes": 0
+  },
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.2.0/oval-panel-dining.png",
+      "previews/v0.2.0/oval-panel-dining-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.58,
+      0.39,
+      0.2
+    ],
+    [
+      0.73,
+      0.7,
+      0.61
+    ],
+    [
+      0.12,
+      0.14,
+      0.13
+    ]
+  ],
+  "colourTags": [
+    "pale oak",
+    "ivory",
+    "oatmeal"
+  ],
+  "materials": [
+    "wood"
+  ],
+  "searchAliases": [
+    "dining",
+    "panel"
+  ],
+  "materialSlots": [
+    {
+      "id": "wood",
+      "material": "wood",
+      "recolourable": true
+    }
+  ],
+  "geometryHash": "1401e63942d3d6fd75a2b5622efc675290842688daea1c22cf11a8d58038016d",
+  "normalizedMirrorGeometryHash": "07d82b9f1edce1716c7c1830c09c39da77212d11054ecd4c6c62e91f877f5390"
+}

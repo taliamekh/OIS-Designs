@@ -1,0 +1,454 @@
+{
+  "id": "ois.design.floating-bath-drawers",
+  "sha256": "unexported-source-a6a97ed1ff18ea7190f4c07e8ea17b6dba901563a653d7aed874183539ef16c1",
+  "sourceModel": null,
+  "sourceSha256": "a6a97ed1ff18ea7190f4c07e8ea17b6dba901563a653d7aed874183539ef16c1",
+  "partCount": 35,
+  "componentCount": 1,
+  "components": [
+    {
+      "parts": [
+        "bottom",
+        "top",
+        "side",
+        "side.001",
+        "back",
+        "drawer front",
+        "pull",
+        "pull mounting plate",
+        "pull mounting standoff",
+        "pull mounting standoff.001",
+        "drawer bottom",
+        "drawer side",
+        "fixed drawer runner",
+        "drawer side.001",
+        "fixed drawer runner.001",
+        "drawer back",
+        "drawer front.001",
+        "pull.001",
+        "pull mounting plate.001",
+        "pull mounting standoff.002",
+        "pull mounting standoff.003",
+        "drawer bottom.001",
+        "drawer side.002",
+        "fixed drawer runner.002",
+        "drawer side.003",
+        "fixed drawer runner.003",
+        "drawer back.001",
+        "stone counter",
+        "basin bottom",
+        "basin side",
+        "basin side.001",
+        "basin end",
+        "basin end.001",
+        "curved faucet",
+        "tap lever"
+      ],
+      "minimum": [
+        -0.4625000059604645,
+        -0.26249998807907104,
+        0.29999998211860657
+      ],
+      "maximum": [
+        0.4625000059604645,
+        0.3060000240802765,
+        1.1312906742095947
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "side",
+      "b": "bottom",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "side",
+      "b": "top",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "side.001",
+      "b": "bottom",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "side.001",
+      "b": "top",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "back",
+      "b": "bottom",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "back",
+      "b": "top",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "back",
+      "b": "side",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "back",
+      "b": "side.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pull mounting plate",
+      "b": "drawer front",
+      "method": "surface distance",
+      "distance": 0.0014999955892562866
+    },
+    {
+      "a": "pull mounting standoff",
+      "b": "drawer front",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pull mounting standoff",
+      "b": "pull",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pull mounting standoff",
+      "b": "pull mounting plate",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pull mounting standoff.001",
+      "b": "drawer front",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pull mounting standoff.001",
+      "b": "pull",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pull mounting standoff.001",
+      "b": "pull mounting plate",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "drawer bottom",
+      "b": "drawer front",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "drawer side",
+      "b": "drawer front",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "drawer side",
+      "b": "drawer bottom",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "fixed drawer runner",
+      "b": "side",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "fixed drawer runner",
+      "b": "drawer side",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "drawer side.001",
+      "b": "drawer front",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "drawer side.001",
+      "b": "drawer bottom",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "fixed drawer runner.001",
+      "b": "side.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "fixed drawer runner.001",
+      "b": "drawer side.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "drawer back",
+      "b": "drawer bottom",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "drawer back",
+      "b": "drawer side",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "drawer back",
+      "b": "drawer side.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "drawer back",
+      "b": "fixed drawer runner.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pull mounting plate.001",
+      "b": "drawer front.001",
+      "method": "surface distance",
+      "distance": 0.0014999955892562866
+    },
+    {
+      "a": "pull mounting standoff.002",
+      "b": "drawer front.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pull mounting standoff.002",
+      "b": "pull.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pull mounting standoff.002",
+      "b": "pull mounting plate.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pull mounting standoff.003",
+      "b": "drawer front.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pull mounting standoff.003",
+      "b": "pull.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pull mounting standoff.003",
+      "b": "pull mounting plate.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "drawer bottom.001",
+      "b": "drawer front.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "drawer side.002",
+      "b": "drawer front.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "drawer side.002",
+      "b": "drawer bottom.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "fixed drawer runner.002",
+      "b": "side",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "fixed drawer runner.002",
+      "b": "drawer side.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "drawer side.003",
+      "b": "drawer front.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "drawer side.003",
+      "b": "drawer bottom.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "fixed drawer runner.003",
+      "b": "side.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "fixed drawer runner.003",
+      "b": "drawer side.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "drawer back.001",
+      "b": "drawer bottom.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "drawer back.001",
+      "b": "drawer side.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "drawer back.001",
+      "b": "fixed drawer runner.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "drawer back.001",
+      "b": "drawer side.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "drawer back.001",
+      "b": "fixed drawer runner.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "stone counter",
+      "b": "top",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "basin bottom",
+      "b": "stone counter",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "basin side",
+      "b": "stone counter",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "basin side",
+      "b": "basin bottom",
+      "method": "surface distance",
+      "distance": 2.9802322387695312e-08
+    },
+    {
+      "a": "basin side.001",
+      "b": "stone counter",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "basin side.001",
+      "b": "basin bottom",
+      "method": "surface distance",
+      "distance": 6.664001972467304e-08
+    },
+    {
+      "a": "basin end",
+      "b": "stone counter",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "basin end",
+      "b": "basin bottom",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "basin end",
+      "b": "basin side",
+      "method": "surface distance",
+      "distance": 2.9802322387695312e-08
+    },
+    {
+      "a": "basin end",
+      "b": "basin side.001",
+      "method": "surface distance",
+      "distance": 2.9802322387695312e-08
+    },
+    {
+      "a": "basin end.001",
+      "b": "stone counter",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "basin end.001",
+      "b": "basin bottom",
+      "method": "surface distance",
+      "distance": 0.0
+    },
+    {
+      "a": "basin end.001",
+      "b": "basin side",
+      "method": "surface distance",
+      "distance": 2.9802322387695312e-08
+    },
+    {
+      "a": "basin end.001",
+      "b": "basin side.001",
+      "method": "surface distance",
+      "distance": 2.9802322387695312e-08
+    },
+    {
+      "a": "curved faucet",
+      "b": "stone counter",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "tap lever",
+      "b": "curved faucet",
+      "method": "triangle intersection",
+      "distance": 0
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; live-source reports are NOT exported-asset evidence; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T03:19:16Z"
+}

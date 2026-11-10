@@ -1,0 +1,378 @@
+{
+  "timestamp": "2026-11-10T03:02:51.071Z",
+  "evidence": "Actual Expo WEB floor draft under explicit2x DOM font/line-height growth. Not native Dynamic Type or a complete accessibility pass.",
+  "runs": [
+    {
+      "viewport": {
+        "width": 320,
+        "height": 568
+      },
+      "factor": 2,
+      "screens": [
+        {
+          "label": "Back",
+          "file": "draft-text-320-back.png",
+          "geometry": {
+            "label": "Back",
+            "box": {
+              "x": 16,
+              "y": 58,
+              "width": 44,
+              "height": 44
+            },
+            "visibleFraction": 1,
+            "textBoxes": [],
+            "splitWords": []
+          }
+        },
+        {
+          "label": "Remove last drafted room",
+          "file": "draft-text-320-remove-last-drafted-room.png",
+          "geometry": {
+            "label": "Remove last drafted room",
+            "box": {
+              "x": 260,
+              "y": 546.5,
+              "width": 44,
+              "height": 44
+            },
+            "visibleFraction": 0,
+            "textBoxes": [],
+            "splitWords": []
+          }
+        },
+        {
+          "label": "Create floor plan",
+          "file": "draft-text-320-create-floor-plan.png",
+          "geometry": {
+            "label": "Create floor plan",
+            "box": {
+              "x": 16,
+              "y": 540,
+              "width": 288,
+              "height": 57
+            },
+            "visibleFraction": 0,
+            "textBoxes": [
+              {
+                "text": "Create floor plan",
+                "x": 53.421875,
+                "y": 550,
+                "width": 213.140625,
+                "height": 37,
+                "outsideControl": false,
+                "outsideClip": true
+              }
+            ],
+            "splitWords": []
+          }
+        }
+      ],
+      "errors": [],
+      "consoleErrors": [],
+      "growth": {
+        "nodes": 33,
+        "actuallyGrew": true,
+        "samples": [
+          {
+            "text": "ois designs",
+            "before": 23,
+            "after": 46
+          },
+          {
+            "text": "Projects",
+            "before": 26,
+            "after": 52
+          },
+          {
+            "text": "New project",
+            "before": 15,
+            "after": 30
+          },
+          {
+            "text": "Create room or floor plan",
+            "before": 14,
+            "after": 28
+          },
+          {
+            "text": "Choose a room, shape or blank floor plan.",
+            "before": 12,
+            "after": 24
+          },
+          {
+            "text": "Coming soon",
+            "before": 11,
+            "after": 22
+          },
+          {
+            "text": "Upload floor plan",
+            "before": 14,
+            "after": 28
+          },
+          {
+            "text": "Use a house-plan image or PDF.",
+            "before": 12,
+            "after": 24
+          },
+          {
+            "text": "Coming soon",
+            "before": 11,
+            "after": 22
+          },
+          {
+            "text": "Scan Room",
+            "before": 14,
+            "after": 28
+          },
+          {
+            "text": "Capture and review room geometry.",
+            "before": 12,
+            "after": 24
+          },
+          {
+            "text": "Recent projects",
+            "before": 15,
+            "after": 30
+          },
+          {
+            "text": "Maple House",
+            "before": 15,
+            "after": 30
+          },
+          {
+            "text": "2 floors · Saved locally",
+            "before": 12,
+            "after": 24
+          },
+          {
+            "text": "NEW PROJECT",
+            "before": 10,
+            "after": 20
+          }
+        ]
+      },
+      "canvas": {
+        "x": 0,
+        "y": 328,
+        "width": 320,
+        "height": 240
+      },
+      "overflow": {
+        "width": 320,
+        "document": 320,
+        "height": 568,
+        "documentHeight": 618
+      },
+      "body": "NEW PROJECT\nDraw floor plan\nLiving room\nBedroom\nKitchen\nDining room\nBathroom\nOffice\nChildren’s room\nEntry / hall\nUtility / laundry\nTap room corners on the plan. Drag to pan; pinch to zoom. Corners snap to10 cm.\nLiving room\nClose room\nFloor ceiling (m)\n1 room · 0 unclosed corners\nRoom added. Draw the next room or create the floor plan.\nCreate floor plan",
+      "failure": "TimeoutError: locator.click: Timeout 5000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'Create floor plan', exact: true })\u001b[22m\n\u001b[2m    - locator resolved to <button tabindex=\"0\" role=\"button\" type=\"button\" aria-label=\"Create floor plan\" class=\"css-view-g5y9jx r-cursor-1loqt21 r-touchAction-1otgn73\">…</button>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <div class=\"css-view-g5y9jx\" data-testid=\"floor-plan-drawing\">…</div> intercepts pointer events\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m    - element is visible, enabled and stable\u001b[22m\n\u001b[2m    - scrolling into view if needed\u001b[22m\n\u001b[2m    - done scrolling\u001b[22m\n\u001b[2m    - <div class=\"css-view-g5y9jx\" data-testid=\"floor-plan-drawing\">…</div> intercepts pointer events\u001b[22m\n\u001b[2m  2 × retrying click action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m      - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - element is outside of the viewport\u001b[22m\n\u001b[2m  2 × retrying click action\u001b[22m\n\u001b[2m      - waiting 500ms\u001b[22m\n\u001b[2m      - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <div class=\"css-view-g5y9jx\" data-testid=\"floor-plan-drawing\">…</div> intercepts pointer events\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 500ms\u001b[22m\n\u001b[2m      - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <div class=\"css-view-g5y9jx\" data-testid=\"floor-plan-drawing\">…</div> intercepts pointer events\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 500ms\u001b[22m\n\u001b[2m      - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - element is outside of the viewport\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 500ms\u001b[22m\n\u001b[2m      - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - element is outside of the viewport\u001b[22m\n\u001b[2m  - retrying click action\u001b[22m\n\u001b[2m    - waiting 500ms\u001b[22m\n",
+      "findings": [
+        {
+          "label": "Remove last drafted room",
+          "geometry": {
+            "label": "Remove last drafted room",
+            "box": {
+              "x": 260,
+              "y": 546.5,
+              "width": 44,
+              "height": 44
+            },
+            "visibleFraction": 0,
+            "textBoxes": [],
+            "splitWords": []
+          }
+        },
+        {
+          "label": "Create floor plan",
+          "geometry": {
+            "label": "Create floor plan",
+            "box": {
+              "x": 16,
+              "y": 540,
+              "width": 288,
+              "height": 57
+            },
+            "visibleFraction": 0,
+            "textBoxes": [
+              {
+                "text": "Create floor plan",
+                "x": 53.421875,
+                "y": 550,
+                "width": 213.140625,
+                "height": 37,
+                "outsideControl": false,
+                "outsideClip": true
+              }
+            ],
+            "splitWords": []
+          }
+        }
+      ]
+    },
+    {
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "factor": 2,
+      "screens": [
+        {
+          "label": "Back",
+          "file": "draft-text-390-back.png",
+          "geometry": {
+            "label": "Back",
+            "box": {
+              "x": 16,
+              "y": 31,
+              "width": 44,
+              "height": 44
+            },
+            "visibleFraction": 1,
+            "textBoxes": [],
+            "splitWords": []
+          }
+        },
+        {
+          "label": "Remove last drafted room",
+          "file": "draft-text-390-remove-last-drafted-room.png",
+          "geometry": {
+            "label": "Remove last drafted room",
+            "box": {
+              "x": 330,
+              "y": 616.5,
+              "width": 44,
+              "height": 44
+            },
+            "visibleFraction": 1,
+            "textBoxes": [],
+            "splitWords": []
+          }
+        },
+        {
+          "label": "Create floor plan",
+          "file": "draft-text-390-create-floor-plan.png",
+          "geometry": {
+            "label": "Create floor plan",
+            "box": {
+              "x": 16,
+              "y": 771,
+              "width": 358,
+              "height": 57
+            },
+            "visibleFraction": 1,
+            "textBoxes": [
+              {
+                "text": "Create floor plan",
+                "x": 88.421875,
+                "y": 781,
+                "width": 213.140625,
+                "height": 37,
+                "outsideControl": false,
+                "outsideClip": false
+              }
+            ],
+            "splitWords": []
+          }
+        }
+      ],
+      "errors": [],
+      "consoleErrors": [],
+      "growth": {
+        "nodes": 33,
+        "actuallyGrew": true,
+        "samples": [
+          {
+            "text": "ois designs",
+            "before": 23,
+            "after": 46
+          },
+          {
+            "text": "Projects",
+            "before": 26,
+            "after": 52
+          },
+          {
+            "text": "New project",
+            "before": 15,
+            "after": 30
+          },
+          {
+            "text": "Create room or floor plan",
+            "before": 13,
+            "after": 26
+          },
+          {
+            "text": "Choose a room, shape or blank floor plan.",
+            "before": 11,
+            "after": 22
+          },
+          {
+            "text": "Upload floor plan",
+            "before": 13,
+            "after": 26
+          },
+          {
+            "text": "Use a house-plan image or PDF.",
+            "before": 11,
+            "after": 22
+          },
+          {
+            "text": "Coming soon",
+            "before": 11,
+            "after": 22
+          },
+          {
+            "text": "Scan Room",
+            "before": 13,
+            "after": 26
+          },
+          {
+            "text": "Capture and review room geometry.",
+            "before": 11,
+            "after": 22
+          },
+          {
+            "text": "Coming soon",
+            "before": 11,
+            "after": 22
+          },
+          {
+            "text": "Recent projects",
+            "before": 15,
+            "after": 30
+          },
+          {
+            "text": "Maple House",
+            "before": 15,
+            "after": 30
+          },
+          {
+            "text": "2 floors · Saved locally",
+            "before": 12,
+            "after": 24
+          },
+          {
+            "text": "NEW PROJECT",
+            "before": 10,
+            "after": 20
+          }
+        ]
+      },
+      "canvas": {
+        "x": 0,
+        "y": 288,
+        "width": 390,
+        "height": 306
+      },
+      "overflow": {
+        "width": 390,
+        "document": 390,
+        "height": 844,
+        "documentHeight": 844
+      },
+      "body": "NEW PROJECT\nDraw floor plan\nLiving room\nBedroom\nKitchen\nDining room\nBathroom\nOffice\nChildren’s room\nEntry / hall\nUtility / laundry\nTap room corners on the plan. Drag to pan; pinch to zoom. Corners snap to10 cm.\nLiving room\nClose room\nFloor ceiling (m)\n1 room · 0 unclosed corners\nRoom added. Draw the next room or create the floor plan.\nCreate floor plan",
+      "creationCompletes": true,
+      "completed": true,
+      "findings": []
+    }
+  ]
+}

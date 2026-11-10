@@ -1,0 +1,157 @@
+{
+  "designId": "ois.design.l-return-workdesk",
+  "familyId": "ois.family.l-return-workdesk",
+  "id": "ois.design.l-return-workdesk",
+  "name": "L return desk",
+  "roomTags": [
+    "office"
+  ],
+  "theme": "walnut-form",
+  "builder": "table",
+  "parameters": {
+    "form": "l-desk",
+    "w": 1.45,
+    "d": 0.65,
+    "h": 0.75,
+    "shape": "rect"
+  },
+  "distinction": "An actual perpendicular desk return with its own supporting legs.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted"
+  },
+  "constructionKey": "table|l-desk|{\"drawers\": false, \"shape\": \"rect\", \"shelf\": false}",
+  "sha256": "6f2eeb68270c788eb9a12b0a51105d844d2f6bd1a7c9e1fc9d6b9cc28d00a80c",
+  "bytes": 35948,
+  "triangles": 736,
+  "vertices": 910,
+  "drawPrimitives": 2,
+  "bounds": {
+    "min": [
+      -0.7250000238418579,
+      0.0,
+      -0.877500057220459
+    ],
+    "max": [
+      0.90625,
+      0.7504999861121178,
+      0.32499998807907104
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 1.631250023841858,
+    "depth": 1.20250004529953,
+    "height": 0.7504999861121178
+  },
+  "footprint": [
+    [
+      -0.7250000238418579,
+      -0.877500057220459
+    ],
+    [
+      0.90625,
+      -0.877500057220459
+    ],
+    [
+      0.90625,
+      0.32499998807907104
+    ],
+    [
+      -0.7250000238418579,
+      0.32499998807907104
+    ]
+  ],
+  "variantSlots": [
+    "metal",
+    "wood"
+  ],
+  "requiredExtensions": [],
+  "version": "0.2.0",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.l-return-workdesk",
+  "file": "assets/v0.2.0/l-return-workdesk.glb",
+  "sourceModel": "sources/v0.2.0/l-return-workdesk.blend",
+  "thumbnail": "previews/v0.2.0/l-return-workdesk.png",
+  "backThumbnail": "previews/v0.2.0/l-return-workdesk-back.png",
+  "category": "tables",
+  "subtype": "l-desk",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "textures": {
+    "count": 0,
+    "bytes": 0
+  },
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.2.0/l-return-workdesk.png",
+      "previews/v0.2.0/l-return-workdesk-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.22,
+      0.09,
+      0.038
+    ],
+    [
+      0.39,
+      0.18,
+      0.07
+    ],
+    [
+      0.47,
+      0.3,
+      0.1
+    ]
+  ],
+  "colourTags": [
+    "walnut",
+    "tobacco",
+    "brass"
+  ],
+  "materials": [
+    "metal",
+    "wood"
+  ],
+  "searchAliases": [
+    "office",
+    "l desk"
+  ],
+  "materialSlots": [
+    {
+      "id": "metal",
+      "material": "metal",
+      "recolourable": true
+    },
+    {
+      "id": "wood",
+      "material": "wood",
+      "recolourable": true
+    }
+  ],
+  "geometryHash": "1e2b4b253283c3a2e99cecb7fa140c61eaf72db398e84c42935cfbd02928f5b7",
+  "normalizedMirrorGeometryHash": "1b64dfbfa66ebd22d6f6a1124a48b5c9031a1df67f4440b736684c7dc64eb3ae"
+}

@@ -1,0 +1,153 @@
+{
+  "id": "ois.design.hinged-laundry-hamper",
+  "sha256": "e8e9e013a49e1b8369d6823116e74aa18b01230f753006d83b342550b8c261f9",
+  "sourceModel": "sources/v0.7.0/hinged-laundry-hamper.blend",
+  "sourceSha256": "f9cad6a7926d59979a83f8d92503e6e824fff2cb9a928a121cd291da0cdebdd7",
+  "partCount": 10,
+  "componentCount": 1,
+  "components": [
+    {
+      "parts": [
+        "hamper floor",
+        "hamper side",
+        "hamper end",
+        "hamper side.001",
+        "hamper end.001",
+        "lift lid",
+        "pull",
+        "pull mounting plate",
+        "pull mounting standoff",
+        "pull mounting standoff.001"
+      ],
+      "minimum": [
+        -0.24250000715255737,
+        -0.20499999821186066,
+        0.0
+      ],
+      "maximum": [
+        0.24250000715255737,
+        0.23600000143051147,
+        0.7260000109672546
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "hamper side",
+      "b": "hamper floor",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "hamper end",
+      "b": "hamper floor",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "hamper end",
+      "b": "hamper side",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "hamper side.001",
+      "b": "hamper floor",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "hamper side.001",
+      "b": "hamper end",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "hamper end.001",
+      "b": "hamper floor",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "hamper end.001",
+      "b": "hamper side",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "hamper end.001",
+      "b": "hamper side.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "lift lid",
+      "b": "hamper side",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "lift lid",
+      "b": "hamper end",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "lift lid",
+      "b": "hamper side.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "lift lid",
+      "b": "hamper end.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pull mounting plate",
+      "b": "hamper end.001",
+      "method": "point containment",
+      "distance": 0
+    },
+    {
+      "a": "pull mounting standoff",
+      "b": "hamper end.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pull mounting standoff",
+      "b": "pull",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pull mounting standoff",
+      "b": "pull mounting plate",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pull mounting standoff.001",
+      "b": "hamper end.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pull mounting standoff.001",
+      "b": "pull",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pull mounting standoff.001",
+      "b": "pull mounting plate",
+      "method": "triangle intersection",
+      "distance": 0
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; live-source reports are NOT exported-asset evidence; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T03:45:53Z"
+}

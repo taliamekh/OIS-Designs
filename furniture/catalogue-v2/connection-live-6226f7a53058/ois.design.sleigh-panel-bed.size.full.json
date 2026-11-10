@@ -1,0 +1,173 @@
+{
+  "id": "ois.design.sleigh-panel-bed.size.full",
+  "sha256": "unexported-source-6226f7a5305865fd189dfcec35a3077205588e7999488a17cff703d94c6b1b9f",
+  "sourceModel": null,
+  "sourceSha256": "6226f7a5305865fd189dfcec35a3077205588e7999488a17cff703d94c6b1b9f",
+  "partCount": 18,
+  "componentCount": 1,
+  "components": [
+    {
+      "parts": [
+        "leg",
+        "leg.001",
+        "leg.002",
+        "leg.003",
+        "frame",
+        "mattress",
+        "piping",
+        "duvet",
+        "pillow",
+        "piping.001",
+        "pillow.001",
+        "piping.002",
+        "sleigh end",
+        "sleigh end.001",
+        "sleigh panel",
+        "sleigh end.002",
+        "sleigh end.003",
+        "sleigh panel.001"
+      ],
+      "minimum": [
+        -0.7413680553436279,
+        -1.1675000190734863,
+        0.008312483318150043
+      ],
+      "maximum": [
+        0.7413680553436279,
+        1.1675000190734863,
+        1.064884901046753
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "frame",
+      "b": "leg",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "frame",
+      "b": "leg.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "frame",
+      "b": "leg.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "frame",
+      "b": "leg.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "mattress",
+      "b": "frame",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "piping",
+      "b": "mattress",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "duvet",
+      "b": "mattress",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pillow",
+      "b": "mattress",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "piping.001",
+      "b": "pillow",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pillow.001",
+      "b": "mattress",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "piping.002",
+      "b": "pillow.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "sleigh end",
+      "b": "frame",
+      "method": "surface distance",
+      "distance": 0.0022126883268356323
+    },
+    {
+      "a": "sleigh end.001",
+      "b": "frame",
+      "method": "surface distance",
+      "distance": 0.0022126042749732733
+    },
+    {
+      "a": "sleigh panel",
+      "b": "frame",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "sleigh panel",
+      "b": "sleigh end",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "sleigh panel",
+      "b": "sleigh end.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "sleigh end.002",
+      "b": "frame",
+      "method": "surface distance",
+      "distance": 0.0022126042749732733
+    },
+    {
+      "a": "sleigh end.003",
+      "b": "frame",
+      "method": "surface distance",
+      "distance": 0.0022126883268356323
+    },
+    {
+      "a": "sleigh panel.001",
+      "b": "frame",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "sleigh panel.001",
+      "b": "sleigh end.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "sleigh panel.001",
+      "b": "sleigh end.003",
+      "method": "triangle intersection",
+      "distance": 0
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; live-source reports are NOT exported-asset evidence; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T03:36:35Z"
+}

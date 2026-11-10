@@ -1,0 +1,156 @@
+{
+  "designId": "ois.design.french-door-fridge",
+  "familyId": "ois.family.french-door-fridge",
+  "id": "ois.design.french-door-fridge",
+  "name": "French-door refrigerator",
+  "roomTags": [
+    "kitchen"
+  ],
+  "theme": "city-loft",
+  "builder": "appliance",
+  "parameters": {
+    "form": "french-fridge",
+    "w": 0.9,
+    "h": 1.82,
+    "steel": true
+  },
+  "distinction": "Split full-height doors plus a separate lower freezer drawer.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted"
+  },
+  "constructionKey": "appliance|french-fridge|{}",
+  "sha256": "4b91555fc7dfb6380325f198400421d20837339fadd6ceb8f6bf821af8c0a60b",
+  "bytes": 49288,
+  "triangles": 932,
+  "vertices": 1292,
+  "drawPrimitives": 2,
+  "bounds": {
+    "min": [
+      -0.44999998807907104,
+      0.0,
+      -0.39100000262260437
+    ],
+    "max": [
+      0.44999998807907104,
+      1.8200000524520874,
+      0.3100000023841858
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 0.8999999761581421,
+    "depth": 0.7010000050067902,
+    "height": 1.8200000524520874
+  },
+  "footprint": [
+    [
+      -0.44999998807907104,
+      -0.39100000262260437
+    ],
+    [
+      0.44999998807907104,
+      -0.39100000262260437
+    ],
+    [
+      0.44999998807907104,
+      0.3100000023841858
+    ],
+    [
+      -0.44999998807907104,
+      0.3100000023841858
+    ]
+  ],
+  "variantSlots": [
+    "metal",
+    "wood"
+  ],
+  "requiredExtensions": [],
+  "version": "0.2.0",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.french-door-fridge",
+  "file": "assets/v0.2.0/french-door-fridge.glb",
+  "sourceModel": "sources/v0.2.0/french-door-fridge.blend",
+  "thumbnail": "previews/v0.2.0/french-door-fridge.png",
+  "backThumbnail": "previews/v0.2.0/french-door-fridge-back.png",
+  "category": "appliances",
+  "subtype": "french-fridge",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "textures": {
+    "count": 0,
+    "bytes": 0
+  },
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.2.0/french-door-fridge.png",
+      "previews/v0.2.0/french-door-fridge-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.23,
+      0.15,
+      0.09
+    ],
+    [
+      0.12,
+      0.14,
+      0.16
+    ],
+    [
+      0.045,
+      0.05,
+      0.055
+    ]
+  ],
+  "colourTags": [
+    "charcoal",
+    "black",
+    "weathered wood"
+  ],
+  "materials": [
+    "metal",
+    "wood"
+  ],
+  "searchAliases": [
+    "kitchen",
+    "french fridge"
+  ],
+  "materialSlots": [
+    {
+      "id": "metal",
+      "material": "metal",
+      "recolourable": true
+    },
+    {
+      "id": "wood",
+      "material": "wood",
+      "recolourable": true
+    }
+  ],
+  "geometryHash": "431de213556beb32adb60fa84697b2b4fc85cadbdd8d07b7c231a4732a199f9e",
+  "normalizedMirrorGeometryHash": "29a54520c993a907fc434f479917aee2414b801de4415d63c53ab4e886812ba1"
+}

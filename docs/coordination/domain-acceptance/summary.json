@@ -1,0 +1,91 @@
+{
+  "checkedAtUtc": "2026-11-10T01:26:59.802Z",
+  "returnDocumentSha256": "551014fb2951b7dd9d4892ecd057e36096fa7e05a14e5e113e101b69f566b869",
+  "before": {
+    "geometry.ts": "d9138c18b37995882cfd61c6f6e877e80896773a367f3b5ea98bd5701ce5afa9",
+    "project.ts": "e85177e62485bf221acdccd35fadb5613c6001341df3af7b5636049fbaf8ea74",
+    "persistence.ts": "6ef5bed818cddd6fe26925a3356647f349aa854705d341eeae7b3e08105ee945"
+  },
+  "after": {
+    "geometry.ts": "d9138c18b37995882cfd61c6f6e877e80896773a367f3b5ea98bd5701ce5afa9",
+    "project.ts": "e85177e62485bf221acdccd35fadb5613c6001341df3af7b5636049fbaf8ea74",
+    "persistence.ts": "6ef5bed818cddd6fe26925a3356647f349aa854705d341eeae7b3e08105ee945"
+  },
+  "stableDomain": true,
+  "harnesses": {
+    "probe-domain.cjs": "190cdfb9dbb013e14464203c01fcb71c922e54885ae37c789057325b8d17fda0",
+    "stress-domain.cjs": "1e8e8a824752a67c1cddf2dbf27cd3ce093ce20c07cf6d10ec51e892ac190ef6"
+  },
+  "results": [
+    {
+      "kind": "focused",
+      "exitCode": 0,
+      "signal": null,
+      "error": null,
+      "durationMs": 1009,
+      "command": [
+        "C:/Users/talia/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node.exe",
+        "C:\\Users\\talia\\OneDrive\\Documents\\ChatGPT\\OIS Designs\\docs\\coordination\\domain-acceptance\\probe-domain.cjs",
+        "focused-results.json"
+      ]
+    },
+    {
+      "kind": "stress",
+      "exitCode": 0,
+      "signal": null,
+      "error": null,
+      "durationMs": 1840,
+      "command": [
+        "C:/Users/talia/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node.exe",
+        "C:\\Users\\talia\\OneDrive\\Documents\\ChatGPT\\OIS Designs\\docs\\coordination\\domain-acceptance\\stress-domain.cjs"
+      ]
+    },
+    {
+      "kind": "app-domain",
+      "exitCode": 0,
+      "signal": null,
+      "error": null,
+      "durationMs": 980,
+      "command": [
+        "C:/Users/talia/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node.exe",
+        "scripts/test-domain.cjs"
+      ]
+    },
+    {
+      "kind": "typecheck",
+      "exitCode": 0,
+      "signal": null,
+      "error": null,
+      "durationMs": 6905,
+      "command": [
+        "C:/Users/talia/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node.exe",
+        "node_modules/typescript/bin/tsc",
+        "--noEmit"
+      ]
+    },
+    {
+      "kind": "domain-lint",
+      "exitCode": 0,
+      "signal": null,
+      "error": null,
+      "durationMs": 3522,
+      "command": [
+        "C:/Users/talia/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node.exe",
+        "node_modules/eslint/bin/eslint.js",
+        "src/domain/geometry.ts",
+        "src/domain/project.ts",
+        "src/domain/persistence.ts"
+      ]
+    }
+  ],
+  "focused": {
+    "passed": 22,
+    "failed": 0
+  },
+  "stress": {
+    "passed": 4453,
+    "failed": 0
+  },
+  "limitations": "Independent rerun of copied repair-owner fixtures plus app tests, full TypeScript and scoped domain lint. Domain hashes pin the repaired increment. This does not establish UI/native/device or thermal behavior.",
+  "pass": true
+}

@@ -1,0 +1,72 @@
+{
+  "id": "ois.design.banker-desk-light",
+  "sha256": "unexported-source-a6a97ed1ff18ea7190f4c07e8ea17b6dba901563a653d7aed874183539ef16c1",
+  "sourceModel": null,
+  "sourceSha256": "a6a97ed1ff18ea7190f4c07e8ea17b6dba901563a653d7aed874183539ef16c1",
+  "partCount": 5,
+  "componentCount": 2,
+  "components": [
+    {
+      "parts": [
+        "banker shade",
+        "shade bracket",
+        "shade bracket.001"
+      ],
+      "minimum": [
+        -0.20999999344348907,
+        -0.0949999988079071,
+        0.2418566644191742
+      ],
+      "maximum": [
+        0.20999999344348907,
+        0.0949999988079071,
+        0.4150000214576721
+      ]
+    },
+    {
+      "parts": [
+        "weighted base",
+        "stem"
+      ],
+      "minimum": [
+        -0.12999999523162842,
+        -0.12999999523162842,
+        0.0
+      ],
+      "maximum": [
+        0.12999999523162842,
+        0.12999999523162842,
+        0.23000000417232513
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "stem",
+      "b": "weighted base",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "shade bracket",
+      "b": "banker shade",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "shade bracket.001",
+      "b": "banker shade",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "shade bracket.001",
+      "b": "shade bracket",
+      "method": "triangle intersection",
+      "distance": 0
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; live-source reports are NOT exported-asset evidence; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T03:19:57Z"
+}

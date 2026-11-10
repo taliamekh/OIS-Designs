@@ -1,0 +1,156 @@
+{
+  "designId": "ois.design.round-tulip-dining",
+  "familyId": "ois.family.round-tulip-dining",
+  "id": "ois.design.round-tulip-dining",
+  "name": "Tulip dining table",
+  "roomTags": [
+    "dining"
+  ],
+  "theme": "walnut-form",
+  "builder": "table",
+  "parameters": {
+    "form": "tulip",
+    "w": 1.18,
+    "d": 1.18,
+    "h": 0.75,
+    "shape": "round"
+  },
+  "distinction": "Swept waist flares smoothly into a disc foot and upper cup.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted"
+  },
+  "sha256": "2dd9d1753e93184bcd6a4f0897a8d9bd390079c15c3400f8d7017330ffe3470c",
+  "bytes": 20512,
+  "triangles": 748,
+  "vertices": 514,
+  "drawPrimitives": 2,
+  "bounds": {
+    "min": [
+      -0.5899999737739563,
+      0.0,
+      -0.5899999737739563
+    ],
+    "max": [
+      0.5899999737739563,
+      0.7500000223517418,
+      0.5899999737739563
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 1.1799999475479126,
+    "depth": 1.1799999475479126,
+    "height": 0.7500000223517418
+  },
+  "footprint": [
+    [
+      -0.5899999737739563,
+      -0.5899999737739563
+    ],
+    [
+      0.5899999737739563,
+      -0.5899999737739563
+    ],
+    [
+      0.5899999737739563,
+      0.5899999737739563
+    ],
+    [
+      -0.5899999737739563,
+      0.5899999737739563
+    ]
+  ],
+  "variantSlots": [
+    "metal",
+    "wood"
+  ],
+  "requiredExtensions": [],
+  "version": "0.2.0",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.round-tulip-dining",
+  "file": "assets/v0.2.0/round-tulip-dining.glb",
+  "sourceModel": "sources/v0.2.0/round-tulip-dining.blend",
+  "thumbnail": "previews/v0.2.0/round-tulip-dining.png",
+  "backThumbnail": "previews/v0.2.0/round-tulip-dining-back.png",
+  "category": "tables",
+  "subtype": "tulip",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "textures": {
+    "count": 0,
+    "bytes": 0
+  },
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.2.0/round-tulip-dining.png",
+      "previews/v0.2.0/round-tulip-dining-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.22,
+      0.09,
+      0.038
+    ],
+    [
+      0.39,
+      0.18,
+      0.07
+    ],
+    [
+      0.47,
+      0.3,
+      0.1
+    ]
+  ],
+  "colourTags": [
+    "walnut",
+    "tobacco",
+    "brass"
+  ],
+  "materials": [
+    "metal",
+    "wood"
+  ],
+  "searchAliases": [
+    "dining",
+    "tulip"
+  ],
+  "materialSlots": [
+    {
+      "id": "metal",
+      "material": "metal",
+      "recolourable": true
+    },
+    {
+      "id": "wood",
+      "material": "wood",
+      "recolourable": true
+    }
+  ],
+  "geometryHash": "7e737fb27c721f41cf1945c2e89c2cc68a249c74c4c4e3b534501c9765108501",
+  "normalizedMirrorGeometryHash": "167718362d3bc48eb409855b11e0c9e905daeac6cc7e79366e4c96aebe78426c"
+}

@@ -1,0 +1,159 @@
+{
+  "id": "ois.design.camelback-sofa",
+  "sha256": "f876f010c416c81c5536b9679efb023c8a8e9a2eb39fb3dc4e4767121a945c4a",
+  "sourceModel": "sources/v0.5.0/camelback-sofa.blend",
+  "sourceSha256": "07dfefadd3a208659bec250c7e33fda065c8e6f450147d06baa6ef6b1fc86ce6",
+  "partCount": 16,
+  "componentCount": 4,
+  "components": [
+    {
+      "parts": [
+        "leg",
+        "leg.001",
+        "leg.002",
+        "leg.003",
+        "seat deck",
+        "seat cushion",
+        "piping",
+        "seat cushion.001",
+        "piping.001",
+        "seat cushion.002",
+        "piping.002",
+        "arm",
+        "arm.001"
+      ],
+      "minimum": [
+        -1.0399999618530273,
+        -0.4050000011920929,
+        -3.259629011154175e-09
+      ],
+      "maximum": [
+        1.0399999618530273,
+        0.42499998211860657,
+        0.6887197494506836
+      ]
+    },
+    {
+      "parts": [
+        "back cushion"
+      ],
+      "minimum": [
+        -0.8849999904632568,
+        -0.42671096324920654,
+        0.46231338381767273
+      ],
+      "maximum": [
+        -0.30166664719581604,
+        -0.19328905642032623,
+        0.9063259363174438
+      ]
+    },
+    {
+      "parts": [
+        "back cushion.001"
+      ],
+      "minimum": [
+        -0.2916666567325592,
+        -0.42963194847106934,
+        0.4624888002872467
+      ],
+      "maximum": [
+        0.2916666567325592,
+        -0.19036805629730225,
+        0.9549506306648254
+      ]
+    },
+    {
+      "parts": [
+        "back cushion.002"
+      ],
+      "minimum": [
+        0.30166664719581604,
+        -0.42671096324920654,
+        0.46231338381767273
+      ],
+      "maximum": [
+        0.8849999904632568,
+        -0.19328905642032623,
+        0.9063259363174438
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "seat deck",
+      "b": "leg",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "seat deck",
+      "b": "leg.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "seat deck",
+      "b": "leg.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "seat deck",
+      "b": "leg.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "seat cushion",
+      "b": "seat deck",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "piping",
+      "b": "seat cushion",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "seat cushion.001",
+      "b": "seat deck",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "piping.001",
+      "b": "seat cushion.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "seat cushion.002",
+      "b": "seat deck",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "piping.002",
+      "b": "seat cushion.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "arm",
+      "b": "seat deck",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "arm.001",
+      "b": "seat deck",
+      "method": "triangle intersection",
+      "distance": 0
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T03:07:30Z"
+}

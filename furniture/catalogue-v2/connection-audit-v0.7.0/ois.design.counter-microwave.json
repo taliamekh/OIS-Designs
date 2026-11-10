@@ -1,0 +1,214 @@
+{
+  "id": "ois.design.counter-microwave",
+  "sha256": "4fe6e30b61659b30aa9ed84b52b1e8c018c1af11c4b54de69385ebdf429de879",
+  "sourceModel": "sources/v0.7.0/counter-microwave.blend",
+  "sourceSha256": "04b6587ade9f6ee1547bc345300a6b3942575df56a6f55c7936e3796caa0b48b",
+  "partCount": 17,
+  "componentCount": 1,
+  "components": [
+    {
+      "parts": [
+        "appliance shell side",
+        "appliance shell side.001",
+        "appliance shell back",
+        "appliance shell bottom",
+        "appliance shell top",
+        "door side frame",
+        "door side frame.001",
+        "door cross frame",
+        "door cross frame.001",
+        "dark oven liner",
+        "glazed viewing pane",
+        "pull",
+        "pull mounting plate",
+        "pull mounting standoff",
+        "pull mounting standoff.001",
+        "turntable drive",
+        "microwave turntable"
+      ],
+      "minimum": [
+        -0.2600000202655792,
+        -0.20000000298023224,
+        0.0
+      ],
+      "maximum": [
+        0.2600000202655792,
+        0.2760000228881836,
+        0.3199999928474426
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "appliance shell back",
+      "b": "appliance shell side",
+      "method": "surface distance",
+      "distance": 0.0007071187719702721
+    },
+    {
+      "a": "appliance shell back",
+      "b": "appliance shell side.001",
+      "method": "surface distance",
+      "distance": 0.0007071187719702721
+    },
+    {
+      "a": "appliance shell bottom",
+      "b": "appliance shell side",
+      "method": "surface distance",
+      "distance": 0.0007071177242323756
+    },
+    {
+      "a": "appliance shell bottom",
+      "b": "appliance shell side.001",
+      "method": "surface distance",
+      "distance": 0.0007071170839481056
+    },
+    {
+      "a": "appliance shell bottom",
+      "b": "appliance shell back",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "appliance shell top",
+      "b": "appliance shell side",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "appliance shell top",
+      "b": "appliance shell side.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "appliance shell top",
+      "b": "appliance shell back",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "door side frame",
+      "b": "appliance shell side",
+      "method": "surface distance",
+      "distance": 0.0029999911785125732
+    },
+    {
+      "a": "door side frame.001",
+      "b": "appliance shell side.001",
+      "method": "surface distance",
+      "distance": 0.0029999911785125732
+    },
+    {
+      "a": "door cross frame",
+      "b": "door side frame",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "door cross frame",
+      "b": "door side frame.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "door cross frame.001",
+      "b": "door side frame",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "door cross frame.001",
+      "b": "door side frame.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "dark oven liner",
+      "b": "appliance shell back",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "glazed viewing pane",
+      "b": "door side frame",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "glazed viewing pane",
+      "b": "door side frame.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "glazed viewing pane",
+      "b": "door cross frame",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "glazed viewing pane",
+      "b": "door cross frame.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pull mounting plate",
+      "b": "door cross frame.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pull mounting standoff",
+      "b": "door cross frame.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pull mounting standoff",
+      "b": "pull",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pull mounting standoff",
+      "b": "pull mounting plate",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pull mounting standoff.001",
+      "b": "door cross frame.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pull mounting standoff.001",
+      "b": "pull",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pull mounting standoff.001",
+      "b": "pull mounting plate",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "turntable drive",
+      "b": "appliance shell bottom",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "microwave turntable",
+      "b": "turntable drive",
+      "method": "triangle intersection",
+      "distance": 0
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; live-source reports are NOT exported-asset evidence; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T04:00:30Z"
+}

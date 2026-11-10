@@ -1,0 +1,96 @@
+{
+  "id": "ois.design.bakers-prep-rack",
+  "sha256": "68b8d0571ca5016119e411e070f534e4a5caa0b299d8a8afa2c873fd38de45bf",
+  "sourceModel": "sources/v0.5.0/bakers-prep-rack.blend",
+  "sourceSha256": "9f0c7a4bf38cb2e01ba167d8cd7f865b9cc7951e9cdebc430b0abbcc3061afcc",
+  "partCount": 7,
+  "componentCount": 1,
+  "components": [
+    {
+      "parts": [
+        "sled frame",
+        "sled frame.001",
+        "work surface",
+        "upper upright",
+        "upper upright.001",
+        "upper rack shelf",
+        "upper rack shelf.001"
+      ],
+      "minimum": [
+        -0.5,
+        -0.25,
+        0.0
+      ],
+      "maximum": [
+        0.5,
+        0.25,
+        1.6352263689041138
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "work surface",
+      "b": "sled frame",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "work surface",
+      "b": "sled frame.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "upper upright",
+      "b": "sled frame",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "upper upright",
+      "b": "work surface",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "upper upright.001",
+      "b": "sled frame.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "upper upright.001",
+      "b": "work surface",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "upper rack shelf",
+      "b": "upper upright",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "upper rack shelf",
+      "b": "upper upright.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "upper rack shelf.001",
+      "b": "upper upright",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "upper rack shelf.001",
+      "b": "upper upright.001",
+      "method": "triangle intersection",
+      "distance": 0
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T03:07:30Z"
+}

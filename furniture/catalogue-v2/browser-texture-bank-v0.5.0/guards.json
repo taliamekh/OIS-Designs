@@ -1,0 +1,410 @@
+{
+  "timeUtc": "2026-11-10T02:59:42.326Z",
+  "scope": "actual GLTFLoader image/texture objects in installed Edge; semantic/refcount guards only",
+  "passed": 21,
+  "results": [
+    {
+      "name": "identical image semantics share exact texture",
+      "pass": true,
+      "detail": {
+        "count": 9,
+        "leases": 18
+      }
+    },
+    {
+      "name": "material tint stays isolated between models",
+      "pass": true,
+      "detail": [
+        0.5799999833106995,
+        0.38999998569488525,
+        0.20000000298023224
+      ]
+    },
+    {
+      "name": "normal strength stays isolated",
+      "pass": true,
+      "detail": [
+        0.2199999988079071,
+        0.2199999988079071
+      ]
+    },
+    {
+      "name": "disposing one model preserves the other leases",
+      "pass": true,
+      "detail": {
+        "uniqueTextures": 9,
+        "rootLeases": 9,
+        "decodedDuplicates": 9,
+        "releases": 0,
+        "entries": [
+          {
+            "imageSha256": "898e022cb5ea1b2663884e7306bbd2c09f25ab2827974bd1328a81bcab08b1ac",
+            "mimeType": "image/png",
+            "colorSpace": "srgb",
+            "wrapS": 1000,
+            "wrapT": 1000,
+            "magFilter": 1006,
+            "minFilter": 1008,
+            "flipY": false,
+            "generateMipmaps": true,
+            "channel": 0,
+            "matrix": [
+              1,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              1
+            ],
+            "anisotropy": 1,
+            "premultiplyAlpha": false,
+            "unpackAlignment": 4,
+            "users": 1
+          },
+          {
+            "imageSha256": "5bbac800a495c0a30042ad832a3ea134aa66afad65fa0dde59103733a54e886c",
+            "mimeType": "image/png",
+            "colorSpace": "",
+            "wrapS": 1000,
+            "wrapT": 1000,
+            "magFilter": 1006,
+            "minFilter": 1008,
+            "flipY": false,
+            "generateMipmaps": true,
+            "channel": 0,
+            "matrix": [
+              1,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              1
+            ],
+            "anisotropy": 1,
+            "premultiplyAlpha": false,
+            "unpackAlignment": 4,
+            "users": 1
+          },
+          {
+            "imageSha256": "397e1c119de5e5939f7f1260cfeb7a715d695240776f51b974989073b638eeb6",
+            "mimeType": "image/png",
+            "colorSpace": "",
+            "wrapS": 1000,
+            "wrapT": 1000,
+            "magFilter": 1006,
+            "minFilter": 1008,
+            "flipY": false,
+            "generateMipmaps": true,
+            "channel": 0,
+            "matrix": [
+              1,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              1
+            ],
+            "anisotropy": 1,
+            "premultiplyAlpha": false,
+            "unpackAlignment": 4,
+            "users": 1
+          },
+          {
+            "imageSha256": "047df909f3cecf9ec0cdef6c8e2a92dea40e0116922d5b7a25bc7da6481e1ec9",
+            "mimeType": "image/png",
+            "colorSpace": "srgb",
+            "wrapS": 1000,
+            "wrapT": 1000,
+            "magFilter": 1006,
+            "minFilter": 1008,
+            "flipY": false,
+            "generateMipmaps": true,
+            "channel": 0,
+            "matrix": [
+              1,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              1
+            ],
+            "anisotropy": 1,
+            "premultiplyAlpha": false,
+            "unpackAlignment": 4,
+            "users": 1
+          },
+          {
+            "imageSha256": "70b25282eb1daf2d7d6faad88d6b47ca1298d395b833d36d3ba28a542ed6d36e",
+            "mimeType": "image/png",
+            "colorSpace": "",
+            "wrapS": 1000,
+            "wrapT": 1000,
+            "magFilter": 1006,
+            "minFilter": 1008,
+            "flipY": false,
+            "generateMipmaps": true,
+            "channel": 0,
+            "matrix": [
+              1,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              1
+            ],
+            "anisotropy": 1,
+            "premultiplyAlpha": false,
+            "unpackAlignment": 4,
+            "users": 1
+          },
+          {
+            "imageSha256": "c31825bb85668747311407d1a5e5d9a56bc0e65aefbf79936d1d4665e83fdb45",
+            "mimeType": "image/png",
+            "colorSpace": "",
+            "wrapS": 1000,
+            "wrapT": 1000,
+            "magFilter": 1006,
+            "minFilter": 1008,
+            "flipY": false,
+            "generateMipmaps": true,
+            "channel": 0,
+            "matrix": [
+              1,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              1
+            ],
+            "anisotropy": 1,
+            "premultiplyAlpha": false,
+            "unpackAlignment": 4,
+            "users": 1
+          },
+          {
+            "imageSha256": "ddcf839a2addae78944a2d7a0588f9c2055852fc4ccb4e2dae2095d28541de44",
+            "mimeType": "image/png",
+            "colorSpace": "srgb",
+            "wrapS": 1000,
+            "wrapT": 1000,
+            "magFilter": 1006,
+            "minFilter": 1008,
+            "flipY": false,
+            "generateMipmaps": true,
+            "channel": 0,
+            "matrix": [
+              1,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              1
+            ],
+            "anisotropy": 1,
+            "premultiplyAlpha": false,
+            "unpackAlignment": 4,
+            "users": 1
+          },
+          {
+            "imageSha256": "6b8efcb5004552d884a527017922bfb5260b8bda4dc77f1365fe1cb8a09f1d56",
+            "mimeType": "image/png",
+            "colorSpace": "",
+            "wrapS": 1000,
+            "wrapT": 1000,
+            "magFilter": 1006,
+            "minFilter": 1008,
+            "flipY": false,
+            "generateMipmaps": true,
+            "channel": 0,
+            "matrix": [
+              1,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              1
+            ],
+            "anisotropy": 1,
+            "premultiplyAlpha": false,
+            "unpackAlignment": 4,
+            "users": 1
+          },
+          {
+            "imageSha256": "afc2180e58360e76fb178b52f225f7ba9045a7d0d266f10886763b0590335a1a",
+            "mimeType": "image/png",
+            "colorSpace": "",
+            "wrapS": 1000,
+            "wrapT": 1000,
+            "magFilter": 1006,
+            "minFilter": 1008,
+            "flipY": false,
+            "generateMipmaps": true,
+            "channel": 0,
+            "matrix": [
+              1,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              1
+            ],
+            "anisotropy": 1,
+            "premultiplyAlpha": false,
+            "unpackAlignment": 4,
+            "users": 1
+          }
+        ]
+      }
+    },
+    {
+      "name": "last release clears every lease",
+      "pass": true,
+      "detail": {
+        "uniqueTextures": 0,
+        "rootLeases": 0,
+        "decodedDuplicates": 9,
+        "releases": 9,
+        "entries": []
+      }
+    },
+    {
+      "name": "separate key for wrap",
+      "pass": true,
+      "detail": {
+        "textures": 10
+      }
+    },
+    {
+      "name": "no retained lease after wrap",
+      "pass": true,
+      "detail": {
+        "remaining": 0
+      }
+    },
+    {
+      "name": "separate key for filter",
+      "pass": true,
+      "detail": {
+        "textures": 10
+      }
+    },
+    {
+      "name": "no retained lease after filter",
+      "pass": true,
+      "detail": {
+        "remaining": 0
+      }
+    },
+    {
+      "name": "separate key for colorSpace",
+      "pass": true,
+      "detail": {
+        "textures": 10
+      }
+    },
+    {
+      "name": "no retained lease after colorSpace",
+      "pass": true,
+      "detail": {
+        "remaining": 0
+      }
+    },
+    {
+      "name": "separate key for uvOffset",
+      "pass": true,
+      "detail": {
+        "textures": 10
+      }
+    },
+    {
+      "name": "no retained lease after uvOffset",
+      "pass": true,
+      "detail": {
+        "remaining": 0
+      }
+    },
+    {
+      "name": "separate key for uvRotation",
+      "pass": true,
+      "detail": {
+        "textures": 10
+      }
+    },
+    {
+      "name": "no retained lease after uvRotation",
+      "pass": true,
+      "detail": {
+        "remaining": 0
+      }
+    },
+    {
+      "name": "separate key for uvChannel",
+      "pass": true,
+      "detail": {
+        "textures": 10
+      }
+    },
+    {
+      "name": "no retained lease after uvChannel",
+      "pass": true,
+      "detail": {
+        "remaining": 0
+      }
+    },
+    {
+      "name": "separate key for flipY",
+      "pass": true,
+      "detail": {
+        "textures": 10
+      }
+    },
+    {
+      "name": "no retained lease after flipY",
+      "pass": true,
+      "detail": {
+        "remaining": 0
+      }
+    },
+    {
+      "name": "separate key for anisotropy",
+      "pass": true,
+      "detail": {
+        "textures": 10
+      }
+    },
+    {
+      "name": "no retained lease after anisotropy",
+      "pass": true,
+      "detail": {
+        "remaining": 0
+      }
+    }
+  ]
+}

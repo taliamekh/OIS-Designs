@@ -1,0 +1,246 @@
+{
+  "id": "ois.design.integrated-dishwasher",
+  "sha256": "76233c08bc1dacf4c208776d4f0c1a04c4208cf994a98a1271413e8b642ca87d",
+  "sourceModel": "sources/v0.7.0/integrated-dishwasher.blend",
+  "sourceSha256": "68bf2adee94d0e9e7d8d7089580bf4d3643370c673e609eb4afd8bac1866a753",
+  "partCount": 19,
+  "componentCount": 1,
+  "components": [
+    {
+      "parts": [
+        "appliance shell side",
+        "appliance shell side.001",
+        "appliance shell back",
+        "appliance shell bottom",
+        "appliance shell top",
+        "door side frame",
+        "door side frame.001",
+        "door cross frame",
+        "door cross frame.001",
+        "glazed viewing pane",
+        "pull",
+        "pull mounting plate",
+        "pull mounting standoff",
+        "pull mounting standoff.001",
+        "dishwasher control fascia",
+        "button",
+        "button.001",
+        "button.002",
+        "button.003"
+      ],
+      "minimum": [
+        -0.30000001192092896,
+        -0.3100000023841858,
+        -2.9802322387695312e-08
+      ],
+      "maximum": [
+        0.30000001192092896,
+        0.38600000739097595,
+        0.8500000238418579
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "appliance shell back",
+      "b": "appliance shell side",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "appliance shell back",
+      "b": "appliance shell side.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "appliance shell bottom",
+      "b": "appliance shell side",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "appliance shell bottom",
+      "b": "appliance shell side.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "appliance shell bottom",
+      "b": "appliance shell back",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "appliance shell top",
+      "b": "appliance shell side",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "appliance shell top",
+      "b": "appliance shell side.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "appliance shell top",
+      "b": "appliance shell back",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "door side frame",
+      "b": "appliance shell side",
+      "method": "surface distance",
+      "distance": 0.003000020980834961
+    },
+    {
+      "a": "door side frame.001",
+      "b": "appliance shell side.001",
+      "method": "surface distance",
+      "distance": 0.003000020980834961
+    },
+    {
+      "a": "door cross frame",
+      "b": "door side frame",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "door cross frame",
+      "b": "door side frame.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "door cross frame.001",
+      "b": "door side frame",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "door cross frame.001",
+      "b": "door side frame.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "glazed viewing pane",
+      "b": "door side frame",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "glazed viewing pane",
+      "b": "door side frame.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "glazed viewing pane",
+      "b": "door cross frame",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "glazed viewing pane",
+      "b": "door cross frame.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pull mounting plate",
+      "b": "glazed viewing pane",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pull mounting standoff",
+      "b": "glazed viewing pane",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pull mounting standoff",
+      "b": "pull",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pull mounting standoff",
+      "b": "pull mounting plate",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pull mounting standoff.001",
+      "b": "glazed viewing pane",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pull mounting standoff.001",
+      "b": "pull",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pull mounting standoff.001",
+      "b": "pull mounting plate",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "dishwasher control fascia",
+      "b": "door side frame",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "dishwasher control fascia",
+      "b": "door side frame.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "dishwasher control fascia",
+      "b": "door cross frame.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "dishwasher control fascia",
+      "b": "glazed viewing pane",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "button",
+      "b": "dishwasher control fascia",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "button.001",
+      "b": "dishwasher control fascia",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "button.002",
+      "b": "dishwasher control fascia",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "button.003",
+      "b": "dishwasher control fascia",
+      "method": "triangle intersection",
+      "distance": 0
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; live-source reports are NOT exported-asset evidence; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T04:00:31Z"
+}

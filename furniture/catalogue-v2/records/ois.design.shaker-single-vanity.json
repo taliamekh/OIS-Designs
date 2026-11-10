@@ -1,0 +1,176 @@
+{
+  "designId": "ois.design.shaker-single-vanity",
+  "familyId": "ois.family.shaker-single-vanity",
+  "id": "ois.design.shaker-single-vanity",
+  "name": "Shaker single vanity",
+  "roomTags": [
+    "bathroom"
+  ],
+  "theme": "calm-oak",
+  "builder": "bath",
+  "parameters": {
+    "form": "single-vanity",
+    "w": 0.85
+  },
+  "distinction": "Framed cupboard base, stone counter and hollow rectangular basin.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted",
+    "sourceSnapshot": "sources/pipeline-e797cb5c88af56f5.py",
+    "sourceSha256": "e797cb5c88af56f5b4455d819a512ab9be55f40e1fa2d0cb542aca7bb84b906f",
+    "parametersFile": "sources/v0.2.1/shaker-single-vanity.parameters.json"
+  },
+  "constructionKey": "bath|single-vanity|{}",
+  "sha256": "d3f79c33540202aa94f30a4d57e57d3273b08cf016cc74d7a8dd1ba82743695e",
+  "bytes": 234980,
+  "triangles": 4768,
+  "vertices": 6271,
+  "drawPrimitives": 5,
+  "bounds": {
+    "min": [
+      -0.4375,
+      0.0,
+      -0.30600001276676014
+    ],
+    "max": [
+      0.4375,
+      1.1312906742095947,
+      0.26249998807907104
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 0.875,
+    "depth": 0.5685000008458312,
+    "height": 1.1312906742095947
+  },
+  "footprint": [
+    [
+      -0.4375,
+      -0.30600001276676014
+    ],
+    [
+      0.4375,
+      -0.30600001276676014
+    ],
+    [
+      0.4375,
+      0.26249998807907104
+    ],
+    [
+      -0.4375,
+      0.26249998807907104
+    ]
+  ],
+  "variantSlots": [
+    "ceramic",
+    "dark",
+    "metal",
+    "stone",
+    "wood"
+  ],
+  "requiredExtensions": [],
+  "version": "0.2.1",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.shaker-single-vanity",
+  "file": "assets/v0.2.1/shaker-single-vanity.glb",
+  "sourceModel": "sources/v0.2.1/shaker-single-vanity.blend",
+  "thumbnail": "previews/v0.2.1/shaker-single-vanity.png",
+  "backThumbnail": "previews/v0.2.1/shaker-single-vanity-back.png",
+  "category": "bathroom-fixtures",
+  "subtype": "single-vanity",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "textures": {
+    "count": 0,
+    "bytes": 0
+  },
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.2.1/shaker-single-vanity.png",
+      "previews/v0.2.1/shaker-single-vanity-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.58,
+      0.39,
+      0.2
+    ],
+    [
+      0.73,
+      0.7,
+      0.61
+    ],
+    [
+      0.12,
+      0.14,
+      0.13
+    ]
+  ],
+  "colourTags": [
+    "pale oak",
+    "ivory",
+    "oatmeal"
+  ],
+  "materials": [
+    "ceramic",
+    "metal",
+    "paint",
+    "stone",
+    "wood"
+  ],
+  "searchAliases": [
+    "bathroom",
+    "single vanity"
+  ],
+  "materialSlots": [
+    {
+      "id": "ceramic",
+      "material": "ceramic",
+      "recolourable": true
+    },
+    {
+      "id": "dark",
+      "material": "dark",
+      "recolourable": true
+    },
+    {
+      "id": "metal",
+      "material": "metal",
+      "recolourable": true
+    },
+    {
+      "id": "stone",
+      "material": "stone",
+      "recolourable": true
+    },
+    {
+      "id": "wood",
+      "material": "wood",
+      "recolourable": true
+    }
+  ]
+}

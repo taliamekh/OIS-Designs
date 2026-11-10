@@ -1,0 +1,158 @@
+{
+  "designId": "ois.design.oval-pedestal-desk",
+  "familyId": "ois.family.oval-dual-pedestal",
+  "id": "ois.design.oval-pedestal-desk",
+  "name": "Oval pedestal desk",
+  "roomTags": [
+    "office"
+  ],
+  "theme": "soft-japandi",
+  "builder": "table",
+  "parameters": {
+    "form": "dual-disc",
+    "w": 1.5,
+    "d": 0.65,
+    "h": 0.75,
+    "shape": "oval"
+  },
+  "distinction": "Two disc-and-stem pedestals beneath an oval writing top.",
+  "stage": "validated-candidate",
+  "countEligible": false,
+  "variants": [],
+  "variantOf": "ois.design.oval-dual-pedestal",
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted"
+  },
+  "constructionKey": "table|dual-disc|{\"drawers\": false, \"shape\": \"oval\", \"shelf\": false}",
+  "countExclusion": "same construction; dimension/material configuration retained as a variant",
+  "sha256": "1dec4f1297c6253217071cf8ee83ae2cbe1954a26fdbbb40400b7aae61a6107b",
+  "bytes": 29292,
+  "triangles": 684,
+  "vertices": 714,
+  "drawPrimitives": 2,
+  "bounds": {
+    "min": [
+      -0.75,
+      0.0,
+      -0.32499998807907104
+    ],
+    "max": [
+      0.75,
+      0.7500000223517418,
+      0.32499998807907104
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 1.5,
+    "depth": 0.6499999761581421,
+    "height": 0.7500000223517418
+  },
+  "footprint": [
+    [
+      -0.75,
+      -0.32499998807907104
+    ],
+    [
+      0.75,
+      -0.32499998807907104
+    ],
+    [
+      0.75,
+      0.32499998807907104
+    ],
+    [
+      -0.75,
+      0.32499998807907104
+    ]
+  ],
+  "variantSlots": [
+    "metal",
+    "wood"
+  ],
+  "requiredExtensions": [],
+  "version": "0.2.0",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.oval-dual-pedestal",
+  "file": "assets/v0.2.0/oval-pedestal-desk.glb",
+  "sourceModel": "sources/v0.2.0/oval-pedestal-desk.blend",
+  "thumbnail": "previews/v0.2.0/oval-pedestal-desk.png",
+  "backThumbnail": "previews/v0.2.0/oval-pedestal-desk-back.png",
+  "category": "tables",
+  "subtype": "dual-disc",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "textures": {
+    "count": 0,
+    "bytes": 0
+  },
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.2.0/oval-pedestal-desk.png",
+      "previews/v0.2.0/oval-pedestal-desk-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.34,
+      0.28,
+      0.19
+    ],
+    [
+      0.58,
+      0.54,
+      0.44
+    ],
+    [
+      0.15,
+      0.17,
+      0.15
+    ]
+  ],
+  "colourTags": [
+    "ash",
+    "flax",
+    "stone"
+  ],
+  "materials": [
+    "metal",
+    "wood"
+  ],
+  "searchAliases": [
+    "office",
+    "dual disc"
+  ],
+  "materialSlots": [
+    {
+      "id": "metal",
+      "material": "metal",
+      "recolourable": true
+    },
+    {
+      "id": "wood",
+      "material": "wood",
+      "recolourable": true
+    }
+  ],
+  "geometryHash": "cf09a9b51cf115a75a7cf2e75247114a4da75888f0315295e079a132ed1368f2",
+  "normalizedMirrorGeometryHash": "0ec049c11a7d3664768221e0958c4ffbb7203016996b6d0a3fc05f818db78d2d"
+}

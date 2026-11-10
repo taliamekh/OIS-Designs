@@ -1,0 +1,155 @@
+{
+  "designId": "ois.design.woven-bow-chair",
+  "familyId": "ois.family.woven-bow-chair",
+  "id": "ois.design.woven-bow-chair",
+  "name": "Spindle bow chair",
+  "roomTags": [
+    "living"
+  ],
+  "theme": "coastal-linen",
+  "builder": "seating",
+  "parameters": {
+    "form": "windsor",
+    "w": 0.6,
+    "d": 0.58,
+    "h": 0.98
+  },
+  "distinction": "Bent bow and seven turned back spindles over a timber seat.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted"
+  },
+  "sha256": "5768cca13081678fdd43fe5216acdba2d05082ddf5f2402dcc2089b8fc8a63fe",
+  "bytes": 56992,
+  "triangles": 1432,
+  "vertices": 1435,
+  "drawPrimitives": 2,
+  "bounds": {
+    "min": [
+      -0.2976486437836001,
+      -1.1445326575376669e-08,
+      -0.27350000478327274
+    ],
+    "max": [
+      0.2976486603285444,
+      1.0107977156765044,
+      0.25400004420818756
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 0.5952973041121445,
+    "depth": 0.5275000489914603,
+    "height": 1.010797727121831
+  },
+  "footprint": [
+    [
+      -0.2976486437836001,
+      -0.27350000478327274
+    ],
+    [
+      0.2976486603285444,
+      -0.27350000478327274
+    ],
+    [
+      0.2976486603285444,
+      0.25400004420818756
+    ],
+    [
+      -0.2976486437836001,
+      0.25400004420818756
+    ]
+  ],
+  "variantSlots": [
+    "linen",
+    "wood"
+  ],
+  "requiredExtensions": [],
+  "version": "0.2.0",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.woven-bow-chair",
+  "file": "assets/v0.2.0/woven-bow-chair.glb",
+  "sourceModel": "sources/v0.2.0/woven-bow-chair.blend",
+  "thumbnail": "previews/v0.2.0/woven-bow-chair.png",
+  "backThumbnail": "previews/v0.2.0/woven-bow-chair-back.png",
+  "category": "seating",
+  "subtype": "windsor",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "textures": {
+    "count": 0,
+    "bytes": 0
+  },
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.2.0/woven-bow-chair.png",
+      "previews/v0.2.0/woven-bow-chair-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.66,
+      0.53,
+      0.34
+    ],
+    [
+      0.36,
+      0.53,
+      0.58
+    ],
+    [
+      0.64,
+      0.6,
+      0.48
+    ]
+  ],
+  "colourTags": [
+    "mist blue",
+    "sand",
+    "pale oak"
+  ],
+  "materials": [
+    "textile",
+    "wood"
+  ],
+  "searchAliases": [
+    "living",
+    "windsor"
+  ],
+  "materialSlots": [
+    {
+      "id": "linen",
+      "material": "linen",
+      "recolourable": true
+    },
+    {
+      "id": "wood",
+      "material": "wood",
+      "recolourable": true
+    }
+  ],
+  "geometryHash": "d9b3fa451a63771b4edece92b1fe2f24e9a9b314f289bd6536f9c3dd1bd9d003",
+  "normalizedMirrorGeometryHash": "1651a198ce71ffd66c49ae986872e687ac24c2eccdc6ca3f91b8c47d72acbb90"
+}

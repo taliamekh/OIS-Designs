@@ -1,0 +1,213 @@
+{
+  "designId": "ois.design.two-column-label-file",
+  "familyId": "ois.family.two-column-label-file",
+  "id": "ois.design.two-column-label-file",
+  "name": "Two-column label file",
+  "roomTags": [
+    "storage"
+  ],
+  "theme": "city-loft",
+  "builder": "case",
+  "parameters": {
+    "form": "file",
+    "front": "slab",
+    "w": 0.9,
+    "h": 1.1,
+    "rows": 3,
+    "cols": 2,
+    "base": "sled"
+  },
+  "distinction": "Six labelled document drawers in two raised columns.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted",
+    "sourceSnapshot": "sources/pipeline-55642edf77b9875f.py",
+    "sourceSha256": "55642edf77b9875ff9620f3041b9999cee7807ac9d8ce9f01f78fdfc4bbc513f",
+    "parametersFile": "sources/v0.3.2/two-column-label-file.parameters.json"
+  },
+  "constructionKey": "case|file|{\"base\": \"sled\", \"cols\": \"multiple\", \"doors\": 2, \"drawersTop\": false, \"front\": \"slab\", \"rows\": \"stack\"}",
+  "sha256": "82894e86e42c8a0c4bebe96aaef4ba02ee18a2bfa633dd03562f28f855c0a4d4",
+  "bytes": 614028,
+  "triangles": 3676,
+  "vertices": 9877,
+  "drawPrimitives": 2,
+  "bounds": {
+    "min": [
+      -0.45000001788139343,
+      0.0,
+      -0.25600001215934753
+    ],
+    "max": [
+      0.45000001788139343,
+      1.0959034860134125,
+      0.20000000298023224
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 0.9000000357627869,
+    "depth": 0.4560000151395798,
+    "height": 1.0959034860134125
+  },
+  "footprint": [
+    [
+      -0.45000001788139343,
+      -0.25600001215934753
+    ],
+    [
+      0.45000001788139343,
+      -0.25600001215934753
+    ],
+    [
+      0.45000001788139343,
+      0.20000000298023224
+    ],
+    [
+      -0.45000001788139343,
+      0.20000000298023224
+    ]
+  ],
+  "variantSlots": [
+    "metal",
+    "wood"
+  ],
+  "requiredExtensions": [],
+  "textures": {
+    "count": 3,
+    "bytes": 174784,
+    "estimatedRgbaBytesWithMipmaps": 1048576,
+    "images": [
+      {
+        "name": "wood-normal",
+        "bytes": 102088,
+        "width": 256,
+        "height": 256,
+        "sha256": "6b8efcb5004552d884a527017922bfb5260b8bda4dc77f1365fe1cb8a09f1d56"
+      },
+      {
+        "name": "wood-neutral-base",
+        "bytes": 39353,
+        "width": 256,
+        "height": 256,
+        "sha256": "ddcf839a2addae78944a2d7a0588f9c2055852fc4ccb4e2dae2095d28541de44"
+      },
+      {
+        "name": "wood-roughness",
+        "bytes": 33343,
+        "width": 256,
+        "height": 256,
+        "sha256": "afc2180e58360e76fb178b52f225f7ba9045a7d0d266f10886763b0590335a1a"
+      }
+    ]
+  },
+  "version": "0.3.2",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.two-column-label-file",
+  "file": "assets/v0.3.2/two-column-label-file.glb",
+  "sourceModel": "sources/v0.3.2/two-column-label-file.blend",
+  "thumbnail": "previews/v0.3.2/two-column-label-file.png",
+  "backThumbnail": "previews/v0.3.2/two-column-label-file-back.png",
+  "category": "storage",
+  "subtype": "file",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.3.2/two-column-label-file.png",
+      "previews/v0.3.2/two-column-label-file-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.04500000178813934,
+      0.05000000074505806,
+      0.054999999701976776
+    ],
+    [
+      0.23000000417232513,
+      0.15000000596046448,
+      0.09000000357627869
+    ]
+  ],
+  "colourTags": [
+    "black",
+    "weathered brown"
+  ],
+  "materials": [
+    "metal",
+    "wood"
+  ],
+  "searchAliases": [
+    "storage",
+    "file"
+  ],
+  "materialSlots": [
+    {
+      "id": "metal",
+      "material": "metal",
+      "recolourable": true
+    },
+    {
+      "id": "wood",
+      "material": "wood",
+      "recolourable": true
+    }
+  ],
+  "supportChecks": {
+    "method": "source-part upper-end ray to non-leg geometry, 15mm join tolerance",
+    "status": "pass",
+    "parts": [
+      {
+        "part": "sled frame",
+        "gapMetresAlongSupport": -8.940696710757479e-09,
+        "status": "pass"
+      },
+      {
+        "part": "sled frame.001",
+        "gapMetresAlongSupport": 5.960464483090178e-09,
+        "status": "pass"
+      }
+    ],
+    "limitation": "screening only; hidden joints, whole-model connectivity, load paths and safety remain visual/product-review concerns"
+  },
+  "materialFinish": {
+    "source": "materials/v1/manifest.json",
+    "repeatMetres": {
+      "wood": [
+        0.16,
+        0.75
+      ],
+      "fabric": [
+        0.14,
+        0.14
+      ],
+      "linen": [
+        0.12,
+        0.12
+      ]
+    },
+    "maps": "original base colour / roughness / tangent normal, embedded in GLB"
+  }
+}

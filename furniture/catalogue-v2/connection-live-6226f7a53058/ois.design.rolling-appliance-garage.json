@@ -1,0 +1,945 @@
+{
+  "id": "ois.design.rolling-appliance-garage",
+  "sha256": "unexported-source-6226f7a5305865fd189dfcec35a3077205588e7999488a17cff703d94c6b1b9f",
+  "sourceModel": null,
+  "sourceSha256": "6226f7a5305865fd189dfcec35a3077205588e7999488a17cff703d94c6b1b9f",
+  "partCount": 46,
+  "componentCount": 1,
+  "components": [
+    {
+      "parts": [
+        "recessed plinth",
+        "bottom",
+        "top",
+        "side",
+        "side.001",
+        "back",
+        "door stile",
+        "door stile.001",
+        "door rail",
+        "door rail.001",
+        "recessed panel",
+        "pull",
+        "pull mounting plate",
+        "pull mounting standoff",
+        "pull mounting standoff.001",
+        "door hinge mounting stile",
+        "door hinge pin",
+        "door hinge pin.001",
+        "door stile.002",
+        "door stile.003",
+        "door rail.002",
+        "door rail.003",
+        "recessed panel.001",
+        "pull.001",
+        "pull mounting plate.001",
+        "pull mounting standoff.002",
+        "pull mounting standoff.003",
+        "door hinge mounting stile.001",
+        "door hinge pin.002",
+        "door hinge pin.003",
+        "interior shelf",
+        "interior shelf.001",
+        "rolling door slat",
+        "rolling door slat.001",
+        "rolling door slat.002",
+        "rolling door slat.003",
+        "rolling door slat.004",
+        "rolling door slat.005",
+        "rolling door slat.006",
+        "rolling door slat.007",
+        "rolling door slat.008",
+        "rolling door slat.009",
+        "rolling door slat.010",
+        "rolling door slat.011",
+        "rolling door slat.012",
+        "rolling door slat.013"
+      ],
+      "minimum": [
+        -0.45000001788139343,
+        -0.25999999046325684,
+        0.0
+      ],
+      "maximum": [
+        0.45000001788139343,
+        0.3160000145435333,
+        0.6500000357627869
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "bottom",
+      "b": "recessed plinth",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "side",
+      "b": "bottom",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "side",
+      "b": "top",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "side.001",
+      "b": "bottom",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "side.001",
+      "b": "top",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "back",
+      "b": "bottom",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "back",
+      "b": "top",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "back",
+      "b": "side",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "back",
+      "b": "side.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "door rail",
+      "b": "door stile",
+      "method": "surface distance",
+      "distance": 2.9802322387695312e-08
+    },
+    {
+      "a": "door rail",
+      "b": "door stile.001",
+      "method": "surface distance",
+      "distance": 7.450580596923828e-09
+    },
+    {
+      "a": "door rail.001",
+      "b": "door stile",
+      "method": "surface distance",
+      "distance": 2.9802322387695312e-08
+    },
+    {
+      "a": "door rail.001",
+      "b": "door stile.001",
+      "method": "surface distance",
+      "distance": 7.450580596923828e-09
+    },
+    {
+      "a": "recessed panel",
+      "b": "door stile",
+      "method": "surface distance",
+      "distance": 0.0034082892816513777
+    },
+    {
+      "a": "recessed panel",
+      "b": "door stile.001",
+      "method": "surface distance",
+      "distance": 0.003408260177820921
+    },
+    {
+      "a": "recessed panel",
+      "b": "door rail",
+      "method": "surface distance",
+      "distance": 0.003423245856538415
+    },
+    {
+      "a": "recessed panel",
+      "b": "door rail.001",
+      "method": "surface distance",
+      "distance": 0.003423298243433237
+    },
+    {
+      "a": "pull mounting plate",
+      "b": "recessed panel",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pull mounting standoff",
+      "b": "pull",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pull mounting standoff",
+      "b": "pull mounting plate",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pull mounting standoff.001",
+      "b": "pull",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pull mounting standoff.001",
+      "b": "pull mounting plate",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "door hinge mounting stile",
+      "b": "bottom",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "door hinge mounting stile",
+      "b": "top",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "door hinge mounting stile",
+      "b": "side",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "door hinge mounting stile",
+      "b": "door stile",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "door hinge pin",
+      "b": "door stile",
+      "method": "surface distance",
+      "distance": 0.0033397376537323
+    },
+    {
+      "a": "door hinge pin",
+      "b": "door hinge mounting stile",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "door hinge pin.001",
+      "b": "door stile",
+      "method": "surface distance",
+      "distance": 0.0033397376537323
+    },
+    {
+      "a": "door hinge pin.001",
+      "b": "door hinge mounting stile",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "door rail.002",
+      "b": "door stile.002",
+      "method": "surface distance",
+      "distance": 7.450580596923828e-09
+    },
+    {
+      "a": "door rail.002",
+      "b": "door stile.003",
+      "method": "surface distance",
+      "distance": 2.9802322387695312e-08
+    },
+    {
+      "a": "door rail.003",
+      "b": "door stile.002",
+      "method": "surface distance",
+      "distance": 7.450580596923828e-09
+    },
+    {
+      "a": "door rail.003",
+      "b": "door stile.003",
+      "method": "surface distance",
+      "distance": 2.9802322387695312e-08
+    },
+    {
+      "a": "recessed panel.001",
+      "b": "door stile.002",
+      "method": "surface distance",
+      "distance": 0.00340828113257885
+    },
+    {
+      "a": "recessed panel.001",
+      "b": "door stile.003",
+      "method": "surface distance",
+      "distance": 0.0034082892816513777
+    },
+    {
+      "a": "recessed panel.001",
+      "b": "door rail.002",
+      "method": "surface distance",
+      "distance": 0.0034232470206916332
+    },
+    {
+      "a": "recessed panel.001",
+      "b": "door rail.003",
+      "method": "surface distance",
+      "distance": 0.003423299640417099
+    },
+    {
+      "a": "pull mounting plate.001",
+      "b": "recessed panel.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pull mounting standoff.002",
+      "b": "pull.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pull mounting standoff.002",
+      "b": "pull mounting plate.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pull mounting standoff.003",
+      "b": "pull.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pull mounting standoff.003",
+      "b": "pull mounting plate.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "door hinge mounting stile.001",
+      "b": "bottom",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "door hinge mounting stile.001",
+      "b": "top",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "door hinge mounting stile.001",
+      "b": "door stile.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "door hinge pin.002",
+      "b": "door stile.002",
+      "method": "surface distance",
+      "distance": 0.0033397451043128967
+    },
+    {
+      "a": "door hinge pin.002",
+      "b": "door hinge mounting stile.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "door hinge pin.003",
+      "b": "door stile.002",
+      "method": "surface distance",
+      "distance": 0.0033397451043128967
+    },
+    {
+      "a": "door hinge pin.003",
+      "b": "door hinge mounting stile.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "interior shelf",
+      "b": "back",
+      "method": "surface distance",
+      "distance": 0.001999974250793457
+    },
+    {
+      "a": "interior shelf",
+      "b": "door hinge mounting stile",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "interior shelf",
+      "b": "door hinge mounting stile.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "interior shelf.001",
+      "b": "back",
+      "method": "surface distance",
+      "distance": 0.001999974250793457
+    },
+    {
+      "a": "interior shelf.001",
+      "b": "door hinge mounting stile",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "interior shelf.001",
+      "b": "door hinge mounting stile.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "rolling door slat",
+      "b": "door stile",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "rolling door slat",
+      "b": "door stile.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "rolling door slat",
+      "b": "door stile.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "rolling door slat",
+      "b": "door stile.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "rolling door slat.001",
+      "b": "door stile",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "rolling door slat.001",
+      "b": "door stile.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "rolling door slat.001",
+      "b": "door stile.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "rolling door slat.001",
+      "b": "door stile.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "rolling door slat.001",
+      "b": "rolling door slat",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "rolling door slat.002",
+      "b": "door stile",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "rolling door slat.002",
+      "b": "door stile.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "rolling door slat.002",
+      "b": "door stile.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "rolling door slat.002",
+      "b": "door stile.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "rolling door slat.002",
+      "b": "rolling door slat.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "rolling door slat.003",
+      "b": "door stile",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "rolling door slat.003",
+      "b": "door stile.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "rolling door slat.003",
+      "b": "door stile.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "rolling door slat.003",
+      "b": "door stile.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "rolling door slat.003",
+      "b": "rolling door slat.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "rolling door slat.004",
+      "b": "door stile",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "rolling door slat.004",
+      "b": "door stile.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "rolling door slat.004",
+      "b": "pull",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "rolling door slat.004",
+      "b": "pull mounting standoff",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "rolling door slat.004",
+      "b": "door stile.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "rolling door slat.004",
+      "b": "door stile.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "rolling door slat.004",
+      "b": "pull.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "rolling door slat.004",
+      "b": "pull mounting standoff.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "rolling door slat.004",
+      "b": "rolling door slat.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "rolling door slat.005",
+      "b": "door stile",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "rolling door slat.005",
+      "b": "door stile.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "rolling door slat.005",
+      "b": "pull",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "rolling door slat.005",
+      "b": "pull mounting standoff",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "rolling door slat.005",
+      "b": "door stile.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "rolling door slat.005",
+      "b": "door stile.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "rolling door slat.005",
+      "b": "pull.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "rolling door slat.005",
+      "b": "pull mounting standoff.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "rolling door slat.005",
+      "b": "rolling door slat.004",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "rolling door slat.006",
+      "b": "door stile",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "rolling door slat.006",
+      "b": "door stile.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "rolling door slat.006",
+      "b": "pull",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "rolling door slat.006",
+      "b": "door stile.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "rolling door slat.006",
+      "b": "door stile.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "rolling door slat.006",
+      "b": "pull.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "rolling door slat.006",
+      "b": "rolling door slat.005",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "rolling door slat.007",
+      "b": "door stile",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "rolling door slat.007",
+      "b": "door stile.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "rolling door slat.007",
+      "b": "pull",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "rolling door slat.007",
+      "b": "door stile.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "rolling door slat.007",
+      "b": "door stile.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "rolling door slat.007",
+      "b": "pull.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "rolling door slat.007",
+      "b": "rolling door slat.006",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "rolling door slat.008",
+      "b": "door stile",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "rolling door slat.008",
+      "b": "door stile.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "rolling door slat.008",
+      "b": "pull",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "rolling door slat.008",
+      "b": "pull mounting standoff.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "rolling door slat.008",
+      "b": "door stile.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "rolling door slat.008",
+      "b": "door stile.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "rolling door slat.008",
+      "b": "pull.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "rolling door slat.008",
+      "b": "pull mounting standoff.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "rolling door slat.008",
+      "b": "rolling door slat.007",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "rolling door slat.009",
+      "b": "door stile",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "rolling door slat.009",
+      "b": "door stile.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "rolling door slat.009",
+      "b": "pull",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "rolling door slat.009",
+      "b": "pull mounting standoff.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "rolling door slat.009",
+      "b": "door stile.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "rolling door slat.009",
+      "b": "door stile.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "rolling door slat.009",
+      "b": "pull.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "rolling door slat.009",
+      "b": "pull mounting standoff.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "rolling door slat.009",
+      "b": "rolling door slat.008",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "rolling door slat.010",
+      "b": "door stile",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "rolling door slat.010",
+      "b": "door stile.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "rolling door slat.010",
+      "b": "door stile.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "rolling door slat.010",
+      "b": "door stile.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "rolling door slat.010",
+      "b": "rolling door slat.009",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "rolling door slat.011",
+      "b": "door stile",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "rolling door slat.011",
+      "b": "door stile.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "rolling door slat.011",
+      "b": "door stile.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "rolling door slat.011",
+      "b": "door stile.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "rolling door slat.011",
+      "b": "rolling door slat.010",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "rolling door slat.012",
+      "b": "door stile",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "rolling door slat.012",
+      "b": "door stile.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "rolling door slat.012",
+      "b": "door stile.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "rolling door slat.012",
+      "b": "door stile.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "rolling door slat.012",
+      "b": "rolling door slat.011",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "rolling door slat.013",
+      "b": "door stile",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "rolling door slat.013",
+      "b": "door stile.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "rolling door slat.013",
+      "b": "door stile.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "rolling door slat.013",
+      "b": "door stile.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "rolling door slat.013",
+      "b": "rolling door slat.012",
+      "method": "triangle intersection",
+      "distance": 0
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; live-source reports are NOT exported-asset evidence; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T03:35:38Z"
+}

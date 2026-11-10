@@ -1,0 +1,44 @@
+{
+  "id": "ois.design.open-garment-rail",
+  "sha256": "unexported-source-6226f7a5305865fd189dfcec35a3077205588e7999488a17cff703d94c6b1b9f",
+  "sourceModel": null,
+  "sourceSha256": "6226f7a5305865fd189dfcec35a3077205588e7999488a17cff703d94c6b1b9f",
+  "partCount": 3,
+  "componentCount": 1,
+  "components": [
+    {
+      "parts": [
+        "rack side",
+        "rack side.001",
+        "garment bar"
+      ],
+      "minimum": [
+        -0.5690000057220459,
+        -0.25,
+        0.0010000001639127731
+      ],
+      "maximum": [
+        0.5690000057220459,
+        0.26876652240753174,
+        1.6220000982284546
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "garment bar",
+      "b": "rack side",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "garment bar",
+      "b": "rack side.001",
+      "method": "triangle intersection",
+      "distance": 0
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; live-source reports are NOT exported-asset evidence; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T03:35:58Z"
+}

@@ -1,0 +1,176 @@
+{
+  "designId": "ois.design.server-equipment-rack",
+  "familyId": "ois.family.server-equipment-rack",
+  "id": "ois.design.server-equipment-rack",
+  "name": "Server equipment rack",
+  "roomTags": [
+    "office"
+  ],
+  "theme": "city-loft",
+  "builder": "special",
+  "parameters": {
+    "form": "server-rack",
+    "w": 0.65,
+    "d": 0.7,
+    "h": 1.75
+  },
+  "distinction": "Glazed tall cabinet contains ten separately modelled server faces.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted"
+  },
+  "constructionKey": "special|server-rack|{\"cols\": 1, \"front\": \"cane\", \"panels\": 3}",
+  "sha256": "f9b803df493026ada23052e69ffaa8e93df894868a9b24f884d7738d9a5d659b",
+  "bytes": 403764,
+  "triangles": 10288,
+  "vertices": 10508,
+  "drawPrimitives": 5,
+  "bounds": {
+    "min": [
+      -0.32500001788139343,
+      0.0,
+      -0.4060000215090387
+    ],
+    "max": [
+      0.32500001788139343,
+      1.7500000298023224,
+      0.3499999940395355
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 0.6500000357627869,
+    "depth": 0.7560000155485742,
+    "height": 1.7500000298023224
+  },
+  "footprint": [
+    [
+      -0.32500001788139343,
+      -0.4060000215090387
+    ],
+    [
+      0.32500001788139343,
+      -0.4060000215090387
+    ],
+    [
+      0.32500001788139343,
+      0.3499999940395355
+    ],
+    [
+      -0.32500001788139343,
+      0.3499999940395355
+    ]
+  ],
+  "variantSlots": [
+    "accent",
+    "dark",
+    "glass",
+    "metal",
+    "wood"
+  ],
+  "requiredExtensions": [],
+  "version": "0.2.0",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.server-equipment-rack",
+  "file": "assets/v0.2.0/server-equipment-rack.glb",
+  "sourceModel": "sources/v0.2.0/server-equipment-rack.blend",
+  "thumbnail": "previews/v0.2.0/server-equipment-rack.png",
+  "backThumbnail": "previews/v0.2.0/server-equipment-rack-back.png",
+  "category": "specialty",
+  "subtype": "server-rack",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "textures": {
+    "count": 0,
+    "bytes": 0
+  },
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.2.0/server-equipment-rack.png",
+      "previews/v0.2.0/server-equipment-rack-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.23,
+      0.15,
+      0.09
+    ],
+    [
+      0.12,
+      0.14,
+      0.16
+    ],
+    [
+      0.045,
+      0.05,
+      0.055
+    ]
+  ],
+  "colourTags": [
+    "charcoal",
+    "black",
+    "weathered wood"
+  ],
+  "materials": [
+    "metal",
+    "opaque-glass-study",
+    "paint",
+    "wood"
+  ],
+  "searchAliases": [
+    "office",
+    "server rack"
+  ],
+  "materialSlots": [
+    {
+      "id": "accent",
+      "material": "accent",
+      "recolourable": true
+    },
+    {
+      "id": "dark",
+      "material": "dark",
+      "recolourable": true
+    },
+    {
+      "id": "glass",
+      "material": "glass",
+      "recolourable": true
+    },
+    {
+      "id": "metal",
+      "material": "metal",
+      "recolourable": true
+    },
+    {
+      "id": "wood",
+      "material": "wood",
+      "recolourable": true
+    }
+  ],
+  "geometryHash": "35b1a556c9c142de00d48f2700608ea98b2b5a6ca5d977573c39ed8dd0996b2a",
+  "normalizedMirrorGeometryHash": "14866e95025d828c39fe14455f937eba4148a41fa8d75408ce31287b57d11e17"
+}

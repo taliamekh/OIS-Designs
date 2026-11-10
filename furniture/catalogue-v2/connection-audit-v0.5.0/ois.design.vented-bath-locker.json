@@ -1,0 +1,939 @@
+{
+  "id": "ois.design.vented-bath-locker",
+  "sha256": "8614d1689930a4eb92521124216738cbe43053b6422e2d7d8a490ac8fb9b3c86",
+  "sourceModel": "sources/v0.5.0/vented-bath-locker.blend",
+  "sourceSha256": "0045b259fe37b882c5d507f5fbe8a1a3bd16ab8b7bef307f57f432809fe35720",
+  "partCount": 70,
+  "componentCount": 1,
+  "components": [
+    {
+      "parts": [
+        "sled frame",
+        "sled frame.001",
+        "bottom",
+        "top",
+        "side",
+        "side.001",
+        "back",
+        "shelf",
+        "shelf.001",
+        "partition",
+        "vented door stile",
+        "vented door stile.001",
+        "vented door rail",
+        "vented door rail.001",
+        "louvre",
+        "louvre.001",
+        "louvre.002",
+        "louvre.003",
+        "louvre.004",
+        "louvre.005",
+        "vented door stile.002",
+        "vented door stile.003",
+        "vented door rail.002",
+        "vented door rail.003",
+        "louvre.006",
+        "louvre.007",
+        "louvre.008",
+        "louvre.009",
+        "louvre.010",
+        "louvre.011",
+        "vented door stile.004",
+        "vented door stile.005",
+        "vented door rail.004",
+        "vented door rail.005",
+        "louvre.012",
+        "louvre.013",
+        "louvre.014",
+        "louvre.015",
+        "louvre.016",
+        "louvre.017",
+        "vented door stile.006",
+        "vented door stile.007",
+        "vented door rail.006",
+        "vented door rail.007",
+        "louvre.018",
+        "louvre.019",
+        "louvre.020",
+        "louvre.021",
+        "louvre.022",
+        "louvre.023",
+        "vented door stile.008",
+        "vented door stile.009",
+        "vented door rail.008",
+        "vented door rail.009",
+        "louvre.024",
+        "louvre.025",
+        "louvre.026",
+        "louvre.027",
+        "louvre.028",
+        "louvre.029",
+        "vented door stile.010",
+        "vented door stile.011",
+        "vented door rail.010",
+        "vented door rail.011",
+        "louvre.030",
+        "louvre.031",
+        "louvre.032",
+        "louvre.033",
+        "louvre.034",
+        "louvre.035"
+      ],
+      "minimum": [
+        -0.375,
+        -0.17499999701976776,
+        0.0
+      ],
+      "maximum": [
+        0.375,
+        0.20696084201335907,
+        1.645504117012024
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "bottom",
+      "b": "sled frame",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "bottom",
+      "b": "sled frame.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "side",
+      "b": "bottom",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "side",
+      "b": "top",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "side.001",
+      "b": "bottom",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "side.001",
+      "b": "top",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "back",
+      "b": "bottom",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "back",
+      "b": "top",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "back",
+      "b": "side",
+      "method": "surface distance",
+      "distance": 0.0
+    },
+    {
+      "a": "back",
+      "b": "side.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "shelf",
+      "b": "side",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "shelf",
+      "b": "side.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "shelf",
+      "b": "back",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "shelf.001",
+      "b": "side",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "shelf.001",
+      "b": "side.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "shelf.001",
+      "b": "back",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "partition",
+      "b": "bottom",
+      "method": "surface distance",
+      "distance": 0.003999918699264526
+    },
+    {
+      "a": "partition",
+      "b": "back",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "partition",
+      "b": "shelf",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "partition",
+      "b": "shelf.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "vented door stile",
+      "b": "bottom",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "vented door stile",
+      "b": "side",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "vented door stile.001",
+      "b": "bottom",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "vented door rail",
+      "b": "bottom",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "vented door rail",
+      "b": "vented door stile",
+      "method": "surface distance",
+      "distance": 3.332000986233652e-08
+    },
+    {
+      "a": "vented door rail",
+      "b": "vented door stile.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "vented door rail.001",
+      "b": "vented door stile",
+      "method": "surface distance",
+      "distance": 2.9802322387695312e-08
+    },
+    {
+      "a": "vented door rail.001",
+      "b": "vented door stile.001",
+      "method": "surface distance",
+      "distance": 7.450580596923828e-09
+    },
+    {
+      "a": "louvre",
+      "b": "vented door stile",
+      "method": "surface distance",
+      "distance": 2.9802322387695312e-08
+    },
+    {
+      "a": "louvre",
+      "b": "vented door stile.001",
+      "method": "surface distance",
+      "distance": 7.450580596923828e-09
+    },
+    {
+      "a": "louvre",
+      "b": "vented door rail",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "louvre.001",
+      "b": "vented door stile",
+      "method": "surface distance",
+      "distance": 3.332000986233652e-08
+    },
+    {
+      "a": "louvre.001",
+      "b": "vented door stile.001",
+      "method": "surface distance",
+      "distance": 3.0719530030864917e-08
+    },
+    {
+      "a": "louvre.002",
+      "b": "vented door stile",
+      "method": "surface distance",
+      "distance": 2.9802322387695312e-08
+    },
+    {
+      "a": "louvre.002",
+      "b": "vented door stile.001",
+      "method": "surface distance",
+      "distance": 2.0870272692263825e-06
+    },
+    {
+      "a": "louvre.003",
+      "b": "vented door stile",
+      "method": "surface distance",
+      "distance": 2.9802322387695312e-08
+    },
+    {
+      "a": "louvre.003",
+      "b": "vented door stile.001",
+      "method": "surface distance",
+      "distance": 7.818850917828968e-07
+    },
+    {
+      "a": "louvre.004",
+      "b": "vented door stile",
+      "method": "surface distance",
+      "distance": 4.214684778958144e-08
+    },
+    {
+      "a": "louvre.004",
+      "b": "vented door stile.001",
+      "method": "surface distance",
+      "distance": 5.069133521828917e-07
+    },
+    {
+      "a": "louvre.005",
+      "b": "vented door stile",
+      "method": "surface distance",
+      "distance": 6.828570064953965e-08
+    },
+    {
+      "a": "louvre.005",
+      "b": "vented door stile.001",
+      "method": "surface distance",
+      "distance": 1.2036781527058338e-07
+    },
+    {
+      "a": "louvre.005",
+      "b": "vented door rail.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "vented door stile.002",
+      "b": "side",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "vented door rail.002",
+      "b": "vented door stile.002",
+      "method": "surface distance",
+      "distance": 6.664001972467304e-08
+    },
+    {
+      "a": "vented door rail.002",
+      "b": "vented door stile.003",
+      "method": "surface distance",
+      "distance": 6.006850128414953e-08
+    },
+    {
+      "a": "vented door rail.003",
+      "b": "vented door stile.002",
+      "method": "surface distance",
+      "distance": 2.9802322387695312e-08
+    },
+    {
+      "a": "vented door rail.003",
+      "b": "vented door stile.003",
+      "method": "surface distance",
+      "distance": 7.450580596923828e-09
+    },
+    {
+      "a": "louvre.006",
+      "b": "vented door stile.002",
+      "method": "surface distance",
+      "distance": 2.9802322387695312e-08
+    },
+    {
+      "a": "louvre.006",
+      "b": "vented door stile.003",
+      "method": "surface distance",
+      "distance": 7.450580596923828e-09
+    },
+    {
+      "a": "louvre.006",
+      "b": "vented door rail.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "louvre.007",
+      "b": "vented door stile.002",
+      "method": "surface distance",
+      "distance": 2.9802322387695312e-08
+    },
+    {
+      "a": "louvre.007",
+      "b": "vented door stile.003",
+      "method": "surface distance",
+      "distance": 7.450580596923828e-09
+    },
+    {
+      "a": "louvre.008",
+      "b": "vented door stile.002",
+      "method": "surface distance",
+      "distance": 2.9802322387695312e-08
+    },
+    {
+      "a": "louvre.008",
+      "b": "vented door stile.003",
+      "method": "surface distance",
+      "distance": 2.146607812392176e-06
+    },
+    {
+      "a": "louvre.009",
+      "b": "vented door stile.002",
+      "method": "surface distance",
+      "distance": 2.9802322387695312e-08
+    },
+    {
+      "a": "louvre.009",
+      "b": "vented door stile.003",
+      "method": "surface distance",
+      "distance": 1.9078870536759496e-06
+    },
+    {
+      "a": "louvre.010",
+      "b": "vented door stile.002",
+      "method": "surface distance",
+      "distance": 2.9802322387695312e-08
+    },
+    {
+      "a": "louvre.010",
+      "b": "vented door stile.003",
+      "method": "surface distance",
+      "distance": 6.563703323081427e-07
+    },
+    {
+      "a": "louvre.011",
+      "b": "vented door stile.002",
+      "method": "surface distance",
+      "distance": 1.2644053981603065e-07
+    },
+    {
+      "a": "louvre.011",
+      "b": "vented door stile.003",
+      "method": "surface distance",
+      "distance": 3.0719530030864917e-08
+    },
+    {
+      "a": "louvre.011",
+      "b": "vented door rail.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "vented door stile.004",
+      "b": "side",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "vented door rail.004",
+      "b": "vented door stile.004",
+      "method": "surface distance",
+      "distance": 2.9802322387695312e-08
+    },
+    {
+      "a": "vented door rail.004",
+      "b": "vented door stile.005",
+      "method": "surface distance",
+      "distance": 7.450580596923828e-09
+    },
+    {
+      "a": "vented door rail.005",
+      "b": "vented door stile.004",
+      "method": "surface distance",
+      "distance": 2.9802322387695312e-08
+    },
+    {
+      "a": "vented door rail.005",
+      "b": "vented door stile.005",
+      "method": "surface distance",
+      "distance": 7.450580596923828e-09
+    },
+    {
+      "a": "louvre.012",
+      "b": "vented door stile.004",
+      "method": "surface distance",
+      "distance": 2.9802322387695312e-08
+    },
+    {
+      "a": "louvre.012",
+      "b": "vented door stile.005",
+      "method": "surface distance",
+      "distance": 7.450580596923828e-09
+    },
+    {
+      "a": "louvre.012",
+      "b": "vented door rail.004",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "louvre.013",
+      "b": "vented door stile.004",
+      "method": "surface distance",
+      "distance": 2.9802322387695312e-08
+    },
+    {
+      "a": "louvre.013",
+      "b": "vented door stile.005",
+      "method": "surface distance",
+      "distance": 7.450580596923828e-09
+    },
+    {
+      "a": "louvre.014",
+      "b": "vented door stile.004",
+      "method": "surface distance",
+      "distance": 3.332000986233652e-08
+    },
+    {
+      "a": "louvre.014",
+      "b": "vented door stile.005",
+      "method": "surface distance",
+      "distance": 2.029254119406687e-06
+    },
+    {
+      "a": "louvre.015",
+      "b": "vented door stile.004",
+      "method": "surface distance",
+      "distance": 2.9802322387695312e-08
+    },
+    {
+      "a": "louvre.015",
+      "b": "vented door stile.005",
+      "method": "surface distance",
+      "distance": 8.409920155827422e-07
+    },
+    {
+      "a": "louvre.016",
+      "b": "vented door stile.004",
+      "method": "surface distance",
+      "distance": 2.9802322387695312e-08
+    },
+    {
+      "a": "louvre.016",
+      "b": "vented door stile.005",
+      "method": "surface distance",
+      "distance": 4.771280828208546e-07
+    },
+    {
+      "a": "louvre.017",
+      "b": "vented door stile.004",
+      "method": "surface distance",
+      "distance": 1.437015981764489e-07
+    },
+    {
+      "a": "louvre.017",
+      "b": "vented door stile.005",
+      "method": "surface distance",
+      "distance": 3.0719530030864917e-08
+    },
+    {
+      "a": "louvre.017",
+      "b": "vented door rail.005",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "vented door stile.006",
+      "b": "bottom",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "vented door stile.007",
+      "b": "bottom",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "vented door stile.007",
+      "b": "side.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "vented door rail.006",
+      "b": "bottom",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "vented door rail.006",
+      "b": "vented door stile.006",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "vented door rail.006",
+      "b": "vented door stile.007",
+      "method": "surface distance",
+      "distance": 3.332000986233652e-08
+    },
+    {
+      "a": "vented door rail.007",
+      "b": "vented door stile.006",
+      "method": "surface distance",
+      "distance": 7.450580596923828e-09
+    },
+    {
+      "a": "vented door rail.007",
+      "b": "vented door stile.007",
+      "method": "surface distance",
+      "distance": 2.9802322387695312e-08
+    },
+    {
+      "a": "louvre.018",
+      "b": "vented door stile.006",
+      "method": "surface distance",
+      "distance": 7.450580596923828e-09
+    },
+    {
+      "a": "louvre.018",
+      "b": "vented door stile.007",
+      "method": "surface distance",
+      "distance": 2.9802322387695312e-08
+    },
+    {
+      "a": "louvre.018",
+      "b": "vented door rail.006",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "louvre.019",
+      "b": "vented door stile.006",
+      "method": "surface distance",
+      "distance": 1.666000493116826e-08
+    },
+    {
+      "a": "louvre.019",
+      "b": "vented door stile.007",
+      "method": "surface distance",
+      "distance": 4.214684778958144e-08
+    },
+    {
+      "a": "louvre.020",
+      "b": "vented door stile.006",
+      "method": "surface distance",
+      "distance": 7.450580596923828e-09
+    },
+    {
+      "a": "louvre.020",
+      "b": "vented door stile.007",
+      "method": "surface distance",
+      "distance": 2.087226675939746e-06
+    },
+    {
+      "a": "louvre.021",
+      "b": "vented door stile.006",
+      "method": "surface distance",
+      "distance": 7.450580596923828e-09
+    },
+    {
+      "a": "louvre.021",
+      "b": "vented door stile.007",
+      "method": "surface distance",
+      "distance": 7.824173735571094e-07
+    },
+    {
+      "a": "louvre.022",
+      "b": "vented door stile.006",
+      "method": "surface distance",
+      "distance": 3.0719530030864917e-08
+    },
+    {
+      "a": "louvre.022",
+      "b": "vented door stile.007",
+      "method": "surface distance",
+      "distance": 5.077339437775663e-07
+    },
+    {
+      "a": "louvre.023",
+      "b": "vented door stile.006",
+      "method": "surface distance",
+      "distance": 6.188916756855178e-08
+    },
+    {
+      "a": "louvre.023",
+      "b": "vented door stile.007",
+      "method": "surface distance",
+      "distance": 1.2377833513710357e-07
+    },
+    {
+      "a": "louvre.023",
+      "b": "vented door rail.007",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "vented door stile.009",
+      "b": "side.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "vented door rail.008",
+      "b": "vented door stile.008",
+      "method": "surface distance",
+      "distance": 6.006850128414953e-08
+    },
+    {
+      "a": "vented door rail.008",
+      "b": "vented door stile.009",
+      "method": "surface distance",
+      "distance": 6.664001972467304e-08
+    },
+    {
+      "a": "vented door rail.009",
+      "b": "vented door stile.008",
+      "method": "surface distance",
+      "distance": 7.450580596923828e-09
+    },
+    {
+      "a": "vented door rail.009",
+      "b": "vented door stile.009",
+      "method": "surface distance",
+      "distance": 2.9802322387695312e-08
+    },
+    {
+      "a": "louvre.024",
+      "b": "vented door stile.008",
+      "method": "surface distance",
+      "distance": 7.450580596923828e-09
+    },
+    {
+      "a": "louvre.024",
+      "b": "vented door stile.009",
+      "method": "surface distance",
+      "distance": 2.9802322387695312e-08
+    },
+    {
+      "a": "louvre.024",
+      "b": "vented door rail.008",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "louvre.025",
+      "b": "vented door stile.008",
+      "method": "surface distance",
+      "distance": 7.450580596923828e-09
+    },
+    {
+      "a": "louvre.025",
+      "b": "vented door stile.009",
+      "method": "surface distance",
+      "distance": 2.9802322387695312e-08
+    },
+    {
+      "a": "louvre.026",
+      "b": "vented door stile.008",
+      "method": "surface distance",
+      "distance": 7.450580596923828e-09
+    },
+    {
+      "a": "louvre.026",
+      "b": "vented door stile.009",
+      "method": "surface distance",
+      "distance": 2.146801762137329e-06
+    },
+    {
+      "a": "louvre.027",
+      "b": "vented door stile.008",
+      "method": "surface distance",
+      "distance": 7.450580596923828e-09
+    },
+    {
+      "a": "louvre.027",
+      "b": "vented door stile.009",
+      "method": "surface distance",
+      "distance": 1.9081051050306996e-06
+    },
+    {
+      "a": "louvre.028",
+      "b": "vented door stile.008",
+      "method": "surface distance",
+      "distance": 7.450580596923828e-09
+    },
+    {
+      "a": "louvre.028",
+      "b": "vented door stile.009",
+      "method": "surface distance",
+      "distance": 6.570043638021161e-07
+    },
+    {
+      "a": "louvre.029",
+      "b": "vented door stile.008",
+      "method": "surface distance",
+      "distance": 1.2310378849633707e-07
+    },
+    {
+      "a": "louvre.029",
+      "b": "vented door stile.009",
+      "method": "surface distance",
+      "distance": 4.214684778958144e-08
+    },
+    {
+      "a": "louvre.029",
+      "b": "vented door rail.009",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "vented door stile.011",
+      "b": "side.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "vented door rail.010",
+      "b": "vented door stile.010",
+      "method": "surface distance",
+      "distance": 7.450580596923828e-09
+    },
+    {
+      "a": "vented door rail.010",
+      "b": "vented door stile.011",
+      "method": "surface distance",
+      "distance": 2.9802322387695312e-08
+    },
+    {
+      "a": "vented door rail.011",
+      "b": "vented door stile.010",
+      "method": "surface distance",
+      "distance": 7.450580596923828e-09
+    },
+    {
+      "a": "vented door rail.011",
+      "b": "vented door stile.011",
+      "method": "surface distance",
+      "distance": 2.9802322387695312e-08
+    },
+    {
+      "a": "louvre.030",
+      "b": "vented door stile.010",
+      "method": "surface distance",
+      "distance": 7.450580596923828e-09
+    },
+    {
+      "a": "louvre.030",
+      "b": "vented door stile.011",
+      "method": "surface distance",
+      "distance": 2.9802322387695312e-08
+    },
+    {
+      "a": "louvre.030",
+      "b": "vented door rail.010",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "louvre.031",
+      "b": "vented door stile.010",
+      "method": "surface distance",
+      "distance": 7.450580596923828e-09
+    },
+    {
+      "a": "louvre.031",
+      "b": "vented door stile.011",
+      "method": "surface distance",
+      "distance": 2.9802322387695312e-08
+    },
+    {
+      "a": "louvre.032",
+      "b": "vented door stile.010",
+      "method": "surface distance",
+      "distance": 1.666000493116826e-08
+    },
+    {
+      "a": "louvre.032",
+      "b": "vented door stile.011",
+      "method": "surface distance",
+      "distance": 2.0294594378356123e-06
+    },
+    {
+      "a": "louvre.033",
+      "b": "vented door stile.010",
+      "method": "surface distance",
+      "distance": 7.450580596923828e-09
+    },
+    {
+      "a": "louvre.033",
+      "b": "vented door stile.011",
+      "method": "surface distance",
+      "distance": 8.414869512307632e-07
+    },
+    {
+      "a": "louvre.034",
+      "b": "vented door stile.010",
+      "method": "surface distance",
+      "distance": 7.450580596923828e-09
+    },
+    {
+      "a": "louvre.034",
+      "b": "vented door stile.011",
+      "method": "surface distance",
+      "distance": 4.779998903359228e-07
+    },
+    {
+      "a": "louvre.035",
+      "b": "vented door stile.010",
+      "method": "surface distance",
+      "distance": 1.4077457421990403e-07
+    },
+    {
+      "a": "louvre.035",
+      "b": "vented door stile.011",
+      "method": "surface distance",
+      "distance": 4.214684778958144e-08
+    },
+    {
+      "a": "louvre.035",
+      "b": "vented door rail.011",
+      "method": "triangle intersection",
+      "distance": 0
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T03:07:35Z"
+}

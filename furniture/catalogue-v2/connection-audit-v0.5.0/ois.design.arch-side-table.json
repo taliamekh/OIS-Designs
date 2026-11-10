@@ -1,0 +1,44 @@
+{
+  "id": "ois.design.arch-side-table",
+  "sha256": "6e2704b56d077d41b26f4be1eb1c2d14ece80d9ac450b0d5633bb350f1a70cee",
+  "sourceModel": "sources/v0.5.0/arch-side-table.blend",
+  "sourceSha256": "454b8f5bd66e509beadba7a3ffa4b44f5a27b5cbfed99965ae49a7168c04d529",
+  "partCount": 3,
+  "componentCount": 1,
+  "components": [
+    {
+      "parts": [
+        "top",
+        "arch support",
+        "arch support.001"
+      ],
+      "minimum": [
+        -0.32499998807907104,
+        -0.22499999403953552,
+        0.0
+      ],
+      "maximum": [
+        0.32499998807907104,
+        0.22499999403953552,
+        0.5110037922859192
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "arch support",
+      "b": "top",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "arch support.001",
+      "b": "top",
+      "method": "triangle intersection",
+      "distance": 0
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T03:07:30Z"
+}

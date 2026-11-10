@@ -1,0 +1,166 @@
+{
+  "id": "ois.design.shelf-floor-light",
+  "sha256": "088456b2b5c3f2ab919ca23fb9adc6a05d8288c674447a0cdb478f4658442aaf",
+  "sourceModel": "sources/v0.7.0/shelf-floor-light.blend",
+  "sourceSha256": "e6962849b15a98cae586d2989cf60872f0241875dce492d4c7adbf78a191e967",
+  "partCount": 11,
+  "componentCount": 1,
+  "components": [
+    {
+      "parts": [
+        "lamp shelf",
+        "lamp shelf.001",
+        "lamp shelf.002",
+        "shelf lamp upright",
+        "shelf lamp upright.001",
+        "shelf lamp upright.002",
+        "open shade",
+        "lamp socket mast",
+        "shade spider",
+        "shade spider.001",
+        "shade spider.002"
+      ],
+      "minimum": [
+        -0.23000000417232513,
+        -0.23000000417232513,
+        0.0
+      ],
+      "maximum": [
+        0.23000000417232513,
+        0.23000000417232513,
+        1.5499999523162842
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "shelf lamp upright",
+      "b": "lamp shelf",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "shelf lamp upright",
+      "b": "lamp shelf.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "shelf lamp upright",
+      "b": "lamp shelf.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "shelf lamp upright.001",
+      "b": "lamp shelf",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "shelf lamp upright.001",
+      "b": "lamp shelf.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "shelf lamp upright.001",
+      "b": "lamp shelf.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "shelf lamp upright.002",
+      "b": "lamp shelf",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "shelf lamp upright.002",
+      "b": "lamp shelf.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "shelf lamp upright.002",
+      "b": "lamp shelf.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "open shade",
+      "b": "shelf lamp upright",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "open shade",
+      "b": "shelf lamp upright.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "open shade",
+      "b": "shelf lamp upright.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "shade spider",
+      "b": "open shade",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "shade spider",
+      "b": "lamp socket mast",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "shade spider.001",
+      "b": "open shade",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "shade spider.001",
+      "b": "lamp socket mast",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "shade spider.001",
+      "b": "shade spider",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "shade spider.002",
+      "b": "open shade",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "shade spider.002",
+      "b": "lamp socket mast",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "shade spider.002",
+      "b": "shade spider",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "shade spider.002",
+      "b": "shade spider.001",
+      "method": "triangle intersection",
+      "distance": 0
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; live-source reports are NOT exported-asset evidence; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T03:51:57Z"
+}

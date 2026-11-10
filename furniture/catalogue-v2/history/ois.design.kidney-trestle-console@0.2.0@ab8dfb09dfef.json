@@ -1,0 +1,148 @@
+{
+  "designId": "ois.design.kidney-trestle-console",
+  "familyId": "ois.family.kidney-trestle-console",
+  "id": "ois.design.kidney-trestle-console",
+  "name": "Kidney trestle console",
+  "roomTags": [
+    "entry-hall"
+  ],
+  "theme": "calm-oak",
+  "builder": "table",
+  "parameters": {
+    "form": "trestle",
+    "w": 1.1,
+    "d": 0.42,
+    "h": 0.78,
+    "shape": "kidney"
+  },
+  "distinction": "Narrow concave top carried by two open timber trestles.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted"
+  },
+  "constructionKey": "table|trestle|{\"drawers\": false, \"shape\": \"kidney\", \"shelf\": false}",
+  "sha256": "ab8dfb09dfef6f746f254111e26d4f647c82da55dacd9a93675765d8647fb3d7",
+  "bytes": 23988,
+  "triangles": 488,
+  "vertices": 618,
+  "drawPrimitives": 1,
+  "bounds": {
+    "min": [
+      -0.6600000262260437,
+      9.313225746154785e-09,
+      -0.22679999470710754
+    ],
+    "max": [
+      0.6600000262260437,
+      0.760212579742074,
+      0.1634281873703003
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 1.3200000524520874,
+    "depth": 0.39022818207740784,
+    "height": 0.7602125704288483
+  },
+  "footprint": [
+    [
+      -0.6600000262260437,
+      -0.22679999470710754
+    ],
+    [
+      0.6600000262260437,
+      -0.22679999470710754
+    ],
+    [
+      0.6600000262260437,
+      0.1634281873703003
+    ],
+    [
+      -0.6600000262260437,
+      0.1634281873703003
+    ]
+  ],
+  "variantSlots": [
+    "wood"
+  ],
+  "requiredExtensions": [],
+  "version": "0.2.0",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.kidney-trestle-console",
+  "file": "assets/v0.2.0/kidney-trestle-console.glb",
+  "sourceModel": "sources/v0.2.0/kidney-trestle-console.blend",
+  "thumbnail": "previews/v0.2.0/kidney-trestle-console.png",
+  "backThumbnail": "previews/v0.2.0/kidney-trestle-console-back.png",
+  "category": "tables",
+  "subtype": "trestle",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "textures": {
+    "count": 0,
+    "bytes": 0
+  },
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.2.0/kidney-trestle-console.png",
+      "previews/v0.2.0/kidney-trestle-console-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.58,
+      0.39,
+      0.2
+    ],
+    [
+      0.73,
+      0.7,
+      0.61
+    ],
+    [
+      0.12,
+      0.14,
+      0.13
+    ]
+  ],
+  "colourTags": [
+    "pale oak",
+    "ivory",
+    "oatmeal"
+  ],
+  "materials": [
+    "wood"
+  ],
+  "searchAliases": [
+    "entry hall",
+    "trestle"
+  ],
+  "materialSlots": [
+    {
+      "id": "wood",
+      "material": "wood",
+      "recolourable": true
+    }
+  ]
+}

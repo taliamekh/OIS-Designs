@@ -1,0 +1,155 @@
+{
+  "designId": "ois.design.louver-shoe-cupboard",
+  "familyId": "ois.family.louver-shoe-cupboard",
+  "id": "ois.design.louver-shoe-cupboard",
+  "name": "Louver shoe cupboard",
+  "roomTags": [
+    "entry-hall"
+  ],
+  "theme": "coastal-linen",
+  "builder": "case",
+  "parameters": {
+    "form": "doors",
+    "w": 0.96,
+    "d": 0.34,
+    "h": 0.88,
+    "front": "louvre"
+  },
+  "distinction": "Two ventilated louvre panels conceal a low shoe cupboard.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted"
+  },
+  "constructionKey": "case|doors|{\"base\": \"taper\", \"cols\": 1, \"drawersTop\": false, \"front\": \"louvre\", \"rows\": 4}",
+  "sha256": "e28befdac322198bd6ee151ff1c9d7480f659a02f38d1e2a061a69b711cc7772",
+  "bytes": 319676,
+  "triangles": 6564,
+  "vertices": 8679,
+  "drawPrimitives": 2,
+  "bounds": {
+    "min": [
+      -0.48000004272110697,
+      -1.4979272169868274e-08,
+      -0.22599999886006117
+    ],
+    "max": [
+      0.4800001568068196,
+      0.8718380606329216,
+      0.17000003397997038
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 0.9600001995279266,
+    "depth": 0.39600003284003155,
+    "height": 0.8718380756121937
+  },
+  "footprint": [
+    [
+      -0.48000004272110697,
+      -0.22599999886006117
+    ],
+    [
+      0.4800001568068196,
+      -0.22599999886006117
+    ],
+    [
+      0.4800001568068196,
+      0.17000003397997038
+    ],
+    [
+      -0.48000004272110697,
+      0.17000003397997038
+    ]
+  ],
+  "variantSlots": [
+    "metal",
+    "wood"
+  ],
+  "requiredExtensions": [],
+  "version": "0.2.0",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.louver-shoe-cupboard",
+  "file": "assets/v0.2.0/louver-shoe-cupboard.glb",
+  "sourceModel": "sources/v0.2.0/louver-shoe-cupboard.blend",
+  "thumbnail": "previews/v0.2.0/louver-shoe-cupboard.png",
+  "backThumbnail": "previews/v0.2.0/louver-shoe-cupboard-back.png",
+  "category": "storage",
+  "subtype": "doors",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "textures": {
+    "count": 0,
+    "bytes": 0
+  },
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.2.0/louver-shoe-cupboard.png",
+      "previews/v0.2.0/louver-shoe-cupboard-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.66,
+      0.53,
+      0.34
+    ],
+    [
+      0.36,
+      0.53,
+      0.58
+    ],
+    [
+      0.64,
+      0.6,
+      0.48
+    ]
+  ],
+  "colourTags": [
+    "mist blue",
+    "sand",
+    "pale oak"
+  ],
+  "materials": [
+    "metal",
+    "wood"
+  ],
+  "searchAliases": [
+    "entry hall",
+    "doors"
+  ],
+  "materialSlots": [
+    {
+      "id": "metal",
+      "material": "metal",
+      "recolourable": true
+    },
+    {
+      "id": "wood",
+      "material": "wood",
+      "recolourable": true
+    }
+  ]
+}

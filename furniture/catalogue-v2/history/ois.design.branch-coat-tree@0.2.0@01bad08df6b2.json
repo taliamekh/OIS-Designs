@@ -1,0 +1,152 @@
+{
+  "designId": "ois.design.branch-coat-tree",
+  "familyId": "ois.family.branch-coat-tree",
+  "id": "ois.design.branch-coat-tree",
+  "name": "Branch coat tree",
+  "roomTags": [
+    "entry-hall"
+  ],
+  "theme": "calm-oak",
+  "builder": "special",
+  "parameters": {
+    "form": "coat-tree",
+    "h": 1.75
+  },
+  "distinction": "Six radial coat branches terminate in rounded timber finials.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted"
+  },
+  "constructionKey": "special|coat-tree|{\"cols\": 1, \"front\": \"cane\", \"panels\": 3}",
+  "sha256": "01bad08df6b23a1ab6befe2e1e9f5ad12bc090ae1977e879ed145c942b62e467",
+  "bytes": 110496,
+  "triangles": 3836,
+  "vertices": 2660,
+  "drawPrimitives": 2,
+  "bounds": {
+    "min": [
+      -0.2724999785423345,
+      -1.862645149230957e-09,
+      -0.23900635937817244
+    ],
+    "max": [
+      0.2725000083446566,
+      1.75,
+      0.23900634447701125
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 0.544999986886991,
+    "depth": 0.4780127038551837,
+    "height": 1.7500000018626451
+  },
+  "footprint": [
+    [
+      -0.2724999785423345,
+      -0.23900635937817244
+    ],
+    [
+      0.2725000083446566,
+      -0.23900635937817244
+    ],
+    [
+      0.2725000083446566,
+      0.23900634447701125
+    ],
+    [
+      -0.2724999785423345,
+      0.23900634447701125
+    ]
+  ],
+  "variantSlots": [
+    "metal",
+    "wood"
+  ],
+  "requiredExtensions": [],
+  "version": "0.2.0",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.branch-coat-tree",
+  "file": "assets/v0.2.0/branch-coat-tree.glb",
+  "sourceModel": "sources/v0.2.0/branch-coat-tree.blend",
+  "thumbnail": "previews/v0.2.0/branch-coat-tree.png",
+  "backThumbnail": "previews/v0.2.0/branch-coat-tree-back.png",
+  "category": "specialty",
+  "subtype": "coat-tree",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "textures": {
+    "count": 0,
+    "bytes": 0
+  },
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.2.0/branch-coat-tree.png",
+      "previews/v0.2.0/branch-coat-tree-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.58,
+      0.39,
+      0.2
+    ],
+    [
+      0.73,
+      0.7,
+      0.61
+    ],
+    [
+      0.12,
+      0.14,
+      0.13
+    ]
+  ],
+  "colourTags": [
+    "pale oak",
+    "ivory",
+    "oatmeal"
+  ],
+  "materials": [
+    "metal",
+    "wood"
+  ],
+  "searchAliases": [
+    "entry hall",
+    "coat tree"
+  ],
+  "materialSlots": [
+    {
+      "id": "metal",
+      "material": "metal",
+      "recolourable": true
+    },
+    {
+      "id": "wood",
+      "material": "wood",
+      "recolourable": true
+    }
+  ]
+}

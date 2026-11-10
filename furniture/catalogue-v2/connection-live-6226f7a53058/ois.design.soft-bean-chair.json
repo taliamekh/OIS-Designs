@@ -1,0 +1,37 @@
+{
+  "id": "ois.design.soft-bean-chair",
+  "sha256": "unexported-source-6226f7a5305865fd189dfcec35a3077205588e7999488a17cff703d94c6b1b9f",
+  "sourceModel": null,
+  "sourceSha256": "6226f7a5305865fd189dfcec35a3077205588e7999488a17cff703d94c6b1b9f",
+  "partCount": 2,
+  "componentCount": 1,
+  "components": [
+    {
+      "parts": [
+        "bean seat",
+        "bean back"
+      ],
+      "minimum": [
+        -0.4399997591972351,
+        -0.439381867647171,
+        0.0
+      ],
+      "maximum": [
+        0.43999990820884705,
+        0.5099999904632568,
+        0.8456891179084778
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "bean back",
+      "b": "bean seat",
+      "method": "triangle intersection",
+      "distance": 0
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; live-source reports are NOT exported-asset evidence; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T03:36:31Z"
+}

@@ -1,0 +1,37 @@
+{
+  "id": "ois.design.oval-floor-pouf",
+  "sha256": "828cb9e50b9a0cdd1c01dca8116ae93b38223f46c8ec8070bbf9dde9bc5e2cce",
+  "sourceModel": "sources/v0.5.0/oval-floor-pouf.blend",
+  "sourceSha256": "ed293808cd0795b47a880b8fe28d18c8c831a6a98245c36a6705ca6f1ae10fae",
+  "partCount": 2,
+  "componentCount": 1,
+  "components": [
+    {
+      "parts": [
+        "upholstered pouf",
+        "equator seam"
+      ],
+      "minimum": [
+        -0.3910999894142151,
+        -0.32179999351501465,
+        0.0
+      ],
+      "maximum": [
+        0.3910999894142151,
+        0.32179999351501465,
+        0.3100000023841858
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "equator seam",
+      "b": "upholstered pouf",
+      "method": "triangle intersection",
+      "distance": 0
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T03:07:33Z"
+}

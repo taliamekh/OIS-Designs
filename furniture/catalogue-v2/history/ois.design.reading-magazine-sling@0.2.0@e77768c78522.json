@@ -1,0 +1,154 @@
+{
+  "designId": "ois.design.reading-magazine-sling",
+  "familyId": "ois.family.reading-magazine-sling",
+  "id": "ois.design.reading-magazine-sling",
+  "name": "Magazine sling rack",
+  "roomTags": [
+    "entry-hall"
+  ],
+  "theme": "coastal-linen",
+  "builder": "special",
+  "parameters": {
+    "form": "magazine-rack",
+    "w": 0.52,
+    "d": 0.3,
+    "h": 0.48
+  },
+  "distinction": "Two suspended textile pockets between metal V-shaped ends.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted"
+  },
+  "constructionKey": "special|magazine-rack|{\"cols\": 1, \"front\": \"cane\", \"panels\": 3}",
+  "sha256": "e77768c785225b8ed3f47b6dfc53bf1a77a0728b11499dc3b354b583bc52be86",
+  "bytes": 22816,
+  "triangles": 464,
+  "vertices": 567,
+  "drawPrimitives": 2,
+  "bounds": {
+    "min": [
+      -0.2635999917984009,
+      0.0,
+      -0.13346132636070251
+    ],
+    "max": [
+      0.2635999917984009,
+      0.4378461018204689,
+      0.13346132636070251
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 0.5271999835968018,
+    "depth": 0.26692265272140503,
+    "height": 0.4378461018204689
+  },
+  "footprint": [
+    [
+      -0.2635999917984009,
+      -0.13346132636070251
+    ],
+    [
+      0.2635999917984009,
+      -0.13346132636070251
+    ],
+    [
+      0.2635999917984009,
+      0.13346132636070251
+    ],
+    [
+      -0.2635999917984009,
+      0.13346132636070251
+    ]
+  ],
+  "variantSlots": [
+    "linen",
+    "metal"
+  ],
+  "requiredExtensions": [],
+  "version": "0.2.0",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.reading-magazine-sling",
+  "file": "assets/v0.2.0/reading-magazine-sling.glb",
+  "sourceModel": "sources/v0.2.0/reading-magazine-sling.blend",
+  "thumbnail": "previews/v0.2.0/reading-magazine-sling.png",
+  "backThumbnail": "previews/v0.2.0/reading-magazine-sling-back.png",
+  "category": "specialty",
+  "subtype": "magazine-rack",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "textures": {
+    "count": 0,
+    "bytes": 0
+  },
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.2.0/reading-magazine-sling.png",
+      "previews/v0.2.0/reading-magazine-sling-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.66,
+      0.53,
+      0.34
+    ],
+    [
+      0.36,
+      0.53,
+      0.58
+    ],
+    [
+      0.64,
+      0.6,
+      0.48
+    ]
+  ],
+  "colourTags": [
+    "mist blue",
+    "sand",
+    "pale oak"
+  ],
+  "materials": [
+    "metal",
+    "textile"
+  ],
+  "searchAliases": [
+    "entry hall",
+    "magazine rack"
+  ],
+  "materialSlots": [
+    {
+      "id": "linen",
+      "material": "linen",
+      "recolourable": true
+    },
+    {
+      "id": "metal",
+      "material": "metal",
+      "recolourable": true
+    }
+  ]
+}

@@ -1,0 +1,155 @@
+{
+  "designId": "ois.design.spindle-dining",
+  "familyId": "ois.family.spindle-dining",
+  "id": "ois.design.spindle-dining",
+  "name": "Spindle dining chair",
+  "roomTags": [
+    "dining"
+  ],
+  "theme": "walnut-form",
+  "builder": "seating",
+  "parameters": {
+    "form": "spindle",
+    "w": 0.5,
+    "d": 0.5,
+    "h": 0.84
+  },
+  "distinction": "Low bowed top rail and seven exposed timber spindles.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted"
+  },
+  "sha256": "4b4cb8042ef980501c5b282150b91f2d2d5799d48dc3b86c41878d4d5b2fb9de",
+  "bytes": 57184,
+  "triangles": 1432,
+  "vertices": 1441,
+  "drawPrimitives": 2,
+  "bounds": {
+    "min": [
+      -0.25175420758129996,
+      8.731979472820228e-09,
+      -0.23949999548494816
+    ],
+    "max": [
+      0.2517542333072142,
+      0.8706442524780224,
+      0.2220000154930853
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 0.5035084408885142,
+    "depth": 0.46150001097803345,
+    "height": 0.8706442437460429
+  },
+  "footprint": [
+    [
+      -0.25175420758129996,
+      -0.23949999548494816
+    ],
+    [
+      0.2517542333072142,
+      -0.23949999548494816
+    ],
+    [
+      0.2517542333072142,
+      0.2220000154930853
+    ],
+    [
+      -0.25175420758129996,
+      0.2220000154930853
+    ]
+  ],
+  "variantSlots": [
+    "linen",
+    "wood"
+  ],
+  "requiredExtensions": [],
+  "version": "0.2.0",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.spindle-dining",
+  "file": "assets/v0.2.0/spindle-dining.glb",
+  "sourceModel": "sources/v0.2.0/spindle-dining.blend",
+  "thumbnail": "previews/v0.2.0/spindle-dining.png",
+  "backThumbnail": "previews/v0.2.0/spindle-dining-back.png",
+  "category": "seating",
+  "subtype": "spindle",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "textures": {
+    "count": 0,
+    "bytes": 0
+  },
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.2.0/spindle-dining.png",
+      "previews/v0.2.0/spindle-dining-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.22,
+      0.09,
+      0.038
+    ],
+    [
+      0.39,
+      0.18,
+      0.07
+    ],
+    [
+      0.47,
+      0.3,
+      0.1
+    ]
+  ],
+  "colourTags": [
+    "walnut",
+    "tobacco",
+    "brass"
+  ],
+  "materials": [
+    "textile",
+    "wood"
+  ],
+  "searchAliases": [
+    "dining",
+    "spindle"
+  ],
+  "materialSlots": [
+    {
+      "id": "linen",
+      "material": "linen",
+      "recolourable": true
+    },
+    {
+      "id": "wood",
+      "material": "wood",
+      "recolourable": true
+    }
+  ],
+  "geometryHash": "c0a895cd247bca17e835948d679f5bcd6bcec08a0e9d7af1b02af7db43530c82",
+  "normalizedMirrorGeometryHash": "08271c23e192f430bd8f6dca5cfa6b0e5c92d9c6ca9e2889f219d4fcc9fb8a11"
+}

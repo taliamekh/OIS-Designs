@@ -1,0 +1,167 @@
+{
+  "id": "ois.design.crossback-dining",
+  "sha256": "38ff0ae8a7902943bc870586d451da302f80acba5ebe35d409c7336665351d37",
+  "sourceModel": "sources/v0.7.0/crossback-dining.blend",
+  "sourceSha256": "cb5d0e6db70ef8fc7ebc7ceb339c753238da41a6305c357a866be5d0ca4970bf",
+  "partCount": 12,
+  "componentCount": 1,
+  "components": [
+    {
+      "parts": [
+        "leg",
+        "leg.001",
+        "leg.002",
+        "leg.003",
+        "structural chair seat pan",
+        "seat",
+        "piping",
+        "upright",
+        "upright.001",
+        "cross back",
+        "cross back.001",
+        "top rail"
+      ],
+      "minimum": [
+        -0.2160000056028366,
+        -0.2290000021457672,
+        1.7462298274040222e-10
+      ],
+      "maximum": [
+        0.2160000056028366,
+        0.2521499991416931,
+        0.9036362767219543
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "structural chair seat pan",
+      "b": "leg",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "structural chair seat pan",
+      "b": "leg.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "structural chair seat pan",
+      "b": "leg.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "structural chair seat pan",
+      "b": "leg.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "seat",
+      "b": "leg",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "seat",
+      "b": "leg.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "seat",
+      "b": "leg.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "seat",
+      "b": "leg.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "seat",
+      "b": "structural chair seat pan",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "piping",
+      "b": "seat",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "upright",
+      "b": "structural chair seat pan",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "upright",
+      "b": "piping",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "upright.001",
+      "b": "structural chair seat pan",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "upright.001",
+      "b": "piping",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "cross back",
+      "b": "upright",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "cross back",
+      "b": "upright.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "cross back.001",
+      "b": "upright",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "cross back.001",
+      "b": "upright.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "cross back.001",
+      "b": "cross back",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "top rail",
+      "b": "upright",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "top rail",
+      "b": "upright.001",
+      "method": "triangle intersection",
+      "distance": 0
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; live-source reports are NOT exported-asset evidence; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T03:51:55Z"
+}

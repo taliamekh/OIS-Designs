@@ -1,0 +1,323 @@
+{
+  "timestamp": "2026-11-10T03:14:38.053Z",
+  "baseURL": "http://127.0.0.1:57780",
+  "storageOracle": {
+    "kind": "Production IndexedStorage.getItem, with its read-only legacy fallback",
+    "file": "mobile/src/storage/indexedStore.ts",
+    "sha256": "9943012679fd85da975028e6165febf8e149242bfef7b0a63f7ab6b98f76383d"
+  },
+  "evidence": "Isolated Expo web UI; plan taps derive from actual rendered SVG edges",
+  "checks": [
+    {
+      "id": "pocket-precondition-has-in-place-resolution",
+      "pass": true,
+      "observed": {
+        "pocketCount": 0,
+        "body": "QA shared door workflow\nLiving room\n6.00 m\n5.00 m\n6.00 m\n5.00 m\nLiving room\n2D\n3D\nWalk\nPocket sliding · Tap a wall to place\nUse 15 cm thickness for this wall\nDone\nLast opening\nPocket doors need a ≥15 cm wall and an unobstructed full-width pocket beside the opening.",
+        "visibleActions": [
+          "Back",
+          "Settings",
+          "Choose room, current Living room",
+          "View 2D",
+          "View 3D",
+          "View Walk",
+          "Use 15 cm thickness for this wall",
+          "Done",
+          "Last opening",
+          "Dismiss message"
+        ]
+      }
+    },
+    {
+      "id": "pocket-contextual-resolution-places-real-opening",
+      "pass": true
+    },
+    {
+      "id": "successful-pocket-correction-clears-stale-error",
+      "pass": true,
+      "observed": "QA shared door workflow\nLiving room\n6.00 m\n6.00 m\n5.00 m\n1.30 m\n0.90 m\n2.80 m\nLiving room\n1.30 m\n0.90 m\n2.80 m\nKitchen\nLiving room\n2D\n3D\nWalk\nPocket sliding · Tap a wall to place\nDone\nLast opening"
+    },
+    {
+      "id": "both-face-corner-chains-present-during-placement",
+      "pass": true,
+      "observed": {
+        "svgText": [
+          "Living room",
+          "6.00 m",
+          "6.00 m",
+          "5.00 m",
+          "1.30 m",
+          "0.90 m",
+          "2.80 m",
+          "Living room",
+          "1.30 m",
+          "0.90 m",
+          "2.80 m",
+          "Kitchen"
+        ],
+        "expected": "1.30 m",
+        "expectedAfter": "2.80 m",
+        "chains": [
+          {
+            "roomId": "room-mwa49psv-7ar29yf",
+            "name": "Living room",
+            "before": 1.3000001821944964,
+            "after": 2.7999998178055034
+          },
+          {
+            "roomId": "room-mwa49psv-mh1v6m0",
+            "name": "Kitchen",
+            "before": 2.7999998178055034,
+            "after": 1.3000001821944964
+          }
+        ]
+      }
+    },
+    {
+      "id": "both-face-annotations-fit-canvas",
+      "pass": false,
+      "observed": {
+        "canvas": {
+          "x": 0,
+          "y": 65,
+          "width": 390,
+          "height": 779
+        },
+        "texts": [
+          {
+            "text": "1.30 m",
+            "box": {
+              "x": 346,
+              "y": 216.7838592529297,
+              "width": 10,
+              "height": 26
+            },
+            "insideCanvas": true
+          },
+          {
+            "text": "0.90 m",
+            "box": {
+              "x": 346,
+              "y": 278.2005310058594,
+              "width": 10,
+              "height": 26
+            },
+            "insideCanvas": true
+          },
+          {
+            "text": "2.80 m",
+            "box": {
+              "x": 346,
+              "y": 380.4921875,
+              "width": 10,
+              "height": 27
+            },
+            "insideCanvas": true
+          },
+          {
+            "text": "Living room",
+            "box": {
+              "x": 328,
+              "y": 219.625,
+              "width": 10,
+              "height": 47.24560546875
+            },
+            "insideCanvas": true
+          },
+          {
+            "text": "1.30 m",
+            "box": {
+              "x": 386,
+              "y": 216.7838592529297,
+              "width": 10,
+              "height": 26
+            },
+            "insideCanvas": false
+          },
+          {
+            "text": "0.90 m",
+            "box": {
+              "x": 386,
+              "y": 278.2005310058594,
+              "width": 10,
+              "height": 26
+            },
+            "insideCanvas": false
+          },
+          {
+            "text": "2.80 m",
+            "box": {
+              "x": 386,
+              "y": 380.4921875,
+              "width": 10,
+              "height": 27
+            },
+            "insideCanvas": false
+          },
+          {
+            "text": "Kitchen",
+            "box": {
+              "x": 368,
+              "y": 406.6666564941406,
+              "width": 10,
+              "height": 29.98974609375
+            },
+            "insideCanvas": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "repeat-door-stays-active",
+      "pass": true
+    },
+    {
+      "id": "undo-removes-one-repeat-door",
+      "pass": true
+    },
+    {
+      "id": "last-opening-after-undo-points-to-existing-opening",
+      "pass": true,
+      "observed": {
+        "disabledForRemovedSelection": true
+      }
+    },
+    {
+      "id": "redo-restores-one-repeat-door",
+      "pass": true
+    }
+  ],
+  "errors": [],
+  "consoleErrors": [],
+  "tapEvents": [
+    {
+      "target": {
+        "x": 363,
+        "y": 290.7083333333333,
+        "points": [
+          {
+            "x": 28,
+            "y": 128
+          },
+          {
+            "x": 363,
+            "y": 128
+          },
+          {
+            "x": 363,
+            "y": 407.1666666666667
+          },
+          {
+            "x": 28,
+            "y": 407.1666666666667
+          }
+        ]
+      },
+      "body": "QA shared door workflow\nLiving room\n6.00 m\n5.00 m\n6.00 m\n5.00 m\nLiving room\n2D\n3D\nWalk\nPocket sliding · Tap a wall to place\nUse 15 cm thickness for this wall\nDone\nLast opening\nPocket doors need a ≥15 cm wall and an unobstructed full-width pocket beside the opening.",
+      "openings": 0
+    },
+    {
+      "target": {
+        "x": 363,
+        "y": 290.7083333333333,
+        "points": [
+          {
+            "x": 28,
+            "y": 128
+          },
+          {
+            "x": 363,
+            "y": 128
+          },
+          {
+            "x": 363,
+            "y": 407.1666666666667
+          },
+          {
+            "x": 28,
+            "y": 407.1666666666667
+          }
+        ]
+      },
+      "body": "QA shared door workflow\nLiving room\n6.00 m\n6.00 m\n5.00 m\n1.30 m\n0.90 m\n2.80 m\nLiving room\n1.30 m\n0.90 m\n2.80 m\nKitchen\nLiving room\n2D\n3D\nWalk\nPocket sliding · Tap a wall to place\nDone\nLast opening",
+      "openings": 0
+    },
+    {
+      "target": {
+        "x": 363,
+        "y": 290.7083333333333,
+        "points": [
+          {
+            "x": 28,
+            "y": 128
+          },
+          {
+            "x": 363,
+            "y": 128
+          },
+          {
+            "x": 363,
+            "y": 407.1666666666667
+          },
+          {
+            "x": 28,
+            "y": 407.1666666666667
+          }
+        ]
+      },
+      "body": "QA shared door workflow\nLiving room\n6.00 m\n6.00 m\n5.00 m\n1.30 m\n0.90 m\n2.80 m\nLiving room\n1.30 m\n0.90 m\n2.80 m\nKitchen\nLiving room\n2D\n3D\nWalk\nSingle swing · Tap a wall to place\nDone\nLast opening",
+      "openings": 1
+    },
+    {
+      "target": {
+        "x": 28,
+        "y": 374.45833333333337,
+        "points": [
+          {
+            "x": 28,
+            "y": 128
+          },
+          {
+            "x": 363,
+            "y": 128
+          },
+          {
+            "x": 363,
+            "y": 407.1666666666667
+          },
+          {
+            "x": 28,
+            "y": 407.1666666666667
+          }
+        ]
+      },
+      "body": "QA shared door workflow\nLiving room\n6.00 m\n5.00 m\n6.00 m\n0.90 m\n2.80 m\n0.90 m\n1.30 m\nLiving room\nLiving room\n2D\n3D\nWalk\nSingle swing · Tap a wall to place\nDone\nLast opening",
+      "openings": 1
+    }
+  ],
+  "pocketTap": {
+    "x": 363,
+    "y": 290.7083333333333,
+    "points": [
+      {
+        "x": 28,
+        "y": 128
+      },
+      {
+        "x": 363,
+        "y": 128
+      },
+      {
+        "x": 363,
+        "y": 407.1666666666667
+      },
+      {
+        "x": 28,
+        "y": 407.1666666666667
+      }
+    ]
+  },
+  "completed": true,
+  "passed": 8,
+  "failed": 1
+}

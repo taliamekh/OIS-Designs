@@ -1,0 +1,163 @@
+{
+  "designId": "ois.design.play-sink-kitchen",
+  "familyId": "ois.family.play-sink-kitchen",
+  "id": "ois.design.play-sink-kitchen",
+  "name": "Play sink kitchen",
+  "roomTags": [
+    "children"
+  ],
+  "theme": "calm-oak",
+  "builder": "special",
+  "parameters": {
+    "form": "toy-kitchen",
+    "w": 0.9,
+    "d": 0.36,
+    "h": 0.95
+  },
+  "distinction": "Small cupboard includes raised sink, faucet and two burner rings.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted"
+  },
+  "constructionKey": "special|toy-kitchen|{\"cols\": 1, \"front\": \"cane\", \"panels\": 3}",
+  "sha256": "be54da0545f7218219711556f2f6a0b44ec3363a04287c4b7d66e50be5f058e2",
+  "bytes": 175008,
+  "triangles": 4476,
+  "vertices": 4713,
+  "drawPrimitives": 3,
+  "bounds": {
+    "min": [
+      -0.47000003409192503,
+      -1.4519715152427892e-08,
+      -0.2360000042244792
+    ],
+    "max": [
+      0.4699999822258363,
+      0.8270210325717926,
+      0.2000000263645625
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 0.9400000163177613,
+    "depth": 0.4360000305890417,
+    "height": 0.8270210470915078
+  },
+  "footprint": [
+    [
+      -0.47000003409192503,
+      -0.2360000042244792
+    ],
+    [
+      0.4699999822258363,
+      -0.2360000042244792
+    ],
+    [
+      0.4699999822258363,
+      0.2000000263645625
+    ],
+    [
+      -0.47000003409192503,
+      0.2000000263645625
+    ]
+  ],
+  "variantSlots": [
+    "dark",
+    "metal",
+    "wood"
+  ],
+  "requiredExtensions": [],
+  "version": "0.2.0",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.play-sink-kitchen",
+  "file": "assets/v0.2.0/play-sink-kitchen.glb",
+  "sourceModel": "sources/v0.2.0/play-sink-kitchen.blend",
+  "thumbnail": "previews/v0.2.0/play-sink-kitchen.png",
+  "backThumbnail": "previews/v0.2.0/play-sink-kitchen-back.png",
+  "category": "specialty",
+  "subtype": "toy-kitchen",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "textures": {
+    "count": 0,
+    "bytes": 0
+  },
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.2.0/play-sink-kitchen.png",
+      "previews/v0.2.0/play-sink-kitchen-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.58,
+      0.39,
+      0.2
+    ],
+    [
+      0.73,
+      0.7,
+      0.61
+    ],
+    [
+      0.12,
+      0.14,
+      0.13
+    ]
+  ],
+  "colourTags": [
+    "pale oak",
+    "ivory",
+    "oatmeal"
+  ],
+  "materials": [
+    "metal",
+    "paint",
+    "wood"
+  ],
+  "searchAliases": [
+    "children",
+    "toy kitchen"
+  ],
+  "materialSlots": [
+    {
+      "id": "dark",
+      "material": "dark",
+      "recolourable": true
+    },
+    {
+      "id": "metal",
+      "material": "metal",
+      "recolourable": true
+    },
+    {
+      "id": "wood",
+      "material": "wood",
+      "recolourable": true
+    }
+  ],
+  "geometryHash": "cbe529bd004d50b368c1cf1581c79bff773e799427a43c2256278ae62f0c036b",
+  "normalizedMirrorGeometryHash": "14f227813a6159c9d2b47d8c5c0b5d0764c4feca1a10d3a62d2df5f464538772"
+}

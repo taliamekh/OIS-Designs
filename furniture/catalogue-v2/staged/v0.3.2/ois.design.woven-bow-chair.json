@@ -1,0 +1,241 @@
+{
+  "designId": "ois.design.woven-bow-chair",
+  "familyId": "ois.family.woven-bow-chair",
+  "id": "ois.design.woven-bow-chair",
+  "name": "Spindle bow chair",
+  "roomTags": [
+    "living"
+  ],
+  "theme": "coastal-linen",
+  "builder": "seating",
+  "parameters": {
+    "form": "windsor",
+    "w": 0.6,
+    "d": 0.58,
+    "h": 0.98
+  },
+  "distinction": "Bent bow and seven turned back spindles over a timber seat.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted",
+    "sourceSnapshot": "sources/pipeline-55642edf77b9875f.py",
+    "sourceSha256": "55642edf77b9875ff9620f3041b9999cee7807ac9d8ce9f01f78fdfc4bbc513f",
+    "parametersFile": "sources/v0.3.2/woven-bow-chair.parameters.json"
+  },
+  "constructionKey": "seating|bow-spindle|{\"base\": \"taper\"}",
+  "sha256": "ecbb886414e9a40eea1ca4b69db4c81b3fd571d8996097236bbe8ec7fb8000f8",
+  "bytes": 454204,
+  "triangles": 1432,
+  "vertices": 2413,
+  "drawPrimitives": 2,
+  "bounds": {
+    "min": [
+      -0.29764863347448856,
+      -1.1445326575376669e-08,
+      -0.27350000478327274
+    ],
+    "max": [
+      0.2976486603285444,
+      1.0107977156765044,
+      0.25400004420818756
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 0.595297293803033,
+    "depth": 0.5275000489914603,
+    "height": 1.010797727121831
+  },
+  "footprint": [
+    [
+      -0.29764863347448856,
+      -0.27350000478327274
+    ],
+    [
+      0.2976486603285444,
+      -0.27350000478327274
+    ],
+    [
+      0.2976486603285444,
+      0.25400004420818756
+    ],
+    [
+      -0.29764863347448856,
+      0.25400004420818756
+    ]
+  ],
+  "variantSlots": [
+    "linen",
+    "wood"
+  ],
+  "requiredExtensions": [],
+  "textures": {
+    "count": 6,
+    "bytes": 325769,
+    "estimatedRgbaBytesWithMipmaps": 2097152,
+    "images": [
+      {
+        "name": "linen-normal",
+        "bytes": 76292,
+        "width": 256,
+        "height": 256,
+        "sha256": "70b25282eb1daf2d7d6faad88d6b47ca1298d395b833d36d3ba28a542ed6d36e"
+      },
+      {
+        "name": "linen-neutral-base",
+        "bytes": 34309,
+        "width": 256,
+        "height": 256,
+        "sha256": "047df909f3cecf9ec0cdef6c8e2a92dea40e0116922d5b7a25bc7da6481e1ec9"
+      },
+      {
+        "name": "linen-roughness",
+        "bytes": 40384,
+        "width": 256,
+        "height": 256,
+        "sha256": "c31825bb85668747311407d1a5e5d9a56bc0e65aefbf79936d1d4665e83fdb45"
+      },
+      {
+        "name": "wood-normal",
+        "bytes": 102088,
+        "width": 256,
+        "height": 256,
+        "sha256": "6b8efcb5004552d884a527017922bfb5260b8bda4dc77f1365fe1cb8a09f1d56"
+      },
+      {
+        "name": "wood-neutral-base",
+        "bytes": 39353,
+        "width": 256,
+        "height": 256,
+        "sha256": "ddcf839a2addae78944a2d7a0588f9c2055852fc4ccb4e2dae2095d28541de44"
+      },
+      {
+        "name": "wood-roughness",
+        "bytes": 33343,
+        "width": 256,
+        "height": 256,
+        "sha256": "afc2180e58360e76fb178b52f225f7ba9045a7d0d266f10886763b0590335a1a"
+      }
+    ]
+  },
+  "version": "0.3.2",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.woven-bow-chair",
+  "file": "assets/v0.3.2/woven-bow-chair.glb",
+  "sourceModel": "sources/v0.3.2/woven-bow-chair.blend",
+  "thumbnail": "previews/v0.3.2/woven-bow-chair.png",
+  "backThumbnail": "previews/v0.3.2/woven-bow-chair-back.png",
+  "category": "seating",
+  "subtype": "windsor",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.3.2/woven-bow-chair.png",
+      "previews/v0.3.2/woven-bow-chair-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.8399999737739563,
+      0.800000011920929,
+      0.6899999976158142
+    ],
+    [
+      0.6600000262260437,
+      0.5299999713897705,
+      0.3400000035762787
+    ]
+  ],
+  "colourTags": [
+    "pale oak",
+    "warm ivory"
+  ],
+  "materials": [
+    "textile",
+    "wood"
+  ],
+  "searchAliases": [
+    "living",
+    "windsor"
+  ],
+  "materialSlots": [
+    {
+      "id": "linen",
+      "material": "linen",
+      "recolourable": true
+    },
+    {
+      "id": "wood",
+      "material": "wood",
+      "recolourable": true
+    }
+  ],
+  "supportChecks": {
+    "method": "source-part upper-end ray to non-leg geometry, 15mm join tolerance",
+    "status": "pass",
+    "parts": [
+      {
+        "part": "leg",
+        "gapMetresAlongSupport": -0.002892130613327021,
+        "status": "pass"
+      },
+      {
+        "part": "leg.001",
+        "gapMetresAlongSupport": -0.02145827710628509,
+        "status": "pass"
+      },
+      {
+        "part": "leg.002",
+        "gapMetresAlongSupport": -0.0028921753168106024,
+        "status": "pass"
+      },
+      {
+        "part": "leg.003",
+        "gapMetresAlongSupport": -0.02145827710628509,
+        "status": "pass"
+      }
+    ],
+    "limitation": "screening only; hidden joints, whole-model connectivity, load paths and safety remain visual/product-review concerns"
+  },
+  "materialFinish": {
+    "source": "materials/v1/manifest.json",
+    "repeatMetres": {
+      "wood": [
+        0.16,
+        0.75
+      ],
+      "fabric": [
+        0.14,
+        0.14
+      ],
+      "linen": [
+        0.12,
+        0.12
+      ]
+    },
+    "maps": "original base colour / roughness / tangent normal, embedded in GLB"
+  }
+}

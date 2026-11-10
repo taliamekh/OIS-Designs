@@ -1,0 +1,51 @@
+{
+  "id": "ois.design.hall-plant-tripod",
+  "sha256": "a4bb8aa0cc25a24f80f8e58418bfc03a48e76359eb07b7e798af88d026ebcb88",
+  "sourceModel": "sources/v0.7.0/hall-plant-tripod.blend",
+  "sourceSha256": "62d04769e90c9429e8ae1085cde20deb488c5f15c3748a2b261ad7db8ade6456",
+  "partCount": 4,
+  "componentCount": 1,
+  "components": [
+    {
+      "parts": [
+        "plant tripod",
+        "plant tripod.001",
+        "plant tripod.002",
+        "plant tray"
+      ],
+      "minimum": [
+        -0.1899999976158142,
+        -0.1899999976158142,
+        -9.778887033462524e-09
+      ],
+      "maximum": [
+        0.1899999976158142,
+        0.1899999976158142,
+        0.7021851539611816
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "plant tray",
+      "b": "plant tripod",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "plant tray",
+      "b": "plant tripod.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "plant tray",
+      "b": "plant tripod.002",
+      "method": "triangle intersection",
+      "distance": 0
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; live-source reports are NOT exported-asset evidence; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T03:42:33Z"
+}

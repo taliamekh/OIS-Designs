@@ -1,0 +1,243 @@
+{
+  "designId": "ois.design.louver-shoe-cupboard",
+  "familyId": "ois.family.louver-shoe-cupboard",
+  "id": "ois.design.louver-shoe-cupboard",
+  "name": "Louver shoe cupboard",
+  "roomTags": [
+    "entry-hall"
+  ],
+  "theme": "coastal-linen",
+  "builder": "case",
+  "parameters": {
+    "form": "doors",
+    "w": 0.96,
+    "d": 0.34,
+    "h": 0.88,
+    "front": "louvre"
+  },
+  "distinction": "Two ventilated louvre panels conceal a low shoe cupboard.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted",
+    "sourceSnapshot": "sources/pipeline-80bacc170bd1371e.py",
+    "sourceSha256": "80bacc170bd1371edd54e3e5203658724c4e90ee4562fa13275787f9884b1d45",
+    "supportSources": {
+      "signature_designs.py": {
+        "snapshot": "sources/signature_designs-c7ce1c9570491409.py",
+        "sha256": "c7ce1c95704914096c0af5c88272139fca2098556f75b752375dd03da6cd8ee2"
+      },
+      "material_finish.py": {
+        "snapshot": "sources/material_finish-b9bb830e81d90e18.py",
+        "sha256": "b9bb830e81d90e18c05191c4e478ee7bbda04b117e4148687be9073a85d929c2"
+      },
+      "catalogue_inventory.py": {
+        "snapshot": "sources/catalogue_inventory-b67897df830f7144.py",
+        "sha256": "b67897df830f71449151337a656dae85d9e7b911fbc107aab78d72a60438f20e"
+      },
+      "finalize_glb.py": {
+        "snapshot": "sources/finalize_glb-dfc4ff54401c495d.py",
+        "sha256": "dfc4ff54401c495d3e17debd8f4aae1c5e68012a23ba8c85e023ed00397baae2"
+      }
+    },
+    "parametersFile": "sources/v0.5.0/louver-shoe-cupboard.parameters.json"
+  },
+  "constructionKey": "case|doors|{\"base\": \"taper\", \"drawersTop\": false, \"front\": \"louvre\"}",
+  "sha256": "89b248d84fc36bff3adb078f152b883e24377bc626b6efb84124c02071a1ab7f",
+  "bytes": 426152,
+  "triangles": 1900,
+  "vertices": 4925,
+  "drawPrimitives": 2,
+  "bounds": {
+    "min": [
+      -0.48000004272110697,
+      -1.4979272169868274e-08,
+      -0.22599999886006117
+    ],
+    "max": [
+      0.4800001568068196,
+      0.8718380606329216,
+      0.17000003397997038
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 0.9600001995279266,
+    "depth": 0.39600003284003155,
+    "height": 0.8718380756121937
+  },
+  "footprint": [
+    [
+      -0.48000004272110697,
+      -0.22599999886006117
+    ],
+    [
+      0.4800001568068196,
+      -0.22599999886006117
+    ],
+    [
+      0.4800001568068196,
+      0.17000003397997038
+    ],
+    [
+      -0.48000004272110697,
+      0.17000003397997038
+    ]
+  ],
+  "variantSlots": [
+    "metal",
+    "wood"
+  ],
+  "requiredExtensions": [],
+  "textures": {
+    "count": 3,
+    "bytes": 174784,
+    "estimatedRgbaBytesWithMipmaps": 1048576,
+    "images": [
+      {
+        "name": "wood-normal",
+        "bytes": 102088,
+        "width": 256,
+        "height": 256,
+        "sha256": "6b8efcb5004552d884a527017922bfb5260b8bda4dc77f1365fe1cb8a09f1d56"
+      },
+      {
+        "name": "wood-neutral-base",
+        "bytes": 39353,
+        "width": 256,
+        "height": 256,
+        "sha256": "ddcf839a2addae78944a2d7a0588f9c2055852fc4ccb4e2dae2095d28541de44"
+      },
+      {
+        "name": "wood-roughness",
+        "bytes": 33343,
+        "width": 256,
+        "height": 256,
+        "sha256": "afc2180e58360e76fb178b52f225f7ba9045a7d0d266f10886763b0590335a1a"
+      }
+    ]
+  },
+  "version": "0.5.0",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.louver-shoe-cupboard",
+  "file": "assets/v0.5.0/louver-shoe-cupboard.glb",
+  "sourceModel": "sources/v0.5.0/louver-shoe-cupboard.blend",
+  "thumbnail": "previews/v0.5.0/louver-shoe-cupboard.png",
+  "backThumbnail": "previews/v0.5.0/louver-shoe-cupboard-back.png",
+  "category": "storage",
+  "subtype": "doors",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.5.0/louver-shoe-cupboard.png",
+      "previews/v0.5.0/louver-shoe-cupboard-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.6399999856948853,
+      0.6000000238418579,
+      0.47999998927116394
+    ],
+    [
+      0.6600000262260437,
+      0.5299999713897705,
+      0.3400000035762787
+    ]
+  ],
+  "colourTags": [
+    "pale oak",
+    "sand"
+  ],
+  "materials": [
+    "metal",
+    "wood"
+  ],
+  "searchAliases": [
+    "entry hall",
+    "doors"
+  ],
+  "materialSlots": [
+    {
+      "id": "metal",
+      "material": "metal",
+      "recolourable": true
+    },
+    {
+      "id": "wood",
+      "material": "wood",
+      "recolourable": true
+    }
+  ],
+  "finalization": {
+    "unusedTangentAttributesRemoved": 1,
+    "normalMappedTangents": "retained, never replaced with arbitrary fallback vectors"
+  },
+  "supportChecks": {
+    "method": "source-part upper-end ray to non-leg geometry, 15mm join tolerance",
+    "status": "pass",
+    "parts": [
+      {
+        "part": "leg",
+        "gapMetresAlongSupport": -8.940696710757479e-09,
+        "status": "pass"
+      },
+      {
+        "part": "leg.001",
+        "gapMetresAlongSupport": -2.3841857904605135e-08,
+        "status": "pass"
+      },
+      {
+        "part": "leg.002",
+        "gapMetresAlongSupport": -3.874301909845279e-08,
+        "status": "pass"
+      },
+      {
+        "part": "leg.003",
+        "gapMetresAlongSupport": -2.3841857904605135e-08,
+        "status": "pass"
+      }
+    ],
+    "limitation": "screening only; hidden joints, whole-model connectivity, load paths and safety remain visual/product-review concerns"
+  },
+  "materialFinish": {
+    "source": "materials/v1/manifest.json",
+    "repeatMetres": {
+      "wood": [
+        0.16,
+        0.75
+      ],
+      "fabric": [
+        0.14,
+        0.14
+      ],
+      "linen": [
+        0.12,
+        0.12
+      ]
+    },
+    "maps": "original base colour / roughness / tangent normal, embedded in GLB"
+  }
+}

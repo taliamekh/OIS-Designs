@@ -1,0 +1,145 @@
+{
+  "designId": "ois.design.task-desk-light",
+  "familyId": "ois.family.task-desk-light",
+  "id": "ois.design.task-desk-light",
+  "name": "Task desk light",
+  "roomTags": [
+    "office"
+  ],
+  "theme": "calm-oak",
+  "builder": "light",
+  "parameters": {
+    "form": "task",
+    "h": 0.6
+  },
+  "distinction": "Task floor-lamp size variant; excluded.",
+  "stage": "validated-candidate",
+  "countEligible": false,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted"
+  },
+  "constructionKey": "light|task|{}",
+  "sha256": "df9f3cf36d8f572b3ae656daafd8e0c9fda93b869894e0b8ba598d4a5991b16e",
+  "bytes": 15916,
+  "triangles": 504,
+  "vertices": 362,
+  "drawPrimitives": 1,
+  "bounds": {
+    "min": [
+      -0.12999999523162842,
+      0.0,
+      -0.12999999523162842
+    ],
+    "max": [
+      0.4131910502910614,
+      0.6138049345463514,
+      0.12999999523162842
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 0.5431910455226898,
+    "depth": 0.25999999046325684,
+    "height": 0.6138049345463514
+  },
+  "footprint": [
+    [
+      -0.12999999523162842,
+      -0.12999999523162842
+    ],
+    [
+      0.4131910502910614,
+      -0.12999999523162842
+    ],
+    [
+      0.4131910502910614,
+      0.12999999523162842
+    ],
+    [
+      -0.12999999523162842,
+      0.12999999523162842
+    ]
+  ],
+  "variantSlots": [
+    "metal"
+  ],
+  "requiredExtensions": [],
+  "version": "0.2.0",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.task-desk-light",
+  "file": "assets/v0.2.0/task-desk-light.glb",
+  "sourceModel": "sources/v0.2.0/task-desk-light.blend",
+  "thumbnail": "previews/v0.2.0/task-desk-light.png",
+  "backThumbnail": "previews/v0.2.0/task-desk-light-back.png",
+  "category": "lighting",
+  "subtype": "task",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "textures": {
+    "count": 0,
+    "bytes": 0
+  },
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.2.0/task-desk-light.png",
+      "previews/v0.2.0/task-desk-light-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.58,
+      0.39,
+      0.2
+    ],
+    [
+      0.73,
+      0.7,
+      0.61
+    ],
+    [
+      0.12,
+      0.14,
+      0.13
+    ]
+  ],
+  "colourTags": [
+    "pale oak",
+    "ivory",
+    "oatmeal"
+  ],
+  "materials": [
+    "metal"
+  ],
+  "searchAliases": [
+    "office",
+    "task"
+  ],
+  "materialSlots": [
+    {
+      "id": "metal",
+      "material": "metal",
+      "recolourable": true
+    }
+  ]
+}

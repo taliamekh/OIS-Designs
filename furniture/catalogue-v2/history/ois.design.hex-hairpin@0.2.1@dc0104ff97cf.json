@@ -1,0 +1,158 @@
+{
+  "designId": "ois.design.hex-hairpin",
+  "familyId": "ois.family.hex-hairpin",
+  "id": "ois.design.hex-hairpin",
+  "name": "Hexagonal hairpin table",
+  "roomTags": [
+    "living"
+  ],
+  "theme": "city-loft",
+  "builder": "table",
+  "parameters": {
+    "form": "hairpin",
+    "w": 1.08,
+    "d": 0.62,
+    "h": 0.39,
+    "shape": "hex"
+  },
+  "distinction": "Six-sided top with four open bent-wire hairpin supports.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted",
+    "sourceSnapshot": "sources/pipeline-e797cb5c88af56f5.py",
+    "sourceSha256": "e797cb5c88af56f5b4455d819a512ab9be55f40e1fa2d0cb542aca7bb84b906f",
+    "parametersFile": "sources/v0.2.1/hex-hairpin.parameters.json"
+  },
+  "constructionKey": "table|hairpin|{\"drawers\": false, \"shape\": \"hex\", \"shelf\": false}",
+  "sha256": "dc0104ff97cf930b51ed856f4c9375f1583cead986199a0acd13a5b4c4ffc526",
+  "bytes": 6576,
+  "triangles": 196,
+  "vertices": 132,
+  "drawPrimitives": 2,
+  "bounds": {
+    "min": [
+      -0.5400000214576721,
+      0.0,
+      -0.26846787333488464
+    ],
+    "max": [
+      0.5400000214576721,
+      0.3839999856427312,
+      0.26846787333488464
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 1.0800000429153442,
+    "depth": 0.5369357466697693,
+    "height": 0.3839999856427312
+  },
+  "footprint": [
+    [
+      -0.5400000214576721,
+      -0.26846787333488464
+    ],
+    [
+      0.5400000214576721,
+      -0.26846787333488464
+    ],
+    [
+      0.5400000214576721,
+      0.26846787333488464
+    ],
+    [
+      -0.5400000214576721,
+      0.26846787333488464
+    ]
+  ],
+  "variantSlots": [
+    "metal",
+    "wood"
+  ],
+  "requiredExtensions": [],
+  "version": "0.2.1",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.hex-hairpin",
+  "file": "assets/v0.2.1/hex-hairpin.glb",
+  "sourceModel": "sources/v0.2.1/hex-hairpin.blend",
+  "thumbnail": "previews/v0.2.1/hex-hairpin.png",
+  "backThumbnail": "previews/v0.2.1/hex-hairpin-back.png",
+  "category": "tables",
+  "subtype": "hairpin",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "textures": {
+    "count": 0,
+    "bytes": 0
+  },
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.2.1/hex-hairpin.png",
+      "previews/v0.2.1/hex-hairpin-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.23,
+      0.15,
+      0.09
+    ],
+    [
+      0.12,
+      0.14,
+      0.16
+    ],
+    [
+      0.045,
+      0.05,
+      0.055
+    ]
+  ],
+  "colourTags": [
+    "charcoal",
+    "black",
+    "weathered wood"
+  ],
+  "materials": [
+    "metal",
+    "wood"
+  ],
+  "searchAliases": [
+    "living",
+    "hairpin"
+  ],
+  "materialSlots": [
+    {
+      "id": "metal",
+      "material": "metal",
+      "recolourable": true
+    },
+    {
+      "id": "wood",
+      "material": "wood",
+      "recolourable": true
+    }
+  ]
+}

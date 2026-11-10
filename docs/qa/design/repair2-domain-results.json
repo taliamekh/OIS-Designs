@@ -1,0 +1,306 @@
+{
+  "timestamp": "2026-11-10T01:20:13.706Z",
+  "evidence": "Independent in-memory execution of production domain/geometry/persistence/mesh modules, not native/device validation",
+  "sources": {
+    "mobile/src/domain/project.ts": "907ab50e127fcf3ca1ce8a569a142bb468cc4b1bd3af958288e050d0de565f73",
+    "mobile/src/domain/types.ts": "ba94a2428bdaa1649b20855c4e7f9d82c113cbed4565e77e6592dac0efe46ff7",
+    "mobile/src/domain/geometry.ts": "8cda2d9f1693cf39847073f1458b701e969d2421cbac43a4dbcff5ded11c7e7b",
+    "mobile/src/domain/persistence.ts": "98a8726d9197e14fccd36d135f3253688407116b11b4d4d41e912d5327f07e19",
+    "mobile/src/scene/meshes.ts": "347a02b46dcb0758bde671dd405c4c0e9fd0405db41092e4b23dbc3f839ad2bd"
+  },
+  "passed": 22,
+  "failed": 0,
+  "checks": [
+    {
+      "id": "WALL-ISOLATION",
+      "title": "Paint changes one room-facing side only",
+      "expected": "Adjacent room finish remains unchanged.",
+      "pass": true,
+      "observed": {
+        "error": null,
+        "painted": {
+          "colour": "#ef1234",
+          "sheen": "satin",
+          "texture": "paint"
+        },
+        "otherFace": "default"
+      }
+    },
+    {
+      "id": "WALK-GUARD",
+      "title": "Command layer rejects edits and history travel in Walk",
+      "expected": "All command families and undo/redo preserve the exact history.",
+      "pass": true,
+      "observed": {
+        "commandFamilies": 17,
+        "historyDirections": 2,
+        "failed": []
+      }
+    },
+    {
+      "id": "LOCK-GUARD",
+      "title": "Locked items reject move/rotation; lock is undoable",
+      "expected": "Transform fails and undo restores unlocked state.",
+      "pass": true,
+      "observed": {
+        "lockError": null,
+        "moveError": "Unlock the selected item to move or rotate it.",
+        "undoneLocked": false
+      }
+    },
+    {
+      "id": "UNITS-ROUNDTRIP",
+      "title": "Display conversion preserves metre values",
+      "expected": "Metre→feet→metre has less than 1e-10 error.",
+      "pass": true,
+      "observed": {
+        "values": 2000,
+        "maxError": 7.105427357601002e-15
+      }
+    },
+    {
+      "id": "ROOM-OVERLAP-EDIT",
+      "title": "Editing a room outline cannot overlap another room",
+      "expected": "Command rejects an expanded polygon crossing the neighbour.",
+      "pass": true,
+      "observed": {
+        "error": "Edited outline overlaps another room.",
+        "neighbourOverlapAccepted": false
+      }
+    },
+    {
+      "id": "CONCAVE-NOTCH",
+      "title": "A room can occupy an L-shaped room’s empty notch",
+      "expected": "Disjoint polygons are not treated as overlapping.",
+      "pass": true,
+      "observed": {
+        "overlap": false,
+        "notchCornersInsideL": [
+          false,
+          false,
+          false,
+          false
+        ]
+      }
+    },
+    {
+      "id": "WALL-SPLIT-OPENING",
+      "title": "Adding an adjacent room retains physically unaffected openings",
+      "expected": "Splitting a wall remaps its existing opening to the surviving segment.",
+      "pass": true,
+      "observed": {
+        "error": null,
+        "roomAdditionAccepted": true
+      }
+    },
+    {
+      "id": "RESIZE-WALL-FINISH",
+      "title": "Resizing preserves the finish on the corresponding wall face",
+      "expected": "Paint survives a width change.",
+      "pass": true,
+      "observed": {
+        "error": null,
+        "correspondingFinish": {
+          "colour": "#123456",
+          "texture": "paint",
+          "sheen": "satin"
+        },
+        "orphanedFinishIds": []
+      }
+    },
+    {
+      "id": "DOOR-SWING-SIDE",
+      "title": "Door swing collision respects the selected swing side",
+      "expected": "A door opening into room A leaves the corresponding area in room B available.",
+      "pass": true,
+      "observed": {
+        "inA": "Keep the door swing area clear.",
+        "inB": null,
+        "flippedA": null,
+        "flippedB": "Keep the door swing area clear."
+      }
+    },
+    {
+      "id": "WALK-THROUGH-OPENING",
+      "title": "Walk can cross a valid shared open doorway",
+      "expected": "Path crosses from room A to room B through its opening.",
+      "pass": true,
+      "observed": {
+        "x": 4.5,
+        "z": 1.5
+      }
+    },
+    {
+      "id": "ADD-FLOOR-VALIDATION",
+      "title": "New-floor input cannot create an unsaveable project",
+      "expected": "Reject non-finite geometry before mutating history.",
+      "pass": true,
+      "observed": {
+        "error": "Use a valid new floor with finite elevation/alignment, ceiling 1.8–8 m and valid rooms.",
+        "accepted": false,
+        "validProject": true
+      }
+    },
+    {
+      "id": "TRIM-OVERRIDE-CLEARANCE",
+      "title": "Per-wall trim projection participates in furniture clearance",
+      "expected": "An item crossing the selected wall’s thick baseboard is rejected.",
+      "pass": true,
+      "observed": {
+        "error": "Keep the furniture clear of this wall’s baseboard projection.",
+        "fixtureMinimumX": 0.02,
+        "trimProjection": 0.08
+      }
+    },
+    {
+      "id": "CREATE-INVALID-POLYGON",
+      "title": "Creation rejects a self-crossing nonzero-area outline",
+      "expected": "Invalid drawn room cannot enter a project.",
+      "pass": true,
+      "observed": {
+        "rejected": "Error: Use valid room dimensions and a closed outline without crossing walls."
+      }
+    },
+    {
+      "id": "POCKET-TRAVEL-HOLE",
+      "title": "A pocket cannot occupy another opening",
+      "expected": "Reject a pocket whose required wall cavity intersects a window.",
+      "pass": true,
+      "observed": {
+        "error": "The required pocket cavity intersects another opening.",
+        "pocketTravel": [
+          3,
+          4
+        ],
+        "existingWindow": [
+          2.8,
+          3.6
+        ]
+      }
+    },
+    {
+      "id": "FOOTPRINT-VERTEX-CROSSING",
+      "title": "A footprint cannot bridge a concave notch through boundary vertices",
+      "expected": "Reject a rectangle covering the empty middle of a U-shaped room.",
+      "pass": true,
+      "observed": {
+        "error": "The footprint crosses a wall.",
+        "footprintCorners": [
+          {
+            "x": 1,
+            "z": 2
+          },
+          {
+            "x": 5,
+            "z": 2
+          },
+          {
+            "x": 5,
+            "z": 6
+          },
+          {
+            "x": 1,
+            "z": 6
+          }
+        ]
+      }
+    },
+    {
+      "id": "TRIM-PROFILES",
+      "title": "Baseboards have distinct profile geometry",
+      "expected": "All four profile families create nonempty different meshes.",
+      "pass": true,
+      "observed": [
+        {
+          "profile": "flat",
+          "vertices": 8,
+          "digest": "73970687a14b09d146f97463653807390709b951acc197c32c7c968d8e40861f"
+        },
+        {
+          "profile": "bevel",
+          "vertices": 10,
+          "digest": "b3a2c041fe6f2f444a5fbf88d4437944628cba8163202bffa78f915922d806f4"
+        },
+        {
+          "profile": "ogee",
+          "vertices": 16,
+          "digest": "dd1daf854c674b01fbbff9c92b9838d46da6b43387bddc63e0abbcaa6163301e"
+        },
+        {
+          "profile": "stepped",
+          "vertices": 16,
+          "digest": "054e36702ba1e2f5057fccd0cafd137f061cf6e402fd593d6b16f0bd96122f98"
+        }
+      ]
+    },
+    {
+      "id": "OPENING-GEOMETRY",
+      "title": "Wall geometry leaves a real door opening",
+      "expected": "No piece covers the opening interior.",
+      "pass": true,
+      "observed": {
+        "covered": false,
+        "pieces": [
+          {
+            "start": 0,
+            "end": 1,
+            "bottom": 0,
+            "top": 2.7
+          },
+          {
+            "start": 1,
+            "end": 2,
+            "bottom": 2,
+            "top": 2.7
+          },
+          {
+            "start": 2,
+            "end": 4,
+            "bottom": 0,
+            "top": 2.7
+          }
+        ]
+      }
+    },
+    {
+      "id": "SAVE-ROUNDTRIP",
+      "pass": true,
+      "observed": {
+        "bytes": 1780
+      }
+    },
+    {
+      "id": "SAVE-BACKUP",
+      "pass": true,
+      "observed": {
+        "notice": "Recovered the last verified local save. The unreadable save is preserved until your next edit.",
+        "protected": false
+      }
+    },
+    {
+      "id": "SAVE-FUTURE-PROTECTION",
+      "pass": true,
+      "observed": {
+        "notice": "Error: Unsupported save format. Your saved bytes have been preserved.",
+        "protected": true
+      }
+    },
+    {
+      "id": "SAVE-EMPTY-LIBRARY",
+      "expected": "Reject an empty library because Studio dereferences the first project.",
+      "pass": true,
+      "observed": {
+        "emptyAccepted": false
+      }
+    },
+    {
+      "id": "SAVE-INCOMPLETE-ITEM",
+      "expected": "Validate fields required for rendering before importing a backup.",
+      "pass": true,
+      "observed": {
+        "incompleteAccepted": false,
+        "missingField": "item.materialOverrides"
+      }
+    }
+  ]
+}

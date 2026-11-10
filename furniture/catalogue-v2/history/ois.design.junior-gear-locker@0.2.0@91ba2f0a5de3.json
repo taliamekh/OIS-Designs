@@ -1,0 +1,158 @@
+{
+  "designId": "ois.design.junior-gear-locker",
+  "familyId": "ois.family.junior-gear-locker",
+  "id": "ois.design.junior-gear-locker",
+  "name": "Junior gear locker",
+  "roomTags": [
+    "children"
+  ],
+  "theme": "city-loft",
+  "builder": "case",
+  "parameters": {
+    "form": "locker",
+    "baseHeight": 0.05,
+    "w": 0.75,
+    "d": 0.4,
+    "h": 1.1,
+    "rows": 2,
+    "cols": 2,
+    "base": "sled"
+  },
+  "distinction": "Four distinct vented metal locker doors on open sleds.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted"
+  },
+  "constructionKey": "case|locker|{\"base\": \"sled\", \"cols\": 2, \"doors\": 2, \"drawersTop\": false, \"front\": \"slab\", \"rows\": 2}",
+  "sha256": "91ba2f0a5de363487fc8d2a1b5aa9ba4c8889de5a6a7b7ee1292e8d36faeb280",
+  "bytes": 436348,
+  "triangles": 8956,
+  "vertices": 11904,
+  "drawPrimitives": 2,
+  "bounds": {
+    "min": [
+      -0.375,
+      0.0,
+      -0.23245003819465637
+    ],
+    "max": [
+      0.375,
+      1.096933238208294,
+      0.20000000298023224
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 0.75,
+    "depth": 0.4324500411748886,
+    "height": 1.096933238208294
+  },
+  "footprint": [
+    [
+      -0.375,
+      -0.23245003819465637
+    ],
+    [
+      0.375,
+      -0.23245003819465637
+    ],
+    [
+      0.375,
+      0.20000000298023224
+    ],
+    [
+      -0.375,
+      0.20000000298023224
+    ]
+  ],
+  "variantSlots": [
+    "metal",
+    "wood"
+  ],
+  "requiredExtensions": [],
+  "version": "0.2.0",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.junior-gear-locker",
+  "file": "assets/v0.2.0/junior-gear-locker.glb",
+  "sourceModel": "sources/v0.2.0/junior-gear-locker.blend",
+  "thumbnail": "previews/v0.2.0/junior-gear-locker.png",
+  "backThumbnail": "previews/v0.2.0/junior-gear-locker-back.png",
+  "category": "storage",
+  "subtype": "locker",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "textures": {
+    "count": 0,
+    "bytes": 0
+  },
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.2.0/junior-gear-locker.png",
+      "previews/v0.2.0/junior-gear-locker-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.23,
+      0.15,
+      0.09
+    ],
+    [
+      0.12,
+      0.14,
+      0.16
+    ],
+    [
+      0.045,
+      0.05,
+      0.055
+    ]
+  ],
+  "colourTags": [
+    "charcoal",
+    "black",
+    "weathered wood"
+  ],
+  "materials": [
+    "metal",
+    "wood"
+  ],
+  "searchAliases": [
+    "children",
+    "locker"
+  ],
+  "materialSlots": [
+    {
+      "id": "metal",
+      "material": "metal",
+      "recolourable": true
+    },
+    {
+      "id": "wood",
+      "material": "wood",
+      "recolourable": true
+    }
+  ]
+}

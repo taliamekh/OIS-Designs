@@ -1,0 +1,122 @@
+{
+  "id": "ois.design.round-serving-etagere",
+  "sha256": "unexported-source-6226f7a5305865fd189dfcec35a3077205588e7999488a17cff703d94c6b1b9f",
+  "sourceModel": null,
+  "sourceSha256": "6226f7a5305865fd189dfcec35a3077205588e7999488a17cff703d94c6b1b9f",
+  "partCount": 9,
+  "componentCount": 1,
+  "components": [
+    {
+      "parts": [
+        "turntable foot",
+        "turntable axle",
+        "circular shelf",
+        "circular shelf.001",
+        "circular shelf.002",
+        "circular shelf.003",
+        "display upright",
+        "display upright.001",
+        "display upright.002"
+      ],
+      "minimum": [
+        -0.3499999940395355,
+        -0.3499999940395355,
+        0.0
+      ],
+      "maximum": [
+        0.3499999940395355,
+        0.3499999940395355,
+        1.465000033378601
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "turntable axle",
+      "b": "turntable foot",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "circular shelf",
+      "b": "turntable axle",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "display upright",
+      "b": "circular shelf",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "display upright",
+      "b": "circular shelf.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "display upright",
+      "b": "circular shelf.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "display upright",
+      "b": "circular shelf.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "display upright.001",
+      "b": "circular shelf",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "display upright.001",
+      "b": "circular shelf.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "display upright.001",
+      "b": "circular shelf.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "display upright.001",
+      "b": "circular shelf.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "display upright.002",
+      "b": "circular shelf",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "display upright.002",
+      "b": "circular shelf.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "display upright.002",
+      "b": "circular shelf.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "display upright.002",
+      "b": "circular shelf.003",
+      "method": "triangle intersection",
+      "distance": 0
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; live-source reports are NOT exported-asset evidence; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T03:36:31Z"
+}

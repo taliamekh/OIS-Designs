@@ -1,0 +1,161 @@
+{
+  "designId": "ois.design.hinged-futon",
+  "familyId": "ois.family.hinged-futon",
+  "id": "ois.design.hinged-futon",
+  "name": "Timber folding futon",
+  "roomTags": [
+    "living"
+  ],
+  "theme": "soft-japandi",
+  "builder": "seating",
+  "parameters": {
+    "form": "futon",
+    "w": 1.95
+  },
+  "distinction": "Inclined continuous folding back with exposed hinge rails.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted",
+    "sourceSnapshot": "sources/pipeline-b3621415215e45c7.py",
+    "sourceSha256": "b3621415215e45c7b5194102a3db7926d719026fb1f967ab518c02160232143f",
+    "parametersFile": "sources/v0.2.1/hinged-futon.parameters.json"
+  },
+  "constructionKey": "seating|futon|{\"base\": \"taper\"}",
+  "sha256": "436cd84b18d2f625b840c366371a81b828ce28d2070ce3a886ee563e0e347b1b",
+  "bytes": 56752,
+  "triangles": 1112,
+  "vertices": 1451,
+  "drawPrimitives": 3,
+  "bounds": {
+    "min": [
+      -0.982125621827794,
+      -1.6737885605300207e-08,
+      -0.42628300319714496
+    ],
+    "max": [
+      0.9821255477960633,
+      0.9448049813508987,
+      0.42628299486599996
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 1.9642511696238572,
+    "depth": 0.8525659980631449,
+    "height": 0.9448049980887844
+  },
+  "footprint": [
+    [
+      -0.982125621827794,
+      -0.42628300319714496
+    ],
+    [
+      0.9821255477960633,
+      -0.42628300319714496
+    ],
+    [
+      0.9821255477960633,
+      0.42628299486599996
+    ],
+    [
+      -0.982125621827794,
+      0.42628299486599996
+    ]
+  ],
+  "variantSlots": [
+    "fabric",
+    "linen",
+    "wood"
+  ],
+  "requiredExtensions": [],
+  "version": "0.2.1",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.hinged-futon",
+  "file": "assets/v0.2.1/hinged-futon.glb",
+  "sourceModel": "sources/v0.2.1/hinged-futon.blend",
+  "thumbnail": "previews/v0.2.1/hinged-futon.png",
+  "backThumbnail": "previews/v0.2.1/hinged-futon-back.png",
+  "category": "seating",
+  "subtype": "futon",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "textures": {
+    "count": 0,
+    "bytes": 0
+  },
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.2.1/hinged-futon.png",
+      "previews/v0.2.1/hinged-futon-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.34,
+      0.28,
+      0.19
+    ],
+    [
+      0.58,
+      0.54,
+      0.44
+    ],
+    [
+      0.15,
+      0.17,
+      0.15
+    ]
+  ],
+  "colourTags": [
+    "ash",
+    "flax",
+    "stone"
+  ],
+  "materials": [
+    "textile",
+    "wood"
+  ],
+  "searchAliases": [
+    "living",
+    "futon"
+  ],
+  "materialSlots": [
+    {
+      "id": "fabric",
+      "material": "fabric",
+      "recolourable": true
+    },
+    {
+      "id": "linen",
+      "material": "linen",
+      "recolourable": true
+    },
+    {
+      "id": "wood",
+      "material": "wood",
+      "recolourable": true
+    }
+  ]
+}

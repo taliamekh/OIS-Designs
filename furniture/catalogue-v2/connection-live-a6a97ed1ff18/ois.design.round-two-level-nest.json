@@ -1,0 +1,65 @@
+{
+  "id": "ois.design.round-two-level-nest",
+  "sha256": "unexported-source-a6a97ed1ff18ea7190f4c07e8ea17b6dba901563a653d7aed874183539ef16c1",
+  "sourceModel": null,
+  "sourceSha256": "a6a97ed1ff18ea7190f4c07e8ea17b6dba901563a653d7aed874183539ef16c1",
+  "partCount": 6,
+  "componentCount": 1,
+  "components": [
+    {
+      "parts": [
+        "top",
+        "sled frame",
+        "sled frame.001",
+        "lower nesting top",
+        "nesting leg",
+        "nesting leg.001"
+      ],
+      "minimum": [
+        -0.4000000059604645,
+        -0.4000000059604645,
+        0.0
+      ],
+      "maximum": [
+        0.5559999942779541,
+        0.492000013589859,
+        0.48000001907348633
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "sled frame",
+      "b": "top",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "sled frame.001",
+      "b": "top",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "lower nesting top",
+      "b": "sled frame.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "nesting leg",
+      "b": "lower nesting top",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "nesting leg.001",
+      "b": "lower nesting top",
+      "method": "triangle intersection",
+      "distance": 0
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; live-source reports are NOT exported-asset evidence; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T03:19:59Z"
+}

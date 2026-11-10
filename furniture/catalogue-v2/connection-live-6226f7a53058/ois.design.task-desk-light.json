@@ -1,0 +1,57 @@
+{
+  "id": "ois.design.task-desk-light",
+  "sha256": "unexported-source-6226f7a5305865fd189dfcec35a3077205588e7999488a17cff703d94c6b1b9f",
+  "sourceModel": null,
+  "sourceSha256": "6226f7a5305865fd189dfcec35a3077205588e7999488a17cff703d94c6b1b9f",
+  "partCount": 4,
+  "componentCount": 1,
+  "components": [
+    {
+      "parts": [
+        "weighted base",
+        "task arm",
+        "task shade",
+        "lamp socket mast"
+      ],
+      "minimum": [
+        -0.12999999523162842,
+        -0.12999999523162842,
+        0.0
+      ],
+      "maximum": [
+        0.3737071752548218,
+        0.12999999523162842,
+        0.6266310811042786
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "task arm",
+      "b": "weighted base",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "task shade",
+      "b": "task arm",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "lamp socket mast",
+      "b": "task arm",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "lamp socket mast",
+      "b": "task shade",
+      "method": "triangle intersection",
+      "distance": 0
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; live-source reports are NOT exported-asset evidence; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T03:36:28Z"
+}

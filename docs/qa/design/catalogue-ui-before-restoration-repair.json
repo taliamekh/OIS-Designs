@@ -1,0 +1,102 @@
+{
+  "timestamp": "2026-11-10T03:07:06.179Z",
+  "evidence": "Actual isolated Expo web catalogue workflows; synthetic validated empty two-room house",
+  "baseURL": "http://localhost:8081",
+  "storageOracle": {
+    "kind": "Production IndexedStorage.getItem, with its read-only legacy fallback",
+    "file": "mobile/src/storage/indexedStore.ts",
+    "sha256": "9943012679fd85da975028e6165febf8e149242bfef7b0a63f7ab6b98f76383d"
+  },
+  "sourceBefore": {
+    "src/screens/Catalogue.tsx": "000b4a28eb6b178162950056482583d41264b72bbe34ea288eb92f8a482213de",
+    "src/screens/Editor.tsx": "9990ef10aaf3b9e9c6c225bc624f9bacb567eed099fa5722a6e9ef6e7e4d916e",
+    "src/catalogue/search.ts": "bf190fcc21fec67f2cf0a966b45add8dfd6209cbc87278305b3d7395e52e3bc3",
+    "src/catalogue/assets.json": "9980272d2bb359525820d41d171f889e3717fafe6ec788d5d99de8c43bb1fbf8"
+  },
+  "checks": [
+    {
+      "id": "favourite-and-query-combine",
+      "pass": true
+    },
+    {
+      "id": "no-results-preserves-query-and-favourite",
+      "pass": true
+    },
+    {
+      "id": "clearing-query-retains-favourite",
+      "pass": true
+    },
+    {
+      "id": "combined-fit-theme-shows-clearable-state",
+      "pass": true
+    },
+    {
+      "id": "clearing-fit-keeps-theme",
+      "pass": true
+    },
+    {
+      "id": "catalogue-places-real-revision-and-records-recent",
+      "pass": true,
+      "observed": {
+        "placed": "ois.design.bolster-daybed",
+        "recent": [
+          "ois.design.bolster-daybed"
+        ]
+      }
+    },
+    {
+      "id": "return-from-placement-restores-scroll",
+      "pass": false,
+      "observed": {
+        "before": {
+          "top": 512,
+          "height": 481,
+          "total": 1558
+        },
+        "after": {
+          "top": 0,
+          "height": 247,
+          "total": 595
+        },
+        "selected": {
+          "label": "Place Bolster daybed",
+          "disabled": null,
+          "box": {
+            "x": 16,
+            "y": 309.234375,
+            "width": 314,
+            "height": 106
+          }
+        }
+      }
+    },
+    {
+      "id": "new-room-has-independent-current-room-query",
+      "pass": true
+    },
+    {
+      "id": "return-room-restores-own-query",
+      "pass": true
+    },
+    {
+      "id": "other-room-query-also-retained",
+      "pass": true
+    },
+    {
+      "id": "cold-reload-retains-favourite-recent-and-placement",
+      "pass": true
+    }
+  ],
+  "errors": [],
+  "consoleErrors": [],
+  "completed": true,
+  "sourceAfter": {
+    "src/screens/Catalogue.tsx": "000b4a28eb6b178162950056482583d41264b72bbe34ea288eb92f8a482213de",
+    "src/screens/Editor.tsx": "9990ef10aaf3b9e9c6c225bc624f9bacb567eed099fa5722a6e9ef6e7e4d916e",
+    "src/catalogue/search.ts": "bf190fcc21fec67f2cf0a966b45add8dfd6209cbc87278305b3d7395e52e3bc3",
+    "src/catalogue/assets.json": "9980272d2bb359525820d41d171f889e3717fafe6ec788d5d99de8c43bb1fbf8"
+  },
+  "stableSourceSamples": true,
+  "passed": 10,
+  "failed": 1
+}

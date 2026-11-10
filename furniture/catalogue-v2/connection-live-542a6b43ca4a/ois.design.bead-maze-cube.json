@@ -1,0 +1,114 @@
+{
+  "id": "ois.design.bead-maze-cube",
+  "sha256": "unexported-source-542a6b43ca4abc9d4f4ac88dc7bd803746dd198c350ababac32d73431ffd328b",
+  "sourceModel": null,
+  "sourceSha256": "542a6b43ca4abc9d4f4ac88dc7bd803746dd198c350ababac32d73431ffd328b",
+  "partCount": 13,
+  "componentCount": 1,
+  "components": [
+    {
+      "parts": [
+        "activity base",
+        "bead maze wire",
+        "maze bead",
+        "maze bead.001",
+        "maze bead.002",
+        "bead maze wire.001",
+        "maze bead.003",
+        "maze bead.004",
+        "maze bead.005",
+        "bead maze wire.002",
+        "maze bead.006",
+        "maze bead.007",
+        "maze bead.008"
+      ],
+      "minimum": [
+        -0.22499999403953552,
+        -0.22499999403953552,
+        0.0
+      ],
+      "maximum": [
+        0.22499999403953552,
+        0.22499999403953552,
+        0.6859999895095825
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "bead maze wire",
+      "b": "activity base",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "maze bead",
+      "b": "bead maze wire",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "maze bead.001",
+      "b": "bead maze wire",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "maze bead.002",
+      "b": "bead maze wire",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "bead maze wire.001",
+      "b": "activity base",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "maze bead.003",
+      "b": "bead maze wire.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "maze bead.004",
+      "b": "bead maze wire.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "maze bead.005",
+      "b": "bead maze wire.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "bead maze wire.002",
+      "b": "activity base",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "maze bead.006",
+      "b": "bead maze wire.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "maze bead.007",
+      "b": "bead maze wire.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "maze bead.008",
+      "b": "bead maze wire.002",
+      "method": "triangle intersection",
+      "distance": 0
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; live-source reports are NOT exported-asset evidence; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T03:32:16Z"
+}

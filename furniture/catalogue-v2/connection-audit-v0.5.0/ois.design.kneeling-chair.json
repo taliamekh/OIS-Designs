@@ -1,0 +1,149 @@
+{
+  "id": "ois.design.kneeling-chair",
+  "sha256": "4c81f23ea134594e235b7a79aa3eee003684c0c29687703376fefdfd9b1d3e9d",
+  "sourceModel": "sources/v0.5.0/kneeling-chair.blend",
+  "sourceSha256": "837478237c4843f7b67b39bacc6158ec4c93205d5de089c72df5ff645928306d",
+  "partCount": 12,
+  "componentCount": 1,
+  "components": [
+    {
+      "parts": [
+        "rocking kneel runner",
+        "rocking kneel runner.001",
+        "tilted main seat",
+        "piping",
+        "shin support",
+        "piping.001",
+        "seat support",
+        "knee support",
+        "diagonal frame",
+        "seat support.001",
+        "knee support.001",
+        "diagonal frame.001"
+      ],
+      "minimum": [
+        -0.2770000100135803,
+        -0.4605802595615387,
+        0.0
+      ],
+      "maximum": [
+        0.2770000100135803,
+        0.4620000123977661,
+        0.6762010455131531
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "piping",
+      "b": "tilted main seat",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "piping.001",
+      "b": "shin support",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "seat support",
+      "b": "rocking kneel runner",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "seat support",
+      "b": "tilted main seat",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "knee support",
+      "b": "rocking kneel runner",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "knee support",
+      "b": "shin support",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "knee support",
+      "b": "piping.001",
+      "method": "surface distance",
+      "distance": 0.0038513541221618652
+    },
+    {
+      "a": "diagonal frame",
+      "b": "rocking kneel runner",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "diagonal frame",
+      "b": "seat support",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "diagonal frame",
+      "b": "knee support",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "seat support.001",
+      "b": "rocking kneel runner.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "seat support.001",
+      "b": "tilted main seat",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "knee support.001",
+      "b": "rocking kneel runner.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "knee support.001",
+      "b": "shin support",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "knee support.001",
+      "b": "piping.001",
+      "method": "surface distance",
+      "distance": 0.0038513541221618652
+    },
+    {
+      "a": "diagonal frame.001",
+      "b": "rocking kneel runner.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "diagonal frame.001",
+      "b": "seat support.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "diagonal frame.001",
+      "b": "knee support.001",
+      "method": "triangle intersection",
+      "distance": 0
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T03:07:32Z"
+}

@@ -1,0 +1,273 @@
+{
+  "id": "ois.design.pullout-trundle-bed.size.full",
+  "sha256": "6eb9683a39a200188ef79fbdbc8f127098f98265b33564333e9561a82e09bc1a",
+  "sourceModel": "sources/v0.5.0/pullout-trundle-bed.size.full.blend",
+  "sourceSha256": "6e6b640ef7a8069f091f573dfe49e6323e379b044b7703bdfc5be666124af10f",
+  "partCount": 28,
+  "componentCount": 1,
+  "components": [
+    {
+      "parts": [
+        "leg",
+        "leg.001",
+        "leg.002",
+        "leg.003",
+        "frame",
+        "mattress",
+        "piping",
+        "duvet",
+        "pillow",
+        "piping.001",
+        "pillow.001",
+        "piping.002",
+        "headboard",
+        "storage drawer",
+        "pull",
+        "storage drawer.001",
+        "pull.001",
+        "storage drawer.002",
+        "pull.002",
+        "storage drawer.003",
+        "pull.003",
+        "pullout frame",
+        "trundle mattress",
+        "piping.003",
+        "trundle caster",
+        "trundle caster.001",
+        "trundle caster.002",
+        "trundle caster.003"
+      ],
+      "minimum": [
+        -0.7488000392913818,
+        -1.0425000190734863,
+        0.0
+      ],
+      "maximum": [
+        1.7909998893737793,
+        1.0212855339050293,
+        1.1399999856948853
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "frame",
+      "b": "leg",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "frame",
+      "b": "leg.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "frame",
+      "b": "leg.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "frame",
+      "b": "leg.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "mattress",
+      "b": "frame",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "piping",
+      "b": "mattress",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "duvet",
+      "b": "mattress",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pillow",
+      "b": "mattress",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "piping.001",
+      "b": "pillow",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pillow.001",
+      "b": "mattress",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "piping.002",
+      "b": "pillow.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "headboard",
+      "b": "leg",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "headboard",
+      "b": "leg.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "headboard",
+      "b": "frame",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "storage drawer",
+      "b": "leg",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "storage drawer",
+      "b": "headboard",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pull",
+      "b": "storage drawer",
+      "method": "point containment",
+      "distance": 0
+    },
+    {
+      "a": "storage drawer.001",
+      "b": "leg.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pull.001",
+      "b": "storage drawer.001",
+      "method": "point containment",
+      "distance": 0
+    },
+    {
+      "a": "storage drawer.002",
+      "b": "leg.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "storage drawer.002",
+      "b": "headboard",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pull.002",
+      "b": "storage drawer.002",
+      "method": "point containment",
+      "distance": 0
+    },
+    {
+      "a": "storage drawer.003",
+      "b": "leg.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pull.003",
+      "b": "storage drawer.003",
+      "method": "point containment",
+      "distance": 0
+    },
+    {
+      "a": "pullout frame",
+      "b": "leg.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pullout frame",
+      "b": "leg.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pullout frame",
+      "b": "storage drawer.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pullout frame",
+      "b": "pull.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pullout frame",
+      "b": "storage drawer.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pullout frame",
+      "b": "pull.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "trundle mattress",
+      "b": "pullout frame",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "piping.003",
+      "b": "trundle mattress",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "trundle caster",
+      "b": "pullout frame",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "trundle caster.001",
+      "b": "pullout frame",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "trundle caster.002",
+      "b": "pullout frame",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "trundle caster.003",
+      "b": "pullout frame",
+      "method": "triangle intersection",
+      "distance": 0
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T03:07:33Z"
+}

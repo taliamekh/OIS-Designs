@@ -1,0 +1,152 @@
+{
+  "designId": "ois.design.staggered-room-divider",
+  "familyId": "ois.family.staggered-room-divider",
+  "id": "ois.design.staggered-room-divider",
+  "name": "Staggered room divider",
+  "roomTags": [
+    "storage"
+  ],
+  "theme": "coastal-linen",
+  "builder": "case",
+  "parameters": {
+    "form": "staggered",
+    "front": "slab",
+    "w": 1.65,
+    "h": 1.4,
+    "rows": 4,
+    "cols": 2
+  },
+  "distinction": "Open shelves interrupted by alternating offset and centre partitions.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted",
+    "sourceSnapshot": "sources/pipeline-e797cb5c88af56f5.py",
+    "sourceSha256": "e797cb5c88af56f5b4455d819a512ab9be55f40e1fa2d0cb542aca7bb84b906f",
+    "parametersFile": "sources/v0.2.1/staggered-room-divider.parameters.json"
+  },
+  "constructionKey": "case|staggered|{\"base\": \"taper\", \"cols\": 2, \"doors\": 2, \"drawersTop\": false, \"front\": \"slab\", \"rows\": 4}",
+  "sha256": "b7a5e8d71b444eba4b26a62a81135b5779689fa63f4c368df77eadd31eeed7ee",
+  "bytes": 117424,
+  "triangles": 2308,
+  "vertices": 3188,
+  "drawPrimitives": 1,
+  "bounds": {
+    "min": [
+      -0.8254947654660076,
+      -5.103786188120907e-08,
+      -0.20000001199803652
+    ],
+    "max": [
+      0.8254947912628596,
+      1.3946741804901972,
+      0.20000004910670044
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 1.6509895567288673,
+    "depth": 0.40000006110473696,
+    "height": 1.3946742315280591
+  },
+  "footprint": [
+    [
+      -0.8254947654660076,
+      -0.20000001199803652
+    ],
+    [
+      0.8254947912628596,
+      -0.20000001199803652
+    ],
+    [
+      0.8254947912628596,
+      0.20000004910670044
+    ],
+    [
+      -0.8254947654660076,
+      0.20000004910670044
+    ]
+  ],
+  "variantSlots": [
+    "wood"
+  ],
+  "requiredExtensions": [],
+  "version": "0.2.1",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.staggered-room-divider",
+  "file": "assets/v0.2.1/staggered-room-divider.glb",
+  "sourceModel": "sources/v0.2.1/staggered-room-divider.blend",
+  "thumbnail": "previews/v0.2.1/staggered-room-divider.png",
+  "backThumbnail": "previews/v0.2.1/staggered-room-divider-back.png",
+  "category": "storage",
+  "subtype": "staggered",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "textures": {
+    "count": 0,
+    "bytes": 0
+  },
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.2.1/staggered-room-divider.png",
+      "previews/v0.2.1/staggered-room-divider-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.66,
+      0.53,
+      0.34
+    ],
+    [
+      0.36,
+      0.53,
+      0.58
+    ],
+    [
+      0.64,
+      0.6,
+      0.48
+    ]
+  ],
+  "colourTags": [
+    "mist blue",
+    "sand",
+    "pale oak"
+  ],
+  "materials": [
+    "wood"
+  ],
+  "searchAliases": [
+    "storage",
+    "staggered"
+  ],
+  "materialSlots": [
+    {
+      "id": "wood",
+      "material": "wood",
+      "recolourable": true
+    }
+  ]
+}

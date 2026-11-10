@@ -1,0 +1,436 @@
+{
+  "id": "ois.design.shaker-wardrobe",
+  "sha256": "367d73b14e2801c5ba6172eb91b2e9045222855f846917d12bc142b17d37e7fe",
+  "sourceModel": "sources/v0.7.0/shaker-wardrobe.blend",
+  "sourceSha256": "7911f5d4daddb53a532c1ab5aa2ac7ba92daa3a6bfae14cade960ce0c729ae04",
+  "partCount": 35,
+  "componentCount": 1,
+  "components": [
+    {
+      "parts": [
+        "leg",
+        "leg.001",
+        "leg.002",
+        "leg.003",
+        "bottom",
+        "top",
+        "side",
+        "side.001",
+        "back",
+        "door stile",
+        "door stile.001",
+        "door rail",
+        "door rail.001",
+        "recessed panel",
+        "pull",
+        "pull mounting plate",
+        "pull mounting standoff",
+        "pull mounting standoff.001",
+        "door hinge mounting stile",
+        "door hinge pin",
+        "door hinge pin.001",
+        "door stile.002",
+        "door stile.003",
+        "door rail.002",
+        "door rail.003",
+        "recessed panel.001",
+        "pull.001",
+        "pull mounting plate.001",
+        "pull mounting standoff.002",
+        "pull mounting standoff.003",
+        "door hinge mounting stile.001",
+        "door hinge pin.002",
+        "door hinge pin.003",
+        "hanging rail",
+        "top interior shelf"
+      ],
+      "minimum": [
+        -0.5600000023841858,
+        -0.30000001192092896,
+        2.3283064365386963e-09
+      ],
+      "maximum": [
+        0.5600000023841858,
+        0.35600000619888306,
+        1.9428598880767822
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "bottom",
+      "b": "leg",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "bottom",
+      "b": "leg.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "bottom",
+      "b": "leg.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "bottom",
+      "b": "leg.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "side",
+      "b": "bottom",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "side",
+      "b": "top",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "side.001",
+      "b": "bottom",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "side.001",
+      "b": "top",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "back",
+      "b": "bottom",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "back",
+      "b": "top",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "back",
+      "b": "side",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "back",
+      "b": "side.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "door rail",
+      "b": "door stile",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "door rail",
+      "b": "door stile.001",
+      "method": "surface distance",
+      "distance": 7.450580596923828e-09
+    },
+    {
+      "a": "door rail.001",
+      "b": "door stile",
+      "method": "surface distance",
+      "distance": 0.0
+    },
+    {
+      "a": "door rail.001",
+      "b": "door stile.001",
+      "method": "surface distance",
+      "distance": 7.450580596923828e-09
+    },
+    {
+      "a": "recessed panel",
+      "b": "door stile",
+      "method": "surface distance",
+      "distance": 0.0034082261845469475
+    },
+    {
+      "a": "recessed panel",
+      "b": "door stile.001",
+      "method": "surface distance",
+      "distance": 0.0034082497004419565
+    },
+    {
+      "a": "recessed panel",
+      "b": "door rail",
+      "method": "surface distance",
+      "distance": 0.0034232353791594505
+    },
+    {
+      "a": "recessed panel",
+      "b": "door rail.001",
+      "method": "surface distance",
+      "distance": 0.003423319198191166
+    },
+    {
+      "a": "pull mounting plate",
+      "b": "recessed panel",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pull mounting standoff",
+      "b": "recessed panel",
+      "method": "surface distance",
+      "distance": 0.003999978303909302
+    },
+    {
+      "a": "pull mounting standoff",
+      "b": "pull",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pull mounting standoff",
+      "b": "pull mounting plate",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pull mounting standoff.001",
+      "b": "recessed panel",
+      "method": "surface distance",
+      "distance": 0.003999978303909302
+    },
+    {
+      "a": "pull mounting standoff.001",
+      "b": "pull",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pull mounting standoff.001",
+      "b": "pull mounting plate",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "door hinge mounting stile",
+      "b": "bottom",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "door hinge mounting stile",
+      "b": "top",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "door hinge mounting stile",
+      "b": "side",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "door hinge mounting stile",
+      "b": "door stile",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "door hinge pin",
+      "b": "door stile",
+      "method": "surface distance",
+      "distance": 0.00334401847794652
+    },
+    {
+      "a": "door hinge pin",
+      "b": "door hinge mounting stile",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "door hinge pin.001",
+      "b": "door stile",
+      "method": "surface distance",
+      "distance": 0.003339908318594098
+    },
+    {
+      "a": "door hinge pin.001",
+      "b": "door hinge mounting stile",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "door rail.002",
+      "b": "door stile.002",
+      "method": "surface distance",
+      "distance": 7.450580596923828e-09
+    },
+    {
+      "a": "door rail.002",
+      "b": "door stile.003",
+      "method": "surface distance",
+      "distance": 0.0
+    },
+    {
+      "a": "door rail.003",
+      "b": "door stile.002",
+      "method": "surface distance",
+      "distance": 7.450580596923828e-09
+    },
+    {
+      "a": "door rail.003",
+      "b": "door stile.003",
+      "method": "surface distance",
+      "distance": 0.0
+    },
+    {
+      "a": "recessed panel.001",
+      "b": "door stile.002",
+      "method": "surface distance",
+      "distance": 0.0034082499332726
+    },
+    {
+      "a": "recessed panel.001",
+      "b": "door stile.003",
+      "method": "surface distance",
+      "distance": 0.003408204996958375
+    },
+    {
+      "a": "recessed panel.001",
+      "b": "door rail.002",
+      "method": "surface distance",
+      "distance": 0.0034232367761433125
+    },
+    {
+      "a": "recessed panel.001",
+      "b": "door rail.003",
+      "method": "surface distance",
+      "distance": 0.0034233208280056715
+    },
+    {
+      "a": "pull mounting plate.001",
+      "b": "recessed panel.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pull mounting standoff.002",
+      "b": "recessed panel.001",
+      "method": "surface distance",
+      "distance": 0.003999978303909302
+    },
+    {
+      "a": "pull mounting standoff.002",
+      "b": "pull.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pull mounting standoff.002",
+      "b": "pull mounting plate.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pull mounting standoff.003",
+      "b": "recessed panel.001",
+      "method": "surface distance",
+      "distance": 0.003999978303909302
+    },
+    {
+      "a": "pull mounting standoff.003",
+      "b": "pull.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pull mounting standoff.003",
+      "b": "pull mounting plate.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "door hinge mounting stile.001",
+      "b": "bottom",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "door hinge mounting stile.001",
+      "b": "top",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "door hinge mounting stile.001",
+      "b": "door stile.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "door hinge pin.002",
+      "b": "door stile.002",
+      "method": "surface distance",
+      "distance": 0.0033440557308495045
+    },
+    {
+      "a": "door hinge pin.002",
+      "b": "door hinge mounting stile.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "door hinge pin.003",
+      "b": "door stile.002",
+      "method": "surface distance",
+      "distance": 0.0033399455714970827
+    },
+    {
+      "a": "door hinge pin.003",
+      "b": "door hinge mounting stile.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "hanging rail",
+      "b": "side",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "hanging rail",
+      "b": "side.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "top interior shelf",
+      "b": "back",
+      "method": "surface distance",
+      "distance": 0.0020000040531158447
+    },
+    {
+      "a": "top interior shelf",
+      "b": "door hinge mounting stile",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "top interior shelf",
+      "b": "door hinge mounting stile.001",
+      "method": "triangle intersection",
+      "distance": 0
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; live-source reports are NOT exported-asset evidence; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T03:51:57Z"
+}

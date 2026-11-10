@@ -1,0 +1,162 @@
+{
+  "designId": "ois.design.framed-shower-cube",
+  "familyId": "ois.family.framed-shower-cube",
+  "id": "ois.design.framed-shower-cube",
+  "name": "Framed shower enclosure",
+  "roomTags": [
+    "bathroom"
+  ],
+  "theme": "city-loft",
+  "builder": "bath",
+  "parameters": {
+    "form": "shower-square",
+    "w": 0.9,
+    "d": 0.9
+  },
+  "distinction": "Three glass screens, door handle, tray and overhead shower.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted"
+  },
+  "constructionKey": "bath|shower-square|{}",
+  "sha256": "99e06aff3fa40417764ae1bbed6b1f24a2d6391770f60479275188aed25ac989",
+  "bytes": 58500,
+  "triangles": 1100,
+  "vertices": 1512,
+  "drawPrimitives": 3,
+  "bounds": {
+    "min": [
+      -0.4619999881833792,
+      0.0,
+      -0.47599999368015156
+    ],
+    "max": [
+      0.4620000123977841,
+      2.0,
+      0.4619999881833792
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 0.9240000005811633,
+    "depth": 0.9379999818635307,
+    "height": 2.0
+  },
+  "footprint": [
+    [
+      -0.4619999881833792,
+      -0.47599999368015156
+    ],
+    [
+      0.4620000123977841,
+      -0.47599999368015156
+    ],
+    [
+      0.4620000123977841,
+      0.4619999881833792
+    ],
+    [
+      -0.4619999881833792,
+      0.4619999881833792
+    ]
+  ],
+  "variantSlots": [
+    "ceramic",
+    "glass",
+    "metal"
+  ],
+  "requiredExtensions": [],
+  "version": "0.2.0",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.framed-shower-cube",
+  "file": "assets/v0.2.0/framed-shower-cube.glb",
+  "sourceModel": "sources/v0.2.0/framed-shower-cube.blend",
+  "thumbnail": "previews/v0.2.0/framed-shower-cube.png",
+  "backThumbnail": "previews/v0.2.0/framed-shower-cube-back.png",
+  "category": "bathroom-fixtures",
+  "subtype": "shower-square",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "textures": {
+    "count": 0,
+    "bytes": 0
+  },
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.2.0/framed-shower-cube.png",
+      "previews/v0.2.0/framed-shower-cube-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.23,
+      0.15,
+      0.09
+    ],
+    [
+      0.12,
+      0.14,
+      0.16
+    ],
+    [
+      0.045,
+      0.05,
+      0.055
+    ]
+  ],
+  "colourTags": [
+    "charcoal",
+    "black",
+    "weathered wood"
+  ],
+  "materials": [
+    "ceramic",
+    "metal",
+    "opaque-glass-study"
+  ],
+  "searchAliases": [
+    "bathroom",
+    "shower square"
+  ],
+  "materialSlots": [
+    {
+      "id": "ceramic",
+      "material": "ceramic",
+      "recolourable": true
+    },
+    {
+      "id": "glass",
+      "material": "glass",
+      "recolourable": true
+    },
+    {
+      "id": "metal",
+      "material": "metal",
+      "recolourable": true
+    }
+  ],
+  "geometryHash": "c38b62a676929a4b958fc95a022f037d94e57948276ae9a81d3b38f1aad6df99",
+  "normalizedMirrorGeometryHash": "0113543a95d66a6edb2a176c91c4cde418e4a2353ccf04362b048a489ade3b48"
+}

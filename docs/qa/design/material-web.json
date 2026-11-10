@@ -1,0 +1,159 @@
+{
+  "timestamp": "2026-11-10T02:53:36.905Z",
+  "evidence": "Actual Expo web map rendering and durable production IndexedDB reads; NOT physical EXGL validation",
+  "storageOracle": {
+    "kind": "Production IndexedStorage.getItem, with its read-only legacy fallback",
+    "file": "mobile/src/storage/indexedStore.ts",
+    "sha256": "9943012679fd85da975028e6165febf8e149242bfef7b0a63f7ab6b98f76383d"
+  },
+  "checks": [
+    {
+      "id": "ten-floor-choices",
+      "pass": true,
+      "observed": [
+        "Apply White oak planks",
+        "Apply Walnut planks",
+        "Apply Maple planks",
+        "Apply Oak herringbone",
+        "Apply Bamboo",
+        "Apply Slate tile",
+        "Apply Marble tile",
+        "Apply Terrazzo",
+        "Apply Concrete",
+        "Apply Wool carpet"
+      ]
+    },
+    {
+      "id": "render-changes-Oak herringbone",
+      "pass": true,
+      "observed": {
+        "before": "3df3f8bce72fa422612a7dee50d428b3293e8c44dd40989a2b5ff63736d81a3a",
+        "after": "68fbcd36d5323f832b6d016c8bd7517e9c4aee3e79f1aab97a25ed70e388ea10"
+      }
+    },
+    {
+      "id": "render-changes-Slate tile",
+      "pass": true,
+      "observed": {
+        "before": "68fbcd36d5323f832b6d016c8bd7517e9c4aee3e79f1aab97a25ed70e388ea10",
+        "after": "18ec51e07cbdfeef0bbbba7204b2c0b865a692547b0e0cf337ce15b4f86c9fba"
+      }
+    },
+    {
+      "id": "floor-change-stays-in-room",
+      "pass": true
+    },
+    {
+      "id": "physical-repeat-and-angle-persist",
+      "pass": true,
+      "observed": {
+        "id": "herringbone",
+        "repeat": 1.5,
+        "angle": 0.7853981633974483
+      }
+    },
+    {
+      "id": "wall-texture-colour-sheen-persist",
+      "pass": true,
+      "observed": {
+        "wall:0,0:48000,0": {
+          "colour": "#92a8bf",
+          "texture": "brick",
+          "sheen": "gloss"
+        }
+      }
+    },
+    {
+      "id": "wall-paint-does-not-recolour-neighbour",
+      "pass": true
+    },
+    {
+      "id": "maps-no-error-boundary",
+      "pass": true
+    }
+  ],
+  "errors": [],
+  "consoleErrors": [],
+  "frames": [
+    {
+      "name": "white-oak-planks",
+      "file": "material-white-oak-planks.png",
+      "sha256": "3df3f8bce72fa422612a7dee50d428b3293e8c44dd40989a2b5ff63736d81a3a",
+      "bytes": 31761
+    },
+    {
+      "name": "oak-herringbone",
+      "file": "material-oak-herringbone.png",
+      "sha256": "68fbcd36d5323f832b6d016c8bd7517e9c4aee3e79f1aab97a25ed70e388ea10",
+      "bytes": 29016
+    },
+    {
+      "name": "slate-tile",
+      "file": "material-slate-tile.png",
+      "sha256": "18ec51e07cbdfeef0bbbba7204b2c0b865a692547b0e0cf337ce15b4f86c9fba",
+      "bytes": 34043
+    },
+    {
+      "name": "herringbone-rotation45-repeat1.5",
+      "file": "material-herringbone-rotation45-repeat1.5.png",
+      "sha256": "c1305a445cdb0411649f74117c7fd5861a1352c6756a24251d3f4ae0922905ae",
+      "bytes": 31890
+    },
+    {
+      "name": "brick-gloss-wall",
+      "file": "material-brick-gloss-wall.png",
+      "sha256": "9d94fc6c84cdf8e159010572b945ddf28f519a76956354df8fee865b99fcab8f",
+      "bytes": 48454
+    }
+  ],
+  "scene": {
+    "rooms": [
+      "room-mwa3ir7x-nbnb6z3"
+    ],
+    "mode": "3d",
+    "camera": [
+      8.502211828449463,
+      8.42662165322148,
+      8.450273740644962
+    ],
+    "items": [
+      {
+        "id": "item-mwa3ir7y-e9xy1t3",
+        "x": 214.68804465185403,
+        "y": 182.89781684013795,
+        "roomId": "room-mwa3ir7x-nbnb6z3"
+      },
+      {
+        "id": "item-mwa3ir7y-0h4kkfl",
+        "x": 245.11462432405116,
+        "y": 223.2486976391743,
+        "roomId": "room-mwa3ir7x-nbnb6z3"
+      },
+      {
+        "id": "item-mwa3ir7y-nptrxyr",
+        "x": 185.08807564286744,
+        "y": 204.10114417100635,
+        "roomId": "room-mwa3ir7x-nbnb6z3"
+      }
+    ],
+    "memory": {
+      "geometries": 12,
+      "textures": 6
+    },
+    "draw": {
+      "frame": 19,
+      "calls": 14,
+      "triangles": 5422,
+      "points": 0,
+      "lines": 0
+    },
+    "cache": {
+      "entries": 3,
+      "active": 3,
+      "idle": 0,
+      "sourceBytes": 254316,
+      "textureSets": 4
+    }
+  },
+  "completed": true
+}

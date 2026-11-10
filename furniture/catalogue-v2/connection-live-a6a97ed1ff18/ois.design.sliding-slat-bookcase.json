@@ -1,0 +1,396 @@
+{
+  "id": "ois.design.sliding-slat-bookcase",
+  "sha256": "unexported-source-a6a97ed1ff18ea7190f4c07e8ea17b6dba901563a653d7aed874183539ef16c1",
+  "sourceModel": null,
+  "sourceSha256": "a6a97ed1ff18ea7190f4c07e8ea17b6dba901563a653d7aed874183539ef16c1",
+  "partCount": 31,
+  "componentCount": 4,
+  "components": [
+    {
+      "parts": [
+        "sliding panel stile",
+        "sliding panel stile.001",
+        "sliding panel rail",
+        "sliding panel rail.001",
+        "vertical slat",
+        "vertical slat.001",
+        "vertical slat.002",
+        "vertical slat.003",
+        "vertical slat.004",
+        "vertical slat.005",
+        "vertical slat.006",
+        "vertical slat.007",
+        "vertical slat.008",
+        "vertical slat.009",
+        "vertical slat.010",
+        "vertical slat.011",
+        "vertical slat.012"
+      ],
+      "minimum": [
+        -0.04800000041723251,
+        0.2175000011920929,
+        0.23250000178813934
+      ],
+      "maximum": [
+        0.5759999752044678,
+        0.2524999976158142,
+        1.4725000858306885
+      ]
+    },
+    {
+      "parts": [
+        "leg",
+        "leg.001",
+        "leg.002",
+        "leg.003",
+        "bottom",
+        "top",
+        "side",
+        "side.001",
+        "shelf",
+        "shelf.001",
+        "shelf.002",
+        "partition"
+      ],
+      "minimum": [
+        -0.6000000238418579,
+        -0.1899999976158142,
+        0.00713870907202363
+      ],
+      "maximum": [
+        0.6000000238418579,
+        0.1899999976158142,
+        1.5499999523162842
+      ]
+    },
+    {
+      "parts": [
+        "door track"
+      ],
+      "minimum": [
+        -0.609000027179718,
+        0.21599999070167542,
+        0.20000004768371582
+      ],
+      "maximum": [
+        -0.5910000205039978,
+        0.23399999737739563,
+        1.5199999809265137
+      ]
+    },
+    {
+      "parts": [
+        "door track.001"
+      ],
+      "minimum": [
+        0.5910000205039978,
+        0.21599999070167542,
+        0.20000004768371582
+      ],
+      "maximum": [
+        0.609000027179718,
+        0.23399999737739563,
+        1.5199999809265137
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "bottom",
+      "b": "leg",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "bottom",
+      "b": "leg.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "bottom",
+      "b": "leg.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "bottom",
+      "b": "leg.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "side",
+      "b": "bottom",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "side",
+      "b": "top",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "side.001",
+      "b": "bottom",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "side.001",
+      "b": "top",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "shelf",
+      "b": "side",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "shelf",
+      "b": "side.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "shelf.001",
+      "b": "side",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "shelf.001",
+      "b": "side.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "shelf.002",
+      "b": "side",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "shelf.002",
+      "b": "side.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "partition",
+      "b": "bottom",
+      "method": "surface distance",
+      "distance": 0.003999948501586914
+    },
+    {
+      "a": "partition",
+      "b": "top",
+      "method": "surface distance",
+      "distance": 0.003999948501586914
+    },
+    {
+      "a": "partition",
+      "b": "shelf",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "partition",
+      "b": "shelf.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "partition",
+      "b": "shelf.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "sliding panel rail",
+      "b": "sliding panel stile",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "sliding panel rail",
+      "b": "sliding panel stile.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "sliding panel rail.001",
+      "b": "sliding panel stile",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "sliding panel rail.001",
+      "b": "sliding panel stile.001",
+      "method": "surface distance",
+      "distance": 0.0
+    },
+    {
+      "a": "vertical slat",
+      "b": "sliding panel rail",
+      "method": "surface distance",
+      "distance": 5.960646376479417e-08
+    },
+    {
+      "a": "vertical slat",
+      "b": "sliding panel rail.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "vertical slat.001",
+      "b": "sliding panel rail",
+      "method": "surface distance",
+      "distance": 5.972094641037984e-08
+    },
+    {
+      "a": "vertical slat.001",
+      "b": "sliding panel rail.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "vertical slat.002",
+      "b": "sliding panel rail",
+      "method": "surface distance",
+      "distance": 6.006850128414953e-08
+    },
+    {
+      "a": "vertical slat.002",
+      "b": "sliding panel rail.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "vertical slat.003",
+      "b": "sliding panel rail",
+      "method": "surface distance",
+      "distance": 5.960464477539063e-08
+    },
+    {
+      "a": "vertical slat.003",
+      "b": "sliding panel rail.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "vertical slat.004",
+      "b": "sliding panel rail",
+      "method": "surface distance",
+      "distance": 5.960464477539063e-08
+    },
+    {
+      "a": "vertical slat.004",
+      "b": "sliding panel rail.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "vertical slat.005",
+      "b": "sliding panel rail",
+      "method": "surface distance",
+      "distance": 5.960464477539063e-08
+    },
+    {
+      "a": "vertical slat.005",
+      "b": "sliding panel rail.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "vertical slat.006",
+      "b": "sliding panel rail",
+      "method": "surface distance",
+      "distance": 5.960464477539063e-08
+    },
+    {
+      "a": "vertical slat.006",
+      "b": "sliding panel rail.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "vertical slat.007",
+      "b": "sliding panel rail",
+      "method": "surface distance",
+      "distance": 5.960464477539063e-08
+    },
+    {
+      "a": "vertical slat.007",
+      "b": "sliding panel rail.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "vertical slat.008",
+      "b": "sliding panel rail",
+      "method": "surface distance",
+      "distance": 5.960464477539063e-08
+    },
+    {
+      "a": "vertical slat.008",
+      "b": "sliding panel rail.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "vertical slat.009",
+      "b": "sliding panel rail",
+      "method": "surface distance",
+      "distance": 5.960464477539063e-08
+    },
+    {
+      "a": "vertical slat.009",
+      "b": "sliding panel rail.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "vertical slat.010",
+      "b": "sliding panel rail",
+      "method": "surface distance",
+      "distance": 5.960464477539063e-08
+    },
+    {
+      "a": "vertical slat.010",
+      "b": "sliding panel rail.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "vertical slat.011",
+      "b": "sliding panel rail",
+      "method": "surface distance",
+      "distance": 5.960464477539063e-08
+    },
+    {
+      "a": "vertical slat.011",
+      "b": "sliding panel rail.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "vertical slat.012",
+      "b": "sliding panel rail",
+      "method": "surface distance",
+      "distance": 5.960464477539063e-08
+    },
+    {
+      "a": "vertical slat.012",
+      "b": "sliding panel rail.001",
+      "method": "triangle intersection",
+      "distance": 0
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; live-source reports are NOT exported-asset evidence; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T03:19:59Z"
+}

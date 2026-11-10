@@ -1,0 +1,156 @@
+{
+  "designId": "ois.design.chimney-rangehood",
+  "familyId": "ois.family.chimney-rangehood",
+  "id": "ois.design.chimney-rangehood",
+  "name": "Chimney range hood",
+  "roomTags": [
+    "kitchen"
+  ],
+  "theme": "city-loft",
+  "builder": "appliance",
+  "parameters": {
+    "form": "rangehood",
+    "w": 0.9,
+    "h": 0.9,
+    "steel": true
+  },
+  "distinction": "Separate broad canopy, tall narrow flue and underside filter.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted"
+  },
+  "constructionKey": "appliance|rangehood|{}",
+  "sha256": "2245fb111a66db3ed7ce47c85c4de35a9f912f2981069a6305e2005a97cf0e9b",
+  "bytes": 30996,
+  "triangles": 564,
+  "vertices": 789,
+  "drawPrimitives": 2,
+  "bounds": {
+    "min": [
+      -0.44999998807907104,
+      0.0,
+      -0.3100000023841858
+    ],
+    "max": [
+      0.44999998807907104,
+      0.8500000014901161,
+      0.3100000023841858
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 0.8999999761581421,
+    "depth": 0.6200000047683716,
+    "height": 0.8500000014901161
+  },
+  "footprint": [
+    [
+      -0.44999998807907104,
+      -0.3100000023841858
+    ],
+    [
+      0.44999998807907104,
+      -0.3100000023841858
+    ],
+    [
+      0.44999998807907104,
+      0.3100000023841858
+    ],
+    [
+      -0.44999998807907104,
+      0.3100000023841858
+    ]
+  ],
+  "variantSlots": [
+    "dark",
+    "metal"
+  ],
+  "requiredExtensions": [],
+  "version": "0.2.0",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.chimney-rangehood",
+  "file": "assets/v0.2.0/chimney-rangehood.glb",
+  "sourceModel": "sources/v0.2.0/chimney-rangehood.blend",
+  "thumbnail": "previews/v0.2.0/chimney-rangehood.png",
+  "backThumbnail": "previews/v0.2.0/chimney-rangehood-back.png",
+  "category": "appliances",
+  "subtype": "rangehood",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "textures": {
+    "count": 0,
+    "bytes": 0
+  },
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "wall",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.2.0/chimney-rangehood.png",
+      "previews/v0.2.0/chimney-rangehood-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.23,
+      0.15,
+      0.09
+    ],
+    [
+      0.12,
+      0.14,
+      0.16
+    ],
+    [
+      0.045,
+      0.05,
+      0.055
+    ]
+  ],
+  "colourTags": [
+    "charcoal",
+    "black",
+    "weathered wood"
+  ],
+  "materials": [
+    "metal",
+    "paint"
+  ],
+  "searchAliases": [
+    "kitchen",
+    "rangehood"
+  ],
+  "materialSlots": [
+    {
+      "id": "dark",
+      "material": "dark",
+      "recolourable": true
+    },
+    {
+      "id": "metal",
+      "material": "metal",
+      "recolourable": true
+    }
+  ],
+  "geometryHash": "469a4915fc3d9a7363402ffc9c72df838b849490c922758d9fe84b77c5f0d6e0",
+  "normalizedMirrorGeometryHash": "2da03d3dd9397252c08448390285b5b81ea4d0ac521ab2e776b52b0384b0c8ea"
+}

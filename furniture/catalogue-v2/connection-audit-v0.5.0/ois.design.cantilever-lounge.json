@@ -1,0 +1,70 @@
+{
+  "id": "ois.design.cantilever-lounge",
+  "sha256": "6732df14bf5fc873a15cebbd3b2b60b3e0b336923a7bb338b12635be59277fd1",
+  "sourceModel": "sources/v0.5.0/cantilever-lounge.blend",
+  "sourceSha256": "7af4a118d41e89021684ab20514792e9853200618582547a90953213e4caae4d",
+  "partCount": 5,
+  "componentCount": 1,
+  "components": [
+    {
+      "parts": [
+        "continuous side frame",
+        "continuous side frame.001",
+        "seat",
+        "piping",
+        "backrest"
+      ],
+      "minimum": [
+        -0.2994999885559082,
+        -0.3595182001590729,
+        0.0
+      ],
+      "maximum": [
+        0.2994999885559082,
+        0.35850000381469727,
+        0.877145528793335
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "seat",
+      "b": "continuous side frame",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "seat",
+      "b": "continuous side frame.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "piping",
+      "b": "continuous side frame",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "piping",
+      "b": "continuous side frame.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "piping",
+      "b": "seat",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "backrest",
+      "b": "seat",
+      "method": "triangle intersection",
+      "distance": 0
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T03:07:31Z"
+}

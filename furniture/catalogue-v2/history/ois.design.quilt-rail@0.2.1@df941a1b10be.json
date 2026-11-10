@@ -1,0 +1,150 @@
+{
+  "designId": "ois.design.quilt-rail",
+  "familyId": "ois.family.quilt-rail",
+  "id": "ois.design.quilt-rail",
+  "name": "Quilt display rack",
+  "roomTags": [
+    "bedroom"
+  ],
+  "theme": "soft-japandi",
+  "builder": "special",
+  "parameters": {
+    "form": "quilt-rack",
+    "w": 0.95,
+    "d": 0.4,
+    "h": 0.86
+  },
+  "distinction": "Three parallel textile rails on two freestanding timber hoops.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted",
+    "sourceSnapshot": "sources/pipeline-e797cb5c88af56f5.py",
+    "sourceSha256": "e797cb5c88af56f5b4455d819a512ab9be55f40e1fa2d0cb542aca7bb84b906f",
+    "parametersFile": "sources/v0.2.1/quilt-rail.parameters.json"
+  },
+  "constructionKey": "special|quilt-rack|{\"cols\": 1, \"front\": \"cane\", \"panels\": 3}",
+  "sha256": "df941a1b10be078a67f3d7c526324d60e3a72904ea12fa4af013fd4a2fb184ad",
+  "bytes": 11508,
+  "triangles": 300,
+  "vertices": 262,
+  "drawPrimitives": 1,
+  "bounds": {
+    "min": [
+      -0.5,
+      0.0,
+      -0.22500000894069672
+    ],
+    "max": [
+      0.5,
+      0.8800000548362732,
+      0.22500000894069672
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 1.0,
+    "depth": 0.45000001788139343,
+    "height": 0.8800000548362732
+  },
+  "footprint": [
+    [
+      -0.5,
+      -0.22500000894069672
+    ],
+    [
+      0.5,
+      -0.22500000894069672
+    ],
+    [
+      0.5,
+      0.22500000894069672
+    ],
+    [
+      -0.5,
+      0.22500000894069672
+    ]
+  ],
+  "variantSlots": [
+    "wood"
+  ],
+  "requiredExtensions": [],
+  "version": "0.2.1",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.quilt-rail",
+  "file": "assets/v0.2.1/quilt-rail.glb",
+  "sourceModel": "sources/v0.2.1/quilt-rail.blend",
+  "thumbnail": "previews/v0.2.1/quilt-rail.png",
+  "backThumbnail": "previews/v0.2.1/quilt-rail-back.png",
+  "category": "specialty",
+  "subtype": "quilt-rack",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "textures": {
+    "count": 0,
+    "bytes": 0
+  },
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.2.1/quilt-rail.png",
+      "previews/v0.2.1/quilt-rail-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.34,
+      0.28,
+      0.19
+    ],
+    [
+      0.58,
+      0.54,
+      0.44
+    ],
+    [
+      0.15,
+      0.17,
+      0.15
+    ]
+  ],
+  "colourTags": [
+    "ash",
+    "flax",
+    "stone"
+  ],
+  "materials": [
+    "wood"
+  ],
+  "searchAliases": [
+    "bedroom",
+    "quilt rack"
+  ],
+  "materialSlots": [
+    {
+      "id": "wood",
+      "material": "wood",
+      "recolourable": true
+    }
+  ]
+}

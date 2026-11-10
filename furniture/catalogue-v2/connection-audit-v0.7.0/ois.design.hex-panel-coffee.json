@@ -1,0 +1,44 @@
+{
+  "id": "ois.design.hex-panel-coffee",
+  "sha256": "59ac1b82d24ea3087a2064f451e4108e9695727eac86cd5deeea58a926b46b6c",
+  "sourceModel": "sources/v0.7.0/hex-panel-coffee.blend",
+  "sourceSha256": "db3c198eb3016891a4c006fb2c46ef2c9ed4a559ff32a502484d31ca7a9b20df",
+  "partCount": 3,
+  "componentCount": 1,
+  "components": [
+    {
+      "parts": [
+        "top",
+        "panel leg",
+        "panel leg.001"
+      ],
+      "minimum": [
+        -0.44999998807907104,
+        -0.32475951313972473,
+        0.0
+      ],
+      "maximum": [
+        0.44999998807907104,
+        0.32475951313972473,
+        0.4099999964237213
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "panel leg",
+      "b": "top",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "panel leg.001",
+      "b": "top",
+      "method": "triangle intersection",
+      "distance": 0
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; live-source reports are NOT exported-asset evidence; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T04:00:30Z"
+}

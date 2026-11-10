@@ -1,0 +1,156 @@
+{
+  "designId": "ois.design.timber-rocking-horse",
+  "familyId": "ois.family.timber-rocking-horse",
+  "id": "ois.design.timber-rocking-horse",
+  "name": "Timber rocking horse",
+  "roomTags": [
+    "children"
+  ],
+  "theme": "calm-oak",
+  "builder": "special",
+  "parameters": {
+    "form": "rocking-horse",
+    "w": 0.92,
+    "d": 0.4,
+    "h": 0.88
+  },
+  "distinction": "Sculpted body, neck/head, handgrip and saddle on two curved rockers.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted"
+  },
+  "constructionKey": "special|rocking-horse|{\"cols\": 1, \"front\": \"cane\", \"panels\": 3}",
+  "sha256": "14d43477234f83cbdbe6b6f1093f38034d7464bd2d897331879bf5eaa45062c7",
+  "bytes": 78060,
+  "triangles": 2524,
+  "vertices": 1893,
+  "drawPrimitives": 2,
+  "bounds": {
+    "min": [
+      -0.5177125334739685,
+      0.0,
+      -0.20000000298023224
+    ],
+    "max": [
+      0.5177125334739685,
+      0.9350000079721212,
+      0.20000000298023224
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 1.035425066947937,
+    "depth": 0.4000000059604645,
+    "height": 0.9350000079721212
+  },
+  "footprint": [
+    [
+      -0.5177125334739685,
+      -0.20000000298023224
+    ],
+    [
+      0.5177125334739685,
+      -0.20000000298023224
+    ],
+    [
+      0.5177125334739685,
+      0.20000000298023224
+    ],
+    [
+      -0.5177125334739685,
+      0.20000000298023224
+    ]
+  ],
+  "variantSlots": [
+    "fabric",
+    "wood"
+  ],
+  "requiredExtensions": [],
+  "version": "0.2.0",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.timber-rocking-horse",
+  "file": "assets/v0.2.0/timber-rocking-horse.glb",
+  "sourceModel": "sources/v0.2.0/timber-rocking-horse.blend",
+  "thumbnail": "previews/v0.2.0/timber-rocking-horse.png",
+  "backThumbnail": "previews/v0.2.0/timber-rocking-horse-back.png",
+  "category": "specialty",
+  "subtype": "rocking-horse",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "textures": {
+    "count": 0,
+    "bytes": 0
+  },
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.2.0/timber-rocking-horse.png",
+      "previews/v0.2.0/timber-rocking-horse-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.58,
+      0.39,
+      0.2
+    ],
+    [
+      0.73,
+      0.7,
+      0.61
+    ],
+    [
+      0.12,
+      0.14,
+      0.13
+    ]
+  ],
+  "colourTags": [
+    "pale oak",
+    "ivory",
+    "oatmeal"
+  ],
+  "materials": [
+    "textile",
+    "wood"
+  ],
+  "searchAliases": [
+    "children",
+    "rocking horse"
+  ],
+  "materialSlots": [
+    {
+      "id": "fabric",
+      "material": "fabric",
+      "recolourable": true
+    },
+    {
+      "id": "wood",
+      "material": "wood",
+      "recolourable": true
+    }
+  ],
+  "geometryHash": "a51f109ad4b450c245d7ba103c32a176a5804c7831c9c355756f777ef2690567",
+  "normalizedMirrorGeometryHash": "0898bd28667ea0ce522eb1399edd1cbb87ddf0ee2706e324d8f3beea5c802823"
+}

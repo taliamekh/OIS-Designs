@@ -1,0 +1,83 @@
+{
+  "id": "ois.design.open-prep-island",
+  "sha256": "bbf2248440daadd1192fba299e8d561cd11f459493256cb8608a02bb4517fc9c",
+  "sourceModel": "sources/v0.7.0/open-prep-island.blend",
+  "sourceSha256": "11a5b5603b64855d82ee5f39df5825b2899191d247631a0681e8c44cc0a4bb7c",
+  "partCount": 6,
+  "componentCount": 1,
+  "components": [
+    {
+      "parts": [
+        "leg",
+        "leg.001",
+        "leg.002",
+        "leg.003",
+        "open shelf",
+        "worktop"
+      ],
+      "minimum": [
+        -0.6299999952316284,
+        -0.3799999952316284,
+        -8.265487849712372e-09
+      ],
+      "maximum": [
+        0.6299999952316284,
+        0.3799999952316284,
+        0.9087421298027039
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "open shelf",
+      "b": "leg",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "open shelf",
+      "b": "leg.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "open shelf",
+      "b": "leg.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "open shelf",
+      "b": "leg.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "worktop",
+      "b": "leg",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "worktop",
+      "b": "leg.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "worktop",
+      "b": "leg.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "worktop",
+      "b": "leg.003",
+      "method": "triangle intersection",
+      "distance": 0
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; live-source reports are NOT exported-asset evidence; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T04:00:31Z"
+}

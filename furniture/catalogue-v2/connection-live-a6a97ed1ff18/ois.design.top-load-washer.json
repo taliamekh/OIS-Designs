@@ -1,0 +1,153 @@
+{
+  "id": "ois.design.top-load-washer",
+  "sha256": "unexported-source-a6a97ed1ff18ea7190f4c07e8ea17b6dba901563a653d7aed874183539ef16c1",
+  "sourceModel": null,
+  "sourceSha256": "a6a97ed1ff18ea7190f4c07e8ea17b6dba901563a653d7aed874183539ef16c1",
+  "partCount": 12,
+  "componentCount": 3,
+  "components": [
+    {
+      "parts": [
+        "appliance shell side",
+        "appliance shell side.001",
+        "appliance shell back",
+        "appliance shell bottom",
+        "front body panel",
+        "lid",
+        "raised control",
+        "dial",
+        "dial.001",
+        "dial.002"
+      ],
+      "minimum": [
+        -0.30000001192092896,
+        -0.3100000023841858,
+        0.0
+      ],
+      "maximum": [
+        0.30000001192092896,
+        0.3125,
+        1.0499999523162842
+      ]
+    },
+    {
+      "parts": [
+        "top drum bottom"
+      ],
+      "minimum": [
+        -0.2160000056028366,
+        -0.2160000056028366,
+        0.24249999225139618
+      ],
+      "maximum": [
+        0.2160000056028366,
+        0.2160000056028366,
+        0.26749998331069946
+      ]
+    },
+    {
+      "parts": [
+        "top loading rim"
+      ],
+      "minimum": [
+        -0.2529999911785126,
+        -0.2529999911785126,
+        0.7800000309944153
+      ],
+      "maximum": [
+        0.2529999911785126,
+        0.2529999911785126,
+        0.8299999833106995
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "appliance shell back",
+      "b": "appliance shell side",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "appliance shell back",
+      "b": "appliance shell side.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "appliance shell bottom",
+      "b": "appliance shell side",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "appliance shell bottom",
+      "b": "appliance shell side.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "appliance shell bottom",
+      "b": "appliance shell back",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "front body panel",
+      "b": "appliance shell side",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "front body panel",
+      "b": "appliance shell side.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "front body panel",
+      "b": "appliance shell bottom",
+      "method": "surface distance",
+      "distance": 0.002828434109687805
+    },
+    {
+      "a": "raised control",
+      "b": "appliance shell side",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "raised control",
+      "b": "appliance shell side.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "raised control",
+      "b": "lid",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "dial",
+      "b": "raised control",
+      "method": "point containment",
+      "distance": 0
+    },
+    {
+      "a": "dial.001",
+      "b": "raised control",
+      "method": "point containment",
+      "distance": 0
+    },
+    {
+      "a": "dial.002",
+      "b": "raised control",
+      "method": "point containment",
+      "distance": 0
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; live-source reports are NOT exported-asset evidence; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T03:19:35Z"
+}

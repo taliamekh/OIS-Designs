@@ -1,0 +1,418 @@
+{
+  "id": "ois.design.rolling-art-pots",
+  "sha256": "unexported-source-6226f7a5305865fd189dfcec35a3077205588e7999488a17cff703d94c6b1b9f",
+  "sourceModel": null,
+  "sourceSha256": "6226f7a5305865fd189dfcec35a3077205588e7999488a17cff703d94c6b1b9f",
+  "partCount": 29,
+  "componentCount": 1,
+  "components": [
+    {
+      "parts": [
+        "top",
+        "rolling side frame",
+        "rolling side frame.001",
+        "lower tray",
+        "caster",
+        "caster.001",
+        "caster.002",
+        "caster.003",
+        "push handle",
+        "undershelf",
+        "undershelf side support",
+        "undershelf side support.001",
+        "undershelf cross support",
+        "undershelf cross support.001",
+        "art pot bottom",
+        "art pot side",
+        "art pot side.001",
+        "art pot end",
+        "art pot end.001",
+        "art pot bottom.001",
+        "art pot side.002",
+        "art pot side.003",
+        "art pot end.002",
+        "art pot end.003",
+        "art pot bottom.002",
+        "art pot side.004",
+        "art pot side.005",
+        "art pot end.004",
+        "art pot end.005"
+      ],
+      "minimum": [
+        -0.36000001430511475,
+        -0.20000000298023224,
+        0.0
+      ],
+      "maximum": [
+        0.36000001430511475,
+        0.20000000298023224,
+        0.8418203592300415
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "rolling side frame",
+      "b": "top",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "rolling side frame.001",
+      "b": "top",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "lower tray",
+      "b": "rolling side frame",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "lower tray",
+      "b": "rolling side frame.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "caster",
+      "b": "rolling side frame",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "caster.001",
+      "b": "rolling side frame",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "caster.002",
+      "b": "rolling side frame.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "caster.003",
+      "b": "rolling side frame.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "push handle",
+      "b": "top",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "undershelf",
+      "b": "rolling side frame",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "undershelf",
+      "b": "rolling side frame.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "undershelf side support",
+      "b": "rolling side frame",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "undershelf side support",
+      "b": "undershelf",
+      "method": "surface distance",
+      "distance": 0.0034415617119520903
+    },
+    {
+      "a": "undershelf side support.001",
+      "b": "rolling side frame.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "undershelf side support.001",
+      "b": "undershelf",
+      "method": "surface distance",
+      "distance": 0.003177809063345194
+    },
+    {
+      "a": "undershelf cross support",
+      "b": "undershelf",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "undershelf cross support",
+      "b": "undershelf side support",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "undershelf cross support",
+      "b": "undershelf side support.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "undershelf cross support.001",
+      "b": "undershelf",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "undershelf cross support.001",
+      "b": "undershelf side support",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "undershelf cross support.001",
+      "b": "undershelf side support.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "art pot bottom",
+      "b": "top",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "art pot side",
+      "b": "top",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "art pot side",
+      "b": "art pot bottom",
+      "method": "surface distance",
+      "distance": 2.9802322387695312e-08
+    },
+    {
+      "a": "art pot side.001",
+      "b": "top",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "art pot side.001",
+      "b": "art pot bottom",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "art pot end",
+      "b": "top",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "art pot end",
+      "b": "art pot bottom",
+      "method": "surface distance",
+      "distance": 3.725290298461914e-09
+    },
+    {
+      "a": "art pot end",
+      "b": "art pot side",
+      "method": "surface distance",
+      "distance": 2.9802322387695312e-08
+    },
+    {
+      "a": "art pot end",
+      "b": "art pot side.001",
+      "method": "surface distance",
+      "distance": 0.0
+    },
+    {
+      "a": "art pot end.001",
+      "b": "top",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "art pot end.001",
+      "b": "art pot bottom",
+      "method": "surface distance",
+      "distance": 3.725290298461914e-09
+    },
+    {
+      "a": "art pot end.001",
+      "b": "art pot side",
+      "method": "surface distance",
+      "distance": 2.9802322387695312e-08
+    },
+    {
+      "a": "art pot end.001",
+      "b": "art pot side.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "art pot bottom.001",
+      "b": "top",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "art pot side.002",
+      "b": "top",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "art pot side.002",
+      "b": "art pot bottom.001",
+      "method": "surface distance",
+      "distance": 3.3527612686157227e-08
+    },
+    {
+      "a": "art pot side.003",
+      "b": "top",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "art pot side.003",
+      "b": "art pot bottom.001",
+      "method": "surface distance",
+      "distance": 5.972094641037984e-08
+    },
+    {
+      "a": "art pot end.002",
+      "b": "top",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "art pot end.002",
+      "b": "art pot bottom.001",
+      "method": "surface distance",
+      "distance": 3.725290298461914e-09
+    },
+    {
+      "a": "art pot end.002",
+      "b": "art pot side.002",
+      "method": "surface distance",
+      "distance": 3.725290298461914e-09
+    },
+    {
+      "a": "art pot end.002",
+      "b": "art pot side.003",
+      "method": "surface distance",
+      "distance": 3.725290298461914e-09
+    },
+    {
+      "a": "art pot end.003",
+      "b": "top",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "art pot end.003",
+      "b": "art pot bottom.001",
+      "method": "surface distance",
+      "distance": 3.725290298461914e-09
+    },
+    {
+      "a": "art pot end.003",
+      "b": "art pot side.002",
+      "method": "surface distance",
+      "distance": 3.725290298461914e-09
+    },
+    {
+      "a": "art pot end.003",
+      "b": "art pot side.003",
+      "method": "surface distance",
+      "distance": 3.725290298461914e-09
+    },
+    {
+      "a": "art pot bottom.002",
+      "b": "top",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "art pot side.004",
+      "b": "top",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "art pot side.004",
+      "b": "art pot bottom.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "art pot side.005",
+      "b": "top",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "art pot side.005",
+      "b": "art pot bottom.002",
+      "method": "surface distance",
+      "distance": 6.664001972467304e-08
+    },
+    {
+      "a": "art pot end.004",
+      "b": "top",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "art pot end.004",
+      "b": "art pot bottom.002",
+      "method": "surface distance",
+      "distance": 3.725290298461914e-09
+    },
+    {
+      "a": "art pot end.004",
+      "b": "art pot side.004",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "art pot end.004",
+      "b": "art pot side.005",
+      "method": "surface distance",
+      "distance": 2.9802322387695312e-08
+    },
+    {
+      "a": "art pot end.005",
+      "b": "top",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "art pot end.005",
+      "b": "art pot bottom.002",
+      "method": "surface distance",
+      "distance": 3.725290298461914e-09
+    },
+    {
+      "a": "art pot end.005",
+      "b": "art pot side.004",
+      "method": "surface distance",
+      "distance": 0.0
+    },
+    {
+      "a": "art pot end.005",
+      "b": "art pot side.005",
+      "method": "surface distance",
+      "distance": 2.9802322387695312e-08
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; live-source reports are NOT exported-asset evidence; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T03:35:55Z"
+}

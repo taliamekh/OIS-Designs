@@ -1,0 +1,169 @@
+{
+  "designId": "ois.design.floating-platform-bed",
+  "familyId": "ois.family.floating-platform-bed",
+  "id": "ois.design.floating-platform-bed",
+  "name": "Floating platform bed",
+  "roomTags": [
+    "bedroom"
+  ],
+  "theme": "soft-japandi",
+  "builder": "bed",
+  "parameters": {
+    "form": "floating",
+    "size": "queen",
+    "platform": 0.3
+  },
+  "distinction": "Deeply inset support produces a projecting cantilever platform.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted",
+    "sourceSnapshot": "sources/pipeline-e797cb5c88af56f5.py",
+    "sourceSha256": "e797cb5c88af56f5b4455d819a512ab9be55f40e1fa2d0cb542aca7bb84b906f",
+    "parametersFile": "sources/v0.2.1/floating-platform-bed.parameters.json"
+  },
+  "constructionKey": "bed|floating|{}",
+  "bedSize": "queen",
+  "mattressMetres": [
+    1.524,
+    2.032,
+    0.22
+  ],
+  "safetyReviewRequired": false,
+  "sha256": "8f5ab69ca0092433234929285ae04231d72f25294ce93fb46965b1d7c7337ce8",
+  "bytes": 102556,
+  "triangles": 1880,
+  "vertices": 2742,
+  "drawPrimitives": 3,
+  "bounds": {
+    "min": [
+      -0.8119999766349792,
+      0.0,
+      -1.0759999752044678
+    ],
+    "max": [
+      0.8119999766349792,
+      1.1400000154972076,
+      1.1059999465942383
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 1.6239999532699585,
+    "depth": 2.181999921798706,
+    "height": 1.1400000154972076
+  },
+  "footprint": [
+    [
+      -0.8119999766349792,
+      -1.0759999752044678
+    ],
+    [
+      0.8119999766349792,
+      -1.0759999752044678
+    ],
+    [
+      0.8119999766349792,
+      1.1059999465942383
+    ],
+    [
+      -0.8119999766349792,
+      1.1059999465942383
+    ]
+  ],
+  "variantSlots": [
+    "fabric",
+    "linen",
+    "wood"
+  ],
+  "requiredExtensions": [],
+  "version": "0.2.1",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.floating-platform-bed",
+  "file": "assets/v0.2.1/floating-platform-bed.glb",
+  "sourceModel": "sources/v0.2.1/floating-platform-bed.blend",
+  "thumbnail": "previews/v0.2.1/floating-platform-bed.png",
+  "backThumbnail": "previews/v0.2.1/floating-platform-bed-back.png",
+  "category": "beds",
+  "subtype": "floating",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "textures": {
+    "count": 0,
+    "bytes": 0
+  },
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.2.1/floating-platform-bed.png",
+      "previews/v0.2.1/floating-platform-bed-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.34,
+      0.28,
+      0.19
+    ],
+    [
+      0.58,
+      0.54,
+      0.44
+    ],
+    [
+      0.15,
+      0.17,
+      0.15
+    ]
+  ],
+  "colourTags": [
+    "ash",
+    "flax",
+    "stone"
+  ],
+  "materials": [
+    "textile",
+    "wood"
+  ],
+  "searchAliases": [
+    "bedroom",
+    "floating"
+  ],
+  "materialSlots": [
+    {
+      "id": "fabric",
+      "material": "fabric",
+      "recolourable": true
+    },
+    {
+      "id": "linen",
+      "material": "linen",
+      "recolourable": true
+    },
+    {
+      "id": "wood",
+      "material": "wood",
+      "recolourable": true
+    }
+  ]
+}

@@ -1,0 +1,170 @@
+{
+  "designId": "ois.design.double-wall-oven",
+  "familyId": "ois.family.double-wall-oven",
+  "id": "ois.design.double-wall-oven",
+  "name": "Double wall oven",
+  "roomTags": [
+    "kitchen"
+  ],
+  "theme": "calm-oak",
+  "builder": "appliance",
+  "parameters": {
+    "form": "double-oven",
+    "w": 0.6,
+    "h": 1.2
+  },
+  "distinction": "Two stacked glazed oven cavities and independent handles.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted",
+    "sourceSnapshot": "sources/pipeline-e797cb5c88af56f5.py",
+    "sourceSha256": "e797cb5c88af56f5b4455d819a512ab9be55f40e1fa2d0cb542aca7bb84b906f",
+    "parametersFile": "sources/v0.2.1/double-wall-oven.parameters.json"
+  },
+  "constructionKey": "appliance|double-oven|{}",
+  "sha256": "e472c40f0ba167869deeb641818a72003aa0a1f0c5907186a5ed6379bd0a2169",
+  "bytes": 202336,
+  "triangles": 4100,
+  "vertices": 5405,
+  "drawPrimitives": 4,
+  "bounds": {
+    "min": [
+      -0.3000000137835741,
+      0.0,
+      -0.3859999952837825
+    ],
+    "max": [
+      0.30000001192092896,
+      1.2000000476837158,
+      0.3100000023841858
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 0.6000000257045031,
+    "depth": 0.6959999976679683,
+    "height": 1.2000000476837158
+  },
+  "footprint": [
+    [
+      -0.3000000137835741,
+      -0.3859999952837825
+    ],
+    [
+      0.30000001192092896,
+      -0.3859999952837825
+    ],
+    [
+      0.30000001192092896,
+      0.3100000023841858
+    ],
+    [
+      -0.3000000137835741,
+      0.3100000023841858
+    ]
+  ],
+  "variantSlots": [
+    "ceramic",
+    "dark",
+    "glass",
+    "metal"
+  ],
+  "requiredExtensions": [],
+  "version": "0.2.1",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.double-wall-oven",
+  "file": "assets/v0.2.1/double-wall-oven.glb",
+  "sourceModel": "sources/v0.2.1/double-wall-oven.blend",
+  "thumbnail": "previews/v0.2.1/double-wall-oven.png",
+  "backThumbnail": "previews/v0.2.1/double-wall-oven-back.png",
+  "category": "appliances",
+  "subtype": "double-oven",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "textures": {
+    "count": 0,
+    "bytes": 0
+  },
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.2.1/double-wall-oven.png",
+      "previews/v0.2.1/double-wall-oven-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.58,
+      0.39,
+      0.2
+    ],
+    [
+      0.73,
+      0.7,
+      0.61
+    ],
+    [
+      0.12,
+      0.14,
+      0.13
+    ]
+  ],
+  "colourTags": [
+    "pale oak",
+    "ivory",
+    "oatmeal"
+  ],
+  "materials": [
+    "ceramic",
+    "metal",
+    "paint",
+    "tinted-glass"
+  ],
+  "searchAliases": [
+    "kitchen",
+    "double oven"
+  ],
+  "materialSlots": [
+    {
+      "id": "ceramic",
+      "material": "ceramic",
+      "recolourable": true
+    },
+    {
+      "id": "dark",
+      "material": "dark",
+      "recolourable": true
+    },
+    {
+      "id": "glass",
+      "material": "glass",
+      "recolourable": true
+    },
+    {
+      "id": "metal",
+      "material": "metal",
+      "recolourable": true
+    }
+  ]
+}

@@ -1,0 +1,154 @@
+{
+  "designId": "ois.design.chest-utility-freezer",
+  "familyId": "ois.family.chest-utility-freezer",
+  "id": "ois.design.chest-utility-freezer",
+  "name": "Chest freezer",
+  "roomTags": [
+    "laundry-utility"
+  ],
+  "theme": "calm-oak",
+  "builder": "appliance",
+  "parameters": {
+    "form": "chest-freezer",
+    "w": 1.1,
+    "d": 0.65,
+    "h": 0.88
+  },
+  "distinction": "Wide upward-opening top lid with front pull.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted"
+  },
+  "constructionKey": "appliance|chest-freezer|{}",
+  "sha256": "abe759179c849f2cb9d0d175003dc2ad05ba83d277018e8fad045e21bdf68a78",
+  "bytes": 25108,
+  "triangles": 436,
+  "vertices": 628,
+  "drawPrimitives": 2,
+  "bounds": {
+    "min": [
+      -0.5600000023841858,
+      0.0,
+      -0.37100000958889723
+    ],
+    "max": [
+      0.5600000023841858,
+      0.9155000150203705,
+      0.33500000834465027
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 1.1200000047683716,
+    "depth": 0.7060000179335475,
+    "height": 0.9155000150203705
+  },
+  "footprint": [
+    [
+      -0.5600000023841858,
+      -0.37100000958889723
+    ],
+    [
+      0.5600000023841858,
+      -0.37100000958889723
+    ],
+    [
+      0.5600000023841858,
+      0.33500000834465027
+    ],
+    [
+      -0.5600000023841858,
+      0.33500000834465027
+    ]
+  ],
+  "variantSlots": [
+    "ceramic",
+    "metal"
+  ],
+  "requiredExtensions": [],
+  "version": "0.2.0",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.chest-utility-freezer",
+  "file": "assets/v0.2.0/chest-utility-freezer.glb",
+  "sourceModel": "sources/v0.2.0/chest-utility-freezer.blend",
+  "thumbnail": "previews/v0.2.0/chest-utility-freezer.png",
+  "backThumbnail": "previews/v0.2.0/chest-utility-freezer-back.png",
+  "category": "appliances",
+  "subtype": "chest-freezer",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "textures": {
+    "count": 0,
+    "bytes": 0
+  },
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.2.0/chest-utility-freezer.png",
+      "previews/v0.2.0/chest-utility-freezer-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.58,
+      0.39,
+      0.2
+    ],
+    [
+      0.73,
+      0.7,
+      0.61
+    ],
+    [
+      0.12,
+      0.14,
+      0.13
+    ]
+  ],
+  "colourTags": [
+    "pale oak",
+    "ivory",
+    "oatmeal"
+  ],
+  "materials": [
+    "ceramic",
+    "metal"
+  ],
+  "searchAliases": [
+    "laundry utility",
+    "chest freezer"
+  ],
+  "materialSlots": [
+    {
+      "id": "ceramic",
+      "material": "ceramic",
+      "recolourable": true
+    },
+    {
+      "id": "metal",
+      "material": "metal",
+      "recolourable": true
+    }
+  ]
+}

@@ -1,0 +1,242 @@
+{
+  "designId": "ois.design.woven-end-settle",
+  "familyId": "ois.family.woven-end-settle",
+  "id": "ois.design.woven-end-settle",
+  "name": "Woven end settle",
+  "roomTags": [
+    "bedroom"
+  ],
+  "theme": "coastal-linen",
+  "builder": "sculptural",
+  "parameters": {
+    "form": "cane-settle",
+    "w": 1.2,
+    "d": 0.45,
+    "h": 0.98
+  },
+  "distinction": "Cane-woven back and solid arms over a slatted timber seat.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted",
+    "sourceSnapshot": "sources/pipeline-80bacc170bd1371e.py",
+    "sourceSha256": "80bacc170bd1371edd54e3e5203658724c4e90ee4562fa13275787f9884b1d45",
+    "supportSources": {
+      "signature_designs.py": {
+        "snapshot": "sources/signature_designs-c7ce1c9570491409.py",
+        "sha256": "c7ce1c95704914096c0af5c88272139fca2098556f75b752375dd03da6cd8ee2"
+      },
+      "material_finish.py": {
+        "snapshot": "sources/material_finish-b9bb830e81d90e18.py",
+        "sha256": "b9bb830e81d90e18c05191c4e478ee7bbda04b117e4148687be9073a85d929c2"
+      },
+      "catalogue_inventory.py": {
+        "snapshot": "sources/catalogue_inventory-b67897df830f7144.py",
+        "sha256": "b67897df830f71449151337a656dae85d9e7b911fbc107aab78d72a60438f20e"
+      },
+      "finalize_glb.py": {
+        "snapshot": "sources/finalize_glb-dfc4ff54401c495d.py",
+        "sha256": "dfc4ff54401c495d3e17debd8f4aae1c5e68012a23ba8c85e023ed00397baae2"
+      }
+    },
+    "parametersFile": "sources/v0.5.0/woven-end-settle.parameters.json"
+  },
+  "constructionKey": "sculptural|cane-settle|{}",
+  "sha256": "6de3c6a46d3f97cb62a1ecb29e60892de270c1e412804f5ddeced8b74a7b4d29",
+  "bytes": 406760,
+  "triangles": 2072,
+  "vertices": 4500,
+  "drawPrimitives": 2,
+  "bounds": {
+    "min": [
+      -0.6000000212165755,
+      -1.872876898012521e-08,
+      -0.21825002987283654
+    ],
+    "max": [
+      0.6000002417761203,
+      0.9795082650033957,
+      0.2275000368473719
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 1.2000002629926958,
+    "depth": 0.44575006672020845,
+    "height": 0.9795082837321647
+  },
+  "footprint": [
+    [
+      -0.6000000212165755,
+      -0.21825002987283654
+    ],
+    [
+      0.6000002417761203,
+      -0.21825002987283654
+    ],
+    [
+      0.6000002417761203,
+      0.2275000368473719
+    ],
+    [
+      -0.6000000212165755,
+      0.2275000368473719
+    ]
+  ],
+  "variantSlots": [
+    "cane",
+    "wood"
+  ],
+  "requiredExtensions": [],
+  "textures": {
+    "count": 3,
+    "bytes": 174784,
+    "estimatedRgbaBytesWithMipmaps": 1048576,
+    "images": [
+      {
+        "name": "wood-normal",
+        "bytes": 102088,
+        "width": 256,
+        "height": 256,
+        "sha256": "6b8efcb5004552d884a527017922bfb5260b8bda4dc77f1365fe1cb8a09f1d56"
+      },
+      {
+        "name": "wood-neutral-base",
+        "bytes": 39353,
+        "width": 256,
+        "height": 256,
+        "sha256": "ddcf839a2addae78944a2d7a0588f9c2055852fc4ccb4e2dae2095d28541de44"
+      },
+      {
+        "name": "wood-roughness",
+        "bytes": 33343,
+        "width": 256,
+        "height": 256,
+        "sha256": "afc2180e58360e76fb178b52f225f7ba9045a7d0d266f10886763b0590335a1a"
+      }
+    ]
+  },
+  "version": "0.5.0",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.woven-end-settle",
+  "file": "assets/v0.5.0/woven-end-settle.glb",
+  "sourceModel": "sources/v0.5.0/woven-end-settle.blend",
+  "thumbnail": "previews/v0.5.0/woven-end-settle.png",
+  "backThumbnail": "previews/v0.5.0/woven-end-settle-back.png",
+  "category": "sculptural-furniture",
+  "subtype": "cane-settle",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.5.0/woven-end-settle.png",
+      "previews/v0.5.0/woven-end-settle-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.47999998927116394,
+      0.3400000035762787,
+      0.17000000178813934
+    ],
+    [
+      0.6600000262260437,
+      0.5299999713897705,
+      0.3400000035762787
+    ]
+  ],
+  "colourTags": [
+    "natural tan",
+    "pale oak"
+  ],
+  "materials": [
+    "wood",
+    "woven-fibre"
+  ],
+  "searchAliases": [
+    "bedroom",
+    "cane settle"
+  ],
+  "materialSlots": [
+    {
+      "id": "cane",
+      "material": "cane",
+      "recolourable": true
+    },
+    {
+      "id": "wood",
+      "material": "wood",
+      "recolourable": true
+    }
+  ],
+  "finalization": {
+    "unusedTangentAttributesRemoved": 1,
+    "normalMappedTangents": "retained, never replaced with arbitrary fallback vectors"
+  },
+  "supportChecks": {
+    "method": "source-part upper-end ray to non-leg geometry, 15mm join tolerance",
+    "status": "needs-visual-review",
+    "parts": [
+      {
+        "part": "leg",
+        "gapMetresAlongSupport": 0.02253799736499787,
+        "status": "needs-visual-review"
+      },
+      {
+        "part": "leg.001",
+        "gapMetresAlongSupport": 0.022537907958030706,
+        "status": "needs-visual-review"
+      },
+      {
+        "part": "leg.002",
+        "gapMetresAlongSupport": 0.0225379228591919,
+        "status": "needs-visual-review"
+      },
+      {
+        "part": "leg.003",
+        "gapMetresAlongSupport": 0.022537893056869512,
+        "status": "needs-visual-review"
+      }
+    ],
+    "limitation": "screening only; hidden joints, whole-model connectivity, load paths and safety remain visual/product-review concerns"
+  },
+  "materialFinish": {
+    "source": "materials/v1/manifest.json",
+    "repeatMetres": {
+      "wood": [
+        0.16,
+        0.75
+      ],
+      "fabric": [
+        0.14,
+        0.14
+      ],
+      "linen": [
+        0.12,
+        0.12
+      ]
+    },
+    "maps": "original base colour / roughness / tangent normal, embedded in GLB"
+  }
+}

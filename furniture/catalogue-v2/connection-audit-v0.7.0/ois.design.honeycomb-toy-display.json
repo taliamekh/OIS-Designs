@@ -1,0 +1,587 @@
+{
+  "id": "ois.design.honeycomb-toy-display",
+  "sha256": "91f24b241da3824cd78179be3d30aaec807e57cc20bdcec15553f6b2c04d7435",
+  "sourceModel": "sources/v0.7.0/honeycomb-toy-display.blend",
+  "sourceSha256": "e48c814c2e731b02f219c1f9711e9d11210c20ed93793a931282472ef09d5f1b",
+  "partCount": 42,
+  "componentCount": 1,
+  "components": [
+    {
+      "parts": [
+        "hexagonal cell edge",
+        "hexagonal cell edge.001",
+        "hexagonal cell edge.002",
+        "hexagonal cell edge.003",
+        "hexagonal cell edge.004",
+        "hexagonal cell edge.005",
+        "cell ledge",
+        "hexagonal cell edge.006",
+        "hexagonal cell edge.007",
+        "hexagonal cell edge.008",
+        "hexagonal cell edge.009",
+        "hexagonal cell edge.010",
+        "hexagonal cell edge.011",
+        "cell ledge.001",
+        "hexagonal cell edge.012",
+        "hexagonal cell edge.013",
+        "hexagonal cell edge.014",
+        "hexagonal cell edge.015",
+        "hexagonal cell edge.016",
+        "hexagonal cell edge.017",
+        "cell ledge.002",
+        "hexagonal cell edge.018",
+        "hexagonal cell edge.019",
+        "hexagonal cell edge.020",
+        "hexagonal cell edge.021",
+        "hexagonal cell edge.022",
+        "hexagonal cell edge.023",
+        "cell ledge.003",
+        "hexagonal cell edge.024",
+        "hexagonal cell edge.025",
+        "hexagonal cell edge.026",
+        "hexagonal cell edge.027",
+        "hexagonal cell edge.028",
+        "hexagonal cell edge.029",
+        "cell ledge.004",
+        "hexagonal cell edge.030",
+        "hexagonal cell edge.031",
+        "hexagonal cell edge.032",
+        "hexagonal cell edge.033",
+        "hexagonal cell edge.034",
+        "hexagonal cell edge.035",
+        "cell ledge.005"
+      ],
+      "minimum": [
+        -0.6095884442329407,
+        -0.15000000596046448,
+        7.190266160250758e-10
+      ],
+      "maximum": [
+        0.7525884509086609,
+        0.15000000596046448,
+        1.2894716262817383
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "hexagonal cell edge.001",
+      "b": "hexagonal cell edge",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "hexagonal cell edge.002",
+      "b": "hexagonal cell edge.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "hexagonal cell edge.003",
+      "b": "hexagonal cell edge.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "hexagonal cell edge.004",
+      "b": "hexagonal cell edge.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "hexagonal cell edge.005",
+      "b": "hexagonal cell edge",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "hexagonal cell edge.005",
+      "b": "hexagonal cell edge.004",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "cell ledge",
+      "b": "hexagonal cell edge.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "cell ledge",
+      "b": "hexagonal cell edge.004",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "cell ledge",
+      "b": "hexagonal cell edge.005",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "hexagonal cell edge.007",
+      "b": "hexagonal cell edge.006",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "hexagonal cell edge.008",
+      "b": "hexagonal cell edge",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "hexagonal cell edge.008",
+      "b": "hexagonal cell edge.005",
+      "method": "surface distance",
+      "distance": 0.002105131046846509
+    },
+    {
+      "a": "hexagonal cell edge.008",
+      "b": "hexagonal cell edge.007",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "hexagonal cell edge.009",
+      "b": "hexagonal cell edge",
+      "method": "surface distance",
+      "distance": 0.002105131046846509
+    },
+    {
+      "a": "hexagonal cell edge.009",
+      "b": "hexagonal cell edge.005",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "hexagonal cell edge.009",
+      "b": "hexagonal cell edge.008",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "hexagonal cell edge.010",
+      "b": "hexagonal cell edge.009",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "hexagonal cell edge.011",
+      "b": "hexagonal cell edge.006",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "hexagonal cell edge.011",
+      "b": "hexagonal cell edge.010",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "cell ledge.001",
+      "b": "hexagonal cell edge.009",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "cell ledge.001",
+      "b": "hexagonal cell edge.010",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "cell ledge.001",
+      "b": "hexagonal cell edge.011",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "hexagonal cell edge.013",
+      "b": "hexagonal cell edge.012",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "hexagonal cell edge.014",
+      "b": "hexagonal cell edge.013",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "hexagonal cell edge.015",
+      "b": "hexagonal cell edge.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "hexagonal cell edge.015",
+      "b": "hexagonal cell edge.014",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "hexagonal cell edge.016",
+      "b": "hexagonal cell edge",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "hexagonal cell edge.016",
+      "b": "hexagonal cell edge.008",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "hexagonal cell edge.016",
+      "b": "hexagonal cell edge.015",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "hexagonal cell edge.017",
+      "b": "hexagonal cell edge.007",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "hexagonal cell edge.017",
+      "b": "hexagonal cell edge.008",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "hexagonal cell edge.017",
+      "b": "hexagonal cell edge.012",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "hexagonal cell edge.017",
+      "b": "hexagonal cell edge.016",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "cell ledge.002",
+      "b": "hexagonal cell edge",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "cell ledge.002",
+      "b": "hexagonal cell edge.008",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "cell ledge.002",
+      "b": "hexagonal cell edge.015",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "cell ledge.002",
+      "b": "hexagonal cell edge.016",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "cell ledge.002",
+      "b": "hexagonal cell edge.017",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "hexagonal cell edge.019",
+      "b": "hexagonal cell edge.018",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "hexagonal cell edge.020",
+      "b": "hexagonal cell edge.012",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "hexagonal cell edge.020",
+      "b": "hexagonal cell edge.017",
+      "method": "surface distance",
+      "distance": 0.0021051536314189434
+    },
+    {
+      "a": "hexagonal cell edge.020",
+      "b": "hexagonal cell edge.019",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "hexagonal cell edge.021",
+      "b": "hexagonal cell edge.007",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "hexagonal cell edge.021",
+      "b": "hexagonal cell edge.012",
+      "method": "surface distance",
+      "distance": 0.0021051408257335424
+    },
+    {
+      "a": "hexagonal cell edge.021",
+      "b": "hexagonal cell edge.017",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "hexagonal cell edge.021",
+      "b": "hexagonal cell edge.020",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "hexagonal cell edge.022",
+      "b": "hexagonal cell edge.006",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "hexagonal cell edge.022",
+      "b": "hexagonal cell edge.021",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "hexagonal cell edge.023",
+      "b": "hexagonal cell edge.018",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "hexagonal cell edge.023",
+      "b": "hexagonal cell edge.022",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "cell ledge.003",
+      "b": "hexagonal cell edge.006",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "cell ledge.003",
+      "b": "hexagonal cell edge.021",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "cell ledge.003",
+      "b": "hexagonal cell edge.022",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "cell ledge.003",
+      "b": "hexagonal cell edge.023",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "hexagonal cell edge.025",
+      "b": "hexagonal cell edge.024",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "hexagonal cell edge.026",
+      "b": "hexagonal cell edge.025",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "hexagonal cell edge.027",
+      "b": "hexagonal cell edge.026",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "hexagonal cell edge.028",
+      "b": "hexagonal cell edge.014",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "hexagonal cell edge.028",
+      "b": "hexagonal cell edge.027",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "hexagonal cell edge.029",
+      "b": "hexagonal cell edge.013",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "hexagonal cell edge.029",
+      "b": "hexagonal cell edge.024",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "hexagonal cell edge.029",
+      "b": "hexagonal cell edge.028",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "cell ledge.004",
+      "b": "hexagonal cell edge.014",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "cell ledge.004",
+      "b": "hexagonal cell edge.027",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "cell ledge.004",
+      "b": "hexagonal cell edge.028",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "cell ledge.004",
+      "b": "hexagonal cell edge.029",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "hexagonal cell edge.031",
+      "b": "hexagonal cell edge.030",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "hexagonal cell edge.032",
+      "b": "hexagonal cell edge.024",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "hexagonal cell edge.032",
+      "b": "hexagonal cell edge.029",
+      "method": "surface distance",
+      "distance": 0.0021051326766610146
+    },
+    {
+      "a": "hexagonal cell edge.032",
+      "b": "hexagonal cell edge.031",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "hexagonal cell edge.033",
+      "b": "hexagonal cell edge.012",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "hexagonal cell edge.033",
+      "b": "hexagonal cell edge.013",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "hexagonal cell edge.033",
+      "b": "hexagonal cell edge.024",
+      "method": "surface distance",
+      "distance": 0.0021051624789834023
+    },
+    {
+      "a": "hexagonal cell edge.033",
+      "b": "hexagonal cell edge.029",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "hexagonal cell edge.033",
+      "b": "hexagonal cell edge.032",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "hexagonal cell edge.034",
+      "b": "hexagonal cell edge.012",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "hexagonal cell edge.034",
+      "b": "hexagonal cell edge.020",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "hexagonal cell edge.034",
+      "b": "hexagonal cell edge.033",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "hexagonal cell edge.035",
+      "b": "hexagonal cell edge.019",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "hexagonal cell edge.035",
+      "b": "hexagonal cell edge.030",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "hexagonal cell edge.035",
+      "b": "hexagonal cell edge.034",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "cell ledge.005",
+      "b": "hexagonal cell edge.012",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "cell ledge.005",
+      "b": "hexagonal cell edge.020",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "cell ledge.005",
+      "b": "hexagonal cell edge.033",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "cell ledge.005",
+      "b": "hexagonal cell edge.034",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "cell ledge.005",
+      "b": "hexagonal cell edge.035",
+      "method": "triangle intersection",
+      "distance": 0
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; live-source reports are NOT exported-asset evidence; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T04:00:31Z"
+}

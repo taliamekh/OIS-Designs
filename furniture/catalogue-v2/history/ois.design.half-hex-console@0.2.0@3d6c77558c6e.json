@@ -1,0 +1,148 @@
+{
+  "designId": "ois.design.half-hex-console",
+  "familyId": "ois.family.half-hex-console",
+  "id": "ois.design.half-hex-console",
+  "name": "Hexagonal hall console",
+  "roomTags": [
+    "entry-hall"
+  ],
+  "theme": "coastal-linen",
+  "builder": "table",
+  "parameters": {
+    "form": "panel",
+    "w": 1.15,
+    "d": 0.35,
+    "h": 0.79,
+    "shape": "hex"
+  },
+  "distinction": "Six-sided console top on two full-width timber panels.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted"
+  },
+  "constructionKey": "table|panel|{\"drawers\": false, \"shape\": \"hex\", \"shelf\": false}",
+  "sha256": "3d6c77558c6ec284506d2fb04efa71a93f58258b264ff6ebc3fe7ef0cc01c882",
+  "bytes": 29324,
+  "triangles": 396,
+  "vertices": 804,
+  "drawPrimitives": 1,
+  "bounds": {
+    "min": [
+      -0.574999988079071,
+      0.0,
+      -0.15155445039272308
+    ],
+    "max": [
+      0.574999988079071,
+      0.7900000214576721,
+      0.15155445039272308
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 1.149999976158142,
+    "depth": 0.30310890078544617,
+    "height": 0.7900000214576721
+  },
+  "footprint": [
+    [
+      -0.574999988079071,
+      -0.15155445039272308
+    ],
+    [
+      0.574999988079071,
+      -0.15155445039272308
+    ],
+    [
+      0.574999988079071,
+      0.15155445039272308
+    ],
+    [
+      -0.574999988079071,
+      0.15155445039272308
+    ]
+  ],
+  "variantSlots": [
+    "wood"
+  ],
+  "requiredExtensions": [],
+  "version": "0.2.0",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.half-hex-console",
+  "file": "assets/v0.2.0/half-hex-console.glb",
+  "sourceModel": "sources/v0.2.0/half-hex-console.blend",
+  "thumbnail": "previews/v0.2.0/half-hex-console.png",
+  "backThumbnail": "previews/v0.2.0/half-hex-console-back.png",
+  "category": "tables",
+  "subtype": "panel",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "textures": {
+    "count": 0,
+    "bytes": 0
+  },
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.2.0/half-hex-console.png",
+      "previews/v0.2.0/half-hex-console-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.66,
+      0.53,
+      0.34
+    ],
+    [
+      0.36,
+      0.53,
+      0.58
+    ],
+    [
+      0.64,
+      0.6,
+      0.48
+    ]
+  ],
+  "colourTags": [
+    "mist blue",
+    "sand",
+    "pale oak"
+  ],
+  "materials": [
+    "wood"
+  ],
+  "searchAliases": [
+    "entry hall",
+    "panel"
+  ],
+  "materialSlots": [
+    {
+      "id": "wood",
+      "material": "wood",
+      "recolourable": true
+    }
+  ]
+}

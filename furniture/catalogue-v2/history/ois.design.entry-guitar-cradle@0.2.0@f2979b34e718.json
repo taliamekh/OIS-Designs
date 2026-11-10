@@ -1,0 +1,154 @@
+{
+  "designId": "ois.design.entry-guitar-cradle",
+  "familyId": "ois.family.entry-guitar-cradle",
+  "id": "ois.design.entry-guitar-cradle",
+  "name": "Guitar cradle stand",
+  "roomTags": [
+    "entry-hall"
+  ],
+  "theme": "walnut-form",
+  "builder": "special",
+  "parameters": {
+    "form": "guitar-stand",
+    "w": 0.46,
+    "d": 0.4,
+    "h": 0.82
+  },
+  "distinction": "Raised neck fork and two curved body cradles.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted"
+  },
+  "constructionKey": "special|guitar-stand|{\"cols\": 1, \"front\": \"cane\", \"panels\": 3}",
+  "sha256": "f2979b34e718be95d07abef4f1dc9c211c977a7c5af0d0cb0c67efce01bfdd1e",
+  "bytes": 19648,
+  "triangles": 492,
+  "vertices": 468,
+  "drawPrimitives": 2,
+  "bounds": {
+    "min": [
+      -0.17720000259578228,
+      -2.6034809655350877e-08,
+      -0.22062958776950836
+    ],
+    "max": [
+      0.17720003426074982,
+      0.829906752333045,
+      0.17531615409075085
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 0.3544000368565321,
+    "depth": 0.3959457418602592,
+    "height": 0.8299067783678546
+  },
+  "footprint": [
+    [
+      -0.17720000259578228,
+      -0.22062958776950836
+    ],
+    [
+      0.17720003426074982,
+      -0.22062958776950836
+    ],
+    [
+      0.17720003426074982,
+      0.17531615409075085
+    ],
+    [
+      -0.17720000259578228,
+      0.17531615409075085
+    ]
+  ],
+  "variantSlots": [
+    "dark",
+    "metal"
+  ],
+  "requiredExtensions": [],
+  "version": "0.2.0",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.entry-guitar-cradle",
+  "file": "assets/v0.2.0/entry-guitar-cradle.glb",
+  "sourceModel": "sources/v0.2.0/entry-guitar-cradle.blend",
+  "thumbnail": "previews/v0.2.0/entry-guitar-cradle.png",
+  "backThumbnail": "previews/v0.2.0/entry-guitar-cradle-back.png",
+  "category": "specialty",
+  "subtype": "guitar-stand",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "textures": {
+    "count": 0,
+    "bytes": 0
+  },
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.2.0/entry-guitar-cradle.png",
+      "previews/v0.2.0/entry-guitar-cradle-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.22,
+      0.09,
+      0.038
+    ],
+    [
+      0.39,
+      0.18,
+      0.07
+    ],
+    [
+      0.47,
+      0.3,
+      0.1
+    ]
+  ],
+  "colourTags": [
+    "walnut",
+    "tobacco",
+    "brass"
+  ],
+  "materials": [
+    "metal",
+    "paint"
+  ],
+  "searchAliases": [
+    "entry hall",
+    "guitar stand"
+  ],
+  "materialSlots": [
+    {
+      "id": "dark",
+      "material": "dark",
+      "recolourable": true
+    },
+    {
+      "id": "metal",
+      "material": "metal",
+      "recolourable": true
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "id": "ois.design.walkin-shower-screen",
+  "sha256": "2eed95968c4aee0da467977fbe60fa549218c80cd81e184d7c0a3a0a94b3041f",
+  "sourceModel": "sources/v0.7.0/walkin-shower-screen.blend",
+  "sourceSha256": "a15faa5a7647541034ef32ae03500665d879bc91653a3a571344a76036064e99",
+  "partCount": 10,
+  "componentCount": 1,
+  "components": [
+    {
+      "parts": [
+        "shower tray",
+        "screen upright",
+        "side glass",
+        "screen upright.001",
+        "side glass.001",
+        "shower riser",
+        "shower head",
+        "shower mounting spine",
+        "riser mounting clamp",
+        "riser mounting clamp.001"
+      ],
+      "minimum": [
+        -0.612000048160553,
+        -0.4619999825954437,
+        0.0
+      ],
+      "maximum": [
+        0.612000048160553,
+        0.44999998807907104,
+        2.0
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "screen upright",
+      "b": "shower tray",
+      "method": "surface distance",
+      "distance": 0.0012114415876567364
+    },
+    {
+      "a": "side glass",
+      "b": "screen upright",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "screen upright.001",
+      "b": "shower tray",
+      "method": "surface distance",
+      "distance": 0.0012113789562135935
+    },
+    {
+      "a": "side glass.001",
+      "b": "screen upright.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "shower head",
+      "b": "shower riser",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "shower mounting spine",
+      "b": "shower tray",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "riser mounting clamp",
+      "b": "shower riser",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "riser mounting clamp",
+      "b": "shower mounting spine",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "riser mounting clamp.001",
+      "b": "shower riser",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "riser mounting clamp.001",
+      "b": "shower mounting spine",
+      "method": "triangle intersection",
+      "distance": 0
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; live-source reports are NOT exported-asset evidence; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T04:00:32Z"
+}

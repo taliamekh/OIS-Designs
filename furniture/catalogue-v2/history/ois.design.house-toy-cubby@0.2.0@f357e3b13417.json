@@ -1,0 +1,152 @@
+{
+  "designId": "ois.design.house-toy-cubby",
+  "familyId": "ois.family.house-toy-cubby",
+  "id": "ois.design.house-toy-cubby",
+  "name": "Toy cubby wall",
+  "roomTags": [
+    "children"
+  ],
+  "theme": "coastal-linen",
+  "builder": "case",
+  "parameters": {
+    "form": "grid",
+    "baseHeight": 0.05,
+    "w": 1.1,
+    "d": 0.35,
+    "h": 0.92,
+    "rows": 2,
+    "cols": 4
+  },
+  "distinction": "Eight reachable open square toy bays on a floor plinth.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted"
+  },
+  "constructionKey": "case|grid|{\"base\": \"taper\", \"cols\": 4, \"doors\": 2, \"drawersTop\": false, \"front\": \"slab\", \"rows\": 2}",
+  "sha256": "f357e3b134176937584f94302730498e95e4f0171f85987865442926e550fa09",
+  "bytes": 82600,
+  "triangles": 1744,
+  "vertices": 2210,
+  "drawPrimitives": 1,
+  "bounds": {
+    "min": [
+      -0.5500000616554745,
+      3.263025627475713e-09,
+      -0.17500008091420122
+    ],
+    "max": [
+      0.5500000234477724,
+      0.9202855460940831,
+      0.17500002019723193
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 1.100000085103247,
+    "depth": 0.35000010111143315,
+    "height": 0.9202855428310575
+  },
+  "footprint": [
+    [
+      -0.5500000616554745,
+      -0.17500008091420122
+    ],
+    [
+      0.5500000234477724,
+      -0.17500008091420122
+    ],
+    [
+      0.5500000234477724,
+      0.17500002019723193
+    ],
+    [
+      -0.5500000616554745,
+      0.17500002019723193
+    ]
+  ],
+  "variantSlots": [
+    "wood"
+  ],
+  "requiredExtensions": [],
+  "version": "0.2.0",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.house-toy-cubby",
+  "file": "assets/v0.2.0/house-toy-cubby.glb",
+  "sourceModel": "sources/v0.2.0/house-toy-cubby.blend",
+  "thumbnail": "previews/v0.2.0/house-toy-cubby.png",
+  "backThumbnail": "previews/v0.2.0/house-toy-cubby-back.png",
+  "category": "storage",
+  "subtype": "grid",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "textures": {
+    "count": 0,
+    "bytes": 0
+  },
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.2.0/house-toy-cubby.png",
+      "previews/v0.2.0/house-toy-cubby-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.66,
+      0.53,
+      0.34
+    ],
+    [
+      0.36,
+      0.53,
+      0.58
+    ],
+    [
+      0.64,
+      0.6,
+      0.48
+    ]
+  ],
+  "colourTags": [
+    "mist blue",
+    "sand",
+    "pale oak"
+  ],
+  "materials": [
+    "wood"
+  ],
+  "searchAliases": [
+    "children",
+    "grid"
+  ],
+  "materialSlots": [
+    {
+      "id": "wood",
+      "material": "wood",
+      "recolourable": true
+    }
+  ],
+  "geometryHash": "9c2f9015ed0f65aae54f92a6873c0a1315570784d02171102f26134bc5f5cb68",
+  "normalizedMirrorGeometryHash": "0a69c6bd817f225f5491d337d482dae488ecf23b97651d02b9baa0ef54d6c862"
+}

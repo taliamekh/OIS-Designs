@@ -1,0 +1,160 @@
+{
+  "designId": "ois.design.nine-square-cubby",
+  "familyId": "ois.family.nine-square-cubby",
+  "id": "ois.design.nine-square-cubby",
+  "name": "Nine-square cubby",
+  "roomTags": [
+    "storage"
+  ],
+  "theme": "soft-japandi",
+  "builder": "case",
+  "parameters": {
+    "form": "grid",
+    "front": "slab",
+    "w": 1.05,
+    "h": 1.05,
+    "rows": 3,
+    "cols": 3,
+    "base": "plinth"
+  },
+  "distinction": "Nine equally proportioned square open compartments.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted",
+    "sourceSnapshot": "sources/pipeline-e797cb5c88af56f5.py",
+    "sourceSha256": "e797cb5c88af56f5b4455d819a512ab9be55f40e1fa2d0cb542aca7bb84b906f",
+    "parametersFile": "sources/v0.2.1/nine-square-cubby.parameters.json"
+  },
+  "constructionKey": "case|grid|{\"base\": \"plinth\", \"cols\": 3, \"doors\": 2, \"drawersTop\": false, \"front\": \"slab\", \"rows\": 3}",
+  "sha256": "6e6e4507fbc2ee9c7e488f3a34aa4c27aac23a9f8be9a726ef34f2fb0c48fb9d",
+  "bytes": 88428,
+  "triangles": 1692,
+  "vertices": 2369,
+  "drawPrimitives": 2,
+  "bounds": {
+    "min": [
+      -0.5250000357627869,
+      0.0,
+      -0.20000000298023224
+    ],
+    "max": [
+      0.5250000357627869,
+      1.0499999523162842,
+      0.20000000298023224
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 1.0500000715255737,
+    "depth": 0.4000000059604645,
+    "height": 1.0499999523162842
+  },
+  "footprint": [
+    [
+      -0.5250000357627869,
+      -0.20000000298023224
+    ],
+    [
+      0.5250000357627869,
+      -0.20000000298023224
+    ],
+    [
+      0.5250000357627869,
+      0.20000000298023224
+    ],
+    [
+      -0.5250000357627869,
+      0.20000000298023224
+    ]
+  ],
+  "variantSlots": [
+    "dark",
+    "wood"
+  ],
+  "requiredExtensions": [],
+  "version": "0.2.1",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.nine-square-cubby",
+  "file": "assets/v0.2.1/nine-square-cubby.glb",
+  "sourceModel": "sources/v0.2.1/nine-square-cubby.blend",
+  "thumbnail": "previews/v0.2.1/nine-square-cubby.png",
+  "backThumbnail": "previews/v0.2.1/nine-square-cubby-back.png",
+  "category": "storage",
+  "subtype": "grid",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "textures": {
+    "count": 0,
+    "bytes": 0
+  },
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.2.1/nine-square-cubby.png",
+      "previews/v0.2.1/nine-square-cubby-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.34,
+      0.28,
+      0.19
+    ],
+    [
+      0.58,
+      0.54,
+      0.44
+    ],
+    [
+      0.15,
+      0.17,
+      0.15
+    ]
+  ],
+  "colourTags": [
+    "ash",
+    "flax",
+    "stone"
+  ],
+  "materials": [
+    "paint",
+    "wood"
+  ],
+  "searchAliases": [
+    "storage",
+    "grid"
+  ],
+  "materialSlots": [
+    {
+      "id": "dark",
+      "material": "dark",
+      "recolourable": true
+    },
+    {
+      "id": "wood",
+      "material": "wood",
+      "recolourable": true
+    }
+  ]
+}

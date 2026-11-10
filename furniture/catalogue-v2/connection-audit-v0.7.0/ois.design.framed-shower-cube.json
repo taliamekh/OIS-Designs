@@ -1,0 +1,152 @@
+{
+  "id": "ois.design.framed-shower-cube",
+  "sha256": "b3eb4d617a34fd94af1e03c690995e4a525f3510c82575ce900039f161d2b69e",
+  "sourceModel": "sources/v0.7.0/framed-shower-cube.blend",
+  "sourceSha256": "2a814eec95dd275a36fafb999776aa278d93e9c8b7c75abc8f928bb814dab9e4",
+  "partCount": 15,
+  "componentCount": 1,
+  "components": [
+    {
+      "parts": [
+        "shower tray",
+        "screen upright",
+        "side glass",
+        "screen upright.001",
+        "side glass.001",
+        "front glass",
+        "pull",
+        "pull mounting plate",
+        "pull mounting standoff",
+        "pull mounting standoff.001",
+        "shower riser",
+        "shower head",
+        "shower mounting spine",
+        "riser mounting clamp",
+        "riser mounting clamp.001"
+      ],
+      "minimum": [
+        -0.4619999825954437,
+        -0.4619999825954437,
+        0.0
+      ],
+      "maximum": [
+        0.4619999825954437,
+        0.47600001096725464,
+        2.0
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "screen upright",
+      "b": "shower tray",
+      "method": "surface distance",
+      "distance": 0.0012114217970520258
+    },
+    {
+      "a": "side glass",
+      "b": "screen upright",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "screen upright.001",
+      "b": "shower tray",
+      "method": "surface distance",
+      "distance": 0.001211420982144773
+    },
+    {
+      "a": "side glass.001",
+      "b": "screen upright.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "front glass",
+      "b": "side glass",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "front glass",
+      "b": "side glass.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pull mounting standoff",
+      "b": "front glass",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pull mounting standoff",
+      "b": "pull",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pull mounting standoff",
+      "b": "pull mounting plate",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pull mounting standoff.001",
+      "b": "front glass",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pull mounting standoff.001",
+      "b": "pull",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pull mounting standoff.001",
+      "b": "pull mounting plate",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "shower head",
+      "b": "shower riser",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "shower mounting spine",
+      "b": "shower tray",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "riser mounting clamp",
+      "b": "shower riser",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "riser mounting clamp",
+      "b": "shower mounting spine",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "riser mounting clamp.001",
+      "b": "shower riser",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "riser mounting clamp.001",
+      "b": "shower mounting spine",
+      "method": "triangle intersection",
+      "distance": 0
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; live-source reports are NOT exported-asset evidence; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T04:00:30Z"
+}

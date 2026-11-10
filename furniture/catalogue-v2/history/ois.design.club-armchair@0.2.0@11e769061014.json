@@ -1,0 +1,160 @@
+{
+  "designId": "ois.design.club-armchair",
+  "familyId": "ois.family.club-armchair",
+  "id": "ois.design.club-armchair",
+  "name": "Upholstered club chair",
+  "roomTags": [
+    "living"
+  ],
+  "theme": "calm-oak",
+  "builder": "seating",
+  "parameters": {
+    "form": "club",
+    "w": 0.8,
+    "d": 0.82
+  },
+  "distinction": "Rectilinear upholstered back and separate rail-supported arms.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted"
+  },
+  "sha256": "11e7690610149023a646135d85caae0f2cc50e66e37e89ef436fbdf10d0af497",
+  "bytes": 66324,
+  "triangles": 1300,
+  "vertices": 1718,
+  "drawPrimitives": 3,
+  "bounds": {
+    "min": [
+      -0.3889999985694885,
+      2.2210818462209403e-09,
+      -0.3754999879747629
+    ],
+    "max": [
+      0.3889999985694885,
+      0.8733177185058594,
+      0.37431821785867214
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 0.777999997138977,
+    "depth": 0.7498182058334351,
+    "height": 0.8733177162847775
+  },
+  "footprint": [
+    [
+      -0.3889999985694885,
+      -0.3754999879747629
+    ],
+    [
+      0.3889999985694885,
+      -0.3754999879747629
+    ],
+    [
+      0.3889999985694885,
+      0.37431821785867214
+    ],
+    [
+      -0.3889999985694885,
+      0.37431821785867214
+    ]
+  ],
+  "variantSlots": [
+    "fabric",
+    "linen",
+    "wood"
+  ],
+  "requiredExtensions": [],
+  "version": "0.2.0",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.club-armchair",
+  "file": "assets/v0.2.0/club-armchair.glb",
+  "sourceModel": "sources/v0.2.0/club-armchair.blend",
+  "thumbnail": "previews/v0.2.0/club-armchair.png",
+  "backThumbnail": "previews/v0.2.0/club-armchair-back.png",
+  "category": "seating",
+  "subtype": "club",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "textures": {
+    "count": 0,
+    "bytes": 0
+  },
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.2.0/club-armchair.png",
+      "previews/v0.2.0/club-armchair-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.58,
+      0.39,
+      0.2
+    ],
+    [
+      0.73,
+      0.7,
+      0.61
+    ],
+    [
+      0.12,
+      0.14,
+      0.13
+    ]
+  ],
+  "colourTags": [
+    "pale oak",
+    "ivory",
+    "oatmeal"
+  ],
+  "materials": [
+    "textile",
+    "wood"
+  ],
+  "searchAliases": [
+    "living",
+    "club"
+  ],
+  "materialSlots": [
+    {
+      "id": "fabric",
+      "material": "fabric",
+      "recolourable": true
+    },
+    {
+      "id": "linen",
+      "material": "linen",
+      "recolourable": true
+    },
+    {
+      "id": "wood",
+      "material": "wood",
+      "recolourable": true
+    }
+  ],
+  "geometryHash": "482eb58c2c9fcbfc45daf48d889838494f9fa631aad01f94c395a0d59c0f2dbf",
+  "normalizedMirrorGeometryHash": "178afc77210bf3369276dba1122bc8522906c4a11e1806e7ababb364e494facd"
+}

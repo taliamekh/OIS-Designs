@@ -1,0 +1,974 @@
+{
+  "id": "ois.design.louvered-armoire",
+  "sha256": "unexported-source-5d895d48596d1904d58f6d46821e68930ff8026c89e330f0004ff02f8ca332ff",
+  "sourceModel": null,
+  "sourceSha256": "5d895d48596d1904d58f6d46821e68930ff8026c89e330f0004ff02f8ca332ff",
+  "partCount": 81,
+  "componentCount": 1,
+  "components": [
+    {
+      "parts": [
+        "leg",
+        "leg.001",
+        "leg.002",
+        "leg.003",
+        "bottom",
+        "top",
+        "side",
+        "side.001",
+        "back",
+        "door stile",
+        "door stile.001",
+        "door rail",
+        "door rail.001",
+        "louvre",
+        "louvre.001",
+        "louvre.002",
+        "louvre.003",
+        "louvre.004",
+        "louvre.005",
+        "louvre.006",
+        "louvre.007",
+        "louvre.008",
+        "louvre.009",
+        "louvre.010",
+        "louvre.011",
+        "louvre.012",
+        "louvre.013",
+        "louvre.014",
+        "louvre.015",
+        "louvre.016",
+        "louvre.017",
+        "louvre.018",
+        "louvre.019",
+        "louvre.020",
+        "louvre.021",
+        "louvre.022",
+        "louvre.023",
+        "louvre.024",
+        "pull",
+        "pull mounting standoff",
+        "pull mounting standoff.001",
+        "door hinge mounting stile",
+        "door hinge pin",
+        "door hinge pin.001",
+        "door stile.002",
+        "door stile.003",
+        "door rail.002",
+        "door rail.003",
+        "louvre.025",
+        "louvre.026",
+        "louvre.027",
+        "louvre.028",
+        "louvre.029",
+        "louvre.030",
+        "louvre.031",
+        "louvre.032",
+        "louvre.033",
+        "louvre.034",
+        "louvre.035",
+        "louvre.036",
+        "louvre.037",
+        "louvre.038",
+        "louvre.039",
+        "louvre.040",
+        "louvre.041",
+        "louvre.042",
+        "louvre.043",
+        "louvre.044",
+        "louvre.045",
+        "louvre.046",
+        "louvre.047",
+        "louvre.048",
+        "louvre.049",
+        "pull.001",
+        "pull mounting standoff.002",
+        "pull mounting standoff.003",
+        "door hinge mounting stile.001",
+        "door hinge pin.002",
+        "door hinge pin.003",
+        "hanging rail",
+        "top interior shelf"
+      ],
+      "minimum": [
+        -0.6299999952316284,
+        -0.28999999165534973,
+        0.006642771419137716
+      ],
+      "maximum": [
+        0.6299999952316284,
+        0.3460000157356262,
+        1.8799999952316284
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "bottom",
+      "b": "leg",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "bottom",
+      "b": "leg.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "bottom",
+      "b": "leg.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "bottom",
+      "b": "leg.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "side",
+      "b": "bottom",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "side",
+      "b": "top",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "side.001",
+      "b": "bottom",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "side.001",
+      "b": "top",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "back",
+      "b": "bottom",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "back",
+      "b": "top",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "back",
+      "b": "side",
+      "method": "surface distance",
+      "distance": 0.0
+    },
+    {
+      "a": "back",
+      "b": "side.001",
+      "method": "surface distance",
+      "distance": 0.0
+    },
+    {
+      "a": "door rail",
+      "b": "door stile",
+      "method": "surface distance",
+      "distance": 1.4901161193847656e-08
+    },
+    {
+      "a": "door rail",
+      "b": "door stile.001",
+      "method": "surface distance",
+      "distance": 3.725290298461914e-08
+    },
+    {
+      "a": "door rail.001",
+      "b": "door stile",
+      "method": "surface distance",
+      "distance": 0.0
+    },
+    {
+      "a": "door rail.001",
+      "b": "door stile.001",
+      "method": "surface distance",
+      "distance": 2.2351741790771484e-08
+    },
+    {
+      "a": "louvre",
+      "b": "door stile",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "louvre",
+      "b": "door stile.001",
+      "method": "surface distance",
+      "distance": 2.2351741790771484e-08
+    },
+    {
+      "a": "louvre.001",
+      "b": "door stile",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "louvre.001",
+      "b": "door stile.001",
+      "method": "surface distance",
+      "distance": 2.2351741790771484e-08
+    },
+    {
+      "a": "louvre.002",
+      "b": "door stile",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "louvre.002",
+      "b": "door stile.001",
+      "method": "surface distance",
+      "distance": 2.2351741790771484e-08
+    },
+    {
+      "a": "louvre.003",
+      "b": "door stile",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "louvre.003",
+      "b": "door stile.001",
+      "method": "surface distance",
+      "distance": 2.2351741790771484e-08
+    },
+    {
+      "a": "louvre.004",
+      "b": "door stile",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "louvre.004",
+      "b": "door stile.001",
+      "method": "surface distance",
+      "distance": 6.365778659755961e-08
+    },
+    {
+      "a": "louvre.005",
+      "b": "door stile",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "louvre.005",
+      "b": "door stile.001",
+      "method": "surface distance",
+      "distance": 7.028863535651908e-08
+    },
+    {
+      "a": "louvre.006",
+      "b": "door stile",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "louvre.006",
+      "b": "door stile.001",
+      "method": "surface distance",
+      "distance": 2.2351741790771484e-08
+    },
+    {
+      "a": "louvre.007",
+      "b": "door stile",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "louvre.007",
+      "b": "door stile.001",
+      "method": "surface distance",
+      "distance": 2.2351741790771484e-08
+    },
+    {
+      "a": "louvre.008",
+      "b": "door stile",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "louvre.008",
+      "b": "door stile.001",
+      "method": "surface distance",
+      "distance": 6.365778659755961e-08
+    },
+    {
+      "a": "louvre.009",
+      "b": "door stile",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "louvre.009",
+      "b": "door stile.001",
+      "method": "surface distance",
+      "distance": 6.365778659755961e-08
+    },
+    {
+      "a": "louvre.010",
+      "b": "door stile",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "louvre.010",
+      "b": "door stile.001",
+      "method": "surface distance",
+      "distance": 6.365778659755961e-08
+    },
+    {
+      "a": "louvre.011",
+      "b": "door stile",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "louvre.011",
+      "b": "door stile.001",
+      "method": "surface distance",
+      "distance": 6.365778659755961e-08
+    },
+    {
+      "a": "louvre.012",
+      "b": "door stile",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "louvre.012",
+      "b": "door stile.001",
+      "method": "surface distance",
+      "distance": 6.365778659755961e-08
+    },
+    {
+      "a": "louvre.013",
+      "b": "door stile",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "louvre.013",
+      "b": "door stile.001",
+      "method": "surface distance",
+      "distance": 2.2351741790771484e-08
+    },
+    {
+      "a": "louvre.014",
+      "b": "door stile",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "louvre.014",
+      "b": "door stile.001",
+      "method": "surface distance",
+      "distance": 1.212866607147589e-07
+    },
+    {
+      "a": "louvre.015",
+      "b": "door stile",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "louvre.015",
+      "b": "door stile.001",
+      "method": "surface distance",
+      "distance": 1.212866607147589e-07
+    },
+    {
+      "a": "louvre.016",
+      "b": "door stile",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "louvre.016",
+      "b": "door stile.001",
+      "method": "surface distance",
+      "distance": 1.212866607147589e-07
+    },
+    {
+      "a": "louvre.017",
+      "b": "door stile",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "louvre.017",
+      "b": "door stile.001",
+      "method": "surface distance",
+      "distance": 1.212866607147589e-07
+    },
+    {
+      "a": "louvre.018",
+      "b": "door stile",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "louvre.018",
+      "b": "door stile.001",
+      "method": "surface distance",
+      "distance": 2.2351741790771484e-08
+    },
+    {
+      "a": "louvre.019",
+      "b": "door stile",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "louvre.019",
+      "b": "door stile.001",
+      "method": "surface distance",
+      "distance": 2.2351741790771484e-08
+    },
+    {
+      "a": "louvre.020",
+      "b": "door stile",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "louvre.020",
+      "b": "door stile.001",
+      "method": "surface distance",
+      "distance": 2.2351741790771484e-08
+    },
+    {
+      "a": "louvre.021",
+      "b": "door stile",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "louvre.021",
+      "b": "door stile.001",
+      "method": "surface distance",
+      "distance": 2.2351741790771484e-08
+    },
+    {
+      "a": "louvre.022",
+      "b": "door stile",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "louvre.022",
+      "b": "door stile.001",
+      "method": "surface distance",
+      "distance": 2.2351741790771484e-08
+    },
+    {
+      "a": "louvre.023",
+      "b": "door stile",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "louvre.023",
+      "b": "door stile.001",
+      "method": "surface distance",
+      "distance": 2.2351741790771484e-08
+    },
+    {
+      "a": "louvre.024",
+      "b": "door stile",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "louvre.024",
+      "b": "door stile.001",
+      "method": "surface distance",
+      "distance": 2.2351741790771484e-08
+    },
+    {
+      "a": "pull mounting standoff",
+      "b": "louvre.011",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pull mounting standoff",
+      "b": "pull",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pull mounting standoff.001",
+      "b": "louvre.013",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pull mounting standoff.001",
+      "b": "pull",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "door hinge mounting stile",
+      "b": "side",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "door hinge mounting stile",
+      "b": "door stile",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "door hinge pin",
+      "b": "door stile",
+      "method": "surface distance",
+      "distance": 0.003339707851409912
+    },
+    {
+      "a": "door hinge pin",
+      "b": "door hinge mounting stile",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "door hinge pin.001",
+      "b": "door stile",
+      "method": "surface distance",
+      "distance": 0.003339707851409912
+    },
+    {
+      "a": "door hinge pin.001",
+      "b": "door hinge mounting stile",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "door rail.002",
+      "b": "door stile.002",
+      "method": "surface distance",
+      "distance": 3.725290298461914e-08
+    },
+    {
+      "a": "door rail.002",
+      "b": "door stile.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "door rail.003",
+      "b": "door stile.002",
+      "method": "surface distance",
+      "distance": 2.2351741790771484e-08
+    },
+    {
+      "a": "door rail.003",
+      "b": "door stile.003",
+      "method": "surface distance",
+      "distance": 0.0
+    },
+    {
+      "a": "louvre.025",
+      "b": "door stile.002",
+      "method": "surface distance",
+      "distance": 2.2351741790771484e-08
+    },
+    {
+      "a": "louvre.025",
+      "b": "door stile.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "louvre.026",
+      "b": "door stile.002",
+      "method": "surface distance",
+      "distance": 2.2351741790771484e-08
+    },
+    {
+      "a": "louvre.026",
+      "b": "door stile.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "louvre.027",
+      "b": "door stile.002",
+      "method": "surface distance",
+      "distance": 2.2351741790771484e-08
+    },
+    {
+      "a": "louvre.027",
+      "b": "door stile.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "louvre.028",
+      "b": "door stile.002",
+      "method": "surface distance",
+      "distance": 3.725290298461914e-08
+    },
+    {
+      "a": "louvre.028",
+      "b": "door stile.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "louvre.029",
+      "b": "door stile.002",
+      "method": "surface distance",
+      "distance": 6.365778659755961e-08
+    },
+    {
+      "a": "louvre.029",
+      "b": "door stile.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "louvre.030",
+      "b": "door stile.002",
+      "method": "surface distance",
+      "distance": 7.028863535651908e-08
+    },
+    {
+      "a": "louvre.030",
+      "b": "door stile.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "louvre.031",
+      "b": "door stile.002",
+      "method": "surface distance",
+      "distance": 2.2351741790771484e-08
+    },
+    {
+      "a": "louvre.031",
+      "b": "door stile.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "louvre.032",
+      "b": "door stile.002",
+      "method": "surface distance",
+      "distance": 2.2351741790771484e-08
+    },
+    {
+      "a": "louvre.032",
+      "b": "door stile.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "louvre.033",
+      "b": "door stile.002",
+      "method": "surface distance",
+      "distance": 6.365778659755961e-08
+    },
+    {
+      "a": "louvre.033",
+      "b": "door stile.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "louvre.034",
+      "b": "door stile.002",
+      "method": "surface distance",
+      "distance": 6.365778659755961e-08
+    },
+    {
+      "a": "louvre.034",
+      "b": "door stile.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "louvre.035",
+      "b": "door stile.002",
+      "method": "surface distance",
+      "distance": 6.365778659755961e-08
+    },
+    {
+      "a": "louvre.035",
+      "b": "door stile.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "louvre.036",
+      "b": "door stile.002",
+      "method": "surface distance",
+      "distance": 2.2351741790771484e-08
+    },
+    {
+      "a": "louvre.036",
+      "b": "door stile.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "louvre.037",
+      "b": "door stile.002",
+      "method": "surface distance",
+      "distance": 6.365778659755961e-08
+    },
+    {
+      "a": "louvre.037",
+      "b": "door stile.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "louvre.038",
+      "b": "door stile.002",
+      "method": "surface distance",
+      "distance": 2.2351741790771484e-08
+    },
+    {
+      "a": "louvre.038",
+      "b": "door stile.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "louvre.039",
+      "b": "door stile.002",
+      "method": "surface distance",
+      "distance": 1.212866607147589e-07
+    },
+    {
+      "a": "louvre.039",
+      "b": "door stile.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "louvre.040",
+      "b": "door stile.002",
+      "method": "surface distance",
+      "distance": 2.2351741790771484e-08
+    },
+    {
+      "a": "louvre.040",
+      "b": "door stile.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "louvre.041",
+      "b": "door stile.002",
+      "method": "surface distance",
+      "distance": 1.212866607147589e-07
+    },
+    {
+      "a": "louvre.041",
+      "b": "door stile.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "louvre.042",
+      "b": "door stile.002",
+      "method": "surface distance",
+      "distance": 1.212866607147589e-07
+    },
+    {
+      "a": "louvre.042",
+      "b": "door stile.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "louvre.043",
+      "b": "door stile.002",
+      "method": "surface distance",
+      "distance": 2.2351741790771484e-08
+    },
+    {
+      "a": "louvre.043",
+      "b": "door stile.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "louvre.044",
+      "b": "door stile.002",
+      "method": "surface distance",
+      "distance": 2.2351741790771484e-08
+    },
+    {
+      "a": "louvre.044",
+      "b": "door stile.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "louvre.045",
+      "b": "door stile.002",
+      "method": "surface distance",
+      "distance": 2.2351741790771484e-08
+    },
+    {
+      "a": "louvre.045",
+      "b": "door stile.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "louvre.046",
+      "b": "door stile.002",
+      "method": "surface distance",
+      "distance": 2.2351741790771484e-08
+    },
+    {
+      "a": "louvre.046",
+      "b": "door stile.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "louvre.047",
+      "b": "door stile.002",
+      "method": "surface distance",
+      "distance": 2.2351741790771484e-08
+    },
+    {
+      "a": "louvre.047",
+      "b": "door stile.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "louvre.048",
+      "b": "door stile.002",
+      "method": "surface distance",
+      "distance": 2.2351741790771484e-08
+    },
+    {
+      "a": "louvre.048",
+      "b": "door stile.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "louvre.049",
+      "b": "door stile.002",
+      "method": "surface distance",
+      "distance": 2.2351741790771484e-08
+    },
+    {
+      "a": "louvre.049",
+      "b": "door stile.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pull mounting standoff.002",
+      "b": "louvre.036",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pull mounting standoff.002",
+      "b": "pull.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pull mounting standoff.003",
+      "b": "louvre.038",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pull mounting standoff.003",
+      "b": "pull.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "door hinge mounting stile.001",
+      "b": "door stile.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "door hinge pin.002",
+      "b": "door stile.002",
+      "method": "surface distance",
+      "distance": 0.0033397451043128967
+    },
+    {
+      "a": "door hinge pin.002",
+      "b": "door hinge mounting stile.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "door hinge pin.003",
+      "b": "door stile.002",
+      "method": "surface distance",
+      "distance": 0.0033397451043128967
+    },
+    {
+      "a": "door hinge pin.003",
+      "b": "door hinge mounting stile.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "hanging rail",
+      "b": "side",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "hanging rail",
+      "b": "side.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "top interior shelf",
+      "b": "back",
+      "method": "surface distance",
+      "distance": 0.001999974250793457
+    },
+    {
+      "a": "top interior shelf",
+      "b": "door hinge mounting stile",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "top interior shelf",
+      "b": "door hinge mounting stile.001",
+      "method": "triangle intersection",
+      "distance": 0
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; live-source reports are NOT exported-asset evidence; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T03:15:03Z"
+}

@@ -1,0 +1,58 @@
+{
+  "id": "ois.design.hex-hairpin",
+  "sha256": "f7d5894dd806191d5a3881e2cd3492f27c9a89fa2e17ee95876250e807fc3223",
+  "sourceModel": "sources/v0.7.0/hex-hairpin.blend",
+  "sourceSha256": "59da4e3eeaaf79a05ae44469a0584a951a1f993a9aea10aee5044ba183352440",
+  "partCount": 5,
+  "componentCount": 1,
+  "components": [
+    {
+      "parts": [
+        "top",
+        "hairpin",
+        "hairpin.001",
+        "hairpin.002",
+        "hairpin.003"
+      ],
+      "minimum": [
+        -0.5400000214576721,
+        -0.26846787333488464,
+        0.0
+      ],
+      "maximum": [
+        0.5400000214576721,
+        0.26846787333488464,
+        0.3839999735355377
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "hairpin",
+      "b": "top",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "hairpin.001",
+      "b": "top",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "hairpin.002",
+      "b": "top",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "hairpin.003",
+      "b": "top",
+      "method": "triangle intersection",
+      "distance": 0
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; live-source reports are NOT exported-asset evidence; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T03:45:53Z"
+}

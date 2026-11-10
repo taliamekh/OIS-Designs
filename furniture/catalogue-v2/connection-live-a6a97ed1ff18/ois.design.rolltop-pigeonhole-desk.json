@@ -1,0 +1,122 @@
+{
+  "id": "ois.design.rolltop-pigeonhole-desk",
+  "sha256": "unexported-source-a6a97ed1ff18ea7190f4c07e8ea17b6dba901563a653d7aed874183539ef16c1",
+  "sourceModel": null,
+  "sourceSha256": "a6a97ed1ff18ea7190f4c07e8ea17b6dba901563a653d7aed874183539ef16c1",
+  "partCount": 9,
+  "componentCount": 1,
+  "components": [
+    {
+      "parts": [
+        "top",
+        "panel leg",
+        "panel leg.001",
+        "rear pigeonhole",
+        "pigeonhole partition",
+        "pigeonhole partition.001",
+        "pigeonhole partition.002",
+        "pigeonhole shelf",
+        "pigeonhole shelf.001"
+      ],
+      "minimum": [
+        -0.6499999761581421,
+        -0.32499998807907104,
+        0.0
+      ],
+      "maximum": [
+        0.6499999761581421,
+        0.32499998807907104,
+        1.090000033378601
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "panel leg",
+      "b": "top",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "panel leg.001",
+      "b": "top",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "rear pigeonhole",
+      "b": "top",
+      "method": "surface distance",
+      "distance": 0.002608879003673792
+    },
+    {
+      "a": "pigeonhole partition",
+      "b": "rear pigeonhole",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pigeonhole partition.001",
+      "b": "rear pigeonhole",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pigeonhole partition.002",
+      "b": "rear pigeonhole",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pigeonhole shelf",
+      "b": "rear pigeonhole",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pigeonhole shelf",
+      "b": "pigeonhole partition",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pigeonhole shelf",
+      "b": "pigeonhole partition.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pigeonhole shelf",
+      "b": "pigeonhole partition.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pigeonhole shelf.001",
+      "b": "rear pigeonhole",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pigeonhole shelf.001",
+      "b": "pigeonhole partition",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pigeonhole shelf.001",
+      "b": "pigeonhole partition.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pigeonhole shelf.001",
+      "b": "pigeonhole partition.002",
+      "method": "triangle intersection",
+      "distance": 0
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; live-source reports are NOT exported-asset evidence; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T03:19:18Z"
+}

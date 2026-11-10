@@ -1,0 +1,157 @@
+{
+  "designId": "ois.design.zigzag-display",
+  "familyId": "ois.family.zigzag-display",
+  "id": "ois.design.zigzag-display",
+  "name": "Zigzag display",
+  "roomTags": [
+    "storage"
+  ],
+  "theme": "city-loft",
+  "builder": "sculptural",
+  "parameters": {
+    "form": "zigzag-shelf",
+    "w": 1.05,
+    "d": 0.3,
+    "h": 1.6
+  },
+  "distinction": "Five alternating tilted shelf planes between exposed upright rails.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted",
+    "sourceSnapshot": "sources/pipeline-e797cb5c88af56f5.py",
+    "sourceSha256": "e797cb5c88af56f5b4455d819a512ab9be55f40e1fa2d0cb542aca7bb84b906f",
+    "parametersFile": "sources/v0.2.1/zigzag-display.parameters.json"
+  },
+  "constructionKey": "sculptural|zigzag-shelf|{}",
+  "sha256": "c37d6bf72d4a193e63272e7effda37c2a91d83752d273532754d1063fa8e1212",
+  "bytes": 60108,
+  "triangles": 1060,
+  "vertices": 1598,
+  "drawPrimitives": 2,
+  "bounds": {
+    "min": [
+      -0.5429999753832817,
+      0.0,
+      -0.15000000596046448
+    ],
+    "max": [
+      0.542999982833887,
+      1.600000023841858,
+      0.15000000596046448
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 1.0859999582171687,
+    "depth": 0.30000001192092896,
+    "height": 1.600000023841858
+  },
+  "footprint": [
+    [
+      -0.5429999753832817,
+      -0.15000000596046448
+    ],
+    [
+      0.542999982833887,
+      -0.15000000596046448
+    ],
+    [
+      0.542999982833887,
+      0.15000000596046448
+    ],
+    [
+      -0.5429999753832817,
+      0.15000000596046448
+    ]
+  ],
+  "variantSlots": [
+    "metal",
+    "wood"
+  ],
+  "requiredExtensions": [],
+  "version": "0.2.1",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.zigzag-display",
+  "file": "assets/v0.2.1/zigzag-display.glb",
+  "sourceModel": "sources/v0.2.1/zigzag-display.blend",
+  "thumbnail": "previews/v0.2.1/zigzag-display.png",
+  "backThumbnail": "previews/v0.2.1/zigzag-display-back.png",
+  "category": "sculptural-furniture",
+  "subtype": "zigzag-shelf",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "textures": {
+    "count": 0,
+    "bytes": 0
+  },
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.2.1/zigzag-display.png",
+      "previews/v0.2.1/zigzag-display-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.23,
+      0.15,
+      0.09
+    ],
+    [
+      0.12,
+      0.14,
+      0.16
+    ],
+    [
+      0.045,
+      0.05,
+      0.055
+    ]
+  ],
+  "colourTags": [
+    "charcoal",
+    "black",
+    "weathered wood"
+  ],
+  "materials": [
+    "metal",
+    "wood"
+  ],
+  "searchAliases": [
+    "storage",
+    "zigzag shelf"
+  ],
+  "materialSlots": [
+    {
+      "id": "metal",
+      "material": "metal",
+      "recolourable": true
+    },
+    {
+      "id": "wood",
+      "material": "wood",
+      "recolourable": true
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "id": "ois.design.ceramic-pedestal-basin",
+  "sha256": "unexported-source-a6a97ed1ff18ea7190f4c07e8ea17b6dba901563a653d7aed874183539ef16c1",
+  "sourceModel": null,
+  "sourceSha256": "a6a97ed1ff18ea7190f4c07e8ea17b6dba901563a653d7aed874183539ef16c1",
+  "partCount": 4,
+  "componentCount": 1,
+  "components": [
+    {
+      "parts": [
+        "pedestal",
+        "oval basin",
+        "curved faucet",
+        "tap lever"
+      ],
+      "minimum": [
+        -0.31200000643730164,
+        -0.2443999946117401,
+        0.0
+      ],
+      "maximum": [
+        0.31200000643730164,
+        0.2443999946117401,
+        1.0312906503677368
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "oval basin",
+      "b": "pedestal",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "curved faucet",
+      "b": "oval basin",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "tap lever",
+      "b": "curved faucet",
+      "method": "triangle intersection",
+      "distance": 0
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; live-source reports are NOT exported-asset evidence; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T03:19:16Z"
+}

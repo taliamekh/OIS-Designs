@@ -1,0 +1,259 @@
+{
+  "designId": "ois.design.soft-bean-chair",
+  "familyId": "ois.family.soft-bean-chair",
+  "id": "ois.design.soft-bean-chair",
+  "name": "Soft bean chair",
+  "roomTags": [
+    "children"
+  ],
+  "theme": "calm-oak",
+  "builder": "functional",
+  "parameters": {
+    "form": "bean-chair",
+    "w": 0.88,
+    "d": 0.78,
+    "h": 0.8
+  },
+  "distinction": "Two large sculptural soft volumes make a low self-supporting seat/back.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted",
+    "sourceSnapshot": "sources/pipeline-bf07453f548fd92d.py",
+    "sourceSha256": "bf07453f548fd92da637ecce41dc8b35010d5f15c955c971c9e3be2fb762ea2d",
+    "sourceModelSha256": "33496b65c59b35b2dfc950ce7cf2730ed18a76681790c816d925e5f30cba401e",
+    "supportSources": {
+      "signature_designs.py": {
+        "snapshot": "sources/signature_designs-6d248dd7aaa49ed4.py",
+        "sha256": "6d248dd7aaa49ed40f05c473c5d46b6fe8c97972ebf6ce139553f9641fc82b3c"
+      },
+      "material_finish.py": {
+        "snapshot": "sources/material_finish-281279dfd17b0c92.py",
+        "sha256": "281279dfd17b0c929f9038bb8066b86216427feaaefbd503abb995d06dc35730"
+      },
+      "catalogue_inventory.py": {
+        "snapshot": "sources/catalogue_inventory-db8b68fc872dbc12.py",
+        "sha256": "db8b68fc872dbc12d87e9ce013777e00d6b32cc0392e8cc09f31f8fef27b9365"
+      },
+      "finalize_glb.py": {
+        "snapshot": "sources/finalize_glb-4d1dec42be5cbf3d.py",
+        "sha256": "4d1dec42be5cbf3d6540facfa883948acd849c080f7117b8d7025749c08e2d1b"
+      },
+      "build_catalogue_v2.py": {
+        "snapshot": "sources/build_catalogue_v2-9c22533830c3704c.py",
+        "sha256": "9c22533830c3704c1ce578b58b4350ebbbf5b8d32590a07db027f671d4975577"
+      },
+      "validate_library.py": {
+        "snapshot": "sources/validate_library-48e60483e2c3d05b.py",
+        "sha256": "48e60483e2c3d05bec2c7e2669523eb77571a4ba120cb5238bbec92b8a585e0c"
+      },
+      "support_checks.py": {
+        "snapshot": "sources/support_checks-f7ed4d0400abd5f2.py",
+        "sha256": "f7ed4d0400abd5f23f27c86a9013cfefaca71234a9da953dfe97daeabb8af640"
+      }
+    },
+    "parametersFile": "sources/v0.7.0/soft-bean-chair.parameters.json"
+  },
+  "constructionKey": "functional|bean-chair|{}",
+  "sha256": "081e857c1533e21126e374c8c1ed0e94f14083f72abc8bc58ba37040918d89fa",
+  "bytes": 168888,
+  "triangles": 1056,
+  "vertices": 3168,
+  "drawPrimitives": 1,
+  "bounds": {
+    "min": [
+      -0.4399997615814222,
+      0.0,
+      -0.5099999830126762
+    ],
+    "max": [
+      0.43999991893768353,
+      0.8456891967725255,
+      0.4393818891504395
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 0.8799996805191057,
+    "depth": 0.9493818721631158,
+    "height": 0.8456891967725255
+  },
+  "footprint": [
+    [
+      -0.4399997615814222,
+      -0.5099999830126762
+    ],
+    [
+      0.43999991893768353,
+      -0.5099999830126762
+    ],
+    [
+      0.43999991893768353,
+      0.4393818891504395
+    ],
+    [
+      -0.4399997615814222,
+      0.4393818891504395
+    ]
+  ],
+  "variantSlots": [
+    "fabric"
+  ],
+  "requiredExtensions": [],
+  "textures": {
+    "count": 3,
+    "bytes": 8272,
+    "estimatedRgbaBytesWithMipmaps": 1048576,
+    "images": [
+      {
+        "name": "fabric-normal",
+        "bytes": 1016,
+        "width": 256,
+        "height": 256,
+        "sha256": "5bbac800a495c0a30042ad832a3ea134aa66afad65fa0dde59103733a54e886c"
+      },
+      {
+        "name": "fabric-neutral-base",
+        "bytes": 4495,
+        "width": 256,
+        "height": 256,
+        "sha256": "898e022cb5ea1b2663884e7306bbd2c09f25ab2827974bd1328a81bcab08b1ac"
+      },
+      {
+        "name": "fabric-roughness",
+        "bytes": 2761,
+        "width": 256,
+        "height": 256,
+        "sha256": "397e1c119de5e5939f7f1260cfeb7a715d695240776f51b974989073b638eeb6"
+      }
+    ]
+  },
+  "version": "0.7.0",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.soft-bean-chair",
+  "file": "assets/v0.7.0/soft-bean-chair.glb",
+  "sourceModel": "sources/v0.7.0/soft-bean-chair.blend",
+  "thumbnail": "previews/v0.7.0/soft-bean-chair.png",
+  "backThumbnail": "previews/v0.7.0/soft-bean-chair-back.png",
+  "category": "functional-furniture",
+  "subtype": "bean-chair",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.7.0/soft-bean-chair.png",
+      "previews/v0.7.0/soft-bean-chair-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.7300000190734863,
+      0.699999988079071,
+      0.6100000143051147
+    ]
+  ],
+  "colourTags": [
+    "ivory"
+  ],
+  "materials": [
+    "textile"
+  ],
+  "searchAliases": [
+    "children",
+    "bean chair"
+  ],
+  "materialSlots": [
+    {
+      "id": "fabric",
+      "material": "fabric",
+      "recolourable": true
+    }
+  ],
+  "finalization": {
+    "unusedTangentAttributesRemoved": 0,
+    "unusedAccessorsRemoved": 0,
+    "unusedBufferViewsRemoved": 0,
+    "bytesRemoved": 0,
+    "normalMappedTangents": "retained, never replaced with arbitrary fallback vectors"
+  },
+  "supportChecks": {
+    "method": "source-part upper-end ray to non-leg geometry, 15mm join tolerance",
+    "status": "pass",
+    "parts": [],
+    "limitation": "screening only; hidden joints, whole-model connectivity, load paths and safety remain visual/product-review concerns"
+  },
+  "materialFinish": {
+    "source": "materials/v1/manifest.json",
+    "repeatMetres": {
+      "wood": [
+        0.16,
+        0.75
+      ],
+      "fabric": [
+        0.14,
+        0.14
+      ],
+      "linen": [
+        0.12,
+        0.12
+      ]
+    },
+    "maps": "original base colour / roughness / tangent normal, embedded in GLB"
+  },
+  "appearanceVariants": [
+    {
+      "id": "ois.design.soft-bean-chair.finish.sage",
+      "name": "Sage textile",
+      "materialOverrides": {
+        "fabric": {
+          "baseColorFactor": [
+            0.25,
+            0.37,
+            0.28,
+            1
+          ]
+        }
+      }
+    },
+    {
+      "id": "ois.design.soft-bean-chair.finish.clay",
+      "name": "Clay textile",
+      "materialOverrides": {
+        "fabric": {
+          "baseColorFactor": [
+            0.45,
+            0.23,
+            0.15,
+            1
+          ]
+        }
+      }
+    }
+  ],
+  "variantColourTags": [
+    "sage green",
+    "clay brown"
+  ],
+  "variantCountNote": "appearance overrides share this one design; do not increase distinct count"
+}

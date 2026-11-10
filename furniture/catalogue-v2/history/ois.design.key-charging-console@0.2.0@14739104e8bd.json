@@ -1,0 +1,154 @@
+{
+  "designId": "ois.design.key-charging-console",
+  "familyId": "ois.family.key-charging-console",
+  "id": "ois.design.key-charging-console",
+  "name": "Device charging console",
+  "roomTags": [
+    "entry-hall"
+  ],
+  "theme": "city-loft",
+  "builder": "special",
+  "parameters": {
+    "form": "charging-station",
+    "w": 0.85,
+    "d": 0.34,
+    "h": 0.82
+  },
+  "distinction": "Three device slots and charging ledge above a cupboard.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted"
+  },
+  "constructionKey": "special|charging-station|{\"cols\": 1, \"front\": \"cane\", \"panels\": 3}",
+  "sha256": "14739104e8bdacee135981c88d44b999672d40c6c9bde4c9577483cb928079af",
+  "bytes": 181836,
+  "triangles": 3744,
+  "vertices": 4900,
+  "drawPrimitives": 2,
+  "bounds": {
+    "min": [
+      -0.42500002915861473,
+      -4.562755534509577e-09,
+      -0.2259999996537338
+    ],
+    "max": [
+      0.42500007223855973,
+      0.9113858342170715,
+      0.17000000397558723
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 0.8500001013971745,
+    "depth": 0.39600000362932103,
+    "height": 0.911385838779827
+  },
+  "footprint": [
+    [
+      -0.42500002915861473,
+      -0.2259999996537338
+    ],
+    [
+      0.42500007223855973,
+      -0.2259999996537338
+    ],
+    [
+      0.42500007223855973,
+      0.17000000397558723
+    ],
+    [
+      -0.42500002915861473,
+      0.17000000397558723
+    ]
+  ],
+  "variantSlots": [
+    "metal",
+    "wood"
+  ],
+  "requiredExtensions": [],
+  "version": "0.2.0",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.key-charging-console",
+  "file": "assets/v0.2.0/key-charging-console.glb",
+  "sourceModel": "sources/v0.2.0/key-charging-console.blend",
+  "thumbnail": "previews/v0.2.0/key-charging-console.png",
+  "backThumbnail": "previews/v0.2.0/key-charging-console-back.png",
+  "category": "specialty",
+  "subtype": "charging-station",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "textures": {
+    "count": 0,
+    "bytes": 0
+  },
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.2.0/key-charging-console.png",
+      "previews/v0.2.0/key-charging-console-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.23,
+      0.15,
+      0.09
+    ],
+    [
+      0.12,
+      0.14,
+      0.16
+    ],
+    [
+      0.045,
+      0.05,
+      0.055
+    ]
+  ],
+  "colourTags": [
+    "charcoal",
+    "black",
+    "weathered wood"
+  ],
+  "materials": [
+    "metal",
+    "wood"
+  ],
+  "searchAliases": [
+    "entry hall",
+    "charging station"
+  ],
+  "materialSlots": [
+    {
+      "id": "metal",
+      "material": "metal",
+      "recolourable": true
+    },
+    {
+      "id": "wood",
+      "material": "wood",
+      "recolourable": true
+    }
+  ]
+}

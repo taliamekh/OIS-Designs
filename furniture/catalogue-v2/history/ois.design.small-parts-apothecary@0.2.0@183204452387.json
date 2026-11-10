@@ -1,0 +1,157 @@
+{
+  "designId": "ois.design.small-parts-apothecary",
+  "familyId": "ois.family.jewellery-bureau",
+  "id": "ois.design.small-parts-apothecary",
+  "name": "Small-parts apothecary",
+  "roomTags": [
+    "storage"
+  ],
+  "theme": "walnut-form",
+  "builder": "case",
+  "parameters": {
+    "form": "drawers",
+    "front": "slab",
+    "w": 1.25,
+    "h": 1.35,
+    "rows": 6,
+    "cols": 5
+  },
+  "distinction": "Thirty small drawers form a dense storage grid.",
+  "stage": "validated-candidate",
+  "countEligible": false,
+  "variants": [],
+  "variantOf": "ois.design.jewellery-bureau",
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted"
+  },
+  "constructionKey": "case|drawers|{\"base\": \"taper\", \"cols\": \"multiple\", \"doors\": 2, \"drawersTop\": false, \"front\": \"slab\", \"rows\": \"stack\"}",
+  "countExclusion": "same construction; dimension/material configuration retained as a variant",
+  "sha256": "18320445238783f8411f9987fef8da4451e42a9c1da01cd31d925decaff7eb98",
+  "bytes": 401252,
+  "triangles": 8620,
+  "vertices": 10843,
+  "drawPrimitives": 2,
+  "bounds": {
+    "min": [
+      -0.6250001245938342,
+      -4.672375153447206e-08,
+      -0.25600000005215406
+    ],
+    "max": [
+      0.6250004157276345,
+      1.3430838473911701,
+      0.20000011457456468
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 1.250000540321469,
+    "depth": 0.45600011462671874,
+    "height": 1.3430838941149217
+  },
+  "footprint": [
+    [
+      -0.6250001245938342,
+      -0.25600000005215406
+    ],
+    [
+      0.6250004157276345,
+      -0.25600000005215406
+    ],
+    [
+      0.6250004157276345,
+      0.20000011457456468
+    ],
+    [
+      -0.6250001245938342,
+      0.20000011457456468
+    ]
+  ],
+  "variantSlots": [
+    "metal",
+    "wood"
+  ],
+  "requiredExtensions": [],
+  "version": "0.2.0",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.jewellery-bureau",
+  "file": "assets/v0.2.0/small-parts-apothecary.glb",
+  "sourceModel": "sources/v0.2.0/small-parts-apothecary.blend",
+  "thumbnail": "previews/v0.2.0/small-parts-apothecary.png",
+  "backThumbnail": "previews/v0.2.0/small-parts-apothecary-back.png",
+  "category": "storage",
+  "subtype": "drawers",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "textures": {
+    "count": 0,
+    "bytes": 0
+  },
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.2.0/small-parts-apothecary.png",
+      "previews/v0.2.0/small-parts-apothecary-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.22,
+      0.09,
+      0.038
+    ],
+    [
+      0.39,
+      0.18,
+      0.07
+    ],
+    [
+      0.47,
+      0.3,
+      0.1
+    ]
+  ],
+  "colourTags": [
+    "walnut",
+    "tobacco",
+    "brass"
+  ],
+  "materials": [
+    "metal",
+    "wood"
+  ],
+  "searchAliases": [
+    "storage",
+    "drawers"
+  ],
+  "materialSlots": [
+    {
+      "id": "metal",
+      "material": "metal",
+      "recolourable": true
+    },
+    {
+      "id": "wood",
+      "material": "wood",
+      "recolourable": true
+    }
+  ]
+}

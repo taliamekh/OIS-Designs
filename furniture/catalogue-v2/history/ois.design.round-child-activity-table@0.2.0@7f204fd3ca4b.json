@@ -1,0 +1,150 @@
+{
+  "designId": "ois.design.round-child-activity-table",
+  "familyId": "ois.family.round-child-activity-table",
+  "id": "ois.design.round-child-activity-table",
+  "name": "Round child activity table",
+  "roomTags": [
+    "children"
+  ],
+  "theme": "calm-oak",
+  "builder": "table",
+  "parameters": {
+    "form": "four-leg",
+    "w": 0.72,
+    "d": 0.72,
+    "h": 0.5,
+    "shape": "round"
+  },
+  "distinction": "Low circular activity surface on four angled timber legs.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted"
+  },
+  "constructionKey": "table|four-leg|{\"drawers\": false, \"shape\": \"round\", \"shelf\": false}",
+  "sha256": "7f204fd3ca4bef0eb17a76cc7add52ddae5739f02dc384dfbde550cbbb2dedf2",
+  "bytes": 18496,
+  "triangles": 428,
+  "vertices": 458,
+  "drawPrimitives": 1,
+  "bounds": {
+    "min": [
+      -0.36000001430511475,
+      0.0,
+      -0.36000001430511475
+    ],
+    "max": [
+      0.36000001430511475,
+      0.4889456257224083,
+      0.36000001430511475
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 0.7200000286102295,
+    "depth": 0.7200000286102295,
+    "height": 0.4889456257224083
+  },
+  "footprint": [
+    [
+      -0.36000001430511475,
+      -0.36000001430511475
+    ],
+    [
+      0.36000001430511475,
+      -0.36000001430511475
+    ],
+    [
+      0.36000001430511475,
+      0.36000001430511475
+    ],
+    [
+      -0.36000001430511475,
+      0.36000001430511475
+    ]
+  ],
+  "variantSlots": [
+    "wood"
+  ],
+  "requiredExtensions": [],
+  "version": "0.2.0",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.round-child-activity-table",
+  "file": "assets/v0.2.0/round-child-activity-table.glb",
+  "sourceModel": "sources/v0.2.0/round-child-activity-table.blend",
+  "thumbnail": "previews/v0.2.0/round-child-activity-table.png",
+  "backThumbnail": "previews/v0.2.0/round-child-activity-table-back.png",
+  "category": "tables",
+  "subtype": "four-leg",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "textures": {
+    "count": 0,
+    "bytes": 0
+  },
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.2.0/round-child-activity-table.png",
+      "previews/v0.2.0/round-child-activity-table-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.58,
+      0.39,
+      0.2
+    ],
+    [
+      0.73,
+      0.7,
+      0.61
+    ],
+    [
+      0.12,
+      0.14,
+      0.13
+    ]
+  ],
+  "colourTags": [
+    "pale oak",
+    "ivory",
+    "oatmeal"
+  ],
+  "materials": [
+    "wood"
+  ],
+  "searchAliases": [
+    "children",
+    "four leg"
+  ],
+  "materialSlots": [
+    {
+      "id": "wood",
+      "material": "wood",
+      "recolourable": true
+    }
+  ],
+  "geometryHash": "727b3bcb896c9d0162b7e6868b1db4691e45946dcab22d1346b1c6a2c28f2230",
+  "normalizedMirrorGeometryHash": "001c0cc2b6b6a886e7b6a2c95ed72398169516c6c19257db0283610f20712a08"
+}

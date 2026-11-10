@@ -1,0 +1,154 @@
+{
+  "designId": "ois.design.coat-shoe-rail",
+  "familyId": "ois.family.coat-shoe-rail",
+  "id": "ois.design.coat-shoe-rail",
+  "name": "Coat and shoe rail",
+  "roomTags": [
+    "entry-hall"
+  ],
+  "theme": "coastal-linen",
+  "builder": "special",
+  "parameters": {
+    "form": "coat-rail",
+    "w": 1.0,
+    "d": 0.46,
+    "h": 1.65
+  },
+  "distinction": "Open hanging stand incorporates a separate low shoe platform.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted"
+  },
+  "constructionKey": "special|coat-rail|{\"cols\": 1, \"front\": \"cane\", \"panels\": 3}",
+  "sha256": "4963c8a59edbccc5c06a2cd90e990928b178f6172d8537340eec2b89c216dd2a",
+  "bytes": 15852,
+  "triangles": 368,
+  "vertices": 354,
+  "drawPrimitives": 2,
+  "bounds": {
+    "min": [
+      -0.5189999938011169,
+      0.0,
+      -0.24881362915039062
+    ],
+    "max": [
+      0.5189999938011169,
+      1.671000050380826,
+      0.23000000417232513
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 1.0379999876022339,
+    "depth": 0.47881363332271576,
+    "height": 1.671000050380826
+  },
+  "footprint": [
+    [
+      -0.5189999938011169,
+      -0.24881362915039062
+    ],
+    [
+      0.5189999938011169,
+      -0.24881362915039062
+    ],
+    [
+      0.5189999938011169,
+      0.23000000417232513
+    ],
+    [
+      -0.5189999938011169,
+      0.23000000417232513
+    ]
+  ],
+  "variantSlots": [
+    "metal",
+    "wood"
+  ],
+  "requiredExtensions": [],
+  "version": "0.2.0",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.coat-shoe-rail",
+  "file": "assets/v0.2.0/coat-shoe-rail.glb",
+  "sourceModel": "sources/v0.2.0/coat-shoe-rail.blend",
+  "thumbnail": "previews/v0.2.0/coat-shoe-rail.png",
+  "backThumbnail": "previews/v0.2.0/coat-shoe-rail-back.png",
+  "category": "specialty",
+  "subtype": "coat-rail",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "textures": {
+    "count": 0,
+    "bytes": 0
+  },
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.2.0/coat-shoe-rail.png",
+      "previews/v0.2.0/coat-shoe-rail-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.66,
+      0.53,
+      0.34
+    ],
+    [
+      0.36,
+      0.53,
+      0.58
+    ],
+    [
+      0.64,
+      0.6,
+      0.48
+    ]
+  ],
+  "colourTags": [
+    "mist blue",
+    "sand",
+    "pale oak"
+  ],
+  "materials": [
+    "metal",
+    "wood"
+  ],
+  "searchAliases": [
+    "entry hall",
+    "coat rail"
+  ],
+  "materialSlots": [
+    {
+      "id": "metal",
+      "material": "metal",
+      "recolourable": true
+    },
+    {
+      "id": "wood",
+      "material": "wood",
+      "recolourable": true
+    }
+  ]
+}

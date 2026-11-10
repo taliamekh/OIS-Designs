@@ -1,0 +1,64 @@
+{
+  "id": "ois.design.reclined-floor-chair",
+  "sha256": "fa33c0d77f0efb3740628f7041c416340af9e5afe09c7532585501f2e4a3340a",
+  "sourceModel": "sources/v0.7.0/reclined-floor-chair.blend",
+  "sourceSha256": "2394c4acb3b6d4aab392d7bdd119771d29ebcf60d8eeb46bb5019da85ccb4d16",
+  "partCount": 5,
+  "componentCount": 1,
+  "components": [
+    {
+      "parts": [
+        "floor pad",
+        "piping",
+        "reclined floor back",
+        "floor rocker",
+        "floor rocker.001"
+      ],
+      "minimum": [
+        -0.28700000047683716,
+        -0.4671526551246643,
+        0.0
+      ],
+      "maximum": [
+        0.28700000047683716,
+        0.41999998688697815,
+        0.6854576468467712
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "piping",
+      "b": "floor pad",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "floor rocker",
+      "b": "floor pad",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "floor rocker",
+      "b": "reclined floor back",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "floor rocker.001",
+      "b": "floor pad",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "floor rocker.001",
+      "b": "reclined floor back",
+      "method": "triangle intersection",
+      "distance": 0
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; live-source reports are NOT exported-asset evidence; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T04:00:31Z"
+}

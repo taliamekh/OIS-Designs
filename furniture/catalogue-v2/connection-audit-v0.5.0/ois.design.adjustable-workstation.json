@@ -1,0 +1,87 @@
+{
+  "id": "ois.design.adjustable-workstation",
+  "sha256": "351459220e70176c9ccf9370d4468dd47b43072e65fa73978579344a29cee0c0",
+  "sourceModel": "sources/v0.5.0/adjustable-workstation.blend",
+  "sourceSha256": "c32da286658d1096ab1d24ca8a11ba2a5b3ac3d1fb0363a0b82ddae040161a1a",
+  "partCount": 8,
+  "componentCount": 2,
+  "components": [
+    {
+      "parts": [
+        "T foot",
+        "telescopic lower",
+        "telescopic upper",
+        "T foot.001",
+        "telescopic lower.001",
+        "telescopic upper.001",
+        "crossbeam"
+      ],
+      "minimum": [
+        -0.4950000047683716,
+        -0.2762500047683716,
+        0.0
+      ],
+      "maximum": [
+        0.4950000047683716,
+        0.2762500047683716,
+        0.949999988079071
+      ]
+    },
+    {
+      "parts": [
+        "top"
+      ],
+      "minimum": [
+        -0.6499999761581421,
+        -0.32499998807907104,
+        0.9750000238418579
+      ],
+      "maximum": [
+        0.6499999761581421,
+        0.32499998807907104,
+        1.0199999809265137
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "telescopic lower",
+      "b": "T foot",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "telescopic upper",
+      "b": "telescopic lower",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "telescopic lower.001",
+      "b": "T foot.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "telescopic upper.001",
+      "b": "telescopic lower.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "crossbeam",
+      "b": "telescopic upper",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "crossbeam",
+      "b": "telescopic upper.001",
+      "method": "triangle intersection",
+      "distance": 0
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T03:07:30Z"
+}

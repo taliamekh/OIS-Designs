@@ -1,0 +1,151 @@
+{
+  "designId": "ois.design.racetrack-panel-coffee",
+  "familyId": "ois.family.racetrack-panel-coffee",
+  "id": "ois.design.racetrack-panel-coffee",
+  "name": "Racetrack panel table",
+  "roomTags": [
+    "living"
+  ],
+  "theme": "calm-oak",
+  "builder": "table",
+  "parameters": {
+    "form": "panel",
+    "w": 1.08,
+    "d": 0.62,
+    "h": 0.39,
+    "shape": "racetrack"
+  },
+  "distinction": "Capsule top over two wide planar supports.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted",
+    "sourceSnapshot": "sources/pipeline-e797cb5c88af56f5.py",
+    "sourceSha256": "e797cb5c88af56f5b4455d819a512ab9be55f40e1fa2d0cb542aca7bb84b906f",
+    "parametersFile": "sources/v0.2.1/racetrack-panel-coffee.parameters.json"
+  },
+  "constructionKey": "table|panel|{\"drawers\": false, \"shape\": \"racetrack\", \"shelf\": false}",
+  "sha256": "2ab2b2f3ea0fadf6358429b6dfa14a4893757318f4bdb2f997d1075ce9499e67",
+  "bytes": 30732,
+  "triangles": 564,
+  "vertices": 812,
+  "drawPrimitives": 1,
+  "bounds": {
+    "min": [
+      -0.5400000214576721,
+      0.0,
+      -0.3100000023841858
+    ],
+    "max": [
+      0.5400000214576721,
+      0.38999998569488525,
+      0.3100000023841858
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 1.0800000429153442,
+    "depth": 0.6200000047683716,
+    "height": 0.38999998569488525
+  },
+  "footprint": [
+    [
+      -0.5400000214576721,
+      -0.3100000023841858
+    ],
+    [
+      0.5400000214576721,
+      -0.3100000023841858
+    ],
+    [
+      0.5400000214576721,
+      0.3100000023841858
+    ],
+    [
+      -0.5400000214576721,
+      0.3100000023841858
+    ]
+  ],
+  "variantSlots": [
+    "wood"
+  ],
+  "requiredExtensions": [],
+  "version": "0.2.1",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.racetrack-panel-coffee",
+  "file": "assets/v0.2.1/racetrack-panel-coffee.glb",
+  "sourceModel": "sources/v0.2.1/racetrack-panel-coffee.blend",
+  "thumbnail": "previews/v0.2.1/racetrack-panel-coffee.png",
+  "backThumbnail": "previews/v0.2.1/racetrack-panel-coffee-back.png",
+  "category": "tables",
+  "subtype": "panel",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "textures": {
+    "count": 0,
+    "bytes": 0
+  },
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.2.1/racetrack-panel-coffee.png",
+      "previews/v0.2.1/racetrack-panel-coffee-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.58,
+      0.39,
+      0.2
+    ],
+    [
+      0.73,
+      0.7,
+      0.61
+    ],
+    [
+      0.12,
+      0.14,
+      0.13
+    ]
+  ],
+  "colourTags": [
+    "pale oak",
+    "ivory",
+    "oatmeal"
+  ],
+  "materials": [
+    "wood"
+  ],
+  "searchAliases": [
+    "living",
+    "panel"
+  ],
+  "materialSlots": [
+    {
+      "id": "wood",
+      "material": "wood",
+      "recolourable": true
+    }
+  ]
+}

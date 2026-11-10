@@ -1,0 +1,289 @@
+{
+  "id": "ois.design.spindle-head-bed",
+  "sha256": "073b6e3b973bd8f6e635b864893b6c3b2c54480f4f2b8aa17afc01679871706f",
+  "sourceModel": "sources/v0.5.0/spindle-head-bed.blend",
+  "sourceSha256": "eb0bedd82ff1257f3c7065e8a9b1bcad40a297e46467cbd72d6305c46564dd90",
+  "partCount": 26,
+  "componentCount": 1,
+  "components": [
+    {
+      "parts": [
+        "leg",
+        "leg.001",
+        "leg.002",
+        "leg.003",
+        "frame",
+        "mattress",
+        "piping",
+        "duvet",
+        "pillow",
+        "piping.001",
+        "pillow.001",
+        "piping.002",
+        "head post",
+        "head post.001",
+        "top rail",
+        "head spindle",
+        "head spindle.001",
+        "head spindle.002",
+        "head spindle.003",
+        "head spindle.004",
+        "head spindle.005",
+        "head spindle.006",
+        "head spindle.007",
+        "head spindle.008",
+        "head spindle.009",
+        "head spindle.010"
+      ],
+      "minimum": [
+        -0.8128688931465149,
+        -1.1060000658035278,
+        0.0
+      ],
+      "maximum": [
+        0.8128688931465149,
+        1.08738374710083,
+        1.1200000047683716
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "frame",
+      "b": "leg",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "frame",
+      "b": "leg.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "frame",
+      "b": "leg.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "frame",
+      "b": "leg.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "mattress",
+      "b": "frame",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "piping",
+      "b": "mattress",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "duvet",
+      "b": "mattress",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pillow",
+      "b": "mattress",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "piping.001",
+      "b": "pillow",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "pillow.001",
+      "b": "mattress",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "piping.002",
+      "b": "pillow.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "head post",
+      "b": "leg",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "head post",
+      "b": "frame",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "head post.001",
+      "b": "leg.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "head post.001",
+      "b": "frame",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "top rail",
+      "b": "head post",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "top rail",
+      "b": "head post.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "head spindle",
+      "b": "frame",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "head spindle",
+      "b": "top rail",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "head spindle.001",
+      "b": "frame",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "head spindle.001",
+      "b": "top rail",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "head spindle.002",
+      "b": "frame",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "head spindle.002",
+      "b": "top rail",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "head spindle.003",
+      "b": "frame",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "head spindle.003",
+      "b": "top rail",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "head spindle.004",
+      "b": "frame",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "head spindle.004",
+      "b": "top rail",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "head spindle.005",
+      "b": "frame",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "head spindle.005",
+      "b": "top rail",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "head spindle.006",
+      "b": "frame",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "head spindle.006",
+      "b": "top rail",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "head spindle.007",
+      "b": "frame",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "head spindle.007",
+      "b": "top rail",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "head spindle.008",
+      "b": "frame",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "head spindle.008",
+      "b": "top rail",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "head spindle.009",
+      "b": "frame",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "head spindle.009",
+      "b": "top rail",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "head spindle.010",
+      "b": "frame",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "head spindle.010",
+      "b": "top rail",
+      "method": "triangle intersection",
+      "distance": 0
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T03:07:34Z"
+}

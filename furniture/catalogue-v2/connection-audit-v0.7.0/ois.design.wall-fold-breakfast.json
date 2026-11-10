@@ -1,0 +1,51 @@
+{
+  "id": "ois.design.wall-fold-breakfast",
+  "sha256": "8a870fba7a46c11f853ad950f23763d2915421c6756c3850d8b5923b5cfcacc2",
+  "sourceModel": "sources/v0.7.0/wall-fold-breakfast.blend",
+  "sourceSha256": "679b9b52123d8b2d8df9d303ad730d9cdbb2687cf0ac306ee5964cb0268259f0",
+  "partCount": 4,
+  "componentCount": 1,
+  "components": [
+    {
+      "parts": [
+        "wall mounting plate",
+        "folding top",
+        "folding wall stay",
+        "folding wall stay.001"
+      ],
+      "minimum": [
+        -0.44999998807907104,
+        -0.2750000059604645,
+        -7.450580596923828e-09
+      ],
+      "maximum": [
+        0.44999998807907104,
+        0.2750000059604645,
+        0.7611194252967834
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "folding top",
+      "b": "wall mounting plate",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "folding wall stay",
+      "b": "folding top",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "folding wall stay.001",
+      "b": "folding top",
+      "method": "triangle intersection",
+      "distance": 0
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; live-source reports are NOT exported-asset evidence; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T04:00:32Z"
+}

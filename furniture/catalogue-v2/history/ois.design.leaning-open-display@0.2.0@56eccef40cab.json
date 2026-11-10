@@ -1,0 +1,149 @@
+{
+  "designId": "ois.design.leaning-open-display",
+  "familyId": "ois.family.leaning-open-display",
+  "id": "ois.design.leaning-open-display",
+  "name": "Leaning open display",
+  "roomTags": [
+    "storage"
+  ],
+  "theme": "soft-japandi",
+  "builder": "case",
+  "parameters": {
+    "form": "ladder",
+    "front": "slab",
+    "w": 1.15,
+    "h": 1.65,
+    "rows": 3,
+    "cols": 2
+  },
+  "distinction": "Three levels split into six bays with independent leaning stiles.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted"
+  },
+  "constructionKey": "case|ladder|{\"base\": \"taper\", \"cols\": 2, \"doors\": 2, \"drawersTop\": false, \"front\": \"slab\", \"rows\": 3}",
+  "sha256": "56eccef40cab1f390e5e36d93f5992e925205d79f2fd652197e818f5cf190c2f",
+  "bytes": 79632,
+  "triangles": 1676,
+  "vertices": 2130,
+  "drawPrimitives": 1,
+  "bounds": {
+    "min": [
+      -0.5780000219123713,
+      -2.759671646757056e-08,
+      -0.2000000283585019
+    ],
+    "max": [
+      0.5779999911674509,
+      1.739458208224836,
+      0.20000004849364916
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 1.1560000130798223,
+    "depth": 0.40000007685215105,
+    "height": 1.7394582358215525
+  },
+  "footprint": [
+    [
+      -0.5780000219123713,
+      -0.2000000283585019
+    ],
+    [
+      0.5779999911674509,
+      -0.2000000283585019
+    ],
+    [
+      0.5779999911674509,
+      0.20000004849364916
+    ],
+    [
+      -0.5780000219123713,
+      0.20000004849364916
+    ]
+  ],
+  "variantSlots": [
+    "wood"
+  ],
+  "requiredExtensions": [],
+  "version": "0.2.0",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.leaning-open-display",
+  "file": "assets/v0.2.0/leaning-open-display.glb",
+  "sourceModel": "sources/v0.2.0/leaning-open-display.blend",
+  "thumbnail": "previews/v0.2.0/leaning-open-display.png",
+  "backThumbnail": "previews/v0.2.0/leaning-open-display-back.png",
+  "category": "storage",
+  "subtype": "ladder",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "textures": {
+    "count": 0,
+    "bytes": 0
+  },
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.2.0/leaning-open-display.png",
+      "previews/v0.2.0/leaning-open-display-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.34,
+      0.28,
+      0.19
+    ],
+    [
+      0.58,
+      0.54,
+      0.44
+    ],
+    [
+      0.15,
+      0.17,
+      0.15
+    ]
+  ],
+  "colourTags": [
+    "ash",
+    "flax",
+    "stone"
+  ],
+  "materials": [
+    "wood"
+  ],
+  "searchAliases": [
+    "storage",
+    "ladder"
+  ],
+  "materialSlots": [
+    {
+      "id": "wood",
+      "material": "wood",
+      "recolourable": true
+    }
+  ]
+}

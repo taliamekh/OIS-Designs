@@ -1,0 +1,58 @@
+{
+  "id": "ois.design.oval-dual-pedestal",
+  "sha256": "6d8c53883df96b9ed497bf31e955adb8749b03ea36cca8377db90c08a467d94e",
+  "sourceModel": "sources/v0.7.0/oval-dual-pedestal.blend",
+  "sourceSha256": "2a24e436e9c2243012377bd8a19f5286cca243a6c3fe4bd64a2f6488a194bf94",
+  "partCount": 5,
+  "componentCount": 1,
+  "components": [
+    {
+      "parts": [
+        "top",
+        "disc base",
+        "stem",
+        "disc base.001",
+        "stem.001"
+      ],
+      "minimum": [
+        -0.824999988079071,
+        -0.4399999976158142,
+        0.0
+      ],
+      "maximum": [
+        0.824999988079071,
+        0.4399999976158142,
+        0.75
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "stem",
+      "b": "top",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "stem",
+      "b": "disc base",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "stem.001",
+      "b": "top",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "stem.001",
+      "b": "disc base.001",
+      "method": "triangle intersection",
+      "distance": 0
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; live-source reports are NOT exported-asset evidence; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T03:51:56Z"
+}

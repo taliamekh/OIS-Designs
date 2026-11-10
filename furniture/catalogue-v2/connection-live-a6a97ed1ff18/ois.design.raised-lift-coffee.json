@@ -1,0 +1,171 @@
+{
+  "id": "ois.design.raised-lift-coffee",
+  "sha256": "unexported-source-a6a97ed1ff18ea7190f4c07e8ea17b6dba901563a653d7aed874183539ef16c1",
+  "sourceModel": null,
+  "sourceSha256": "a6a97ed1ff18ea7190f4c07e8ea17b6dba901563a653d7aed874183539ef16c1",
+  "partCount": 12,
+  "componentCount": 6,
+  "components": [
+    {
+      "parts": [
+        "storage floor",
+        "case end",
+        "case end.001",
+        "case face",
+        "case face.001",
+        "sled frame",
+        "sled frame.001"
+      ],
+      "minimum": [
+        -0.5649999976158142,
+        -0.3149999976158142,
+        0.0036093462258577347
+      ],
+      "maximum": [
+        0.5649999976158142,
+        0.3149999976158142,
+        0.39500001072883606
+      ]
+    },
+    {
+      "parts": [
+        "raised lift top"
+      ],
+      "minimum": [
+        -0.550000011920929,
+        -0.13200001418590546,
+        0.6600000262260437
+      ],
+      "maximum": [
+        0.550000011920929,
+        0.46799999475479126,
+        0.699999988079071
+      ]
+    },
+    {
+      "parts": [
+        "scissor lift"
+      ],
+      "minimum": [
+        -0.3969999849796295,
+        -0.13072672486305237,
+        0.304620623588562
+      ],
+      "maximum": [
+        -0.37299999594688416,
+        0.058726727962493896,
+        0.6503793597221375
+      ]
+    },
+    {
+      "parts": [
+        "scissor lift.001"
+      ],
+      "minimum": [
+        -0.3969999849796295,
+        0.1092732846736908,
+        0.304620623588562
+      ],
+      "maximum": [
+        -0.37299999594688416,
+        0.2987267076969147,
+        0.6503793597221375
+      ]
+    },
+    {
+      "parts": [
+        "scissor lift.002"
+      ],
+      "minimum": [
+        0.37299999594688416,
+        -0.13072672486305237,
+        0.304620623588562
+      ],
+      "maximum": [
+        0.3969999849796295,
+        0.058726727962493896,
+        0.6503793597221375
+      ]
+    },
+    {
+      "parts": [
+        "scissor lift.003"
+      ],
+      "minimum": [
+        0.37299999594688416,
+        0.1092732846736908,
+        0.304620623588562
+      ],
+      "maximum": [
+        0.3969999849796295,
+        0.2987267076969147,
+        0.6503793597221375
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "case end",
+      "b": "storage floor",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "case end.001",
+      "b": "storage floor",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "case face",
+      "b": "storage floor",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "case face",
+      "b": "case end",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "case face",
+      "b": "case end.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "case face.001",
+      "b": "storage floor",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "case face.001",
+      "b": "case end",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "case face.001",
+      "b": "case end.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "sled frame",
+      "b": "storage floor",
+      "method": "surface distance",
+      "distance": 0.002499997615814209
+    },
+    {
+      "a": "sled frame.001",
+      "b": "storage floor",
+      "method": "surface distance",
+      "distance": 0.002499997615814209
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; live-source reports are NOT exported-asset evidence; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T03:19:59Z"
+}

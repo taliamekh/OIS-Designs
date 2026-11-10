@@ -1,0 +1,11 @@
+# Shared texture bank browser experiment
+
+Frozen fixture: `furniture/catalogue-v2/browser-texture-bank-v0.5.0/fixture.json`, SHA-256 `b37d34ce7c06d6aef9731c72ea26d50db81b2b9ba85c1afa4384fd5b54096390`. It contains 40 actual staged candidates, 87,432 source triangles. Fixture membership does not imply visual acceptance.
+
+Installed Edge headless WebGL imported and rendered the same fixture with ordinary embedded textures and with the optional bank in `furniture/review/shared-texture-bank.js`. Both runs produced no browser errors. Renderer texture counts fell from231 to9; geometry counts stayed108. Screenshots were pixel-identical, including the render area: RMSE0 and maximum channel difference0. The forty-item screenshot was visually inspected. After40 model swaps and complete disposal, both modes returned to2 utility geometries and0 texture allocations; the bank also had0 leases and0 retained entries.
+
+These are desktop browser allocation counters, not measured GPU bytes, a phone frame-rate claim, or an Expo/native integration result. Embedded GLBs remain portable and unchanged. The optional bank hashes original embedded image bytes and includes colour space, sampler filtering/wrapping, UV channel/matrix, mipmap settings, alpha unpacking and anisotropy in the key. Material colour factors and normal strength remain independent. Reference-counted scene leases prevent disposal of a texture still used by another loaded model. Redundant decoded bitmaps and unreferenced textures are released.
+
+Evidence: `furniture/catalogue-v2/browser-texture-bank-v0.5.0/{result.json,pixel-comparison.json,embedded.png,bank.png}`. Probe source: `furniture/scripts/browser_texture_bank_probe.cjs`. Viewer uses `?bank=1` to opt in. This is an owned asset-integration experiment; no app files were modified.
+
+Additional guard probe:21 actual-browser cases pass in guards.json. Identical texture semantics share an object; per-model tint and normal strength remain isolated; releasing one scene preserves another scene's leases. Changing wrapping, filter, colour space, UV offset/rotation/channel, flipY or anisotropy keeps separate keys. Each test releases all leases. Source: browser_texture_bank_guards.cjs.

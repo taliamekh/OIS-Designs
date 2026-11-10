@@ -1,0 +1,163 @@
+{
+  "designId": "ois.design.rolling-printer-station",
+  "familyId": "ois.family.rolling-printer-station",
+  "id": "ois.design.rolling-printer-station",
+  "name": "Rolling printer station",
+  "roomTags": [
+    "office"
+  ],
+  "theme": "city-loft",
+  "builder": "special",
+  "parameters": {
+    "form": "printer-cart",
+    "w": 0.65,
+    "d": 0.55,
+    "h": 0.73
+  },
+  "distinction": "Two wheeled trays and push handle create a portable work surface.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted"
+  },
+  "constructionKey": "special|printer-cart|{\"cols\": 1, \"front\": \"cane\", \"panels\": 3}",
+  "sha256": "ee08ecbf185aad5bf995df4398bfc2b5dd77152e47ce7215bb1c2497720d8857",
+  "bytes": 87116,
+  "triangles": 2856,
+  "vertices": 2108,
+  "drawPrimitives": 3,
+  "bounds": {
+    "min": [
+      -0.3399999737739563,
+      0.0,
+      -0.2750000059604645
+    ],
+    "max": [
+      0.32499998807907104,
+      0.8942668437957764,
+      0.2750000059604645
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 0.6649999618530273,
+    "depth": 0.550000011920929,
+    "height": 0.8942668437957764
+  },
+  "footprint": [
+    [
+      -0.3399999737739563,
+      -0.2750000059604645
+    ],
+    [
+      0.32499998807907104,
+      -0.2750000059604645
+    ],
+    [
+      0.32499998807907104,
+      0.2750000059604645
+    ],
+    [
+      -0.3399999737739563,
+      0.2750000059604645
+    ]
+  ],
+  "variantSlots": [
+    "dark",
+    "metal",
+    "wood"
+  ],
+  "requiredExtensions": [],
+  "version": "0.2.0",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.rolling-printer-station",
+  "file": "assets/v0.2.0/rolling-printer-station.glb",
+  "sourceModel": "sources/v0.2.0/rolling-printer-station.blend",
+  "thumbnail": "previews/v0.2.0/rolling-printer-station.png",
+  "backThumbnail": "previews/v0.2.0/rolling-printer-station-back.png",
+  "category": "specialty",
+  "subtype": "printer-cart",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "textures": {
+    "count": 0,
+    "bytes": 0
+  },
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.2.0/rolling-printer-station.png",
+      "previews/v0.2.0/rolling-printer-station-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.23,
+      0.15,
+      0.09
+    ],
+    [
+      0.12,
+      0.14,
+      0.16
+    ],
+    [
+      0.045,
+      0.05,
+      0.055
+    ]
+  ],
+  "colourTags": [
+    "charcoal",
+    "black",
+    "weathered wood"
+  ],
+  "materials": [
+    "metal",
+    "paint",
+    "wood"
+  ],
+  "searchAliases": [
+    "office",
+    "printer cart"
+  ],
+  "materialSlots": [
+    {
+      "id": "dark",
+      "material": "dark",
+      "recolourable": true
+    },
+    {
+      "id": "metal",
+      "material": "metal",
+      "recolourable": true
+    },
+    {
+      "id": "wood",
+      "material": "wood",
+      "recolourable": true
+    }
+  ],
+  "geometryHash": "5bdc7ddaf7da59a7e2a7fd6420033ce7539ada98578018e548233a03afa133af",
+  "normalizedMirrorGeometryHash": "13f33c714169d46b4d7cbbe1297bddd3883feef70ee730696a4918c89d3b9761"
+}

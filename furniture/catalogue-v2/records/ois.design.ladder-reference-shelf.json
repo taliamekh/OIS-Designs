@@ -1,0 +1,151 @@
+{
+  "designId": "ois.design.ladder-reference-shelf",
+  "familyId": "ois.family.ladder-reference-shelf",
+  "id": "ois.design.ladder-reference-shelf",
+  "name": "Ladder reference shelf",
+  "roomTags": [
+    "office"
+  ],
+  "theme": "coastal-linen",
+  "builder": "case",
+  "parameters": {
+    "form": "ladder",
+    "rows": 5,
+    "w": 0.8,
+    "h": 1.8,
+    "d": 0.32
+  },
+  "distinction": "Sloping stiles behind an open tiered display.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted",
+    "sourceSnapshot": "sources/pipeline-e797cb5c88af56f5.py",
+    "sourceSha256": "e797cb5c88af56f5b4455d819a512ab9be55f40e1fa2d0cb542aca7bb84b906f",
+    "parametersFile": "sources/v0.2.1/ladder-reference-shelf.parameters.json"
+  },
+  "constructionKey": "case|ladder|{\"base\": \"taper\", \"cols\": 1, \"doors\": 2, \"drawersTop\": false, \"front\": \"slab\", \"rows\": 5}",
+  "sha256": "7b0bb91d39569f483bb1fb21ed9447720df8a7b1a57fee9b250e64a6652723a5",
+  "bytes": 92004,
+  "triangles": 1864,
+  "vertices": 2477,
+  "drawPrimitives": 1,
+  "bounds": {
+    "min": [
+      -0.40999999142132376,
+      -2.417446047509042e-08,
+      -0.16000000240169154
+    ],
+    "max": [
+      0.4099999952159853,
+      1.8870160849665185,
+      0.16000005476710813
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 0.8199999866373091,
+    "depth": 0.32000005716879965,
+    "height": 1.887016109140979
+  },
+  "footprint": [
+    [
+      -0.40999999142132376,
+      -0.16000000240169154
+    ],
+    [
+      0.4099999952159853,
+      -0.16000000240169154
+    ],
+    [
+      0.4099999952159853,
+      0.16000005476710813
+    ],
+    [
+      -0.40999999142132376,
+      0.16000005476710813
+    ]
+  ],
+  "variantSlots": [
+    "wood"
+  ],
+  "requiredExtensions": [],
+  "version": "0.2.1",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.ladder-reference-shelf",
+  "file": "assets/v0.2.1/ladder-reference-shelf.glb",
+  "sourceModel": "sources/v0.2.1/ladder-reference-shelf.blend",
+  "thumbnail": "previews/v0.2.1/ladder-reference-shelf.png",
+  "backThumbnail": "previews/v0.2.1/ladder-reference-shelf-back.png",
+  "category": "storage",
+  "subtype": "ladder",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "textures": {
+    "count": 0,
+    "bytes": 0
+  },
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.2.1/ladder-reference-shelf.png",
+      "previews/v0.2.1/ladder-reference-shelf-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.66,
+      0.53,
+      0.34
+    ],
+    [
+      0.36,
+      0.53,
+      0.58
+    ],
+    [
+      0.64,
+      0.6,
+      0.48
+    ]
+  ],
+  "colourTags": [
+    "mist blue",
+    "sand",
+    "pale oak"
+  ],
+  "materials": [
+    "wood"
+  ],
+  "searchAliases": [
+    "office",
+    "ladder"
+  ],
+  "materialSlots": [
+    {
+      "id": "wood",
+      "material": "wood",
+      "recolourable": true
+    }
+  ]
+}

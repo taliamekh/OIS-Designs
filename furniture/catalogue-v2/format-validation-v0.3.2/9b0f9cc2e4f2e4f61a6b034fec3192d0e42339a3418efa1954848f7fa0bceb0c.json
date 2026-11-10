@@ -1,0 +1,142 @@
+{
+  "validatorVersion": "2.0.0-dev.3.10",
+  "sha256": "9b0f9cc2e4f2e4f61a6b034fec3192d0e42339a3418efa1954848f7fa0bceb0c",
+  "report": {
+    "uri": "ois.design.cheval-dressing-mirror@0.3.2.glb",
+    "mimeType": "model/gltf-binary",
+    "validatorVersion": "2.0.0-dev.3.10",
+    "validatedAt": "2026-11-10T02:04:38.617Z",
+    "issues": {
+      "numErrors": 8,
+      "numWarnings": 0,
+      "numInfos": 2,
+      "numHints": 0,
+      "messages": [
+        {
+          "code": "UNUSED_MESH_TANGENT",
+          "message": "Tangents are not used because the material has no normal texture.",
+          "severity": 2,
+          "pointer": "/meshes/0/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "UNUSED_OBJECT",
+          "message": "This object may be unused.",
+          "severity": 2,
+          "pointer": "/meshes/0/primitives/0/attributes/TEXCOORD_0"
+        },
+        {
+          "code": "ACCESSOR_VECTOR3_NON_UNIT",
+          "message": "Vector3 at accessor indices 44..46 is not of unit length: 0.",
+          "severity": 0,
+          "pointer": "/meshes/0/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "ACCESSOR_VECTOR3_NON_UNIT",
+          "message": "Vector3 at accessor indices 488..490 is not of unit length: 0.",
+          "severity": 0,
+          "pointer": "/meshes/0/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "ACCESSOR_VECTOR3_NON_UNIT",
+          "message": "Vector3 at accessor indices 700..702 is not of unit length: 0.",
+          "severity": 0,
+          "pointer": "/meshes/0/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "ACCESSOR_VECTOR3_NON_UNIT",
+          "message": "Vector3 at accessor indices 880..882 is not of unit length: 0.",
+          "severity": 0,
+          "pointer": "/meshes/0/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "ACCESSOR_VECTOR3_NON_UNIT",
+          "message": "Vector3 at accessor indices 1256..1258 is not of unit length: 0.",
+          "severity": 0,
+          "pointer": "/meshes/0/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "ACCESSOR_VECTOR3_NON_UNIT",
+          "message": "Vector3 at accessor indices 1432..1434 is not of unit length: 0.",
+          "severity": 0,
+          "pointer": "/meshes/0/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "ACCESSOR_VECTOR3_NON_UNIT",
+          "message": "Vector3 at accessor indices 1708..1710 is not of unit length: 0.",
+          "severity": 0,
+          "pointer": "/meshes/0/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "ACCESSOR_VECTOR3_NON_UNIT",
+          "message": "Vector3 at accessor indices 2088..2090 is not of unit length: 0.",
+          "severity": 0,
+          "pointer": "/meshes/0/primitives/0/attributes/TANGENT"
+        }
+      ],
+      "truncated": false
+    },
+    "info": {
+      "version": "2.0",
+      "generator": "Khronos glTF Blender I/O v5.2.40",
+      "resources": [
+        {
+          "pointer": "/buffers/0",
+          "mimeType": "application/gltf-buffer",
+          "storage": "glb",
+          "byteLength": 332972
+        },
+        {
+          "pointer": "/images/0",
+          "mimeType": "image/png",
+          "storage": "buffer-view",
+          "image": {
+            "width": 256,
+            "height": 256,
+            "format": "rgb",
+            "primaries": "srgb",
+            "transfer": "srgb",
+            "bits": 8
+          }
+        },
+        {
+          "pointer": "/images/1",
+          "mimeType": "image/png",
+          "storage": "buffer-view",
+          "image": {
+            "width": 256,
+            "height": 256,
+            "format": "rgb",
+            "primaries": "srgb",
+            "transfer": "srgb",
+            "bits": 8
+          }
+        },
+        {
+          "pointer": "/images/2",
+          "mimeType": "image/png",
+          "storage": "buffer-view",
+          "image": {
+            "width": 256,
+            "height": 256,
+            "format": "rgb",
+            "primaries": "srgb",
+            "transfer": "srgb",
+            "bits": 8
+          }
+        }
+      ],
+      "animationCount": 0,
+      "materialCount": 2,
+      "hasMorphTargets": false,
+      "hasSkins": false,
+      "hasTextures": true,
+      "hasDefaultScene": true,
+      "drawCallCount": 2,
+      "totalVertexCount": 3148,
+      "totalTriangleCount": 1180,
+      "maxUVs": 1,
+      "maxInfluences": 0,
+      "maxAttributes": 4
+    }
+  }
+}

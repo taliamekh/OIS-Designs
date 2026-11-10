@@ -1,0 +1,167 @@
+{
+  "designId": "ois.design.sleigh-panel-bed",
+  "familyId": "ois.family.sleigh-panel-bed",
+  "id": "ois.design.sleigh-panel-bed",
+  "name": "Sleigh panel bed",
+  "roomTags": [
+    "bedroom"
+  ],
+  "theme": "walnut-form",
+  "builder": "bed",
+  "parameters": {
+    "form": "sleigh",
+    "size": "queen",
+    "platform": 0.38
+  },
+  "distinction": "Curved end uprights support substantial head and foot panels.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted"
+  },
+  "bedSize": "queen",
+  "mattressMetres": [
+    1.524,
+    2.032,
+    0.22
+  ],
+  "safetyReviewRequired": false,
+  "sha256": "f00e0d2ac9ed926231078153296e5a510d071e743b33b4695fbe7c79e000d3a9",
+  "bytes": 146204,
+  "triangles": 3704,
+  "vertices": 3764,
+  "drawPrimitives": 3,
+  "bounds": {
+    "min": [
+      -0.8145201436000806,
+      -2.992943248791846e-08,
+      -1.2310001638667294
+    ],
+    "max": [
+      0.8145201335884553,
+      1.0568674375407205,
+      1.230999968789815
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 1.629040277188536,
+    "depth": 2.462000132656544,
+    "height": 1.056867467470153
+  },
+  "footprint": [
+    [
+      -0.8145201436000806,
+      -1.2310001638667294
+    ],
+    [
+      0.8145201335884553,
+      -1.2310001638667294
+    ],
+    [
+      0.8145201335884553,
+      1.230999968789815
+    ],
+    [
+      -0.8145201436000806,
+      1.230999968789815
+    ]
+  ],
+  "variantSlots": [
+    "fabric",
+    "linen",
+    "wood"
+  ],
+  "requiredExtensions": [],
+  "version": "0.2.0",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.sleigh-panel-bed",
+  "file": "assets/v0.2.0/sleigh-panel-bed.glb",
+  "sourceModel": "sources/v0.2.0/sleigh-panel-bed.blend",
+  "thumbnail": "previews/v0.2.0/sleigh-panel-bed.png",
+  "backThumbnail": "previews/v0.2.0/sleigh-panel-bed-back.png",
+  "category": "beds",
+  "subtype": "sleigh",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "textures": {
+    "count": 0,
+    "bytes": 0
+  },
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.2.0/sleigh-panel-bed.png",
+      "previews/v0.2.0/sleigh-panel-bed-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.22,
+      0.09,
+      0.038
+    ],
+    [
+      0.39,
+      0.18,
+      0.07
+    ],
+    [
+      0.47,
+      0.3,
+      0.1
+    ]
+  ],
+  "colourTags": [
+    "walnut",
+    "tobacco",
+    "brass"
+  ],
+  "materials": [
+    "textile",
+    "wood"
+  ],
+  "searchAliases": [
+    "bedroom",
+    "sleigh"
+  ],
+  "materialSlots": [
+    {
+      "id": "fabric",
+      "material": "fabric",
+      "recolourable": true
+    },
+    {
+      "id": "linen",
+      "material": "linen",
+      "recolourable": true
+    },
+    {
+      "id": "wood",
+      "material": "wood",
+      "recolourable": true
+    }
+  ],
+  "geometryHash": "29668b877babb79baa87ed7e4846d8491067b4177183cd77d0f061a0cf30484f",
+  "normalizedMirrorGeometryHash": "18a6cfc4c31b09e2fb5530dfc857e9a1617afec3decf9e8c1bfd169b3f4ae4ff"
+}

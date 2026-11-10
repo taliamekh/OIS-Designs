@@ -1,0 +1,1437 @@
+{
+  "id": "ois.design.suspended-wicker-chair",
+  "sha256": "unexported-source-6226f7a5305865fd189dfcec35a3077205588e7999488a17cff703d94c6b1b9f",
+  "sourceModel": null,
+  "sourceSha256": "6226f7a5305865fd189dfcec35a3077205588e7999488a17cff703d94c6b1b9f",
+  "partCount": 34,
+  "componentCount": 1,
+  "components": [
+    {
+      "parts": [
+        "weighted floor disc",
+        "cantilever suspension frame",
+        "suspension cable",
+        "basket spine",
+        "basket spine.001",
+        "basket spine.002",
+        "basket spine.003",
+        "basket spine.004",
+        "basket spine.005",
+        "basket spine.006",
+        "basket spine.007",
+        "basket spine.008",
+        "basket spine.009",
+        "basket spine.010",
+        "basket spine.011",
+        "basket spine.012",
+        "basket spine.013",
+        "basket spine.014",
+        "basket spine.015",
+        "basket spine.016",
+        "basket spine.017",
+        "basket spine.018",
+        "basket spine.019",
+        "basket curved rib",
+        "basket curved rib.001",
+        "basket curved rib.002",
+        "basket curved rib.003",
+        "basket curved rib.004",
+        "basket curved rib.005",
+        "basket hanger yoke",
+        "basket hanger yoke.001",
+        "basket seat support",
+        "loose seat cushion",
+        "piping"
+      ],
+      "minimum": [
+        -0.550000011920929,
+        -0.6500000357627869,
+        -7.450580596923828e-09
+      ],
+      "maximum": [
+        0.550000011920929,
+        0.45000001788139343,
+        2.0767128467559814
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "cantilever suspension frame",
+      "b": "weighted floor disc",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "suspension cable",
+      "b": "cantilever suspension frame",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "basket spine.001",
+      "b": "basket spine",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "basket spine.002",
+      "b": "basket spine",
+      "method": "surface distance",
+      "distance": 0.0014369877753779292
+    },
+    {
+      "a": "basket spine.002",
+      "b": "basket spine.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "basket spine.003",
+      "b": "basket spine.001",
+      "method": "surface distance",
+      "distance": 0.0007672521169297397
+    },
+    {
+      "a": "basket spine.003",
+      "b": "basket spine.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "basket spine.004",
+      "b": "basket spine.002",
+      "method": "surface distance",
+      "distance": 0.0012734334450215101
+    },
+    {
+      "a": "basket spine.004",
+      "b": "basket spine.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "basket spine.005",
+      "b": "basket spine.003",
+      "method": "surface distance",
+      "distance": 0.0022881769109517336
+    },
+    {
+      "a": "basket spine.005",
+      "b": "basket spine.004",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "basket spine.006",
+      "b": "basket spine.004",
+      "method": "surface distance",
+      "distance": 0.0032167716417461634
+    },
+    {
+      "a": "basket spine.006",
+      "b": "basket spine.005",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "basket spine.007",
+      "b": "basket spine.005",
+      "method": "surface distance",
+      "distance": 0.003934115637093782
+    },
+    {
+      "a": "basket spine.007",
+      "b": "basket spine.006",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "basket spine.008",
+      "b": "basket spine.007",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "basket spine.009",
+      "b": "basket spine.008",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "basket spine.010",
+      "b": "basket spine.009",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "basket spine.011",
+      "b": "basket spine.010",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "basket spine.012",
+      "b": "basket spine.011",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "basket spine.013",
+      "b": "basket spine.012",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "basket spine.014",
+      "b": "basket spine.012",
+      "method": "surface distance",
+      "distance": 0.003686068579554558
+    },
+    {
+      "a": "basket spine.014",
+      "b": "basket spine.013",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "basket spine.015",
+      "b": "basket spine.013",
+      "method": "surface distance",
+      "distance": 0.0028467741794884205
+    },
+    {
+      "a": "basket spine.015",
+      "b": "basket spine.014",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "basket spine.016",
+      "b": "basket spine.014",
+      "method": "surface distance",
+      "distance": 0.001951392856426537
+    },
+    {
+      "a": "basket spine.016",
+      "b": "basket spine.015",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "basket spine.017",
+      "b": "basket spine.015",
+      "method": "surface distance",
+      "distance": 0.001144160283729434
+    },
+    {
+      "a": "basket spine.017",
+      "b": "basket spine.016",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "basket spine.018",
+      "b": "basket spine.016",
+      "method": "surface distance",
+      "distance": 0.0007736871484667063
+    },
+    {
+      "a": "basket spine.018",
+      "b": "basket spine.017",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "basket spine.019",
+      "b": "basket spine.017",
+      "method": "surface distance",
+      "distance": 0.0016595290508121252
+    },
+    {
+      "a": "basket spine.019",
+      "b": "basket spine.018",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "basket curved rib",
+      "b": "basket spine",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "basket curved rib",
+      "b": "basket spine.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "basket curved rib",
+      "b": "basket spine.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "basket curved rib",
+      "b": "basket spine.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "basket curved rib",
+      "b": "basket spine.004",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "basket curved rib",
+      "b": "basket spine.005",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "basket curved rib",
+      "b": "basket spine.006",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "basket curved rib",
+      "b": "basket spine.007",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "basket curved rib",
+      "b": "basket spine.008",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "basket curved rib",
+      "b": "basket spine.009",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "basket curved rib",
+      "b": "basket spine.010",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "basket curved rib",
+      "b": "basket spine.011",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "basket curved rib",
+      "b": "basket spine.012",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "basket curved rib",
+      "b": "basket spine.013",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "basket curved rib",
+      "b": "basket spine.014",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "basket curved rib",
+      "b": "basket spine.015",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "basket curved rib",
+      "b": "basket spine.016",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "basket curved rib",
+      "b": "basket spine.017",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "basket curved rib",
+      "b": "basket spine.018",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "basket curved rib",
+      "b": "basket spine.019",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "basket curved rib.001",
+      "b": "basket spine",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "basket curved rib.001",
+      "b": "basket spine.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "basket curved rib.001",
+      "b": "basket spine.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "basket curved rib.001",
+      "b": "basket spine.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "basket curved rib.001",
+      "b": "basket spine.004",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "basket curved rib.001",
+      "b": "basket spine.005",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "basket curved rib.001",
+      "b": "basket spine.006",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "basket curved rib.001",
+      "b": "basket spine.007",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "basket curved rib.001",
+      "b": "basket spine.008",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "basket curved rib.001",
+      "b": "basket spine.009",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "basket curved rib.001",
+      "b": "basket spine.010",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "basket curved rib.001",
+      "b": "basket spine.011",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "basket curved rib.001",
+      "b": "basket spine.012",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "basket curved rib.001",
+      "b": "basket spine.013",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "basket curved rib.001",
+      "b": "basket spine.014",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "basket curved rib.001",
+      "b": "basket spine.015",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "basket curved rib.001",
+      "b": "basket spine.016",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "basket curved rib.001",
+      "b": "basket spine.017",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "basket curved rib.001",
+      "b": "basket spine.018",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "basket curved rib.001",
+      "b": "basket spine.019",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "basket curved rib.002",
+      "b": "basket spine",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "basket curved rib.002",
+      "b": "basket spine.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "basket curved rib.002",
+      "b": "basket spine.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "basket curved rib.002",
+      "b": "basket spine.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "basket curved rib.002",
+      "b": "basket spine.004",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "basket curved rib.002",
+      "b": "basket spine.005",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "basket curved rib.002",
+      "b": "basket spine.006",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "basket curved rib.002",
+      "b": "basket spine.007",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "basket curved rib.002",
+      "b": "basket spine.008",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "basket curved rib.002",
+      "b": "basket spine.009",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "basket curved rib.002",
+      "b": "basket spine.010",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "basket curved rib.002",
+      "b": "basket spine.011",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "basket curved rib.002",
+      "b": "basket spine.012",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "basket curved rib.002",
+      "b": "basket spine.013",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "basket curved rib.002",
+      "b": "basket spine.014",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "basket curved rib.002",
+      "b": "basket spine.015",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "basket curved rib.002",
+      "b": "basket spine.016",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "basket curved rib.002",
+      "b": "basket spine.017",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "basket curved rib.002",
+      "b": "basket spine.018",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "basket curved rib.002",
+      "b": "basket spine.019",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "basket curved rib.003",
+      "b": "basket spine",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "basket curved rib.003",
+      "b": "basket spine.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "basket curved rib.003",
+      "b": "basket spine.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "basket curved rib.003",
+      "b": "basket spine.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "basket curved rib.003",
+      "b": "basket spine.004",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "basket curved rib.003",
+      "b": "basket spine.005",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "basket curved rib.003",
+      "b": "basket spine.006",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "basket curved rib.003",
+      "b": "basket spine.007",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "basket curved rib.003",
+      "b": "basket spine.008",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "basket curved rib.003",
+      "b": "basket spine.009",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "basket curved rib.003",
+      "b": "basket spine.010",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "basket curved rib.003",
+      "b": "basket spine.011",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "basket curved rib.003",
+      "b": "basket spine.012",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "basket curved rib.003",
+      "b": "basket spine.013",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "basket curved rib.003",
+      "b": "basket spine.014",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "basket curved rib.003",
+      "b": "basket spine.015",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "basket curved rib.003",
+      "b": "basket spine.016",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "basket curved rib.003",
+      "b": "basket spine.017",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "basket curved rib.003",
+      "b": "basket spine.018",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "basket curved rib.003",
+      "b": "basket spine.019",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "basket curved rib.004",
+      "b": "basket spine",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "basket curved rib.004",
+      "b": "basket spine.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "basket curved rib.004",
+      "b": "basket spine.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "basket curved rib.004",
+      "b": "basket spine.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "basket curved rib.004",
+      "b": "basket spine.004",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "basket curved rib.004",
+      "b": "basket spine.005",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "basket curved rib.004",
+      "b": "basket spine.006",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "basket curved rib.004",
+      "b": "basket spine.007",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "basket curved rib.004",
+      "b": "basket spine.008",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "basket curved rib.004",
+      "b": "basket spine.009",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "basket curved rib.004",
+      "b": "basket spine.010",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "basket curved rib.004",
+      "b": "basket spine.011",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "basket curved rib.004",
+      "b": "basket spine.012",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "basket curved rib.004",
+      "b": "basket spine.013",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "basket curved rib.004",
+      "b": "basket spine.014",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "basket curved rib.004",
+      "b": "basket spine.015",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "basket curved rib.004",
+      "b": "basket spine.016",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "basket curved rib.004",
+      "b": "basket spine.017",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "basket curved rib.004",
+      "b": "basket spine.018",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "basket curved rib.004",
+      "b": "basket spine.019",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "basket curved rib.005",
+      "b": "basket spine",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "basket curved rib.005",
+      "b": "basket spine.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "basket curved rib.005",
+      "b": "basket spine.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "basket curved rib.005",
+      "b": "basket spine.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "basket curved rib.005",
+      "b": "basket spine.004",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "basket curved rib.005",
+      "b": "basket spine.005",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "basket curved rib.005",
+      "b": "basket spine.006",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "basket curved rib.005",
+      "b": "basket spine.007",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "basket curved rib.005",
+      "b": "basket spine.008",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "basket curved rib.005",
+      "b": "basket spine.009",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "basket curved rib.005",
+      "b": "basket spine.010",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "basket curved rib.005",
+      "b": "basket spine.011",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "basket curved rib.005",
+      "b": "basket spine.012",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "basket curved rib.005",
+      "b": "basket spine.013",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "basket curved rib.005",
+      "b": "basket spine.014",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "basket curved rib.005",
+      "b": "basket spine.015",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "basket curved rib.005",
+      "b": "basket spine.016",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "basket curved rib.005",
+      "b": "basket spine.017",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "basket curved rib.005",
+      "b": "basket spine.018",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "basket curved rib.005",
+      "b": "basket spine.019",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "basket hanger yoke",
+      "b": "suspension cable",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "basket hanger yoke",
+      "b": "basket spine.004",
+      "method": "surface distance",
+      "distance": 0.0038683414459228516
+    },
+    {
+      "a": "basket hanger yoke",
+      "b": "basket spine.005",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "basket hanger yoke",
+      "b": "basket spine.006",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "basket hanger yoke",
+      "b": "basket spine.007",
+      "method": "surface distance",
+      "distance": 0.003568893764168024
+    },
+    {
+      "a": "basket hanger yoke",
+      "b": "basket curved rib.005",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "basket hanger yoke.001",
+      "b": "suspension cable",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "basket hanger yoke.001",
+      "b": "basket spine.012",
+      "method": "surface distance",
+      "distance": 0.003568910527974367
+    },
+    {
+      "a": "basket hanger yoke.001",
+      "b": "basket spine.013",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "basket hanger yoke.001",
+      "b": "basket spine.014",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "basket hanger yoke.001",
+      "b": "basket spine.015",
+      "method": "surface distance",
+      "distance": 0.0038683414459228516
+    },
+    {
+      "a": "basket hanger yoke.001",
+      "b": "basket curved rib.005",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "basket hanger yoke.001",
+      "b": "basket hanger yoke",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "basket seat support",
+      "b": "basket spine",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "basket seat support",
+      "b": "basket spine.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "basket seat support",
+      "b": "basket spine.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "basket seat support",
+      "b": "basket spine.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "basket seat support",
+      "b": "basket spine.004",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "basket seat support",
+      "b": "basket spine.005",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "basket seat support",
+      "b": "basket spine.006",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "basket seat support",
+      "b": "basket spine.007",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "basket seat support",
+      "b": "basket spine.008",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "basket seat support",
+      "b": "basket spine.009",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "basket seat support",
+      "b": "basket spine.010",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "basket seat support",
+      "b": "basket spine.011",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "basket seat support",
+      "b": "basket spine.012",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "basket seat support",
+      "b": "basket spine.013",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "basket seat support",
+      "b": "basket spine.014",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "basket seat support",
+      "b": "basket spine.015",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "basket seat support",
+      "b": "basket spine.016",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "basket seat support",
+      "b": "basket spine.017",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "basket seat support",
+      "b": "basket spine.018",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "basket seat support",
+      "b": "basket spine.019",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "loose seat cushion",
+      "b": "basket spine",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "loose seat cushion",
+      "b": "basket spine.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "loose seat cushion",
+      "b": "basket spine.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "loose seat cushion",
+      "b": "basket spine.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "loose seat cushion",
+      "b": "basket spine.004",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "loose seat cushion",
+      "b": "basket spine.005",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "loose seat cushion",
+      "b": "basket spine.006",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "loose seat cushion",
+      "b": "basket spine.007",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "loose seat cushion",
+      "b": "basket spine.008",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "loose seat cushion",
+      "b": "basket spine.009",
+      "method": "surface distance",
+      "distance": 0.0027254049200564623
+    },
+    {
+      "a": "loose seat cushion",
+      "b": "basket spine.010",
+      "method": "surface distance",
+      "distance": 0.0027254470624029636
+    },
+    {
+      "a": "loose seat cushion",
+      "b": "basket spine.011",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "loose seat cushion",
+      "b": "basket spine.012",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "loose seat cushion",
+      "b": "basket spine.013",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "loose seat cushion",
+      "b": "basket spine.014",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "loose seat cushion",
+      "b": "basket spine.015",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "loose seat cushion",
+      "b": "basket spine.016",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "loose seat cushion",
+      "b": "basket spine.017",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "loose seat cushion",
+      "b": "basket spine.018",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "loose seat cushion",
+      "b": "basket spine.019",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "loose seat cushion",
+      "b": "basket curved rib.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "loose seat cushion",
+      "b": "basket seat support",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "piping",
+      "b": "basket spine",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "piping",
+      "b": "basket spine.001",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "piping",
+      "b": "basket spine.002",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "piping",
+      "b": "basket spine.003",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "piping",
+      "b": "basket spine.004",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "piping",
+      "b": "basket spine.005",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "piping",
+      "b": "basket spine.006",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "piping",
+      "b": "basket spine.007",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "piping",
+      "b": "basket spine.008",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "piping",
+      "b": "basket spine.009",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "piping",
+      "b": "basket spine.010",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "piping",
+      "b": "basket spine.011",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "piping",
+      "b": "basket spine.012",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "piping",
+      "b": "basket spine.013",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "piping",
+      "b": "basket spine.014",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "piping",
+      "b": "basket spine.015",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "piping",
+      "b": "basket spine.016",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "piping",
+      "b": "basket spine.017",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "piping",
+      "b": "basket spine.018",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "piping",
+      "b": "basket spine.019",
+      "method": "triangle intersection",
+      "distance": 0
+    },
+    {
+      "a": "piping",
+      "b": "loose seat cushion",
+      "method": "triangle intersection",
+      "distance": 0
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; live-source reports are NOT exported-asset evidence; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T03:36:33Z"
+}

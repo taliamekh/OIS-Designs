@@ -1,0 +1,155 @@
+{
+  "designId": "ois.design.tripod-linen-floor",
+  "familyId": "ois.family.tripod-linen-floor",
+  "id": "ois.design.tripod-linen-floor",
+  "name": "Tripod linen floor lamp",
+  "roomTags": [
+    "living"
+  ],
+  "theme": "calm-oak",
+  "builder": "light",
+  "parameters": {
+    "form": "tripod-shade",
+    "h": 1.58
+  },
+  "distinction": "Three converging timber legs support an open fabric shade.",
+  "stage": "validated-candidate",
+  "countEligible": true,
+  "variants": [],
+  "variantOf": null,
+  "source": "scripts/design_geometry.py",
+  "licence": "LicenseRef-OIS-Original-Project",
+  "provenance": {
+    "kind": "original-procedural",
+    "authoring": "Codex for OIS Designs",
+    "thirdPartyGeometry": false,
+    "thirdPartyTextures": false,
+    "publicAssetLicence": "not separately granted",
+    "sourceSnapshot": "sources/pipeline-e797cb5c88af56f5.py",
+    "sourceSha256": "e797cb5c88af56f5b4455d819a512ab9be55f40e1fa2d0cb542aca7bb84b906f",
+    "parametersFile": "sources/v0.2.1/tripod-linen-floor.parameters.json"
+  },
+  "constructionKey": "light|tripod-shade|{}",
+  "sha256": "576dae6549431a74b722a2372b6cfd02433bf8f1dda40cc3fd337022c2279f71",
+  "bytes": 15596,
+  "triangles": 500,
+  "vertices": 358,
+  "drawPrimitives": 2,
+  "bounds": {
+    "min": [
+      -0.2199999988079071,
+      -2.0316911486517597e-08,
+      -0.282309105562293
+    ],
+    "max": [
+      0.3226229674466807,
+      1.5841475846245885,
+      0.28230923100318567
+    ]
+  },
+  "dimensionsMetres": {
+    "width": 0.5426229662545878,
+    "depth": 0.5646183365654787,
+    "height": 1.5841476049415
+  },
+  "footprint": [
+    [
+      -0.2199999988079071,
+      -0.282309105562293
+    ],
+    [
+      0.3226229674466807,
+      -0.282309105562293
+    ],
+    [
+      0.3226229674466807,
+      0.28230923100318567
+    ],
+    [
+      -0.2199999988079071,
+      0.28230923100318567
+    ]
+  ],
+  "variantSlots": [
+    "linen",
+    "wood"
+  ],
+  "requiredExtensions": [],
+  "version": "0.2.1",
+  "qualityStatus": "validated-candidate",
+  "geometryFamily": "ois.family.tripod-linen-floor",
+  "file": "assets/v0.2.1/tripod-linen-floor.glb",
+  "sourceModel": "sources/v0.2.1/tripod-linen-floor.blend",
+  "thumbnail": "previews/v0.2.1/tripod-linen-floor.png",
+  "backThumbnail": "previews/v0.2.1/tripod-linen-floor-back.png",
+  "category": "lighting",
+  "subtype": "tripod-shade",
+  "units": "metres",
+  "frame": "RH Y-up; +X right, -Z furniture front",
+  "pivot": "floor Y=0; centre of primary body XZ",
+  "textures": {
+    "count": 0,
+    "bytes": 0
+  },
+  "lod": {
+    "delivered": [
+      "LOD0"
+    ],
+    "planned": "LOD1 50% / LOD2 20% triangles, review silhouettes and device fixture before promotion"
+  },
+  "placement": {
+    "anchor": "floor",
+    "allowArbitraryScale": false,
+    "collision": "conservative oriented XZ bounds; clearance separate"
+  },
+  "visualReview": {
+    "status": "pending",
+    "images": [
+      "previews/v0.2.1/tripod-linen-floor.png",
+      "previews/v0.2.1/tripod-linen-floor-back.png"
+    ]
+  },
+  "favouriteStorage": "user set of stable catalogue IDs",
+  "colors": [
+    [
+      0.58,
+      0.39,
+      0.2
+    ],
+    [
+      0.73,
+      0.7,
+      0.61
+    ],
+    [
+      0.12,
+      0.14,
+      0.13
+    ]
+  ],
+  "colourTags": [
+    "pale oak",
+    "ivory",
+    "oatmeal"
+  ],
+  "materials": [
+    "textile",
+    "wood"
+  ],
+  "searchAliases": [
+    "living",
+    "tripod shade"
+  ],
+  "materialSlots": [
+    {
+      "id": "linen",
+      "material": "linen",
+      "recolourable": true
+    },
+    {
+      "id": "wood",
+      "material": "wood",
+      "recolourable": true
+    }
+  ]
+}

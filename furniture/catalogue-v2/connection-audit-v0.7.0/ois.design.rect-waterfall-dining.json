@@ -1,0 +1,44 @@
+{
+  "id": "ois.design.rect-waterfall-dining",
+  "sha256": "456952a456c1490a75993f5a3a8654c69a31501105c18c0daccbf57d07e2258b",
+  "sourceModel": "sources/v0.7.0/rect-waterfall-dining.blend",
+  "sourceSha256": "f3cf5e988da8bf83d5321ec2ec0562c12de3b830b235159d012ab3fd781ad442",
+  "partCount": 3,
+  "componentCount": 1,
+  "components": [
+    {
+      "parts": [
+        "top",
+        "waterfall end",
+        "waterfall end.001"
+      ],
+      "minimum": [
+        -0.824999988079071,
+        -0.4399999976158142,
+        0.0
+      ],
+      "maximum": [
+        0.824999988079071,
+        0.4399999976158142,
+        0.75
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "a": "waterfall end",
+      "b": "top",
+      "method": "surface distance",
+      "distance": 5.960464477539063e-08
+    },
+    {
+      "a": "waterfall end.001",
+      "b": "top",
+      "method": "surface distance",
+      "distance": 5.960464477539063e-08
+    }
+  ],
+  "toleranceMetres": 0.004,
+  "scope": "visual support screening only; live-source reports are NOT exported-asset evidence; disconnected loose pieces may be intentional, intersections are not structural certification",
+  "timeUtc": "2026-11-10T04:00:31Z"
+}
