@@ -14,7 +14,7 @@ VS Code and a Node runtime are already available on the current laptop. Dependen
 
 ## Phone app design review
 
-The [November 8 phone app proposal](docs/planning/README.md) contains the phone mockups, phased implementation plan, shared-data architecture, team responsibilities and sourced research. It covers manual house layouts, five coordinated furniture sets, individual finishes, grid/free placement, later multi-floor refinement, uploaded house-plan recognition, scanning and a web companion. It proposes keeping the Expo starter while validating the 3D renderer on physical devices. Review the mockups before implementing app features.
+The [November 8 phone app proposal](docs/planning/README.md) contains the phone mockups, phased implementation plan, shared-data architecture, team responsibilities and sourced research. It covers manual house layouts, five coordinated furniture sets, individual finishes, grid/free placement, later multi-floor refinement, uploaded house-plan recognition, scanning and a web companion. Its earlier starter hold was superseded by the November 9 implementation authorization. Current work and open device gates are tracked in the numbered phase status.
 
 The user authorized the real build November9. Round3 and the latest phone-usability corrections guide implementation; design mockups alone do not establish native capability. The newer proposal supersedes the engine/device assumptions in the historical research below. Phone pairing is deferred and does not block local implementation or automated checks.
 
@@ -35,7 +35,7 @@ The standard iPhone 13 can test an installed editor build and a compatible camer
 - [Phone testing](docs/PHONE_TESTING.md): Windows development, iOS builds, device coverage, and acceptance checks.
 - [Synthetic room fixture](samples/rooms/rectangular-room.json): a 4 m by 3 m room with 2.6 m walls and one doorway, for developing the importer independently of scanning.
 
-These guides establish the initial project plan and a sample data handoff. Native capture, a splat renderer, and a room editor have not been implemented. The scan contract is a proposal for both teams to review.
+These historical guides establish the initial research and sample data handoff. The current Expo editor is implemented in progress; capture and the scan contract remain separate provider work. Use the numbered phase status for current evidence.
 
 ## First milestone
 

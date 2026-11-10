@@ -1,4 +1,6 @@
-# Queued phase: spatial placement and whole-house views
+# Queued Phase 3 work package: spatial placement and whole-house views
+
+This continues **Phase 3 — Multi-floor house refinement** from `docs/planning/PHONE_APP_PLAN.md`, with placement polish supporting Phase 2. It is not a new numbering scheme. The broader original Phase 3 requirements, including camera presets, visibility, stair/void markers and separate advanced-ceiling increments, remain tracked in that plan and `docs/planning/PHASE_STATUS.md`.
 
 User request, November9,2026 at approximately22:43Toronto: after the furniture library is done, have its chat work on the full3D placement experience and how the whole house appears through different options, using Home Planner as a reference.
 
