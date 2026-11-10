@@ -10,6 +10,8 @@ if (
     "wall-clearance-audit",
     "door-leaf-clearance-audit",
     "boundary-repair-regression",
+    "opening-corner-physical",
+    "boundary-insertion-legacy",
   ].includes(name)
 )
   throw Error("Choose a known boundary probe");

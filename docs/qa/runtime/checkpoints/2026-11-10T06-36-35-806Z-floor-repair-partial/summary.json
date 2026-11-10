@@ -1,0 +1,254 @@
+{
+  "at": "2026-11-10T06:36:35.806Z",
+  "id": "RUNTIME-015",
+  "status": "source-repaired-live-controls-pass-cold-closure-pending",
+  "notOverallSignoff": true,
+  "minimumContinuedWorkGate": "2026-11-10T06:53:00Z",
+  "fixtureSHA256": "a0ac83ea6c8464488af0fd18628b5139ad80c3a1e194ca1a3c2560b19af0697e",
+  "firstSourceRegression": {
+    "at": "2026-11-10T06:14:17.218Z",
+    "sources": {
+      "mobile/src/domain/project.ts": "7a3026630a0dd937c07828004f31ab1ca16fb87a040627e59712ffed77d6edcc",
+      "mobile/src/domain/types.ts": "e818a704afc0cc972978dbdea369429ca33af346cced16f68eb88ccc1f5a42e5",
+      "mobile/src/domain/geometry.ts": "40924a03fd5852c8a692390247dcd7674a614ca1e055f8947a1a31dcec4df9c6",
+      "mobile/src/domain/construction.ts": "d248539e57f44afab413bc42ce49b6ea0e3a6f7bb6ace675757457ea651dff53",
+      "mobile/src/domain/persistence.ts": "ac166d419b677611c1b32d17fa0ddb9021d20f19cf3614fbd0e39719681e50ee",
+      "mobile/src/domain/roomMove.ts": "2a0c95b6911792dbaa0fb8ffddd10244c53ad756748d917aa1ec447a4fde48ab",
+      "mobile/src/scene/meshes.ts": "bd616ec1721ef5a2bf3ef2f5a9fb323dc37d8a9a33a4596ef75c16c9ef59b9ee"
+    },
+    "passed": 6,
+    "failed": 0,
+    "stableSources": true,
+    "checks": [
+      {
+        "id": "LEGACY-UNTOUCHED-SETTINGS-EXACT-NOOP",
+        "pass": true,
+        "observed": {
+          "exactHistoryIdentity": true
+        }
+      },
+      {
+        "id": "LEGACY-NEUTRAL-NAME",
+        "pass": true,
+        "observed": {
+          "historySteps": 1,
+          "localGeometryAndIdentityExact": true
+        }
+      },
+      {
+        "id": "LEGACY-NEUTRAL-ALIGNMENT",
+        "pass": true,
+        "observed": {
+          "historySteps": 1,
+          "localGeometryAndIdentityExact": true
+        }
+      },
+      {
+        "id": "LEGACY-NEUTRAL-ELEVATION",
+        "pass": true,
+        "observed": {
+          "historySteps": 1,
+          "localGeometryAndIdentityExact": true
+        }
+      },
+      {
+        "id": "NEW-PHYSICAL-OVERLAP-STILL-REJECTS",
+        "pass": true,
+        "observed": {
+          "error": "Keep the furniture clear of the physical wall."
+        }
+      },
+      {
+        "id": "NEW-CEILING-CONFLICT-STILL-REJECTS",
+        "pass": true,
+        "observed": {
+          "error": "Acoustic phone booth: This item exceeds the room ceiling height.",
+          "height": 1.9850000143051147
+        }
+      }
+    ],
+    "scope": "RUNTIME015 exact legacy fixture command/history compatibility with fresh-placement and ceiling-conflict negative controls;source-level,noCanvas/native/physicalclaim."
+  },
+  "recoveryFollowup": {
+    "at": "2026-11-10T06:16:58.745Z",
+    "sources": {
+      "mobile/src/domain/project.ts": "7a3026630a0dd937c07828004f31ab1ca16fb87a040627e59712ffed77d6edcc",
+      "mobile/src/domain/types.ts": "e818a704afc0cc972978dbdea369429ca33af346cced16f68eb88ccc1f5a42e5",
+      "mobile/src/domain/geometry.ts": "a25eee6dd2a21d613781ff0d1514764bccde7769eefc50ab3cffa26ec569246b",
+      "mobile/src/domain/construction.ts": "d248539e57f44afab413bc42ce49b6ea0e3a6f7bb6ace675757457ea651dff53",
+      "mobile/src/domain/persistence.ts": "ac166d419b677611c1b32d17fa0ddb9021d20f19cf3614fbd0e39719681e50ee",
+      "mobile/src/domain/roomMove.ts": "2a0c95b6911792dbaa0fb8ffddd10244c53ad756748d917aa1ec447a4fde48ab",
+      "mobile/src/scene/meshes.ts": "bd616ec1721ef5a2bf3ef2f5a9fb323dc37d8a9a33a4596ef75c16c9ef59b9ee"
+    },
+    "passed": 5,
+    "failed": 0,
+    "stableSources": true,
+    "checks": [
+      {
+        "id": "ORIGINAL-RAW-DECODE-NOOP-LOAD-IS-EXACT",
+        "pass": true,
+        "observed": {
+          "bytes": 2100,
+          "sha256": "a0ac83ea6c8464488af0fd18628b5139ad80c3a1e194ca1a3c2560b19af0697e",
+          "writes": 0,
+          "noOpIdentity": true
+        }
+      },
+      {
+        "id": "NEUTRAL-ALIGNMENT-DURABLE-BACKUP-COLD-HISTORY",
+        "pass": true,
+        "observed": {
+          "primaryBytes": 3814,
+          "originalBackupSHA256": "a0ac83ea6c8464488af0fd18628b5139ad80c3a1e194ca1a3c2560b19af0697e",
+          "past": 1,
+          "localDataExact": true,
+          "coldUndoRedoExact": true
+        }
+      },
+      {
+        "id": "LEGACY-CORRUPT-FALLBACK-EXPLICIT-RECOVERY-ARCHIVES",
+        "pass": true,
+        "observed": {
+          "originalsArchivedExactly": 2,
+          "restoredSHA256": "a0ac83ea6c8464488af0fd18628b5139ad80c3a1e194ca1a3c2560b19af0697e",
+          "notice": "Recovered the last verified local save. The unreadable save is preserved until your next edit.",
+          "scope": "Actualpersistencefunctions with controlledin-memoryadapter,notnativefilesystem orrealIDBfault test."
+        }
+      },
+      {
+        "id": "ORDINARY-VALID-PATH-AND-NUMERIC-GUARDS",
+        "pass": true,
+        "observed": {
+          "validChangedProject": true,
+          "invalidNumericCases": 3,
+          "exactNoOp": true
+        }
+      },
+      {
+        "id": "UNAVAILABLE-EXACT-TUPLES-SURVIVE-NEUTRAL-FLOOR-EDIT",
+        "pass": true,
+        "observed": {
+          "unknownHashPreserved": true,
+          "lockAndOverrideExact": true,
+          "unsupportedWallTuplePreserved": true
+        }
+      }
+    ],
+    "scope": "Actualdomain/persistencefunctions with controlledin-memorykey-valueadapter. RUNTIME015legacyexactbytes/backup/archives/coldhistory/ordinarypath;notnativefileoractualbrowserIDB/OSinterruptionclaim."
+  },
+  "latestSourceRegression": {
+    "at": "2026-11-10T06:35:02.122Z",
+    "sources": {
+      "mobile/src/domain/project.ts": "12211660626c660aaed1cd05a7b15d37561d370d59ccd406ee2d58e3da5038ba",
+      "mobile/src/domain/types.ts": "e818a704afc0cc972978dbdea369429ca33af346cced16f68eb88ccc1f5a42e5",
+      "mobile/src/domain/geometry.ts": "b163f0fea0fdd9f9871d17274e978897f76979e6b408a531853f62c8485074bf",
+      "mobile/src/domain/construction.ts": "d248539e57f44afab413bc42ce49b6ea0e3a6f7bb6ace675757457ea651dff53",
+      "mobile/src/domain/persistence.ts": "ac166d419b677611c1b32d17fa0ddb9021d20f19cf3614fbd0e39719681e50ee",
+      "mobile/src/domain/roomMove.ts": "2a0c95b6911792dbaa0fb8ffddd10244c53ad756748d917aa1ec447a4fde48ab",
+      "mobile/src/scene/meshes.ts": "bd616ec1721ef5a2bf3ef2f5a9fb323dc37d8a9a33a4596ef75c16c9ef59b9ee"
+    },
+    "passed": 6,
+    "failed": 0,
+    "stableSources": true,
+    "checks": [
+      {
+        "id": "LEGACY-UNTOUCHED-SETTINGS-EXACT-NOOP",
+        "pass": true,
+        "observed": {
+          "exactHistoryIdentity": true
+        }
+      },
+      {
+        "id": "LEGACY-NEUTRAL-NAME",
+        "pass": true,
+        "observed": {
+          "historySteps": 1,
+          "localGeometryAndIdentityExact": true
+        }
+      },
+      {
+        "id": "LEGACY-NEUTRAL-ALIGNMENT",
+        "pass": true,
+        "observed": {
+          "historySteps": 1,
+          "localGeometryAndIdentityExact": true
+        }
+      },
+      {
+        "id": "LEGACY-NEUTRAL-ELEVATION",
+        "pass": true,
+        "observed": {
+          "historySteps": 1,
+          "localGeometryAndIdentityExact": true
+        }
+      },
+      {
+        "id": "NEW-PHYSICAL-OVERLAP-STILL-REJECTS",
+        "pass": true,
+        "observed": {
+          "error": "Keep the furniture clear of the physical wall."
+        }
+      },
+      {
+        "id": "NEW-CEILING-CONFLICT-STILL-REJECTS",
+        "pass": true,
+        "observed": {
+          "error": "Acoustic phone booth: This item exceeds the room ceiling height.",
+          "height": 1.9850000143051147
+        }
+      }
+    ],
+    "scope": "RUNTIME015 exact legacy fixture command/history compatibility with fresh-placement and ceiling-conflict negative controls;source-level,noCanvas/native/physicalclaim."
+  },
+  "live": {
+    "mode": "ExistingownerMetro;no serverrestartorGitmutation. LivedevelopmentUI,not immutable59-source-maprun.",
+    "sourceSampleBefore": {
+      "project": "12211660626c660aaed1cd05a7b15d37561d370d59ccd406ee2d58e3da5038ba",
+      "geometry": "a25eee6dd2a21d613781ff0d1514764bccde7769eefc50ab3cffa26ec569246b",
+      "persistence": "ac166d419b677611c1b32d17fa0ddb9021d20f19cf3614fbd0e39719681e50ee",
+      "editor": "7a742a0b17a97f538df59855ee866d170947139670438d98138e5b524bd74519"
+    },
+    "noOp": {
+      "dom": "- button \"Back\":\n- generic: Runtime QA legacy floor settings\n- button \"Settings\":\n- button \"Choose room, current Kitchen\":\n  - generic: Kitchen\n- button \"View 2D\":\n  - generic: 2D\n- button \"View 3D\":\n  - generic: 3D\n- button \"View Walk\":\n  - generic: Walk\n- generic: Floors and rooms\n- button \"Expand panel\":\n- button \"Close Floors and rooms\":\n- generic: Ground floor · 0.00 m\n- button \"Kitchen\":\n  - generic: Kitchen\n- button \"View all floors\":\n  - generic: View all floors\n- generic: Floor alignment and defaults\n- generic: X alignment (m)\n- textbox \"X alignment (m)\": \"0.000\"\n- generic: Z alignment (m)\n- textbox \"Z alignment (m)\": \"0.000\"\n- generic: Floor elevation (m)\n- textbox \"Floor elevation (m)\": \"0.000\"\n- generic: Default ceiling (m)\n- textbox \"Default ceiling (m)\": \"2.700\"\n- button \"Apply to Ground floor\" [active]:\n  - generic: Apply to Ground floor\n- generic: New floor name\n- textbox \"New floor name\": New floor\n- generic: New floor elevation (m)\n- textbox \"New floor elevation (m)\": \"3.000\"\n- button \"Create floor with room\":\n  - generic: Create floor with room\n- generic: Use room jumping to change floors. Stair traversal is not available without connected stair/opening geometry.",
+      "bytes": 2100,
+      "sha256": "a0ac83ea6c8464488af0fd18628b5139ad80c3a1e194ca1a3c2560b19af0697e",
+      "fixtureExact": true
+    },
+    "alignmentDOM": "- button \"Back\":\n- generic: Runtime QA legacy floor settings\n- button \"Settings\":\n- button \"Choose room, current Kitchen\":\n  - generic: Kitchen\n- button \"View 2D\":\n  - generic: 2D\n- button \"View 3D\":\n  - generic: 3D\n- button \"View Walk\":\n  - generic: Walk\n- button \"Undo\":\n- button \"Redo\" [disabled]:\n- generic: Floors and rooms\n- button \"Expand panel\":\n- button \"Close Floors and rooms\":\n- generic: Ground floor · 0.00 m\n- button \"Kitchen\":\n  - generic: Kitchen\n- button \"View all floors\":\n  - generic: View all floors\n- generic: Floor alignment and defaults\n- generic: X alignment (m)\n- textbox \"X alignment (m)\": \"1.000\"\n- generic: Z alignment (m)\n- textbox \"Z alignment (m)\": \"-2.000\"\n- generic: Floor elevation (m)\n- textbox \"Floor elevation (m)\": \"0.000\"\n- generic: Default ceiling (m)\n- textbox \"Default ceiling (m)\": \"2.700\"\n- button \"Apply to Ground floor\":\n  - generic: Apply to Ground floor\n- generic: New floor name\n- textbox \"New floor name\": New floor\n- generic: New floor elevation (m)\n- textbox \"New floor elevation (m)\": \"3.000\"\n- button \"Create floor with room\":\n  - generic: Create floor with room\n- generic: Use room jumping to change floors. Stair traversal is not available without connected stair/opening geometry.",
+    "elevationDOM": "- button \"Back\":\n- generic: Runtime QA legacy floor settings\n- button \"Settings\":\n- button \"Choose room, current Kitchen\":\n  - generic: Kitchen\n- button \"View 2D\":\n  - generic: 2D\n- button \"View 3D\":\n  - generic: 3D\n- button \"View Walk\":\n  - generic: Walk\n- button \"Undo\":\n- button \"Redo\" [disabled]:\n- generic: Floors and rooms\n- button \"Expand panel\":\n- button \"Close Floors and rooms\":\n- generic: Ground floor · 3.20 m\n- button \"Kitchen\":\n  - generic: Kitchen\n- button \"View all floors\":\n  - generic: View all floors\n- generic: Floor alignment and defaults\n- generic: X alignment (m)\n- textbox \"X alignment (m)\": \"1.000\"\n- generic: Z alignment (m)\n- textbox \"Z alignment (m)\": \"-2.000\"\n- generic: Floor elevation (m)\n- textbox \"Floor elevation (m)\": \"3.200\"\n- generic: Default ceiling (m)\n- textbox \"Default ceiling (m)\": \"2.700\"\n- button \"Apply to Ground floor\":\n  - generic: Apply to Ground floor\n- generic: New floor name\n- textbox \"New floor name\": New floor\n- generic: New floor elevation (m)\n- textbox \"New floor elevation (m)\": \"6.200\"\n- button \"Create floor with room\":\n  - generic: Create floor with room\n- generic: Use room jumping to change floors. Stair traversal is not available without connected stair/opening geometry.",
+    "undoDOM": "- button \"Back\":\n- generic: Runtime QA legacy floor settings\n- button \"Settings\":\n- button \"Choose room, current Kitchen\":\n  - generic: Kitchen\n- button \"View 2D\":\n  - generic: 2D\n- button \"View 3D\":\n  - generic: 3D\n- button \"View Walk\":\n  - generic: Walk\n- button \"Undo\" [disabled]:\n- button \"Redo\":\n- button \"Furnish\":\n  - generic: Furnish\n- button \"Surfaces\":\n  - generic: Surfaces\n- button \"Build\":\n  - generic: Build",
+    "changedBackup": {
+      "bytes": 5521,
+      "sha256": "52daad3b331250914cc2338b198ef843caea096f339da6110ac69bd5b81a5842",
+      "file": "legacy-floor-repaired-changed-backup.json"
+    },
+    "coldReloadErrorDOM": "- button \"Dismiss error\" [disabled]:\n- button \"Minimize errors\" [disabled]:\n- button \"Previous error\" [disabled]:\n- generic: 1/1\n- button \"Next error\" [disabled]:\n- button \"Reload application\":\n- button \"Copy error\":\n- generic: Expo 58.0.0\n- generic: Server Error\n- generic: \"Requiring unknown module \\\"3962\\\". If you are sure the module exists, try restarting Metro. You may also want to run `yarn` or `npm install`.\"\n- banner:\n  - generic: node_modules/expo-server/build/cjs/vendor/abstract.js (122:30)\n  - button \"Copy content\":\n- generic: 120 |\n- generic: return\n- generic: createResponseFrom(\n- generic: \"'api'\"\n- generic: \",\"\n- generic: route\n- generic: \",\"\n- generic: await\n- generic: getLoaderData(loaderRequest\n- generic: \",\"\n- generic: route)\n- generic: \",\"\n- generic: pageOverrides)\n- generic: ;\n- generic: 121 |\n- generic: \"}\"\n- generic: \">\"\n- generic: 122 |\n- generic: const\n- generic: html\n- generic: =\n- generic: await\n- generic: getHtml(request\n- generic: \",\"\n- generic: route)\n- generic: ;\n- generic: \"|\"\n- generic: ^\n- generic: 123 |\n- generic: return\n- generic: respondHTML(html\n- generic: \",\"\n- generic: route\n- generic: \",\"\n- generic: pageOverrides)\n- generic: ;\n- generic: 124 |\n- generic: \"}\"\n- generic: 125 |\n- generic: \"}\"\n- heading \"Call Stack\" [level=3]\n- generic: \"10\"\n- button \"Show all\":\n  - generic \"Show all\":\n    - generic: Show all\n- generic: This call stack is not symbolicated. Some features are unavailable such as viewing the function name or tapping to open files.\n- code: unknownModuleError\n- code: node_modules/expo/node_modules/@expo/cli/node_modules/@expo/router-server/node/render.js.bundle:297:12\n- code: loadModuleImplementation\n- code: node_modules/expo/node_modules/@expo/cli/node_modules/@expo/router-server/node/render.js.bundle:227:13\n- code: guardedLoadModule\n- code: node_modules/expo/node_modules/@expo/cli/node_modules/@expo/router-server/node/render.js.bundle:162:23\n- code: metroRequire\n- code: node_modules/expo/node_modules/@expo/cli/node_modules/@expo/router-server/node/render.js.bundle:89:75\n- code: _server\n- code: node_modules/expo/node_modules/@expo/cli/node_modules/@expo/router-server/node/render.js.bundle:693534:57\n- code: getStreamingContent\n- code: node_modules/expo/node_modules/@expo/cli/node_modules/@expo/router-server/node/render.js.bundle:693703:12\n- code: acc.<computed>\n- code: node_modules/expo/node_modules/@expo/cli/build/src/start/server/getStaticRenderFunctions.js:147:33\n- code: MetroBundlerDevServer.getStaticPageAsync\n- code: node_modules/expo/node_modules/@expo/cli/build/src/start/server/metro/MetroBundlerDevServer.js:583:31\n- code: async getHtml\n- code: node_modules/expo/node_modules/@expo/cli/build/src/start/server/metro/createServerRouteMiddleware.js:116:37\n- code: async requestHandler\n- code: node_modules/expo-server/build/cjs/vendor/abstract.js:122:30\n- contentinfo: Build-time errors can only be dismissed by fixing the issue.",
+    "originalRestorationPending": true,
+    "scope": "RepairedcontrolsactualUIpass,fullcoldreloadblockedbyExpoSSRunknownmodule3962. Originalbackupmustberestoredonceownerrouteworks. Do notclaimcoldUIclosureorrestorationsuccessyet."
+  },
+  "independentPublicBackupAudit": {
+    "noopExact": true,
+    "alignment": {
+      "x": 1,
+      "z": -2
+    },
+    "elevation": 3.2,
+    "allLocalItemsRoomsWallsOpeningsExact": true,
+    "historySteps": 2,
+    "undoPresentExactlyOriginal": true,
+    "undoFuture": 2
+  },
+  "screenshots": [
+    {
+      "file": "legacy-floor-repaired-registration390.png",
+      "bytes": 29021,
+      "sha256": "9f7b70ad0ce899e1b5b4f438cc14326d56cc639ec4e2f7cd540b893668ef56c2"
+    },
+    {
+      "file": "live-preview-cold-ssr-module-error.png",
+      "bytes": 49138,
+      "sha256": "c489b05f33e21adb3015a2c03e054d5d12c333a750fb938bf542ef4a8430ebbe"
+    }
+  ],
+  "qualification": "Live developmentUI with sampled source identities,not a frozen59-source-mapUIclaim. Six latest command groups and five earlier save/recovery groups retain exact per-test source scopes. Original preview library is backed up in ignored local evidence;no private original bytes are included here. Owner-only server management;QA made no server/Git mutation."
+}

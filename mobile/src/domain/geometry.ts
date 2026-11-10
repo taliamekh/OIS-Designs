@@ -855,6 +855,57 @@ export function openingError(floor: Floor, opening: Opening): string | null {
   }
   return null;
 }
+/** Strict placement validation. Legacy decode keeps the structural validator
+ * above, so an old overlap remains recoverable without moving saved data. */
+export function openingOffsetRange(floor: Floor, opening: Opening) {
+  const wall = floor.walls.find((wall) => wall.id === opening.wallId);
+  if (!wall || !Number.isFinite(opening.width) || opening.width < 0.3)
+    throw new Error("Choose a wall and a valid opening width.");
+  const length = distance(wall.a, wall.b);
+  let min = 0.08,
+    max = length - opening.width - 0.08;
+  for (const face of wall.faces) {
+    const room = floor.rooms.find((room) => room.id === face.roomId)!;
+    roomInsideDimensions(floor, room);
+    const span = wallFaceInsideSpan(floor, wall, room.id);
+    const left =
+      (opening.type === "pocket" || opening.type === "sliding") &&
+      opening.hinge === "left"
+        ? Math.max(CASING_EXTENT, opening.width)
+        : CASING_EXTENT;
+    const right =
+      (opening.type === "pocket" || opening.type === "sliding") &&
+      opening.hinge === "right"
+        ? Math.max(CASING_EXTENT, opening.width)
+        : CASING_EXTENT;
+    min = Math.max(min, span.low + left);
+    max = Math.min(max, span.high - opening.width - right);
+  }
+  if (opening.type === "pocket") {
+    if (opening.hinge === "left") min = Math.max(min, opening.width + 0.08);
+    else max = Math.min(max, length - opening.width * 2 - 0.08);
+  }
+  return { min, max };
+}
+export function openingPhysicalError(
+  floor: Floor,
+  opening: Opening,
+): string | null {
+  const structural = openingError(floor, opening);
+  if (structural) return structural;
+  try {
+    const range = openingOffsetRange(floor, opening);
+    if (
+      range.min > range.max + EPS ||
+      opening.offset < range.min - EPS ||
+      opening.offset > range.max + EPS
+    )
+      return "Move the opening away from the inside corner so its frame and full travel fit on both room faces.";
+  } catch {
+    return "Inside wall faces are unavailable. Correct the room size or wall thickness first.";
+  }
+  return null;
+}
 /** Distances along a canonical wall to the actual corners of one room face.
  * A shared topology segment may cover only part of that room boundary. */
 export function wallFaceSpan(floor: Floor, wall: Wall, roomId: string) {
@@ -1152,6 +1203,7 @@ export const toMetres = (value: number, unit: "m" | "ft") =>
   unit === "ft" ? value * 0.3048 : value;
 export function measure(value: number, unit: "m" | "ft") {
   if (unit === "m") return `${value.toFixed(2)} m`;
-  const inches = Math.round(value / 0.0254);
-  return `${Math.floor(inches / 12)}′ ${inches % 12}″`;
+  const inches = Math.round(Math.abs(value) / 0.0254);
+  const sign = value < 0 && inches > 0 ? "-" : "";
+  return `${sign}${Math.floor(inches / 12)}′ ${inches % 12}″`;
 }

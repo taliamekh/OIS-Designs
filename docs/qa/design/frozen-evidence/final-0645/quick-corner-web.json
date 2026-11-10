@@ -1,0 +1,64 @@
+{
+  "timestamp": "2026-11-10T06:42:38.210Z",
+  "evidence": "Actual quick/repeat door stamping near a thick perpendicular corner, clear-aperture clamp feedback and oneUndo per stamp. Browser, not native.",
+  "checks": [
+    {
+      "id": "quick-stamp-clamps-clear-frame-and-hole",
+      "pass": true,
+      "observed": {
+        "offset": 0.1975,
+        "width": 0.9,
+        "error": null
+      }
+    },
+    {
+      "id": "clamp-gives-concrete-feedback",
+      "pass": true
+    },
+    {
+      "id": "first-stamp-one-history-step",
+      "pass": true
+    },
+    {
+      "id": "repeat-tool-remains-ready",
+      "pass": true
+    },
+    {
+      "id": "second-stamp-needs-no-new-picker",
+      "pass": true
+    },
+    {
+      "id": "one-undo-removes-only-last-stamp",
+      "pass": true
+    },
+    {
+      "id": "next-undo-restores-original-floor-exactly",
+      "pass": true
+    },
+    {
+      "id": "redo-restores-exact-clamped-opening",
+      "pass": true
+    },
+    {
+      "id": "cold-reload-preserves-opening-history",
+      "pass": true
+    }
+  ],
+  "errors": [],
+  "consoleErrors": [],
+  "ui": {
+    "id": "qa-web-2026-11-10T06-39-35-555Z",
+    "provenanceSha256": "821dc99e584fc9b4a1e31bd2864ce765e7fec135b4fd0ddd8e09c1f1fad69b0d",
+    "sourceMapPass": true,
+    "compiledSourceMatchCount": 59,
+    "editor": {
+      "sha256": "7a742a0b17a97f538df59855ee866d170947139670438d98138e5b524bd74519"
+    },
+    "geometry": {
+      "sha256": "b163f0fea0fdd9f9871d17274e978897f76979e6b408a531853f62c8485074bf"
+    }
+  },
+  "completed": true,
+  "passed": 9,
+  "failed": 0
+}

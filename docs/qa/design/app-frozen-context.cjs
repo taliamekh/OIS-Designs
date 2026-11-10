@@ -2,7 +2,7 @@
 const fs=require('node:fs'),path=require('node:path'),crypto=require('node:crypto');
 const workspace=path.resolve(__dirname,'../../..'),mobile=path.join(workspace,'mobile'),sha=b=>crypto.createHash('sha256').update(b).digest('hex');
 async function appFrozenUI(){
- const file=path.join(workspace,'docs/build/frozen-web-export.json'),raw=fs.readFileSync(file),record=JSON.parse(raw);
+ const file=process.env.OIS_QA_PROVENANCE||path.join(workspace,'docs/build/frozen-web-export.json'),raw=fs.readFileSync(file),record=JSON.parse(raw);
  if(record.exit!==0||!record.stable||!record.accepted||!record.compiledSources?.length||!record.compiledSources.every(s=>s.matches)||record.compiledMatches!==record.compiledSources.length)throw Error('Completed matching app export required');
  const project=path.resolve(record.directory),allowed=path.resolve(mobile,'.tools');if(!project.startsWith(allowed+path.sep))throw Error('Unexpected app snapshot location');
  const patches=new Map(record.patches.map(p=>[p.file,p]));

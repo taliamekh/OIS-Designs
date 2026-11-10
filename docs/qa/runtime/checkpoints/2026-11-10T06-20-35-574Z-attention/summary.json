@@ -1,0 +1,93 @@
+{
+  "at": "2026-11-10T06:20:35.574Z",
+  "sourceHash": "97ff607ce0fd482cf8fbf2b04ce132522f8be8ba11b0b99c1ddd5fbeb20bcf84",
+  "compiledSourceMatches": 59,
+  "fixtureSHA256": "98f1b9c613d8737ecdecf03c535ede72745ae769a4df1c586a53e77b78c0b95a",
+  "fixtureBytes": 8729,
+  "observedItems": 3,
+  "renderedRealModels": 1,
+  "attentionMarkers": 2,
+  "silentSubstitutions": 0,
+  "rejectedUnsupportedDrag": true,
+  "wallMarkerBoundsUnchanged": true,
+  "historySteps": 0,
+  "publicAndColdBackupsByteExact": true,
+  "unknownLockAndOverridePreserved": true,
+  "cache": {
+    "active": 1,
+    "entries": 1,
+    "idle": 0,
+    "pending": 0,
+    "sharedTextures": {
+      "duplicates": 0,
+      "leases": 9,
+      "textures": 9
+    },
+    "sourceBytes": 657248,
+    "textureSets": 2,
+    "wanted": 1
+  },
+  "console": [],
+  "observation": "Unsupportedwallmarker currently exposes genericDrag/rotation hints alongside explicitattachment-unavailable warning. Theattemptedfloor drag correctlyrejects with nohistorychange;nofloor-placement capabilityisclaimed. Thisis a nonblockinghint-consistency follow-up,not a new functionalacceptancefailure.",
+  "scope": "Actualsaved-revision exact-hash refusal,selectable missing/unsupportedmarkers,attachmentguard,whole-house/coldrestoreandbyte-exactsaved identity/pose/lock/override preservation. Intentionalwronghashsyntheticfixtureisnot a newfurnituredesignor userasset. No native/physicalclaim.",
+  "fixtures": {
+    "at": "2026-11-10T06:10:42.064Z",
+    "file": "exact-revision-attention-fixture.json",
+    "bytes": 8729,
+    "sha256": "98f1b9c613d8737ecdecf03c535ede72745ae769a4df1c586a53e77b78c0b95a",
+    "catalogueSHA256": "37a3dc2b9b486288839d24092785bb03c7ab1888c205fbd6aa665b07f8d3c470",
+    "exact": {
+      "id": "qa-attention-exact",
+      "roomId": "room-mwa7m3dt-gzwoj4t",
+      "assetId": "ois.design.rail-frame-sofa",
+      "assetVersion": "0.7.0",
+      "assetHash": "cfe47a3e8f9fa7258280449eda7023af4b1457acdfea4aedcc458899c71a4c55",
+      "x": 3,
+      "z": 3,
+      "yaw": 0,
+      "locked": false,
+      "materialOverrides": {}
+    },
+    "wrongHash": {
+      "id": "qa-attention-wrong-hash",
+      "roomId": "room-mwa7m3dt-gzwoj4t",
+      "assetId": "ois.design.rail-frame-sofa",
+      "assetVersion": "0.7.0",
+      "assetHash": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "x": 7,
+      "z": 7,
+      "yaw": 0,
+      "locked": true,
+      "materialOverrides": {
+        "fabric": "#123456"
+      }
+    },
+    "unsupportedWall": {
+      "id": "qa-attention-wall",
+      "roomId": "room-mwa7m3dt-ndkbdxs",
+      "assetId": "ois.design.chimney-rangehood",
+      "assetVersion": "0.7.0",
+      "assetHash": "ccd3d9b56d5832727e97a22067244c9bf764e90bf3705478a52bc86e5bf2c3d8",
+      "x": 21,
+      "z": 7,
+      "yaw": 0,
+      "locked": false,
+      "materialOverrides": {}
+    },
+    "scope": "Owned synthetic three-placement/six-room/two-floor saved-library fixture. Wronghash deliberatelyusesa realid/version withunknown64hexSHA;mustnot silentlysubstitute. Wallmodel isrealretainedbutattachmentunsupported. Not newdesigns,visualacceptanceorplacementcapability."
+  },
+  "screenshots": [
+    {
+      "file": "exact-revision-missing-details390.png",
+      "sha256": "d69c21768d39b313578884f202f8ca705c82b080197ec706bb12ec264fd6555c",
+      "bytes": 31998
+    },
+    {
+      "file": "exact-revision-wall-unavailable390.png",
+      "sha256": "87eaf79360b0a1abbc0e22114ec5ecceef7a3587308ec8ad6ddb8a311e1a27a3",
+      "bytes": 24910
+    }
+  ],
+  "notOverallSignoff": true,
+  "minimumContinuedWorkGate": "2026-11-10T06:53:00Z"
+}

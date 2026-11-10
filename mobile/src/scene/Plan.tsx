@@ -86,7 +86,7 @@ export default function Plan(props: Interaction) {
     ...chainCorners,
   ]);
   // SVG annotations have screen-space size, independent of the plan's metres.
-  const horizontalPadding = selectedWall ? 64 : 28;
+  const horizontalPadding = selectedWall ? 88 : 28;
   const scale =
       Math.min(
         (width - horizontalPadding * 2) / (b.maxX - b.minX),
@@ -398,9 +398,8 @@ export default function Plan(props: Interaction) {
                 }
                 stroke={props.roomMove?.roomIds.has(r.id) ? c.focus : c.line}
               />
-              {selectedWall?.faces.some(
-                (face) => face.roomId === r.id,
-              ) ? null : (
+              {selectedWall?.faces.some((face) => face.roomId === r.id) ||
+              props.roomMove ? null : (
                 <SvgText
                   x={(bounds(r.polygon).minX + 0.2) * scale + ox}
                   y={(bounds(r.polygon).minZ + 0.3) * scale + oz}
@@ -423,7 +422,7 @@ export default function Plan(props: Interaction) {
                 strokeWidth={props.onWall ? 7 : 5}
                 strokeLinecap="square"
               />
-              {selectedWall ? null : (
+              {selectedWall || props.roomMove ? null : (
                 <SvgText
                   x={Math.max(
                     28,
@@ -514,7 +513,7 @@ export default function Plan(props: Interaction) {
                       strokeWidth={2}
                     />
                   )}
-                  {selectedWall ? null : (
+                  {selectedWall || props.roomMove ? null : (
                     <SvgText
                       x={sw / 2}
                       y={-10}
@@ -551,6 +550,31 @@ export default function Plan(props: Interaction) {
                       y = sign * 20 + span.normalOffset * scale,
                       low = span.low * scale,
                       high = span.high * scale;
+                    const labels: {
+                      x: number;
+                      text: string;
+                      row: number;
+                      width: number;
+                    }[] = [];
+                    for (const [x, value] of [
+                      [(low + start) / 2, o.offset - span.low],
+                      [(start + end) / 2, o.width],
+                      [(end + high) / 2, span.high - o.offset - o.width],
+                    ]) {
+                      const text = measure(value, s.library.settings.unit),
+                        width = text.length * 5.5 + 6;
+                      let row = 0;
+                      while (
+                        (sign > 0 && row === 1) ||
+                        labels.some(
+                          (label) =>
+                            label.row === row &&
+                            Math.abs(label.x - x) < (label.width + width) / 2,
+                        )
+                      )
+                        row++;
+                      labels.push({ x, text, row, width });
+                    }
                     return (
                       <G key={face.roomId}>
                         <Line
@@ -571,20 +595,16 @@ export default function Plan(props: Interaction) {
                             stroke={c.focus}
                           />
                         ))}
-                        {[
-                          [(low + start) / 2, o.offset - span.low],
-                          [(start + end) / 2, o.width],
-                          [(end + high) / 2, span.high - o.offset - o.width],
-                        ].map(([x, value], i) => (
+                        {labels.map(({ x, text, row }, i) => (
                           <SvgText
                             key={i}
                             x={x}
-                            y={y - 5}
+                            y={y - 5 + sign * row * 16}
                             fontSize={9}
                             textAnchor="middle"
                             fill={c.focus}
                           >
-                            {measure(value, s.library.settings.unit)}
+                            {text}
                           </SvgText>
                         ))}
                         <SvgText
@@ -654,16 +674,18 @@ export default function Plan(props: Interaction) {
                     stroke={props.selected === i.id ? c.focus : "#918675"}
                     strokeWidth={props.selected === i.id ? 2 : 1}
                   />
-                  <SvgText
-                    x={i.x * scale + ox}
-                    y={i.z * scale + oz + 3}
-                    fill={c.ink}
-                    fontSize={9}
-                    textAnchor="middle"
-                  >
-                    {i.locked ? "🔒 " : ""}
-                    {a.name.slice(0, 16)}
-                  </SvgText>
+                  {(!props.roomMove || i.locked) && (
+                    <SvgText
+                      x={i.x * scale + ox}
+                      y={i.z * scale + oz + 3}
+                      fill={c.ink}
+                      fontSize={9}
+                      textAnchor="middle"
+                    >
+                      {i.locked ? "🔒 " : ""}
+                      {!props.roomMove && a.name.slice(0, 16)}
+                    </SvgText>
+                  )}
                   {props.selected === i.id && (
                     <Circle
                       cx={i.x * scale + ox}

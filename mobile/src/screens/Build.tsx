@@ -10,6 +10,8 @@ import {
   shapePolygon,
   newRoomReferenceDimensions,
   roomInsideDimensions,
+  openingOffsetRange,
+  openingPhysicalError,
 } from "../domain/geometry";
 import { makeFloor, makeRoom } from "../domain/project";
 import {
@@ -233,9 +235,35 @@ export function OpeningProperties({
     [hinge, setHinge] = useState(opening.hinge),
     [flip, setFlip] = useState(opening.flip);
   const wall = floor.walls.find((w) => w.id === opening.wallId)!;
+  const savedIssue = openingPhysicalError(floor, opening);
+  let range: ReturnType<typeof openingOffsetRange> | undefined;
+  try {
+    range = openingOffsetRange(floor, {
+      ...opening,
+      hinge,
+      width: enteredMetres(width, opening.width, unit, 2),
+    });
+  } catch {
+    // Keep legacy openings inspectable, even when their room needs repair.
+  }
+  const inputRange = range
+    ? {
+        min: Math.ceil(toDisplay(range.min, unit) * 100 - 1e-7) / 100,
+        max: Math.floor(toDisplay(range.max, unit) * 100 + 1e-7) / 100,
+      }
+    : undefined;
   return (
     <ScrollView contentContainerStyle={{ padding: 16, gap: 12 }}>
       <Txt style={{ fontWeight: "600" }}>{doorNames[opening.type]}</Txt>
+      {savedIssue && (
+        <Txt small>Saved opening needs correction: {savedIssue}</Txt>
+      )}
+      {inputRange && inputRange.min <= inputRange.max && (
+        <Txt small muted>
+          Position range from wall start ({unit}): {inputRange.min.toFixed(2)}–
+          {inputRange.max.toFixed(2)}.
+        </Txt>
+      )}
       {openingInsideDimensions(floor, opening).map((d) => (
         <View key={d.roomId}>
           <Txt small>{d.name}</Txt>

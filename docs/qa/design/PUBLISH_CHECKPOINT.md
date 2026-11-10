@@ -1,5 +1,11 @@
 # QA checkpoint for the sole Git publisher
 
+**06:56 UTC supplement:** The minimum gate is passed and the new client-rendered live route independently passes 3/3 fresh-context load/full reload checks. LIVE_PREVIEW_CLOSURE.md and live-cold-reload.json bind stable current config/core hashes; no saved-project/native proof is inferred. FINDINGS frontboard now explicitly records QA-ROOM01's 7 domain groups and 19 actual narrow-screen passes, without leaving movement UI open. final-publication.json is regenerated for **60 exact ready paths**, plus the manifest itself; the original frozen feature reports remain unchanged. Root should hold staging until its coherent final app export/config gate is ready. No QA production or Git mutation.
+
+**Current publication checkpoint: 2026-11-10 06:45 UTC.** Use FINAL_CHECKPOINT.md, OPENING_CORNER_CLOSURE.md and the exact path/hash list in final-publication.json. Final 59-module source-matched UI passes 26 legacy-opening + 9 quick-door checks; signed formatter passes 36 CPU examples. Narrow room-move passes 19 actual checks on its source-bound 06:22 snapshot. Full new/edit aperture matrix passes 2,304 paired scenarios and legacy compatibility 7 groups. No unfinished log or unaccepted export is part of the ready list. Root remains sole Git writer. The QA goal is active through 06:53 UTC; no overall/native completion claim.
+
+## Historical publication notes — superseded status
+
 2026-11-10 03:55UTC. New user authorization permits consistent publication to `taliamekh/OIS-Designs`; coordinator alone stages/commits/pushes this shared checkout. This chat makes no git mutation. Work continues through06:53UTC; this is a reviewable checkpoint, not completed-app approval.
 
 Owned ready scope is `docs/qa/design/`: executable read-only harnesses, current FINDINGS/STATUS, immutable source bindings, bounded JSON results and synthetic-project screenshots. Local absolute runtime paths in these workspace QA runners are documented conveniences, not a portable CI claim. Main Expo tests/build configuration remain app-owned. Raw server exports and node_modules are runtime-generated elsewhere and should not be confused with this QA scope.

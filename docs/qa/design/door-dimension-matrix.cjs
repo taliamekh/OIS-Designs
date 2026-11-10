@@ -1,7 +1,7 @@
 const { chromium } = require('C:/Users/talia/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/playwright');
 const fs = require('node:fs'), path = require('node:path');
-const {createLoader}=require('./source-loader.cjs'),{chosenUI}=require('./frozen-ui-context.cjs');
-let p,g,s;
+const {createLoader}=require('./source-loader.cjs'),{appFrozenUI}=require('./app-frozen-context.cjs');
+let p,g,s,ownedUI;
 const { readLibrary, oracleInfo } = require('./web-storage.cjs');
 const report = { timestamp: new Date().toISOString(), baseURL: process.env.OIS_QA_URL || 'http://localhost:8081', evidence: 'Actual partial shared-wall annotations on four sides, metric/imperial and two phone sizes. Isolated validated synthetic projects; no native claim.', storageOracle: oracleInfo, runs: [] };
 const sides = {
@@ -11,7 +11,7 @@ const sides = {
   bottom: { x: 1, z: 6, width: 4, depth: 3 },
 };
 async function main() {
-  const ui=await chosenUI(),{load}=createLoader(ui.project);p=load('src/domain/project.ts');g=load('src/domain/geometry.ts');s=load('src/domain/persistence.ts');report.baseURL=ui.url;report.ui={kind:ui.kind,id:ui.id,url:ui.url,sourceHash:ui.sourceHash,sourceMapPass:ui.sourceMapPass,compiledSourceMatchCount:ui.compiledSourceMatchCount,plan:ui.sources['src/scene/Plan.tsx']};if(ui.sources['src/storage/indexedStore.ts'].sha256!==oracleInfo.sha256)throw Error('Selected adapter differs from reader');
+  const ui=ownedUI=await appFrozenUI(),{load}=createLoader(ui.project);p=load('src/domain/project.ts');g=load('src/domain/geometry.ts');s=load('src/domain/persistence.ts');report.baseURL=ui.url;report.ui={kind:ui.kind,id:ui.id,url:ui.url,sourceHash:ui.sourceHash,sourceMapPass:ui.sourceMapPass,compiledSourceMatchCount:ui.compiledSourceMatchCount,plan:ui.sources['src/scene/Plan.tsx']};if(ui.sources['src/storage/indexedStore.ts'].sha256!==oracleInfo.sha256)throw Error('Selected adapter differs from reader');
   const browser = await chromium.launch({ channel: 'msedge', headless: true });
   try {
     matrix: for (const width of [390, 320]) for (const unit of ['m', 'ft']) for (const [side, a] of Object.entries(sides)) {
@@ -54,7 +54,7 @@ async function main() {
             const texts = [...group.children].filter(el => el.tagName.toLowerCase() === 'text');
             if (texts.length !== 4) continue;
             const line = [...group.children].find(el => el.tagName.toLowerCase() === 'line');
-            rows.push({ name: texts[3].textContent, values: texts.slice(0, 3).map(el => el.textContent), chainLengthMetres: line?.getTotalLength() / scale,
+            rows.push({ name: texts[3].textContent.split(' · ')[0].trim(), caption: texts[3].textContent, values: texts.slice(0, 3).map(el => el.textContent), chainLengthMetres: line?.getTotalLength() / scale,
               boxes: texts.map(el => { const r = el.getBoundingClientRect(); return { text: el.textContent, x: r.x, y: r.y, width: r.width, height: r.height, inside: r.left >= b.left - 1 && r.right <= Math.min(b.right, innerWidth) + 1 && r.top >= b.top - 1 && r.bottom <= Math.min(b.bottom, innerHeight) + 1 }; }) });
           }
           const annotations = new Set();
@@ -74,12 +74,12 @@ async function main() {
         });
         run.actual = actual;
         // Analytic fixture oracle: the six-metre living edge begins at0;
-        // its shared sub-edge begins at1. Kitchen's edge is3m (sides) or4m
+        // its shared sub-edge begins at1; finished corners are inset6cm. Kitchen's edge is3m (sides) or4m
         // (top/bottom). This stays independent of the production span helper.
         const kitchenLength = side === 'right' || side === 'left' ? 3 : 4;
         const expected = [
-          { name: 'Living room', before: 1.65, after: 3.45 },
-          { name: 'Kitchen', before: .65, after: kitchenLength - .65 - .9 },
+          { name: 'Living room', before: 1.59, after: 3.39 },
+          { name: 'Kitchen', before: .59, after: kitchenLength - .65 - .9 - .06 },
         ]; run.expected = expected;
         for (const chain of expected) {
           const row = actual.rows.find(r => r.name === chain.name), values = [g.measure(chain.before, unit), g.measure(opening.width, unit), g.measure(chain.after, unit)].sort();
@@ -95,10 +95,10 @@ async function main() {
       } finally { await context.close(); }
       if (run.failure?.includes('Preview HTTP500')) { report.aborted = 'Preview boot failed; remaining layouts were not attempted.'; break matrix; }
     }
-  } finally { await browser.close(); }
+  } finally { await browser.close(); await ownedUI.close(); ownedUI=null; }
   report.passed = report.runs.flatMap(r => r.checks).filter(c => c.pass).length;
   report.failed = report.runs.flatMap(r => r.checks).filter(c => !c.pass).length;
   fs.writeFileSync(path.join(__dirname, process.argv[2] || 'door-dimension-matrix.json'), JSON.stringify(report, null, 2) + '\n');
   process.stdout.write(JSON.stringify({ ...report, runs: report.runs.map(r => ({ ...r, actual: undefined, expected: undefined, checks: r.checks.filter(c => !c.pass) })) }, null, 2) + '\n');
 }
-main().catch(e => { report.harnessError = String(e); fs.writeFileSync(path.join(__dirname, 'door-dimension-matrix.json'), JSON.stringify(report, null, 2) + '\n'); process.stderr.write(e.stack + '\n'); process.exitCode = 1; });
+main().catch(async e => { if(ownedUI) await ownedUI.close(); report.harnessError = String(e); fs.writeFileSync(path.join(__dirname, 'door-dimension-matrix.json'), JSON.stringify(report, null, 2) + '\n'); process.stderr.write(e.stack + '\n'); process.exitCode = 1; });

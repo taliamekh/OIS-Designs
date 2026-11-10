@@ -1,0 +1,134 @@
+{
+  "timestamp": "2026-11-10T06:25:00.840Z",
+  "evidence": "Actual phone room-group lock guidance, Plan drag/numeric preview, Cancel/Apply, persisted group transforms and one-step Undo/Redo with real exact lamps and an unrelated locked room. Browser, not native.",
+  "checks": [
+    {
+      "id": "locked-group-guides-to-unlock-without-edit",
+      "pass": true
+    },
+    {
+      "id": "unrelated-lock-does-not-block-room-tool",
+      "pass": false
+    },
+    {
+      "id": "320-selected-room-outlines-remain-distinct",
+      "pass": true,
+      "observed": {
+        "strokes": [
+          "#a17a46",
+          "#a17a46",
+          "#dedfdc"
+        ]
+      }
+    },
+    {
+      "id": "320-all-three-real-item-footprints-remain",
+      "pass": true
+    },
+    {
+      "id": "320-opening-shape-and-lock-marker-remain",
+      "pass": true,
+      "observed": {
+        "paths": 1,
+        "texts": [
+          "🔒"
+        ]
+      }
+    },
+    {
+      "id": "320-ordinary-caption-clutter-removed-only-in-preview",
+      "pass": true,
+      "observed": [
+        "🔒"
+      ]
+    },
+    {
+      "id": "320-outside-drag-pans-without-room-offset",
+      "pass": false,
+      "observed": {
+        "before": 28,
+        "after": 28
+      }
+    },
+    {
+      "id": "320-two-touch-pinch-zooms-without-changing-offset",
+      "pass": true,
+      "observed": {
+        "before": 13.894736842105264,
+        "after": 30.105263157894736
+      }
+    },
+    {
+      "id": "320-pan-pinch-preserve-complete-history",
+      "pass": true
+    },
+    {
+      "id": "plan-drag-previews-a-room-offset",
+      "pass": true,
+      "observed": {
+        "x": 0.7,
+        "z": -0.3
+      }
+    },
+    {
+      "id": "320-signed-preview-offsets-retain-direction",
+      "pass": true,
+      "observed": {
+        "x": 0.7,
+        "z": -0.3
+      }
+    },
+    {
+      "id": "drag-preview-does-not-commit-items-or-history",
+      "pass": true
+    },
+    {
+      "id": "cancel-restores-original-layout-and-history",
+      "pass": true
+    },
+    {
+      "id": "numeric-preview-does-not-commit",
+      "pass": true
+    },
+    {
+      "id": "move-commits-one-step-for-connected-items",
+      "pass": true
+    },
+    {
+      "id": "unrelated-locked-room-exactly-unchanged",
+      "pass": true
+    },
+    {
+      "id": "shared-opening-and-both-finishes-retained",
+      "pass": true
+    },
+    {
+      "id": "single-undo-restores-entire-pre-move-project",
+      "pass": true
+    },
+    {
+      "id": "single-redo-restores-entire-move",
+      "pass": true
+    }
+  ],
+  "errors": [],
+  "consoleErrors": [],
+  "ui": {
+    "id": "qa-web-2026-11-10T06-22-15-093Z",
+    "provenanceSha256": "3bfd3abb6a1983320075cc97df406b49abdde62022ee508b29b476bec126d86d",
+    "sourceMapPass": true,
+    "compiledSourceMatchCount": 59,
+    "editor": {
+      "sha256": "7a742a0b17a97f538df59855ee866d170947139670438d98138e5b524bd74519"
+    },
+    "plan": {
+      "sha256": "bfa37481a3fc585e1512303e091c1addb30e5440c694c3e166920e8105536c14"
+    },
+    "project": {
+      "sha256": "12211660626c660aaed1cd05a7b15d37561d370d59ccd406ee2d58e3da5038ba"
+    }
+  },
+  "completed": true,
+  "passed": 17,
+  "failed": 2
+}

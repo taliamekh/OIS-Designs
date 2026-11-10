@@ -72,6 +72,8 @@ async function main() {
             hinge: "left",
             flip: false,
           };
+          if (process.env.OIS_QA_DOOR_NEAR_CORNER)
+            opening.offset = g.openingOffsetRange(f, opening).min + 0.002;
           f.openings.push(opening);
           const library = {
             version: 1,
@@ -314,7 +316,7 @@ async function main() {
               JSON.stringify((await readLibrary(page)).projects[0].present) ===
                 JSON.stringify(project),
             );
-            const screenshot = `door-matrix-${side}-${unit}-${width}.png`;
+            const screenshot = `${process.env.OIS_QA_DOOR_NEAR_CORNER ? "door-near" : "door-matrix"}-${side}-${unit}-${width}.png`;
             await page.screenshot({
               path: path.join(output, "screens", screenshot),
             });
@@ -342,7 +344,12 @@ async function main() {
     .flatMap((r) => r.checks)
     .filter((c) => !c.pass).length;
   fs.writeFileSync(
-    path.join(output, "door-labels-result.json"),
+    path.join(
+      output,
+      process.env.OIS_QA_DOOR_NEAR_CORNER
+        ? "door-labels-near-result.json"
+        : "door-labels-result.json",
+    ),
     JSON.stringify(report, null, 2) + "\n",
   );
   if (
@@ -371,7 +378,12 @@ async function main() {
 main().catch((e) => {
   report.harnessError = String(e);
   fs.writeFileSync(
-    path.join(output, "door-labels-result.json"),
+    path.join(
+      output,
+      process.env.OIS_QA_DOOR_NEAR_CORNER
+        ? "door-labels-near-result.json"
+        : "door-labels-result.json",
+    ),
     JSON.stringify(report, null, 2) + "\n",
   );
   process.stderr.write(e.stack + "\n");

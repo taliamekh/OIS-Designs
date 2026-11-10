@@ -32,6 +32,8 @@ The exact remaining phase titles/scopes in PHONE_APP_PLAN remain authoritative; 
 
 **06:50 UTC:** independent final candidate UI closes opening/imperial checks (26legacy+9quick/repeat) and legacy neutral-floor cold restoration, with the original preview library restored byte-exact. App is finishing its preview-server correction and matching-source checks/exports before the next coherent publication. This does not change the original phase numbering or close physical-device gates.
 
+**06:55 UTC:** six-hour minimum met with all four workers active through the gate. Furniture/spatial has now handed off its frozen library/adopted policy/unadopted drafts. App and independent QA continue final serving/export/publication checks. Phase2's three fresh human usability sessions, along with physical-phone gates, remain unperformed; automated checks do not substitute for them.
+
 - [Full behavior parity checklist](BUILD_PARITY_CHECKLIST.md): every required interaction remains in scope.
 - [Current build status](../build/STATUS.md), [design findings](../qa/design/FINDINGS.md), [runtime evidence](../qa/runtime/STATUS.md).
 - [Furniture status](../furniture/STATUS.md), [queued spatial phase](../coordination/NEXT_SPATIAL_PHASE.md), [coordination log](../coordination/OVERNIGHT.md).

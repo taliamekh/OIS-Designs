@@ -8,7 +8,7 @@ import {
   supportsPlacement,
 } from "../catalogue/resolve";
 import { initialFilters, Filters } from "../catalogue/search";
-import { canPlace, measure } from "../domain/geometry";
+import { canPlace, measure, openingOffsetRange } from "../domain/geometry";
 import { freePosition } from "../domain/project";
 import { AssetRecord, DoorType, Item, newId, Opening } from "../domain/types";
 import { placementAssets, useStudio } from "../state/Studio";
@@ -80,6 +80,7 @@ export default function Editor() {
       preset?: HouseViewPreset;
     }>({ revision: 0 }),
     [doorTool, setDoorTool] = useState(false),
+    [doorFeedback, setDoorFeedback] = useState(""),
     [walkRoomId, setWalkRoomId] = useState(""),
     [toolSettings, setToolSettings] = useState<{
       type: DoorType;
@@ -239,13 +240,26 @@ export default function Editor() {
       hinge: d.hinge,
       flip: d.flip,
     };
+    const requestedOffset = o.offset;
+    try {
+      const range = openingOffsetRange(floor, o);
+      if (range.min <= range.max)
+        o.offset = Math.max(range.min, Math.min(range.max, o.offset));
+    } catch {
+      // Dispatch still supplies the same actionable physical validation error.
+    }
     if (s.dispatch({ type: "opening", floorId: floor.id, opening: o })) {
+      setDoorFeedback(
+        Math.abs(o.offset - requestedOffset) > 1e-5
+          ? "Adjusted to clear the inside corner."
+          : "",
+      );
       setSelectedDoor(o.id);
       if (!d.repeat) {
         setDoorTool(false);
         setPanel("opening");
       }
-    }
+    } else setDoorFeedback("");
   };
   const conflicts = floor.items
     .filter((i) => i.roomId === room.id)
@@ -477,6 +491,11 @@ export default function Editor() {
             }}
           >
             <Txt small>{doorNames[activeTool.type]} · Tap a wall to place</Txt>
+            {doorFeedback ? (
+              <Txt small muted>
+                {doorFeedback}
+              </Txt>
+            ) : null}
             {activeTool.type === "pocket" &&
               floor.walls.some(
                 (w) => w.id === wallId && w.thickness < 0.15,
@@ -847,6 +866,7 @@ export default function Editor() {
                   key={s.library.settings.unit}
                   windows={panel === "windows"}
                   onUse={(tool) => {
+                    setDoorFeedback("");
                     setToolSettings(tool);
                     s.setMode("2d");
                     setDoorTool(true);
@@ -1062,6 +1082,7 @@ export default function Editor() {
                     icon="door"
                     onPress={() => {
                       setToolSettings(null);
+                      setDoorFeedback("");
                       s.setMode("2d");
                       setDoorTool(true);
                       setPanel(null);

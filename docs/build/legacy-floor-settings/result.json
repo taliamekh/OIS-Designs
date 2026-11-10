@@ -1,0 +1,66 @@
+{
+  "at": "2026-11-10T06:57:21.521Z",
+  "sources": {
+    "mobile/src/domain/project.ts": "12211660626c660aaed1cd05a7b15d37561d370d59ccd406ee2d58e3da5038ba",
+    "mobile/src/domain/types.ts": "e818a704afc0cc972978dbdea369429ca33af346cced16f68eb88ccc1f5a42e5",
+    "mobile/src/domain/geometry.ts": "b163f0fea0fdd9f9871d17274e978897f76979e6b408a531853f62c8485074bf",
+    "mobile/src/domain/construction.ts": "d248539e57f44afab413bc42ce49b6ea0e3a6f7bb6ace675757457ea651dff53",
+    "mobile/src/domain/persistence.ts": "ac166d419b677611c1b32d17fa0ddb9021d20f19cf3614fbd0e39719681e50ee",
+    "mobile/src/domain/roomMove.ts": "2a0c95b6911792dbaa0fb8ffddd10244c53ad756748d917aa1ec447a4fde48ab",
+    "mobile/src/scene/meshes.ts": "bd616ec1721ef5a2bf3ef2f5a9fb323dc37d8a9a33a4596ef75c16c9ef59b9ee"
+  },
+  "stableSources": true,
+  "changedSources": [],
+  "fixtureSHA256": "a0ac83ea6c8464488af0fd18628b5139ad80c3a1e194ca1a3c2560b19af0697e",
+  "checks": [
+    {
+      "id": "LEGACY-UNTOUCHED-SETTINGS-EXACT-NOOP",
+      "pass": true,
+      "observed": {
+        "exactHistoryIdentity": true
+      }
+    },
+    {
+      "id": "LEGACY-NEUTRAL-NAME",
+      "pass": true,
+      "observed": {
+        "historySteps": 1,
+        "localGeometryAndIdentityExact": true
+      }
+    },
+    {
+      "id": "LEGACY-NEUTRAL-ALIGNMENT",
+      "pass": true,
+      "observed": {
+        "historySteps": 1,
+        "localGeometryAndIdentityExact": true
+      }
+    },
+    {
+      "id": "LEGACY-NEUTRAL-ELEVATION",
+      "pass": true,
+      "observed": {
+        "historySteps": 1,
+        "localGeometryAndIdentityExact": true
+      }
+    },
+    {
+      "id": "NEW-PHYSICAL-OVERLAP-STILL-REJECTS",
+      "pass": true,
+      "observed": {
+        "error": "Keep the furniture clear of the physical wall."
+      }
+    },
+    {
+      "id": "NEW-CEILING-CONFLICT-STILL-REJECTS",
+      "pass": true,
+      "observed": {
+        "error": "Acoustic phone booth: This item exceeds the room ceiling height.",
+        "height": 1.9850000143051147
+      }
+    }
+  ],
+  "passed": 6,
+  "failed": 0,
+  "scope": "RUNTIME015 exact legacy fixture command/history compatibility with fresh-placement and ceiling-conflict negative controls;source-level,noCanvas/native/physicalclaim."
+}

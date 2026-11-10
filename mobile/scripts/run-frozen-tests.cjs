@@ -55,7 +55,12 @@ const stable = () =>
       nativeValidation: false,
     };
     fs.writeFileSync(
-      path.resolve(mobile, "../docs/build/frozen-tests-result.json"),
+      path.resolve(
+        mobile,
+        process.env.OIS_QA_DOOR_NEAR_CORNER
+          ? "../docs/build/frozen-near-tests-result.json"
+          : "../docs/build/frozen-tests-result.json",
+      ),
       JSON.stringify(result, null, 2),
     );
     console.log(JSON.stringify(result));

@@ -24,6 +24,7 @@ import {
   inside,
   lerp,
   openingError,
+  openingPhysicalError,
   overlaps,
   projectToSegment,
   rebuildWalls,
@@ -262,6 +263,68 @@ export type Command =
   | { type: "rename"; name: string };
 export type CommandResult = { history: History; error: string | null };
 const clone = <T>(v: T): T => JSON.parse(JSON.stringify(v));
+const ordered = <T extends { id: string }>(rows: T[]) =>
+  [...rows].sort((a, b) => a.id.localeCompare(b.id));
+const openingGeometry = (opening: Opening) => [
+  opening.id,
+  opening.wallId,
+  opening.type,
+  opening.offset,
+  opening.width,
+  opening.height,
+  opening.sill,
+  opening.hinge,
+  opening.flip,
+];
+/** Elevation/alignment translate an entire floor. They do not change these
+ * local collision relationships; neither do names, colours or lock flags. */
+function boundaryGeometry(floor: Floor) {
+  return JSON.stringify({
+    ceiling: floor.ceiling,
+    rooms: ordered(floor.rooms).map((room) => [
+      room.id,
+      room.polygon,
+      room.ceiling ?? floor.ceiling,
+    ]),
+    walls: ordered(floor.walls).map((wall) => [
+      wall.id,
+      wall.a,
+      wall.b,
+      wall.thickness,
+      wall.faces,
+    ]),
+  });
+}
+function collisionGeometry(floor: Floor) {
+  return JSON.stringify({
+    boundary: boundaryGeometry(floor),
+    openings: ordered(floor.openings).map(openingGeometry),
+    trim: ordered(floor.rooms).map((room) => [
+      room.id,
+      ordered(floor.walls)
+        .filter((wall) => wall.faces.some((face) => face.roomId === room.id))
+        .map((wall) => {
+          const trim = room.trimOverrides[wall.id] ?? room.trim;
+          return [
+            wall.id,
+            trim.profile,
+            trim.profile === "none" ? 0 : trim.height,
+            trim.profile === "none" ? 0 : trim.projection,
+          ];
+        }),
+    ]),
+    items: ordered(floor.items).map((item) => [
+      item.id,
+      item.roomId,
+      item.assetId,
+      item.assetVersion,
+      item.assetHash,
+      item.x,
+      item.z,
+      item.yaw,
+    ]),
+  });
+}
 
 /** Reconcile physical wall segments after a topology change, retaining face-specific work. */
 function reconcileWalls(floor: Floor, previous: Floor): string | null {
@@ -484,6 +547,9 @@ function applyCommand(
       ? p.floors.find((f) => f.id === command.floorId)
       : undefined;
   if ("floorId" in command && !f) return fail("Floor no longer exists.");
+  const previousFloor = f
+    ? history.present.floors.find((floor) => floor.id === f.id)!
+    : undefined;
   const room =
     f && "roomId" in command
       ? f.rooms.find((r) => r.id === command.roomId)
@@ -524,8 +590,17 @@ function applyCommand(
       return fail(
         "Use a ceiling height from 1.8 to 8 metres and finite alignment.",
       );
+    const name = command.name.trim() || f.name;
+    if (
+      name === f.name &&
+      command.elevation === f.elevation &&
+      command.ceiling === f.ceiling &&
+      command.alignment.x === f.alignment.x &&
+      command.alignment.z === f.alignment.z
+    )
+      return { history, error: null };
     Object.assign(f, {
-      name: command.name.trim() || f.name,
+      name,
       elevation: command.elevation,
       ceiling: command.ceiling,
       alignment: command.alignment,
@@ -747,10 +822,21 @@ function applyCommand(
     else room.trim = command.trim;
   }
   if (command.type === "opening" && f) {
-    error = openingError(f, command.opening);
+    const current = f.openings.find(
+      (opening) => opening.id === command.opening.id,
+    );
+    error =
+      current &&
+      JSON.stringify(openingGeometry(current)) ===
+        JSON.stringify(openingGeometry(command.opening))
+        ? openingError(f, command.opening)
+        : openingPhysicalError(f, command.opening);
     if (!error) {
-      f.openings = f.openings.filter((o) => o.id !== command.opening.id);
-      f.openings.push(command.opening);
+      if (current)
+        f.openings = f.openings.map((opening) =>
+          opening.id === current.id ? command.opening : opening,
+        );
+      else f.openings.push(command.opening);
     }
   }
   if (command.type === "delete-opening" && f)
@@ -767,10 +853,14 @@ function applyCommand(
     w.thickness = command.thickness;
   }
   if (error) return fail(error);
+  if (JSON.stringify(p) === JSON.stringify(history.present))
+    return { history, error: null };
   // Revalidate all affected geometry, including existing objects and openings after resizing.
   if (f) {
+    const boundaryChanged =
+      previousFloor && boundaryGeometry(previousFloor) !== boundaryGeometry(f);
     for (const o of f.openings) {
-      error = openingError(f, o);
+      error = boundaryChanged ? openingPhysicalError(f, o) : openingError(f, o);
       if (error) return fail(`Existing opening: ${error}`);
     }
     if (
@@ -784,7 +874,9 @@ function applyCommand(
         "opening",
         "add-room",
         "wall-thickness",
-      ].includes(command.type)
+      ].includes(command.type) &&
+      (!previousFloor ||
+        collisionGeometry(previousFloor) !== collisionGeometry(f))
     ) {
       // A one-item transform cannot change relationships between all the other items.
       // Validate that item against its neighbours instead of an O(n²) whole-floor pass.

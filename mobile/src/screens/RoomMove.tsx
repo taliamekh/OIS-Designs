@@ -48,15 +48,12 @@ export default function RoomMove({
       keyboardShouldPersistTaps="handled"
     >
       <Txt small muted>
-        Drag inside the highlighted rooms to preview a move, or enter signed
-        offsets. Drag outside to pan; pinch to zoom.
+        Drag a highlighted room or enter signed offsets. Drag outside to pan;
+        pinch to zoom.
       </Txt>
       <Txt small>
-        {roomCount === 1
-          ? "This room"
-          : `${roomCount} rooms joined by shared walls`}{" "}
-        moves with all its furniture, openings, finishes and baseboards. Unlock
-        furniture in these rooms before moving them.
+        Moves {roomCount === 1 ? "this room" : `${roomCount} connected rooms`}{" "}
+        with furniture, openings and finishes.
       </Txt>
       {lockedCount > 0 && (
         <Txt>

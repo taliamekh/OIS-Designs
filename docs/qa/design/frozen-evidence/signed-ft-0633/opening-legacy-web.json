@@ -1,0 +1,145 @@
+{
+  "timestamp": "2026-11-10T06:31:28.883Z",
+  "evidence": "Actual readable legacy corner overlap, unchanged Apply, refused unsafe edit, explicit door/window correction, Undo/Redo and cold reload. Signed feet display checked separately. Browser, not native.",
+  "runs": [
+    {
+      "type": "open",
+      "checks": [
+        {
+          "id": "legacy-overlap-loads-and-remains-exact",
+          "pass": true
+        },
+        {
+          "id": "legacy-inspector-explains-correction",
+          "pass": true
+        },
+        {
+          "id": "unchanged-apply-preserves-old-history-and-coordinates",
+          "pass": true
+        },
+        {
+          "id": "negative-corner-feet-have-one-correct-sign",
+          "pass": false,
+          "observed": []
+        },
+        {
+          "id": "unit-changes-preserve-entire-legacy-project",
+          "pass": true
+        },
+        {
+          "id": "unsafe-edit-refused-with-exact-old-history",
+          "pass": true
+        },
+        {
+          "id": "explicit-safe-edit-makes-one-history-step",
+          "pass": true
+        },
+        {
+          "id": "corrected-opening-clears-warning",
+          "pass": true
+        },
+        {
+          "id": "undo-restores-original-overlapping-opening-exactly",
+          "pass": true
+        },
+        {
+          "id": "undo-rehydrates-saved-correction-warning",
+          "pass": true
+        },
+        {
+          "id": "redo-restores-safe-project-exactly",
+          "pass": true
+        },
+        {
+          "id": "cold-reload-keeps-exact-correction-history",
+          "pass": true
+        },
+        {
+          "id": "cold-inspector-has-safe-offset-and-no-warning",
+          "pass": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": [],
+      "completed": true
+    },
+    {
+      "type": "window",
+      "checks": [
+        {
+          "id": "legacy-overlap-loads-and-remains-exact",
+          "pass": true
+        },
+        {
+          "id": "legacy-inspector-explains-correction",
+          "pass": true
+        },
+        {
+          "id": "unchanged-apply-preserves-old-history-and-coordinates",
+          "pass": true
+        },
+        {
+          "id": "negative-corner-feet-have-one-correct-sign",
+          "pass": false,
+          "observed": []
+        },
+        {
+          "id": "unit-changes-preserve-entire-legacy-project",
+          "pass": true
+        },
+        {
+          "id": "unsafe-edit-refused-with-exact-old-history",
+          "pass": true
+        },
+        {
+          "id": "explicit-safe-edit-makes-one-history-step",
+          "pass": true
+        },
+        {
+          "id": "corrected-opening-clears-warning",
+          "pass": true
+        },
+        {
+          "id": "undo-restores-original-overlapping-opening-exactly",
+          "pass": true
+        },
+        {
+          "id": "undo-rehydrates-saved-correction-warning",
+          "pass": true
+        },
+        {
+          "id": "redo-restores-safe-project-exactly",
+          "pass": true
+        },
+        {
+          "id": "cold-reload-keeps-exact-correction-history",
+          "pass": true
+        },
+        {
+          "id": "cold-inspector-has-safe-offset-and-no-warning",
+          "pass": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": [],
+      "completed": true
+    }
+  ],
+  "ui": {
+    "id": "qa-web-2026-11-10T06-22-15-093Z",
+    "provenanceSha256": "3bfd3abb6a1983320075cc97df406b49abdde62022ee508b29b476bec126d86d",
+    "sourceMapPass": true,
+    "compiledSourceMatchCount": 59,
+    "geometry": {
+      "sha256": "a25eee6dd2a21d613781ff0d1514764bccde7769eefc50ab3cffa26ec569246b"
+    },
+    "project": {
+      "sha256": "12211660626c660aaed1cd05a7b15d37561d370d59ccd406ee2d58e3da5038ba"
+    },
+    "build": {
+      "sha256": "6839d50724514e4fe4d7b5adbff1258151f35a00cc9d74ce3ab3b12033966916"
+    }
+  },
+  "passed": 24,
+  "failed": 2
+}

@@ -1,0 +1,251 @@
+{
+  "timestamp": "2026-11-10T06:40:46.315Z",
+  "evidence": "Direct production formatter execution against hand-calculated examples, signed tie/carry/zero and metre/numeric-unit invariants. CPU only; actual inspector is a separate UI check.",
+  "geometryBefore": "b163f0fea0fdd9f9871d17274e978897f76979e6b408a531853f62c8485074bf",
+  "geometryAfter": "b163f0fea0fdd9f9871d17274e978897f76979e6b408a531853f62c8485074bf",
+  "sourceStable": true,
+  "checks": [
+    {
+      "id": "negative legacy corner",
+      "metres": -0.05,
+      "expected": "-0′ 2″",
+      "actual": "-0′ 2″",
+      "pass": true
+    },
+    {
+      "id": "negative metre",
+      "metres": -1,
+      "expected": "-3′ 3″",
+      "actual": "-3′ 3″",
+      "pass": true
+    },
+    {
+      "id": "negative 37 inches",
+      "metres": -0.9398,
+      "expected": "-3′ 1″",
+      "actual": "-3′ 1″",
+      "pass": true
+    },
+    {
+      "id": "positive legacy corner",
+      "metres": 0.05,
+      "expected": "0′ 2″",
+      "actual": "0′ 2″",
+      "pass": true
+    },
+    {
+      "id": "positive metre",
+      "metres": 1,
+      "expected": "3′ 3″",
+      "actual": "3′ 3″",
+      "pass": true
+    },
+    {
+      "id": "positive 37 inches",
+      "metres": 0.9398,
+      "expected": "3′ 1″",
+      "actual": "3′ 1″",
+      "pass": true
+    },
+    {
+      "id": "zero",
+      "metres": 0,
+      "expected": "0′ 0″",
+      "actual": "0′ 0″",
+      "pass": true
+    },
+    {
+      "id": "negative zero",
+      "metres": 0,
+      "expected": "0′ 0″",
+      "actual": "0′ 0″",
+      "pass": true
+    },
+    {
+      "id": "negative tiny",
+      "metres": -0.001,
+      "expected": "0′ 0″",
+      "actual": "0′ 0″",
+      "pass": true
+    },
+    {
+      "id": "positive tiny",
+      "metres": 0.001,
+      "expected": "0′ 0″",
+      "actual": "0′ 0″",
+      "pass": true
+    },
+    {
+      "id": "half inch",
+      "metres": 0.0127,
+      "expected": "0′ 1″",
+      "actual": "0′ 1″",
+      "pass": true
+    },
+    {
+      "id": "negative half inch",
+      "metres": -0.0127,
+      "expected": "-0′ 1″",
+      "actual": "-0′ 1″",
+      "pass": true
+    },
+    {
+      "id": "below half inch",
+      "metres": 0.01269999,
+      "expected": "0′ 0″",
+      "actual": "0′ 0″",
+      "pass": true
+    },
+    {
+      "id": "negative below half inch",
+      "metres": -0.01269999,
+      "expected": "0′ 0″",
+      "actual": "0′ 0″",
+      "pass": true
+    },
+    {
+      "id": "above half inch",
+      "metres": 0.01270001,
+      "expected": "0′ 1″",
+      "actual": "0′ 1″",
+      "pass": true
+    },
+    {
+      "id": "negative above half inch",
+      "metres": -0.01270001,
+      "expected": "-0′ 1″",
+      "actual": "-0′ 1″",
+      "pass": true
+    },
+    {
+      "id": "foot carry",
+      "metres": 0.2921,
+      "expected": "1′ 0″",
+      "actual": "1′ 0″",
+      "pass": true
+    },
+    {
+      "id": "negative foot carry",
+      "metres": -0.2921,
+      "expected": "-1′ 0″",
+      "actual": "-1′ 0″",
+      "pass": true
+    },
+    {
+      "id": "whole foot",
+      "metres": 0.3048,
+      "expected": "1′ 0″",
+      "actual": "1′ 0″",
+      "pass": true
+    },
+    {
+      "id": "negative whole foot",
+      "metres": -0.3048,
+      "expected": "-1′ 0″",
+      "actual": "-1′ 0″",
+      "pass": true
+    },
+    {
+      "id": "three feet carry",
+      "metres": 0.9017,
+      "expected": "3′ 0″",
+      "actual": "3′ 0″",
+      "pass": true
+    },
+    {
+      "id": "negative three feet carry",
+      "metres": -0.9017,
+      "expected": "-3′ 0″",
+      "actual": "-3′ 0″",
+      "pass": true
+    },
+    {
+      "id": "fractional foot",
+      "metres": 4.3434,
+      "expected": "14′ 3″",
+      "actual": "14′ 3″",
+      "pass": true
+    },
+    {
+      "id": "negative fractional foot",
+      "metres": -4.3434,
+      "expected": "-14′ 3″",
+      "actual": "-14′ 3″",
+      "pass": true
+    },
+    {
+      "id": "metres unchanged -1",
+      "expected": "-1.00 m",
+      "actual": "-1.00 m",
+      "pass": true
+    },
+    {
+      "id": "metres unchanged -0.05",
+      "expected": "-0.05 m",
+      "actual": "-0.05 m",
+      "pass": true
+    },
+    {
+      "id": "metres unchanged 0",
+      "expected": "0.00 m",
+      "actual": "0.00 m",
+      "pass": true
+    },
+    {
+      "id": "metres unchanged 0.05",
+      "expected": "0.05 m",
+      "actual": "0.05 m",
+      "pass": true
+    },
+    {
+      "id": "metres unchanged 1",
+      "expected": "1.00 m",
+      "actual": "1.00 m",
+      "pass": true
+    },
+    {
+      "id": "metres unchanged 4.3434",
+      "expected": "4.34 m",
+      "actual": "4.34 m",
+      "pass": true
+    },
+    {
+      "id": "numeric unit roundtrip -1",
+      "expected": -1,
+      "actual": -0.9999999999999999,
+      "pass": true
+    },
+    {
+      "id": "numeric unit roundtrip -0.05",
+      "expected": -0.05,
+      "actual": -0.05,
+      "pass": true
+    },
+    {
+      "id": "numeric unit roundtrip 0",
+      "expected": 0,
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "id": "numeric unit roundtrip 0.05",
+      "expected": 0.05,
+      "actual": 0.05,
+      "pass": true
+    },
+    {
+      "id": "numeric unit roundtrip 1",
+      "expected": 1,
+      "actual": 0.9999999999999999,
+      "pass": true
+    },
+    {
+      "id": "numeric unit roundtrip 4.3434",
+      "expected": 4.3434,
+      "actual": 4.3434,
+      "pass": true
+    }
+  ],
+  "passed": 36,
+  "failed": 0
+}

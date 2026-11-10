@@ -1,0 +1,237 @@
+{
+  "at": "2026-11-10T06:52:16.760Z",
+  "id": "RUNTIME-015",
+  "status": "resolved-with-bounded-source-and-live-ui-evidence",
+  "notOverallSignoff": true,
+  "minimumContinuedWorkGate": "2026-11-10T06:53:00Z",
+  "mode": "ActualliveUIonexistingownerMetro;no server/GitmutationsbyQA. Sourcefunctionregressionisindependentandpinned;notafrozen59source-mapUIrun.",
+  "sourceBefore": {
+    "project": "12211660626c660aaed1cd05a7b15d37561d370d59ccd406ee2d58e3da5038ba",
+    "geometry": "a25eee6dd2a21d613781ff0d1514764bccde7769eefc50ab3cffa26ec569246b",
+    "persistence": "ac166d419b677611c1b32d17fa0ddb9021d20f19cf3614fbd0e39719681e50ee",
+    "editor": "7a742a0b17a97f538df59855ee866d170947139670438d98138e5b524bd74519"
+  },
+  "sourceAfter": {
+    "domain/project.ts": "12211660626c660aaed1cd05a7b15d37561d370d59ccd406ee2d58e3da5038ba",
+    "domain/geometry.ts": "b163f0fea0fdd9f9871d17274e978897f76979e6b408a531853f62c8485074bf",
+    "domain/persistence.ts": "ac166d419b677611c1b32d17fa0ddb9021d20f19cf3614fbd0e39719681e50ee",
+    "screens/Editor.tsx": "7a742a0b17a97f538df59855ee866d170947139670438d98138e5b524bd74519",
+    "screens/Build.tsx": "6839d50724514e4fe4d7b5adbff1258151f35a00cc9d74ce3ab3b12033966916"
+  },
+  "noop": {
+    "dom": "- button \"Back\":\n- generic: Runtime QA legacy floor settings\n- button \"Settings\":\n- button \"Choose room, current Kitchen\":\n  - generic: Kitchen\n- button \"View 2D\":\n  - generic: 2D\n- button \"View 3D\":\n  - generic: 3D\n- button \"View Walk\":\n  - generic: Walk\n- generic: Floors and rooms\n- button \"Expand panel\":\n- button \"Close Floors and rooms\":\n- generic: Ground floor · 0.00 m\n- button \"Kitchen\":\n  - generic: Kitchen\n- button \"View all floors\":\n  - generic: View all floors\n- generic: Floor alignment and defaults\n- generic: X alignment (m)\n- textbox \"X alignment (m)\": \"0.000\"\n- generic: Z alignment (m)\n- textbox \"Z alignment (m)\": \"0.000\"\n- generic: Floor elevation (m)\n- textbox \"Floor elevation (m)\": \"0.000\"\n- generic: Default ceiling (m)\n- textbox \"Default ceiling (m)\": \"2.700\"\n- button \"Apply to Ground floor\" [active]:\n  - generic: Apply to Ground floor\n- generic: New floor name\n- textbox \"New floor name\": New floor\n- generic: New floor elevation (m)\n- textbox \"New floor elevation (m)\": \"3.000\"\n- button \"Create floor with room\":\n  - generic: Create floor with room\n- generic: Use room jumping to change floors. Stair traversal is not available without connected stair/opening geometry.",
+    "bytes": 2100,
+    "sha256": "a0ac83ea6c8464488af0fd18628b5139ad80c3a1e194ca1a3c2560b19af0697e",
+    "fixtureExact": true
+  },
+  "changedBackup": {
+    "bytes": 5521,
+    "sha256": "52daad3b331250914cc2338b198ef843caea096f339da6110ac69bd5b81a5842"
+  },
+  "coldFieldsDOM": "- button \"Back\":\n- generic: Runtime QA legacy floor settings\n- button \"Settings\":\n- button \"Choose room, current Kitchen\" [active]:\n  - generic: Kitchen\n- button \"View 2D\":\n  - generic: 2D\n- button \"View 3D\":\n  - generic: 3D\n- button \"View Walk\":\n  - generic: Walk\n- button \"Undo\":\n- button \"Redo\" [disabled]:\n- generic: Floors and rooms\n- button \"Expand panel\":\n- button \"Close Floors and rooms\":\n- generic: Ground floor · 3.20 m\n- button \"Kitchen\":\n  - generic: Kitchen\n- button \"View all floors\":\n  - generic: View all floors\n- generic: Floor alignment and defaults\n- generic: X alignment (m)\n- textbox \"X alignment (m)\": \"1.000\"\n- generic: Z alignment (m)\n- textbox \"Z alignment (m)\": \"-2.000\"\n- generic: Floor elevation (m)\n- textbox \"Floor elevation (m)\": \"3.200\"\n- generic: Default ceiling (m)\n- textbox \"Default ceiling (m)\": \"2.700\"\n- button \"Apply to Ground floor\":\n  - generic: Apply to Ground floor\n- generic: New floor name\n- textbox \"New floor name\": New floor\n- generic: New floor elevation (m)\n- textbox \"New floor elevation (m)\": \"6.200\"\n- button \"Create floor with room\":\n  - generic: Create floor with room\n- generic: Use room jumping to change floors. Stair traversal is not available without connected stair/opening geometry.",
+  "coldUndoDOM": "- button \"Back\":\n- generic: Runtime QA legacy floor settings\n- button \"Settings\":\n- button \"Choose room, current Kitchen\":\n  - generic: Kitchen\n- button \"View 2D\":\n  - generic: 2D\n- button \"View 3D\":\n  - generic: 3D\n- button \"View Walk\":\n  - generic: Walk\n- button \"Undo\" [disabled]:\n- button \"Redo\":\n- generic: Floors and rooms\n- button \"Expand panel\":\n- button \"Close Floors and rooms\":\n- generic: Ground floor · 0.00 m\n- button \"Kitchen\":\n  - generic: Kitchen\n- button \"View all floors\":\n  - generic: View all floors\n- generic: Floor alignment and defaults\n- generic: X alignment (m)\n- textbox \"X alignment (m)\": \"0.000\"\n- generic: Z alignment (m)\n- textbox \"Z alignment (m)\": \"0.000\"\n- generic: Floor elevation (m)\n- textbox \"Floor elevation (m)\": \"0.000\"\n- generic: Default ceiling (m)\n- textbox \"Default ceiling (m)\": \"2.700\"\n- button \"Apply to Ground floor\":\n  - generic: Apply to Ground floor\n- generic: New floor name\n- textbox \"New floor name\": New floor\n- generic: New floor elevation (m)\n- textbox \"New floor elevation (m)\": \"3.000\"\n- button \"Create floor with room\":\n  - generic: Create floor with room\n- generic: Use room jumping to change floors. Stair traversal is not available without connected stair/opening geometry.",
+  "coldRedoDOM": "- button \"Back\":\n- generic: Runtime QA legacy floor settings\n- button \"Settings\":\n- button \"Choose room, current Kitchen\":\n  - generic: Kitchen\n- button \"View 2D\":\n  - generic: 2D\n- button \"View 3D\":\n  - generic: 3D\n- button \"View Walk\":\n  - generic: Walk\n- button \"Undo\":\n- button \"Redo\" [disabled]:\n- generic: Floors and rooms\n- button \"Expand panel\":\n- button \"Close Floors and rooms\":\n- generic: Ground floor · 3.20 m\n- button \"Kitchen\":\n  - generic: Kitchen\n- button \"View all floors\":\n  - generic: View all floors\n- generic: Floor alignment and defaults\n- generic: X alignment (m)\n- textbox \"X alignment (m)\": \"1.000\"\n- generic: Z alignment (m)\n- textbox \"Z alignment (m)\": \"-2.000\"\n- generic: Floor elevation (m)\n- textbox \"Floor elevation (m)\": \"3.200\"\n- generic: Default ceiling (m)\n- textbox \"Default ceiling (m)\": \"2.700\"\n- button \"Apply to Ground floor\":\n  - generic: Apply to Ground floor\n- generic: New floor name\n- textbox \"New floor name\": New floor\n- generic: New floor elevation (m)\n- textbox \"New floor elevation (m)\": \"6.200\"\n- button \"Create floor with room\":\n  - generic: Create floor with room\n- generic: Use room jumping to change floors. Stair traversal is not available without connected stair/opening geometry.",
+  "coldBackup": {
+    "bytes": 5521,
+    "sha256": "52daad3b331250914cc2338b198ef843caea096f339da6110ac69bd5b81a5842",
+    "exactBeforeReload": true
+  },
+  "originalRestoration": {
+    "originalBytes": 6149,
+    "originalSHA256": "2342d0cd8a78d2168ee7c562f5eb719903fcd5cb917c9a72fa6dd04930873597",
+    "restoredBytes": 6149,
+    "restoredSHA256": "2342d0cd8a78d2168ee7c562f5eb719903fcd5cb917c9a72fa6dd04930873597",
+    "restoredByteExact": true,
+    "coldExportBytes": 6149,
+    "coldExportSHA256": "2342d0cd8a78d2168ee7c562f5eb719903fcd5cb917c9a72fa6dd04930873597",
+    "coldRestoredByteExact": true
+  },
+  "sourceRegression": {
+    "at": "2026-11-10T06:35:02.122Z",
+    "sources": {
+      "mobile/src/domain/project.ts": "12211660626c660aaed1cd05a7b15d37561d370d59ccd406ee2d58e3da5038ba",
+      "mobile/src/domain/types.ts": "e818a704afc0cc972978dbdea369429ca33af346cced16f68eb88ccc1f5a42e5",
+      "mobile/src/domain/geometry.ts": "b163f0fea0fdd9f9871d17274e978897f76979e6b408a531853f62c8485074bf",
+      "mobile/src/domain/construction.ts": "d248539e57f44afab413bc42ce49b6ea0e3a6f7bb6ace675757457ea651dff53",
+      "mobile/src/domain/persistence.ts": "ac166d419b677611c1b32d17fa0ddb9021d20f19cf3614fbd0e39719681e50ee",
+      "mobile/src/domain/roomMove.ts": "2a0c95b6911792dbaa0fb8ffddd10244c53ad756748d917aa1ec447a4fde48ab",
+      "mobile/src/scene/meshes.ts": "bd616ec1721ef5a2bf3ef2f5a9fb323dc37d8a9a33a4596ef75c16c9ef59b9ee"
+    },
+    "stableSources": true,
+    "changedSources": [],
+    "fixtureSHA256": "a0ac83ea6c8464488af0fd18628b5139ad80c3a1e194ca1a3c2560b19af0697e",
+    "checks": [
+      {
+        "id": "LEGACY-UNTOUCHED-SETTINGS-EXACT-NOOP",
+        "pass": true,
+        "observed": {
+          "exactHistoryIdentity": true
+        }
+      },
+      {
+        "id": "LEGACY-NEUTRAL-NAME",
+        "pass": true,
+        "observed": {
+          "historySteps": 1,
+          "localGeometryAndIdentityExact": true
+        }
+      },
+      {
+        "id": "LEGACY-NEUTRAL-ALIGNMENT",
+        "pass": true,
+        "observed": {
+          "historySteps": 1,
+          "localGeometryAndIdentityExact": true
+        }
+      },
+      {
+        "id": "LEGACY-NEUTRAL-ELEVATION",
+        "pass": true,
+        "observed": {
+          "historySteps": 1,
+          "localGeometryAndIdentityExact": true
+        }
+      },
+      {
+        "id": "NEW-PHYSICAL-OVERLAP-STILL-REJECTS",
+        "pass": true,
+        "observed": {
+          "error": "Keep the furniture clear of the physical wall."
+        }
+      },
+      {
+        "id": "NEW-CEILING-CONFLICT-STILL-REJECTS",
+        "pass": true,
+        "observed": {
+          "error": "Acoustic phone booth: This item exceeds the room ceiling height.",
+          "height": 1.9850000143051147
+        }
+      }
+    ],
+    "passed": 6,
+    "failed": 0,
+    "scope": "RUNTIME015 exact legacy fixture command/history compatibility with fresh-placement and ceiling-conflict negative controls;source-level,noCanvas/native/physicalclaim."
+  },
+  "recoveryFollowup": {
+    "at": "2026-11-10T06:16:58.745Z",
+    "sources": {
+      "mobile/src/domain/project.ts": "7a3026630a0dd937c07828004f31ab1ca16fb87a040627e59712ffed77d6edcc",
+      "mobile/src/domain/types.ts": "e818a704afc0cc972978dbdea369429ca33af346cced16f68eb88ccc1f5a42e5",
+      "mobile/src/domain/geometry.ts": "a25eee6dd2a21d613781ff0d1514764bccde7769eefc50ab3cffa26ec569246b",
+      "mobile/src/domain/construction.ts": "d248539e57f44afab413bc42ce49b6ea0e3a6f7bb6ace675757457ea651dff53",
+      "mobile/src/domain/persistence.ts": "ac166d419b677611c1b32d17fa0ddb9021d20f19cf3614fbd0e39719681e50ee",
+      "mobile/src/domain/roomMove.ts": "2a0c95b6911792dbaa0fb8ffddd10244c53ad756748d917aa1ec447a4fde48ab",
+      "mobile/src/scene/meshes.ts": "bd616ec1721ef5a2bf3ef2f5a9fb323dc37d8a9a33a4596ef75c16c9ef59b9ee"
+    },
+    "stableSources": true,
+    "changedSources": [],
+    "fixtureSHA256": "a0ac83ea6c8464488af0fd18628b5139ad80c3a1e194ca1a3c2560b19af0697e",
+    "checks": [
+      {
+        "id": "ORIGINAL-RAW-DECODE-NOOP-LOAD-IS-EXACT",
+        "pass": true,
+        "observed": {
+          "bytes": 2100,
+          "sha256": "a0ac83ea6c8464488af0fd18628b5139ad80c3a1e194ca1a3c2560b19af0697e",
+          "writes": 0,
+          "noOpIdentity": true
+        }
+      },
+      {
+        "id": "NEUTRAL-ALIGNMENT-DURABLE-BACKUP-COLD-HISTORY",
+        "pass": true,
+        "observed": {
+          "primaryBytes": 3814,
+          "originalBackupSHA256": "a0ac83ea6c8464488af0fd18628b5139ad80c3a1e194ca1a3c2560b19af0697e",
+          "past": 1,
+          "localDataExact": true,
+          "coldUndoRedoExact": true
+        }
+      },
+      {
+        "id": "LEGACY-CORRUPT-FALLBACK-EXPLICIT-RECOVERY-ARCHIVES",
+        "pass": true,
+        "observed": {
+          "originalsArchivedExactly": 2,
+          "restoredSHA256": "a0ac83ea6c8464488af0fd18628b5139ad80c3a1e194ca1a3c2560b19af0697e",
+          "notice": "Recovered the last verified local save. The unreadable save is preserved until your next edit.",
+          "scope": "Actualpersistencefunctions with controlledin-memoryadapter,notnativefilesystem orrealIDBfault test."
+        }
+      },
+      {
+        "id": "ORDINARY-VALID-PATH-AND-NUMERIC-GUARDS",
+        "pass": true,
+        "observed": {
+          "validChangedProject": true,
+          "invalidNumericCases": 3,
+          "exactNoOp": true
+        }
+      },
+      {
+        "id": "UNAVAILABLE-EXACT-TUPLES-SURVIVE-NEUTRAL-FLOOR-EDIT",
+        "pass": true,
+        "observed": {
+          "unknownHashPreserved": true,
+          "lockAndOverrideExact": true,
+          "unsupportedWallTuplePreserved": true
+        }
+      }
+    ],
+    "passed": 5,
+    "failed": 0,
+    "scope": "Actualdomain/persistencefunctions with controlledin-memorykey-valueadapter. RUNTIME015legacyexactbytes/backup/archives/coldhistory/ordinarypath;notnativefileoractualbrowserIDB/OSinterruptionclaim."
+  },
+  "servingFailure": {
+    "error": "ExpoSSRRequiringunknownmodule3962",
+    "ownerRefreshedProcess": true,
+    "subsequentColdStartupAndEditorControlsPassed": true,
+    "subsequentHardSettingsReloadPassed": true
+  },
+  "consoleCaptured": [
+    {
+      "level": "warn",
+      "message": "Disconnected from Metro (1006)\nTo reconnect:\n- Ensure that Metro is running and available on the same network\n- Reload this app (will trigger further help if Metro cannot be connected to)",
+      "timestamp": "2026-11-10T06:46:25.659Z"
+    }
+  ],
+  "qualification": "Originalbackupbytesstayonlyinignoredlocalartifactsandarenotforpublication. Aseparateownedloopbackbrowseroriginwasused. No-op/registration/localdata/history/coldrestorepassed;initialSSRfailurepreservedseparatelyandownerrefreshedserver. Sourcebefore/afterdomainproject+Editorremainstable;geometrychangedforrelatedopening/formatworkduringlivewindowandisshownexplicitly. Notnative/physicaldeviceacceptance.",
+  "independentAudit": {
+    "localGeometryIdentityLocksFinishesExact": true,
+    "historySteps": 2,
+    "undoProjectExactlyOriginal": true,
+    "coldBackupByteExact": true,
+    "originalRestoredAndColdExportByteExact": true
+  },
+  "syntheticFiles": [
+    {
+      "file": "attention-fixture.json",
+      "bytes": 8729,
+      "sha256": "98f1b9c613d8737ecdecf03c535ede72745ae769a4df1c586a53e77b78c0b95a"
+    },
+    {
+      "file": "changed-backup.json",
+      "bytes": 5521,
+      "sha256": "52daad3b331250914cc2338b198ef843caea096f339da6110ac69bd5b81a5842"
+    },
+    {
+      "file": "cold-backup.json",
+      "bytes": 5521,
+      "sha256": "52daad3b331250914cc2338b198ef843caea096f339da6110ac69bd5b81a5842"
+    },
+    {
+      "file": "legacy-fixture.json",
+      "bytes": 2100,
+      "sha256": "a0ac83ea6c8464488af0fd18628b5139ad80c3a1e194ca1a3c2560b19af0697e"
+    },
+    {
+      "file": "legacy-floor-repaired-registration390.png",
+      "bytes": 29021,
+      "sha256": "9f7b70ad0ce899e1b5b4f438cc14326d56cc639ec4e2f7cd540b893668ef56c2"
+    },
+    {
+      "file": "undo-backup.json",
+      "bytes": 5521,
+      "sha256": "0a556dd334ec27046d55e90bc785b3676528ff6675077d701e62dcdb4143b572"
+    }
+  ]
+}

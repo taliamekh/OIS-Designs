@@ -1,0 +1,46 @@
+{
+  "at": "2026-11-10T06:54:10.078Z",
+  "evidence": "Independent empty isolated browser context live Metro root load and two full reloads. Does not read/change another browser library and is not native launch.",
+  "url": "http://127.0.0.1:8081",
+  "before": {
+    "app.json": "100a9b7f8233bfccf63a7ecd2fbb4df8fed0c2be922b95f61181f9934aff6914",
+    "package.json": "7edf9bc5a379060527435b1a1c6dc9eb11a0175028be70f0d8a9886d5e5515ce",
+    "src/screens/Editor.tsx": "7a742a0b17a97f538df59855ee866d170947139670438d98138e5b524bd74519",
+    "src/domain/geometry.ts": "b163f0fea0fdd9f9871d17274e978897f76979e6b408a531853f62c8485074bf",
+    "src/domain/project.ts": "12211660626c660aaed1cd05a7b15d37561d370d59ccd406ee2d58e3da5038ba",
+    "metro.config.js": "754e56b3ec0c39bdc655949bccbd187a5384d956071922bb71c70f8404a2d2f9"
+  },
+  "checks": [
+    {
+      "id": "fresh isolated context load",
+      "status": 200,
+      "pass": true,
+      "body": "ois designs\nProjects\nNew project\nCreate room or floor plan\nChoose a room, shape or blank floor plan.\nUpload floor plan\nUse a house-plan image or PDF.\nComing soon\nScan Room\nCapture and review room geometry.\nComing soon\nRecent projects\nMaple House\n2 floors · Saving…"
+    },
+    {
+      "id": "full reload 1",
+      "status": 200,
+      "pass": true,
+      "body": "ois designs\nProjects\nNew project\nCreate room or floor plan\nChoose a room, shape or blank floor plan.\nUpload floor plan\nUse a house-plan image or PDF.\nComing soon\nScan Room\nCapture and review room geometry.\nComing soon\nRecent projects\nMaple House\n2 floors · Saving…"
+    },
+    {
+      "id": "full reload 2",
+      "status": 200,
+      "pass": true,
+      "body": "ois designs\nProjects\nNew project\nCreate room or floor plan\nChoose a room, shape or blank floor plan.\nUpload floor plan\nUse a house-plan image or PDF.\nComing soon\nScan Room\nCapture and review room geometry.\nComing soon\nRecent projects\nMaple House\n2 floors · Saving…"
+    }
+  ],
+  "pageErrors": [],
+  "consoleErrors": [],
+  "after": {
+    "app.json": "100a9b7f8233bfccf63a7ecd2fbb4df8fed0c2be922b95f61181f9934aff6914",
+    "package.json": "7edf9bc5a379060527435b1a1c6dc9eb11a0175028be70f0d8a9886d5e5515ce",
+    "src/screens/Editor.tsx": "7a742a0b17a97f538df59855ee866d170947139670438d98138e5b524bd74519",
+    "src/domain/geometry.ts": "b163f0fea0fdd9f9871d17274e978897f76979e6b408a531853f62c8485074bf",
+    "src/domain/project.ts": "12211660626c660aaed1cd05a7b15d37561d370d59ccd406ee2d58e3da5038ba",
+    "metro.config.js": "754e56b3ec0c39bdc655949bccbd187a5384d956071922bb71c70f8404a2d2f9"
+  },
+  "stable": true,
+  "passed": 3,
+  "failed": 0
+}

@@ -1,0 +1,69 @@
+{
+  "timestamp": "2026-11-10T06:20:04.474Z",
+  "evidence": "Actual current command/codec compatibility for legacy physical opening/furniture overlaps. Neutral edits and explicit correction remain possible; geometry changes remain strict. CPU, not device.",
+  "before": {
+    "geometry": "a25eee6dd2a21d613781ff0d1514764bccde7769eefc50ab3cffa26ec569246b",
+    "project": "7a3026630a0dd937c07828004f31ab1ca16fb87a040627e59712ffed77d6edcc",
+    "persistence": "ac166d419b677611c1b32d17fa0ddb9021d20f19cf3614fbd0e39719681e50ee"
+  },
+  "checks": [
+    {
+      "id": "legacy-open-read-neutral-correct-undo",
+      "pass": true,
+      "observed": {
+        "legacyBytes": 5022
+      }
+    },
+    {
+      "id": "legacy-single-read-neutral-correct-undo",
+      "pass": true,
+      "observed": {
+        "legacyBytes": 5028
+      }
+    },
+    {
+      "id": "legacy-double-read-neutral-correct-undo",
+      "pass": true,
+      "observed": {
+        "legacyBytes": 5028
+      }
+    },
+    {
+      "id": "legacy-window-read-neutral-correct-undo",
+      "pass": true,
+      "observed": {
+        "legacyBytes": 5034
+      }
+    },
+    {
+      "id": "perpendicular-thickening-rejects-new-obstruction-and-safe-control-works",
+      "pass": true,
+      "observed": {
+        "rejection": "Existing opening: Move the opening away from the inside corner so its frame and full travel fit on both room faces."
+      }
+    },
+    {
+      "id": "legacy-colliding-furniture-floor-noop-and-transform-remain-usable",
+      "pass": true,
+      "observed": {
+        "bytes": 2086
+      }
+    },
+    {
+      "id": "lower-ceiling-still-rejects-valid-tall-model",
+      "pass": true,
+      "observed": {
+        "asset": "ois.design.curved-track-shower",
+        "error": "Curved track shower: This item exceeds the room ceiling height."
+      }
+    }
+  ],
+  "after": {
+    "geometry": "a25eee6dd2a21d613781ff0d1514764bccde7769eefc50ab3cffa26ec569246b",
+    "project": "7a3026630a0dd937c07828004f31ab1ca16fb87a040627e59712ffed77d6edcc",
+    "persistence": "ac166d419b677611c1b32d17fa0ddb9021d20f19cf3614fbd0e39719681e50ee"
+  },
+  "stableSource": true,
+  "passed": 7,
+  "failed": 0
+}

@@ -1,8 +1,8 @@
 # Runtime QA checkpoint
 
-Updated November10 at05:51UTC. Overnight work continues through at least06:53UTC; this is not overall project signoff. This chat edits only `docs/qa/runtime/`.
+Updated November10 at06:56UTC. The minimum overnight window has been observed. This is bounded runtime QA evidence, not overall product signoff; this chat edits only its runtime QA folder.
 
-**Open RUNTIME-015:** actual current-source59-module UI rejects unchanged/alignment/elevation floor settings when an old accepted placement intersects the stricter physical boundary. Failed commands preserve the exact2,100-byte original backup. This compatibility repair remains separate from the green house/movement/inside-size checks. See [LEGACY_FLOOR_SETTINGS.md](LEGACY_FLOOR_SETTINGS.md).
+**RUNTIME-015 is resolved within its recorded source and actual live-UI scope.** Exact no-op, neutral alignment/elevation, local-data preservation, open-panel Undo/Redo, cold5,521-byte backup and original-library restoration all pass. New physical overlap and ceiling conflicts remain rejected. The initial live SSR error is preserved separately; the owner refreshed the server and subsequent cold startup/Editor/Settings checks pass. A Metro development-socket warning is retained. See the [complete successor checkpoint](checkpoints/2026-11-10T06-52-16-760Z-floor-repair-complete/README.md).
 
 Using the original `PHONE_APP_PLAN.md` IDs, this evidence supports **Phase2** implementation/validation and bounded parts of **Phase3**. **Phase1** physical iPhone/Android acceptance remains open. `docs/planning/PHASE_STATUS.md` is the coordinator's phase reconciliation.
 

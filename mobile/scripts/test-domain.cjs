@@ -18,7 +18,236 @@ const G = require("../src/domain/geometry.ts"),
   P = require("../src/domain/persistence.ts"),
   S = require("../src/catalogue/search.ts");
 const assets = require("../src/catalogue/assets.json");
+const savedCabinet = require("../src/catalogue/revisions.json").find((a) =>
+  a.sha256.startsWith("50feb5b7"),
+);
 const clone = (v) => JSON.parse(JSON.stringify(v));
+test("imperial distances have one sign, symmetric half-inch rounding and correct carry without negative zero", () => {
+  for (const [value, expected] of [
+    [-0.05, "-0′ 2″"],
+    [-1, "-3′ 3″"],
+    [-0.9398, "-3′ 1″"],
+    [-0.000001, "0′ 0″"],
+    [0, "0′ 0″"],
+    [0.000001, "0′ 0″"],
+    [0.0127, "0′ 1″"],
+    [-0.0127, "-0′ 1″"],
+    [11.5 * 0.0254, "1′ 0″"],
+    [-11.5 * 0.0254, "-1′ 0″"],
+    [1, "3′ 3″"],
+  ])
+    assert.equal(G.measure(value, "ft"), expected);
+});
+test("legacy collisions preserve exact no-op and neutral floor transforms while new geometry stays strict", () => {
+  const p = D.makeProject("kitchen", 5, 4),
+    f = p.floors[0],
+    r = f.rooms[0],
+    item = {
+      id: "legacy-cabinet",
+      roomId: r.id,
+      assetId: savedCabinet.id,
+      assetVersion: savedCabinet.version,
+      assetHash: savedCabinet.sha256,
+      x: -savedCabinet.bounds.min[0] + 0.02,
+      z: 2,
+      yaw: 0,
+      locked: true,
+      materialOverrides: {},
+    };
+  f.items.push(item);
+  const h = { past: [], present: p, future: [] },
+    list = [savedCabinet],
+    before = JSON.stringify(h);
+  assert.match(G.canPlace(f, r, item, savedCabinet, list), /physical wall/);
+  const settings = {
+    type: "floor-settings",
+    floorId: f.id,
+    name: f.name,
+    elevation: f.elevation,
+    ceiling: f.ceiling,
+    alignment: f.alignment,
+  };
+  assert.equal(D.execute(h, settings, "3d", list).history, h);
+  for (const patch of [
+    { name: "Renamed" },
+    { elevation: 3.2 },
+    { alignment: { x: 1, z: -2 } },
+  ]) {
+    const result = D.execute(h, { ...settings, ...patch }, "3d", list);
+    assert.equal(result.error, null);
+    assert.equal(result.history.past.length, 1);
+    for (const key of ["items", "rooms", "walls", "openings"])
+      assert.deepEqual(result.history.present.floors[0][key], f[key]);
+    assert.deepEqual(
+      D.travelHistory(result.history, "undo", "2d").history.present,
+      p,
+    );
+  }
+  const changed = D.execute(h, { ...settings, ceiling: 2.6 }, "3d", list);
+  assert.ok(changed.error);
+  assert.equal(changed.history, h);
+  assert.equal(JSON.stringify(h), before);
+});
+test("new opening frames fit finished corners on four sides and both polygon windings", () => {
+  for (const reverse of [false, true])
+    for (let side = 0; side < 4; side++) {
+      const p = D.makeProject("living", 6, 5),
+        f = p.floors[0];
+      if (reverse) f.rooms[0].polygon.reverse();
+      f.walls = G.rebuildWalls(f.rooms);
+      const wall = f.walls[side];
+      for (const candidate of f.walls)
+        candidate.thickness = candidate.id === wall.id ? 0.12 : 0.6;
+      const opening = {
+          id: "corner",
+          wallId: wall.id,
+          type: "open",
+          offset: 0.1,
+          width: 0.9,
+          height: 2.1,
+          sill: 0,
+          hinge: "left",
+          flip: false,
+        },
+        h = { past: [], present: p, future: [] };
+      assert.equal(
+        G.openingError(f, opening),
+        null,
+        "Legacy structural convention stays readable",
+      );
+      const bad = D.execute(
+        h,
+        { type: "opening", floorId: f.id, opening },
+        "2d",
+        [],
+      );
+      assert.match(bad.error, /corner/);
+      assert.equal(bad.history, h);
+      const range = G.openingOffsetRange(f, opening),
+        good = D.execute(
+          h,
+          {
+            type: "opening",
+            floorId: f.id,
+            opening: { ...opening, offset: range.min + 0.04 },
+          },
+          "2d",
+          [],
+        );
+      assert.equal(good.error, null);
+      assert.equal(good.history.past.length, 1);
+      assert.deepEqual(
+        D.travelHistory(good.history, "undo", "2d").history.present,
+        p,
+      );
+    }
+});
+test("both shared faces constrain openings; old bad apertures remain readable and explicitly correctable", () => {
+  const p = D.makeProject("living", 6, 5),
+    f = p.floors[0],
+    next = D.makeRoom(
+      "kitchen",
+      "Kitchen",
+      G.shapePolygon("rectangle", 4, 5, { x: 6, z: 0 }),
+    );
+  f.rooms.push(next);
+  f.walls = G.rebuildWalls(f.rooms);
+  const wall = f.walls.find((w) => w.faces.length === 2);
+  for (const candidate of f.walls)
+    if (
+      candidate.id !== wall.id &&
+      candidate.faces.some((face) => face.roomId === next.id)
+    )
+      candidate.thickness = 0.6;
+  const opening = {
+    id: "legacy-aperture",
+    wallId: wall.id,
+    type: "open",
+    offset: 0.2,
+    width: 0.9,
+    height: 2.1,
+    sill: 0,
+    hinge: "left",
+    flip: false,
+  };
+  f.openings.push(opening);
+  const h = { past: [], present: p, future: [] };
+  assert.equal(P.validProject(p), true);
+  assert.deepEqual(P.decode(P.encode(library(h))).projects[0], h);
+  const neutral = D.execute(
+    h,
+    {
+      type: "floor-settings",
+      floorId: f.id,
+      name: f.name,
+      elevation: 3.2,
+      ceiling: f.ceiling,
+      alignment: { x: 1, z: -2 },
+    },
+    "2d",
+    [],
+  );
+  assert.equal(neutral.error, null);
+  assert.deepEqual(neutral.history.present.floors[0].openings, [opening]);
+  const range = G.openingOffsetRange(f, opening);
+  assert.ok(range.min > 0.3);
+  const corrected = D.execute(
+    h,
+    {
+      type: "opening",
+      floorId: f.id,
+      opening: { ...opening, offset: range.min + 0.02 },
+    },
+    "2d",
+    [],
+  );
+  assert.equal(corrected.error, null);
+  assert.deepEqual(
+    D.travelHistory(corrected.history, "undo", "2d").history.present,
+    p,
+  );
+});
+test("thickening an adjoining wall cannot block an existing valid opening", () => {
+  const p = D.makeProject("living", 6, 5),
+    f = p.floors[0],
+    wall = f.walls[0],
+    opening = {
+      id: "thickness-control",
+      wallId: wall.id,
+      type: "open",
+      offset: 0.2,
+      width: 0.9,
+      height: 2.1,
+      sill: 0,
+      hinge: "left",
+      flip: false,
+    };
+  const inserted = D.execute(
+    { past: [], present: p, future: [] },
+    { type: "opening", floorId: f.id, opening },
+    "2d",
+    [],
+  );
+  assert.equal(inserted.error, null);
+  const perpendicular = f.walls.find(
+    (w) =>
+      w.id !== wall.id &&
+      (G.distance(w.a, wall.a) < 1e-6 || G.distance(w.b, wall.a) < 1e-6),
+  );
+  const bad = D.execute(
+    inserted.history,
+    {
+      type: "wall-thickness",
+      floorId: f.id,
+      wallId: perpendicular.id,
+      thickness: 0.6,
+    },
+    "2d",
+    [],
+  );
+  assert.match(bad.error, /corner/);
+  assert.equal(bad.history, inserted.history);
+});
 test("default catalogue excludes experimental/withdrawn records and Recent follows reviewed selections", () => {
   const prototype = {
       ...assets[0],

@@ -1,0 +1,4060 @@
+{
+  "timestamp": "2026-11-10T06:53:36.586Z",
+  "baseURL": "http://127.0.0.1:55939",
+  "evidence": "Actual partial shared-wall annotations on four sides, metric/imperial and two phone sizes. Isolated validated synthetic projects; no native claim.",
+  "storageOracle": {
+    "kind": "existing read-only app diagnostic"
+  },
+  "runs": [
+    {
+      "side": "right",
+      "unit": "m",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "checks": [
+        {
+          "id": "physical-corner-values-Living room",
+          "pass": true,
+          "observed": {
+            "expected": [
+              "0.90 m",
+              "1.05 m",
+              "3.93 m"
+            ],
+            "actual": [
+              "1.05 m",
+              "0.90 m",
+              "3.93 m"
+            ]
+          }
+        },
+        {
+          "id": "chain-reaches-real-corners-Living room",
+          "pass": true,
+          "observed": {
+            "expectedMetres": 5.88,
+            "actualMetres": 5.8799997965494795
+          }
+        },
+        {
+          "id": "all-labels-fit-Living room",
+          "pass": true,
+          "observed": [
+            {
+              "text": "1.05 m",
+              "x": 249.1999969482422,
+              "y": 198.03468322753906,
+              "width": 10.000015258789062,
+              "height": 26,
+              "inside": true
+            },
+            {
+              "text": "0.90 m",
+              "x": 217.1999969482422,
+              "y": 227.27719116210938,
+              "width": 10,
+              "height": 26,
+              "inside": true
+            },
+            {
+              "text": "3.93 m",
+              "x": 249.1999969482422,
+              "y": 299.73468017578125,
+              "width": 10.000015258789062,
+              "height": 26,
+              "inside": true
+            },
+            {
+              "text": "Living room · inside",
+              "x": 231.1999969482422,
+              "y": 188.427001953125,
+              "width": 10,
+              "height": 76.25048828125,
+              "inside": true
+            }
+          ]
+        },
+        {
+          "id": "physical-corner-values-Kitchen",
+          "pass": true,
+          "observed": {
+            "expected": [
+              "0.05 m",
+              "0.90 m",
+              "1.93 m"
+            ],
+            "actual": [
+              "0.05 m",
+              "0.90 m",
+              "1.93 m"
+            ]
+          }
+        },
+        {
+          "id": "chain-reaches-real-corners-Kitchen",
+          "pass": true,
+          "observed": {
+            "expectedMetres": 2.88,
+            "actualMetres": 2.879999796549479
+          }
+        },
+        {
+          "id": "all-labels-fit-Kitchen",
+          "pass": true,
+          "observed": [
+            {
+              "text": "0.05 m",
+              "x": 292.79998779296875,
+              "y": 213.03468322753906,
+              "width": 10,
+              "height": 26,
+              "inside": true
+            },
+            {
+              "text": "0.90 m",
+              "x": 308.79998779296875,
+              "y": 227.27719116210938,
+              "width": 10,
+              "height": 26,
+              "inside": true
+            },
+            {
+              "text": "1.93 m",
+              "x": 292.79998779296875,
+              "y": 269.73468017578125,
+              "width": 10,
+              "height": 26,
+              "inside": true
+            },
+            {
+              "text": "Kitchen · inside",
+              "x": 274.79998779296875,
+              "y": 265.89801025390625,
+              "width": 10,
+              "height": 59.50048828125,
+              "inside": true
+            }
+          ]
+        },
+        {
+          "id": "annotations-do-not-overlap-ordinary-plan-labels",
+          "pass": true,
+          "observed": []
+        },
+        {
+          "id": "inspection-preserves-project",
+          "pass": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": [],
+      "actual": {
+        "scale": 30,
+        "rows": [
+          {
+            "name": "Living room · inside",
+            "values": [
+              "1.05 m",
+              "0.90 m",
+              "3.93 m"
+            ],
+            "chainLengthMetres": 5.8799997965494795,
+            "boxes": [
+              {
+                "text": "1.05 m",
+                "x": 249.1999969482422,
+                "y": 198.03468322753906,
+                "width": 10.000015258789062,
+                "height": 26,
+                "inside": true
+              },
+              {
+                "text": "0.90 m",
+                "x": 217.1999969482422,
+                "y": 227.27719116210938,
+                "width": 10,
+                "height": 26,
+                "inside": true
+              },
+              {
+                "text": "3.93 m",
+                "x": 249.1999969482422,
+                "y": 299.73468017578125,
+                "width": 10.000015258789062,
+                "height": 26,
+                "inside": true
+              },
+              {
+                "text": "Living room · inside",
+                "x": 231.1999969482422,
+                "y": 188.427001953125,
+                "width": 10,
+                "height": 76.25048828125,
+                "inside": true
+              }
+            ]
+          },
+          {
+            "name": "Kitchen · inside",
+            "values": [
+              "0.05 m",
+              "0.90 m",
+              "1.93 m"
+            ],
+            "chainLengthMetres": 2.879999796549479,
+            "boxes": [
+              {
+                "text": "0.05 m",
+                "x": 292.79998779296875,
+                "y": 213.03468322753906,
+                "width": 10,
+                "height": 26,
+                "inside": true
+              },
+              {
+                "text": "0.90 m",
+                "x": 308.79998779296875,
+                "y": 227.27719116210938,
+                "width": 10,
+                "height": 26,
+                "inside": true
+              },
+              {
+                "text": "1.93 m",
+                "x": 292.79998779296875,
+                "y": 269.73468017578125,
+                "width": 10,
+                "height": 26,
+                "inside": true
+              },
+              {
+                "text": "Kitchen · inside",
+                "x": 274.79998779296875,
+                "y": 265.89801025390625,
+                "width": 10,
+                "height": 59.50048828125,
+                "inside": true
+              }
+            ]
+          }
+        ],
+        "overlaps": []
+      },
+      "expected": [
+        {
+          "roomId": "room-mwac3blx-ycatj7z",
+          "name": "Living room",
+          "before": 1.0495,
+          "after": 3.9305
+        },
+        {
+          "roomId": "room-mwac3blz-p5m5l2y",
+          "name": "Kitchen",
+          "before": 1.9304999999999999,
+          "after": 0.0495
+        }
+      ],
+      "screenshot": "door-near-right-m-390.png",
+      "completed": true
+    },
+    {
+      "side": "left",
+      "unit": "m",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "checks": [
+        {
+          "id": "physical-corner-values-Living room",
+          "pass": true,
+          "observed": {
+            "expected": [
+              "0.90 m",
+              "1.05 m",
+              "3.93 m"
+            ],
+            "actual": [
+              "1.05 m",
+              "0.90 m",
+              "3.93 m"
+            ]
+          }
+        },
+        {
+          "id": "chain-reaches-real-corners-Living room",
+          "pass": true,
+          "observed": {
+            "expectedMetres": 5.880000000000001,
+            "actualMetres": 5.8799997965494795
+          }
+        },
+        {
+          "id": "all-labels-fit-Living room",
+          "pass": true,
+          "observed": [
+            {
+              "text": "1.05 m",
+              "x": 114.60000610351562,
+              "y": 198.03468322753906,
+              "width": 10,
+              "height": 26,
+              "inside": true
+            },
+            {
+              "text": "0.90 m",
+              "x": 130.60000610351562,
+              "y": 227.27719116210938,
+              "width": 10,
+              "height": 26,
+              "inside": true
+            },
+            {
+              "text": "3.93 m",
+              "x": 114.60000610351562,
+              "y": 299.73468017578125,
+              "width": 10,
+              "height": 26,
+              "inside": true
+            },
+            {
+              "text": "Living room · inside",
+              "x": 96.60000610351562,
+              "y": 188.427001953125,
+              "width": 10,
+              "height": 76.25048828125,
+              "inside": true
+            }
+          ]
+        },
+        {
+          "id": "physical-corner-values-Kitchen",
+          "pass": true,
+          "observed": {
+            "expected": [
+              "0.05 m",
+              "0.90 m",
+              "1.93 m"
+            ],
+            "actual": [
+              "0.05 m",
+              "0.90 m",
+              "1.93 m"
+            ]
+          }
+        },
+        {
+          "id": "chain-reaches-real-corners-Kitchen",
+          "pass": true,
+          "observed": {
+            "expectedMetres": 2.88,
+            "actualMetres": 2.879999796549479
+          }
+        },
+        {
+          "id": "all-labels-fit-Kitchen",
+          "pass": true,
+          "observed": [
+            {
+              "text": "0.05 m",
+              "x": 71,
+              "y": 213.03468322753906,
+              "width": 10,
+              "height": 26,
+              "inside": true
+            },
+            {
+              "text": "0.90 m",
+              "x": 39.000003814697266,
+              "y": 227.27719116210938,
+              "width": 10,
+              "height": 26,
+              "inside": true
+            },
+            {
+              "text": "1.93 m",
+              "x": 71,
+              "y": 269.73468017578125,
+              "width": 10,
+              "height": 26,
+              "inside": true
+            },
+            {
+              "text": "Kitchen · inside",
+              "x": 53.000003814697266,
+              "y": 265.89801025390625,
+              "width": 10,
+              "height": 59.50048828125,
+              "inside": true
+            }
+          ]
+        },
+        {
+          "id": "annotations-do-not-overlap-ordinary-plan-labels",
+          "pass": true,
+          "observed": []
+        },
+        {
+          "id": "inspection-preserves-project",
+          "pass": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": [],
+      "actual": {
+        "scale": 30,
+        "rows": [
+          {
+            "name": "Living room · inside",
+            "values": [
+              "1.05 m",
+              "0.90 m",
+              "3.93 m"
+            ],
+            "chainLengthMetres": 5.8799997965494795,
+            "boxes": [
+              {
+                "text": "1.05 m",
+                "x": 114.60000610351562,
+                "y": 198.03468322753906,
+                "width": 10,
+                "height": 26,
+                "inside": true
+              },
+              {
+                "text": "0.90 m",
+                "x": 130.60000610351562,
+                "y": 227.27719116210938,
+                "width": 10,
+                "height": 26,
+                "inside": true
+              },
+              {
+                "text": "3.93 m",
+                "x": 114.60000610351562,
+                "y": 299.73468017578125,
+                "width": 10,
+                "height": 26,
+                "inside": true
+              },
+              {
+                "text": "Living room · inside",
+                "x": 96.60000610351562,
+                "y": 188.427001953125,
+                "width": 10,
+                "height": 76.25048828125,
+                "inside": true
+              }
+            ]
+          },
+          {
+            "name": "Kitchen · inside",
+            "values": [
+              "0.05 m",
+              "0.90 m",
+              "1.93 m"
+            ],
+            "chainLengthMetres": 2.879999796549479,
+            "boxes": [
+              {
+                "text": "0.05 m",
+                "x": 71,
+                "y": 213.03468322753906,
+                "width": 10,
+                "height": 26,
+                "inside": true
+              },
+              {
+                "text": "0.90 m",
+                "x": 39.000003814697266,
+                "y": 227.27719116210938,
+                "width": 10,
+                "height": 26,
+                "inside": true
+              },
+              {
+                "text": "1.93 m",
+                "x": 71,
+                "y": 269.73468017578125,
+                "width": 10,
+                "height": 26,
+                "inside": true
+              },
+              {
+                "text": "Kitchen · inside",
+                "x": 53.000003814697266,
+                "y": 265.89801025390625,
+                "width": 10,
+                "height": 59.50048828125,
+                "inside": true
+              }
+            ]
+          }
+        ],
+        "overlaps": []
+      },
+      "expected": [
+        {
+          "roomId": "room-mwac3dh8-s0t4lhf",
+          "name": "Living room",
+          "before": 3.9305000000000008,
+          "after": 1.0494999999999997
+        },
+        {
+          "roomId": "room-mwac3dh8-yy0xw4g",
+          "name": "Kitchen",
+          "before": 0.0495,
+          "after": 1.9304999999999999
+        }
+      ],
+      "screenshot": "door-near-left-m-390.png",
+      "completed": true
+    },
+    {
+      "side": "top",
+      "unit": "m",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "checks": [
+        {
+          "id": "physical-corner-values-Living room",
+          "pass": true,
+          "observed": {
+            "expected": [
+              "0.90 m",
+              "1.05 m",
+              "3.93 m"
+            ],
+            "actual": [
+              "1.05 m",
+              "0.90 m",
+              "3.93 m"
+            ]
+          }
+        },
+        {
+          "id": "chain-reaches-real-corners-Living room",
+          "pass": true,
+          "observed": {
+            "expectedMetres": 5.88,
+            "actualMetres": 5.879999740600585
+          }
+        },
+        {
+          "id": "all-labels-fit-Living room",
+          "pass": true,
+          "observed": [
+            {
+              "text": "1.05 m",
+              "x": 92.86100006103516,
+              "y": 203.56436157226562,
+              "width": 26,
+              "height": 10,
+              "inside": true
+            },
+            {
+              "text": "0.90 m",
+              "x": 121.81397247314453,
+              "y": 235.56436157226562,
+              "width": 25.99999237060547,
+              "height": 10,
+              "inside": true
+            },
+            {
+              "text": "3.93 m",
+              "x": 193.5540771484375,
+              "y": 203.56436157226562,
+              "width": 26,
+              "height": 10,
+              "inside": true
+            },
+            {
+              "text": "Living room · inside",
+              "x": 83.09480285644531,
+              "y": 221.56436157226562,
+              "width": 76.25048828125,
+              "height": 10,
+              "inside": true
+            }
+          ]
+        },
+        {
+          "id": "physical-corner-values-Kitchen",
+          "pass": true,
+          "observed": {
+            "expected": [
+              "0.05 m",
+              "0.90 m",
+              "2.93 m"
+            ],
+            "actual": [
+              "0.05 m",
+              "0.90 m",
+              "2.93 m"
+            ]
+          }
+        },
+        {
+          "id": "chain-reaches-real-corners-Kitchen",
+          "pass": true,
+          "observed": {
+            "expectedMetres": 3.8800000000000003,
+            "actualMetres": 3.879999855041503
+          }
+        },
+        {
+          "id": "all-labels-fit-Kitchen",
+          "pass": true,
+          "observed": [
+            {
+              "text": "0.05 m",
+              "x": 107.71248626708984,
+              "y": 160,
+              "width": 26.00000762939453,
+              "height": 10,
+              "inside": true
+            },
+            {
+              "text": "0.90 m",
+              "x": 121.81397247314453,
+              "y": 144,
+              "width": 25.99999237060547,
+              "height": 10,
+              "inside": true
+            },
+            {
+              "text": "2.93 m",
+              "x": 177.70257568359375,
+              "y": 160,
+              "width": 27,
+              "height": 10,
+              "inside": true
+            },
+            {
+              "text": "Kitchen · inside",
+              "x": 184.2381134033203,
+              "y": 178,
+              "width": 59.50048828125,
+              "height": 10,
+              "inside": true
+            }
+          ]
+        },
+        {
+          "id": "annotations-do-not-overlap-ordinary-plan-labels",
+          "pass": true,
+          "observed": []
+        },
+        {
+          "id": "inspection-preserves-project",
+          "pass": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": [],
+      "actual": {
+        "scale": 29.702970297029708,
+        "rows": [
+          {
+            "name": "Living room · inside",
+            "values": [
+              "1.05 m",
+              "0.90 m",
+              "3.93 m"
+            ],
+            "chainLengthMetres": 5.879999740600585,
+            "boxes": [
+              {
+                "text": "1.05 m",
+                "x": 92.86100006103516,
+                "y": 203.56436157226562,
+                "width": 26,
+                "height": 10,
+                "inside": true
+              },
+              {
+                "text": "0.90 m",
+                "x": 121.81397247314453,
+                "y": 235.56436157226562,
+                "width": 25.99999237060547,
+                "height": 10,
+                "inside": true
+              },
+              {
+                "text": "3.93 m",
+                "x": 193.5540771484375,
+                "y": 203.56436157226562,
+                "width": 26,
+                "height": 10,
+                "inside": true
+              },
+              {
+                "text": "Living room · inside",
+                "x": 83.09480285644531,
+                "y": 221.56436157226562,
+                "width": 76.25048828125,
+                "height": 10,
+                "inside": true
+              }
+            ]
+          },
+          {
+            "name": "Kitchen · inside",
+            "values": [
+              "0.05 m",
+              "0.90 m",
+              "2.93 m"
+            ],
+            "chainLengthMetres": 3.879999855041503,
+            "boxes": [
+              {
+                "text": "0.05 m",
+                "x": 107.71248626708984,
+                "y": 160,
+                "width": 26.00000762939453,
+                "height": 10,
+                "inside": true
+              },
+              {
+                "text": "0.90 m",
+                "x": 121.81397247314453,
+                "y": 144,
+                "width": 25.99999237060547,
+                "height": 10,
+                "inside": true
+              },
+              {
+                "text": "2.93 m",
+                "x": 177.70257568359375,
+                "y": 160,
+                "width": 27,
+                "height": 10,
+                "inside": true
+              },
+              {
+                "text": "Kitchen · inside",
+                "x": 184.2381134033203,
+                "y": 178,
+                "width": 59.50048828125,
+                "height": 10,
+                "inside": true
+              }
+            ]
+          }
+        ],
+        "overlaps": []
+      },
+      "expected": [
+        {
+          "roomId": "room-mwac3f4y-hklc7q2",
+          "name": "Living room",
+          "before": 1.0495,
+          "after": 3.9305
+        },
+        {
+          "roomId": "room-mwac3f4y-8ppuc8g",
+          "name": "Kitchen",
+          "before": 2.9305000000000003,
+          "after": 0.0495
+        }
+      ],
+      "screenshot": "door-near-top-m-390.png",
+      "completed": true
+    },
+    {
+      "side": "bottom",
+      "unit": "m",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "checks": [
+        {
+          "id": "physical-corner-values-Living room",
+          "pass": true,
+          "observed": {
+            "expected": [
+              "0.90 m",
+              "1.05 m",
+              "3.93 m"
+            ],
+            "actual": [
+              "1.05 m",
+              "0.90 m",
+              "3.93 m"
+            ]
+          }
+        },
+        {
+          "id": "chain-reaches-real-corners-Living room",
+          "pass": true,
+          "observed": {
+            "expectedMetres": 5.880000000000001,
+            "actualMetres": 5.880000034225322
+          }
+        },
+        {
+          "id": "all-labels-fit-Living room",
+          "pass": true,
+          "observed": [
+            {
+              "text": "1.05 m",
+              "x": 96.3482666015625,
+              "y": 377.8599853515625,
+              "width": 26,
+              "height": 10,
+              "inside": true
+            },
+            {
+              "text": "0.90 m",
+              "x": 131.11434936523438,
+              "y": 361.8599853515625,
+              "width": 26,
+              "height": 10,
+              "inside": true
+            },
+            {
+              "text": "3.93 m",
+              "x": 217.25827026367188,
+              "y": 377.8599853515625,
+              "width": 26,
+              "height": 10,
+              "inside": true
+            },
+            {
+              "text": "Living room · inside",
+              "x": 89.76460266113281,
+              "y": 395.8599853515625,
+              "width": 76.25048828125,
+              "height": 10,
+              "inside": true
+            }
+          ]
+        },
+        {
+          "id": "physical-corner-values-Kitchen",
+          "pass": true,
+          "observed": {
+            "expected": [
+              "0.05 m",
+              "0.90 m",
+              "2.93 m"
+            ],
+            "actual": [
+              "0.05 m",
+              "0.90 m",
+              "2.93 m"
+            ]
+          }
+        },
+        {
+          "id": "chain-reaches-real-corners-Kitchen",
+          "pass": true,
+          "observed": {
+            "expectedMetres": 3.8799999999999994,
+            "actualMetres": 3.8800001768308268
+          }
+        },
+        {
+          "id": "all-labels-fit-Kitchen",
+          "pass": true,
+          "observed": [
+            {
+              "text": "0.05 m",
+              "x": 114.18160247802734,
+              "y": 422.1400146484375,
+              "width": 25.99999237060547,
+              "height": 10,
+              "inside": true
+            },
+            {
+              "text": "0.90 m",
+              "x": 131.11434936523438,
+              "y": 454.1400146484375,
+              "width": 26,
+              "height": 10,
+              "inside": true
+            },
+            {
+              "text": "2.93 m",
+              "x": 198.4249267578125,
+              "y": 422.1400146484375,
+              "width": 27,
+              "height": 10,
+              "inside": true
+            },
+            {
+              "text": "Kitchen · inside",
+              "x": 209.53372192382812,
+              "y": 440.1400146484375,
+              "width": 59.50048828125,
+              "height": 10,
+              "inside": true
+            }
+          ]
+        },
+        {
+          "id": "annotations-do-not-overlap-ordinary-plan-labels",
+          "pass": true,
+          "observed": []
+        },
+        {
+          "id": "inspection-preserves-project",
+          "pass": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": [],
+      "actual": {
+        "scale": 35.666666666666664,
+        "rows": [
+          {
+            "name": "Living room · inside",
+            "values": [
+              "1.05 m",
+              "0.90 m",
+              "3.93 m"
+            ],
+            "chainLengthMetres": 5.880000034225322,
+            "boxes": [
+              {
+                "text": "1.05 m",
+                "x": 96.3482666015625,
+                "y": 377.8599853515625,
+                "width": 26,
+                "height": 10,
+                "inside": true
+              },
+              {
+                "text": "0.90 m",
+                "x": 131.11434936523438,
+                "y": 361.8599853515625,
+                "width": 26,
+                "height": 10,
+                "inside": true
+              },
+              {
+                "text": "3.93 m",
+                "x": 217.25827026367188,
+                "y": 377.8599853515625,
+                "width": 26,
+                "height": 10,
+                "inside": true
+              },
+              {
+                "text": "Living room · inside",
+                "x": 89.76460266113281,
+                "y": 395.8599853515625,
+                "width": 76.25048828125,
+                "height": 10,
+                "inside": true
+              }
+            ]
+          },
+          {
+            "name": "Kitchen · inside",
+            "values": [
+              "0.05 m",
+              "0.90 m",
+              "2.93 m"
+            ],
+            "chainLengthMetres": 3.8800001768308268,
+            "boxes": [
+              {
+                "text": "0.05 m",
+                "x": 114.18160247802734,
+                "y": 422.1400146484375,
+                "width": 25.99999237060547,
+                "height": 10,
+                "inside": true
+              },
+              {
+                "text": "0.90 m",
+                "x": 131.11434936523438,
+                "y": 454.1400146484375,
+                "width": 26,
+                "height": 10,
+                "inside": true
+              },
+              {
+                "text": "2.93 m",
+                "x": 198.4249267578125,
+                "y": 422.1400146484375,
+                "width": 27,
+                "height": 10,
+                "inside": true
+              },
+              {
+                "text": "Kitchen · inside",
+                "x": 209.53372192382812,
+                "y": 440.1400146484375,
+                "width": 59.50048828125,
+                "height": 10,
+                "inside": true
+              }
+            ]
+          }
+        ],
+        "overlaps": []
+      },
+      "expected": [
+        {
+          "roomId": "room-mwac3gpx-7bem5an",
+          "name": "Living room",
+          "before": 3.9305000000000008,
+          "after": 1.0494999999999997
+        },
+        {
+          "roomId": "room-mwac3gpy-p477756",
+          "name": "Kitchen",
+          "before": 0.0495,
+          "after": 2.9304999999999994
+        }
+      ],
+      "screenshot": "door-near-bottom-m-390.png",
+      "completed": true
+    },
+    {
+      "side": "right",
+      "unit": "ft",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "checks": [
+        {
+          "id": "physical-corner-values-Living room",
+          "pass": true,
+          "observed": {
+            "expected": [
+              "12′ 11″",
+              "2′ 11″",
+              "3′ 5″"
+            ],
+            "actual": [
+              "3′ 5″",
+              "2′ 11″",
+              "12′ 11″"
+            ]
+          }
+        },
+        {
+          "id": "chain-reaches-real-corners-Living room",
+          "pass": true,
+          "observed": {
+            "expectedMetres": 5.88,
+            "actualMetres": 5.879999726197429
+          }
+        },
+        {
+          "id": "all-labels-fit-Living room",
+          "pass": true,
+          "observed": [
+            {
+              "text": "3′ 5″",
+              "x": 280.76239013671875,
+              "y": 205.16522216796875,
+              "width": 10,
+              "height": 18.21875,
+              "inside": true
+            },
+            {
+              "text": "2′ 11″",
+              "x": 248.76239013671875,
+              "y": 236.5011444091797,
+              "width": 10,
+              "height": 23.384780883789062,
+              "inside": true
+            },
+            {
+              "text": "12′ 11″",
+              "x": 280.76239013671875,
+              "y": 320.54217529296875,
+              "width": 10,
+              "height": 26.884765625,
+              "inside": true
+            },
+            {
+              "text": "Living room · inside",
+              "x": 262.76239013671875,
+              "y": 194.36965942382812,
+              "width": 10,
+              "height": 76.25048828125,
+              "inside": true
+            }
+          ]
+        },
+        {
+          "id": "physical-corner-values-Kitchen",
+          "pass": true,
+          "observed": {
+            "expected": [
+              "0′ 2″",
+              "2′ 11″",
+              "6′ 4″"
+            ],
+            "actual": [
+              "0′ 2″",
+              "2′ 11″",
+              "6′ 4″"
+            ]
+          }
+        },
+        {
+          "id": "chain-reaches-real-corners-Kitchen",
+          "pass": true,
+          "observed": {
+            "expectedMetres": 2.88,
+            "actualMetres": 2.880000059894312
+          }
+        },
+        {
+          "id": "all-labels-fit-Kitchen",
+          "pass": true,
+          "observed": [
+            {
+              "text": "0′ 2″",
+              "x": 325,
+              "y": 222.82199096679688,
+              "width": 10,
+              "height": 18.21875,
+              "inside": true
+            },
+            {
+              "text": "2′ 11″",
+              "x": 341,
+              "y": 236.5011444091797,
+              "width": 10,
+              "height": 23.384780883789062,
+              "inside": true
+            },
+            {
+              "text": "6′ 4″",
+              "x": 325,
+              "y": 289.5645751953125,
+              "width": 10,
+              "height": 18.21875,
+              "inside": true
+            },
+            {
+              "text": "Kitchen · inside",
+              "x": 307,
+              "y": 284.07879638671875,
+              "width": 10,
+              "height": 59.50048828125,
+              "inside": true
+            }
+          ]
+        },
+        {
+          "id": "annotations-do-not-overlap-ordinary-plan-labels",
+          "pass": true,
+          "observed": []
+        },
+        {
+          "id": "inspection-preserves-project",
+          "pass": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": [],
+      "actual": {
+        "scale": 35.31353135313532,
+        "rows": [
+          {
+            "name": "Living room · inside",
+            "values": [
+              "3′ 5″",
+              "2′ 11″",
+              "12′ 11″"
+            ],
+            "chainLengthMetres": 5.879999726197429,
+            "boxes": [
+              {
+                "text": "3′ 5″",
+                "x": 280.76239013671875,
+                "y": 205.16522216796875,
+                "width": 10,
+                "height": 18.21875,
+                "inside": true
+              },
+              {
+                "text": "2′ 11″",
+                "x": 248.76239013671875,
+                "y": 236.5011444091797,
+                "width": 10,
+                "height": 23.384780883789062,
+                "inside": true
+              },
+              {
+                "text": "12′ 11″",
+                "x": 280.76239013671875,
+                "y": 320.54217529296875,
+                "width": 10,
+                "height": 26.884765625,
+                "inside": true
+              },
+              {
+                "text": "Living room · inside",
+                "x": 262.76239013671875,
+                "y": 194.36965942382812,
+                "width": 10,
+                "height": 76.25048828125,
+                "inside": true
+              }
+            ]
+          },
+          {
+            "name": "Kitchen · inside",
+            "values": [
+              "0′ 2″",
+              "2′ 11″",
+              "6′ 4″"
+            ],
+            "chainLengthMetres": 2.880000059894312,
+            "boxes": [
+              {
+                "text": "0′ 2″",
+                "x": 325,
+                "y": 222.82199096679688,
+                "width": 10,
+                "height": 18.21875,
+                "inside": true
+              },
+              {
+                "text": "2′ 11″",
+                "x": 341,
+                "y": 236.5011444091797,
+                "width": 10,
+                "height": 23.384780883789062,
+                "inside": true
+              },
+              {
+                "text": "6′ 4″",
+                "x": 325,
+                "y": 289.5645751953125,
+                "width": 10,
+                "height": 18.21875,
+                "inside": true
+              },
+              {
+                "text": "Kitchen · inside",
+                "x": 307,
+                "y": 284.07879638671875,
+                "width": 10,
+                "height": 59.50048828125,
+                "inside": true
+              }
+            ]
+          }
+        ],
+        "overlaps": []
+      },
+      "expected": [
+        {
+          "roomId": "room-mwac3iav-jn1bevw",
+          "name": "Living room",
+          "before": 1.0495,
+          "after": 3.9305
+        },
+        {
+          "roomId": "room-mwac3iav-cif5jvm",
+          "name": "Kitchen",
+          "before": 1.9304999999999999,
+          "after": 0.0495
+        }
+      ],
+      "screenshot": "door-near-right-ft-390.png",
+      "completed": true
+    },
+    {
+      "side": "left",
+      "unit": "ft",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "checks": [
+        {
+          "id": "physical-corner-values-Living room",
+          "pass": true,
+          "observed": {
+            "expected": [
+              "12′ 11″",
+              "2′ 11″",
+              "3′ 5″"
+            ],
+            "actual": [
+              "3′ 5″",
+              "2′ 11″",
+              "12′ 11″"
+            ]
+          }
+        },
+        {
+          "id": "chain-reaches-real-corners-Living room",
+          "pass": true,
+          "observed": {
+            "expectedMetres": 5.880000000000001,
+            "actualMetres": 5.8799997965494795
+          }
+        },
+        {
+          "id": "all-labels-fit-Living room",
+          "pass": true,
+          "observed": [
+            {
+              "text": "3′ 5″",
+              "x": 114.60000610351562,
+              "y": 202.05812072753906,
+              "width": 10,
+              "height": 18.21875,
+              "inside": true
+            },
+            {
+              "text": "2′ 11″",
+              "x": 130.60000610351562,
+              "y": 228.21469116210938,
+              "width": 10,
+              "height": 23.384765625,
+              "inside": true
+            },
+            {
+              "text": "12′ 11″",
+              "x": 114.60000610351562,
+              "y": 299.42218017578125,
+              "width": 10,
+              "height": 26.884765625,
+              "inside": true
+            },
+            {
+              "text": "Living room · inside",
+              "x": 96.60000610351562,
+              "y": 188.427001953125,
+              "width": 10,
+              "height": 76.25048828125,
+              "inside": true
+            }
+          ]
+        },
+        {
+          "id": "physical-corner-values-Kitchen",
+          "pass": true,
+          "observed": {
+            "expected": [
+              "0′ 2″",
+              "2′ 11″",
+              "6′ 4″"
+            ],
+            "actual": [
+              "0′ 2″",
+              "2′ 11″",
+              "6′ 4″"
+            ]
+          }
+        },
+        {
+          "id": "chain-reaches-real-corners-Kitchen",
+          "pass": true,
+          "observed": {
+            "expectedMetres": 2.88,
+            "actualMetres": 2.879999796549479
+          }
+        },
+        {
+          "id": "all-labels-fit-Kitchen",
+          "pass": true,
+          "observed": [
+            {
+              "text": "0′ 2″",
+              "x": 71,
+              "y": 217.05812072753906,
+              "width": 10,
+              "height": 18.21875,
+              "inside": true
+            },
+            {
+              "text": "2′ 11″",
+              "x": 39.000003814697266,
+              "y": 228.21469116210938,
+              "width": 10,
+              "height": 23.384765625,
+              "inside": true
+            },
+            {
+              "text": "6′ 4″",
+              "x": 71,
+              "y": 273.75811767578125,
+              "width": 10,
+              "height": 18.21875,
+              "inside": true
+            },
+            {
+              "text": "Kitchen · inside",
+              "x": 53.000003814697266,
+              "y": 265.89801025390625,
+              "width": 10,
+              "height": 59.50048828125,
+              "inside": true
+            }
+          ]
+        },
+        {
+          "id": "annotations-do-not-overlap-ordinary-plan-labels",
+          "pass": true,
+          "observed": []
+        },
+        {
+          "id": "inspection-preserves-project",
+          "pass": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": [],
+      "actual": {
+        "scale": 30,
+        "rows": [
+          {
+            "name": "Living room · inside",
+            "values": [
+              "3′ 5″",
+              "2′ 11″",
+              "12′ 11″"
+            ],
+            "chainLengthMetres": 5.8799997965494795,
+            "boxes": [
+              {
+                "text": "3′ 5″",
+                "x": 114.60000610351562,
+                "y": 202.05812072753906,
+                "width": 10,
+                "height": 18.21875,
+                "inside": true
+              },
+              {
+                "text": "2′ 11″",
+                "x": 130.60000610351562,
+                "y": 228.21469116210938,
+                "width": 10,
+                "height": 23.384765625,
+                "inside": true
+              },
+              {
+                "text": "12′ 11″",
+                "x": 114.60000610351562,
+                "y": 299.42218017578125,
+                "width": 10,
+                "height": 26.884765625,
+                "inside": true
+              },
+              {
+                "text": "Living room · inside",
+                "x": 96.60000610351562,
+                "y": 188.427001953125,
+                "width": 10,
+                "height": 76.25048828125,
+                "inside": true
+              }
+            ]
+          },
+          {
+            "name": "Kitchen · inside",
+            "values": [
+              "0′ 2″",
+              "2′ 11″",
+              "6′ 4″"
+            ],
+            "chainLengthMetres": 2.879999796549479,
+            "boxes": [
+              {
+                "text": "0′ 2″",
+                "x": 71,
+                "y": 217.05812072753906,
+                "width": 10,
+                "height": 18.21875,
+                "inside": true
+              },
+              {
+                "text": "2′ 11″",
+                "x": 39.000003814697266,
+                "y": 228.21469116210938,
+                "width": 10,
+                "height": 23.384765625,
+                "inside": true
+              },
+              {
+                "text": "6′ 4″",
+                "x": 71,
+                "y": 273.75811767578125,
+                "width": 10,
+                "height": 18.21875,
+                "inside": true
+              },
+              {
+                "text": "Kitchen · inside",
+                "x": 53.000003814697266,
+                "y": 265.89801025390625,
+                "width": 10,
+                "height": 59.50048828125,
+                "inside": true
+              }
+            ]
+          }
+        ],
+        "overlaps": []
+      },
+      "expected": [
+        {
+          "roomId": "room-mwac3juz-mn0utcr",
+          "name": "Living room",
+          "before": 3.9305000000000008,
+          "after": 1.0494999999999997
+        },
+        {
+          "roomId": "room-mwac3juz-56wksnw",
+          "name": "Kitchen",
+          "before": 0.0495,
+          "after": 1.9304999999999999
+        }
+      ],
+      "screenshot": "door-near-left-ft-390.png",
+      "completed": true
+    },
+    {
+      "side": "top",
+      "unit": "ft",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "checks": [
+        {
+          "id": "physical-corner-values-Living room",
+          "pass": true,
+          "observed": {
+            "expected": [
+              "12′ 11″",
+              "2′ 11″",
+              "3′ 5″"
+            ],
+            "actual": [
+              "3′ 5″",
+              "2′ 11″",
+              "12′ 11″"
+            ]
+          }
+        },
+        {
+          "id": "chain-reaches-real-corners-Living room",
+          "pass": true,
+          "observed": {
+            "expectedMetres": 5.88,
+            "actualMetres": 5.879999740600585
+          }
+        },
+        {
+          "id": "all-labels-fit-Living room",
+          "pass": true,
+          "observed": [
+            {
+              "text": "3′ 5″",
+              "x": 96.88443756103516,
+              "y": 203.56436157226562,
+              "width": 18.21875,
+              "height": 10,
+              "inside": true
+            },
+            {
+              "text": "2′ 11″",
+              "x": 122.75147247314453,
+              "y": 235.56436157226562,
+              "width": 23.38475799560547,
+              "height": 10,
+              "inside": true
+            },
+            {
+              "text": "12′ 11″",
+              "x": 193.2415771484375,
+              "y": 203.56436157226562,
+              "width": 26.884765625,
+              "height": 10,
+              "inside": true
+            },
+            {
+              "text": "Living room · inside",
+              "x": 83.09480285644531,
+              "y": 221.56436157226562,
+              "width": 76.25048828125,
+              "height": 10,
+              "inside": true
+            }
+          ]
+        },
+        {
+          "id": "physical-corner-values-Kitchen",
+          "pass": true,
+          "observed": {
+            "expected": [
+              "0′ 2″",
+              "2′ 11″",
+              "9′ 7″"
+            ],
+            "actual": [
+              "0′ 2″",
+              "2′ 11″",
+              "9′ 7″"
+            ]
+          }
+        },
+        {
+          "id": "chain-reaches-real-corners-Kitchen",
+          "pass": true,
+          "observed": {
+            "expectedMetres": 3.8800000000000003,
+            "actualMetres": 3.879999855041503
+          }
+        },
+        {
+          "id": "all-labels-fit-Kitchen",
+          "pass": true,
+          "observed": [
+            {
+              "text": "0′ 2″",
+              "x": 111.73592376708984,
+              "y": 160,
+              "width": 18.21875762939453,
+              "height": 10,
+              "inside": true
+            },
+            {
+              "text": "2′ 11″",
+              "x": 122.75147247314453,
+              "y": 144,
+              "width": 23.38475799560547,
+              "height": 10,
+              "inside": true
+            },
+            {
+              "text": "9′ 7″",
+              "x": 182.72601318359375,
+              "y": 160,
+              "width": 18.21875,
+              "height": 10,
+              "inside": true
+            },
+            {
+              "text": "Kitchen · inside",
+              "x": 184.2381134033203,
+              "y": 178,
+              "width": 59.50048828125,
+              "height": 10,
+              "inside": true
+            }
+          ]
+        },
+        {
+          "id": "annotations-do-not-overlap-ordinary-plan-labels",
+          "pass": true,
+          "observed": []
+        },
+        {
+          "id": "inspection-preserves-project",
+          "pass": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": [],
+      "actual": {
+        "scale": 29.702970297029708,
+        "rows": [
+          {
+            "name": "Living room · inside",
+            "values": [
+              "3′ 5″",
+              "2′ 11″",
+              "12′ 11″"
+            ],
+            "chainLengthMetres": 5.879999740600585,
+            "boxes": [
+              {
+                "text": "3′ 5″",
+                "x": 96.88443756103516,
+                "y": 203.56436157226562,
+                "width": 18.21875,
+                "height": 10,
+                "inside": true
+              },
+              {
+                "text": "2′ 11″",
+                "x": 122.75147247314453,
+                "y": 235.56436157226562,
+                "width": 23.38475799560547,
+                "height": 10,
+                "inside": true
+              },
+              {
+                "text": "12′ 11″",
+                "x": 193.2415771484375,
+                "y": 203.56436157226562,
+                "width": 26.884765625,
+                "height": 10,
+                "inside": true
+              },
+              {
+                "text": "Living room · inside",
+                "x": 83.09480285644531,
+                "y": 221.56436157226562,
+                "width": 76.25048828125,
+                "height": 10,
+                "inside": true
+              }
+            ]
+          },
+          {
+            "name": "Kitchen · inside",
+            "values": [
+              "0′ 2″",
+              "2′ 11″",
+              "9′ 7″"
+            ],
+            "chainLengthMetres": 3.879999855041503,
+            "boxes": [
+              {
+                "text": "0′ 2″",
+                "x": 111.73592376708984,
+                "y": 160,
+                "width": 18.21875762939453,
+                "height": 10,
+                "inside": true
+              },
+              {
+                "text": "2′ 11″",
+                "x": 122.75147247314453,
+                "y": 144,
+                "width": 23.38475799560547,
+                "height": 10,
+                "inside": true
+              },
+              {
+                "text": "9′ 7″",
+                "x": 182.72601318359375,
+                "y": 160,
+                "width": 18.21875,
+                "height": 10,
+                "inside": true
+              },
+              {
+                "text": "Kitchen · inside",
+                "x": 184.2381134033203,
+                "y": 178,
+                "width": 59.50048828125,
+                "height": 10,
+                "inside": true
+              }
+            ]
+          }
+        ],
+        "overlaps": []
+      },
+      "expected": [
+        {
+          "roomId": "room-mwac3lis-2jp9q3b",
+          "name": "Living room",
+          "before": 1.0495,
+          "after": 3.9305
+        },
+        {
+          "roomId": "room-mwac3lis-wk5oxj7",
+          "name": "Kitchen",
+          "before": 2.9305000000000003,
+          "after": 0.0495
+        }
+      ],
+      "screenshot": "door-near-top-ft-390.png",
+      "completed": true
+    },
+    {
+      "side": "bottom",
+      "unit": "ft",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "checks": [
+        {
+          "id": "physical-corner-values-Living room",
+          "pass": true,
+          "observed": {
+            "expected": [
+              "12′ 11″",
+              "2′ 11″",
+              "3′ 5″"
+            ],
+            "actual": [
+              "3′ 5″",
+              "2′ 11″",
+              "12′ 11″"
+            ]
+          }
+        },
+        {
+          "id": "chain-reaches-real-corners-Living room",
+          "pass": true,
+          "observed": {
+            "expectedMetres": 5.880000000000001,
+            "actualMetres": 5.879999740600585
+          }
+        },
+        {
+          "id": "all-labels-fit-Living room",
+          "pass": true,
+          "observed": [
+            {
+              "text": "3′ 5″",
+              "x": 96.88443756103516,
+              "y": 342.4356689453125,
+              "width": 18.21875,
+              "height": 10,
+              "inside": true
+            },
+            {
+              "text": "2′ 11″",
+              "x": 122.75147247314453,
+              "y": 326.4356689453125,
+              "width": 23.38475799560547,
+              "height": 10,
+              "inside": true
+            },
+            {
+              "text": "12′ 11″",
+              "x": 193.2415771484375,
+              "y": 342.4356689453125,
+              "width": 26.884765625,
+              "height": 10,
+              "inside": true
+            },
+            {
+              "text": "Living room · inside",
+              "x": 83.09480285644531,
+              "y": 360.4356689453125,
+              "width": 76.25048828125,
+              "height": 10,
+              "inside": true
+            }
+          ]
+        },
+        {
+          "id": "physical-corner-values-Kitchen",
+          "pass": true,
+          "observed": {
+            "expected": [
+              "0′ 2″",
+              "2′ 11″",
+              "9′ 7″"
+            ],
+            "actual": [
+              "0′ 2″",
+              "2′ 11″",
+              "9′ 7″"
+            ]
+          }
+        },
+        {
+          "id": "chain-reaches-real-corners-Kitchen",
+          "pass": true,
+          "observed": {
+            "expectedMetres": 3.8799999999999994,
+            "actualMetres": 3.879999855041503
+          }
+        },
+        {
+          "id": "all-labels-fit-Kitchen",
+          "pass": true,
+          "observed": [
+            {
+              "text": "0′ 2″",
+              "x": 111.73592376708984,
+              "y": 386,
+              "width": 18.21875762939453,
+              "height": 10,
+              "inside": true
+            },
+            {
+              "text": "2′ 11″",
+              "x": 122.75147247314453,
+              "y": 418,
+              "width": 23.38475799560547,
+              "height": 10,
+              "inside": true
+            },
+            {
+              "text": "9′ 7″",
+              "x": 182.72601318359375,
+              "y": 386,
+              "width": 18.21875,
+              "height": 10,
+              "inside": true
+            },
+            {
+              "text": "Kitchen · inside",
+              "x": 184.2381134033203,
+              "y": 404,
+              "width": 59.50048828125,
+              "height": 10,
+              "inside": true
+            }
+          ]
+        },
+        {
+          "id": "annotations-do-not-overlap-ordinary-plan-labels",
+          "pass": true,
+          "observed": []
+        },
+        {
+          "id": "inspection-preserves-project",
+          "pass": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": [],
+      "actual": {
+        "scale": 29.702970297029708,
+        "rows": [
+          {
+            "name": "Living room · inside",
+            "values": [
+              "3′ 5″",
+              "2′ 11″",
+              "12′ 11″"
+            ],
+            "chainLengthMetres": 5.879999740600585,
+            "boxes": [
+              {
+                "text": "3′ 5″",
+                "x": 96.88443756103516,
+                "y": 342.4356689453125,
+                "width": 18.21875,
+                "height": 10,
+                "inside": true
+              },
+              {
+                "text": "2′ 11″",
+                "x": 122.75147247314453,
+                "y": 326.4356689453125,
+                "width": 23.38475799560547,
+                "height": 10,
+                "inside": true
+              },
+              {
+                "text": "12′ 11″",
+                "x": 193.2415771484375,
+                "y": 342.4356689453125,
+                "width": 26.884765625,
+                "height": 10,
+                "inside": true
+              },
+              {
+                "text": "Living room · inside",
+                "x": 83.09480285644531,
+                "y": 360.4356689453125,
+                "width": 76.25048828125,
+                "height": 10,
+                "inside": true
+              }
+            ]
+          },
+          {
+            "name": "Kitchen · inside",
+            "values": [
+              "0′ 2″",
+              "2′ 11″",
+              "9′ 7″"
+            ],
+            "chainLengthMetres": 3.879999855041503,
+            "boxes": [
+              {
+                "text": "0′ 2″",
+                "x": 111.73592376708984,
+                "y": 386,
+                "width": 18.21875762939453,
+                "height": 10,
+                "inside": true
+              },
+              {
+                "text": "2′ 11″",
+                "x": 122.75147247314453,
+                "y": 418,
+                "width": 23.38475799560547,
+                "height": 10,
+                "inside": true
+              },
+              {
+                "text": "9′ 7″",
+                "x": 182.72601318359375,
+                "y": 386,
+                "width": 18.21875,
+                "height": 10,
+                "inside": true
+              },
+              {
+                "text": "Kitchen · inside",
+                "x": 184.2381134033203,
+                "y": 404,
+                "width": 59.50048828125,
+                "height": 10,
+                "inside": true
+              }
+            ]
+          }
+        ],
+        "overlaps": []
+      },
+      "expected": [
+        {
+          "roomId": "room-mwac3na8-nmyh73x",
+          "name": "Living room",
+          "before": 3.9305000000000008,
+          "after": 1.0494999999999997
+        },
+        {
+          "roomId": "room-mwac3na8-6uzxf8r",
+          "name": "Kitchen",
+          "before": 0.0495,
+          "after": 2.9304999999999994
+        }
+      ],
+      "screenshot": "door-near-bottom-ft-390.png",
+      "completed": true
+    },
+    {
+      "side": "right",
+      "unit": "m",
+      "viewport": {
+        "width": 320,
+        "height": 568
+      },
+      "checks": [
+        {
+          "id": "physical-corner-values-Living room",
+          "pass": true,
+          "observed": {
+            "expected": [
+              "0.90 m",
+              "1.05 m",
+              "3.93 m"
+            ],
+            "actual": [
+              "1.05 m",
+              "0.90 m",
+              "3.93 m"
+            ]
+          }
+        },
+        {
+          "id": "chain-reaches-real-corners-Living room",
+          "pass": true,
+          "observed": {
+            "expectedMetres": 5.88,
+            "actualMetres": 5.88000025431315
+          }
+        },
+        {
+          "id": "all-labels-fit-Living room",
+          "pass": true,
+          "observed": [
+            {
+              "text": "1.05 m",
+              "x": 212.14852905273438,
+              "y": 200.38723754882812,
+              "width": 10,
+              "height": 26,
+              "inside": true
+            },
+            {
+              "text": "0.90 m",
+              "x": 180.14852905273438,
+              "y": 223.5496063232422,
+              "width": 10,
+              "height": 26,
+              "inside": true
+            },
+            {
+              "text": "3.93 m",
+              "x": 212.14852905273438,
+              "y": 280.9416809082031,
+              "width": 10,
+              "height": 26,
+              "inside": true
+            },
+            {
+              "text": "Living room · inside",
+              "x": 194.14852905273438,
+              "y": 187.45083618164062,
+              "width": 10,
+              "height": 76.25048828125,
+              "inside": true
+            }
+          ]
+        },
+        {
+          "id": "physical-corner-values-Kitchen",
+          "pass": true,
+          "observed": {
+            "expected": [
+              "0.05 m",
+              "0.90 m",
+              "1.93 m"
+            ],
+            "actual": [
+              "0.05 m",
+              "0.90 m",
+              "1.93 m"
+            ]
+          }
+        },
+        {
+          "id": "chain-reaches-real-corners-Kitchen",
+          "pass": true,
+          "observed": {
+            "expectedMetres": 2.88,
+            "actualMetres": 2.8800001049041746
+          }
+        },
+        {
+          "id": "all-labels-fit-Kitchen",
+          "pass": true,
+          "observed": [
+            {
+              "text": "0.05 m",
+              "x": 255,
+              "y": 212.2684326171875,
+              "width": 10,
+              "height": 26,
+              "inside": true
+            },
+            {
+              "text": "0.90 m",
+              "x": 271,
+              "y": 223.5496063232422,
+              "width": 10,
+              "height": 26,
+              "inside": true
+            },
+            {
+              "text": "1.93 m",
+              "x": 255,
+              "y": 257.1793212890625,
+              "width": 10,
+              "height": 26,
+              "inside": true
+            },
+            {
+              "text": "Kitchen · inside",
+              "x": 237,
+              "y": 250.5553436279297,
+              "width": 10,
+              "height": 59.50050354003906,
+              "inside": true
+            }
+          ]
+        },
+        {
+          "id": "annotations-do-not-overlap-ordinary-plan-labels",
+          "pass": true,
+          "observed": []
+        },
+        {
+          "id": "inspection-preserves-project",
+          "pass": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": [],
+      "actual": {
+        "scale": 23.762376237623766,
+        "rows": [
+          {
+            "name": "Living room · inside",
+            "values": [
+              "1.05 m",
+              "0.90 m",
+              "3.93 m"
+            ],
+            "chainLengthMetres": 5.88000025431315,
+            "boxes": [
+              {
+                "text": "1.05 m",
+                "x": 212.14852905273438,
+                "y": 200.38723754882812,
+                "width": 10,
+                "height": 26,
+                "inside": true
+              },
+              {
+                "text": "0.90 m",
+                "x": 180.14852905273438,
+                "y": 223.5496063232422,
+                "width": 10,
+                "height": 26,
+                "inside": true
+              },
+              {
+                "text": "3.93 m",
+                "x": 212.14852905273438,
+                "y": 280.9416809082031,
+                "width": 10,
+                "height": 26,
+                "inside": true
+              },
+              {
+                "text": "Living room · inside",
+                "x": 194.14852905273438,
+                "y": 187.45083618164062,
+                "width": 10,
+                "height": 76.25048828125,
+                "inside": true
+              }
+            ]
+          },
+          {
+            "name": "Kitchen · inside",
+            "values": [
+              "0.05 m",
+              "0.90 m",
+              "1.93 m"
+            ],
+            "chainLengthMetres": 2.8800001049041746,
+            "boxes": [
+              {
+                "text": "0.05 m",
+                "x": 255,
+                "y": 212.2684326171875,
+                "width": 10,
+                "height": 26,
+                "inside": true
+              },
+              {
+                "text": "0.90 m",
+                "x": 271,
+                "y": 223.5496063232422,
+                "width": 10,
+                "height": 26,
+                "inside": true
+              },
+              {
+                "text": "1.93 m",
+                "x": 255,
+                "y": 257.1793212890625,
+                "width": 10,
+                "height": 26,
+                "inside": true
+              },
+              {
+                "text": "Kitchen · inside",
+                "x": 237,
+                "y": 250.5553436279297,
+                "width": 10,
+                "height": 59.50050354003906,
+                "inside": true
+              }
+            ]
+          }
+        ],
+        "overlaps": []
+      },
+      "expected": [
+        {
+          "roomId": "room-mwac3p2l-8mo2myk",
+          "name": "Living room",
+          "before": 1.0495,
+          "after": 3.9305
+        },
+        {
+          "roomId": "room-mwac3p2l-7phnl2d",
+          "name": "Kitchen",
+          "before": 1.9304999999999999,
+          "after": 0.0495
+        }
+      ],
+      "screenshot": "door-near-right-m-320.png",
+      "completed": true
+    },
+    {
+      "side": "left",
+      "unit": "m",
+      "viewport": {
+        "width": 320,
+        "height": 568
+      },
+      "checks": [
+        {
+          "id": "physical-corner-values-Living room",
+          "pass": true,
+          "observed": {
+            "expected": [
+              "0.90 m",
+              "1.05 m",
+              "3.93 m"
+            ],
+            "actual": [
+              "1.05 m",
+              "0.90 m",
+              "3.93 m"
+            ]
+          }
+        },
+        {
+          "id": "chain-reaches-real-corners-Living room",
+          "pass": true,
+          "observed": {
+            "expectedMetres": 5.880000000000001,
+            "actualMetres": 5.88000025431315
+          }
+        },
+        {
+          "id": "all-labels-fit-Living room",
+          "pass": true,
+          "observed": [
+            {
+              "text": "1.05 m",
+              "x": 113.85148620605469,
+              "y": 200.38723754882812,
+              "width": 10,
+              "height": 26,
+              "inside": true
+            },
+            {
+              "text": "0.90 m",
+              "x": 129.8514862060547,
+              "y": 223.5496063232422,
+              "width": 10,
+              "height": 26,
+              "inside": true
+            },
+            {
+              "text": "3.93 m",
+              "x": 113.85148620605469,
+              "y": 280.9416809082031,
+              "width": 10,
+              "height": 26,
+              "inside": true
+            },
+            {
+              "text": "Living room · inside",
+              "x": 95.85148620605469,
+              "y": 187.45083618164062,
+              "width": 10,
+              "height": 76.25048828125,
+              "inside": true
+            }
+          ]
+        },
+        {
+          "id": "physical-corner-values-Kitchen",
+          "pass": true,
+          "observed": {
+            "expected": [
+              "0.05 m",
+              "0.90 m",
+              "1.93 m"
+            ],
+            "actual": [
+              "0.05 m",
+              "0.90 m",
+              "1.93 m"
+            ]
+          }
+        },
+        {
+          "id": "chain-reaches-real-corners-Kitchen",
+          "pass": true,
+          "observed": {
+            "expectedMetres": 2.88,
+            "actualMetres": 2.8800001049041746
+          }
+        },
+        {
+          "id": "all-labels-fit-Kitchen",
+          "pass": true,
+          "observed": [
+            {
+              "text": "0.05 m",
+              "x": 71,
+              "y": 212.2684326171875,
+              "width": 10,
+              "height": 26,
+              "inside": true
+            },
+            {
+              "text": "0.90 m",
+              "x": 39,
+              "y": 223.5496063232422,
+              "width": 10,
+              "height": 26,
+              "inside": true
+            },
+            {
+              "text": "1.93 m",
+              "x": 71,
+              "y": 257.1793212890625,
+              "width": 10,
+              "height": 26,
+              "inside": true
+            },
+            {
+              "text": "Kitchen · inside",
+              "x": 53,
+              "y": 250.5553436279297,
+              "width": 10,
+              "height": 59.50050354003906,
+              "inside": true
+            }
+          ]
+        },
+        {
+          "id": "annotations-do-not-overlap-ordinary-plan-labels",
+          "pass": true,
+          "observed": []
+        },
+        {
+          "id": "inspection-preserves-project",
+          "pass": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": [],
+      "actual": {
+        "scale": 23.762376237623766,
+        "rows": [
+          {
+            "name": "Living room · inside",
+            "values": [
+              "1.05 m",
+              "0.90 m",
+              "3.93 m"
+            ],
+            "chainLengthMetres": 5.88000025431315,
+            "boxes": [
+              {
+                "text": "1.05 m",
+                "x": 113.85148620605469,
+                "y": 200.38723754882812,
+                "width": 10,
+                "height": 26,
+                "inside": true
+              },
+              {
+                "text": "0.90 m",
+                "x": 129.8514862060547,
+                "y": 223.5496063232422,
+                "width": 10,
+                "height": 26,
+                "inside": true
+              },
+              {
+                "text": "3.93 m",
+                "x": 113.85148620605469,
+                "y": 280.9416809082031,
+                "width": 10,
+                "height": 26,
+                "inside": true
+              },
+              {
+                "text": "Living room · inside",
+                "x": 95.85148620605469,
+                "y": 187.45083618164062,
+                "width": 10,
+                "height": 76.25048828125,
+                "inside": true
+              }
+            ]
+          },
+          {
+            "name": "Kitchen · inside",
+            "values": [
+              "0.05 m",
+              "0.90 m",
+              "1.93 m"
+            ],
+            "chainLengthMetres": 2.8800001049041746,
+            "boxes": [
+              {
+                "text": "0.05 m",
+                "x": 71,
+                "y": 212.2684326171875,
+                "width": 10,
+                "height": 26,
+                "inside": true
+              },
+              {
+                "text": "0.90 m",
+                "x": 39,
+                "y": 223.5496063232422,
+                "width": 10,
+                "height": 26,
+                "inside": true
+              },
+              {
+                "text": "1.93 m",
+                "x": 71,
+                "y": 257.1793212890625,
+                "width": 10,
+                "height": 26,
+                "inside": true
+              },
+              {
+                "text": "Kitchen · inside",
+                "x": 53,
+                "y": 250.5553436279297,
+                "width": 10,
+                "height": 59.50050354003906,
+                "inside": true
+              }
+            ]
+          }
+        ],
+        "overlaps": []
+      },
+      "expected": [
+        {
+          "roomId": "room-mwac3qqn-qizi631",
+          "name": "Living room",
+          "before": 3.9305000000000008,
+          "after": 1.0494999999999997
+        },
+        {
+          "roomId": "room-mwac3qqn-hl5qo3w",
+          "name": "Kitchen",
+          "before": 0.0495,
+          "after": 1.9304999999999999
+        }
+      ],
+      "screenshot": "door-near-left-m-320.png",
+      "completed": true
+    },
+    {
+      "side": "top",
+      "unit": "m",
+      "viewport": {
+        "width": 320,
+        "height": 568
+      },
+      "checks": [
+        {
+          "id": "physical-corner-values-Living room",
+          "pass": true,
+          "observed": {
+            "expected": [
+              "0.90 m",
+              "1.05 m",
+              "3.93 m"
+            ],
+            "actual": [
+              "1.05 m",
+              "0.90 m",
+              "3.93 m"
+            ]
+          }
+        },
+        {
+          "id": "chain-reaches-real-corners-Living room",
+          "pass": true,
+          "observed": {
+            "expectedMetres": 5.88,
+            "actualMetres": 5.8799997965494795
+          }
+        },
+        {
+          "id": "all-labels-fit-Living room",
+          "pass": true,
+          "observed": [
+            {
+              "text": "1.05 m",
+              "x": 89.52618408203125,
+              "y": 208.8800048828125,
+              "width": 26,
+              "height": 10,
+              "inside": true
+            },
+            {
+              "text": "0.90 m",
+              "x": 112.9201889038086,
+              "y": 240.8800048828125,
+              "width": 25.99999237060547,
+              "height": 10,
+              "inside": true
+            },
+            {
+              "text": "3.93 m",
+              "x": 170.8861846923828,
+              "y": 208.8800048828125,
+              "width": 26,
+              "height": 10,
+              "inside": true
+            },
+            {
+              "text": "Living room · inside",
+              "x": 76.71659851074219,
+              "y": 226.8800048828125,
+              "width": 76.25048828125,
+              "height": 10,
+              "inside": true
+            }
+          ]
+        },
+        {
+          "id": "physical-corner-values-Kitchen",
+          "pass": true,
+          "observed": {
+            "expected": [
+              "0.05 m",
+              "0.90 m",
+              "2.93 m"
+            ],
+            "actual": [
+              "0.05 m",
+              "0.90 m",
+              "2.93 m"
+            ]
+          }
+        },
+        {
+          "id": "chain-reaches-real-corners-Kitchen",
+          "pass": true,
+          "observed": {
+            "expectedMetres": 3.8800000000000003,
+            "actualMetres": 3.879999796549479
+          }
+        },
+        {
+          "id": "all-labels-fit-Kitchen",
+          "pass": true,
+          "observed": [
+            {
+              "text": "0.05 m",
+              "x": 101.52618408203125,
+              "y": 166,
+              "width": 26,
+              "height": 10,
+              "inside": true
+            },
+            {
+              "text": "0.90 m",
+              "x": 112.9201889038086,
+              "y": 150,
+              "width": 25.99999237060547,
+              "height": 10,
+              "inside": true
+            },
+            {
+              "text": "2.93 m",
+              "x": 157.88619995117188,
+              "y": 166,
+              "width": 27,
+              "height": 10,
+              "inside": true
+            },
+            {
+              "text": "Kitchen · inside",
+              "x": 160.04840087890625,
+              "y": 184,
+              "width": 59.50048828125,
+              "height": 10,
+              "inside": true
+            }
+          ]
+        },
+        {
+          "id": "annotations-do-not-overlap-ordinary-plan-labels",
+          "pass": true,
+          "observed": []
+        },
+        {
+          "id": "inspection-preserves-project",
+          "pass": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": [],
+      "actual": {
+        "scale": 24,
+        "rows": [
+          {
+            "name": "Living room · inside",
+            "values": [
+              "1.05 m",
+              "0.90 m",
+              "3.93 m"
+            ],
+            "chainLengthMetres": 5.8799997965494795,
+            "boxes": [
+              {
+                "text": "1.05 m",
+                "x": 89.52618408203125,
+                "y": 208.8800048828125,
+                "width": 26,
+                "height": 10,
+                "inside": true
+              },
+              {
+                "text": "0.90 m",
+                "x": 112.9201889038086,
+                "y": 240.8800048828125,
+                "width": 25.99999237060547,
+                "height": 10,
+                "inside": true
+              },
+              {
+                "text": "3.93 m",
+                "x": 170.8861846923828,
+                "y": 208.8800048828125,
+                "width": 26,
+                "height": 10,
+                "inside": true
+              },
+              {
+                "text": "Living room · inside",
+                "x": 76.71659851074219,
+                "y": 226.8800048828125,
+                "width": 76.25048828125,
+                "height": 10,
+                "inside": true
+              }
+            ]
+          },
+          {
+            "name": "Kitchen · inside",
+            "values": [
+              "0.05 m",
+              "0.90 m",
+              "2.93 m"
+            ],
+            "chainLengthMetres": 3.879999796549479,
+            "boxes": [
+              {
+                "text": "0.05 m",
+                "x": 101.52618408203125,
+                "y": 166,
+                "width": 26,
+                "height": 10,
+                "inside": true
+              },
+              {
+                "text": "0.90 m",
+                "x": 112.9201889038086,
+                "y": 150,
+                "width": 25.99999237060547,
+                "height": 10,
+                "inside": true
+              },
+              {
+                "text": "2.93 m",
+                "x": 157.88619995117188,
+                "y": 166,
+                "width": 27,
+                "height": 10,
+                "inside": true
+              },
+              {
+                "text": "Kitchen · inside",
+                "x": 160.04840087890625,
+                "y": 184,
+                "width": 59.50048828125,
+                "height": 10,
+                "inside": true
+              }
+            ]
+          }
+        ],
+        "overlaps": []
+      },
+      "expected": [
+        {
+          "roomId": "room-mwac3sar-k34i76v",
+          "name": "Living room",
+          "before": 1.0495,
+          "after": 3.9305
+        },
+        {
+          "roomId": "room-mwac3sas-y5u4bbm",
+          "name": "Kitchen",
+          "before": 2.9305000000000003,
+          "after": 0.0495
+        }
+      ],
+      "screenshot": "door-near-top-m-320.png",
+      "completed": true
+    },
+    {
+      "side": "bottom",
+      "unit": "m",
+      "viewport": {
+        "width": 320,
+        "height": 568
+      },
+      "checks": [
+        {
+          "id": "physical-corner-values-Living room",
+          "pass": true,
+          "observed": {
+            "expected": [
+              "0.90 m",
+              "1.05 m",
+              "3.93 m"
+            ],
+            "actual": [
+              "1.05 m",
+              "0.90 m",
+              "3.93 m"
+            ]
+          }
+        },
+        {
+          "id": "chain-reaches-real-corners-Living room",
+          "pass": true,
+          "observed": {
+            "expectedMetres": 5.880000000000001,
+            "actualMetres": 5.8799997965494795
+          }
+        },
+        {
+          "id": "all-labels-fit-Living room",
+          "pass": true,
+          "observed": [
+            {
+              "text": "1.05 m",
+              "x": 89.52618408203125,
+              "y": 308.55999755859375,
+              "width": 26,
+              "height": 10,
+              "inside": true
+            },
+            {
+              "text": "0.90 m",
+              "x": 112.9201889038086,
+              "y": 292.55999755859375,
+              "width": 25.99999237060547,
+              "height": 10,
+              "inside": true
+            },
+            {
+              "text": "3.93 m",
+              "x": 170.8861846923828,
+              "y": 308.55999755859375,
+              "width": 26,
+              "height": 10,
+              "inside": true
+            },
+            {
+              "text": "Living room · inside",
+              "x": 76.71659851074219,
+              "y": 326.55999755859375,
+              "width": 76.25048828125,
+              "height": 10,
+              "inside": true
+            }
+          ]
+        },
+        {
+          "id": "physical-corner-values-Kitchen",
+          "pass": true,
+          "observed": {
+            "expected": [
+              "0.05 m",
+              "0.90 m",
+              "2.93 m"
+            ],
+            "actual": [
+              "0.05 m",
+              "0.90 m",
+              "2.93 m"
+            ]
+          }
+        },
+        {
+          "id": "chain-reaches-real-corners-Kitchen",
+          "pass": true,
+          "observed": {
+            "expectedMetres": 3.8799999999999994,
+            "actualMetres": 3.879999796549479
+          }
+        },
+        {
+          "id": "all-labels-fit-Kitchen",
+          "pass": true,
+          "observed": [
+            {
+              "text": "0.05 m",
+              "x": 101.52618408203125,
+              "y": 351.44000244140625,
+              "width": 26,
+              "height": 10,
+              "inside": true
+            },
+            {
+              "text": "0.90 m",
+              "x": 112.9201889038086,
+              "y": 383.44000244140625,
+              "width": 25.99999237060547,
+              "height": 10,
+              "inside": true
+            },
+            {
+              "text": "2.93 m",
+              "x": 157.88619995117188,
+              "y": 351.44000244140625,
+              "width": 27,
+              "height": 10,
+              "inside": true
+            },
+            {
+              "text": "Kitchen · inside",
+              "x": 160.04840087890625,
+              "y": 369.44000244140625,
+              "width": 59.50048828125,
+              "height": 10,
+              "inside": true
+            }
+          ]
+        },
+        {
+          "id": "annotations-do-not-overlap-ordinary-plan-labels",
+          "pass": true,
+          "observed": []
+        },
+        {
+          "id": "inspection-preserves-project",
+          "pass": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": [],
+      "actual": {
+        "scale": 24,
+        "rows": [
+          {
+            "name": "Living room · inside",
+            "values": [
+              "1.05 m",
+              "0.90 m",
+              "3.93 m"
+            ],
+            "chainLengthMetres": 5.8799997965494795,
+            "boxes": [
+              {
+                "text": "1.05 m",
+                "x": 89.52618408203125,
+                "y": 308.55999755859375,
+                "width": 26,
+                "height": 10,
+                "inside": true
+              },
+              {
+                "text": "0.90 m",
+                "x": 112.9201889038086,
+                "y": 292.55999755859375,
+                "width": 25.99999237060547,
+                "height": 10,
+                "inside": true
+              },
+              {
+                "text": "3.93 m",
+                "x": 170.8861846923828,
+                "y": 308.55999755859375,
+                "width": 26,
+                "height": 10,
+                "inside": true
+              },
+              {
+                "text": "Living room · inside",
+                "x": 76.71659851074219,
+                "y": 326.55999755859375,
+                "width": 76.25048828125,
+                "height": 10,
+                "inside": true
+              }
+            ]
+          },
+          {
+            "name": "Kitchen · inside",
+            "values": [
+              "0.05 m",
+              "0.90 m",
+              "2.93 m"
+            ],
+            "chainLengthMetres": 3.879999796549479,
+            "boxes": [
+              {
+                "text": "0.05 m",
+                "x": 101.52618408203125,
+                "y": 351.44000244140625,
+                "width": 26,
+                "height": 10,
+                "inside": true
+              },
+              {
+                "text": "0.90 m",
+                "x": 112.9201889038086,
+                "y": 383.44000244140625,
+                "width": 25.99999237060547,
+                "height": 10,
+                "inside": true
+              },
+              {
+                "text": "2.93 m",
+                "x": 157.88619995117188,
+                "y": 351.44000244140625,
+                "width": 27,
+                "height": 10,
+                "inside": true
+              },
+              {
+                "text": "Kitchen · inside",
+                "x": 160.04840087890625,
+                "y": 369.44000244140625,
+                "width": 59.50048828125,
+                "height": 10,
+                "inside": true
+              }
+            ]
+          }
+        ],
+        "overlaps": []
+      },
+      "expected": [
+        {
+          "roomId": "room-mwac3ttw-w3y3lqi",
+          "name": "Living room",
+          "before": 3.9305000000000008,
+          "after": 1.0494999999999997
+        },
+        {
+          "roomId": "room-mwac3ttw-q8d0etw",
+          "name": "Kitchen",
+          "before": 0.0495,
+          "after": 2.9304999999999994
+        }
+      ],
+      "screenshot": "door-near-bottom-m-320.png",
+      "completed": true
+    },
+    {
+      "side": "right",
+      "unit": "ft",
+      "viewport": {
+        "width": 320,
+        "height": 568
+      },
+      "checks": [
+        {
+          "id": "physical-corner-values-Living room",
+          "pass": true,
+          "observed": {
+            "expected": [
+              "12′ 11″",
+              "2′ 11″",
+              "3′ 5″"
+            ],
+            "actual": [
+              "3′ 5″",
+              "2′ 11″",
+              "12′ 11″"
+            ]
+          }
+        },
+        {
+          "id": "chain-reaches-real-corners-Living room",
+          "pass": true,
+          "observed": {
+            "expectedMetres": 5.88,
+            "actualMetres": 5.88000025431315
+          }
+        },
+        {
+          "id": "all-labels-fit-Living room",
+          "pass": true,
+          "observed": [
+            {
+              "text": "3′ 5″",
+              "x": 212.14852905273438,
+              "y": 204.41067504882812,
+              "width": 10,
+              "height": 18.21875,
+              "inside": true
+            },
+            {
+              "text": "2′ 11″",
+              "x": 180.14852905273438,
+              "y": 224.4871063232422,
+              "width": 10,
+              "height": 23.384765625,
+              "inside": true
+            },
+            {
+              "text": "12′ 11″",
+              "x": 212.14852905273438,
+              "y": 280.6291809082031,
+              "width": 10,
+              "height": 26.884765625,
+              "inside": true
+            },
+            {
+              "text": "Living room · inside",
+              "x": 194.14852905273438,
+              "y": 187.45083618164062,
+              "width": 10,
+              "height": 76.25048828125,
+              "inside": true
+            }
+          ]
+        },
+        {
+          "id": "physical-corner-values-Kitchen",
+          "pass": true,
+          "observed": {
+            "expected": [
+              "0′ 2″",
+              "2′ 11″",
+              "6′ 4″"
+            ],
+            "actual": [
+              "0′ 2″",
+              "2′ 11″",
+              "6′ 4″"
+            ]
+          }
+        },
+        {
+          "id": "chain-reaches-real-corners-Kitchen",
+          "pass": true,
+          "observed": {
+            "expectedMetres": 2.88,
+            "actualMetres": 2.8800001049041746
+          }
+        },
+        {
+          "id": "all-labels-fit-Kitchen",
+          "pass": true,
+          "observed": [
+            {
+              "text": "0′ 2″",
+              "x": 255,
+              "y": 216.2918701171875,
+              "width": 10,
+              "height": 18.21875,
+              "inside": true
+            },
+            {
+              "text": "2′ 11″",
+              "x": 271,
+              "y": 224.4871063232422,
+              "width": 10,
+              "height": 23.384765625,
+              "inside": true
+            },
+            {
+              "text": "6′ 4″",
+              "x": 255,
+              "y": 261.2027587890625,
+              "width": 10,
+              "height": 18.21875,
+              "inside": true
+            },
+            {
+              "text": "Kitchen · inside",
+              "x": 237,
+              "y": 250.5553436279297,
+              "width": 10,
+              "height": 59.50050354003906,
+              "inside": true
+            }
+          ]
+        },
+        {
+          "id": "annotations-do-not-overlap-ordinary-plan-labels",
+          "pass": true,
+          "observed": []
+        },
+        {
+          "id": "inspection-preserves-project",
+          "pass": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": [],
+      "actual": {
+        "scale": 23.762376237623766,
+        "rows": [
+          {
+            "name": "Living room · inside",
+            "values": [
+              "3′ 5″",
+              "2′ 11″",
+              "12′ 11″"
+            ],
+            "chainLengthMetres": 5.88000025431315,
+            "boxes": [
+              {
+                "text": "3′ 5″",
+                "x": 212.14852905273438,
+                "y": 204.41067504882812,
+                "width": 10,
+                "height": 18.21875,
+                "inside": true
+              },
+              {
+                "text": "2′ 11″",
+                "x": 180.14852905273438,
+                "y": 224.4871063232422,
+                "width": 10,
+                "height": 23.384765625,
+                "inside": true
+              },
+              {
+                "text": "12′ 11″",
+                "x": 212.14852905273438,
+                "y": 280.6291809082031,
+                "width": 10,
+                "height": 26.884765625,
+                "inside": true
+              },
+              {
+                "text": "Living room · inside",
+                "x": 194.14852905273438,
+                "y": 187.45083618164062,
+                "width": 10,
+                "height": 76.25048828125,
+                "inside": true
+              }
+            ]
+          },
+          {
+            "name": "Kitchen · inside",
+            "values": [
+              "0′ 2″",
+              "2′ 11″",
+              "6′ 4″"
+            ],
+            "chainLengthMetres": 2.8800001049041746,
+            "boxes": [
+              {
+                "text": "0′ 2″",
+                "x": 255,
+                "y": 216.2918701171875,
+                "width": 10,
+                "height": 18.21875,
+                "inside": true
+              },
+              {
+                "text": "2′ 11″",
+                "x": 271,
+                "y": 224.4871063232422,
+                "width": 10,
+                "height": 23.384765625,
+                "inside": true
+              },
+              {
+                "text": "6′ 4″",
+                "x": 255,
+                "y": 261.2027587890625,
+                "width": 10,
+                "height": 18.21875,
+                "inside": true
+              },
+              {
+                "text": "Kitchen · inside",
+                "x": 237,
+                "y": 250.5553436279297,
+                "width": 10,
+                "height": 59.50050354003906,
+                "inside": true
+              }
+            ]
+          }
+        ],
+        "overlaps": []
+      },
+      "expected": [
+        {
+          "roomId": "room-mwac3vd6-z5cg48u",
+          "name": "Living room",
+          "before": 1.0495,
+          "after": 3.9305
+        },
+        {
+          "roomId": "room-mwac3vd6-7e7nar1",
+          "name": "Kitchen",
+          "before": 1.9304999999999999,
+          "after": 0.0495
+        }
+      ],
+      "screenshot": "door-near-right-ft-320.png",
+      "completed": true
+    },
+    {
+      "side": "left",
+      "unit": "ft",
+      "viewport": {
+        "width": 320,
+        "height": 568
+      },
+      "checks": [
+        {
+          "id": "physical-corner-values-Living room",
+          "pass": true,
+          "observed": {
+            "expected": [
+              "12′ 11″",
+              "2′ 11″",
+              "3′ 5″"
+            ],
+            "actual": [
+              "3′ 5″",
+              "2′ 11″",
+              "12′ 11″"
+            ]
+          }
+        },
+        {
+          "id": "chain-reaches-real-corners-Living room",
+          "pass": true,
+          "observed": {
+            "expectedMetres": 5.880000000000001,
+            "actualMetres": 5.88000025431315
+          }
+        },
+        {
+          "id": "all-labels-fit-Living room",
+          "pass": true,
+          "observed": [
+            {
+              "text": "3′ 5″",
+              "x": 113.85148620605469,
+              "y": 204.41067504882812,
+              "width": 10,
+              "height": 18.21875,
+              "inside": true
+            },
+            {
+              "text": "2′ 11″",
+              "x": 129.8514862060547,
+              "y": 224.4871063232422,
+              "width": 10,
+              "height": 23.384765625,
+              "inside": true
+            },
+            {
+              "text": "12′ 11″",
+              "x": 113.85148620605469,
+              "y": 280.6291809082031,
+              "width": 10,
+              "height": 26.884765625,
+              "inside": true
+            },
+            {
+              "text": "Living room · inside",
+              "x": 95.85148620605469,
+              "y": 187.45083618164062,
+              "width": 10,
+              "height": 76.25048828125,
+              "inside": true
+            }
+          ]
+        },
+        {
+          "id": "physical-corner-values-Kitchen",
+          "pass": true,
+          "observed": {
+            "expected": [
+              "0′ 2″",
+              "2′ 11″",
+              "6′ 4″"
+            ],
+            "actual": [
+              "0′ 2″",
+              "2′ 11″",
+              "6′ 4″"
+            ]
+          }
+        },
+        {
+          "id": "chain-reaches-real-corners-Kitchen",
+          "pass": true,
+          "observed": {
+            "expectedMetres": 2.88,
+            "actualMetres": 2.8800001049041746
+          }
+        },
+        {
+          "id": "all-labels-fit-Kitchen",
+          "pass": true,
+          "observed": [
+            {
+              "text": "0′ 2″",
+              "x": 71,
+              "y": 216.2918701171875,
+              "width": 10,
+              "height": 18.21875,
+              "inside": true
+            },
+            {
+              "text": "2′ 11″",
+              "x": 39,
+              "y": 224.4871063232422,
+              "width": 10,
+              "height": 23.384765625,
+              "inside": true
+            },
+            {
+              "text": "6′ 4″",
+              "x": 71,
+              "y": 261.2027587890625,
+              "width": 10,
+              "height": 18.21875,
+              "inside": true
+            },
+            {
+              "text": "Kitchen · inside",
+              "x": 53,
+              "y": 250.5553436279297,
+              "width": 10,
+              "height": 59.50050354003906,
+              "inside": true
+            }
+          ]
+        },
+        {
+          "id": "annotations-do-not-overlap-ordinary-plan-labels",
+          "pass": true,
+          "observed": []
+        },
+        {
+          "id": "inspection-preserves-project",
+          "pass": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": [],
+      "actual": {
+        "scale": 23.762376237623766,
+        "rows": [
+          {
+            "name": "Living room · inside",
+            "values": [
+              "3′ 5″",
+              "2′ 11″",
+              "12′ 11″"
+            ],
+            "chainLengthMetres": 5.88000025431315,
+            "boxes": [
+              {
+                "text": "3′ 5″",
+                "x": 113.85148620605469,
+                "y": 204.41067504882812,
+                "width": 10,
+                "height": 18.21875,
+                "inside": true
+              },
+              {
+                "text": "2′ 11″",
+                "x": 129.8514862060547,
+                "y": 224.4871063232422,
+                "width": 10,
+                "height": 23.384765625,
+                "inside": true
+              },
+              {
+                "text": "12′ 11″",
+                "x": 113.85148620605469,
+                "y": 280.6291809082031,
+                "width": 10,
+                "height": 26.884765625,
+                "inside": true
+              },
+              {
+                "text": "Living room · inside",
+                "x": 95.85148620605469,
+                "y": 187.45083618164062,
+                "width": 10,
+                "height": 76.25048828125,
+                "inside": true
+              }
+            ]
+          },
+          {
+            "name": "Kitchen · inside",
+            "values": [
+              "0′ 2″",
+              "2′ 11″",
+              "6′ 4″"
+            ],
+            "chainLengthMetres": 2.8800001049041746,
+            "boxes": [
+              {
+                "text": "0′ 2″",
+                "x": 71,
+                "y": 216.2918701171875,
+                "width": 10,
+                "height": 18.21875,
+                "inside": true
+              },
+              {
+                "text": "2′ 11″",
+                "x": 39,
+                "y": 224.4871063232422,
+                "width": 10,
+                "height": 23.384765625,
+                "inside": true
+              },
+              {
+                "text": "6′ 4″",
+                "x": 71,
+                "y": 261.2027587890625,
+                "width": 10,
+                "height": 18.21875,
+                "inside": true
+              },
+              {
+                "text": "Kitchen · inside",
+                "x": 53,
+                "y": 250.5553436279297,
+                "width": 10,
+                "height": 59.50050354003906,
+                "inside": true
+              }
+            ]
+          }
+        ],
+        "overlaps": []
+      },
+      "expected": [
+        {
+          "roomId": "room-mwac3wx5-guzfbvl",
+          "name": "Living room",
+          "before": 3.9305000000000008,
+          "after": 1.0494999999999997
+        },
+        {
+          "roomId": "room-mwac3wx5-w6rw0xn",
+          "name": "Kitchen",
+          "before": 0.0495,
+          "after": 1.9304999999999999
+        }
+      ],
+      "screenshot": "door-near-left-ft-320.png",
+      "completed": true
+    },
+    {
+      "side": "top",
+      "unit": "ft",
+      "viewport": {
+        "width": 320,
+        "height": 568
+      },
+      "checks": [
+        {
+          "id": "physical-corner-values-Living room",
+          "pass": true,
+          "observed": {
+            "expected": [
+              "12′ 11″",
+              "2′ 11″",
+              "3′ 5″"
+            ],
+            "actual": [
+              "3′ 5″",
+              "2′ 11″",
+              "12′ 11″"
+            ]
+          }
+        },
+        {
+          "id": "chain-reaches-real-corners-Living room",
+          "pass": true,
+          "observed": {
+            "expectedMetres": 5.88,
+            "actualMetres": 5.8799997965494795
+          }
+        },
+        {
+          "id": "all-labels-fit-Living room",
+          "pass": true,
+          "observed": [
+            {
+              "text": "3′ 5″",
+              "x": 93.54962158203125,
+              "y": 208.8800048828125,
+              "width": 18.21875,
+              "height": 10,
+              "inside": true
+            },
+            {
+              "text": "2′ 11″",
+              "x": 113.8576889038086,
+              "y": 240.8800048828125,
+              "width": 23.38475799560547,
+              "height": 10,
+              "inside": true
+            },
+            {
+              "text": "12′ 11″",
+              "x": 170.5736846923828,
+              "y": 208.8800048828125,
+              "width": 26.884765625,
+              "height": 10,
+              "inside": true
+            },
+            {
+              "text": "Living room · inside",
+              "x": 76.71659851074219,
+              "y": 226.8800048828125,
+              "width": 76.25048828125,
+              "height": 10,
+              "inside": true
+            }
+          ]
+        },
+        {
+          "id": "physical-corner-values-Kitchen",
+          "pass": true,
+          "observed": {
+            "expected": [
+              "0′ 2″",
+              "2′ 11″",
+              "9′ 7″"
+            ],
+            "actual": [
+              "0′ 2″",
+              "2′ 11″",
+              "9′ 7″"
+            ]
+          }
+        },
+        {
+          "id": "chain-reaches-real-corners-Kitchen",
+          "pass": true,
+          "observed": {
+            "expectedMetres": 3.8800000000000003,
+            "actualMetres": 3.879999796549479
+          }
+        },
+        {
+          "id": "all-labels-fit-Kitchen",
+          "pass": true,
+          "observed": [
+            {
+              "text": "0′ 2″",
+              "x": 105.54962158203125,
+              "y": 166,
+              "width": 18.21875,
+              "height": 10,
+              "inside": true
+            },
+            {
+              "text": "2′ 11″",
+              "x": 113.8576889038086,
+              "y": 150,
+              "width": 23.38475799560547,
+              "height": 10,
+              "inside": true
+            },
+            {
+              "text": "9′ 7″",
+              "x": 162.90963745117188,
+              "y": 166,
+              "width": 18.21875,
+              "height": 10,
+              "inside": true
+            },
+            {
+              "text": "Kitchen · inside",
+              "x": 160.04840087890625,
+              "y": 184,
+              "width": 59.50048828125,
+              "height": 10,
+              "inside": true
+            }
+          ]
+        },
+        {
+          "id": "annotations-do-not-overlap-ordinary-plan-labels",
+          "pass": true,
+          "observed": []
+        },
+        {
+          "id": "inspection-preserves-project",
+          "pass": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": [],
+      "actual": {
+        "scale": 24,
+        "rows": [
+          {
+            "name": "Living room · inside",
+            "values": [
+              "3′ 5″",
+              "2′ 11″",
+              "12′ 11″"
+            ],
+            "chainLengthMetres": 5.8799997965494795,
+            "boxes": [
+              {
+                "text": "3′ 5″",
+                "x": 93.54962158203125,
+                "y": 208.8800048828125,
+                "width": 18.21875,
+                "height": 10,
+                "inside": true
+              },
+              {
+                "text": "2′ 11″",
+                "x": 113.8576889038086,
+                "y": 240.8800048828125,
+                "width": 23.38475799560547,
+                "height": 10,
+                "inside": true
+              },
+              {
+                "text": "12′ 11″",
+                "x": 170.5736846923828,
+                "y": 208.8800048828125,
+                "width": 26.884765625,
+                "height": 10,
+                "inside": true
+              },
+              {
+                "text": "Living room · inside",
+                "x": 76.71659851074219,
+                "y": 226.8800048828125,
+                "width": 76.25048828125,
+                "height": 10,
+                "inside": true
+              }
+            ]
+          },
+          {
+            "name": "Kitchen · inside",
+            "values": [
+              "0′ 2″",
+              "2′ 11″",
+              "9′ 7″"
+            ],
+            "chainLengthMetres": 3.879999796549479,
+            "boxes": [
+              {
+                "text": "0′ 2″",
+                "x": 105.54962158203125,
+                "y": 166,
+                "width": 18.21875,
+                "height": 10,
+                "inside": true
+              },
+              {
+                "text": "2′ 11″",
+                "x": 113.8576889038086,
+                "y": 150,
+                "width": 23.38475799560547,
+                "height": 10,
+                "inside": true
+              },
+              {
+                "text": "9′ 7″",
+                "x": 162.90963745117188,
+                "y": 166,
+                "width": 18.21875,
+                "height": 10,
+                "inside": true
+              },
+              {
+                "text": "Kitchen · inside",
+                "x": 160.04840087890625,
+                "y": 184,
+                "width": 59.50048828125,
+                "height": 10,
+                "inside": true
+              }
+            ]
+          }
+        ],
+        "overlaps": []
+      },
+      "expected": [
+        {
+          "roomId": "room-mwac3yhl-vgjzvaz",
+          "name": "Living room",
+          "before": 1.0495,
+          "after": 3.9305
+        },
+        {
+          "roomId": "room-mwac3yhl-unfgjlp",
+          "name": "Kitchen",
+          "before": 2.9305000000000003,
+          "after": 0.0495
+        }
+      ],
+      "screenshot": "door-near-top-ft-320.png",
+      "completed": true
+    },
+    {
+      "side": "bottom",
+      "unit": "ft",
+      "viewport": {
+        "width": 320,
+        "height": 568
+      },
+      "checks": [
+        {
+          "id": "physical-corner-values-Living room",
+          "pass": true,
+          "observed": {
+            "expected": [
+              "12′ 11″",
+              "2′ 11″",
+              "3′ 5″"
+            ],
+            "actual": [
+              "3′ 5″",
+              "2′ 11″",
+              "12′ 11″"
+            ]
+          }
+        },
+        {
+          "id": "chain-reaches-real-corners-Living room",
+          "pass": true,
+          "observed": {
+            "expectedMetres": 5.880000000000001,
+            "actualMetres": 5.8799997965494795
+          }
+        },
+        {
+          "id": "all-labels-fit-Living room",
+          "pass": true,
+          "observed": [
+            {
+              "text": "3′ 5″",
+              "x": 93.54962158203125,
+              "y": 308.55999755859375,
+              "width": 18.21875,
+              "height": 10,
+              "inside": true
+            },
+            {
+              "text": "2′ 11″",
+              "x": 113.8576889038086,
+              "y": 292.55999755859375,
+              "width": 23.38475799560547,
+              "height": 10,
+              "inside": true
+            },
+            {
+              "text": "12′ 11″",
+              "x": 170.5736846923828,
+              "y": 308.55999755859375,
+              "width": 26.884765625,
+              "height": 10,
+              "inside": true
+            },
+            {
+              "text": "Living room · inside",
+              "x": 76.71659851074219,
+              "y": 326.55999755859375,
+              "width": 76.25048828125,
+              "height": 10,
+              "inside": true
+            }
+          ]
+        },
+        {
+          "id": "physical-corner-values-Kitchen",
+          "pass": true,
+          "observed": {
+            "expected": [
+              "0′ 2″",
+              "2′ 11″",
+              "9′ 7″"
+            ],
+            "actual": [
+              "0′ 2″",
+              "2′ 11″",
+              "9′ 7″"
+            ]
+          }
+        },
+        {
+          "id": "chain-reaches-real-corners-Kitchen",
+          "pass": true,
+          "observed": {
+            "expectedMetres": 3.8799999999999994,
+            "actualMetres": 3.879999796549479
+          }
+        },
+        {
+          "id": "all-labels-fit-Kitchen",
+          "pass": true,
+          "observed": [
+            {
+              "text": "0′ 2″",
+              "x": 105.54962158203125,
+              "y": 351.44000244140625,
+              "width": 18.21875,
+              "height": 10,
+              "inside": true
+            },
+            {
+              "text": "2′ 11″",
+              "x": 113.8576889038086,
+              "y": 383.44000244140625,
+              "width": 23.38475799560547,
+              "height": 10,
+              "inside": true
+            },
+            {
+              "text": "9′ 7″",
+              "x": 162.90963745117188,
+              "y": 351.44000244140625,
+              "width": 18.21875,
+              "height": 10,
+              "inside": true
+            },
+            {
+              "text": "Kitchen · inside",
+              "x": 160.04840087890625,
+              "y": 369.44000244140625,
+              "width": 59.50048828125,
+              "height": 10,
+              "inside": true
+            }
+          ]
+        },
+        {
+          "id": "annotations-do-not-overlap-ordinary-plan-labels",
+          "pass": true,
+          "observed": []
+        },
+        {
+          "id": "inspection-preserves-project",
+          "pass": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": [],
+      "actual": {
+        "scale": 24,
+        "rows": [
+          {
+            "name": "Living room · inside",
+            "values": [
+              "3′ 5″",
+              "2′ 11″",
+              "12′ 11″"
+            ],
+            "chainLengthMetres": 5.8799997965494795,
+            "boxes": [
+              {
+                "text": "3′ 5″",
+                "x": 93.54962158203125,
+                "y": 308.55999755859375,
+                "width": 18.21875,
+                "height": 10,
+                "inside": true
+              },
+              {
+                "text": "2′ 11″",
+                "x": 113.8576889038086,
+                "y": 292.55999755859375,
+                "width": 23.38475799560547,
+                "height": 10,
+                "inside": true
+              },
+              {
+                "text": "12′ 11″",
+                "x": 170.5736846923828,
+                "y": 308.55999755859375,
+                "width": 26.884765625,
+                "height": 10,
+                "inside": true
+              },
+              {
+                "text": "Living room · inside",
+                "x": 76.71659851074219,
+                "y": 326.55999755859375,
+                "width": 76.25048828125,
+                "height": 10,
+                "inside": true
+              }
+            ]
+          },
+          {
+            "name": "Kitchen · inside",
+            "values": [
+              "0′ 2″",
+              "2′ 11″",
+              "9′ 7″"
+            ],
+            "chainLengthMetres": 3.879999796549479,
+            "boxes": [
+              {
+                "text": "0′ 2″",
+                "x": 105.54962158203125,
+                "y": 351.44000244140625,
+                "width": 18.21875,
+                "height": 10,
+                "inside": true
+              },
+              {
+                "text": "2′ 11″",
+                "x": 113.8576889038086,
+                "y": 383.44000244140625,
+                "width": 23.38475799560547,
+                "height": 10,
+                "inside": true
+              },
+              {
+                "text": "9′ 7″",
+                "x": 162.90963745117188,
+                "y": 351.44000244140625,
+                "width": 18.21875,
+                "height": 10,
+                "inside": true
+              },
+              {
+                "text": "Kitchen · inside",
+                "x": 160.04840087890625,
+                "y": 369.44000244140625,
+                "width": 59.50048828125,
+                "height": 10,
+                "inside": true
+              }
+            ]
+          }
+        ],
+        "overlaps": []
+      },
+      "expected": [
+        {
+          "roomId": "room-mwac401n-gtywknz",
+          "name": "Living room",
+          "before": 3.9305000000000008,
+          "after": 1.0494999999999997
+        },
+        {
+          "roomId": "room-mwac401n-nipi2dt",
+          "name": "Kitchen",
+          "before": 0.0495,
+          "after": 2.9304999999999994
+        }
+      ],
+      "screenshot": "door-near-bottom-ft-320.png",
+      "completed": true
+    }
+  ],
+  "passed": 128,
+  "failed": 0
+}
