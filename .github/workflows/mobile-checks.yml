@@ -3,9 +3,8 @@ name: Mobile source checks
 on:
   push:
     branches: [main]
-    paths: ["mobile/**", ".github/workflows/mobile-checks.yml"]
   pull_request:
-    paths: ["mobile/**", ".github/workflows/mobile-checks.yml"]
+    branches: [main]
   workflow_dispatch:
 
 permissions:
