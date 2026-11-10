@@ -10,6 +10,8 @@ User authorization: November 9, 2026. Repository: [taliamekh/OIS-Designs](https:
 - `461b78d185e72ceabcab0d6c367ed72339237c68`: required app binaries and review images using Git LFS; pushed to `main`. Committed-tree closure: 825 retained revisions and 1,770 static asset references, no missing paths. Local LFS object verification passes.
 - `5adfef4835eea6706bf6c2721f9e5d4a0430a0b0`: immutable model/source/review archive, 8,560 additional files; 6,763 unique LFS objects uploaded (about 1.2 GB). Pushed to `main` and remote SHA verified at 04:30 UTC. GitHub associates both author and committer with `taliamekh`. Unreviewed/staged archive content is never a completion claim.
 
+- `5d1c961230d1c4689a5386ef0568d94ff4ceaa93`: final frozen library readiness milestone, dependency assets and source CI; pushed at 04:40 UTC. GitHub associates author/committer with `taliamekh`. [Remote checks passed](https://github.com/taliamekh/OIS-Designs/actions/runs/42757289719): locked install, TypeScript, ESLint and domain/storage/scene tests. Later working-tree changes require their own checkpoint.
+
 ## Cadence and procedure
 
 1. Inspect authoritative thread/file status; collect a coherent ready increment and its tests/known limitations. Do not stop the build waiting for routine user approval.

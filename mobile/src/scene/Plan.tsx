@@ -328,14 +328,18 @@ export default function Plan(props: Interaction) {
                 fill={r.id === props.room.id ? c.warm : c.surface}
                 stroke={c.line}
               />
-              <SvgText
-                x={(bounds(r.polygon).minX + 0.2) * scale + ox}
-                y={(bounds(r.polygon).minZ + 0.3) * scale + oz}
-                fontSize={11}
-                fill={c.sub}
-              >
-                {r.name}
-              </SvgText>
+              {selectedWall?.faces.some(
+                (face) => face.roomId === r.id,
+              ) ? null : (
+                <SvgText
+                  x={(bounds(r.polygon).minX + 0.2) * scale + ox}
+                  y={(bounds(r.polygon).minZ + 0.3) * scale + oz}
+                  fontSize={11}
+                  fill={c.sub}
+                >
+                  {r.name}
+                </SvgText>
+              )}
             </G>
           ))}
           {shownWalls.map((w) => (
@@ -349,9 +353,7 @@ export default function Plan(props: Interaction) {
                 strokeWidth={props.onWall ? 7 : 5}
                 strokeLinecap="square"
               />
-              {props.floor.openings.some(
-                (o) => o.id === props.selectedOpening && o.wallId === w.id,
-              ) ? null : (
+              {selectedWall ? null : (
                 <SvgText
                   x={Math.max(
                     28,
@@ -436,7 +438,7 @@ export default function Plan(props: Interaction) {
                       strokeWidth={2}
                     />
                   )}
-                  {props.selectedOpening === o.id ? null : (
+                  {selectedWall ? null : (
                     <SvgText
                       x={sw / 2}
                       y={-10}

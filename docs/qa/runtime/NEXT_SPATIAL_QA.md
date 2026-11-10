@@ -1,4 +1,4 @@
-# Queued spatial phase: runtime acceptance
+# Phase3 queued spatial runtime acceptance
 
 Follow the start gate and ownership in `docs/coordination/NEXT_SPATIAL_PHASE.md`. The furniture library must finish its required accepted-design handoff before this phase starts. Camera presets and cutaway controls remain proposals until evaluated; this document does not approve a UI or claim Home Planner behavior.
 

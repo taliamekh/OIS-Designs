@@ -1,0 +1,16 @@
+{
+  "at": "2026-11-10T02:51:41.352Z",
+  "checks": [
+    "700ms database writes cannot let a pre-import autosave overwrite confirmed recovery",
+    "an aborted primary write never claims Saved locally",
+    "explicit retry clears the failure only after the current snapshot is durable"
+  ],
+  "primaryWrites": [
+    {
+      "id": "project-mwa3ft42-zv1nfcw",
+      "at": 6668.80000000447
+    }
+  ],
+  "errors": [],
+  "nativeValidation": false
+}

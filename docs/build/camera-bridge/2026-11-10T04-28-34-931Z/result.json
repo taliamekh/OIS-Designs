@@ -1,0 +1,167 @@
+{
+  "at": "2026-11-10T04:28:34.931Z",
+  "sources": {
+    "mobile/src/domain/project.ts": "7786d523a0341bc5781187e03c5d004915bd8e58dce4ac83d8dd7e0af6257b6f",
+    "mobile/src/domain/types.ts": "e818a704afc0cc972978dbdea369429ca33af346cced16f68eb88ccc1f5a42e5",
+    "mobile/src/domain/geometry.ts": "d39a47ba5606406a01b7ba1690e18df0fe8b4055cf3fbe70f0cd3b89d5299b90",
+    "mobile/src/domain/persistence.ts": "ac166d419b677611c1b32d17fa0ddb9021d20f19cf3614fbd0e39719681e50ee",
+    "mobile/src/scene/walk.ts": "612be75da52af872ad3efef860d1929d648a809340b8f8a30277f945a32512db",
+    "mobile/src/scene/touches.ts": "a1b6c4ff75e8a272e70d0db1166b4701903a853cc31bd289d577040c8db71cc5",
+    "mobile/src/scene/camera.ts": "0da59cb3d2cb34fb692c3a70f3f0b530a3c39c5765d9cf1271d352922fd0674a",
+    "mobile/src/scene/Viewport.tsx": "9f792271068bda73523e58baf09133aecc9c09df62824419cda5f05c5a75b06c",
+    "mobile/src/scene/picking.ts": "64d7d46216e327c122580d2f2a0d42f6fd8f1e3cb8501c3db75e72e9a5be08c4"
+  },
+  "stableSources": true,
+  "changedSources": [],
+  "checks": [
+    {
+      "id": "STRUCTURAL-RESIZE-UNDO-REDO",
+      "pass": true,
+      "observed": [
+        {
+          "step": "initial",
+          "camera": [
+            12.205673346545824,
+            12.918094298421442,
+            12.42566617431597
+          ],
+          "containment": {
+            "maxX": 0.8819053900495322,
+            "maxY": 0.4099395018528941,
+            "maxDepth": 0.9985521832953129,
+            "minDepth": 0.9977792722292702
+          }
+        },
+        {
+          "step": "apply",
+          "camera": [
+            94.8347327464337,
+            91.78383652646865,
+            95.3295589497263
+          ],
+          "containment": {
+            "maxX": 0.8977391543551619,
+            "maxY": 0.3368325307518992,
+            "maxDepth": 0.9995823900229663,
+            "minDepth": 0.9990125690587176
+          }
+        },
+        {
+          "step": "undo",
+          "camera": [
+            12.205673346545824,
+            12.918094298421442,
+            12.42566617431597
+          ],
+          "containment": {
+            "maxX": 0.8819053900495322,
+            "maxY": 0.4099395018528941,
+            "maxDepth": 0.9985521832953129,
+            "minDepth": 0.9977792722292702
+          }
+        },
+        {
+          "step": "redo",
+          "camera": [
+            94.8347327464337,
+            91.78383652646865,
+            95.3295589497263
+          ],
+          "containment": {
+            "maxX": 0.8977391543551619,
+            "maxY": 0.3368325307518992,
+            "maxDepth": 0.9995823900229663,
+            "minDepth": 0.9990125690587176
+          }
+        }
+      ]
+    },
+    {
+      "id": "WHOLE-FLOOR-MIXED-HEIGHT",
+      "pass": true,
+      "observed": [
+        {
+          "activeCeiling": 2.7,
+          "camera": [
+            16.17417825515028,
+            17.80456238133186,
+            15.068081276179546
+          ],
+          "containment": {
+            "maxX": 0.22027311887653683,
+            "maxY": 0.5815894957061797,
+            "maxDepth": 0.9988277890571479,
+            "minDepth": 0.9977014916110788
+          }
+        },
+        {
+          "activeCeiling": 8,
+          "camera": [
+            16.17417825515028,
+            17.80456238133186,
+            15.068081276179546
+          ],
+          "containment": {
+            "maxX": 0.22027311887653683,
+            "maxY": 0.5815894957061797,
+            "maxDepth": 0.9988277890571479,
+            "minDepth": 0.9977014916110788
+          }
+        }
+      ]
+    },
+    {
+      "id": "ALL-FLOOR-ALIGNMENT-UPDATE",
+      "pass": true,
+      "observed": [
+        {
+          "step": "initial",
+          "camera": [
+            33.45495821768293,
+            35.04796268842754,
+            27.897443909642085
+          ],
+          "containment": {
+            "maxX": 0.8931721015315655,
+            "maxY": 0.23800655201222204,
+            "maxDepth": 0.999196643203967,
+            "minDepth": 0.9987112402608564
+          }
+        },
+        {
+          "step": "alignment-edit",
+          "camera": [
+            84.79844113808602,
+            82.15644218221745,
+            64.5930541771339
+          ],
+          "containment": {
+            "maxX": 0.8972920231685856,
+            "maxY": 0.12417897090191284,
+            "maxDepth": 0.9994547813767444,
+            "minDepth": 0.9991398245256217
+          }
+        }
+      ]
+    },
+    {
+      "id": "ORDINARY-FINISH-SELECTION-DOES-NOT-RESET-ORBIT",
+      "pass": true,
+      "observed": {
+        "orbited": [
+          6.589181978573636,
+          11.110461166777547,
+          17.03661726810174
+        ],
+        "after": [
+          6.589181978573636,
+          11.110461166777547,
+          17.03661726810174
+        ]
+      }
+    }
+  ],
+  "passed": 4,
+  "failed": 0,
+  "scope": "Actual extracted production CameraBridge and helpers with deterministic React-like hook dependency commits and real Three projection. No Canvas/GL renderer,native touch or physical-device claim."
+}

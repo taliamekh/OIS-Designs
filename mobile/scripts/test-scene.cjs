@@ -23,6 +23,104 @@ const M = require("../src/scene/meshes.ts"),
   G = require("../src/domain/geometry.ts"),
   P = require("../src/domain/persistence.ts");
 const assets = require("../src/catalogue/assets.json");
+const { pickItem } = require("../src/scene/picking.ts");
+
+test("opaque walls block hidden furniture picks; cutaway ancestors and transparent surfaces do not", () => {
+  const scene = new THREE.Scene(),
+    wallGroup = new THREE.Group(),
+    wall = new THREE.Mesh(
+      new THREE.BoxGeometry(5, 3, 0.1),
+      new THREE.MeshBasicMaterial(),
+    ),
+    item = new THREE.Mesh(
+      new THREE.BoxGeometry(1, 1, 1),
+      new THREE.MeshBasicMaterial(),
+    );
+  wall.position.set(0, 0.5, 1);
+  wallGroup.add(wall);
+  scene.add(wallGroup, item);
+  item.userData.itemId = "visible-sofa";
+  scene.updateMatrixWorld(true);
+  const ray = new THREE.Raycaster(
+      new THREE.Vector3(0, 0, 5),
+      new THREE.Vector3(0, 0, -1),
+    ),
+    pick = () => pickItem(ray.intersectObjects(scene.children, true));
+  assert.equal(pick(), undefined, "opaque wall prevents selection through it");
+  wallGroup.visible = false;
+  assert.equal(
+    pick(),
+    item.userData.itemId,
+    "invisible parent no longer occludes the visible model",
+  );
+  wallGroup.visible = true;
+  wall.material.visible = false;
+  assert.equal(pick(), item.userData.itemId);
+  wall.material.visible = true;
+  wall.material.transparent = true;
+  wall.material.opacity = 0.2;
+  assert.equal(
+    pick(),
+    item.userData.itemId,
+    "transparent non-item surface permits the visible furniture",
+  );
+  wall.material.opacity = 1;
+  assert.equal(pick(), undefined);
+  wall.material.depthTest = false;
+  assert.equal(
+    pick(),
+    item.userData.itemId,
+    "overlay decoration is not a depth occluder",
+  );
+  item.visible = false;
+  assert.equal(
+    pick(),
+    undefined,
+    "invisible furniture cannot capture gestures",
+  );
+  item.visible = true;
+  item.userData.itemId = "missing-model-marker";
+  assert.equal(
+    pick(),
+    "missing-model-marker",
+    "visible recovery marker still selects",
+  );
+  [wall, item].forEach((m) => {
+    m.geometry.dispose();
+    m.material.dispose();
+  });
+});
+
+test("picking uses the hit face's actual material rather than an unused opaque slot", () => {
+  const scene = new THREE.Scene(),
+    transparent = new THREE.MeshBasicMaterial({
+      transparent: true,
+      opacity: 0.2,
+    }),
+    opaque = new THREE.MeshBasicMaterial(),
+    geometry = new THREE.PlaneGeometry(4, 4),
+    wall = new THREE.Mesh(geometry, [opaque, transparent]),
+    item = new THREE.Mesh(
+      new THREE.BoxGeometry(1, 1, 1),
+      new THREE.MeshBasicMaterial(),
+    );
+  geometry.clearGroups();
+  geometry.addGroup(0, 6, 1);
+  wall.position.z = 1;
+  item.userData.itemId = "sofa";
+  scene.add(wall, item);
+  scene.updateMatrixWorld(true);
+  const ray = new THREE.Raycaster(
+    new THREE.Vector3(0, 0, 5),
+    new THREE.Vector3(0, 0, -1),
+  );
+  assert.equal(pickItem(ray.intersectObjects(scene.children, true)), "sofa");
+  geometry.dispose();
+  opaque.dispose();
+  transparent.dispose();
+  item.geometry.dispose();
+  item.material.dispose();
+});
 const fixture = () => {
   const p = D.makeProject("living", 4, 4),
     f = p.floors[0],

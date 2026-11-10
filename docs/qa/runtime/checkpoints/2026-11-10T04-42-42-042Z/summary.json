@@ -1,0 +1,966 @@
+{
+  "at": "2026-11-10T04:42:42.042Z",
+  "phaseScope": "Original PHONE_APP_PLAN Phase2 implementation/validation and bounded parts of Phase3; Phase1 physical acceptance remains open.",
+  "notOverallSignoff": true,
+  "minimumContinuedWorkGate": "2026-11-10T06:53:00Z",
+  "current40": {
+    "testedAt": "2026-11-10T04:02:49.286Z",
+    "sourceHash": "4d8d0e3ddba05a562e2b74bfb0c36f4cc5b354701e40afb94a4cdff7f7c69a2b",
+    "fixtureSHA256": "1a7188ebe87c344d53a406b3cb500221a60f94b92cef1c994ed4f2adc99d009d",
+    "fixtureFrozenAt": "2026-11-10T03:51:44.269Z",
+    "reviewHashes": {
+      "furniture/manifest.json": "fe611471e535f1f9594510e3de6504d33c2747c3c3e198a5c915ea6d4e512e17",
+      "furniture/catalogue-v2/accepted-assets.json": "a7e058b6ae0a0d96b65c770362493ea2acb05fba7eb813f81fbdbdcce74821e1",
+      "furniture/catalogue-v2/batch-ready.json": "af71ef4f32da2b30ff0e9ee3d895cb1bab73c057f5478dd6cae4a0c8fc2eaef9",
+      "furniture/catalogue-v2/visual-decisions.json": "10ab1fe541ad91e00cb1ec9e4a4f195cf2e462d8dec6c02791d9632120bb4be0",
+      "furniture/materials/v1/manifest.json": "2c1fcc73bf148de15a03e263fab942972ab6853738b0e441428eb0aede896a19",
+      "mobile/src/catalogue/assets.json": "d879f5e62a6081587825712243cd13ff77a7ccae54ab799a5d357da49e4889c2",
+      "mobile/src/catalogue/bundled.ts": "d2619614d7f53b42c54f1b4f6f147328ac96010be8225cd98ce52346cbe59d64"
+    },
+    "models": [
+      {
+        "id": "ois.design.rail-frame-sofa",
+        "designId": "ois.design.rail-frame-sofa",
+        "version": "0.7.0",
+        "sha256": "cfe47a3e8f9fa7258280449eda7023af4b1457acdfea4aedcc458899c71a4c55",
+        "bytes": 657248,
+        "reviewSheetSha256": "b707b3cd72ff35a76db82b2cb70730fbb7e37e0af187354fb99d759f53b05551"
+      },
+      {
+        "id": "ois.design.arched-reading-nook",
+        "designId": "ois.design.arched-reading-nook",
+        "version": "0.5.0",
+        "sha256": "4266e693e06154cd017237a14e17f5b0327f33365deec77975af6bf215f57bbd",
+        "bytes": 530012,
+        "reviewSheetSha256": "493ce55f50d934a960bbdd7f3a19366aa95b5a9c7aca0d25be1bf17c090f800a"
+      },
+      {
+        "id": "ois.design.bolster-daybed",
+        "designId": "ois.design.bolster-daybed",
+        "version": "0.7.0",
+        "sha256": "fcef3a649d94e149275271aec8244beb253abf9940f3ace9555e3a7d749ddf53",
+        "bytes": 526396,
+        "reviewSheetSha256": "b707b3cd72ff35a76db82b2cb70730fbb7e37e0af187354fb99d759f53b05551"
+      },
+      {
+        "id": "ois.design.camelback-sofa",
+        "designId": "ois.design.camelback-sofa",
+        "version": "0.7.0",
+        "sha256": "b193965b48832b8b8e369e0462b6970a8d585b3ca2214ada71585c93a2a22a11",
+        "bytes": 677604,
+        "reviewSheetSha256": "b707b3cd72ff35a76db82b2cb70730fbb7e37e0af187354fb99d759f53b05551"
+      },
+      {
+        "id": "ois.design.cane-head-bed",
+        "designId": "ois.design.cane-head-bed",
+        "version": "0.7.0",
+        "sha256": "c952952e87100d4c2f53facdcb883742c0a669790ed6400d32e6442a972eac66",
+        "bytes": 603584,
+        "reviewSheetSha256": "33da52c607bd19bf4fa9949e6408215314c452fd9de6ba61eb72b02cc601fffb"
+      },
+      {
+        "id": "ois.design.cantilever-lounge",
+        "designId": "ois.design.cantilever-lounge",
+        "version": "0.7.0",
+        "sha256": "0aa1d2467b3b048e3e2ff6c30c2bbfc736ac96a1ea1f16f79bce49d5b757301b",
+        "bytes": 434088,
+        "reviewSheetSha256": "b707b3cd72ff35a76db82b2cb70730fbb7e37e0af187354fb99d759f53b05551"
+      },
+      {
+        "id": "ois.design.chaise-return-sofa",
+        "designId": "ois.design.chaise-return-sofa",
+        "version": "0.7.0",
+        "sha256": "092f78a0d5ee57148beffe6a60d822d6081581a6f7dac15a3dbf8c30edd226bd",
+        "bytes": 758584,
+        "reviewSheetSha256": "b707b3cd72ff35a76db82b2cb70730fbb7e37e0af187354fb99d759f53b05551"
+      },
+      {
+        "id": "ois.design.channel-upholstered-bed",
+        "designId": "ois.design.channel-upholstered-bed",
+        "version": "0.5.0",
+        "sha256": "c56f6966f6c1a8e982835adf024c0943142c95e411561a9f84df5be74591e90b",
+        "bytes": 786676,
+        "reviewSheetSha256": "5f591a8de0437827df83f4d83508d340bb65429bf1bdfb94c57e9c0040a41d5a"
+      },
+      {
+        "id": "ois.design.club-armchair",
+        "designId": "ois.design.club-armchair",
+        "version": "0.7.0",
+        "sha256": "59b6af07b4114c233bb2fdebc426200051f24464ea18b6812cd784bcfe6e1076",
+        "bytes": 541412,
+        "reviewSheetSha256": "6bd8303609fd693bb777192a25259be635383bb0f73f48ad5aaa8754280a139b"
+      },
+      {
+        "id": "ois.design.corner-wrap-sofa",
+        "designId": "ois.design.corner-wrap-sofa",
+        "version": "0.7.0",
+        "sha256": "e9f1cef6e632a618ed2b8c48b2f89db7e49d3f62df1e34fbc13f4ed85e8e8dc0",
+        "bytes": 753904,
+        "reviewSheetSha256": "b707b3cd72ff35a76db82b2cb70730fbb7e37e0af187354fb99d759f53b05551"
+      },
+      {
+        "id": "ois.design.draped-canopy-bed",
+        "designId": "ois.design.draped-canopy-bed",
+        "version": "0.5.0",
+        "sha256": "0c8bb29ed3e083110408cca9be777a06461224b71623f64778fd1e1a440c5461",
+        "bytes": 801776,
+        "reviewSheetSha256": "5f591a8de0437827df83f4d83508d340bb65429bf1bdfb94c57e9c0040a41d5a"
+      },
+      {
+        "id": "ois.design.floating-platform-bed",
+        "designId": "ois.design.floating-platform-bed",
+        "version": "0.7.0",
+        "sha256": "17015fcc35185b1c531f2bf64130861f543067593e0137a951e0d848048bf5bd",
+        "bytes": 556852,
+        "reviewSheetSha256": "33da52c607bd19bf4fa9949e6408215314c452fd9de6ba61eb72b02cc601fffb"
+      },
+      {
+        "id": "ois.design.folding-dining",
+        "designId": "ois.design.folding-dining",
+        "version": "0.5.0",
+        "sha256": "900b30a1ffa986acb3feef8969786c19d41f017f3f2f9b28d2c6d111747bfb2e",
+        "bytes": 426188,
+        "reviewSheetSha256": "3d36c7b51dc5534915cfb23a35c07795a642f7959c0821085e1394792fcbaaf0"
+      },
+      {
+        "id": "ois.design.hinged-futon",
+        "designId": "ois.design.hinged-futon",
+        "version": "0.7.0",
+        "sha256": "e95ac3a1d488d343913d09db1b3896f2284604bc151d969d74e8002ee648bf5d",
+        "bytes": 493972,
+        "reviewSheetSha256": "b707b3cd72ff35a76db82b2cb70730fbb7e37e0af187354fb99d759f53b05551"
+      },
+      {
+        "id": "ois.design.kneeling-chair",
+        "designId": "ois.design.kneeling-chair",
+        "version": "0.5.0",
+        "sha256": "4c81f23ea134594e235b7a79aa3eee003684c0c29687703376fefdfd9b1d3e9d",
+        "bytes": 467172,
+        "reviewSheetSha256": "70cb5908e2cf00839244ebdb783d3f77d83db80241db552353ddde7508e1568c"
+      },
+      {
+        "id": "ois.design.open-four-poster",
+        "designId": "ois.design.open-four-poster",
+        "version": "0.5.0",
+        "sha256": "743651a0067a8fdbd2a57cd79b78d8d39c719c141880b8f9837d21b7ae911b35",
+        "bytes": 554672,
+        "reviewSheetSha256": "96f9c96369771042692064bead0fb811cf4744f0ebcab80230137e1068340744"
+      },
+      {
+        "id": "ois.design.pullout-trundle-bed",
+        "designId": "ois.design.pullout-trundle-bed",
+        "version": "0.5.0",
+        "sha256": "2f950708898f9b88cfd58dfdfc44c26167a784358f2770bb9d64ea019978e402",
+        "bytes": 724276,
+        "reviewSheetSha256": "96f9c96369771042692064bead0fb811cf4744f0ebcab80230137e1068340744"
+      },
+      {
+        "id": "ois.design.reclining-lounge",
+        "designId": "ois.design.reclining-lounge",
+        "version": "0.7.0",
+        "sha256": "e5ba186681fdfa3101e8fe5390138328cf025ecfd430abe23dc24a677777be3d",
+        "bytes": 582344,
+        "reviewSheetSha256": "6c9c7448c1c0c28621335b01be4130ef1000a2897df6a7b11d4d813d36fb7661"
+      },
+      {
+        "id": "ois.design.rolled-tuft-sofa",
+        "designId": "ois.design.rolled-tuft-sofa",
+        "version": "0.7.0",
+        "sha256": "8513379a7ea5da6061214d7bf942624c4d6c3946b2219bbe07985531295ccda1",
+        "bytes": 1170820,
+        "reviewSheetSha256": "6c9c7448c1c0c28621335b01be4130ef1000a2897df6a7b11d4d813d36fb7661"
+      },
+      {
+        "id": "ois.design.slatted-low-bed",
+        "designId": "ois.design.slatted-low-bed",
+        "version": "0.5.0",
+        "sha256": "c80aad32750c6019bb86c782e4b515fa6a466ed439f9bc06dc286fe005fd5b3d",
+        "bytes": 599884,
+        "reviewSheetSha256": "96f9c96369771042692064bead0fb811cf4744f0ebcab80230137e1068340744"
+      },
+      {
+        "id": "ois.design.sleigh-panel-bed",
+        "designId": "ois.design.sleigh-panel-bed",
+        "version": "0.5.0",
+        "sha256": "bcc1350d175a74b4623ce25d76c81407b3c7fabb8f8f1df5cdf6c825aae015df",
+        "bytes": 641748,
+        "reviewSheetSha256": "1d56082c78243b236a415aec8a631e8c52030ff588cbd1795ae60ea0699688c1"
+      },
+      {
+        "id": "ois.design.spindle-head-bed",
+        "designId": "ois.design.spindle-head-bed",
+        "version": "0.7.0",
+        "sha256": "a84b46417238b7a7da4283e307111501088d4c21c71bdb60baa7bb5ab4b631de",
+        "bytes": 662576,
+        "reviewSheetSha256": "33da52c607bd19bf4fa9949e6408215314c452fd9de6ba61eb72b02cc601fffb"
+      },
+      {
+        "id": "ois.design.timber-rocker",
+        "designId": "ois.design.timber-rocker",
+        "version": "0.7.0",
+        "sha256": "2507003ff445c95309a6319b21a2565d4d86a8267dbf8cc85d52904f90334b24",
+        "bytes": 640892,
+        "reviewSheetSha256": "6c9c7448c1c0c28621335b01be4130ef1000a2897df6a7b11d4d813d36fb7661"
+      },
+      {
+        "id": "ois.design.wing-headboard-bed",
+        "designId": "ois.design.wing-headboard-bed",
+        "version": "0.5.0",
+        "sha256": "4aed7a4c28279611dd818e41e68d06109e0c3f67b06fcfd7b3c42566c4cecc3f",
+        "bytes": 598868,
+        "reviewSheetSha256": "1d56082c78243b236a415aec8a631e8c52030ff588cbd1795ae60ea0699688c1"
+      },
+      {
+        "id": "ois.design.wing-reading-chair",
+        "designId": "ois.design.wing-reading-chair",
+        "version": "0.7.0",
+        "sha256": "0a25416151c6ffe430857f98886f6353520a36a0a3a32a34eecd6bc617162ad5",
+        "bytes": 597820,
+        "reviewSheetSha256": "6c9c7448c1c0c28621335b01be4130ef1000a2897df6a7b11d4d813d36fb7661"
+      },
+      {
+        "id": "ois.design.armless-modules",
+        "designId": "ois.design.armless-modules",
+        "version": "0.7.0",
+        "sha256": "89502058fbe3ffbf8e7724a36e98038145d52b173637569dfe091b77a149b489",
+        "bytes": 411764,
+        "reviewSheetSha256": "b707b3cd72ff35a76db82b2cb70730fbb7e37e0af187354fb99d759f53b05551"
+      },
+      {
+        "id": "ois.design.barrel-enclosure",
+        "designId": "ois.design.barrel-enclosure",
+        "version": "0.7.0",
+        "sha256": "95398f141780f4322a1c73367cc09b6390ff78846eeb078277ac380d4dc608bc",
+        "bytes": 403708,
+        "reviewSheetSha256": "b707b3cd72ff35a76db82b2cb70730fbb7e37e0af187354fb99d759f53b05551"
+      },
+      {
+        "id": "ois.design.curved-seven-sofa",
+        "designId": "ois.design.curved-seven-sofa",
+        "version": "0.7.0",
+        "sha256": "ee3f79ad7b666e92f4ea9e9fe59f96f4076ad5a033f90952e9a3742cc0b97de5",
+        "bytes": 905320,
+        "reviewSheetSha256": "b707b3cd72ff35a76db82b2cb70730fbb7e37e0af187354fb99d759f53b05551"
+      },
+      {
+        "id": "ois.design.director-chair",
+        "designId": "ois.design.director-chair",
+        "version": "0.5.0",
+        "sha256": "3191314ebe96a2dad9bedee21c9c88704f08a1af5afa33c30e05db00ceaab610",
+        "bytes": 272148,
+        "reviewSheetSha256": "27cb3eda308e381895036a02a12dcede60f5f54c53b265f508152720d052a97c"
+      },
+      {
+        "id": "ois.design.egg-swivel",
+        "designId": "ois.design.egg-swivel",
+        "version": "0.7.0",
+        "sha256": "b6b128e611be3e9c4f7427bb2efafdada52509ce68eb2ccc1fa9fcd5eb014038",
+        "bytes": 403716,
+        "reviewSheetSha256": "b707b3cd72ff35a76db82b2cb70730fbb7e37e0af187354fb99d759f53b05551"
+      },
+      {
+        "id": "ois.design.gaslift-counter-stool",
+        "designId": "ois.design.gaslift-counter-stool",
+        "version": "0.5.0",
+        "sha256": "763b97acd6cf647d56f3f05af2e9813fc8da57d1f96e51e132149872e0cefba7",
+        "bytes": 251152,
+        "reviewSheetSha256": "3d36c7b51dc5534915cfb23a35c07795a642f7959c0821085e1394792fcbaaf0"
+      },
+      {
+        "id": "ois.design.hinged-storage-ottoman",
+        "designId": "ois.design.hinged-storage-ottoman",
+        "version": "0.7.0",
+        "sha256": "b4fc677aafa05be6d1fc166ad3b2b8b37f17f3a88dec65e965cad73021ebc77c",
+        "bytes": 291208,
+        "reviewSheetSha256": "6bd8303609fd693bb777192a25259be635383bb0f73f48ad5aaa8754280a139b"
+      },
+      {
+        "id": "ois.design.integrated-play-table",
+        "designId": "ois.design.integrated-play-table",
+        "version": "0.5.1",
+        "sha256": "e2c65466ad1a61724a8e37cafdfad45cad653a1ee7173604fb1460207f2f05e3",
+        "bytes": 428992,
+        "reviewSheetSha256": "7a5c8fc7709b3e2e5d884b98285afbc768f7569af74d85dd0465ec1a381b17a7"
+      },
+      {
+        "id": "ois.design.ladderback-dining",
+        "designId": "ois.design.ladderback-dining",
+        "version": "0.5.0",
+        "sha256": "dd650a8eb33a32c46e564ec9fc654e90131fee35416d222db3a0694b560b0c63",
+        "bytes": 407788,
+        "reviewSheetSha256": "718fea6769c50c7df6549a08d104ef54256fda0f031315d752e9eece70a88010"
+      },
+      {
+        "id": "ois.design.mesh-task-chair",
+        "designId": "ois.design.mesh-task-chair",
+        "version": "0.5.0",
+        "sha256": "603b326f24b1e1674f28862750ecc149644a2609543bbf912fd7c2a2c4a573f6",
+        "bytes": 443096,
+        "reviewSheetSha256": "70cb5908e2cf00839244ebdb783d3f77d83db80241db552353ddde7508e1568c"
+      },
+      {
+        "id": "ois.design.murphy-bed",
+        "designId": "ois.design.murphy-bed",
+        "version": "0.5.0",
+        "sha256": "43d0336cf0f9517919bffafea1739bda3b3b234c044580f71df05d60755011a5",
+        "bytes": 528284,
+        "reviewSheetSha256": "b41d5f4ac8ece1c34f6dbd26b415d418c8e4eeda585c61bac0c9a52e75cadbd9"
+      },
+      {
+        "id": "ois.design.oval-floor-pouf",
+        "designId": "ois.design.oval-floor-pouf",
+        "version": "0.7.0",
+        "sha256": "244063d662d59d38739aea80aada47aca2bae3f3f4c1fd4edda2d5f89917e21a",
+        "bytes": 357516,
+        "reviewSheetSha256": "6bd8303609fd693bb777192a25259be635383bb0f73f48ad5aaa8754280a139b"
+      },
+      {
+        "id": "ois.design.peacock-chair",
+        "designId": "ois.design.peacock-chair",
+        "version": "0.5.0",
+        "sha256": "177b425f419afee99788f5b316b2d5c35d39f81e3ca8a1dda28d4ec048208143",
+        "bytes": 439912,
+        "reviewSheetSha256": "27cb3eda308e381895036a02a12dcede60f5f54c53b265f508152720d052a97c"
+      },
+      {
+        "id": "ois.design.pet-welcome-bed",
+        "designId": "ois.design.pet-welcome-bed",
+        "version": "0.7.0",
+        "sha256": "a33c5ed757e4d2f6519b15c405e781b361678388c535b2ab6bac09db3a6a43d1",
+        "bytes": 282536,
+        "reviewSheetSha256": "42a0e51de291c622172b5ec6ed28b8ee11595d10b7d7674b976df2116e1f33ce"
+      },
+      {
+        "id": "ois.design.petal-lounge",
+        "designId": "ois.design.petal-lounge",
+        "version": "0.7.0",
+        "sha256": "4d38f2a3f2d2313e8b48e3b6a1eb7d157bc253d95d83068e7962de562ca2e030",
+        "bytes": 562120,
+        "reviewSheetSha256": "b707b3cd72ff35a76db82b2cb70730fbb7e37e0af187354fb99d759f53b05551"
+      }
+    ],
+    "whole": {
+      "items": 41,
+      "rooms": 4,
+      "memory": {
+        "geometries": 208,
+        "textures": 12
+      },
+      "draw": {
+        "calls": 223,
+        "frame": 11,
+        "lines": 0,
+        "points": 0,
+        "triangles": 94840
+      },
+      "cache": {
+        "active": 40,
+        "entries": 40,
+        "idle": 0,
+        "pending": 0,
+        "sharedTextures": {
+          "duplicates": 306,
+          "leases": 315,
+          "textures": 9
+        },
+        "sourceBytes": 22178628,
+        "textureSets": 1,
+        "wanted": 40
+      }
+    },
+    "cycles": [
+      {
+        "cycle": 0,
+        "mode": "Walk",
+        "items": 41,
+        "memory": {
+          "geometries": 167,
+          "textures": 12
+        },
+        "cache": {
+          "active": 40,
+          "entries": 40,
+          "idle": 0,
+          "pending": 0,
+          "sharedTextures": {
+            "duplicates": 306,
+            "leases": 315,
+            "textures": 9
+          },
+          "sourceBytes": 22178628,
+          "textureSets": 1,
+          "wanted": 40
+        }
+      },
+      {
+        "cycle": 0,
+        "mode": "3D",
+        "items": 41,
+        "memory": {
+          "geometries": 208,
+          "textures": 12
+        },
+        "cache": {
+          "active": 40,
+          "entries": 40,
+          "idle": 0,
+          "pending": 0,
+          "sharedTextures": {
+            "duplicates": 306,
+            "leases": 315,
+            "textures": 9
+          },
+          "sourceBytes": 22178628,
+          "textureSets": 1,
+          "wanted": 40
+        }
+      },
+      {
+        "cycle": 1,
+        "mode": "Walk",
+        "items": 41,
+        "memory": {
+          "geometries": 167,
+          "textures": 12
+        },
+        "cache": {
+          "active": 40,
+          "entries": 40,
+          "idle": 0,
+          "pending": 0,
+          "sharedTextures": {
+            "duplicates": 306,
+            "leases": 315,
+            "textures": 9
+          },
+          "sourceBytes": 22178628,
+          "textureSets": 1,
+          "wanted": 40
+        }
+      },
+      {
+        "cycle": 1,
+        "mode": "3D",
+        "items": 41,
+        "memory": {
+          "geometries": 208,
+          "textures": 12
+        },
+        "cache": {
+          "active": 40,
+          "entries": 40,
+          "idle": 0,
+          "pending": 0,
+          "sharedTextures": {
+            "duplicates": 306,
+            "leases": 315,
+            "textures": 9
+          },
+          "sourceBytes": 22178628,
+          "textureSets": 1,
+          "wanted": 40
+        }
+      },
+      {
+        "cycle": 2,
+        "mode": "Walk",
+        "items": 41,
+        "memory": {
+          "geometries": 167,
+          "textures": 12
+        },
+        "cache": {
+          "active": 40,
+          "entries": 40,
+          "idle": 0,
+          "pending": 0,
+          "sharedTextures": {
+            "duplicates": 306,
+            "leases": 315,
+            "textures": 9
+          },
+          "sourceBytes": 22178628,
+          "textureSets": 1,
+          "wanted": 40
+        }
+      },
+      {
+        "cycle": 2,
+        "mode": "3D",
+        "items": 41,
+        "memory": {
+          "geometries": 208,
+          "textures": 12
+        },
+        "cache": {
+          "active": 40,
+          "entries": 40,
+          "idle": 0,
+          "pending": 0,
+          "sharedTextures": {
+            "duplicates": 306,
+            "leases": 315,
+            "textures": 9
+          },
+          "sourceBytes": 22178628,
+          "textureSets": 1,
+          "wanted": 40
+        }
+      },
+      {
+        "cycle": 3,
+        "mode": "Walk",
+        "items": 41,
+        "memory": {
+          "geometries": 167,
+          "textures": 12
+        },
+        "cache": {
+          "active": 40,
+          "entries": 40,
+          "idle": 0,
+          "pending": 0,
+          "sharedTextures": {
+            "duplicates": 306,
+            "leases": 315,
+            "textures": 9
+          },
+          "sourceBytes": 22178628,
+          "textureSets": 1,
+          "wanted": 40
+        }
+      },
+      {
+        "cycle": 3,
+        "mode": "3D",
+        "items": 41,
+        "memory": {
+          "geometries": 208,
+          "textures": 12
+        },
+        "cache": {
+          "active": 40,
+          "entries": 40,
+          "idle": 0,
+          "pending": 0,
+          "sharedTextures": {
+            "duplicates": 306,
+            "leases": 315,
+            "textures": 9
+          },
+          "sourceBytes": 22178628,
+          "textureSets": 1,
+          "wanted": 40
+        }
+      }
+    ],
+    "viewOnlyExportSHA256": "1a7188ebe87c344d53a406b3cb500221a60f94b92cef1c994ed4f2adc99d009d",
+    "canonicalFloorsExactlyExpected": true,
+    "coldWhole": {
+      "items": 41,
+      "memory": {
+        "geometries": 208,
+        "textures": 12
+      },
+      "cache": {
+        "active": 40,
+        "entries": 40,
+        "idle": 0,
+        "pending": 0,
+        "sharedTextures": {
+          "duplicates": 306,
+          "leases": 315,
+          "textures": 9
+        },
+        "sourceBytes": 22178628,
+        "textureSets": 1,
+        "wanted": 40
+      }
+    },
+    "afterReplacement": {
+      "items": 0,
+      "memory": {
+        "geometries": 37,
+        "textures": 15
+      },
+      "cache": {
+        "active": 0,
+        "entries": 8,
+        "idle": 8,
+        "pending": 0,
+        "sharedTextures": {
+          "duplicates": 306,
+          "leases": 48,
+          "textures": 9
+        },
+        "sourceBytes": 3272404,
+        "textureSets": 2,
+        "wanted": 0
+      }
+    },
+    "console": [],
+    "scope": "Actual immutable Expo web export/Chromium WebGL. Counts are renderer resources, not FPS/GPU bytes/native performance.",
+    "reviewScope": "Forty exact current internal passes when fixture frozen03:51UTC; no user approval/native claim. Frozen app retains all exact tuples."
+  },
+  "controlledHistoricalComparison": {
+    "originalFixtureSHA256": "aca9b46e36c1510afc9647fd38dd9754f4f85ee64b046a22884290e867ed8b9d",
+    "beforeTextures": 312,
+    "afterTextures": 12,
+    "pixels": {
+      "baseline": "reviewed-40-texture-overview.png",
+      "repaired": "reviewed-40-repaired-overview.png",
+      "sceneCrop": [
+        0,
+        136,
+        390,
+        780
+      ],
+      "maxChannelDifference": 0,
+      "rmseChannels": [
+        0,
+        0,
+        0
+      ],
+      "nonzeroBoundingBox": null
+    },
+    "qualification": "Historical fixed40-model comparison. Five same-revision reviews were later withdrawn; do not count this historical fixture as40current passes."
+  },
+  "native": {
+    "ios": {
+      "sourceHash": "742a6c947bfc99b011f88c14420bbc6775ede6afc6b30e8753635748545d6db9",
+      "bundle": "_expo/static/js/ios/entry-0ab6d55aca14abc91a8150bffeb9c9da.hbc",
+      "bytes": 6707504,
+      "sha256": "aed74421c51848ffc618137bcd41d0f0163396e9af7d276ac915caca9c11cc10",
+      "hbcVersion": 99,
+      "compilerPackage": "260318099.0.5",
+      "compilerSha256": "8b65a5a2d61379d32eacf516c4cf0ee7799d5d45c1720bebe75ff6f250915754",
+      "mappedAppSources": 51,
+      "dataSources": {
+        "src/catalogue/assets.json": "d879f5e62a6081587825712243cd13ff77a7ccae54ab799a5d357da49e4889c2",
+        "src/catalogue/revisions.json": "fefc0acd3f337c8a8dd92042a20d5b5bcb89fe0a76ae2d6e04dfc155fd270876",
+        "src/catalogue/texture-images.json": "591af9f964854f00d093512b45e890480168759ca2b0464efb7978a72dbbe38e"
+      },
+      "retainedRevisions": 825,
+      "exportedGLBs": 825,
+      "exportedUniqueGLBs": 825,
+      "exportedGLBBytes": 142994572,
+      "errors": [],
+      "scope": "Actual installed Hermes compiler output/header version and native export GLB bytes. JSON input hashes are verified separately because Hermes source maps omit JSON-only modules. No native linking,VM launch,EXGL decode or phone execution claim."
+    },
+    "android": {
+      "sourceHash": "742a6c947bfc99b011f88c14420bbc6775ede6afc6b30e8753635748545d6db9",
+      "bundle": "_expo/static/js/android/entry-0a56031cf8528f2cc232a247819541bd.hbc",
+      "bytes": 6920620,
+      "sha256": "00f52abaf8f85fb848e4c7898e26adc9923f5d6044e27120159eac864159d874",
+      "hbcVersion": 99,
+      "compilerPackage": "260318099.0.5",
+      "compilerSha256": "8b65a5a2d61379d32eacf516c4cf0ee7799d5d45c1720bebe75ff6f250915754",
+      "mappedAppSources": 51,
+      "dataSources": {
+        "src/catalogue/assets.json": "d879f5e62a6081587825712243cd13ff77a7ccae54ab799a5d357da49e4889c2",
+        "src/catalogue/revisions.json": "fefc0acd3f337c8a8dd92042a20d5b5bcb89fe0a76ae2d6e04dfc155fd270876",
+        "src/catalogue/texture-images.json": "591af9f964854f00d093512b45e890480168759ca2b0464efb7978a72dbbe38e"
+      },
+      "retainedRevisions": 825,
+      "exportedGLBs": 825,
+      "exportedUniqueGLBs": 825,
+      "exportedGLBBytes": 142994572,
+      "errors": [],
+      "scope": "Actual installed Hermes compiler output/header version and native export GLB bytes. JSON input hashes are verified separately because Hermes source maps omit JSON-only modules. No native linking,VM launch,EXGL decode or phone execution claim."
+    }
+  },
+  "openFindings": [],
+  "screenshots": [
+    {
+      "file": "current-reviewed-40-overview.png",
+      "bytes": 20497,
+      "sha256": "cce5fb887c25d8f49f23f743e5f96fcd2e115fb4b3acd1b98a6cdd3248234c8d"
+    },
+    {
+      "file": "dynamic-camera-repaired-small-after-undo.png",
+      "bytes": 17262,
+      "sha256": "2fb457bc26a6fa54726c7577234127dc205b798c64f1c4a0f8ca4f692513d729"
+    },
+    {
+      "file": "mixed-height-repaired-low-active.png",
+      "bytes": 14634,
+      "sha256": "985d37627dc3662995914c0b2141f0b1d5b359a8f3232a11b7de05fdafb5dc1f"
+    }
+  ],
+  "physicalNative": "No native linking,VM/device launch,EXGL decoding,physical gesture,FPS/thermal or OS-interruption acceptance is established.",
+  "sourceSnapshotPolicy": "Each check pins its own source snapshot. This is bounded evidence, not a claim that one final head passed every check.",
+  "resolvedFindings": [
+    {
+      "id": "RUNTIME-013",
+      "sourceHash": "4d8d0e3ddba05a562e2b74bfb0c36f4cc5b354701e40afb94a4cdff7f7c69a2b",
+      "fixtureSHA256": "03ec43e77eae358c723207e9324c5cc3716679d00414762846251f92c63a73af",
+      "finding": "Camera keeps the pre-edit pose after dimension Apply and structural Undo. Closing panel changes layout and happens to trigger refit; Undo with panel closed leaves the 4.8x3.8 room a tiny off-centre speck.",
+      "cameras": {
+        "before": [
+          8.502211828449463,
+          8.42662165322148,
+          8.450273740644962
+        ],
+        "afterApply": [
+          8.502211828449463,
+          8.42662165322148,
+          8.450273740644962
+        ],
+        "afterClose": [
+          94.8347327464337,
+          91.78383652646863,
+          95.3295589497263
+        ],
+        "afterUndo": [
+          94.8347327464337,
+          91.78383652646863,
+          95.3295589497263
+        ]
+      },
+      "scope": "Actual immutable Expo browser export; no native gesture/performance claim.",
+      "status": "resolved",
+      "repairSourceHash": "e384e6576db1e68bb5edc12c636462d063d9a562db5bd7013cbb383965a24cc9"
+    },
+    {
+      "id": "RUNTIME-014",
+      "sourceHash": "4d8d0e3ddba05a562e2b74bfb0c36f4cc5b354701e40afb94a4cdff7f7c69a2b",
+      "fixtureSHA256": "9813f898366d480dbe0be9d3c430ecd8a588c6ad8afe459652788ef796e7af30",
+      "finding": "Whole-floor framing uses active room height instead of maximum visible room height. Same two rooms render clipped above the canvas with 2.7m active; selecting the 8m room refits them correctly.",
+      "canvas": {
+        "height": 325,
+        "width": 844,
+        "x": 0,
+        "y": 65
+      },
+      "cameras": {
+        "lowActive": [
+          11.947017726048635,
+          10.66395966369697,
+          10.53053663012602
+        ],
+        "tallActive": [
+          16.17417825515028,
+          17.80456238133186,
+          15.068081276179546
+        ]
+      },
+      "backupUnchanged": true,
+      "scope": "Actual frozen Expo browser export, landscape. No phone/physical display claim.",
+      "status": "resolved",
+      "repairSourceHash": "e384e6576db1e68bb5edc12c636462d063d9a562db5bd7013cbb383965a24cc9"
+    }
+  ],
+  "cameraRepair": {
+    "sourceHash": "e384e6576db1e68bb5edc12c636462d063d9a562db5bd7013cbb383965a24cc9",
+    "dynamic": {
+      "at": "2026-11-10T04:39:54.709Z",
+      "fixtureSHA256": "03ec43e77eae358c723207e9324c5cc3716679d00414762846251f92c63a73af",
+      "before": [
+        8.502211828449463,
+        8.42662165322148,
+        8.450273740644962
+      ],
+      "afterApply": [
+        60.31328764987152,
+        49.917024743399075,
+        58.27333709736477
+      ],
+      "openHistory": [
+        {
+          "action": "Undo",
+          "camera": [
+            8.502211828449463,
+            8.42662165322148,
+            8.450273740644962
+          ],
+          "width": "4.800",
+          "depth": "3.800"
+        },
+        {
+          "action": "Redo",
+          "camera": [
+            60.31328764987152,
+            49.917024743399075,
+            58.27333709736477
+          ],
+          "width": "40.000",
+          "depth": "30.000"
+        }
+      ],
+      "afterClose": [
+        94.8347327464337,
+        91.78383652646863,
+        95.3295589497263
+      ],
+      "afterClosedUndo": [
+        12.205673346545824,
+        12.918094298421442,
+        12.42566617431597
+      ],
+      "closedHistory": [
+        {
+          "action": "Redo",
+          "camera": [
+            94.8347327464337,
+            91.78383652646863,
+            95.3295589497263
+          ]
+        },
+        {
+          "action": "Undo",
+          "camera": [
+            12.205673346545824,
+            12.918094298421442,
+            12.42566617431597
+          ]
+        }
+      ],
+      "presentExactlyOriginal": true,
+      "scope": "Exact original fixture in immutable Expo browser export; source-map-bound camera repair. No native/device claim."
+    },
+    "mixed": {
+      "at": "2026-11-10T04:40:25.679Z",
+      "fixtureSHA256": "9813f898366d480dbe0be9d3c430ecd8a588c6ad8afe459652788ef796e7af30",
+      "lowActive": [
+        16.17417825515028,
+        17.80456238133186,
+        15.068081276179546
+      ],
+      "tallActive": [
+        16.17417825515028,
+        17.80456238133186,
+        15.068081276179546
+      ],
+      "framingIndependentOfActiveRoom": true,
+      "exportSHA256": "9813f898366d480dbe0be9d3c430ecd8a588c6ad8afe459652788ef796e7af30",
+      "scope": "Exact original mixed-height fixture in immutable source-map-bound Expo browser export; both visible room heights fit without data mutation. No physical/native claim."
+    },
+    "bridge": {
+      "at": "2026-11-10T04:34:22.493Z",
+      "sources": {
+        "mobile/src/domain/project.ts": "7786d523a0341bc5781187e03c5d004915bd8e58dce4ac83d8dd7e0af6257b6f",
+        "mobile/src/domain/types.ts": "e818a704afc0cc972978dbdea369429ca33af346cced16f68eb88ccc1f5a42e5",
+        "mobile/src/domain/geometry.ts": "d39a47ba5606406a01b7ba1690e18df0fe8b4055cf3fbe70f0cd3b89d5299b90",
+        "mobile/src/domain/persistence.ts": "ac166d419b677611c1b32d17fa0ddb9021d20f19cf3614fbd0e39719681e50ee",
+        "mobile/src/scene/meshes.ts": "0bf35bd7e36272ca3ae91bb31eb5bce5371f211363701b036144cc61cb67e8e6",
+        "mobile/src/domain/construction.ts": "d248539e57f44afab413bc42ce49b6ea0e3a6f7bb6ace675757457ea651dff53",
+        "mobile/src/scene/walk.ts": "612be75da52af872ad3efef860d1929d648a809340b8f8a30277f945a32512db",
+        "mobile/src/scene/touches.ts": "a1b6c4ff75e8a272e70d0db1166b4701903a853cc31bd289d577040c8db71cc5",
+        "mobile/src/scene/camera.ts": "0da59cb3d2cb34fb692c3a70f3f0b530a3c39c5765d9cf1271d352922fd0674a",
+        "mobile/src/scene/Viewport.tsx": "9f792271068bda73523e58baf09133aecc9c09df62824419cda5f05c5a75b06c",
+        "mobile/src/scene/picking.ts": "64d7d46216e327c122580d2f2a0d42f6fd8f1e3cb8501c3db75e72e9a5be08c4"
+      },
+      "stableSources": true,
+      "passed": 4,
+      "failed": 0,
+      "checks": [
+        {
+          "id": "STRUCTURAL-RESIZE-UNDO-REDO",
+          "pass": true
+        },
+        {
+          "id": "WHOLE-FLOOR-MIXED-HEIGHT",
+          "pass": true
+        },
+        {
+          "id": "ALL-FLOOR-ALIGNMENT-UPDATE",
+          "pass": true
+        },
+        {
+          "id": "ORDINARY-FINISH-SELECTION-DOES-NOT-RESET-ORBIT",
+          "pass": true
+        }
+      ],
+      "scope": "Actual extracted production CameraBridge and helpers with deterministic React-like hook dependency commits and real Three projection. No Canvas/GL renderer,native touch or physical-device claim."
+    }
+  },
+  "browserTransactionInterruption": {
+    "at": "2026-11-10T04:33:16.404Z",
+    "sourceHash": "4d8d0e3ddba05a562e2b74bfb0c36f4cc5b354701e40afb94a4cdff7f7c69a2b",
+    "passed": 6,
+    "failed": 0,
+    "checks": [
+      {
+        "id": "ATOMIC-VALUE-AND-MIGRATION-MARKER",
+        "pass": true,
+        "observed": {
+          "error": "Error: Saved project write was interrupted. Previous data remains intact.",
+          "transactions": 1,
+          "aborts": 1
+        }
+      },
+      {
+        "id": "PRIMARY-REPLACEMENT-ABORT",
+        "pass": true,
+        "observed": {
+          "error": "Error: Saved project write was interrupted. Previous data remains intact.",
+          "transactions": 1,
+          "aborts": 1
+        }
+      },
+      {
+        "id": "SAVE-LIBRARY-PRIMARY-ABORT",
+        "pass": true,
+        "observed": {
+          "error": "Error: Saved project write was interrupted. Previous data remains intact.",
+          "transactions": 2,
+          "aborts": 1
+        }
+      },
+      {
+        "id": "ABORTED-READ-NEVER-USES-STALE-LEGACY",
+        "pass": true,
+        "observed": {
+          "error": "Error: Saved project read was interrupted.",
+          "transactions": 1,
+          "aborts": 1
+        }
+      },
+      {
+        "id": "PRIMARY-READ-ABORT-OPENS-PROTECTED-BACKUP",
+        "pass": true,
+        "observed": {
+          "protected": true,
+          "notice": "The primary save could not be read. A verified backup is open for export; existing saves are protected. Error: Saved project read was interrupted.",
+          "aborts": 1
+        }
+      },
+      {
+        "id": "EXPLICIT-RECOVERY-FINAL-ABORT",
+        "pass": true,
+        "observed": {
+          "error": "Error: Saved project write was interrupted. Previous data remains intact.",
+          "transactions": 4,
+          "aborts": 1,
+          "archiveCount": 2,
+          "archiveKeys": [
+            "ois.library.v1.backup.before-recovery.mwa724h5-ni5x6bz",
+            "ois.library.v1.before-recovery.mwa724h5-ni5x6bz"
+          ],
+          "internalMigrationMarkerCount": 4
+        }
+      }
+    ],
+    "smallBytes": 1008288,
+    "smallSHA256": "2fcea6d260c369050f268f64e1932b9b9081aa21bccbfad45a0fbbe3b407f2d0",
+    "largeBytes": 7575865,
+    "largeSHA256": "a63bf63ccc9569527f46cf7e9c80bf91265d0f6aa7c6d00dc5c1bb018f09086a",
+    "quotaOverrideAvailable": false,
+    "quotaOverrideApplied": false,
+    "harnessCorrection": "Initial archive key selector also counted internal migration markers. Only that failed assertion was corrected and rerun; the five earlier green cases were retained. Both raw results are preserved.",
+    "console": [],
+    "scope": "Actual browser IndexedDB with exact frozen storage/domain code; controlled transaction.abort faults. Not disk-full,app import UI,OS interruption or physical/native acceptance."
+  },
+  "nativeReference": {
+    "at": "2026-11-10T04:08:38.029Z",
+    "sourceSha256": "ef85c7111a99152d54d839202cccf38a0d62147758f79037d4b3d765c0205d70",
+    "stableSource": true,
+    "versions": {
+      "expo-image-manipulator": "58.0.16",
+      "expo-file-system": "58.0.13"
+    },
+    "passed": 12,
+    "failed": 0,
+    "scope": "Exact native reference adapter control flow with Expo image/filesystem mocks. Physical picker permissions,actual decode/JPEG output,EXIF handling,native file persistence and image display remain unverified."
+  }
+}

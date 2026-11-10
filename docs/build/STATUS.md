@@ -1,0 +1,110 @@
+# OIS Designs — current build status
+
+**READY — source-stable camera/final-library checkpoint04:53UTC.** All app source changes are saved; source is frozen briefly for coordinator publication before P1geometry work. milestone-camera-library.json contains every current src/config/package SHA, matching45/45tests,4actual-bridge cases,5actual-camera UI cases,4phone-repair/3occlusion cases, TypeScript/full lint0errors/0warnings and fresh source-matched iOS/Android Hermes exports. Final curated478current/1,187retained/346distinct+93variant library is integrated; independent root search/identity/file audits pass. QA-GEO10 remains open; no repair/source handoff started yet. SPATIAL_HANDOFF.md acknowledges the two new disjoint spatial files after this publication freeze and proposes a narrowly scoped geometry/project repair handoff if assigned. No app Git mutations.
+
+Updated November10,2026 ~03:47UTC. The authorized overnight build remains active through at least06:53UTC (01:53 Toronto), then until the actual objective is met or a real blocker remains. Phone pairing/login are deferred while the user sleeps. Public Wi-Fi may block phone-to-laptop LAN access; independent work continues.
+
+## Current app and preview
+
+- Expo58.0.23 / React Native0.88.1 / React19.3 / Router58.0.30. Native React Native screens and Three/R3F room/GLB rendering; no WebView substitute. Original starter/dependencies are preserved under ignored mobile/.tools/.
+- Task-owned MetroPID36224/port8081, metro-pool.stdout.log / metro-pool.stderr.log; authoritative PID is metro-current.pid. Last LAN address exp://10.10.5.96:8081 must be rechecked after any network change. No physical phone launch observed.
+- Task-owned frozen browser serverPID23144/127.0.0.1:8084 currently serves the first completed snapshot. A newer isolated-cache/source-map-verified export is in progress. It is a browser QA route, not the phone preview.
+- Actual TypeScript and full ESLint pass at03:44UTC, including scripts (0errors/0warnings after cleanup).43app-owned tests:42passed in the complete run; a new fixture used a nonexistent command, was corrected, then all19domain cases passed. A final complete run follows settled UI tests.
+- Expo Doctor20/20 and SDK dependency check passed earlier. Verified iOS/Android Hermes exports were stable at02:40UTC, with48/48compiled app sources matching, including native adapters. Later edits require fresh exports; those earlier results do not verify the current head.
+
+## Implemented behavior
+
+Native Projects/Create/Editor/Settings and honest unavailable flows. Combined room dimensions; canonical metres; display units only in Settings. Contextual dock/history/room/floor selection, compact expandable catalogue/surface/build sheets with the renderer above their measured bounds. No nudge/centre or persistent unit button.
+
+Room creation supports square/L/custom drawing and a separate blank whole-floor drawing context: snapped corners, pan/pinch, close/overlap guards, multiple shared-wall rooms, unfinished-corner autosave, Resume/Start new and archive-preserving invalid/future drafts. Durable project creation is awaited before navigation. Short320×568/2×text creation is independently UI-verified.
+
+Geometry/commands preserve split shared-wall faces, exact model revisions, persistent locks and bounded history. Walk guards block editing commands/history and traverse valid connected openings while colliding with ordinary walls/windows/furniture.2D/3D direct drag/rotation share commands; unknown/unsupported saved revisions remain selectable attention markers without losing identity/pose.
+
+Ten distinct mapped floor choices and nine wall-covering sets use physical repeat/orientation, calibrated normal maps, hue/SV/HEX and five sheens. Selected-face paint never changes the opposite room; whole-room application is explicit. Trim includes real profile geometry, neighbor-aware unequal-thickness affine corner cuts, doorway/casing termination, finish/dimensions and a locally stored measured photo reference.
+
+Doors include single/double swing, surface/pocket sliding, open doorway and windows; illustrated choice→actual plan placement, repeat/recent/last, one-command history, both-face properties and swing/travel/trim/ceiling conflicts. Explicit15cm pocket-wall correction resolves feasibility warnings. Last opening disables after its entity is removed. Floors support room jumps, elevation/alignment, cutaway/overview, flat default ceilings and room overrides. Stairs, advanced ceilings, upload/scan and wall attachment remain explicitly unavailable.
+
+## Persistence and resource ownership
+
+Native payloads live in read-verified immutable Expo FileSystem generations, with tiny AsyncStorage pointers. Serial reads/writes, independent primary/backup and durable archive/pin references preserve legacy and unreadable generations. Browser uses transactional IndexedDB plus a read-only, per-key pre-migration legacy fallback. Save-generation guards prevent obsolete autosaves overwriting explicit import/create. Saving/unsaved/protected labels reflect durable state; Retry local save exists. Settings supports inspect/validate/import and actual JSON file download/share, including original protected bytes. See [persistence](PERSISTENCE.md).
+
+Shared texture identity is computed from verified GLB bytes at build time:719model revisions/462embedded image occurrences/nine unique image hashes. The native-safe runtime bank preserves sampler/UV/colour-space/native-upload semantics and independent instance tint; it disposes only after the final source lease. Exact visible-model intent exists before asynchronous React commits, protecting wanted pending models while bounding genuinely abandoned sources. No browser crypto/DOM dependency in the native loader.
+
+## Source-bound verification
+
+- Actual editing6checks, connected Walk4fixtures, open form hydration6checks, trim-photo3checks, delayed-save/abort/retry3checks and large-backup5checks pass, with no captured browser errors in their recorded runs. Reports in this folder include exact scope/limits.
+- The7,575,865-byte300-placement/50Undo backup survives real file import/reload/export byte-for-byte; invalid future files cannot import a stale selection. BlobURL cleanup independently passes6API-boundary cases. Actual IndexedDB8MiB primary+backup/reload/abort passes. Native filesystem/share/process interruption remain unverified.
+- Trim endpoint geometry passes144app/coordinator cases and independent actual unequal-wall render checks.33independent mesh checks cover outward faces/holes/casing; native appearance remains pending.
+- The unchanged32-item/16-hash frozen texture fixture reduces102→12browser texture allocations, with pixelRMSE0/maxdiff0, isolated tints and reload/Walk preservation. This fixture's review withdrawals do not imply current visual acceptance.
+- Independent repaired40-model/41-placement runtime:40active/40wanted/0pending,309bank leases,12total textures, no load churn over fourWalk/3Dcycles; tinted restore preserves exact saved bytes.30actual GLB requests completing after abandoning3D settle to0active/0wanted/0pending/eight idle sources. Coordinator11source/native-shaped lease cases complement this browser evidence. Physical EXGL, GPU bytes and thermal behavior remain unverified.
+
+## Current repairs awaiting fresh UI closure
+
+Plan now uses each room's actual boundary extents for a partially shared wall's numeric/graphic chains and reserves64px horizontal annotation space. Typing an inherited ceiling height automatically creates an explicit override. Catalogue scroll restoration uses measured FlatList content and ignores mount-time zero events. Plan pinch initializes from the initial two touches and uses the annotation-aware origin; two-finger gestures cannot stamp doors. Fresh app-owned frozen tests are in progress for these changes. Independent design QA's other multi-touch checks already passed their prior snapshot.
+
+## Furniture integration and remaining gates
+
+The app copy contains444current candidate records /719retained immutable revisions /417design-family labels, with73,731,304current GLB bytes. Curation-only withdrawal refresh at03:33UTC binds exactid/version/SHA, yielding54accepted records,5reviewed-variant rows and23needs-rework rows in the current app copy. Geometry/identity/bytes are unchanged by that refresh. Withdrawn rows show Being updated and cannot be newly placed; existing saved instances remain editable. Later producer versions/reviews require a verified completed sync. None of these counts establishes300accepted distinct designs.
+
+Next: close the four phone interaction regressions; fresh full checks/Hermes exports and source provenance; integrate completed producer updates without losing old revisions; reconcile parity/setup documents and prepare a concrete morning device handoff. Physical iPhone13/Android graphics, touch, file sharing, OS interruption and prolonged-session performance remain required. No cloud deployment/push/publishing or account credentials have been used.
+
+
+## Published0.7.0 integration03:49UTC
+
+Synchronized the published completed marker, not staged0.7data. sourceManifestSha2565507678bd521a75a8a7f40e0b058e2a79b0f1a9e923cf7595872f1da2ffec79c.444current records/821retained exact revisions/417family labels/90,595,696currentGLBbytes. App curation now112accepted records/12reviewed variants/30needs-rework, matching that completed snapshot (producer reports109accepted excluding appliances/bathroom). Image index903embedded occurrences/nine unique hashes. All16historical texture fixture tuples remain available and unchanged. New40-current-review fixture may now bind exact successors through runtimeQA; the historical pixel comparison stays frozen. No300/native completion claim.
+
+Fresh stable frozen export54/54compiled modules matches the isolated copy. Active frozen serverPID24620/127.0.0.1:8084. Both partial-chain actual corner values and all numeric bounds fit at390px; inherited ceiling typing+open Undo/Redo pass. FiveactualCDPtouch checks pass after initial-pinch fix, no captured errors. Catalogue parent offset512persists, but initial compact virtual content595px is too short for target512+247viewport; restoration now advances through the clamped initial content to trigger more virtual rows, then restores target. Final actual test pending. Actual IndexedDB8MiB recheck additionally passes missing-migrated-primary suppression of stale legacy and abort-before-marker preservation of legacy.
+
+
+## Settled UI checkpoint03:55UTC
+
+All4actual phone-repair checks pass on a stable54compiled-source-matched frozen build: explicit3.4m inherited-ceiling override, open Undo/Redo hydration, Living1.65/.90/3.45 versus Kitchen.65/.90/1.45 actual chain values with every numeric SVG box inside390px, and exact catalogue512→512scroll restoration across placement/reopening compact panel. errors[]. phone-repairs-result.json and inspected screenshots. The final fix scrolls through initially clamped virtual content, letting FlatList measure the target area without overwriting the saved offset. FiveCDPtouch checks remain passed at their recorded snapshot.
+
+Completed0.7.2copy now444records/825retained exact revisions/90,782,240currentGLBbytes,116accepted records/12reviewed variants/30needs-rework; image index906occurrences/nineuniqueimages. furniture-sync.json pins sourceManifestfe611471e535f1f9594510e3de6504d33c2747c3c3e198a5c915ea6d4e512e17. Current thumbnails are independently content-addressed by their actual image bytes and verified on copy; old models/images remain on disk. Historical frozen16-model fixture tuples remain unchanged.
+
+Current verified browser snapshot is served by the task-managed execsession38387 on127.0.0.1:8086; older task-owned servers8084/PID24620 and Metro8081/PID36224 remain untouched. A background restart was policy-rejected; the task-managed foreground server was accepted and supplies the completed test. No security settings changed. Git publication is now coordinator-owned following the user's new instruction; this app chat will not stage/commit/push concurrently. Ready ownership:mobile/ app/config/scripts/assets;docs/build/ and updated implementation/setup/parity docs. Final full checks and fresh Hermes/source-map exports follow.
+
+
+## Stable native exports and next bounded fixes04:01UTC
+
+Both iOS/Android Hermes exports now pass, source inputs71 /SHA2930793b3f1b98b0abab65733d65ce08d2b563197d6151dd18499068da676b67unchanged throughout. Each native source map matches51/51actual compiled app files, including platform adapters; no device launch claim. All825retained GLBs also pass actual installedThreeGLTFLoader CPU parsing, full SHA/bytes and precise transformed vertex bounds within2mm, stable metadata/bindings/index.142,994,572total retained sourcebytes; PNGheader-only ImageBitmap stub means this is geometry parsing, not image decode/GPU proof. catalogue-cpu-parse.json.
+
+Mobile remains frozen for coordinator-owned initial publication; no in-flight app edits. Original Phases1–3 have implementation and browser/export evidence, while physical acceptance remains pending. Newly read independent QA-SPATIAL01opaque-wall gesture capture and QA-DOOR06ordinary-caption/selected-chain overprint are acknowledged. Preparing focused fixes read-only during the publication window; will resume source edits after that checkpoint is released. QA-CAT01's595px-content guard reproduction is already superseded by current measured512→512owner UI closure; independent retest of the current guard is still useful.
+
+
+## Deeper catalogue touch proof04:05UTC
+
+Four actualCDPsingle-finger swipes on the real catalogue produce settled offsets255/510/765/1020; parent state agrees with every actual scroll position. Close/reopen compact panel restores1020exactly (catalogue-deep-touch.json). The earlier directDOMjump probe read transient1024before virtual layout settled to512; that was not a saved1024state, so its restore expectation was invalid. Natural touch plus settled-state observation establishes the deeper actual-browser result. Native scrolling remains unverified. App files remain frozen for the coordinator's publication checkpoint; focused occlusion/caption repairs are prepared but not written yet.
+
+
+## Phase2/3 focused UI closure04:12UTC
+
+Fresh isolated web snapshot04:09:31has55/55compiled source matches and stable inputs. Actual occlusion3checks pass/errors[]: hidden-sofa projected tap selects nothing; actual touch drag orbits camera with exact complete project/history preserved; enabling cutaway then selects the now-visible sofa. Inspected PNGs show the sofa genuinely hidden behind opaque near walls, then visible/selected with cutaway. picking.ts respects visible ancestors, the actual hit-face material, transparent surfaces and non-depth-tested decoration.12scene CPU checks pass, including two new raycaster regressions; TypeScript/scoped lint pass.
+
+The actual door matrix passes128/128checks over16cases (fourwall sides×metres/feet×390/320px), with no numeric clipping or ordinary-caption overprint, correct physical per-room corner chains/lengths and unchanged projects. Selected face chains temporarily replace conflicting ordinary room captions and generic plan dimensions. door-labels-result.json and screens/door-matrix-*.png. New ephemeral frozen-test runner pins one verified export and owns/closes its loopback server; no additional lingering process needed. These are browser/CPU closures, with independent current-source retest/native execution still distinct.
+
+
+## Checked Phase2/3 source milestone04:20UTC
+
+Current focused repairs pass45/45app tests,99-file fullESLint0errors/0warnings, actualTypeScript,3touch occlusion checks and128door-matrix assertions. Both iOS/Android Hermes exports pass with stable72-input SHA425672c578bf49994414d6cb4688612c74949598c79e9309c78434fd57eb135a, each52/52compiled app sources matching. This milestone's ready files are src/scene/picking.ts, Viewport.tsx, Plan.tsx, scripts/test-scene.cjs and app-owned frozen-test/occlusion/door-label harnesses; coordinator handles any next commit.
+
+Task-owned oldMetro36224was verified by exact command/port then stopped; cold replacement14368/port8081/tasksession50830serves validSDK58iPhone manifestHTTP200and actual22,825,109-byte development bundleHTTP200. native-preview-result.json. No physical launch observed. stdout/stderr are metro-refreshed.*.log; prior lognames/PIDs are historical. ExpoCLIgetActorDisplayName/getUserAsync supports anonymous tunnel hostnames, so account login is not assumed necessary. Installing the official CLI-required local development helper@expo/ngrok^4.1.0throughExpo's installer; this changes package/lock fingerprints after the export milestone above and requires follow-up dependency checks. No app native module, account/signing project or paid service is added. Goal remains active through06:53UTC.
+
+
+## Final curated library + phone route04:40UTC
+
+Completed published0.7.14manifest edde7f8f2ba36c7757f555afdeed3f8da5715e886e8ae90952f40c1b20509fa0is integrated:478currentrecords,1,187retained exact revisions,184,022,536currentGLBbytes. Current439new reviewed rows comprise346internally accepted distinctdesigns and93non-counting variants; producer311accepted excluding appliances/bathroom.39legacy records remain for saved compatibility. Defaultsearch/browse and filter choices now use only accepted/reviewed-variant rows. Legacy/raw/withdrawn records stay resolvable for exact saved placements, with no new persistent experimental control. Prior withdrawn revision labels are refreshed by exacttuple too. Main source/asset publication is coordinator-owned; final source/native proof follows this new metadata snapshot.
+
+Current anonymous ngrok previewPID10272/taskTTYsession90701:exp://unz98ga-anonymous-8081.exp.direct. PublicHTTPSiPhone manifestHTTP200, correctSDK/runtime58; advertised bundle has same publichost and returnsJavaScriptHTTP200(first12,556bytes sampled, not a full remote-download/device proof). tunnel-preview-result.json. The local fulliOSdevbundle previouslyreturned22,825,109bytes/HTTP200. FreshQRsavedusingExpoCLI'sown toqr encoder; expo-qr-tunnel.png / expo-qr.png. OfficialExpoGo page listsSDK58latest. SDKdependencycheck passes after localdevhelper@expo/ngrok^4.1.0. Defaultsigned tunnel requiredlogin; explicit--tunnel ngrok worked anonymously. No login/payment/securitysetting changes.
+
+Camera013/014repair's actual-bridge4cases now pass with stableViewport9f792271...: structuralApply/Undo/Redo,same-count flooralignment,mixed-heightwholefloor,ordinaryfinish/selectionpreservedorbit. Actualcamera matrix diagnostics and twofixtureUItest are being frozen/retested. NextP1QA-GEO10wall boundary/interior consistency is acknowledged, not fixed by claiming extra padding. No existing project will be silently resized. App source will brieflyfreeze for the requested checked publication checkpoint before that repair begins; exact ownership/API handoff can then be coordinated if useful.
+
+
+## Camera/final-library checkpoint04:53UTC
+
+Actual camera test5/5 passes/errors[] with camera quaternion/projection matrices, actual canvas-aspect agreement and settled frames: immediate40×30reference geometry with inspector open,closed Undo/Redo refit,landscape2.7m/8m whole-floor framing independent of active room,exact history preservation. The first attempt incorrectly tried to close Build after Whole-floor view already closes it; corrected harness passes. Source bridge4/4 and current45/45tests/TypeScript/full lint pass. Final library's fresh frozen export55/55compiled sources matches; source-bound UI resmokes retain4phone/3occlusion passes. Independent root audit confirms all439reviewed tuples,1,187exact retained identities,60invalididentity refusals,432floor-placeable reviewed records/339distinct and sevenunsupported wallmodels. P1physical wall/interior consistency remains required next, not covered by those unrelated green checks.
+
+
+## Coordinator publication handoff04:54UTC
+
+Source-stable marker is at the top of this file; milestone-camera-library.json records all68src/config/package hashes. iOS/Android final-library Hermes exports both pass, stable72-inputSHA074ef2fe58ad4a759b7e6186371e4a4b6f5072ab19b68e83a69fd03dc14ae3ed,52/52compiled sources matched each. CameraUI5passes now also require actualcanvas/projectionaspect agreement and settled matrices.45app tests,4source-bridge cases,TypeScript and full lint remain the matching checkpoint; a final full lint is running after harness-only layout settling. Please publish this checked camera/curated-library milestone, then release the two new spatial files and narrowly scoped domain pair if assigned. No source changes planned until that short publication window ends. P1wall/interior repair has not started; geometry/project baseline remains d39a47ba... /7786d523... . SPATIAL_HANDOFF.md contains the explicit file ownership acknowledgement and proposed two-file repair contract. App will integrate returned inside-face helpers into UI while preserving stored geometry/history. Native source proof is not physical acceptance.

@@ -1,0 +1,38 @@
+{
+  "timestamp": "2026-11-10T04:49:19.886Z",
+  "evidence": "Actual browser picking of sofa visible through a real geometric glazed window, with opaque full walls enabled. Isolated synthetic data; not native proof.",
+  "storageOracle": {
+    "kind": "Production IndexedStorage.getItem, with its read-only legacy fallback",
+    "file": "mobile/src/storage/indexedStore.ts",
+    "sha256": "9943012679fd85da975028e6165febf8e149242bfef7b0a63f7ab6b98f76383d"
+  },
+  "checks": [
+    {
+      "id": "visible-sofa-through-glazing-is-selectable",
+      "pass": true,
+      "observed": {
+        "x": 147.7806330892205,
+        "y": 516.7188544407713
+      }
+    },
+    {
+      "id": "view-and-pick-preserve-exact-project",
+      "pass": true
+    }
+  ],
+  "errors": [],
+  "consoleErrors": [],
+  "frozen": {
+    "id": "2026-11-10T04-35-10-547Z-frozen-web",
+    "url": "http://127.0.0.1:56297",
+    "sourceHash": "e384e6576db1e68bb5edc12c636462d063d9a562db5bd7013cbb383965a24cc9",
+    "sourceMapPass": true,
+    "compiledSourceMatchCount": 55,
+    "pickingSha256": "64d7d46216e327c122580d2f2a0d42f6fd8f1e3cb8501c3db75e72e9a5be08c4"
+  },
+  "target": {
+    "x": 147.7806330892205,
+    "y": 516.7188544407713
+  },
+  "completed": true
+}

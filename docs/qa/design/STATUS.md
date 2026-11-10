@@ -1,5 +1,34 @@
 # Independent design QA — live status
 
+## Current native development route fails — 04:55 UTC
+
+QA-METRO01 now affects the actual iOS development launch path too, after final library integration. Independent native-route-health.json: current SDK58 manifestHTTP200 advertises the public tunnel, but a full request to its exact launch path on local8081returnsHTTP500/UnableToResolveError for breakfast-overhang-island-d46cc8be7673.glb. Stable catalogue/bindings/config/package source samples; no physical phone claim. The earlier04:19native200/04:24publicprefix200 are historical snapshots and do not verify this current integration. No server restart by QA. The focused two-file geometry handoff is ready and awaiting explicit coordinator activation; GEOMETRY_HANDOFF_READY.md records acknowledged scope/convention/API proposals.
+
+## Three UI repairs independently pass — 04:51 UTC
+
+Fresh source-verified e384e657…/55compiled-source snapshot passes opaque-wall picking/orbit and visible cutaway movement4/4; catalogue workflows11/11 including512→512 scroll; full door-side/unit/size/ordinary-label matrix128/128; transparent-window picking2/2. No captured errors. Inspected screenshots confirm the concrete formerly failing contexts. Exact reports/images are retained in frozen-evidence/e384e657-repair-ui with digests. QA-SPATIAL01/CAT01/DOOR06 are closed for this snapshot; final-library catalogue edits need current-head coverage separately. Wall/door physical-clearance P1s and live Metro500 remain open. The first two harness launches targeted the old live default and asserted nothing; corrected harnesses execute fixture modules from the chosen immutable copy.
+
+
+## Physical door clearance / fresh repair snapshot — 04:47 UTC
+
+New P1 QA-GEO11: all10near-door real-lamp fixtures are accepted despite actual physical leaf/GLB triangle intersections;10farther controls pass. Includes single/double swing and surface sliding, both flips/applicable hinges. Physical offset/thickness are absent from logical motion clearance. DOOR_MOTION_CLEARANCE.md has the bounded source diagnosis and repair coverage. QA-GEO10 also has an actual free-placement browser reproduction: 2D drag saves the real cabinet34mm inside the rendered12cm wall, one history step, no errors; wall-clearance-web.json and before/after images. Pre-repair files/evidence retained. The live8081root still returns500, but a fresh owner-provided immutable e384e657… snapshot is healthy and includes picking/caption/catalogue fixes; targeted UI retests now use it. No shared server or production edits by QA.
+
+## Concrete wall/placement collision — 04:28 UTC
+
+P1 QA-GEO10: actual production canPlace/add-item accepts the real50feb5b7… cabinet while666of its triangles intersect39mm of the rendered12cm wall in the flat-trim/free fixture. All12near-wall variants reproduce across12/15/30cm and none/flat/free/grid;12safe controls pass. wall-clearance-audit executes exact production wall-box expressions and actual GLB triangles under Three SAT, on stable hashes. Validator counts trim only; mesh consumes half wall thickness inward. This needs a shared boundary/inset resolution; clear-interior measurements versus logical polygon bounds must also be reconciled honestly. No production edit by QA. Original112door checks were recovered exactly from committed528349ea5a9c into door-dimension-112-checkpoint.json, preserving proof after the failed newer boot overwrote the convenience report. Glass-window picking baseline2/2passes in the older4d8d0e3d… snapshot and is ready as a post-fix transparency regression.
+
+## Live Metro needs owner refresh — 04:14 UTC
+
+QA-METRO01: stable8081root500reports unresolved gaslift-counter-stool763b97ac… GLB, yet QA actually opened251,152bytes/glTF with the exact matching SHA and current static bindings. Missing/corrupt bytes are not established; stale resolver/watch state is an inference. This blocks actual retest of newly delivered picking/annotation/catalogue fixes. No shared server change was made by QA. The failed matrix batch contained no feature assertions and is not a failed repair; harness now fails fast after its first boot failure. Current source fixes must be checked in a matching fresh immutable export or owner-refreshed live server. Historical evidence and initial failures remain distinct.
+
+## Original Phase2 inventory — 04:09 UTC
+
+QA-ROOM01 is an unmet capability, separate from regressions: the original PHONE_APP_PLAN Phase2 includes moving existing generic rooms, while numeric origins currently occur only in AddRoom. Existing-room dimensions exposes width/depth/ceiling; empty-plan drag pans; room-polygon has no UI caller. Do not call Phase2complete from the current build checks alone. A future room-move path needs explicit contained-item/topology policy and Undo/recovery coverage; its control layout remains a proposal. Current QA stays read-only through the coordinator's publication freeze.
+
+## Sheen proof / sourced reference handoff — 04:03 UTC
+
+Controlled near-wall/shear-light Walk captures show all5finish responses, including broad semi-gloss versus tight gloss highlights. Six checks pass with the same camera and exact project/history preservation; no errors. Earlier fixed-overview differences were subtle; the first glancing run's retained heading was a QA setup error and is archived separately. Primary Home Planner docs now explicitly answer its floor-wide ceiling semantics and distinguish interactive3D from server photos/panoramas; attachment-aware placement is documented too. REFERENCE_UPDATE_HANDOFF.md offers these limited checked additions to the canonical reference maintainer, without choosing unapproved camera presets or adding a paid service.
+
 ## Opaque-wall gesture finding / publication ownership — 03:55 UTC
 
 QA-SPATIAL01 is reproduced in the real source-verified4d8d0e3d… browser: with cutaway off, the wholly hidden sofa selects through the opaque wall; dragging that wall keeps the camera fixed but saves sofa(3,4.1)→(2.9,3.2). Two negative cases fail/no errors; before/after images confirm actual occlusion. hit() chooses any item ray hit, bypassing nearer walls. Repair must respect opaque/visible ancestry and retain valid cutaway picking. This belongs to original PHONE_APP_PLAN Phases2/3. Coordinator now has explicit user GitHub publication authorization and is sole publisher; this QA continues only its owned files, without git mutations or new approval requests. Ready-checkpoint scope is recorded separately.

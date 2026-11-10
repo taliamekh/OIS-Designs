@@ -1,0 +1,57 @@
+{
+  "at": "2026-11-10T04:49:41.176Z",
+  "before": {
+    "spatial/src/viewPlan.ts": "dbd8513f68c61f1f484257fb131b2f20fe656eb49a9042519d690bfab22cf450",
+    "mobile/src/domain/geometry.ts": "d39a47ba5606406a01b7ba1690e18df0fe8b4055cf3fbe70f0cd3b89d5299b90"
+  },
+  "after": {
+    "spatial/src/viewPlan.ts": "dbd8513f68c61f1f484257fb131b2f20fe656eb49a9042519d690bfab22cf450",
+    "mobile/src/domain/geometry.ts": "d39a47ba5606406a01b7ba1690e18df0fe8b4055cf3fbe70f0cd3b89d5299b90"
+  },
+  "stable": true,
+  "passed": 8,
+  "failed": 0,
+  "cases": [
+    {
+      "name": "Production wall builder cutaway agrees with independently known interior sides across both windings/rotations/negative offsets",
+      "pass": true,
+      "details": {
+        "cases": 64,
+        "failures": []
+      }
+    },
+    {
+      "name": "Presentation separation preserves canonical house bounds",
+      "pass": true
+    },
+    {
+      "name": "Canonical offset retains floor alignment/elevation: ground",
+      "pass": true
+    },
+    {
+      "name": "Canonical offset retains floor alignment/elevation: upper",
+      "pass": true
+    },
+    {
+      "name": "Walk overrides presentation hiding/separation and remains read-only",
+      "pass": true
+    },
+    {
+      "name": "Missing exact models are reported individually",
+      "pass": true
+    },
+    {
+      "name": "Conservative asymmetric bounds agree with Three world matrices, including nonzero vertical origins",
+      "pass": true,
+      "details": {
+        "cases": 10,
+        "failures": []
+      }
+    },
+    {
+      "name": "All view policies preserve canonical fixture bytes, item revisions and locks",
+      "pass": true
+    }
+  ],
+  "limits": "CPU geometric policy against actual production wall builder and independent Three matrices. Conservative AABBs, not exact rendered mesh bounds. Does not establish mobile adoption, UI, opacity/picking, performance or physical native execution."
+}

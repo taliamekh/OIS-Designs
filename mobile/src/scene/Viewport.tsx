@@ -12,7 +12,7 @@ import { View, Text } from "react-native";
 import * as THREE from "three";
 import { inside, projectToSegment } from "../domain/geometry";
 import { walkMove } from "../domain/project";
-import { Floor, Item, Room, ViewMode } from "../domain/types";
+import { Floor, Item, Point, Room, ViewMode } from "../domain/types";
 import { placementAssets } from "../state/Studio";
 import { usePalette } from "../ui/kit";
 import { Canvas, useThree } from "./fiber";
@@ -23,6 +23,7 @@ import { walkSpawn } from "./walk";
 import { fitCamera, clippingRange } from "./camera";
 import { resolveItemAsset, supportsPlacement } from "../catalogue/resolve";
 import { retainWantedModels } from "./resources";
+import { pickItem } from "./picking";
 export type Interaction = {
   floor: Floor;
   room: Room;
@@ -354,37 +355,49 @@ function CameraBridge({
       camera,
     );
     const hits = ray.intersectObjects(scene.children, true);
-    const object = hits.find((h) => h.object.userData.itemId);
+    const id = pickItem(hits);
     const point = new THREE.Vector3();
     ray.ray.intersectPlane(plane, point);
-    return { id: object?.object.userData.itemId as string | undefined, point };
+    return { id, point };
   }
-  useEffect(() => {
-    const t = pose.current;
-    const points = props.allFloors
-      ? props.allFloors.flatMap((f) =>
-          f.rooms.flatMap((r) =>
-            r.polygon.map((p) => ({
-              x: p.x + f.alignment.x,
-              z: p.z + f.alignment.z,
-            })),
-          ),
-        )
-      : props.allRooms
-        ? props.floor.rooms.flatMap((r) => r.polygon)
-        : props.room.polygon;
-    const low = props.allFloors
-      ? Math.min(...props.allFloors.map((f) => f.elevation))
-      : 0;
-    const high = props.allFloors
+  // Value identity changes for visible structure, including Undo/Redo and
+  // same-count floor alignment edits, but stays stable for furniture/finishes.
+  const scopePoints = props.allFloors
+    ? props.allFloors.flatMap((f) =>
+        f.rooms.flatMap((r) =>
+          r.polygon.map((p) => ({
+            x: p.x + f.alignment.x,
+            z: p.z + f.alignment.z,
+          })),
+        ),
+      )
+    : props.allRooms
+      ? props.floor.rooms.flatMap((r) => r.polygon)
+      : props.room.polygon;
+  const scopeLow = props.allFloors
+    ? Math.min(...props.allFloors.map((f) => f.elevation))
+    : 0;
+  const scopeHigh = props.allFloors
+    ? Math.max(
+        ...props.allFloors.map(
+          (f) =>
+            f.elevation +
+            Math.max(...f.rooms.map((r) => r.ceiling ?? f.ceiling)),
+        ),
+      )
+    : props.allRooms
       ? Math.max(
-          ...props.allFloors.map(
-            (f) =>
-              f.elevation +
-              Math.max(...f.rooms.map((r) => r.ceiling ?? f.ceiling)),
-          ),
+          ...props.floor.rooms.map((r) => r.ceiling ?? props.floor.ceiling),
         )
       : (props.room.ceiling ?? props.floor.ceiling);
+  const framingKey = JSON.stringify([scopePoints, scopeLow, scopeHigh]);
+  useEffect(() => {
+    const t = pose.current;
+    const [points, low, high] = JSON.parse(framingKey) as [
+      Point[],
+      number,
+      number,
+    ];
     const fit = fitCamera(points, high - low, width / height, t.theta, t.phi);
     t.radius = fit.radius;
     t.sceneExtent = fit.extent;
@@ -405,9 +418,11 @@ function CameraBridge({
       props.onWalkRoom?.(props.room.id);
     }
     navigation.current = { roomId: props.room.id, mode: props.mode };
-    cameraPose(); /* camera reset only on room/view transitions */
+    cameraPose();
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [
+    framingKey,
+    props.floor.id,
     props.room.id,
     props.mode,
     props.allRooms,

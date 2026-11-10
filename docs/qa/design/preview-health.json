@@ -1,0 +1,44 @@
+{
+  "timestamp": "2026-11-10T04:51:59.466Z",
+  "url": "http://127.0.0.1:8081",
+  "scope": "Web root only. This request cannot establish the independent Expo native manifest/bundle route.",
+  "status": 500,
+  "error": {
+    "selectedLogIndex": 0,
+    "isDisabled": false,
+    "logs": [
+      {
+        "message": {
+          "content": "Unable to resolve module ../../assets/furniture/ois.design.breakfast-overhang-island-d46cc8be7673.glb",
+          "substitutions": []
+        },
+        "type": "error",
+        "category": "C:\\Users\\talia\\OneDrive\\Documents\\ChatGPT\\OIS Designs\\mobile\\src\\catalogue\\bundled.ts-1-1",
+        "componentStack": [],
+        "stack": [],
+        "count": 1,
+        "level": "resolution",
+        "codeFrame": {
+          "fileName": "C:\\Users\\talia\\OneDrive\\Documents\\ChatGPT\\OIS Designs\\mobile\\src\\catalogue\\bundled.ts",
+          "location": null,
+          "content": "\u001b[0m \u001b[90m 70 |\u001b[39m \u001b[32m\"ois.design.branch-book-tree\"\u001b[39m\u001b[33m:\u001b[39m require(\u001b[32m'../../assets/furniture/ois.design.branch-book-tree-2eb501b10cd2.glb'\u001b[39m)\u001b[33m,\u001b[39m\n \u001b[90m 71 |\u001b[39m \u001b[32m\"ois.design.branch-coat-tree\"\u001b[39m\u001b[33m:\u001b[39m require(\u001b[32m'../../assets/furniture/ois.design.branch-coat-tree-d88c90397d38.glb'\u001b[39m)\u001b[33m,\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 72 |\u001b[39m \u001b[32m\"ois.design.breakfast-overhang-island\"\u001b[39m\u001b[33m:\u001b[39m require(\u001b[32m'../../assets/furniture/ois.design.breakfast-overhang-island-d46cc8be7673.glb'\u001b[39m)\u001b[33m,\u001b[39m\n \u001b[90m    |\u001b[39m                                                  \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 73 |\u001b[39m \u001b[32m\"ois.design.butcher-drawer-island\"\u001b[39m\u001b[33m:\u001b[39m require(\u001b[32m'../../assets/furniture/ois.design.butcher-drawer-island-860c2d533600.glb'\u001b[39m)\u001b[33m,\u001b[39m\n \u001b[90m 74 |\u001b[39m \u001b[32m\"ois.design.butterfly-sling-seat\"\u001b[39m\u001b[33m:\u001b[39m require(\u001b[32m'../../assets/furniture/ois.design.butterfly-sling-seat-e4145f94e4b1.glb'\u001b[39m)\u001b[33m,\u001b[39m\n \u001b[90m 75 |\u001b[39m \u001b[32m\"ois.design.cage-table-light\"\u001b[39m\u001b[33m:\u001b[39m require(\u001b[32m'../../assets/furniture/ois.design.cage-table-light-e86f8911c435.glb'\u001b[39m)\u001b[33m,\u001b[39m\u001b[0m\n"
+        },
+        "isComponentError": false,
+        "symbolicated": {
+          "stack": {
+            "error": null,
+            "stack": [],
+            "status": "COMPLETE"
+          },
+          "component": {
+            "error": null,
+            "stack": null,
+            "status": "NONE"
+          }
+        },
+        "callbacks": {},
+        "componentStackCache": null
+      }
+    ]
+  }
+}

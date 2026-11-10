@@ -1,0 +1,1684 @@
+{
+  "at": "2026-11-10T04:50:10.496Z",
+  "checks": [
+    "40×30committed reference bounds fit immediately with the dimensions sheet open",
+    "Undo restores the exact small project and refits while the sheet stays closed",
+    "Redo refits the large committed geometry again",
+    "landscape whole-floor view contains every8m-room corner with the2.7m room active",
+    "changing active room preserves whole-floor framing and exact project/history bytes"
+  ],
+  "errors": [],
+  "samples": [
+    {
+      "step": "resize-open",
+      "snapshot": {
+        "probe": {
+          "rooms": [
+            "room-mwa7ogr1-won1bg6"
+          ],
+          "mode": "3d",
+          "camera": [
+            60.31328764987152,
+            49.917024743399075,
+            58.27333709736477
+          ],
+          "cameraQuaternion": [
+            -0.315043223810713,
+            0.3446407374087126,
+            0.12400938545718372,
+            0.87555251217038
+          ],
+          "projectionMatrix": [
+            2.4344982384062845,
+            0,
+            0,
+            0,
+            0,
+            2.5386478956643073,
+            0,
+            0,
+            0,
+            0,
+            -1.0010459189345813,
+            -1,
+            0,
+            0,
+            -0.1535478456345937,
+            0
+          ],
+          "items": [],
+          "memory": {
+            "geometries": 5,
+            "textures": 3
+          },
+          "draw": {
+            "frame": 7,
+            "calls": 7,
+            "triangles": 50,
+            "points": 0,
+            "lines": 0
+          },
+          "cache": {
+            "entries": 0,
+            "active": 0,
+            "pending": 0,
+            "wanted": 0,
+            "idle": 0,
+            "sourceBytes": 0,
+            "textureSets": 1,
+            "sharedTextures": {
+              "textures": 0,
+              "leases": 0,
+              "duplicates": 0
+            }
+          }
+        },
+        "history": {
+          "past": [
+            {
+              "id": "project-mwa7ogr2-s5fmjdn",
+              "schemaVersion": 1,
+              "name": "Structural camera",
+              "updatedAt": 1794286205390,
+              "floors": [
+                {
+                  "id": "floor-mwa7ogr1-zln52w7",
+                  "name": "Ground floor",
+                  "elevation": 0,
+                  "ceiling": 2.7,
+                  "alignment": {
+                    "x": 0,
+                    "z": 0
+                  },
+                  "rooms": [
+                    {
+                      "id": "room-mwa7ogr1-won1bg6",
+                      "name": "Living room",
+                      "kind": "living",
+                      "polygon": [
+                        {
+                          "x": 0,
+                          "z": 0
+                        },
+                        {
+                          "x": 4.8,
+                          "z": 0
+                        },
+                        {
+                          "x": 4.8,
+                          "z": 3.8
+                        },
+                        {
+                          "x": 0,
+                          "z": 3.8
+                        }
+                      ],
+                      "ceiling": null,
+                      "floorFinish": {
+                        "id": "white-oak",
+                        "repeat": 2,
+                        "angle": 0
+                      },
+                      "wallFaces": {},
+                      "trim": {
+                        "profile": "flat",
+                        "height": 0.1,
+                        "projection": 0.016,
+                        "colour": "#eeeae2",
+                        "sheen": "satin"
+                      },
+                      "trimOverrides": {}
+                    }
+                  ],
+                  "walls": [
+                    {
+                      "id": "wall:0,0:48000,0",
+                      "a": {
+                        "x": 0,
+                        "z": 0
+                      },
+                      "b": {
+                        "x": 4.8,
+                        "z": 0
+                      },
+                      "thickness": 0.12,
+                      "faces": [
+                        {
+                          "roomId": "room-mwa7ogr1-won1bg6",
+                          "reversed": false
+                        }
+                      ]
+                    },
+                    {
+                      "id": "wall:48000,0:48000,38000",
+                      "a": {
+                        "x": 4.8,
+                        "z": 0
+                      },
+                      "b": {
+                        "x": 4.8,
+                        "z": 3.8
+                      },
+                      "thickness": 0.12,
+                      "faces": [
+                        {
+                          "roomId": "room-mwa7ogr1-won1bg6",
+                          "reversed": false
+                        }
+                      ]
+                    },
+                    {
+                      "id": "wall:0,38000:48000,38000",
+                      "a": {
+                        "x": 0,
+                        "z": 3.8
+                      },
+                      "b": {
+                        "x": 4.8,
+                        "z": 3.8
+                      },
+                      "thickness": 0.12,
+                      "faces": [
+                        {
+                          "roomId": "room-mwa7ogr1-won1bg6",
+                          "reversed": true
+                        }
+                      ]
+                    },
+                    {
+                      "id": "wall:0,0:0,38000",
+                      "a": {
+                        "x": 0,
+                        "z": 0
+                      },
+                      "b": {
+                        "x": 0,
+                        "z": 3.8
+                      },
+                      "thickness": 0.12,
+                      "faces": [
+                        {
+                          "roomId": "room-mwa7ogr1-won1bg6",
+                          "reversed": true
+                        }
+                      ]
+                    }
+                  ],
+                  "openings": [],
+                  "items": []
+                }
+              ]
+            }
+          ],
+          "present": {
+            "id": "project-mwa7ogr2-s5fmjdn",
+            "schemaVersion": 1,
+            "name": "Structural camera",
+            "updatedAt": 1794286207664,
+            "floors": [
+              {
+                "id": "floor-mwa7ogr1-zln52w7",
+                "name": "Ground floor",
+                "elevation": 0,
+                "ceiling": 2.7,
+                "alignment": {
+                  "x": 0,
+                  "z": 0
+                },
+                "rooms": [
+                  {
+                    "id": "room-mwa7ogr1-won1bg6",
+                    "name": "Living room",
+                    "kind": "living",
+                    "polygon": [
+                      {
+                        "x": 0,
+                        "z": 0
+                      },
+                      {
+                        "x": 40,
+                        "z": 0
+                      },
+                      {
+                        "x": 40,
+                        "z": 30
+                      },
+                      {
+                        "x": 0,
+                        "z": 30
+                      }
+                    ],
+                    "ceiling": null,
+                    "floorFinish": {
+                      "id": "white-oak",
+                      "repeat": 2,
+                      "angle": 0
+                    },
+                    "wallFaces": {},
+                    "trim": {
+                      "profile": "flat",
+                      "height": 0.1,
+                      "projection": 0.016,
+                      "colour": "#eeeae2",
+                      "sheen": "satin"
+                    },
+                    "trimOverrides": {}
+                  }
+                ],
+                "walls": [
+                  {
+                    "id": "wall:0,0:400000,0",
+                    "a": {
+                      "x": 0,
+                      "z": 0
+                    },
+                    "b": {
+                      "x": 40,
+                      "z": 0
+                    },
+                    "thickness": 0.12,
+                    "faces": [
+                      {
+                        "roomId": "room-mwa7ogr1-won1bg6",
+                        "reversed": false
+                      }
+                    ]
+                  },
+                  {
+                    "id": "wall:400000,0:400000,300000",
+                    "a": {
+                      "x": 40,
+                      "z": 0
+                    },
+                    "b": {
+                      "x": 40,
+                      "z": 30
+                    },
+                    "thickness": 0.12,
+                    "faces": [
+                      {
+                        "roomId": "room-mwa7ogr1-won1bg6",
+                        "reversed": false
+                      }
+                    ]
+                  },
+                  {
+                    "id": "wall:0,300000:400000,300000",
+                    "a": {
+                      "x": 0,
+                      "z": 30
+                    },
+                    "b": {
+                      "x": 40,
+                      "z": 30
+                    },
+                    "thickness": 0.12,
+                    "faces": [
+                      {
+                        "roomId": "room-mwa7ogr1-won1bg6",
+                        "reversed": true
+                      }
+                    ]
+                  },
+                  {
+                    "id": "wall:0,0:0,300000",
+                    "a": {
+                      "x": 0,
+                      "z": 0
+                    },
+                    "b": {
+                      "x": 0,
+                      "z": 30
+                    },
+                    "thickness": 0.12,
+                    "faces": [
+                      {
+                        "roomId": "room-mwa7ogr1-won1bg6",
+                        "reversed": true
+                      }
+                    ]
+                  }
+                ],
+                "openings": [],
+                "items": []
+              }
+            ]
+          },
+          "future": []
+        },
+        "canvas": {
+          "width": 390,
+          "height": 374
+        }
+      },
+      "bounds": {
+        "maxX": 0.8220381034794209,
+        "maxY": 0.7156864889115032,
+        "maxDepth": 0.9994523374946427,
+        "minDepth": 0.998337881184248
+      }
+    },
+    {
+      "step": "undo-closed",
+      "snapshot": {
+        "probe": {
+          "rooms": [
+            "room-mwa7ogr1-won1bg6"
+          ],
+          "mode": "3d",
+          "camera": [
+            12.275235675950023,
+            13.002457885872985,
+            12.500336197652441
+          ],
+          "cameraQuaternion": [
+            -0.315043223810713,
+            0.3446407374087127,
+            0.12400938545718375,
+            0.87555251217038
+          ],
+          "projectionMatrix": [
+            5.070786437749988,
+            0,
+            0,
+            0,
+            0,
+            2.5386478956643073,
+            0,
+            0,
+            0,
+            0,
+            -1.0004000800160031,
+            -1,
+            0,
+            0,
+            -0.040008001600320066,
+            0
+          ],
+          "items": [],
+          "memory": {
+            "geometries": 5,
+            "textures": 3
+          },
+          "draw": {
+            "frame": 12,
+            "calls": 7,
+            "triangles": 50,
+            "points": 0,
+            "lines": 0
+          },
+          "cache": {
+            "entries": 0,
+            "active": 0,
+            "pending": 0,
+            "wanted": 0,
+            "idle": 0,
+            "sourceBytes": 0,
+            "textureSets": 1,
+            "sharedTextures": {
+              "textures": 0,
+              "leases": 0,
+              "duplicates": 0
+            }
+          }
+        },
+        "history": {
+          "past": [],
+          "present": {
+            "id": "project-mwa7ogr2-s5fmjdn",
+            "schemaVersion": 1,
+            "name": "Structural camera",
+            "updatedAt": 1794286205390,
+            "floors": [
+              {
+                "id": "floor-mwa7ogr1-zln52w7",
+                "name": "Ground floor",
+                "elevation": 0,
+                "ceiling": 2.7,
+                "alignment": {
+                  "x": 0,
+                  "z": 0
+                },
+                "rooms": [
+                  {
+                    "id": "room-mwa7ogr1-won1bg6",
+                    "name": "Living room",
+                    "kind": "living",
+                    "polygon": [
+                      {
+                        "x": 0,
+                        "z": 0
+                      },
+                      {
+                        "x": 4.8,
+                        "z": 0
+                      },
+                      {
+                        "x": 4.8,
+                        "z": 3.8
+                      },
+                      {
+                        "x": 0,
+                        "z": 3.8
+                      }
+                    ],
+                    "ceiling": null,
+                    "floorFinish": {
+                      "id": "white-oak",
+                      "repeat": 2,
+                      "angle": 0
+                    },
+                    "wallFaces": {},
+                    "trim": {
+                      "profile": "flat",
+                      "height": 0.1,
+                      "projection": 0.016,
+                      "colour": "#eeeae2",
+                      "sheen": "satin"
+                    },
+                    "trimOverrides": {}
+                  }
+                ],
+                "walls": [
+                  {
+                    "id": "wall:0,0:48000,0",
+                    "a": {
+                      "x": 0,
+                      "z": 0
+                    },
+                    "b": {
+                      "x": 4.8,
+                      "z": 0
+                    },
+                    "thickness": 0.12,
+                    "faces": [
+                      {
+                        "roomId": "room-mwa7ogr1-won1bg6",
+                        "reversed": false
+                      }
+                    ]
+                  },
+                  {
+                    "id": "wall:48000,0:48000,38000",
+                    "a": {
+                      "x": 4.8,
+                      "z": 0
+                    },
+                    "b": {
+                      "x": 4.8,
+                      "z": 3.8
+                    },
+                    "thickness": 0.12,
+                    "faces": [
+                      {
+                        "roomId": "room-mwa7ogr1-won1bg6",
+                        "reversed": false
+                      }
+                    ]
+                  },
+                  {
+                    "id": "wall:0,38000:48000,38000",
+                    "a": {
+                      "x": 0,
+                      "z": 3.8
+                    },
+                    "b": {
+                      "x": 4.8,
+                      "z": 3.8
+                    },
+                    "thickness": 0.12,
+                    "faces": [
+                      {
+                        "roomId": "room-mwa7ogr1-won1bg6",
+                        "reversed": true
+                      }
+                    ]
+                  },
+                  {
+                    "id": "wall:0,0:0,38000",
+                    "a": {
+                      "x": 0,
+                      "z": 0
+                    },
+                    "b": {
+                      "x": 0,
+                      "z": 3.8
+                    },
+                    "thickness": 0.12,
+                    "faces": [
+                      {
+                        "roomId": "room-mwa7ogr1-won1bg6",
+                        "reversed": true
+                      }
+                    ]
+                  }
+                ],
+                "openings": [],
+                "items": []
+              }
+            ]
+          },
+          "future": [
+            {
+              "id": "project-mwa7ogr2-s5fmjdn",
+              "schemaVersion": 1,
+              "name": "Structural camera",
+              "updatedAt": 1794286207664,
+              "floors": [
+                {
+                  "id": "floor-mwa7ogr1-zln52w7",
+                  "name": "Ground floor",
+                  "elevation": 0,
+                  "ceiling": 2.7,
+                  "alignment": {
+                    "x": 0,
+                    "z": 0
+                  },
+                  "rooms": [
+                    {
+                      "id": "room-mwa7ogr1-won1bg6",
+                      "name": "Living room",
+                      "kind": "living",
+                      "polygon": [
+                        {
+                          "x": 0,
+                          "z": 0
+                        },
+                        {
+                          "x": 40,
+                          "z": 0
+                        },
+                        {
+                          "x": 40,
+                          "z": 30
+                        },
+                        {
+                          "x": 0,
+                          "z": 30
+                        }
+                      ],
+                      "ceiling": null,
+                      "floorFinish": {
+                        "id": "white-oak",
+                        "repeat": 2,
+                        "angle": 0
+                      },
+                      "wallFaces": {},
+                      "trim": {
+                        "profile": "flat",
+                        "height": 0.1,
+                        "projection": 0.016,
+                        "colour": "#eeeae2",
+                        "sheen": "satin"
+                      },
+                      "trimOverrides": {}
+                    }
+                  ],
+                  "walls": [
+                    {
+                      "id": "wall:0,0:400000,0",
+                      "a": {
+                        "x": 0,
+                        "z": 0
+                      },
+                      "b": {
+                        "x": 40,
+                        "z": 0
+                      },
+                      "thickness": 0.12,
+                      "faces": [
+                        {
+                          "roomId": "room-mwa7ogr1-won1bg6",
+                          "reversed": false
+                        }
+                      ]
+                    },
+                    {
+                      "id": "wall:400000,0:400000,300000",
+                      "a": {
+                        "x": 40,
+                        "z": 0
+                      },
+                      "b": {
+                        "x": 40,
+                        "z": 30
+                      },
+                      "thickness": 0.12,
+                      "faces": [
+                        {
+                          "roomId": "room-mwa7ogr1-won1bg6",
+                          "reversed": false
+                        }
+                      ]
+                    },
+                    {
+                      "id": "wall:0,300000:400000,300000",
+                      "a": {
+                        "x": 0,
+                        "z": 30
+                      },
+                      "b": {
+                        "x": 40,
+                        "z": 30
+                      },
+                      "thickness": 0.12,
+                      "faces": [
+                        {
+                          "roomId": "room-mwa7ogr1-won1bg6",
+                          "reversed": true
+                        }
+                      ]
+                    },
+                    {
+                      "id": "wall:0,0:0,300000",
+                      "a": {
+                        "x": 0,
+                        "z": 0
+                      },
+                      "b": {
+                        "x": 0,
+                        "z": 30
+                      },
+                      "thickness": 0.12,
+                      "faces": [
+                        {
+                          "roomId": "room-mwa7ogr1-won1bg6",
+                          "reversed": true
+                        }
+                      ]
+                    }
+                  ],
+                  "openings": [],
+                  "items": []
+                }
+              ]
+            }
+          ]
+        },
+        "canvas": {
+          "width": 390,
+          "height": 779
+        }
+      },
+      "bounds": {
+        "maxX": 0.8820419771743675,
+        "maxY": 0.4072340250908979,
+        "maxDepth": 0.9985634157116708,
+        "minDepth": 0.9978018086730902
+      }
+    },
+    {
+      "step": "redo-closed",
+      "snapshot": {
+        "probe": {
+          "rooms": [
+            "room-mwa7ogr1-won1bg6"
+          ],
+          "mode": "3d",
+          "camera": [
+            95.40146848452856,
+            92.47116054813654,
+            95.93790791031476
+          ],
+          "cameraQuaternion": [
+            -0.315043223810713,
+            0.34464073740871254,
+            0.1240093854571837,
+            0.87555251217038
+          ],
+          "projectionMatrix": [
+            5.070786437749988,
+            0,
+            0,
+            0,
+            0,
+            2.5386478956643073,
+            0,
+            0,
+            0,
+            0,
+            -1.0013447747523667,
+            -1,
+            0,
+            0,
+            -0.2872368603678828,
+            0
+          ],
+          "items": [],
+          "memory": {
+            "geometries": 5,
+            "textures": 3
+          },
+          "draw": {
+            "frame": 13,
+            "calls": 7,
+            "triangles": 50,
+            "points": 0,
+            "lines": 0
+          },
+          "cache": {
+            "entries": 0,
+            "active": 0,
+            "pending": 0,
+            "wanted": 0,
+            "idle": 0,
+            "sourceBytes": 0,
+            "textureSets": 1,
+            "sharedTextures": {
+              "textures": 0,
+              "leases": 0,
+              "duplicates": 0
+            }
+          }
+        },
+        "history": {
+          "past": [
+            {
+              "id": "project-mwa7ogr2-s5fmjdn",
+              "schemaVersion": 1,
+              "name": "Structural camera",
+              "updatedAt": 1794286205390,
+              "floors": [
+                {
+                  "id": "floor-mwa7ogr1-zln52w7",
+                  "name": "Ground floor",
+                  "elevation": 0,
+                  "ceiling": 2.7,
+                  "alignment": {
+                    "x": 0,
+                    "z": 0
+                  },
+                  "rooms": [
+                    {
+                      "id": "room-mwa7ogr1-won1bg6",
+                      "name": "Living room",
+                      "kind": "living",
+                      "polygon": [
+                        {
+                          "x": 0,
+                          "z": 0
+                        },
+                        {
+                          "x": 4.8,
+                          "z": 0
+                        },
+                        {
+                          "x": 4.8,
+                          "z": 3.8
+                        },
+                        {
+                          "x": 0,
+                          "z": 3.8
+                        }
+                      ],
+                      "ceiling": null,
+                      "floorFinish": {
+                        "id": "white-oak",
+                        "repeat": 2,
+                        "angle": 0
+                      },
+                      "wallFaces": {},
+                      "trim": {
+                        "profile": "flat",
+                        "height": 0.1,
+                        "projection": 0.016,
+                        "colour": "#eeeae2",
+                        "sheen": "satin"
+                      },
+                      "trimOverrides": {}
+                    }
+                  ],
+                  "walls": [
+                    {
+                      "id": "wall:0,0:48000,0",
+                      "a": {
+                        "x": 0,
+                        "z": 0
+                      },
+                      "b": {
+                        "x": 4.8,
+                        "z": 0
+                      },
+                      "thickness": 0.12,
+                      "faces": [
+                        {
+                          "roomId": "room-mwa7ogr1-won1bg6",
+                          "reversed": false
+                        }
+                      ]
+                    },
+                    {
+                      "id": "wall:48000,0:48000,38000",
+                      "a": {
+                        "x": 4.8,
+                        "z": 0
+                      },
+                      "b": {
+                        "x": 4.8,
+                        "z": 3.8
+                      },
+                      "thickness": 0.12,
+                      "faces": [
+                        {
+                          "roomId": "room-mwa7ogr1-won1bg6",
+                          "reversed": false
+                        }
+                      ]
+                    },
+                    {
+                      "id": "wall:0,38000:48000,38000",
+                      "a": {
+                        "x": 0,
+                        "z": 3.8
+                      },
+                      "b": {
+                        "x": 4.8,
+                        "z": 3.8
+                      },
+                      "thickness": 0.12,
+                      "faces": [
+                        {
+                          "roomId": "room-mwa7ogr1-won1bg6",
+                          "reversed": true
+                        }
+                      ]
+                    },
+                    {
+                      "id": "wall:0,0:0,38000",
+                      "a": {
+                        "x": 0,
+                        "z": 0
+                      },
+                      "b": {
+                        "x": 0,
+                        "z": 3.8
+                      },
+                      "thickness": 0.12,
+                      "faces": [
+                        {
+                          "roomId": "room-mwa7ogr1-won1bg6",
+                          "reversed": true
+                        }
+                      ]
+                    }
+                  ],
+                  "openings": [],
+                  "items": []
+                }
+              ]
+            }
+          ],
+          "present": {
+            "id": "project-mwa7ogr2-s5fmjdn",
+            "schemaVersion": 1,
+            "name": "Structural camera",
+            "updatedAt": 1794286207664,
+            "floors": [
+              {
+                "id": "floor-mwa7ogr1-zln52w7",
+                "name": "Ground floor",
+                "elevation": 0,
+                "ceiling": 2.7,
+                "alignment": {
+                  "x": 0,
+                  "z": 0
+                },
+                "rooms": [
+                  {
+                    "id": "room-mwa7ogr1-won1bg6",
+                    "name": "Living room",
+                    "kind": "living",
+                    "polygon": [
+                      {
+                        "x": 0,
+                        "z": 0
+                      },
+                      {
+                        "x": 40,
+                        "z": 0
+                      },
+                      {
+                        "x": 40,
+                        "z": 30
+                      },
+                      {
+                        "x": 0,
+                        "z": 30
+                      }
+                    ],
+                    "ceiling": null,
+                    "floorFinish": {
+                      "id": "white-oak",
+                      "repeat": 2,
+                      "angle": 0
+                    },
+                    "wallFaces": {},
+                    "trim": {
+                      "profile": "flat",
+                      "height": 0.1,
+                      "projection": 0.016,
+                      "colour": "#eeeae2",
+                      "sheen": "satin"
+                    },
+                    "trimOverrides": {}
+                  }
+                ],
+                "walls": [
+                  {
+                    "id": "wall:0,0:400000,0",
+                    "a": {
+                      "x": 0,
+                      "z": 0
+                    },
+                    "b": {
+                      "x": 40,
+                      "z": 0
+                    },
+                    "thickness": 0.12,
+                    "faces": [
+                      {
+                        "roomId": "room-mwa7ogr1-won1bg6",
+                        "reversed": false
+                      }
+                    ]
+                  },
+                  {
+                    "id": "wall:400000,0:400000,300000",
+                    "a": {
+                      "x": 40,
+                      "z": 0
+                    },
+                    "b": {
+                      "x": 40,
+                      "z": 30
+                    },
+                    "thickness": 0.12,
+                    "faces": [
+                      {
+                        "roomId": "room-mwa7ogr1-won1bg6",
+                        "reversed": false
+                      }
+                    ]
+                  },
+                  {
+                    "id": "wall:0,300000:400000,300000",
+                    "a": {
+                      "x": 0,
+                      "z": 30
+                    },
+                    "b": {
+                      "x": 40,
+                      "z": 30
+                    },
+                    "thickness": 0.12,
+                    "faces": [
+                      {
+                        "roomId": "room-mwa7ogr1-won1bg6",
+                        "reversed": true
+                      }
+                    ]
+                  },
+                  {
+                    "id": "wall:0,0:0,300000",
+                    "a": {
+                      "x": 0,
+                      "z": 0
+                    },
+                    "b": {
+                      "x": 0,
+                      "z": 30
+                    },
+                    "thickness": 0.12,
+                    "faces": [
+                      {
+                        "roomId": "room-mwa7ogr1-won1bg6",
+                        "reversed": true
+                      }
+                    ]
+                  }
+                ],
+                "openings": [],
+                "items": []
+              }
+            ]
+          },
+          "future": []
+        },
+        "canvas": {
+          "width": 390,
+          "height": 779
+        }
+      },
+      "bounds": {
+        "maxX": 0.8977565243930592,
+        "maxY": 0.3339305349734758,
+        "maxDepth": 0.9995841200103028,
+        "minDepth": 0.9990187613650447
+      }
+    },
+    {
+      "step": "mixed-low-active",
+      "snapshot": {
+        "probe": {
+          "rooms": [
+            "room-mwa7oj4t-92yjsgh",
+            "room-mwa7oj4u-aq2ezgk"
+          ],
+          "mode": "3d",
+          "camera": [
+            16.17417825515028,
+            17.80456238133186,
+            15.068081276179546
+          ],
+          "cameraQuaternion": [
+            -0.315043223810713,
+            0.3446407374087126,
+            0.12400938545718372,
+            0.87555251217038
+          ],
+          "projectionMatrix": [
+            0.9775599124299762,
+            0,
+            0,
+            0,
+            0,
+            2.5386478956643077,
+            0,
+            0,
+            0,
+            0,
+            -1.0004635629918632,
+            -1,
+            0,
+            0,
+            -0.04635629918631884,
+            0
+          ],
+          "items": [],
+          "memory": {
+            "geometries": 10,
+            "textures": 3
+          },
+          "draw": {
+            "frame": 6,
+            "calls": 14,
+            "triangles": 100,
+            "points": 0,
+            "lines": 0
+          },
+          "cache": {
+            "entries": 0,
+            "active": 0,
+            "pending": 0,
+            "wanted": 0,
+            "idle": 0,
+            "sourceBytes": 0,
+            "textureSets": 1,
+            "sharedTextures": {
+              "textures": 0,
+              "leases": 0,
+              "duplicates": 0
+            }
+          }
+        },
+        "history": {
+          "past": [],
+          "present": {
+            "id": "project-mwa7oj4u-936z25i",
+            "schemaVersion": 1,
+            "name": "Mixed-height camera",
+            "updatedAt": 1794286208478,
+            "floors": [
+              {
+                "id": "floor-mwa7oj4t-yh2p0h3",
+                "name": "Ground floor",
+                "elevation": 0,
+                "ceiling": 2.7,
+                "alignment": {
+                  "x": 0,
+                  "z": 0
+                },
+                "rooms": [
+                  {
+                    "id": "room-mwa7oj4t-92yjsgh",
+                    "name": "Living room",
+                    "kind": "living",
+                    "polygon": [
+                      {
+                        "x": 0,
+                        "z": 0
+                      },
+                      {
+                        "x": 4,
+                        "z": 0
+                      },
+                      {
+                        "x": 4,
+                        "z": 4
+                      },
+                      {
+                        "x": 0,
+                        "z": 4
+                      }
+                    ],
+                    "ceiling": null,
+                    "floorFinish": {
+                      "id": "white-oak",
+                      "repeat": 2,
+                      "angle": 0
+                    },
+                    "wallFaces": {},
+                    "trim": {
+                      "profile": "flat",
+                      "height": 0.1,
+                      "projection": 0.016,
+                      "colour": "#eeeae2",
+                      "sheen": "satin"
+                    },
+                    "trimOverrides": {}
+                  },
+                  {
+                    "id": "room-mwa7oj4u-aq2ezgk",
+                    "name": "Tall room",
+                    "kind": "bedroom",
+                    "polygon": [
+                      {
+                        "x": 4,
+                        "z": 0
+                      },
+                      {
+                        "x": 8,
+                        "z": 0
+                      },
+                      {
+                        "x": 8,
+                        "z": 4
+                      },
+                      {
+                        "x": 4,
+                        "z": 4
+                      }
+                    ],
+                    "ceiling": 8,
+                    "floorFinish": {
+                      "id": "white-oak",
+                      "repeat": 2,
+                      "angle": 0
+                    },
+                    "wallFaces": {},
+                    "trim": {
+                      "profile": "flat",
+                      "height": 0.1,
+                      "projection": 0.016,
+                      "colour": "#eeeae2",
+                      "sheen": "satin"
+                    },
+                    "trimOverrides": {}
+                  }
+                ],
+                "walls": [
+                  {
+                    "id": "wall:0,0:40000,0",
+                    "a": {
+                      "x": 0,
+                      "z": 0
+                    },
+                    "b": {
+                      "x": 4,
+                      "z": 0
+                    },
+                    "thickness": 0.12,
+                    "faces": [
+                      {
+                        "roomId": "room-mwa7oj4t-92yjsgh",
+                        "reversed": false
+                      }
+                    ]
+                  },
+                  {
+                    "id": "wall:40000,0:40000,40000",
+                    "a": {
+                      "x": 4,
+                      "z": 0
+                    },
+                    "b": {
+                      "x": 4,
+                      "z": 4
+                    },
+                    "thickness": 0.12,
+                    "faces": [
+                      {
+                        "roomId": "room-mwa7oj4t-92yjsgh",
+                        "reversed": false
+                      },
+                      {
+                        "roomId": "room-mwa7oj4u-aq2ezgk",
+                        "reversed": true
+                      }
+                    ]
+                  },
+                  {
+                    "id": "wall:0,40000:40000,40000",
+                    "a": {
+                      "x": 0,
+                      "z": 4
+                    },
+                    "b": {
+                      "x": 4,
+                      "z": 4
+                    },
+                    "thickness": 0.12,
+                    "faces": [
+                      {
+                        "roomId": "room-mwa7oj4t-92yjsgh",
+                        "reversed": true
+                      }
+                    ]
+                  },
+                  {
+                    "id": "wall:0,0:0,40000",
+                    "a": {
+                      "x": 0,
+                      "z": 0
+                    },
+                    "b": {
+                      "x": 0,
+                      "z": 4
+                    },
+                    "thickness": 0.12,
+                    "faces": [
+                      {
+                        "roomId": "room-mwa7oj4t-92yjsgh",
+                        "reversed": true
+                      }
+                    ]
+                  },
+                  {
+                    "id": "wall:40000,0:80000,0",
+                    "a": {
+                      "x": 4,
+                      "z": 0
+                    },
+                    "b": {
+                      "x": 8,
+                      "z": 0
+                    },
+                    "thickness": 0.12,
+                    "faces": [
+                      {
+                        "roomId": "room-mwa7oj4u-aq2ezgk",
+                        "reversed": false
+                      }
+                    ]
+                  },
+                  {
+                    "id": "wall:80000,0:80000,40000",
+                    "a": {
+                      "x": 8,
+                      "z": 0
+                    },
+                    "b": {
+                      "x": 8,
+                      "z": 4
+                    },
+                    "thickness": 0.12,
+                    "faces": [
+                      {
+                        "roomId": "room-mwa7oj4u-aq2ezgk",
+                        "reversed": false
+                      }
+                    ]
+                  },
+                  {
+                    "id": "wall:40000,40000:80000,40000",
+                    "a": {
+                      "x": 4,
+                      "z": 4
+                    },
+                    "b": {
+                      "x": 8,
+                      "z": 4
+                    },
+                    "thickness": 0.12,
+                    "faces": [
+                      {
+                        "roomId": "room-mwa7oj4u-aq2ezgk",
+                        "reversed": true
+                      }
+                    ]
+                  }
+                ],
+                "openings": [],
+                "items": []
+              }
+            ]
+          },
+          "future": []
+        },
+        "canvas": {
+          "width": 844,
+          "height": 325
+        }
+      },
+      "bounds": {
+        "maxX": 0.22027311887653683,
+        "maxY": 0.5815894957061797,
+        "maxDepth": 0.9988277890571479,
+        "minDepth": 0.9977014916110788
+      }
+    },
+    {
+      "step": "mixed-tall-active",
+      "snapshot": {
+        "probe": {
+          "rooms": [
+            "room-mwa7oj4t-92yjsgh",
+            "room-mwa7oj4u-aq2ezgk"
+          ],
+          "mode": "3d",
+          "camera": [
+            16.17417825515028,
+            17.80456238133186,
+            15.068081276179546
+          ],
+          "cameraQuaternion": [
+            -0.315043223810713,
+            0.3446407374087126,
+            0.12400938545718372,
+            0.87555251217038
+          ],
+          "projectionMatrix": [
+            0.9775599124299762,
+            0,
+            0,
+            0,
+            0,
+            2.5386478956643077,
+            0,
+            0,
+            0,
+            0,
+            -1.0004635629918632,
+            -1,
+            0,
+            0,
+            -0.04635629918631884,
+            0
+          ],
+          "items": [],
+          "memory": {
+            "geometries": 10,
+            "textures": 3
+          },
+          "draw": {
+            "frame": 10,
+            "calls": 14,
+            "triangles": 100,
+            "points": 0,
+            "lines": 0
+          },
+          "cache": {
+            "entries": 0,
+            "active": 0,
+            "pending": 0,
+            "wanted": 0,
+            "idle": 0,
+            "sourceBytes": 0,
+            "textureSets": 1,
+            "sharedTextures": {
+              "textures": 0,
+              "leases": 0,
+              "duplicates": 0
+            }
+          }
+        },
+        "history": {
+          "past": [],
+          "present": {
+            "id": "project-mwa7oj4u-936z25i",
+            "schemaVersion": 1,
+            "name": "Mixed-height camera",
+            "updatedAt": 1794286208478,
+            "floors": [
+              {
+                "id": "floor-mwa7oj4t-yh2p0h3",
+                "name": "Ground floor",
+                "elevation": 0,
+                "ceiling": 2.7,
+                "alignment": {
+                  "x": 0,
+                  "z": 0
+                },
+                "rooms": [
+                  {
+                    "id": "room-mwa7oj4t-92yjsgh",
+                    "name": "Living room",
+                    "kind": "living",
+                    "polygon": [
+                      {
+                        "x": 0,
+                        "z": 0
+                      },
+                      {
+                        "x": 4,
+                        "z": 0
+                      },
+                      {
+                        "x": 4,
+                        "z": 4
+                      },
+                      {
+                        "x": 0,
+                        "z": 4
+                      }
+                    ],
+                    "ceiling": null,
+                    "floorFinish": {
+                      "id": "white-oak",
+                      "repeat": 2,
+                      "angle": 0
+                    },
+                    "wallFaces": {},
+                    "trim": {
+                      "profile": "flat",
+                      "height": 0.1,
+                      "projection": 0.016,
+                      "colour": "#eeeae2",
+                      "sheen": "satin"
+                    },
+                    "trimOverrides": {}
+                  },
+                  {
+                    "id": "room-mwa7oj4u-aq2ezgk",
+                    "name": "Tall room",
+                    "kind": "bedroom",
+                    "polygon": [
+                      {
+                        "x": 4,
+                        "z": 0
+                      },
+                      {
+                        "x": 8,
+                        "z": 0
+                      },
+                      {
+                        "x": 8,
+                        "z": 4
+                      },
+                      {
+                        "x": 4,
+                        "z": 4
+                      }
+                    ],
+                    "ceiling": 8,
+                    "floorFinish": {
+                      "id": "white-oak",
+                      "repeat": 2,
+                      "angle": 0
+                    },
+                    "wallFaces": {},
+                    "trim": {
+                      "profile": "flat",
+                      "height": 0.1,
+                      "projection": 0.016,
+                      "colour": "#eeeae2",
+                      "sheen": "satin"
+                    },
+                    "trimOverrides": {}
+                  }
+                ],
+                "walls": [
+                  {
+                    "id": "wall:0,0:40000,0",
+                    "a": {
+                      "x": 0,
+                      "z": 0
+                    },
+                    "b": {
+                      "x": 4,
+                      "z": 0
+                    },
+                    "thickness": 0.12,
+                    "faces": [
+                      {
+                        "roomId": "room-mwa7oj4t-92yjsgh",
+                        "reversed": false
+                      }
+                    ]
+                  },
+                  {
+                    "id": "wall:40000,0:40000,40000",
+                    "a": {
+                      "x": 4,
+                      "z": 0
+                    },
+                    "b": {
+                      "x": 4,
+                      "z": 4
+                    },
+                    "thickness": 0.12,
+                    "faces": [
+                      {
+                        "roomId": "room-mwa7oj4t-92yjsgh",
+                        "reversed": false
+                      },
+                      {
+                        "roomId": "room-mwa7oj4u-aq2ezgk",
+                        "reversed": true
+                      }
+                    ]
+                  },
+                  {
+                    "id": "wall:0,40000:40000,40000",
+                    "a": {
+                      "x": 0,
+                      "z": 4
+                    },
+                    "b": {
+                      "x": 4,
+                      "z": 4
+                    },
+                    "thickness": 0.12,
+                    "faces": [
+                      {
+                        "roomId": "room-mwa7oj4t-92yjsgh",
+                        "reversed": true
+                      }
+                    ]
+                  },
+                  {
+                    "id": "wall:0,0:0,40000",
+                    "a": {
+                      "x": 0,
+                      "z": 0
+                    },
+                    "b": {
+                      "x": 0,
+                      "z": 4
+                    },
+                    "thickness": 0.12,
+                    "faces": [
+                      {
+                        "roomId": "room-mwa7oj4t-92yjsgh",
+                        "reversed": true
+                      }
+                    ]
+                  },
+                  {
+                    "id": "wall:40000,0:80000,0",
+                    "a": {
+                      "x": 4,
+                      "z": 0
+                    },
+                    "b": {
+                      "x": 8,
+                      "z": 0
+                    },
+                    "thickness": 0.12,
+                    "faces": [
+                      {
+                        "roomId": "room-mwa7oj4u-aq2ezgk",
+                        "reversed": false
+                      }
+                    ]
+                  },
+                  {
+                    "id": "wall:80000,0:80000,40000",
+                    "a": {
+                      "x": 8,
+                      "z": 0
+                    },
+                    "b": {
+                      "x": 8,
+                      "z": 4
+                    },
+                    "thickness": 0.12,
+                    "faces": [
+                      {
+                        "roomId": "room-mwa7oj4u-aq2ezgk",
+                        "reversed": false
+                      }
+                    ]
+                  },
+                  {
+                    "id": "wall:40000,40000:80000,40000",
+                    "a": {
+                      "x": 4,
+                      "z": 4
+                    },
+                    "b": {
+                      "x": 8,
+                      "z": 4
+                    },
+                    "thickness": 0.12,
+                    "faces": [
+                      {
+                        "roomId": "room-mwa7oj4u-aq2ezgk",
+                        "reversed": true
+                      }
+                    ]
+                  }
+                ],
+                "openings": [],
+                "items": []
+              }
+            ]
+          },
+          "future": []
+        },
+        "canvas": {
+          "width": 844,
+          "height": 325
+        }
+      },
+      "bounds": {
+        "maxX": 0.22027311887653683,
+        "maxY": 0.5815894957061797,
+        "maxDepth": 0.9988277890571479,
+        "minDepth": 0.9977014916110788
+      }
+    }
+  ],
+  "nativeValidation": false,
+  "measurementConventionRepairPending": true
+}

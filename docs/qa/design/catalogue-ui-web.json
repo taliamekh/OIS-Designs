@@ -1,17 +1,10 @@
 {
-  "timestamp": "2026-11-10T03:41:05.221Z",
+  "timestamp": "2026-11-10T04:49:19.441Z",
   "evidence": "Actual isolated Expo web catalogue workflows; synthetic validated empty two-room house",
-  "baseURL": "http://localhost:8081",
   "storageOracle": {
     "kind": "Production IndexedStorage.getItem, with its read-only legacy fallback",
     "file": "mobile/src/storage/indexedStore.ts",
     "sha256": "9943012679fd85da975028e6165febf8e149242bfef7b0a63f7ab6b98f76383d"
-  },
-  "sourceBefore": {
-    "src/screens/Catalogue.tsx": "cf5cc467e6340b672c228f1a450a40ba6bf18f74d0df2c081537eaa57038ec9e",
-    "src/screens/Editor.tsx": "429823aad62d75f118f4e4ba7fdfa86c9307c8eca9f3677f07d336579c747ea9",
-    "src/catalogue/search.ts": "bf190fcc21fec67f2cf0a966b45add8dfd6209cbc87278305b3d7395e52e3bc3",
-    "src/catalogue/assets.json": "cb699b8aed7cdaaca8d205a7f9155dea800872af0207e56b5ea5537b9b55e919"
   },
   "checks": [
     {
@@ -38,15 +31,15 @@
       "id": "catalogue-places-real-revision-and-records-recent",
       "pass": true,
       "observed": {
-        "placed": "ois.design.cantilever-c-table",
+        "placed": "ois.design.bolster-daybed",
         "recent": [
-          "ois.design.cantilever-c-table"
+          "ois.design.bolster-daybed"
         ]
       }
     },
     {
       "id": "return-from-placement-restores-scroll",
-      "pass": false,
+      "pass": true,
       "observed": {
         "before": {
           "top": 512,
@@ -54,12 +47,12 @@
           "total": 1558
         },
         "after": {
-          "top": 0,
+          "top": 512,
           "height": 247,
-          "total": 595
+          "total": 1100
         },
         "selected": {
-          "label": "Place Cantilever C table",
+          "label": "Place Bolster daybed",
           "disabled": null,
           "box": {
             "x": 16,
@@ -89,14 +82,29 @@
   ],
   "errors": [],
   "consoleErrors": [],
+  "ui": {
+    "kind": "frozen",
+    "id": "2026-11-10T04-35-10-547Z-frozen-web",
+    "url": "http://127.0.0.1:56297",
+    "sourceHash": "e384e6576db1e68bb5edc12c636462d063d9a562db5bd7013cbb383965a24cc9",
+    "sourceMapPass": true,
+    "compiledSourceMatchCount": 55
+  },
+  "baseURL": "http://127.0.0.1:56297",
+  "sourceBefore": {
+    "src/screens/Catalogue.tsx": "cc45715e2a370ca34e9541d625a1fbc1acfbf7e061ad4e43f2f18266889459c1",
+    "src/screens/Editor.tsx": "7f565015043cd95d37b97a8b279328a395987c12a0efaac295fa8acef75c3a67",
+    "src/catalogue/search.ts": "bf190fcc21fec67f2cf0a966b45add8dfd6209cbc87278305b3d7395e52e3bc3",
+    "src/catalogue/assets.json": "d879f5e62a6081587825712243cd13ff77a7ccae54ab799a5d357da49e4889c2"
+  },
   "completed": true,
   "sourceAfter": {
-    "src/screens/Catalogue.tsx": "cf5cc467e6340b672c228f1a450a40ba6bf18f74d0df2c081537eaa57038ec9e",
-    "src/screens/Editor.tsx": "429823aad62d75f118f4e4ba7fdfa86c9307c8eca9f3677f07d336579c747ea9",
+    "src/screens/Catalogue.tsx": "cc45715e2a370ca34e9541d625a1fbc1acfbf7e061ad4e43f2f18266889459c1",
+    "src/screens/Editor.tsx": "7f565015043cd95d37b97a8b279328a395987c12a0efaac295fa8acef75c3a67",
     "src/catalogue/search.ts": "bf190fcc21fec67f2cf0a966b45add8dfd6209cbc87278305b3d7395e52e3bc3",
-    "src/catalogue/assets.json": "cb699b8aed7cdaaca8d205a7f9155dea800872af0207e56b5ea5537b9b55e919"
+    "src/catalogue/assets.json": "d879f5e62a6081587825712243cd13ff77a7ccae54ab799a5d357da49e4889c2"
   },
   "stableSourceSamples": true,
-  "passed": 10,
-  "failed": 1
+  "passed": 11,
+  "failed": 0
 }

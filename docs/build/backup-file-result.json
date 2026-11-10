@@ -1,0 +1,15 @@
+{
+  "at": "2026-11-10T03:41:10.286Z",
+  "fixture": "docs\\qa\\runtime\\runs\\2026-11-10T02-16-02-194Z-save-size\\house-300-primary.json",
+  "bytes": 7575865,
+  "sha256": "a63bf63ccc9569527f46cf7e9c80bf91265d0f6aa7c6d00dc5c1bb018f09086a",
+  "checks": [
+    "selecting a300-item/50-Undo backup previews it without changing the library",
+    "actual file import persists the complete populated project and history",
+    "300-item library and50Undo snapshots survive browser reload",
+    "actual download preserves every original backup byte",
+    "invalid future backup leaves the open library intact and cannot import a stale selection"
+  ],
+  "errors": [],
+  "nativeValidation": false
+}

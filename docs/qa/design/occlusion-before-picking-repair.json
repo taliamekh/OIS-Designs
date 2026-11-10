@@ -1,0 +1,78 @@
+{
+  "timestamp": "2026-11-10T03:54:28.869Z",
+  "evidence": "Actual 3D opaque-wall selection/orbit gesture in isolated browser UI. Visibility is separately inspected in before/after PNGs; no native claim.",
+  "storageOracle": {
+    "kind": "Production IndexedStorage.getItem, with its read-only legacy fallback",
+    "file": "mobile/src/storage/indexedStore.ts",
+    "sha256": "9943012679fd85da975028e6165febf8e149242bfef7b0a63f7ab6b98f76383d"
+  },
+  "checks": [
+    {
+      "id": "opaque-wall-does-not-select-hidden-sofa",
+      "pass": false,
+      "observed": {
+        "selected": 1,
+        "point": {
+          "x": 147.7613238445359,
+          "y": 513.7430705924303
+        }
+      }
+    },
+    {
+      "id": "drag-on-opaque-wall-orbits-without-moving-hidden-furniture",
+      "pass": false,
+      "observed": {
+        "beforeCamera": [
+          15.373161065637898,
+          16.03188414093517,
+          15.7816746280688
+        ],
+        "afterCamera": [
+          15.373161065637898,
+          16.03188414093517,
+          15.7816746280688
+        ],
+        "beforeItem": {
+          "id": "qa-occluded-item",
+          "roomId": "room-mwa5oy9w-t4iksyb",
+          "assetId": "ois.calm-oak.sofa",
+          "assetVersion": "0.1.0",
+          "assetHash": "416c851f19a44033209ce5a08018abae860a9e1202452532325ef09a29cafaf8",
+          "x": 3,
+          "z": 4.1,
+          "yaw": 3.141592653589793,
+          "locked": false,
+          "materialOverrides": {}
+        },
+        "afterItem": {
+          "id": "qa-occluded-item",
+          "roomId": "room-mwa5oy9w-t4iksyb",
+          "assetId": "ois.calm-oak.sofa",
+          "assetVersion": "0.1.0",
+          "assetHash": "416c851f19a44033209ce5a08018abae860a9e1202452532325ef09a29cafaf8",
+          "x": 2.9000000000000004,
+          "z": 3.2,
+          "yaw": 3.141592653589793,
+          "locked": false,
+          "materialOverrides": {}
+        },
+        "historyUnchanged": false
+      }
+    }
+  ],
+  "errors": [],
+  "consoleErrors": [],
+  "frozen": {
+    "id": "2026-11-10T03-50-04-350Z-frozen-web",
+    "url": "http://127.0.0.1:52894",
+    "sourceHash": "4d8d0e3ddba05a562e2b74bfb0c36f4cc5b354701e40afb94a4cdff7f7c69a2b",
+    "sourceMapPass": true,
+    "compiledSourceMatchCount": 54,
+    "viewportSha256": "a5a4cb391b2dd158961a1eeb8b5514beb69018e3d8a96160bf5fc9b9604df4b8"
+  },
+  "projectedTarget": {
+    "x": 147.7613238445359,
+    "y": 513.7430705924303
+  },
+  "completed": true
+}

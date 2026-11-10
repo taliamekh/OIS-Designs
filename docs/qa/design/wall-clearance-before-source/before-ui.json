@@ -1,0 +1,47 @@
+{
+  "timestamp": "2026-11-10T04:32:55.589Z",
+  "evidence": "Actual 2D drag/3D display of integrated GLB accepted at a free-placement near-wall position with1mm snapping.1100px inspection canvas is a geometry review, not phone/tablet/native acceptance.",
+  "storageOracle": {
+    "kind": "Production IndexedStorage.getItem, with its read-only legacy fallback",
+    "file": "mobile/src/storage/indexedStore.ts",
+    "sha256": "9943012679fd85da975028e6165febf8e149242bfef7b0a63f7ab6b98f76383d"
+  },
+  "checks": [
+    {
+      "id": "ui-accepted-placement-clears-rendered-wall",
+      "pass": false
+    }
+  ],
+  "errors": [],
+  "consoleErrors": [],
+  "frozen": {
+    "id": "2026-11-10T03-50-04-350Z-frozen-web",
+    "url": "http://127.0.0.1:52894",
+    "sourceHash": "4d8d0e3ddba05a562e2b74bfb0c36f4cc5b354701e40afb94a4cdff7f7c69a2b",
+    "sourceMapPass": true,
+    "compiledSourceMatchCount": 54
+  },
+  "criticalSourceMatchesCurrent": {
+    "src/domain/geometry.ts": true,
+    "src/scene/RoomScene.tsx": true
+  },
+  "actual": {
+    "item": {
+      "id": "qa-clearance-item",
+      "roomId": "room-mwa72e58-mz2mghm",
+      "assetId": "ois.calm-oak.kitchen-base",
+      "assetVersion": "0.1.0",
+      "assetHash": "50feb5b77773185282de5a3694f6e764d5f2e87b323f906aa394c6187669928a",
+      "x": 3,
+      "z": 0.336,
+      "yaw": 3.141592653589793,
+      "locked": false,
+      "materialOverrides": {}
+    },
+    "footprintMinZ": 0.025999997615814174,
+    "wallInnerZ": 0.06,
+    "penetrationMetres": 0.03400000238418582,
+    "past": 1
+  },
+  "completed": true
+}

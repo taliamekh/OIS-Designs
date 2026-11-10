@@ -2,11 +2,6 @@
 const fs = require("node:fs"),
   path = require("node:path"),
   http = require("node:http");
-const report = require("../../docs/build/frozen-web-export.json"),
-  root = path.resolve(report.webRoot),
-  port = Number(process.env.OIS_QA_PORT || 8084);
-if (report.exit !== 0 || !report.stable || !report.accepted)
-  throw Error("A stable successful export is required");
 const mime = {
   ".html": "text/html",
   ".js": "application/javascript",
@@ -19,8 +14,11 @@ const mime = {
   ".ttf": "font/ttf",
   ".woff2": "font/woff2",
 };
-http
-  .createServer((request, response) => {
+function createFrozenServer(report) {
+  if (report.exit !== 0 || !report.stable || !report.accepted)
+    throw Error("A stable successful export is required");
+  const root = path.resolve(report.webRoot);
+  return http.createServer((request, response) => {
     try {
       const pathname = decodeURIComponent(
         new URL(request.url, "http://localhost").pathname,
@@ -44,7 +42,19 @@ http
       response.writeHead(400);
       response.end();
     }
-  })
-  .listen(port, "127.0.0.1", () =>
-    console.log(JSON.stringify({ port, root, at: new Date().toISOString() })),
+  });
+}
+module.exports = { createFrozenServer };
+if (require.main === module) {
+  const report = require("../../docs/build/frozen-web-export.json"),
+    port = Number(process.env.OIS_QA_PORT || 8084);
+  createFrozenServer(report).listen(port, "127.0.0.1", () =>
+    console.log(
+      JSON.stringify({
+        port,
+        root: report.webRoot,
+        at: new Date().toISOString(),
+      }),
+    ),
   );
+}

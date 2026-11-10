@@ -37,6 +37,8 @@ const aliases: Record<string, string> = {
   double: "full",
   couch: "sofa",
 };
+export const isReviewedAsset = (asset: AssetRecord) =>
+  asset.stage === "internally-accepted" || asset.stage === "reviewed-variant";
 export function searchAssets(
   assets: AssetRecord[],
   f: Filters,
@@ -50,6 +52,7 @@ export function searchAssets(
     .filter(Boolean)
     .map((t) => aliases[t] || t);
   return assets
+    .filter(isReviewedAsset)
     .filter((a) => {
       const text = [
         a.name,

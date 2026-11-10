@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-11-10T03:41:15.249Z",
-  "baseURL": "http://localhost:8081",
+  "timestamp": "2026-11-10T04:49:19.442Z",
+  "baseURL": "http://127.0.0.1:56297",
   "evidence": "Actual partial shared-wall annotations on four sides, metric/imperial and two phone sizes. Isolated validated synthetic projects; no native claim.",
   "storageOracle": {
     "kind": "Production IndexedStorage.getItem, with its read-only legacy fallback",
@@ -141,6 +141,11 @@
           ]
         },
         {
+          "id": "annotations-do-not-overlap-ordinary-plan-labels",
+          "pass": true,
+          "observed": []
+        },
+        {
           "id": "inspection-preserves-project",
           "pass": true
         }
@@ -236,20 +241,19 @@
               }
             ]
           }
-        ]
+        ],
+        "overlaps": []
       },
       "expected": [
         {
-          "roomId": "room-mwa57y99-tekwicf",
           "name": "Living room",
           "before": 1.65,
-          "after": 3.4499999999999997
+          "after": 3.45
         },
         {
-          "roomId": "room-mwa57y99-ynig7k4",
           "name": "Kitchen",
-          "before": 1.4500000000000002,
-          "after": 0.65
+          "before": 0.65,
+          "after": 1.4500000000000002
         }
       ],
       "screenshot": "door-matrix-right-m-390.png",
@@ -388,6 +392,11 @@
           ]
         },
         {
+          "id": "annotations-do-not-overlap-ordinary-plan-labels",
+          "pass": true,
+          "observed": []
+        },
+        {
           "id": "inspection-preserves-project",
           "pass": true
         }
@@ -483,17 +492,16 @@
               }
             ]
           }
-        ]
+        ],
+        "overlaps": []
       },
       "expected": [
         {
-          "roomId": "room-mwa5845x-kvxq3mc",
           "name": "Living room",
-          "before": 3.4499999999999997,
-          "after": 1.65
+          "before": 1.65,
+          "after": 3.45
         },
         {
-          "roomId": "room-mwa5845x-qeum7ru",
           "name": "Kitchen",
           "before": 0.65,
           "after": 1.4500000000000002
@@ -635,6 +643,11 @@
           ]
         },
         {
+          "id": "annotations-do-not-overlap-ordinary-plan-labels",
+          "pass": true,
+          "observed": []
+        },
+        {
           "id": "inspection-preserves-project",
           "pass": true
         }
@@ -730,20 +743,19 @@
               }
             ]
           }
-        ]
+        ],
+        "overlaps": []
       },
       "expected": [
         {
-          "roomId": "room-mwa58bwv-y2xp2sa",
           "name": "Living room",
           "before": 1.65,
-          "after": 3.4499999999999997
+          "after": 3.45
         },
         {
-          "roomId": "room-mwa58bww-k563f5l",
           "name": "Kitchen",
-          "before": 2.45,
-          "after": 0.65
+          "before": 0.65,
+          "after": 2.45
         }
       ],
       "screenshot": "door-matrix-top-m-390.png",
@@ -787,32 +799,32 @@
           "observed": [
             {
               "text": "1.65 m",
-              "x": 87.51718139648438,
-              "y": 428,
+              "x": 76.2421875,
+              "y": 346,
               "width": 26,
               "height": 10,
               "inside": true
             },
             {
               "text": "0.90 m",
-              "x": 143.1921844482422,
-              "y": 428,
+              "x": 114.4921875,
+              "y": 346,
               "width": 26,
               "height": 10,
               "inside": true
             },
             {
               "text": "3.45 m",
-              "x": 238.16717529296875,
-              "y": 428,
+              "x": 179.7421875,
+              "y": 346,
               "width": 26,
               "height": 10,
               "inside": true
             },
             {
               "text": "Living room",
-              "x": 87.53500366210938,
-              "y": 446,
+              "x": 72.77499389648438,
+              "y": 364,
               "width": 47.24560546875,
               "height": 10,
               "inside": true
@@ -840,7 +852,7 @@
           "pass": true,
           "observed": {
             "expectedMetres": 4,
-            "actualMetres": 4.000000116479306
+            "actualMetres": 4
           }
         },
         {
@@ -849,37 +861,42 @@
           "observed": [
             {
               "text": "0.65 m",
-              "x": 109.35051727294922,
-              "y": 468,
-              "width": 26.00000762939453,
+              "x": 91.2421875,
+              "y": 386,
+              "width": 26,
               "height": 10,
               "inside": true
             },
             {
               "text": "0.90 m",
-              "x": 143.1921844482422,
-              "y": 468,
+              "x": 114.4921875,
+              "y": 386,
               "width": 26,
               "height": 10,
               "inside": true
             },
             {
               "text": "2.45 m",
-              "x": 215.3338623046875,
-              "y": 468,
+              "x": 163.7421875,
+              "y": 386,
               "width": 27,
               "height": 10,
               "inside": true
             },
             {
               "text": "Kitchen",
-              "x": 235.64334106445312,
-              "y": 486,
+              "x": 177.14999389648438,
+              "y": 404,
               "width": 29.98974609375,
               "height": 10,
               "inside": true
             }
           ]
+        },
+        {
+          "id": "annotations-do-not-overlap-ordinary-plan-labels",
+          "pass": true,
+          "observed": []
         },
         {
           "id": "inspection-preserves-project",
@@ -889,7 +906,7 @@
       "errors": [],
       "consoleErrors": [],
       "actual": {
-        "scale": 43.666666666666664,
+        "scale": 30,
         "rows": [
           {
             "name": "Living room",
@@ -902,32 +919,32 @@
             "boxes": [
               {
                 "text": "1.65 m",
-                "x": 87.51718139648438,
-                "y": 428,
+                "x": 76.2421875,
+                "y": 346,
                 "width": 26,
                 "height": 10,
                 "inside": true
               },
               {
                 "text": "0.90 m",
-                "x": 143.1921844482422,
-                "y": 428,
+                "x": 114.4921875,
+                "y": 346,
                 "width": 26,
                 "height": 10,
                 "inside": true
               },
               {
                 "text": "3.45 m",
-                "x": 238.16717529296875,
-                "y": 428,
+                "x": 179.7421875,
+                "y": 346,
                 "width": 26,
                 "height": 10,
                 "inside": true
               },
               {
                 "text": "Living room",
-                "x": 87.53500366210938,
-                "y": 446,
+                "x": 72.77499389648438,
+                "y": 364,
                 "width": 47.24560546875,
                 "height": 10,
                 "inside": true
@@ -941,53 +958,52 @@
               "0.90 m",
               "2.45 m"
             ],
-            "chainLengthMetres": 4.000000116479306,
+            "chainLengthMetres": 4,
             "boxes": [
               {
                 "text": "0.65 m",
-                "x": 109.35051727294922,
-                "y": 468,
-                "width": 26.00000762939453,
+                "x": 91.2421875,
+                "y": 386,
+                "width": 26,
                 "height": 10,
                 "inside": true
               },
               {
                 "text": "0.90 m",
-                "x": 143.1921844482422,
-                "y": 468,
+                "x": 114.4921875,
+                "y": 386,
                 "width": 26,
                 "height": 10,
                 "inside": true
               },
               {
                 "text": "2.45 m",
-                "x": 215.3338623046875,
-                "y": 468,
+                "x": 163.7421875,
+                "y": 386,
                 "width": 27,
                 "height": 10,
                 "inside": true
               },
               {
                 "text": "Kitchen",
-                "x": 235.64334106445312,
-                "y": 486,
+                "x": 177.14999389648438,
+                "y": 404,
                 "width": 29.98974609375,
                 "height": 10,
                 "inside": true
               }
             ]
           }
-        ]
+        ],
+        "overlaps": []
       },
       "expected": [
         {
-          "roomId": "room-mwa58g6f-jiaeez1",
           "name": "Living room",
-          "before": 3.4499999999999997,
-          "after": 1.65
+          "before": 1.65,
+          "after": 3.45
         },
         {
-          "roomId": "room-mwa58g6f-pcfsmpl",
           "name": "Kitchen",
           "before": 0.65,
           "after": 2.45
@@ -1034,32 +1050,32 @@
           "observed": [
             {
               "text": "5′ 5″",
-              "x": 309,
-              "y": 220.54063415527344,
+              "x": 227,
+              "y": 209.265625,
               "width": 10,
               "height": 18.21875,
               "inside": true
             },
             {
               "text": "2′ 11″",
-              "x": 309,
-              "y": 273.12969970703125,
+              "x": 227,
+              "y": 244.4296875,
               "width": 10,
               "height": 23.384765625,
               "inside": true
             },
             {
               "text": "11′ 4″",
-              "x": 309,
-              "y": 369.10467529296875,
+              "x": 227,
+              "y": 310.6796875,
               "width": 10,
               "height": 22.384765625,
               "inside": true
             },
             {
               "text": "Living room",
-              "x": 291,
-              "y": 216.53500366210938,
+              "x": 209,
+              "y": 201.77499389648438,
               "width": 10,
               "height": 47.24560546875,
               "inside": true
@@ -1096,37 +1112,42 @@
           "observed": [
             {
               "text": "2′ 2″",
-              "x": 349,
-              "y": 241.37396240234375,
+              "x": 267,
+              "y": 223.265625,
               "width": 10,
               "height": 19.21875,
               "inside": true
             },
             {
               "text": "2′ 11″",
-              "x": 349,
-              "y": 273.12969970703125,
+              "x": 267,
+              "y": 244.4296875,
               "width": 10,
               "height": 23.384765625,
               "inside": true
             },
             {
               "text": "4′ 9″",
-              "x": 349,
-              "y": 326.5239562988281,
+              "x": 267,
+              "y": 281.765625,
               "width": 10,
               "height": 19.21875,
               "inside": true
             },
             {
               "text": "Kitchen",
-              "x": 331,
-              "y": 328.836669921875,
+              "x": 249,
+              "y": 281.54998779296875,
               "width": 10,
               "height": 29.98974609375,
               "inside": true
             }
           ]
+        },
+        {
+          "id": "annotations-do-not-overlap-ordinary-plan-labels",
+          "pass": true,
+          "observed": []
         },
         {
           "id": "inspection-preserves-project",
@@ -1136,7 +1157,7 @@
       "errors": [],
       "consoleErrors": [],
       "actual": {
-        "scale": 43.666666666666664,
+        "scale": 30,
         "rows": [
           {
             "name": "Living room",
@@ -1149,32 +1170,32 @@
             "boxes": [
               {
                 "text": "5′ 5″",
-                "x": 309,
-                "y": 220.54063415527344,
+                "x": 227,
+                "y": 209.265625,
                 "width": 10,
                 "height": 18.21875,
                 "inside": true
               },
               {
                 "text": "2′ 11″",
-                "x": 309,
-                "y": 273.12969970703125,
+                "x": 227,
+                "y": 244.4296875,
                 "width": 10,
                 "height": 23.384765625,
                 "inside": true
               },
               {
                 "text": "11′ 4″",
-                "x": 309,
-                "y": 369.10467529296875,
+                "x": 227,
+                "y": 310.6796875,
                 "width": 10,
                 "height": 22.384765625,
                 "inside": true
               },
               {
                 "text": "Living room",
-                "x": 291,
-                "y": 216.53500366210938,
+                "x": 209,
+                "y": 201.77499389648438,
                 "width": 10,
                 "height": 47.24560546875,
                 "inside": true
@@ -1192,52 +1213,51 @@
             "boxes": [
               {
                 "text": "2′ 2″",
-                "x": 349,
-                "y": 241.37396240234375,
+                "x": 267,
+                "y": 223.265625,
                 "width": 10,
                 "height": 19.21875,
                 "inside": true
               },
               {
                 "text": "2′ 11″",
-                "x": 349,
-                "y": 273.12969970703125,
+                "x": 267,
+                "y": 244.4296875,
                 "width": 10,
                 "height": 23.384765625,
                 "inside": true
               },
               {
                 "text": "4′ 9″",
-                "x": 349,
-                "y": 326.5239562988281,
+                "x": 267,
+                "y": 281.765625,
                 "width": 10,
                 "height": 19.21875,
                 "inside": true
               },
               {
                 "text": "Kitchen",
-                "x": 331,
-                "y": 328.836669921875,
+                "x": 249,
+                "y": 281.54998779296875,
                 "width": 10,
                 "height": 29.98974609375,
                 "inside": true
               }
             ]
           }
-        ]
+        ],
+        "overlaps": []
       },
       "expected": [
         {
-          "roomId": "room-mwa58kcr-39cq2pm",
           "name": "Living room",
           "before": 1.65,
-          "after": 3.4499999999999997
+          "after": 3.45
         },
         {
-          "roomId": "room-mwa58kcr-0bthrny",
           "name": "Kitchen",
-          "before": 1.4500000000000002,
-          "after": 0.65
+          "before": 0.65,
+          "after": 1.4500000000000002
         }
       ],
       "screenshot": "door-matrix-right-ft-390.png",
@@ -1376,6 +1396,11 @@
           ]
         },
         {
+          "id": "annotations-do-not-overlap-ordinary-plan-labels",
+          "pass": true,
+          "observed": []
+        },
+        {
           "id": "inspection-preserves-project",
           "pass": true
         }
@@ -1471,17 +1496,16 @@
               }
             ]
           }
-        ]
+        ],
+        "overlaps": []
       },
       "expected": [
         {
-          "roomId": "room-mwa58o25-q10v2d8",
           "name": "Living room",
-          "before": 3.4499999999999997,
-          "after": 1.65
+          "before": 1.65,
+          "after": 3.45
         },
         {
-          "roomId": "room-mwa58o25-v8ukbff",
           "name": "Kitchen",
           "before": 0.65,
           "after": 1.4500000000000002
@@ -1528,7 +1552,7 @@
           "observed": [
             {
               "text": "5′ 5″",
-              "x": 91.54061889648438,
+              "x": 80.265625,
               "y": 200,
               "width": 18.21875,
               "height": 10,
@@ -1536,7 +1560,7 @@
             },
             {
               "text": "2′ 11″",
-              "x": 144.1296844482422,
+              "x": 115.4296875,
               "y": 200,
               "width": 23.384765625,
               "height": 10,
@@ -1544,7 +1568,7 @@
             },
             {
               "text": "11′ 4″",
-              "x": 240.10467529296875,
+              "x": 181.6796875,
               "y": 200,
               "width": 22.384765625,
               "height": 10,
@@ -1552,7 +1576,7 @@
             },
             {
               "text": "Living room",
-              "x": 87.53500366210938,
+              "x": 72.77499389648438,
               "y": 218,
               "width": 47.24560546875,
               "height": 10,
@@ -1581,7 +1605,7 @@
           "pass": true,
           "observed": {
             "expectedMetres": 4,
-            "actualMetres": 4.000000116479306
+            "actualMetres": 4
           }
         },
         {
@@ -1590,15 +1614,15 @@
           "observed": [
             {
               "text": "2′ 2″",
-              "x": 112.37395477294922,
+              "x": 94.265625,
               "y": 160,
-              "width": 19.21875762939453,
+              "width": 19.21875,
               "height": 10,
               "inside": true
             },
             {
               "text": "2′ 11″",
-              "x": 144.1296844482422,
+              "x": 115.4296875,
               "y": 160,
               "width": 23.384765625,
               "height": 10,
@@ -1606,7 +1630,7 @@
             },
             {
               "text": "8′ 0″",
-              "x": 220.3572998046875,
+              "x": 168.765625,
               "y": 160,
               "width": 18.21875,
               "height": 10,
@@ -1614,13 +1638,18 @@
             },
             {
               "text": "Kitchen",
-              "x": 235.64334106445312,
+              "x": 177.14999389648438,
               "y": 178,
               "width": 29.98974609375,
               "height": 10,
               "inside": true
             }
           ]
+        },
+        {
+          "id": "annotations-do-not-overlap-ordinary-plan-labels",
+          "pass": true,
+          "observed": []
         },
         {
           "id": "inspection-preserves-project",
@@ -1630,7 +1659,7 @@
       "errors": [],
       "consoleErrors": [],
       "actual": {
-        "scale": 43.666666666666664,
+        "scale": 30,
         "rows": [
           {
             "name": "Living room",
@@ -1643,7 +1672,7 @@
             "boxes": [
               {
                 "text": "5′ 5″",
-                "x": 91.54061889648438,
+                "x": 80.265625,
                 "y": 200,
                 "width": 18.21875,
                 "height": 10,
@@ -1651,7 +1680,7 @@
               },
               {
                 "text": "2′ 11″",
-                "x": 144.1296844482422,
+                "x": 115.4296875,
                 "y": 200,
                 "width": 23.384765625,
                 "height": 10,
@@ -1659,7 +1688,7 @@
               },
               {
                 "text": "11′ 4″",
-                "x": 240.10467529296875,
+                "x": 181.6796875,
                 "y": 200,
                 "width": 22.384765625,
                 "height": 10,
@@ -1667,7 +1696,7 @@
               },
               {
                 "text": "Living room",
-                "x": 87.53500366210938,
+                "x": 72.77499389648438,
                 "y": 218,
                 "width": 47.24560546875,
                 "height": 10,
@@ -1682,19 +1711,19 @@
               "2′ 11″",
               "8′ 0″"
             ],
-            "chainLengthMetres": 4.000000116479306,
+            "chainLengthMetres": 4,
             "boxes": [
               {
                 "text": "2′ 2″",
-                "x": 112.37395477294922,
+                "x": 94.265625,
                 "y": 160,
-                "width": 19.21875762939453,
+                "width": 19.21875,
                 "height": 10,
                 "inside": true
               },
               {
                 "text": "2′ 11″",
-                "x": 144.1296844482422,
+                "x": 115.4296875,
                 "y": 160,
                 "width": 23.384765625,
                 "height": 10,
@@ -1702,7 +1731,7 @@
               },
               {
                 "text": "8′ 0″",
-                "x": 220.3572998046875,
+                "x": 168.765625,
                 "y": 160,
                 "width": 18.21875,
                 "height": 10,
@@ -1710,7 +1739,7 @@
               },
               {
                 "text": "Kitchen",
-                "x": 235.64334106445312,
+                "x": 177.14999389648438,
                 "y": 178,
                 "width": 29.98974609375,
                 "height": 10,
@@ -1718,20 +1747,19 @@
               }
             ]
           }
-        ]
+        ],
+        "overlaps": []
       },
       "expected": [
         {
-          "roomId": "room-mwa58rqy-2e1xma2",
           "name": "Living room",
           "before": 1.65,
-          "after": 3.4499999999999997
+          "after": 3.45
         },
         {
-          "roomId": "room-mwa58rqz-2qggpdt",
           "name": "Kitchen",
-          "before": 2.45,
-          "after": 0.65
+          "before": 0.65,
+          "after": 2.45
         }
       ],
       "screenshot": "door-matrix-top-ft-390.png",
@@ -1870,6 +1898,11 @@
           ]
         },
         {
+          "id": "annotations-do-not-overlap-ordinary-plan-labels",
+          "pass": true,
+          "observed": []
+        },
+        {
           "id": "inspection-preserves-project",
           "pass": true
         }
@@ -1965,17 +1998,16 @@
               }
             ]
           }
-        ]
+        ],
+        "overlaps": []
       },
       "expected": [
         {
-          "roomId": "room-mwa58vfq-npr0yhp",
           "name": "Living room",
-          "before": 3.4499999999999997,
-          "after": 1.65
+          "before": 1.65,
+          "after": 3.45
         },
         {
-          "roomId": "room-mwa58vfq-4eoqwov",
           "name": "Kitchen",
           "before": 0.65,
           "after": 2.45
@@ -2117,6 +2149,11 @@
           ]
         },
         {
+          "id": "annotations-do-not-overlap-ordinary-plan-labels",
+          "pass": true,
+          "observed": []
+        },
+        {
           "id": "inspection-preserves-project",
           "pass": true
         }
@@ -2212,20 +2249,19 @@
               }
             ]
           }
-        ]
+        ],
+        "overlaps": []
       },
       "expected": [
         {
-          "roomId": "room-mwa590iv-40gbdw4",
           "name": "Living room",
           "before": 1.65,
-          "after": 3.4499999999999997
+          "after": 3.45
         },
         {
-          "roomId": "room-mwa590iv-xlgy4yl",
           "name": "Kitchen",
-          "before": 1.4500000000000002,
-          "after": 0.65
+          "before": 0.65,
+          "after": 1.4500000000000002
         }
       ],
       "screenshot": "door-matrix-right-m-320.png",
@@ -2270,7 +2306,7 @@
             {
               "text": "1.65 m",
               "x": 87,
-              "y": 212.89218139648438,
+              "y": 211.2421875,
               "width": 10,
               "height": 26,
               "inside": true
@@ -2278,15 +2314,15 @@
             {
               "text": "0.90 m",
               "x": 87,
-              "y": 253.6921844482422,
+              "y": 249.4921875,
               "width": 10,
-              "height": 26.000015258789062,
+              "height": 26,
               "inside": true
             },
             {
               "text": "3.45 m",
               "x": 87,
-              "y": 323.29217529296875,
+              "y": 314.7421875,
               "width": 10,
               "height": 26,
               "inside": true
@@ -2294,7 +2330,7 @@
             {
               "text": "Living room",
               "x": 69,
-              "y": 209.93499755859375,
+              "y": 207.77499389648438,
               "width": 10,
               "height": 47.24560546875,
               "inside": true
@@ -2332,7 +2368,7 @@
             {
               "text": "0.65 m",
               "x": 47,
-              "y": 228.89218139648438,
+              "y": 226.2421875,
               "width": 10,
               "height": 26,
               "inside": true
@@ -2340,15 +2376,15 @@
             {
               "text": "0.90 m",
               "x": 47,
-              "y": 253.6921844482422,
+              "y": 249.4921875,
               "width": 10,
-              "height": 26.000015258789062,
+              "height": 26,
               "inside": true
             },
             {
               "text": "1.45 m",
               "x": 47,
-              "y": 291.29217529296875,
+              "y": 284.7421875,
               "width": 10,
               "height": 26,
               "inside": true
@@ -2356,12 +2392,17 @@
             {
               "text": "Kitchen",
               "x": 29,
-              "y": 294.4700012207031,
+              "y": 287.54998779296875,
               "width": 10,
               "height": 29.98974609375,
               "inside": true
             }
           ]
+        },
+        {
+          "id": "annotations-do-not-overlap-ordinary-plan-labels",
+          "pass": true,
+          "observed": []
         },
         {
           "id": "inspection-preserves-project",
@@ -2371,7 +2412,7 @@
       "errors": [],
       "consoleErrors": [],
       "actual": {
-        "scale": 32,
+        "scale": 30,
         "rows": [
           {
             "name": "Living room",
@@ -2385,7 +2426,7 @@
               {
                 "text": "1.65 m",
                 "x": 87,
-                "y": 212.89218139648438,
+                "y": 211.2421875,
                 "width": 10,
                 "height": 26,
                 "inside": true
@@ -2393,15 +2434,15 @@
               {
                 "text": "0.90 m",
                 "x": 87,
-                "y": 253.6921844482422,
+                "y": 249.4921875,
                 "width": 10,
-                "height": 26.000015258789062,
+                "height": 26,
                 "inside": true
               },
               {
                 "text": "3.45 m",
                 "x": 87,
-                "y": 323.29217529296875,
+                "y": 314.7421875,
                 "width": 10,
                 "height": 26,
                 "inside": true
@@ -2409,7 +2450,7 @@
               {
                 "text": "Living room",
                 "x": 69,
-                "y": 209.93499755859375,
+                "y": 207.77499389648438,
                 "width": 10,
                 "height": 47.24560546875,
                 "inside": true
@@ -2428,7 +2469,7 @@
               {
                 "text": "0.65 m",
                 "x": 47,
-                "y": 228.89218139648438,
+                "y": 226.2421875,
                 "width": 10,
                 "height": 26,
                 "inside": true
@@ -2436,15 +2477,15 @@
               {
                 "text": "0.90 m",
                 "x": 47,
-                "y": 253.6921844482422,
+                "y": 249.4921875,
                 "width": 10,
-                "height": 26.000015258789062,
+                "height": 26,
                 "inside": true
               },
               {
                 "text": "1.45 m",
                 "x": 47,
-                "y": 291.29217529296875,
+                "y": 284.7421875,
                 "width": 10,
                 "height": 26,
                 "inside": true
@@ -2452,24 +2493,23 @@
               {
                 "text": "Kitchen",
                 "x": 29,
-                "y": 294.4700012207031,
+                "y": 287.54998779296875,
                 "width": 10,
                 "height": 29.98974609375,
                 "inside": true
               }
             ]
           }
-        ]
+        ],
+        "overlaps": []
       },
       "expected": [
         {
-          "roomId": "room-mwa594ut-ktgq07l",
           "name": "Living room",
-          "before": 3.4499999999999997,
-          "after": 1.65
+          "before": 1.65,
+          "after": 3.45
         },
         {
-          "roomId": "room-mwa594ut-eyj2a1y",
           "name": "Kitchen",
           "before": 0.65,
           "after": 1.4500000000000002
@@ -2611,6 +2651,11 @@
           ]
         },
         {
+          "id": "annotations-do-not-overlap-ordinary-plan-labels",
+          "pass": true,
+          "observed": []
+        },
+        {
           "id": "inspection-preserves-project",
           "pass": true
         }
@@ -2706,20 +2751,19 @@
               }
             ]
           }
-        ]
+        ],
+        "overlaps": []
       },
       "expected": [
         {
-          "roomId": "room-mwa598q3-3qqoi6r",
           "name": "Living room",
           "before": 1.65,
-          "after": 3.4499999999999997
+          "after": 3.45
         },
         {
-          "roomId": "room-mwa598q3-03rk2g5",
           "name": "Kitchen",
-          "before": 2.45,
-          "after": 0.65
+          "before": 0.65,
+          "after": 2.45
         }
       ],
       "screenshot": "door-matrix-top-m-320.png",
@@ -2763,32 +2807,32 @@
           "observed": [
             {
               "text": "1.65 m",
-              "x": 77.8921890258789,
-              "y": 358,
+              "x": 76.2421875,
+              "y": 346,
               "width": 26,
               "height": 10,
               "inside": true
             },
             {
               "text": "0.90 m",
-              "x": 118.69218444824219,
-              "y": 358,
+              "x": 114.4921875,
+              "y": 346,
               "width": 26,
               "height": 10,
               "inside": true
             },
             {
               "text": "3.45 m",
-              "x": 188.2921905517578,
-              "y": 358,
+              "x": 179.7421875,
+              "y": 346,
               "width": 26,
               "height": 10,
               "inside": true
             },
             {
               "text": "Living room",
-              "x": 74.93499755859375,
-              "y": 376,
+              "x": 72.77499389648438,
+              "y": 364,
               "width": 47.24560546875,
               "height": 10,
               "inside": true
@@ -2825,37 +2869,42 @@
           "observed": [
             {
               "text": "0.65 m",
-              "x": 93.89218139648438,
-              "y": 398,
+              "x": 91.2421875,
+              "y": 386,
               "width": 26,
               "height": 10,
               "inside": true
             },
             {
               "text": "0.90 m",
-              "x": 118.69218444824219,
-              "y": 398,
+              "x": 114.4921875,
+              "y": 386,
               "width": 26,
               "height": 10,
               "inside": true
             },
             {
               "text": "2.45 m",
-              "x": 171.2921905517578,
-              "y": 398,
+              "x": 163.7421875,
+              "y": 386,
               "width": 27,
               "height": 10,
               "inside": true
             },
             {
               "text": "Kitchen",
-              "x": 185.7100067138672,
-              "y": 416,
+              "x": 177.14999389648438,
+              "y": 404,
               "width": 29.98974609375,
               "height": 10,
               "inside": true
             }
           ]
+        },
+        {
+          "id": "annotations-do-not-overlap-ordinary-plan-labels",
+          "pass": true,
+          "observed": []
         },
         {
           "id": "inspection-preserves-project",
@@ -2865,7 +2914,7 @@
       "errors": [],
       "consoleErrors": [],
       "actual": {
-        "scale": 32,
+        "scale": 30,
         "rows": [
           {
             "name": "Living room",
@@ -2878,32 +2927,32 @@
             "boxes": [
               {
                 "text": "1.65 m",
-                "x": 77.8921890258789,
-                "y": 358,
+                "x": 76.2421875,
+                "y": 346,
                 "width": 26,
                 "height": 10,
                 "inside": true
               },
               {
                 "text": "0.90 m",
-                "x": 118.69218444824219,
-                "y": 358,
+                "x": 114.4921875,
+                "y": 346,
                 "width": 26,
                 "height": 10,
                 "inside": true
               },
               {
                 "text": "3.45 m",
-                "x": 188.2921905517578,
-                "y": 358,
+                "x": 179.7421875,
+                "y": 346,
                 "width": 26,
                 "height": 10,
                 "inside": true
               },
               {
                 "text": "Living room",
-                "x": 74.93499755859375,
-                "y": 376,
+                "x": 72.77499389648438,
+                "y": 364,
                 "width": 47.24560546875,
                 "height": 10,
                 "inside": true
@@ -2921,49 +2970,48 @@
             "boxes": [
               {
                 "text": "0.65 m",
-                "x": 93.89218139648438,
-                "y": 398,
+                "x": 91.2421875,
+                "y": 386,
                 "width": 26,
                 "height": 10,
                 "inside": true
               },
               {
                 "text": "0.90 m",
-                "x": 118.69218444824219,
-                "y": 398,
+                "x": 114.4921875,
+                "y": 386,
                 "width": 26,
                 "height": 10,
                 "inside": true
               },
               {
                 "text": "2.45 m",
-                "x": 171.2921905517578,
-                "y": 398,
+                "x": 163.7421875,
+                "y": 386,
                 "width": 27,
                 "height": 10,
                 "inside": true
               },
               {
                 "text": "Kitchen",
-                "x": 185.7100067138672,
-                "y": 416,
+                "x": 177.14999389648438,
+                "y": 404,
                 "width": 29.98974609375,
                 "height": 10,
                 "inside": true
               }
             ]
           }
-        ]
+        ],
+        "overlaps": []
       },
       "expected": [
         {
-          "roomId": "room-mwa59cis-tbv1qpw",
           "name": "Living room",
-          "before": 3.4499999999999997,
-          "after": 1.65
+          "before": 1.65,
+          "after": 3.45
         },
         {
-          "roomId": "room-mwa59cit-enw35z5",
           "name": "Kitchen",
           "before": 0.65,
           "after": 2.45
@@ -3105,6 +3153,11 @@
           ]
         },
         {
+          "id": "annotations-do-not-overlap-ordinary-plan-labels",
+          "pass": true,
+          "observed": []
+        },
+        {
           "id": "inspection-preserves-project",
           "pass": true
         }
@@ -3200,20 +3253,19 @@
               }
             ]
           }
-        ]
+        ],
+        "overlaps": []
       },
       "expected": [
         {
-          "roomId": "room-mwa59gf4-tjk8mz8",
           "name": "Living room",
           "before": 1.65,
-          "after": 3.4499999999999997
+          "after": 3.45
         },
         {
-          "roomId": "room-mwa59gf4-66v4lk0",
           "name": "Kitchen",
-          "before": 1.4500000000000002,
-          "after": 0.65
+          "before": 0.65,
+          "after": 1.4500000000000002
         }
       ],
       "screenshot": "door-matrix-right-ft-320.png",
@@ -3258,7 +3310,7 @@
             {
               "text": "5′ 5″",
               "x": 87,
-              "y": 216.91561889648438,
+              "y": 215.265625,
               "width": 10,
               "height": 18.21875,
               "inside": true
@@ -3266,15 +3318,15 @@
             {
               "text": "2′ 11″",
               "x": 87,
-              "y": 254.6296844482422,
+              "y": 250.4296875,
               "width": 10,
-              "height": 23.384780883789062,
+              "height": 23.384765625,
               "inside": true
             },
             {
               "text": "11′ 4″",
               "x": 87,
-              "y": 325.22967529296875,
+              "y": 316.6796875,
               "width": 10,
               "height": 22.384765625,
               "inside": true
@@ -3282,7 +3334,7 @@
             {
               "text": "Living room",
               "x": 69,
-              "y": 209.93499755859375,
+              "y": 207.77499389648438,
               "width": 10,
               "height": 47.24560546875,
               "inside": true
@@ -3320,7 +3372,7 @@
             {
               "text": "2′ 2″",
               "x": 47,
-              "y": 231.91561889648438,
+              "y": 229.265625,
               "width": 10,
               "height": 19.21875,
               "inside": true
@@ -3328,15 +3380,15 @@
             {
               "text": "2′ 11″",
               "x": 47,
-              "y": 254.6296844482422,
+              "y": 250.4296875,
               "width": 10,
-              "height": 23.384780883789062,
+              "height": 23.384765625,
               "inside": true
             },
             {
               "text": "4′ 9″",
               "x": 47,
-              "y": 294.31561279296875,
+              "y": 287.765625,
               "width": 10,
               "height": 19.21875,
               "inside": true
@@ -3344,12 +3396,17 @@
             {
               "text": "Kitchen",
               "x": 29,
-              "y": 294.4700012207031,
+              "y": 287.54998779296875,
               "width": 10,
               "height": 29.98974609375,
               "inside": true
             }
           ]
+        },
+        {
+          "id": "annotations-do-not-overlap-ordinary-plan-labels",
+          "pass": true,
+          "observed": []
         },
         {
           "id": "inspection-preserves-project",
@@ -3359,7 +3416,7 @@
       "errors": [],
       "consoleErrors": [],
       "actual": {
-        "scale": 32,
+        "scale": 30,
         "rows": [
           {
             "name": "Living room",
@@ -3373,7 +3430,7 @@
               {
                 "text": "5′ 5″",
                 "x": 87,
-                "y": 216.91561889648438,
+                "y": 215.265625,
                 "width": 10,
                 "height": 18.21875,
                 "inside": true
@@ -3381,15 +3438,15 @@
               {
                 "text": "2′ 11″",
                 "x": 87,
-                "y": 254.6296844482422,
+                "y": 250.4296875,
                 "width": 10,
-                "height": 23.384780883789062,
+                "height": 23.384765625,
                 "inside": true
               },
               {
                 "text": "11′ 4″",
                 "x": 87,
-                "y": 325.22967529296875,
+                "y": 316.6796875,
                 "width": 10,
                 "height": 22.384765625,
                 "inside": true
@@ -3397,7 +3454,7 @@
               {
                 "text": "Living room",
                 "x": 69,
-                "y": 209.93499755859375,
+                "y": 207.77499389648438,
                 "width": 10,
                 "height": 47.24560546875,
                 "inside": true
@@ -3416,7 +3473,7 @@
               {
                 "text": "2′ 2″",
                 "x": 47,
-                "y": 231.91561889648438,
+                "y": 229.265625,
                 "width": 10,
                 "height": 19.21875,
                 "inside": true
@@ -3424,15 +3481,15 @@
               {
                 "text": "2′ 11″",
                 "x": 47,
-                "y": 254.6296844482422,
+                "y": 250.4296875,
                 "width": 10,
-                "height": 23.384780883789062,
+                "height": 23.384765625,
                 "inside": true
               },
               {
                 "text": "4′ 9″",
                 "x": 47,
-                "y": 294.31561279296875,
+                "y": 287.765625,
                 "width": 10,
                 "height": 19.21875,
                 "inside": true
@@ -3440,24 +3497,23 @@
               {
                 "text": "Kitchen",
                 "x": 29,
-                "y": 294.4700012207031,
+                "y": 287.54998779296875,
                 "width": 10,
                 "height": 29.98974609375,
                 "inside": true
               }
             ]
           }
-        ]
+        ],
+        "overlaps": []
       },
       "expected": [
         {
-          "roomId": "room-mwa59knq-mkk7kg7",
           "name": "Living room",
-          "before": 3.4499999999999997,
-          "after": 1.65
+          "before": 1.65,
+          "after": 3.45
         },
         {
-          "roomId": "room-mwa59knq-h9552y5",
           "name": "Kitchen",
           "before": 0.65,
           "after": 1.4500000000000002
@@ -3599,6 +3655,11 @@
           ]
         },
         {
+          "id": "annotations-do-not-overlap-ordinary-plan-labels",
+          "pass": true,
+          "observed": []
+        },
+        {
           "id": "inspection-preserves-project",
           "pass": true
         }
@@ -3694,20 +3755,19 @@
               }
             ]
           }
-        ]
+        ],
+        "overlaps": []
       },
       "expected": [
         {
-          "roomId": "room-mwa59odb-vk3chth",
           "name": "Living room",
           "before": 1.65,
-          "after": 3.4499999999999997
+          "after": 3.45
         },
         {
-          "roomId": "room-mwa59odb-wkz0har",
           "name": "Kitchen",
-          "before": 2.45,
-          "after": 0.65
+          "before": 0.65,
+          "after": 2.45
         }
       ],
       "screenshot": "door-matrix-top-ft-320.png",
@@ -3846,6 +3906,11 @@
           ]
         },
         {
+          "id": "annotations-do-not-overlap-ordinary-plan-labels",
+          "pass": true,
+          "observed": []
+        },
+        {
           "id": "inspection-preserves-project",
           "pass": true
         }
@@ -3941,17 +4006,16 @@
               }
             ]
           }
-        ]
+        ],
+        "overlaps": []
       },
       "expected": [
         {
-          "roomId": "room-mwa59s95-gh373ui",
           "name": "Living room",
-          "before": 3.4499999999999997,
-          "after": 1.65
+          "before": 1.65,
+          "after": 3.45
         },
         {
-          "roomId": "room-mwa59s95-w3lxsyw",
           "name": "Kitchen",
           "before": 0.65,
           "after": 2.45
@@ -3961,6 +4025,18 @@
       "completed": true
     }
   ],
-  "passed": 112,
+  "ui": {
+    "kind": "frozen",
+    "id": "2026-11-10T04-35-10-547Z-frozen-web",
+    "url": "http://127.0.0.1:56297",
+    "sourceHash": "e384e6576db1e68bb5edc12c636462d063d9a562db5bd7013cbb383965a24cc9",
+    "sourceMapPass": true,
+    "compiledSourceMatchCount": 55,
+    "plan": {
+      "sha256": "06319df8db473bb72dada999f07a4224254bd505d1023ddd491e4afe5c4394c2",
+      "bytes": 20419
+    }
+  },
+  "passed": 128,
   "failed": 0
 }

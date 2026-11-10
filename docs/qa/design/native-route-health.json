@@ -1,0 +1,33 @@
+{
+  "timestamp": "2026-11-10T04:54:37.069Z",
+  "evidence": "Local actual Expo iOS manifest plus full advertised-path development JS request. No physical launch/linking/GL proof.",
+  "before": {
+    "src/catalogue/bundled.ts": "d68c06ab920b0c3651531c41638b71ff477c5ba71b3ca4f06aa6c21afa3063ef",
+    "src/catalogue/assets.json": "37a3dc2b9b486288839d24092785bb03c7ab1888c205fbd6aa665b07f8d3c470",
+    "metro.config.js": "754e56b3ec0c39bdc655949bccbd187a5384d956071922bb71c70f8404a2d2f9",
+    "package.json": "7edf9bc5a379060527435b1a1c6dc9eb11a0175028be70f0d8a9886d5e5515ce"
+  },
+  "manifest": {
+    "status": 200,
+    "type": "application/expo+json",
+    "runtimeVersion": "exposdk:58.0.0",
+    "sdkVersion": "58.0.0"
+  },
+  "advertisedLaunchHost": "unz98ga-anonymous-8081.exp.direct",
+  "localPath": "/node_modules/expo-router/entry.bundle?platform=ios&dev=true&hot=false&lazy=true&transform.engine=hermes&transform.bytecode=1&transform.routerRoot=src%2Fapp&transform.reactCompiler=true&unstable_transformProfile=hermes-stable",
+  "bundle": {
+    "status": 500,
+    "type": "application/json; charset=UTF-8",
+    "bytes": 10679,
+    "sha256": "05757dbf59fc1a93861cd61ece3032908b0606c81f0f225007d8f45115dccf90",
+    "error": "{\"type\":\"UnableToResolveError\",\"originModulePath\":\"C:\\\\Users\\\\talia\\\\OneDrive\\\\Documents\\\\ChatGPT\\\\OIS Designs\\\\mobile\\\\src\\\\catalogue\\\\bundled.ts\",\"targetModuleName\":\"../../assets/furniture/ois.design.breakfast-overhang-island-d46cc8be7673.glb\",\"message\":\"Unable to resolve module ../../assets/furniture/ois.design.breakfast-overhang-island-d46cc8be7673.glb from C:\\\\Users\\\\talia\\\\OneDrive\\\\Documents\\\\ChatGPT\\\\OIS Designs\\\\mobile\\\\src\\\\catalogue\\\\bundled.ts: \\n\\nNone of these files exist:\\n  * ois.design.breakfast-overhang-island-d46cc8be7673.glb\\n  * assets\\\\furniture\\\\ois.design.breakfast-overhang-island-d46cc8be7673.glb\\n\\u001b[0m \\u001b[90m 70 |\\u001b[39m \\u001b[32m\\\"ois.design.branch-book-tree\\\"\\u001b[39m\\u001b[33m:\\u001b[39m require(\\u001b[32m'../../assets/furniture/ois.design.branch-book-tree-2eb501b10cd2.glb'\\u001b[39m)\\u001b[33m,\\u001b[39m\\n \\u001b[90m 71 |\\u001b[39m \\u001b[32m\\\"ois.design.branch-coat-tree\\\"\\u001b[39m\\u001b[33m:\\u001b[39m require(\\u001b[32m'../../assets/furniture/ois.design.branch-coat-tree-d88c90397d38.glb'\\u001b[39m)\\u001b[33m,\\u001b[39m\\n\\u001b[31m\\u001b[1m>\\u001b[22m\\u001b[39m\\u001b[90m 72 |\\u001b[39m \\u001b[32m\\\"ois.design.breakfast-overhang-island\\\"\\u001b[39m\\u001b[33m:\\u001b[39m require(\\u001b[32m'../../assets/furniture/ois.design.breakfast-overhang-island-d46cc8be7673.glb'\\u001b[39m)\\u001b[33m,\\u001b[39m\\n \\u001b[90m    |\\u001b[39m                                                  \\u001b[31m\\u001b[1m^\\u001b[22m\\u001b[39m\\n \\u001b[90m 73 |\\u001b[39m \\u001b[32m\\\"ois.design.butcher-drawer-island\\\"\\u001b[39m\\u001b[33m:\\u001b[39m require(\\u001b[32m'../../assets/furniture/ois.design.butcher-drawer-island-860c2d533600.glb'\\u001b[39m)\\u001b[33m,\\u001b[39m\\n \\u001b[90m 74 |\\u001b[39m \\u001b[32m\\\"ois.design.butterfly-sling-seat\\\"\\u001b[39m\\u001b[33m:\\u001b[39m require(\\u001b[32m'../../assets/furniture/ois.design.butterfly-sling-seat-e4145f94e4b1.glb'\\u001b[39m)\\u001b[33m,\\u001b[39m\\n \\u001b[90m 75 |\\u001b[39m \\u001b[32m\\\"ois.design.cage-table-li"
+  },
+  "pass": false,
+  "after": {
+    "src/catalogue/bundled.ts": "d68c06ab920b0c3651531c41638b71ff477c5ba71b3ca4f06aa6c21afa3063ef",
+    "src/catalogue/assets.json": "37a3dc2b9b486288839d24092785bb03c7ab1888c205fbd6aa665b07f8d3c470",
+    "metro.config.js": "754e56b3ec0c39bdc655949bccbd187a5384d956071922bb71c70f8404a2d2f9",
+    "package.json": "7edf9bc5a379060527435b1a1c6dc9eb11a0175028be70f0d8a9886d5e5515ce"
+  },
+  "stableSourceSamples": true
+}

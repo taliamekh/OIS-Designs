@@ -1,8 +1,10 @@
 # Runtime QA checkpoint
 
-Updated November10 at03:59UTC. Overnight work continues through at least06:53UTC; this is not overall project signoff. This chat edits only `docs/qa/runtime/`.
+Updated November10 at04:41UTC. Overnight work continues through at least06:53UTC; this is not overall project signoff. This chat edits only `docs/qa/runtime/`.
 
-Open: **RUNTIME-013**, structural dimension edits/Undo do not refit the camera; **RUNTIME-014**, whole-floor framing ignores a taller adjacent room unless that room is active. Actual saved room geometry is correct in both cases. See exact reproductions and screenshots in STATUS.md.
+Using the original `PHONE_APP_PLAN.md` IDs, this evidence supports **Phase2** implementation/validation and bounded parts of **Phase3**. **Phase1** physical iPhone/Android acceptance remains open. `docs/planning/PHASE_STATUS.md` is the coordinator's phase reconciliation.
+
+**RUNTIME-013/014 are repaired** at frozen browser source `e384e657...`: the original resize/history and mixed-ceiling fixtures now frame correctly and preserve exact saved geometry. The4/4 source bridge checks also cover alignment updates and preserving a manual orbit across ordinary finish/selection edits. Overall Phase2 acceptance still includes the coordinator/design QA's other open findings and physical-device gates.
 
 | Area | Evidence and result | Limit |
 | --- | --- | --- |
@@ -11,11 +13,13 @@ Open: **RUNTIME-013**, structural dimension edits/Undo do not refit the camera; 
 | Pending/abandoned model ownership |15/15 source-contract/cache/camera/touch tests. Actual30GLB requests complete after navigation away; resulting empty scene has0active/0wanted/0pending/eight idle models. | Fake scheduling in portable tests; browser network test uses a temporary tab-only latency override that was restored. |
 | Tint/history/save | Independent mapped fabric/wood edits,Undo×2/Redo×2,exact canonical floor comparison,locked duplicate unchanged. Cold restoration loads all40 models and both intended tints. | No physical native GL validation. |
 | Large saves/backups |7,575,865-byte300-placement/50-Undo library downloads and file imports byte-exactly. IndexedDB cold hydration passes. Future/corrupt imports preserve original protected bytes; explicit restore archives them. | OS chooser cancellation and receiving native share targets remain unverified. |
+| Browser transaction interruption |6/6 actual IndexedDB/domain checks cover atomic markers,failed writes/read protection,cold reconstruction and original recovery archives. | Deliberate transaction aborts; quota emulation was unavailable. No disk-full,app import UI or native interruption claim. |
 | Native payload storage |25/25 injected adapter tests using real desktop files: tiny pointers,readback verification,ambiguous index commits,pinned recovery archives and restart reconstruction. Native export6/6/import4/4 SDK-boundary checks. | Expo filesystem/OS calls are mocked; physical interruption,storage exhaustion and power-loss behavior remain unverified. |
 | Web import cleanup |6/6 exact-adapter checks on repaired `cf282c24...`; unused Blob URLs released after success and failures. | No measured heap-byte claim. |
-| Native bundle |Unmodified frozen source `354cc35e...` exports iOS and Android JavaScript successfully;54/54 compiled app modules source-map match on each platform. | `--no-bytecode`; no native linking,Hermes/device launch or cloud signing claim. |
+| Native bundle |Unmodified frozen source `742a6c94...` compiles actual iOS/Android Hermes bytecode,v99,6,707,504/6,920,620bytes.51/51 JS/TS modules map exactly;three JSON input hashes separately bound.825/825 GLB revisions export byte-exactly on both platforms. | Actual compiler/export pass; native linking,VM/device launch,EXGL and cloud signing remain unverified. |
+| Native trim photo reference |12/12 SDK-boundary tests cover bounded resize,context/image release on failures,and safe reference lookup. | SDK objects are mocks;actual picker,EXIF/decode,JPEG bytes and native display remain unverified. |
 
-The repaired runtime findings are RUNTIME-006 (large-room camera clipping),007 (cold Settings navigation),008 (open-form history/precision),009/010 (large native payload storage and ambiguous commits),011 (web Blob URL lifetime) and012 (pending model/cache ownership). Historical failures and exact source hashes remain in [STATUS.md](STATUS.md) and `runs/`.
+The repaired runtime findings are RUNTIME-006 (large-room camera clipping),007 (cold Settings navigation),008 (open-form history/precision),009/010 (large native payload storage and ambiguous commits),011 (web Blob URL lifetime),012 (pending model/cache ownership),and013/014 (structural/mixed-ceiling camera framing). Historical failures and exact source hashes remain in [STATUS.md](STATUS.md) and `runs/`.
 
 Physical iOS/Android gestures,large system text,GL upload,frame rate,thermals,OS interruption and share-sheet behavior require later device evidence. The user’s phone is not needed for the continuing source,bundle and browser work.
 

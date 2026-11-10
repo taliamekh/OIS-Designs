@@ -1,4 +1,4 @@
-const fs=require('node:fs'),path=require('node:path');
+const fs=require('node:fs'),path=require('node:path'),crypto=require('node:crypto');
 const runs=path.resolve(__dirname,'../runtime/runs');
 async function latestFrozenUI(){
  const folders=fs.readdirSync(runs,{withFileTypes:true}).filter(e=>e.isDirectory()&&e.name.endsWith('-frozen-web')).map(e=>e.name).sort().reverse();
@@ -14,4 +14,10 @@ async function latestFrozenUI(){
  }
  throw Error('No currently served, source-verified frozen UI: '+JSON.stringify(skipped));
 }
-module.exports={latestFrozenUI};
+function liveSources(){const mobile=path.resolve(__dirname,'../../../mobile');return Object.fromEntries(['src/scene/Viewport.tsx','src/scene/Plan.tsx','src/scene/picking.ts','src/screens/Catalogue.tsx','src/screens/Editor.tsx','src/screens/Build.tsx','src/domain/geometry.ts','src/storage/indexedStore.ts'].filter(f=>fs.existsSync(path.join(mobile,f))).map(f=>[f,{sha256:crypto.createHash('sha256').update(fs.readFileSync(path.join(mobile,f))).digest('hex')}]));}
+async function chosenUI(){
+ if(!process.env.OIS_QA_URL)return{kind:'frozen',...await latestFrozenUI()};
+ const url=process.env.OIS_QA_URL;if(!/^http:\/\/(localhost|127\.0\.0\.1):\d+$/.test(url))throw Error('Only the known local QA previews are supported');
+ return{kind:'live',url,id:'live-preview',project:path.resolve(__dirname,'../../../mobile'),sourceHash:null,sourceMapPass:false,compiledSourceMatchCount:null,sources:liveSources()};
+}
+module.exports={latestFrozenUI,chosenUI,liveSources};

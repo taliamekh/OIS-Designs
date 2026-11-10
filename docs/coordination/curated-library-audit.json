@@ -1,0 +1,100 @@
+{
+  "checkedAtUtc": "2026-11-10T04:47:27.735Z",
+  "releaseManifestSha256": "edde7f8f2ba36c7757f555afdeed3f8da5715e886e8ae90952f40c1b20509fa0",
+  "before": {
+    "src/catalogue/search.ts": "fcf6ffe512ffb19480b574aff93ccb955f6b9c8b4c226fd169f9f7df0dd539b2",
+    "src/catalogue/resolve.ts": "1009d552c9281290f2cb1a74cb5564d3a66310e52f28157ed3d45aa569b71045",
+    "src/catalogue/assets.json": "37a3dc2b9b486288839d24092785bb03c7ab1888c205fbd6aa665b07f8d3c470",
+    "src/catalogue/revisions.json": "5ac2bf41ae47219411cfb39f837b290a6431ef3d915ac166cd914f4895f94de9"
+  },
+  "after": {
+    "src/catalogue/search.ts": "fcf6ffe512ffb19480b574aff93ccb955f6b9c8b4c226fd169f9f7df0dd539b2",
+    "src/catalogue/resolve.ts": "1009d552c9281290f2cb1a74cb5564d3a66310e52f28157ed3d45aa569b71045",
+    "src/catalogue/assets.json": "37a3dc2b9b486288839d24092785bb03c7ab1888c205fbd6aa665b07f8d3c470",
+    "src/catalogue/revisions.json": "5ac2bf41ae47219411cfb39f837b290a6431ef3d915ac166cd914f4895f94de9"
+  },
+  "stable": true,
+  "reviewedRows": 439,
+  "retainedRevisions": 1187,
+  "anchorCapabilities": {
+    "floor": {
+      "allReviewed": 432,
+      "distinct": 339,
+      "currentlyFloorPlaceable": 432
+    },
+    "wall": {
+      "allReviewed": 7,
+      "distinct": 7,
+      "currentlyFloorPlaceable": 0
+    }
+  },
+  "passed": 10,
+  "failed": 0,
+  "checks": [
+    {
+      "name": "Default browsing exactly matches the frozen reviewed release",
+      "pass": true,
+      "details": {
+        "actual": 439,
+        "expected": 439
+      }
+    },
+    {
+      "name": "Frozen internally-accepted identities and counts",
+      "pass": true,
+      "details": {
+        "expected": 346
+      }
+    },
+    {
+      "name": "Frozen reviewed-variant identities and counts",
+      "pass": true,
+      "details": {
+        "expected": 93
+      }
+    },
+    {
+      "name": "Experimental/rework/prototype fixtures stay out of default browsing",
+      "pass": true
+    },
+    {
+      "name": "Every retained revision resolves only its saved identity",
+      "pass": true,
+      "details": {
+        "retained": 1187
+      }
+    },
+    {
+      "name": "Missing version/hash never falls back to the current ID",
+      "pass": true,
+      "details": {
+        "cases": 60
+      }
+    },
+    {
+      "name": "entry alias exposes the complete reviewed producer room",
+      "pass": true,
+      "details": {
+        "expected": 33,
+        "actual": 33
+      }
+    },
+    {
+      "name": "utility alias exposes the complete reviewed producer room",
+      "pass": true,
+      "details": {
+        "expected": 20,
+        "actual": 20
+      }
+    },
+    {
+      "name": "Favourites constrain the reviewed list",
+      "pass": true
+    },
+    {
+      "name": "Recents retain requested order",
+      "pass": true
+    }
+  ],
+  "limits": "Actual production search/resolver on CPU against frozen release tuples. Does not execute catalogue gestures, rendered models, surface/wall placement, Expo or native GL."
+}

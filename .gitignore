@@ -23,6 +23,10 @@ npm-debug.*
 *.csproj
 *.sln
 *.user
+
+# Build documentation is source evidence, not Unity output.
+!docs/build/
+!docs/build/**
 *.pidb
 
 # Signing credentials and local configuration

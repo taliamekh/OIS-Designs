@@ -1,7 +1,7 @@
 const { chromium } = require('C:/Users/talia/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/playwright');
 const fs = require('node:fs'), path = require('node:path');
-const { load } = require('./probe-domain.cjs');
-const p = load('src/domain/project.ts'), g = load('src/domain/geometry.ts'), s = load('src/domain/persistence.ts');
+const {createLoader}=require('./source-loader.cjs'),{chosenUI}=require('./frozen-ui-context.cjs');
+let p,g,s;
 const { readLibrary, oracleInfo } = require('./web-storage.cjs');
 const report = { timestamp: new Date().toISOString(), baseURL: process.env.OIS_QA_URL || 'http://localhost:8081', evidence: 'Actual partial shared-wall annotations on four sides, metric/imperial and two phone sizes. Isolated validated synthetic projects; no native claim.', storageOracle: oracleInfo, runs: [] };
 const sides = {
@@ -11,9 +11,10 @@ const sides = {
   bottom: { x: 1, z: 6, width: 4, depth: 3 },
 };
 async function main() {
+  const ui=await chosenUI(),{load}=createLoader(ui.project);p=load('src/domain/project.ts');g=load('src/domain/geometry.ts');s=load('src/domain/persistence.ts');report.baseURL=ui.url;report.ui={kind:ui.kind,id:ui.id,url:ui.url,sourceHash:ui.sourceHash,sourceMapPass:ui.sourceMapPass,compiledSourceMatchCount:ui.compiledSourceMatchCount,plan:ui.sources['src/scene/Plan.tsx']};if(ui.sources['src/storage/indexedStore.ts'].sha256!==oracleInfo.sha256)throw Error('Selected adapter differs from reader');
   const browser = await chromium.launch({ channel: 'msedge', headless: true });
   try {
-    for (const width of [390, 320]) for (const unit of ['m', 'ft']) for (const [side, a] of Object.entries(sides)) {
+    matrix: for (const width of [390, 320]) for (const unit of ['m', 'ft']) for (const [side, a] of Object.entries(sides)) {
       if (process.env.OIS_QA_CASE && process.env.OIS_QA_CASE !== `${side}-${unit}-${width}`) continue;
       const viewport = { width, height: width === 390 ? 844 : 568 };
       const project = p.makeProject('living', 6, 6); project.name = `QA dimensions ${side} ${unit} ${width}`;
@@ -72,7 +73,14 @@ async function main() {
           return { scale, rows, overlaps };
         });
         run.actual = actual;
-        const expected = g.openingDimensions(f, opening); run.expected = expected;
+        // Analytic fixture oracle: the six-metre living edge begins at0;
+        // its shared sub-edge begins at1. Kitchen's edge is3m (sides) or4m
+        // (top/bottom). This stays independent of the production span helper.
+        const kitchenLength = side === 'right' || side === 'left' ? 3 : 4;
+        const expected = [
+          { name: 'Living room', before: 1.65, after: 3.45 },
+          { name: 'Kitchen', before: .65, after: kitchenLength - .65 - .9 },
+        ]; run.expected = expected;
         for (const chain of expected) {
           const row = actual.rows.find(r => r.name === chain.name), values = [g.measure(chain.before, unit), g.measure(opening.width, unit), g.measure(chain.after, unit)].sort();
           check('physical-corner-values-' + chain.name, !!row && JSON.stringify([...row.values].sort()) === JSON.stringify(values), { expected: values, actual: row?.values });
@@ -85,6 +93,7 @@ async function main() {
       } catch (e) {
         run.failure = String(e); run.body = (await page.locator('body').innerText().catch(() => '')).slice(-2800);
       } finally { await context.close(); }
+      if (run.failure?.includes('Preview HTTP500')) { report.aborted = 'Preview boot failed; remaining layouts were not attempted.'; break matrix; }
     }
   } finally { await browser.close(); }
   report.passed = report.runs.flatMap(r => r.checks).filter(c => c.pass).length;

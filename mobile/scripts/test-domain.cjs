@@ -19,32 +19,42 @@ const G = require("../src/domain/geometry.ts"),
   S = require("../src/catalogue/search.ts");
 const assets = require("../src/catalogue/assets.json");
 const clone = (v) => JSON.parse(JSON.stringify(v));
-test("catalogue prioritises reviewed models and Recent follows actual selection order", () => {
+test("default catalogue excludes experimental/withdrawn records and Recent follows reviewed selections", () => {
   const prototype = {
       ...assets[0],
       id: "preview",
       stage: "validated-candidate",
     },
+    withdrawn = { ...assets[0], id: "withdrawn", stage: "needs-rework" },
+    variant = { ...assets[0], id: "variant", stage: "reviewed-variant" },
     reviewed = { ...assets[0], id: "reviewed", stage: "internally-accepted" },
-    input = [prototype, reviewed];
+    input = [prototype, variant, withdrawn, reviewed],
+    before = JSON.stringify(input);
   assert.deepEqual(
     S.searchAssets(input, S.initialFilters, [], []).map((a) => a.id),
-    ["reviewed", "preview"],
+    ["reviewed", "variant"],
   );
-  assert.deepEqual(
-    input.map((a) => a.id),
-    ["preview", "reviewed"],
-  );
+  assert.equal(JSON.stringify(input), before);
   assert.deepEqual(
     S.searchAssets(
       input,
       { ...S.initialFilters, recent: true },
       [],
-      ["preview", "reviewed"],
+      ["preview", "variant", "withdrawn", "reviewed"],
     ).map((a) => a.id),
-    ["preview", "reviewed"],
+    ["variant", "reviewed"],
+  );
+  assert.deepEqual(
+    S.searchAssets(
+      input,
+      { ...S.initialFilters, favourites: true },
+      ["preview", "withdrawn"],
+      [],
+    ),
+    [],
   );
 });
+
 test("bed structure filters include real bunk/loft designs whose mattress size is twin", () => {
   const beds = assets.filter(
     (a) => /bunk|loft/.test(a.subtype) && a.bedSize === "twin",
@@ -447,7 +457,8 @@ test("catalogue synonyms, compound search, filters, fit and favourites compose",
       (a.name + " " + a.subtype).toLowerCase().includes("sofa"),
     ),
   );
-  const a = assets[0];
+  const a = assets.find(S.isReviewedAsset);
+  assert.ok(a);
   assert.equal(
     S.searchAssets(
       assets,

@@ -62,6 +62,8 @@ export function sceneSnapshot(
     ],
     mode,
     camera: camera.position.toArray(),
+    cameraQuaternion: camera.quaternion.toArray(),
+    projectionMatrix: camera.projectionMatrix.toArray(),
     items: [...boxes].map(([id, box]) => {
       const p = box.getCenter(new THREE.Vector3()).project(camera);
       return {

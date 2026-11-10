@@ -10,7 +10,7 @@ import {
 } from "react-native";
 import { thumbnails } from "../catalogue/bundled";
 import { supportsPlacement } from "../catalogue/resolve";
-import { Filters, searchAssets } from "../catalogue/search";
+import { Filters, isReviewedAsset, searchAssets } from "../catalogue/search";
 import { measure, toDisplay, toMetres } from "../domain/geometry";
 import { AssetRecord, roomNames } from "../domain/types";
 import { assets, useStudio } from "../state/Studio";
@@ -25,6 +25,7 @@ import {
   usePalette,
 } from "../ui/kit";
 type FitKey = "width" | "depth" | "height";
+const catalogueAssets = assets.filter(isReviewedAsset);
 /** A clamped initial scroll prompts FlatList to render the next virtual rows;
  * repeat after content measurements until the saved offset is reachable.
  * Ignore intermediate/zero events so they cannot replace that saved target. */
@@ -116,14 +117,14 @@ export default function Catalogue({
     );
   };
   const list = searchAssets(
-    assets,
+    catalogueAssets,
     filters,
     s.library.favourites,
     s.library.recent,
   );
   const values = (key: "category" | "subtype" | "theme") => [
     "all",
-    ...new Set(assets.map((a) => a[key])),
+    ...new Set(catalogueAssets.map((a) => a[key])),
   ];
   const active = Object.entries(filters).filter(
     ([key, value]) => key !== "room" && value && value !== "all",
@@ -239,7 +240,10 @@ export default function Catalogue({
             Colour
           </Txt>
           <Chips
-            values={["all", ...new Set(assets.flatMap((a) => a.colourTags))]}
+            values={[
+              "all",
+              ...new Set(catalogueAssets.flatMap((a) => a.colourTags)),
+            ]}
             value={filters.colour}
             onChange={(v) => field("colour", v)}
           />
@@ -247,7 +251,10 @@ export default function Catalogue({
             Material
           </Txt>
           <Chips
-            values={["all", ...new Set(assets.flatMap((a) => a.materials))]}
+            values={[
+              "all",
+              ...new Set(catalogueAssets.flatMap((a) => a.materials)),
+            ]}
             value={filters.material}
             onChange={(v) => field("material", v)}
           />

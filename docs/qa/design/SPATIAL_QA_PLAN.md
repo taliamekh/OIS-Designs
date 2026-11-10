@@ -19,3 +19,5 @@ Verify:
 - Native integration needs matching lint/type/export checks and independent UI regression. Browser prototypes and export bundles remain separate from physical iPhone/Android touch/GL/files/sharing evidence.
 
 Current foundational follow-ups can be audited before the queued phase begins; doing so does not declare the library gate satisfied or choose new presets on the user's behalf.
+
+New primary-source additions are in REFERENCE_UPDATE_HANDOFF.md for the canonical-reference maintainer. They clarify floor-wide Home Planner height behaviour, attachment-aware positions and interactive views versus server images. OIS's independent room-height requirement stays intact.

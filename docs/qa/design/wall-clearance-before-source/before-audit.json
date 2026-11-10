@@ -1,0 +1,1199 @@
+{
+  "timestamp": "2026-11-10T04:27:30.774Z",
+  "evidence": "Actual canPlace/execute plus actual production WallFace box expressions and real integrated GLB triangles. CPU Three triangle/box intersections, not native/GPU or a building-code judgment.",
+  "before": {
+    "src/domain/geometry.ts": "d39a47ba5606406a01b7ba1690e18df0fe8b4055cf3fbe70f0cd3b89d5299b90",
+    "src/domain/project.ts": "7786d523a0341bc5781187e03c5d004915bd8e58dce4ac83d8dd7e0af6257b6f",
+    "src/scene/RoomScene.tsx": "30ceb60a092b4cd3197ace16319fe74ec71ababbca5a3bf9831a30502b8d062d",
+    "src/catalogue/assets.json": "d879f5e62a6081587825712243cd13ff77a7ccae54ab799a5d357da49e4889c2",
+    "src/catalogue/bundled.ts": "d2619614d7f53b42c54f1b4f6f147328ac96010be8225cd98ce52346cbe59d64"
+  },
+  "cases": [
+    {
+      "thickness": 0.12,
+      "trim": "none",
+      "snap": "free",
+      "control": false,
+      "itemZ": 0.34600000839680434,
+      "placementError": null,
+      "commandError": null,
+      "accepted": true,
+      "hitTriangles": 844,
+      "totalTriangles": 1188,
+      "wallBounds": {
+        "min": [
+          0,
+          -2.3841857821338408e-8,
+          6.705522526129215e-10
+        ],
+        "max": [
+          6,
+          2.700000023841858,
+          0.059999999329447745
+        ]
+      },
+      "modelBounds": {
+        "min": [
+          2.689999997615814,
+          0,
+          0.0050000000000000044
+        ],
+        "max": [
+          3.310000002384186,
+          0.8999999901279807,
+          0.6560000107809901
+        ]
+      },
+      "penetrationMetres": 0.05499999932944774,
+      "meshes": [
+        {
+          "name": "ceramic_geometry",
+          "hits": 110
+        },
+        {
+          "name": "metal_geometry",
+          "hits": 248
+        },
+        {
+          "name": "wood_geometry",
+          "hits": 486
+        }
+      ],
+      "pass": false
+    },
+    {
+      "thickness": 0.12,
+      "trim": "none",
+      "snap": "free",
+      "control": true,
+      "itemZ": 0.40600000839680433,
+      "placementError": null,
+      "commandError": null,
+      "accepted": true,
+      "hitTriangles": 0,
+      "totalTriangles": 1188,
+      "wallBounds": {
+        "min": [
+          0,
+          -2.3841857821338408e-8,
+          6.705522526129215e-10
+        ],
+        "max": [
+          6,
+          2.700000023841858,
+          0.059999999329447745
+        ]
+      },
+      "modelBounds": {
+        "min": [
+          2.689999997615814,
+          0,
+          0.065
+        ],
+        "max": [
+          3.310000002384186,
+          0.8999999901279807,
+          0.7160000107809901
+        ]
+      },
+      "penetrationMetres": 0,
+      "meshes": [],
+      "pass": true
+    },
+    {
+      "thickness": 0.12,
+      "trim": "none",
+      "snap": "0.1m",
+      "control": false,
+      "itemZ": 0.4,
+      "placementError": null,
+      "commandError": null,
+      "accepted": true,
+      "hitTriangles": 60,
+      "totalTriangles": 1188,
+      "wallBounds": {
+        "min": [
+          0,
+          -2.3841857821338408e-8,
+          6.705522526129215e-10
+        ],
+        "max": [
+          6,
+          2.700000023841858,
+          0.059999999329447745
+        ]
+      },
+      "modelBounds": {
+        "min": [
+          2.689999997615814,
+          0,
+          0.05899999160319569
+        ],
+        "max": [
+          3.310000002384186,
+          0.8999999901279807,
+          0.7100000023841858
+        ]
+      },
+      "penetrationMetres": 0.0010000077262520557,
+      "meshes": [
+        {
+          "name": "metal_geometry",
+          "hits": 60
+        }
+      ],
+      "pass": false
+    },
+    {
+      "thickness": 0.12,
+      "trim": "none",
+      "snap": "0.1m",
+      "control": true,
+      "itemZ": 0.5,
+      "placementError": null,
+      "commandError": null,
+      "accepted": true,
+      "hitTriangles": 0,
+      "totalTriangles": 1188,
+      "wallBounds": {
+        "min": [
+          0,
+          -2.3841857821338408e-8,
+          6.705522526129215e-10
+        ],
+        "max": [
+          6,
+          2.700000023841858,
+          0.059999999329447745
+        ]
+      },
+      "modelBounds": {
+        "min": [
+          2.689999997615814,
+          0,
+          0.15899999160319567
+        ],
+        "max": [
+          3.310000002384186,
+          0.8999999901279807,
+          0.8100000023841858
+        ]
+      },
+      "penetrationMetres": 0,
+      "meshes": [],
+      "pass": true
+    },
+    {
+      "thickness": 0.12,
+      "trim": "flat",
+      "snap": "free",
+      "control": false,
+      "itemZ": 0.36200000839680435,
+      "placementError": null,
+      "commandError": null,
+      "accepted": true,
+      "hitTriangles": 666,
+      "totalTriangles": 1188,
+      "wallBounds": {
+        "min": [
+          0,
+          -2.3841857821338408e-8,
+          6.705522526129215e-10
+        ],
+        "max": [
+          6,
+          2.700000023841858,
+          0.059999999329447745
+        ]
+      },
+      "modelBounds": {
+        "min": [
+          2.689999997615814,
+          0,
+          0.02100000000000002
+        ],
+        "max": [
+          3.310000002384186,
+          0.8999999901279807,
+          0.6720000107809901
+        ]
+      },
+      "penetrationMetres": 0.038999999329447727,
+      "meshes": [
+        {
+          "name": "ceramic_geometry",
+          "hits": 78
+        },
+        {
+          "name": "metal_geometry",
+          "hits": 248
+        },
+        {
+          "name": "wood_geometry",
+          "hits": 340
+        }
+      ],
+      "pass": false
+    },
+    {
+      "thickness": 0.12,
+      "trim": "flat",
+      "snap": "free",
+      "control": true,
+      "itemZ": 0.42200000839680435,
+      "placementError": null,
+      "commandError": null,
+      "accepted": true,
+      "hitTriangles": 0,
+      "totalTriangles": 1188,
+      "wallBounds": {
+        "min": [
+          0,
+          -2.3841857821338408e-8,
+          6.705522526129215e-10
+        ],
+        "max": [
+          6,
+          2.700000023841858,
+          0.059999999329447745
+        ]
+      },
+      "modelBounds": {
+        "min": [
+          2.689999997615814,
+          0,
+          0.08100000000000002
+        ],
+        "max": [
+          3.310000002384186,
+          0.8999999901279807,
+          0.7320000107809901
+        ]
+      },
+      "penetrationMetres": 0,
+      "meshes": [],
+      "pass": true
+    },
+    {
+      "thickness": 0.12,
+      "trim": "flat",
+      "snap": "0.1m",
+      "control": false,
+      "itemZ": 0.4,
+      "placementError": null,
+      "commandError": null,
+      "accepted": true,
+      "hitTriangles": 60,
+      "totalTriangles": 1188,
+      "wallBounds": {
+        "min": [
+          0,
+          -2.3841857821338408e-8,
+          6.705522526129215e-10
+        ],
+        "max": [
+          6,
+          2.700000023841858,
+          0.059999999329447745
+        ]
+      },
+      "modelBounds": {
+        "min": [
+          2.689999997615814,
+          0,
+          0.05899999160319569
+        ],
+        "max": [
+          3.310000002384186,
+          0.8999999901279807,
+          0.7100000023841858
+        ]
+      },
+      "penetrationMetres": 0.0010000077262520557,
+      "meshes": [
+        {
+          "name": "metal_geometry",
+          "hits": 60
+        }
+      ],
+      "pass": false
+    },
+    {
+      "thickness": 0.12,
+      "trim": "flat",
+      "snap": "0.1m",
+      "control": true,
+      "itemZ": 0.5,
+      "placementError": null,
+      "commandError": null,
+      "accepted": true,
+      "hitTriangles": 0,
+      "totalTriangles": 1188,
+      "wallBounds": {
+        "min": [
+          0,
+          -2.3841857821338408e-8,
+          6.705522526129215e-10
+        ],
+        "max": [
+          6,
+          2.700000023841858,
+          0.059999999329447745
+        ]
+      },
+      "modelBounds": {
+        "min": [
+          2.689999997615814,
+          0,
+          0.15899999160319567
+        ],
+        "max": [
+          3.310000002384186,
+          0.8999999901279807,
+          0.8100000023841858
+        ]
+      },
+      "penetrationMetres": 0,
+      "meshes": [],
+      "pass": true
+    },
+    {
+      "thickness": 0.15,
+      "trim": "none",
+      "snap": "free",
+      "control": false,
+      "itemZ": 0.34600000839680434,
+      "placementError": null,
+      "commandError": null,
+      "accepted": true,
+      "hitTriangles": 844,
+      "totalTriangles": 1188,
+      "wallBounds": {
+        "min": [
+          0,
+          -2.3841857821338408e-8,
+          -1.4901161207725444e-9
+        ],
+        "max": [
+          6,
+          2.700000023841858,
+          0.07500000149011612
+        ]
+      },
+      "modelBounds": {
+        "min": [
+          2.689999997615814,
+          0,
+          0.0050000000000000044
+        ],
+        "max": [
+          3.310000002384186,
+          0.8999999901279807,
+          0.6560000107809901
+        ]
+      },
+      "penetrationMetres": 0.07000000149011612,
+      "meshes": [
+        {
+          "name": "ceramic_geometry",
+          "hits": 110
+        },
+        {
+          "name": "metal_geometry",
+          "hits": 248
+        },
+        {
+          "name": "wood_geometry",
+          "hits": 486
+        }
+      ],
+      "pass": false
+    },
+    {
+      "thickness": 0.15,
+      "trim": "none",
+      "snap": "free",
+      "control": true,
+      "itemZ": 0.42100000839680435,
+      "placementError": null,
+      "commandError": null,
+      "accepted": true,
+      "hitTriangles": 0,
+      "totalTriangles": 1188,
+      "wallBounds": {
+        "min": [
+          0,
+          -2.3841857821338408e-8,
+          -1.4901161207725444e-9
+        ],
+        "max": [
+          6,
+          2.700000023841858,
+          0.07500000149011612
+        ]
+      },
+      "modelBounds": {
+        "min": [
+          2.689999997615814,
+          0,
+          0.08000000000000002
+        ],
+        "max": [
+          3.310000002384186,
+          0.8999999901279807,
+          0.7310000107809902
+        ]
+      },
+      "penetrationMetres": 0,
+      "meshes": [],
+      "pass": true
+    },
+    {
+      "thickness": 0.15,
+      "trim": "none",
+      "snap": "0.1m",
+      "control": false,
+      "itemZ": 0.4,
+      "placementError": null,
+      "commandError": null,
+      "accepted": true,
+      "hitTriangles": 248,
+      "totalTriangles": 1188,
+      "wallBounds": {
+        "min": [
+          0,
+          -2.3841857821338408e-8,
+          -1.4901161207725444e-9
+        ],
+        "max": [
+          6,
+          2.700000023841858,
+          0.07500000149011612
+        ]
+      },
+      "modelBounds": {
+        "min": [
+          2.689999997615814,
+          0,
+          0.05899999160319569
+        ],
+        "max": [
+          3.310000002384186,
+          0.8999999901279807,
+          0.7100000023841858
+        ]
+      },
+      "penetrationMetres": 0.016000009886920435,
+      "meshes": [
+        {
+          "name": "metal_geometry",
+          "hits": 248
+        }
+      ],
+      "pass": false
+    },
+    {
+      "thickness": 0.15,
+      "trim": "none",
+      "snap": "0.1m",
+      "control": true,
+      "itemZ": 0.5,
+      "placementError": null,
+      "commandError": null,
+      "accepted": true,
+      "hitTriangles": 0,
+      "totalTriangles": 1188,
+      "wallBounds": {
+        "min": [
+          0,
+          -2.3841857821338408e-8,
+          -1.4901161207725444e-9
+        ],
+        "max": [
+          6,
+          2.700000023841858,
+          0.07500000149011612
+        ]
+      },
+      "modelBounds": {
+        "min": [
+          2.689999997615814,
+          0,
+          0.15899999160319567
+        ],
+        "max": [
+          3.310000002384186,
+          0.8999999901279807,
+          0.8100000023841858
+        ]
+      },
+      "penetrationMetres": 0,
+      "meshes": [],
+      "pass": true
+    },
+    {
+      "thickness": 0.15,
+      "trim": "flat",
+      "snap": "free",
+      "control": false,
+      "itemZ": 0.36200000839680435,
+      "placementError": null,
+      "commandError": null,
+      "accepted": true,
+      "hitTriangles": 844,
+      "totalTriangles": 1188,
+      "wallBounds": {
+        "min": [
+          0,
+          -2.3841857821338408e-8,
+          -1.4901161207725444e-9
+        ],
+        "max": [
+          6,
+          2.700000023841858,
+          0.07500000149011612
+        ]
+      },
+      "modelBounds": {
+        "min": [
+          2.689999997615814,
+          0,
+          0.02100000000000002
+        ],
+        "max": [
+          3.310000002384186,
+          0.8999999901279807,
+          0.6720000107809901
+        ]
+      },
+      "penetrationMetres": 0.054000001490116106,
+      "meshes": [
+        {
+          "name": "ceramic_geometry",
+          "hits": 110
+        },
+        {
+          "name": "metal_geometry",
+          "hits": 248
+        },
+        {
+          "name": "wood_geometry",
+          "hits": 486
+        }
+      ],
+      "pass": false
+    },
+    {
+      "thickness": 0.15,
+      "trim": "flat",
+      "snap": "free",
+      "control": true,
+      "itemZ": 0.4370000083968043,
+      "placementError": null,
+      "commandError": null,
+      "accepted": true,
+      "hitTriangles": 0,
+      "totalTriangles": 1188,
+      "wallBounds": {
+        "min": [
+          0,
+          -2.3841857821338408e-8,
+          -1.4901161207725444e-9
+        ],
+        "max": [
+          6,
+          2.700000023841858,
+          0.07500000149011612
+        ]
+      },
+      "modelBounds": {
+        "min": [
+          2.689999997615814,
+          0,
+          0.09599999999999997
+        ],
+        "max": [
+          3.310000002384186,
+          0.8999999901279807,
+          0.7470000107809901
+        ]
+      },
+      "penetrationMetres": 0,
+      "meshes": [],
+      "pass": true
+    },
+    {
+      "thickness": 0.15,
+      "trim": "flat",
+      "snap": "0.1m",
+      "control": false,
+      "itemZ": 0.4,
+      "placementError": null,
+      "commandError": null,
+      "accepted": true,
+      "hitTriangles": 248,
+      "totalTriangles": 1188,
+      "wallBounds": {
+        "min": [
+          0,
+          -2.3841857821338408e-8,
+          -1.4901161207725444e-9
+        ],
+        "max": [
+          6,
+          2.700000023841858,
+          0.07500000149011612
+        ]
+      },
+      "modelBounds": {
+        "min": [
+          2.689999997615814,
+          0,
+          0.05899999160319569
+        ],
+        "max": [
+          3.310000002384186,
+          0.8999999901279807,
+          0.7100000023841858
+        ]
+      },
+      "penetrationMetres": 0.016000009886920435,
+      "meshes": [
+        {
+          "name": "metal_geometry",
+          "hits": 248
+        }
+      ],
+      "pass": false
+    },
+    {
+      "thickness": 0.15,
+      "trim": "flat",
+      "snap": "0.1m",
+      "control": true,
+      "itemZ": 0.5,
+      "placementError": null,
+      "commandError": null,
+      "accepted": true,
+      "hitTriangles": 0,
+      "totalTriangles": 1188,
+      "wallBounds": {
+        "min": [
+          0,
+          -2.3841857821338408e-8,
+          -1.4901161207725444e-9
+        ],
+        "max": [
+          6,
+          2.700000023841858,
+          0.07500000149011612
+        ]
+      },
+      "modelBounds": {
+        "min": [
+          2.689999997615814,
+          0,
+          0.15899999160319567
+        ],
+        "max": [
+          3.310000002384186,
+          0.8999999901279807,
+          0.8100000023841858
+        ]
+      },
+      "penetrationMetres": 0,
+      "meshes": [],
+      "pass": true
+    },
+    {
+      "thickness": 0.3,
+      "trim": "none",
+      "snap": "free",
+      "control": false,
+      "itemZ": 0.34600000839680434,
+      "placementError": null,
+      "commandError": null,
+      "accepted": true,
+      "hitTriangles": 952,
+      "totalTriangles": 1188,
+      "wallBounds": {
+        "min": [
+          0,
+          -2.3841857821338408e-8,
+          -2.980232241545089e-9
+        ],
+        "max": [
+          6,
+          2.700000023841858,
+          0.15000000298023225
+        ]
+      },
+      "modelBounds": {
+        "min": [
+          2.689999997615814,
+          0,
+          0.0050000000000000044
+        ],
+        "max": [
+          3.310000002384186,
+          0.8999999901279807,
+          0.6560000107809901
+        ]
+      },
+      "penetrationMetres": 0.14500000298023225,
+      "meshes": [
+        {
+          "name": "ceramic_geometry",
+          "hits": 110
+        },
+        {
+          "name": "dark_geometry",
+          "hits": 108
+        },
+        {
+          "name": "metal_geometry",
+          "hits": 248
+        },
+        {
+          "name": "wood_geometry",
+          "hits": 486
+        }
+      ],
+      "pass": false
+    },
+    {
+      "thickness": 0.3,
+      "trim": "none",
+      "snap": "free",
+      "control": true,
+      "itemZ": 0.49600000839680436,
+      "placementError": null,
+      "commandError": null,
+      "accepted": true,
+      "hitTriangles": 0,
+      "totalTriangles": 1188,
+      "wallBounds": {
+        "min": [
+          0,
+          -2.3841857821338408e-8,
+          -2.980232241545089e-9
+        ],
+        "max": [
+          6,
+          2.700000023841858,
+          0.15000000298023225
+        ]
+      },
+      "modelBounds": {
+        "min": [
+          2.689999997615814,
+          0,
+          0.15500000000000003
+        ],
+        "max": [
+          3.310000002384186,
+          0.8999999901279807,
+          0.8060000107809902
+        ]
+      },
+      "penetrationMetres": 0,
+      "meshes": [],
+      "pass": true
+    },
+    {
+      "thickness": 0.3,
+      "trim": "none",
+      "snap": "0.1m",
+      "control": false,
+      "itemZ": 0.4,
+      "placementError": null,
+      "commandError": null,
+      "accepted": true,
+      "hitTriangles": 844,
+      "totalTriangles": 1188,
+      "wallBounds": {
+        "min": [
+          0,
+          -2.3841857821338408e-8,
+          -2.980232241545089e-9
+        ],
+        "max": [
+          6,
+          2.700000023841858,
+          0.15000000298023225
+        ]
+      },
+      "modelBounds": {
+        "min": [
+          2.689999997615814,
+          0,
+          0.05899999160319569
+        ],
+        "max": [
+          3.310000002384186,
+          0.8999999901279807,
+          0.7100000023841858
+        ]
+      },
+      "penetrationMetres": 0.09100001137703656,
+      "meshes": [
+        {
+          "name": "ceramic_geometry",
+          "hits": 110
+        },
+        {
+          "name": "metal_geometry",
+          "hits": 248
+        },
+        {
+          "name": "wood_geometry",
+          "hits": 486
+        }
+      ],
+      "pass": false
+    },
+    {
+      "thickness": 0.3,
+      "trim": "none",
+      "snap": "0.1m",
+      "control": true,
+      "itemZ": 0.5,
+      "placementError": null,
+      "commandError": null,
+      "accepted": true,
+      "hitTriangles": 0,
+      "totalTriangles": 1188,
+      "wallBounds": {
+        "min": [
+          0,
+          -2.3841857821338408e-8,
+          -2.980232241545089e-9
+        ],
+        "max": [
+          6,
+          2.700000023841858,
+          0.15000000298023225
+        ]
+      },
+      "modelBounds": {
+        "min": [
+          2.689999997615814,
+          0,
+          0.15899999160319567
+        ],
+        "max": [
+          3.310000002384186,
+          0.8999999901279807,
+          0.8100000023841858
+        ]
+      },
+      "penetrationMetres": 0,
+      "meshes": [],
+      "pass": true
+    },
+    {
+      "thickness": 0.3,
+      "trim": "flat",
+      "snap": "free",
+      "control": false,
+      "itemZ": 0.36200000839680435,
+      "placementError": null,
+      "commandError": null,
+      "accepted": true,
+      "hitTriangles": 952,
+      "totalTriangles": 1188,
+      "wallBounds": {
+        "min": [
+          0,
+          -2.3841857821338408e-8,
+          -2.980232241545089e-9
+        ],
+        "max": [
+          6,
+          2.700000023841858,
+          0.15000000298023225
+        ]
+      },
+      "modelBounds": {
+        "min": [
+          2.689999997615814,
+          0,
+          0.02100000000000002
+        ],
+        "max": [
+          3.310000002384186,
+          0.8999999901279807,
+          0.6720000107809901
+        ]
+      },
+      "penetrationMetres": 0.12900000298023223,
+      "meshes": [
+        {
+          "name": "ceramic_geometry",
+          "hits": 110
+        },
+        {
+          "name": "dark_geometry",
+          "hits": 108
+        },
+        {
+          "name": "metal_geometry",
+          "hits": 248
+        },
+        {
+          "name": "wood_geometry",
+          "hits": 486
+        }
+      ],
+      "pass": false
+    },
+    {
+      "thickness": 0.3,
+      "trim": "flat",
+      "snap": "free",
+      "control": true,
+      "itemZ": 0.5120000083968044,
+      "placementError": null,
+      "commandError": null,
+      "accepted": true,
+      "hitTriangles": 0,
+      "totalTriangles": 1188,
+      "wallBounds": {
+        "min": [
+          0,
+          -2.3841857821338408e-8,
+          -2.980232241545089e-9
+        ],
+        "max": [
+          6,
+          2.700000023841858,
+          0.15000000298023225
+        ]
+      },
+      "modelBounds": {
+        "min": [
+          2.689999997615814,
+          0,
+          0.17100000000000004
+        ],
+        "max": [
+          3.310000002384186,
+          0.8999999901279807,
+          0.8220000107809902
+        ]
+      },
+      "penetrationMetres": 0,
+      "meshes": [],
+      "pass": true
+    },
+    {
+      "thickness": 0.3,
+      "trim": "flat",
+      "snap": "0.1m",
+      "control": false,
+      "itemZ": 0.4,
+      "placementError": null,
+      "commandError": null,
+      "accepted": true,
+      "hitTriangles": 844,
+      "totalTriangles": 1188,
+      "wallBounds": {
+        "min": [
+          0,
+          -2.3841857821338408e-8,
+          -2.980232241545089e-9
+        ],
+        "max": [
+          6,
+          2.700000023841858,
+          0.15000000298023225
+        ]
+      },
+      "modelBounds": {
+        "min": [
+          2.689999997615814,
+          0,
+          0.05899999160319569
+        ],
+        "max": [
+          3.310000002384186,
+          0.8999999901279807,
+          0.7100000023841858
+        ]
+      },
+      "penetrationMetres": 0.09100001137703656,
+      "meshes": [
+        {
+          "name": "ceramic_geometry",
+          "hits": 110
+        },
+        {
+          "name": "metal_geometry",
+          "hits": 248
+        },
+        {
+          "name": "wood_geometry",
+          "hits": 486
+        }
+      ],
+      "pass": false
+    },
+    {
+      "thickness": 0.3,
+      "trim": "flat",
+      "snap": "0.1m",
+      "control": true,
+      "itemZ": 0.6,
+      "placementError": null,
+      "commandError": null,
+      "accepted": true,
+      "hitTriangles": 0,
+      "totalTriangles": 1188,
+      "wallBounds": {
+        "min": [
+          0,
+          -2.3841857821338408e-8,
+          -2.980232241545089e-9
+        ],
+        "max": [
+          6,
+          2.700000023841858,
+          0.15000000298023225
+        ]
+      },
+      "modelBounds": {
+        "min": [
+          2.689999997615814,
+          0,
+          0.25899999160319565
+        ],
+        "max": [
+          3.310000002384186,
+          0.8999999901279807,
+          0.9100000023841858
+        ]
+      },
+      "penetrationMetres": 0,
+      "meshes": [],
+      "pass": true
+    }
+  ],
+  "checks": [
+    {
+      "id": "0.12/none/free/near-boundary",
+      "pass": false
+    },
+    {
+      "id": "0.12/none/free/safe-control",
+      "pass": true
+    },
+    {
+      "id": "0.12/none/0.1m/near-boundary",
+      "pass": false
+    },
+    {
+      "id": "0.12/none/0.1m/safe-control",
+      "pass": true
+    },
+    {
+      "id": "0.12/flat/free/near-boundary",
+      "pass": false
+    },
+    {
+      "id": "0.12/flat/free/safe-control",
+      "pass": true
+    },
+    {
+      "id": "0.12/flat/0.1m/near-boundary",
+      "pass": false
+    },
+    {
+      "id": "0.12/flat/0.1m/safe-control",
+      "pass": true
+    },
+    {
+      "id": "0.15/none/free/near-boundary",
+      "pass": false
+    },
+    {
+      "id": "0.15/none/free/safe-control",
+      "pass": true
+    },
+    {
+      "id": "0.15/none/0.1m/near-boundary",
+      "pass": false
+    },
+    {
+      "id": "0.15/none/0.1m/safe-control",
+      "pass": true
+    },
+    {
+      "id": "0.15/flat/free/near-boundary",
+      "pass": false
+    },
+    {
+      "id": "0.15/flat/free/safe-control",
+      "pass": true
+    },
+    {
+      "id": "0.15/flat/0.1m/near-boundary",
+      "pass": false
+    },
+    {
+      "id": "0.15/flat/0.1m/safe-control",
+      "pass": true
+    },
+    {
+      "id": "0.3/none/free/near-boundary",
+      "pass": false
+    },
+    {
+      "id": "0.3/none/free/safe-control",
+      "pass": true
+    },
+    {
+      "id": "0.3/none/0.1m/near-boundary",
+      "pass": false
+    },
+    {
+      "id": "0.3/none/0.1m/safe-control",
+      "pass": true
+    },
+    {
+      "id": "0.3/flat/free/near-boundary",
+      "pass": false
+    },
+    {
+      "id": "0.3/flat/free/safe-control",
+      "pass": true
+    },
+    {
+      "id": "0.3/flat/0.1m/near-boundary",
+      "pass": false
+    },
+    {
+      "id": "0.3/flat/0.1m/safe-control",
+      "pass": true
+    }
+  ],
+  "productionWallExpressions": {
+    "position": "[\n            (p.start + p.end) / 2,\n            (p.bottom + p.top) / 2,\n            (sign * (wall.thickness + (p.cavity ?? 0))) / 4,\n          ]",
+    "size": "[\n              p.end - p.start,\n              p.top - p.bottom,\n              (wall.thickness - (p.cavity ?? 0)) / 2,\n            ]"
+  },
+  "asset": {
+    "id": "ois.calm-oak.kitchen-base",
+    "version": "0.1.0",
+    "sha256": "50feb5b77773185282de5a3694f6e764d5f2e87b323f906aa394c6187669928a",
+    "file": "assets\\furniture\\ois.calm-oak.kitchen-base-50feb5b77773.glb"
+  },
+  "after": {
+    "src/domain/geometry.ts": "d39a47ba5606406a01b7ba1690e18df0fe8b4055cf3fbe70f0cd3b89d5299b90",
+    "src/domain/project.ts": "7786d523a0341bc5781187e03c5d004915bd8e58dce4ac83d8dd7e0af6257b6f",
+    "src/scene/RoomScene.tsx": "30ceb60a092b4cd3197ace16319fe74ec71ababbca5a3bf9831a30502b8d062d",
+    "src/catalogue/assets.json": "d879f5e62a6081587825712243cd13ff77a7ccae54ab799a5d357da49e4889c2",
+    "src/catalogue/bundled.ts": "d2619614d7f53b42c54f1b4f6f147328ac96010be8225cd98ce52346cbe59d64"
+  },
+  "stableSource": true,
+  "passed": 12,
+  "failed": 12
+}

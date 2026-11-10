@@ -37,7 +37,9 @@ const prior = fs.existsSync(priorFile)
   ? JSON.parse(fs.readFileSync(priorFile, "utf8"))
   : JSON.parse(fs.readFileSync(path.join(catalogueDir, "assets.json"), "utf8"));
 const identity = (a) => `${a.id}@${a.version}@${a.sha256}`;
-const revisions = new Map(prior.map((a) => [identity(a), a]));
+const revisions = new Map(
+  prior.map((a) => [identity(a), curate(a, withdrawn)]),
+);
 const assets = [],
   requires = [],
   thumbs = [];
