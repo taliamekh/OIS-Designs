@@ -1,0 +1,29 @@
+import test from 'node:test';import assert from 'node:assert/strict';import * as THREE from '../../../mobile/node_modules/three/build/three.module.js';
+import {captureWallDrag,proposeWallDrag} from '../dist/interaction-audit/src/wallDrag.js';
+import {proposeWallPlacement} from '../dist/next-wall/src/wallPlacement.js';
+const asset={id:'wall-cabinet',version:'1',sha256:'exact',bounds:{min:[-.4,0,-.2],max:[.4,.7,.15]}},item={id:'cabinet',roomId:'room',assetId:asset.id,assetVersion:asset.version,assetHash:asset.sha256,x:1,z:-.85,yaw:-Math.PI,elevation:1.4,locked:false},face={floorId:'upper',roomId:'room',wallId:'wall',revision:'geometry-1',side:'left',a:{x:-2,z:-1},b:{x:4,z:-1},inward:{x:0,z:1},height:3,trim:{height:.12,projection:.02},openings:[]},offset={x:4.2,y:3.15,z:-.3};
+const base=()=>({item,asset,anchor:'wall',frame:'-Z-front/+Z-rear',face,currentWallRevision:face.revision,floorOffset:offset,activeFloorId:'upper',activeRoomId:'room',roomInterior:[{x:-2,z:-1},{x:4,z:-1},{x:4,z:3},{x:-2,z:3}],ray:{origin:{x:8,y:8,z:7},direction:{x:0,y:0,z:-1}},grab:{along:0,height:0},canEdit:true,mode:'3d',items:[item],movingOpeningIds:[],openingEnvelopes:[],resolve:()=>asset,ceiling:{kind:'flat',height:3}});
+const point=new THREE.Vector3(offset.x+1.2,offset.y+1.9,offset.z-.65),near=(a,b,t=1e-6)=>assert.ok(Math.abs(a-b)<t,`${a} != ${b}`);
+function ray(camera,point){const p=point.clone().project(camera),r=new THREE.Raycaster();r.setFromCamera(new THREE.Vector2(p.x,p.y),camera);return {origin:{x:r.ray.origin.x,y:r.ray.origin.y,z:r.ray.origin.z},direction:{x:r.ray.direction.x,y:r.ray.direction.y,z:r.ray.direction.z}}}
+const cameras=()=>[[6,6,9],[-4,3,8],[2,6,5]].map(p=>{const c=new THREE.PerspectiveCamera(52,390/600,.02,100);c.position.set(offset.x+p[0],offset.y+p[1],offset.z+p[2]);c.lookAt(offset.x+1,offset.y+1.7,offset.z-.8);c.updateMatrixWorld(true);return c});
+test('actual grab-depth plane preserves the picked point in three perspective camera directions',()=>{
+ for(const camera of cameras()){const r={...base(),ray:ray(camera,point)},capture=captureWallDrag(r,point);assert.equal(capture.status,'drag-anchor');near(capture.anchor.depth,.35);const initial=proposeWallDrag(r,capture.anchor);assert.equal(initial.status,'wall-proposal');for(const k of ['x','z','elevation'])near(initial.pose[k],item[k]);const desired=point.clone().add(new THREE.Vector3(.7,.25,0)),moved=proposeWallDrag({...r,ray:ray(camera,desired)},capture.anchor);assert.equal(moved.status,'wall-proposal');near(moved.pose.x,item.x+.7);near(moved.pose.z,item.z);near(moved.pose.elevation,item.elevation+.25);const actual=point.clone().add(new THREE.Vector3(moved.pose.x-item.x,moved.pose.elevation-item.elevation,0)).project(camera),target=desired.clone().project(camera);near(actual.x,target.x,1e-10);near(actual.y,target.y,1e-10);}
+});
+test('a fixed offset on the rear wall plane reproduces perspective parallax, rather than concealing it',()=>{
+ const camera=cameras()[0],r={...base(),ray:ray(camera,point)},wallHit=given=>{const t=(offset.z+face.a.z-given.origin.z)/given.direction.z;return {x:given.origin.x+t*given.direction.x-offset.x,y:given.origin.y+t*given.direction.y-offset.y}},hit=wallHit(r.ray),legacyGrab={along:item.x-hit.x,height:item.elevation-hit.y},desired=point.clone().add(new THREE.Vector3(.7,.25,0)),p=proposeWallPlacement({...r,grab:legacyGrab,ray:ray(camera,desired)});assert.equal(p.status,'wall-proposal');assert.ok(Math.abs(p.pose.x-(item.x+.7))>.01,'Wrong-plane drift is measurable');
+});
+test('grid is intentional quantization while free movement keeps exact contact',()=>{
+ const camera=cameras()[1],r={...base(),ray:ray(camera,point)},a=captureWallDrag(r,point).anchor,p=proposeWallDrag({...r,gridMetres:.1,ray:ray(camera,point.clone().add(new THREE.Vector3(.73,.26,0)))},a);assert.equal(p.status,'wall-proposal');near(p.pose.x,1.7);near(p.pose.elevation,1.7);near(Math.min(...p.footprint.map(p=>p.z)),-1);
+});
+test('Walk, locks and changed scene/wall/floor/asset context reject the drag',()=>{
+ const r=base(),a=captureWallDrag(r,point).anchor;assert.equal(proposeWallDrag({...r,mode:'walk'},a).reason,'read-only-view');assert.equal(proposeWallDrag({...r,item:{...item,locked:true}},a).reason,'item-locked');for(const patch of [{face:{...face,revision:'changed'}},{floorOffset:{...offset,y:4}},{item:{...item,assetHash:'newest'}},{item:{...item,x:1.1}}])assert.equal(proposeWallDrag({...r,...patch},a).reason,'drag-context-changed');
+});
+test('unpicked out-of-cage points, wrong wall pose and invalid rays cannot start or advance a drag',()=>{
+ const r=base();assert.equal(captureWallDrag(r,{x:point.x,y:point.y,z:offset.z+2}).reason,'picked-point-outside-item-cage');assert.equal(captureWallDrag({...r,item:{...item,yaw:0}},point).reason,'item-is-not-on-this-wall-face');const a=captureWallDrag(r,point).anchor;assert.equal(proposeWallDrag({...r,ray:{origin:r.ray.origin,direction:{x:1,y:0,z:0}}},a).reason,'ray-does-not-face-inside-wall');assert.equal(proposeWallDrag({...r,ray:{origin:{x:NaN,y:0,z:0},direction:r.ray.direction}},a).reason,'invalid-drag-ray');
+});
+test('capture and proposal do not mutate caller poses, ray, geometry or picked point',()=>{
+ const camera=cameras()[0],r={...base(),ray:ray(camera,point)},before=JSON.stringify([r,point]),a=captureWallDrag(r,point).anchor;proposeWallDrag(r,a);assert.equal(JSON.stringify([r,point]),before);assert.ok(Object.isFrozen(a));assert.ok(Object.isFrozen(a.start));assert.ok(Object.isFrozen(a.floorOffset));
+});
+test('capture respects active floor/room and authored wall anchoring before a preview begins',()=>{
+ const r=base();for(const patch of [{activeFloorId:'ground'},{activeRoomId:'other'}])assert.equal(captureWallDrag({...r,...patch},point).reason,'wrong-active-room-or-floor');assert.equal(captureWallDrag({...r,anchor:'floor'},point).reason,'wall-anchor-or-authored-frame-required');
+});

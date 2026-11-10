@@ -1,0 +1,662 @@
+[
+  {
+    "id": "ois.design.chimney-rangehood",
+    "version": "0.7.0",
+    "sha256": "ccd3d9b56d5832727e97a22067244c9bf764e90bf3705478a52bc86e5bf2c3d8",
+    "placement": {
+      "anchor": "wall",
+      "allowArbitraryScale": false,
+      "collision": "conservative oriented XZ bounds; clearance separate",
+      "defaultElevationMetres": 1.5,
+      "attachmentRequired": true,
+      "note": "GLB base is Y=0; apply explicit mounting elevation, not floor-only placement"
+    },
+    "meshes": [
+      {
+        "name": "dark_geometry",
+        "min": [
+          -0.36000001430511475,
+          0.0005000005476176739,
+          -0.2369999922811985
+        ],
+        "max": [
+          0.36000001430511475,
+          0.015500000212341547,
+          0.19699999317526817
+        ]
+      },
+      {
+        "name": "metal_geometry",
+        "min": [
+          -0.44999998807907104,
+          0,
+          -0.3100000023841858
+        ],
+        "max": [
+          0.44999998807907104,
+          0.8500000014901161,
+          0.3100000023841858
+        ]
+      }
+    ],
+    "upwardPlanes": [
+      {
+        "y": 0.2,
+        "area": 0.45650000071525554,
+        "triangles": 2
+      },
+      {
+        "y": 0.0155,
+        "area": 0.2960697557337184,
+        "triangles": 2
+      },
+      {
+        "y": 0.85,
+        "area": 0.07863699987727402,
+        "triangles": 2
+      }
+    ],
+    "centerTopRayY": 0.8500000014901161
+  },
+  {
+    "id": "ois.design.floating-bath-drawers",
+    "version": "0.7.0",
+    "sha256": "62db5b71ead6132cfbaa82faa23efd889e622341aae47b72d2bc3110acf1febe",
+    "placement": {
+      "anchor": "wall",
+      "allowArbitraryScale": false,
+      "collision": "conservative oriented XZ bounds; clearance separate",
+      "defaultElevationMetres": 0.3,
+      "attachmentRequired": true,
+      "note": "GLB base is Y=0; apply explicit mounting elevation, not floor-only placement"
+    },
+    "meshes": [
+      {
+        "name": "ceramic_geometry",
+        "min": [
+          -0.3059999942779541,
+          0.5799999907612801,
+          -0.20000000670552254
+        ],
+        "max": [
+          0.3059999942779541,
+          0.6899999901652336,
+          0.1600000075995922
+        ]
+      },
+      {
+        "name": "metal_geometry",
+        "min": [
+          -0.42750003933906555,
+          0.14350002445280552,
+          -0.306000011973083
+        ],
+        "max": [
+          0.42750000953674316,
+          0.8312907218933105,
+          0.2250000238418579
+        ]
+      },
+      {
+        "name": "stone_geometry",
+        "min": [
+          -0.4625000059604645,
+          0.5500000575557351,
+          -0.26249998807907104
+        ],
+        "max": [
+          0.4625000059604645,
+          0.5800000568851829,
+          0.26249998807907104
+        ]
+      },
+      {
+        "name": "wood_geometry",
+        "min": [
+          -0.45000001788139343,
+          7.450580596923828e-9,
+          -0.2759999930858612
+        ],
+        "max": [
+          0.45000001788139343,
+          0.5500000715255737,
+          0.25
+        ]
+      }
+    ],
+    "upwardPlanes": [
+      {
+        "y": 0.58,
+        "area": 0.4626810229363443,
+        "triangles": 2
+      },
+      {
+        "y": 0.036,
+        "area": 0.427855999297142,
+        "triangles": 2
+      },
+      {
+        "y": 0.55,
+        "area": 0.427855999297142,
+        "triangles": 2
+      },
+      {
+        "y": 0.06838,
+        "area": 0.3621510089864728,
+        "triangles": 2
+      },
+      {
+        "y": 0.30338,
+        "area": 0.3621510089864728,
+        "triangles": 2
+      },
+      {
+        "y": 0.61,
+        "area": 0.14572801129531854,
+        "triangles": 2
+      },
+      {
+        "y": 0.532,
+        "area": 0.02098398479557062,
+        "triangles": 6
+      },
+      {
+        "y": 0.1675,
+        "area": 0.018731997244834986,
+        "triangles": 4
+      },
+      {
+        "y": 0.4025,
+        "area": 0.018731997244834986,
+        "triangles": 4
+      },
+      {
+        "y": 0.69,
+        "area": 0.01036800125312709,
+        "triangles": 8
+      },
+      {
+        "y": 0.269,
+        "area": 0.00976801992130305,
+        "triangles": 2
+      },
+      {
+        "y": 0.504,
+        "area": 0.00976801992130305,
+        "triangles": 2
+      },
+      {
+        "y": 0.25562,
+        "area": 0.0034139795944696516,
+        "triangles": 6
+      },
+      {
+        "y": 0.49062,
+        "area": 0.0034139795944696516,
+        "triangles": 6
+      },
+      {
+        "y": 0.1715,
+        "area": 0.0016399997031688613,
+        "triangles": 2
+      },
+      {
+        "y": 0.4065,
+        "area": 0.0016399997031688596,
+        "triangles": 2
+      }
+    ],
+    "centerTopRayY": 0.6100000282749534
+  },
+  {
+    "id": "ois.design.glass-wall-cupboard",
+    "version": "0.7.0",
+    "sha256": "b46af6dac78309ff92210993269fdaeebcdb447b4dadf60e712bd1c7012adcd9",
+    "placement": {
+      "anchor": "wall",
+      "allowArbitraryScale": false,
+      "collision": "conservative oriented XZ bounds; clearance separate",
+      "defaultElevationMetres": 1.4,
+      "attachmentRequired": true,
+      "note": "GLB base is Y=0; apply explicit mounting elevation, not floor-only placement"
+    },
+    "meshes": [
+      {
+        "name": "dark_geometry",
+        "min": [
+          -0.375,
+          0,
+          -0.10999999940395355
+        ],
+        "max": [
+          0.375,
+          0.10000000149011612,
+          0.10999999940395355
+        ]
+      },
+      {
+        "name": "glass_geometry",
+        "min": [
+          -0.36249999701976776,
+          0.17000001668930054,
+          -0.16400000732392073
+        ],
+        "max": [
+          0.36249999701976776,
+          0.6800000071525574,
+          -0.1520000072196126
+        ]
+      },
+      {
+        "name": "metal_geometry",
+        "min": [
+          -0.39049998066834013,
+          0.23149999976158142,
+          -0.21599999428931577
+        ],
+        "max": [
+          0.3414999839861016,
+          0.6185000240802765,
+          -0.1595000045219755
+        ]
+      },
+      {
+        "name": "wood_geometry",
+        "min": [
+          -0.42500001192092896,
+          0.10000000149011612,
+          -0.18950000405311584
+        ],
+        "max": [
+          0.42500001192092896,
+          0.7499999701976776,
+          0.1599999964237213
+        ]
+      }
+    ],
+    "upwardPlanes": [
+      {
+        "y": 0.136,
+        "area": 0.2535360073580737,
+        "triangles": 2
+      },
+      {
+        "y": 0.75,
+        "area": 0.2535360073580737,
+        "triangles": 2
+      },
+      {
+        "y": 0.3162,
+        "area": 0.18397599842751022,
+        "triangles": 2
+      },
+      {
+        "y": 0.51,
+        "area": 0.18397599842751022,
+        "triangles": 2
+      },
+      {
+        "y": 0.1,
+        "area": 0.14973600274467458,
+        "triangles": 2
+      },
+      {
+        "y": 0.732,
+        "area": 0.013683991149425978,
+        "triangles": 6
+      },
+      {
+        "y": 0.71,
+        "area": 0.01280599517827502,
+        "triangles": 12
+      },
+      {
+        "y": 0.17,
+        "area": 0.011741995616436185,
+        "triangles": 4
+      },
+      {
+        "y": 0.68,
+        "area": 0.006459999685138468,
+        "triangles": 4
+      },
+      {
+        "y": 0.7275,
+        "area": 0.0006120002676844871,
+        "triangles": 4
+      },
+      {
+        "y": 0.2765,
+        "area": 0.0005999999501346205,
+        "triangles": 20
+      },
+      {
+        "y": 0.6185,
+        "area": 0.0005999999501346205,
+        "triangles": 20
+      },
+      {
+        "y": 0.49,
+        "area": 0.00044000021874908716,
+        "triangles": 4
+      },
+      {
+        "y": 0.475,
+        "area": 0.00022042571809828006,
+        "triangles": 28
+      }
+    ],
+    "centerTopRayY": 0.7499999701976776
+  },
+  {
+    "id": "ois.design.open-wall-cubby",
+    "version": "0.7.0",
+    "sha256": "822ea52e4ed2eb581a5a653f8507f7bcf6c3d63122dd528ae7ed4af318bacb35",
+    "placement": {
+      "anchor": "wall",
+      "allowArbitraryScale": false,
+      "collision": "conservative oriented XZ bounds; clearance separate",
+      "defaultElevationMetres": 1.4,
+      "attachmentRequired": true,
+      "note": "GLB base is Y=0; apply explicit mounting elevation, not floor-only placement"
+    },
+    "meshes": [
+      {
+        "name": "dark_geometry",
+        "min": [
+          -0.32499998807907104,
+          0,
+          -0.10000000149011612
+        ],
+        "max": [
+          0.32499998807907104,
+          0.10000000149011612,
+          0.10000000149011612
+        ]
+      },
+      {
+        "name": "wood_geometry",
+        "min": [
+          -0.375,
+          0.10000000149011612,
+          -0.15000000596046448
+        ],
+        "max": [
+          0.375,
+          0.7199999988079071,
+          0.15000000596046448
+        ]
+      }
+    ],
+    "upwardPlanes": [
+      {
+        "y": 0.136,
+        "area": 0.20845601454401042,
+        "triangles": 2
+      },
+      {
+        "y": 0.72,
+        "area": 0.20845601454401042,
+        "triangles": 2
+      },
+      {
+        "y": 0.3275,
+        "area": 0.16782599476480442,
+        "triangles": 2
+      },
+      {
+        "y": 0.5075,
+        "area": 0.16782599476480442,
+        "triangles": 2
+      },
+      {
+        "y": 0.1,
+        "area": 0.11665600084090233,
+        "triangles": 2
+      },
+      {
+        "y": 0.702,
+        "area": 0.011359989538192394,
+        "triangles": 4
+      }
+    ],
+    "centerTopRayY": 0.7199999988079071
+  },
+  {
+    "id": "ois.design.rope-suspended-shelves",
+    "version": "0.7.12",
+    "sha256": "566ba1d79685c8954e03f0312c5c233d517a49f5f118e281dcfedb4b8bc0b65c",
+    "placement": {
+      "anchor": "wall",
+      "allowArbitraryScale": false,
+      "collision": "conservative oriented XZ bounds; clearance separate"
+    },
+    "meshes": [
+      {
+        "name": "cane_geometry",
+        "min": [
+          -0.3849999913945794,
+          0,
+          -0.1469999998807997
+        ],
+        "max": [
+          0.3850000375914171,
+          1.3950001001358032,
+          0.14700000586857878
+        ]
+      },
+      {
+        "name": "metal_geometry",
+        "min": [
+          -0.44999998807907104,
+          0.0010001659393310547,
+          -0.15399999916553497
+        ],
+        "max": [
+          0.44999998807907104,
+          1.4225000999867916,
+          0.19749999791383743
+        ]
+      },
+      {
+        "name": "wood_geometry",
+        "min": [
+          -0.44999998807907104,
+          0.011000050231814384,
+          -0.17499999701976776
+        ],
+        "max": [
+          0.44999998807907104,
+          1.2390000373125076,
+          0.17499999701976776
+        ]
+      }
+    ],
+    "upwardPlanes": [
+      {
+        "y": 0.039,
+        "area": 0.2952559935274124,
+        "triangles": 2
+      },
+      {
+        "y": 0.439,
+        "area": 0.2952559935274124,
+        "triangles": 2
+      },
+      {
+        "y": 0.839,
+        "area": 0.2952559935274124,
+        "triangles": 2
+      },
+      {
+        "y": 1.239,
+        "area": 0.2952559935274124,
+        "triangles": 2
+      },
+      {
+        "y": 1.4225,
+        "area": 0.025636001005709175,
+        "triangles": 2
+      },
+      {
+        "y": 0.019,
+        "area": 0.002217487093348014,
+        "triangles": 24
+      },
+      {
+        "y": 0.419,
+        "area": 0.002217487093348014,
+        "triangles": 24
+      },
+      {
+        "y": 0.819,
+        "area": 0.002217487093348014,
+        "triangles": 24
+      },
+      {
+        "y": 1.219,
+        "area": 0.002217487093348014,
+        "triangles": 24
+      },
+      {
+        "y": 1.395,
+        "area": 0.0006000484422671764,
+        "triangles": 56
+      }
+    ],
+    "centerTopRayY": 1.2390000373125076
+  },
+  {
+    "id": "ois.design.wall-fold-breakfast",
+    "version": "0.7.0",
+    "sha256": "8a870fba7a46c11f853ad950f23763d2915421c6756c3850d8b5923b5cfcacc2",
+    "placement": {
+      "anchor": "wall",
+      "allowArbitraryScale": false,
+      "collision": "conservative oriented XZ bounds; clearance separate",
+      "defaultElevationMetres": 1.4,
+      "attachmentRequired": true,
+      "note": "GLB base is Y=0; apply explicit mounting elevation, not floor-only placement"
+    },
+    "meshes": [
+      {
+        "name": "metal_geometry",
+        "min": [
+          -0.33100002018764957,
+          -1.1259409016250999e-8,
+          -0.20089708219481042
+        ],
+        "max": [
+          0.3310000380101582,
+          0.2917388157828992,
+          0.24489708909099597
+        ]
+      },
+      {
+        "name": "wood_geometry",
+        "min": [
+          -0.44999998807907104,
+          0.07111942768096924,
+          -0.27500003576278687
+        ],
+        "max": [
+          0.44999998807907104,
+          0.7611194252967834,
+          0.2750000059604645
+        ]
+      }
+    ],
+    "upwardPlanes": [
+      {
+        "y": 0.31862,
+        "area": 0.47205603634738935,
+        "triangles": 2
+      },
+      {
+        "y": 0.76112,
+        "area": 0.021215998617947096,
+        "triangles": 2
+      }
+    ],
+    "centerTopRayY": 0.31861941516399384
+  },
+  {
+    "id": "ois.design.wall-plate-cupboard",
+    "version": "0.7.0",
+    "sha256": "4a20bc9eb39c195518780f7b829f0952fdad077b5be7c92d0ed4e6c19949f696",
+    "placement": {
+      "anchor": "wall",
+      "allowArbitraryScale": false,
+      "collision": "conservative oriented XZ bounds; clearance separate",
+      "defaultElevationMetres": 1.4,
+      "attachmentRequired": true,
+      "note": "GLB base is Y=0; apply explicit mounting elevation, not floor-only placement"
+    },
+    "meshes": [
+      {
+        "name": "dark_geometry",
+        "min": [
+          -0.375,
+          0,
+          -0.10000000149011612
+        ],
+        "max": [
+          0.375,
+          0.10000000149011612,
+          0.10000000149011612
+        ]
+      },
+      {
+        "name": "wood_geometry",
+        "min": [
+          -0.42500001192092896,
+          0.10000000149011612,
+          -0.20800001919269562
+        ],
+        "max": [
+          0.42500001192092896,
+          0.7000000178813934,
+          0.15000000596046448
+        ]
+      }
+    ],
+    "upwardPlanes": [
+      {
+        "y": 0.136,
+        "area": 0.23685602224493074,
+        "triangles": 2
+      },
+      {
+        "y": 0.7,
+        "area": 0.23685602224493074,
+        "triangles": 2
+      },
+      {
+        "y": 0.32083,
+        "area": 0.19272599900865472,
+        "triangles": 2
+      },
+      {
+        "y": 0.49417,
+        "area": 0.19272599900865472,
+        "triangles": 2
+      },
+      {
+        "y": 0.1,
+        "area": 0.13505600526356698,
+        "triangles": 2
+      },
+      {
+        "y": 0.682,
+        "area": 0.011359989538192394,
+        "triangles": 4
+      },
+      {
+        "y": 0.58,
+        "area": 0.0011021282108372166,
+        "triangles": 140
+      }
+    ],
+    "centerTopRayY": 0.7000000178813934
+  }
+]

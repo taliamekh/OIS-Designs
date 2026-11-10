@@ -1,0 +1,15 @@
+✔ actual grab-depth plane preserves the picked point in three perspective camera directions (15.0972ms)
+✔ a fixed offset on the rear wall plane reproduces perspective parallax, rather than concealing it (1.9695ms)
+✔ grid is intentional quantization while free movement keeps exact contact (0.9331ms)
+✔ Walk, locks and changed scene/wall/floor/asset context reject the drag (0.4295ms)
+✔ unpicked out-of-cage points, wrong wall pose and invalid rays cannot start or advance a drag (0.3478ms)
+✔ capture and proposal do not mutate caller poses, ray, geometry or picked point (0.762ms)
+✔ capture respects active floor/room and authored wall anchoring before a preview begins (0.247ms)
+ℹ tests 7
+ℹ suites 0
+ℹ pass 7
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 523.4828

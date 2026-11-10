@@ -1,0 +1,254 @@
+{
+  "schemaVersion": 1,
+  "createdAtUtc": "2026-11-10T06:33:41.092630+00:00",
+  "status": "ready-for-coordinator-publication-unadopted-wall-draft",
+  "ownerThreadId": "01a1bd3f-562d-73d2-8ea3-8a5344049c49",
+  "freeze": "Listed bytes held for root-only Git publication; no mobile or existing release writes. Initial119-file publication list remains byte-exact.",
+  "requiresInitialPackage": {
+    "path": "docs/spatial/PUBLISH_READY.json",
+    "sha256": "25f749f661f3757009ae3ca83f017645e234f4e13e7a29f8d83b990ca1202ec5"
+  },
+  "checks": {
+    "strictTypeScript": "pass",
+    "nodeTests": 21,
+    "actualGlbWallCases": 84,
+    "actualTriangleProbes": 84144,
+    "actualWallPenetrations": 0,
+    "productionInsideFaceCageCases": 1008,
+    "acceptedCages": 988,
+    "rejectedWallEndOverhangs": 20,
+    "positiveCageWallIntersections": 0,
+    "productionOpeningMotionCases": 84,
+    "correctSlidingPanelRejections": 7,
+    "futurePublisher": "Python AST syntax only; no new generation/release"
+  },
+  "metadataFinding": "Frozen fold-wall table inherits1.4m base hint; actual worktop then1.718619m. Source-only future generator removes generic hints for folding tables/rope shelves. Existing release/catalogue untouched and still gated.",
+  "productionGates": [
+    "elevation/wall attachment schema",
+    "exact wall-ID remapping on geometry/move",
+    "all commands and collision providers",
+    "persistence/Undo/legacy data",
+    "actual UI/native/phone validation"
+  ],
+  "reproduction": "spatial/next-wall/README.md",
+  "files": [
+    {
+      "path": "docs/furniture/MOUNTING_DEFAULTS.md",
+      "sha256": "aa2dba7d92c50ab656d777296787a04c8f4e2ba5f6528c1e336debc7f1640d91",
+      "bytes": 1822,
+      "readiness": "ready-unadopted-geometry-review-draft"
+    },
+    {
+      "path": "furniture/scripts/build_catalogue_v2.py",
+      "sha256": "ada943e4200079818cea0a97451a02098db1fa0d3674c55c9b6c7f07ba4c891d",
+      "bytes": 15628,
+      "readiness": "source-only-future-generator-correction"
+    },
+    {
+      "path": "spatial/next-wall/dist/next-wall/src/wallPlacement.d.ts",
+      "sha256": "b81b5d3c58b66c42b68cf89c35d6d20b8f53a772f70f137252d88734fa851abb",
+      "bytes": 3418,
+      "readiness": "ready-unadopted-geometry-review-draft"
+    },
+    {
+      "path": "spatial/next-wall/dist/next-wall/src/wallPlacement.js",
+      "sha256": "549754d597f3c3dc420ffc36f1f94ada0511c5caa4aca4921680dbd11f8303fd",
+      "bytes": 10952,
+      "readiness": "ready-unadopted-geometry-review-draft"
+    },
+    {
+      "path": "spatial/next-wall/dist/src/supportPlacement.d.ts",
+      "sha256": "36398caec3a98e6d7e08ac8e417f93631e94088cf175a474d111714c41d8fec2",
+      "bytes": 3168,
+      "readiness": "ready-unadopted-geometry-review-draft"
+    },
+    {
+      "path": "spatial/next-wall/dist/src/supportPlacement.js",
+      "sha256": "971220e72b83036584ff3e4b4e543bf6ca9115c6483d1232f0c62311b902c5f3",
+      "bytes": 14089,
+      "readiness": "ready-unadopted-geometry-review-draft"
+    },
+    {
+      "path": "spatial/next-wall/dist/src/viewPlan.d.ts",
+      "sha256": "caf6ca18c0ad8a52d65ec81393054a9f9b8dbf2156a9d161a48cd7b0465bb61f",
+      "bytes": 4159,
+      "readiness": "ready-unadopted-geometry-review-draft"
+    },
+    {
+      "path": "spatial/next-wall/dist/src/viewPlan.js",
+      "sha256": "69d40c4bd0edbe91c7b5fec6427ef6811b028004c074767e927c3079c9c21362",
+      "bytes": 8483,
+      "readiness": "ready-unadopted-geometry-review-draft"
+    },
+    {
+      "path": "spatial/next-wall/evidence/browser-r4/chimney-rangehood.png",
+      "sha256": "445aef7a7f83875ed197eb7778fad94725e992fd7ff9c9828c86e80baa247c98",
+      "bytes": 24642,
+      "readiness": "ready-unadopted-geometry-review-draft"
+    },
+    {
+      "path": "spatial/next-wall/evidence/browser-r4/floating-bath-drawers.png",
+      "sha256": "d361c5380724667114ea31565ccc9d701158cf96dde155889b94361d3d1b84bd",
+      "bytes": 53767,
+      "readiness": "ready-unadopted-geometry-review-draft"
+    },
+    {
+      "path": "spatial/next-wall/evidence/browser-r4/glass-wall-cupboard.png",
+      "sha256": "b946559b8c94696473b91f2b32f8c788c665445e4196170ca79b17fd37a6337b",
+      "bytes": 44944,
+      "readiness": "ready-unadopted-geometry-review-draft"
+    },
+    {
+      "path": "spatial/next-wall/evidence/browser-r4/open-wall-cubby.png",
+      "sha256": "833176952a9d7e61ebd28d02f5147508c14ed11a5eed34a609ddaf63d9a3a3d4",
+      "bytes": 32166,
+      "readiness": "ready-unadopted-geometry-review-draft"
+    },
+    {
+      "path": "spatial/next-wall/evidence/browser-r4/result.json",
+      "sha256": "290362fe36fb88e2ff4fdfee02854821ee47a555cb483e25acbfb2ae5699d719",
+      "bytes": 84684,
+      "readiness": "ready-unadopted-geometry-review-draft"
+    },
+    {
+      "path": "spatial/next-wall/evidence/browser-r4/rope-suspended-shelves.png",
+      "sha256": "9e35901189ecad82702d4e840c4c599dba85418dc39e830473afb8594e613fe3",
+      "bytes": 41231,
+      "readiness": "ready-unadopted-geometry-review-draft"
+    },
+    {
+      "path": "spatial/next-wall/evidence/browser-r4/wall-fold-breakfast.png",
+      "sha256": "badadc80debec65ec2fb84b9f3eac364477b20323807493b06c0dbb7ac5cf874",
+      "bytes": 39383,
+      "readiness": "ready-unadopted-geometry-review-draft"
+    },
+    {
+      "path": "spatial/next-wall/evidence/browser-r4/wall-fold-explicit-working-height.png",
+      "sha256": "c4b38d1afd5016b72345cdf21396df5f249c23e2916d126df6de43c24ad23a07",
+      "bytes": 39995,
+      "readiness": "ready-unadopted-geometry-review-draft"
+    },
+    {
+      "path": "spatial/next-wall/evidence/browser-r4/wall-plate-cupboard.png",
+      "sha256": "c03f0e8aae9724cb808394e43432e4d1b02b6aa0fa77845bc7c464fea6d7e324",
+      "bytes": 39100,
+      "readiness": "ready-unadopted-geometry-review-draft"
+    },
+    {
+      "path": "spatial/next-wall/evidence/mount-profile-r2/models.json",
+      "sha256": "b6f003b06ee5f3a422cc1932f13e868be45b657246298f521aa46d1d63e319d0",
+      "bytes": 14838,
+      "readiness": "ready-unadopted-geometry-review-draft"
+    },
+    {
+      "path": "spatial/next-wall/evidence/mount-profile-r2/result.json",
+      "sha256": "03c73a6269731d08237d43d377e5576bd58177de02563ca817ab043ed946250e",
+      "bytes": 17183,
+      "readiness": "ready-unadopted-geometry-review-draft"
+    },
+    {
+      "path": "spatial/next-wall/evidence/production-face-r3/result.json",
+      "sha256": "0ee581b4973d4755eeebed032aebcbcdb67b140e0247e0df92e74657ae484a54",
+      "bytes": 524559,
+      "readiness": "ready-unadopted-geometry-review-draft"
+    },
+    {
+      "path": "spatial/next-wall/evidence/production-face-r3/source/construction.js",
+      "sha256": "6b652d34e673f85d8477c284d2d3e7e05b7db665a501f2cf938be9afbdeab8eb",
+      "bytes": 485,
+      "readiness": "ready-unadopted-geometry-review-draft"
+    },
+    {
+      "path": "spatial/next-wall/evidence/production-face-r3/source/construction.ts",
+      "sha256": "d248539e57f44afab413bc42ce49b6ea0e3a6f7bb6ace675757457ea651dff53",
+      "bytes": 293,
+      "readiness": "ready-unadopted-geometry-review-draft"
+    },
+    {
+      "path": "spatial/next-wall/evidence/production-face-r3/source/geometry.js",
+      "sha256": "30ad841d27e2af264993dbdb41d4b8d57d59f9b0acf60a8d3a1515a8803847b0",
+      "bytes": 42626,
+      "readiness": "ready-unadopted-geometry-review-draft"
+    },
+    {
+      "path": "spatial/next-wall/evidence/production-face-r3/source/geometry.ts",
+      "sha256": "a25eee6dd2a21d613781ff0d1514764bccde7769eefc50ab3cffa26ec569246b",
+      "bytes": 40710,
+      "readiness": "ready-unadopted-geometry-review-draft"
+    },
+    {
+      "path": "spatial/next-wall/evidence/production-face-r3/source/package.json",
+      "sha256": "dbf8353f77358bc12169b7bb7301e1978d5b503e002ee927229a8993672818fc",
+      "bytes": 20,
+      "readiness": "ready-unadopted-geometry-review-draft"
+    },
+    {
+      "path": "spatial/next-wall/evidence/production-face-r3/source/types.js",
+      "sha256": "2ab3f0c0a0bd7bd56ef46a6d040622a869fd0fa05e59c080fcdc5c6f67001c28",
+      "bytes": 793,
+      "readiness": "ready-unadopted-geometry-review-draft"
+    },
+    {
+      "path": "spatial/next-wall/evidence/production-face-r3/source/types.ts",
+      "sha256": "e818a704afc0cc972978dbdea369429ca33af346cced16f68eb88ccc1f5a42e5",
+      "bytes": 3555,
+      "readiness": "ready-unadopted-geometry-review-draft"
+    },
+    {
+      "path": "spatial/next-wall/README.md",
+      "sha256": "a7429727c59839283f4831570c0861be26dfdca17eb07aa0dad4cb72e83219cb",
+      "bytes": 4718,
+      "readiness": "ready-unadopted-geometry-review-draft"
+    },
+    {
+      "path": "spatial/next-wall/review/index.html",
+      "sha256": "5911ca1515546e74da8b3dd104b9c20038be033568addaad993e08ce2802aa29",
+      "bytes": 793,
+      "readiness": "ready-unadopted-geometry-review-draft"
+    },
+    {
+      "path": "spatial/next-wall/scripts/browser.cjs",
+      "sha256": "552009fa8524fbd205c4407919f5dcd495060884bb0247dfc2bf6bf25eec794b",
+      "bytes": 10719,
+      "readiness": "ready-unadopted-geometry-review-draft"
+    },
+    {
+      "path": "spatial/next-wall/scripts/mount_profiles.cjs",
+      "sha256": "65bf0aade8164756bace420c562ce23255034ec8cf6ad76a3fdedd12adf4ce9f",
+      "bytes": 4257,
+      "readiness": "ready-unadopted-geometry-review-draft"
+    },
+    {
+      "path": "spatial/next-wall/scripts/production_faces.cjs",
+      "sha256": "961690081fb1fbc9bde80e8244c530785f7bfd684bead806469a98ef0fed688b",
+      "bytes": 9524,
+      "readiness": "ready-unadopted-geometry-review-draft"
+    },
+    {
+      "path": "spatial/next-wall/src/wallPlacement.ts",
+      "sha256": "17de9ca27dffe9dcccd2c1e9a230317e5e9fd6ad72503c85e0733c9577ed260d",
+      "bytes": 11706,
+      "readiness": "ready-unadopted-geometry-review-draft"
+    },
+    {
+      "path": "spatial/next-wall/tests/result.log",
+      "sha256": "187af3e3552e15484ccf942c1adf51f5d5a7c35036673f66e477b63724d00b93",
+      "bytes": 2166,
+      "readiness": "ready-unadopted-geometry-review-draft"
+    },
+    {
+      "path": "spatial/next-wall/tests/wallPlacement.test.mjs",
+      "sha256": "f44f47aba679f7dc08b982261b3a93c85a437b184c352d78d89bbb3c9919f7e7",
+      "bytes": 12667,
+      "readiness": "ready-unadopted-geometry-review-draft"
+    },
+    {
+      "path": "spatial/next-wall/tsconfig.json",
+      "sha256": "47045c53b257b27bc46be1ec19db9bd3c835a0853053dd96eb8639c353b75d4c",
+      "bytes": 240,
+      "readiness": "ready-unadopted-geometry-review-draft"
+    }
+  ],
+  "publicationListPath": "docs/spatial/PUBLISH_READY_WALL.json",
+  "selfHash": "Excluded to avoid self-reference; publish this JSON with listed paths."
+}

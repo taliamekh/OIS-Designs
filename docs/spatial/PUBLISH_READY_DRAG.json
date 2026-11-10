@@ -1,0 +1,168 @@
+{
+  "schemaVersion": 1,
+  "createdAtUtc": "2026-11-10T06:43:44.786531+00:00",
+  "status": "ready-for-coordinator-publication-unadopted-drag-bridge",
+  "ownerThreadId": "01a1bd3f-562d-73d2-8ea3-8a5344049c49",
+  "freeze": "Listed bytes held for root-only publication. No mobile, existing publication-list or release writes.",
+  "requiresWallPackage": {
+    "path": "docs/spatial/PUBLISH_READY_WALL.json",
+    "sha256": "4209e1c5d698b2145ad4809847807300dcefec870827dd9cff69e63a3dff2e71"
+  },
+  "checks": {
+    "strictTypeScript": "pass",
+    "nodeTests": 7,
+    "actualGLBMeshHitCameraCases": 3,
+    "wrongPlaneControlDriftMillimetres": [
+      21.24,
+      24.43,
+      31.13
+    ],
+    "correctedProjection": "passes within floating-point tolerance",
+    "disposal": "zero geometries/textures/leases",
+    "browserErrors": 0
+  },
+  "productionGates": [
+    "actual pointer-event and orbit arbitration",
+    "occlusion-aware picker binding",
+    "preview/cancel/current-project revalidation",
+    "one guarded command/Undo",
+    "persistence and native/phone acceptance"
+  ],
+  "reproduction": "spatial/interaction-audit/README.md",
+  "files": [
+    {
+      "path": "spatial/interaction-audit/dist/interaction-audit/src/wallDrag.d.ts",
+      "sha256": "c15f2ff00446611f2f45310b582bfc5cd3250e561ec697b57c761f5c4f0370a3",
+      "bytes": 1029,
+      "readiness": "ready-unadopted-scripted-gesture-math-review"
+    },
+    {
+      "path": "spatial/interaction-audit/dist/interaction-audit/src/wallDrag.js",
+      "sha256": "4804f1758fb8e12d73fd4471dad495a113229473a3fd8d224b7db1f1476f9f6e",
+      "bytes": 4510,
+      "readiness": "ready-unadopted-scripted-gesture-math-review"
+    },
+    {
+      "path": "spatial/interaction-audit/dist/next-wall/src/wallPlacement.d.ts",
+      "sha256": "b81b5d3c58b66c42b68cf89c35d6d20b8f53a772f70f137252d88734fa851abb",
+      "bytes": 3418,
+      "readiness": "ready-unadopted-scripted-gesture-math-review"
+    },
+    {
+      "path": "spatial/interaction-audit/dist/next-wall/src/wallPlacement.js",
+      "sha256": "549754d597f3c3dc420ffc36f1f94ada0511c5caa4aca4921680dbd11f8303fd",
+      "bytes": 10952,
+      "readiness": "ready-unadopted-scripted-gesture-math-review"
+    },
+    {
+      "path": "spatial/interaction-audit/dist/src/supportPlacement.d.ts",
+      "sha256": "36398caec3a98e6d7e08ac8e417f93631e94088cf175a474d111714c41d8fec2",
+      "bytes": 3168,
+      "readiness": "ready-unadopted-scripted-gesture-math-review"
+    },
+    {
+      "path": "spatial/interaction-audit/dist/src/supportPlacement.js",
+      "sha256": "971220e72b83036584ff3e4b4e543bf6ca9115c6483d1232f0c62311b902c5f3",
+      "bytes": 14089,
+      "readiness": "ready-unadopted-scripted-gesture-math-review"
+    },
+    {
+      "path": "spatial/interaction-audit/dist/src/viewPlan.d.ts",
+      "sha256": "caf6ca18c0ad8a52d65ec81393054a9f9b8dbf2156a9d161a48cd7b0465bb61f",
+      "bytes": 4159,
+      "readiness": "ready-unadopted-scripted-gesture-math-review"
+    },
+    {
+      "path": "spatial/interaction-audit/dist/src/viewPlan.js",
+      "sha256": "69d40c4bd0edbe91c7b5fec6427ef6811b028004c074767e927c3079c9c21362",
+      "bytes": 8483,
+      "readiness": "ready-unadopted-scripted-gesture-math-review"
+    },
+    {
+      "path": "spatial/interaction-audit/evidence/browser-r3/after-0.png",
+      "sha256": "68e554943ffea12fbefa6be499185ce5b02b9a5b7f4b55c0e395346d4f6164bb",
+      "bytes": 27435,
+      "readiness": "ready-unadopted-scripted-gesture-math-review"
+    },
+    {
+      "path": "spatial/interaction-audit/evidence/browser-r3/after-1.png",
+      "sha256": "4f602c97b566a0099a70f44aace4b9143d3f9a6a4a1708a5c16a480ed699fb89",
+      "bytes": 28422,
+      "readiness": "ready-unadopted-scripted-gesture-math-review"
+    },
+    {
+      "path": "spatial/interaction-audit/evidence/browser-r3/after-2.png",
+      "sha256": "a8e773237fa42cad522e0bdbe3fa0ac85a2ee1ac990a0af39c71bdc0eb01d87b",
+      "bytes": 34644,
+      "readiness": "ready-unadopted-scripted-gesture-math-review"
+    },
+    {
+      "path": "spatial/interaction-audit/evidence/browser-r3/before-0.png",
+      "sha256": "cfeabd6e8a4cdc8217a07f7c1626301e58f90bdcd3158b3e2c28633fac31e8e2",
+      "bytes": 27014,
+      "readiness": "ready-unadopted-scripted-gesture-math-review"
+    },
+    {
+      "path": "spatial/interaction-audit/evidence/browser-r3/before-1.png",
+      "sha256": "00b0328922b00bd24c2c92d949987a0a32d300efc243763d22cb438172feb43c",
+      "bytes": 29199,
+      "readiness": "ready-unadopted-scripted-gesture-math-review"
+    },
+    {
+      "path": "spatial/interaction-audit/evidence/browser-r3/before-2.png",
+      "sha256": "5ab946144bc8f078bd253f7ac92685405da3f8f92670a85bf1b042f185183875",
+      "bytes": 34129,
+      "readiness": "ready-unadopted-scripted-gesture-math-review"
+    },
+    {
+      "path": "spatial/interaction-audit/evidence/browser-r3/result.json",
+      "sha256": "11ce1d49b9823f34cfdbc7b43ce9ac990d6d703fa9749ddcf437121aeb053557",
+      "bytes": 4143,
+      "readiness": "ready-unadopted-scripted-gesture-math-review"
+    },
+    {
+      "path": "spatial/interaction-audit/README.md",
+      "sha256": "0278602a3f71c36584e6b5af49efc73d9260153c5caaba2af251e403d0dfff93",
+      "bytes": 2685,
+      "readiness": "ready-unadopted-scripted-gesture-math-review"
+    },
+    {
+      "path": "spatial/interaction-audit/review/index.html",
+      "sha256": "8d4660956f5672916eedf132b3f95c3823bf47501c2b351a9af4a13e063c358e",
+      "bytes": 1058,
+      "readiness": "ready-unadopted-scripted-gesture-math-review"
+    },
+    {
+      "path": "spatial/interaction-audit/scripts/browser.cjs",
+      "sha256": "9e83e3395bbde44686e2dd129ce6f504f11c9100fcc5f5652b5a311e9f9891db",
+      "bytes": 8863,
+      "readiness": "ready-unadopted-scripted-gesture-math-review"
+    },
+    {
+      "path": "spatial/interaction-audit/src/wallDrag.ts",
+      "sha256": "c7bc04ea6a2f0e1db7da037039d571c5eb56bd6075f1cda1620fb4d96b60c183",
+      "bytes": 4608,
+      "readiness": "ready-unadopted-scripted-gesture-math-review"
+    },
+    {
+      "path": "spatial/interaction-audit/tests/result.log",
+      "sha256": "6e5862fb3ad19e58f8fe8b5204f1234575a69343996943aa02c90590ad182a7c",
+      "bytes": 822,
+      "readiness": "ready-unadopted-scripted-gesture-math-review"
+    },
+    {
+      "path": "spatial/interaction-audit/tests/wallDrag.test.mjs",
+      "sha256": "e24f559800005a709f92f72a53b96805d6930c01cbb66330172b1a82a42f50a0",
+      "bytes": 5879,
+      "readiness": "ready-unadopted-scripted-gesture-math-review"
+    },
+    {
+      "path": "spatial/interaction-audit/tsconfig.json",
+      "sha256": "47045c53b257b27bc46be1ec19db9bd3c835a0853053dd96eb8639c353b75d4c",
+      "bytes": 240,
+      "readiness": "ready-unadopted-scripted-gesture-math-review"
+    }
+  ],
+  "publicationListPath": "docs/spatial/PUBLISH_READY_DRAG.json",
+  "selfHash": "Excluded to avoid self-reference; publish this JSON with listed paths."
+}

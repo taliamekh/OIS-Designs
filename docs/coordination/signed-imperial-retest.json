@@ -1,0 +1,166 @@
+{
+  "at": "2026-11-10T06:39:55.230Z",
+  "source": "mobile/src/domain/geometry.ts",
+  "before": "b163f0fea0fdd9f9871d17274e978897f76979e6b408a531853f62c8485074bf",
+  "after": "b163f0fea0fdd9f9871d17274e978897f76979e6b408a531853f62c8485074bf",
+  "fixed": [
+    {
+      "metres": -0.05,
+      "expected": "-0′ 2″",
+      "actual": "-0′ 2″"
+    },
+    {
+      "metres": -1,
+      "expected": "-3′ 3″",
+      "actual": "-3′ 3″"
+    },
+    {
+      "metres": -0.9398,
+      "expected": "-3′ 1″",
+      "actual": "-3′ 1″"
+    },
+    {
+      "metres": -0.001,
+      "expected": "0′ 0″",
+      "actual": "0′ 0″"
+    },
+    {
+      "metres": 0.001,
+      "expected": "0′ 0″",
+      "actual": "0′ 0″"
+    },
+    {
+      "metres": 0,
+      "expected": "0′ 0″",
+      "actual": "0′ 0″"
+    },
+    {
+      "metres": -0.3048,
+      "expected": "-1′ 0″",
+      "actual": "-1′ 0″"
+    },
+    {
+      "metres": 0.3048,
+      "expected": "1′ 0″",
+      "actual": "1′ 0″"
+    },
+    {
+      "metres": -0.0127,
+      "expected": "-0′ 1″",
+      "actual": "-0′ 1″"
+    },
+    {
+      "metres": 0.0127,
+      "expected": "0′ 1″",
+      "actual": "0′ 1″"
+    },
+    {
+      "metres": -0.2921,
+      "expected": "-1′ 0″",
+      "actual": "-1′ 0″"
+    },
+    {
+      "metres": 0.2921,
+      "expected": "1′ 0″",
+      "actual": "1′ 0″"
+    }
+  ],
+  "symmetry": [
+    {
+      "metres": 0.013,
+      "positive": "0′ 1″",
+      "negative": "-0′ 1″",
+      "pass": true
+    },
+    {
+      "metres": 0.0254,
+      "positive": "0′ 1″",
+      "negative": "-0′ 1″",
+      "pass": true
+    },
+    {
+      "metres": 0.05,
+      "positive": "0′ 2″",
+      "negative": "-0′ 2″",
+      "pass": true
+    },
+    {
+      "metres": 0.1,
+      "positive": "0′ 4″",
+      "negative": "-0′ 4″",
+      "pass": true
+    },
+    {
+      "metres": 0.2,
+      "positive": "0′ 8″",
+      "negative": "-0′ 8″",
+      "pass": true
+    },
+    {
+      "metres": 0.305,
+      "positive": "1′ 0″",
+      "negative": "-1′ 0″",
+      "pass": true
+    },
+    {
+      "metres": 0.5,
+      "positive": "1′ 8″",
+      "negative": "-1′ 8″",
+      "pass": true
+    },
+    {
+      "metres": 0.94,
+      "positive": "3′ 1″",
+      "negative": "-3′ 1″",
+      "pass": true
+    },
+    {
+      "metres": 1,
+      "positive": "3′ 3″",
+      "negative": "-3′ 3″",
+      "pass": true
+    },
+    {
+      "metres": 2.5,
+      "positive": "8′ 2″",
+      "negative": "-8′ 2″",
+      "pass": true
+    },
+    {
+      "metres": 4,
+      "positive": "13′ 1″",
+      "negative": "-13′ 1″",
+      "pass": true
+    },
+    {
+      "metres": 10,
+      "positive": "32′ 10″",
+      "negative": "-32′ 10″",
+      "pass": true
+    }
+  ],
+  "metric": [
+    {
+      "metres": -1,
+      "pass": true
+    },
+    {
+      "metres": -0.05,
+      "pass": true
+    },
+    {
+      "metres": 0,
+      "pass": true
+    },
+    {
+      "metres": 0.05,
+      "pass": true
+    },
+    {
+      "metres": 1,
+      "pass": true
+    }
+  ],
+  "pass": true,
+  "limits": "Executes actual production formatter with literal expected values and sign symmetry. Does not parse/save geometry or establish UI/native output."
+}

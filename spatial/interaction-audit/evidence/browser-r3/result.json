@@ -1,0 +1,146 @@
+{
+  "timeUtc": "2026-11-10T06:42:30.732Z",
+  "model": {
+    "id": "ois.design.glass-wall-cupboard",
+    "version": "0.7.0",
+    "sha256": "b46af6dac78309ff92210993269fdaeebcdb447b4dadf60e712bd1c7012adcd9"
+  },
+  "sourceSha256": {
+    "src/wallDrag.ts": "c7bc04ea6a2f0e1db7da037039d571c5eb56bd6075f1cda1620fb4d96b60c183",
+    "dist/interaction-audit/src/wallDrag.js": "4804f1758fb8e12d73fd4471dad495a113229473a3fd8d224b7db1f1476f9f6e",
+    "dist/next-wall/src/wallPlacement.js": "549754d597f3c3dc420ffc36f1f94ada0511c5caa4aca4921680dbd11f8303fd",
+    "scripts/browser.cjs": "9e83e3395bbde44686e2dd129ce6f504f11c9100fcc5f5652b5a311e9f9891db",
+    "review/index.html": "8d4660956f5672916eedf132b3f95c3823bf47501c2b351a9af4a13e063c358e"
+  },
+  "cases": [
+    {
+      "before": {
+        "index": 0,
+        "mesh": "glass_geometry",
+        "pickedWorld": [
+          3.4870455762354156,
+          4.963735266783009,
+          -0.7759999962523563
+        ],
+        "grabDepth": 0.3240000037476438
+      },
+      "after": {
+        "index": 0,
+        "pose": {
+          "x": 1.4699999999999185,
+          "z": 0.1599999964237213,
+          "yaw": -3.141592653589793,
+          "elevation": 1.5799999999999987
+        },
+        "actualGrabPoint": [
+          3.957045576235334,
+          5.143735266783008,
+          -0.7759999962523563
+        ],
+        "desiredGrabPoint": [
+          3.9570455762354158,
+          5.1437352667830085,
+          -0.7759999962523563
+        ],
+        "worldPointError": 8.171724152647264e-14,
+        "pixelError": 7.80106008636898e-12,
+        "minRear": 0,
+        "wrongPlaneControl": {
+          "worldError": 0.02124357695439994,
+          "pixelError": 1.9705710561907022
+        }
+      }
+    },
+    {
+      "before": {
+        "index": 1,
+        "mesh": "glass_geometry",
+        "pickedWorld": [
+          3.3201409229016767,
+          4.949456827757662,
+          -0.7759999962523572
+        ],
+        "grabDepth": 0.32400000374764293
+      },
+      "after": {
+        "index": 1,
+        "pose": {
+          "x": 1.4699999999999704,
+          "z": 0.1599999964237213,
+          "yaw": -3.141592653589793,
+          "elevation": 1.5800000000000005
+        },
+        "actualGrabPoint": [
+          3.7901409229016476,
+          5.129456827757663,
+          -0.7759999962523572
+        ],
+        "desiredGrabPoint": [
+          3.790140922901677,
+          5.129456827757662,
+          -0.7759999962523572
+        ],
+        "worldPointError": 2.932334201094587e-14,
+        "pixelError": 3.0461448837732942e-12,
+        "minRear": 0,
+        "wrongPlaneControl": {
+          "worldError": 0.024425658585128136,
+          "pixelError": 2.6789887253552096
+        }
+      }
+    },
+    {
+      "before": {
+        "index": 2,
+        "mesh": "wood_geometry",
+        "pickedWorld": [
+          3.4277873374039025,
+          5.0146141486404385,
+          -0.7504999995231629
+        ],
+        "grabDepth": 0.34950000047683716
+      },
+      "after": {
+        "index": 2,
+        "pose": {
+          "x": 1.4699999999999993,
+          "z": 0.1599999964237213,
+          "yaw": -3.141592653589793,
+          "elevation": 1.5800000000000618
+        },
+        "actualGrabPoint": [
+          3.897787337403902,
+          5.1946141486405,
+          -0.7504999995231629
+        ],
+        "desiredGrabPoint": [
+          3.8977873374039023,
+          5.194614148640438,
+          -0.7504999995231629
+        ],
+        "worldPointError": 6.217407539167159e-14,
+        "pixelError": 8.544837630695766e-12,
+        "minRear": 0,
+        "wrongPlaneControl": {
+          "worldError": 0.031129912240434977,
+          "pixelError": 4.73690712858756
+        }
+      }
+    }
+  ],
+  "disposed": {
+    "memory": {
+      "geometries": 0,
+      "textures": 0
+    },
+    "bank": {
+      "uniqueTextures": 0,
+      "rootLeases": 0,
+      "decodedDuplicates": 0,
+      "releases": 3,
+      "entries": []
+    }
+  },
+  "errors": [],
+  "scope": "Actual GLB ray hits, scripted perspective projection and world-space contact. No actual pointer event/gesture, mobile/source adoption, save/Undo or physical native claim."
+}

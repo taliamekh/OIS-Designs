@@ -9,9 +9,9 @@ Shared minimum-work gate: **November 10, 2026, 01:53 America/Toronto (06:53 UTC)
 | Existing chat | Responsibility | Writable files |
 | --- | --- | --- |
 | Coordinate overnight build phases — `01a1c2ef-37e4-7b43-8a3c-8774e51f2454` | Phase coordination, handoffs, independent review, sole Git publication | `docs/coordination/`, live `PHASE_STATUS.md`, repository index/workflow records; confirmed feedback |
-| OIS Expo app — overnight build — `01a1c2dc-5032-7e11-9d15-3f28723baf3c` | Production app and integration, tests, fixes | `mobile/` except the active exact handoffs below; `docs/build/`, implementation/parity documentation |
-| OIS furniture library — real 3D assets — `01a1bd3f-562d-73d2-8ea3-8a5344049c49` | Completed library readiness milestone; now original Phase 3 house-view work | `furniture/`, `docs/furniture/`, `spatial/`, `docs/spatial/`; active reserved new mobile files below |
-| OIS app plan and phone mockups — `01a1bcd1-1d0e-73d2-9d70-4b706a2121c7` | Independent design/behavior audit, plus assigned physical-boundary repair | `docs/qa/design/`; active exact domain pair below |
+| OIS Expo app — overnight build — `01a1c2dc-5032-7e11-9d15-3f28723baf3c` | Production app and integration, tests, fixes | All `mobile/`; `docs/build/`, implementation/parity documentation. Both focused source handoffs returned at05:17UTC. |
+| OIS furniture library — real 3D assets — `01a1bd3f-562d-73d2-8ea3-8a5344049c49` | Completed library readiness; original Phase3 spatial policy and experiments | `furniture/`, `docs/furniture/`, `spatial/`, `docs/spatial/`. Adopted mobile files belong to app. |
+| OIS app plan and phone mockups — `01a1bcd1-1d0e-73d2-9d70-4b706a2121c7` | Independent design/behavior audit; focused repair handoff completed | `docs/qa/design/`; production is read-only unless a new exact handoff is agreed. |
 | Troubleshoot Expo overnight build — `01a1c2e5-832f-7b50-aae2-ae53d7446f99` | Independent build/runtime/export checks | `docs/qa/runtime/` |
 
 All chats share this checkout. The user's later explicit instruction authorizes regular GitHub publication under `taliamekh`, superseding the initial no-push rule. Root alone stages, commits and pushes meaningful checked increments; workers must not mutate Git concurrently. No branch switches, resets, cleaning or blanket staging. Do not change dependencies or start/stop another owner's servers without an explicit handoff. Report through owned status files; the coordinator reads and relays them.
@@ -140,3 +140,11 @@ The two new spatial mobile files also returned to app ownership for production i
 ## Checkpoint — 05:31 UTC
 
 Actual working-tree room-move command translates a locked current arc-shade lamp and commits history; INT-027 is relayed to app/design QA before acceptance. This is a new-feature implementation issue, separate from old direct-drag lock proofs. The app is adopting inside-dimension/shared physical helpers and contextual room/floor/house views, while the concave trim-miter repair remains under test. Root created an in-progress overnight review that preserves original phase scope, evidence limits and required next acceptance rather than treating passing helper tests as complete UI/native delivery.
+
+## Checkpoint — 06:35 UTC
+
+Published integrated app3152a85b at06:09 with51tests, matching59-source web evidence,56compiled native sources per platform and all1,187exact retained GLBs. Independent checks close the room-move lock reproduction, inside creation/legacy dimensions and concave trim at their pinned snapshots. Actual production house views/presets/visual floor separation are integrated; physical phone gates remain pending.
+
+Published a3226d07 at06:24:119hash-verified spatial source/evidence paths plus exact publication list, with unadopted support/stair/ceiling/batching work identified. Root strict TypeScript passes. GitHub confirms both author and committertaliamekh and remote main matches. Both3152and a322have full successful GitHub CI. Replacing sparse/partial checkout with complete shallow Git plus LFS pointers reduces provenance audit to under one second; large media bodies remain skipped. Current root committed-tree audit also verifies72selected app checkpoint hashes and4,982paths with zero issues.
+
+Current app repair passes CPU controls for QA-GEO14 opening corners and RUNTIME-015 neutral legacy floor edits. Independent live UI floor controls pass; cold reload exposes unknown module3962 on the served route, relayed to the app owner. Original QA-origin library is backed up and restoration remains required. Design QA verifies revised320px room-move geometry/gestures, and reports QA-UNIT02 signed feet/inches formatting for a bounded repair. Root read-only screenshot review confirms actual furnished separated-house and clearer movement preview. All four chats remain active; no overall completion before06:53minimum or before required repairs/integration checks close.

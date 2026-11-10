@@ -1,0 +1,61 @@
+{
+  "observedAtUtc": "2026-11-10T06:37:33Z",
+  "publicationList": "docs/spatial/PUBLISH_READY_WALL.json",
+  "publicationListSha256": "4209e1c5d698b2145ad4809847807300dcefec870827dd9cff69e63a3dff2e71",
+  "files": 36,
+  "bytes": 1163483,
+  "hashErrors": 0,
+  "rootIndependentChecks": {
+    "strictTypeScriptNoEmit": "pass",
+    "existingWallGeometryRegressions": {
+      "tests": 21,
+      "pass": 21,
+      "fail": 0
+    },
+    "futureGeneratorPythonAst": "pass"
+  },
+  "ownerEvidenceNotIndependentlyRerun": {
+    "strictTypeScript": "pass",
+    "nodeTests": 21,
+    "actualGlbWallCases": 84,
+    "actualTriangleProbes": 84144,
+    "actualWallPenetrations": 0,
+    "productionInsideFaceCageCases": 1008,
+    "acceptedCages": 988,
+    "rejectedWallEndOverhangs": 20,
+    "positiveCageWallIntersections": 0,
+    "productionOpeningMotionCases": 84,
+    "correctSlidingPanelRejections": 7,
+    "futurePublisher": "Python AST syntax only; no new generation/release"
+  },
+  "productionStatus": "unadopted; no mobile source/schema/command/rendering/persistence/native capability added",
+  "limits": "Root verifies pinned publication bytes and reruns existing pure geometry contracts. Browser real-model triangles and production-face matrices remain owner evidence; no native/device/mounting-safety claim.",
+  "dragBridge": {
+    "observedAtUtc": "2026-11-10T06:46:20Z",
+    "publicationList": "docs/spatial/PUBLISH_READY_DRAG.json",
+    "publicationListSha256": "539028455ad935ecced5b72f099fdd8aa7e46d76266fd8e9b7400279dd5f6b2a",
+    "files": 22,
+    "bytes": 258949,
+    "hashErrors": 0,
+    "rootStrictTypeScriptNoEmit": "pass",
+    "rootExistingRegressions": {
+      "tests": 7,
+      "pass": 7,
+      "fail": 0
+    },
+    "ownerBrowserEvidenceNotRerun": {
+      "strictTypeScript": "pass",
+      "nodeTests": 7,
+      "actualGLBMeshHitCameraCases": 3,
+      "wrongPlaneControlDriftMillimetres": [
+        21.24,
+        24.43,
+        31.13
+      ],
+      "correctedProjection": "passes within floating-point tolerance",
+      "disposal": "zero geometries/textures/leases",
+      "browserErrors": 0
+    },
+    "status": "unadopted"
+  }
+}

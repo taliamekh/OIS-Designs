@@ -112,8 +112,16 @@ def build(a):
  row['textures']=stats['textures']
  row['finalization']=finalization
  row['supportChecks']=support_info
- if a['parameters']['form'] in ('floating-vanity','rangehood','glass-wall','open-wall','wall-plate','fold-wall'):
-  row['placement'].update({'anchor':'wall','defaultElevationMetres':.30 if a['parameters']['form']=='floating-vanity' else (1.50 if a['parameters']['form']=='rangehood' else 1.40),'attachmentRequired':True,'note':'GLB base is Y=0; apply explicit mounting elevation, not floor-only placement'})
+ if a['parameters']['form'] in ('floating-vanity','rangehood','glass-wall','open-wall','wall-plate','fold-wall','suspended-rope-shelf'):
+  form=a['parameters']['form']
+  row['placement'].update({'anchor':'wall','attachmentRequired':True,'note':'GLB base is Y=0; apply explicit mounting elevation, not floor-only placement'})
+  # A working table and suspended shelves cannot inherit a cupboard's base-height
+  # hint. Their functional surface/mount points need an explicit reviewed height.
+  if form in ('fold-wall','suspended-rope-shelf'):
+   row['placement'].pop('defaultElevationMetres',None)
+   row['placement']['heightPolicy']='explicit-functional-height-required'
+  else:
+   row['placement']['defaultElevationMetres']=.30 if form=='floating-vanity' else (1.50 if form=='rangehood' else 1.40)
  if finish_info:row['materialFinish']=finish_info
  if 'fabric' in row['variantSlots']:
   row['appearanceVariants']=[{'id':a['id']+'.finish.sage','name':'Sage textile','materialOverrides':{'fabric':{'baseColorFactor':[.25,.37,.28,1]}}},{'id':a['id']+'.finish.clay','name':'Clay textile','materialOverrides':{'fabric':{'baseColorFactor':[.45,.23,.15,1]}}}]

@@ -1,0 +1,29 @@
+✔ front ray places the actual +Z rear plane on an explicit inside face with floor-relative height (3.3507ms)
+✔ reversing explicit face endpoints/side preserves the same physical cabinet pose (0.7019ms)
+✔ four sides and arbitrary rotated negative-origin walls preserve rear contact and front direction (2.2759ms)
+✔ grab offset and grid use canonical face-along/elevation metres without moving source data (0.4356ms)
+✔ read-only, Walk, lock, wrong anchor and missing exact revision block (0.3252ms)
+✔ stale face, wrong floor/room and nonunit or wrong-facing normals block (0.2837ms)
+✔ back-facing, parallel, behind-wall and nonfinite rays block (0.2587ms)
+✔ wall endpoint, floor, baseboard and ceiling bounds are hard rejections (0.2751ms)
+✔ door/window and casing are tested as along-height intervals with touching allowed (0.4547ms)
+✔ clear-room footprint catches a concave corner despite valid wall extents (0.5551ms)
+✔ profile query uses the whole footprint and unresolved heights fail explicitly (0.7122ms)
+✔ low furniture below mount is clear; raised furniture in its actual 3D cage blocks (1.2228ms)
+✔ invalid bounds, obstacle poses, duplicate IDs, gaps and grids never become proposals (0.558ms)
+✔ attachment JSON retains canonical height, exact model and physical wall face identity (1.5021ms)
+✔ empty face identities, invalid side and out-of-face opening intervals are unresolved context (0.32ms)
+✔ explicit rigid translation remaps coordinate-derived wall ID without changing height or model (0.5711ms)
+✔ explicit reversed endpoint correspondence preserves the same physical position (0.2802ms)
+✔ split/resized walls, ambiguous side, stale model and old-face identity cannot silently remount (0.2697ms)
+✔ remapped opening/ceiling/lock constraints are revalidated in the destination (0.3816ms)
+✔ sliding-panel motion outside its nominal opening cannot intersect a wall cabinet (0.6285ms)
+✔ malformed or orphaned motion envelopes cannot silently bypass collision (0.247ms)
+ℹ tests 21
+ℹ suites 0
+ℹ pass 21
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 174.7018
