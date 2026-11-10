@@ -1,0 +1,755 @@
+{
+  "schemaVersion": 1,
+  "createdAtUtc": "2026-11-10T06:06:03.773878+00:00",
+  "ownerThreadId": "01a1bd3f-562d-73d2-8ea3-8a5344049c49",
+  "status": "ready-for-coordinator-publication-not-overall-completion",
+  "freeze": "Listed bytes will remain unchanged through coordinator publication. Root is sole Git writer. This list excludes mobile sources, user saves, live session URLs and incomplete evidence revisions.",
+  "adopted": [
+    "mobile/src/scene/spatialView.ts",
+    "mobile/src/screens/HouseViews.tsx"
+  ],
+  "adoptedOwnership": "App owner; listed here only as context, not assigned/staged by this package.",
+  "unadopted": [
+    "supported height/attachment schema and commands",
+    "attached-family production Undo/save",
+    "stair/void persisted editing and Walk traversal",
+    "sloped/vaulted/soffit production profiles",
+    "double-height connectivity",
+    "static batching"
+  ],
+  "checks": {
+    "strictTypeScript": "pass",
+    "ownedNodeRegressions": {
+      "pass": 77,
+      "fail": 0
+    },
+    "originalViewBrowserChecks": 17,
+    "adoptedPolicyRegressions": 19,
+    "supportTopMeshSamples": 15,
+    "realFamilyMembers": 3,
+    "ceilingHeightRays": 20,
+    "batchNearestSurfaceProbes": 344,
+    "batchMaterialOwnershipCases": 17
+  },
+  "batchingDisposition": "Frozen experimental draft; 143 to 75 browser calls with 7.25MiB extra geometry and small pixel differences. Withheld from production/native adoption.",
+  "reproduction": "spatial/README.md; requires matching repository furniture release and installed mobile dependencies. No copied dependency tree or standalone app claim.",
+  "scope": "Source/prototype review evidence only. Physical phone/native acceptance and full original Phase 3 completion are not established. Work remains active through at least 06:53 UTC.",
+  "files": [
+    {
+      "path": "docs/spatial/ADOPTION_REQUEST.md",
+      "sha256": "31b817365b0076dac1d658d50baceb2f5de7eeec94d71031766dd8613af92cf5",
+      "bytes": 3198,
+      "readiness": "ready-review-source-or-evidence"
+    },
+    {
+      "path": "docs/spatial/CEILING_PROFILES.md",
+      "sha256": "022f9ce19da570aae7acd1a709b9998909f6027e18deabc23c0ac82cda7e1e2f",
+      "bytes": 3853,
+      "readiness": "ready-review-source-or-evidence"
+    },
+    {
+      "path": "docs/spatial/LEVEL_CONNECTIONS.md",
+      "sha256": "6ce720cce3336805258aed11045762abaf799eb69ee1d753f6182ef5ed535c4e",
+      "bytes": 4734,
+      "readiness": "ready-review-source-or-evidence"
+    },
+    {
+      "path": "docs/spatial/PHASE3_OWNERSHIP.md",
+      "sha256": "8e81e23624904af652f36ff6bb020bd8c0d0e1ecbcc2660da12c1b4d67528651",
+      "bytes": 2280,
+      "readiness": "ready-review-source-or-evidence"
+    },
+    {
+      "path": "docs/spatial/PRODUCTION_HANDOFF.md",
+      "sha256": "6479095e18a92b77933b7d39baa8bf0554250f662d381cf5125626f64cdb2320",
+      "bytes": 5872,
+      "readiness": "ready-review-source-or-evidence"
+    },
+    {
+      "path": "docs/spatial/REFERENCE_AND_DECISIONS.md",
+      "sha256": "89af1d80ab85c743dead791c3387b9e4c84dd6b4c50e30340b2b2c91a3c020f0",
+      "bytes": 3383,
+      "readiness": "ready-review-source-or-evidence"
+    },
+    {
+      "path": "docs/spatial/STATIC_BATCHING.md",
+      "sha256": "d819dbdd739431be9676872aca1021f8227020f4a4a4ef296604171ae624dbc0",
+      "bytes": 3650,
+      "readiness": "frozen-experimental-browser-draft"
+    },
+    {
+      "path": "docs/spatial/STATUS.md",
+      "sha256": "e5a6a8df1cedf060ff09df2c94b7d880583f5fb9b616c8d7eca651129ab2fbef",
+      "bytes": 6245,
+      "readiness": "ready-review-source-or-evidence"
+    },
+    {
+      "path": "docs/spatial/SUPPORT_FAMILY.md",
+      "sha256": "855a3f2790347fc58de1a95f28ae392c826695a7be28d151356e83484e6167a2",
+      "bytes": 2479,
+      "readiness": "ready-review-source-or-evidence"
+    },
+    {
+      "path": "docs/spatial/SUPPORT_PLACEMENT.md",
+      "sha256": "a8edd55141e0be57a35b0ad8a4a8044115b5dc14055a86a9ed1c995562982100",
+      "bytes": 3294,
+      "readiness": "ready-review-source-or-evidence"
+    },
+    {
+      "path": "spatial/adoption/HouseViews.tsx",
+      "sha256": "2aaf6595f735bc79c4258f4a6c44a9815ab664f716f7d69d0b483d3ce6a49c5c",
+      "bytes": 4437,
+      "readiness": "ready-review-source-or-evidence"
+    },
+    {
+      "path": "spatial/adoption/production-checkpoint.json",
+      "sha256": "47199979a4523cd5c2086462c0b69d28e475f48e9f9433a695de163adf83e051",
+      "bytes": 969,
+      "readiness": "ready-review-source-or-evidence"
+    },
+    {
+      "path": "spatial/adoption/tsconfig.json",
+      "sha256": "e0be05370c21152b25e3def48b81995107cafe1918af81ac6867fa836ad64fd6",
+      "bytes": 704,
+      "readiness": "ready-review-source-or-evidence"
+    },
+    {
+      "path": "spatial/dist/ceilingProfiles.d.ts",
+      "sha256": "8bc12407b118397ca000d4cf0f2a070f14cbe1c9dfb2183797bf37d137f42a7a",
+      "bytes": 2555,
+      "readiness": "ready-review-source-or-evidence"
+    },
+    {
+      "path": "spatial/dist/ceilingProfiles.js",
+      "sha256": "a57dd8a2b24c8c48c261d42356ac2bf20140e4a4320d13d9b7a09001e7fccc75",
+      "bytes": 11101,
+      "readiness": "ready-review-source-or-evidence"
+    },
+    {
+      "path": "spatial/dist/levelConnections.d.ts",
+      "sha256": "8819600eda4e93405d1e3f765c5b79b577248f8d184cfbc443d1564d5574e6be",
+      "bytes": 2825,
+      "readiness": "ready-review-source-or-evidence"
+    },
+    {
+      "path": "spatial/dist/levelConnections.js",
+      "sha256": "6b20bd13b675d4d10b67cac151aed549c130e8b2b6458e5b4d68e2030da578c4",
+      "bytes": 11649,
+      "readiness": "ready-review-source-or-evidence"
+    },
+    {
+      "path": "spatial/dist/supportFamily.d.ts",
+      "sha256": "92b80e726b53292ff1ffaa5d649e900ba2dde5bc038fe852eca5ae83cb3ae116",
+      "bytes": 2253,
+      "readiness": "ready-review-source-or-evidence"
+    },
+    {
+      "path": "spatial/dist/supportFamily.js",
+      "sha256": "859325b09975d5472b4e80ff4b40061d764a64df655bc20d992dae56bc069740",
+      "bytes": 6546,
+      "readiness": "ready-review-source-or-evidence"
+    },
+    {
+      "path": "spatial/dist/supportPlacement.d.ts",
+      "sha256": "36398caec3a98e6d7e08ac8e417f93631e94088cf175a474d111714c41d8fec2",
+      "bytes": 3168,
+      "readiness": "ready-review-source-or-evidence"
+    },
+    {
+      "path": "spatial/dist/supportPlacement.js",
+      "sha256": "971220e72b83036584ff3e4b4e543bf6ca9115c6483d1232f0c62311b902c5f3",
+      "bytes": 14089,
+      "readiness": "ready-review-source-or-evidence"
+    },
+    {
+      "path": "spatial/dist/viewPlan.d.ts",
+      "sha256": "caf6ca18c0ad8a52d65ec81393054a9f9b8dbf2156a9d161a48cd7b0465bb61f",
+      "bytes": 4159,
+      "readiness": "ready-review-source-or-evidence"
+    },
+    {
+      "path": "spatial/dist/viewPlan.js",
+      "sha256": "69d40c4bd0edbe91c7b5fec6427ef6811b028004c074767e927c3079c9c21362",
+      "bytes": 8483,
+      "readiness": "ready-review-source-or-evidence"
+    },
+    {
+      "path": "spatial/evidence/batch-browser-r6/batched.png",
+      "sha256": "b4e779eb73500b3bf5882cfa41845826ee7eb670806a73402cb77a707db5f0a4",
+      "bytes": 196330,
+      "readiness": "frozen-experimental-browser-draft"
+    },
+    {
+      "path": "spatial/evidence/batch-browser-r6/original.png",
+      "sha256": "3d7e3a0bc5fa071b8a6276db670eb6ec2c1d01b8c98b56bcbabb1582042b2c97",
+      "bytes": 196331,
+      "readiness": "frozen-experimental-browser-draft"
+    },
+    {
+      "path": "spatial/evidence/batch-browser-r6/probe.json",
+      "sha256": "623628cf2add91b37baaa17fad2214615607de68443a27b06032c5df7e9e4615",
+      "bytes": 258648,
+      "readiness": "frozen-experimental-browser-draft"
+    },
+    {
+      "path": "spatial/evidence/batch-browser-r6/result.json",
+      "sha256": "ec14ef19c473e3583717d54ccd49a409303f75228f0071c80df9a6771583505f",
+      "bytes": 288361,
+      "readiness": "frozen-experimental-browser-draft"
+    },
+    {
+      "path": "spatial/evidence/batch-contract-r1/result.json",
+      "sha256": "0a3a96bfeb6f5be946748781a086a16f6850892a6464f1bc7440bfa1fb42c5a0",
+      "bytes": 9819,
+      "readiness": "frozen-experimental-browser-draft"
+    },
+    {
+      "path": "spatial/evidence/browser-r6/desktop-floor.png",
+      "sha256": "74ea57a3ed2b8574f5d11269841eff0b0ecee4f6dd66356afb4244804c4049c4",
+      "bytes": 161672,
+      "readiness": "ready-review-source-or-evidence"
+    },
+    {
+      "path": "spatial/evidence/browser-r6/desktop-house-front.png",
+      "sha256": "83f3c710e6a59d8e04c7ac4fd6359d82a7fbf60a4dd520feffba1a1bfb04988c",
+      "bytes": 214900,
+      "readiness": "ready-review-source-or-evidence"
+    },
+    {
+      "path": "spatial/evidence/browser-r6/desktop-house-perspective.png",
+      "sha256": "3d7e3a0bc5fa071b8a6276db670eb6ec2c1d01b8c98b56bcbabb1582042b2c97",
+      "bytes": 196331,
+      "readiness": "ready-review-source-or-evidence"
+    },
+    {
+      "path": "spatial/evidence/browser-r6/desktop-house-top.png",
+      "sha256": "95aec873257474d104dd302ae8063828197543421d5baf8f2ad916326575190d",
+      "bytes": 288609,
+      "readiness": "ready-review-source-or-evidence"
+    },
+    {
+      "path": "spatial/evidence/browser-r6/desktop-house.png",
+      "sha256": "3d7e3a0bc5fa071b8a6276db670eb6ec2c1d01b8c98b56bcbabb1582042b2c97",
+      "bytes": 196331,
+      "readiness": "ready-review-source-or-evidence"
+    },
+    {
+      "path": "spatial/evidence/browser-r6/desktop-interior.png",
+      "sha256": "4caf9b70637370f0313d15ba33e11e2e4297140554daad69d505a47dae72b4d7",
+      "bytes": 127133,
+      "readiness": "ready-review-source-or-evidence"
+    },
+    {
+      "path": "spatial/evidence/browser-r6/desktop-return-kitchen.png",
+      "sha256": "86f14a71d14423a84463518829937dca7547dc5e48dc189fa033a2c62db1d3bd",
+      "bytes": 165824,
+      "readiness": "ready-review-source-or-evidence"
+    },
+    {
+      "path": "spatial/evidence/browser-r6/desktop-room.png",
+      "sha256": "d3c40ac3cb0a38ea1c25aadd01b6d73980ca6f8f54ad06694a4595b04f62c9f5",
+      "bytes": 178058,
+      "readiness": "ready-review-source-or-evidence"
+    },
+    {
+      "path": "spatial/evidence/browser-r6/desktop-separated.png",
+      "sha256": "4a65b51a389bbbc73ba9c75fbcef692b4d893ccde104084ba00527c21647484b",
+      "bytes": 168911,
+      "readiness": "ready-review-source-or-evidence"
+    },
+    {
+      "path": "spatial/evidence/browser-r6/desktop-solid-ceilings.png",
+      "sha256": "961c1c32b3aa7c01586f6a1617e65245f937946d6e58b7a79a8f66375f918d22",
+      "bytes": 48932,
+      "readiness": "ready-review-source-or-evidence"
+    },
+    {
+      "path": "spatial/evidence/browser-r6/desktop-upstairs-bedroom.png",
+      "sha256": "bb969c9d68ce20345cab36f9da0e67bf7395d4a86690ff70958d94faeab8a7ce",
+      "bytes": 187262,
+      "readiness": "ready-review-source-or-evidence"
+    },
+    {
+      "path": "spatial/evidence/browser-r6/phone-320-house.png",
+      "sha256": "a54f86d075197332f86a2d247c46d2a6e5fbd876004344f22453f0fffb0582e5",
+      "bytes": 48492,
+      "readiness": "ready-review-source-or-evidence"
+    },
+    {
+      "path": "spatial/evidence/browser-r6/phone-320-large-menu.png",
+      "sha256": "022dcc481ec6b605c2ca4a0144587c777c80754e057e11353d3bec7a1053d2f7",
+      "bytes": 49703,
+      "readiness": "ready-review-source-or-evidence"
+    },
+    {
+      "path": "spatial/evidence/browser-r6/phone-390-house.png",
+      "sha256": "33e55c102f94ec467c363a8b13df064addbcb150fb5bb4bd8a15a339cf356657",
+      "bytes": 63583,
+      "readiness": "ready-review-source-or-evidence"
+    },
+    {
+      "path": "spatial/evidence/browser-r6/phone-390-large-menu.png",
+      "sha256": "16943d554a37af8bd7f09543190fca7d735a6ffd4b58f8b135b216ba74d44efb",
+      "bytes": 68355,
+      "readiness": "ready-review-source-or-evidence"
+    },
+    {
+      "path": "spatial/evidence/browser-r6/result.json",
+      "sha256": "ec83383e09aee3c5d99ec9d682682cf6922f80959b752d01adb62ac6d4a933ac",
+      "bytes": 53302,
+      "readiness": "ready-review-source-or-evidence"
+    },
+    {
+      "path": "spatial/evidence/ceiling-browser-r4/asymmetric-top.png",
+      "sha256": "cbb9b6df77f1d82ccfdd5c3a949128f2cc5fd127a3ac43903efd6ea1d7af08aa",
+      "bytes": 20524,
+      "readiness": "ready-review-source-or-evidence"
+    },
+    {
+      "path": "spatial/evidence/ceiling-browser-r4/asymmetric.png",
+      "sha256": "0f05dd172c7156e6a00f182accc988284477c6b3c74cbe5cc52522e84a16a7dd",
+      "bytes": 18660,
+      "readiness": "ready-review-source-or-evidence"
+    },
+    {
+      "path": "spatial/evidence/ceiling-browser-r4/flat.png",
+      "sha256": "870b0a09427041d6d0d1e32c013c23c1f3aed39bcce90d4d8b8035b7a84f3950",
+      "bytes": 17707,
+      "readiness": "ready-review-source-or-evidence"
+    },
+    {
+      "path": "spatial/evidence/ceiling-browser-r4/result.json",
+      "sha256": "939df87fb2feb231f481b4d6ee4e74fef1fb956039d201f4ed61300efd40171f",
+      "bytes": 6611,
+      "readiness": "ready-review-source-or-evidence"
+    },
+    {
+      "path": "spatial/evidence/ceiling-browser-r4/slope.png",
+      "sha256": "64fb2d354fdc7b216c9c93d0f585a4c1c741ab02c72f416d79afd9d05724601c",
+      "bytes": 20224,
+      "readiness": "ready-review-source-or-evidence"
+    },
+    {
+      "path": "spatial/evidence/ceiling-browser-r4/soffit-clearance.png",
+      "sha256": "3aeda6ba287427c1d1b3b44dbcdc9b760688cd244ada7fc2870bbd664f6cd451",
+      "bytes": 24245,
+      "readiness": "ready-review-source-or-evidence"
+    },
+    {
+      "path": "spatial/evidence/ceiling-browser-r4/soffit.png",
+      "sha256": "cb842892d9d956b2cda129c96a7f8b13381e2cc0ec1ac9a6d18b72f5d5cf247e",
+      "bytes": 20237,
+      "readiness": "ready-review-source-or-evidence"
+    },
+    {
+      "path": "spatial/evidence/ceiling-browser-r4/vault.png",
+      "sha256": "0b3b9b71f9286da8ae1e3330f2ed5006a87f98e7411e18d9a07b8fcf0e863a87",
+      "bytes": 20156,
+      "readiness": "ready-review-source-or-evidence"
+    },
+    {
+      "path": "spatial/evidence/level-browser-r3/closed-comparison.png",
+      "sha256": "6bb9a52f6f8824b11ecadcc1ebed6b338251be29f0f4bdc51e9a42bc865f20e6",
+      "bytes": 14928,
+      "readiness": "ready-review-source-or-evidence"
+    },
+    {
+      "path": "spatial/evidence/level-browser-r3/marker-inspection.png",
+      "sha256": "04b5fe9a5f91a4e96c0c41ac712a71bb43bd28b5851561686f3120399ef3c202",
+      "bytes": 25607,
+      "readiness": "ready-review-source-or-evidence"
+    },
+    {
+      "path": "spatial/evidence/level-browser-r3/real-cutouts.png",
+      "sha256": "ec93a2acd9d05e9fbefb55479b616228ef596e9ccef9c539687c1cd54175bf5b",
+      "bytes": 28665,
+      "readiness": "ready-review-source-or-evidence"
+    },
+    {
+      "path": "spatial/evidence/level-browser-r3/result.json",
+      "sha256": "6358fc2c55dc37c578b24f8c7b420dd491afb0eb62ff021ab57d220e701809ee",
+      "bytes": 11258,
+      "readiness": "ready-review-source-or-evidence"
+    },
+    {
+      "path": "spatial/evidence/level-browser-r3/top-opening.png",
+      "sha256": "0025b3a1c1ca395c2ab282ccb73f95e8c4c4cb9b70389ac149433d2a79fd6599",
+      "bytes": 15547,
+      "readiness": "ready-review-source-or-evidence"
+    },
+    {
+      "path": "spatial/evidence/production-fixture-r2/code/construction.js",
+      "sha256": "6b652d34e673f85d8477c284d2d3e7e05b7db665a501f2cf938be9afbdeab8eb",
+      "bytes": 485,
+      "readiness": "ready-review-source-or-evidence"
+    },
+    {
+      "path": "spatial/evidence/production-fixture-r2/code/construction.ts",
+      "sha256": "d248539e57f44afab413bc42ce49b6ea0e3a6f7bb6ace675757457ea651dff53",
+      "bytes": 293,
+      "readiness": "ready-review-source-or-evidence"
+    },
+    {
+      "path": "spatial/evidence/production-fixture-r2/code/geometry.js",
+      "sha256": "9df15cc98727014a40b243f559ef1436516ca61d770a4e14b4d16e07ae10d70a",
+      "bytes": 35394,
+      "readiness": "ready-review-source-or-evidence"
+    },
+    {
+      "path": "spatial/evidence/production-fixture-r2/code/geometry.ts",
+      "sha256": "e247812b761d60ffc6e9ba5c6a715892b4dcc971da514823f79b5f520682b02f",
+      "bytes": 33215,
+      "readiness": "ready-review-source-or-evidence"
+    },
+    {
+      "path": "spatial/evidence/production-fixture-r2/code/package.json",
+      "sha256": "fa6944a20ca5e6fbaf98fd202eb8c7004d5b4ab786e36b9ed02ee31dbe196c9f",
+      "bytes": 19,
+      "readiness": "ready-review-source-or-evidence"
+    },
+    {
+      "path": "spatial/evidence/production-fixture-r2/code/persistence.js",
+      "sha256": "1f06bfbaee7f14a85b465190815b974caa7016f580ef07eb2897cce59b9b4c9b",
+      "bytes": 15205,
+      "readiness": "ready-review-source-or-evidence"
+    },
+    {
+      "path": "spatial/evidence/production-fixture-r2/code/persistence.ts",
+      "sha256": "ac166d419b677611c1b32d17fa0ddb9021d20f19cf3614fbd0e39719681e50ee",
+      "bytes": 14642,
+      "readiness": "ready-review-source-or-evidence"
+    },
+    {
+      "path": "spatial/evidence/production-fixture-r2/code/types.js",
+      "sha256": "2ab3f0c0a0bd7bd56ef46a6d040622a869fd0fa05e59c080fcdc5c6f67001c28",
+      "bytes": 793,
+      "readiness": "ready-review-source-or-evidence"
+    },
+    {
+      "path": "spatial/evidence/production-fixture-r2/code/types.ts",
+      "sha256": "e818a704afc0cc972978dbdea369429ca33af346cced16f68eb88ccc1f5a42e5",
+      "bytes": 3555,
+      "readiness": "ready-review-source-or-evidence"
+    },
+    {
+      "path": "spatial/evidence/production-fixture-r2/project.json",
+      "sha256": "b88f7fc5ed7fb9e9817cc8c7f0ecdaaefe278009fde2db97811e839401999230",
+      "bytes": 31351,
+      "readiness": "ready-review-source-or-evidence"
+    },
+    {
+      "path": "spatial/evidence/production-fixture-r2/result.json",
+      "sha256": "12902027a4c563b9b859e656d29ba05bc32c665884ebf10711fd35a406afd3cb",
+      "bytes": 942,
+      "readiness": "ready-review-source-or-evidence"
+    },
+    {
+      "path": "spatial/evidence/production-fixture-r2/six-room-house.backup.json",
+      "sha256": "6784e78bf4af5dc95cf2365221ba31d3ecfa0085d97d6feee252a1b934d24b41",
+      "bytes": 19657,
+      "readiness": "ready-review-source-or-evidence"
+    },
+    {
+      "path": "spatial/evidence/production-policy-r2/adopted-policy.mjs",
+      "sha256": "1c5dbd22c9b47fd368a2c79c8e8baf3870bdeeb393bc660b9e13de7d4e7c1fe4",
+      "bytes": 9130,
+      "readiness": "ready-review-source-or-evidence"
+    },
+    {
+      "path": "spatial/evidence/production-policy-r2/adopted-policy.test.mjs",
+      "sha256": "bbb0d2bd485094b6e5f03f1128fe50e2025ecfa6a29bad7568f35ea575d04d3a",
+      "bytes": 10360,
+      "readiness": "ready-review-source-or-evidence"
+    },
+    {
+      "path": "spatial/evidence/production-policy-r2/result.json",
+      "sha256": "0eaff564eb24de30bd86d7a3666992a84d2153a5b4864d9e12a4b486d107ae55",
+      "bytes": 913,
+      "readiness": "ready-review-source-or-evidence"
+    },
+    {
+      "path": "spatial/evidence/production-policy-r2/tests.log",
+      "sha256": "f550eefe4c98bf465b4af4a8dd81092a15e0767c26ec09a0b5707dba42569cc8",
+      "bytes": 1952,
+      "readiness": "ready-review-source-or-evidence"
+    },
+    {
+      "path": "spatial/evidence/support-browser-r2/on-desk.png",
+      "sha256": "a730e925e198f10c56fc95b0a1da56b3f4569eb2deb5cebf092ab56320bc8c9a",
+      "bytes": 40872,
+      "readiness": "ready-review-source-or-evidence"
+    },
+    {
+      "path": "spatial/evidence/support-browser-r2/parent-moved.png",
+      "sha256": "982b89d68830f854623abb2c0b6d33cb58a8349610493523049563f7380551df",
+      "bytes": 43326,
+      "readiness": "ready-review-source-or-evidence"
+    },
+    {
+      "path": "spatial/evidence/support-browser-r2/result.json",
+      "sha256": "01fdadbccc1904a2e49a834df6114d4500179b962240a7c9aced27f3fba9e145",
+      "bytes": 8069,
+      "readiness": "ready-review-source-or-evidence"
+    },
+    {
+      "path": "spatial/evidence/support-family-browser-r1/after.png",
+      "sha256": "300087074958416df923589ea2c3fc298758cac4ce2e6d9a53d578ef587d7090",
+      "bytes": 52077,
+      "readiness": "ready-review-source-or-evidence"
+    },
+    {
+      "path": "spatial/evidence/support-family-browser-r1/before.png",
+      "sha256": "96354e341a9eba3f409c8b6e2f6d813b37da1584c36d9d65478c6e76926673b1",
+      "bytes": 39002,
+      "readiness": "ready-review-source-or-evidence"
+    },
+    {
+      "path": "spatial/evidence/support-family-browser-r1/restored.png",
+      "sha256": "e634b203092e6805a85653ec6f4d093be0ef78eb7f5760c44a4a54a68fa03210",
+      "bytes": 38682,
+      "readiness": "ready-review-source-or-evidence"
+    },
+    {
+      "path": "spatial/evidence/support-family-browser-r1/result.json",
+      "sha256": "5fc4b0aaae97fa5d0e6041aa3d69c15d9846e3adc3ef6830ffdf51bf22a75bac",
+      "bytes": 8741,
+      "readiness": "ready-review-source-or-evidence"
+    },
+    {
+      "path": "spatial/fixtures/ceiling-asymmetric.json",
+      "sha256": "2411071b0a2eb323c5b0fd888aa065f183f0fd82a2dcd6b6356f0d5cdcd697f0",
+      "bytes": 2294,
+      "readiness": "ready-review-source-or-evidence"
+    },
+    {
+      "path": "spatial/fixtures/ceiling-profiles.json",
+      "sha256": "a1f2a481557212b275e041b2b78e0074b8b6d6698007ea790e0480e98c6c6564",
+      "bytes": 5230,
+      "readiness": "ready-review-source-or-evidence"
+    },
+    {
+      "path": "spatial/fixtures/level-connection.json",
+      "sha256": "5d8f9216bf4fc3eca14cbda1dd016cd07b72e4bc104c45d5c79edf2bf2a12a01",
+      "bytes": 5718,
+      "readiness": "ready-review-source-or-evidence"
+    },
+    {
+      "path": "spatial/fixtures/six-room-house.json",
+      "sha256": "1cc09988645365a6ca5c633dcac47790db5dc61d656b08e6f187a6fe3dea5ef3",
+      "bytes": 406735,
+      "readiness": "ready-review-source-or-evidence"
+    },
+    {
+      "path": "spatial/package.json",
+      "sha256": "791541509d4f5671a66f8f0afb9f05a9c339f064e471ece5733c18e3e1464f4f",
+      "bytes": 217,
+      "readiness": "ready-review-source-or-evidence"
+    },
+    {
+      "path": "spatial/README.md",
+      "sha256": "91a0c45c587ee8bbe7e17f3d0706b24f50730f9076eb317b1ca60fe2e7abdc1c",
+      "bytes": 3407,
+      "readiness": "ready-review-source-or-evidence"
+    },
+    {
+      "path": "spatial/review/ceiling-harness.html",
+      "sha256": "aacfd52f18189713805b46c8464789e9e944b1480b1ec208870d61337f3d0174",
+      "bytes": 807,
+      "readiness": "ready-review-source-or-evidence"
+    },
+    {
+      "path": "spatial/review/house-first.png",
+      "sha256": "e39e747337043b60a2b16a374146d5e572187e5e662dd8b700f56e93f0b5996f",
+      "bytes": 195758,
+      "readiness": "ready-review-source-or-evidence"
+    },
+    {
+      "path": "spatial/review/index.html",
+      "sha256": "2921e559cd4cdaa1421fe926bd1b63200dbd5927d5ad050d589a6b23abd4f3bd",
+      "bytes": 5170,
+      "readiness": "ready-review-source-or-evidence"
+    },
+    {
+      "path": "spatial/review/level-geometry.js",
+      "sha256": "4b4e490be8823ab26b47bcac4a3ac59d417c223d44fbbef9a5c2a1c4eec7e8d2",
+      "bytes": 725,
+      "readiness": "ready-review-source-or-evidence"
+    },
+    {
+      "path": "spatial/review/level-harness.html",
+      "sha256": "61f2398e56826f6584d9224d0ed7a9de5c4f0e7d3a13cb79e32306dd3e080931",
+      "bytes": 866,
+      "readiness": "ready-review-source-or-evidence"
+    },
+    {
+      "path": "spatial/review/room-first.png",
+      "sha256": "f3a123f29c65fc71d9dbeeaae96f1f8732940d23f45fffee2be2a4136f17cd56",
+      "bytes": 174631,
+      "readiness": "ready-review-source-or-evidence"
+    },
+    {
+      "path": "spatial/review/static-batches.js",
+      "sha256": "8556473121326668c921686ff1d94e332c0ef65a5e4ed857bd16d10c7c31e831",
+      "bytes": 4698,
+      "readiness": "frozen-experimental-browser-draft"
+    },
+    {
+      "path": "spatial/review/support-harness.html",
+      "sha256": "3df9778afb3374279dffa6bcb479251135940312ebf1397eda2d587423628b36",
+      "bytes": 721,
+      "readiness": "ready-review-source-or-evidence"
+    },
+    {
+      "path": "spatial/review/viewer.js",
+      "sha256": "ad0db2cd7834755bfc5082ce30dd6ca6bf304f0ade1137420643b47e8b365d80",
+      "bytes": 15617,
+      "readiness": "ready-review-source-or-evidence"
+    },
+    {
+      "path": "spatial/scripts/adoption_audit.cjs",
+      "sha256": "5602767de4ff28c8fdc43ee1dea6ad0b5e93ad5801098a09651a6486c2de5420",
+      "bytes": 3171,
+      "readiness": "ready-review-source-or-evidence"
+    },
+    {
+      "path": "spatial/scripts/batch_browser.cjs",
+      "sha256": "7971d7418e3cc5fcb5a5e4bcc6aed728dd228e7e9f801a9cb2f80627ab01cb18",
+      "bytes": 7489,
+      "readiness": "frozen-experimental-browser-draft"
+    },
+    {
+      "path": "spatial/scripts/batch_contract.cjs",
+      "sha256": "7ea29575c450fdaa9370801db45cf16d687bb4fccca97b90ff22df2da09b338f",
+      "bytes": 5353,
+      "readiness": "frozen-experimental-browser-draft"
+    },
+    {
+      "path": "spatial/scripts/browser_review.cjs",
+      "sha256": "d4d7f1469d926d5658955efa6f3dd69739688b9d652c98b6a1dc060a61d9fb63",
+      "bytes": 8994,
+      "readiness": "ready-review-source-or-evidence"
+    },
+    {
+      "path": "spatial/scripts/ceiling_browser.cjs",
+      "sha256": "743bed0d4a49f648ef88a386e7d17d0db18ae1cb1328a11922beabede5c0f82c",
+      "bytes": 8942,
+      "readiness": "ready-review-source-or-evidence"
+    },
+    {
+      "path": "spatial/scripts/level_browser.cjs",
+      "sha256": "05911a67931b148619dbcf1095054128f154aeb09483eebf8e23998b0b68b21f",
+      "bytes": 9224,
+      "readiness": "ready-review-source-or-evidence"
+    },
+    {
+      "path": "spatial/scripts/make_publish_ready.py",
+      "sha256": "a9872ef529c09c5e49cf30b3ec4a8f116d4a7345daa1264ecfd9658ab053f29f",
+      "bytes": 3992,
+      "readiness": "ready-review-source-or-evidence"
+    },
+    {
+      "path": "spatial/scripts/production_fixture.cjs",
+      "sha256": "76d964c95600f31b18e8e2a09c8b47eb31e9519337eff11a7fed2084db0e3a25",
+      "bytes": 3978,
+      "readiness": "ready-review-source-or-evidence"
+    },
+    {
+      "path": "spatial/scripts/review_server.py",
+      "sha256": "b7b181220b049f4c4c8cc958cddd3ae0c40555ebab100123f4e7b5b0fc61d0b0",
+      "bytes": 1328,
+      "readiness": "ready-review-source-or-evidence"
+    },
+    {
+      "path": "spatial/scripts/support_browser.cjs",
+      "sha256": "902e8c73a31b008be2b87ea3f06a3d8fdc78bfae7d9101e0015bceaddac8d7a0",
+      "bytes": 8278,
+      "readiness": "ready-review-source-or-evidence"
+    },
+    {
+      "path": "spatial/scripts/support_family_browser.cjs",
+      "sha256": "849591466595d82ed58eddb9aa743331125f72afd15642e2e1c646c0e3fa6829",
+      "bytes": 10272,
+      "readiness": "ready-review-source-or-evidence"
+    },
+    {
+      "path": "spatial/src/ceilingProfiles.ts",
+      "sha256": "3f3b7df06e12edc41aa045e15becd418b3a8190cc87108c3c9b5cea60c37408c",
+      "bytes": 10207,
+      "readiness": "ready-review-source-or-evidence"
+    },
+    {
+      "path": "spatial/src/levelConnections.ts",
+      "sha256": "9f21327711cedbee3a465a87f5861261eaef3cdbdaa4b94b8dccc615ad9069d9",
+      "bytes": 12245,
+      "readiness": "ready-review-source-or-evidence"
+    },
+    {
+      "path": "spatial/src/supportFamily.ts",
+      "sha256": "a413658151e5c3b85c02cd5ec401c84aeb5b23539adff9bf6927a3094a01a6a2",
+      "bytes": 7140,
+      "readiness": "ready-review-source-or-evidence"
+    },
+    {
+      "path": "spatial/src/supportPlacement.ts",
+      "sha256": "5a648fafdfd3d93f8039fe78fc5ab7d4b6e68f255a5f5b4ae1af3462b7bcf197",
+      "bytes": 14931,
+      "readiness": "ready-review-source-or-evidence"
+    },
+    {
+      "path": "spatial/src/viewPlan.ts",
+      "sha256": "dbd8513f68c61f1f484257fb131b2f20fe656eb49a9042519d690bfab22cf450",
+      "bytes": 11603,
+      "readiness": "ready-review-source-or-evidence"
+    },
+    {
+      "path": "spatial/tests/all-spatial-result.log",
+      "sha256": "18ab95c9feda817e4b72bb4cd7bfdc07f4274c09e6920f7682c38db94fa105a2",
+      "bytes": 7630,
+      "readiness": "ready-review-source-or-evidence"
+    },
+    {
+      "path": "spatial/tests/ceilingProfiles.test.mjs",
+      "sha256": "ef9d02f265b0876f038a10ad75642e1c2374491b3575a334d9edc461d2b6c7fd",
+      "bytes": 7918,
+      "readiness": "ready-review-source-or-evidence"
+    },
+    {
+      "path": "spatial/tests/fixturePlacement.test.mjs",
+      "sha256": "206b8e2a16850d74255df19e9ab80ccc69c18016758ba7fbc464699beb23497f",
+      "bytes": 3513,
+      "readiness": "ready-review-source-or-evidence"
+    },
+    {
+      "path": "spatial/tests/levelConnections.test.mjs",
+      "sha256": "de17c8e566ec57e118fc303e745f5e35a880e30500329b9c70fc37f3c4fa80bd",
+      "bytes": 6468,
+      "readiness": "ready-review-source-or-evidence"
+    },
+    {
+      "path": "spatial/tests/supportFamily.test.mjs",
+      "sha256": "4d56a43f5d4037317f22746ea96a34b93fb6edac7b87a5f2243b7046908950da",
+      "bytes": 7851,
+      "readiness": "ready-review-source-or-evidence"
+    },
+    {
+      "path": "spatial/tests/supportPlacement.test.mjs",
+      "sha256": "5603d4322f84c02346074a249a49118b8456c6c6bf389be3f0e0fe3c98dc0617",
+      "bytes": 9384,
+      "readiness": "ready-review-source-or-evidence"
+    },
+    {
+      "path": "spatial/tests/viewPlan.test.mjs",
+      "sha256": "8812c5d101508b243a74bf6b4d7f4fc018a92ab24b12ed84bbaf59442dc26c7c",
+      "bytes": 10290,
+      "readiness": "ready-review-source-or-evidence"
+    },
+    {
+      "path": "spatial/tsconfig.json",
+      "sha256": "67010b38bc8e616fec945366832efeb112a2f386d9cb357f939739d3a9317e9a",
+      "bytes": 313,
+      "readiness": "ready-review-source-or-evidence"
+    }
+  ],
+  "publicationListPath": "docs/spatial/PUBLISH_READY.json",
+  "publicationListSelfHash": "Excluded to avoid self-reference; publish this JSON alongside its listed paths."
+}

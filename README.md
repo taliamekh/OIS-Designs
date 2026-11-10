@@ -18,6 +18,10 @@ The [November 8 phone app proposal](docs/planning/README.md) contains the phone 
 
 The user authorized the real build November9. Round3 and the latest phone-usability corrections guide implementation; design mockups alone do not establish native capability. The newer proposal supersedes the engine/device assumptions in the historical research below. Phone pairing is deferred and does not block local implementation or automated checks.
 
+## Spatial review sources
+
+The [spatial source package](spatial/README.md) preserves the house-view policy and separate Phase 3 geometry experiments with their tests and adoption contracts. The app has adopted the Views panel and room/floor/house policy. Supported placement, attached families, stairs/voids, advanced ceilings and batching remain experiments; their review evidence does not establish production or physical-phone capability.
+
 ## Initial architecture research
 
 The guides below predate the Expo scaffold and describe the original Unity proposal. Their Unity-specific stack and build recommendations are historical research. The room-data handoff and synthetic fixture remain useful starting points for the Expo editor.

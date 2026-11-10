@@ -14,7 +14,7 @@ User authorization: November 9, 2026. Repository: [taliamekh/OIS-Designs](https:
 
 ## Cadence and procedure
 
-Latest integrated checkpoint: `43b53e6d341e177abb9dc30e1b9730ef3e315a83`, pushed at 04:58 UTC under verified author/committer `taliamekh`. [Remote source checks passed](https://github.com/taliamekh/OIS-Designs/actions/runs/42759090732), including 45/45 tests, TypeScript, ESLint and locked dependency installation. Native checkpoint evidence independently verifies 52 compiled sources and all 1,187 retained GLBs on each platform.
+Latest integrated app checkpoint: `3152a85b5691231155aa59829540028e8dbb1314`, pushed at 06:09 UTC under verified author/committer `taliamekh`. [Remote source checks](https://github.com/taliamekh/OIS-Designs/actions/runs/42766373109) passed locked installation, TypeScript, ESLint and 51/51 tests; the archive audit has not yet completed. Independent native checkpoint evidence verifies 56 compiled sources and all 1,187 retained GLBs on each platform. Later active fixes require a new source-bound checkpoint. The previous integrated checkpoint `43b53e6d341e177abb9dc30e1b9730ef3e315a83` passed all remote checks with 45/45 tests.
 
 Byte-fidelity correction: `70585c46ef74da1e093cd447b1c126756e2afb52`, pushed at 05:07 UTC under the same verified identity. Restores original CRLF bytes in 5,753 text files previously normalized during initial staging, preserving all content after newline normalization. No active working file was rewritten. The committed tree now matches all 3,175 frozen library dependency digests and 68 native-checkpoint source digests. Independent closure checks 4,978 paths, including 2,200 static references and 1,187 saved model bindings, with zero issues. The verifier uses actual revisionModels static bindings; producer-relative metadata file fields are not app filesystem paths.
 
@@ -26,6 +26,10 @@ Byte-fidelity correction: `70585c46ef74da1e093cd447b1c126756e2afb52`, pushed at 
 6. Publish after meaningful verified milestones, with no more than 30 minutes of ready changes left unpushed during active overnight work. Do not rerun unchanged expensive tests merely to produce another green count.
 
 Workers must not concurrently run add/commit/push or switch this shared checkout. A later separate worktree/branch protocol needs an explicit ownership handoff.
+
+## Archive-audit checkout correction
+
+The 06:09 run added a committed-tree audit of static model bindings, LFS pointers and frozen dependency digests. Its source tests passed, but sparse checkout made this audit slow: the pinned checkout action automatically uses `blob:none` for sparse checkout, leaving thousands of audited blobs to be fetched on demand. The next workflow revision uses a complete shallow Git snapshot while retaining `lfs: false` and `GIT_LFS_SKIP_SMUDGE=1`. Large LFS model/media bodies remain skipped. This change requires its own completed remote run before being called verified. The inference is supported by the [pinned checkout implementation](https://github.com/actions/checkout/blob/3d3c42e5aac5ba805825da76410c181273ba90b1/src/git-source-provider.ts#L168).
 
 ## Repository checks
 

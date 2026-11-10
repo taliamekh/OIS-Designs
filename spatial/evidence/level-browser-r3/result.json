@@ -1,0 +1,414 @@
+{
+  "timeUtc": "2026-11-10T05:56:41.479Z",
+  "sourceSha256": {
+    "module": "9f21327711cedbee3a465a87f5861261eaef3cdbdaa4b94b8dccc615ad9069d9",
+    "adapter": "4b4e490be8823ab26b47bcac4a3ac59d417c223d44fbbef9a5c2a1c4eec7e8d2",
+    "fixture": "5d8f9216bf4fc3eca14cbda1dd016cd07b72e4bc104c45d5c79edf2bf2a12a01"
+  },
+  "dependencies": {
+    "src/levelConnections.ts": "9f21327711cedbee3a465a87f5861261eaef3cdbdaa4b94b8dccc615ad9069d9",
+    "src/supportPlacement.ts": "5a648fafdfd3d93f8039fe78fc5ab7d4b6e68f255a5f5b4ae1af3462b7bcf197",
+    "src/viewPlan.ts": "dbd8513f68c61f1f484257fb131b2f20fe656eb49a9042519d690bfab22cf450",
+    "dist/levelConnections.js": "6b20bd13b675d4d10b67cac151aed549c130e8b2b6458e5b4d68e2030da578c4",
+    "dist/supportPlacement.js": "971220e72b83036584ff3e4b4e543bf6ca9115c6483d1232f0c62311b902c5f3",
+    "dist/viewPlan.js": "69d40c4bd0edbe91c7b5fec6427ef6811b028004c074767e927c3079c9c21362",
+    "../mobile/node_modules/three/build/three.module.js": "c8211c69345d2e9949dc7a8ac969380497aa0600a5a8ac6a459c8cd02dd9cb8a",
+    "../mobile/node_modules/three/build/three.core.js": "eb077d2417f61d3e6d9264c317cabc4ea35769ed6b0ab533067292a550784c20"
+  },
+  "result": {
+    "plan": {
+      "connections": [
+        {
+          "id": "stair-marker",
+          "startWorld": {
+            "x": -0.5,
+            "y": 0,
+            "z": 3
+          },
+          "endWorld": {
+            "x": -0.5,
+            "y": 3.1,
+            "z": 6.5
+          },
+          "upperLandingWorld": {
+            "x": -0.5,
+            "y": 3.1,
+            "z": 6.5
+          },
+          "landingResidualMetres": 0,
+          "rise": 3.1,
+          "run": 3.5,
+          "inclineDegrees": 41.53177074108286,
+          "footprintWorld": [
+            {
+              "x": -0.9500000000000002,
+              "z": 3
+            },
+            {
+              "x": -0.04999999999999982,
+              "z": 3
+            },
+            {
+              "x": -0.04999999999999982,
+              "z": 6.5
+            },
+            {
+              "x": -0.9500000000000002,
+              "z": 6.5
+            }
+          ],
+          "upperLandingFootprintWorld": [
+            {
+              "x": -0.95,
+              "z": 6.505
+            },
+            {
+              "x": -0.050000000000000044,
+              "z": 6.505
+            },
+            {
+              "x": -0.050000000000000044,
+              "z": 6.85
+            },
+            {
+              "x": -0.95,
+              "z": 6.85
+            }
+          ],
+          "steps": [
+            {
+              "center": {
+                "x": -0.5,
+                "y": 0.08611111111111111,
+                "z": 3.0972222222222223
+              },
+              "width": 0.9,
+              "depth": 0.19444444444444445,
+              "height": 0.17222222222222222,
+              "yaw": 0
+            },
+            {
+              "center": {
+                "x": -0.5,
+                "y": 0.17222222222222222,
+                "z": 3.2916666666666665
+              },
+              "width": 0.9,
+              "depth": 0.19444444444444445,
+              "height": 0.34444444444444444,
+              "yaw": 0
+            },
+            {
+              "center": {
+                "x": -0.5,
+                "y": 0.25833333333333336,
+                "z": 3.486111111111111
+              },
+              "width": 0.9,
+              "depth": 0.19444444444444445,
+              "height": 0.5166666666666667,
+              "yaw": 0
+            },
+            {
+              "center": {
+                "x": -0.5,
+                "y": 0.34444444444444444,
+                "z": 3.6805555555555554
+              },
+              "width": 0.9,
+              "depth": 0.19444444444444445,
+              "height": 0.6888888888888889,
+              "yaw": 0
+            },
+            {
+              "center": {
+                "x": -0.5,
+                "y": 0.4305555555555556,
+                "z": 3.875
+              },
+              "width": 0.9,
+              "depth": 0.19444444444444445,
+              "height": 0.8611111111111112,
+              "yaw": 0
+            },
+            {
+              "center": {
+                "x": -0.5,
+                "y": 0.5166666666666667,
+                "z": 4.069444444444445
+              },
+              "width": 0.9,
+              "depth": 0.19444444444444445,
+              "height": 1.0333333333333334,
+              "yaw": 0
+            },
+            {
+              "center": {
+                "x": -0.5,
+                "y": 0.6027777777777777,
+                "z": 4.263888888888889
+              },
+              "width": 0.9,
+              "depth": 0.19444444444444445,
+              "height": 1.2055555555555555,
+              "yaw": 0
+            },
+            {
+              "center": {
+                "x": -0.5,
+                "y": 0.6888888888888889,
+                "z": 4.458333333333334
+              },
+              "width": 0.9,
+              "depth": 0.19444444444444445,
+              "height": 1.3777777777777778,
+              "yaw": 0
+            },
+            {
+              "center": {
+                "x": -0.5,
+                "y": 0.775,
+                "z": 4.652777777777778
+              },
+              "width": 0.9,
+              "depth": 0.19444444444444445,
+              "height": 1.55,
+              "yaw": 0
+            },
+            {
+              "center": {
+                "x": -0.5,
+                "y": 0.8611111111111112,
+                "z": 4.847222222222222
+              },
+              "width": 0.9,
+              "depth": 0.19444444444444445,
+              "height": 1.7222222222222223,
+              "yaw": 0
+            },
+            {
+              "center": {
+                "x": -0.5,
+                "y": 0.9472222222222223,
+                "z": 5.041666666666667
+              },
+              "width": 0.9,
+              "depth": 0.19444444444444445,
+              "height": 1.8944444444444446,
+              "yaw": 0
+            },
+            {
+              "center": {
+                "x": -0.5,
+                "y": 1.0333333333333334,
+                "z": 5.236111111111111
+              },
+              "width": 0.9,
+              "depth": 0.19444444444444445,
+              "height": 2.066666666666667,
+              "yaw": 0
+            },
+            {
+              "center": {
+                "x": -0.5,
+                "y": 1.1194444444444445,
+                "z": 5.430555555555555
+              },
+              "width": 0.9,
+              "depth": 0.19444444444444445,
+              "height": 2.238888888888889,
+              "yaw": 0
+            },
+            {
+              "center": {
+                "x": -0.5,
+                "y": 1.2055555555555555,
+                "z": 5.625
+              },
+              "width": 0.9,
+              "depth": 0.19444444444444445,
+              "height": 2.411111111111111,
+              "yaw": 0
+            },
+            {
+              "center": {
+                "x": -0.5,
+                "y": 1.2916666666666667,
+                "z": 5.819444444444445
+              },
+              "width": 0.9,
+              "depth": 0.19444444444444445,
+              "height": 2.5833333333333335,
+              "yaw": 0
+            },
+            {
+              "center": {
+                "x": -0.5,
+                "y": 1.3777777777777778,
+                "z": 6.013888888888889
+              },
+              "width": 0.9,
+              "depth": 0.19444444444444445,
+              "height": 2.7555555555555555,
+              "yaw": 0
+            },
+            {
+              "center": {
+                "x": -0.5,
+                "y": 1.463888888888889,
+                "z": 6.208333333333333
+              },
+              "width": 0.9,
+              "depth": 0.19444444444444445,
+              "height": 2.927777777777778,
+              "yaw": 0
+            },
+            {
+              "center": {
+                "x": -0.5,
+                "y": 1.55,
+                "z": 6.402777777777778
+              },
+              "width": 0.9,
+              "depth": 0.19444444444444445,
+              "height": 3.1,
+              "yaw": 0
+            }
+          ],
+          "upperVoid": {
+            "id": "upper-void",
+            "floorId": "upper",
+            "roomId": "upper-room",
+            "boundary": [
+              {
+                "x": -0.05,
+                "z": 1
+              },
+              {
+                "x": 1.05,
+                "z": 1
+              },
+              {
+                "x": 1.05,
+                "z": 3.5
+              },
+              {
+                "x": -0.05,
+                "z": 3.5
+              }
+            ]
+          },
+          "lowerCeilingCutout": {
+            "floorId": "lower",
+            "roomId": "lower-room",
+            "boundary": [
+              {
+                "x": 1.95,
+                "z": 2
+              },
+              {
+                "x": 3.05,
+                "z": 2
+              },
+              {
+                "x": 3.05,
+                "z": 4.5
+              },
+              {
+                "x": 1.95,
+                "z": 4.5
+              }
+            ]
+          },
+          "markerOnly": true,
+          "visibleInSeparatedFloors": false
+        }
+      ],
+      "issues": [],
+      "warnings": [
+        "stair-marker: conceptual marker only; declared step count/incline are not structural or code-compliance approval, and Walk traversal is not enabled"
+      ]
+    },
+    "probes": [
+      {
+        "point": {
+          "x": -0.5,
+          "z": 5.25
+        },
+        "openSlab": [],
+        "closedSlab": [
+          3.099999996423721,
+          2.9400000035762783
+        ],
+        "openCeiling": [],
+        "closedCeiling": [
+          2.7
+        ]
+      },
+      {
+        "point": {
+          "x": -2.2,
+          "z": 5.2
+        },
+        "openSlab": [
+          3.0999999964237213,
+          2.9400000035762783
+        ],
+        "closedSlab": [
+          3.0999999964237213,
+          2.9400000035762783
+        ],
+        "openCeiling": [
+          2.7
+        ],
+        "closedCeiling": [
+          2.7
+        ]
+      },
+      {
+        "point": {
+          "x": -0.5,
+          "z": 6.7
+        },
+        "openSlab": [
+          3.099999996423721,
+          2.9400000035762783
+        ],
+        "closedSlab": [
+          3.099999996423721,
+          2.9400000035762783
+        ],
+        "openCeiling": [
+          2.7
+        ],
+        "closedCeiling": [
+          2.7
+        ]
+      }
+    ],
+    "areas": {
+      "openSlab": 27.250000117346644,
+      "closedSlab": 30,
+      "openCeiling": 27.25000023841858,
+      "closedCeiling": 30,
+      "expectedSolid": 30,
+      "expectedVoid": 2.75,
+      "expectedOpen": 27.25
+    },
+    "reverseArea": 27.250000117346644,
+    "projectUnchanged": true,
+    "render": {
+      "frame": 1,
+      "calls": 23,
+      "triangles": 268,
+      "points": 0,
+      "lines": 8
+    },
+    "scope": "Authored conceptual connection with actual triangulated slab/ceiling holes and ray/area evidence. Not persisted native marker/void editing, code compliance or Walk traversal."
+  },
+  "disposed": {
+    "geometries": 0,
+    "textures": 0
+  },
+  "errors": []
+}

@@ -1,0 +1,253 @@
+{
+  "timeUtc": "2026-11-10T05:55:38.647Z",
+  "sourceSha256": {
+    "module": "3f3b7df06e12edc41aa045e15becd418b3a8190cc87108c3c9b5cea60c37408c",
+    "fixture": "a1f2a481557212b275e041b2b78e0074b8b6d6698007ea790e0480e98c6c6564",
+    "harness": "743bed0d4a49f648ef88a386e7d17d0db18ae1cb1328a11922beabede5c0f82c"
+  },
+  "dependencies": {
+    "src/ceilingProfiles.ts": "3f3b7df06e12edc41aa045e15becd418b3a8190cc87108c3c9b5cea60c37408c",
+    "src/supportPlacement.ts": "5a648fafdfd3d93f8039fe78fc5ab7d4b6e68f255a5f5b4ae1af3462b7bcf197",
+    "src/viewPlan.ts": "dbd8513f68c61f1f484257fb131b2f20fe656eb49a9042519d690bfab22cf450",
+    "dist/ceilingProfiles.js": "a57dd8a2b24c8c48c261d42356ac2bf20140e4a4320d13d9b7a09001e7fccc75",
+    "dist/supportPlacement.js": "971220e72b83036584ff3e4b4e543bf6ca9115c6483d1232f0c62311b902c5f3",
+    "dist/viewPlan.js": "69d40c4bd0edbe91c7b5fec6427ef6811b028004c074767e927c3079c9c21362",
+    "review/level-geometry.js": "4b4e490be8823ab26b47bcac4a3ac59d417c223d44fbbef9a5c2a1c4eec7e8d2",
+    "fixtures/ceiling-asymmetric.json": "2411071b0a2eb323c5b0fd888aa065f183f0fd82a2dcd6b6356f0d5cdcd697f0",
+    "../mobile/node_modules/three/build/three.module.js": "c8211c69345d2e9949dc7a8ac969380497aa0600a5a8ac6a459c8cd02dd9cb8a",
+    "../mobile/node_modules/three/build/three.core.js": "eb077d2417f61d3e6d9264c317cabc4ea35769ed6b0ab533067292a550784c20"
+  },
+  "result": {
+    "metrics": {
+      "flat": {
+        "area": 12,
+        "degenerate": 0,
+        "down": 2,
+        "vertical": 0,
+        "surfaceTriangles": 2,
+        "riserTriangles": 0,
+        "probes": [
+          {
+            "point": {
+              "x": 0.25,
+              "z": 0.25
+            },
+            "expected": 2.7,
+            "actual": 2.700000047683716
+          },
+          {
+            "point": {
+              "x": 2,
+              "z": 1.5
+            },
+            "expected": 2.7,
+            "actual": 2.700000047683716
+          },
+          {
+            "point": {
+              "x": 3.75,
+              "z": 2.75
+            },
+            "expected": 2.7,
+            "actual": 2.700000047683716
+          },
+          {
+            "point": {
+              "x": 1.5,
+              "z": 1.5
+            },
+            "expected": 2.7,
+            "actual": 2.700000047683716
+          }
+        ]
+      },
+      "slope": {
+        "area": 12.58570620077414,
+        "degenerate": 0,
+        "down": 2,
+        "vertical": 0,
+        "surfaceTriangles": 2,
+        "riserTriangles": 0,
+        "probes": [
+          {
+            "point": {
+              "x": 0.25,
+              "z": 0.25
+            },
+            "expected": 2.1,
+            "actual": 2.0999999990065894
+          },
+          {
+            "point": {
+              "x": 2,
+              "z": 1.5
+            },
+            "expected": 2.75,
+            "actual": 2.75
+          },
+          {
+            "point": {
+              "x": 3.75,
+              "z": 2.75
+            },
+            "expected": 3.4,
+            "actual": 3.400000000993411
+          },
+          {
+            "point": {
+              "x": 1.5,
+              "z": 1.5
+            },
+            "expected": 2.6,
+            "actual": 2.5999999940395355
+          }
+        ]
+      },
+      "vault": {
+        "area": 13.416407864998739,
+        "degenerate": 0,
+        "down": 4,
+        "vertical": 0,
+        "surfaceTriangles": 4,
+        "riserTriangles": 0,
+        "probes": [
+          {
+            "point": {
+              "x": 0.25,
+              "z": 0.25
+            },
+            "expected": 2.325,
+            "actual": 2.325000047683716
+          },
+          {
+            "point": {
+              "x": 2,
+              "z": 1.5
+            },
+            "expected": 3.2,
+            "actual": 3.200000047683716
+          },
+          {
+            "point": {
+              "x": 3.75,
+              "z": 2.75
+            },
+            "expected": 2.325,
+            "actual": 2.325000047683716
+          },
+          {
+            "point": {
+              "x": 1.5,
+              "z": 1.5
+            },
+            "expected": 2.95,
+            "actual": 2.950000047683716
+          }
+        ]
+      },
+      "soffit": {
+        "area": 15,
+        "degenerate": 0,
+        "down": 10,
+        "vertical": 8,
+        "surfaceTriangles": 10,
+        "riserTriangles": 8,
+        "probes": [
+          {
+            "point": {
+              "x": 0.25,
+              "z": 0.25
+            },
+            "expected": 2.8,
+            "actual": 2.799999952316284
+          },
+          {
+            "point": {
+              "x": 2,
+              "z": 1.5
+            },
+            "expected": 2.05,
+            "actual": 2.049999952316284
+          },
+          {
+            "point": {
+              "x": 3.75,
+              "z": 2.75
+            },
+            "expected": 2.8,
+            "actual": 2.799999952316284
+          },
+          {
+            "point": {
+              "x": 1.5,
+              "z": 1.5
+            },
+            "expected": 2.05,
+            "actual": 2.049999952316284
+          }
+        ]
+      },
+      "asymmetric": {
+        "area": 16.603007880521364,
+        "degenerate": 0,
+        "down": 6,
+        "vertical": 0,
+        "surfaceTriangles": 6,
+        "riserTriangles": 0,
+        "probes": [
+          {
+            "point": {
+              "x": -2.15,
+              "z": -1.05
+            },
+            "expected": 2.3000000000000003,
+            "actual": 2.3000000762939425
+          },
+          {
+            "point": {
+              "x": -1.15,
+              "z": 0.4
+            },
+            "expected": 2.7,
+            "actual": 2.7000000381469733
+          },
+          {
+            "point": {
+              "x": 2.35,
+              "z": 0.45
+            },
+            "expected": 2,
+            "actual": 2.000000030199686
+          },
+          {
+            "point": {
+              "x": 0.35,
+              "z": 2.45
+            },
+            "expected": 2.4000000000000004,
+            "actual": 2.39999992983682
+          }
+        ]
+      }
+    },
+    "clearance": {
+      "status": "measured",
+      "minimumHeight": 2.05,
+      "facetIds": [
+        "left",
+        "right",
+        "front",
+        "back",
+        "drop"
+      ]
+    },
+    "notchHits": 0,
+    "projectUnchanged": true,
+    "scope": "Actual browser triangle geometry and upward ray intersections; authored convex facets, no native editing/persistence, roof engineering or double-height connectivity claim."
+  },
+  "disposed": {
+    "geometries": 0,
+    "textures": 0
+  },
+  "errors": []
+}

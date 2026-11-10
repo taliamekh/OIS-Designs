@@ -1,0 +1,277 @@
+{
+  "scope": "Authored explicit-facet geometry experiments; no production profile editing or structural roof claim",
+  "room": [
+    {
+      "x": 0,
+      "z": 0
+    },
+    {
+      "x": 4,
+      "z": 0
+    },
+    {
+      "x": 4,
+      "z": 3
+    },
+    {
+      "x": 0,
+      "z": 3
+    }
+  ],
+  "profiles": {
+    "flat": {
+      "version": 1,
+      "facets": [
+        {
+          "id": "flat",
+          "boundary": [
+            {
+              "x": 0,
+              "z": 0
+            },
+            {
+              "x": 4,
+              "z": 0
+            },
+            {
+              "x": 4,
+              "z": 3
+            },
+            {
+              "x": 0,
+              "z": 3
+            }
+          ],
+          "plane": {
+            "xSlope": 0,
+            "zSlope": 0,
+            "intercept": 2.7
+          }
+        }
+      ]
+    },
+    "slope": {
+      "version": 1,
+      "facets": [
+        {
+          "id": "slope",
+          "boundary": [
+            {
+              "x": 0,
+              "z": 0
+            },
+            {
+              "x": 4,
+              "z": 0
+            },
+            {
+              "x": 4,
+              "z": 3
+            },
+            {
+              "x": 0,
+              "z": 3
+            }
+          ],
+          "plane": {
+            "xSlope": 0.3,
+            "zSlope": 0.1,
+            "intercept": 2
+          }
+        }
+      ]
+    },
+    "vault": {
+      "version": 1,
+      "facets": [
+        {
+          "id": "left",
+          "boundary": [
+            {
+              "x": 0,
+              "z": 0
+            },
+            {
+              "x": 2,
+              "z": 0
+            },
+            {
+              "x": 2,
+              "z": 3
+            },
+            {
+              "x": 0,
+              "z": 3
+            }
+          ],
+          "plane": {
+            "xSlope": 0.5,
+            "zSlope": 0,
+            "intercept": 2.2
+          }
+        },
+        {
+          "id": "right",
+          "boundary": [
+            {
+              "x": 2,
+              "z": 0
+            },
+            {
+              "x": 4,
+              "z": 0
+            },
+            {
+              "x": 4,
+              "z": 3
+            },
+            {
+              "x": 2,
+              "z": 3
+            }
+          ],
+          "plane": {
+            "xSlope": -0.5,
+            "zSlope": 0,
+            "intercept": 4.2
+          }
+        }
+      ]
+    },
+    "soffit": {
+      "version": 1,
+      "facets": [
+        {
+          "id": "left",
+          "boundary": [
+            {
+              "x": 0,
+              "z": 0
+            },
+            {
+              "x": 1.5,
+              "z": 0
+            },
+            {
+              "x": 1.5,
+              "z": 3
+            },
+            {
+              "x": 0,
+              "z": 3
+            }
+          ],
+          "plane": {
+            "xSlope": 0,
+            "zSlope": 0,
+            "intercept": 2.8
+          }
+        },
+        {
+          "id": "right",
+          "boundary": [
+            {
+              "x": 2.5,
+              "z": 0
+            },
+            {
+              "x": 4,
+              "z": 0
+            },
+            {
+              "x": 4,
+              "z": 3
+            },
+            {
+              "x": 2.5,
+              "z": 3
+            }
+          ],
+          "plane": {
+            "xSlope": 0,
+            "zSlope": 0,
+            "intercept": 2.8
+          }
+        },
+        {
+          "id": "front",
+          "boundary": [
+            {
+              "x": 1.5,
+              "z": 0
+            },
+            {
+              "x": 2.5,
+              "z": 0
+            },
+            {
+              "x": 2.5,
+              "z": 1
+            },
+            {
+              "x": 1.5,
+              "z": 1
+            }
+          ],
+          "plane": {
+            "xSlope": 0,
+            "zSlope": 0,
+            "intercept": 2.8
+          }
+        },
+        {
+          "id": "back",
+          "boundary": [
+            {
+              "x": 1.5,
+              "z": 2
+            },
+            {
+              "x": 2.5,
+              "z": 2
+            },
+            {
+              "x": 2.5,
+              "z": 3
+            },
+            {
+              "x": 1.5,
+              "z": 3
+            }
+          ],
+          "plane": {
+            "xSlope": 0,
+            "zSlope": 0,
+            "intercept": 2.8
+          }
+        },
+        {
+          "id": "drop",
+          "boundary": [
+            {
+              "x": 1.5,
+              "z": 1
+            },
+            {
+              "x": 2.5,
+              "z": 1
+            },
+            {
+              "x": 2.5,
+              "z": 2
+            },
+            {
+              "x": 1.5,
+              "z": 2
+            }
+          ],
+          "plane": {
+            "xSlope": 0,
+            "zSlope": 0,
+            "intercept": 2.05
+          }
+        }
+      ]
+    }
+  }
+}

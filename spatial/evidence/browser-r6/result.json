@@ -1,0 +1,2434 @@
+{
+  "visibilityMeaning": "visibleModels counts enabled scene roots; walls/floors may physically occlude their pixels",
+  "timeUtc": "2026-11-10T05:07:31.208Z",
+  "sourceSha256": {
+    "viewPlan": "dbd8513f68c61f1f484257fb131b2f20fe656eb49a9042519d690bfab22cf450",
+    "viewer": "ad0db2cd7834755bfc5082ce30dd6ca6bf304f0ade1137420643b47e8b365d80",
+    "html": "2921e559cd4cdaa1421fe926bd1b63200dbd5927d5ad050d589a6b23abd4f3bd",
+    "fixture": "1cc09988645365a6ca5c633dcac47790db5dc61d656b08e6f187a6fe3dea5ef3"
+  },
+  "checks": [
+    {
+      "name": "desktop-room",
+      "state": {
+        "activeFloorId": "ground",
+        "roomId": "living",
+        "scope": "room",
+        "shell": "cutaway",
+        "ceilings": false,
+        "separated": false,
+        "preset": "perspective",
+        "selected": null,
+        "interior": false
+      },
+      "projectUnchanged": true,
+      "loadedModels": 40,
+      "visibleModels": 8,
+      "memory": {
+        "geometries": 23,
+        "textures": 10
+      },
+      "render": {
+        "frame": 13,
+        "calls": 24,
+        "triangles": 16250,
+        "points": 0,
+        "lines": 0
+      },
+      "bank": {
+        "uniqueTextures": 9,
+        "rootLeases": 135
+      },
+      "canEdit": true,
+      "readOnlyReason": null,
+      "displayBounds": {
+        "min": {
+          "x": 2.32,
+          "y": -0.16,
+          "z": -1.1800000000000002
+        },
+        "max": {
+          "x": 7.279999999999999,
+          "y": 2.72,
+          "z": 2.98
+        }
+      },
+      "canonicalBounds": {
+        "min": {
+          "x": 2.32,
+          "y": -0.16,
+          "z": -1.1800000000000002
+        },
+        "max": {
+          "x": 7.279999999999999,
+          "y": 2.72,
+          "z": 2.98
+        }
+      },
+      "projection": [
+        [
+          -0.09033101970187365,
+          0.0036330468472351336,
+          0.998795807112378
+        ],
+        [
+          -0.47445891627738596,
+          -0.3174373024688753,
+          0.9984132281989323
+        ],
+        [
+          -0.09875982894462593,
+          0.512699647040363,
+          0.9986647796688497
+        ],
+        [
+          -0.5322622009431138,
+          0.3081061973708078,
+          0.9981955435234255
+        ],
+        [
+          0.45788364042985036,
+          -0.2650512981030211,
+          0.9984756499724555
+        ],
+        [
+          0.15049680322877265,
+          -0.7812858600571021,
+          0.9978605185589938
+        ],
+        [
+          0.5114905845142425,
+          0.342213384164761,
+          0.9982737685344819
+        ],
+        [
+          0.17544353300038418,
+          -0.00705620922401282,
+          0.997472716897783
+        ]
+      ],
+      "vertexBounds": {
+        "min": [
+          2.555000011920929,
+          -6.46684212290971e-8,
+          -0.9361659531096657
+        ],
+        "max": [
+          7.029812393487517,
+          1.7599999755620956,
+          2.7480000310658976
+        ],
+        "vertexCount": 38209
+      },
+      "camera": {
+        "position": [
+          10.552783487009233,
+          5.834286927215641,
+          8.810077294637692
+        ],
+        "target": [
+          4.8,
+          1.28,
+          0.8999999999999998
+        ],
+        "aspect": 1.5434083601286173,
+        "near": 0.01,
+        "far": 100
+      },
+      "wallCounts": [
+        {
+          "floor": "ground",
+          "visible": 3,
+          "total": 4
+        }
+      ],
+      "roomSelectValue": "living",
+      "horizontalOverflow": false
+    },
+    {
+      "name": "desktop-floor",
+      "state": {
+        "activeFloorId": "ground",
+        "roomId": "living",
+        "scope": "floor",
+        "shell": "cutaway",
+        "ceilings": false,
+        "separated": false,
+        "preset": "perspective",
+        "selected": null,
+        "interior": false
+      },
+      "projectUnchanged": true,
+      "loadedModels": 40,
+      "visibleModels": 21,
+      "memory": {
+        "geometries": 72,
+        "textures": 10
+      },
+      "render": {
+        "frame": 44,
+        "calls": 74,
+        "triangles": 42414,
+        "points": 0,
+        "lines": 0
+      },
+      "bank": {
+        "uniqueTextures": 9,
+        "rootLeases": 135
+      },
+      "canEdit": true,
+      "readOnlyReason": null,
+      "displayBounds": {
+        "min": {
+          "x": 2.32,
+          "y": -0.16,
+          "z": -1.1800000000000002
+        },
+        "max": {
+          "x": 10.48,
+          "y": 2.72,
+          "z": 4.779999999999999
+        }
+      },
+      "canonicalBounds": {
+        "min": {
+          "x": 2.32,
+          "y": -0.16,
+          "z": -1.1800000000000002
+        },
+        "max": {
+          "x": 10.48,
+          "y": 2.72,
+          "z": 4.779999999999999
+        }
+      },
+      "projection": [
+        [
+          -0.13044235877383584,
+          0.09434127941927083,
+          0.9991745792366075
+        ],
+        [
+          -0.5490386091650639,
+          -0.21967438154605298,
+          0.9988785497067044
+        ],
+        [
+          -0.13911257458300752,
+          0.46299446510416764,
+          0.9991064204512324
+        ],
+        [
+          -0.5969871420817023,
+          0.23727421439214713,
+          0.9987631433201688
+        ],
+        [
+          0.5483625086012889,
+          -0.21794821740510975,
+          0.9988801769999344
+        ],
+        [
+          0.23591278379980654,
+          -0.7851649175068083,
+          0.9983454492332745
+        ],
+        [
+          0.5961878807933579,
+          0.2385391515501938,
+          0.998765067046539
+        ],
+        [
+          0.2658827702227928,
+          -0.19229735612071475,
+          0.9981098475000239
+        ]
+      ],
+      "vertexBounds": {
+        "min": [
+          2.555000011920929,
+          -6.46684212290971e-8,
+          -0.9780000048875811
+        ],
+        "max": [
+          10.248000016420017,
+          1.7674999640427655,
+          4.564000028256392
+        ],
+        "vertexCount": 91807
+      },
+      "camera": {
+        "position": [
+          14.151500672491627,
+          7.41660469905587,
+          12.458313424675984
+        ],
+        "target": [
+          6.4,
+          1.2799999999999996,
+          1.7999999999999996
+        ],
+        "aspect": 1.5434083601286173,
+        "near": 0.01,
+        "far": 100
+      },
+      "wallCounts": [
+        {
+          "floor": "ground",
+          "visible": 7,
+          "total": 10
+        }
+      ],
+      "roomSelectValue": "living",
+      "horizontalOverflow": false
+    },
+    {
+      "name": "desktop-house",
+      "state": {
+        "activeFloorId": "ground",
+        "roomId": "living",
+        "scope": "house",
+        "shell": "cutaway",
+        "ceilings": false,
+        "separated": false,
+        "preset": "perspective",
+        "selected": null,
+        "interior": false
+      },
+      "projectUnchanged": true,
+      "loadedModels": 40,
+      "visibleModels": 40,
+      "memory": {
+        "geometries": 140,
+        "textures": 10
+      },
+      "render": {
+        "frame": 70,
+        "calls": 143,
+        "triangles": 88206,
+        "points": 0,
+        "lines": 0
+      },
+      "bank": {
+        "uniqueTextures": 9,
+        "rootLeases": 135
+      },
+      "canEdit": false,
+      "readOnlyReason": "house-overview",
+      "displayBounds": {
+        "min": {
+          "x": 2.32,
+          "y": -0.16,
+          "z": -1.1800000000000002
+        },
+        "max": {
+          "x": 10.48,
+          "y": 6.05,
+          "z": 4.78
+        }
+      },
+      "canonicalBounds": {
+        "min": {
+          "x": 2.32,
+          "y": -0.16,
+          "z": -1.1800000000000002
+        },
+        "max": {
+          "x": 10.48,
+          "y": 6.05,
+          "z": 4.78
+        }
+      },
+      "projection": [
+        [
+          -0.10472617543314479,
+          -0.08197448584966725,
+          0.9993767407351862
+        ],
+        [
+          -0.4170615955061708,
+          -0.3591721159399489,
+          0.9991962026008739
+        ],
+        [
+          -0.1173921394334849,
+          0.5674961155907089,
+          0.9992771703506805
+        ],
+        [
+          -0.48023940526041153,
+          0.41230582851565767,
+          0.9990441411656336
+        ],
+        [
+          0.41667135306377917,
+          -0.3577299687653597,
+          0.9991971418677797
+        ],
+        [
+          0.1633628057369702,
+          -0.7897271327971621,
+          0.9989157831779633
+        ],
+        [
+          0.479722050878301,
+          0.4131351002671306,
+          0.9990453863757821
+        ],
+        [
+          0.19642154569383016,
+          0.1537490999881651,
+          0.9986558999627029
+        ]
+      ],
+      "vertexBounds": {
+        "min": [
+          2.555000011920929,
+          -6.46684212290971e-8,
+          -0.9780000048875811
+        ],
+        "max": [
+          10.248000016420017,
+          5.15,
+          4.564000028256392
+        ],
+        "vertexCount": 165232
+      },
+      "camera": {
+        "position": [
+          16.330662701646844,
+          10.806774638803748,
+          15.454661214764403
+        ],
+        "target": [
+          6.400000000000001,
+          2.9450000000000003,
+          1.8000000000000003
+        ],
+        "aspect": 1.5434083601286173,
+        "near": 0.01,
+        "far": 100
+      },
+      "wallCounts": [
+        {
+          "floor": "ground",
+          "visible": 7,
+          "total": 10
+        },
+        {
+          "floor": "upper",
+          "visible": 6,
+          "total": 10
+        }
+      ],
+      "roomSelectValue": "living",
+      "horizontalOverflow": false
+    },
+    {
+      "name": "desktop-house-top",
+      "state": {
+        "activeFloorId": "ground",
+        "roomId": "living",
+        "scope": "house",
+        "shell": "cutaway",
+        "ceilings": false,
+        "separated": false,
+        "preset": "top",
+        "selected": null,
+        "interior": false
+      },
+      "projectUnchanged": true,
+      "loadedModels": 40,
+      "visibleModels": 40,
+      "memory": {
+        "geometries": 147,
+        "textures": 10
+      },
+      "render": {
+        "frame": 98,
+        "calls": 150,
+        "triangles": 88290,
+        "points": 0,
+        "lines": 0
+      },
+      "bank": {
+        "uniqueTextures": 9,
+        "rootLeases": 135
+      },
+      "canEdit": false,
+      "readOnlyReason": "house-overview",
+      "displayBounds": {
+        "min": {
+          "x": 2.32,
+          "y": -0.16,
+          "z": -1.1800000000000002
+        },
+        "max": {
+          "x": 10.48,
+          "y": 6.05,
+          "z": 4.78
+        }
+      },
+      "canonicalBounds": {
+        "min": {
+          "x": 2.32,
+          "y": -0.16,
+          "z": -1.1800000000000002
+        },
+        "max": {
+          "x": 10.48,
+          "y": 6.05,
+          "z": 4.78
+        }
+      },
+      "projection": [
+        [
+          -0.42270000154657533,
+          0.4760101728532838,
+          0.9989401553459554
+        ],
+        [
+          -0.42285874353748926,
+          -0.4771822967372443,
+          0.9989396822127093
+        ],
+        [
+          -0.6942581459540004,
+          0.7834476682294264,
+          0.9981307716058365
+        ],
+        [
+          -0.6946864716054103,
+          -0.7822990920696584,
+          0.9981294949738336
+        ],
+        [
+          0.42270000154657505,
+          0.4760101728532838,
+          0.9989401553459554
+        ],
+        [
+          0.422858743537489,
+          -0.4771822967372443,
+          0.9989396822127093
+        ],
+        [
+          0.6942581459539999,
+          0.7834476682294264,
+          0.9981307716058365
+        ],
+        [
+          0.6946864716054099,
+          -0.7822990920696584,
+          0.9981294949738336
+        ]
+      ],
+      "vertexBounds": {
+        "min": [
+          2.555000011920929,
+          -6.46684212290971e-8,
+          -0.9780000048875811
+        ],
+        "max": [
+          10.248000016420017,
+          5.15,
+          4.564000028256392
+        ],
+        "vertexCount": 165232
+      },
+      "camera": {
+        "position": [
+          6.400000000000001,
+          15.713323870170695,
+          1.8127683238706336
+        ],
+        "target": [
+          6.400000000000001,
+          2.9450000000000003,
+          1.8000000000000003
+        ],
+        "aspect": 1.5434083601286173,
+        "near": 0.01,
+        "far": 100
+      },
+      "wallCounts": [
+        {
+          "floor": "ground",
+          "visible": 7,
+          "total": 10
+        },
+        {
+          "floor": "upper",
+          "visible": 6,
+          "total": 10
+        }
+      ],
+      "roomSelectValue": "living",
+      "horizontalOverflow": false
+    },
+    {
+      "name": "desktop-house-front",
+      "state": {
+        "activeFloorId": "ground",
+        "roomId": "living",
+        "scope": "house",
+        "shell": "cutaway",
+        "ceilings": false,
+        "separated": false,
+        "preset": "front",
+        "selected": null,
+        "interior": false
+      },
+      "projectUnchanged": true,
+      "loadedModels": 40,
+      "visibleModels": 40,
+      "memory": {
+        "geometries": 147,
+        "textures": 10
+      },
+      "render": {
+        "frame": 128,
+        "calls": 147,
+        "triangles": 88254,
+        "points": 0,
+        "lines": 0
+      },
+      "bank": {
+        "uniqueTextures": 9,
+        "rootLeases": 135
+      },
+      "canEdit": false,
+      "readOnlyReason": "house-overview",
+      "displayBounds": {
+        "min": {
+          "x": 2.32,
+          "y": -0.16,
+          "z": -1.1800000000000002
+        },
+        "max": {
+          "x": 10.48,
+          "y": 6.05,
+          "z": 4.78
+        }
+      },
+      "canonicalBounds": {
+        "min": {
+          "x": 2.32,
+          "y": -0.16,
+          "z": -1.1800000000000002
+        },
+        "max": {
+          "x": 10.48,
+          "y": 6.05,
+          "z": 4.78
+        }
+      },
+      "projection": [
+        [
+          -0.3784975016977603,
+          -0.33762431456305964,
+          0.9990719016602789
+        ],
+        [
+          -0.5628989757599182,
+          -0.7865795012209716,
+          0.9985222898816097
+        ],
+        [
+          -0.41074365946536995,
+          0.5739618594185273,
+          0.9989757914300542
+        ],
+        [
+          -0.6373076718303533,
+          0.5684860927809274,
+          0.998300513477686
+        ],
+        [
+          0.37849750169776,
+          -0.33762431456305964,
+          0.9990719016602789
+        ],
+        [
+          0.5628989757599178,
+          -0.7865795012209716,
+          0.9985222898816097
+        ],
+        [
+          0.4107436594653696,
+          0.5739618594185273,
+          0.9989757914300542
+        ],
+        [
+          0.6373076718303528,
+          0.5684860927809274,
+          0.998300513477686
+        ]
+      ],
+      "vertexBounds": {
+        "min": [
+          2.555000011920929,
+          -6.46684212290971e-8,
+          -0.9780000048875811
+        ],
+        "max": [
+          10.248000016420017,
+          5.15,
+          4.564000028256392
+        ],
+        "vertexCount": 165232
+      },
+      "camera": {
+        "position": [
+          6.400000000000001,
+          6.112264392626667,
+          15.570714750550726
+        ],
+        "target": [
+          6.400000000000001,
+          2.9450000000000003,
+          1.8000000000000003
+        ],
+        "aspect": 1.5434083601286173,
+        "near": 0.01,
+        "far": 100
+      },
+      "wallCounts": [
+        {
+          "floor": "ground",
+          "visible": 10,
+          "total": 10
+        },
+        {
+          "floor": "upper",
+          "visible": 10,
+          "total": 10
+        }
+      ],
+      "roomSelectValue": "living",
+      "horizontalOverflow": false
+    },
+    {
+      "name": "desktop-house-perspective",
+      "state": {
+        "activeFloorId": "ground",
+        "roomId": "living",
+        "scope": "house",
+        "shell": "cutaway",
+        "ceilings": false,
+        "separated": false,
+        "preset": "perspective",
+        "selected": null,
+        "interior": false
+      },
+      "projectUnchanged": true,
+      "loadedModels": 40,
+      "visibleModels": 40,
+      "memory": {
+        "geometries": 147,
+        "textures": 10
+      },
+      "render": {
+        "frame": 156,
+        "calls": 143,
+        "triangles": 88206,
+        "points": 0,
+        "lines": 0
+      },
+      "bank": {
+        "uniqueTextures": 9,
+        "rootLeases": 135
+      },
+      "canEdit": false,
+      "readOnlyReason": "house-overview",
+      "displayBounds": {
+        "min": {
+          "x": 2.32,
+          "y": -0.16,
+          "z": -1.1800000000000002
+        },
+        "max": {
+          "x": 10.48,
+          "y": 6.05,
+          "z": 4.78
+        }
+      },
+      "canonicalBounds": {
+        "min": {
+          "x": 2.32,
+          "y": -0.16,
+          "z": -1.1800000000000002
+        },
+        "max": {
+          "x": 10.48,
+          "y": 6.05,
+          "z": 4.78
+        }
+      },
+      "projection": [
+        [
+          -0.10472617543314479,
+          -0.08197448584966725,
+          0.9993767407351862
+        ],
+        [
+          -0.4170615955061708,
+          -0.3591721159399489,
+          0.9991962026008739
+        ],
+        [
+          -0.1173921394334849,
+          0.5674961155907089,
+          0.9992771703506805
+        ],
+        [
+          -0.48023940526041153,
+          0.41230582851565767,
+          0.9990441411656336
+        ],
+        [
+          0.41667135306377917,
+          -0.3577299687653597,
+          0.9991971418677797
+        ],
+        [
+          0.1633628057369702,
+          -0.7897271327971621,
+          0.9989157831779633
+        ],
+        [
+          0.479722050878301,
+          0.4131351002671306,
+          0.9990453863757821
+        ],
+        [
+          0.19642154569383016,
+          0.1537490999881651,
+          0.9986558999627029
+        ]
+      ],
+      "vertexBounds": {
+        "min": [
+          2.555000011920929,
+          -6.46684212290971e-8,
+          -0.9780000048875811
+        ],
+        "max": [
+          10.248000016420017,
+          5.15,
+          4.564000028256392
+        ],
+        "vertexCount": 165232
+      },
+      "camera": {
+        "position": [
+          16.330662701646844,
+          10.806774638803748,
+          15.454661214764403
+        ],
+        "target": [
+          6.400000000000001,
+          2.9450000000000003,
+          1.8000000000000003
+        ],
+        "aspect": 1.5434083601286173,
+        "near": 0.01,
+        "far": 100
+      },
+      "wallCounts": [
+        {
+          "floor": "ground",
+          "visible": 9,
+          "total": 10
+        },
+        {
+          "floor": "upper",
+          "visible": 8,
+          "total": 10
+        }
+      ],
+      "roomSelectValue": "living",
+      "horizontalOverflow": false
+    },
+    {
+      "name": "desktop-separated",
+      "state": {
+        "activeFloorId": "ground",
+        "roomId": "living",
+        "scope": "house",
+        "shell": "cutaway",
+        "ceilings": false,
+        "separated": true,
+        "preset": "perspective",
+        "selected": null,
+        "interior": false
+      },
+      "projectUnchanged": true,
+      "loadedModels": 40,
+      "visibleModels": 40,
+      "memory": {
+        "geometries": 147,
+        "textures": 10
+      },
+      "render": {
+        "frame": 182,
+        "calls": 143,
+        "triangles": 88206,
+        "points": 0,
+        "lines": 0
+      },
+      "bank": {
+        "uniqueTextures": 9,
+        "rootLeases": 135
+      },
+      "canEdit": false,
+      "readOnlyReason": "house-overview",
+      "displayBounds": {
+        "min": {
+          "x": 2.32,
+          "y": -0.16,
+          "z": -1.1800000000000002
+        },
+        "max": {
+          "x": 10.48,
+          "y": 8.85,
+          "z": 4.78
+        }
+      },
+      "canonicalBounds": {
+        "min": {
+          "x": 2.32,
+          "y": -0.16,
+          "z": -1.1800000000000002
+        },
+        "max": {
+          "x": 10.48,
+          "y": 6.05,
+          "z": 4.78
+        }
+      },
+      "projection": [
+        [
+          -0.08983446292348161,
+          -0.18407531677474603,
+          0.9994767848484789
+        ],
+        [
+          -0.34693841587394136,
+          -0.43329127060179534,
+          0.999347958358059
+        ],
+        [
+          -0.10376882361548707,
+          0.6330407963615934,
+          0.9993672442055931
+        ],
+        [
+          -0.4124222755154798,
+          0.513979248555045,
+          0.9991903478783136
+        ],
+        [
+          0.3466683266772496,
+          -0.4320337106445156,
+          0.9993486084249321
+        ],
+        [
+          0.1297990150001011,
+          -0.7918377501038872,
+          0.9991626159516146
+        ],
+        [
+          0.4120406627895534,
+          0.5145974448230638,
+          0.9991912663667037
+        ],
+        [
+          0.16104514296770542,
+          0.32998956905953764,
+          0.998916984234386
+        ]
+      ],
+      "vertexBounds": {
+        "min": [
+          2.555000011920929,
+          -6.46684212290971e-8,
+          -0.9780000048875811
+        ],
+        "max": [
+          10.248000016420017,
+          7.949999999999999,
+          4.564000028256392
+        ],
+        "vertexCount": 165232
+      },
+      "camera": {
+        "position": [
+          18.16299113457015,
+          13.657367981534698,
+          17.974112810033947
+        ],
+        "target": [
+          6.4,
+          4.345,
+          1.8
+        ],
+        "aspect": 1.5434083601286173,
+        "near": 0.01,
+        "far": 109.30526767194675
+      },
+      "wallCounts": [
+        {
+          "floor": "ground",
+          "visible": 7,
+          "total": 10
+        },
+        {
+          "floor": "upper",
+          "visible": 6,
+          "total": 10
+        }
+      ],
+      "roomSelectValue": "living",
+      "horizontalOverflow": false
+    },
+    {
+      "name": "desktop-solid-ceilings",
+      "state": {
+        "activeFloorId": "ground",
+        "roomId": "living",
+        "scope": "house",
+        "shell": "solid",
+        "ceilings": true,
+        "separated": false,
+        "preset": "perspective",
+        "selected": null,
+        "interior": false
+      },
+      "projectUnchanged": true,
+      "loadedModels": 40,
+      "visibleModels": 40,
+      "memory": {
+        "geometries": 153,
+        "textures": 10
+      },
+      "render": {
+        "frame": 214,
+        "calls": 156,
+        "triangles": 88304,
+        "points": 0,
+        "lines": 0
+      },
+      "bank": {
+        "uniqueTextures": 9,
+        "rootLeases": 135
+      },
+      "canEdit": false,
+      "readOnlyReason": "house-overview",
+      "displayBounds": {
+        "min": {
+          "x": 2.32,
+          "y": -0.16,
+          "z": -1.1800000000000002
+        },
+        "max": {
+          "x": 10.48,
+          "y": 6.05,
+          "z": 4.78
+        }
+      },
+      "canonicalBounds": {
+        "min": {
+          "x": 2.32,
+          "y": -0.16,
+          "z": -1.1800000000000002
+        },
+        "max": {
+          "x": 10.48,
+          "y": 6.05,
+          "z": 4.78
+        }
+      },
+      "projection": [
+        [
+          -0.10472617543314479,
+          -0.08197448584966725,
+          0.9993767407351862
+        ],
+        [
+          -0.4170615955061708,
+          -0.3591721159399489,
+          0.9991962026008739
+        ],
+        [
+          -0.1173921394334849,
+          0.5674961155907089,
+          0.9992771703506805
+        ],
+        [
+          -0.48023940526041153,
+          0.41230582851565767,
+          0.9990441411656336
+        ],
+        [
+          0.41667135306377917,
+          -0.3577299687653597,
+          0.9991971418677797
+        ],
+        [
+          0.1633628057369702,
+          -0.7897271327971621,
+          0.9989157831779633
+        ],
+        [
+          0.479722050878301,
+          0.4131351002671306,
+          0.9990453863757821
+        ],
+        [
+          0.19642154569383016,
+          0.1537490999881651,
+          0.9986558999627029
+        ]
+      ],
+      "vertexBounds": {
+        "min": [
+          2.555000011920929,
+          -6.46684212290971e-8,
+          -0.9780000048875811
+        ],
+        "max": [
+          10.248000016420017,
+          5.15,
+          4.564000028256392
+        ],
+        "vertexCount": 165232
+      },
+      "camera": {
+        "position": [
+          16.330662701646844,
+          10.806774638803748,
+          15.454661214764403
+        ],
+        "target": [
+          6.400000000000001,
+          2.9450000000000003,
+          1.8000000000000003
+        ],
+        "aspect": 1.5434083601286173,
+        "near": 0.01,
+        "far": 100
+      },
+      "wallCounts": [
+        {
+          "floor": "ground",
+          "visible": 10,
+          "total": 10
+        },
+        {
+          "floor": "upper",
+          "visible": 10,
+          "total": 10
+        }
+      ],
+      "roomSelectValue": "living",
+      "horizontalOverflow": false
+    },
+    {
+      "name": "desktop-upstairs-bedroom",
+      "state": {
+        "activeFloorId": "upper",
+        "roomId": "bedroom",
+        "scope": "room",
+        "shell": "cutaway",
+        "ceilings": false,
+        "separated": false,
+        "preset": "perspective",
+        "selected": null,
+        "interior": false
+      },
+      "projectUnchanged": true,
+      "loadedModels": 40,
+      "visibleModels": 9,
+      "memory": {
+        "geometries": 153,
+        "textures": 10
+      },
+      "render": {
+        "frame": 235,
+        "calls": 25,
+        "triangles": 24766,
+        "points": 0,
+        "lines": 0
+      },
+      "bank": {
+        "uniqueTextures": 9,
+        "rootLeases": 135
+      },
+      "canEdit": true,
+      "readOnlyReason": null,
+      "displayBounds": {
+        "min": {
+          "x": 2.3200000000000003,
+          "y": 2.9899999999999998,
+          "z": -1.18
+        },
+        "max": {
+          "x": 7.28,
+          "y": 6.05,
+          "z": 4.78
+        }
+      },
+      "canonicalBounds": {
+        "min": {
+          "x": 2.3200000000000003,
+          "y": 2.9899999999999998,
+          "z": -1.18
+        },
+        "max": {
+          "x": 7.28,
+          "y": 6.05,
+          "z": 4.78
+        }
+      },
+      "projection": [
+        [
+          -0.0247651393543667,
+          0.03718389991983951,
+          0.9990092716094051
+        ],
+        [
+          -0.49741235745229734,
+          -0.3653464892939857,
+          0.9985906222303167
+        ],
+        [
+          -0.02682810440930975,
+          0.4944394814888465,
+          0.998910080876496
+        ],
+        [
+          -0.5551049974353905,
+          0.22463195997303256,
+          0.9984039553636008
+        ],
+        [
+          0.4367905343600515,
+          -0.1767541533300394,
+          0.998786766587284
+        ],
+        [
+          0.0425203466219317,
+          -0.7836460532477343,
+          0.9981555722131883
+        ],
+        [
+          0.4806575057694091,
+          0.35304014798727335,
+          0.99864483322962
+        ],
+        [
+          0.04898801503284662,
+          -0.07355361188111909,
+          0.997844596140979
+        ]
+      ],
+      "vertexBounds": {
+        "min": [
+          2.690000011920929,
+          3.149999970070567,
+          -0.92800000756979
+        ],
+        "max": [
+          7.028000018242061,
+          5.092859921847845,
+          4.392191897836843
+        ],
+        "vertexCount": 40186
+      },
+      "camera": {
+        "position": [
+          11.54226325979867,
+          9.857625080673944,
+          11.07061198222317
+        ],
+        "target": [
+          4.800000000000001,
+          4.52,
+          1.8000000000000003
+        ],
+        "aspect": 1.5434083601286173,
+        "near": 0.01,
+        "far": 100
+      },
+      "wallCounts": [
+        {
+          "floor": "upper",
+          "visible": 2,
+          "total": 5
+        }
+      ],
+      "roomSelectValue": "bedroom",
+      "horizontalOverflow": false
+    },
+    {
+      "name": "desktop-return-kitchen",
+      "state": {
+        "activeFloorId": "ground",
+        "roomId": "kitchen",
+        "scope": "room",
+        "shell": "cutaway",
+        "ceilings": false,
+        "separated": false,
+        "preset": "perspective",
+        "selected": null,
+        "interior": false
+      },
+      "projectUnchanged": true,
+      "loadedModels": 40,
+      "visibleModels": 7,
+      "memory": {
+        "geometries": 153,
+        "textures": 10
+      },
+      "render": {
+        "frame": 256,
+        "calls": 28,
+        "triangles": 12290,
+        "points": 0,
+        "lines": 0
+      },
+      "bank": {
+        "uniqueTextures": 9,
+        "rootLeases": 135
+      },
+      "canEdit": true,
+      "readOnlyReason": null,
+      "displayBounds": {
+        "min": {
+          "x": 7.119999999999999,
+          "y": -0.16,
+          "z": -1.1800000000000002
+        },
+        "max": {
+          "x": 10.48,
+          "y": 2.72,
+          "z": 2.98
+        }
+      },
+      "canonicalBounds": {
+        "min": {
+          "x": 7.119999999999999,
+          "y": -0.16,
+          "z": -1.1800000000000002
+        },
+        "max": {
+          "x": 10.48,
+          "y": 2.72,
+          "z": 2.98
+        }
+      },
+      "projection": [
+        [
+          -0.017437066508148524,
+          -0.035458559313274234,
+          0.998632571535131
+        ],
+        [
+          -0.4373492971849943,
+          -0.4178520266960742,
+          0.9981402838290988
+        ],
+        [
+          -0.01927318031757283,
+          0.5349005528062567,
+          0.9984675200470131
+        ],
+        [
+          -0.4999354852730888,
+          0.302552108280163,
+          0.9978455285011291
+        ],
+        [
+          0.38717830321376634,
+          -0.23431345717272517,
+          0.9983765686745943
+        ],
+        [
+          0.028097105609933264,
+          -0.7797964360509063,
+          0.997674321938557
+        ],
+        [
+          0.43543660706599874,
+          0.4160246053470343,
+          0.9981492918166525
+        ],
+        [
+          0.033192451925862294,
+          0.06749739268450008,
+          0.997216292328626
+        ]
+      ],
+      "vertexBounds": {
+        "min": [
+          7.35999999165535,
+          -4.3028169027792273e-8,
+          -0.9780000048875811
+        ],
+        "max": [
+          10.240000004507602,
+          1.649999976158142,
+          2.6810000444450406
+        ],
+        "vertexCount": 19888
+      },
+      "camera": {
+        "position": [
+          13.989268509604505,
+          5.388170903436898,
+          8.035244200706192
+        ],
+        "target": [
+          8.8,
+          1.28,
+          0.8999999999999999
+        ],
+        "aspect": 1.5434083601286173,
+        "near": 0.01,
+        "far": 100
+      },
+      "wallCounts": [
+        {
+          "floor": "ground",
+          "visible": 2,
+          "total": 4
+        }
+      ],
+      "roomSelectValue": "kitchen",
+      "horizontalOverflow": false
+    },
+    {
+      "name": "desktop-interior",
+      "state": {
+        "activeFloorId": "ground",
+        "roomId": "kitchen",
+        "scope": "floor",
+        "shell": "cutaway",
+        "ceilings": false,
+        "separated": false,
+        "preset": "perspective",
+        "selected": null,
+        "interior": true
+      },
+      "projectUnchanged": true,
+      "loadedModels": 40,
+      "visibleModels": 21,
+      "memory": {
+        "geometries": 153,
+        "textures": 10
+      },
+      "render": {
+        "frame": 277,
+        "calls": 35,
+        "triangles": 13601,
+        "points": 0,
+        "lines": 0
+      },
+      "bank": {
+        "uniqueTextures": 9,
+        "rootLeases": 135
+      },
+      "canEdit": false,
+      "readOnlyReason": "walk",
+      "displayBounds": {
+        "min": {
+          "x": 2.32,
+          "y": -0.16,
+          "z": -1.1800000000000002
+        },
+        "max": {
+          "x": 10.48,
+          "y": 2.72,
+          "z": 4.779999999999999
+        }
+      },
+      "canonicalBounds": {
+        "min": {
+          "x": 2.32,
+          "y": -0.16,
+          "z": -1.1800000000000002
+        },
+        "max": {
+          "x": 10.48,
+          "y": 2.72,
+          "z": 4.779999999999999
+        }
+      },
+      "projection": [
+        [
+          -3.0596307678661296,
+          -1.2072865249826845,
+          0.9775625652423353
+        ],
+        [
+          4.309143368443647,
+          1.892467952711369,
+          1.0328854008801607
+        ],
+        [
+          -3.1412024155612093,
+          0.9142001569053719,
+          0.9769501465720568
+        ],
+        [
+          4.157103976753896,
+          -1.0245008637182944,
+          1.0317439287544945
+        ],
+        [
+          0.7932376064838121,
+          -1.2072865249826845,
+          0.9775625652423353
+        ],
+        [
+          -1.1171853177446505,
+          1.892467952711369,
+          1.0328854008801607
+        ],
+        [
+          0.8143858114417959,
+          0.9142001569053719,
+          0.9769501465720568
+        ],
+        [
+          -1.0777676976769373,
+          -1.0245008637182944,
+          1.0317439287544945
+        ]
+      ],
+      "vertexBounds": {
+        "min": [
+          2.555000011920929,
+          -6.46684212290971e-8,
+          -0.9780000048875811
+        ],
+        "max": [
+          10.248000016420017,
+          1.7674999640427655,
+          4.564000028256392
+        ],
+        "vertexCount": 91807
+      },
+      "camera": {
+        "position": [
+          8.8,
+          1.605272914202656,
+          2.2498384458859024
+        ],
+        "target": [
+          8.8,
+          1.4999999999999993,
+          -1.1
+        ],
+        "aspect": 1.5434083601286173,
+        "near": 0.04,
+        "far": 150
+      },
+      "wallCounts": [
+        {
+          "floor": "ground",
+          "visible": 10,
+          "total": 10
+        }
+      ],
+      "roomSelectValue": "kitchen",
+      "horizontalOverflow": false
+    },
+    {
+      "name": "warm-all-models",
+      "state": {
+        "activeFloorId": "ground",
+        "roomId": "kitchen",
+        "scope": "house",
+        "shell": "cutaway",
+        "ceilings": false,
+        "separated": false,
+        "preset": "perspective",
+        "selected": null,
+        "interior": false
+      },
+      "projectUnchanged": true,
+      "loadedModels": 40,
+      "visibleModels": 40,
+      "memory": {
+        "geometries": 153,
+        "textures": 10
+      },
+      "render": {
+        "frame": 301,
+        "calls": 143,
+        "triangles": 88206,
+        "points": 0,
+        "lines": 0
+      },
+      "bank": {
+        "uniqueTextures": 9,
+        "rootLeases": 135
+      },
+      "canEdit": false,
+      "readOnlyReason": "house-overview",
+      "displayBounds": {
+        "min": {
+          "x": 2.32,
+          "y": -0.16,
+          "z": -1.1800000000000002
+        },
+        "max": {
+          "x": 10.48,
+          "y": 6.05,
+          "z": 4.78
+        }
+      },
+      "canonicalBounds": {
+        "min": {
+          "x": 2.32,
+          "y": -0.16,
+          "z": -1.1800000000000002
+        },
+        "max": {
+          "x": 10.48,
+          "y": 6.05,
+          "z": 4.78
+        }
+      },
+      "projection": [
+        [
+          -0.10472617543314479,
+          -0.08197448584966725,
+          0.9993767407351862
+        ],
+        [
+          -0.4170615955061708,
+          -0.3591721159399489,
+          0.9991962026008739
+        ],
+        [
+          -0.1173921394334849,
+          0.5674961155907089,
+          0.9992771703506805
+        ],
+        [
+          -0.48023940526041153,
+          0.41230582851565767,
+          0.9990441411656336
+        ],
+        [
+          0.41667135306377917,
+          -0.3577299687653597,
+          0.9991971418677797
+        ],
+        [
+          0.1633628057369702,
+          -0.7897271327971621,
+          0.9989157831779633
+        ],
+        [
+          0.479722050878301,
+          0.4131351002671306,
+          0.9990453863757821
+        ],
+        [
+          0.19642154569383016,
+          0.1537490999881651,
+          0.9986558999627029
+        ]
+      ],
+      "vertexBounds": {
+        "min": [
+          2.555000011920929,
+          -6.46684212290971e-8,
+          -0.9780000048875811
+        ],
+        "max": [
+          10.248000016420017,
+          5.15,
+          4.564000028256392
+        ],
+        "vertexCount": 165232
+      },
+      "camera": {
+        "position": [
+          16.330662701646844,
+          10.806774638803748,
+          15.454661214764403
+        ],
+        "target": [
+          6.400000000000001,
+          2.9450000000000003,
+          1.8000000000000003
+        ],
+        "aspect": 1.5434083601286173,
+        "near": 0.01,
+        "far": 100
+      },
+      "wallCounts": [
+        {
+          "floor": "ground",
+          "visible": 7,
+          "total": 10
+        },
+        {
+          "floor": "upper",
+          "visible": 6,
+          "total": 10
+        }
+      ],
+      "roomSelectValue": "kitchen",
+      "horizontalOverflow": false
+    },
+    {
+      "name": "after-forty-view-switches",
+      "state": {
+        "activeFloorId": "upper",
+        "roomId": "bedroom",
+        "scope": "house",
+        "shell": "cutaway",
+        "ceilings": false,
+        "separated": false,
+        "preset": "perspective",
+        "selected": null,
+        "interior": false
+      },
+      "projectUnchanged": true,
+      "loadedModels": 40,
+      "visibleModels": 40,
+      "memory": {
+        "geometries": 153,
+        "textures": 10
+      },
+      "render": {
+        "frame": 393,
+        "calls": 143,
+        "triangles": 88206,
+        "points": 0,
+        "lines": 0
+      },
+      "bank": {
+        "uniqueTextures": 9,
+        "rootLeases": 135
+      },
+      "canEdit": false,
+      "readOnlyReason": "house-overview",
+      "displayBounds": {
+        "min": {
+          "x": 2.32,
+          "y": -0.16,
+          "z": -1.1800000000000002
+        },
+        "max": {
+          "x": 10.48,
+          "y": 6.05,
+          "z": 4.78
+        }
+      },
+      "canonicalBounds": {
+        "min": {
+          "x": 2.32,
+          "y": -0.16,
+          "z": -1.1800000000000002
+        },
+        "max": {
+          "x": 10.48,
+          "y": 6.05,
+          "z": 4.78
+        }
+      },
+      "projection": [
+        [
+          -0.10472617543314479,
+          -0.08197448584966725,
+          0.9993767407351862
+        ],
+        [
+          -0.4170615955061708,
+          -0.3591721159399489,
+          0.9991962026008739
+        ],
+        [
+          -0.1173921394334849,
+          0.5674961155907089,
+          0.9992771703506805
+        ],
+        [
+          -0.48023940526041153,
+          0.41230582851565767,
+          0.9990441411656336
+        ],
+        [
+          0.41667135306377917,
+          -0.3577299687653597,
+          0.9991971418677797
+        ],
+        [
+          0.1633628057369702,
+          -0.7897271327971621,
+          0.9989157831779633
+        ],
+        [
+          0.479722050878301,
+          0.4131351002671306,
+          0.9990453863757821
+        ],
+        [
+          0.19642154569383016,
+          0.1537490999881651,
+          0.9986558999627029
+        ]
+      ],
+      "vertexBounds": {
+        "min": [
+          2.555000011920929,
+          -6.46684212290971e-8,
+          -0.9780000048875811
+        ],
+        "max": [
+          10.248000016420017,
+          5.15,
+          4.564000028256392
+        ],
+        "vertexCount": 165232
+      },
+      "camera": {
+        "position": [
+          16.330662701646844,
+          10.806774638803748,
+          15.454661214764403
+        ],
+        "target": [
+          6.400000000000001,
+          2.9450000000000003,
+          1.8000000000000003
+        ],
+        "aspect": 1.5434083601286173,
+        "near": 0.01,
+        "far": 100
+      },
+      "wallCounts": [
+        {
+          "floor": "ground",
+          "visible": 7,
+          "total": 10
+        },
+        {
+          "floor": "upper",
+          "visible": 6,
+          "total": 10
+        }
+      ],
+      "roomSelectValue": "bedroom",
+      "horizontalOverflow": false
+    },
+    {
+      "name": "phone-390-house",
+      "state": {
+        "activeFloorId": "upper",
+        "roomId": "bedroom",
+        "scope": "house",
+        "shell": "cutaway",
+        "ceilings": false,
+        "separated": false,
+        "preset": "perspective",
+        "selected": null,
+        "interior": false
+      },
+      "projectUnchanged": true,
+      "loadedModels": 40,
+      "visibleModels": 40,
+      "memory": {
+        "geometries": 153,
+        "textures": 10
+      },
+      "render": {
+        "frame": 405,
+        "calls": 143,
+        "triangles": 88206,
+        "points": 0,
+        "lines": 0
+      },
+      "bank": {
+        "uniqueTextures": 9,
+        "rootLeases": 135
+      },
+      "canEdit": false,
+      "readOnlyReason": "house-overview",
+      "displayBounds": {
+        "min": {
+          "x": 2.32,
+          "y": -0.16,
+          "z": -1.1800000000000002
+        },
+        "max": {
+          "x": 10.48,
+          "y": 6.05,
+          "z": 4.78
+        }
+      },
+      "canonicalBounds": {
+        "min": {
+          "x": 2.32,
+          "y": -0.16,
+          "z": -1.1800000000000002
+        },
+        "max": {
+          "x": 10.48,
+          "y": 6.05,
+          "z": 4.78
+        }
+      },
+      "projection": [
+        [
+          -0.20600542774688305,
+          -0.052440262975266244,
+          0.9995696945762766
+        ],
+        [
+          -0.7603247620284905,
+          -0.21294345069084103,
+          0.9994964136173133
+        ],
+        [
+          -0.2212784321461859,
+          0.3478769879449775,
+          0.9995279063909878
+        ],
+        [
+          -0.8246430459496316,
+          0.23024511384931462,
+          0.9994425338057747
+        ],
+        [
+          0.7599028124239025,
+          -0.2121692657451236,
+          0.9994967670870233
+        ],
+        [
+          0.2674061301418647,
+          -0.42039541861142227,
+          0.9994016972483463
+        ],
+        [
+          0.8241467120608461,
+          0.23081800502397978,
+          0.9994429495876451
+        ],
+        [
+          0.29372178926990977,
+          0.07476913613074998,
+          0.9993296954593794
+        ]
+      ],
+      "vertexBounds": {
+        "min": [
+          2.555000011920929,
+          -6.46684212290971e-8,
+          -0.9780000048875811
+        ],
+        "max": [
+          10.248000016420017,
+          5.15,
+          4.564000028256392
+        ],
+        "vertexCount": 165232
+      },
+      "camera": {
+        "position": [
+          23.62655571732185,
+          16.582689942879803,
+          25.486514111317536
+        ],
+        "target": [
+          6.400000000000001,
+          2.9450000000000003,
+          1.8000000000000003
+        ],
+        "aspect": 0.5019305019305019,
+        "near": 0.010702588747632798,
+        "far": 160.53883121449195
+      },
+      "wallCounts": [
+        {
+          "floor": "ground",
+          "visible": 7,
+          "total": 10
+        },
+        {
+          "floor": "upper",
+          "visible": 6,
+          "total": 10
+        }
+      ],
+      "roomSelectValue": "bedroom",
+      "horizontalOverflow": false
+    },
+    {
+      "name": "phone-390-large-menu",
+      "state": {
+        "activeFloorId": "upper",
+        "roomId": "bedroom",
+        "scope": "house",
+        "shell": "cutaway",
+        "ceilings": false,
+        "separated": false,
+        "preset": "perspective",
+        "selected": null,
+        "interior": false
+      },
+      "projectUnchanged": true,
+      "loadedModels": 40,
+      "visibleModels": 40,
+      "memory": {
+        "geometries": 153,
+        "textures": 10
+      },
+      "render": {
+        "frame": 425,
+        "calls": 143,
+        "triangles": 88206,
+        "points": 0,
+        "lines": 0
+      },
+      "bank": {
+        "uniqueTextures": 9,
+        "rootLeases": 135
+      },
+      "canEdit": false,
+      "readOnlyReason": "house-overview",
+      "displayBounds": {
+        "min": {
+          "x": 2.32,
+          "y": -0.16,
+          "z": -1.1800000000000002
+        },
+        "max": {
+          "x": 10.48,
+          "y": 6.05,
+          "z": 4.78
+        }
+      },
+      "canonicalBounds": {
+        "min": {
+          "x": 2.32,
+          "y": -0.16,
+          "z": -1.1800000000000002
+        },
+        "max": {
+          "x": 10.48,
+          "y": 6.05,
+          "z": 4.78
+        }
+      },
+      "projection": [
+        [
+          -0.20482244162879767,
+          -0.05372957553387934,
+          0.9995722285266327
+        ],
+        [
+          -0.7583827794862474,
+          -0.21887859315703154,
+          0.9994972437129601
+        ],
+        [
+          -0.22040950338179388,
+          0.3570808866488251,
+          0.9995295275717799
+        ],
+        [
+          -0.824480724158767,
+          0.2372218022559035,
+          0.9994418036301312
+        ],
+        [
+          0.757950183788279,
+          -0.21807945698415754,
+          0.9994976065554271
+        ],
+        [
+          0.26783324412172194,
+          -0.4339111100819982,
+          0.9993996096280149
+        ],
+        [
+          0.823969460771881,
+          0.23780771565024458,
+          0.9994422324556365
+        ],
+        [
+          0.29512468181684287,
+          0.07741790283082363,
+          0.9993248443857035
+        ]
+      ],
+      "vertexBounds": {
+        "min": [
+          2.555000011920929,
+          -6.46684212290971e-8,
+          -0.9780000048875811
+        ],
+        "max": [
+          10.248000016420017,
+          5.15,
+          4.564000028256392
+        ],
+        "vertexCount": 165232
+      },
+      "camera": {
+        "position": [
+          23.140622694240633,
+          16.19799296627383,
+          24.818356204580862
+        ],
+        "target": [
+          6.400000000000001,
+          2.9450000000000003,
+          1.8000000000000003
+        ],
+        "aspect": 0.5172413793103449,
+        "near": 0.010398805627798676,
+        "far": 155.98208441698014
+      },
+      "wallCounts": [
+        {
+          "floor": "ground",
+          "visible": 7,
+          "total": 10
+        },
+        {
+          "floor": "upper",
+          "visible": 6,
+          "total": 10
+        }
+      ],
+      "roomSelectValue": "bedroom",
+      "horizontalOverflow": false,
+      "sheet": {
+        "x": 12,
+        "y": 104,
+        "right": 378,
+        "bottom": 768,
+        "width": 390,
+        "height": 844,
+        "scrollable": true
+      }
+    },
+    {
+      "name": "phone-320-house",
+      "state": {
+        "activeFloorId": "upper",
+        "roomId": "bedroom",
+        "scope": "house",
+        "shell": "cutaway",
+        "ceilings": false,
+        "separated": false,
+        "preset": "perspective",
+        "selected": null,
+        "interior": false
+      },
+      "projectUnchanged": true,
+      "loadedModels": 40,
+      "visibleModels": 40,
+      "memory": {
+        "geometries": 153,
+        "textures": 10
+      },
+      "render": {
+        "frame": 443,
+        "calls": 143,
+        "triangles": 88206,
+        "points": 0,
+        "lines": 0
+      },
+      "bank": {
+        "uniqueTextures": 9,
+        "rootLeases": 135
+      },
+      "canEdit": false,
+      "readOnlyReason": "house-overview",
+      "displayBounds": {
+        "min": {
+          "x": 2.32,
+          "y": -0.16,
+          "z": -1.1800000000000002
+        },
+        "max": {
+          "x": 10.48,
+          "y": 6.05,
+          "z": 4.78
+        }
+      },
+      "canonicalBounds": {
+        "min": {
+          "x": 2.32,
+          "y": -0.16,
+          "z": -1.1800000000000002
+        },
+        "max": {
+          "x": 10.48,
+          "y": 6.05,
+          "z": 4.78
+        }
+      },
+      "projection": [
+        [
+          -0.20170388862745722,
+          -0.057128423151664824,
+          0.9995642533138537
+        ],
+        [
+          -0.7532031796943949,
+          -0.2347086338570806,
+          0.9994820374795981
+        ],
+        [
+          -0.21810357536127592,
+          0.38150582087696255,
+          0.9995176057975559
+        ],
+        [
+          -0.8240440081586206,
+          0.25599211916138825,
+          0.9994203440109002
+        ],
+        [
+          0.7527424844399365,
+          -0.23384205438879377,
+          0.9994824386873322
+        ],
+        [
+          0.26899001262778344,
+          -0.47051615456225915,
+          0.9993728636478888
+        ],
+        [
+          0.8234926100426234,
+          0.2566118023730701,
+          0.9994208242094402
+        ],
+        [
+          0.2989692954718493,
+          0.0846768227290687,
+          0.9992875901235978
+        ]
+      ],
+      "vertexBounds": {
+        "min": [
+          2.555000011920929,
+          -6.46684212290971e-8,
+          -0.9780000048875811
+        ],
+        "max": [
+          10.248000016420017,
+          5.15,
+          4.564000028256392
+        ],
+        "vertexCount": 165232
+      },
+      "camera": {
+        "position": [
+          21.96474400659437,
+          15.267089005220539,
+          23.20152300906725
+        ],
+        "target": [
+          6.400000000000001,
+          2.9450000000000003,
+          1.8000000000000003
+        ],
+        "aspect": 0.5584642233856894,
+        "near": 0.01,
+        "far": 144.95550011484903
+      },
+      "wallCounts": [
+        {
+          "floor": "ground",
+          "visible": 7,
+          "total": 10
+        },
+        {
+          "floor": "upper",
+          "visible": 6,
+          "total": 10
+        }
+      ],
+      "roomSelectValue": "bedroom",
+      "horizontalOverflow": false
+    },
+    {
+      "name": "phone-320-large-menu",
+      "state": {
+        "activeFloorId": "upper",
+        "roomId": "bedroom",
+        "scope": "house",
+        "shell": "cutaway",
+        "ceilings": false,
+        "separated": false,
+        "preset": "perspective",
+        "selected": null,
+        "interior": false
+      },
+      "projectUnchanged": true,
+      "loadedModels": 40,
+      "visibleModels": 40,
+      "memory": {
+        "geometries": 153,
+        "textures": 10
+      },
+      "render": {
+        "frame": 461,
+        "calls": 143,
+        "triangles": 88206,
+        "points": 0,
+        "lines": 0
+      },
+      "bank": {
+        "uniqueTextures": 9,
+        "rootLeases": 135
+      },
+      "canEdit": false,
+      "readOnlyReason": "house-overview",
+      "displayBounds": {
+        "min": {
+          "x": 2.32,
+          "y": -0.16,
+          "z": -1.1800000000000002
+        },
+        "max": {
+          "x": 10.48,
+          "y": 6.05,
+          "z": 4.78
+        }
+      },
+      "canonicalBounds": {
+        "min": {
+          "x": 2.32,
+          "y": -0.16,
+          "z": -1.1800000000000002
+        },
+        "max": {
+          "x": 10.48,
+          "y": 6.05,
+          "z": 4.78
+        }
+      },
+      "projection": [
+        [
+          -0.1999789154335972,
+          -0.05900843642326078,
+          0.9995508684756615
+        ],
+        [
+          -0.7503000577877053,
+          -0.2435812378780303,
+          0.9994627365418862
+        ],
+        [
+          -0.21681848317269795,
+          0.3951178208630089,
+          0.9995009665806411
+        ],
+        [
+          -0.8237968008824423,
+          0.26661723688926137,
+          0.999396053288855
+        ],
+        [
+          0.7498238008667841,
+          -0.24267628828706092,
+          0.9994631686475747
+        ],
+        [
+          0.26964980095775204,
+          -0.49139464584165043,
+          0.9993444077594921
+        ],
+        [
+          0.8232227048581049,
+          0.26725521798556856,
+          0.9993965741635066
+        ],
+        [
+          0.3011921620160369,
+          0.08887376204122549,
+          0.9992509360258577
+        ]
+      ],
+      "vertexBounds": {
+        "min": [
+          2.555000011920929,
+          -6.46684212290971e-8,
+          -0.9780000048875811
+        ],
+        "max": [
+          10.248000016420017,
+          5.15,
+          4.564000028256392
+        ],
+        "vertexCount": 165232
+      },
+      "camera": {
+        "position": [
+          21.37251313471414,
+          14.798239564982024,
+          22.387205560231937
+        ],
+        "target": [
+          6.400000000000001,
+          2.9450000000000003,
+          1.8000000000000003
+        ],
+        "aspect": 0.5818181818181818,
+        "near": 0.01,
+        "far": 139.40196495538157
+      },
+      "wallCounts": [
+        {
+          "floor": "ground",
+          "visible": 7,
+          "total": 10
+        },
+        {
+          "floor": "upper",
+          "visible": 6,
+          "total": 10
+        }
+      ],
+      "roomSelectValue": "bedroom",
+      "horizontalOverflow": false,
+      "sheet": {
+        "x": 12,
+        "y": 104,
+        "right": 308,
+        "bottom": 564,
+        "width": 320,
+        "height": 640,
+        "scrollable": true
+      }
+    }
+  ],
+  "errors": [],
+  "disposed": {
+    "memory": {
+      "geometries": 0,
+      "textures": 0
+    },
+    "bank": {
+      "uniqueTextures": 0,
+      "rootLeases": 0,
+      "decodedDuplicates": 126,
+      "releases": 9,
+      "entries": []
+    }
+  },
+  "scope": "Actual installed Edge browser WebGL/DOM review. Authored six-room/two-floor/40-model fixture; not Expo/native integration or physical phone validation."
+}

@@ -1,0 +1,27 @@
+✔ six-room/forty distinct exact-revision fixture and two independent alignment anchors (1.6584ms)
+✔ all scopes preserve every canonical project byte, locks and saved asset identity (13.88ms)
+✔ separated house is visual-only and read-only; canonical bounds stay exact (2.9913ms)
+✔ floor order, not input array order, determines presentation offsets (2.0277ms)
+✔ floor isolation and room focus limit geometry to their own scope (1.3274ms)
+✔ low-room framing includes a taller shared physical wall without changing its own ceiling (0.5458ms)
+✔ physical shared partitions remain visible while near exterior boundaries cut away (1.6557ms)
+✔ room-only boundary may cut shared wall whose adjoining room is out of scope (0.5003ms)
+✔ selection/paint can force one scoped wall; identical wall IDs on other floors stay independent (2.4628ms)
+✔ camera at wall plane preserves last visibility and avoids orbit flicker (1.257ms)
+✔ Walk always shows connected active-floor walls and ceilings and never allows editing (0.565ms)
+✔ all hidden floors return explicit empty bounds, never Infinity or stale selection (0.1743ms)
+✔ conservative asymmetric local-AABB rotation has independently known coordinates and vertical origin (0.3578ms)
+✔ rotated local AABB encloses true mesh vertices and is explicitly not a tight mesh bound (0.7045ms)
+✔ polygon winding and corresponding explicit wall-face orientation do not change world visibility (4.8738ms)
+✔ hidden active floor cannot be edited while another house floor remains displayed (0.6395ms)
+✔ tall or offset furniture expands view bounds; selection bounds use displayed floor (1.6268ms)
+✔ missing saved model is reported and wrong-version substitution is rejected (1.0956ms)
+✔ invalid scope and non-finite inputs fail explicitly without modifying project (0.4629ms)
+ℹ tests 19
+ℹ suites 0
+ℹ pass 19
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 194.8027

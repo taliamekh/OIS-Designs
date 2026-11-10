@@ -1,0 +1,17 @@
+{
+  "timeUtc": "2026-11-10T05:01:08Z",
+  "ownershipAuthority": "Coordinator released source freeze and exact two-file reservation after43b53e6d; app acknowledgment docs/build/SPATIAL_HANDOFF.md",
+  "files": {
+    "mobile/src/scene/spatialView.ts": "dbd8513f68c61f1f484257fb131b2f20fe656eb49a9042519d690bfab22cf450",
+    "mobile/src/screens/HouseViews.tsx": "38cd7ff7cb97283899bc19639db631f6df5347bc68633b3d9039f0d142da3b2e",
+    "spatial/src/viewPlan.ts": "dbd8513f68c61f1f484257fb131b2f20fe656eb49a9042519d690bfab22cf450",
+    "spatial/adoption/HouseViews.tsx": "2aaf6595f735bc79c4258f4a6c44a9815ab664f716f7d69d0b483d3ce6a49c5c"
+  },
+  "checks": {
+    "fullMobileTypecheck": "pass",
+    "targetedESLint": "pass",
+    "pureGeometryRegressions": 19
+  },
+  "sourceMatchesProductionPolicy": true,
+  "scope": "New module/component only. Editor/Viewport/RoomScene wiring and native/Expo execution remain app-owned; no implementation claim before adoption."
+}

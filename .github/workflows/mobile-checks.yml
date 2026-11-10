@@ -26,15 +26,12 @@ jobs:
       EXPO_NO_TELEMETRY: "1"
       GIT_LFS_SKIP_SMUDGE: "1"
     steps:
-      - name: Check out source
+      - name: Check out source and LFS pointers
         uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
         with:
           persist-credentials: false
           lfs: false
-          sparse-checkout: |
-            .github
-            mobile
-            docs/coordination
+          fetch-depth: 1
       - name: Set up Node.js
         uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7
         with:

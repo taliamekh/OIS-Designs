@@ -1,0 +1,511 @@
+{
+  "timeUtc": "2026-11-10T05:51:56.218Z",
+  "sourceSha256": {
+    "module": "8556473121326668c921686ff1d94e332c0ef65a5e4ed857bd16d10c7c31e831",
+    "harness": "7ea29575c450fdaa9370801db45cf16d687bb4fccca97b90ff22df2da09b338f"
+  },
+  "cases": [
+    {
+      "name": "identical factors merge while nearest hits retain both item IDs",
+      "expected": {
+        "batches": 1,
+        "originalMeshes": 2,
+        "skipped": 0
+      },
+      "actual": {
+        "batches": 1,
+        "originalMeshes": 2,
+        "skipped": 0
+      },
+      "rays": [
+        {
+          "id": "a",
+          "y": 0.5
+        },
+        {
+          "id": "b",
+          "y": 0.5
+        }
+      ],
+      "restored": [
+        true,
+        true
+      ],
+      "ownedBeforeCleanup": {
+        "materialDisposals": 0,
+        "originalDisposals": 0
+      }
+    },
+    {
+      "name": "different per-instance colour stays separate",
+      "expected": {
+        "batches": 2,
+        "originalMeshes": 2,
+        "skipped": 0
+      },
+      "actual": {
+        "batches": 2,
+        "originalMeshes": 2,
+        "skipped": 0
+      },
+      "rays": [
+        {
+          "id": "a",
+          "y": 0.5
+        },
+        {
+          "id": "b",
+          "y": 0.5
+        }
+      ],
+      "restored": [
+        true,
+        true
+      ],
+      "ownedBeforeCleanup": {
+        "materialDisposals": 0,
+        "originalDisposals": 0
+      }
+    },
+    {
+      "name": "different roughness stays separate",
+      "expected": {
+        "batches": 2,
+        "originalMeshes": 2,
+        "skipped": 0
+      },
+      "actual": {
+        "batches": 2,
+        "originalMeshes": 2,
+        "skipped": 0
+      },
+      "rays": [
+        {
+          "id": "a",
+          "y": 0.5
+        },
+        {
+          "id": "b",
+          "y": 0.5
+        }
+      ],
+      "restored": [
+        true,
+        true
+      ],
+      "ownedBeforeCleanup": {
+        "materialDisposals": 0,
+        "originalDisposals": 0
+      }
+    },
+    {
+      "name": "different metalness stays separate",
+      "expected": {
+        "batches": 2,
+        "originalMeshes": 2,
+        "skipped": 0
+      },
+      "actual": {
+        "batches": 2,
+        "originalMeshes": 2,
+        "skipped": 0
+      },
+      "rays": [
+        {
+          "id": "a",
+          "y": 0.5
+        },
+        {
+          "id": "b",
+          "y": 0.5
+        }
+      ],
+      "restored": [
+        true,
+        true
+      ],
+      "ownedBeforeCleanup": {
+        "materialDisposals": 0,
+        "originalDisposals": 0
+      }
+    },
+    {
+      "name": "normal-map coordinate conventions stay separate",
+      "expected": {
+        "batches": 2,
+        "originalMeshes": 2,
+        "skipped": 0
+      },
+      "actual": {
+        "batches": 2,
+        "originalMeshes": 2,
+        "skipped": 0
+      },
+      "rays": [
+        {
+          "id": "a",
+          "y": 0.5
+        },
+        {
+          "id": "b",
+          "y": 0.5
+        }
+      ],
+      "restored": [
+        true,
+        true
+      ],
+      "ownedBeforeCleanup": {
+        "materialDisposals": 0,
+        "originalDisposals": 0
+      }
+    },
+    {
+      "name": "distinct live maps stay separate despite a shared source",
+      "expected": {
+        "batches": 2,
+        "originalMeshes": 2,
+        "skipped": 0
+      },
+      "actual": {
+        "batches": 2,
+        "originalMeshes": 2,
+        "skipped": 0
+      },
+      "rays": [
+        {
+          "id": "a",
+          "y": 0.5
+        },
+        {
+          "id": "b",
+          "y": 0.5
+        }
+      ],
+      "restored": [
+        true,
+        true
+      ],
+      "ownedBeforeCleanup": {
+        "materialDisposals": 0,
+        "originalDisposals": 0
+      }
+    },
+    {
+      "name": "same live map preserves one material batch",
+      "expected": {
+        "batches": 1,
+        "originalMeshes": 2,
+        "skipped": 0
+      },
+      "actual": {
+        "batches": 1,
+        "originalMeshes": 2,
+        "skipped": 0
+      },
+      "rays": [
+        {
+          "id": "a",
+          "y": 0.5
+        },
+        {
+          "id": "b",
+          "y": 0.5
+        }
+      ],
+      "restored": [
+        true,
+        true
+      ],
+      "ownedBeforeCleanup": {
+        "materialDisposals": 0,
+        "originalDisposals": 0
+      }
+    },
+    {
+      "name": "alpha-test threshold stays separate",
+      "expected": {
+        "batches": 2,
+        "originalMeshes": 2,
+        "skipped": 0
+      },
+      "actual": {
+        "batches": 2,
+        "originalMeshes": 2,
+        "skipped": 0
+      },
+      "rays": [
+        {
+          "id": "a",
+          "y": 0.5
+        },
+        {
+          "id": "b",
+          "y": 0.5
+        }
+      ],
+      "restored": [
+        true,
+        true
+      ],
+      "ownedBeforeCleanup": {
+        "materialDisposals": 0,
+        "originalDisposals": 0
+      }
+    },
+    {
+      "name": "transparent material keeps original rendering path",
+      "expected": {
+        "batches": 1,
+        "originalMeshes": 1,
+        "skipped": 1
+      },
+      "actual": {
+        "batches": 1,
+        "originalMeshes": 1,
+        "skipped": 1
+      },
+      "rays": [
+        {
+          "id": "a",
+          "y": 0.5
+        },
+        null
+      ],
+      "restored": [
+        true,
+        true
+      ],
+      "ownedBeforeCleanup": {
+        "materialDisposals": 0,
+        "originalDisposals": 0
+      }
+    },
+    {
+      "name": "negative determinant is kept in original winding path",
+      "expected": {
+        "batches": 1,
+        "originalMeshes": 1,
+        "skipped": 1
+      },
+      "actual": {
+        "batches": 1,
+        "originalMeshes": 1,
+        "skipped": 1
+      },
+      "rays": [
+        {
+          "id": "a",
+          "y": 0.5
+        },
+        null
+      ],
+      "restored": [
+        true,
+        true
+      ],
+      "ownedBeforeCleanup": {
+        "materialDisposals": 0,
+        "originalDisposals": 0
+      }
+    },
+    {
+      "name": "custom shader callback is retained outside batches",
+      "expected": {
+        "batches": 1,
+        "originalMeshes": 1,
+        "skipped": 1
+      },
+      "actual": {
+        "batches": 1,
+        "originalMeshes": 1,
+        "skipped": 1
+      },
+      "rays": [
+        {
+          "id": "a",
+          "y": 0.5
+        },
+        null
+      ],
+      "restored": [
+        true,
+        true
+      ],
+      "ownedBeforeCleanup": {
+        "materialDisposals": 0,
+        "originalDisposals": 0
+      }
+    },
+    {
+      "name": "local clipping remains outside batches",
+      "expected": {
+        "batches": 1,
+        "originalMeshes": 1,
+        "skipped": 1
+      },
+      "actual": {
+        "batches": 1,
+        "originalMeshes": 1,
+        "skipped": 1
+      },
+      "rays": [
+        {
+          "id": "a",
+          "y": 0.5
+        },
+        null
+      ],
+      "restored": [
+        true,
+        true
+      ],
+      "ownedBeforeCleanup": {
+        "materialDisposals": 0,
+        "originalDisposals": 0
+      }
+    },
+    {
+      "name": "multi-material geometry remains outside batches",
+      "expected": {
+        "batches": 1,
+        "originalMeshes": 1,
+        "skipped": 1
+      },
+      "actual": {
+        "batches": 1,
+        "originalMeshes": 1,
+        "skipped": 1
+      },
+      "rays": [
+        {
+          "id": "a",
+          "y": 0.5
+        },
+        null
+      ],
+      "restored": [
+        true,
+        true
+      ],
+      "ownedBeforeCleanup": {
+        "materialDisposals": 0,
+        "originalDisposals": 0
+      }
+    },
+    {
+      "name": "partial draw remains outside batches",
+      "expected": {
+        "batches": 1,
+        "originalMeshes": 1,
+        "skipped": 1
+      },
+      "actual": {
+        "batches": 1,
+        "originalMeshes": 1,
+        "skipped": 1
+      },
+      "rays": [
+        {
+          "id": "a",
+          "y": 0.5
+        },
+        null
+      ],
+      "restored": [
+        true,
+        true
+      ],
+      "ownedBeforeCleanup": {
+        "materialDisposals": 0,
+        "originalDisposals": 0
+      }
+    },
+    {
+      "name": "custom render order remains outside batches",
+      "expected": {
+        "batches": 1,
+        "originalMeshes": 1,
+        "skipped": 1
+      },
+      "actual": {
+        "batches": 1,
+        "originalMeshes": 1,
+        "skipped": 1
+      },
+      "rays": [
+        {
+          "id": "a",
+          "y": 0.5
+        },
+        null
+      ],
+      "restored": [
+        true,
+        true
+      ],
+      "ownedBeforeCleanup": {
+        "materialDisposals": 0,
+        "originalDisposals": 0
+      }
+    },
+    {
+      "name": "custom layers remain outside batches",
+      "expected": {
+        "batches": 1,
+        "originalMeshes": 1,
+        "skipped": 1
+      },
+      "actual": {
+        "batches": 1,
+        "originalMeshes": 1,
+        "skipped": 1
+      },
+      "rays": [
+        {
+          "id": "a",
+          "y": 0.5
+        },
+        null
+      ],
+      "restored": [
+        true,
+        true
+      ],
+      "ownedBeforeCleanup": {
+        "materialDisposals": 0,
+        "originalDisposals": 0
+      }
+    },
+    {
+      "name": "hidden originals stay hidden after restoration",
+      "expected": {
+        "batches": 1,
+        "originalMeshes": 1,
+        "skipped": 0
+      },
+      "actual": {
+        "batches": 1,
+        "originalMeshes": 1,
+        "skipped": 0
+      },
+      "rays": [
+        {
+          "id": "a",
+          "y": 0.5
+        },
+        null
+      ],
+      "restored": [
+        true,
+        false
+      ],
+      "ownedBeforeCleanup": {
+        "materialDisposals": 0,
+        "originalDisposals": 0
+      }
+    }
+  ],
+  "errors": [],
+  "scope": "Actual installed Three geometry/material identity and ownership probes in browser; synthetic inputs, no native performance claim."
+}

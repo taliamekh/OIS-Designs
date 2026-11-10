@@ -1,0 +1,133 @@
+{
+  "scope": "Asymmetric concave room, off-centre unequal-slope vault and negative floor-local coordinates; geometry-only fixture",
+  "room": [
+    {
+      "x": -2.4,
+      "z": -1.3
+    },
+    {
+      "x": 2.6,
+      "z": -1.3
+    },
+    {
+      "x": 2.6,
+      "z": 0.7
+    },
+    {
+      "x": 0.6,
+      "z": 0.7
+    },
+    {
+      "x": 0.6,
+      "z": 2.7
+    },
+    {
+      "x": -2.4,
+      "z": 2.7
+    }
+  ],
+  "profile": {
+    "version": 1,
+    "facets": [
+      {
+        "id": "left",
+        "boundary": [
+          {
+            "x": -2.4,
+            "z": -1.3
+          },
+          {
+            "x": -1.15,
+            "z": -1.3
+          },
+          {
+            "x": -1.15,
+            "z": 2.7
+          },
+          {
+            "x": -2.4,
+            "z": 2.7
+          }
+        ],
+        "plane": {
+          "xSlope": 0.4,
+          "zSlope": 0,
+          "intercept": 3.16
+        }
+      },
+      {
+        "id": "right-upper",
+        "boundary": [
+          {
+            "x": -1.15,
+            "z": -1.3
+          },
+          {
+            "x": 2.6,
+            "z": -1.3
+          },
+          {
+            "x": 2.6,
+            "z": 0.7
+          },
+          {
+            "x": -1.15,
+            "z": 0.7
+          }
+        ],
+        "plane": {
+          "xSlope": -0.2,
+          "zSlope": 0,
+          "intercept": 2.47
+        }
+      },
+      {
+        "id": "right-lower",
+        "boundary": [
+          {
+            "x": -1.15,
+            "z": 0.7
+          },
+          {
+            "x": 0.6,
+            "z": 0.7
+          },
+          {
+            "x": 0.6,
+            "z": 2.7
+          },
+          {
+            "x": -1.15,
+            "z": 2.7
+          }
+        ],
+        "plane": {
+          "xSlope": -0.2,
+          "zSlope": 0,
+          "intercept": 2.47
+        }
+      }
+    ]
+  },
+  "probes": [
+    {
+      "x": -2.15,
+      "z": -1.05
+    },
+    {
+      "x": -1.15,
+      "z": 0.4
+    },
+    {
+      "x": 2.35,
+      "z": 0.45
+    },
+    {
+      "x": 0.35,
+      "z": 2.45
+    }
+  ],
+  "expectedPlanArea": 16,
+  "expectedSurfaceArea": "5*sqrt(1.16)+11*sqrt(1.04)",
+  "ridgeHeight": 2.7
+}

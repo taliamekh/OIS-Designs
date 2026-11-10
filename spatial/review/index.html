@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>OIS · Phase 3 spatial review</title>
+<link rel="icon" href="data:,">
+<style>
+*{box-sizing:border-box}body{margin:0;font:15px/1.4 system-ui;color:#26372f;background:#eeeee8}button,select{font:inherit;color:inherit;background:#fbfcf8;border:1px solid #b8c5ba;border-radius:9px;min-height:48px;padding:10px 13px}button{cursor:pointer}button[aria-pressed=true]{background:#d3e5d5;border-color:#628269}button:focus-visible,select:focus-visible{outline:3px solid #6c9474;outline-offset:2px}header{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:9px 14px;background:#fafbf6;border-bottom:1px solid #c8d1c6;height:67px}header strong{font-size:18px;font-weight:600}header small{display:block;font-size:11px;color:#637368}main{height:calc(100dvh - 67px);position:relative;overflow:hidden}#canvas{width:100%;height:100%;touch-action:none}canvas{display:block}#context{position:absolute;left:12px;top:12px;display:flex;gap:8px;align-items:center;flex-wrap:wrap;max-width:calc(100% - 24px)}#context select{max-width:200px;box-shadow:0 2px 8px #23362b12}#note{position:absolute;left:12px;bottom:82px;max-width:min(450px,calc(100% - 24px));background:#fafcf5ed;padding:9px 12px;border:1px solid #d3dcd0;border-radius:10px;font-size:12px;pointer-events:none}#dock{position:absolute;bottom:12px;left:12px;right:12px;display:flex;align-items:center;justify-content:center;gap:8px;pointer-events:none}#dock button{pointer-events:auto;box-shadow:0 3px 16px #1d38221a}#sheet{position:absolute;right:12px;bottom:78px;width:350px;max-width:calc(100% - 24px);max-height:calc(100% - 100px);overflow:auto;padding:16px;background:#fbfcf8f5;border:1px solid #bfcebe;border-radius:17px;box-shadow:0 9px 35px #16341d22}#sheet[hidden]{display:none}.row{display:flex;gap:7px;flex-wrap:wrap;margin:7px 0 15px}.row button{flex:1}.label{font-size:12px;color:#566d5d;font-weight:600}.sheet-head{position:sticky;top:-16px;z-index:2;background:#fbfcf8;margin:-16px -16px 14px;padding:14px 16px;display:flex;justify-content:space-between;align-items:center;margin-bottom:14px}.sheet-head h2{font-size:18px;margin:0}.check{display:flex;align-items:center;gap:12px;min-height:48px}.check input{width:20px;height:20px;accent-color:#63856a}.hint{font-size:12px;color:#596c5e;margin:5px 0 12px}#selection{margin-top:8px;font-weight:600}#status{font-weight:500}#error{color:#9a302b}body.large{font-size:22px}body.large header{height:90px}body.large main{height:calc(100dvh - 90px)}body.large .hint,body.large .label,body.large #note{font-size:17px}body.large #sheet{max-height:calc(100% - 90px)}@media(max-width:500px){header{padding:9px 12px}header small{max-width:180px}#context{gap:6px}#context select{max-width:calc(50vw - 18px);font-size:14px}#sheet{left:12px;right:12px;width:auto;bottom:76px;max-height:65%}#note{font-size:11px;max-width:calc(100% - 24px)}body.large #context select{font-size:18px;max-width:calc(50vw - 18px)}body.large #note{bottom:82px}body.large .row{margin-bottom:9px}body.large header strong{font-size:20px}}
+</style>
+<header><div><strong>ois designs</strong><small>Phase 3 · browser review</small></div><button id="views" aria-expanded="false" aria-controls="sheet">Views</button></header>
+<main>
+ <div id="canvas" aria-label="Furnished house in 3D"></div>
+ <div id="context"><select id="floor" aria-label="Current floor"></select><select id="room" aria-label="Current room"></select></div>
+ <div id="note" role="status"><span id="status">Loading real furniture…</span><div id="selection"></div><div id="error"></div></div>
+ <div id="dock"><button id="fit">Fit view</button><button id="inspect">Interior</button></div>
+ <section id="sheet" aria-label="3D viewing options" hidden>
+  <div class="sheet-head"><h2>View options</h2><button id="close">Done</button></div>
+  <div class="label">Show</div><div class="row" id="scope"><button data-scope="room">Room</button><button data-scope="floor">Floor</button><button data-scope="house">House</button></div>
+  <div class="label">Walls</div><div class="row" id="shell"><button data-shell="cutaway">Cutaway</button><button data-shell="solid">Solid</button></div>
+  <div class="label">Camera</div><div class="row" id="preset"><button data-preset="perspective">Perspective</button><button data-preset="top">Top</button><button data-preset="front">Front</button></div>
+  <label class="check"><input type="checkbox" id="ceilings">Show ceilings</label>
+  <label class="check"><input type="checkbox" id="separate">Separate floors</label>
+  <p class="hint" id="separate-hint">House presentation only. Saved floor heights stay unchanged.</p>
+  <label class="check"><input type="checkbox" id="large">Large text review</label>
+  <p class="hint">These viewing controls are OIS proposals. Orbit the scene; tap visible furniture to inspect it.</p>
+ </section>
+</main>
+<script type="importmap">{"imports":{"three":"/three/build/three.module.js","three/addons/":"/three/examples/jsm/"}}</script>
+<script type="module" src="/review/viewer.js"></script>
+</html>

@@ -1,0 +1,305 @@
+{
+  "timeUtc": "2026-11-10T06:03:26.719Z",
+  "sourceSha256": {
+    "src/supportFamily.ts": "a413658151e5c3b85c02cd5ec401c84aeb5b23539adff9bf6927a3094a01a6a2",
+    "src/supportPlacement.ts": "5a648fafdfd3d93f8039fe78fc5ab7d4b6e68f255a5f5b4ae1af3462b7bcf197",
+    "dist/supportFamily.js": "859325b09975d5472b4e80ff4b40061d764a64df655bc20d992dae56bc069740",
+    "dist/supportPlacement.js": "971220e72b83036584ff3e4b4e543bf6ca9115c6483d1232f0c62311b902c5f3",
+    "scripts/support_family_browser.cjs": "849591466595d82ed58eddb9aa743331125f72afd15642e2e1c646c0e3fa6829"
+  },
+  "result": {
+    "models": [
+      {
+        "id": "ois.design.writing-drawer-desk",
+        "version": "0.7.0",
+        "sha256": "7e51998374a70be89a51bee9701411e2c2ec9ff59d6bef381fa6888e0b7cc852"
+      },
+      {
+        "id": "ois.design.banker-desk-light",
+        "version": "0.7.0",
+        "sha256": "a2ca0ea289c68006f8dcadaaf22f76f9edc8e48b62283c1eb8ded12d3064aa19"
+      }
+    ],
+    "initial": {
+      "items": [
+        {
+          "id": "desk",
+          "roomId": "office",
+          "assetId": "ois.design.writing-drawer-desk",
+          "assetVersion": "0.7.0",
+          "assetHash": "7e51998374a70be89a51bee9701411e2c2ec9ff59d6bef381fa6888e0b7cc852",
+          "x": 1.4,
+          "z": 1.6,
+          "yaw": 0.18,
+          "elevation": 0,
+          "locked": false
+        },
+        {
+          "id": "left",
+          "roomId": "office",
+          "assetId": "ois.design.banker-desk-light",
+          "assetVersion": "0.7.0",
+          "assetHash": "a2ca0ea289c68006f8dcadaaf22f76f9edc8e48b62283c1eb8ded12d3064aa19",
+          "x": 1.07533158137992,
+          "z": 1.659079759230522,
+          "yaw": 0.18,
+          "elevation": 0.7389403823763132,
+          "locked": false
+        },
+        {
+          "id": "right",
+          "roomId": "office",
+          "assetId": "ois.design.banker-desk-light",
+          "assetVersion": "0.7.0",
+          "assetHash": "a2ca0ea289c68006f8dcadaaf22f76f9edc8e48b62283c1eb8ded12d3064aa19",
+          "x": 1.7246684186200798,
+          "z": 1.5409202407694782,
+          "yaw": 0.18,
+          "elevation": 0.7389403823763132,
+          "locked": false
+        }
+      ],
+      "attachments": {
+        "left": {
+          "parentItemId": "desk",
+          "surfaceId": "reviewed-desk-top",
+          "parentAssetId": "ois.design.writing-drawer-desk",
+          "parentAssetVersion": "0.7.0",
+          "parentAssetHash": "7e51998374a70be89a51bee9701411e2c2ec9ff59d6bef381fa6888e0b7cc852",
+          "localX": -0.3299999999999998,
+          "localZ": -5.551115123125783e-17,
+          "localElevation": 0.7389403823763132,
+          "relativeYaw": 0
+        },
+        "right": {
+          "parentItemId": "desk",
+          "surfaceId": "reviewed-desk-top",
+          "parentAssetId": "ois.design.writing-drawer-desk",
+          "parentAssetVersion": "0.7.0",
+          "parentAssetHash": "7e51998374a70be89a51bee9701411e2c2ec9ff59d6bef381fa6888e0b7cc852",
+          "localX": 0.3299999999999998,
+          "localZ": 5.551115123125783e-17,
+          "localElevation": 0.7389403823763132,
+          "relativeYaw": 0
+        }
+      }
+    },
+    "proposal": {
+      "patches": [
+        {
+          "itemId": "desk",
+          "pose": {
+            "x": 3,
+            "z": 2.1,
+            "yaw": 1.1,
+            "elevation": 0
+          }
+        },
+        {
+          "itemId": "left",
+          "pose": {
+            "x": 2.8503132799295594,
+            "z": 2.3940984288202736,
+            "yaw": 1.1,
+            "elevation": 0.7389403823763132
+          }
+        },
+        {
+          "itemId": "right",
+          "pose": {
+            "x": 3.1496867200704406,
+            "z": 1.8059015711797266,
+            "yaw": 1.1,
+            "elevation": 0.7389403823763132
+          }
+        }
+      ],
+      "status": "validated-family-proposal"
+    },
+    "guards": {
+      "locked": {
+        "status": "blocked",
+        "reason": "family-item-locked",
+        "itemId": "right"
+      },
+      "walk": {
+        "status": "blocked",
+        "reason": "read-only-view"
+      },
+      "collision": {
+        "status": "blocked",
+        "reason": "desk:footprint-overhangs-support"
+      }
+    },
+    "beforeContacts": [
+      {
+        "id": "left",
+        "contactError": 0,
+        "actualTopRayY": 3.888940380513668,
+        "expectedTop": 3.888940380513668
+      },
+      {
+        "id": "right",
+        "contactError": 0,
+        "actualTopRayY": 3.888940380513668,
+        "expectedTop": 3.888940380513668
+      }
+    ],
+    "originalUnchanged": true,
+    "roundtrip": [
+      {
+        "id": "left",
+        "pose": {
+          "x": 2.8503132799295594,
+          "z": 2.3940984288202736,
+          "yaw": 1.1,
+          "elevation": 0.7389403823763132
+        },
+        "saved": {
+          "x": 2.8503132799295594,
+          "z": 2.3940984288202736,
+          "yaw": 1.1,
+          "elevation": 0.7389403823763132
+        }
+      },
+      {
+        "id": "right",
+        "pose": {
+          "x": 3.1496867200704406,
+          "z": 1.8059015711797266,
+          "yaw": 1.1,
+          "elevation": 0.7389403823763132
+        },
+        "saved": {
+          "x": 3.1496867200704406,
+          "z": 1.8059015711797266,
+          "yaw": 1.1,
+          "elevation": 0.7389403823763132
+        }
+      }
+    ],
+    "scope": "Real GLB attached-family transport/contact and local JSON data roundtrip. Not production schema, commands, save/Undo or native runtime."
+  },
+  "moved": {
+    "items": [
+      {
+        "id": "desk",
+        "roomId": "office",
+        "assetId": "ois.design.writing-drawer-desk",
+        "assetVersion": "0.7.0",
+        "assetHash": "7e51998374a70be89a51bee9701411e2c2ec9ff59d6bef381fa6888e0b7cc852",
+        "x": 3,
+        "z": 2.1,
+        "yaw": 1.1,
+        "elevation": 0,
+        "locked": false
+      },
+      {
+        "id": "left",
+        "roomId": "office",
+        "assetId": "ois.design.banker-desk-light",
+        "assetVersion": "0.7.0",
+        "assetHash": "a2ca0ea289c68006f8dcadaaf22f76f9edc8e48b62283c1eb8ded12d3064aa19",
+        "x": 2.8503132799295594,
+        "z": 2.3940984288202736,
+        "yaw": 1.1,
+        "elevation": 0.7389403823763132,
+        "locked": false
+      },
+      {
+        "id": "right",
+        "roomId": "office",
+        "assetId": "ois.design.banker-desk-light",
+        "assetVersion": "0.7.0",
+        "assetHash": "a2ca0ea289c68006f8dcadaaf22f76f9edc8e48b62283c1eb8ded12d3064aa19",
+        "x": 3.1496867200704406,
+        "z": 1.8059015711797266,
+        "yaw": 1.1,
+        "elevation": 0.7389403823763132,
+        "locked": false
+      }
+    ],
+    "contacts": [
+      {
+        "id": "left",
+        "contactError": 0,
+        "actualTopRayY": 3.888940380513668,
+        "expectedTop": 3.888940380513668
+      },
+      {
+        "id": "right",
+        "contactError": 0,
+        "actualTopRayY": 3.888940380513668,
+        "expectedTop": 3.888940380513668
+      }
+    ]
+  },
+  "restored": {
+    "items": [
+      {
+        "id": "desk",
+        "roomId": "office",
+        "assetId": "ois.design.writing-drawer-desk",
+        "assetVersion": "0.7.0",
+        "assetHash": "7e51998374a70be89a51bee9701411e2c2ec9ff59d6bef381fa6888e0b7cc852",
+        "x": 1.4,
+        "z": 1.6,
+        "yaw": 0.18,
+        "elevation": 0,
+        "locked": false
+      },
+      {
+        "id": "left",
+        "roomId": "office",
+        "assetId": "ois.design.banker-desk-light",
+        "assetVersion": "0.7.0",
+        "assetHash": "a2ca0ea289c68006f8dcadaaf22f76f9edc8e48b62283c1eb8ded12d3064aa19",
+        "x": 1.07533158137992,
+        "z": 1.659079759230522,
+        "yaw": 0.18,
+        "elevation": 0.7389403823763132,
+        "locked": false
+      },
+      {
+        "id": "right",
+        "roomId": "office",
+        "assetId": "ois.design.banker-desk-light",
+        "assetVersion": "0.7.0",
+        "assetHash": "a2ca0ea289c68006f8dcadaaf22f76f9edc8e48b62283c1eb8ded12d3064aa19",
+        "x": 1.7246684186200798,
+        "z": 1.5409202407694782,
+        "yaw": 0.18,
+        "elevation": 0.7389403823763132,
+        "locked": false
+      }
+    ],
+    "contacts": [
+      {
+        "id": "left",
+        "contactError": 0,
+        "actualTopRayY": 3.888940380513668,
+        "expectedTop": 3.888940380513668
+      },
+      {
+        "id": "right",
+        "contactError": 0,
+        "actualTopRayY": 3.888940380513668,
+        "expectedTop": 3.888940380513668
+      }
+    ]
+  },
+  "disposed": {
+    "memory": {
+      "geometries": 0,
+      "textures": 0
+    },
+    "bank": {
+      "uniqueTextures": 0,
+      "rootLeases": 0,
+      "decodedDuplicates": 0,
+      "releases": 3,
+      "entries": []
+    }
+  },
+  "errors": []
+}

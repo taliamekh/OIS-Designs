@@ -1,0 +1,273 @@
+{
+  "scope": "Authored conceptual marker/void fixture; no structural certification or enabled Walk traversal",
+  "project": {
+    "floors": [
+      {
+        "id": "lower",
+        "elevation": 0,
+        "alignment": {
+          "x": -3,
+          "z": 2
+        },
+        "ceiling": 2.7,
+        "rooms": [
+          {
+            "id": "lower-room",
+            "polygon": [
+              {
+                "x": 0,
+                "z": 0
+              },
+              {
+                "x": 5,
+                "z": 0
+              },
+              {
+                "x": 5,
+                "z": 6
+              },
+              {
+                "x": 0,
+                "z": 6
+              }
+            ],
+            "ceiling": null
+          }
+        ],
+        "walls": [
+          {
+            "id": "wall-0",
+            "a": {
+              "x": 0,
+              "z": 0
+            },
+            "b": {
+              "x": 5,
+              "z": 0
+            },
+            "thickness": 0.16,
+            "faces": [
+              {
+                "roomId": "lower-room",
+                "reversed": false
+              }
+            ]
+          },
+          {
+            "id": "wall-1",
+            "a": {
+              "x": 5,
+              "z": 0
+            },
+            "b": {
+              "x": 5,
+              "z": 6
+            },
+            "thickness": 0.16,
+            "faces": [
+              {
+                "roomId": "lower-room",
+                "reversed": false
+              }
+            ]
+          },
+          {
+            "id": "wall-2",
+            "a": {
+              "x": 5,
+              "z": 6
+            },
+            "b": {
+              "x": 0,
+              "z": 6
+            },
+            "thickness": 0.16,
+            "faces": [
+              {
+                "roomId": "lower-room",
+                "reversed": false
+              }
+            ]
+          },
+          {
+            "id": "wall-3",
+            "a": {
+              "x": 0,
+              "z": 6
+            },
+            "b": {
+              "x": 0,
+              "z": 0
+            },
+            "thickness": 0.16,
+            "faces": [
+              {
+                "roomId": "lower-room",
+                "reversed": false
+              }
+            ]
+          }
+        ],
+        "items": []
+      },
+      {
+        "id": "upper",
+        "elevation": 3.1,
+        "alignment": {
+          "x": -1,
+          "z": 3
+        },
+        "ceiling": 2.55,
+        "rooms": [
+          {
+            "id": "upper-room",
+            "polygon": [
+              {
+                "x": -2,
+                "z": -1
+              },
+              {
+                "x": 3,
+                "z": -1
+              },
+              {
+                "x": 3,
+                "z": 5
+              },
+              {
+                "x": -2,
+                "z": 5
+              }
+            ],
+            "ceiling": null
+          }
+        ],
+        "walls": [
+          {
+            "id": "wall-0",
+            "a": {
+              "x": -2,
+              "z": -1
+            },
+            "b": {
+              "x": 3,
+              "z": -1
+            },
+            "thickness": 0.16,
+            "faces": [
+              {
+                "roomId": "upper-room",
+                "reversed": false
+              }
+            ]
+          },
+          {
+            "id": "wall-1",
+            "a": {
+              "x": 3,
+              "z": -1
+            },
+            "b": {
+              "x": 3,
+              "z": 5
+            },
+            "thickness": 0.16,
+            "faces": [
+              {
+                "roomId": "upper-room",
+                "reversed": false
+              }
+            ]
+          },
+          {
+            "id": "wall-2",
+            "a": {
+              "x": 3,
+              "z": 5
+            },
+            "b": {
+              "x": -2,
+              "z": 5
+            },
+            "thickness": 0.16,
+            "faces": [
+              {
+                "roomId": "upper-room",
+                "reversed": false
+              }
+            ]
+          },
+          {
+            "id": "wall-3",
+            "a": {
+              "x": -2,
+              "z": 5
+            },
+            "b": {
+              "x": -2,
+              "z": -1
+            },
+            "thickness": 0.16,
+            "faces": [
+              {
+                "roomId": "upper-room",
+                "reversed": false
+              }
+            ]
+          }
+        ],
+        "items": []
+      }
+    ]
+  },
+  "voids": [
+    {
+      "id": "upper-void",
+      "floorId": "upper",
+      "roomId": "upper-room",
+      "boundary": [
+        {
+          "x": -0.05,
+          "z": 1
+        },
+        {
+          "x": 1.05,
+          "z": 1
+        },
+        {
+          "x": 1.05,
+          "z": 3.5
+        },
+        {
+          "x": -0.05,
+          "z": 3.5
+        }
+      ]
+    }
+  ],
+  "markers": [
+    {
+      "id": "stair-marker",
+      "lowerFloorId": "lower",
+      "lowerRoomId": "lower-room",
+      "upperFloorId": "upper",
+      "upperRoomId": "upper-room",
+      "start": {
+        "x": 2.5,
+        "z": 1
+      },
+      "end": {
+        "x": 2.5,
+        "z": 4.5
+      },
+      "width": 0.9,
+      "stepCount": 18,
+      "upperLanding": {
+        "x": 0.5,
+        "z": 3.5
+      },
+      "upperVoidId": "upper-void",
+      "viewerEnvelopeHeight": 1.6
+    }
+  ]
+}
