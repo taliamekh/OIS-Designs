@@ -34,6 +34,7 @@ jobs:
           sparse-checkout: |
             .github
             mobile
+            docs/coordination
       - name: Set up Node.js
         uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7
         with:
@@ -48,3 +49,5 @@ jobs:
         run: npm run lint -- --no-cache
       - name: Domain, storage and scene contract tests
         run: npm test
+      - name: Committed models and frozen provenance
+        run: node ../docs/coordination/audit-published-tree.cjs --local-only --output=published-tree-ci.json

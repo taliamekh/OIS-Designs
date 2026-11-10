@@ -1,4 +1,11 @@
 import { AssetRecord, Floor, Item, Opening, Point, Room, Wall } from "./types";
+import {
+  CASING_EXTENT,
+  CASING_OFFSET,
+  CASING_TOP,
+  CASING_WIDTH,
+  TRIM_JAMB_GAP,
+} from "./construction";
 
 export const EPS = 1e-5;
 export const distance = (a: Point, b: Point) =>
@@ -248,41 +255,340 @@ export function assetForItem(
       a.sha256 === item.assetHash,
   );
 }
-/** Full hinge motion envelopes in floor coordinates, matching the selected swing side. */
+export const DOOR_LEAF_THICKNESS = 0.035;
+export const DOOR_HINGE_OFFSET = 0.02;
+export const SLIDING_FACE_OFFSET = 0.035;
+export type DoorLeafPose = {
+  pivotX: number;
+  z: number;
+  yaw: number;
+  width: number;
+};
+/** Shared physical presentation contract; Walk opens the full supported travel. */
+export function doorLeafPoses(
+  opening: Opening,
+  wallThickness: number,
+  walk = false,
+): DoorLeafPose[] {
+  const side = opening.flip ? -1 : 1;
+  const angle = walk ? Math.PI / 2 : Math.PI * 0.38;
+  if (opening.type === "single")
+    return [
+      {
+        pivotX: opening.hinge === "left" ? 0 : opening.width,
+        z: side * DOOR_HINGE_OFFSET,
+        yaw: opening.hinge === "left" ? -side * angle : Math.PI + side * angle,
+        width: opening.width,
+      },
+    ];
+  if (opening.type === "double")
+    return [
+      {
+        pivotX: 0,
+        z: side * DOOR_HINGE_OFFSET,
+        yaw: -side * angle,
+        width: opening.width / 2,
+      },
+      {
+        pivotX: opening.width,
+        z: side * DOOR_HINGE_OFFSET,
+        yaw: Math.PI + side * angle,
+        width: opening.width / 2,
+      },
+    ];
+  if (opening.type === "sliding" || opening.type === "pocket")
+    return [
+      {
+        pivotX:
+          (opening.hinge === "left" ? -1 : 1) *
+          opening.width *
+          (walk ? 1 : 0.8),
+        z:
+          opening.type === "pocket"
+            ? 0
+            : side * (wallThickness / 2 + SLIDING_FACE_OFFSET),
+        yaw: 0,
+        width: opening.width,
+      },
+    ];
+  return [];
+}
+function convexHull(points: Point[]): Point[] {
+  const sorted = [...points].sort((a, b) => a.x - b.x || a.z - b.z);
+  const half = (list: Point[]) => {
+    const out: Point[] = [];
+    for (const p of list) {
+      while (
+        out.length >= 2 &&
+        orient(out[out.length - 2], out[out.length - 1], p) <= 0
+      )
+        out.pop();
+      out.push(p);
+    }
+    out.pop();
+    return out;
+  };
+  return [...half(sorted), ...half([...sorted].reverse())];
+}
+function wallPoint(wall: Wall, along: number, normal: number): Point {
+  const length = distance(wall.a, wall.b);
+  const ux = (wall.b.x - wall.a.x) / length,
+    uz = (wall.b.z - wall.a.z) / length;
+  return {
+    x: wall.a.x + along * ux - normal * uz,
+    z: wall.a.z + along * uz + normal * ux,
+  };
+}
+function wallRectangle(
+  wall: Wall,
+  start: number,
+  end: number,
+  near: number,
+  far: number,
+): Point[] {
+  return [
+    wallPoint(wall, start, near),
+    wallPoint(wall, end, near),
+    wallPoint(wall, end, far),
+    wallPoint(wall, start, far),
+  ];
+}
+/** Conservative physical hinge sweep, including hinge offset and leaf thickness.
+ * Circumscribed arc chords cannot leave gaps between sampled door angles. */
 export function swingEnvelopes(wall: Wall, opening: Opening): Point[][] {
   if (opening.type !== "single" && opening.type !== "double") return [];
-  const len = distance(wall.a, wall.b),
-    ux = (wall.b.x - wall.a.x) / len,
-    uz = (wall.b.z - wall.a.z) / len,
-    side = opening.flip ? -1 : 1;
-  const normal = { x: -uz * side, z: ux * side };
+  const side = opening.flip ? -1 : 1;
   const leaf = (left: boolean, width: number) => {
-    const hinge = lerp(
-        wall.a,
-        wall.b,
-        (opening.offset + (left ? 0 : opening.width)) / len,
+    const hinge = opening.offset + (left ? 0 : opening.width),
+      normal = side * DOOR_HINGE_OFFSET;
+    const half = DOOR_LEAF_THICKNESS / 2,
+      delta = Math.atan2(half, width);
+    const step = (Math.PI / 2 + 2 * delta) / 20;
+    const radius = Math.hypot(width, half) / Math.cos(step / 2);
+    const arc = Array.from({ length: 21 }, (_, i) => {
+      const angle = -delta + i * step;
+      return wallPoint(
+        wall,
+        hinge + (left ? 1 : -1) * radius * Math.cos(angle),
+        normal + side * radius * Math.sin(angle),
+      );
+    });
+    return convexHull([
+      ...arc,
+      ...wallRectangle(
+        wall,
+        hinge - half,
+        hinge + half,
+        normal - half,
+        normal + half,
       ),
-      direction = left ? 1 : -1;
-    return [
-      hinge,
-      ...Array.from({ length: 19 }, (_, i) => {
-        const angle = (i * Math.PI) / 36;
-        return {
-          x:
-            hinge.x +
-            ux * direction * width * Math.cos(angle) +
-            normal.x * width * Math.sin(angle),
-          z:
-            hinge.z +
-            uz * direction * width * Math.cos(angle) +
-            normal.z * width * Math.sin(angle),
-        };
-      }),
-    ];
+    ]);
   };
   return opening.type === "double"
     ? [leaf(true, opening.width / 2), leaf(false, opening.width / 2)]
     : [leaf(opening.hinge === "left", opening.width)];
+}
+/** All supported moving panels, not only hinged doors. Coordinates remain canonical. */
+export function openingMotionEnvelopes(
+  wall: Wall,
+  opening: Opening,
+): Point[][] {
+  if (opening.type === "single" || opening.type === "double")
+    return swingEnvelopes(wall, opening);
+  if (opening.type !== "sliding" && opening.type !== "pocket") return [];
+  const side = opening.flip ? -1 : 1;
+  const normal =
+    opening.type === "pocket"
+      ? 0
+      : side * (wall.thickness / 2 + SLIDING_FACE_OFFSET);
+  const start = opening.offset - (opening.hinge === "left" ? opening.width : 0);
+  return [
+    wallRectangle(
+      wall,
+      start,
+      start + opening.width * 2,
+      normal - DOOR_LEAF_THICKNESS / 2,
+      normal + DOOR_LEAF_THICKNESS / 2,
+    ),
+  ];
+}
+export type PhysicalWallPiece = {
+  start: number;
+  end: number;
+  bottom: number;
+  top: number;
+  cavity?: number;
+};
+/** Pure hole/pocket contract for both collision and the app-owned mesh adapter. */
+export function physicalWallPieces(
+  wall: Wall,
+  openings: Opening[],
+  height: number,
+): PhysicalWallPiece[] {
+  const length = distance(wall.a, wall.b);
+  const holes = openings
+    .filter((o) => o.wallId === wall.id)
+    .sort((a, b) => a.offset - b.offset);
+  const pieces: PhysicalWallPiece[] = [];
+  if (holes.some((o) => o.type === "pocket")) {
+    const xs = [
+      0,
+      length,
+      ...holes.flatMap((o) => [
+        o.offset,
+        o.offset + o.width,
+        ...(o.type === "pocket"
+          ? [
+              o.hinge === "left" ? o.offset - o.width : o.offset + o.width,
+              o.hinge === "left" ? o.offset : o.offset + o.width * 2,
+            ]
+          : []),
+      ]),
+    ]
+      .filter((x) => x >= 0 && x <= length)
+      .sort((a, b) => a - b)
+      .filter((x, i, all) => !i || x - all[i - 1] > 1e-6);
+    const ys = [0, height, ...holes.flatMap((o) => [o.sill, o.sill + o.height])]
+      .filter((y) => y >= 0 && y <= height)
+      .sort((a, b) => a - b)
+      .filter((y, i, all) => !i || y - all[i - 1] > 1e-6);
+    for (let i = 0; i < xs.length - 1; i++)
+      for (let j = 0; j < ys.length - 1; j++) {
+        const x = (xs[i] + xs[i + 1]) / 2,
+          y = (ys[j] + ys[j + 1]) / 2;
+        if (
+          holes.some(
+            (o) =>
+              x > o.offset &&
+              x < o.offset + o.width &&
+              y > o.sill &&
+              y < o.sill + o.height,
+          )
+        )
+          continue;
+        const pocket = holes.some(
+          (o) =>
+            o.type === "pocket" &&
+            y < o.height &&
+            x >
+              (o.hinge === "left" ? o.offset - o.width : o.offset + o.width) &&
+            x < (o.hinge === "left" ? o.offset : o.offset + o.width * 2),
+        );
+        pieces.push({
+          start: xs[i],
+          end: xs[i + 1],
+          bottom: ys[j],
+          top: ys[j + 1],
+          cavity: pocket ? 0.05 : 0,
+        });
+      }
+    return pieces;
+  }
+  let cursor = 0;
+  for (const o of holes) {
+    if (o.offset > cursor)
+      pieces.push({ start: cursor, end: o.offset, bottom: 0, top: height });
+    if (o.sill > 0)
+      pieces.push({
+        start: o.offset,
+        end: o.offset + o.width,
+        bottom: 0,
+        top: o.sill,
+      });
+    if (o.sill + o.height < height)
+      pieces.push({
+        start: o.offset,
+        end: o.offset + o.width,
+        bottom: o.sill + o.height,
+        top: height,
+      });
+    cursor = o.offset + o.width;
+  }
+  if (cursor < length)
+    pieces.push({ start: cursor, end: length, bottom: 0, top: height });
+  return pieces;
+}
+export type TrimMiterPlane = { slope: number; offset: number };
+/** Intersect both actual wall-face offset lines at every profile depth. Unequal
+ * thicknesses require an affine cut: the constant cannot use this wall alone. */
+export function physicalTrimCornerMiter(
+  floor: Floor,
+  room: Room,
+  wall: Wall,
+  atStart: boolean,
+): TrimMiterPlane {
+  const reversed =
+      wall.faces.find((f) => f.roomId === room.id)?.reversed ?? false,
+    a = reversed ? wall.b : wall.a,
+    b = reversed ? wall.a : wall.b,
+    point = atStart ? a : b,
+    len = distance(a, b),
+    u = { x: (b.x - a.x) / len, z: (b.z - a.z) / len };
+  const neighbor = floor.walls.find((w) => {
+    if (w.id === wall.id) return false;
+    const face = w.faces.find((f) => f.roomId === room.id);
+    if (!face) return false;
+    const start = face.reversed ? w.b : w.a,
+      end = face.reversed ? w.a : w.b;
+    return distance(atStart ? end : start, point) < 1e-5;
+  });
+  if (!neighbor) return { slope: 0, offset: 0 };
+  const face = neighbor.faces.find((f) => f.roomId === room.id)!,
+    c = face.reversed ? neighbor.b : neighbor.a,
+    d = face.reversed ? neighbor.a : neighbor.b,
+    l = distance(c, d),
+    v = { x: (d.x - c.x) / l, z: (d.z - c.z) / l },
+    n = { x: -u.z, z: u.x },
+    m = { x: -v.z, z: v.x },
+    cross = (a: { x: number; z: number }, b: { x: number; z: number }) =>
+      a.x * b.z - a.z * b.x,
+    denominator = cross(u, v),
+    direction = atStart ? 1 : -1,
+    ownTrim = room.trimOverrides[wall.id] ?? room.trim,
+    neighborTrim = room.trimOverrides[neighbor.id] ?? room.trim,
+    projectionRatio =
+      ownTrim.projection > 1e-8
+        ? (neighborTrim.profile === "none" ? 0 : neighborTrim.projection) /
+          ownTrim.projection
+        : 1;
+  if (Math.abs(denominator) < 1e-5) return { slope: 0, offset: 0 };
+  return {
+    slope:
+      (direction *
+        cross(
+          { x: m.x * projectionRatio - n.x, z: m.z * projectionRatio - n.z },
+          v,
+        )) /
+      denominator,
+    offset:
+      (direction *
+        cross(
+          {
+            x: (m.x * neighbor.thickness) / 2 - (n.x * wall.thickness) / 2,
+            z: (m.z * neighbor.thickness) / 2 - (n.z * wall.thickness) / 2,
+          },
+          v,
+        )) /
+      denominator,
+  };
+}
+
+export function physicalTrimIntervals(
+  wall: Wall,
+  floor: Floor,
+): [number, number][] {
+  const intervals: [number, number][] = [];
+  let start = 0;
+  for (const o of floor.openings
+    .filter((o) => o.wallId === wall.id && o.sill < 0.03)
+    .sort((a, b) => a.offset - b.offset)) {
+    if (o.offset - CASING_EXTENT - TRIM_JAMB_GAP > start)
+      intervals.push([start, o.offset - CASING_EXTENT - TRIM_JAMB_GAP]);
+    start = o.offset + o.width + CASING_EXTENT + TRIM_JAMB_GAP;
+  }
+  if (start < distance(wall.a, wall.b))
+    intervals.push([start, distance(wall.a, wall.b)]);
+  return intervals;
 }
 function segmentInside(a: Point, b: Point, polygon: Point[]): boolean {
   const dx = b.x - a.x,
@@ -339,22 +645,133 @@ export function canPlace(
     fp.some((a, i) => !segmentInside(a, fp[(i + 1) % fp.length], room.polygon))
   )
     return "The footprint crosses a wall.";
+  const bottom = asset.bounds.min[1],
+    top = asset.bounds.max[1];
+  const heightOverlap = (low: number, high: number) =>
+    top > low + EPS && bottom < high - EPS;
   for (const wall of floor.walls.filter((w) =>
     w.faces.some((f) => f.roomId === room.id),
   )) {
-    const trim = room.trimOverrides[wall.id] ?? room.trim,
-      margin = trim.profile === "none" ? 0 : trim.projection;
-    if (
-      margin > 0 &&
-      fp.some(
-        (a, i) =>
-          segmentDistance(a, fp[(i + 1) % fp.length], wall.a, wall.b) <
-          margin - EPS,
+    const face = wall.faces.find((f) => f.roomId === room.id)!;
+    const sign = face.reversed ? -1 : 1,
+      half = wall.thickness / 2;
+    for (const piece of physicalWallPieces(
+      wall,
+      floor.openings,
+      room.ceiling ?? floor.ceiling,
+    )) {
+      const cavity = (piece.cavity ?? 0) / 2;
+      if (
+        heightOverlap(piece.bottom, piece.top) &&
+        overlaps(
+          fp,
+          wallRectangle(
+            wall,
+            piece.start,
+            piece.end,
+            sign === 1 ? cavity : -half,
+            sign === 1 ? half : -cavity,
+          ),
+        )
       )
+        return "Keep the furniture clear of the physical wall.";
+    }
+    const trim = room.trimOverrides[wall.id] ?? room.trim;
+    if (
+      trim.profile !== "none" &&
+      trim.projection > 0 &&
+      heightOverlap(0, trim.height)
     )
-      return "Keep the furniture clear of this wall’s baseboard projection.";
+      for (const [a, b] of physicalTrimIntervals(wall, floor)) {
+        const startMiter = physicalTrimCornerMiter(floor, room, wall, true),
+          endMiter = physicalTrimCornerMiter(floor, room, wall, false),
+          extension = (m: TrimMiterPlane) =>
+            Math.min(0, m.offset, m.offset + m.slope * trim.projection),
+          start =
+            a +
+            (a <= EPS ? extension(face.reversed ? endMiter : startMiter) : 0),
+          end =
+            b -
+            (b >= distance(wall.a, wall.b) - EPS
+              ? extension(face.reversed ? startMiter : endMiter)
+              : 0);
+        if (
+          overlaps(
+            fp,
+            wallRectangle(
+              wall,
+              start,
+              end,
+              sign === 1 ? half : -half - trim.projection,
+              sign === 1 ? half + trim.projection : -half,
+            ),
+          )
+        )
+          return "Keep the furniture clear of this wall’s baseboard projection.";
+      }
+    for (const opening of floor.openings.filter((o) => o.wallId === wall.id)) {
+      // Actual jambs/header project 2cm beyond both finished wall faces.
+      const casings = [
+        {
+          start: opening.offset - CASING_OFFSET - CASING_WIDTH / 2,
+          end: opening.offset - CASING_OFFSET + CASING_WIDTH / 2,
+          bottom: opening.sill,
+          top: opening.sill + opening.height + CASING_TOP,
+        },
+        {
+          start:
+            opening.offset + opening.width + CASING_OFFSET - CASING_WIDTH / 2,
+          end:
+            opening.offset + opening.width + CASING_OFFSET + CASING_WIDTH / 2,
+          bottom: opening.sill,
+          top: opening.sill + opening.height + CASING_TOP,
+        },
+        {
+          start: opening.offset - 0.05,
+          end: opening.offset + opening.width + 0.05,
+          bottom: opening.sill + opening.height,
+          top: opening.sill + opening.height + 0.05,
+        },
+      ];
+      if (
+        casings.some(
+          (p) =>
+            heightOverlap(p.bottom, p.top) &&
+            overlaps(
+              fp,
+              wallRectangle(wall, p.start, p.end, -half - 0.02, half + 0.02),
+            ),
+        )
+      )
+        return "Keep the furniture clear of the opening frame.";
+      if (
+        opening.type === "window" &&
+        heightOverlap(
+          opening.sill + 0.03,
+          opening.sill + opening.height - 0.03,
+        ) &&
+        overlaps(
+          fp,
+          wallRectangle(
+            wall,
+            opening.offset + 0.03,
+            opening.offset + opening.width - 0.03,
+            -0.0125,
+            0.0125,
+          ),
+        )
+      )
+        return "Keep the furniture clear of the window glazing.";
+      if (
+        heightOverlap(opening.sill, opening.sill + opening.height) &&
+        openingMotionEnvelopes(wall, opening).some((envelope) =>
+          overlaps(fp, envelope),
+        )
+      )
+        return "Keep the moving door panel area clear.";
+    }
   }
-  if (asset.dimensionsMetres.height > (room.ceiling ?? floor.ceiling) - 0.02)
+  if (top > (room.ceiling ?? floor.ceiling) - 0.02)
     return "This item exceeds the room ceiling height.";
   for (const other of floor.items) {
     if (other.id === item.id || other.roomId !== room.id) continue;
@@ -363,19 +780,6 @@ export function canPlace(
       return `Furniture revision unavailable: ${other.assetId} (${other.assetVersion}). Restore its saved model before changing room geometry.`;
     if (overlaps(fp, footprint(other, model), 0.005))
       return "Furniture footprints overlap. Choose a clear position.";
-  }
-  for (const opening of floor.openings) {
-    const wall = floor.walls.find((w) => w.id === opening.wallId);
-    if (
-      !wall ||
-      !wall.faces.some((f) => f.roomId === room.id) ||
-      !["single", "double"].includes(opening.type)
-    )
-      continue;
-    if (
-      swingEnvelopes(wall, opening).some((envelope) => overlaps(fp, envelope))
-    )
-      return "Keep the door swing area clear.";
   }
   return null;
 }
@@ -472,6 +876,235 @@ export function wallFaceSpan(floor: Floor, wall: Wall, roomId: string) {
       }
     }
   return { low: 0, high: len };
+}
+type InsideSegment = { a: Point; b: Point };
+function lineIntersection(
+  a: Point,
+  b: Point,
+  c: Point,
+  d: Point,
+): Point | null {
+  const ux = b.x - a.x,
+    uz = b.z - a.z,
+    vx = d.x - c.x,
+    vz = d.z - c.z;
+  const cross = ux * vz - uz * vx;
+  if (Math.abs(cross) < 1e-10) return null;
+  const t = ((c.x - a.x) * vz - (c.z - a.z) * vx) / cross;
+  return { x: a.x + t * ux, z: a.z + t * uz };
+}
+function insideSegments(floor: Floor, room: Room): InsideSegment[] {
+  const winding = area(room.polygon) < 0 ? -1 : 1;
+  return room.polygon.flatMap((a, i) => {
+    const b = room.polygon[(i + 1) % room.polygon.length],
+      length = distance(a, b);
+    const ux = (b.x - a.x) / length,
+      uz = (b.z - a.z) / length;
+    const walls = floor.walls
+      .filter(
+        (w) =>
+          w.faces.some((f) => f.roomId === room.id) &&
+          projectToSegment(w.a, a, b).distance < EPS &&
+          projectToSegment(w.b, a, b).distance < EPS,
+      )
+      .map((w) => {
+        const first = (w.a.x - a.x) * ux + (w.a.z - a.z) * uz;
+        const second = (w.b.x - a.x) * ux + (w.b.z - a.z) * uz;
+        const point = (t: number): Point => ({
+          x: a.x + t * ux - (uz * winding * w.thickness) / 2,
+          z: a.z + t * uz + (ux * winding * w.thickness) / 2,
+        });
+        return {
+          low: Math.min(first, second),
+          a: point(Math.min(first, second)),
+          b: point(Math.max(first, second)),
+        };
+      })
+      .sort((p, q) => p.low - q.low);
+    if (!walls.length) throw new Error("Room wall references are unavailable.");
+    return walls.map(({ a, b }) => ({ a, b }));
+  });
+}
+/** Joined inside wall-face outline; trim is measured separately.
+ * V1 stored polygons remain wall reference lines. No load-time coordinate migration. */
+export function roomInsideOutline(floor: Floor, room: Room): Point[] {
+  const segments = insideSegments(floor, room);
+  const joins = segments.map((current, i) => {
+    const previous = segments[(i + segments.length - 1) % segments.length];
+    const intersection = lineIntersection(
+      previous.a,
+      previous.b,
+      current.a,
+      current.b,
+    );
+    return intersection
+      ? [intersection]
+      : distance(previous.b, current.a) < EPS
+        ? [current.a]
+        : [previous.b, current.a];
+  });
+  for (let i = 0; i < segments.length; i++) {
+    const start = joins[i][joins[i].length - 1],
+      end = joins[(i + 1) % joins.length][0],
+      segment = segments[i];
+    if (
+      (end.x - start.x) * (segment.b.x - segment.a.x) +
+        (end.z - start.z) * (segment.b.z - segment.a.z) <
+      -EPS
+    )
+      throw new Error("Wall thickness leaves no valid inside room span.");
+  }
+  return joins.flat();
+}
+export function roomInsideDimensions(floor: Floor, room: Room) {
+  const box = bounds(roomInsideOutline(floor, room));
+  return {
+    width: box.maxX - box.minX,
+    depth: box.maxZ - box.minZ,
+    bounds: box,
+  };
+}
+/** Explicit new orthogonal-room input conversion. Origins remain wall references. */
+export function newRoomReferenceDimensions(
+  width: number,
+  depth: number,
+  wallThickness = 0.12,
+) {
+  return { width: width + wallThickness, depth: depth + wallThickness };
+}
+/** Solve an affine reference-outline resize for requested inside-face spans.
+ * Existing untouched reference sizes return exactly, avoiding unit-roundtrip drift. */
+export function referenceDimensionsForInside(
+  floor: Floor,
+  room: Room,
+  width: number,
+  depth: number,
+) {
+  if (![width, depth].every(Number.isFinite) || width <= 0 || depth <= 0)
+    throw new Error("Use positive finite inside dimensions.");
+  const original = bounds(room.polygon),
+    oldWidth = original.maxX - original.minX,
+    oldDepth = original.maxZ - original.minZ;
+  const initial = roomInsideDimensions(floor, room);
+  if (
+    Math.abs(initial.width - width) < 1e-8 &&
+    Math.abs(initial.depth - depth) < 1e-8
+  )
+    return { width: oldWidth, depth: oldDepth };
+  const evaluate = (w: number, d: number) => {
+    const map = (p: Point): Point => ({
+      x: original.minX + ((p.x - original.minX) * w) / oldWidth,
+      z: original.minZ + ((p.z - original.minZ) * d) / oldDepth,
+    });
+    const nextRoom = { ...room, polygon: room.polygon.map(map) };
+    const nextFloor = {
+      ...floor,
+      walls: floor.walls.map((wall) =>
+        wall.faces.some((face) => face.roomId === room.id)
+          ? { ...wall, a: map(wall.a), b: map(wall.b) }
+          : wall,
+      ),
+    };
+    return roomInsideDimensions(nextFloor, nextRoom);
+  };
+  let w = oldWidth + width - initial.width,
+    d = oldDepth + depth - initial.depth;
+  for (let i = 0; i < 16; i++) {
+    if (!(w > 0 && d > 0 && Number.isFinite(w) && Number.isFinite(d))) break;
+    const actual = evaluate(w, d),
+      errorX = width - actual.width,
+      errorZ = depth - actual.depth;
+    if (Math.abs(errorX) < 1e-7 && Math.abs(errorZ) < 1e-7)
+      return { width: w, depth: d };
+    const delta = 1e-4,
+      x = evaluate(w + delta, d),
+      z = evaluate(w, d + delta);
+    const ax = (x.width - actual.width) / delta,
+      az = (x.depth - actual.depth) / delta;
+    const bx = (z.width - actual.width) / delta,
+      bz = (z.depth - actual.depth) / delta;
+    const determinant = ax * bz - bx * az;
+    if (Math.abs(determinant) < 1e-10) break;
+    w += (errorX * bz - bx * errorZ) / determinant;
+    d += (ax * errorZ - errorX * az) / determinant;
+  }
+  throw new Error("These inside dimensions cannot be applied to this outline.");
+}
+/** Actual inside-face corner chain, distinct from the retained reference span. */
+export function wallFaceInsideSpan(floor: Floor, wall: Wall, roomId: string) {
+  const room = floor.rooms.find((r) => r.id === roomId);
+  if (!room) throw new Error("Room face is unavailable.");
+  const winding = area(room.polygon) < 0 ? -1 : 1;
+  const index = room.polygon.findIndex(
+    (a, i) =>
+      projectToSegment(wall.a, a, room.polygon[(i + 1) % room.polygon.length])
+        .distance < EPS &&
+      projectToSegment(wall.b, a, room.polygon[(i + 1) % room.polygon.length])
+        .distance < EPS,
+  );
+  if (index < 0)
+    throw new Error("Wall face does not belong to the room boundary.");
+  const edge = (
+    i: number,
+    atEnd: boolean,
+    thickness?: number,
+  ): InsideSegment => {
+    const a = room.polygon[(i + room.polygon.length) % room.polygon.length],
+      b = room.polygon[(i + 1 + room.polygon.length) % room.polygon.length];
+    const touching = floor.walls.find(
+      (w) =>
+        w.faces.some((f) => f.roomId === roomId) &&
+        (distance(w.a, atEnd ? b : a) < EPS ||
+          distance(w.b, atEnd ? b : a) < EPS) &&
+        projectToSegment(w.a, a, b).distance < EPS &&
+        projectToSegment(w.b, a, b).distance < EPS,
+    );
+    const inset = (thickness ?? touching?.thickness ?? wall.thickness) / 2,
+      length = distance(a, b);
+    const offset = {
+      x: (-(b.z - a.z) / length) * winding * inset,
+      z: ((b.x - a.x) / length) * winding * inset,
+    };
+    return {
+      a: { x: a.x + offset.x, z: a.z + offset.z },
+      b: { x: b.x + offset.x, z: b.z + offset.z },
+    };
+  };
+  const current = edge(index, false, wall.thickness),
+    previous = edge(index - 1, true),
+    next = edge(index + 1, false);
+  const first =
+    lineIntersection(previous.a, previous.b, current.a, current.b) ?? current.a;
+  const last =
+    lineIntersection(current.a, current.b, next.a, next.b) ?? current.b;
+  const length = distance(wall.a, wall.b),
+    ux = (wall.b.x - wall.a.x) / length,
+    uz = (wall.b.z - wall.a.z) / length;
+  const a = (first.x - wall.a.x) * ux + (first.z - wall.a.z) * uz,
+    b = (last.x - wall.a.x) * ux + (last.z - wall.a.z) * uz;
+  return {
+    low: Math.min(a, b),
+    high: Math.max(a, b),
+    normalOffset:
+      ((wall.faces.find((f) => f.roomId === roomId)!.reversed ? -1 : 1) *
+        wall.thickness) /
+      2,
+  };
+}
+export function openingInsideDimensions(floor: Floor, opening: Opening) {
+  const wall = floor.walls.find((w) => w.id === opening.wallId);
+  if (!wall) return [];
+  return wall.faces.map((face) => {
+    const span = wallFaceInsideSpan(floor, wall, face.roomId);
+    const before = opening.offset - span.low,
+      after = span.high - opening.offset - opening.width;
+    return {
+      roomId: face.roomId,
+      name: floor.rooms.find((r) => r.id === face.roomId)?.name ?? "Room",
+      before: face.reversed ? after : before,
+      after: face.reversed ? before : after,
+    };
+  });
 }
 export function openingDimensions(floor: Floor, opening: Opening) {
   const wall = floor.walls.find((w) => w.id === opening.wallId);

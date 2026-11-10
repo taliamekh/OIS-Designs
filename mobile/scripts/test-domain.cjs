@@ -97,6 +97,247 @@ const makeItem = (r, a = asset) => ({
   locked: false,
   materialOverrides: {},
 });
+test("inside input is explicit and untouched legacy coordinates survive resizing and recovery", () => {
+  const legacy = D.makeProject("living", 5, 4),
+    inside = D.makeProject(
+      "living",
+      5,
+      4,
+      2.7,
+      "rectangle",
+      undefined,
+      "inside",
+    );
+  const oldFloor = legacy.floors[0],
+    oldRoom = oldFloor.rooms[0];
+  assert.ok(
+    Math.abs(G.roomInsideDimensions(oldFloor, oldRoom).width - 4.88) < 1e-8,
+  );
+  assert.ok(
+    Math.abs(
+      G.roomInsideDimensions(inside.floors[0], inside.floors[0].rooms[0])
+        .width - 5,
+    ) < 1e-8,
+  );
+  const h = { past: [], present: legacy, future: [] },
+    dimensions = G.roomInsideDimensions(oldFloor, oldRoom);
+  const unchanged = D.execute(
+    h,
+    {
+      type: "room-dimensions",
+      floorId: oldFloor.id,
+      roomId: oldRoom.id,
+      width: dimensions.width,
+      depth: dimensions.depth,
+      ceiling: null,
+      dimensionMode: "inside",
+    },
+    "2d",
+    assets,
+  );
+  assert.equal(unchanged.error, null);
+  assert.deepEqual(
+    unchanged.history.present.floors[0].rooms[0].polygon,
+    oldRoom.polygon,
+  );
+});
+
+const roomMoveFixture = () => {
+  const { h, p, f, r } = fixture(),
+    neighbour = D.makeRoom(
+      "kitchen",
+      "Kitchen",
+      G.shapePolygon("rectangle", 4, 5, { x: 6, z: 0 }),
+    );
+  f.rooms.push(
+    neighbour,
+    D.makeRoom(
+      "bedroom",
+      "Detached room",
+      G.shapePolygon("rectangle", 3, 3, { x: 20, z: 0 }),
+    ),
+  );
+  f.walls = G.rebuildWalls(f.rooms);
+  const shared = f.walls.find((wall) => wall.faces.length === 2);
+  // Use the actual valid default wall finish rather than a renderer-only mock.
+  r.wallFaces[shared.id] = {
+    ...require("../src/domain/types.ts").defaultWall,
+    colour: "#abcdef",
+  };
+  f.openings.push({
+    id: "move-door",
+    wallId: shared.id,
+    type: "single",
+    offset: 1.5,
+    width: 0.9,
+    height: 2.1,
+    sill: 0,
+    hinge: "left",
+    flip: false,
+  });
+  f.items.push({ ...makeItem(r), locked: true });
+  return { h, p, f, r, shared };
+};
+test("untouched inside dimensions preserve every fractional reference coordinate and wall byte", () => {
+  const polygon = [
+    { x: 0, z: 0 },
+    { x: 4.120000128, z: 0 },
+    { x: 4.120000128, z: 3.1200000960000005 },
+    { x: 0, z: 3.1200000960000005 },
+  ];
+  const p = D.makeProject("living", 4, 3, 3.1, "draw", polygon),
+    f = p.floors[0],
+    r = f.rooms[0],
+    inside = G.roomInsideDimensions(f, r),
+    h = { past: [], present: p, future: [] };
+  const result = D.execute(
+    h,
+    {
+      type: "room-dimensions",
+      floorId: f.id,
+      roomId: r.id,
+      width: inside.width,
+      depth: inside.depth,
+      ceiling: null,
+      dimensionMode: "inside",
+    },
+    "2d",
+    assets,
+  );
+  assert.equal(result.error, null);
+  assert.deepEqual(result.history.present.floors[0], f);
+});
+test("new inside-sized room accounts for an existing thicker shared wall without moving its neighbour", () => {
+  const { h, f, r } = fixture();
+  for (const wall of f.walls) wall.thickness = 0.3;
+  const before = clone(r.polygon),
+    requested = { width: 3, depth: 3.8 };
+  const reference = G.newRoomReferenceDimensions(
+    requested.width,
+    requested.depth,
+  );
+  const room = D.makeRoom(
+    "bedroom",
+    "New room",
+    G.shapePolygon("rectangle", reference.width, reference.depth, {
+      x: 6,
+      z: 0,
+    }),
+  );
+  const result = D.execute(
+    h,
+    { type: "add-room", floorId: f.id, room, insideDimensions: requested },
+    "2d",
+    assets,
+  );
+  assert.equal(result.error, null);
+  const next = result.history.present.floors[0],
+    added = next.rooms.find((r) => r.id === room.id),
+    measured = G.roomInsideDimensions(next, added);
+  assert.ok(Math.abs(measured.width - requested.width) < 1e-6);
+  assert.ok(Math.abs(measured.depth - requested.depth) < 1e-6);
+  assert.deepEqual(next.rooms[0].polygon, before);
+  assert.equal(next.walls.find((w) => w.faces.length === 2).thickness, 0.3);
+});
+test("locked furniture in a detached room does not block an independent room move", () => {
+  const { h, f, r } = roomMoveFixture();
+  f.items[0].locked = false;
+  f.items.push({
+    ...makeItem(f.rooms[2]),
+    id: "detached-locked",
+    x: 21.5,
+    z: 1.5,
+    locked: true,
+  });
+  const result = D.execute(
+    h,
+    { type: "move-room", floorId: f.id, roomId: r.id, x: 1, z: -1 },
+    "2d",
+    assets,
+  );
+  assert.equal(result.error, null);
+  assert.deepEqual(result.history.present.floors[0].items[1], f.items[1]);
+});
+test("room locks reject a move exactly; unlock/retry moves the structure with one reversible command", () => {
+  const { h, f, r, shared } = roomMoveFixture(),
+    before = JSON.stringify(h);
+  const blocked = D.execute(
+    h,
+    { type: "move-room", floorId: f.id, roomId: r.id, x: 1, z: 0.5 },
+    "2d",
+    assets,
+  );
+  assert.match(blocked.error, /Unlock/);
+  assert.equal(blocked.history, h);
+  const unlocked = D.execute(
+    h,
+    { type: "lock", floorId: f.id, itemId: f.items[0].id, locked: false },
+    "2d",
+    assets,
+  );
+  assert.equal(unlocked.error, null);
+  const result = D.execute(
+    unlocked.history,
+    { type: "move-room", floorId: f.id, roomId: r.id, x: 1.25, z: -2.5 },
+    "2d",
+    assets,
+  );
+  assert.equal(result.error, null);
+  assert.equal(JSON.stringify(h), before);
+  assert.equal(result.history.past.length, 2);
+  const next = result.history.present.floors[0];
+  for (let i = 0; i < 2; i++)
+    for (let j = 0; j < f.rooms[i].polygon.length; j++) {
+      assert.equal(next.rooms[i].polygon[j].x, f.rooms[i].polygon[j].x + 1.25);
+      assert.equal(next.rooms[i].polygon[j].z, f.rooms[i].polygon[j].z - 2.5);
+    }
+  assert.deepEqual(next.rooms[2], f.rooms[2]);
+  assert.equal(next.items[0].x, f.items[0].x + 1.25);
+  assert.equal(next.items[0].z, f.items[0].z - 2.5);
+  assert.equal(next.items[0].locked, false);
+  const door = next.openings[0],
+    wall = next.walls.find((w) => w.id === door.wallId);
+  assert.equal(wall.faces.length, 2);
+  assert.equal(door.offset, f.openings[0].offset);
+  assert.equal(wall.a.x, shared.a.x + 1.25);
+  assert.equal(next.rooms[0].wallFaces[wall.id].colour, "#abcdef");
+  assert.deepEqual(
+    D.travelHistory(result.history, "undo", "2d").history.present,
+    unlocked.history.present,
+  );
+  assert.deepEqual(
+    D.travelHistory(
+      D.travelHistory(result.history, "undo", "2d").history,
+      "redo",
+      "2d",
+    ).history.present,
+    result.history.present,
+  );
+});
+test("room preview is immutable; overlap, invalid offsets and Walk reject without history changes", () => {
+  const { translatedRoomGroup } = require("../src/domain/roomMove.ts");
+  const { h, f, r } = roomMoveFixture();
+  f.items[0].locked = false;
+  const before = JSON.stringify(h);
+  const preview = translatedRoomGroup(f, r.id, { x: 1, z: -1 });
+  assert.equal(preview.items[0].locked, false);
+  assert.equal(preview.items[0].x, f.items[0].x + 1);
+  assert.equal(JSON.stringify(h), before);
+  for (const [mode, x] of [
+    ["2d", 17],
+    ["2d", NaN],
+    ["walk", 1],
+  ]) {
+    const result = D.execute(
+      h,
+      { type: "move-room", floorId: f.id, roomId: r.id, x, z: 0 },
+      mode,
+      assets,
+    );
+    assert.ok(result.error);
+    assert.equal(result.history, h);
+  }
+});
 const library = (h) => ({
   version: 1,
   projects: [h],

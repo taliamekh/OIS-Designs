@@ -164,16 +164,16 @@ let browser, page;
   };
   samples.push({
     step: "resize-open",
-    ...(await fitted(page, (s) => Math.abs(width(s) - 40) < 1e-8)),
+    ...(await fitted(page, (s) => Math.abs(width(s) - 40.12) < 1e-8)),
   });
   checks.push(
-    "40×30committed reference bounds fit immediately with the dimensions sheet open",
+    "40×30inside dimensions with40.12×30.12reference bounds fit immediately with the dimensions sheet open",
   );
   await page.screenshot({
     path: path.join(out, "screens/camera-large-open.png"),
   });
   await click("Close Room dimensions");
-  await fitted(page, (s) => Math.abs(width(s) - 40) < 1e-8);
+  await fitted(page, (s) => Math.abs(width(s) - 40.12) < 1e-8);
   await click("Undo");
   samples.push({
     step: "undo-closed",
@@ -189,7 +189,7 @@ let browser, page;
   await click("Redo");
   samples.push({
     step: "redo-closed",
-    ...(await fitted(page, (s) => Math.abs(width(s) - 40) < 1e-8)),
+    ...(await fitted(page, (s) => Math.abs(width(s) - 40.12) < 1e-8)),
   });
   checks.push("Redo refits the large committed geometry again");
   await context.close();
@@ -207,7 +207,9 @@ let browser, page;
   context = await open(mixed, { width: 844, height: 390 });
   original = JSON.stringify((await read(page)).history);
   await click("Build");
-  await click("Whole-floor view");
+  await click("View options");
+  await click("Floor");
+  await click("Fit floor");
   const lowActive = await fitted(page, (s) => s.probe.rooms.length === 2, true);
   samples.push({ step: "mixed-low-active", ...lowActive });
   checks.push(

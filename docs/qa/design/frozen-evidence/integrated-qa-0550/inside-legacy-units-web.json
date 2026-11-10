@@ -1,0 +1,136 @@
+{
+  "timestamp": "2026-11-10T05:47:38.362Z",
+  "evidence": "Actual legacy inside-dimension inspector, untouched Apply/unit roundtrips and collapsed-thickness recovery through normal phone UI. Project coordinates/history checked durably. Browser only.",
+  "storageOracle": {
+    "kind": "Production IndexedStorage.getItem, with its read-only legacy fallback",
+    "file": "mobile/src/storage/indexedStore.ts",
+    "sha256": "9943012679fd85da975028e6165febf8e149242bfef7b0a63f7ab6b98f76383d"
+  },
+  "runs": [
+    {
+      "collapsed": false,
+      "checks": [
+        {
+          "id": "opening-inspector-preserves-complete-legacy-project",
+          "pass": true
+        },
+        {
+          "id": "legacy-inside-fields-m-1",
+          "pass": true,
+          "observed": {
+            "width": 3.88,
+            "depth": 2.88
+          }
+        },
+        {
+          "id": "untouched-apply-preserves-exact-floor-m-2",
+          "pass": true
+        },
+        {
+          "id": "legacy-inside-fields-ft-3",
+          "pass": true,
+          "observed": {
+            "width": 12.73,
+            "depth": 9.449
+          }
+        },
+        {
+          "id": "untouched-apply-preserves-exact-floor-ft-4",
+          "pass": true
+        },
+        {
+          "id": "legacy-inside-fields-m-5",
+          "pass": true,
+          "observed": {
+            "width": 3.88,
+            "depth": 2.88
+          }
+        },
+        {
+          "id": "untouched-apply-preserves-exact-floor-m-6",
+          "pass": true
+        },
+        {
+          "id": "legacy-inside-fields-ft-7",
+          "pass": true,
+          "observed": {
+            "width": 12.73,
+            "depth": 9.449
+          }
+        },
+        {
+          "id": "untouched-apply-preserves-exact-floor-ft-8",
+          "pass": true
+        },
+        {
+          "id": "explicit-new-inside-resize-is-physical",
+          "pass": true
+        },
+        {
+          "id": "ceiling-override-stays-separate-from-floor",
+          "pass": true
+        },
+        {
+          "id": "inside-resize-undo-restores-exact-legacy-coordinates",
+          "pass": true
+        },
+        {
+          "id": "inside-resize-redo-restores-exact-result",
+          "pass": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": [],
+      "completed": true
+    },
+    {
+      "collapsed": true,
+      "checks": [
+        {
+          "id": "opening-inspector-preserves-complete-legacy-project",
+          "pass": true
+        },
+        {
+          "id": "collapsed-room-explains-reference-recovery",
+          "pass": true
+        },
+        {
+          "id": "explicit-reference-repair-makes-valid-clear-interior",
+          "pass": true
+        },
+        {
+          "id": "collapsed-undo-preserves-original-recoverable-project",
+          "pass": true
+        },
+        {
+          "id": "collapsed-warning-returns-on-undo",
+          "pass": true
+        },
+        {
+          "id": "collapsed-redo-preserves-exact-repair",
+          "pass": true
+        }
+      ],
+      "errors": [],
+      "consoleErrors": [],
+      "completed": true
+    }
+  ],
+  "ui": {
+    "id": "qa-web-2026-11-10T05-41-41-418Z",
+    "provenanceSha256": "2c8a0f597a1ee9069a218768be378a9b7a1914b17ab9ab0374cc933fb3d7fb58",
+    "sourceMapPass": true,
+    "compiledSourceMatchCount": 59,
+    "build": {
+      "sha256": "72eb853fb388dd06a3da6b9c7570876b3dcf60d4a1b34065e94d7087a680c2a8"
+    },
+    "project": {
+      "sha256": "1dbfdb9c35f3c4022921f45f24592c2c3a1fbd9486f89616bd4dcb3ab75ca16a"
+    },
+    "geometry": {
+      "sha256": "0c3a99288b3dc0d44f78168c5b036690c4d716b8b1f578c3b46aba4f06545244"
+    }
+  },
+  "passed": 19,
+  "failed": 0
+}

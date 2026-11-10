@@ -1,0 +1,1856 @@
+{
+  "candidate": {
+    "kind": "In-memory-only miter candidate; production source untouched",
+    "baseGeometrySha256": "0c3a99288b3dc0d44f78168c5b036690c4d716b8b1f578c3b46aba4f06545244",
+    "derivedGeometrySha256": "22e2bdaae02f00abd4fa56d00dc9e4cdc4185cf8dcabee1811a7f9b5807ff63f",
+    "meshMiterSourceSha256": "bd616ec1721ef5a2bf3ef2f5a9fb323dc37d8a9a33a4596ef75c16c9ef59b9ee"
+  },
+  "timestamp": "2026-11-10T05:24:19.451Z",
+  "evidence": "Actual integrated cabinet GLB vertices strictly inside actual closed production trim meshes, using upward DoubleSide ray parity plus four horizontal perturbations. CPU solid geometry, not a native rendering result.",
+  "sources": {
+    "src/domain/geometry.ts": "0c3a99288b3dc0d44f78168c5b036690c4d716b8b1f578c3b46aba4f06545244",
+    "src/scene/meshes.ts": "bd616ec1721ef5a2bf3ef2f5a9fb323dc37d8a9a33a4596ef75c16c9ef59b9ee",
+    "src/scene/RoomScene.tsx": "7b055eabc3198b10114ea1ecd623cf529d58f5bf71a34b9f443ec8c03e3b28d7"
+  },
+  "cases": [
+    {
+      "reverse": false,
+      "unequal": false,
+      "projection": 0.016,
+      "control": false,
+      "item": {
+        "id": "qa-cabinet",
+        "roomId": "room-mwa8whqp-o3yx5n6",
+        "assetId": "ois.calm-oak.kitchen-base",
+        "assetVersion": "0.1.0",
+        "assetHash": "50feb5b77773185282de5a3694f6e764d5f2e87b323f906aa394c6187669928a",
+        "x": 2.9799999976158142,
+        "z": 2.6799999976158144,
+        "yaw": 0,
+        "locked": false,
+        "materialOverrides": {}
+      },
+      "error": "Keep the furniture clear of this wall’s baseboard projection.",
+      "commandError": "Keep the furniture clear of this wall’s baseboard projection.",
+      "accepted": false,
+      "testedLowVertices": 600,
+      "strictInteriorVertices": [
+        {
+          "mesh": "dark_geometry",
+          "vertex": [
+            3.2279999935626984,
+            0.011999998241662979,
+            2.9599999876320364
+          ],
+          "trimWallId": "wall:33000,30000:33000,60000"
+        },
+        {
+          "mesh": "dark_geometry",
+          "vertex": [
+            3.2279999935626984,
+            0.011999998241662979,
+            2.9599999876320364
+          ],
+          "trimWallId": "wall:33000,30000:33000,60000"
+        },
+        {
+          "mesh": "dark_geometry",
+          "vertex": [
+            3.2279999935626984,
+            0.011999998241662979,
+            2.9599999876320364
+          ],
+          "trimWallId": "wall:33000,30000:33000,60000"
+        },
+        {
+          "mesh": "dark_geometry",
+          "vertex": [
+            3.2339921379089356,
+            0.0016031600534915924,
+            2.9479999931156637
+          ],
+          "trimWallId": "wall:33000,30000:33000,60000"
+        },
+        {
+          "mesh": "dark_geometry",
+          "vertex": [
+            3.2339921379089356,
+            0.0016031600534915924,
+            2.9479999931156637
+          ],
+          "trimWallId": "wall:33000,30000:33000,60000"
+        },
+        {
+          "mesh": "dark_geometry",
+          "vertex": [
+            3.2339921379089356,
+            0.0016031600534915924,
+            2.9479999931156637
+          ],
+          "trimWallId": "wall:33000,30000:33000,60000"
+        },
+        {
+          "mesh": "dark_geometry",
+          "vertex": [
+            3.228000023365021,
+            0.0016031600534915924,
+            2.9539921076595785
+          ],
+          "trimWallId": "wall:33000,30000:33000,60000"
+        },
+        {
+          "mesh": "dark_geometry",
+          "vertex": [
+            3.228000023365021,
+            0.0016031600534915924,
+            2.9539921076595785
+          ],
+          "trimWallId": "wall:33000,30000:33000,60000"
+        },
+        {
+          "mesh": "dark_geometry",
+          "vertex": [
+            3.2337385499477387,
+            0.003160417079925537,
+            2.9537385196983816
+          ],
+          "trimWallId": "wall:33000,30000:33000,60000"
+        },
+        {
+          "mesh": "dark_geometry",
+          "vertex": [
+            3.2337385499477387,
+            0.003160417079925537,
+            2.9537385196983816
+          ],
+          "trimWallId": "wall:33000,30000:33000,60000"
+        },
+        {
+          "mesh": "dark_geometry",
+          "vertex": [
+            3.2337385499477387,
+            0.003160417079925537,
+            2.9537385196983816
+          ],
+          "trimWallId": "wall:33000,30000:33000,60000"
+        },
+        {
+          "mesh": "dark_geometry",
+          "vertex": [
+            3.238396861553192,
+            0.012000005692243576,
+            2.9539921076595785
+          ],
+          "trimWallId": "wall:33000,30000:33000,60000"
+        },
+        {
+          "mesh": "dark_geometry",
+          "vertex": [
+            3.238396861553192,
+            0.012000005692243576,
+            2.9539921076595785
+          ],
+          "trimWallId": "wall:33000,30000:33000,60000"
+        },
+        {
+          "mesh": "dark_geometry",
+          "vertex": [
+            3.238396861553192,
+            0.006007879972457886,
+            2.9479999931156637
+          ],
+          "trimWallId": "wall:33000,30000:33000,60000"
+        },
+        {
+          "mesh": "dark_geometry",
+          "vertex": [
+            3.238396861553192,
+            0.006007879972457886,
+            2.9479999931156637
+          ],
+          "trimWallId": "wall:33000,30000:33000,60000"
+        },
+        {
+          "mesh": "dark_geometry",
+          "vertex": [
+            3.236839600801468,
+            0.006261467933654785,
+            2.9537385196983816
+          ],
+          "trimWallId": "wall:33000,30000:33000,60000"
+        },
+        {
+          "mesh": "dark_geometry",
+          "vertex": [
+            3.236839600801468,
+            0.006261467933654785,
+            2.9537385196983816
+          ],
+          "trimWallId": "wall:33000,30000:33000,60000"
+        },
+        {
+          "mesh": "dark_geometry",
+          "vertex": [
+            3.236839600801468,
+            0.006261467933654785,
+            2.9537385196983816
+          ],
+          "trimWallId": "wall:33000,30000:33000,60000"
+        },
+        {
+          "mesh": "dark_geometry",
+          "vertex": [
+            3.228000023365021,
+            0.006007879972457886,
+            2.958396831303835
+          ],
+          "trimWallId": "wall:33000,30000:33000,60000"
+        },
+        {
+          "mesh": "dark_geometry",
+          "vertex": [
+            3.228000023365021,
+            0.006007879972457886,
+            2.958396831303835
+          ],
+          "trimWallId": "wall:33000,30000:33000,60000"
+        }
+      ],
+      "pass": true
+    },
+    {
+      "reverse": false,
+      "unequal": false,
+      "projection": 0.016,
+      "control": true,
+      "item": {
+        "id": "qa-cabinet",
+        "roomId": "room-mwa8whrl-seadyju",
+        "assetId": "ois.calm-oak.kitchen-base",
+        "assetVersion": "0.1.0",
+        "assetHash": "50feb5b77773185282de5a3694f6e764d5f2e87b323f906aa394c6187669928a",
+        "x": 2.839999997615814,
+        "z": 2.5399999976158143,
+        "yaw": 0,
+        "locked": false,
+        "materialOverrides": {}
+      },
+      "error": null,
+      "commandError": null,
+      "accepted": true,
+      "testedLowVertices": 600,
+      "strictInteriorVertices": [],
+      "pass": true
+    },
+    {
+      "reverse": false,
+      "unequal": false,
+      "projection": 0.06,
+      "control": false,
+      "item": {
+        "id": "qa-cabinet",
+        "roomId": "room-mwa8whru-1mwaukn",
+        "assetId": "ois.calm-oak.kitchen-base",
+        "assetVersion": "0.1.0",
+        "assetHash": "50feb5b77773185282de5a3694f6e764d5f2e87b323f906aa394c6187669928a",
+        "x": 2.9799999976158142,
+        "z": 2.6799999976158144,
+        "yaw": 0,
+        "locked": false,
+        "materialOverrides": {}
+      },
+      "error": "Keep the furniture clear of this wall’s baseboard projection.",
+      "commandError": "Keep the furniture clear of this wall’s baseboard projection.",
+      "accepted": false,
+      "testedLowVertices": 600,
+      "strictInteriorVertices": [
+        {
+          "mesh": "dark_geometry",
+          "vertex": [
+            3.2279999935626984,
+            0.011999998241662979,
+            2.9599999876320364
+          ],
+          "trimWallId": "wall:33000,30000:33000,60000"
+        },
+        {
+          "mesh": "dark_geometry",
+          "vertex": [
+            3.2279999935626984,
+            0.011999998241662979,
+            2.9599999876320364
+          ],
+          "trimWallId": "wall:33000,30000:33000,60000"
+        },
+        {
+          "mesh": "dark_geometry",
+          "vertex": [
+            3.2279999935626984,
+            0.011999998241662979,
+            2.9599999876320364
+          ],
+          "trimWallId": "wall:33000,30000:33000,60000"
+        },
+        {
+          "mesh": "dark_geometry",
+          "vertex": [
+            3.2339921379089356,
+            0.0016031600534915924,
+            2.9479999931156637
+          ],
+          "trimWallId": "wall:33000,30000:33000,60000"
+        },
+        {
+          "mesh": "dark_geometry",
+          "vertex": [
+            3.2339921379089356,
+            0.0016031600534915924,
+            2.9479999931156637
+          ],
+          "trimWallId": "wall:33000,30000:33000,60000"
+        },
+        {
+          "mesh": "dark_geometry",
+          "vertex": [
+            3.2339921379089356,
+            0.0016031600534915924,
+            2.9479999931156637
+          ],
+          "trimWallId": "wall:33000,30000:33000,60000"
+        },
+        {
+          "mesh": "dark_geometry",
+          "vertex": [
+            3.228000023365021,
+            0.0016031600534915924,
+            2.9539921076595785
+          ],
+          "trimWallId": "wall:33000,30000:33000,60000"
+        },
+        {
+          "mesh": "dark_geometry",
+          "vertex": [
+            3.228000023365021,
+            0.0016031600534915924,
+            2.9539921076595785
+          ],
+          "trimWallId": "wall:33000,30000:33000,60000"
+        },
+        {
+          "mesh": "dark_geometry",
+          "vertex": [
+            3.2337385499477387,
+            0.003160417079925537,
+            2.9537385196983816
+          ],
+          "trimWallId": "wall:33000,30000:33000,60000"
+        },
+        {
+          "mesh": "dark_geometry",
+          "vertex": [
+            3.2337385499477387,
+            0.003160417079925537,
+            2.9537385196983816
+          ],
+          "trimWallId": "wall:33000,30000:33000,60000"
+        },
+        {
+          "mesh": "dark_geometry",
+          "vertex": [
+            3.2337385499477387,
+            0.003160417079925537,
+            2.9537385196983816
+          ],
+          "trimWallId": "wall:33000,30000:33000,60000"
+        },
+        {
+          "mesh": "dark_geometry",
+          "vertex": [
+            3.238396861553192,
+            0.012000005692243576,
+            2.9539921076595785
+          ],
+          "trimWallId": "wall:33000,30000:33000,60000"
+        },
+        {
+          "mesh": "dark_geometry",
+          "vertex": [
+            3.238396861553192,
+            0.012000005692243576,
+            2.9539921076595785
+          ],
+          "trimWallId": "wall:33000,30000:33000,60000"
+        },
+        {
+          "mesh": "dark_geometry",
+          "vertex": [
+            3.238396861553192,
+            0.006007879972457886,
+            2.9479999931156637
+          ],
+          "trimWallId": "wall:33000,30000:33000,60000"
+        },
+        {
+          "mesh": "dark_geometry",
+          "vertex": [
+            3.238396861553192,
+            0.006007879972457886,
+            2.9479999931156637
+          ],
+          "trimWallId": "wall:33000,30000:33000,60000"
+        },
+        {
+          "mesh": "dark_geometry",
+          "vertex": [
+            3.236839600801468,
+            0.006261467933654785,
+            2.9537385196983816
+          ],
+          "trimWallId": "wall:33000,30000:33000,60000"
+        },
+        {
+          "mesh": "dark_geometry",
+          "vertex": [
+            3.236839600801468,
+            0.006261467933654785,
+            2.9537385196983816
+          ],
+          "trimWallId": "wall:33000,30000:33000,60000"
+        },
+        {
+          "mesh": "dark_geometry",
+          "vertex": [
+            3.236839600801468,
+            0.006261467933654785,
+            2.9537385196983816
+          ],
+          "trimWallId": "wall:33000,30000:33000,60000"
+        },
+        {
+          "mesh": "dark_geometry",
+          "vertex": [
+            3.228000023365021,
+            0.006007879972457886,
+            2.958396831303835
+          ],
+          "trimWallId": "wall:33000,30000:33000,60000"
+        },
+        {
+          "mesh": "dark_geometry",
+          "vertex": [
+            3.228000023365021,
+            0.006007879972457886,
+            2.958396831303835
+          ],
+          "trimWallId": "wall:33000,30000:33000,60000"
+        }
+      ],
+      "pass": true
+    },
+    {
+      "reverse": false,
+      "unequal": false,
+      "projection": 0.06,
+      "control": true,
+      "item": {
+        "id": "qa-cabinet",
+        "roomId": "room-mwa8whs1-o17lgal",
+        "assetId": "ois.calm-oak.kitchen-base",
+        "assetVersion": "0.1.0",
+        "assetHash": "50feb5b77773185282de5a3694f6e764d5f2e87b323f906aa394c6187669928a",
+        "x": 2.839999997615814,
+        "z": 2.5399999976158143,
+        "yaw": 0,
+        "locked": false,
+        "materialOverrides": {}
+      },
+      "error": null,
+      "commandError": null,
+      "accepted": true,
+      "testedLowVertices": 600,
+      "strictInteriorVertices": [],
+      "pass": true
+    },
+    {
+      "reverse": false,
+      "unequal": true,
+      "projection": 0.016,
+      "control": false,
+      "item": {
+        "id": "qa-cabinet",
+        "roomId": "room-mwa8whsa-6v5570i",
+        "assetId": "ois.calm-oak.kitchen-base",
+        "assetVersion": "0.1.0",
+        "assetHash": "50feb5b77773185282de5a3694f6e764d5f2e87b323f906aa394c6187669928a",
+        "x": 2.9799999976158142,
+        "z": 2.6799999976158144,
+        "yaw": 0,
+        "locked": false,
+        "materialOverrides": {}
+      },
+      "error": "Keep the furniture clear of this wall’s baseboard projection.",
+      "commandError": "Keep the furniture clear of this wall’s baseboard projection.",
+      "accepted": false,
+      "testedLowVertices": 600,
+      "strictInteriorVertices": [
+        {
+          "mesh": "dark_geometry",
+          "vertex": [
+            3.2279999935626984,
+            0.011999998241662979,
+            2.9599999876320364
+          ],
+          "trimWallId": "wall:33000,30000:33000,60000"
+        },
+        {
+          "mesh": "dark_geometry",
+          "vertex": [
+            3.2279999935626984,
+            0.011999998241662979,
+            2.9599999876320364
+          ],
+          "trimWallId": "wall:33000,30000:33000,60000"
+        },
+        {
+          "mesh": "dark_geometry",
+          "vertex": [
+            3.2279999935626984,
+            0.011999998241662979,
+            2.9599999876320364
+          ],
+          "trimWallId": "wall:33000,30000:33000,60000"
+        },
+        {
+          "mesh": "dark_geometry",
+          "vertex": [
+            3.2339921379089356,
+            0.0016031600534915924,
+            2.9479999931156637
+          ],
+          "trimWallId": "wall:33000,30000:33000,60000"
+        },
+        {
+          "mesh": "dark_geometry",
+          "vertex": [
+            3.2339921379089356,
+            0.0016031600534915924,
+            2.9479999931156637
+          ],
+          "trimWallId": "wall:33000,30000:33000,60000"
+        },
+        {
+          "mesh": "dark_geometry",
+          "vertex": [
+            3.2339921379089356,
+            0.0016031600534915924,
+            2.9479999931156637
+          ],
+          "trimWallId": "wall:33000,30000:33000,60000"
+        },
+        {
+          "mesh": "dark_geometry",
+          "vertex": [
+            3.228000023365021,
+            0.0016031600534915924,
+            2.9539921076595785
+          ],
+          "trimWallId": "wall:33000,30000:33000,60000"
+        },
+        {
+          "mesh": "dark_geometry",
+          "vertex": [
+            3.228000023365021,
+            0.0016031600534915924,
+            2.9539921076595785
+          ],
+          "trimWallId": "wall:33000,30000:33000,60000"
+        },
+        {
+          "mesh": "dark_geometry",
+          "vertex": [
+            3.2337385499477387,
+            0.003160417079925537,
+            2.9537385196983816
+          ],
+          "trimWallId": "wall:33000,30000:33000,60000"
+        },
+        {
+          "mesh": "dark_geometry",
+          "vertex": [
+            3.2337385499477387,
+            0.003160417079925537,
+            2.9537385196983816
+          ],
+          "trimWallId": "wall:33000,30000:33000,60000"
+        },
+        {
+          "mesh": "dark_geometry",
+          "vertex": [
+            3.2337385499477387,
+            0.003160417079925537,
+            2.9537385196983816
+          ],
+          "trimWallId": "wall:33000,30000:33000,60000"
+        },
+        {
+          "mesh": "dark_geometry",
+          "vertex": [
+            3.238396861553192,
+            0.012000005692243576,
+            2.9539921076595785
+          ],
+          "trimWallId": "wall:33000,30000:33000,60000"
+        },
+        {
+          "mesh": "dark_geometry",
+          "vertex": [
+            3.238396861553192,
+            0.012000005692243576,
+            2.9539921076595785
+          ],
+          "trimWallId": "wall:33000,30000:33000,60000"
+        },
+        {
+          "mesh": "dark_geometry",
+          "vertex": [
+            3.238396861553192,
+            0.006007879972457886,
+            2.9479999931156637
+          ],
+          "trimWallId": "wall:33000,30000:33000,60000"
+        },
+        {
+          "mesh": "dark_geometry",
+          "vertex": [
+            3.238396861553192,
+            0.006007879972457886,
+            2.9479999931156637
+          ],
+          "trimWallId": "wall:33000,30000:33000,60000"
+        },
+        {
+          "mesh": "dark_geometry",
+          "vertex": [
+            3.236839600801468,
+            0.006261467933654785,
+            2.9537385196983816
+          ],
+          "trimWallId": "wall:33000,30000:33000,60000"
+        },
+        {
+          "mesh": "dark_geometry",
+          "vertex": [
+            3.236839600801468,
+            0.006261467933654785,
+            2.9537385196983816
+          ],
+          "trimWallId": "wall:33000,30000:33000,60000"
+        },
+        {
+          "mesh": "dark_geometry",
+          "vertex": [
+            3.236839600801468,
+            0.006261467933654785,
+            2.9537385196983816
+          ],
+          "trimWallId": "wall:33000,30000:33000,60000"
+        },
+        {
+          "mesh": "dark_geometry",
+          "vertex": [
+            3.228000023365021,
+            0.006007879972457886,
+            2.958396831303835
+          ],
+          "trimWallId": "wall:33000,30000:33000,60000"
+        },
+        {
+          "mesh": "dark_geometry",
+          "vertex": [
+            3.228000023365021,
+            0.006007879972457886,
+            2.958396831303835
+          ],
+          "trimWallId": "wall:33000,30000:33000,60000"
+        }
+      ],
+      "pass": true
+    },
+    {
+      "reverse": false,
+      "unequal": true,
+      "projection": 0.016,
+      "control": true,
+      "item": {
+        "id": "qa-cabinet",
+        "roomId": "room-mwa8whsf-js72pjc",
+        "assetId": "ois.calm-oak.kitchen-base",
+        "assetVersion": "0.1.0",
+        "assetHash": "50feb5b77773185282de5a3694f6e764d5f2e87b323f906aa394c6187669928a",
+        "x": 2.839999997615814,
+        "z": 2.5399999976158143,
+        "yaw": 0,
+        "locked": false,
+        "materialOverrides": {}
+      },
+      "error": "Keep the furniture clear of this wall’s baseboard projection.",
+      "commandError": "Keep the furniture clear of this wall’s baseboard projection.",
+      "accepted": false,
+      "testedLowVertices": 600,
+      "strictInteriorVertices": [],
+      "pass": false
+    },
+    {
+      "reverse": false,
+      "unequal": true,
+      "projection": 0.06,
+      "control": false,
+      "item": {
+        "id": "qa-cabinet",
+        "roomId": "room-mwa8whsj-aqkv1yg",
+        "assetId": "ois.calm-oak.kitchen-base",
+        "assetVersion": "0.1.0",
+        "assetHash": "50feb5b77773185282de5a3694f6e764d5f2e87b323f906aa394c6187669928a",
+        "x": 2.9799999976158142,
+        "z": 2.6799999976158144,
+        "yaw": 0,
+        "locked": false,
+        "materialOverrides": {}
+      },
+      "error": "Keep the furniture clear of this wall’s baseboard projection.",
+      "commandError": "Keep the furniture clear of this wall’s baseboard projection.",
+      "accepted": false,
+      "testedLowVertices": 600,
+      "strictInteriorVertices": [
+        {
+          "mesh": "dark_geometry",
+          "vertex": [
+            3.2279999935626984,
+            0.011999998241662979,
+            2.9599999876320364
+          ],
+          "trimWallId": "wall:33000,30000:33000,60000"
+        },
+        {
+          "mesh": "dark_geometry",
+          "vertex": [
+            3.2279999935626984,
+            0.011999998241662979,
+            2.9599999876320364
+          ],
+          "trimWallId": "wall:33000,30000:33000,60000"
+        },
+        {
+          "mesh": "dark_geometry",
+          "vertex": [
+            3.2279999935626984,
+            0.011999998241662979,
+            2.9599999876320364
+          ],
+          "trimWallId": "wall:33000,30000:33000,60000"
+        },
+        {
+          "mesh": "dark_geometry",
+          "vertex": [
+            3.2339921379089356,
+            0.0016031600534915924,
+            2.9479999931156637
+          ],
+          "trimWallId": "wall:33000,30000:33000,60000"
+        },
+        {
+          "mesh": "dark_geometry",
+          "vertex": [
+            3.2339921379089356,
+            0.0016031600534915924,
+            2.9479999931156637
+          ],
+          "trimWallId": "wall:33000,30000:33000,60000"
+        },
+        {
+          "mesh": "dark_geometry",
+          "vertex": [
+            3.2339921379089356,
+            0.0016031600534915924,
+            2.9479999931156637
+          ],
+          "trimWallId": "wall:33000,30000:33000,60000"
+        },
+        {
+          "mesh": "dark_geometry",
+          "vertex": [
+            3.228000023365021,
+            0.0016031600534915924,
+            2.9539921076595785
+          ],
+          "trimWallId": "wall:33000,30000:33000,60000"
+        },
+        {
+          "mesh": "dark_geometry",
+          "vertex": [
+            3.228000023365021,
+            0.0016031600534915924,
+            2.9539921076595785
+          ],
+          "trimWallId": "wall:33000,30000:33000,60000"
+        },
+        {
+          "mesh": "dark_geometry",
+          "vertex": [
+            3.2337385499477387,
+            0.003160417079925537,
+            2.9537385196983816
+          ],
+          "trimWallId": "wall:33000,30000:33000,60000"
+        },
+        {
+          "mesh": "dark_geometry",
+          "vertex": [
+            3.2337385499477387,
+            0.003160417079925537,
+            2.9537385196983816
+          ],
+          "trimWallId": "wall:33000,30000:33000,60000"
+        },
+        {
+          "mesh": "dark_geometry",
+          "vertex": [
+            3.2337385499477387,
+            0.003160417079925537,
+            2.9537385196983816
+          ],
+          "trimWallId": "wall:33000,30000:33000,60000"
+        },
+        {
+          "mesh": "dark_geometry",
+          "vertex": [
+            3.238396861553192,
+            0.012000005692243576,
+            2.9539921076595785
+          ],
+          "trimWallId": "wall:33000,30000:33000,60000"
+        },
+        {
+          "mesh": "dark_geometry",
+          "vertex": [
+            3.238396861553192,
+            0.012000005692243576,
+            2.9539921076595785
+          ],
+          "trimWallId": "wall:33000,30000:33000,60000"
+        },
+        {
+          "mesh": "dark_geometry",
+          "vertex": [
+            3.238396861553192,
+            0.006007879972457886,
+            2.9479999931156637
+          ],
+          "trimWallId": "wall:33000,30000:33000,60000"
+        },
+        {
+          "mesh": "dark_geometry",
+          "vertex": [
+            3.238396861553192,
+            0.006007879972457886,
+            2.9479999931156637
+          ],
+          "trimWallId": "wall:33000,30000:33000,60000"
+        },
+        {
+          "mesh": "dark_geometry",
+          "vertex": [
+            3.236839600801468,
+            0.006261467933654785,
+            2.9537385196983816
+          ],
+          "trimWallId": "wall:33000,30000:33000,60000"
+        },
+        {
+          "mesh": "dark_geometry",
+          "vertex": [
+            3.236839600801468,
+            0.006261467933654785,
+            2.9537385196983816
+          ],
+          "trimWallId": "wall:33000,30000:33000,60000"
+        },
+        {
+          "mesh": "dark_geometry",
+          "vertex": [
+            3.236839600801468,
+            0.006261467933654785,
+            2.9537385196983816
+          ],
+          "trimWallId": "wall:33000,30000:33000,60000"
+        },
+        {
+          "mesh": "dark_geometry",
+          "vertex": [
+            3.228000023365021,
+            0.006007879972457886,
+            2.958396831303835
+          ],
+          "trimWallId": "wall:33000,30000:33000,60000"
+        },
+        {
+          "mesh": "dark_geometry",
+          "vertex": [
+            3.228000023365021,
+            0.006007879972457886,
+            2.958396831303835
+          ],
+          "trimWallId": "wall:33000,30000:33000,60000"
+        }
+      ],
+      "pass": true
+    },
+    {
+      "reverse": false,
+      "unequal": true,
+      "projection": 0.06,
+      "control": true,
+      "item": {
+        "id": "qa-cabinet",
+        "roomId": "room-mwa8whsp-z49edid",
+        "assetId": "ois.calm-oak.kitchen-base",
+        "assetVersion": "0.1.0",
+        "assetHash": "50feb5b77773185282de5a3694f6e764d5f2e87b323f906aa394c6187669928a",
+        "x": 2.839999997615814,
+        "z": 2.5399999976158143,
+        "yaw": 0,
+        "locked": false,
+        "materialOverrides": {}
+      },
+      "error": "Keep the furniture clear of this wall’s baseboard projection.",
+      "commandError": "Keep the furniture clear of this wall’s baseboard projection.",
+      "accepted": false,
+      "testedLowVertices": 600,
+      "strictInteriorVertices": [],
+      "pass": false
+    },
+    {
+      "reverse": true,
+      "unequal": false,
+      "projection": 0.016,
+      "control": false,
+      "item": {
+        "id": "qa-cabinet",
+        "roomId": "room-mwa8whst-g2v8yhl",
+        "assetId": "ois.calm-oak.kitchen-base",
+        "assetVersion": "0.1.0",
+        "assetHash": "50feb5b77773185282de5a3694f6e764d5f2e87b323f906aa394c6187669928a",
+        "x": 2.9799999976158142,
+        "z": 2.6799999976158144,
+        "yaw": 0,
+        "locked": false,
+        "materialOverrides": {}
+      },
+      "error": "Keep the furniture clear of this wall’s baseboard projection.",
+      "commandError": "Keep the furniture clear of this wall’s baseboard projection.",
+      "accepted": false,
+      "testedLowVertices": 600,
+      "strictInteriorVertices": [
+        {
+          "mesh": "dark_geometry",
+          "vertex": [
+            3.2279999935626984,
+            0.011999998241662979,
+            2.9599999876320364
+          ],
+          "trimWallId": "wall:33000,30000:33000,60000"
+        },
+        {
+          "mesh": "dark_geometry",
+          "vertex": [
+            3.2279999935626984,
+            0.011999998241662979,
+            2.9599999876320364
+          ],
+          "trimWallId": "wall:33000,30000:33000,60000"
+        },
+        {
+          "mesh": "dark_geometry",
+          "vertex": [
+            3.2279999935626984,
+            0.011999998241662979,
+            2.9599999876320364
+          ],
+          "trimWallId": "wall:33000,30000:33000,60000"
+        },
+        {
+          "mesh": "dark_geometry",
+          "vertex": [
+            3.2339921379089356,
+            0.0016031600534915924,
+            2.9479999931156637
+          ],
+          "trimWallId": "wall:33000,30000:33000,60000"
+        },
+        {
+          "mesh": "dark_geometry",
+          "vertex": [
+            3.2339921379089356,
+            0.0016031600534915924,
+            2.9479999931156637
+          ],
+          "trimWallId": "wall:33000,30000:33000,60000"
+        },
+        {
+          "mesh": "dark_geometry",
+          "vertex": [
+            3.2339921379089356,
+            0.0016031600534915924,
+            2.9479999931156637
+          ],
+          "trimWallId": "wall:33000,30000:33000,60000"
+        },
+        {
+          "mesh": "dark_geometry",
+          "vertex": [
+            3.228000023365021,
+            0.0016031600534915924,
+            2.9539921076595785
+          ],
+          "trimWallId": "wall:33000,30000:33000,60000"
+        },
+        {
+          "mesh": "dark_geometry",
+          "vertex": [
+            3.228000023365021,
+            0.0016031600534915924,
+            2.9539921076595785
+          ],
+          "trimWallId": "wall:33000,30000:33000,60000"
+        },
+        {
+          "mesh": "dark_geometry",
+          "vertex": [
+            3.2337385499477387,
+            0.003160417079925537,
+            2.9537385196983816
+          ],
+          "trimWallId": "wall:33000,30000:33000,60000"
+        },
+        {
+          "mesh": "dark_geometry",
+          "vertex": [
+            3.2337385499477387,
+            0.003160417079925537,
+            2.9537385196983816
+          ],
+          "trimWallId": "wall:33000,30000:33000,60000"
+        },
+        {
+          "mesh": "dark_geometry",
+          "vertex": [
+            3.2337385499477387,
+            0.003160417079925537,
+            2.9537385196983816
+          ],
+          "trimWallId": "wall:33000,30000:33000,60000"
+        },
+        {
+          "mesh": "dark_geometry",
+          "vertex": [
+            3.238396861553192,
+            0.012000005692243576,
+            2.9539921076595785
+          ],
+          "trimWallId": "wall:33000,30000:33000,60000"
+        },
+        {
+          "mesh": "dark_geometry",
+          "vertex": [
+            3.238396861553192,
+            0.012000005692243576,
+            2.9539921076595785
+          ],
+          "trimWallId": "wall:33000,30000:33000,60000"
+        },
+        {
+          "mesh": "dark_geometry",
+          "vertex": [
+            3.238396861553192,
+            0.006007879972457886,
+            2.9479999931156637
+          ],
+          "trimWallId": "wall:33000,30000:33000,60000"
+        },
+        {
+          "mesh": "dark_geometry",
+          "vertex": [
+            3.238396861553192,
+            0.006007879972457886,
+            2.9479999931156637
+          ],
+          "trimWallId": "wall:33000,30000:33000,60000"
+        },
+        {
+          "mesh": "dark_geometry",
+          "vertex": [
+            3.236839600801468,
+            0.006261467933654785,
+            2.9537385196983816
+          ],
+          "trimWallId": "wall:33000,30000:33000,60000"
+        },
+        {
+          "mesh": "dark_geometry",
+          "vertex": [
+            3.236839600801468,
+            0.006261467933654785,
+            2.9537385196983816
+          ],
+          "trimWallId": "wall:33000,30000:33000,60000"
+        },
+        {
+          "mesh": "dark_geometry",
+          "vertex": [
+            3.236839600801468,
+            0.006261467933654785,
+            2.9537385196983816
+          ],
+          "trimWallId": "wall:33000,30000:33000,60000"
+        },
+        {
+          "mesh": "dark_geometry",
+          "vertex": [
+            3.228000023365021,
+            0.006007879972457886,
+            2.958396831303835
+          ],
+          "trimWallId": "wall:33000,30000:33000,60000"
+        },
+        {
+          "mesh": "dark_geometry",
+          "vertex": [
+            3.228000023365021,
+            0.006007879972457886,
+            2.958396831303835
+          ],
+          "trimWallId": "wall:33000,30000:33000,60000"
+        }
+      ],
+      "pass": true
+    },
+    {
+      "reverse": true,
+      "unequal": false,
+      "projection": 0.016,
+      "control": true,
+      "item": {
+        "id": "qa-cabinet",
+        "roomId": "room-mwa8whsx-he7drzm",
+        "assetId": "ois.calm-oak.kitchen-base",
+        "assetVersion": "0.1.0",
+        "assetHash": "50feb5b77773185282de5a3694f6e764d5f2e87b323f906aa394c6187669928a",
+        "x": 2.839999997615814,
+        "z": 2.5399999976158143,
+        "yaw": 0,
+        "locked": false,
+        "materialOverrides": {}
+      },
+      "error": null,
+      "commandError": null,
+      "accepted": true,
+      "testedLowVertices": 600,
+      "strictInteriorVertices": [],
+      "pass": true
+    },
+    {
+      "reverse": true,
+      "unequal": false,
+      "projection": 0.06,
+      "control": false,
+      "item": {
+        "id": "qa-cabinet",
+        "roomId": "room-mwa8wht2-45eer02",
+        "assetId": "ois.calm-oak.kitchen-base",
+        "assetVersion": "0.1.0",
+        "assetHash": "50feb5b77773185282de5a3694f6e764d5f2e87b323f906aa394c6187669928a",
+        "x": 2.9799999976158142,
+        "z": 2.6799999976158144,
+        "yaw": 0,
+        "locked": false,
+        "materialOverrides": {}
+      },
+      "error": "Keep the furniture clear of this wall’s baseboard projection.",
+      "commandError": "Keep the furniture clear of this wall’s baseboard projection.",
+      "accepted": false,
+      "testedLowVertices": 600,
+      "strictInteriorVertices": [
+        {
+          "mesh": "dark_geometry",
+          "vertex": [
+            3.2279999935626984,
+            0.011999998241662979,
+            2.9599999876320364
+          ],
+          "trimWallId": "wall:33000,30000:33000,60000"
+        },
+        {
+          "mesh": "dark_geometry",
+          "vertex": [
+            3.2279999935626984,
+            0.011999998241662979,
+            2.9599999876320364
+          ],
+          "trimWallId": "wall:33000,30000:33000,60000"
+        },
+        {
+          "mesh": "dark_geometry",
+          "vertex": [
+            3.2279999935626984,
+            0.011999998241662979,
+            2.9599999876320364
+          ],
+          "trimWallId": "wall:33000,30000:33000,60000"
+        },
+        {
+          "mesh": "dark_geometry",
+          "vertex": [
+            3.2339921379089356,
+            0.0016031600534915924,
+            2.9479999931156637
+          ],
+          "trimWallId": "wall:33000,30000:33000,60000"
+        },
+        {
+          "mesh": "dark_geometry",
+          "vertex": [
+            3.2339921379089356,
+            0.0016031600534915924,
+            2.9479999931156637
+          ],
+          "trimWallId": "wall:33000,30000:33000,60000"
+        },
+        {
+          "mesh": "dark_geometry",
+          "vertex": [
+            3.2339921379089356,
+            0.0016031600534915924,
+            2.9479999931156637
+          ],
+          "trimWallId": "wall:33000,30000:33000,60000"
+        },
+        {
+          "mesh": "dark_geometry",
+          "vertex": [
+            3.228000023365021,
+            0.0016031600534915924,
+            2.9539921076595785
+          ],
+          "trimWallId": "wall:33000,30000:33000,60000"
+        },
+        {
+          "mesh": "dark_geometry",
+          "vertex": [
+            3.228000023365021,
+            0.0016031600534915924,
+            2.9539921076595785
+          ],
+          "trimWallId": "wall:33000,30000:33000,60000"
+        },
+        {
+          "mesh": "dark_geometry",
+          "vertex": [
+            3.2337385499477387,
+            0.003160417079925537,
+            2.9537385196983816
+          ],
+          "trimWallId": "wall:33000,30000:33000,60000"
+        },
+        {
+          "mesh": "dark_geometry",
+          "vertex": [
+            3.2337385499477387,
+            0.003160417079925537,
+            2.9537385196983816
+          ],
+          "trimWallId": "wall:33000,30000:33000,60000"
+        },
+        {
+          "mesh": "dark_geometry",
+          "vertex": [
+            3.2337385499477387,
+            0.003160417079925537,
+            2.9537385196983816
+          ],
+          "trimWallId": "wall:33000,30000:33000,60000"
+        },
+        {
+          "mesh": "dark_geometry",
+          "vertex": [
+            3.238396861553192,
+            0.012000005692243576,
+            2.9539921076595785
+          ],
+          "trimWallId": "wall:33000,30000:33000,60000"
+        },
+        {
+          "mesh": "dark_geometry",
+          "vertex": [
+            3.238396861553192,
+            0.012000005692243576,
+            2.9539921076595785
+          ],
+          "trimWallId": "wall:33000,30000:33000,60000"
+        },
+        {
+          "mesh": "dark_geometry",
+          "vertex": [
+            3.238396861553192,
+            0.006007879972457886,
+            2.9479999931156637
+          ],
+          "trimWallId": "wall:33000,30000:33000,60000"
+        },
+        {
+          "mesh": "dark_geometry",
+          "vertex": [
+            3.238396861553192,
+            0.006007879972457886,
+            2.9479999931156637
+          ],
+          "trimWallId": "wall:33000,30000:33000,60000"
+        },
+        {
+          "mesh": "dark_geometry",
+          "vertex": [
+            3.236839600801468,
+            0.006261467933654785,
+            2.9537385196983816
+          ],
+          "trimWallId": "wall:33000,30000:33000,60000"
+        },
+        {
+          "mesh": "dark_geometry",
+          "vertex": [
+            3.236839600801468,
+            0.006261467933654785,
+            2.9537385196983816
+          ],
+          "trimWallId": "wall:33000,30000:33000,60000"
+        },
+        {
+          "mesh": "dark_geometry",
+          "vertex": [
+            3.236839600801468,
+            0.006261467933654785,
+            2.9537385196983816
+          ],
+          "trimWallId": "wall:33000,30000:33000,60000"
+        },
+        {
+          "mesh": "dark_geometry",
+          "vertex": [
+            3.228000023365021,
+            0.006007879972457886,
+            2.958396831303835
+          ],
+          "trimWallId": "wall:33000,30000:33000,60000"
+        },
+        {
+          "mesh": "dark_geometry",
+          "vertex": [
+            3.228000023365021,
+            0.006007879972457886,
+            2.958396831303835
+          ],
+          "trimWallId": "wall:33000,30000:33000,60000"
+        }
+      ],
+      "pass": true
+    },
+    {
+      "reverse": true,
+      "unequal": false,
+      "projection": 0.06,
+      "control": true,
+      "item": {
+        "id": "qa-cabinet",
+        "roomId": "room-mwa8wht8-m1thfqo",
+        "assetId": "ois.calm-oak.kitchen-base",
+        "assetVersion": "0.1.0",
+        "assetHash": "50feb5b77773185282de5a3694f6e764d5f2e87b323f906aa394c6187669928a",
+        "x": 2.839999997615814,
+        "z": 2.5399999976158143,
+        "yaw": 0,
+        "locked": false,
+        "materialOverrides": {}
+      },
+      "error": null,
+      "commandError": null,
+      "accepted": true,
+      "testedLowVertices": 600,
+      "strictInteriorVertices": [],
+      "pass": true
+    },
+    {
+      "reverse": true,
+      "unequal": true,
+      "projection": 0.016,
+      "control": false,
+      "item": {
+        "id": "qa-cabinet",
+        "roomId": "room-mwa8whtc-y2w9vkl",
+        "assetId": "ois.calm-oak.kitchen-base",
+        "assetVersion": "0.1.0",
+        "assetHash": "50feb5b77773185282de5a3694f6e764d5f2e87b323f906aa394c6187669928a",
+        "x": 2.9799999976158142,
+        "z": 2.6799999976158144,
+        "yaw": 0,
+        "locked": false,
+        "materialOverrides": {}
+      },
+      "error": "Keep the furniture clear of this wall’s baseboard projection.",
+      "commandError": "Keep the furniture clear of this wall’s baseboard projection.",
+      "accepted": false,
+      "testedLowVertices": 600,
+      "strictInteriorVertices": [
+        {
+          "mesh": "dark_geometry",
+          "vertex": [
+            3.2279999935626984,
+            0.011999998241662979,
+            2.9599999876320364
+          ],
+          "trimWallId": "wall:33000,30000:33000,60000"
+        },
+        {
+          "mesh": "dark_geometry",
+          "vertex": [
+            3.2279999935626984,
+            0.011999998241662979,
+            2.9599999876320364
+          ],
+          "trimWallId": "wall:33000,30000:33000,60000"
+        },
+        {
+          "mesh": "dark_geometry",
+          "vertex": [
+            3.2279999935626984,
+            0.011999998241662979,
+            2.9599999876320364
+          ],
+          "trimWallId": "wall:33000,30000:33000,60000"
+        },
+        {
+          "mesh": "dark_geometry",
+          "vertex": [
+            3.2339921379089356,
+            0.0016031600534915924,
+            2.9479999931156637
+          ],
+          "trimWallId": "wall:33000,30000:33000,60000"
+        },
+        {
+          "mesh": "dark_geometry",
+          "vertex": [
+            3.2339921379089356,
+            0.0016031600534915924,
+            2.9479999931156637
+          ],
+          "trimWallId": "wall:33000,30000:33000,60000"
+        },
+        {
+          "mesh": "dark_geometry",
+          "vertex": [
+            3.2339921379089356,
+            0.0016031600534915924,
+            2.9479999931156637
+          ],
+          "trimWallId": "wall:33000,30000:33000,60000"
+        },
+        {
+          "mesh": "dark_geometry",
+          "vertex": [
+            3.228000023365021,
+            0.0016031600534915924,
+            2.9539921076595785
+          ],
+          "trimWallId": "wall:33000,30000:33000,60000"
+        },
+        {
+          "mesh": "dark_geometry",
+          "vertex": [
+            3.228000023365021,
+            0.0016031600534915924,
+            2.9539921076595785
+          ],
+          "trimWallId": "wall:33000,30000:33000,60000"
+        },
+        {
+          "mesh": "dark_geometry",
+          "vertex": [
+            3.2337385499477387,
+            0.003160417079925537,
+            2.9537385196983816
+          ],
+          "trimWallId": "wall:33000,30000:33000,60000"
+        },
+        {
+          "mesh": "dark_geometry",
+          "vertex": [
+            3.2337385499477387,
+            0.003160417079925537,
+            2.9537385196983816
+          ],
+          "trimWallId": "wall:33000,30000:33000,60000"
+        },
+        {
+          "mesh": "dark_geometry",
+          "vertex": [
+            3.2337385499477387,
+            0.003160417079925537,
+            2.9537385196983816
+          ],
+          "trimWallId": "wall:33000,30000:33000,60000"
+        },
+        {
+          "mesh": "dark_geometry",
+          "vertex": [
+            3.238396861553192,
+            0.012000005692243576,
+            2.9539921076595785
+          ],
+          "trimWallId": "wall:33000,30000:33000,60000"
+        },
+        {
+          "mesh": "dark_geometry",
+          "vertex": [
+            3.238396861553192,
+            0.012000005692243576,
+            2.9539921076595785
+          ],
+          "trimWallId": "wall:33000,30000:33000,60000"
+        },
+        {
+          "mesh": "dark_geometry",
+          "vertex": [
+            3.238396861553192,
+            0.006007879972457886,
+            2.9479999931156637
+          ],
+          "trimWallId": "wall:33000,30000:33000,60000"
+        },
+        {
+          "mesh": "dark_geometry",
+          "vertex": [
+            3.238396861553192,
+            0.006007879972457886,
+            2.9479999931156637
+          ],
+          "trimWallId": "wall:33000,30000:33000,60000"
+        },
+        {
+          "mesh": "dark_geometry",
+          "vertex": [
+            3.236839600801468,
+            0.006261467933654785,
+            2.9537385196983816
+          ],
+          "trimWallId": "wall:33000,30000:33000,60000"
+        },
+        {
+          "mesh": "dark_geometry",
+          "vertex": [
+            3.236839600801468,
+            0.006261467933654785,
+            2.9537385196983816
+          ],
+          "trimWallId": "wall:33000,30000:33000,60000"
+        },
+        {
+          "mesh": "dark_geometry",
+          "vertex": [
+            3.236839600801468,
+            0.006261467933654785,
+            2.9537385196983816
+          ],
+          "trimWallId": "wall:33000,30000:33000,60000"
+        },
+        {
+          "mesh": "dark_geometry",
+          "vertex": [
+            3.228000023365021,
+            0.006007879972457886,
+            2.958396831303835
+          ],
+          "trimWallId": "wall:33000,30000:33000,60000"
+        },
+        {
+          "mesh": "dark_geometry",
+          "vertex": [
+            3.228000023365021,
+            0.006007879972457886,
+            2.958396831303835
+          ],
+          "trimWallId": "wall:33000,30000:33000,60000"
+        }
+      ],
+      "pass": true
+    },
+    {
+      "reverse": true,
+      "unequal": true,
+      "projection": 0.016,
+      "control": true,
+      "item": {
+        "id": "qa-cabinet",
+        "roomId": "room-mwa8whtg-4w2hwhh",
+        "assetId": "ois.calm-oak.kitchen-base",
+        "assetVersion": "0.1.0",
+        "assetHash": "50feb5b77773185282de5a3694f6e764d5f2e87b323f906aa394c6187669928a",
+        "x": 2.839999997615814,
+        "z": 2.5399999976158143,
+        "yaw": 0,
+        "locked": false,
+        "materialOverrides": {}
+      },
+      "error": "Keep the furniture clear of this wall’s baseboard projection.",
+      "commandError": "Keep the furniture clear of this wall’s baseboard projection.",
+      "accepted": false,
+      "testedLowVertices": 600,
+      "strictInteriorVertices": [],
+      "pass": false
+    },
+    {
+      "reverse": true,
+      "unequal": true,
+      "projection": 0.06,
+      "control": false,
+      "item": {
+        "id": "qa-cabinet",
+        "roomId": "room-mwa8whtk-4t822z5",
+        "assetId": "ois.calm-oak.kitchen-base",
+        "assetVersion": "0.1.0",
+        "assetHash": "50feb5b77773185282de5a3694f6e764d5f2e87b323f906aa394c6187669928a",
+        "x": 2.9799999976158142,
+        "z": 2.6799999976158144,
+        "yaw": 0,
+        "locked": false,
+        "materialOverrides": {}
+      },
+      "error": "Keep the furniture clear of this wall’s baseboard projection.",
+      "commandError": "Keep the furniture clear of this wall’s baseboard projection.",
+      "accepted": false,
+      "testedLowVertices": 600,
+      "strictInteriorVertices": [
+        {
+          "mesh": "dark_geometry",
+          "vertex": [
+            3.2279999935626984,
+            0.011999998241662979,
+            2.9599999876320364
+          ],
+          "trimWallId": "wall:33000,30000:33000,60000"
+        },
+        {
+          "mesh": "dark_geometry",
+          "vertex": [
+            3.2279999935626984,
+            0.011999998241662979,
+            2.9599999876320364
+          ],
+          "trimWallId": "wall:33000,30000:33000,60000"
+        },
+        {
+          "mesh": "dark_geometry",
+          "vertex": [
+            3.2279999935626984,
+            0.011999998241662979,
+            2.9599999876320364
+          ],
+          "trimWallId": "wall:33000,30000:33000,60000"
+        },
+        {
+          "mesh": "dark_geometry",
+          "vertex": [
+            3.2339921379089356,
+            0.0016031600534915924,
+            2.9479999931156637
+          ],
+          "trimWallId": "wall:33000,30000:33000,60000"
+        },
+        {
+          "mesh": "dark_geometry",
+          "vertex": [
+            3.2339921379089356,
+            0.0016031600534915924,
+            2.9479999931156637
+          ],
+          "trimWallId": "wall:33000,30000:33000,60000"
+        },
+        {
+          "mesh": "dark_geometry",
+          "vertex": [
+            3.2339921379089356,
+            0.0016031600534915924,
+            2.9479999931156637
+          ],
+          "trimWallId": "wall:33000,30000:33000,60000"
+        },
+        {
+          "mesh": "dark_geometry",
+          "vertex": [
+            3.228000023365021,
+            0.0016031600534915924,
+            2.9539921076595785
+          ],
+          "trimWallId": "wall:33000,30000:33000,60000"
+        },
+        {
+          "mesh": "dark_geometry",
+          "vertex": [
+            3.228000023365021,
+            0.0016031600534915924,
+            2.9539921076595785
+          ],
+          "trimWallId": "wall:33000,30000:33000,60000"
+        },
+        {
+          "mesh": "dark_geometry",
+          "vertex": [
+            3.2337385499477387,
+            0.003160417079925537,
+            2.9537385196983816
+          ],
+          "trimWallId": "wall:33000,30000:33000,60000"
+        },
+        {
+          "mesh": "dark_geometry",
+          "vertex": [
+            3.2337385499477387,
+            0.003160417079925537,
+            2.9537385196983816
+          ],
+          "trimWallId": "wall:33000,30000:33000,60000"
+        },
+        {
+          "mesh": "dark_geometry",
+          "vertex": [
+            3.2337385499477387,
+            0.003160417079925537,
+            2.9537385196983816
+          ],
+          "trimWallId": "wall:33000,30000:33000,60000"
+        },
+        {
+          "mesh": "dark_geometry",
+          "vertex": [
+            3.238396861553192,
+            0.012000005692243576,
+            2.9539921076595785
+          ],
+          "trimWallId": "wall:33000,30000:33000,60000"
+        },
+        {
+          "mesh": "dark_geometry",
+          "vertex": [
+            3.238396861553192,
+            0.012000005692243576,
+            2.9539921076595785
+          ],
+          "trimWallId": "wall:33000,30000:33000,60000"
+        },
+        {
+          "mesh": "dark_geometry",
+          "vertex": [
+            3.238396861553192,
+            0.006007879972457886,
+            2.9479999931156637
+          ],
+          "trimWallId": "wall:33000,30000:33000,60000"
+        },
+        {
+          "mesh": "dark_geometry",
+          "vertex": [
+            3.238396861553192,
+            0.006007879972457886,
+            2.9479999931156637
+          ],
+          "trimWallId": "wall:33000,30000:33000,60000"
+        },
+        {
+          "mesh": "dark_geometry",
+          "vertex": [
+            3.236839600801468,
+            0.006261467933654785,
+            2.9537385196983816
+          ],
+          "trimWallId": "wall:33000,30000:33000,60000"
+        },
+        {
+          "mesh": "dark_geometry",
+          "vertex": [
+            3.236839600801468,
+            0.006261467933654785,
+            2.9537385196983816
+          ],
+          "trimWallId": "wall:33000,30000:33000,60000"
+        },
+        {
+          "mesh": "dark_geometry",
+          "vertex": [
+            3.236839600801468,
+            0.006261467933654785,
+            2.9537385196983816
+          ],
+          "trimWallId": "wall:33000,30000:33000,60000"
+        },
+        {
+          "mesh": "dark_geometry",
+          "vertex": [
+            3.228000023365021,
+            0.006007879972457886,
+            2.958396831303835
+          ],
+          "trimWallId": "wall:33000,30000:33000,60000"
+        },
+        {
+          "mesh": "dark_geometry",
+          "vertex": [
+            3.228000023365021,
+            0.006007879972457886,
+            2.958396831303835
+          ],
+          "trimWallId": "wall:33000,30000:33000,60000"
+        }
+      ],
+      "pass": true
+    },
+    {
+      "reverse": true,
+      "unequal": true,
+      "projection": 0.06,
+      "control": true,
+      "item": {
+        "id": "qa-cabinet",
+        "roomId": "room-mwa8whto-9qu4rmj",
+        "assetId": "ois.calm-oak.kitchen-base",
+        "assetVersion": "0.1.0",
+        "assetHash": "50feb5b77773185282de5a3694f6e764d5f2e87b323f906aa394c6187669928a",
+        "x": 2.839999997615814,
+        "z": 2.5399999976158143,
+        "yaw": 0,
+        "locked": false,
+        "materialOverrides": {}
+      },
+      "error": "Keep the furniture clear of this wall’s baseboard projection.",
+      "commandError": "Keep the furniture clear of this wall’s baseboard projection.",
+      "accepted": false,
+      "testedLowVertices": 600,
+      "strictInteriorVertices": [],
+      "pass": false
+    }
+  ],
+  "asset": {
+    "id": "ois.calm-oak.kitchen-base",
+    "version": "0.1.0",
+    "sha256": "50feb5b77773185282de5a3694f6e764d5f2e87b323f906aa394c6187669928a"
+  },
+  "passed": 12,
+  "failed": 4
+}

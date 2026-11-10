@@ -266,10 +266,12 @@ async function main() {
               return { scale, rows, overlaps };
             });
             run.actual = actual;
-            const expected = g.openingDimensions(f, opening);
+            const expected = g.openingInsideDimensions(f, opening);
             run.expected = expected;
             for (const chain of expected) {
-              const row = actual.rows.find((r) => r.name === chain.name),
+              const row = actual.rows.find(
+                  (r) => r.name === chain.name + " · inside",
+                ),
                 values = [
                   g.measure(chain.before, unit),
                   g.measure(opening.width, unit),

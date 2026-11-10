@@ -1,0 +1,21 @@
+{
+  "timestamp": "2026-11-10T05:25:22.242Z",
+  "evidence": "New physical collision coverage: accepted analytic small boxes versus actual production trim mesh triangles and RoomScene transforms. Synthetic boxes are not furniture models/native render acceptance.",
+  "before": {
+    "src/domain/geometry.ts": "0c3a99288b3dc0d44f78168c5b036690c4d716b8b1f578c3b46aba4f06545244",
+    "src/scene/meshes.ts": "bd616ec1721ef5a2bf3ef2f5a9fb323dc37d8a9a33a4596ef75c16c9ef59b9ee",
+    "src/scene/RoomScene.tsx": "7b055eabc3198b10114ea1ecd623cf529d58f5bf71a34b9f443ec8c03e3b28d7"
+  },
+  "fixtures": 64,
+  "placements": 208896,
+  "accepted": 9072,
+  "intersections": [],
+  "errors": [],
+  "after": {
+    "src/domain/geometry.ts": "0c3a99288b3dc0d44f78168c5b036690c4d716b8b1f578c3b46aba4f06545244",
+    "src/scene/meshes.ts": "bd616ec1721ef5a2bf3ef2f5a9fb323dc37d8a9a33a4596ef75c16c9ef59b9ee",
+    "src/scene/RoomScene.tsx": "7b055eabc3198b10114ea1ecd623cf529d58f5bf71a34b9f443ec8c03e3b28d7"
+  },
+  "stableSource": true,
+  "pass": true
+}

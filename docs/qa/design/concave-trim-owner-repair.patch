@@ -1,0 +1,103 @@
+--- a/mobile/src/domain/geometry.ts
++++ b/mobile/src/domain/geometry.ts
+@@ -508,6 +508,71 @@
+     pieces.push({ start: cursor, end: length, bottom: 0, top: height });
+   return pieces;
+ }
++export type TrimMiterPlane = { slope: number; offset: number };
++/** Intersect both actual wall-face offset lines at every profile depth. Unequal
++ * thicknesses require an affine cut: the constant cannot use this wall alone. */
++export function physicalTrimCornerMiter(
++  floor: Floor,
++  room: Room,
++  wall: Wall,
++  atStart: boolean,
++): TrimMiterPlane {
++  const reversed =
++      wall.faces.find((f) => f.roomId === room.id)?.reversed ?? false,
++    a = reversed ? wall.b : wall.a,
++    b = reversed ? wall.a : wall.b,
++    point = atStart ? a : b,
++    len = distance(a, b),
++    u = { x: (b.x - a.x) / len, z: (b.z - a.z) / len };
++  const neighbor = floor.walls.find((w) => {
++    if (w.id === wall.id) return false;
++    const face = w.faces.find((f) => f.roomId === room.id);
++    if (!face) return false;
++    const start = face.reversed ? w.b : w.a,
++      end = face.reversed ? w.a : w.b;
++    return distance(atStart ? end : start, point) < 1e-5;
++  });
++  if (!neighbor) return { slope: 0, offset: 0 };
++  const face = neighbor.faces.find((f) => f.roomId === room.id)!,
++    c = face.reversed ? neighbor.b : neighbor.a,
++    d = face.reversed ? neighbor.a : neighbor.b,
++    l = distance(c, d),
++    v = { x: (d.x - c.x) / l, z: (d.z - c.z) / l },
++    n = { x: -u.z, z: u.x },
++    m = { x: -v.z, z: v.x },
++    cross = (a: { x: number; z: number }, b: { x: number; z: number }) =>
++      a.x * b.z - a.z * b.x,
++    denominator = cross(u, v),
++    direction = atStart ? 1 : -1,
++    ownTrim = room.trimOverrides[wall.id] ?? room.trim,
++    neighborTrim = room.trimOverrides[neighbor.id] ?? room.trim,
++    projectionRatio =
++      ownTrim.projection > 1e-8
++        ? (neighborTrim.profile === "none" ? 0 : neighborTrim.projection) /
++          ownTrim.projection
++        : 1;
++  if (Math.abs(denominator) < 1e-5) return { slope: 0, offset: 0 };
++  return {
++    slope:
++      (direction *
++        cross(
++          { x: m.x * projectionRatio - n.x, z: m.z * projectionRatio - n.z },
++          v,
++        )) /
++      denominator,
++    offset:
++      (direction *
++        cross(
++          {
++            x: (m.x * neighbor.thickness) / 2 - (n.x * wall.thickness) / 2,
++            z: (m.z * neighbor.thickness) / 2 - (n.z * wall.thickness) / 2,
++          },
++          v,
++        )) /
++      denominator,
++  };
++}
++
+ export function physicalTrimIntervals(
+   wall: Wall,
+   floor: Floor,
+@@ -617,7 +682,19 @@
+       trim.projection > 0 &&
+       heightOverlap(0, trim.height)
+     )
+-      for (const [start, end] of physicalTrimIntervals(wall, floor))
++      for (const [a, b] of physicalTrimIntervals(wall, floor)) {
++        const startMiter = physicalTrimCornerMiter(floor, room, wall, true),
++          endMiter = physicalTrimCornerMiter(floor, room, wall, false),
++          extension = (m: TrimMiterPlane) =>
++            Math.min(0, m.offset, m.offset + m.slope * trim.projection),
++          start =
++            a +
++            (a <= EPS ? extension(face.reversed ? endMiter : startMiter) : 0),
++          end =
++            b -
++            (b >= distance(wall.a, wall.b) - EPS
++              ? extension(face.reversed ? startMiter : endMiter)
++              : 0);
+         if (
+           overlaps(
+             fp,
+@@ -631,6 +708,7 @@
+           )
+         )
+           return "Keep the furniture clear of this wall’s baseboard projection.";
++      }
+     for (const opening of floor.openings.filter((o) => o.wallId === wall.id)) {
+       // Actual jambs/header project 2cm beyond both finished wall faces.
+       const casings = [

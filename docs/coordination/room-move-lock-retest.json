@@ -1,0 +1,54 @@
+{
+  "at": "2026-11-10T05:42:03.108Z",
+  "before": {
+    "src/domain/project.ts": "1dbfdb9c35f3c4022921f45f24592c2c3a1fbd9486f89616bd4dcb3ab75ca16a",
+    "src/domain/geometry.ts": "0c3a99288b3dc0d44f78168c5b036690c4d716b8b1f578c3b46aba4f06545244",
+    "src/domain/roomMove.ts": "2a0c95b6911792dbaa0fb8ffddd10244c53ad756748d917aa1ec447a4fde48ab",
+    "src/domain/persistence.ts": "ac166d419b677611c1b32d17fa0ddb9021d20f19cf3614fbd0e39719681e50ee"
+  },
+  "after": {
+    "src/domain/project.ts": "1dbfdb9c35f3c4022921f45f24592c2c3a1fbd9486f89616bd4dcb3ab75ca16a",
+    "src/domain/geometry.ts": "0c3a99288b3dc0d44f78168c5b036690c4d716b8b1f578c3b46aba4f06545244",
+    "src/domain/roomMove.ts": "2a0c95b6911792dbaa0fb8ffddd10244c53ad756748d917aa1ec447a4fde48ab",
+    "src/domain/persistence.ts": "ac166d419b677611c1b32d17fa0ddb9021d20f19cf3614fbd0e39719681e50ee"
+  },
+  "stable": true,
+  "asset": {
+    "id": "ois.design.arc-shade-floor",
+    "version": "0.7.0",
+    "sha256": "5e9e95e6999e17672aeedbd94c42d80dc345c521047e8b89ed7d3817562a32b7"
+  },
+  "passed": 7,
+  "failed": 0,
+  "checks": [
+    {
+      "name": "Original locked-item regression rejects and preserves the entire original history",
+      "pass": true
+    },
+    {
+      "name": "Unlock/retry moves the intended room and item despite a locked unrelated room",
+      "pass": true
+    },
+    {
+      "name": "Re-keyed translated wall retains thickness, finish, trim and opening width",
+      "pass": true
+    },
+    {
+      "name": "A world door hinge stays translated correctly when canonical endpoint order reverses",
+      "pass": true
+    },
+    {
+      "name": "One Undo/Redo restores exact committed project snapshots",
+      "pass": true
+    },
+    {
+      "name": "Real save codec preserves moved topology, history, identities and unrelated locks",
+      "pass": true
+    },
+    {
+      "name": "Walk rejects the same structural room move without history mutation",
+      "pass": true
+    }
+  ],
+  "limits": "Actual production command/history/save codec with a real exact catalogue model and analytic two-room fixture. No UI gesture or native filesystem/GL claim."
+}

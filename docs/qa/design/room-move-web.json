@@ -1,0 +1,74 @@
+{
+  "timestamp": "2026-11-10T05:53:32.504Z",
+  "evidence": "Actual phone room-group lock guidance, Plan drag/numeric preview, Cancel/Apply, persisted group transforms and one-step Undo/Redo with real exact lamps and an unrelated locked room. Browser, not native.",
+  "checks": [
+    {
+      "id": "locked-group-guides-to-unlock-without-edit",
+      "pass": true
+    },
+    {
+      "id": "unrelated-lock-does-not-block-room-tool",
+      "pass": true
+    },
+    {
+      "id": "plan-drag-previews-a-room-offset",
+      "pass": true,
+      "observed": {
+        "x": 1.1,
+        "z": -0.6
+      }
+    },
+    {
+      "id": "drag-preview-does-not-commit-items-or-history",
+      "pass": true
+    },
+    {
+      "id": "cancel-restores-original-layout-and-history",
+      "pass": true
+    },
+    {
+      "id": "numeric-preview-does-not-commit",
+      "pass": true
+    },
+    {
+      "id": "move-commits-one-step-for-connected-items",
+      "pass": true
+    },
+    {
+      "id": "unrelated-locked-room-exactly-unchanged",
+      "pass": true
+    },
+    {
+      "id": "shared-opening-and-both-finishes-retained",
+      "pass": true
+    },
+    {
+      "id": "single-undo-restores-entire-pre-move-project",
+      "pass": true
+    },
+    {
+      "id": "single-redo-restores-entire-move",
+      "pass": true
+    }
+  ],
+  "errors": [],
+  "consoleErrors": [],
+  "ui": {
+    "id": "qa-web-2026-11-10T05-51-51-449Z",
+    "provenanceSha256": "5dbf462634940edd7684743a08d52c0fde717118cad1dc373a8f661f4c11ebe7",
+    "sourceMapPass": true,
+    "compiledSourceMatchCount": 59,
+    "editor": {
+      "sha256": "6397a1caeb48a76e4e8e998acf04bdb1fa5299f0cfc0017da5270dd333caaa25"
+    },
+    "plan": {
+      "sha256": "3ca79ee8a9282e164e50478bb288f4d012f80f1a88dbbd3bc8d7dcc91d1ae8ab"
+    },
+    "project": {
+      "sha256": "9bcc998a564bec55e43ba72139afdfec6d4f1fd715c2803d8597b17f9afa8ccc"
+    }
+  },
+  "completed": true,
+  "passed": 11,
+  "failed": 0
+}

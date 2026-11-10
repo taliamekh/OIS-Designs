@@ -4,10 +4,12 @@ import Svg, { Path, Line, Rect } from "react-native-svg";
 import {
   bounds,
   measure,
-  openingDimensions,
+  openingInsideDimensions,
   toDisplay,
   toMetres,
   shapePolygon,
+  newRoomReferenceDimensions,
+  roomInsideDimensions,
 } from "../domain/geometry";
 import { makeFloor, makeRoom } from "../domain/project";
 import {
@@ -234,7 +236,7 @@ export function OpeningProperties({
   return (
     <ScrollView contentContainerStyle={{ padding: 16, gap: 12 }}>
       <Txt style={{ fontWeight: "600" }}>{doorNames[opening.type]}</Txt>
-      {openingDimensions(floor, opening).map((d) => (
+      {openingInsideDimensions(floor, opening).map((d) => (
         <View key={d.roomId}>
           <Txt small>{d.name}</Txt>
           <Txt small muted>
@@ -321,11 +323,19 @@ export function OpeningProperties({
   );
 }
 export function Dimensions({ floor, room }: { floor: Floor; room: Room }) {
+  let inside: ReturnType<typeof roomInsideDimensions> | undefined;
+  try {
+    inside = roomInsideDimensions(floor, room);
+  } catch {
+    // Keep collapsed legacy outlines editable through explicit reference sizes.
+  }
   const s = useStudio(),
     unit = s.library.settings.unit,
     b = bounds(room.polygon),
-    [width, setWidth] = useState(toDisplay(b.maxX - b.minX, unit).toFixed(3)),
-    [depth, setDepth] = useState(toDisplay(b.maxZ - b.minZ, unit).toFixed(3)),
+    originalWidth = inside?.width ?? b.maxX - b.minX,
+    originalDepth = inside?.depth ?? b.maxZ - b.minZ,
+    [width, setWidth] = useState(toDisplay(originalWidth, unit).toFixed(3)),
+    [depth, setDepth] = useState(toDisplay(originalDepth, unit).toFixed(3)),
     [ceiling, setCeiling] = useState(
       toDisplay(room.ceiling ?? floor.ceiling, unit).toFixed(3),
     ),
@@ -335,6 +345,11 @@ export function Dimensions({ floor, room }: { floor: Floor; room: Room }) {
       <Txt small muted>
         {unit === "ft" ? "Enter decimal feet." : "Enter metres."} Changing
         display units in Settings preserves geometry.
+      </Txt>
+      <Txt small muted>
+        {inside
+          ? "Width and depth measure between inside wall faces, before trim. Existing wall reference coordinates stay unchanged until you apply a resize."
+          : "Inside dimensions are unavailable because the wall thickness collapses this outline. These are wall reference dimensions; increase them to repair the room."}
       </Txt>
       <View style={styles.row}>
         <Field
@@ -372,8 +387,9 @@ export function Dimensions({ floor, room }: { floor: Floor; room: Room }) {
             type: "room-dimensions",
             floorId: floor.id,
             roomId: room.id,
-            width: enteredMetres(width, b.maxX - b.minX, unit),
-            depth: enteredMetres(depth, b.maxZ - b.minZ, unit),
+            width: enteredMetres(width, originalWidth, unit),
+            depth: enteredMetres(depth, originalDepth, unit),
+            dimensionMode: inside ? "inside" : "reference",
             ceiling: inherit
               ? null
               : enteredMetres(ceiling, room.ceiling ?? floor.ceiling, unit),
@@ -417,7 +433,8 @@ export function AddRoom({
         onChange={setShape}
       />
       <Txt small muted>
-        New-room coordinates use the measurement units selected in Settings.
+        Width and depth measure inside wall faces, before trim. Origins follow
+        wall reference lines in the units selected in Settings.
       </Txt>
       <View style={styles.row}>
         <Field
@@ -449,20 +466,29 @@ export function AddRoom({
         label="Add room"
         primary
         onPress={() => {
+          const reference = newRoomReferenceDimensions(
+            toMetres(Number(width), unit),
+            toMetres(Number(depth), unit),
+          );
           const room = makeRoom(
             kind,
             roomNames[kind],
-            shapePolygon(
-              shape,
-              toMetres(Number(width), unit),
-              toMetres(Number(depth), unit),
-              {
-                x: toMetres(Number(x), unit),
-                z: toMetres(Number(z), unit),
-              },
-            ),
+            shapePolygon(shape, reference.width, reference.depth, {
+              x: toMetres(Number(x), unit),
+              z: toMetres(Number(z), unit),
+            }),
           );
-          if (s.dispatch({ type: "add-room", floorId: floor.id, room }))
+          if (
+            s.dispatch({
+              type: "add-room",
+              floorId: floor.id,
+              room,
+              insideDimensions: {
+                width: toMetres(Number(width), unit),
+                depth: toMetres(Number(depth), unit),
+              },
+            })
+          )
             onDone();
         }}
       />
@@ -614,7 +640,7 @@ export function Floors({
                 makeRoom(
                   "bedroom",
                   "Bedroom",
-                  shapePolygon("rectangle", 4, 3.8),
+                  shapePolygon("rectangle", 4.12, 3.92),
                 ),
               ];
               s.dispatch({ type: "add-floor", floor });

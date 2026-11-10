@@ -9,9 +9,10 @@ import {
   toDisplay,
   toMetres,
   validPolygon,
+  newRoomReferenceDimensions,
 } from "../domain/geometry";
 import FloorPlanDraft from "./FloorPlanDraft";
-import { makeProject } from "../domain/project";
+import { execute, makeProject } from "../domain/project";
 import { Point, RoomKind, roomNames } from "../domain/types";
 import { useStudio } from "../state/Studio";
 import {
@@ -70,7 +71,8 @@ export default function Create() {
       return;
     }
     if (whole) {
-      setFloorGuide(shapePolygon(shape, w, d));
+      const reference = newRoomReferenceDimensions(w, d);
+      setFloorGuide(shapePolygon(shape, reference.width, reference.depth));
       setStep(3);
       return;
     }
@@ -90,7 +92,29 @@ export default function Create() {
     }
     try {
       setBusy(true);
-      const p = makeProject(kind, w, d, h, shape, drawn);
+      let p = makeProject(kind, w, d, h, shape, drawn, "inside");
+      if (drawn) {
+        const floor = p.floors[0],
+          room = floor.rooms[0];
+        // Typed dimensions have the same inside-face meaning for every new
+        // shape. Existing/imported polygon coordinates never take this path.
+        const result = execute(
+          { past: [], present: p, future: [] },
+          {
+            type: "room-dimensions",
+            floorId: floor.id,
+            roomId: room.id,
+            width: w,
+            depth: d,
+            ceiling: room.ceiling,
+            dimensionMode: "inside",
+          },
+          "2d",
+          [],
+        );
+        if (result.error) throw new Error(result.error);
+        p = result.history.present;
+      }
       if (whole) p.name = "Untitled floor plan";
       await s.addProject({ past: [], present: p, future: [] });
       router.replace("/editor");
@@ -231,6 +255,10 @@ export default function Create() {
             <Txt small muted>
               {unit === "ft" ? "Enter decimal feet." : "Enter metres."} Change
               measurement units in Settings.
+            </Txt>
+            <Txt small muted>
+              Width and depth measure between the inside wall faces, before
+              trim.
             </Txt>
             <View style={styles.grid}>
               <Field

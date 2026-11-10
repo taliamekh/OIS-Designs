@@ -1,0 +1,214 @@
+{
+  "timestamp": "2026-11-10T05:25:50.955Z",
+  "evidence": "Actual commands/read validation with explicitly synthetic analytic boxes. New opening insertion and geometry-neutral operations on preserved legacy collisions; not native or model acceptance.",
+  "sources": {
+    "geometry": "0c3a99288b3dc0d44f78168c5b036690c4d716b8b1f578c3b46aba4f06545244",
+    "project": "1a9bce0745c215d711c63330b4be4e62babcf45fda1e8f160cc356db48f4636e",
+    "persistence": "ac166d419b677611c1b32d17fa0ddb9021d20f19cf3614fbd0e39719681e50ee"
+  },
+  "checks": [
+    {
+      "id": "insert/single/left/false/false",
+      "pass": true,
+      "observed": {
+        "allowed": false,
+        "error": "Linen sofa: Keep the moving door panel area clear."
+      }
+    },
+    {
+      "id": "insert/single/left/false/true",
+      "pass": true,
+      "observed": {
+        "allowed": true,
+        "error": null
+      }
+    },
+    {
+      "id": "insert/single/left/true/false",
+      "pass": true,
+      "observed": {
+        "allowed": false,
+        "error": "Linen sofa: Keep the moving door panel area clear."
+      }
+    },
+    {
+      "id": "insert/single/left/true/true",
+      "pass": true,
+      "observed": {
+        "allowed": true,
+        "error": null
+      }
+    },
+    {
+      "id": "insert/single/right/false/false",
+      "pass": true,
+      "observed": {
+        "allowed": false,
+        "error": "Linen sofa: Keep the moving door panel area clear."
+      }
+    },
+    {
+      "id": "insert/single/right/false/true",
+      "pass": true,
+      "observed": {
+        "allowed": true,
+        "error": null
+      }
+    },
+    {
+      "id": "insert/single/right/true/false",
+      "pass": true,
+      "observed": {
+        "allowed": false,
+        "error": "Linen sofa: Keep the moving door panel area clear."
+      }
+    },
+    {
+      "id": "insert/single/right/true/true",
+      "pass": true,
+      "observed": {
+        "allowed": true,
+        "error": null
+      }
+    },
+    {
+      "id": "insert/double/left/false/false",
+      "pass": true,
+      "observed": {
+        "allowed": false,
+        "error": "Linen sofa: Keep the moving door panel area clear."
+      }
+    },
+    {
+      "id": "insert/double/left/false/true",
+      "pass": true,
+      "observed": {
+        "allowed": true,
+        "error": null
+      }
+    },
+    {
+      "id": "insert/double/left/true/false",
+      "pass": true,
+      "observed": {
+        "allowed": false,
+        "error": "Linen sofa: Keep the moving door panel area clear."
+      }
+    },
+    {
+      "id": "insert/double/left/true/true",
+      "pass": true,
+      "observed": {
+        "allowed": true,
+        "error": null
+      }
+    },
+    {
+      "id": "insert/double/right/false/false",
+      "pass": true,
+      "observed": {
+        "allowed": false,
+        "error": "Linen sofa: Keep the moving door panel area clear."
+      }
+    },
+    {
+      "id": "insert/double/right/false/true",
+      "pass": true,
+      "observed": {
+        "allowed": true,
+        "error": null
+      }
+    },
+    {
+      "id": "insert/double/right/true/false",
+      "pass": true,
+      "observed": {
+        "allowed": false,
+        "error": "Linen sofa: Keep the moving door panel area clear."
+      }
+    },
+    {
+      "id": "insert/double/right/true/true",
+      "pass": true,
+      "observed": {
+        "allowed": true,
+        "error": null
+      }
+    },
+    {
+      "id": "insert/sliding/left/false/false",
+      "pass": true,
+      "observed": {
+        "allowed": false,
+        "error": "Linen sofa: Keep the moving door panel area clear."
+      }
+    },
+    {
+      "id": "insert/sliding/left/false/true",
+      "pass": true,
+      "observed": {
+        "allowed": true,
+        "error": null
+      }
+    },
+    {
+      "id": "insert/sliding/left/true/false",
+      "pass": true,
+      "observed": {
+        "allowed": false,
+        "error": "Linen sofa: Keep the moving door panel area clear."
+      }
+    },
+    {
+      "id": "insert/sliding/left/true/true",
+      "pass": true,
+      "observed": {
+        "allowed": true,
+        "error": null
+      }
+    },
+    {
+      "id": "insert/sliding/right/false/false",
+      "pass": true,
+      "observed": {
+        "allowed": false,
+        "error": "Linen sofa: Keep the moving door panel area clear."
+      }
+    },
+    {
+      "id": "insert/sliding/right/false/true",
+      "pass": true,
+      "observed": {
+        "allowed": true,
+        "error": null
+      }
+    },
+    {
+      "id": "insert/sliding/right/true/false",
+      "pass": true,
+      "observed": {
+        "allowed": false,
+        "error": "Linen sofa: Keep the moving door panel area clear."
+      }
+    },
+    {
+      "id": "insert/sliding/right/true/true",
+      "pass": true,
+      "observed": {
+        "allowed": true,
+        "error": null
+      }
+    },
+    {
+      "id": "legacy-read-finish-lock-history-recovery",
+      "pass": true,
+      "observed": {
+        "past": 1,
+        "future": 1,
+        "bytes": 5321
+      }
+    }
+  ],
+  "passed": 25,
+  "failed": 0
+}

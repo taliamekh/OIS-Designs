@@ -1,0 +1,25 @@
+{
+  "at": "2026-11-10T05:54:12.484Z",
+  "checks": [
+    "House overview renders all six rooms/40 exact GLBs; nonempty Undo/Redo and editing controls are unavailable; touch preserves complete history",
+    "Separated floor presentation matches real GLB world projections and preserves all saved alignments/elevations/history",
+    "Top/Front camera directions are real; ceilings and scope controls preserve history; returning Floor restores functional Undo/Redo",
+    "320px phone shows honest legacy inside dimensions; actual touch previews/cancels without saving; locked move is blocked, unlock/retry moves its contents and has one exact Undo/Redo",
+    "Room move and unlocked state survive durable save, full browser reload and reopening with exact history",
+    "Actual Create/Dimensions UI roundtrips5×4m inside faces and stores explicit5.12×4.12m reference outline"
+  ],
+  "samples": [
+    {
+      "step": "aligned-house",
+      "models": 40,
+      "maxProjectionErrorPixels": 0
+    },
+    {
+      "step": "separated-house",
+      "models": 40,
+      "maxProjectionErrorPixels": 0
+    }
+  ],
+  "errors": [],
+  "nativeValidation": false
+}

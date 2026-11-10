@@ -3,13 +3,20 @@ const fs = require('node:fs'), path = require('node:path'), crypto = require('no
 const root = path.resolve(__dirname, '../..'), git = args => execFileSync('git', args, { cwd: root, maxBuffer: 64 * 1024 * 1024 });
 const sha = b => crypto.createHash('sha256').update(b).digest('hex');
 const commit = git(['rev-parse', 'HEAD']).toString().trim(), tree = new Map();
+const localOnly = process.argv.includes('--local-only');
+const sourceCheckpoint = process.argv.find(a => a.startsWith('--source-checkpoint='))?.slice('--source-checkpoint='.length);
+const outputName = process.argv.find(a => a.startsWith('--output='))?.slice('--output='.length) || 'published-tree-audit.json';
+if (!/^[\w.-]+\.json$/.test(outputName)) throw Error('Output must be a JSON basename in coordinator ownership');
 for (const line of git(['ls-tree', '-r', '-z', commit]).toString().split('\0').filter(Boolean)) {
   const [meta, name] = line.split('\t'); tree.set(name, meta.split(' ')[2]);
 }
 const read = name => git(['show', `${commit}:${name}`]);
 const revisions = JSON.parse(read('mobile/src/catalogue/revisions.json'));
 const release = JSON.parse(read('furniture/releases/library-2026-11-10-r1/completion-audit.json'));
-const milestone = JSON.parse(read('docs/build/milestone-camera-library.json'));
+const milestone = sourceCheckpoint ? JSON.parse(read(sourceCheckpoint)) : null;
+const sourceHashes = milestone?.sourceHashes || (Array.isArray(milestone?.sourceFiles)
+  ? Object.fromEntries(milestone.sourceFiles.map(row => [row.file.startsWith('mobile/') ? row.file : 'mobile/' + row.file, row.sha256])) : null);
+if (milestone && (!sourceHashes || !Object.keys(sourceHashes).length || Object.values(sourceHashes).some(h => !/^[a-f0-9]{64}$/.test(h)))) throw Error('Source checkpoint must explicitly enumerate valid source digests');
 const releaseMilestone = JSON.parse(read('furniture/releases/library-2026-11-10-r1/milestone.json'));
 const ts = require(path.join(root, 'mobile/node_modules/typescript'));
 const bundledSource = ts.createSourceFile('bundled.ts', read('mobile/src/catalogue/bundled.ts').toString(), ts.ScriptTarget.Latest, true);
@@ -39,7 +46,7 @@ for (const a of revisions) {
 }
 for (const [name, expected] of Object.entries(release.dependencySha256)) need(path.posix.join('furniture', name), expected, undefined, 'Frozen release dependency');
 for (const [name, expected] of Object.entries(releaseMilestone.proofSha256)) need(path.posix.join('furniture/releases/library-2026-11-10-r1', name), expected, undefined, 'Frozen release proof');
-for (const [name, expected] of Object.entries(milestone.sourceHashes)) need(name, expected, undefined, 'Published source checkpoint');
+for (const [name, expected] of Object.entries(sourceHashes || {})) need(name, expected, undefined, 'Published source checkpoint');
 let staticReferences = 0;
 for (const name of [...tree.keys()].filter(p => p.startsWith('mobile/src/') && /\.tsx?$/.test(p))) {
   const source = ts.createSourceFile(name, read(name).toString(), ts.ScriptTarget.Latest, true, name.endsWith('.tsx') ? ts.ScriptKind.TSX : ts.ScriptKind.TS);
@@ -69,10 +76,11 @@ for (const [name, expected] of requests) {
   if (expected.expected && actualHash !== expected.expected) issues.push({ name, why: expected.why, error: 'Committed content identity differs' });
   if (expected.bytes !== undefined && actualBytes !== expected.bytes) issues.push({ name, why: expected.why, error: 'Committed length differs' });
 }
-const remote = git(['ls-remote', 'origin', 'refs/heads/main']).toString().split(/\s+/)[0];
-if (remote !== commit) issues.push({ error: 'Remote main does not match audited local commit', remote, commit });
+const remote = localOnly ? null : git(['ls-remote', 'origin', 'refs/heads/main']).toString().split(/\s+/)[0];
+if (!localOnly && remote !== commit) issues.push({ error: 'Remote main does not match audited local commit', remote, commit });
 const result = { at: new Date().toISOString(), commit, remoteMain: remote, committedFiles: tree.size, retainedRevisions: revisions.length,
-  releaseDependencies: Object.keys(release.dependencySha256).length, staticReferences, checkedPaths: needs.size, lfsPointers, plainBlobs,
-  issues, limits: 'Committed Git tree and LFS pointer identities/lengths, with remote main SHA comparison. Push reported LFS upload success; this audit does not redownload remote LFS payloads or execute the app.' };
-fs.writeFileSync(path.join(__dirname, 'published-tree-audit.json'), JSON.stringify(result, null, 2) + '\n');
+  releaseDependencies: Object.keys(release.dependencySha256).length, sourceCheckpoint: sourceCheckpoint || null,
+  sourceCheckpointInputs: Object.keys(sourceHashes || {}).length, staticReferences, checkedPaths: needs.size, lfsPointers, plainBlobs,
+  issues, limits: 'Committed Git tree and LFS pointer identities/lengths. Remote main is compared only outside local/CI mode. Source digests are checked only against an explicitly selected checkpoint; historical proofs are not assumed to describe newer code. Does not download LFS payloads or execute the app.' };
+fs.writeFileSync(path.join(__dirname, outputName), JSON.stringify(result, null, 2) + '\n');
 console.log(JSON.stringify({ ...result, issues: issues.slice(0, 5), issueCount: issues.length }, null, 2)); process.exitCode = issues.length ? 1 : 0;

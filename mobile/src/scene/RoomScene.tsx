@@ -15,7 +15,12 @@ import {
   Wall,
   Finish,
 } from "../domain/types";
-import { distance, footprint, lerp } from "../domain/geometry";
+import {
+  distance,
+  footprint,
+  lerp,
+  DOOR_LEAF_THICKNESS,
+} from "../domain/geometry";
 import { revisionModels } from "../catalogue/bundled";
 import { resolveItemAsset, supportsPlacement } from "../catalogue/resolve";
 import { retainModel, retainTextureSet } from "./resources";
@@ -29,6 +34,29 @@ import {
 } from "./meshes";
 import { openingLeaves } from "./openingPose";
 import { materialMaps } from "./materials";
+import { physicalWallPlan, Vec3 } from "./spatialView";
+const zeroOffset: Vec3 = { x: 0, y: 0, z: 0 };
+function wallVisible(
+  floor: Floor,
+  wall: Wall,
+  rooms: ReadonlySet<string>,
+  offset: Vec3,
+  camera: THREE.Vector3,
+  cutaway: boolean,
+  walk: boolean,
+  previous: Record<string, boolean>,
+) {
+  const plan = physicalWallPlan(floor, wall, rooms, offset, {
+    activeFloorId: floor.id,
+    scope: { kind: "floor" },
+    mode: walk ? "walk" : "3d",
+    shell: cutaway ? "cutaway" : "solid",
+    camera: { x: camera.x, y: camera.y, z: camera.z },
+    previousWallVisibility: previous,
+  });
+  if (plan) previous[plan.key] = plan.visible;
+  return plan?.visible ?? false;
+}
 const source = (id: number) => (nativeRenderer ? id : Asset.fromModule(id).uri);
 const sheen = {
   matte: 0.96,
@@ -222,12 +250,18 @@ function WallFace({
   wall,
   cutaway,
   walk,
+  visibleRooms,
+  viewOffset,
+  visibility,
 }: {
   floor: Floor;
   room: Room;
   wall: Wall;
   cutaway: boolean;
   walk: boolean;
+  visibleRooms: ReadonlySet<string>;
+  viewOffset: Vec3;
+  visibility: React.RefObject<Record<string, boolean>>;
 }) {
   const face = wall.faces.find((f) => f.roomId === room.id)!;
   const len = distance(wall.a, wall.b),
@@ -241,8 +275,16 @@ function WallFace({
   const group = useRef<THREE.Group>(null);
   useFrame(({ camera }) => {
     if (!group.current) return;
-    const local = group.current.worldToLocal(camera.position.clone());
-    group.current.visible = !cutaway || walk || local.z * sign > 0;
+    group.current.visible = wallVisible(
+      floor,
+      wall,
+      visibleRooms,
+      viewOffset,
+      camera.position,
+      cutaway,
+      walk,
+      visibility.current,
+    );
   });
   const intervalKey = JSON.stringify(trimIntervals(wall, floor));
   const intervals = useMemo(
@@ -375,12 +417,18 @@ function Openings({
   onlyPrimary,
   cutaway,
   walk,
+  visibleRooms,
+  viewOffset,
+  visibility,
 }: {
   floor: Floor;
   room: Room;
   onlyPrimary: boolean;
   cutaway: boolean;
   walk: boolean;
+  visibleRooms: ReadonlySet<string>;
+  viewOffset: Vec3;
+  visibility: React.RefObject<Record<string, boolean>>;
 }) {
   const groups = useRef(new Map<string, THREE.Group>());
   useFrame(({ camera }) => {
@@ -389,13 +437,16 @@ function Openings({
         w = floor.walls.find((w) => w.id === o?.wallId),
         face = w?.faces.find((f) => f.roomId === room.id);
       if (!w || !face) continue;
-      group.visible =
-        !cutaway ||
-        walk ||
-        (onlyPrimary && w.faces.length === 2) ||
-        group.worldToLocal(camera.position.clone()).z *
-          (face.reversed ? -1 : 1) >
-          0;
+      group.visible = wallVisible(
+        floor,
+        w,
+        visibleRooms,
+        viewOffset,
+        camera.position,
+        cutaway,
+        walk,
+        visibility.current,
+      );
     }
   });
   return (
@@ -452,7 +503,7 @@ function Openings({
                 rotation={[0, leaf.yaw, 0]}
               >
                 <mesh position={[leaf.width / 2, h / 2, 0]}>
-                  <boxGeometry args={[leaf.width, h, 0.035]} />
+                  <boxGeometry args={[leaf.width, h, DOOR_LEAF_THICKNESS]} />
                   <meshStandardMaterial color="#c9b795" roughness={0.5} />
                 </mesh>
               </group>
@@ -606,6 +657,9 @@ export function RoomScene({
   cutaway,
   allRooms = false,
   draft,
+  visibleRoomIds,
+  showCeilings = false,
+  viewOffset = zeroOffset,
 }: {
   floor: Floor;
   roomId: string;
@@ -614,10 +668,21 @@ export function RoomScene({
   cutaway: boolean;
   allRooms?: boolean;
   draft?: Item | null;
+  visibleRoomIds?: readonly string[];
+  showCeilings?: boolean;
+  viewOffset?: Vec3;
 }) {
-  const rooms = allRooms
-    ? floor.rooms
-    : floor.rooms.filter((r) => r.id === roomId);
+  const rooms = visibleRoomIds
+    ? floor.rooms.filter((r) => visibleRoomIds.includes(r.id))
+    : allRooms
+      ? floor.rooms
+      : floor.rooms.filter((r) => r.id === roomId);
+  const visibleKey = JSON.stringify(rooms.map((r) => r.id).sort());
+  const visibleRooms = useMemo(
+    () => new Set<string>(JSON.parse(visibleKey)),
+    [visibleKey],
+  );
+  const visibility = useRef<Record<string, boolean>>({});
   return (
     <>
       {rooms.map((room) => (
@@ -634,6 +699,9 @@ export function RoomScene({
                   wall={w}
                   cutaway={cutaway}
                   walk={walk}
+                  visibleRooms={visibleRooms}
+                  viewOffset={viewOffset}
+                  visibility={visibility}
                 />
               ))}
           </Suspense>
@@ -643,8 +711,11 @@ export function RoomScene({
             onlyPrimary={allRooms}
             cutaway={cutaway}
             walk={walk}
+            visibleRooms={visibleRooms}
+            viewOffset={viewOffset}
+            visibility={visibility}
           />
-          {walk && (
+          {(walk || showCeilings) && (
             <CeilingMesh room={room} height={room.ceiling ?? floor.ceiling} />
           )}
         </group>

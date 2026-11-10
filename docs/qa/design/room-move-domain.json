@@ -1,0 +1,63 @@
+{
+  "timestamp": "2026-11-10T05:33:52.392Z",
+  "evidence": "Actual in-memory room-group command, retained real GLB identity metadata and independently checked world transforms/topology/history/locks. CPU/source, not UI/native.",
+  "before": {
+    "src/domain/project.ts": "0b9241f9ca6f3d7d46f314c2cddf6efc6e204f1a41f82ead78c1866776cc5a2d",
+    "src/domain/geometry.ts": "0c3a99288b3dc0d44f78168c5b036690c4d716b8b1f578c3b46aba4f06545244",
+    "src/domain/roomMove.ts": "2a0c95b6911792dbaa0fb8ffddd10244c53ad756748d917aa1ec447a4fde48ab"
+  },
+  "checks": [
+    {
+      "id": "locked-connected-Living room-rejects-exact-history",
+      "pass": true,
+      "observed": {
+        "error": "Unlock the furniture in these connected rooms before moving them."
+      }
+    },
+    {
+      "id": "locked-connected-Kitchen-rejects-exact-history",
+      "pass": true,
+      "observed": {
+        "error": "Unlock the furniture in these connected rooms before moving them."
+      }
+    },
+    {
+      "id": "connected-group-complete-translation-{\"x\":1,\"z\":0.5}",
+      "pass": true,
+      "observed": {
+        "movedRooms": 3,
+        "items": 3,
+        "openings": 2
+      }
+    },
+    {
+      "id": "connected-group-complete-translation-{\"x\":-8,\"z\":-6}",
+      "pass": true,
+      "observed": {
+        "movedRooms": 3,
+        "items": 3,
+        "openings": 2
+      }
+    },
+    {
+      "id": "unlock-then-retry-and-undo-unlock",
+      "pass": true
+    },
+    {
+      "id": "zero-move-locked-is-noop-and-walk-blocks",
+      "pass": true
+    },
+    {
+      "id": "overlap-and-invalid-offset-reject-without-mutation",
+      "pass": true
+    }
+  ],
+  "after": {
+    "src/domain/project.ts": "0b9241f9ca6f3d7d46f314c2cddf6efc6e204f1a41f82ead78c1866776cc5a2d",
+    "src/domain/geometry.ts": "0c3a99288b3dc0d44f78168c5b036690c4d716b8b1f578c3b46aba4f06545244",
+    "src/domain/roomMove.ts": "2a0c95b6911792dbaa0fb8ffddd10244c53ad756748d917aa1ec447a4fde48ab"
+  },
+  "stableSource": true,
+  "passed": 7,
+  "failed": 0
+}

@@ -1,7 +1,7 @@
 {
-  "at": "2026-11-10T04:50:10.496Z",
+  "at": "2026-11-10T05:54:40.210Z",
   "checks": [
-    "40×30committed reference bounds fit immediately with the dimensions sheet open",
+    "40×30inside dimensions with40.12×30.12reference bounds fit immediately with the dimensions sheet open",
     "Undo restores the exact small project and refits while the sheet stays closed",
     "Redo refits the large committed geometry again",
     "landscape whole-floor view contains every8m-room corner with the2.7m room active",
@@ -14,18 +14,18 @@
       "snapshot": {
         "probe": {
           "rooms": [
-            "room-mwa7ogr1-won1bg6"
+            "room-mwa9zcti-qgkqy0c"
           ],
           "mode": "3d",
           "camera": [
-            60.31328764987152,
-            49.917024743399075,
-            58.27333709736477
+            60.70858382132023,
+            50.22446420076712,
+            58.693252775306306
           ],
           "cameraQuaternion": [
             -0.315043223810713,
-            0.3446407374087126,
-            0.12400938545718372,
+            0.3446407374087127,
+            0.12400938545718376,
             0.87555251217038
           ],
           "projectionMatrix": [
@@ -39,11 +39,11 @@
             0,
             0,
             0,
-            -1.0010459189345813,
+            -1.001047607379521,
             -1,
             0,
             0,
-            -0.1535478456345937,
+            -0.1548250739193508,
             0
           ],
           "items": [],
@@ -76,13 +76,13 @@
         "history": {
           "past": [
             {
-              "id": "project-mwa7ogr2-s5fmjdn",
+              "id": "project-mwa9zcti-449j4c7",
               "schemaVersion": 1,
               "name": "Structural camera",
-              "updatedAt": 1794286205390,
+              "updatedAt": 1794290072742,
               "floors": [
                 {
-                  "id": "floor-mwa7ogr1-zln52w7",
+                  "id": "floor-mwa9zcti-d03m5jb",
                   "name": "Ground floor",
                   "elevation": 0,
                   "ceiling": 2.7,
@@ -92,7 +92,7 @@
                   },
                   "rooms": [
                     {
-                      "id": "room-mwa7ogr1-won1bg6",
+                      "id": "room-mwa9zcti-qgkqy0c",
                       "name": "Living room",
                       "kind": "living",
                       "polygon": [
@@ -144,7 +144,7 @@
                       "thickness": 0.12,
                       "faces": [
                         {
-                          "roomId": "room-mwa7ogr1-won1bg6",
+                          "roomId": "room-mwa9zcti-qgkqy0c",
                           "reversed": false
                         }
                       ]
@@ -162,7 +162,7 @@
                       "thickness": 0.12,
                       "faces": [
                         {
-                          "roomId": "room-mwa7ogr1-won1bg6",
+                          "roomId": "room-mwa9zcti-qgkqy0c",
                           "reversed": false
                         }
                       ]
@@ -180,7 +180,7 @@
                       "thickness": 0.12,
                       "faces": [
                         {
-                          "roomId": "room-mwa7ogr1-won1bg6",
+                          "roomId": "room-mwa9zcti-qgkqy0c",
                           "reversed": true
                         }
                       ]
@@ -198,7 +198,7 @@
                       "thickness": 0.12,
                       "faces": [
                         {
-                          "roomId": "room-mwa7ogr1-won1bg6",
+                          "roomId": "room-mwa9zcti-qgkqy0c",
                           "reversed": true
                         }
                       ]
@@ -211,13 +211,13 @@
             }
           ],
           "present": {
-            "id": "project-mwa7ogr2-s5fmjdn",
+            "id": "project-mwa9zcti-449j4c7",
             "schemaVersion": 1,
             "name": "Structural camera",
-            "updatedAt": 1794286207664,
+            "updatedAt": 1794290077115,
             "floors": [
               {
-                "id": "floor-mwa7ogr1-zln52w7",
+                "id": "floor-mwa9zcti-d03m5jb",
                 "name": "Ground floor",
                 "elevation": 0,
                 "ceiling": 2.7,
@@ -227,7 +227,7 @@
                 },
                 "rooms": [
                   {
-                    "id": "room-mwa7ogr1-won1bg6",
+                    "id": "room-mwa9zcti-qgkqy0c",
                     "name": "Living room",
                     "kind": "living",
                     "polygon": [
@@ -236,16 +236,16 @@
                         "z": 0
                       },
                       {
-                        "x": 40,
+                        "x": 40.12,
                         "z": 0
                       },
                       {
-                        "x": 40,
-                        "z": 30
+                        "x": 40.12,
+                        "z": 30.119999999999997
                       },
                       {
                         "x": 0,
-                        "z": 30
+                        "z": 30.119999999999997
                       }
                     ],
                     "ceiling": null,
@@ -267,73 +267,73 @@
                 ],
                 "walls": [
                   {
-                    "id": "wall:0,0:400000,0",
+                    "id": "wall:0,0:401200,0",
                     "a": {
                       "x": 0,
                       "z": 0
                     },
                     "b": {
-                      "x": 40,
+                      "x": 40.12,
                       "z": 0
                     },
                     "thickness": 0.12,
                     "faces": [
                       {
-                        "roomId": "room-mwa7ogr1-won1bg6",
+                        "roomId": "room-mwa9zcti-qgkqy0c",
                         "reversed": false
                       }
                     ]
                   },
                   {
-                    "id": "wall:400000,0:400000,300000",
+                    "id": "wall:401200,0:401200,301200",
                     "a": {
-                      "x": 40,
+                      "x": 40.12,
                       "z": 0
                     },
                     "b": {
-                      "x": 40,
-                      "z": 30
+                      "x": 40.12,
+                      "z": 30.119999999999997
                     },
                     "thickness": 0.12,
                     "faces": [
                       {
-                        "roomId": "room-mwa7ogr1-won1bg6",
+                        "roomId": "room-mwa9zcti-qgkqy0c",
                         "reversed": false
                       }
                     ]
                   },
                   {
-                    "id": "wall:0,300000:400000,300000",
+                    "id": "wall:0,301200:401200,301200",
                     "a": {
                       "x": 0,
-                      "z": 30
+                      "z": 30.119999999999997
                     },
                     "b": {
-                      "x": 40,
-                      "z": 30
+                      "x": 40.12,
+                      "z": 30.119999999999997
                     },
                     "thickness": 0.12,
                     "faces": [
                       {
-                        "roomId": "room-mwa7ogr1-won1bg6",
+                        "roomId": "room-mwa9zcti-qgkqy0c",
                         "reversed": true
                       }
                     ]
                   },
                   {
-                    "id": "wall:0,0:0,300000",
+                    "id": "wall:0,0:0,301200",
                     "a": {
                       "x": 0,
                       "z": 0
                     },
                     "b": {
                       "x": 0,
-                      "z": 30
+                      "z": 30.119999999999997
                     },
                     "thickness": 0.12,
                     "faces": [
                       {
-                        "roomId": "room-mwa7ogr1-won1bg6",
+                        "roomId": "room-mwa9zcti-qgkqy0c",
                         "reversed": true
                       }
                     ]
@@ -352,10 +352,10 @@
         }
       },
       "bounds": {
-        "maxX": 0.8220381034794209,
-        "maxY": 0.7156864889115032,
-        "maxDepth": 0.9994523374946427,
-        "minDepth": 0.998337881184248
+        "maxX": 0.818424206896645,
+        "maxY": 0.7085308845491997,
+        "maxDepth": 0.9994513788808093,
+        "minDepth": 0.9983413687174381
       }
     },
     {
@@ -363,17 +363,17 @@
       "snapshot": {
         "probe": {
           "rooms": [
-            "room-mwa7ogr1-won1bg6"
+            "room-mwa9zcti-qgkqy0c"
           ],
           "mode": "3d",
           "camera": [
-            12.275235675950023,
-            13.002457885872985,
-            12.500336197652441
+            12.558234147682718,
+            13.246471900170118,
+            12.804114157209828
           ],
           "cameraQuaternion": [
-            -0.315043223810713,
-            0.3446407374087127,
+            -0.31504322381071304,
+            0.3446407374087126,
             0.12400938545718375,
             0.87555251217038
           ],
@@ -425,13 +425,13 @@
         "history": {
           "past": [],
           "present": {
-            "id": "project-mwa7ogr2-s5fmjdn",
+            "id": "project-mwa9zcti-449j4c7",
             "schemaVersion": 1,
             "name": "Structural camera",
-            "updatedAt": 1794286205390,
+            "updatedAt": 1794290072742,
             "floors": [
               {
-                "id": "floor-mwa7ogr1-zln52w7",
+                "id": "floor-mwa9zcti-d03m5jb",
                 "name": "Ground floor",
                 "elevation": 0,
                 "ceiling": 2.7,
@@ -441,7 +441,7 @@
                 },
                 "rooms": [
                   {
-                    "id": "room-mwa7ogr1-won1bg6",
+                    "id": "room-mwa9zcti-qgkqy0c",
                     "name": "Living room",
                     "kind": "living",
                     "polygon": [
@@ -493,7 +493,7 @@
                     "thickness": 0.12,
                     "faces": [
                       {
-                        "roomId": "room-mwa7ogr1-won1bg6",
+                        "roomId": "room-mwa9zcti-qgkqy0c",
                         "reversed": false
                       }
                     ]
@@ -511,7 +511,7 @@
                     "thickness": 0.12,
                     "faces": [
                       {
-                        "roomId": "room-mwa7ogr1-won1bg6",
+                        "roomId": "room-mwa9zcti-qgkqy0c",
                         "reversed": false
                       }
                     ]
@@ -529,7 +529,7 @@
                     "thickness": 0.12,
                     "faces": [
                       {
-                        "roomId": "room-mwa7ogr1-won1bg6",
+                        "roomId": "room-mwa9zcti-qgkqy0c",
                         "reversed": true
                       }
                     ]
@@ -547,7 +547,7 @@
                     "thickness": 0.12,
                     "faces": [
                       {
-                        "roomId": "room-mwa7ogr1-won1bg6",
+                        "roomId": "room-mwa9zcti-qgkqy0c",
                         "reversed": true
                       }
                     ]
@@ -560,13 +560,13 @@
           },
           "future": [
             {
-              "id": "project-mwa7ogr2-s5fmjdn",
+              "id": "project-mwa9zcti-449j4c7",
               "schemaVersion": 1,
               "name": "Structural camera",
-              "updatedAt": 1794286207664,
+              "updatedAt": 1794290077115,
               "floors": [
                 {
-                  "id": "floor-mwa7ogr1-zln52w7",
+                  "id": "floor-mwa9zcti-d03m5jb",
                   "name": "Ground floor",
                   "elevation": 0,
                   "ceiling": 2.7,
@@ -576,7 +576,7 @@
                   },
                   "rooms": [
                     {
-                      "id": "room-mwa7ogr1-won1bg6",
+                      "id": "room-mwa9zcti-qgkqy0c",
                       "name": "Living room",
                       "kind": "living",
                       "polygon": [
@@ -585,16 +585,16 @@
                           "z": 0
                         },
                         {
-                          "x": 40,
+                          "x": 40.12,
                           "z": 0
                         },
                         {
-                          "x": 40,
-                          "z": 30
+                          "x": 40.12,
+                          "z": 30.119999999999997
                         },
                         {
                           "x": 0,
-                          "z": 30
+                          "z": 30.119999999999997
                         }
                       ],
                       "ceiling": null,
@@ -616,73 +616,73 @@
                   ],
                   "walls": [
                     {
-                      "id": "wall:0,0:400000,0",
+                      "id": "wall:0,0:401200,0",
                       "a": {
                         "x": 0,
                         "z": 0
                       },
                       "b": {
-                        "x": 40,
+                        "x": 40.12,
                         "z": 0
                       },
                       "thickness": 0.12,
                       "faces": [
                         {
-                          "roomId": "room-mwa7ogr1-won1bg6",
+                          "roomId": "room-mwa9zcti-qgkqy0c",
                           "reversed": false
                         }
                       ]
                     },
                     {
-                      "id": "wall:400000,0:400000,300000",
+                      "id": "wall:401200,0:401200,301200",
                       "a": {
-                        "x": 40,
+                        "x": 40.12,
                         "z": 0
                       },
                       "b": {
-                        "x": 40,
-                        "z": 30
+                        "x": 40.12,
+                        "z": 30.119999999999997
                       },
                       "thickness": 0.12,
                       "faces": [
                         {
-                          "roomId": "room-mwa7ogr1-won1bg6",
+                          "roomId": "room-mwa9zcti-qgkqy0c",
                           "reversed": false
                         }
                       ]
                     },
                     {
-                      "id": "wall:0,300000:400000,300000",
+                      "id": "wall:0,301200:401200,301200",
                       "a": {
                         "x": 0,
-                        "z": 30
+                        "z": 30.119999999999997
                       },
                       "b": {
-                        "x": 40,
-                        "z": 30
+                        "x": 40.12,
+                        "z": 30.119999999999997
                       },
                       "thickness": 0.12,
                       "faces": [
                         {
-                          "roomId": "room-mwa7ogr1-won1bg6",
+                          "roomId": "room-mwa9zcti-qgkqy0c",
                           "reversed": true
                         }
                       ]
                     },
                     {
-                      "id": "wall:0,0:0,300000",
+                      "id": "wall:0,0:0,301200",
                       "a": {
                         "x": 0,
                         "z": 0
                       },
                       "b": {
                         "x": 0,
-                        "z": 30
+                        "z": 30.119999999999997
                       },
                       "thickness": 0.12,
                       "faces": [
                         {
-                          "roomId": "room-mwa7ogr1-won1bg6",
+                          "roomId": "room-mwa9zcti-qgkqy0c",
                           "reversed": true
                         }
                       ]
@@ -701,10 +701,10 @@
         }
       },
       "bounds": {
-        "maxX": 0.8820419771743675,
-        "maxY": 0.4072340250908979,
-        "maxDepth": 0.9985634157116708,
-        "minDepth": 0.9978018086730902
+        "maxX": 0.8587642883048832,
+        "maxY": 0.40725705120289873,
+        "maxDepth": 0.9986026488555241,
+        "minDepth": 0.9978796360874775
       }
     },
     {
@@ -712,18 +712,18 @@
       "snapshot": {
         "probe": {
           "rooms": [
-            "room-mwa7ogr1-won1bg6"
+            "room-mwa9zcti-qgkqy0c"
           ],
           "mode": "3d",
           "camera": [
-            95.40146848452856,
-            92.47116054813654,
-            95.93790791031476
+            95.99425949523005,
+            93.0181171879399,
+            96.56981971291378
           ],
           "cameraQuaternion": [
             -0.315043223810713,
-            0.34464073740871254,
-            0.1240093854571837,
+            0.3446407374087126,
+            0.12400938545718372,
             0.87555251217038
           ],
           "projectionMatrix": [
@@ -737,11 +737,11 @@
             0,
             0,
             0,
-            -1.0013447747523667,
+            -1.00134571867465,
             -1,
             0,
             0,
-            -0.2872368603678828,
+            -0.28926662858467705,
             0
           ],
           "items": [],
@@ -774,13 +774,13 @@
         "history": {
           "past": [
             {
-              "id": "project-mwa7ogr2-s5fmjdn",
+              "id": "project-mwa9zcti-449j4c7",
               "schemaVersion": 1,
               "name": "Structural camera",
-              "updatedAt": 1794286205390,
+              "updatedAt": 1794290072742,
               "floors": [
                 {
-                  "id": "floor-mwa7ogr1-zln52w7",
+                  "id": "floor-mwa9zcti-d03m5jb",
                   "name": "Ground floor",
                   "elevation": 0,
                   "ceiling": 2.7,
@@ -790,7 +790,7 @@
                   },
                   "rooms": [
                     {
-                      "id": "room-mwa7ogr1-won1bg6",
+                      "id": "room-mwa9zcti-qgkqy0c",
                       "name": "Living room",
                       "kind": "living",
                       "polygon": [
@@ -842,7 +842,7 @@
                       "thickness": 0.12,
                       "faces": [
                         {
-                          "roomId": "room-mwa7ogr1-won1bg6",
+                          "roomId": "room-mwa9zcti-qgkqy0c",
                           "reversed": false
                         }
                       ]
@@ -860,7 +860,7 @@
                       "thickness": 0.12,
                       "faces": [
                         {
-                          "roomId": "room-mwa7ogr1-won1bg6",
+                          "roomId": "room-mwa9zcti-qgkqy0c",
                           "reversed": false
                         }
                       ]
@@ -878,7 +878,7 @@
                       "thickness": 0.12,
                       "faces": [
                         {
-                          "roomId": "room-mwa7ogr1-won1bg6",
+                          "roomId": "room-mwa9zcti-qgkqy0c",
                           "reversed": true
                         }
                       ]
@@ -896,7 +896,7 @@
                       "thickness": 0.12,
                       "faces": [
                         {
-                          "roomId": "room-mwa7ogr1-won1bg6",
+                          "roomId": "room-mwa9zcti-qgkqy0c",
                           "reversed": true
                         }
                       ]
@@ -909,13 +909,13 @@
             }
           ],
           "present": {
-            "id": "project-mwa7ogr2-s5fmjdn",
+            "id": "project-mwa9zcti-449j4c7",
             "schemaVersion": 1,
             "name": "Structural camera",
-            "updatedAt": 1794286207664,
+            "updatedAt": 1794290077115,
             "floors": [
               {
-                "id": "floor-mwa7ogr1-zln52w7",
+                "id": "floor-mwa9zcti-d03m5jb",
                 "name": "Ground floor",
                 "elevation": 0,
                 "ceiling": 2.7,
@@ -925,7 +925,7 @@
                 },
                 "rooms": [
                   {
-                    "id": "room-mwa7ogr1-won1bg6",
+                    "id": "room-mwa9zcti-qgkqy0c",
                     "name": "Living room",
                     "kind": "living",
                     "polygon": [
@@ -934,16 +934,16 @@
                         "z": 0
                       },
                       {
-                        "x": 40,
+                        "x": 40.12,
                         "z": 0
                       },
                       {
-                        "x": 40,
-                        "z": 30
+                        "x": 40.12,
+                        "z": 30.119999999999997
                       },
                       {
                         "x": 0,
-                        "z": 30
+                        "z": 30.119999999999997
                       }
                     ],
                     "ceiling": null,
@@ -965,73 +965,73 @@
                 ],
                 "walls": [
                   {
-                    "id": "wall:0,0:400000,0",
+                    "id": "wall:0,0:401200,0",
                     "a": {
                       "x": 0,
                       "z": 0
                     },
                     "b": {
-                      "x": 40,
+                      "x": 40.12,
                       "z": 0
                     },
                     "thickness": 0.12,
                     "faces": [
                       {
-                        "roomId": "room-mwa7ogr1-won1bg6",
+                        "roomId": "room-mwa9zcti-qgkqy0c",
                         "reversed": false
                       }
                     ]
                   },
                   {
-                    "id": "wall:400000,0:400000,300000",
+                    "id": "wall:401200,0:401200,301200",
                     "a": {
-                      "x": 40,
+                      "x": 40.12,
                       "z": 0
                     },
                     "b": {
-                      "x": 40,
-                      "z": 30
+                      "x": 40.12,
+                      "z": 30.119999999999997
                     },
                     "thickness": 0.12,
                     "faces": [
                       {
-                        "roomId": "room-mwa7ogr1-won1bg6",
+                        "roomId": "room-mwa9zcti-qgkqy0c",
                         "reversed": false
                       }
                     ]
                   },
                   {
-                    "id": "wall:0,300000:400000,300000",
+                    "id": "wall:0,301200:401200,301200",
                     "a": {
                       "x": 0,
-                      "z": 30
+                      "z": 30.119999999999997
                     },
                     "b": {
-                      "x": 40,
-                      "z": 30
+                      "x": 40.12,
+                      "z": 30.119999999999997
                     },
                     "thickness": 0.12,
                     "faces": [
                       {
-                        "roomId": "room-mwa7ogr1-won1bg6",
+                        "roomId": "room-mwa9zcti-qgkqy0c",
                         "reversed": true
                       }
                     ]
                   },
                   {
-                    "id": "wall:0,0:0,300000",
+                    "id": "wall:0,0:0,301200",
                     "a": {
                       "x": 0,
                       "z": 0
                     },
                     "b": {
                       "x": 0,
-                      "z": 30
+                      "z": 30.119999999999997
                     },
                     "thickness": 0.12,
                     "faces": [
                       {
-                        "roomId": "room-mwa7ogr1-won1bg6",
+                        "roomId": "room-mwa9zcti-qgkqy0c",
                         "reversed": true
                       }
                     ]
@@ -1050,10 +1050,10 @@
         }
       },
       "bounds": {
-        "maxX": 0.8977565243930592,
-        "maxY": 0.3339305349734758,
-        "maxDepth": 0.9995841200103028,
-        "minDepth": 0.9990187613650447
+        "maxX": 0.8947445115637961,
+        "maxY": 0.3311338021169158,
+        "maxDepth": 0.9995835992634012,
+        "minDepth": 0.9990199471372593
       }
     },
     {
@@ -1061,48 +1061,48 @@
       "snapshot": {
         "probe": {
           "rooms": [
-            "room-mwa7oj4t-92yjsgh",
-            "room-mwa7oj4u-aq2ezgk"
+            "room-mwa9zgui-js0jlz1",
+            "room-mwa9zgui-7bd55ty"
           ],
           "mode": "3d",
           "camera": [
-            16.17417825515028,
-            17.80456238133186,
-            15.068081276179546
+            16.414760369138556,
+            17.997134816018352,
+            15.326328408207845
           ],
           "cameraQuaternion": [
             -0.315043223810713,
-            0.3446407374087126,
-            0.12400938545718372,
+            0.3446407374087127,
+            0.12400938545718376,
             0.87555251217038
           ],
           "projectionMatrix": [
-            0.9775599124299762,
+            0.9775599124299761,
             0,
             0,
             0,
             0,
-            2.5386478956643077,
+            2.5386478956643073,
             0,
             0,
             0,
             0,
-            -1.0004635629918632,
+            -1.0004727259367934,
             -1,
             0,
             0,
-            -0.04635629918631884,
+            -0.04727259367932623,
             0
           ],
           "items": [],
           "memory": {
-            "geometries": 10,
+            "geometries": 12,
             "textures": 3
           },
           "draw": {
-            "frame": 6,
-            "calls": 14,
-            "triangles": 100,
+            "frame": 10,
+            "calls": 17,
+            "triangles": 124,
             "points": 0,
             "lines": 0
           },
@@ -1124,13 +1124,13 @@
         "history": {
           "past": [],
           "present": {
-            "id": "project-mwa7oj4u-936z25i",
+            "id": "project-mwa9zgui-939q34c",
             "schemaVersion": 1,
             "name": "Mixed-height camera",
-            "updatedAt": 1794286208478,
+            "updatedAt": 1794290077962,
             "floors": [
               {
-                "id": "floor-mwa7oj4t-yh2p0h3",
+                "id": "floor-mwa9zgui-9mu0u0l",
                 "name": "Ground floor",
                 "elevation": 0,
                 "ceiling": 2.7,
@@ -1140,7 +1140,7 @@
                 },
                 "rooms": [
                   {
-                    "id": "room-mwa7oj4t-92yjsgh",
+                    "id": "room-mwa9zgui-js0jlz1",
                     "name": "Living room",
                     "kind": "living",
                     "polygon": [
@@ -1178,7 +1178,7 @@
                     "trimOverrides": {}
                   },
                   {
-                    "id": "room-mwa7oj4u-aq2ezgk",
+                    "id": "room-mwa9zgui-7bd55ty",
                     "name": "Tall room",
                     "kind": "bedroom",
                     "polygon": [
@@ -1230,7 +1230,7 @@
                     "thickness": 0.12,
                     "faces": [
                       {
-                        "roomId": "room-mwa7oj4t-92yjsgh",
+                        "roomId": "room-mwa9zgui-js0jlz1",
                         "reversed": false
                       }
                     ]
@@ -1248,11 +1248,11 @@
                     "thickness": 0.12,
                     "faces": [
                       {
-                        "roomId": "room-mwa7oj4t-92yjsgh",
+                        "roomId": "room-mwa9zgui-js0jlz1",
                         "reversed": false
                       },
                       {
-                        "roomId": "room-mwa7oj4u-aq2ezgk",
+                        "roomId": "room-mwa9zgui-7bd55ty",
                         "reversed": true
                       }
                     ]
@@ -1270,7 +1270,7 @@
                     "thickness": 0.12,
                     "faces": [
                       {
-                        "roomId": "room-mwa7oj4t-92yjsgh",
+                        "roomId": "room-mwa9zgui-js0jlz1",
                         "reversed": true
                       }
                     ]
@@ -1288,7 +1288,7 @@
                     "thickness": 0.12,
                     "faces": [
                       {
-                        "roomId": "room-mwa7oj4t-92yjsgh",
+                        "roomId": "room-mwa9zgui-js0jlz1",
                         "reversed": true
                       }
                     ]
@@ -1306,7 +1306,7 @@
                     "thickness": 0.12,
                     "faces": [
                       {
-                        "roomId": "room-mwa7oj4u-aq2ezgk",
+                        "roomId": "room-mwa9zgui-7bd55ty",
                         "reversed": false
                       }
                     ]
@@ -1324,7 +1324,7 @@
                     "thickness": 0.12,
                     "faces": [
                       {
-                        "roomId": "room-mwa7oj4u-aq2ezgk",
+                        "roomId": "room-mwa9zgui-7bd55ty",
                         "reversed": false
                       }
                     ]
@@ -1342,7 +1342,7 @@
                     "thickness": 0.12,
                     "faces": [
                       {
-                        "roomId": "room-mwa7oj4u-aq2ezgk",
+                        "roomId": "room-mwa9zgui-7bd55ty",
                         "reversed": true
                       }
                     ]
@@ -1361,10 +1361,10 @@
         }
       },
       "bounds": {
-        "maxX": 0.22027311887653683,
-        "maxY": 0.5815894957061797,
-        "maxDepth": 0.9988277890571479,
-        "minDepth": 0.9977014916110788
+        "maxX": 0.21579903308664894,
+        "maxY": 0.5695823301931203,
+        "maxDepth": 0.9988275341833998,
+        "minDepth": 0.9977207821604336
       }
     },
     {
@@ -1372,48 +1372,48 @@
       "snapshot": {
         "probe": {
           "rooms": [
-            "room-mwa7oj4t-92yjsgh",
-            "room-mwa7oj4u-aq2ezgk"
+            "room-mwa9zgui-js0jlz1",
+            "room-mwa9zgui-7bd55ty"
           ],
           "mode": "3d",
           "camera": [
-            16.17417825515028,
-            17.80456238133186,
-            15.068081276179546
+            16.414760369138556,
+            17.997134816018352,
+            15.326328408207845
           ],
           "cameraQuaternion": [
             -0.315043223810713,
-            0.3446407374087126,
-            0.12400938545718372,
+            0.3446407374087127,
+            0.12400938545718376,
             0.87555251217038
           ],
           "projectionMatrix": [
-            0.9775599124299762,
+            0.9775599124299761,
             0,
             0,
             0,
             0,
-            2.5386478956643077,
+            2.5386478956643073,
             0,
             0,
             0,
             0,
-            -1.0004635629918632,
+            -1.0004727259367934,
             -1,
             0,
             0,
-            -0.04635629918631884,
+            -0.04727259367932623,
             0
           ],
           "items": [],
           "memory": {
-            "geometries": 10,
+            "geometries": 12,
             "textures": 3
           },
           "draw": {
-            "frame": 10,
-            "calls": 14,
-            "triangles": 100,
+            "frame": 14,
+            "calls": 17,
+            "triangles": 124,
             "points": 0,
             "lines": 0
           },
@@ -1435,13 +1435,13 @@
         "history": {
           "past": [],
           "present": {
-            "id": "project-mwa7oj4u-936z25i",
+            "id": "project-mwa9zgui-939q34c",
             "schemaVersion": 1,
             "name": "Mixed-height camera",
-            "updatedAt": 1794286208478,
+            "updatedAt": 1794290077962,
             "floors": [
               {
-                "id": "floor-mwa7oj4t-yh2p0h3",
+                "id": "floor-mwa9zgui-9mu0u0l",
                 "name": "Ground floor",
                 "elevation": 0,
                 "ceiling": 2.7,
@@ -1451,7 +1451,7 @@
                 },
                 "rooms": [
                   {
-                    "id": "room-mwa7oj4t-92yjsgh",
+                    "id": "room-mwa9zgui-js0jlz1",
                     "name": "Living room",
                     "kind": "living",
                     "polygon": [
@@ -1489,7 +1489,7 @@
                     "trimOverrides": {}
                   },
                   {
-                    "id": "room-mwa7oj4u-aq2ezgk",
+                    "id": "room-mwa9zgui-7bd55ty",
                     "name": "Tall room",
                     "kind": "bedroom",
                     "polygon": [
@@ -1541,7 +1541,7 @@
                     "thickness": 0.12,
                     "faces": [
                       {
-                        "roomId": "room-mwa7oj4t-92yjsgh",
+                        "roomId": "room-mwa9zgui-js0jlz1",
                         "reversed": false
                       }
                     ]
@@ -1559,11 +1559,11 @@
                     "thickness": 0.12,
                     "faces": [
                       {
-                        "roomId": "room-mwa7oj4t-92yjsgh",
+                        "roomId": "room-mwa9zgui-js0jlz1",
                         "reversed": false
                       },
                       {
-                        "roomId": "room-mwa7oj4u-aq2ezgk",
+                        "roomId": "room-mwa9zgui-7bd55ty",
                         "reversed": true
                       }
                     ]
@@ -1581,7 +1581,7 @@
                     "thickness": 0.12,
                     "faces": [
                       {
-                        "roomId": "room-mwa7oj4t-92yjsgh",
+                        "roomId": "room-mwa9zgui-js0jlz1",
                         "reversed": true
                       }
                     ]
@@ -1599,7 +1599,7 @@
                     "thickness": 0.12,
                     "faces": [
                       {
-                        "roomId": "room-mwa7oj4t-92yjsgh",
+                        "roomId": "room-mwa9zgui-js0jlz1",
                         "reversed": true
                       }
                     ]
@@ -1617,7 +1617,7 @@
                     "thickness": 0.12,
                     "faces": [
                       {
-                        "roomId": "room-mwa7oj4u-aq2ezgk",
+                        "roomId": "room-mwa9zgui-7bd55ty",
                         "reversed": false
                       }
                     ]
@@ -1635,7 +1635,7 @@
                     "thickness": 0.12,
                     "faces": [
                       {
-                        "roomId": "room-mwa7oj4u-aq2ezgk",
+                        "roomId": "room-mwa9zgui-7bd55ty",
                         "reversed": false
                       }
                     ]
@@ -1653,7 +1653,7 @@
                     "thickness": 0.12,
                     "faces": [
                       {
-                        "roomId": "room-mwa7oj4u-aq2ezgk",
+                        "roomId": "room-mwa9zgui-7bd55ty",
                         "reversed": true
                       }
                     ]
@@ -1672,10 +1672,10 @@
         }
       },
       "bounds": {
-        "maxX": 0.22027311887653683,
-        "maxY": 0.5815894957061797,
-        "maxDepth": 0.9988277890571479,
-        "minDepth": 0.9977014916110788
+        "maxX": 0.21579903308664894,
+        "maxY": 0.5695823301931203,
+        "maxDepth": 0.9988275341833998,
+        "minDepth": 0.9977207821604336
       }
     }
   ],

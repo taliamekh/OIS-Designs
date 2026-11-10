@@ -10,6 +10,10 @@ From the repository root, double-click Expo.cmd or run it in PowerShell. It star
 
 The phone and laptop need a reachable network path. Public Wi-Fi can isolate them; private Wi-Fi, a hotspot or a prepared Expo tunnel are alternatives. Expo Go version compatibility must match SDK58. Only the user enters credentials on Expo's own sign-in page. No paid account, cloud signing project or remote deployment has been configured.
 
+## Fresh GitHub clones
+
+The furniture GLBs are stored with Git LFS. Install Git LFS and run `git lfs pull` in a fresh clone so the actual model bytes are present before starting 3D. The existing laptop checkout already contains the models. Local dependencies and generated previews are not committed; use the lockfile for reproducible dependency installation.
+
 ## Development checks
 
 - npm run typecheck — actual TypeScript.

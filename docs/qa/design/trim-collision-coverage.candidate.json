@@ -1,0 +1,27 @@
+{
+  "candidate": {
+    "kind": "In-memory-only miter candidate; production source untouched",
+    "baseGeometrySha256": "0b029dd1ee4d1070fc8dfaffd96b5baded62ce8d1ec4d5556fd5c27fdcf57364",
+    "derivedGeometrySha256": "992bf8b1613ff8c507638aa8e5d6ea1d795ec8882cad60fec571e8e81f637ab5",
+    "meshMiterSourceSha256": "49b09590824769f17451f0e218edc18de5e53fcc9a8a30491a7e982b33f16423"
+  },
+  "timestamp": "2026-11-10T05:23:08.455Z",
+  "evidence": "New physical collision coverage: accepted analytic small boxes versus actual production trim mesh triangles and RoomScene transforms. Synthetic boxes are not furniture models/native render acceptance.",
+  "before": {
+    "src/domain/geometry.ts": "0b029dd1ee4d1070fc8dfaffd96b5baded62ce8d1ec4d5556fd5c27fdcf57364",
+    "src/scene/meshes.ts": "49b09590824769f17451f0e218edc18de5e53fcc9a8a30491a7e982b33f16423",
+    "src/scene/RoomScene.tsx": "7b055eabc3198b10114ea1ecd623cf529d58f5bf71a34b9f443ec8c03e3b28d7"
+  },
+  "fixtures": 64,
+  "placements": 208896,
+  "accepted": 9072,
+  "intersections": [],
+  "errors": [],
+  "after": {
+    "src/domain/geometry.ts": "0b029dd1ee4d1070fc8dfaffd96b5baded62ce8d1ec4d5556fd5c27fdcf57364",
+    "src/scene/meshes.ts": "49b09590824769f17451f0e218edc18de5e53fcc9a8a30491a7e982b33f16423",
+    "src/scene/RoomScene.tsx": "7b055eabc3198b10114ea1ecd623cf529d58f5bf71a34b9f443ec8c03e3b28d7"
+  },
+  "stableSource": true,
+  "pass": true
+}

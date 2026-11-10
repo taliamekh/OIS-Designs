@@ -1,20 +1,20 @@
 {
-  "at": "2026-11-10T04:49:00.504Z",
+  "at": "2026-11-10T05:55:17.281Z",
   "platform": "android",
   "exit": 0,
-  "elapsedSeconds": 114.224,
+  "elapsedSeconds": 83.04,
   "before": {
-    "files": 72,
-    "sha256": "074ef2fe58ad4a759b7e6186371e4a4b6f5072ab19b68e83a69fd03dc14ae3ed"
+    "files": 76,
+    "sha256": "f3e56fabdb83b3fd12caf6ec3bd683d807c97bd95857eb124b1edfdc49baedfc"
   },
   "after": {
-    "files": 72,
-    "sha256": "074ef2fe58ad4a759b7e6186371e4a4b6f5072ab19b68e83a69fd03dc14ae3ed"
+    "files": 76,
+    "sha256": "f3e56fabdb83b3fd12caf6ec3bd683d807c97bd95857eb124b1edfdc49baedfc"
   },
   "stable": true,
   "provenance": {
-    "files": 52,
-    "matches": 52,
+    "files": 56,
+    "matches": 56,
     "accepted": true,
     "compiled": [
       {
@@ -50,17 +50,27 @@
       {
         "file": "src/domain/project.ts",
         "matches": true,
-        "compiledSha256": "7786d523a0341bc5781187e03c5d004915bd8e58dce4ac83d8dd7e0af6257b6f"
+        "compiledSha256": "9bcc998a564bec55e43ba72139afdfec6d4f1fd715c2803d8597b17f9afa8ccc"
       },
       {
         "file": "src/domain/geometry.ts",
         "matches": true,
-        "compiledSha256": "d39a47ba5606406a01b7ba1690e18df0fe8b4055cf3fbe70f0cd3b89d5299b90"
+        "compiledSha256": "0c3a99288b3dc0d44f78168c5b036690c4d716b8b1f578c3b46aba4f06545244"
+      },
+      {
+        "file": "src/domain/construction.ts",
+        "matches": true,
+        "compiledSha256": "d248539e57f44afab413bc42ce49b6ea0e3a6f7bb6ace675757457ea651dff53"
       },
       {
         "file": "src/domain/persistence.ts",
         "matches": true,
         "compiledSha256": "ac166d419b677611c1b32d17fa0ddb9021d20f19cf3614fbd0e39719681e50ee"
+      },
+      {
+        "file": "src/domain/roomMove.ts",
+        "matches": true,
+        "compiledSha256": "2a0c95b6911792dbaa0fb8ffddd10244c53ad756748d917aa1ec447a4fde48ab"
       },
       {
         "file": "src/catalogue/resolve.ts",
@@ -80,7 +90,7 @@
       {
         "file": "src/screens/Create.tsx",
         "matches": true,
-        "compiledSha256": "ee8615b265bce78a18e1804ab94ff090b49b9ffd37be3032d04a3ffcaecdff07"
+        "compiledSha256": "c4828242e2a064bb4af2be36cce86f4377b43d69dab54d754f188c2047f99bf5"
       },
       {
         "file": "src/ui/navigation.ts",
@@ -90,7 +100,7 @@
       {
         "file": "src/screens/FloorPlanDraft.tsx",
         "matches": true,
-        "compiledSha256": "0f92256701aabd8798f026cac881093b41133e1a60454b993ee7186c44ac4eab"
+        "compiledSha256": "96e88070c614986ec385d6a99b6f7ee69ea98444cb5b96c697738a20fb6954c7"
       },
       {
         "file": "src/domain/draft.ts",
@@ -110,7 +120,7 @@
       {
         "file": "src/screens/Editor.tsx",
         "matches": true,
-        "compiledSha256": "7f565015043cd95d37b97a8b279328a395987c12a0efaac295fa8acef75c3a67"
+        "compiledSha256": "6397a1caeb48a76e4e8e998acf04bdb1fa5299f0cfc0017da5270dd333caaa25"
       },
       {
         "file": "src/catalogue/search.ts",
@@ -125,12 +135,12 @@
       {
         "file": "src/scene/Plan.tsx",
         "matches": true,
-        "compiledSha256": "06319df8db473bb72dada999f07a4224254bd505d1023ddd491e4afe5c4394c2"
+        "compiledSha256": "3ca79ee8a9282e164e50478bb288f4d012f80f1a88dbbd3bc8d7dcc91d1ae8ab"
       },
       {
         "file": "src/scene/Viewport.tsx",
         "matches": true,
-        "compiledSha256": "9f792271068bda73523e58baf09133aecc9c09df62824419cda5f05c5a75b06c"
+        "compiledSha256": "90651a9dc4bcac7bd735bfbb376314896c19eba86dba4991d5887d2dc860fa95"
       },
       {
         "file": "src/scene/fiber.native.ts",
@@ -140,12 +150,7 @@
       {
         "file": "src/scene/RoomScene.tsx",
         "matches": true,
-        "compiledSha256": "30ceb60a092b4cd3197ace16319fe74ec71ababbca5a3bf9831a30502b8d062d"
-      },
-      {
-        "file": "src/domain/construction.ts",
-        "matches": true,
-        "compiledSha256": "d248539e57f44afab413bc42ce49b6ea0e3a6f7bb6ace675757457ea651dff53"
+        "compiledSha256": "7b055eabc3198b10114ea1ecd623cf529d58f5bf71a34b9f443ec8c03e3b28d7"
       },
       {
         "file": "src/scene/modelLoader.ts",
@@ -170,12 +175,12 @@
       {
         "file": "src/scene/meshes.ts",
         "matches": true,
-        "compiledSha256": "0bf35bd7e36272ca3ae91bb31eb5bce5371f211363701b036144cc61cb67e8e6"
+        "compiledSha256": "bd616ec1721ef5a2bf3ef2f5a9fb323dc37d8a9a33a4596ef75c16c9ef59b9ee"
       },
       {
         "file": "src/scene/openingPose.ts",
         "matches": true,
-        "compiledSha256": "ac56ac28b90240f683d3a5fda71673bb1f98416bbaf4f1d0df72825f7cbcbaf8"
+        "compiledSha256": "9a7ff7f6376db2bb6394d7fcd2e28c8270cf75770026332783a8f0f50e55f128"
       },
       {
         "file": "src/scene/materials.ts",
@@ -183,9 +188,14 @@
         "compiledSha256": "86c582b507331b89c9bd90621c211a27aecc1b9a912ed643ac29bb0a720fd277"
       },
       {
+        "file": "src/scene/spatialView.ts",
+        "matches": true,
+        "compiledSha256": "7f0795bbbdc0d9f3dab9286d219a23986bc6c067cd50489d47b58079034daf9b"
+      },
+      {
         "file": "src/scene/diagnostics.ts",
         "matches": true,
-        "compiledSha256": "9e9ea5597969e31cf297b1397f4ae933caa49fa1615d46183e1e03a8b1a1aa35"
+        "compiledSha256": "95a5388f3022bc5df54b72defb4eb1f5085700e522dfa7a25a0feb717964f773"
       },
       {
         "file": "src/scene/camera.ts",
@@ -233,9 +243,19 @@
         "compiledSha256": "b8811d11c7315c56570cb8c2e6a785f7c7d010312cf393e928a3d38d4604a3f2"
       },
       {
+        "file": "src/screens/HouseViews.tsx",
+        "matches": true,
+        "compiledSha256": "8a8ef765fa9fe334d18777ff0b83e7d408203f76c9c8596e7552983b8ddb3a39"
+      },
+      {
+        "file": "src/screens/RoomMove.tsx",
+        "matches": true,
+        "compiledSha256": "5af6209317f3a89a6f7f9ee49e711972f6059e9a39eb7aad0c2471c0b7f3f99a"
+      },
+      {
         "file": "src/screens/Build.tsx",
         "matches": true,
-        "compiledSha256": "e97746654d472fff3cd197f3d2284c9fb74261432fd7883c60684b47a38539a9"
+        "compiledSha256": "72eb853fb388dd06a3da6b9c7570876b3dcf60d4a1b34065e94d7087a680c2a8"
       },
       {
         "file": "src/app/future.tsx",

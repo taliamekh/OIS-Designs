@@ -1,0 +1,100 @@
+{
+  "timestamp": "2026-11-10T05:39:11.798Z",
+  "evidence": "Actual app House view with nonempty past/future, synthetic valid saved house and exact real retained sofa. View-only actions versus history/item edits. Browser only, not native.",
+  "checks": [
+    {
+      "id": "initial-history-has-undo-and-redo",
+      "pass": true
+    },
+    {
+      "id": "house-explains-read-only",
+      "pass": true
+    },
+    {
+      "id": "view-only-Top",
+      "pass": true
+    },
+    {
+      "id": "view-only-Front",
+      "pass": true
+    },
+    {
+      "id": "view-only-Perspective",
+      "pass": true
+    },
+    {
+      "id": "view-only-Solid",
+      "pass": true
+    },
+    {
+      "id": "view-only-Cutaway",
+      "pass": true
+    },
+    {
+      "id": "view-only-Show ceilings",
+      "pass": true
+    },
+    {
+      "id": "view-only-Hide ceilings",
+      "pass": true
+    },
+    {
+      "id": "view-only-Separate floors",
+      "pass": true
+    },
+    {
+      "id": "view-only-Align floors",
+      "pass": true
+    },
+    {
+      "id": "fit-preserves-complete-history",
+      "pass": true
+    },
+    {
+      "id": "house-hides-edit-history-and-dock",
+      "pass": true
+    },
+    {
+      "id": "house-pick-offers-no-edit-inspector",
+      "pass": true
+    },
+    {
+      "id": "house-tap-drag-and-old-undo-location-preserve-all-history",
+      "pass": true
+    },
+    {
+      "id": "return-floor-restores-functional-undo",
+      "pass": true
+    },
+    {
+      "id": "return-floor-redo-restores-exact-project",
+      "pass": true
+    },
+    {
+      "id": "walk-still-hides-edit-controls",
+      "pass": true
+    },
+    {
+      "id": "walk-entry-preserves-history",
+      "pass": true
+    }
+  ],
+  "errors": [],
+  "consoleErrors": [],
+  "ui": {
+    "id": "qa-web-2026-11-10T05-32-55-597Z",
+    "url": "http://127.0.0.1:57830",
+    "sourceHash": "2bc172a4aa1331453c5148c791339435cf7298f09f8f4a5aa377593aa4d08b7d",
+    "sourceMapPass": true,
+    "compiledSourceMatchCount": 59,
+    "editor": {
+      "sha256": "e884b36cd4f8edebe2ef572360318fbad42a626837ee17d2eac74b1f34cae0a4"
+    },
+    "viewport": {
+      "sha256": "90651a9dc4bcac7bd735bfbb376314896c19eba86dba4991d5887d2dc860fa95"
+    }
+  },
+  "completed": true,
+  "passed": 19,
+  "failed": 0
+}

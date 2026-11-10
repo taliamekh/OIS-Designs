@@ -1,0 +1,5 @@
+const fs=require('node:fs'),path=require('node:path'),file=path.join(__dirname,'wall-clearance-web.cjs');let source=fs.readFileSync(file,'utf8');
+source=source.replace("if(frozen.sources['src/storage/indexedStore.ts'].sha256!==oracleInfo.sha256)","if(Object.values(report.criticalSourceMatchesCurrent).some(match=>!match))throw Error('Fresh source-matching geometry/renderer export required before this repair retest');if(frozen.sources['src/storage/indexedStore.ts'].sha256!==oracleInfo.sha256)");
+source=source.replace("const saved=await waitForLibrary(page,l=>l.projects[0].present.floors[0].items[0].z!==1),actual=", "await page.waitForTimeout(900);const saved=await readLibrary(page),actual=");
+source=source.replace("report.checks.push({id:'ui-accepted-placement-clears-rendered-wall',pass:minZ>=wallInnerZ-1e-6});", "report.checks.push({id:'ui-committed-placement-clears-rendered-wall',pass:minZ>=wallInnerZ-1e-6});report.checks.push({id:'rejected-near-wall-drag-keeps-original-history',pass:actual.z===1?saved.projects[0].past.length===0:saved.projects[0].past.length===1});");
+fs.writeFileSync(file,source);

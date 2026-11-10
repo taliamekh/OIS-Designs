@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-10T04:32:55.589Z",
+  "timestamp": "2026-11-10T05:57:19.493Z",
   "evidence": "Actual 2D drag/3D display of integrated GLB accepted at a free-placement near-wall position with1mm snapping.1100px inspection canvas is a geometry review, not phone/tablet/native acceptance.",
   "storageOracle": {
     "kind": "Production IndexedStorage.getItem, with its read-only legacy fallback",
@@ -8,18 +8,22 @@
   },
   "checks": [
     {
-      "id": "ui-accepted-placement-clears-rendered-wall",
-      "pass": false
+      "id": "ui-committed-placement-clears-rendered-wall",
+      "pass": true
+    },
+    {
+      "id": "rejected-near-wall-drag-keeps-original-history",
+      "pass": true
     }
   ],
   "errors": [],
   "consoleErrors": [],
   "frozen": {
-    "id": "2026-11-10T03-50-04-350Z-frozen-web",
-    "url": "http://127.0.0.1:52894",
-    "sourceHash": "4d8d0e3ddba05a562e2b74bfb0c36f4cc5b354701e40afb94a4cdff7f7c69a2b",
+    "id": "qa-web-2026-11-10T05-51-51-449Z",
+    "url": "http://127.0.0.1:63393",
+    "sourceHash": "5dbf462634940edd7684743a08d52c0fde717118cad1dc373a8f661f4c11ebe7",
     "sourceMapPass": true,
-    "compiledSourceMatchCount": 54
+    "compiledSourceMatchCount": 59
   },
   "criticalSourceMatchesCurrent": {
     "src/domain/geometry.ts": true,
@@ -28,20 +32,20 @@
   "actual": {
     "item": {
       "id": "qa-clearance-item",
-      "roomId": "room-mwa72e58-mz2mghm",
+      "roomId": "room-mwaa2xhg-bnvm8vb",
       "assetId": "ois.calm-oak.kitchen-base",
       "assetVersion": "0.1.0",
       "assetHash": "50feb5b77773185282de5a3694f6e764d5f2e87b323f906aa394c6187669928a",
       "x": 3,
-      "z": 0.336,
+      "z": 1,
       "yaw": 3.141592653589793,
       "locked": false,
       "materialOverrides": {}
     },
-    "footprintMinZ": 0.025999997615814174,
+    "footprintMinZ": 0.6899999976158142,
     "wallInnerZ": 0.06,
-    "penetrationMetres": 0.03400000238418582,
-    "past": 1
+    "penetrationMetres": 0,
+    "past": 0
   },
   "completed": true
 }

@@ -1,0 +1,13 @@
+# QA-GEO13 — typed Draw walls dimensions use a different convention
+
+**Resolved by independent actual UI at05:57UTC:** corrected59-source snapshot05:51/provenance5dbf4626… passes45checks across Rectangle,L,drawn rectangle,concave L,slanted quadrilateral,feet and crossed rejection. Independent physical wall-face normal equations match all six valid requested clear spans; inspector/reload remain exact, creation has no hidden Undo, untouched fractional-feet Apply preserves reference coordinates exactly. draw-inside-retest-web.json. Original failed12/15evidence/images remain frozen under integrated-qa-0550.
+
+Actual integrated59-source app snapshot `qa-web-2026-11-10T05-37-28-155Z`, provenance digestaafeee36…; clear-input-web.json. All three creation paths were exercised through normal phone UI with Width4m,Depth3m,Ceiling3.1m.
+
+Rectangle and L-shape both create4×3m between finished wall faces and the editor retains4.000/3.000. **Draw walls** creates a4×3m reference outline with12cm walls, giving **3.88×2.88m inside**. Opening Room dimensions shows3.880/2.880. All paths save3.1m ceiling. Actual UI15assertions:12pass,3fail, no captured errors.
+
+This is a requirement/adoption gap, not save corruption: Create intentionally normalizes supplied drawing polygons to the typed reference dimensions, and its new note explains reference lines. The required typed width/depth contract is inside wall faces. The customer should not get a smaller result by choosing another starting shape or need to understand stored wall-reference coordinates.
+
+Keep existing saved drawings unchanged and retain reference coordinates internally. For **new creation with explicit inside input**, apply the inside resize helper to the supplied normalized polygon before its first save, or teach the explicit makeProject(...,drawn,"inside") factory mode to do that conversion. Default legacy/reference factory calls and load/recovery must stay exact. No initial hidden Undo step is needed for construction. Replace the shape-dependent technical note with the same customer measurement convention once corrected.
+
+Evidence: clear-input-web.json and clear-input-{Rectangle,L-shape,Draw-walls}.png, plus the actual stored projects in the report. The finished spans are independently calculated from reference extents and the verified12cm physical wall halves; this is browser UI/state/analytic geometry evidence, not a physical device/GPU ruler claim. Retest custom rectangle and a nonrectangular drawing, invalid/crossed drawing rejection, templates, combined height, units and legacy saves after repair. Production remains app-owned; no QA mobile edits.

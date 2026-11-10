@@ -1,0 +1,287 @@
+{
+  "timestamp": "2026-11-10T05:06:31.144Z",
+  "evidence": "Production domain execution with analytic synthetic box fixtures and installed renderer contracts. Real GLB triangle probes are separate. Not device/render acceptance.",
+  "before": {
+    "src/domain/geometry.ts": "e247812b761d60ffc6e9ba5c6a715892b4dcc971da514823f79b5f520682b02f",
+    "src/domain/project.ts": "84a4f075fe90ef80dddf22ae5bc2406fd0b83c5a75aee90c26fcbcfa2e35d8ef",
+    "src/domain/persistence.ts": "ac166d419b677611c1b32d17fa0ddb9021d20f19cf3614fbd0e39719681e50ee",
+    "src/scene/meshes.ts": "0bf35bd7e36272ca3ae91bb31eb5bce5371f211363701b036144cc61cb67e8e6",
+    "src/scene/openingPose.ts": "ac56ac28b90240f683d3a5fda71673bb1f98416bbaf4f1d0df72825f7cbcbaf8"
+  },
+  "checks": [
+    {
+      "id": "solid-wall-blocks",
+      "pass": true,
+      "observed": {
+        "allowed": false,
+        "error": "Keep the furniture clear of the physical wall."
+      }
+    },
+    {
+      "id": "solid-wall-blocks/reverse",
+      "pass": true,
+      "observed": {
+        "allowed": false,
+        "error": "Keep the furniture clear of the physical wall."
+      }
+    },
+    {
+      "id": "empty-doorway-remains-clear",
+      "pass": true,
+      "observed": {
+        "allowed": true,
+        "error": null
+      }
+    },
+    {
+      "id": "empty-doorway-remains-clear/reverse",
+      "pass": true,
+      "observed": {
+        "allowed": true,
+        "error": null
+      }
+    },
+    {
+      "id": "doorway-lintel-blocks-tall-box",
+      "pass": true,
+      "observed": {
+        "allowed": false,
+        "error": "Keep the furniture clear of the physical wall."
+      }
+    },
+    {
+      "id": "doorway-lintel-blocks-tall-box/reverse",
+      "pass": true,
+      "observed": {
+        "allowed": false,
+        "error": "Keep the furniture clear of the physical wall."
+      }
+    },
+    {
+      "id": "low-window-sill-blocks-box",
+      "pass": true,
+      "observed": {
+        "allowed": false,
+        "error": "Keep the furniture clear of the physical wall."
+      }
+    },
+    {
+      "id": "low-window-sill-blocks-box/reverse",
+      "pass": true,
+      "observed": {
+        "allowed": false,
+        "error": "Keep the furniture clear of the physical wall."
+      }
+    },
+    {
+      "id": "box-within-recess-clears-sill-and-lintel",
+      "pass": true,
+      "observed": {
+        "allowed": true,
+        "error": null
+      }
+    },
+    {
+      "id": "box-within-recess-clears-sill-and-lintel/reverse",
+      "pass": true,
+      "observed": {
+        "allowed": true,
+        "error": null
+      }
+    },
+    {
+      "id": "glazing-still-blocks",
+      "pass": true,
+      "observed": {
+        "allowed": false,
+        "error": "Keep the furniture clear of the window glazing."
+      }
+    },
+    {
+      "id": "glazing-still-blocks/reverse",
+      "pass": true,
+      "observed": {
+        "allowed": false,
+        "error": "Keep the furniture clear of the window glazing."
+      }
+    },
+    {
+      "id": "low-box-blocked-by-projected-trim",
+      "pass": true,
+      "observed": {
+        "allowed": false,
+        "error": "Keep the furniture clear of this wall’s baseboard projection."
+      }
+    },
+    {
+      "id": "low-box-blocked-by-projected-trim/reverse",
+      "pass": true,
+      "observed": {
+        "allowed": false,
+        "error": "Keep the furniture clear of this wall’s baseboard projection."
+      }
+    },
+    {
+      "id": "elevated-box-clears-low-trim",
+      "pass": true,
+      "observed": {
+        "allowed": true,
+        "error": null
+      }
+    },
+    {
+      "id": "elevated-box-clears-low-trim/reverse",
+      "pass": true,
+      "observed": {
+        "allowed": true,
+        "error": null
+      }
+    },
+    {
+      "id": "no-trim-control",
+      "pass": true,
+      "observed": {
+        "allowed": true,
+        "error": null
+      }
+    },
+    {
+      "id": "no-trim-control/reverse",
+      "pass": true,
+      "observed": {
+        "allowed": true,
+        "error": null
+      }
+    },
+    {
+      "id": "jamb-projection-blocks",
+      "pass": true,
+      "observed": {
+        "allowed": false,
+        "error": "Keep the furniture clear of the opening frame."
+      }
+    },
+    {
+      "id": "jamb-projection-blocks/reverse",
+      "pass": true,
+      "observed": {
+        "allowed": false,
+        "error": "Keep the furniture clear of the opening frame."
+      }
+    },
+    {
+      "id": "jamb-safe-control",
+      "pass": true,
+      "observed": {
+        "allowed": true,
+        "error": null
+      }
+    },
+    {
+      "id": "jamb-safe-control/reverse",
+      "pass": true,
+      "observed": {
+        "allowed": true,
+        "error": null
+      }
+    },
+    {
+      "id": "inside-dimensions-unequal",
+      "pass": true,
+      "observed": {
+        "width": 5.79,
+        "depth": 4.865,
+        "bounds": {
+          "minX": 0.05999999999999961,
+          "maxX": 5.85,
+          "minZ": 0.075,
+          "maxZ": 4.94
+        }
+      }
+    },
+    {
+      "id": "inside-dimensions-unequal/reverse",
+      "pass": true,
+      "observed": {
+        "width": 5.79,
+        "depth": 4.865,
+        "bounds": {
+          "minX": 0.05999999999999961,
+          "maxX": 5.85,
+          "minZ": 0.075,
+          "maxZ": 4.94
+        }
+      }
+    },
+    {
+      "id": "new-inside-project-and-resize-history",
+      "pass": false,
+      "error": "AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:\n+ actual - expected\n\n+ '{\"id\":\"project-mwa89ldv-q0zz797\",\"schemaVersion\":1,\"name\":\"Untitled project\",\"updatedAt\":1794287191174,\"floors\":[{\"id\":\"floor-mwa89ldv-ed6v6an\",\"name\":\"Ground floor\",\"elevation\":0,\"ceiling\":2.7,\"alignment\":{\"x\":0,\"z\":0},\"rooms\":[{\"id\":\"room-mwa89ldv-27c4r1o\",\"name\":\"Living room\",\"kind\":\"living\",\"polygon\":[{\"x\":0,\"z\":0},{\"x\":6.12,\"z\":0},{\"x\":6.12,\"z\":3.119999999999999},{\"x\":0,\"z\":3.119999999999999}],\"ceiling\":null,\"floorFinish\":{\"id\":\"white-oak\",\"repeat\":2,\"angle\":0},\"wallFaces\":{},\"trim\":{\"profile\":\"flat\",\"height\":0.1,\"projection\":0.016,\"colour\":\"#eeeae2\",\"sheen\":\"satin\"},\"trimOverrides\":{}}],\"walls\":[{\"id\":\"wall:0,0:61200,0\",\"a\":{\"x\":0,\"z\":0},\"b\":{\"x\":6.12,\"z\":0},\"thickness\":0.12,\"faces\":[{\"roomId\":\"room-mwa89ldv-27c4r1o\",\"reversed\":false}]},{\"id\":\"wall:61200,0:61200,31200\",\"a\":{\"x\":6.12,\"z\":0},\"b\":{\"x\":6.12,\"z\":3.119999999999999},\"thickness\":0.12,\"faces\":[{\"roomId\":\"room-mwa89ldv-27c4r1o\",\"reversed\":false}]},{\"id\":\"wall:0,31200:61200,31200\",\"a\":{\"x\":0,\"z\":3.119999999999999},\"b\":{\"x\":6.12,\"z\":3.119999999999999},\"thickness\":0.12,\"faces\":[{\"roomId\":\"room-mwa89ldv-27c4r1o\",\"reversed\":true}]},{\"id\":\"wall:0,0:0,31200\",\"a\":{\"x\":0,\"z\":0},\"b\":{\"x\":0,\"z\":3.119999999999999},\"thickness\":0.12,\"faces\":[{\"roomId\":\"room-mwa89ldv-27c4r1o\",\"reversed\":true}]}],\"openings\":[],\"items\":[]}]}'\n- '{\"id\":\"project-mwa89ldv-q0zz797\",\"schemaVersion\":1,\"name\":\"Untitled project\",\"updatedAt\":1794287191171,\"floors\":[{\"id\":\"floor-mwa89ldv-ed6v6an\",\"name\":\"Ground floor\",\"elevation\":0,\"ceiling\":2.7,\"alignment\":{\"x\":0,\"z\":0},\"rooms\":[{\"id\":\"room-mwa89ldv-27c4r1o\",\"name\":\"Living room\",\"kind\":\"living\",\"polygon\":[{\"x\":0,\"z\":0},{\"x\":5.12,\"z\":0},{\"x\":5.12,\"z\":4.12},{\"x\":0,\"z\":4.12}],\"ceiling\":null,\"floorFinish\":{\"id\":\"white-oak\",\"repeat\":2,\"angle\":0},\"wallFaces\":{},\"trim\":{\"profile\":\"flat\",\"height\":0.1,\"projection\":0.016,\"colour\":\"#eeeae2\",\"sheen\":\"satin\"},\"trimOverrides\":{}}],\"walls\":[{\"id\":\"wall:0,0:51200,0\",\"a\":{\"x\":0,\"z\":0},\"b\":{\"x\":5.12,\"z\":0},\"thickness\":0.12,\"faces\":[{\"roomId\":\"room-mwa89ldv-27c4r1o\",\"reversed\":false}]},{\"id\":\"wall:51200,0:51200,41200\",\"a\":{\"x\":5.12,\"z\":0},\"b\":{\"x\":5.12,\"z\":4.12},\"thickness\":0.12,\"faces\":[{\"roomId\":\"room-mwa89ldv-27c4r1o\",\"reversed\":false}]},{\"id\":\"wall:0,41200:51200,41200\",\"a\":{\"x\":0,\"z\":4.12},\"b\":{\"x\":5.12,\"z\":4.12},\"thickness\":0.12,\"faces\":[{\"roomId\":\"room-mwa89ldv-27c4r1o\",\"reversed\":true}]},{\"id\":\"wall:0,0:0,41200\",\"a\":{\"x\":0,\"z\":0},\"b\":{\"x\":0,\"z\":4.12},\"thickness\":0.12,\"faces\":[{\"roomId\":\"room-mwa89ldv-27c4r1o\",\"reversed\":true}]}],\"openings\":[],\"items\":[]}]}'\n\n    at C:\\Users\\talia\\OneDrive\\Documents\\ChatGPT\\OIS Designs\\docs\\qa\\design\\boundary-repair-regression.cjs:39:407\n    at check (C:\\Users\\talia\\OneDrive\\Documents\\ChatGPT\\OIS Designs\\docs\\qa\\design\\boundary-repair-regression.cjs:7:42)\n    at Object.<anonymous> (C:\\Users\\talia\\OneDrive\\Documents\\ChatGPT\\OIS Designs\\docs\\qa\\design\\boundary-repair-regression.cjs:37:1)\n    at Module._compile (node:internal/modules/cjs/loader:1872:14)\n    at Object..js (node:internal/modules/cjs/loader:2003:10)\n    at Module.load (node:internal/modules/cjs/loader:1594:32)\n    at Module._load (node:internal/modules/cjs/loader:1396:12)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)\n    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)\n    at node:internal/main/run_main_module:33:47"
+    },
+    {
+      "id": "unchanged-clear-input-retains-exact-reference-polygon",
+      "pass": true
+    },
+    {
+      "id": "slanted-outline-clear-resize-preserves-thickness",
+      "pass": true,
+      "observed": {
+        "width": 6.761841180386774,
+        "depth": 5.564999999999993,
+        "bounds": {
+          "minX": 0.07352620498218854,
+          "maxX": 6.835367385368963,
+          "minZ": 0.06,
+          "maxZ": 5.624999999999993
+        }
+      }
+    },
+    {
+      "id": "inside-shared-face-corners-use-each-room-walls",
+      "pass": true,
+      "observed": [
+        {
+          "roomId": "room-mwa89le7-zrw3mwh",
+          "name": "Living room",
+          "before": 1.125,
+          "after": 2.8399999999999994
+        },
+        {
+          "roomId": "room-mwa89le7-nbycjqc",
+          "name": "Kitchen",
+          "before": 2.8400000000000003,
+          "after": 1.0499999999999996
+        }
+      ]
+    },
+    {
+      "id": "legacy-overlap-load-is-byte-preserved-and-can-be-moved-out",
+      "pass": false,
+      "error": "AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:\n\n2 !== 0.075\n\n    at C:\\Users\\talia\\OneDrive\\Documents\\ChatGPT\\OIS Designs\\docs\\qa\\design\\boundary-repair-regression.cjs:50:997\n    at check (C:\\Users\\talia\\OneDrive\\Documents\\ChatGPT\\OIS Designs\\docs\\qa\\design\\boundary-repair-regression.cjs:7:42)\n    at Object.<anonymous> (C:\\Users\\talia\\OneDrive\\Documents\\ChatGPT\\OIS Designs\\docs\\qa\\design\\boundary-repair-regression.cjs:49:1)\n    at Module._compile (node:internal/modules/cjs/loader:1872:14)\n    at Object..js (node:internal/modules/cjs/loader:2003:10)\n    at Module.load (node:internal/modules/cjs/loader:1594:32)\n    at Module._load (node:internal/modules/cjs/loader:1396:12)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)\n    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)\n    at node:internal/main/run_main_module:33:47"
+    },
+    {
+      "id": "mesh-hole-and-trim-interval-contract-identical",
+      "pass": true,
+      "observed": {
+        "fixtures": 10
+      }
+    },
+    {
+      "id": "full-motion-envelope-conservatively-encloses-actual-panel-corners",
+      "pass": true,
+      "observed": {
+        "cornerSamples": 14544
+      }
+    }
+  ],
+  "after": {
+    "src/domain/geometry.ts": "e247812b761d60ffc6e9ba5c6a715892b4dcc971da514823f79b5f520682b02f",
+    "src/domain/project.ts": "84a4f075fe90ef80dddf22ae5bc2406fd0b83c5a75aee90c26fcbcfa2e35d8ef",
+    "src/domain/persistence.ts": "ac166d419b677611c1b32d17fa0ddb9021d20f19cf3614fbd0e39719681e50ee",
+    "src/scene/meshes.ts": "0bf35bd7e36272ca3ae91bb31eb5bce5371f211363701b036144cc61cb67e8e6",
+    "src/scene/openingPose.ts": "ac56ac28b90240f683d3a5fda71673bb1f98416bbaf4f1d0df72825f7cbcbaf8"
+  },
+  "stableSource": true,
+  "passed": 29,
+  "failed": 2
+}

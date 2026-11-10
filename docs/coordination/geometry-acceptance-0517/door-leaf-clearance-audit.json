@@ -1,0 +1,5825 @@
+{
+  "timestamp": "2026-11-10T05:17:26.990Z",
+  "evidence": "Actual placement/command validation versus actual openingLeaves Walk pose and production leaf-box expressions, intersected against real integrated GLB triangles under Three. CPU full-open motion clearance, not native/GPU/code certification.",
+  "before": {
+    "src/domain/geometry.ts": "0b029dd1ee4d1070fc8dfaffd96b5baded62ce8d1ec4d5556fd5c27fdcf57364",
+    "src/domain/project.ts": "dbc3f9e67401b49a8a21b9d5035a32bc7240a351cc56cdc62bfc0c26aa4bd783",
+    "src/scene/RoomScene.tsx": "3af9cb461ed8b5f8960cbc4d130dbb933d43c8d9ec5f6a677215d35bb1b4b532",
+    "src/scene/openingPose.ts": "ac56ac28b90240f683d3a5fda71673bb1f98416bbaf4f1d0df72825f7cbcbaf8"
+  },
+  "cases": [
+    {
+      "reverse": false,
+      "thickness": 0.12,
+      "type": "single",
+      "hinge": "left",
+      "flip": false,
+      "control": false,
+      "item": {
+        "id": "qa-lamp",
+        "roomId": "room-mwa8nnhy-0dpsnnj",
+        "assetId": "ois.calm-oak.floor-lamp",
+        "assetVersion": "0.1.0",
+        "assetHash": "01c4272d9b2f3ad4c0fa78a945b42da31a13fc27998042007f89bccf539b0a9a",
+        "x": 2,
+        "z": 1.1050000029802323,
+        "yaw": 0,
+        "locked": false,
+        "materialOverrides": {}
+      },
+      "leaf": {
+        "pivotX": 0,
+        "z": 0.02,
+        "yaw": -1.5707963267948966,
+        "width": 0.9
+      },
+      "error": "Keep the moving door panel area clear.",
+      "commandError": "Keep the moving door panel area clear.",
+      "accepted": false,
+      "hitTriangles": 10,
+      "totalTriangles": 756,
+      "hitMeshes": [
+        {
+          "name": "linen_geometry",
+          "triangles": 10
+        }
+      ],
+      "leafBounds": {
+        "min": [
+          1.9824999999254942,
+          4.768371586472142e-8,
+          0.020000011920928984
+        ],
+        "max": [
+          2.017500000074506,
+          2.099999952316284,
+          0.919999988079071
+        ]
+      },
+      "pass": true
+    },
+    {
+      "reverse": false,
+      "thickness": 0.12,
+      "type": "single",
+      "hinge": "left",
+      "flip": false,
+      "control": true,
+      "item": {
+        "id": "qa-lamp",
+        "roomId": "room-mwa8nni7-qgzbvcz",
+        "assetId": "ois.calm-oak.floor-lamp",
+        "assetVersion": "0.1.0",
+        "assetHash": "01c4272d9b2f3ad4c0fa78a945b42da31a13fc27998042007f89bccf539b0a9a",
+        "x": 2,
+        "z": 1.1450000029802323,
+        "yaw": 0,
+        "locked": false,
+        "materialOverrides": {}
+      },
+      "leaf": {
+        "pivotX": 0,
+        "z": 0.02,
+        "yaw": -1.5707963267948966,
+        "width": 0.9
+      },
+      "error": null,
+      "commandError": null,
+      "accepted": true,
+      "hitTriangles": 0,
+      "totalTriangles": 756,
+      "hitMeshes": [],
+      "leafBounds": {
+        "min": [
+          1.9824999999254942,
+          4.768371586472142e-8,
+          0.020000011920928984
+        ],
+        "max": [
+          2.017500000074506,
+          2.099999952316284,
+          0.919999988079071
+        ]
+      },
+      "pass": true
+    },
+    {
+      "reverse": false,
+      "thickness": 0.12,
+      "type": "single",
+      "hinge": "left",
+      "flip": true,
+      "control": false,
+      "item": {
+        "id": "qa-lamp",
+        "roomId": "room-mwa8nnia-2ub9c1q",
+        "assetId": "ois.calm-oak.floor-lamp",
+        "assetVersion": "0.1.0",
+        "assetHash": "01c4272d9b2f3ad4c0fa78a945b42da31a13fc27998042007f89bccf539b0a9a",
+        "x": 2,
+        "z": -1.1050000029802323,
+        "yaw": 0,
+        "locked": false,
+        "materialOverrides": {}
+      },
+      "leaf": {
+        "pivotX": 0,
+        "z": -0.02,
+        "yaw": 1.5707963267948966,
+        "width": 0.9
+      },
+      "error": "Keep the moving door panel area clear.",
+      "commandError": "Keep the moving door panel area clear.",
+      "accepted": false,
+      "hitTriangles": 10,
+      "totalTriangles": 756,
+      "hitMeshes": [
+        {
+          "name": "linen_geometry",
+          "triangles": 10
+        }
+      ],
+      "leafBounds": {
+        "min": [
+          1.9824999999254942,
+          4.768371586472142e-8,
+          -0.919999988079071
+        ],
+        "max": [
+          2.017500000074506,
+          2.099999952316284,
+          -0.020000011920928984
+        ]
+      },
+      "pass": true
+    },
+    {
+      "reverse": false,
+      "thickness": 0.12,
+      "type": "single",
+      "hinge": "left",
+      "flip": true,
+      "control": true,
+      "item": {
+        "id": "qa-lamp",
+        "roomId": "room-mwa8nnib-ci5mb7c",
+        "assetId": "ois.calm-oak.floor-lamp",
+        "assetVersion": "0.1.0",
+        "assetHash": "01c4272d9b2f3ad4c0fa78a945b42da31a13fc27998042007f89bccf539b0a9a",
+        "x": 2,
+        "z": -1.1450000029802323,
+        "yaw": 0,
+        "locked": false,
+        "materialOverrides": {}
+      },
+      "leaf": {
+        "pivotX": 0,
+        "z": -0.02,
+        "yaw": 1.5707963267948966,
+        "width": 0.9
+      },
+      "error": null,
+      "commandError": null,
+      "accepted": true,
+      "hitTriangles": 0,
+      "totalTriangles": 756,
+      "hitMeshes": [],
+      "leafBounds": {
+        "min": [
+          1.9824999999254942,
+          4.768371586472142e-8,
+          -0.919999988079071
+        ],
+        "max": [
+          2.017500000074506,
+          2.099999952316284,
+          -0.020000011920928984
+        ]
+      },
+      "pass": true
+    },
+    {
+      "reverse": false,
+      "thickness": 0.12,
+      "type": "single",
+      "hinge": "right",
+      "flip": false,
+      "control": false,
+      "item": {
+        "id": "qa-lamp",
+        "roomId": "room-mwa8nnif-samnqag",
+        "assetId": "ois.calm-oak.floor-lamp",
+        "assetVersion": "0.1.0",
+        "assetHash": "01c4272d9b2f3ad4c0fa78a945b42da31a13fc27998042007f89bccf539b0a9a",
+        "x": 2.9,
+        "z": 1.1050000029802323,
+        "yaw": 0,
+        "locked": false,
+        "materialOverrides": {}
+      },
+      "leaf": {
+        "pivotX": 0.9,
+        "z": 0.02,
+        "yaw": 4.71238898038469,
+        "width": 0.9
+      },
+      "error": "Keep the moving door panel area clear.",
+      "commandError": "Keep the moving door panel area clear.",
+      "accepted": false,
+      "hitTriangles": 10,
+      "totalTriangles": 756,
+      "hitMeshes": [
+        {
+          "name": "linen_geometry",
+          "triangles": 10
+        }
+      ],
+      "leafBounds": {
+        "min": [
+          2.882499999925494,
+          4.768371586472142e-8,
+          0.020000011920928984
+        ],
+        "max": [
+          2.9175000000745057,
+          2.099999952316284,
+          0.919999988079071
+        ]
+      },
+      "pass": true
+    },
+    {
+      "reverse": false,
+      "thickness": 0.12,
+      "type": "single",
+      "hinge": "right",
+      "flip": false,
+      "control": true,
+      "item": {
+        "id": "qa-lamp",
+        "roomId": "room-mwa8nnig-nuny3jo",
+        "assetId": "ois.calm-oak.floor-lamp",
+        "assetVersion": "0.1.0",
+        "assetHash": "01c4272d9b2f3ad4c0fa78a945b42da31a13fc27998042007f89bccf539b0a9a",
+        "x": 2.9,
+        "z": 1.1450000029802323,
+        "yaw": 0,
+        "locked": false,
+        "materialOverrides": {}
+      },
+      "leaf": {
+        "pivotX": 0.9,
+        "z": 0.02,
+        "yaw": 4.71238898038469,
+        "width": 0.9
+      },
+      "error": null,
+      "commandError": null,
+      "accepted": true,
+      "hitTriangles": 0,
+      "totalTriangles": 756,
+      "hitMeshes": [],
+      "leafBounds": {
+        "min": [
+          2.882499999925494,
+          4.768371586472142e-8,
+          0.020000011920928984
+        ],
+        "max": [
+          2.9175000000745057,
+          2.099999952316284,
+          0.919999988079071
+        ]
+      },
+      "pass": true
+    },
+    {
+      "reverse": false,
+      "thickness": 0.12,
+      "type": "single",
+      "hinge": "right",
+      "flip": true,
+      "control": false,
+      "item": {
+        "id": "qa-lamp",
+        "roomId": "room-mwa8nnii-0o2yvvw",
+        "assetId": "ois.calm-oak.floor-lamp",
+        "assetVersion": "0.1.0",
+        "assetHash": "01c4272d9b2f3ad4c0fa78a945b42da31a13fc27998042007f89bccf539b0a9a",
+        "x": 2.9,
+        "z": -1.1050000029802323,
+        "yaw": 0,
+        "locked": false,
+        "materialOverrides": {}
+      },
+      "leaf": {
+        "pivotX": 0.9,
+        "z": -0.02,
+        "yaw": 1.5707963267948966,
+        "width": 0.9
+      },
+      "error": "Keep the moving door panel area clear.",
+      "commandError": "Keep the moving door panel area clear.",
+      "accepted": false,
+      "hitTriangles": 10,
+      "totalTriangles": 756,
+      "hitMeshes": [
+        {
+          "name": "linen_geometry",
+          "triangles": 10
+        }
+      ],
+      "leafBounds": {
+        "min": [
+          2.882499999925494,
+          4.768371586472142e-8,
+          -0.919999988079071
+        ],
+        "max": [
+          2.9175000000745057,
+          2.099999952316284,
+          -0.020000011920928984
+        ]
+      },
+      "pass": true
+    },
+    {
+      "reverse": false,
+      "thickness": 0.12,
+      "type": "single",
+      "hinge": "right",
+      "flip": true,
+      "control": true,
+      "item": {
+        "id": "qa-lamp",
+        "roomId": "room-mwa8nnik-gi25n3d",
+        "assetId": "ois.calm-oak.floor-lamp",
+        "assetVersion": "0.1.0",
+        "assetHash": "01c4272d9b2f3ad4c0fa78a945b42da31a13fc27998042007f89bccf539b0a9a",
+        "x": 2.9,
+        "z": -1.1450000029802323,
+        "yaw": 0,
+        "locked": false,
+        "materialOverrides": {}
+      },
+      "leaf": {
+        "pivotX": 0.9,
+        "z": -0.02,
+        "yaw": 1.5707963267948966,
+        "width": 0.9
+      },
+      "error": null,
+      "commandError": null,
+      "accepted": true,
+      "hitTriangles": 0,
+      "totalTriangles": 756,
+      "hitMeshes": [],
+      "leafBounds": {
+        "min": [
+          2.882499999925494,
+          4.768371586472142e-8,
+          -0.919999988079071
+        ],
+        "max": [
+          2.9175000000745057,
+          2.099999952316284,
+          -0.020000011920928984
+        ]
+      },
+      "pass": true
+    },
+    {
+      "reverse": false,
+      "thickness": 0.12,
+      "type": "double",
+      "hinge": "left",
+      "flip": false,
+      "control": false,
+      "item": {
+        "id": "qa-lamp",
+        "roomId": "room-mwa8nnim-h7y8lyd",
+        "assetId": "ois.calm-oak.floor-lamp",
+        "assetVersion": "0.1.0",
+        "assetHash": "01c4272d9b2f3ad4c0fa78a945b42da31a13fc27998042007f89bccf539b0a9a",
+        "x": 2,
+        "z": 1.0050000029802324,
+        "yaw": 0,
+        "locked": false,
+        "materialOverrides": {}
+      },
+      "leaf": {
+        "pivotX": 0,
+        "z": 0.02,
+        "yaw": -1.5707963267948966,
+        "width": 0.8
+      },
+      "error": "Keep the moving door panel area clear.",
+      "commandError": "Keep the moving door panel area clear.",
+      "accepted": false,
+      "hitTriangles": 10,
+      "totalTriangles": 756,
+      "hitMeshes": [
+        {
+          "name": "linen_geometry",
+          "triangles": 10
+        }
+      ],
+      "leafBounds": {
+        "min": [
+          1.9824999999254942,
+          4.768371586472142e-8,
+          0.019999994039535562
+        ],
+        "max": [
+          2.017500000074506,
+          2.099999952316284,
+          0.8200000059604645
+        ]
+      },
+      "pass": true
+    },
+    {
+      "reverse": false,
+      "thickness": 0.12,
+      "type": "double",
+      "hinge": "left",
+      "flip": false,
+      "control": true,
+      "item": {
+        "id": "qa-lamp",
+        "roomId": "room-mwa8nnin-jnv34xz",
+        "assetId": "ois.calm-oak.floor-lamp",
+        "assetVersion": "0.1.0",
+        "assetHash": "01c4272d9b2f3ad4c0fa78a945b42da31a13fc27998042007f89bccf539b0a9a",
+        "x": 2,
+        "z": 1.0450000029802324,
+        "yaw": 0,
+        "locked": false,
+        "materialOverrides": {}
+      },
+      "leaf": {
+        "pivotX": 0,
+        "z": 0.02,
+        "yaw": -1.5707963267948966,
+        "width": 0.8
+      },
+      "error": null,
+      "commandError": null,
+      "accepted": true,
+      "hitTriangles": 0,
+      "totalTriangles": 756,
+      "hitMeshes": [],
+      "leafBounds": {
+        "min": [
+          1.9824999999254942,
+          4.768371586472142e-8,
+          0.019999994039535562
+        ],
+        "max": [
+          2.017500000074506,
+          2.099999952316284,
+          0.8200000059604645
+        ]
+      },
+      "pass": true
+    },
+    {
+      "reverse": false,
+      "thickness": 0.12,
+      "type": "double",
+      "hinge": "left",
+      "flip": true,
+      "control": false,
+      "item": {
+        "id": "qa-lamp",
+        "roomId": "room-mwa8nnip-vwni4o3",
+        "assetId": "ois.calm-oak.floor-lamp",
+        "assetVersion": "0.1.0",
+        "assetHash": "01c4272d9b2f3ad4c0fa78a945b42da31a13fc27998042007f89bccf539b0a9a",
+        "x": 2,
+        "z": -1.0050000029802324,
+        "yaw": 0,
+        "locked": false,
+        "materialOverrides": {}
+      },
+      "leaf": {
+        "pivotX": 0,
+        "z": -0.02,
+        "yaw": 1.5707963267948966,
+        "width": 0.8
+      },
+      "error": "Keep the moving door panel area clear.",
+      "commandError": "Keep the moving door panel area clear.",
+      "accepted": false,
+      "hitTriangles": 10,
+      "totalTriangles": 756,
+      "hitMeshes": [
+        {
+          "name": "linen_geometry",
+          "triangles": 10
+        }
+      ],
+      "leafBounds": {
+        "min": [
+          1.9824999999254942,
+          4.768371586472142e-8,
+          -0.8200000059604645
+        ],
+        "max": [
+          2.017500000074506,
+          2.099999952316284,
+          -0.019999994039535562
+        ]
+      },
+      "pass": true
+    },
+    {
+      "reverse": false,
+      "thickness": 0.12,
+      "type": "double",
+      "hinge": "left",
+      "flip": true,
+      "control": true,
+      "item": {
+        "id": "qa-lamp",
+        "roomId": "room-mwa8nniq-wnjt3vl",
+        "assetId": "ois.calm-oak.floor-lamp",
+        "assetVersion": "0.1.0",
+        "assetHash": "01c4272d9b2f3ad4c0fa78a945b42da31a13fc27998042007f89bccf539b0a9a",
+        "x": 2,
+        "z": -1.0450000029802324,
+        "yaw": 0,
+        "locked": false,
+        "materialOverrides": {}
+      },
+      "leaf": {
+        "pivotX": 0,
+        "z": -0.02,
+        "yaw": 1.5707963267948966,
+        "width": 0.8
+      },
+      "error": null,
+      "commandError": null,
+      "accepted": true,
+      "hitTriangles": 0,
+      "totalTriangles": 756,
+      "hitMeshes": [],
+      "leafBounds": {
+        "min": [
+          1.9824999999254942,
+          4.768371586472142e-8,
+          -0.8200000059604645
+        ],
+        "max": [
+          2.017500000074506,
+          2.099999952316284,
+          -0.019999994039535562
+        ]
+      },
+      "pass": true
+    },
+    {
+      "reverse": false,
+      "thickness": 0.12,
+      "type": "sliding",
+      "hinge": "left",
+      "flip": false,
+      "control": false,
+      "item": {
+        "id": "qa-lamp",
+        "roomId": "room-mwa8nnir-rp6nwmd",
+        "assetId": "ois.calm-oak.floor-lamp",
+        "assetVersion": "0.1.0",
+        "assetHash": "01c4272d9b2f3ad4c0fa78a945b42da31a13fc27998042007f89bccf539b0a9a",
+        "x": 1.55,
+        "z": 0.28000000298023225,
+        "yaw": 0,
+        "locked": false,
+        "materialOverrides": {}
+      },
+      "leaf": {
+        "pivotX": -0.9,
+        "z": 0.095,
+        "yaw": 0,
+        "width": 0.9
+      },
+      "error": "Keep the moving door panel area clear.",
+      "commandError": "Keep the moving door panel area clear.",
+      "accepted": false,
+      "hitTriangles": 65,
+      "totalTriangles": 756,
+      "hitMeshes": [
+        {
+          "name": "linen_geometry",
+          "triangles": 58
+        },
+        {
+          "name": "metal_geometry",
+          "triangles": 7
+        }
+      ],
+      "leafBounds": {
+        "min": [
+          1.100000011920929,
+          4.768371586472142e-8,
+          0.0774999999254942
+        ],
+        "max": [
+          1.999999988079071,
+          2.099999952316284,
+          0.11250000007450581
+        ]
+      },
+      "pass": true
+    },
+    {
+      "reverse": false,
+      "thickness": 0.12,
+      "type": "sliding",
+      "hinge": "left",
+      "flip": false,
+      "control": true,
+      "item": {
+        "id": "qa-lamp",
+        "roomId": "room-mwa8nnis-m5xs9tv",
+        "assetId": "ois.calm-oak.floor-lamp",
+        "assetVersion": "0.1.0",
+        "assetHash": "01c4272d9b2f3ad4c0fa78a945b42da31a13fc27998042007f89bccf539b0a9a",
+        "x": 1.55,
+        "z": 0.32500000298023224,
+        "yaw": 0,
+        "locked": false,
+        "materialOverrides": {}
+      },
+      "leaf": {
+        "pivotX": -0.9,
+        "z": 0.095,
+        "yaw": 0,
+        "width": 0.9
+      },
+      "error": null,
+      "commandError": null,
+      "accepted": true,
+      "hitTriangles": 0,
+      "totalTriangles": 756,
+      "hitMeshes": [],
+      "leafBounds": {
+        "min": [
+          1.100000011920929,
+          4.768371586472142e-8,
+          0.0774999999254942
+        ],
+        "max": [
+          1.999999988079071,
+          2.099999952316284,
+          0.11250000007450581
+        ]
+      },
+      "pass": true
+    },
+    {
+      "reverse": false,
+      "thickness": 0.12,
+      "type": "sliding",
+      "hinge": "left",
+      "flip": true,
+      "control": false,
+      "item": {
+        "id": "qa-lamp",
+        "roomId": "room-mwa8nnit-j103o7n",
+        "assetId": "ois.calm-oak.floor-lamp",
+        "assetVersion": "0.1.0",
+        "assetHash": "01c4272d9b2f3ad4c0fa78a945b42da31a13fc27998042007f89bccf539b0a9a",
+        "x": 1.55,
+        "z": -0.28000000298023225,
+        "yaw": 0,
+        "locked": false,
+        "materialOverrides": {}
+      },
+      "leaf": {
+        "pivotX": -0.9,
+        "z": -0.095,
+        "yaw": 0,
+        "width": 0.9
+      },
+      "error": "Keep the moving door panel area clear.",
+      "commandError": "Keep the moving door panel area clear.",
+      "accepted": false,
+      "hitTriangles": 65,
+      "totalTriangles": 756,
+      "hitMeshes": [
+        {
+          "name": "linen_geometry",
+          "triangles": 58
+        },
+        {
+          "name": "metal_geometry",
+          "triangles": 7
+        }
+      ],
+      "leafBounds": {
+        "min": [
+          1.100000011920929,
+          4.768371586472142e-8,
+          -0.11250000007450581
+        ],
+        "max": [
+          1.999999988079071,
+          2.099999952316284,
+          -0.0774999999254942
+        ]
+      },
+      "pass": true
+    },
+    {
+      "reverse": false,
+      "thickness": 0.12,
+      "type": "sliding",
+      "hinge": "left",
+      "flip": true,
+      "control": true,
+      "item": {
+        "id": "qa-lamp",
+        "roomId": "room-mwa8nniu-vvzjeme",
+        "assetId": "ois.calm-oak.floor-lamp",
+        "assetVersion": "0.1.0",
+        "assetHash": "01c4272d9b2f3ad4c0fa78a945b42da31a13fc27998042007f89bccf539b0a9a",
+        "x": 1.55,
+        "z": -0.32500000298023224,
+        "yaw": 0,
+        "locked": false,
+        "materialOverrides": {}
+      },
+      "leaf": {
+        "pivotX": -0.9,
+        "z": -0.095,
+        "yaw": 0,
+        "width": 0.9
+      },
+      "error": null,
+      "commandError": null,
+      "accepted": true,
+      "hitTriangles": 0,
+      "totalTriangles": 756,
+      "hitMeshes": [],
+      "leafBounds": {
+        "min": [
+          1.100000011920929,
+          4.768371586472142e-8,
+          -0.11250000007450581
+        ],
+        "max": [
+          1.999999988079071,
+          2.099999952316284,
+          -0.0774999999254942
+        ]
+      },
+      "pass": true
+    },
+    {
+      "reverse": false,
+      "thickness": 0.12,
+      "type": "sliding",
+      "hinge": "right",
+      "flip": false,
+      "control": false,
+      "item": {
+        "id": "qa-lamp",
+        "roomId": "room-mwa8nniw-rozakn0",
+        "assetId": "ois.calm-oak.floor-lamp",
+        "assetVersion": "0.1.0",
+        "assetHash": "01c4272d9b2f3ad4c0fa78a945b42da31a13fc27998042007f89bccf539b0a9a",
+        "x": 3.35,
+        "z": 0.28000000298023225,
+        "yaw": 0,
+        "locked": false,
+        "materialOverrides": {}
+      },
+      "leaf": {
+        "pivotX": 0.9,
+        "z": 0.095,
+        "yaw": 0,
+        "width": 0.9
+      },
+      "error": "Keep the moving door panel area clear.",
+      "commandError": "Keep the moving door panel area clear.",
+      "accepted": false,
+      "hitTriangles": 65,
+      "totalTriangles": 756,
+      "hitMeshes": [
+        {
+          "name": "linen_geometry",
+          "triangles": 58
+        },
+        {
+          "name": "metal_geometry",
+          "triangles": 7
+        }
+      ],
+      "leafBounds": {
+        "min": [
+          2.900000011920929,
+          4.768371586472142e-8,
+          0.0774999999254942
+        ],
+        "max": [
+          3.799999988079071,
+          2.099999952316284,
+          0.11250000007450581
+        ]
+      },
+      "pass": true
+    },
+    {
+      "reverse": false,
+      "thickness": 0.12,
+      "type": "sliding",
+      "hinge": "right",
+      "flip": false,
+      "control": true,
+      "item": {
+        "id": "qa-lamp",
+        "roomId": "room-mwa8nnix-8e3dkdo",
+        "assetId": "ois.calm-oak.floor-lamp",
+        "assetVersion": "0.1.0",
+        "assetHash": "01c4272d9b2f3ad4c0fa78a945b42da31a13fc27998042007f89bccf539b0a9a",
+        "x": 3.35,
+        "z": 0.32500000298023224,
+        "yaw": 0,
+        "locked": false,
+        "materialOverrides": {}
+      },
+      "leaf": {
+        "pivotX": 0.9,
+        "z": 0.095,
+        "yaw": 0,
+        "width": 0.9
+      },
+      "error": null,
+      "commandError": null,
+      "accepted": true,
+      "hitTriangles": 0,
+      "totalTriangles": 756,
+      "hitMeshes": [],
+      "leafBounds": {
+        "min": [
+          2.900000011920929,
+          4.768371586472142e-8,
+          0.0774999999254942
+        ],
+        "max": [
+          3.799999988079071,
+          2.099999952316284,
+          0.11250000007450581
+        ]
+      },
+      "pass": true
+    },
+    {
+      "reverse": false,
+      "thickness": 0.12,
+      "type": "sliding",
+      "hinge": "right",
+      "flip": true,
+      "control": false,
+      "item": {
+        "id": "qa-lamp",
+        "roomId": "room-mwa8nniy-2algtzj",
+        "assetId": "ois.calm-oak.floor-lamp",
+        "assetVersion": "0.1.0",
+        "assetHash": "01c4272d9b2f3ad4c0fa78a945b42da31a13fc27998042007f89bccf539b0a9a",
+        "x": 3.35,
+        "z": -0.28000000298023225,
+        "yaw": 0,
+        "locked": false,
+        "materialOverrides": {}
+      },
+      "leaf": {
+        "pivotX": 0.9,
+        "z": -0.095,
+        "yaw": 0,
+        "width": 0.9
+      },
+      "error": "Keep the moving door panel area clear.",
+      "commandError": "Keep the moving door panel area clear.",
+      "accepted": false,
+      "hitTriangles": 65,
+      "totalTriangles": 756,
+      "hitMeshes": [
+        {
+          "name": "linen_geometry",
+          "triangles": 58
+        },
+        {
+          "name": "metal_geometry",
+          "triangles": 7
+        }
+      ],
+      "leafBounds": {
+        "min": [
+          2.900000011920929,
+          4.768371586472142e-8,
+          -0.11250000007450581
+        ],
+        "max": [
+          3.799999988079071,
+          2.099999952316284,
+          -0.0774999999254942
+        ]
+      },
+      "pass": true
+    },
+    {
+      "reverse": false,
+      "thickness": 0.12,
+      "type": "sliding",
+      "hinge": "right",
+      "flip": true,
+      "control": true,
+      "item": {
+        "id": "qa-lamp",
+        "roomId": "room-mwa8nniz-z9fxyho",
+        "assetId": "ois.calm-oak.floor-lamp",
+        "assetVersion": "0.1.0",
+        "assetHash": "01c4272d9b2f3ad4c0fa78a945b42da31a13fc27998042007f89bccf539b0a9a",
+        "x": 3.35,
+        "z": -0.32500000298023224,
+        "yaw": 0,
+        "locked": false,
+        "materialOverrides": {}
+      },
+      "leaf": {
+        "pivotX": 0.9,
+        "z": -0.095,
+        "yaw": 0,
+        "width": 0.9
+      },
+      "error": null,
+      "commandError": null,
+      "accepted": true,
+      "hitTriangles": 0,
+      "totalTriangles": 756,
+      "hitMeshes": [],
+      "leafBounds": {
+        "min": [
+          2.900000011920929,
+          4.768371586472142e-8,
+          -0.11250000007450581
+        ],
+        "max": [
+          3.799999988079071,
+          2.099999952316284,
+          -0.0774999999254942
+        ]
+      },
+      "pass": true
+    },
+    {
+      "reverse": false,
+      "thickness": 0.15,
+      "type": "single",
+      "hinge": "left",
+      "flip": false,
+      "control": false,
+      "item": {
+        "id": "qa-lamp",
+        "roomId": "room-mwa8nnj0-e4yib1m",
+        "assetId": "ois.calm-oak.floor-lamp",
+        "assetVersion": "0.1.0",
+        "assetHash": "01c4272d9b2f3ad4c0fa78a945b42da31a13fc27998042007f89bccf539b0a9a",
+        "x": 2,
+        "z": 1.1050000029802323,
+        "yaw": 0,
+        "locked": false,
+        "materialOverrides": {}
+      },
+      "leaf": {
+        "pivotX": 0,
+        "z": 0.02,
+        "yaw": -1.5707963267948966,
+        "width": 0.9
+      },
+      "error": "Keep the moving door panel area clear.",
+      "commandError": "Keep the moving door panel area clear.",
+      "accepted": false,
+      "hitTriangles": 10,
+      "totalTriangles": 756,
+      "hitMeshes": [
+        {
+          "name": "linen_geometry",
+          "triangles": 10
+        }
+      ],
+      "leafBounds": {
+        "min": [
+          1.9824999999254942,
+          4.768371586472142e-8,
+          0.020000011920928984
+        ],
+        "max": [
+          2.017500000074506,
+          2.099999952316284,
+          0.919999988079071
+        ]
+      },
+      "pass": true
+    },
+    {
+      "reverse": false,
+      "thickness": 0.15,
+      "type": "single",
+      "hinge": "left",
+      "flip": false,
+      "control": true,
+      "item": {
+        "id": "qa-lamp",
+        "roomId": "room-mwa8nnj1-twjubfn",
+        "assetId": "ois.calm-oak.floor-lamp",
+        "assetVersion": "0.1.0",
+        "assetHash": "01c4272d9b2f3ad4c0fa78a945b42da31a13fc27998042007f89bccf539b0a9a",
+        "x": 2,
+        "z": 1.1450000029802323,
+        "yaw": 0,
+        "locked": false,
+        "materialOverrides": {}
+      },
+      "leaf": {
+        "pivotX": 0,
+        "z": 0.02,
+        "yaw": -1.5707963267948966,
+        "width": 0.9
+      },
+      "error": null,
+      "commandError": null,
+      "accepted": true,
+      "hitTriangles": 0,
+      "totalTriangles": 756,
+      "hitMeshes": [],
+      "leafBounds": {
+        "min": [
+          1.9824999999254942,
+          4.768371586472142e-8,
+          0.020000011920928984
+        ],
+        "max": [
+          2.017500000074506,
+          2.099999952316284,
+          0.919999988079071
+        ]
+      },
+      "pass": true
+    },
+    {
+      "reverse": false,
+      "thickness": 0.15,
+      "type": "single",
+      "hinge": "left",
+      "flip": true,
+      "control": false,
+      "item": {
+        "id": "qa-lamp",
+        "roomId": "room-mwa8nnj5-aivgob8",
+        "assetId": "ois.calm-oak.floor-lamp",
+        "assetVersion": "0.1.0",
+        "assetHash": "01c4272d9b2f3ad4c0fa78a945b42da31a13fc27998042007f89bccf539b0a9a",
+        "x": 2,
+        "z": -1.1050000029802323,
+        "yaw": 0,
+        "locked": false,
+        "materialOverrides": {}
+      },
+      "leaf": {
+        "pivotX": 0,
+        "z": -0.02,
+        "yaw": 1.5707963267948966,
+        "width": 0.9
+      },
+      "error": "Keep the moving door panel area clear.",
+      "commandError": "Keep the moving door panel area clear.",
+      "accepted": false,
+      "hitTriangles": 10,
+      "totalTriangles": 756,
+      "hitMeshes": [
+        {
+          "name": "linen_geometry",
+          "triangles": 10
+        }
+      ],
+      "leafBounds": {
+        "min": [
+          1.9824999999254942,
+          4.768371586472142e-8,
+          -0.919999988079071
+        ],
+        "max": [
+          2.017500000074506,
+          2.099999952316284,
+          -0.020000011920928984
+        ]
+      },
+      "pass": true
+    },
+    {
+      "reverse": false,
+      "thickness": 0.15,
+      "type": "single",
+      "hinge": "left",
+      "flip": true,
+      "control": true,
+      "item": {
+        "id": "qa-lamp",
+        "roomId": "room-mwa8nnj6-gd44amm",
+        "assetId": "ois.calm-oak.floor-lamp",
+        "assetVersion": "0.1.0",
+        "assetHash": "01c4272d9b2f3ad4c0fa78a945b42da31a13fc27998042007f89bccf539b0a9a",
+        "x": 2,
+        "z": -1.1450000029802323,
+        "yaw": 0,
+        "locked": false,
+        "materialOverrides": {}
+      },
+      "leaf": {
+        "pivotX": 0,
+        "z": -0.02,
+        "yaw": 1.5707963267948966,
+        "width": 0.9
+      },
+      "error": null,
+      "commandError": null,
+      "accepted": true,
+      "hitTriangles": 0,
+      "totalTriangles": 756,
+      "hitMeshes": [],
+      "leafBounds": {
+        "min": [
+          1.9824999999254942,
+          4.768371586472142e-8,
+          -0.919999988079071
+        ],
+        "max": [
+          2.017500000074506,
+          2.099999952316284,
+          -0.020000011920928984
+        ]
+      },
+      "pass": true
+    },
+    {
+      "reverse": false,
+      "thickness": 0.15,
+      "type": "single",
+      "hinge": "right",
+      "flip": false,
+      "control": false,
+      "item": {
+        "id": "qa-lamp",
+        "roomId": "room-mwa8nnj7-xkbj7y2",
+        "assetId": "ois.calm-oak.floor-lamp",
+        "assetVersion": "0.1.0",
+        "assetHash": "01c4272d9b2f3ad4c0fa78a945b42da31a13fc27998042007f89bccf539b0a9a",
+        "x": 2.9,
+        "z": 1.1050000029802323,
+        "yaw": 0,
+        "locked": false,
+        "materialOverrides": {}
+      },
+      "leaf": {
+        "pivotX": 0.9,
+        "z": 0.02,
+        "yaw": 4.71238898038469,
+        "width": 0.9
+      },
+      "error": "Keep the moving door panel area clear.",
+      "commandError": "Keep the moving door panel area clear.",
+      "accepted": false,
+      "hitTriangles": 10,
+      "totalTriangles": 756,
+      "hitMeshes": [
+        {
+          "name": "linen_geometry",
+          "triangles": 10
+        }
+      ],
+      "leafBounds": {
+        "min": [
+          2.882499999925494,
+          4.768371586472142e-8,
+          0.020000011920928984
+        ],
+        "max": [
+          2.9175000000745057,
+          2.099999952316284,
+          0.919999988079071
+        ]
+      },
+      "pass": true
+    },
+    {
+      "reverse": false,
+      "thickness": 0.15,
+      "type": "single",
+      "hinge": "right",
+      "flip": false,
+      "control": true,
+      "item": {
+        "id": "qa-lamp",
+        "roomId": "room-mwa8nnj8-rod5dko",
+        "assetId": "ois.calm-oak.floor-lamp",
+        "assetVersion": "0.1.0",
+        "assetHash": "01c4272d9b2f3ad4c0fa78a945b42da31a13fc27998042007f89bccf539b0a9a",
+        "x": 2.9,
+        "z": 1.1450000029802323,
+        "yaw": 0,
+        "locked": false,
+        "materialOverrides": {}
+      },
+      "leaf": {
+        "pivotX": 0.9,
+        "z": 0.02,
+        "yaw": 4.71238898038469,
+        "width": 0.9
+      },
+      "error": null,
+      "commandError": null,
+      "accepted": true,
+      "hitTriangles": 0,
+      "totalTriangles": 756,
+      "hitMeshes": [],
+      "leafBounds": {
+        "min": [
+          2.882499999925494,
+          4.768371586472142e-8,
+          0.020000011920928984
+        ],
+        "max": [
+          2.9175000000745057,
+          2.099999952316284,
+          0.919999988079071
+        ]
+      },
+      "pass": true
+    },
+    {
+      "reverse": false,
+      "thickness": 0.15,
+      "type": "single",
+      "hinge": "right",
+      "flip": true,
+      "control": false,
+      "item": {
+        "id": "qa-lamp",
+        "roomId": "room-mwa8nnj9-iedoeoh",
+        "assetId": "ois.calm-oak.floor-lamp",
+        "assetVersion": "0.1.0",
+        "assetHash": "01c4272d9b2f3ad4c0fa78a945b42da31a13fc27998042007f89bccf539b0a9a",
+        "x": 2.9,
+        "z": -1.1050000029802323,
+        "yaw": 0,
+        "locked": false,
+        "materialOverrides": {}
+      },
+      "leaf": {
+        "pivotX": 0.9,
+        "z": -0.02,
+        "yaw": 1.5707963267948966,
+        "width": 0.9
+      },
+      "error": "Keep the moving door panel area clear.",
+      "commandError": "Keep the moving door panel area clear.",
+      "accepted": false,
+      "hitTriangles": 10,
+      "totalTriangles": 756,
+      "hitMeshes": [
+        {
+          "name": "linen_geometry",
+          "triangles": 10
+        }
+      ],
+      "leafBounds": {
+        "min": [
+          2.882499999925494,
+          4.768371586472142e-8,
+          -0.919999988079071
+        ],
+        "max": [
+          2.9175000000745057,
+          2.099999952316284,
+          -0.020000011920928984
+        ]
+      },
+      "pass": true
+    },
+    {
+      "reverse": false,
+      "thickness": 0.15,
+      "type": "single",
+      "hinge": "right",
+      "flip": true,
+      "control": true,
+      "item": {
+        "id": "qa-lamp",
+        "roomId": "room-mwa8nnja-v11omok",
+        "assetId": "ois.calm-oak.floor-lamp",
+        "assetVersion": "0.1.0",
+        "assetHash": "01c4272d9b2f3ad4c0fa78a945b42da31a13fc27998042007f89bccf539b0a9a",
+        "x": 2.9,
+        "z": -1.1450000029802323,
+        "yaw": 0,
+        "locked": false,
+        "materialOverrides": {}
+      },
+      "leaf": {
+        "pivotX": 0.9,
+        "z": -0.02,
+        "yaw": 1.5707963267948966,
+        "width": 0.9
+      },
+      "error": null,
+      "commandError": null,
+      "accepted": true,
+      "hitTriangles": 0,
+      "totalTriangles": 756,
+      "hitMeshes": [],
+      "leafBounds": {
+        "min": [
+          2.882499999925494,
+          4.768371586472142e-8,
+          -0.919999988079071
+        ],
+        "max": [
+          2.9175000000745057,
+          2.099999952316284,
+          -0.020000011920928984
+        ]
+      },
+      "pass": true
+    },
+    {
+      "reverse": false,
+      "thickness": 0.15,
+      "type": "double",
+      "hinge": "left",
+      "flip": false,
+      "control": false,
+      "item": {
+        "id": "qa-lamp",
+        "roomId": "room-mwa8nnja-1u64xxv",
+        "assetId": "ois.calm-oak.floor-lamp",
+        "assetVersion": "0.1.0",
+        "assetHash": "01c4272d9b2f3ad4c0fa78a945b42da31a13fc27998042007f89bccf539b0a9a",
+        "x": 2,
+        "z": 1.0050000029802324,
+        "yaw": 0,
+        "locked": false,
+        "materialOverrides": {}
+      },
+      "leaf": {
+        "pivotX": 0,
+        "z": 0.02,
+        "yaw": -1.5707963267948966,
+        "width": 0.8
+      },
+      "error": "Keep the moving door panel area clear.",
+      "commandError": "Keep the moving door panel area clear.",
+      "accepted": false,
+      "hitTriangles": 10,
+      "totalTriangles": 756,
+      "hitMeshes": [
+        {
+          "name": "linen_geometry",
+          "triangles": 10
+        }
+      ],
+      "leafBounds": {
+        "min": [
+          1.9824999999254942,
+          4.768371586472142e-8,
+          0.019999994039535562
+        ],
+        "max": [
+          2.017500000074506,
+          2.099999952316284,
+          0.8200000059604645
+        ]
+      },
+      "pass": true
+    },
+    {
+      "reverse": false,
+      "thickness": 0.15,
+      "type": "double",
+      "hinge": "left",
+      "flip": false,
+      "control": true,
+      "item": {
+        "id": "qa-lamp",
+        "roomId": "room-mwa8nnjb-ymxi477",
+        "assetId": "ois.calm-oak.floor-lamp",
+        "assetVersion": "0.1.0",
+        "assetHash": "01c4272d9b2f3ad4c0fa78a945b42da31a13fc27998042007f89bccf539b0a9a",
+        "x": 2,
+        "z": 1.0450000029802324,
+        "yaw": 0,
+        "locked": false,
+        "materialOverrides": {}
+      },
+      "leaf": {
+        "pivotX": 0,
+        "z": 0.02,
+        "yaw": -1.5707963267948966,
+        "width": 0.8
+      },
+      "error": null,
+      "commandError": null,
+      "accepted": true,
+      "hitTriangles": 0,
+      "totalTriangles": 756,
+      "hitMeshes": [],
+      "leafBounds": {
+        "min": [
+          1.9824999999254942,
+          4.768371586472142e-8,
+          0.019999994039535562
+        ],
+        "max": [
+          2.017500000074506,
+          2.099999952316284,
+          0.8200000059604645
+        ]
+      },
+      "pass": true
+    },
+    {
+      "reverse": false,
+      "thickness": 0.15,
+      "type": "double",
+      "hinge": "left",
+      "flip": true,
+      "control": false,
+      "item": {
+        "id": "qa-lamp",
+        "roomId": "room-mwa8nnjc-wxxopd3",
+        "assetId": "ois.calm-oak.floor-lamp",
+        "assetVersion": "0.1.0",
+        "assetHash": "01c4272d9b2f3ad4c0fa78a945b42da31a13fc27998042007f89bccf539b0a9a",
+        "x": 2,
+        "z": -1.0050000029802324,
+        "yaw": 0,
+        "locked": false,
+        "materialOverrides": {}
+      },
+      "leaf": {
+        "pivotX": 0,
+        "z": -0.02,
+        "yaw": 1.5707963267948966,
+        "width": 0.8
+      },
+      "error": "Keep the moving door panel area clear.",
+      "commandError": "Keep the moving door panel area clear.",
+      "accepted": false,
+      "hitTriangles": 10,
+      "totalTriangles": 756,
+      "hitMeshes": [
+        {
+          "name": "linen_geometry",
+          "triangles": 10
+        }
+      ],
+      "leafBounds": {
+        "min": [
+          1.9824999999254942,
+          4.768371586472142e-8,
+          -0.8200000059604645
+        ],
+        "max": [
+          2.017500000074506,
+          2.099999952316284,
+          -0.019999994039535562
+        ]
+      },
+      "pass": true
+    },
+    {
+      "reverse": false,
+      "thickness": 0.15,
+      "type": "double",
+      "hinge": "left",
+      "flip": true,
+      "control": true,
+      "item": {
+        "id": "qa-lamp",
+        "roomId": "room-mwa8nnjd-qd1ntyc",
+        "assetId": "ois.calm-oak.floor-lamp",
+        "assetVersion": "0.1.0",
+        "assetHash": "01c4272d9b2f3ad4c0fa78a945b42da31a13fc27998042007f89bccf539b0a9a",
+        "x": 2,
+        "z": -1.0450000029802324,
+        "yaw": 0,
+        "locked": false,
+        "materialOverrides": {}
+      },
+      "leaf": {
+        "pivotX": 0,
+        "z": -0.02,
+        "yaw": 1.5707963267948966,
+        "width": 0.8
+      },
+      "error": null,
+      "commandError": null,
+      "accepted": true,
+      "hitTriangles": 0,
+      "totalTriangles": 756,
+      "hitMeshes": [],
+      "leafBounds": {
+        "min": [
+          1.9824999999254942,
+          4.768371586472142e-8,
+          -0.8200000059604645
+        ],
+        "max": [
+          2.017500000074506,
+          2.099999952316284,
+          -0.019999994039535562
+        ]
+      },
+      "pass": true
+    },
+    {
+      "reverse": false,
+      "thickness": 0.15,
+      "type": "sliding",
+      "hinge": "left",
+      "flip": false,
+      "control": false,
+      "item": {
+        "id": "qa-lamp",
+        "roomId": "room-mwa8nnje-fh95cp5",
+        "assetId": "ois.calm-oak.floor-lamp",
+        "assetVersion": "0.1.0",
+        "assetHash": "01c4272d9b2f3ad4c0fa78a945b42da31a13fc27998042007f89bccf539b0a9a",
+        "x": 1.55,
+        "z": 0.2950000029802322,
+        "yaw": 0,
+        "locked": false,
+        "materialOverrides": {}
+      },
+      "leaf": {
+        "pivotX": -0.9,
+        "z": 0.11,
+        "yaw": 0,
+        "width": 0.9
+      },
+      "error": "Keep the moving door panel area clear.",
+      "commandError": "Keep the moving door panel area clear.",
+      "accepted": false,
+      "hitTriangles": 65,
+      "totalTriangles": 756,
+      "hitMeshes": [
+        {
+          "name": "linen_geometry",
+          "triangles": 58
+        },
+        {
+          "name": "metal_geometry",
+          "triangles": 7
+        }
+      ],
+      "leafBounds": {
+        "min": [
+          1.100000011920929,
+          4.768371586472142e-8,
+          0.0924999999254942
+        ],
+        "max": [
+          1.999999988079071,
+          2.099999952316284,
+          0.1275000000745058
+        ]
+      },
+      "pass": true
+    },
+    {
+      "reverse": false,
+      "thickness": 0.15,
+      "type": "sliding",
+      "hinge": "left",
+      "flip": false,
+      "control": true,
+      "item": {
+        "id": "qa-lamp",
+        "roomId": "room-mwa8nnje-l5jfdmn",
+        "assetId": "ois.calm-oak.floor-lamp",
+        "assetVersion": "0.1.0",
+        "assetHash": "01c4272d9b2f3ad4c0fa78a945b42da31a13fc27998042007f89bccf539b0a9a",
+        "x": 1.55,
+        "z": 0.34000000298023225,
+        "yaw": 0,
+        "locked": false,
+        "materialOverrides": {}
+      },
+      "leaf": {
+        "pivotX": -0.9,
+        "z": 0.11,
+        "yaw": 0,
+        "width": 0.9
+      },
+      "error": null,
+      "commandError": null,
+      "accepted": true,
+      "hitTriangles": 0,
+      "totalTriangles": 756,
+      "hitMeshes": [],
+      "leafBounds": {
+        "min": [
+          1.100000011920929,
+          4.768371586472142e-8,
+          0.0924999999254942
+        ],
+        "max": [
+          1.999999988079071,
+          2.099999952316284,
+          0.1275000000745058
+        ]
+      },
+      "pass": true
+    },
+    {
+      "reverse": false,
+      "thickness": 0.15,
+      "type": "sliding",
+      "hinge": "left",
+      "flip": true,
+      "control": false,
+      "item": {
+        "id": "qa-lamp",
+        "roomId": "room-mwa8nnjf-9s56w91",
+        "assetId": "ois.calm-oak.floor-lamp",
+        "assetVersion": "0.1.0",
+        "assetHash": "01c4272d9b2f3ad4c0fa78a945b42da31a13fc27998042007f89bccf539b0a9a",
+        "x": 1.55,
+        "z": -0.2950000029802322,
+        "yaw": 0,
+        "locked": false,
+        "materialOverrides": {}
+      },
+      "leaf": {
+        "pivotX": -0.9,
+        "z": -0.11,
+        "yaw": 0,
+        "width": 0.9
+      },
+      "error": "Keep the moving door panel area clear.",
+      "commandError": "Keep the moving door panel area clear.",
+      "accepted": false,
+      "hitTriangles": 65,
+      "totalTriangles": 756,
+      "hitMeshes": [
+        {
+          "name": "linen_geometry",
+          "triangles": 58
+        },
+        {
+          "name": "metal_geometry",
+          "triangles": 7
+        }
+      ],
+      "leafBounds": {
+        "min": [
+          1.100000011920929,
+          4.768371586472142e-8,
+          -0.1275000000745058
+        ],
+        "max": [
+          1.999999988079071,
+          2.099999952316284,
+          -0.0924999999254942
+        ]
+      },
+      "pass": true
+    },
+    {
+      "reverse": false,
+      "thickness": 0.15,
+      "type": "sliding",
+      "hinge": "left",
+      "flip": true,
+      "control": true,
+      "item": {
+        "id": "qa-lamp",
+        "roomId": "room-mwa8nnjg-d03c58q",
+        "assetId": "ois.calm-oak.floor-lamp",
+        "assetVersion": "0.1.0",
+        "assetHash": "01c4272d9b2f3ad4c0fa78a945b42da31a13fc27998042007f89bccf539b0a9a",
+        "x": 1.55,
+        "z": -0.34000000298023225,
+        "yaw": 0,
+        "locked": false,
+        "materialOverrides": {}
+      },
+      "leaf": {
+        "pivotX": -0.9,
+        "z": -0.11,
+        "yaw": 0,
+        "width": 0.9
+      },
+      "error": null,
+      "commandError": null,
+      "accepted": true,
+      "hitTriangles": 0,
+      "totalTriangles": 756,
+      "hitMeshes": [],
+      "leafBounds": {
+        "min": [
+          1.100000011920929,
+          4.768371586472142e-8,
+          -0.1275000000745058
+        ],
+        "max": [
+          1.999999988079071,
+          2.099999952316284,
+          -0.0924999999254942
+        ]
+      },
+      "pass": true
+    },
+    {
+      "reverse": false,
+      "thickness": 0.15,
+      "type": "sliding",
+      "hinge": "right",
+      "flip": false,
+      "control": false,
+      "item": {
+        "id": "qa-lamp",
+        "roomId": "room-mwa8nnjg-4qfx84p",
+        "assetId": "ois.calm-oak.floor-lamp",
+        "assetVersion": "0.1.0",
+        "assetHash": "01c4272d9b2f3ad4c0fa78a945b42da31a13fc27998042007f89bccf539b0a9a",
+        "x": 3.35,
+        "z": 0.2950000029802322,
+        "yaw": 0,
+        "locked": false,
+        "materialOverrides": {}
+      },
+      "leaf": {
+        "pivotX": 0.9,
+        "z": 0.11,
+        "yaw": 0,
+        "width": 0.9
+      },
+      "error": "Keep the moving door panel area clear.",
+      "commandError": "Keep the moving door panel area clear.",
+      "accepted": false,
+      "hitTriangles": 65,
+      "totalTriangles": 756,
+      "hitMeshes": [
+        {
+          "name": "linen_geometry",
+          "triangles": 58
+        },
+        {
+          "name": "metal_geometry",
+          "triangles": 7
+        }
+      ],
+      "leafBounds": {
+        "min": [
+          2.900000011920929,
+          4.768371586472142e-8,
+          0.0924999999254942
+        ],
+        "max": [
+          3.799999988079071,
+          2.099999952316284,
+          0.1275000000745058
+        ]
+      },
+      "pass": true
+    },
+    {
+      "reverse": false,
+      "thickness": 0.15,
+      "type": "sliding",
+      "hinge": "right",
+      "flip": false,
+      "control": true,
+      "item": {
+        "id": "qa-lamp",
+        "roomId": "room-mwa8nnjh-m61f4fu",
+        "assetId": "ois.calm-oak.floor-lamp",
+        "assetVersion": "0.1.0",
+        "assetHash": "01c4272d9b2f3ad4c0fa78a945b42da31a13fc27998042007f89bccf539b0a9a",
+        "x": 3.35,
+        "z": 0.34000000298023225,
+        "yaw": 0,
+        "locked": false,
+        "materialOverrides": {}
+      },
+      "leaf": {
+        "pivotX": 0.9,
+        "z": 0.11,
+        "yaw": 0,
+        "width": 0.9
+      },
+      "error": null,
+      "commandError": null,
+      "accepted": true,
+      "hitTriangles": 0,
+      "totalTriangles": 756,
+      "hitMeshes": [],
+      "leafBounds": {
+        "min": [
+          2.900000011920929,
+          4.768371586472142e-8,
+          0.0924999999254942
+        ],
+        "max": [
+          3.799999988079071,
+          2.099999952316284,
+          0.1275000000745058
+        ]
+      },
+      "pass": true
+    },
+    {
+      "reverse": false,
+      "thickness": 0.15,
+      "type": "sliding",
+      "hinge": "right",
+      "flip": true,
+      "control": false,
+      "item": {
+        "id": "qa-lamp",
+        "roomId": "room-mwa8nnji-m3ayvqc",
+        "assetId": "ois.calm-oak.floor-lamp",
+        "assetVersion": "0.1.0",
+        "assetHash": "01c4272d9b2f3ad4c0fa78a945b42da31a13fc27998042007f89bccf539b0a9a",
+        "x": 3.35,
+        "z": -0.2950000029802322,
+        "yaw": 0,
+        "locked": false,
+        "materialOverrides": {}
+      },
+      "leaf": {
+        "pivotX": 0.9,
+        "z": -0.11,
+        "yaw": 0,
+        "width": 0.9
+      },
+      "error": "Keep the moving door panel area clear.",
+      "commandError": "Keep the moving door panel area clear.",
+      "accepted": false,
+      "hitTriangles": 65,
+      "totalTriangles": 756,
+      "hitMeshes": [
+        {
+          "name": "linen_geometry",
+          "triangles": 58
+        },
+        {
+          "name": "metal_geometry",
+          "triangles": 7
+        }
+      ],
+      "leafBounds": {
+        "min": [
+          2.900000011920929,
+          4.768371586472142e-8,
+          -0.1275000000745058
+        ],
+        "max": [
+          3.799999988079071,
+          2.099999952316284,
+          -0.0924999999254942
+        ]
+      },
+      "pass": true
+    },
+    {
+      "reverse": false,
+      "thickness": 0.15,
+      "type": "sliding",
+      "hinge": "right",
+      "flip": true,
+      "control": true,
+      "item": {
+        "id": "qa-lamp",
+        "roomId": "room-mwa8nnji-p332vbt",
+        "assetId": "ois.calm-oak.floor-lamp",
+        "assetVersion": "0.1.0",
+        "assetHash": "01c4272d9b2f3ad4c0fa78a945b42da31a13fc27998042007f89bccf539b0a9a",
+        "x": 3.35,
+        "z": -0.34000000298023225,
+        "yaw": 0,
+        "locked": false,
+        "materialOverrides": {}
+      },
+      "leaf": {
+        "pivotX": 0.9,
+        "z": -0.11,
+        "yaw": 0,
+        "width": 0.9
+      },
+      "error": null,
+      "commandError": null,
+      "accepted": true,
+      "hitTriangles": 0,
+      "totalTriangles": 756,
+      "hitMeshes": [],
+      "leafBounds": {
+        "min": [
+          2.900000011920929,
+          4.768371586472142e-8,
+          -0.1275000000745058
+        ],
+        "max": [
+          3.799999988079071,
+          2.099999952316284,
+          -0.0924999999254942
+        ]
+      },
+      "pass": true
+    },
+    {
+      "reverse": false,
+      "thickness": 0.3,
+      "type": "single",
+      "hinge": "left",
+      "flip": false,
+      "control": false,
+      "item": {
+        "id": "qa-lamp",
+        "roomId": "room-mwa8nnjj-9kb2cdx",
+        "assetId": "ois.calm-oak.floor-lamp",
+        "assetVersion": "0.1.0",
+        "assetHash": "01c4272d9b2f3ad4c0fa78a945b42da31a13fc27998042007f89bccf539b0a9a",
+        "x": 2,
+        "z": 1.1050000029802323,
+        "yaw": 0,
+        "locked": false,
+        "materialOverrides": {}
+      },
+      "leaf": {
+        "pivotX": 0,
+        "z": 0.02,
+        "yaw": -1.5707963267948966,
+        "width": 0.9
+      },
+      "error": "Keep the moving door panel area clear.",
+      "commandError": "Keep the moving door panel area clear.",
+      "accepted": false,
+      "hitTriangles": 10,
+      "totalTriangles": 756,
+      "hitMeshes": [
+        {
+          "name": "linen_geometry",
+          "triangles": 10
+        }
+      ],
+      "leafBounds": {
+        "min": [
+          1.9824999999254942,
+          4.768371586472142e-8,
+          0.020000011920928984
+        ],
+        "max": [
+          2.017500000074506,
+          2.099999952316284,
+          0.919999988079071
+        ]
+      },
+      "pass": true
+    },
+    {
+      "reverse": false,
+      "thickness": 0.3,
+      "type": "single",
+      "hinge": "left",
+      "flip": false,
+      "control": true,
+      "item": {
+        "id": "qa-lamp",
+        "roomId": "room-mwa8nnjk-hyz9zcb",
+        "assetId": "ois.calm-oak.floor-lamp",
+        "assetVersion": "0.1.0",
+        "assetHash": "01c4272d9b2f3ad4c0fa78a945b42da31a13fc27998042007f89bccf539b0a9a",
+        "x": 2,
+        "z": 1.1450000029802323,
+        "yaw": 0,
+        "locked": false,
+        "materialOverrides": {}
+      },
+      "leaf": {
+        "pivotX": 0,
+        "z": 0.02,
+        "yaw": -1.5707963267948966,
+        "width": 0.9
+      },
+      "error": null,
+      "commandError": null,
+      "accepted": true,
+      "hitTriangles": 0,
+      "totalTriangles": 756,
+      "hitMeshes": [],
+      "leafBounds": {
+        "min": [
+          1.9824999999254942,
+          4.768371586472142e-8,
+          0.020000011920928984
+        ],
+        "max": [
+          2.017500000074506,
+          2.099999952316284,
+          0.919999988079071
+        ]
+      },
+      "pass": true
+    },
+    {
+      "reverse": false,
+      "thickness": 0.3,
+      "type": "single",
+      "hinge": "left",
+      "flip": true,
+      "control": false,
+      "item": {
+        "id": "qa-lamp",
+        "roomId": "room-mwa8nnjl-a90emg7",
+        "assetId": "ois.calm-oak.floor-lamp",
+        "assetVersion": "0.1.0",
+        "assetHash": "01c4272d9b2f3ad4c0fa78a945b42da31a13fc27998042007f89bccf539b0a9a",
+        "x": 2,
+        "z": -1.1050000029802323,
+        "yaw": 0,
+        "locked": false,
+        "materialOverrides": {}
+      },
+      "leaf": {
+        "pivotX": 0,
+        "z": -0.02,
+        "yaw": 1.5707963267948966,
+        "width": 0.9
+      },
+      "error": "Keep the moving door panel area clear.",
+      "commandError": "Keep the moving door panel area clear.",
+      "accepted": false,
+      "hitTriangles": 10,
+      "totalTriangles": 756,
+      "hitMeshes": [
+        {
+          "name": "linen_geometry",
+          "triangles": 10
+        }
+      ],
+      "leafBounds": {
+        "min": [
+          1.9824999999254942,
+          4.768371586472142e-8,
+          -0.919999988079071
+        ],
+        "max": [
+          2.017500000074506,
+          2.099999952316284,
+          -0.020000011920928984
+        ]
+      },
+      "pass": true
+    },
+    {
+      "reverse": false,
+      "thickness": 0.3,
+      "type": "single",
+      "hinge": "left",
+      "flip": true,
+      "control": true,
+      "item": {
+        "id": "qa-lamp",
+        "roomId": "room-mwa8nnjm-2pv7w1g",
+        "assetId": "ois.calm-oak.floor-lamp",
+        "assetVersion": "0.1.0",
+        "assetHash": "01c4272d9b2f3ad4c0fa78a945b42da31a13fc27998042007f89bccf539b0a9a",
+        "x": 2,
+        "z": -1.1450000029802323,
+        "yaw": 0,
+        "locked": false,
+        "materialOverrides": {}
+      },
+      "leaf": {
+        "pivotX": 0,
+        "z": -0.02,
+        "yaw": 1.5707963267948966,
+        "width": 0.9
+      },
+      "error": null,
+      "commandError": null,
+      "accepted": true,
+      "hitTriangles": 0,
+      "totalTriangles": 756,
+      "hitMeshes": [],
+      "leafBounds": {
+        "min": [
+          1.9824999999254942,
+          4.768371586472142e-8,
+          -0.919999988079071
+        ],
+        "max": [
+          2.017500000074506,
+          2.099999952316284,
+          -0.020000011920928984
+        ]
+      },
+      "pass": true
+    },
+    {
+      "reverse": false,
+      "thickness": 0.3,
+      "type": "single",
+      "hinge": "right",
+      "flip": false,
+      "control": false,
+      "item": {
+        "id": "qa-lamp",
+        "roomId": "room-mwa8nnjm-uhl9uau",
+        "assetId": "ois.calm-oak.floor-lamp",
+        "assetVersion": "0.1.0",
+        "assetHash": "01c4272d9b2f3ad4c0fa78a945b42da31a13fc27998042007f89bccf539b0a9a",
+        "x": 2.9,
+        "z": 1.1050000029802323,
+        "yaw": 0,
+        "locked": false,
+        "materialOverrides": {}
+      },
+      "leaf": {
+        "pivotX": 0.9,
+        "z": 0.02,
+        "yaw": 4.71238898038469,
+        "width": 0.9
+      },
+      "error": "Keep the moving door panel area clear.",
+      "commandError": "Keep the moving door panel area clear.",
+      "accepted": false,
+      "hitTriangles": 10,
+      "totalTriangles": 756,
+      "hitMeshes": [
+        {
+          "name": "linen_geometry",
+          "triangles": 10
+        }
+      ],
+      "leafBounds": {
+        "min": [
+          2.882499999925494,
+          4.768371586472142e-8,
+          0.020000011920928984
+        ],
+        "max": [
+          2.9175000000745057,
+          2.099999952316284,
+          0.919999988079071
+        ]
+      },
+      "pass": true
+    },
+    {
+      "reverse": false,
+      "thickness": 0.3,
+      "type": "single",
+      "hinge": "right",
+      "flip": false,
+      "control": true,
+      "item": {
+        "id": "qa-lamp",
+        "roomId": "room-mwa8nnjn-hr337uk",
+        "assetId": "ois.calm-oak.floor-lamp",
+        "assetVersion": "0.1.0",
+        "assetHash": "01c4272d9b2f3ad4c0fa78a945b42da31a13fc27998042007f89bccf539b0a9a",
+        "x": 2.9,
+        "z": 1.1450000029802323,
+        "yaw": 0,
+        "locked": false,
+        "materialOverrides": {}
+      },
+      "leaf": {
+        "pivotX": 0.9,
+        "z": 0.02,
+        "yaw": 4.71238898038469,
+        "width": 0.9
+      },
+      "error": null,
+      "commandError": null,
+      "accepted": true,
+      "hitTriangles": 0,
+      "totalTriangles": 756,
+      "hitMeshes": [],
+      "leafBounds": {
+        "min": [
+          2.882499999925494,
+          4.768371586472142e-8,
+          0.020000011920928984
+        ],
+        "max": [
+          2.9175000000745057,
+          2.099999952316284,
+          0.919999988079071
+        ]
+      },
+      "pass": true
+    },
+    {
+      "reverse": false,
+      "thickness": 0.3,
+      "type": "single",
+      "hinge": "right",
+      "flip": true,
+      "control": false,
+      "item": {
+        "id": "qa-lamp",
+        "roomId": "room-mwa8nnjo-y2d5ayx",
+        "assetId": "ois.calm-oak.floor-lamp",
+        "assetVersion": "0.1.0",
+        "assetHash": "01c4272d9b2f3ad4c0fa78a945b42da31a13fc27998042007f89bccf539b0a9a",
+        "x": 2.9,
+        "z": -1.1050000029802323,
+        "yaw": 0,
+        "locked": false,
+        "materialOverrides": {}
+      },
+      "leaf": {
+        "pivotX": 0.9,
+        "z": -0.02,
+        "yaw": 1.5707963267948966,
+        "width": 0.9
+      },
+      "error": "Keep the moving door panel area clear.",
+      "commandError": "Keep the moving door panel area clear.",
+      "accepted": false,
+      "hitTriangles": 10,
+      "totalTriangles": 756,
+      "hitMeshes": [
+        {
+          "name": "linen_geometry",
+          "triangles": 10
+        }
+      ],
+      "leafBounds": {
+        "min": [
+          2.882499999925494,
+          4.768371586472142e-8,
+          -0.919999988079071
+        ],
+        "max": [
+          2.9175000000745057,
+          2.099999952316284,
+          -0.020000011920928984
+        ]
+      },
+      "pass": true
+    },
+    {
+      "reverse": false,
+      "thickness": 0.3,
+      "type": "single",
+      "hinge": "right",
+      "flip": true,
+      "control": true,
+      "item": {
+        "id": "qa-lamp",
+        "roomId": "room-mwa8nnjq-zev2e2f",
+        "assetId": "ois.calm-oak.floor-lamp",
+        "assetVersion": "0.1.0",
+        "assetHash": "01c4272d9b2f3ad4c0fa78a945b42da31a13fc27998042007f89bccf539b0a9a",
+        "x": 2.9,
+        "z": -1.1450000029802323,
+        "yaw": 0,
+        "locked": false,
+        "materialOverrides": {}
+      },
+      "leaf": {
+        "pivotX": 0.9,
+        "z": -0.02,
+        "yaw": 1.5707963267948966,
+        "width": 0.9
+      },
+      "error": null,
+      "commandError": null,
+      "accepted": true,
+      "hitTriangles": 0,
+      "totalTriangles": 756,
+      "hitMeshes": [],
+      "leafBounds": {
+        "min": [
+          2.882499999925494,
+          4.768371586472142e-8,
+          -0.919999988079071
+        ],
+        "max": [
+          2.9175000000745057,
+          2.099999952316284,
+          -0.020000011920928984
+        ]
+      },
+      "pass": true
+    },
+    {
+      "reverse": false,
+      "thickness": 0.3,
+      "type": "double",
+      "hinge": "left",
+      "flip": false,
+      "control": false,
+      "item": {
+        "id": "qa-lamp",
+        "roomId": "room-mwa8nnjr-fof4uhi",
+        "assetId": "ois.calm-oak.floor-lamp",
+        "assetVersion": "0.1.0",
+        "assetHash": "01c4272d9b2f3ad4c0fa78a945b42da31a13fc27998042007f89bccf539b0a9a",
+        "x": 2,
+        "z": 1.0050000029802324,
+        "yaw": 0,
+        "locked": false,
+        "materialOverrides": {}
+      },
+      "leaf": {
+        "pivotX": 0,
+        "z": 0.02,
+        "yaw": -1.5707963267948966,
+        "width": 0.8
+      },
+      "error": "Keep the moving door panel area clear.",
+      "commandError": "Keep the moving door panel area clear.",
+      "accepted": false,
+      "hitTriangles": 10,
+      "totalTriangles": 756,
+      "hitMeshes": [
+        {
+          "name": "linen_geometry",
+          "triangles": 10
+        }
+      ],
+      "leafBounds": {
+        "min": [
+          1.9824999999254942,
+          4.768371586472142e-8,
+          0.019999994039535562
+        ],
+        "max": [
+          2.017500000074506,
+          2.099999952316284,
+          0.8200000059604645
+        ]
+      },
+      "pass": true
+    },
+    {
+      "reverse": false,
+      "thickness": 0.3,
+      "type": "double",
+      "hinge": "left",
+      "flip": false,
+      "control": true,
+      "item": {
+        "id": "qa-lamp",
+        "roomId": "room-mwa8nnjs-afy3rf3",
+        "assetId": "ois.calm-oak.floor-lamp",
+        "assetVersion": "0.1.0",
+        "assetHash": "01c4272d9b2f3ad4c0fa78a945b42da31a13fc27998042007f89bccf539b0a9a",
+        "x": 2,
+        "z": 1.0450000029802324,
+        "yaw": 0,
+        "locked": false,
+        "materialOverrides": {}
+      },
+      "leaf": {
+        "pivotX": 0,
+        "z": 0.02,
+        "yaw": -1.5707963267948966,
+        "width": 0.8
+      },
+      "error": null,
+      "commandError": null,
+      "accepted": true,
+      "hitTriangles": 0,
+      "totalTriangles": 756,
+      "hitMeshes": [],
+      "leafBounds": {
+        "min": [
+          1.9824999999254942,
+          4.768371586472142e-8,
+          0.019999994039535562
+        ],
+        "max": [
+          2.017500000074506,
+          2.099999952316284,
+          0.8200000059604645
+        ]
+      },
+      "pass": true
+    },
+    {
+      "reverse": false,
+      "thickness": 0.3,
+      "type": "double",
+      "hinge": "left",
+      "flip": true,
+      "control": false,
+      "item": {
+        "id": "qa-lamp",
+        "roomId": "room-mwa8nnju-4ytafyh",
+        "assetId": "ois.calm-oak.floor-lamp",
+        "assetVersion": "0.1.0",
+        "assetHash": "01c4272d9b2f3ad4c0fa78a945b42da31a13fc27998042007f89bccf539b0a9a",
+        "x": 2,
+        "z": -1.0050000029802324,
+        "yaw": 0,
+        "locked": false,
+        "materialOverrides": {}
+      },
+      "leaf": {
+        "pivotX": 0,
+        "z": -0.02,
+        "yaw": 1.5707963267948966,
+        "width": 0.8
+      },
+      "error": "Keep the moving door panel area clear.",
+      "commandError": "Keep the moving door panel area clear.",
+      "accepted": false,
+      "hitTriangles": 10,
+      "totalTriangles": 756,
+      "hitMeshes": [
+        {
+          "name": "linen_geometry",
+          "triangles": 10
+        }
+      ],
+      "leafBounds": {
+        "min": [
+          1.9824999999254942,
+          4.768371586472142e-8,
+          -0.8200000059604645
+        ],
+        "max": [
+          2.017500000074506,
+          2.099999952316284,
+          -0.019999994039535562
+        ]
+      },
+      "pass": true
+    },
+    {
+      "reverse": false,
+      "thickness": 0.3,
+      "type": "double",
+      "hinge": "left",
+      "flip": true,
+      "control": true,
+      "item": {
+        "id": "qa-lamp",
+        "roomId": "room-mwa8nnjw-lwopurx",
+        "assetId": "ois.calm-oak.floor-lamp",
+        "assetVersion": "0.1.0",
+        "assetHash": "01c4272d9b2f3ad4c0fa78a945b42da31a13fc27998042007f89bccf539b0a9a",
+        "x": 2,
+        "z": -1.0450000029802324,
+        "yaw": 0,
+        "locked": false,
+        "materialOverrides": {}
+      },
+      "leaf": {
+        "pivotX": 0,
+        "z": -0.02,
+        "yaw": 1.5707963267948966,
+        "width": 0.8
+      },
+      "error": null,
+      "commandError": null,
+      "accepted": true,
+      "hitTriangles": 0,
+      "totalTriangles": 756,
+      "hitMeshes": [],
+      "leafBounds": {
+        "min": [
+          1.9824999999254942,
+          4.768371586472142e-8,
+          -0.8200000059604645
+        ],
+        "max": [
+          2.017500000074506,
+          2.099999952316284,
+          -0.019999994039535562
+        ]
+      },
+      "pass": true
+    },
+    {
+      "reverse": false,
+      "thickness": 0.3,
+      "type": "sliding",
+      "hinge": "left",
+      "flip": false,
+      "control": false,
+      "item": {
+        "id": "qa-lamp",
+        "roomId": "room-mwa8nnjx-xreuytd",
+        "assetId": "ois.calm-oak.floor-lamp",
+        "assetVersion": "0.1.0",
+        "assetHash": "01c4272d9b2f3ad4c0fa78a945b42da31a13fc27998042007f89bccf539b0a9a",
+        "x": 1.55,
+        "z": 0.3700000029802322,
+        "yaw": 0,
+        "locked": false,
+        "materialOverrides": {}
+      },
+      "leaf": {
+        "pivotX": -0.9,
+        "z": 0.185,
+        "yaw": 0,
+        "width": 0.9
+      },
+      "error": "Keep the moving door panel area clear.",
+      "commandError": "Keep the moving door panel area clear.",
+      "accepted": false,
+      "hitTriangles": 65,
+      "totalTriangles": 756,
+      "hitMeshes": [
+        {
+          "name": "linen_geometry",
+          "triangles": 58
+        },
+        {
+          "name": "metal_geometry",
+          "triangles": 7
+        }
+      ],
+      "leafBounds": {
+        "min": [
+          1.100000011920929,
+          4.768371586472142e-8,
+          0.1674999999254942
+        ],
+        "max": [
+          1.999999988079071,
+          2.099999952316284,
+          0.2025000000745058
+        ]
+      },
+      "pass": true
+    },
+    {
+      "reverse": false,
+      "thickness": 0.3,
+      "type": "sliding",
+      "hinge": "left",
+      "flip": false,
+      "control": true,
+      "item": {
+        "id": "qa-lamp",
+        "roomId": "room-mwa8nnjy-pvyb31i",
+        "assetId": "ois.calm-oak.floor-lamp",
+        "assetVersion": "0.1.0",
+        "assetHash": "01c4272d9b2f3ad4c0fa78a945b42da31a13fc27998042007f89bccf539b0a9a",
+        "x": 1.55,
+        "z": 0.4150000029802322,
+        "yaw": 0,
+        "locked": false,
+        "materialOverrides": {}
+      },
+      "leaf": {
+        "pivotX": -0.9,
+        "z": 0.185,
+        "yaw": 0,
+        "width": 0.9
+      },
+      "error": null,
+      "commandError": null,
+      "accepted": true,
+      "hitTriangles": 0,
+      "totalTriangles": 756,
+      "hitMeshes": [],
+      "leafBounds": {
+        "min": [
+          1.100000011920929,
+          4.768371586472142e-8,
+          0.1674999999254942
+        ],
+        "max": [
+          1.999999988079071,
+          2.099999952316284,
+          0.2025000000745058
+        ]
+      },
+      "pass": true
+    },
+    {
+      "reverse": false,
+      "thickness": 0.3,
+      "type": "sliding",
+      "hinge": "left",
+      "flip": true,
+      "control": false,
+      "item": {
+        "id": "qa-lamp",
+        "roomId": "room-mwa8nnjz-zp8qlmz",
+        "assetId": "ois.calm-oak.floor-lamp",
+        "assetVersion": "0.1.0",
+        "assetHash": "01c4272d9b2f3ad4c0fa78a945b42da31a13fc27998042007f89bccf539b0a9a",
+        "x": 1.55,
+        "z": -0.3700000029802322,
+        "yaw": 0,
+        "locked": false,
+        "materialOverrides": {}
+      },
+      "leaf": {
+        "pivotX": -0.9,
+        "z": -0.185,
+        "yaw": 0,
+        "width": 0.9
+      },
+      "error": "Keep the moving door panel area clear.",
+      "commandError": "Keep the moving door panel area clear.",
+      "accepted": false,
+      "hitTriangles": 65,
+      "totalTriangles": 756,
+      "hitMeshes": [
+        {
+          "name": "linen_geometry",
+          "triangles": 58
+        },
+        {
+          "name": "metal_geometry",
+          "triangles": 7
+        }
+      ],
+      "leafBounds": {
+        "min": [
+          1.100000011920929,
+          4.768371586472142e-8,
+          -0.2025000000745058
+        ],
+        "max": [
+          1.999999988079071,
+          2.099999952316284,
+          -0.1674999999254942
+        ]
+      },
+      "pass": true
+    },
+    {
+      "reverse": false,
+      "thickness": 0.3,
+      "type": "sliding",
+      "hinge": "left",
+      "flip": true,
+      "control": true,
+      "item": {
+        "id": "qa-lamp",
+        "roomId": "room-mwa8nnk0-h2j2nbu",
+        "assetId": "ois.calm-oak.floor-lamp",
+        "assetVersion": "0.1.0",
+        "assetHash": "01c4272d9b2f3ad4c0fa78a945b42da31a13fc27998042007f89bccf539b0a9a",
+        "x": 1.55,
+        "z": -0.4150000029802322,
+        "yaw": 0,
+        "locked": false,
+        "materialOverrides": {}
+      },
+      "leaf": {
+        "pivotX": -0.9,
+        "z": -0.185,
+        "yaw": 0,
+        "width": 0.9
+      },
+      "error": null,
+      "commandError": null,
+      "accepted": true,
+      "hitTriangles": 0,
+      "totalTriangles": 756,
+      "hitMeshes": [],
+      "leafBounds": {
+        "min": [
+          1.100000011920929,
+          4.768371586472142e-8,
+          -0.2025000000745058
+        ],
+        "max": [
+          1.999999988079071,
+          2.099999952316284,
+          -0.1674999999254942
+        ]
+      },
+      "pass": true
+    },
+    {
+      "reverse": false,
+      "thickness": 0.3,
+      "type": "sliding",
+      "hinge": "right",
+      "flip": false,
+      "control": false,
+      "item": {
+        "id": "qa-lamp",
+        "roomId": "room-mwa8nnk1-alx3mbb",
+        "assetId": "ois.calm-oak.floor-lamp",
+        "assetVersion": "0.1.0",
+        "assetHash": "01c4272d9b2f3ad4c0fa78a945b42da31a13fc27998042007f89bccf539b0a9a",
+        "x": 3.35,
+        "z": 0.3700000029802322,
+        "yaw": 0,
+        "locked": false,
+        "materialOverrides": {}
+      },
+      "leaf": {
+        "pivotX": 0.9,
+        "z": 0.185,
+        "yaw": 0,
+        "width": 0.9
+      },
+      "error": "Keep the moving door panel area clear.",
+      "commandError": "Keep the moving door panel area clear.",
+      "accepted": false,
+      "hitTriangles": 65,
+      "totalTriangles": 756,
+      "hitMeshes": [
+        {
+          "name": "linen_geometry",
+          "triangles": 58
+        },
+        {
+          "name": "metal_geometry",
+          "triangles": 7
+        }
+      ],
+      "leafBounds": {
+        "min": [
+          2.900000011920929,
+          4.768371586472142e-8,
+          0.1674999999254942
+        ],
+        "max": [
+          3.799999988079071,
+          2.099999952316284,
+          0.2025000000745058
+        ]
+      },
+      "pass": true
+    },
+    {
+      "reverse": false,
+      "thickness": 0.3,
+      "type": "sliding",
+      "hinge": "right",
+      "flip": false,
+      "control": true,
+      "item": {
+        "id": "qa-lamp",
+        "roomId": "room-mwa8nnk2-3xbh0k2",
+        "assetId": "ois.calm-oak.floor-lamp",
+        "assetVersion": "0.1.0",
+        "assetHash": "01c4272d9b2f3ad4c0fa78a945b42da31a13fc27998042007f89bccf539b0a9a",
+        "x": 3.35,
+        "z": 0.4150000029802322,
+        "yaw": 0,
+        "locked": false,
+        "materialOverrides": {}
+      },
+      "leaf": {
+        "pivotX": 0.9,
+        "z": 0.185,
+        "yaw": 0,
+        "width": 0.9
+      },
+      "error": null,
+      "commandError": null,
+      "accepted": true,
+      "hitTriangles": 0,
+      "totalTriangles": 756,
+      "hitMeshes": [],
+      "leafBounds": {
+        "min": [
+          2.900000011920929,
+          4.768371586472142e-8,
+          0.1674999999254942
+        ],
+        "max": [
+          3.799999988079071,
+          2.099999952316284,
+          0.2025000000745058
+        ]
+      },
+      "pass": true
+    },
+    {
+      "reverse": false,
+      "thickness": 0.3,
+      "type": "sliding",
+      "hinge": "right",
+      "flip": true,
+      "control": false,
+      "item": {
+        "id": "qa-lamp",
+        "roomId": "room-mwa8nnk3-n35wdjl",
+        "assetId": "ois.calm-oak.floor-lamp",
+        "assetVersion": "0.1.0",
+        "assetHash": "01c4272d9b2f3ad4c0fa78a945b42da31a13fc27998042007f89bccf539b0a9a",
+        "x": 3.35,
+        "z": -0.3700000029802322,
+        "yaw": 0,
+        "locked": false,
+        "materialOverrides": {}
+      },
+      "leaf": {
+        "pivotX": 0.9,
+        "z": -0.185,
+        "yaw": 0,
+        "width": 0.9
+      },
+      "error": "Keep the moving door panel area clear.",
+      "commandError": "Keep the moving door panel area clear.",
+      "accepted": false,
+      "hitTriangles": 65,
+      "totalTriangles": 756,
+      "hitMeshes": [
+        {
+          "name": "linen_geometry",
+          "triangles": 58
+        },
+        {
+          "name": "metal_geometry",
+          "triangles": 7
+        }
+      ],
+      "leafBounds": {
+        "min": [
+          2.900000011920929,
+          4.768371586472142e-8,
+          -0.2025000000745058
+        ],
+        "max": [
+          3.799999988079071,
+          2.099999952316284,
+          -0.1674999999254942
+        ]
+      },
+      "pass": true
+    },
+    {
+      "reverse": false,
+      "thickness": 0.3,
+      "type": "sliding",
+      "hinge": "right",
+      "flip": true,
+      "control": true,
+      "item": {
+        "id": "qa-lamp",
+        "roomId": "room-mwa8nnk4-1zklx5m",
+        "assetId": "ois.calm-oak.floor-lamp",
+        "assetVersion": "0.1.0",
+        "assetHash": "01c4272d9b2f3ad4c0fa78a945b42da31a13fc27998042007f89bccf539b0a9a",
+        "x": 3.35,
+        "z": -0.4150000029802322,
+        "yaw": 0,
+        "locked": false,
+        "materialOverrides": {}
+      },
+      "leaf": {
+        "pivotX": 0.9,
+        "z": -0.185,
+        "yaw": 0,
+        "width": 0.9
+      },
+      "error": null,
+      "commandError": null,
+      "accepted": true,
+      "hitTriangles": 0,
+      "totalTriangles": 756,
+      "hitMeshes": [],
+      "leafBounds": {
+        "min": [
+          2.900000011920929,
+          4.768371586472142e-8,
+          -0.2025000000745058
+        ],
+        "max": [
+          3.799999988079071,
+          2.099999952316284,
+          -0.1674999999254942
+        ]
+      },
+      "pass": true
+    },
+    {
+      "reverse": true,
+      "thickness": 0.12,
+      "type": "single",
+      "hinge": "left",
+      "flip": false,
+      "control": false,
+      "item": {
+        "id": "qa-lamp",
+        "roomId": "room-mwa8nnk4-xlv18f7",
+        "assetId": "ois.calm-oak.floor-lamp",
+        "assetVersion": "0.1.0",
+        "assetHash": "01c4272d9b2f3ad4c0fa78a945b42da31a13fc27998042007f89bccf539b0a9a",
+        "x": 2,
+        "z": 1.1050000029802323,
+        "yaw": 0,
+        "locked": false,
+        "materialOverrides": {}
+      },
+      "leaf": {
+        "pivotX": 0,
+        "z": 0.02,
+        "yaw": -1.5707963267948966,
+        "width": 0.9
+      },
+      "error": "Keep the moving door panel area clear.",
+      "commandError": "Keep the moving door panel area clear.",
+      "accepted": false,
+      "hitTriangles": 10,
+      "totalTriangles": 756,
+      "hitMeshes": [
+        {
+          "name": "linen_geometry",
+          "triangles": 10
+        }
+      ],
+      "leafBounds": {
+        "min": [
+          1.9824999999254942,
+          4.768371586472142e-8,
+          0.020000011920928984
+        ],
+        "max": [
+          2.017500000074506,
+          2.099999952316284,
+          0.919999988079071
+        ]
+      },
+      "pass": true
+    },
+    {
+      "reverse": true,
+      "thickness": 0.12,
+      "type": "single",
+      "hinge": "left",
+      "flip": false,
+      "control": true,
+      "item": {
+        "id": "qa-lamp",
+        "roomId": "room-mwa8nnk6-bk8g37s",
+        "assetId": "ois.calm-oak.floor-lamp",
+        "assetVersion": "0.1.0",
+        "assetHash": "01c4272d9b2f3ad4c0fa78a945b42da31a13fc27998042007f89bccf539b0a9a",
+        "x": 2,
+        "z": 1.1450000029802323,
+        "yaw": 0,
+        "locked": false,
+        "materialOverrides": {}
+      },
+      "leaf": {
+        "pivotX": 0,
+        "z": 0.02,
+        "yaw": -1.5707963267948966,
+        "width": 0.9
+      },
+      "error": null,
+      "commandError": null,
+      "accepted": true,
+      "hitTriangles": 0,
+      "totalTriangles": 756,
+      "hitMeshes": [],
+      "leafBounds": {
+        "min": [
+          1.9824999999254942,
+          4.768371586472142e-8,
+          0.020000011920928984
+        ],
+        "max": [
+          2.017500000074506,
+          2.099999952316284,
+          0.919999988079071
+        ]
+      },
+      "pass": true
+    },
+    {
+      "reverse": true,
+      "thickness": 0.12,
+      "type": "single",
+      "hinge": "left",
+      "flip": true,
+      "control": false,
+      "item": {
+        "id": "qa-lamp",
+        "roomId": "room-mwa8nnk6-k1b3lid",
+        "assetId": "ois.calm-oak.floor-lamp",
+        "assetVersion": "0.1.0",
+        "assetHash": "01c4272d9b2f3ad4c0fa78a945b42da31a13fc27998042007f89bccf539b0a9a",
+        "x": 2,
+        "z": -1.1050000029802323,
+        "yaw": 0,
+        "locked": false,
+        "materialOverrides": {}
+      },
+      "leaf": {
+        "pivotX": 0,
+        "z": -0.02,
+        "yaw": 1.5707963267948966,
+        "width": 0.9
+      },
+      "error": "Keep the moving door panel area clear.",
+      "commandError": "Keep the moving door panel area clear.",
+      "accepted": false,
+      "hitTriangles": 10,
+      "totalTriangles": 756,
+      "hitMeshes": [
+        {
+          "name": "linen_geometry",
+          "triangles": 10
+        }
+      ],
+      "leafBounds": {
+        "min": [
+          1.9824999999254942,
+          4.768371586472142e-8,
+          -0.919999988079071
+        ],
+        "max": [
+          2.017500000074506,
+          2.099999952316284,
+          -0.020000011920928984
+        ]
+      },
+      "pass": true
+    },
+    {
+      "reverse": true,
+      "thickness": 0.12,
+      "type": "single",
+      "hinge": "left",
+      "flip": true,
+      "control": true,
+      "item": {
+        "id": "qa-lamp",
+        "roomId": "room-mwa8nnk7-xkj11t1",
+        "assetId": "ois.calm-oak.floor-lamp",
+        "assetVersion": "0.1.0",
+        "assetHash": "01c4272d9b2f3ad4c0fa78a945b42da31a13fc27998042007f89bccf539b0a9a",
+        "x": 2,
+        "z": -1.1450000029802323,
+        "yaw": 0,
+        "locked": false,
+        "materialOverrides": {}
+      },
+      "leaf": {
+        "pivotX": 0,
+        "z": -0.02,
+        "yaw": 1.5707963267948966,
+        "width": 0.9
+      },
+      "error": null,
+      "commandError": null,
+      "accepted": true,
+      "hitTriangles": 0,
+      "totalTriangles": 756,
+      "hitMeshes": [],
+      "leafBounds": {
+        "min": [
+          1.9824999999254942,
+          4.768371586472142e-8,
+          -0.919999988079071
+        ],
+        "max": [
+          2.017500000074506,
+          2.099999952316284,
+          -0.020000011920928984
+        ]
+      },
+      "pass": true
+    },
+    {
+      "reverse": true,
+      "thickness": 0.12,
+      "type": "single",
+      "hinge": "right",
+      "flip": false,
+      "control": false,
+      "item": {
+        "id": "qa-lamp",
+        "roomId": "room-mwa8nnk8-8xouuy6",
+        "assetId": "ois.calm-oak.floor-lamp",
+        "assetVersion": "0.1.0",
+        "assetHash": "01c4272d9b2f3ad4c0fa78a945b42da31a13fc27998042007f89bccf539b0a9a",
+        "x": 2.9,
+        "z": 1.1050000029802323,
+        "yaw": 0,
+        "locked": false,
+        "materialOverrides": {}
+      },
+      "leaf": {
+        "pivotX": 0.9,
+        "z": 0.02,
+        "yaw": 4.71238898038469,
+        "width": 0.9
+      },
+      "error": "Keep the moving door panel area clear.",
+      "commandError": "Keep the moving door panel area clear.",
+      "accepted": false,
+      "hitTriangles": 10,
+      "totalTriangles": 756,
+      "hitMeshes": [
+        {
+          "name": "linen_geometry",
+          "triangles": 10
+        }
+      ],
+      "leafBounds": {
+        "min": [
+          2.882499999925494,
+          4.768371586472142e-8,
+          0.020000011920928984
+        ],
+        "max": [
+          2.9175000000745057,
+          2.099999952316284,
+          0.919999988079071
+        ]
+      },
+      "pass": true
+    },
+    {
+      "reverse": true,
+      "thickness": 0.12,
+      "type": "single",
+      "hinge": "right",
+      "flip": false,
+      "control": true,
+      "item": {
+        "id": "qa-lamp",
+        "roomId": "room-mwa8nnk9-yic19ui",
+        "assetId": "ois.calm-oak.floor-lamp",
+        "assetVersion": "0.1.0",
+        "assetHash": "01c4272d9b2f3ad4c0fa78a945b42da31a13fc27998042007f89bccf539b0a9a",
+        "x": 2.9,
+        "z": 1.1450000029802323,
+        "yaw": 0,
+        "locked": false,
+        "materialOverrides": {}
+      },
+      "leaf": {
+        "pivotX": 0.9,
+        "z": 0.02,
+        "yaw": 4.71238898038469,
+        "width": 0.9
+      },
+      "error": null,
+      "commandError": null,
+      "accepted": true,
+      "hitTriangles": 0,
+      "totalTriangles": 756,
+      "hitMeshes": [],
+      "leafBounds": {
+        "min": [
+          2.882499999925494,
+          4.768371586472142e-8,
+          0.020000011920928984
+        ],
+        "max": [
+          2.9175000000745057,
+          2.099999952316284,
+          0.919999988079071
+        ]
+      },
+      "pass": true
+    },
+    {
+      "reverse": true,
+      "thickness": 0.12,
+      "type": "single",
+      "hinge": "right",
+      "flip": true,
+      "control": false,
+      "item": {
+        "id": "qa-lamp",
+        "roomId": "room-mwa8nnka-voocgq2",
+        "assetId": "ois.calm-oak.floor-lamp",
+        "assetVersion": "0.1.0",
+        "assetHash": "01c4272d9b2f3ad4c0fa78a945b42da31a13fc27998042007f89bccf539b0a9a",
+        "x": 2.9,
+        "z": -1.1050000029802323,
+        "yaw": 0,
+        "locked": false,
+        "materialOverrides": {}
+      },
+      "leaf": {
+        "pivotX": 0.9,
+        "z": -0.02,
+        "yaw": 1.5707963267948966,
+        "width": 0.9
+      },
+      "error": "Keep the moving door panel area clear.",
+      "commandError": "Keep the moving door panel area clear.",
+      "accepted": false,
+      "hitTriangles": 10,
+      "totalTriangles": 756,
+      "hitMeshes": [
+        {
+          "name": "linen_geometry",
+          "triangles": 10
+        }
+      ],
+      "leafBounds": {
+        "min": [
+          2.882499999925494,
+          4.768371586472142e-8,
+          -0.919999988079071
+        ],
+        "max": [
+          2.9175000000745057,
+          2.099999952316284,
+          -0.020000011920928984
+        ]
+      },
+      "pass": true
+    },
+    {
+      "reverse": true,
+      "thickness": 0.12,
+      "type": "single",
+      "hinge": "right",
+      "flip": true,
+      "control": true,
+      "item": {
+        "id": "qa-lamp",
+        "roomId": "room-mwa8nnkb-bfl3lq6",
+        "assetId": "ois.calm-oak.floor-lamp",
+        "assetVersion": "0.1.0",
+        "assetHash": "01c4272d9b2f3ad4c0fa78a945b42da31a13fc27998042007f89bccf539b0a9a",
+        "x": 2.9,
+        "z": -1.1450000029802323,
+        "yaw": 0,
+        "locked": false,
+        "materialOverrides": {}
+      },
+      "leaf": {
+        "pivotX": 0.9,
+        "z": -0.02,
+        "yaw": 1.5707963267948966,
+        "width": 0.9
+      },
+      "error": null,
+      "commandError": null,
+      "accepted": true,
+      "hitTriangles": 0,
+      "totalTriangles": 756,
+      "hitMeshes": [],
+      "leafBounds": {
+        "min": [
+          2.882499999925494,
+          4.768371586472142e-8,
+          -0.919999988079071
+        ],
+        "max": [
+          2.9175000000745057,
+          2.099999952316284,
+          -0.020000011920928984
+        ]
+      },
+      "pass": true
+    },
+    {
+      "reverse": true,
+      "thickness": 0.12,
+      "type": "double",
+      "hinge": "left",
+      "flip": false,
+      "control": false,
+      "item": {
+        "id": "qa-lamp",
+        "roomId": "room-mwa8nnkc-32hd73y",
+        "assetId": "ois.calm-oak.floor-lamp",
+        "assetVersion": "0.1.0",
+        "assetHash": "01c4272d9b2f3ad4c0fa78a945b42da31a13fc27998042007f89bccf539b0a9a",
+        "x": 2,
+        "z": 1.0050000029802324,
+        "yaw": 0,
+        "locked": false,
+        "materialOverrides": {}
+      },
+      "leaf": {
+        "pivotX": 0,
+        "z": 0.02,
+        "yaw": -1.5707963267948966,
+        "width": 0.8
+      },
+      "error": "Keep the moving door panel area clear.",
+      "commandError": "Keep the moving door panel area clear.",
+      "accepted": false,
+      "hitTriangles": 10,
+      "totalTriangles": 756,
+      "hitMeshes": [
+        {
+          "name": "linen_geometry",
+          "triangles": 10
+        }
+      ],
+      "leafBounds": {
+        "min": [
+          1.9824999999254942,
+          4.768371586472142e-8,
+          0.019999994039535562
+        ],
+        "max": [
+          2.017500000074506,
+          2.099999952316284,
+          0.8200000059604645
+        ]
+      },
+      "pass": true
+    },
+    {
+      "reverse": true,
+      "thickness": 0.12,
+      "type": "double",
+      "hinge": "left",
+      "flip": false,
+      "control": true,
+      "item": {
+        "id": "qa-lamp",
+        "roomId": "room-mwa8nnkc-ke4utft",
+        "assetId": "ois.calm-oak.floor-lamp",
+        "assetVersion": "0.1.0",
+        "assetHash": "01c4272d9b2f3ad4c0fa78a945b42da31a13fc27998042007f89bccf539b0a9a",
+        "x": 2,
+        "z": 1.0450000029802324,
+        "yaw": 0,
+        "locked": false,
+        "materialOverrides": {}
+      },
+      "leaf": {
+        "pivotX": 0,
+        "z": 0.02,
+        "yaw": -1.5707963267948966,
+        "width": 0.8
+      },
+      "error": null,
+      "commandError": null,
+      "accepted": true,
+      "hitTriangles": 0,
+      "totalTriangles": 756,
+      "hitMeshes": [],
+      "leafBounds": {
+        "min": [
+          1.9824999999254942,
+          4.768371586472142e-8,
+          0.019999994039535562
+        ],
+        "max": [
+          2.017500000074506,
+          2.099999952316284,
+          0.8200000059604645
+        ]
+      },
+      "pass": true
+    },
+    {
+      "reverse": true,
+      "thickness": 0.12,
+      "type": "double",
+      "hinge": "left",
+      "flip": true,
+      "control": false,
+      "item": {
+        "id": "qa-lamp",
+        "roomId": "room-mwa8nnkd-gu9z07p",
+        "assetId": "ois.calm-oak.floor-lamp",
+        "assetVersion": "0.1.0",
+        "assetHash": "01c4272d9b2f3ad4c0fa78a945b42da31a13fc27998042007f89bccf539b0a9a",
+        "x": 2,
+        "z": -1.0050000029802324,
+        "yaw": 0,
+        "locked": false,
+        "materialOverrides": {}
+      },
+      "leaf": {
+        "pivotX": 0,
+        "z": -0.02,
+        "yaw": 1.5707963267948966,
+        "width": 0.8
+      },
+      "error": "Keep the moving door panel area clear.",
+      "commandError": "Keep the moving door panel area clear.",
+      "accepted": false,
+      "hitTriangles": 10,
+      "totalTriangles": 756,
+      "hitMeshes": [
+        {
+          "name": "linen_geometry",
+          "triangles": 10
+        }
+      ],
+      "leafBounds": {
+        "min": [
+          1.9824999999254942,
+          4.768371586472142e-8,
+          -0.8200000059604645
+        ],
+        "max": [
+          2.017500000074506,
+          2.099999952316284,
+          -0.019999994039535562
+        ]
+      },
+      "pass": true
+    },
+    {
+      "reverse": true,
+      "thickness": 0.12,
+      "type": "double",
+      "hinge": "left",
+      "flip": true,
+      "control": true,
+      "item": {
+        "id": "qa-lamp",
+        "roomId": "room-mwa8nnkf-vftmrvd",
+        "assetId": "ois.calm-oak.floor-lamp",
+        "assetVersion": "0.1.0",
+        "assetHash": "01c4272d9b2f3ad4c0fa78a945b42da31a13fc27998042007f89bccf539b0a9a",
+        "x": 2,
+        "z": -1.0450000029802324,
+        "yaw": 0,
+        "locked": false,
+        "materialOverrides": {}
+      },
+      "leaf": {
+        "pivotX": 0,
+        "z": -0.02,
+        "yaw": 1.5707963267948966,
+        "width": 0.8
+      },
+      "error": null,
+      "commandError": null,
+      "accepted": true,
+      "hitTriangles": 0,
+      "totalTriangles": 756,
+      "hitMeshes": [],
+      "leafBounds": {
+        "min": [
+          1.9824999999254942,
+          4.768371586472142e-8,
+          -0.8200000059604645
+        ],
+        "max": [
+          2.017500000074506,
+          2.099999952316284,
+          -0.019999994039535562
+        ]
+      },
+      "pass": true
+    },
+    {
+      "reverse": true,
+      "thickness": 0.12,
+      "type": "sliding",
+      "hinge": "left",
+      "flip": false,
+      "control": false,
+      "item": {
+        "id": "qa-lamp",
+        "roomId": "room-mwa8nnkg-tnqe3lz",
+        "assetId": "ois.calm-oak.floor-lamp",
+        "assetVersion": "0.1.0",
+        "assetHash": "01c4272d9b2f3ad4c0fa78a945b42da31a13fc27998042007f89bccf539b0a9a",
+        "x": 1.55,
+        "z": 0.28000000298023225,
+        "yaw": 0,
+        "locked": false,
+        "materialOverrides": {}
+      },
+      "leaf": {
+        "pivotX": -0.9,
+        "z": 0.095,
+        "yaw": 0,
+        "width": 0.9
+      },
+      "error": "Keep the moving door panel area clear.",
+      "commandError": "Keep the moving door panel area clear.",
+      "accepted": false,
+      "hitTriangles": 65,
+      "totalTriangles": 756,
+      "hitMeshes": [
+        {
+          "name": "linen_geometry",
+          "triangles": 58
+        },
+        {
+          "name": "metal_geometry",
+          "triangles": 7
+        }
+      ],
+      "leafBounds": {
+        "min": [
+          1.100000011920929,
+          4.768371586472142e-8,
+          0.0774999999254942
+        ],
+        "max": [
+          1.999999988079071,
+          2.099999952316284,
+          0.11250000007450581
+        ]
+      },
+      "pass": true
+    },
+    {
+      "reverse": true,
+      "thickness": 0.12,
+      "type": "sliding",
+      "hinge": "left",
+      "flip": false,
+      "control": true,
+      "item": {
+        "id": "qa-lamp",
+        "roomId": "room-mwa8nnkg-x4x7wk7",
+        "assetId": "ois.calm-oak.floor-lamp",
+        "assetVersion": "0.1.0",
+        "assetHash": "01c4272d9b2f3ad4c0fa78a945b42da31a13fc27998042007f89bccf539b0a9a",
+        "x": 1.55,
+        "z": 0.32500000298023224,
+        "yaw": 0,
+        "locked": false,
+        "materialOverrides": {}
+      },
+      "leaf": {
+        "pivotX": -0.9,
+        "z": 0.095,
+        "yaw": 0,
+        "width": 0.9
+      },
+      "error": null,
+      "commandError": null,
+      "accepted": true,
+      "hitTriangles": 0,
+      "totalTriangles": 756,
+      "hitMeshes": [],
+      "leafBounds": {
+        "min": [
+          1.100000011920929,
+          4.768371586472142e-8,
+          0.0774999999254942
+        ],
+        "max": [
+          1.999999988079071,
+          2.099999952316284,
+          0.11250000007450581
+        ]
+      },
+      "pass": true
+    },
+    {
+      "reverse": true,
+      "thickness": 0.12,
+      "type": "sliding",
+      "hinge": "left",
+      "flip": true,
+      "control": false,
+      "item": {
+        "id": "qa-lamp",
+        "roomId": "room-mwa8nnkh-vt6ad89",
+        "assetId": "ois.calm-oak.floor-lamp",
+        "assetVersion": "0.1.0",
+        "assetHash": "01c4272d9b2f3ad4c0fa78a945b42da31a13fc27998042007f89bccf539b0a9a",
+        "x": 1.55,
+        "z": -0.28000000298023225,
+        "yaw": 0,
+        "locked": false,
+        "materialOverrides": {}
+      },
+      "leaf": {
+        "pivotX": -0.9,
+        "z": -0.095,
+        "yaw": 0,
+        "width": 0.9
+      },
+      "error": "Keep the moving door panel area clear.",
+      "commandError": "Keep the moving door panel area clear.",
+      "accepted": false,
+      "hitTriangles": 65,
+      "totalTriangles": 756,
+      "hitMeshes": [
+        {
+          "name": "linen_geometry",
+          "triangles": 58
+        },
+        {
+          "name": "metal_geometry",
+          "triangles": 7
+        }
+      ],
+      "leafBounds": {
+        "min": [
+          1.100000011920929,
+          4.768371586472142e-8,
+          -0.11250000007450581
+        ],
+        "max": [
+          1.999999988079071,
+          2.099999952316284,
+          -0.0774999999254942
+        ]
+      },
+      "pass": true
+    },
+    {
+      "reverse": true,
+      "thickness": 0.12,
+      "type": "sliding",
+      "hinge": "left",
+      "flip": true,
+      "control": true,
+      "item": {
+        "id": "qa-lamp",
+        "roomId": "room-mwa8nnkh-66s8d0h",
+        "assetId": "ois.calm-oak.floor-lamp",
+        "assetVersion": "0.1.0",
+        "assetHash": "01c4272d9b2f3ad4c0fa78a945b42da31a13fc27998042007f89bccf539b0a9a",
+        "x": 1.55,
+        "z": -0.32500000298023224,
+        "yaw": 0,
+        "locked": false,
+        "materialOverrides": {}
+      },
+      "leaf": {
+        "pivotX": -0.9,
+        "z": -0.095,
+        "yaw": 0,
+        "width": 0.9
+      },
+      "error": null,
+      "commandError": null,
+      "accepted": true,
+      "hitTriangles": 0,
+      "totalTriangles": 756,
+      "hitMeshes": [],
+      "leafBounds": {
+        "min": [
+          1.100000011920929,
+          4.768371586472142e-8,
+          -0.11250000007450581
+        ],
+        "max": [
+          1.999999988079071,
+          2.099999952316284,
+          -0.0774999999254942
+        ]
+      },
+      "pass": true
+    },
+    {
+      "reverse": true,
+      "thickness": 0.12,
+      "type": "sliding",
+      "hinge": "right",
+      "flip": false,
+      "control": false,
+      "item": {
+        "id": "qa-lamp",
+        "roomId": "room-mwa8nnki-wgi49fv",
+        "assetId": "ois.calm-oak.floor-lamp",
+        "assetVersion": "0.1.0",
+        "assetHash": "01c4272d9b2f3ad4c0fa78a945b42da31a13fc27998042007f89bccf539b0a9a",
+        "x": 3.35,
+        "z": 0.28000000298023225,
+        "yaw": 0,
+        "locked": false,
+        "materialOverrides": {}
+      },
+      "leaf": {
+        "pivotX": 0.9,
+        "z": 0.095,
+        "yaw": 0,
+        "width": 0.9
+      },
+      "error": "Keep the moving door panel area clear.",
+      "commandError": "Keep the moving door panel area clear.",
+      "accepted": false,
+      "hitTriangles": 65,
+      "totalTriangles": 756,
+      "hitMeshes": [
+        {
+          "name": "linen_geometry",
+          "triangles": 58
+        },
+        {
+          "name": "metal_geometry",
+          "triangles": 7
+        }
+      ],
+      "leafBounds": {
+        "min": [
+          2.900000011920929,
+          4.768371586472142e-8,
+          0.0774999999254942
+        ],
+        "max": [
+          3.799999988079071,
+          2.099999952316284,
+          0.11250000007450581
+        ]
+      },
+      "pass": true
+    },
+    {
+      "reverse": true,
+      "thickness": 0.12,
+      "type": "sliding",
+      "hinge": "right",
+      "flip": false,
+      "control": true,
+      "item": {
+        "id": "qa-lamp",
+        "roomId": "room-mwa8nnkj-7d1r7bb",
+        "assetId": "ois.calm-oak.floor-lamp",
+        "assetVersion": "0.1.0",
+        "assetHash": "01c4272d9b2f3ad4c0fa78a945b42da31a13fc27998042007f89bccf539b0a9a",
+        "x": 3.35,
+        "z": 0.32500000298023224,
+        "yaw": 0,
+        "locked": false,
+        "materialOverrides": {}
+      },
+      "leaf": {
+        "pivotX": 0.9,
+        "z": 0.095,
+        "yaw": 0,
+        "width": 0.9
+      },
+      "error": null,
+      "commandError": null,
+      "accepted": true,
+      "hitTriangles": 0,
+      "totalTriangles": 756,
+      "hitMeshes": [],
+      "leafBounds": {
+        "min": [
+          2.900000011920929,
+          4.768371586472142e-8,
+          0.0774999999254942
+        ],
+        "max": [
+          3.799999988079071,
+          2.099999952316284,
+          0.11250000007450581
+        ]
+      },
+      "pass": true
+    },
+    {
+      "reverse": true,
+      "thickness": 0.12,
+      "type": "sliding",
+      "hinge": "right",
+      "flip": true,
+      "control": false,
+      "item": {
+        "id": "qa-lamp",
+        "roomId": "room-mwa8nnkk-vws8yr8",
+        "assetId": "ois.calm-oak.floor-lamp",
+        "assetVersion": "0.1.0",
+        "assetHash": "01c4272d9b2f3ad4c0fa78a945b42da31a13fc27998042007f89bccf539b0a9a",
+        "x": 3.35,
+        "z": -0.28000000298023225,
+        "yaw": 0,
+        "locked": false,
+        "materialOverrides": {}
+      },
+      "leaf": {
+        "pivotX": 0.9,
+        "z": -0.095,
+        "yaw": 0,
+        "width": 0.9
+      },
+      "error": "Keep the moving door panel area clear.",
+      "commandError": "Keep the moving door panel area clear.",
+      "accepted": false,
+      "hitTriangles": 65,
+      "totalTriangles": 756,
+      "hitMeshes": [
+        {
+          "name": "linen_geometry",
+          "triangles": 58
+        },
+        {
+          "name": "metal_geometry",
+          "triangles": 7
+        }
+      ],
+      "leafBounds": {
+        "min": [
+          2.900000011920929,
+          4.768371586472142e-8,
+          -0.11250000007450581
+        ],
+        "max": [
+          3.799999988079071,
+          2.099999952316284,
+          -0.0774999999254942
+        ]
+      },
+      "pass": true
+    },
+    {
+      "reverse": true,
+      "thickness": 0.12,
+      "type": "sliding",
+      "hinge": "right",
+      "flip": true,
+      "control": true,
+      "item": {
+        "id": "qa-lamp",
+        "roomId": "room-mwa8nnkk-71553pd",
+        "assetId": "ois.calm-oak.floor-lamp",
+        "assetVersion": "0.1.0",
+        "assetHash": "01c4272d9b2f3ad4c0fa78a945b42da31a13fc27998042007f89bccf539b0a9a",
+        "x": 3.35,
+        "z": -0.32500000298023224,
+        "yaw": 0,
+        "locked": false,
+        "materialOverrides": {}
+      },
+      "leaf": {
+        "pivotX": 0.9,
+        "z": -0.095,
+        "yaw": 0,
+        "width": 0.9
+      },
+      "error": null,
+      "commandError": null,
+      "accepted": true,
+      "hitTriangles": 0,
+      "totalTriangles": 756,
+      "hitMeshes": [],
+      "leafBounds": {
+        "min": [
+          2.900000011920929,
+          4.768371586472142e-8,
+          -0.11250000007450581
+        ],
+        "max": [
+          3.799999988079071,
+          2.099999952316284,
+          -0.0774999999254942
+        ]
+      },
+      "pass": true
+    },
+    {
+      "reverse": true,
+      "thickness": 0.15,
+      "type": "single",
+      "hinge": "left",
+      "flip": false,
+      "control": false,
+      "item": {
+        "id": "qa-lamp",
+        "roomId": "room-mwa8nnkl-3hzckfb",
+        "assetId": "ois.calm-oak.floor-lamp",
+        "assetVersion": "0.1.0",
+        "assetHash": "01c4272d9b2f3ad4c0fa78a945b42da31a13fc27998042007f89bccf539b0a9a",
+        "x": 2,
+        "z": 1.1050000029802323,
+        "yaw": 0,
+        "locked": false,
+        "materialOverrides": {}
+      },
+      "leaf": {
+        "pivotX": 0,
+        "z": 0.02,
+        "yaw": -1.5707963267948966,
+        "width": 0.9
+      },
+      "error": "Keep the moving door panel area clear.",
+      "commandError": "Keep the moving door panel area clear.",
+      "accepted": false,
+      "hitTriangles": 10,
+      "totalTriangles": 756,
+      "hitMeshes": [
+        {
+          "name": "linen_geometry",
+          "triangles": 10
+        }
+      ],
+      "leafBounds": {
+        "min": [
+          1.9824999999254942,
+          4.768371586472142e-8,
+          0.020000011920928984
+        ],
+        "max": [
+          2.017500000074506,
+          2.099999952316284,
+          0.919999988079071
+        ]
+      },
+      "pass": true
+    },
+    {
+      "reverse": true,
+      "thickness": 0.15,
+      "type": "single",
+      "hinge": "left",
+      "flip": false,
+      "control": true,
+      "item": {
+        "id": "qa-lamp",
+        "roomId": "room-mwa8nnkl-yw86eyu",
+        "assetId": "ois.calm-oak.floor-lamp",
+        "assetVersion": "0.1.0",
+        "assetHash": "01c4272d9b2f3ad4c0fa78a945b42da31a13fc27998042007f89bccf539b0a9a",
+        "x": 2,
+        "z": 1.1450000029802323,
+        "yaw": 0,
+        "locked": false,
+        "materialOverrides": {}
+      },
+      "leaf": {
+        "pivotX": 0,
+        "z": 0.02,
+        "yaw": -1.5707963267948966,
+        "width": 0.9
+      },
+      "error": null,
+      "commandError": null,
+      "accepted": true,
+      "hitTriangles": 0,
+      "totalTriangles": 756,
+      "hitMeshes": [],
+      "leafBounds": {
+        "min": [
+          1.9824999999254942,
+          4.768371586472142e-8,
+          0.020000011920928984
+        ],
+        "max": [
+          2.017500000074506,
+          2.099999952316284,
+          0.919999988079071
+        ]
+      },
+      "pass": true
+    },
+    {
+      "reverse": true,
+      "thickness": 0.15,
+      "type": "single",
+      "hinge": "left",
+      "flip": true,
+      "control": false,
+      "item": {
+        "id": "qa-lamp",
+        "roomId": "room-mwa8nnkm-x92tw7y",
+        "assetId": "ois.calm-oak.floor-lamp",
+        "assetVersion": "0.1.0",
+        "assetHash": "01c4272d9b2f3ad4c0fa78a945b42da31a13fc27998042007f89bccf539b0a9a",
+        "x": 2,
+        "z": -1.1050000029802323,
+        "yaw": 0,
+        "locked": false,
+        "materialOverrides": {}
+      },
+      "leaf": {
+        "pivotX": 0,
+        "z": -0.02,
+        "yaw": 1.5707963267948966,
+        "width": 0.9
+      },
+      "error": "Keep the moving door panel area clear.",
+      "commandError": "Keep the moving door panel area clear.",
+      "accepted": false,
+      "hitTriangles": 10,
+      "totalTriangles": 756,
+      "hitMeshes": [
+        {
+          "name": "linen_geometry",
+          "triangles": 10
+        }
+      ],
+      "leafBounds": {
+        "min": [
+          1.9824999999254942,
+          4.768371586472142e-8,
+          -0.919999988079071
+        ],
+        "max": [
+          2.017500000074506,
+          2.099999952316284,
+          -0.020000011920928984
+        ]
+      },
+      "pass": true
+    },
+    {
+      "reverse": true,
+      "thickness": 0.15,
+      "type": "single",
+      "hinge": "left",
+      "flip": true,
+      "control": true,
+      "item": {
+        "id": "qa-lamp",
+        "roomId": "room-mwa8nnkn-c6jroho",
+        "assetId": "ois.calm-oak.floor-lamp",
+        "assetVersion": "0.1.0",
+        "assetHash": "01c4272d9b2f3ad4c0fa78a945b42da31a13fc27998042007f89bccf539b0a9a",
+        "x": 2,
+        "z": -1.1450000029802323,
+        "yaw": 0,
+        "locked": false,
+        "materialOverrides": {}
+      },
+      "leaf": {
+        "pivotX": 0,
+        "z": -0.02,
+        "yaw": 1.5707963267948966,
+        "width": 0.9
+      },
+      "error": null,
+      "commandError": null,
+      "accepted": true,
+      "hitTriangles": 0,
+      "totalTriangles": 756,
+      "hitMeshes": [],
+      "leafBounds": {
+        "min": [
+          1.9824999999254942,
+          4.768371586472142e-8,
+          -0.919999988079071
+        ],
+        "max": [
+          2.017500000074506,
+          2.099999952316284,
+          -0.020000011920928984
+        ]
+      },
+      "pass": true
+    },
+    {
+      "reverse": true,
+      "thickness": 0.15,
+      "type": "single",
+      "hinge": "right",
+      "flip": false,
+      "control": false,
+      "item": {
+        "id": "qa-lamp",
+        "roomId": "room-mwa8nnkn-uig08jn",
+        "assetId": "ois.calm-oak.floor-lamp",
+        "assetVersion": "0.1.0",
+        "assetHash": "01c4272d9b2f3ad4c0fa78a945b42da31a13fc27998042007f89bccf539b0a9a",
+        "x": 2.9,
+        "z": 1.1050000029802323,
+        "yaw": 0,
+        "locked": false,
+        "materialOverrides": {}
+      },
+      "leaf": {
+        "pivotX": 0.9,
+        "z": 0.02,
+        "yaw": 4.71238898038469,
+        "width": 0.9
+      },
+      "error": "Keep the moving door panel area clear.",
+      "commandError": "Keep the moving door panel area clear.",
+      "accepted": false,
+      "hitTriangles": 10,
+      "totalTriangles": 756,
+      "hitMeshes": [
+        {
+          "name": "linen_geometry",
+          "triangles": 10
+        }
+      ],
+      "leafBounds": {
+        "min": [
+          2.882499999925494,
+          4.768371586472142e-8,
+          0.020000011920928984
+        ],
+        "max": [
+          2.9175000000745057,
+          2.099999952316284,
+          0.919999988079071
+        ]
+      },
+      "pass": true
+    },
+    {
+      "reverse": true,
+      "thickness": 0.15,
+      "type": "single",
+      "hinge": "right",
+      "flip": false,
+      "control": true,
+      "item": {
+        "id": "qa-lamp",
+        "roomId": "room-mwa8nnko-24k3nw5",
+        "assetId": "ois.calm-oak.floor-lamp",
+        "assetVersion": "0.1.0",
+        "assetHash": "01c4272d9b2f3ad4c0fa78a945b42da31a13fc27998042007f89bccf539b0a9a",
+        "x": 2.9,
+        "z": 1.1450000029802323,
+        "yaw": 0,
+        "locked": false,
+        "materialOverrides": {}
+      },
+      "leaf": {
+        "pivotX": 0.9,
+        "z": 0.02,
+        "yaw": 4.71238898038469,
+        "width": 0.9
+      },
+      "error": null,
+      "commandError": null,
+      "accepted": true,
+      "hitTriangles": 0,
+      "totalTriangles": 756,
+      "hitMeshes": [],
+      "leafBounds": {
+        "min": [
+          2.882499999925494,
+          4.768371586472142e-8,
+          0.020000011920928984
+        ],
+        "max": [
+          2.9175000000745057,
+          2.099999952316284,
+          0.919999988079071
+        ]
+      },
+      "pass": true
+    },
+    {
+      "reverse": true,
+      "thickness": 0.15,
+      "type": "single",
+      "hinge": "right",
+      "flip": true,
+      "control": false,
+      "item": {
+        "id": "qa-lamp",
+        "roomId": "room-mwa8nnkp-ysihvp8",
+        "assetId": "ois.calm-oak.floor-lamp",
+        "assetVersion": "0.1.0",
+        "assetHash": "01c4272d9b2f3ad4c0fa78a945b42da31a13fc27998042007f89bccf539b0a9a",
+        "x": 2.9,
+        "z": -1.1050000029802323,
+        "yaw": 0,
+        "locked": false,
+        "materialOverrides": {}
+      },
+      "leaf": {
+        "pivotX": 0.9,
+        "z": -0.02,
+        "yaw": 1.5707963267948966,
+        "width": 0.9
+      },
+      "error": "Keep the moving door panel area clear.",
+      "commandError": "Keep the moving door panel area clear.",
+      "accepted": false,
+      "hitTriangles": 10,
+      "totalTriangles": 756,
+      "hitMeshes": [
+        {
+          "name": "linen_geometry",
+          "triangles": 10
+        }
+      ],
+      "leafBounds": {
+        "min": [
+          2.882499999925494,
+          4.768371586472142e-8,
+          -0.919999988079071
+        ],
+        "max": [
+          2.9175000000745057,
+          2.099999952316284,
+          -0.020000011920928984
+        ]
+      },
+      "pass": true
+    },
+    {
+      "reverse": true,
+      "thickness": 0.15,
+      "type": "single",
+      "hinge": "right",
+      "flip": true,
+      "control": true,
+      "item": {
+        "id": "qa-lamp",
+        "roomId": "room-mwa8nnkp-xi1x83c",
+        "assetId": "ois.calm-oak.floor-lamp",
+        "assetVersion": "0.1.0",
+        "assetHash": "01c4272d9b2f3ad4c0fa78a945b42da31a13fc27998042007f89bccf539b0a9a",
+        "x": 2.9,
+        "z": -1.1450000029802323,
+        "yaw": 0,
+        "locked": false,
+        "materialOverrides": {}
+      },
+      "leaf": {
+        "pivotX": 0.9,
+        "z": -0.02,
+        "yaw": 1.5707963267948966,
+        "width": 0.9
+      },
+      "error": null,
+      "commandError": null,
+      "accepted": true,
+      "hitTriangles": 0,
+      "totalTriangles": 756,
+      "hitMeshes": [],
+      "leafBounds": {
+        "min": [
+          2.882499999925494,
+          4.768371586472142e-8,
+          -0.919999988079071
+        ],
+        "max": [
+          2.9175000000745057,
+          2.099999952316284,
+          -0.020000011920928984
+        ]
+      },
+      "pass": true
+    },
+    {
+      "reverse": true,
+      "thickness": 0.15,
+      "type": "double",
+      "hinge": "left",
+      "flip": false,
+      "control": false,
+      "item": {
+        "id": "qa-lamp",
+        "roomId": "room-mwa8nnkq-im0otjq",
+        "assetId": "ois.calm-oak.floor-lamp",
+        "assetVersion": "0.1.0",
+        "assetHash": "01c4272d9b2f3ad4c0fa78a945b42da31a13fc27998042007f89bccf539b0a9a",
+        "x": 2,
+        "z": 1.0050000029802324,
+        "yaw": 0,
+        "locked": false,
+        "materialOverrides": {}
+      },
+      "leaf": {
+        "pivotX": 0,
+        "z": 0.02,
+        "yaw": -1.5707963267948966,
+        "width": 0.8
+      },
+      "error": "Keep the moving door panel area clear.",
+      "commandError": "Keep the moving door panel area clear.",
+      "accepted": false,
+      "hitTriangles": 10,
+      "totalTriangles": 756,
+      "hitMeshes": [
+        {
+          "name": "linen_geometry",
+          "triangles": 10
+        }
+      ],
+      "leafBounds": {
+        "min": [
+          1.9824999999254942,
+          4.768371586472142e-8,
+          0.019999994039535562
+        ],
+        "max": [
+          2.017500000074506,
+          2.099999952316284,
+          0.8200000059604645
+        ]
+      },
+      "pass": true
+    },
+    {
+      "reverse": true,
+      "thickness": 0.15,
+      "type": "double",
+      "hinge": "left",
+      "flip": false,
+      "control": true,
+      "item": {
+        "id": "qa-lamp",
+        "roomId": "room-mwa8nnkr-dk94jyi",
+        "assetId": "ois.calm-oak.floor-lamp",
+        "assetVersion": "0.1.0",
+        "assetHash": "01c4272d9b2f3ad4c0fa78a945b42da31a13fc27998042007f89bccf539b0a9a",
+        "x": 2,
+        "z": 1.0450000029802324,
+        "yaw": 0,
+        "locked": false,
+        "materialOverrides": {}
+      },
+      "leaf": {
+        "pivotX": 0,
+        "z": 0.02,
+        "yaw": -1.5707963267948966,
+        "width": 0.8
+      },
+      "error": null,
+      "commandError": null,
+      "accepted": true,
+      "hitTriangles": 0,
+      "totalTriangles": 756,
+      "hitMeshes": [],
+      "leafBounds": {
+        "min": [
+          1.9824999999254942,
+          4.768371586472142e-8,
+          0.019999994039535562
+        ],
+        "max": [
+          2.017500000074506,
+          2.099999952316284,
+          0.8200000059604645
+        ]
+      },
+      "pass": true
+    },
+    {
+      "reverse": true,
+      "thickness": 0.15,
+      "type": "double",
+      "hinge": "left",
+      "flip": true,
+      "control": false,
+      "item": {
+        "id": "qa-lamp",
+        "roomId": "room-mwa8nnkr-kxzav3o",
+        "assetId": "ois.calm-oak.floor-lamp",
+        "assetVersion": "0.1.0",
+        "assetHash": "01c4272d9b2f3ad4c0fa78a945b42da31a13fc27998042007f89bccf539b0a9a",
+        "x": 2,
+        "z": -1.0050000029802324,
+        "yaw": 0,
+        "locked": false,
+        "materialOverrides": {}
+      },
+      "leaf": {
+        "pivotX": 0,
+        "z": -0.02,
+        "yaw": 1.5707963267948966,
+        "width": 0.8
+      },
+      "error": "Keep the moving door panel area clear.",
+      "commandError": "Keep the moving door panel area clear.",
+      "accepted": false,
+      "hitTriangles": 10,
+      "totalTriangles": 756,
+      "hitMeshes": [
+        {
+          "name": "linen_geometry",
+          "triangles": 10
+        }
+      ],
+      "leafBounds": {
+        "min": [
+          1.9824999999254942,
+          4.768371586472142e-8,
+          -0.8200000059604645
+        ],
+        "max": [
+          2.017500000074506,
+          2.099999952316284,
+          -0.019999994039535562
+        ]
+      },
+      "pass": true
+    },
+    {
+      "reverse": true,
+      "thickness": 0.15,
+      "type": "double",
+      "hinge": "left",
+      "flip": true,
+      "control": true,
+      "item": {
+        "id": "qa-lamp",
+        "roomId": "room-mwa8nnks-dwsnz26",
+        "assetId": "ois.calm-oak.floor-lamp",
+        "assetVersion": "0.1.0",
+        "assetHash": "01c4272d9b2f3ad4c0fa78a945b42da31a13fc27998042007f89bccf539b0a9a",
+        "x": 2,
+        "z": -1.0450000029802324,
+        "yaw": 0,
+        "locked": false,
+        "materialOverrides": {}
+      },
+      "leaf": {
+        "pivotX": 0,
+        "z": -0.02,
+        "yaw": 1.5707963267948966,
+        "width": 0.8
+      },
+      "error": null,
+      "commandError": null,
+      "accepted": true,
+      "hitTriangles": 0,
+      "totalTriangles": 756,
+      "hitMeshes": [],
+      "leafBounds": {
+        "min": [
+          1.9824999999254942,
+          4.768371586472142e-8,
+          -0.8200000059604645
+        ],
+        "max": [
+          2.017500000074506,
+          2.099999952316284,
+          -0.019999994039535562
+        ]
+      },
+      "pass": true
+    },
+    {
+      "reverse": true,
+      "thickness": 0.15,
+      "type": "sliding",
+      "hinge": "left",
+      "flip": false,
+      "control": false,
+      "item": {
+        "id": "qa-lamp",
+        "roomId": "room-mwa8nnkt-w7g7fam",
+        "assetId": "ois.calm-oak.floor-lamp",
+        "assetVersion": "0.1.0",
+        "assetHash": "01c4272d9b2f3ad4c0fa78a945b42da31a13fc27998042007f89bccf539b0a9a",
+        "x": 1.55,
+        "z": 0.2950000029802322,
+        "yaw": 0,
+        "locked": false,
+        "materialOverrides": {}
+      },
+      "leaf": {
+        "pivotX": -0.9,
+        "z": 0.11,
+        "yaw": 0,
+        "width": 0.9
+      },
+      "error": "Keep the moving door panel area clear.",
+      "commandError": "Keep the moving door panel area clear.",
+      "accepted": false,
+      "hitTriangles": 65,
+      "totalTriangles": 756,
+      "hitMeshes": [
+        {
+          "name": "linen_geometry",
+          "triangles": 58
+        },
+        {
+          "name": "metal_geometry",
+          "triangles": 7
+        }
+      ],
+      "leafBounds": {
+        "min": [
+          1.100000011920929,
+          4.768371586472142e-8,
+          0.0924999999254942
+        ],
+        "max": [
+          1.999999988079071,
+          2.099999952316284,
+          0.1275000000745058
+        ]
+      },
+      "pass": true
+    },
+    {
+      "reverse": true,
+      "thickness": 0.15,
+      "type": "sliding",
+      "hinge": "left",
+      "flip": false,
+      "control": true,
+      "item": {
+        "id": "qa-lamp",
+        "roomId": "room-mwa8nnkt-m4zh0c1",
+        "assetId": "ois.calm-oak.floor-lamp",
+        "assetVersion": "0.1.0",
+        "assetHash": "01c4272d9b2f3ad4c0fa78a945b42da31a13fc27998042007f89bccf539b0a9a",
+        "x": 1.55,
+        "z": 0.34000000298023225,
+        "yaw": 0,
+        "locked": false,
+        "materialOverrides": {}
+      },
+      "leaf": {
+        "pivotX": -0.9,
+        "z": 0.11,
+        "yaw": 0,
+        "width": 0.9
+      },
+      "error": null,
+      "commandError": null,
+      "accepted": true,
+      "hitTriangles": 0,
+      "totalTriangles": 756,
+      "hitMeshes": [],
+      "leafBounds": {
+        "min": [
+          1.100000011920929,
+          4.768371586472142e-8,
+          0.0924999999254942
+        ],
+        "max": [
+          1.999999988079071,
+          2.099999952316284,
+          0.1275000000745058
+        ]
+      },
+      "pass": true
+    },
+    {
+      "reverse": true,
+      "thickness": 0.15,
+      "type": "sliding",
+      "hinge": "left",
+      "flip": true,
+      "control": false,
+      "item": {
+        "id": "qa-lamp",
+        "roomId": "room-mwa8nnku-ru11hbm",
+        "assetId": "ois.calm-oak.floor-lamp",
+        "assetVersion": "0.1.0",
+        "assetHash": "01c4272d9b2f3ad4c0fa78a945b42da31a13fc27998042007f89bccf539b0a9a",
+        "x": 1.55,
+        "z": -0.2950000029802322,
+        "yaw": 0,
+        "locked": false,
+        "materialOverrides": {}
+      },
+      "leaf": {
+        "pivotX": -0.9,
+        "z": -0.11,
+        "yaw": 0,
+        "width": 0.9
+      },
+      "error": "Keep the moving door panel area clear.",
+      "commandError": "Keep the moving door panel area clear.",
+      "accepted": false,
+      "hitTriangles": 65,
+      "totalTriangles": 756,
+      "hitMeshes": [
+        {
+          "name": "linen_geometry",
+          "triangles": 58
+        },
+        {
+          "name": "metal_geometry",
+          "triangles": 7
+        }
+      ],
+      "leafBounds": {
+        "min": [
+          1.100000011920929,
+          4.768371586472142e-8,
+          -0.1275000000745058
+        ],
+        "max": [
+          1.999999988079071,
+          2.099999952316284,
+          -0.0924999999254942
+        ]
+      },
+      "pass": true
+    },
+    {
+      "reverse": true,
+      "thickness": 0.15,
+      "type": "sliding",
+      "hinge": "left",
+      "flip": true,
+      "control": true,
+      "item": {
+        "id": "qa-lamp",
+        "roomId": "room-mwa8nnkv-qrwpyxw",
+        "assetId": "ois.calm-oak.floor-lamp",
+        "assetVersion": "0.1.0",
+        "assetHash": "01c4272d9b2f3ad4c0fa78a945b42da31a13fc27998042007f89bccf539b0a9a",
+        "x": 1.55,
+        "z": -0.34000000298023225,
+        "yaw": 0,
+        "locked": false,
+        "materialOverrides": {}
+      },
+      "leaf": {
+        "pivotX": -0.9,
+        "z": -0.11,
+        "yaw": 0,
+        "width": 0.9
+      },
+      "error": null,
+      "commandError": null,
+      "accepted": true,
+      "hitTriangles": 0,
+      "totalTriangles": 756,
+      "hitMeshes": [],
+      "leafBounds": {
+        "min": [
+          1.100000011920929,
+          4.768371586472142e-8,
+          -0.1275000000745058
+        ],
+        "max": [
+          1.999999988079071,
+          2.099999952316284,
+          -0.0924999999254942
+        ]
+      },
+      "pass": true
+    },
+    {
+      "reverse": true,
+      "thickness": 0.15,
+      "type": "sliding",
+      "hinge": "right",
+      "flip": false,
+      "control": false,
+      "item": {
+        "id": "qa-lamp",
+        "roomId": "room-mwa8nnkv-e7hp4qm",
+        "assetId": "ois.calm-oak.floor-lamp",
+        "assetVersion": "0.1.0",
+        "assetHash": "01c4272d9b2f3ad4c0fa78a945b42da31a13fc27998042007f89bccf539b0a9a",
+        "x": 3.35,
+        "z": 0.2950000029802322,
+        "yaw": 0,
+        "locked": false,
+        "materialOverrides": {}
+      },
+      "leaf": {
+        "pivotX": 0.9,
+        "z": 0.11,
+        "yaw": 0,
+        "width": 0.9
+      },
+      "error": "Keep the moving door panel area clear.",
+      "commandError": "Keep the moving door panel area clear.",
+      "accepted": false,
+      "hitTriangles": 65,
+      "totalTriangles": 756,
+      "hitMeshes": [
+        {
+          "name": "linen_geometry",
+          "triangles": 58
+        },
+        {
+          "name": "metal_geometry",
+          "triangles": 7
+        }
+      ],
+      "leafBounds": {
+        "min": [
+          2.900000011920929,
+          4.768371586472142e-8,
+          0.0924999999254942
+        ],
+        "max": [
+          3.799999988079071,
+          2.099999952316284,
+          0.1275000000745058
+        ]
+      },
+      "pass": true
+    },
+    {
+      "reverse": true,
+      "thickness": 0.15,
+      "type": "sliding",
+      "hinge": "right",
+      "flip": false,
+      "control": true,
+      "item": {
+        "id": "qa-lamp",
+        "roomId": "room-mwa8nnkw-cqzvtf5",
+        "assetId": "ois.calm-oak.floor-lamp",
+        "assetVersion": "0.1.0",
+        "assetHash": "01c4272d9b2f3ad4c0fa78a945b42da31a13fc27998042007f89bccf539b0a9a",
+        "x": 3.35,
+        "z": 0.34000000298023225,
+        "yaw": 0,
+        "locked": false,
+        "materialOverrides": {}
+      },
+      "leaf": {
+        "pivotX": 0.9,
+        "z": 0.11,
+        "yaw": 0,
+        "width": 0.9
+      },
+      "error": null,
+      "commandError": null,
+      "accepted": true,
+      "hitTriangles": 0,
+      "totalTriangles": 756,
+      "hitMeshes": [],
+      "leafBounds": {
+        "min": [
+          2.900000011920929,
+          4.768371586472142e-8,
+          0.0924999999254942
+        ],
+        "max": [
+          3.799999988079071,
+          2.099999952316284,
+          0.1275000000745058
+        ]
+      },
+      "pass": true
+    },
+    {
+      "reverse": true,
+      "thickness": 0.15,
+      "type": "sliding",
+      "hinge": "right",
+      "flip": true,
+      "control": false,
+      "item": {
+        "id": "qa-lamp",
+        "roomId": "room-mwa8nnkw-d3zq8jc",
+        "assetId": "ois.calm-oak.floor-lamp",
+        "assetVersion": "0.1.0",
+        "assetHash": "01c4272d9b2f3ad4c0fa78a945b42da31a13fc27998042007f89bccf539b0a9a",
+        "x": 3.35,
+        "z": -0.2950000029802322,
+        "yaw": 0,
+        "locked": false,
+        "materialOverrides": {}
+      },
+      "leaf": {
+        "pivotX": 0.9,
+        "z": -0.11,
+        "yaw": 0,
+        "width": 0.9
+      },
+      "error": "Keep the moving door panel area clear.",
+      "commandError": "Keep the moving door panel area clear.",
+      "accepted": false,
+      "hitTriangles": 65,
+      "totalTriangles": 756,
+      "hitMeshes": [
+        {
+          "name": "linen_geometry",
+          "triangles": 58
+        },
+        {
+          "name": "metal_geometry",
+          "triangles": 7
+        }
+      ],
+      "leafBounds": {
+        "min": [
+          2.900000011920929,
+          4.768371586472142e-8,
+          -0.1275000000745058
+        ],
+        "max": [
+          3.799999988079071,
+          2.099999952316284,
+          -0.0924999999254942
+        ]
+      },
+      "pass": true
+    },
+    {
+      "reverse": true,
+      "thickness": 0.15,
+      "type": "sliding",
+      "hinge": "right",
+      "flip": true,
+      "control": true,
+      "item": {
+        "id": "qa-lamp",
+        "roomId": "room-mwa8nnkx-jda1b58",
+        "assetId": "ois.calm-oak.floor-lamp",
+        "assetVersion": "0.1.0",
+        "assetHash": "01c4272d9b2f3ad4c0fa78a945b42da31a13fc27998042007f89bccf539b0a9a",
+        "x": 3.35,
+        "z": -0.34000000298023225,
+        "yaw": 0,
+        "locked": false,
+        "materialOverrides": {}
+      },
+      "leaf": {
+        "pivotX": 0.9,
+        "z": -0.11,
+        "yaw": 0,
+        "width": 0.9
+      },
+      "error": null,
+      "commandError": null,
+      "accepted": true,
+      "hitTriangles": 0,
+      "totalTriangles": 756,
+      "hitMeshes": [],
+      "leafBounds": {
+        "min": [
+          2.900000011920929,
+          4.768371586472142e-8,
+          -0.1275000000745058
+        ],
+        "max": [
+          3.799999988079071,
+          2.099999952316284,
+          -0.0924999999254942
+        ]
+      },
+      "pass": true
+    },
+    {
+      "reverse": true,
+      "thickness": 0.3,
+      "type": "single",
+      "hinge": "left",
+      "flip": false,
+      "control": false,
+      "item": {
+        "id": "qa-lamp",
+        "roomId": "room-mwa8nnky-pnyqp9u",
+        "assetId": "ois.calm-oak.floor-lamp",
+        "assetVersion": "0.1.0",
+        "assetHash": "01c4272d9b2f3ad4c0fa78a945b42da31a13fc27998042007f89bccf539b0a9a",
+        "x": 2,
+        "z": 1.1050000029802323,
+        "yaw": 0,
+        "locked": false,
+        "materialOverrides": {}
+      },
+      "leaf": {
+        "pivotX": 0,
+        "z": 0.02,
+        "yaw": -1.5707963267948966,
+        "width": 0.9
+      },
+      "error": "Keep the moving door panel area clear.",
+      "commandError": "Keep the moving door panel area clear.",
+      "accepted": false,
+      "hitTriangles": 10,
+      "totalTriangles": 756,
+      "hitMeshes": [
+        {
+          "name": "linen_geometry",
+          "triangles": 10
+        }
+      ],
+      "leafBounds": {
+        "min": [
+          1.9824999999254942,
+          4.768371586472142e-8,
+          0.020000011920928984
+        ],
+        "max": [
+          2.017500000074506,
+          2.099999952316284,
+          0.919999988079071
+        ]
+      },
+      "pass": true
+    },
+    {
+      "reverse": true,
+      "thickness": 0.3,
+      "type": "single",
+      "hinge": "left",
+      "flip": false,
+      "control": true,
+      "item": {
+        "id": "qa-lamp",
+        "roomId": "room-mwa8nnky-qasuy0m",
+        "assetId": "ois.calm-oak.floor-lamp",
+        "assetVersion": "0.1.0",
+        "assetHash": "01c4272d9b2f3ad4c0fa78a945b42da31a13fc27998042007f89bccf539b0a9a",
+        "x": 2,
+        "z": 1.1450000029802323,
+        "yaw": 0,
+        "locked": false,
+        "materialOverrides": {}
+      },
+      "leaf": {
+        "pivotX": 0,
+        "z": 0.02,
+        "yaw": -1.5707963267948966,
+        "width": 0.9
+      },
+      "error": null,
+      "commandError": null,
+      "accepted": true,
+      "hitTriangles": 0,
+      "totalTriangles": 756,
+      "hitMeshes": [],
+      "leafBounds": {
+        "min": [
+          1.9824999999254942,
+          4.768371586472142e-8,
+          0.020000011920928984
+        ],
+        "max": [
+          2.017500000074506,
+          2.099999952316284,
+          0.919999988079071
+        ]
+      },
+      "pass": true
+    },
+    {
+      "reverse": true,
+      "thickness": 0.3,
+      "type": "single",
+      "hinge": "left",
+      "flip": true,
+      "control": false,
+      "item": {
+        "id": "qa-lamp",
+        "roomId": "room-mwa8nnkz-z5xe2tt",
+        "assetId": "ois.calm-oak.floor-lamp",
+        "assetVersion": "0.1.0",
+        "assetHash": "01c4272d9b2f3ad4c0fa78a945b42da31a13fc27998042007f89bccf539b0a9a",
+        "x": 2,
+        "z": -1.1050000029802323,
+        "yaw": 0,
+        "locked": false,
+        "materialOverrides": {}
+      },
+      "leaf": {
+        "pivotX": 0,
+        "z": -0.02,
+        "yaw": 1.5707963267948966,
+        "width": 0.9
+      },
+      "error": "Keep the moving door panel area clear.",
+      "commandError": "Keep the moving door panel area clear.",
+      "accepted": false,
+      "hitTriangles": 10,
+      "totalTriangles": 756,
+      "hitMeshes": [
+        {
+          "name": "linen_geometry",
+          "triangles": 10
+        }
+      ],
+      "leafBounds": {
+        "min": [
+          1.9824999999254942,
+          4.768371586472142e-8,
+          -0.919999988079071
+        ],
+        "max": [
+          2.017500000074506,
+          2.099999952316284,
+          -0.020000011920928984
+        ]
+      },
+      "pass": true
+    },
+    {
+      "reverse": true,
+      "thickness": 0.3,
+      "type": "single",
+      "hinge": "left",
+      "flip": true,
+      "control": true,
+      "item": {
+        "id": "qa-lamp",
+        "roomId": "room-mwa8nnl0-xb9elzp",
+        "assetId": "ois.calm-oak.floor-lamp",
+        "assetVersion": "0.1.0",
+        "assetHash": "01c4272d9b2f3ad4c0fa78a945b42da31a13fc27998042007f89bccf539b0a9a",
+        "x": 2,
+        "z": -1.1450000029802323,
+        "yaw": 0,
+        "locked": false,
+        "materialOverrides": {}
+      },
+      "leaf": {
+        "pivotX": 0,
+        "z": -0.02,
+        "yaw": 1.5707963267948966,
+        "width": 0.9
+      },
+      "error": null,
+      "commandError": null,
+      "accepted": true,
+      "hitTriangles": 0,
+      "totalTriangles": 756,
+      "hitMeshes": [],
+      "leafBounds": {
+        "min": [
+          1.9824999999254942,
+          4.768371586472142e-8,
+          -0.919999988079071
+        ],
+        "max": [
+          2.017500000074506,
+          2.099999952316284,
+          -0.020000011920928984
+        ]
+      },
+      "pass": true
+    },
+    {
+      "reverse": true,
+      "thickness": 0.3,
+      "type": "single",
+      "hinge": "right",
+      "flip": false,
+      "control": false,
+      "item": {
+        "id": "qa-lamp",
+        "roomId": "room-mwa8nnl1-7ymtmor",
+        "assetId": "ois.calm-oak.floor-lamp",
+        "assetVersion": "0.1.0",
+        "assetHash": "01c4272d9b2f3ad4c0fa78a945b42da31a13fc27998042007f89bccf539b0a9a",
+        "x": 2.9,
+        "z": 1.1050000029802323,
+        "yaw": 0,
+        "locked": false,
+        "materialOverrides": {}
+      },
+      "leaf": {
+        "pivotX": 0.9,
+        "z": 0.02,
+        "yaw": 4.71238898038469,
+        "width": 0.9
+      },
+      "error": "Keep the moving door panel area clear.",
+      "commandError": "Keep the moving door panel area clear.",
+      "accepted": false,
+      "hitTriangles": 10,
+      "totalTriangles": 756,
+      "hitMeshes": [
+        {
+          "name": "linen_geometry",
+          "triangles": 10
+        }
+      ],
+      "leafBounds": {
+        "min": [
+          2.882499999925494,
+          4.768371586472142e-8,
+          0.020000011920928984
+        ],
+        "max": [
+          2.9175000000745057,
+          2.099999952316284,
+          0.919999988079071
+        ]
+      },
+      "pass": true
+    },
+    {
+      "reverse": true,
+      "thickness": 0.3,
+      "type": "single",
+      "hinge": "right",
+      "flip": false,
+      "control": true,
+      "item": {
+        "id": "qa-lamp",
+        "roomId": "room-mwa8nnl1-ys3u5yp",
+        "assetId": "ois.calm-oak.floor-lamp",
+        "assetVersion": "0.1.0",
+        "assetHash": "01c4272d9b2f3ad4c0fa78a945b42da31a13fc27998042007f89bccf539b0a9a",
+        "x": 2.9,
+        "z": 1.1450000029802323,
+        "yaw": 0,
+        "locked": false,
+        "materialOverrides": {}
+      },
+      "leaf": {
+        "pivotX": 0.9,
+        "z": 0.02,
+        "yaw": 4.71238898038469,
+        "width": 0.9
+      },
+      "error": null,
+      "commandError": null,
+      "accepted": true,
+      "hitTriangles": 0,
+      "totalTriangles": 756,
+      "hitMeshes": [],
+      "leafBounds": {
+        "min": [
+          2.882499999925494,
+          4.768371586472142e-8,
+          0.020000011920928984
+        ],
+        "max": [
+          2.9175000000745057,
+          2.099999952316284,
+          0.919999988079071
+        ]
+      },
+      "pass": true
+    },
+    {
+      "reverse": true,
+      "thickness": 0.3,
+      "type": "single",
+      "hinge": "right",
+      "flip": true,
+      "control": false,
+      "item": {
+        "id": "qa-lamp",
+        "roomId": "room-mwa8nnl2-27x8phs",
+        "assetId": "ois.calm-oak.floor-lamp",
+        "assetVersion": "0.1.0",
+        "assetHash": "01c4272d9b2f3ad4c0fa78a945b42da31a13fc27998042007f89bccf539b0a9a",
+        "x": 2.9,
+        "z": -1.1050000029802323,
+        "yaw": 0,
+        "locked": false,
+        "materialOverrides": {}
+      },
+      "leaf": {
+        "pivotX": 0.9,
+        "z": -0.02,
+        "yaw": 1.5707963267948966,
+        "width": 0.9
+      },
+      "error": "Keep the moving door panel area clear.",
+      "commandError": "Keep the moving door panel area clear.",
+      "accepted": false,
+      "hitTriangles": 10,
+      "totalTriangles": 756,
+      "hitMeshes": [
+        {
+          "name": "linen_geometry",
+          "triangles": 10
+        }
+      ],
+      "leafBounds": {
+        "min": [
+          2.882499999925494,
+          4.768371586472142e-8,
+          -0.919999988079071
+        ],
+        "max": [
+          2.9175000000745057,
+          2.099999952316284,
+          -0.020000011920928984
+        ]
+      },
+      "pass": true
+    },
+    {
+      "reverse": true,
+      "thickness": 0.3,
+      "type": "single",
+      "hinge": "right",
+      "flip": true,
+      "control": true,
+      "item": {
+        "id": "qa-lamp",
+        "roomId": "room-mwa8nnl3-bnxjnsa",
+        "assetId": "ois.calm-oak.floor-lamp",
+        "assetVersion": "0.1.0",
+        "assetHash": "01c4272d9b2f3ad4c0fa78a945b42da31a13fc27998042007f89bccf539b0a9a",
+        "x": 2.9,
+        "z": -1.1450000029802323,
+        "yaw": 0,
+        "locked": false,
+        "materialOverrides": {}
+      },
+      "leaf": {
+        "pivotX": 0.9,
+        "z": -0.02,
+        "yaw": 1.5707963267948966,
+        "width": 0.9
+      },
+      "error": null,
+      "commandError": null,
+      "accepted": true,
+      "hitTriangles": 0,
+      "totalTriangles": 756,
+      "hitMeshes": [],
+      "leafBounds": {
+        "min": [
+          2.882499999925494,
+          4.768371586472142e-8,
+          -0.919999988079071
+        ],
+        "max": [
+          2.9175000000745057,
+          2.099999952316284,
+          -0.020000011920928984
+        ]
+      },
+      "pass": true
+    },
+    {
+      "reverse": true,
+      "thickness": 0.3,
+      "type": "double",
+      "hinge": "left",
+      "flip": false,
+      "control": false,
+      "item": {
+        "id": "qa-lamp",
+        "roomId": "room-mwa8nnl4-6jduo4j",
+        "assetId": "ois.calm-oak.floor-lamp",
+        "assetVersion": "0.1.0",
+        "assetHash": "01c4272d9b2f3ad4c0fa78a945b42da31a13fc27998042007f89bccf539b0a9a",
+        "x": 2,
+        "z": 1.0050000029802324,
+        "yaw": 0,
+        "locked": false,
+        "materialOverrides": {}
+      },
+      "leaf": {
+        "pivotX": 0,
+        "z": 0.02,
+        "yaw": -1.5707963267948966,
+        "width": 0.8
+      },
+      "error": "Keep the moving door panel area clear.",
+      "commandError": "Keep the moving door panel area clear.",
+      "accepted": false,
+      "hitTriangles": 10,
+      "totalTriangles": 756,
+      "hitMeshes": [
+        {
+          "name": "linen_geometry",
+          "triangles": 10
+        }
+      ],
+      "leafBounds": {
+        "min": [
+          1.9824999999254942,
+          4.768371586472142e-8,
+          0.019999994039535562
+        ],
+        "max": [
+          2.017500000074506,
+          2.099999952316284,
+          0.8200000059604645
+        ]
+      },
+      "pass": true
+    },
+    {
+      "reverse": true,
+      "thickness": 0.3,
+      "type": "double",
+      "hinge": "left",
+      "flip": false,
+      "control": true,
+      "item": {
+        "id": "qa-lamp",
+        "roomId": "room-mwa8nnl5-lgcxwmo",
+        "assetId": "ois.calm-oak.floor-lamp",
+        "assetVersion": "0.1.0",
+        "assetHash": "01c4272d9b2f3ad4c0fa78a945b42da31a13fc27998042007f89bccf539b0a9a",
+        "x": 2,
+        "z": 1.0450000029802324,
+        "yaw": 0,
+        "locked": false,
+        "materialOverrides": {}
+      },
+      "leaf": {
+        "pivotX": 0,
+        "z": 0.02,
+        "yaw": -1.5707963267948966,
+        "width": 0.8
+      },
+      "error": null,
+      "commandError": null,
+      "accepted": true,
+      "hitTriangles": 0,
+      "totalTriangles": 756,
+      "hitMeshes": [],
+      "leafBounds": {
+        "min": [
+          1.9824999999254942,
+          4.768371586472142e-8,
+          0.019999994039535562
+        ],
+        "max": [
+          2.017500000074506,
+          2.099999952316284,
+          0.8200000059604645
+        ]
+      },
+      "pass": true
+    },
+    {
+      "reverse": true,
+      "thickness": 0.3,
+      "type": "double",
+      "hinge": "left",
+      "flip": true,
+      "control": false,
+      "item": {
+        "id": "qa-lamp",
+        "roomId": "room-mwa8nnl5-uppad9y",
+        "assetId": "ois.calm-oak.floor-lamp",
+        "assetVersion": "0.1.0",
+        "assetHash": "01c4272d9b2f3ad4c0fa78a945b42da31a13fc27998042007f89bccf539b0a9a",
+        "x": 2,
+        "z": -1.0050000029802324,
+        "yaw": 0,
+        "locked": false,
+        "materialOverrides": {}
+      },
+      "leaf": {
+        "pivotX": 0,
+        "z": -0.02,
+        "yaw": 1.5707963267948966,
+        "width": 0.8
+      },
+      "error": "Keep the moving door panel area clear.",
+      "commandError": "Keep the moving door panel area clear.",
+      "accepted": false,
+      "hitTriangles": 10,
+      "totalTriangles": 756,
+      "hitMeshes": [
+        {
+          "name": "linen_geometry",
+          "triangles": 10
+        }
+      ],
+      "leafBounds": {
+        "min": [
+          1.9824999999254942,
+          4.768371586472142e-8,
+          -0.8200000059604645
+        ],
+        "max": [
+          2.017500000074506,
+          2.099999952316284,
+          -0.019999994039535562
+        ]
+      },
+      "pass": true
+    },
+    {
+      "reverse": true,
+      "thickness": 0.3,
+      "type": "double",
+      "hinge": "left",
+      "flip": true,
+      "control": true,
+      "item": {
+        "id": "qa-lamp",
+        "roomId": "room-mwa8nnl6-lwg8t33",
+        "assetId": "ois.calm-oak.floor-lamp",
+        "assetVersion": "0.1.0",
+        "assetHash": "01c4272d9b2f3ad4c0fa78a945b42da31a13fc27998042007f89bccf539b0a9a",
+        "x": 2,
+        "z": -1.0450000029802324,
+        "yaw": 0,
+        "locked": false,
+        "materialOverrides": {}
+      },
+      "leaf": {
+        "pivotX": 0,
+        "z": -0.02,
+        "yaw": 1.5707963267948966,
+        "width": 0.8
+      },
+      "error": null,
+      "commandError": null,
+      "accepted": true,
+      "hitTriangles": 0,
+      "totalTriangles": 756,
+      "hitMeshes": [],
+      "leafBounds": {
+        "min": [
+          1.9824999999254942,
+          4.768371586472142e-8,
+          -0.8200000059604645
+        ],
+        "max": [
+          2.017500000074506,
+          2.099999952316284,
+          -0.019999994039535562
+        ]
+      },
+      "pass": true
+    },
+    {
+      "reverse": true,
+      "thickness": 0.3,
+      "type": "sliding",
+      "hinge": "left",
+      "flip": false,
+      "control": false,
+      "item": {
+        "id": "qa-lamp",
+        "roomId": "room-mwa8nnl7-gmh6mt5",
+        "assetId": "ois.calm-oak.floor-lamp",
+        "assetVersion": "0.1.0",
+        "assetHash": "01c4272d9b2f3ad4c0fa78a945b42da31a13fc27998042007f89bccf539b0a9a",
+        "x": 1.55,
+        "z": 0.3700000029802322,
+        "yaw": 0,
+        "locked": false,
+        "materialOverrides": {}
+      },
+      "leaf": {
+        "pivotX": -0.9,
+        "z": 0.185,
+        "yaw": 0,
+        "width": 0.9
+      },
+      "error": "Keep the moving door panel area clear.",
+      "commandError": "Keep the moving door panel area clear.",
+      "accepted": false,
+      "hitTriangles": 65,
+      "totalTriangles": 756,
+      "hitMeshes": [
+        {
+          "name": "linen_geometry",
+          "triangles": 58
+        },
+        {
+          "name": "metal_geometry",
+          "triangles": 7
+        }
+      ],
+      "leafBounds": {
+        "min": [
+          1.100000011920929,
+          4.768371586472142e-8,
+          0.1674999999254942
+        ],
+        "max": [
+          1.999999988079071,
+          2.099999952316284,
+          0.2025000000745058
+        ]
+      },
+      "pass": true
+    },
+    {
+      "reverse": true,
+      "thickness": 0.3,
+      "type": "sliding",
+      "hinge": "left",
+      "flip": false,
+      "control": true,
+      "item": {
+        "id": "qa-lamp",
+        "roomId": "room-mwa8nnl8-ud9gie7",
+        "assetId": "ois.calm-oak.floor-lamp",
+        "assetVersion": "0.1.0",
+        "assetHash": "01c4272d9b2f3ad4c0fa78a945b42da31a13fc27998042007f89bccf539b0a9a",
+        "x": 1.55,
+        "z": 0.4150000029802322,
+        "yaw": 0,
+        "locked": false,
+        "materialOverrides": {}
+      },
+      "leaf": {
+        "pivotX": -0.9,
+        "z": 0.185,
+        "yaw": 0,
+        "width": 0.9
+      },
+      "error": null,
+      "commandError": null,
+      "accepted": true,
+      "hitTriangles": 0,
+      "totalTriangles": 756,
+      "hitMeshes": [],
+      "leafBounds": {
+        "min": [
+          1.100000011920929,
+          4.768371586472142e-8,
+          0.1674999999254942
+        ],
+        "max": [
+          1.999999988079071,
+          2.099999952316284,
+          0.2025000000745058
+        ]
+      },
+      "pass": true
+    },
+    {
+      "reverse": true,
+      "thickness": 0.3,
+      "type": "sliding",
+      "hinge": "left",
+      "flip": true,
+      "control": false,
+      "item": {
+        "id": "qa-lamp",
+        "roomId": "room-mwa8nnl8-wdplyx9",
+        "assetId": "ois.calm-oak.floor-lamp",
+        "assetVersion": "0.1.0",
+        "assetHash": "01c4272d9b2f3ad4c0fa78a945b42da31a13fc27998042007f89bccf539b0a9a",
+        "x": 1.55,
+        "z": -0.3700000029802322,
+        "yaw": 0,
+        "locked": false,
+        "materialOverrides": {}
+      },
+      "leaf": {
+        "pivotX": -0.9,
+        "z": -0.185,
+        "yaw": 0,
+        "width": 0.9
+      },
+      "error": "Keep the moving door panel area clear.",
+      "commandError": "Keep the moving door panel area clear.",
+      "accepted": false,
+      "hitTriangles": 65,
+      "totalTriangles": 756,
+      "hitMeshes": [
+        {
+          "name": "linen_geometry",
+          "triangles": 58
+        },
+        {
+          "name": "metal_geometry",
+          "triangles": 7
+        }
+      ],
+      "leafBounds": {
+        "min": [
+          1.100000011920929,
+          4.768371586472142e-8,
+          -0.2025000000745058
+        ],
+        "max": [
+          1.999999988079071,
+          2.099999952316284,
+          -0.1674999999254942
+        ]
+      },
+      "pass": true
+    },
+    {
+      "reverse": true,
+      "thickness": 0.3,
+      "type": "sliding",
+      "hinge": "left",
+      "flip": true,
+      "control": true,
+      "item": {
+        "id": "qa-lamp",
+        "roomId": "room-mwa8nnl9-lqkz05t",
+        "assetId": "ois.calm-oak.floor-lamp",
+        "assetVersion": "0.1.0",
+        "assetHash": "01c4272d9b2f3ad4c0fa78a945b42da31a13fc27998042007f89bccf539b0a9a",
+        "x": 1.55,
+        "z": -0.4150000029802322,
+        "yaw": 0,
+        "locked": false,
+        "materialOverrides": {}
+      },
+      "leaf": {
+        "pivotX": -0.9,
+        "z": -0.185,
+        "yaw": 0,
+        "width": 0.9
+      },
+      "error": null,
+      "commandError": null,
+      "accepted": true,
+      "hitTriangles": 0,
+      "totalTriangles": 756,
+      "hitMeshes": [],
+      "leafBounds": {
+        "min": [
+          1.100000011920929,
+          4.768371586472142e-8,
+          -0.2025000000745058
+        ],
+        "max": [
+          1.999999988079071,
+          2.099999952316284,
+          -0.1674999999254942
+        ]
+      },
+      "pass": true
+    },
+    {
+      "reverse": true,
+      "thickness": 0.3,
+      "type": "sliding",
+      "hinge": "right",
+      "flip": false,
+      "control": false,
+      "item": {
+        "id": "qa-lamp",
+        "roomId": "room-mwa8nnla-92tv3ku",
+        "assetId": "ois.calm-oak.floor-lamp",
+        "assetVersion": "0.1.0",
+        "assetHash": "01c4272d9b2f3ad4c0fa78a945b42da31a13fc27998042007f89bccf539b0a9a",
+        "x": 3.35,
+        "z": 0.3700000029802322,
+        "yaw": 0,
+        "locked": false,
+        "materialOverrides": {}
+      },
+      "leaf": {
+        "pivotX": 0.9,
+        "z": 0.185,
+        "yaw": 0,
+        "width": 0.9
+      },
+      "error": "Keep the moving door panel area clear.",
+      "commandError": "Keep the moving door panel area clear.",
+      "accepted": false,
+      "hitTriangles": 65,
+      "totalTriangles": 756,
+      "hitMeshes": [
+        {
+          "name": "linen_geometry",
+          "triangles": 58
+        },
+        {
+          "name": "metal_geometry",
+          "triangles": 7
+        }
+      ],
+      "leafBounds": {
+        "min": [
+          2.900000011920929,
+          4.768371586472142e-8,
+          0.1674999999254942
+        ],
+        "max": [
+          3.799999988079071,
+          2.099999952316284,
+          0.2025000000745058
+        ]
+      },
+      "pass": true
+    },
+    {
+      "reverse": true,
+      "thickness": 0.3,
+      "type": "sliding",
+      "hinge": "right",
+      "flip": false,
+      "control": true,
+      "item": {
+        "id": "qa-lamp",
+        "roomId": "room-mwa8nnlc-nurl0rz",
+        "assetId": "ois.calm-oak.floor-lamp",
+        "assetVersion": "0.1.0",
+        "assetHash": "01c4272d9b2f3ad4c0fa78a945b42da31a13fc27998042007f89bccf539b0a9a",
+        "x": 3.35,
+        "z": 0.4150000029802322,
+        "yaw": 0,
+        "locked": false,
+        "materialOverrides": {}
+      },
+      "leaf": {
+        "pivotX": 0.9,
+        "z": 0.185,
+        "yaw": 0,
+        "width": 0.9
+      },
+      "error": null,
+      "commandError": null,
+      "accepted": true,
+      "hitTriangles": 0,
+      "totalTriangles": 756,
+      "hitMeshes": [],
+      "leafBounds": {
+        "min": [
+          2.900000011920929,
+          4.768371586472142e-8,
+          0.1674999999254942
+        ],
+        "max": [
+          3.799999988079071,
+          2.099999952316284,
+          0.2025000000745058
+        ]
+      },
+      "pass": true
+    },
+    {
+      "reverse": true,
+      "thickness": 0.3,
+      "type": "sliding",
+      "hinge": "right",
+      "flip": true,
+      "control": false,
+      "item": {
+        "id": "qa-lamp",
+        "roomId": "room-mwa8nnld-2yomdnp",
+        "assetId": "ois.calm-oak.floor-lamp",
+        "assetVersion": "0.1.0",
+        "assetHash": "01c4272d9b2f3ad4c0fa78a945b42da31a13fc27998042007f89bccf539b0a9a",
+        "x": 3.35,
+        "z": -0.3700000029802322,
+        "yaw": 0,
+        "locked": false,
+        "materialOverrides": {}
+      },
+      "leaf": {
+        "pivotX": 0.9,
+        "z": -0.185,
+        "yaw": 0,
+        "width": 0.9
+      },
+      "error": "Keep the moving door panel area clear.",
+      "commandError": "Keep the moving door panel area clear.",
+      "accepted": false,
+      "hitTriangles": 65,
+      "totalTriangles": 756,
+      "hitMeshes": [
+        {
+          "name": "linen_geometry",
+          "triangles": 58
+        },
+        {
+          "name": "metal_geometry",
+          "triangles": 7
+        }
+      ],
+      "leafBounds": {
+        "min": [
+          2.900000011920929,
+          4.768371586472142e-8,
+          -0.2025000000745058
+        ],
+        "max": [
+          3.799999988079071,
+          2.099999952316284,
+          -0.1674999999254942
+        ]
+      },
+      "pass": true
+    },
+    {
+      "reverse": true,
+      "thickness": 0.3,
+      "type": "sliding",
+      "hinge": "right",
+      "flip": true,
+      "control": true,
+      "item": {
+        "id": "qa-lamp",
+        "roomId": "room-mwa8nnle-q30y444",
+        "assetId": "ois.calm-oak.floor-lamp",
+        "assetVersion": "0.1.0",
+        "assetHash": "01c4272d9b2f3ad4c0fa78a945b42da31a13fc27998042007f89bccf539b0a9a",
+        "x": 3.35,
+        "z": -0.4150000029802322,
+        "yaw": 0,
+        "locked": false,
+        "materialOverrides": {}
+      },
+      "leaf": {
+        "pivotX": 0.9,
+        "z": -0.185,
+        "yaw": 0,
+        "width": 0.9
+      },
+      "error": null,
+      "commandError": null,
+      "accepted": true,
+      "hitTriangles": 0,
+      "totalTriangles": 756,
+      "hitMeshes": [],
+      "leafBounds": {
+        "min": [
+          2.900000011920929,
+          4.768371586472142e-8,
+          -0.2025000000745058
+        ],
+        "max": [
+          3.799999988079071,
+          2.099999952316284,
+          -0.1674999999254942
+        ]
+      },
+      "pass": true
+    }
+  ],
+  "productionExpressions": {
+    "position": "[leaf.width / 2, h / 2, 0]",
+    "size": "[leaf.width, h, 0.035]"
+  },
+  "asset": {
+    "id": "ois.calm-oak.floor-lamp",
+    "sha256": "01c4272d9b2f3ad4c0fa78a945b42da31a13fc27998042007f89bccf539b0a9a"
+  },
+  "after": {
+    "src/domain/geometry.ts": "0b029dd1ee4d1070fc8dfaffd96b5baded62ce8d1ec4d5556fd5c27fdcf57364",
+    "src/domain/project.ts": "dbc3f9e67401b49a8a21b9d5035a32bc7240a351cc56cdc62bfc0c26aa4bd783",
+    "src/scene/RoomScene.tsx": "3af9cb461ed8b5f8960cbc4d130dbb933d43c8d9ec5f6a677215d35bb1b4b532",
+    "src/scene/openingPose.ts": "ac56ac28b90240f683d3a5fda71673bb1f98416bbaf4f1d0df72825f7cbcbaf8"
+  },
+  "stableSource": true,
+  "passed": 120,
+  "failed": 0
+}

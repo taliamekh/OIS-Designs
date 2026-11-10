@@ -1,0 +1,1036 @@
+{
+  "at": "2026-11-10T05:42:01.276Z",
+  "phaseScope": "Original Phase2 validation and bounded Phase3;physicalPhase1 acceptance remains open.",
+  "notOverallSignoff": true,
+  "minimumContinuedWorkGate": "2026-11-10T06:53:00Z",
+  "sourceHash": "ca34f677aefe7e0ac7e48cbb165f53c718aa6b0ffbfaf0b728f884cabda572b3",
+  "compiledSources": 59,
+  "sourceMapPass": true,
+  "fixtureSHA256": "f0f385f2e274f820c1d21fb8cce209c807852eb46461fd7af95cd2a2dcc1d2d5",
+  "fixtureBytes": 41797,
+  "audit": {
+    "at": "2026-11-10T05:41:12.694Z",
+    "sourceHash": "ca34f677aefe7e0ac7e48cbb165f53c718aa6b0ffbfaf0b728f884cabda572b3",
+    "fixtureSHA256": "f0f385f2e274f820c1d21fb8cce209c807852eb46461fd7af95cd2a2dcc1d2d5",
+    "scenePolicySha256": "7f0795bbbdc0d9f3dab9286d219a23986bc6c067cd50489d47b58079034daf9b",
+    "samples": 20,
+    "passed": 20,
+    "failed": 0,
+    "totalPlacementProjectionChecks": 676,
+    "maxProjectionErrorPixels": 1.0247593068766007e-13,
+    "geometryCalibration": "Conservative per-mesh Box3 centres of actual parsed immutable GLBs;precise bounds independently audited for all1187retained revisions.",
+    "errors": [],
+    "rows": [
+      {
+        "step": "house-perspective-panel",
+        "scope": "house",
+        "separated": false,
+        "gap": 0,
+        "items": 41,
+        "actualAspect": 1.0512129380053907,
+        "canvas": {
+          "height": 371,
+          "width": 390,
+          "x": 0,
+          "y": 71
+        },
+        "limits": {
+          "maxX": 0.7485565209015757,
+          "maxY": 0.7158759782103095,
+          "minZ": 0.9982773660920089,
+          "maxZ": 0.999484528069759
+        },
+        "maxProjectionErrorPixels": 3.1776437161565096e-14,
+        "camera": [
+          55.03125208312233,
+          52.05411236734506,
+          55.27653705606562
+        ],
+        "cache": {
+          "active": 40,
+          "entries": 40,
+          "idle": 0,
+          "pending": 0,
+          "sharedTextures": {
+            "duplicates": 306,
+            "leases": 315,
+            "textures": 9
+          },
+          "sourceBytes": 22178628,
+          "textureSets": 2,
+          "wanted": 40
+        },
+        "memory": {
+          "geometries": 238,
+          "textures": 15
+        }
+      },
+      {
+        "step": "house-separated-perspective-panel",
+        "scope": "house",
+        "separated": true,
+        "gap": 6,
+        "items": 41,
+        "actualAspect": 1.0512129380053907,
+        "canvas": {
+          "height": 371,
+          "width": 390,
+          "x": 0,
+          "y": 71
+        },
+        "limits": {
+          "maxX": 0.7240772153366053,
+          "maxY": 0.7162556504804217,
+          "minZ": 0.9982425409582087,
+          "maxZ": 0.9995040952030135
+        },
+        "maxProjectionErrorPixels": 2.842170943040401e-14,
+        "camera": [
+          57.5232208891044,
+          57.356314615179755,
+          57.951481533776146
+        ],
+        "cache": {
+          "active": 40,
+          "entries": 40,
+          "idle": 0,
+          "pending": 0,
+          "sharedTextures": {
+            "duplicates": 306,
+            "leases": 315,
+            "textures": 9
+          },
+          "sourceBytes": 22178628,
+          "textureSets": 2,
+          "wanted": 40
+        },
+        "memory": {
+          "geometries": 238,
+          "textures": 15
+        }
+      },
+      {
+        "step": "house-separated-top-panel",
+        "scope": "house",
+        "separated": true,
+        "gap": 6,
+        "items": 41,
+        "actualAspect": 1.0512129380053907,
+        "canvas": {
+          "height": 371,
+          "width": 390,
+          "x": 0,
+          "y": 71
+        },
+        "limits": {
+          "maxX": 0.7051140945396078,
+          "maxY": 0.7153041763855975,
+          "minZ": 0.9985745460161723,
+          "maxZ": 0.9991691761497055
+        },
+        "maxProjectionErrorPixels": 3.1776437161565096e-14,
+        "camera": [
+          15.6,
+          71.04955963325837,
+          13.01453678114552
+        ],
+        "cache": {
+          "active": 40,
+          "entries": 40,
+          "idle": 0,
+          "pending": 0,
+          "sharedTextures": {
+            "duplicates": 306,
+            "leases": 315,
+            "textures": 9
+          },
+          "sourceBytes": 22178628,
+          "textureSets": 2,
+          "wanted": 40
+        },
+        "memory": {
+          "geometries": 250,
+          "textures": 15
+        }
+      },
+      {
+        "step": "house-separated-front-panel",
+        "scope": "house",
+        "separated": true,
+        "gap": 6,
+        "items": 41,
+        "actualAspect": 1.0512129380053907,
+        "canvas": {
+          "height": 371,
+          "width": 390,
+          "x": 0,
+          "y": 71
+        },
+        "limits": {
+          "maxX": 0.8925655788679855,
+          "maxY": 0.6514062119663612,
+          "minZ": 0.9982095570122579,
+          "maxZ": 0.9993402164274872
+        },
+        "maxProjectionErrorPixels": 4.0194366942304644e-14,
+        "camera": [
+          15.6,
+          6.570291351152755,
+          70.44133198897319
+        ],
+        "cache": {
+          "active": 40,
+          "entries": 40,
+          "idle": 0,
+          "pending": 0,
+          "sharedTextures": {
+            "duplicates": 306,
+            "leases": 315,
+            "textures": 9
+          },
+          "sourceBytes": 22178628,
+          "textureSets": 2,
+          "wanted": 40
+        },
+        "memory": {
+          "geometries": 250,
+          "textures": 15
+        }
+      },
+      {
+        "step": "house-separated-front-solid-ceilings-panel",
+        "scope": "house",
+        "separated": true,
+        "gap": 6,
+        "items": 41,
+        "actualAspect": 1.0512129380053907,
+        "canvas": {
+          "height": 371,
+          "width": 390,
+          "x": 0,
+          "y": 71
+        },
+        "limits": {
+          "maxX": 0.8925655788679855,
+          "maxY": 0.6514062119663612,
+          "minZ": 0.9982095570122579,
+          "maxZ": 0.9993402164274872
+        },
+        "maxProjectionErrorPixels": 4.0194366942304644e-14,
+        "camera": [
+          15.6,
+          6.570291351152755,
+          70.44133198897319
+        ],
+        "cache": {
+          "active": 40,
+          "entries": 40,
+          "idle": 0,
+          "pending": 0,
+          "sharedTextures": {
+            "duplicates": 306,
+            "leases": 315,
+            "textures": 9
+          },
+          "sourceBytes": 22178628,
+          "textureSets": 2,
+          "wanted": 40
+        },
+        "memory": {
+          "geometries": 260,
+          "textures": 15
+        }
+      },
+      {
+        "step": "house-realigned-perspective-panel",
+        "scope": "house",
+        "separated": false,
+        "gap": 0,
+        "items": 41,
+        "actualAspect": 1.0512129380053907,
+        "canvas": {
+          "height": 371,
+          "width": 390,
+          "x": 0,
+          "y": 71
+        },
+        "limits": {
+          "maxX": 0.7485565209015757,
+          "maxY": 0.7158759782103095,
+          "minZ": 0.9982773660920089,
+          "maxZ": 0.999484528069759
+        },
+        "maxProjectionErrorPixels": 3.1776437161565096e-14,
+        "camera": [
+          55.03125208312233,
+          52.05411236734506,
+          55.27653705606562
+        ],
+        "cache": {
+          "active": 40,
+          "entries": 40,
+          "idle": 0,
+          "pending": 0,
+          "sharedTextures": {
+            "duplicates": 306,
+            "leases": 315,
+            "textures": 9
+          },
+          "sourceBytes": 22178628,
+          "textureSets": 2,
+          "wanted": 40
+        },
+        "memory": {
+          "geometries": 254,
+          "textures": 15
+        }
+      },
+      {
+        "step": "house-fit-closed390",
+        "scope": "house",
+        "separated": false,
+        "gap": 0,
+        "items": 41,
+        "actualAspect": 0.5045278137128072,
+        "canvas": {
+          "height": 773,
+          "width": 390,
+          "x": 0,
+          "y": 71
+        },
+        "limits": {
+          "maxX": 0.8974179017753782,
+          "maxY": 0.38744035892873335,
+          "minZ": 0.9989175463410404,
+          "maxZ": 0.9995889506854677
+        },
+        "maxProjectionErrorPixels": 8.038873388460929e-14,
+        "camera": [
+          82.24488527230253,
+          85.05817854933595,
+          84.48836251836283
+        ],
+        "cache": {
+          "active": 40,
+          "entries": 40,
+          "idle": 0,
+          "pending": 0,
+          "sharedTextures": {
+            "duplicates": 306,
+            "leases": 315,
+            "textures": 9
+          },
+          "sourceBytes": 22178628,
+          "textureSets": 2,
+          "wanted": 40
+        },
+        "memory": {
+          "geometries": 254,
+          "textures": 15
+        }
+      },
+      {
+        "step": "house-panel320",
+        "scope": "house",
+        "separated": false,
+        "gap": 0,
+        "items": 41,
+        "actualAspect": 1.3389121338912136,
+        "canvas": {
+          "height": 239,
+          "width": 320,
+          "x": 0,
+          "y": 71
+        },
+        "limits": {
+          "maxX": 0.587710186263779,
+          "maxY": 0.7158759782103095,
+          "minZ": 0.9982773660920089,
+          "maxZ": 0.999484528069759
+        },
+        "maxProjectionErrorPixels": 2.842170943040401e-14,
+        "camera": [
+          55.03125208312233,
+          52.05411236734506,
+          55.27653705606562
+        ],
+        "cache": {
+          "active": 40,
+          "entries": 40,
+          "idle": 0,
+          "pending": 0,
+          "sharedTextures": {
+            "duplicates": 306,
+            "leases": 315,
+            "textures": 9
+          },
+          "sourceBytes": 22178628,
+          "textureSets": 2,
+          "wanted": 40
+        },
+        "memory": {
+          "geometries": 254,
+          "textures": 15
+        }
+      },
+      {
+        "step": "house-top-panel320",
+        "scope": "house",
+        "separated": false,
+        "gap": 0,
+        "items": 41,
+        "actualAspect": 1.3389121338912133,
+        "canvas": {
+          "height": 239,
+          "width": 320,
+          "x": 0,
+          "y": 71
+        },
+        "limits": {
+          "maxX": 0.5537378828266409,
+          "maxY": 0.7153030283852723,
+          "minZ": 0.9986978840095376,
+          "maxZ": 0.9991011564428665
+        },
+        "maxProjectionErrorPixels": 2.842170943040401e-14,
+        "camera": [
+          15.6,
+          65.03644701454043,
+          13.01080366728243
+        ],
+        "cache": {
+          "active": 40,
+          "entries": 40,
+          "idle": 0,
+          "pending": 0,
+          "sharedTextures": {
+            "duplicates": 306,
+            "leases": 315,
+            "textures": 9
+          },
+          "sourceBytes": 22178628,
+          "textureSets": 2,
+          "wanted": 40
+        },
+        "memory": {
+          "geometries": 254,
+          "textures": 15
+        }
+      },
+      {
+        "step": "house-front-panel320",
+        "scope": "house",
+        "separated": false,
+        "gap": 0,
+        "items": 41,
+        "actualAspect": 1.3389121338912136,
+        "canvas": {
+          "height": 239,
+          "width": 320,
+          "x": 0,
+          "y": 71
+        },
+        "limits": {
+          "maxX": 0.8905522625609104,
+          "maxY": 0.5445684598897405,
+          "minZ": 0.9979462809148255,
+          "maxZ": 0.9993291818419785
+        },
+        "maxProjectionErrorPixels": 3.1776437161565096e-14,
+        "camera": [
+          15.6,
+          4.281258467626484,
+          61.40845147366274
+        ],
+        "cache": {
+          "active": 40,
+          "entries": 40,
+          "idle": 0,
+          "pending": 0,
+          "sharedTextures": {
+            "duplicates": 306,
+            "leases": 315,
+            "textures": 9
+          },
+          "sourceBytes": 22178628,
+          "textureSets": 2,
+          "wanted": 40
+        },
+        "memory": {
+          "geometries": 254,
+          "textures": 15
+        }
+      },
+      {
+        "step": "house-front-closed320",
+        "scope": "house",
+        "separated": false,
+        "gap": 0,
+        "items": 41,
+        "actualAspect": 0.6438631790744467,
+        "canvas": {
+          "height": 497,
+          "width": 320,
+          "x": 0,
+          "y": 71
+        },
+        "limits": {
+          "maxX": 0.8954318280425451,
+          "maxY": 0.26330985417632014,
+          "minZ": 0.9986885023582907,
+          "maxZ": 0.9994321494917939
+        },
+        "maxProjectionErrorPixels": 8.526512829121202e-14,
+        "camera": [
+          15.6,
+          4.3168725183571075,
+          97.02249033293651
+        ],
+        "cache": {
+          "active": 40,
+          "entries": 40,
+          "idle": 0,
+          "pending": 0,
+          "sharedTextures": {
+            "duplicates": 306,
+            "leases": 315,
+            "textures": 9
+          },
+          "sourceBytes": 22178628,
+          "textureSets": 2,
+          "wanted": 40
+        },
+        "memory": {
+          "geometries": 254,
+          "textures": 15
+        }
+      },
+      {
+        "step": "house-front-panel844",
+        "scope": "house",
+        "separated": false,
+        "gap": 0,
+        "items": 41,
+        "actualAspect": 5.410256410256411,
+        "canvas": {
+          "height": 156,
+          "width": 844,
+          "x": 0,
+          "y": 65
+        },
+        "limits": {
+          "maxX": 0.287400438807779,
+          "maxY": 0.71014375276672,
+          "minZ": 0.997586241125642,
+          "maxZ": 0.9993111755660983
+        },
+        "maxProjectionErrorPixels": 5.859285502108464e-14,
+        "camera": [
+          15.6,
+          4.273484693331072,
+          53.63467976950922
+        ],
+        "cache": {
+          "active": 40,
+          "entries": 40,
+          "idle": 0,
+          "pending": 0,
+          "sharedTextures": {
+            "duplicates": 306,
+            "leases": 315,
+            "textures": 9
+          },
+          "sourceBytes": 22178628,
+          "textureSets": 2,
+          "wanted": 40
+        },
+        "memory": {
+          "geometries": 254,
+          "textures": 15
+        }
+      },
+      {
+        "step": "house-separated-perspective-panel844",
+        "scope": "house",
+        "separated": true,
+        "gap": 6,
+        "items": 41,
+        "actualAspect": 5.410256410256411,
+        "canvas": {
+          "height": 156,
+          "width": 844,
+          "x": 0,
+          "y": 65
+        },
+        "limits": {
+          "maxX": 0.14068821866442385,
+          "maxY": 0.7162556504804217,
+          "minZ": 0.9982425409582087,
+          "maxZ": 0.9995040952030135
+        },
+        "maxProjectionErrorPixels": 5.684341886080802e-14,
+        "camera": [
+          57.5232208891044,
+          57.356314615179755,
+          57.951481533776146
+        ],
+        "cache": {
+          "active": 40,
+          "entries": 40,
+          "idle": 0,
+          "pending": 0,
+          "sharedTextures": {
+            "duplicates": 306,
+            "leases": 315,
+            "textures": 9
+          },
+          "sourceBytes": 22178628,
+          "textureSets": 2,
+          "wanted": 40
+        },
+        "memory": {
+          "geometries": 254,
+          "textures": 15
+        }
+      },
+      {
+        "step": "house-separated-perspective-closed844",
+        "scope": "house",
+        "separated": true,
+        "gap": 6,
+        "items": 41,
+        "actualAspect": 2.596923076923077,
+        "canvas": {
+          "height": 325,
+          "width": 844,
+          "x": 0,
+          "y": 65
+        },
+        "limits": {
+          "maxX": 0.293100455550883,
+          "maxY": 0.7162556504804217,
+          "minZ": 0.9982425409582087,
+          "maxZ": 0.9995040952030135
+        },
+        "maxProjectionErrorPixels": 5.684341886080802e-14,
+        "camera": [
+          57.5232208891044,
+          57.356314615179755,
+          57.951481533776146
+        ],
+        "cache": {
+          "active": 40,
+          "entries": 40,
+          "idle": 0,
+          "pending": 0,
+          "sharedTextures": {
+            "duplicates": 306,
+            "leases": 315,
+            "textures": 9
+          },
+          "sourceBytes": 22178628,
+          "textureSets": 2,
+          "wanted": 40
+        },
+        "memory": {
+          "geometries": 254,
+          "textures": 15
+        }
+      },
+      {
+        "step": "upper-room-after-jump390",
+        "scope": "room",
+        "separated": false,
+        "gap": 0,
+        "items": 7,
+        "actualAspect": 0.5045278137128072,
+        "canvas": {
+          "height": 773,
+          "width": 390,
+          "x": 0,
+          "y": 71
+        },
+        "limits": {
+          "maxX": 0.8943885913382207,
+          "maxY": 0.3860321666286719,
+          "minZ": 0.998767142298428,
+          "maxZ": 0.9994364423223736
+        },
+        "maxProjectionErrorPixels": 5.684341886080802e-14,
+        "camera": [
+          51.74720529421582,
+          39.16630086844796,
+          40.004854157627115
+        ],
+        "cache": {
+          "active": 7,
+          "entries": 15,
+          "idle": 8,
+          "pending": 0,
+          "sharedTextures": {
+            "duplicates": 306,
+            "leases": 90,
+            "textures": 9
+          },
+          "sourceBytes": 6389260,
+          "textureSets": 2,
+          "wanted": 7
+        },
+        "memory": {
+          "geometries": 60,
+          "textures": 12
+        }
+      },
+      {
+        "step": "upper-floor-panel390",
+        "scope": "floor",
+        "separated": false,
+        "gap": 0,
+        "items": 20,
+        "actualAspect": 1.0512129380053907,
+        "canvas": {
+          "height": 371,
+          "width": 390,
+          "x": 0,
+          "y": 71
+        },
+        "limits": {
+          "maxX": 0.7754521122926477,
+          "maxY": 0.7150125468287881,
+          "minZ": 0.998294476440187,
+          "maxZ": 0.9994445530671406
+        },
+        "maxProjectionErrorPixels": 1.0247593068766007e-13,
+        "camera": [
+          47.90955338597172,
+          43.00152364025709,
+          50.39940129013313
+        ],
+        "cache": {
+          "active": 20,
+          "entries": 20,
+          "idle": 0,
+          "pending": 0,
+          "sharedTextures": {
+            "duplicates": 351,
+            "leases": 135,
+            "textures": 9
+          },
+          "sourceBytes": 9531164,
+          "textureSets": 2,
+          "wanted": 20
+        },
+        "memory": {
+          "geometries": 116,
+          "textures": 12
+        }
+      },
+      {
+        "step": "upper-floor-top-panel390",
+        "scope": "floor",
+        "separated": false,
+        "gap": 0,
+        "items": 20,
+        "actualAspect": 1.0512129380053905,
+        "canvas": {
+          "height": 371,
+          "width": 390,
+          "x": 0,
+          "y": 71
+        },
+        "limits": {
+          "maxX": 0.6802813320632558,
+          "maxY": 0.7149511554246861,
+          "minZ": 0.9988050527333988,
+          "maxZ": 0.9990130464219187
+        },
+        "maxProjectionErrorPixels": 3.1776437161565096e-14,
+        "camera": [
+          14,
+          55.12644161826121,
+          14.053249659368149
+        ],
+        "cache": {
+          "active": 20,
+          "entries": 20,
+          "idle": 0,
+          "pending": 0,
+          "sharedTextures": {
+            "duplicates": 351,
+            "leases": 135,
+            "textures": 9
+          },
+          "sourceBytes": 9531164,
+          "textureSets": 2,
+          "wanted": 20
+        },
+        "memory": {
+          "geometries": 118,
+          "textures": 12
+        }
+      },
+      {
+        "step": "upper-room-top-panel390",
+        "scope": "room",
+        "separated": false,
+        "gap": 0,
+        "items": 7,
+        "actualAspect": 1.0512129380053907,
+        "canvas": {
+          "height": 371,
+          "width": 390,
+          "x": 0,
+          "y": 71
+        },
+        "limits": {
+          "maxX": 0.6754910350038469,
+          "maxY": 0.7100216031495714,
+          "minZ": 0.9983070474632005,
+          "maxZ": 0.9987045658517336
+        },
+        "maxProjectionErrorPixels": 2.842170943040401e-14,
+        "camera": [
+          21,
+          30.447481853180605,
+          7.028570691376745
+        ],
+        "cache": {
+          "active": 7,
+          "entries": 15,
+          "idle": 8,
+          "pending": 0,
+          "sharedTextures": {
+            "duplicates": 351,
+            "leases": 105,
+            "textures": 9
+          },
+          "sourceBytes": 7386796,
+          "textureSets": 2,
+          "wanted": 7
+        },
+        "memory": {
+          "geometries": 61,
+          "textures": 12
+        }
+      },
+      {
+        "step": "upper-room-top-closed390",
+        "scope": "room",
+        "separated": false,
+        "gap": 0,
+        "items": 7,
+        "actualAspect": 0.5045278137128072,
+        "canvas": {
+          "height": 773,
+          "width": 390,
+          "x": 0,
+          "y": 71
+        },
+        "limits": {
+          "maxX": 0.8920896265751396,
+          "maxY": 0.45013605035710375,
+          "minZ": 0.9986952038374584,
+          "maxZ": 0.9989530217099946
+        },
+        "maxProjectionErrorPixels": 5.684341886080802e-14,
+        "camera": [
+          21,
+          45.02816568700309,
+          7.043151380070797
+        ],
+        "cache": {
+          "active": 7,
+          "entries": 15,
+          "idle": 8,
+          "pending": 0,
+          "sharedTextures": {
+            "duplicates": 351,
+            "leases": 105,
+            "textures": 9
+          },
+          "sourceBytes": 7386796,
+          "textureSets": 2,
+          "wanted": 7
+        },
+        "memory": {
+          "geometries": 61,
+          "textures": 12
+        }
+      },
+      {
+        "step": "house-cold390",
+        "scope": "house",
+        "separated": false,
+        "gap": 0,
+        "items": 41,
+        "actualAspect": 0.5045278137128072,
+        "canvas": {
+          "height": 773,
+          "width": 390,
+          "x": 0,
+          "y": 71
+        },
+        "limits": {
+          "maxX": 0.8974179017753782,
+          "maxY": 0.38744035892873335,
+          "minZ": 0.9989175463410404,
+          "maxZ": 0.9995889506854677
+        },
+        "maxProjectionErrorPixels": 8.038873388460929e-14,
+        "camera": [
+          82.24488527230253,
+          85.05817854933595,
+          84.48836251836283
+        ],
+        "cache": {
+          "active": 40,
+          "entries": 40,
+          "idle": 0,
+          "pending": 0,
+          "sharedTextures": {
+            "duplicates": 306,
+            "leases": 315,
+            "textures": 9
+          },
+          "sourceBytes": 22178628,
+          "textureSets": 2,
+          "wanted": 40
+        },
+        "memory": {
+          "geometries": 238,
+          "textures": 15
+        }
+      }
+    ],
+    "scope": "Actual read-only renderer camera/projection/mesh observations,exact frozen spatial policy and independently composed world transforms. Bounds fit and per-item transform consistency;not pixel visibility through opaque walls, native rendering,performance or user acceptance."
+  },
+  "viewOnlyBackup": {
+    "bytes": 41797,
+    "sha256": "f0f385f2e274f820c1d21fb8cce209c807852eb46461fd7af95cd2a2dcc1d2d5",
+    "fixtureExact": true
+  },
+  "coldBackup": {
+    "bytes": 41797,
+    "sha256": "f0f385f2e274f820c1d21fb8cce209c807852eb46461fd7af95cd2a2dcc1d2d5",
+    "fixtureExact": true
+  },
+  "legacyDimensionsDOM": "- button \"Back\":\n- generic: Runtime QA Phase3 pinned40 house\n- button \"Settings\":\n- button \"Choose room, current Upper office\":\n  - generic: Upper office\n- button \"View 2D\":\n  - generic: 2D\n- button \"View 3D\":\n  - generic: 3D\n- button \"View Walk\":\n  - generic: Walk\n- button \"Undo\":\n- button \"Redo\" [disabled]:\n- generic: Room dimensions\n- button \"Expand panel\":\n- button \"Close Room dimensions\":\n- generic: Enter metres. Changing display units in Settings preserves geometry.\n- generic: Width and depth measure between inside wall faces, before trim. Existing wall reference coordinates stay unchanged until you apply a resize.\n- generic: Width (m)\n- textbox \"Width (m)\": \"13.880\"\n- generic: Depth (m)\n- textbox \"Depth (m)\": \"13.880\"\n- generic: Ceiling height (m)\n- textbox \"Ceiling height (m)\": \"5.200\"\n- button \"Use floor ceiling · 4.40 m\":\n  - generic: Use floor ceiling · 4.40 m\n- button \"Apply dimensions\":\n  - generic: Apply dimensions\n- generic: Flat room overrides are supported. Sloped/vaulted ceilings, soffits and double-height voids are planned geometry increments.",
+  "narrowDOM": {
+    "canvas": [
+      {
+        "height": 239,
+        "width": 320,
+        "x": 0,
+        "y": 71
+      }
+    ],
+    "height": 568,
+    "scrollWidth": 320,
+    "width": 320
+  },
+  "landscapeDOM": {
+    "canvas": [
+      {
+        "height": 156,
+        "width": 844,
+        "x": 0,
+        "y": 65
+      }
+    ],
+    "height": 390,
+    "scrollWidth": 844,
+    "width": 844
+  },
+  "console": [],
+  "knownSnapshotQualification": "Frozen05:28Editor predates owner05:31house-overview Undo/Redo guard. Visible history controls in that old snapshot are known and superseded;no claim that the later guard or overall house-read-only gate passes here. Editing/history callbacks were not invoked in house scope.",
+  "sourceBridge": {
+    "at": "2026-11-10T05:27:43.802Z",
+    "sources": {
+      "mobile/src/domain/project.ts": "1a9bce0745c215d711c63330b4be4e62babcf45fda1e8f160cc356db48f4636e",
+      "mobile/src/domain/types.ts": "e818a704afc0cc972978dbdea369429ca33af346cced16f68eb88ccc1f5a42e5",
+      "mobile/src/domain/geometry.ts": "0c3a99288b3dc0d44f78168c5b036690c4d716b8b1f578c3b46aba4f06545244",
+      "mobile/src/domain/construction.ts": "d248539e57f44afab413bc42ce49b6ea0e3a6f7bb6ace675757457ea651dff53",
+      "mobile/src/domain/persistence.ts": "ac166d419b677611c1b32d17fa0ddb9021d20f19cf3614fbd0e39719681e50ee",
+      "mobile/src/domain/roomMove.ts": "2a0c95b6911792dbaa0fb8ffddd10244c53ad756748d917aa1ec447a4fde48ab",
+      "mobile/src/scene/meshes.ts": "bd616ec1721ef5a2bf3ef2f5a9fb323dc37d8a9a33a4596ef75c16c9ef59b9ee",
+      "mobile/src/scene/spatialView.ts": "7f0795bbbdc0d9f3dab9286d219a23986bc6c067cd50489d47b58079034daf9b",
+      "mobile/src/scene/walk.ts": "612be75da52af872ad3efef860d1929d648a809340b8f8a30277f945a32512db",
+      "mobile/src/scene/touches.ts": "a1b6c4ff75e8a272e70d0db1166b4701903a853cc31bd289d577040c8db71cc5",
+      "mobile/src/scene/camera.ts": "0da59cb3d2cb34fb692c3a70f3f0b530a3c39c5765d9cf1271d352922fd0674a",
+      "mobile/src/scene/picking.ts": "64d7d46216e327c122580d2f2a0d42f6fd8f1e3cb8501c3db75e72e9a5be08c4",
+      "mobile/src/scene/Viewport.tsx": "90651a9dc4bcac7bd735bfbb376314896c19eba86dba4991d5887d2dc860fa95"
+    },
+    "passed": 6,
+    "failed": 0,
+    "stableSources": true,
+    "checks": [
+      {
+        "id": "ACTUAL-THREE-PRESETS-ALL-PHONE-ASPECTS",
+        "pass": true
+      },
+      {
+        "id": "SEPARATION-REFITS-WITHOUT-CANONICAL-WRITES",
+        "pass": true
+      },
+      {
+        "id": "UPPER-ROOM-AND-FLOOR-LOCAL-COORDINATES",
+        "pass": true
+      },
+      {
+        "id": "STRUCTURAL-SAME-COUNT-ALIGNMENT-AND-HISTORY",
+        "pass": true
+      },
+      {
+        "id": "ORBIT-PRESERVED-UNTIL-EXPLICIT-FIT",
+        "pass": true
+      },
+      {
+        "id": "NEGATIVE-ELEVATION-LARGE-WORLD-BOUNDS",
+        "pass": true
+      }
+    ],
+    "scope": "Actual Viewport scenePlan/viewOrigin/structureKey AST declarations and CameraBridge function,actual pure spatial policy/helpers,deterministic hook commits and real Three camera projections. No Canvas/GL/native/device/pixel acceptance."
+  },
+  "retainedGeometry": {
+    "at": "2026-11-10T05:30:58.276Z",
+    "sourceHash": "67cbdc5ce2371c0469120838b009af97facfaff351efb40f65e4fad521759573",
+    "records": 1187,
+    "parsed": 1187,
+    "bytes": 294090088,
+    "meshes": 2691,
+    "vertices": 4276069,
+    "triangles": 2646781,
+    "maxPreciseBoundsDifferenceMetres": 1.1102230246251565e-16,
+    "elapsedMs": 3516,
+    "threeVersion": "0.180.0",
+    "metadataHashes": {
+      "revisions": "5ac2bf41ae47219411cfb39f837b290a6431ef3d915ac166cd914f4895f94de9",
+      "bundled": "d68c06ab920b0c3651531c41638b71ff477c5ba71b3ca4f06aa6c21afa3063ef"
+    },
+    "errors": [],
+    "scope": "All exact retained frozen GLB identities/bytes through installed Three GLTFLoader,finite vertex data and precise transformed scene bounds within2mm. Texture dependencies are explicit stubs;no image decoding,renderer/native upload,collision,visual design or device performance acceptance."
+  },
+  "screenshots": [
+    {
+      "file": "spatial-house-separated-panel390.png",
+      "bytes": 29675,
+      "sha256": "e67ab62c9d56deafcc047c9aa0ac1434fc02b876a4072f2794ed410f5230d498"
+    },
+    {
+      "file": "spatial-house-panel320.png",
+      "bytes": 18666,
+      "sha256": "ecf47deaf74027202f3453456b99043272403f0c41b202fe47b0683407c94e54"
+    },
+    {
+      "file": "spatial-house-separated844.png",
+      "bytes": 18720,
+      "sha256": "02b4bfe03f53de7a65f7c5e906dddf9f4fc1ee657ea16d2d770efd2db15d79c3"
+    },
+    {
+      "file": "spatial-upper-legacy-inside-dimensions390.png",
+      "bytes": 31437,
+      "sha256": "6a5a74e8fb0c1899fe95833e77c00acbd27f7dd6be5d00bfeba9cd13f1d06e8f"
+    }
+  ],
+  "scope": "Actual integrated house-view controls/camera/presentation/legacy-readout/exactsave/cold baseline in immutable source-bound browser build;historical40model revisions. No phone/native linking/performance/fullphase acceptance."
+}

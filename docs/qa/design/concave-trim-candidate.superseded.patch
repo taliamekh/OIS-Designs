@@ -1,0 +1,36 @@
+--- a/mobile/src/domain/geometry.ts
++++ b/mobile/src/domain/geometry.ts
+@@ -623,6 +623,24 @@
+       return false;
+   return true;
+ }
++export function physicalTrimMiter(
++  floor: Floor,
++  room: Room,
++  wall: Wall,
++  atStart: boolean,
++): { slope: number; offset: number } {
++  return physicalTrimCornerMiter(floor, room, wall, atStart);
++}
++
++export function physicalTrimCollisionIntervals(wall: Wall, floor: Floor, room: Room): [number, number][] {
++ const trim = room.trimOverrides[wall.id] ?? room.trim;
++ const reversed = wall.faces.find(face => face.roomId === room.id)?.reversed ?? false;
++ const start = physicalTrimMiter(floor, room, wall, true), end = physicalTrimMiter(floor, room, wall, false);
++ const extension = (m: { slope: number; offset: number }) => Math.min(0, m.offset, m.offset + m.slope * trim.projection);
++ const low = extension(reversed ? end : start), high = extension(reversed ? start : end), length = distance(wall.a, wall.b);
++ return physicalTrimIntervals(wall, floor).map(([a, b]) => [a + (a < .001 ? low : 0), b - (b > length - .001 ? high : 0)]);
++}
++
+ export function canPlace(
+   floor: Floor,
+   room: Room,
+@@ -682,7 +700,7 @@
+       trim.projection > 0 &&
+       heightOverlap(0, trim.height)
+     )
+-      for (const [a, b] of physicalTrimIntervals(wall, floor)) {
++      for (const [a, b] of physicalTrimCollisionIntervals(wall, floor, room)) {
+         const startMiter = physicalTrimCornerMiter(floor, room, wall, true),
+           endMiter = physicalTrimCornerMiter(floor, room, wall, false),
+           extension = (m: TrimMiterPlane) =>

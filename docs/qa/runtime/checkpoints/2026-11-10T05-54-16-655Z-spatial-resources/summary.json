@@ -1,0 +1,316 @@
+{
+  "at": "2026-11-10T05:54:16.655Z",
+  "sourceHash": "ca34f677aefe7e0ac7e48cbb165f53c718aa6b0ffbfaf0b728f884cabda572b3",
+  "nativeSourceHash": "4f9fdb0ea20cd13881f9400c58de3f7c86b671440b90a87ca182259207d8c91a",
+  "checks": [
+    {
+      "id": "THREE-VISIBILITY-CYCLES-PLATEAU",
+      "pass": true,
+      "observed": {
+        "cycles": 3,
+        "solidGeometries": 260,
+        "cutawayGeometries": 254,
+        "textures": 15,
+        "leases": 315,
+        "publicLibraryExact": true
+      }
+    },
+    {
+      "id": "THIRTY-FOUR-FINISH-AFTER-ZERO-CANVAS",
+      "pass": true,
+      "observed": {
+        "models": 34,
+        "bytes": 18749696,
+        "minimumAfterZeroCanvasMs": 4430.169921875,
+        "firstWindowUnfinished": 34
+      }
+    },
+    {
+      "id": "BOUNDED-EMPTY-OWNERSHIP",
+      "pass": true,
+      "observed": {
+        "items": 0,
+        "cache": {
+          "active": 0,
+          "entries": 8,
+          "idle": 8,
+          "pending": 0,
+          "sharedTextures": {
+            "duplicates": 306,
+            "leases": 48,
+            "textures": 9
+          },
+          "sourceBytes": 3312460,
+          "textureSets": 1,
+          "wanted": 0
+        },
+        "memory": {
+          "geometries": 5,
+          "textures": 3
+        },
+        "restored": {
+          "networkLatencyMs": 0,
+          "cacheDisabled": false,
+          "networkDomainDisabled": true
+        }
+      }
+    },
+    {
+      "id": "RENDER-CORE-MATCHES-NEWER-NATIVE-COPY",
+      "pass": true,
+      "observed": {
+        "matchingSourceFiles": 7,
+        "qualification": "Editor/command guards retain separate whole-head UI scope."
+      }
+    }
+  ],
+  "passed": 4,
+  "failed": 0,
+  "downloads": [
+    {
+      "sha256": "092f78a0d5ee57148beffe6a60d822d6081581a6f7dac15a3dbf8c30edd226bd",
+      "bytes": 758584,
+      "finishedAfterZeroCanvasMs": 4430.169921875
+    },
+    {
+      "sha256": "c56f6966f6c1a8e982835adf024c0943142c95e411561a9f84df5be74591e90b",
+      "bytes": 786676,
+      "finishedAfterZeroCanvasMs": 4433.701904296875
+    },
+    {
+      "sha256": "59b6af07b4114c233bb2fdebc426200051f24464ea18b6812cd784bcfe6e1076",
+      "bytes": 541412,
+      "finishedAfterZeroCanvasMs": 4432.746826171875
+    },
+    {
+      "sha256": "e9f1cef6e632a618ed2b8c48b2f89db7e49d3f62df1e34fbc13f4ed85e8e8dc0",
+      "bytes": 753904,
+      "finishedAfterZeroCanvasMs": 4436.77978515625
+    },
+    {
+      "sha256": "0c8bb29ed3e083110408cca9be777a06461224b71623f64778fd1e1a440c5461",
+      "bytes": 801776,
+      "finishedAfterZeroCanvasMs": 4438.98095703125
+    },
+    {
+      "sha256": "17015fcc35185b1c531f2bf64130861f543067593e0137a951e0d848048bf5bd",
+      "bytes": 556852,
+      "finishedAfterZeroCanvasMs": 4442.4599609375
+    },
+    {
+      "sha256": "900b30a1ffa986acb3feef8969786c19d41f017f3f2f9b28d2c6d111747bfb2e",
+      "bytes": 426188,
+      "finishedAfterZeroCanvasMs": 9440.791748046875
+    },
+    {
+      "sha256": "e95ac3a1d488d343913d09db1b3896f2284604bc151d969d74e8002ee648bf5d",
+      "bytes": 493972,
+      "finishedAfterZeroCanvasMs": 9445.1298828125
+    },
+    {
+      "sha256": "4c81f23ea134594e235b7a79aa3eee003684c0c29687703376fefdfd9b1d3e9d",
+      "bytes": 467172,
+      "finishedAfterZeroCanvasMs": 9452.10693359375
+    },
+    {
+      "sha256": "743651a0067a8fdbd2a57cd79b78d8d39c719c141880b8f9837d21b7ae911b35",
+      "bytes": 554672,
+      "finishedAfterZeroCanvasMs": 9441.52392578125
+    },
+    {
+      "sha256": "2f950708898f9b88cfd58dfdfc44c26167a784358f2770bb9d64ea019978e402",
+      "bytes": 724276,
+      "finishedAfterZeroCanvasMs": 9457.85009765625
+    },
+    {
+      "sha256": "e5ba186681fdfa3101e8fe5390138328cf025ecfd430abe23dc24a677777be3d",
+      "bytes": 582344,
+      "finishedAfterZeroCanvasMs": 9457.069091796875
+    },
+    {
+      "sha256": "8513379a7ea5da6061214d7bf942624c4d6c3946b2219bbe07985531295ccda1",
+      "bytes": 1170820,
+      "finishedAfterZeroCanvasMs": 14460.93408203125
+    },
+    {
+      "sha256": "c80aad32750c6019bb86c782e4b515fa6a466ed439f9bc06dc286fe005fd5b3d",
+      "bytes": 599884,
+      "finishedAfterZeroCanvasMs": 14465.245361328125
+    },
+    {
+      "sha256": "bcc1350d175a74b4623ce25d76c81407b3c7fabb8f8f1df5cdf6c825aae015df",
+      "bytes": 641748,
+      "finishedAfterZeroCanvasMs": 14466.12109375
+    },
+    {
+      "sha256": "a84b46417238b7a7da4283e307111501088d4c21c71bdb60baa7bb5ab4b631de",
+      "bytes": 662576,
+      "finishedAfterZeroCanvasMs": 14470.8369140625
+    },
+    {
+      "sha256": "2507003ff445c95309a6319b21a2565d4d86a8267dbf8cc85d52904f90334b24",
+      "bytes": 640892,
+      "finishedAfterZeroCanvasMs": 14476.8662109375
+    },
+    {
+      "sha256": "4aed7a4c28279611dd818e41e68d06109e0c3f67b06fcfd7b3c42566c4cecc3f",
+      "bytes": 598868,
+      "finishedAfterZeroCanvasMs": 14476.518798828125
+    },
+    {
+      "sha256": "0a25416151c6ffe430857f98886f6353520a36a0a3a32a34eecd6bc617162ad5",
+      "bytes": 597820,
+      "finishedAfterZeroCanvasMs": 19466.566162109375
+    },
+    {
+      "sha256": "89502058fbe3ffbf8e7724a36e98038145d52b173637569dfe091b77a149b489",
+      "bytes": 411764,
+      "finishedAfterZeroCanvasMs": 19469.903076171875
+    },
+    {
+      "sha256": "95398f141780f4322a1c73367cc09b6390ff78846eeb078277ac380d4dc608bc",
+      "bytes": 403708,
+      "finishedAfterZeroCanvasMs": 19470.796142578125
+    },
+    {
+      "sha256": "ee3f79ad7b666e92f4ea9e9fe59f96f4076ad5a033f90952e9a3742cc0b97de5",
+      "bytes": 905320,
+      "finishedAfterZeroCanvasMs": 19475.3388671875
+    },
+    {
+      "sha256": "3191314ebe96a2dad9bedee21c9c88704f08a1af5afa33c30e05db00ceaab610",
+      "bytes": 272148,
+      "finishedAfterZeroCanvasMs": 19486.2880859375
+    },
+    {
+      "sha256": "b6b128e611be3e9c4f7427bb2efafdada52509ce68eb2ccc1fa9fcd5eb014038",
+      "bytes": 403716,
+      "finishedAfterZeroCanvasMs": 19486.5859375
+    },
+    {
+      "sha256": "763b97acd6cf647d56f3f05af2e9813fc8da57d1f96e51e132149872e0cefba7",
+      "bytes": 251152,
+      "finishedAfterZeroCanvasMs": 24481.404052734375
+    },
+    {
+      "sha256": "b4fc677aafa05be6d1fc166ad3b2b8b37f17f3a88dec65e965cad73021ebc77c",
+      "bytes": 291208,
+      "finishedAfterZeroCanvasMs": 24482.430908203125
+    },
+    {
+      "sha256": "e2c65466ad1a61724a8e37cafdfad45cad653a1ee7173604fb1460207f2f05e3",
+      "bytes": 428992,
+      "finishedAfterZeroCanvasMs": 24482.156982421875
+    },
+    {
+      "sha256": "dd650a8eb33a32c46e564ec9fc654e90131fee35416d222db3a0694b560b0c63",
+      "bytes": 407788,
+      "finishedAfterZeroCanvasMs": 24482.7490234375
+    },
+    {
+      "sha256": "603b326f24b1e1674f28862750ecc149644a2609543bbf912fd7c2a2c4a573f6",
+      "bytes": 443096,
+      "finishedAfterZeroCanvasMs": 24496.215087890625
+    },
+    {
+      "sha256": "43d0336cf0f9517919bffafea1739bda3b3b234c044580f71df05d60755011a5",
+      "bytes": 528284,
+      "finishedAfterZeroCanvasMs": 24496.843994140625
+    },
+    {
+      "sha256": "244063d662d59d38739aea80aada47aca2bae3f3f4c1fd4edda2d5f89917e21a",
+      "bytes": 357516,
+      "finishedAfterZeroCanvasMs": 29491.409912109375
+    },
+    {
+      "sha256": "177b425f419afee99788f5b316b2d5c35d39f81e3ca8a1dda28d4ec048208143",
+      "bytes": 439912,
+      "finishedAfterZeroCanvasMs": 29492.172119140625
+    },
+    {
+      "sha256": "a33c5ed757e4d2f6519b15c405e781b361678388c535b2ab6bac09db3a6a43d1",
+      "bytes": 282536,
+      "finishedAfterZeroCanvasMs": 29490.88720703125
+    },
+    {
+      "sha256": "4d38f2a3f2d2313e8b48e3b6a1eb7d157bc253d95d83068e7962de562ca2e030",
+      "bytes": 562120,
+      "finishedAfterZeroCanvasMs": 29492.494873046875
+    }
+  ],
+  "sourceBindings": [
+    {
+      "file": "src/scene/Viewport.tsx",
+      "sha256": "90651a9dc4bcac7bd735bfbb376314896c19eba86dba4991d5887d2dc860fa95"
+    },
+    {
+      "file": "src/scene/RoomScene.tsx",
+      "sha256": "7b055eabc3198b10114ea1ecd623cf529d58f5bf71a34b9f443ec8c03e3b28d7"
+    },
+    {
+      "file": "src/scene/spatialView.ts",
+      "sha256": "7f0795bbbdc0d9f3dab9286d219a23986bc6c067cd50489d47b58079034daf9b"
+    },
+    {
+      "file": "src/scene/resources.ts",
+      "sha256": "d42aab6041fadfbc1ef9ddf5305a039614d9004c50eeecf1d3eeb13fd9e31d23"
+    },
+    {
+      "file": "src/scene/textureBank.ts",
+      "sha256": "264898393e22f19a3b838cd4f6e00f9a715466c268e8e7d5fd77d37ca5e00409"
+    },
+    {
+      "file": "src/scene/modelLoader.ts",
+      "sha256": "4ad06639eb7339e4c1fbfb9813a642ba2bf2328c3fdf17e0a7667463a34dec61"
+    },
+    {
+      "file": "src/scene/materials.ts",
+      "sha256": "86c582b507331b89c9bd90621c211a27aecc1b9a912ed643ac29bb0a720fd277"
+    }
+  ],
+  "scope": "Stronger newScenePlan abandonment timing: actual2D DOM haszeroCanvas and9SVGs with34GLBrequests/zerofinishes;all34finish>4.4s later. Newempty3D scene thenmeasuresboundedcache ownership. Actualbrowser-only cache/count/cleanup evidence;not native/GPUbytes/FPS/thermal acceptance.",
+  "qualification": "Original1500msrun recorded completion after navigation initiated but did not capture zeroCanvas before completion. The separate5000msrun explicitly closes that measurement gap. Source-byte totals of eight idle models may differ with completion/LRU order;no fixed byte total across those runs is required.",
+  "phaseScope": "OriginalPhase2/3 resource evidence;physicalPhase1 acceptance open.",
+  "notOverallSignoff": true,
+  "minimumContinuedWorkGate": "2026-11-10T06:53:00Z",
+  "visibilityBackup": {
+    "bytes": 41797,
+    "sha256": "f0f385f2e274f820c1d21fb8cce209c807852eb46461fd7af95cd2a2dcc1d2d5",
+    "exact": true
+  },
+  "firstRunEmptyBackup": {
+    "bytes": 7829,
+    "sha256": "079c82a5d72a34a76eb0f47ad6690dbde4c945d7f4eb38ee53cd6bc2009977e5",
+    "exact": true
+  },
+  "departure": {
+    "epochMs": 1794289911592,
+    "dom": {
+      "bodyText": "Runtime QA Phase3 pinned40 house\nGround living\n13.88 m inside\n13.88 m inside\n13.88 m inside\n13.88 m inside\n1.20 m\n1.20 m\nExposed rail sof\n🔒 Exposed rail sof\nArched reading n\n🔒 Bolster daybed\nCamelback sofa\nWoven headboard\n🔒 Cantilever loung\nGround living\n2D\n3D\nWalk\nFurnish\nSurfaces\nBuild",
+      "canvasCount": 0,
+      "svgCount": 9
+    },
+    "ax": "- button \"Back\":\n- generic: Runtime QA Phase3 pinned40 house\n- button \"Settings\":\n- button \"Choose room, current Ground living\":\n  - generic: Ground living\n- button \"View 2D\" [active]:\n  - generic: 2D\n- button \"View 3D\":\n  - generic: 3D\n- button \"View Walk\":\n  - generic: Walk\n- button \"Undo\":\n- button \"Redo\" [disabled]:\n- button \"Furnish\":\n  - generic: Furnish\n- button \"Surfaces\":\n  - generic: Surfaces\n- button \"Build\":\n  - generic: Build",
+    "requestsBeforeDeparture": 34,
+    "finishedBeforeDeparture": 0
+  },
+  "windows": [
+    {
+      "cursor": 1309,
+      "truncated": false,
+      "hasMore": false,
+      "events": 37
+    },
+    {
+      "cursor": 2302,
+      "truncated": false,
+      "hasMore": false,
+      "events": 561
+    }
+  ],
+  "screenshot": {
+    "file": "spatial-strong-abandonment-empty.png",
+    "bytes": 18268,
+    "sha256": "47ecd784bbbdfcfd4ed14a3332e7e62961316053f079ecd22451b16b68a21ebc"
+  }
+}

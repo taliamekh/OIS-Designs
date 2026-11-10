@@ -17,13 +17,25 @@ import {
   swingEnvelopes,
   projectToSegment,
   wallFaceSpan,
+  wallFaceInsideSpan,
 } from "../domain/geometry";
-import { Item } from "../domain/types";
+import { Floor, Item, Wall } from "../domain/types";
 import { useStudio } from "../state/Studio";
 import { usePalette } from "../ui/kit";
 import { resolveItemAsset, supportsPlacement } from "../catalogue/resolve";
 import { touchPoints, pinchMetrics } from "./touches";
 import { Interaction } from "./Viewport";
+function dimensionSpan(floor: Floor, wall: Wall, roomId: string) {
+  try {
+    return { ...wallFaceInsideSpan(floor, wall, roomId), inside: true };
+  } catch {
+    return {
+      ...wallFaceSpan(floor, wall, roomId),
+      normalOffset: 0,
+      inside: false,
+    };
+  }
+}
 export default function Plan(props: Interaction) {
   const c = usePalette(),
     s = useStudio(),
@@ -46,7 +58,7 @@ export default function Plan(props: Interaction) {
   );
   const chainCorners = selectedWall
     ? selectedWall.faces.flatMap((face) => {
-        const { low, high } = wallFaceSpan(
+        const { low, high, normalOffset } = dimensionSpan(
           props.floor,
           selectedWall,
           face.roomId,
@@ -55,14 +67,24 @@ export default function Plan(props: Interaction) {
         return [low, high].map((offset) => ({
           x:
             selectedWall.a.x +
-            ((selectedWall.b.x - selectedWall.a.x) * offset) / length,
+            ((selectedWall.b.x - selectedWall.a.x) * offset -
+              (selectedWall.b.z - selectedWall.a.z) * normalOffset) /
+              length,
           z:
             selectedWall.a.z +
-            ((selectedWall.b.z - selectedWall.a.z) * offset) / length,
+            ((selectedWall.b.z - selectedWall.a.z) * offset +
+              (selectedWall.b.x - selectedWall.a.x) * normalOffset) /
+              length,
         }));
       })
     : [];
-  const b = bounds([...shownRooms.flatMap((r) => r.polygon), ...chainCorners]);
+  const b = bounds([
+    ...(props.roomMove
+      ? props.roomMove.originalFloor.rooms
+      : shownRooms
+    ).flatMap((r) => r.polygon),
+    ...chainCorners,
+  ]);
   // SVG annotations have screen-space size, independent of the plan's metres.
   const horizontalPadding = selectedWall ? 64 : 28;
   const scale =
@@ -87,6 +109,7 @@ export default function Plan(props: Interaction) {
     move: boolean;
     pinched: boolean;
     draft: Item | null;
+    roomMoveStart?: { offset: { x: number; z: number }; hit: boolean };
   } | null>(null);
   const pinch = useRef<{
     distance: number;
@@ -165,11 +188,22 @@ export default function Plan(props: Interaction) {
         move: false,
         pinched: touchPoints(e).length > 1,
         draft: null,
+        roomMoveStart: v.roomMove
+          ? {
+              offset: v.roomMove.offset,
+              hit: v.floor.rooms.some(
+                (room) =>
+                  v.roomMove!.roomIds.has(room.id) && inside(p, room.polygon),
+              ),
+            }
+          : undefined,
       };
       startPinch(e);
     },
     onResponderStart: (e) => {
       if (touchPoints(e).length > 1 && drag.current) {
+        const move = drag.current.roomMoveStart;
+        if (move) latest.current.roomMove?.onOffsetChange(move.offset);
         drag.current.pinched = true;
         drag.current.item = null;
         drag.current.draft = null;
@@ -223,6 +257,23 @@ export default function Plan(props: Interaction) {
       const dx = e.nativeEvent.locationX - d.startX,
         dy = e.nativeEvent.locationY - d.startY;
       d.move ||= Math.hypot(dx, dy) > 4;
+      if (v.roomMove) {
+        if (d.roomMoveStart?.hit && !d.pinched) {
+          const snap = (value: number) =>
+            v.grid ? Math.round(value * 10) / 10 : value;
+          v.roomMove.onOffsetChange({
+            x: snap(d.roomMoveStart.offset.x + dx / scale),
+            z: snap(d.roomMoveStart.offset.z + dy / scale),
+          });
+        } else if (d.move) {
+          setPlanCamera((p) => ({
+            ...p,
+            panX: d.panX + dx,
+            panY: d.panY + dy,
+          }));
+        }
+        return;
+      }
       if (v.onWall) {
         const p = point(e.nativeEvent.locationX, e.nativeEvent.locationY);
         d.x = p.x;
@@ -276,6 +327,7 @@ export default function Plan(props: Interaction) {
         moved: d.move,
         draft: d.draft,
       };
+      if (v.roomMove) return;
       if (d.move && d.draft) v.onCommit(d.draft);
       else if (v.onWall) {
         const p = { x: d.x, z: d.z };
@@ -319,14 +371,32 @@ export default function Plan(props: Interaction) {
     >
       <View style={{ flex: 1 }} pointerEvents="none">
         <Svg width="100%" height="100%">
+          {props.roomMove?.originalFloor.rooms
+            .filter((r) => props.roomMove!.roomIds.has(r.id))
+            .map((r) => (
+              <Polygon
+                key={"original-" + r.id}
+                points={r.polygon
+                  .map((p) => `${p.x * scale + ox},${p.z * scale + oz}`)
+                  .join(" ")}
+                fill="none"
+                stroke={c.focus}
+                strokeDasharray="5 5"
+                strokeWidth={1.5}
+              />
+            ))}
           {shownRooms.map((r) => (
             <G key={r.id}>
               <Polygon
                 points={r.polygon
                   .map((p) => `${p.x * scale + ox},${p.z * scale + oz}`)
                   .join(" ")}
-                fill={r.id === props.room.id ? c.warm : c.surface}
-                stroke={c.line}
+                fill={
+                  r.id === props.room.id || props.roomMove?.roomIds.has(r.id)
+                    ? c.warm
+                    : c.surface
+                }
+                stroke={props.roomMove?.roomIds.has(r.id) ? c.focus : c.line}
               />
               {selectedWall?.faces.some(
                 (face) => face.roomId === r.id,
@@ -367,10 +437,16 @@ export default function Plan(props: Interaction) {
                   fontSize={10}
                   fill={c.sub}
                 >
-                  {measure(
-                    Math.hypot(w.b.x - w.a.x, w.b.z - w.a.z),
-                    s.library.settings.unit,
-                  )}
+                  {(() => {
+                    const face =
+                      w.faces.find((f) => f.roomId === props.room.id) ??
+                      w.faces[0];
+                    const span = dimensionSpan(props.floor, w, face.roomId);
+                    return (
+                      measure(span.high - span.low, s.library.settings.unit) +
+                      (span.inside ? " inside" : " reference")
+                    );
+                  })()}
                 </SvgText>
               )}
             </G>
@@ -468,11 +544,11 @@ export default function Plan(props: Interaction) {
                 >
                   {w.faces.map((face) => {
                     const sign = face.reversed ? -1 : 1,
-                      y = sign * 20,
                       room = props.floor.rooms.find(
                         (r) => r.id === face.roomId,
                       ),
-                      span = wallFaceSpan(props.floor, w, face.roomId),
+                      span = dimensionSpan(props.floor, w, face.roomId),
+                      y = sign * 20 + span.normalOffset * scale,
                       low = span.low * scale,
                       high = span.high * scale;
                     return (
@@ -523,6 +599,7 @@ export default function Plan(props: Interaction) {
                           fill={c.ink}
                         >
                           {room?.name ?? "Room"}
+                          {span.inside ? " · inside" : " · reference"}
                         </SvgText>
                       </G>
                     );

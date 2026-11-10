@@ -29,7 +29,9 @@ export function sceneSnapshot(
     if (!(node instanceof THREE.Mesh) || !node.userData.itemId) return;
     const id = node.userData.itemId;
     const box = boxes.get(id) ?? new THREE.Box3();
-    box.union(new THREE.Box3().setFromObject(node));
+    // Imported meshes may contain rotated children; precise vertices keep this
+    // read-only QA bound consistent with the authored exact-revision bounds.
+    box.union(new THREE.Box3().setFromObject(node, true));
     boxes.set(id, box);
     const slots = materials.get(id) ?? new Map();
     for (const material of Array.isArray(node.material)
@@ -68,6 +70,7 @@ export function sceneSnapshot(
       const p = box.getCenter(new THREE.Vector3()).project(camera);
       return {
         id,
+        worldBounds: { min: box.min.toArray(), max: box.max.toArray() },
         x: ((p.x + 1) * width) / 2,
         y: ((1 - p.y) * height) / 2,
         roomId: floor.items.find((i) => i.id === id)?.roomId,

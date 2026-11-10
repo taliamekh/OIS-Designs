@@ -1,0 +1,40 @@
+{
+  "at": "2026-11-10T06:03:01.830Z",
+  "asset": {
+    "id": "ois.calm-oak.kitchen-base",
+    "version": "0.1.0",
+    "sha256": "50feb5b77773185282de5a3694f6e764d5f2e87b323f906aa394c6187669928a"
+  },
+  "checks": [
+    {
+      "mode": "2D",
+      "step": "near-wall-rejected",
+      "targetX": 0.3300000023841858,
+      "logicalFootprintMinX": 0.02,
+      "physicalWallInsideFaceX": 0.06,
+      "historyExact": true
+    },
+    {
+      "mode": "2D",
+      "step": "safe-control-committed",
+      "targetX": 0.4160000023841858,
+      "oneUndo": true
+    },
+    {
+      "mode": "3D",
+      "step": "near-wall-rejected",
+      "targetX": 0.3300000023841858,
+      "logicalFootprintMinX": 0.02,
+      "physicalWallInsideFaceX": 0.06,
+      "historyExact": true
+    },
+    {
+      "mode": "3D",
+      "step": "safe-control-committed",
+      "targetX": 0.4160000023841858,
+      "oneUndo": true
+    }
+  ],
+  "errors": [],
+  "nativeValidation": false
+}

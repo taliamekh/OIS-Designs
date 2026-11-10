@@ -1,0 +1,354 @@
+{
+  "timestamp": "2026-11-10T06:01:05.190Z",
+  "evidence": "New opening command and its requested clear aperture versus actual rendered perpendicular WallFace box volumes from extracted production expressions. No building-code or native assertion.",
+  "sources": {
+    "src/domain/geometry.ts": "0c3a99288b3dc0d44f78168c5b036690c4d716b8b1f578c3b46aba4f06545244",
+    "src/domain/project.ts": "9bcc998a564bec55e43ba72139afdfec6d4f1fd715c2803d8597b17f9afa8ccc",
+    "src/scene/RoomScene.tsx": "7b055eabc3198b10114ea1ecd623cf529d58f5bf71a34b9f443ec8c03e3b28d7",
+    "src/scene/meshes.ts": "bd616ec1721ef5a2bf3ef2f5a9fb323dc37d8a9a33a4596ef75c16c9ef59b9ee"
+  },
+  "productionExpressions": {
+    "position": "[\n            (p.start + p.end) / 2,\n            (p.bottom + p.top) / 2,\n            (sign * (wall.thickness + (p.cavity ?? 0))) / 4,\n          ]",
+    "size": "[\n              p.end - p.start,\n              p.top - p.bottom,\n              (wall.thickness - (p.cavity ?? 0)) / 2,\n            ]"
+  },
+  "cases": [
+    {
+      "thickness": 0.12,
+      "control": false,
+      "opening": {
+        "id": "qa-corner-opening",
+        "wallId": "wall:0,0:60000,0",
+        "type": "open",
+        "offset": 0.1,
+        "width": 0.9,
+        "height": 2.1,
+        "sill": 0,
+        "hinge": "left",
+        "flip": false
+      },
+      "accepted": true,
+      "error": null,
+      "historySteps": 1,
+      "insideDimensions": [
+        {
+          "roomId": "room-mwaa7rmx-x6f5sr0",
+          "name": "Living room",
+          "before": 0.04000000000000001,
+          "after": 4.94
+        }
+      ],
+      "perpendicularWallBounds": {
+        "min": [
+          6.705522526129215e-10,
+          -2.3841857821338408e-8,
+          0
+        ],
+        "max": [
+          0.059999999329448855,
+          2.700000023841858,
+          5
+        ]
+      },
+      "requestedWidth": 0.9,
+      "blockedWidth": 0,
+      "unblockedWidth": 0.9,
+      "pass": true
+    },
+    {
+      "thickness": 0.12,
+      "control": true,
+      "opening": {
+        "id": "qa-corner-opening",
+        "wallId": "wall:0,0:60000,0",
+        "type": "open",
+        "offset": 0.4,
+        "width": 0.9,
+        "height": 2.1,
+        "sill": 0,
+        "hinge": "left",
+        "flip": false
+      },
+      "accepted": true,
+      "error": null,
+      "historySteps": 1,
+      "insideDimensions": [
+        {
+          "roomId": "room-mwaa7rn3-a3k194i",
+          "name": "Living room",
+          "before": 0.34,
+          "after": 4.64
+        }
+      ],
+      "perpendicularWallBounds": {
+        "min": [
+          6.705522526129215e-10,
+          -2.3841857821338408e-8,
+          0
+        ],
+        "max": [
+          0.059999999329448855,
+          2.700000023841858,
+          5
+        ]
+      },
+      "requestedWidth": 0.9,
+      "blockedWidth": 0,
+      "unblockedWidth": 0.9,
+      "pass": true
+    },
+    {
+      "thickness": 0.15,
+      "control": false,
+      "opening": {
+        "id": "qa-corner-opening",
+        "wallId": "wall:0,0:60000,0",
+        "type": "open",
+        "offset": 0.1,
+        "width": 0.9,
+        "height": 2.1,
+        "sill": 0,
+        "hinge": "left",
+        "flip": false
+      },
+      "accepted": true,
+      "error": null,
+      "historySteps": 1,
+      "insideDimensions": [
+        {
+          "roomId": "room-mwaa7rn4-000hm73",
+          "name": "Living room",
+          "before": 0.02500000000000001,
+          "after": 4.94
+        }
+      ],
+      "perpendicularWallBounds": {
+        "min": [
+          -1.4901161207725444e-9,
+          -2.3841857821338408e-8,
+          0
+        ],
+        "max": [
+          0.07500000149011724,
+          2.700000023841858,
+          5
+        ]
+      },
+      "requestedWidth": 0.9,
+      "blockedWidth": 0,
+      "unblockedWidth": 0.9,
+      "pass": true
+    },
+    {
+      "thickness": 0.15,
+      "control": true,
+      "opening": {
+        "id": "qa-corner-opening",
+        "wallId": "wall:0,0:60000,0",
+        "type": "open",
+        "offset": 0.4,
+        "width": 0.9,
+        "height": 2.1,
+        "sill": 0,
+        "hinge": "left",
+        "flip": false
+      },
+      "accepted": true,
+      "error": null,
+      "historySteps": 1,
+      "insideDimensions": [
+        {
+          "roomId": "room-mwaa7rn5-4phbyu1",
+          "name": "Living room",
+          "before": 0.325,
+          "after": 4.64
+        }
+      ],
+      "perpendicularWallBounds": {
+        "min": [
+          -1.4901161207725444e-9,
+          -2.3841857821338408e-8,
+          0
+        ],
+        "max": [
+          0.07500000149011724,
+          2.700000023841858,
+          5
+        ]
+      },
+      "requestedWidth": 0.9,
+      "blockedWidth": 0,
+      "unblockedWidth": 0.9,
+      "pass": true
+    },
+    {
+      "thickness": 0.3,
+      "control": false,
+      "opening": {
+        "id": "qa-corner-opening",
+        "wallId": "wall:0,0:60000,0",
+        "type": "open",
+        "offset": 0.1,
+        "width": 0.9,
+        "height": 2.1,
+        "sill": 0,
+        "hinge": "left",
+        "flip": false
+      },
+      "accepted": true,
+      "error": null,
+      "historySteps": 1,
+      "insideDimensions": [
+        {
+          "roomId": "room-mwaa7rn6-dhanswg",
+          "name": "Living room",
+          "before": -0.04999999999999999,
+          "after": 4.94
+        }
+      ],
+      "perpendicularWallBounds": {
+        "min": [
+          -2.980232241545089e-9,
+          -2.3841857821338408e-8,
+          0
+        ],
+        "max": [
+          0.15000000298023336,
+          2.700000023841858,
+          5
+        ]
+      },
+      "requestedWidth": 0.9,
+      "blockedWidth": 0.050000002980233355,
+      "unblockedWidth": 0.8499999970197667,
+      "pass": false
+    },
+    {
+      "thickness": 0.3,
+      "control": true,
+      "opening": {
+        "id": "qa-corner-opening",
+        "wallId": "wall:0,0:60000,0",
+        "type": "open",
+        "offset": 0.4,
+        "width": 0.9,
+        "height": 2.1,
+        "sill": 0,
+        "hinge": "left",
+        "flip": false
+      },
+      "accepted": true,
+      "error": null,
+      "historySteps": 1,
+      "insideDimensions": [
+        {
+          "roomId": "room-mwaa7rn6-t0ywatx",
+          "name": "Living room",
+          "before": 0.25,
+          "after": 4.64
+        }
+      ],
+      "perpendicularWallBounds": {
+        "min": [
+          -2.980232241545089e-9,
+          -2.3841857821338408e-8,
+          0
+        ],
+        "max": [
+          0.15000000298023336,
+          2.700000023841858,
+          5
+        ]
+      },
+      "requestedWidth": 0.9,
+      "blockedWidth": 0,
+      "unblockedWidth": 0.9,
+      "pass": true
+    },
+    {
+      "thickness": 0.6,
+      "control": false,
+      "opening": {
+        "id": "qa-corner-opening",
+        "wallId": "wall:0,0:60000,0",
+        "type": "open",
+        "offset": 0.1,
+        "width": 0.9,
+        "height": 2.1,
+        "sill": 0,
+        "hinge": "left",
+        "flip": false
+      },
+      "accepted": true,
+      "error": null,
+      "historySteps": 1,
+      "insideDimensions": [
+        {
+          "roomId": "room-mwaa7rn7-fbtjlq7",
+          "name": "Living room",
+          "before": -0.19999999999999998,
+          "after": 4.94
+        }
+      ],
+      "perpendicularWallBounds": {
+        "min": [
+          -5.960464483090178e-9,
+          -2.3841857821338408e-8,
+          0
+        ],
+        "max": [
+          0.3000000059604656,
+          2.700000023841858,
+          5
+        ]
+      },
+      "requestedWidth": 0.9,
+      "blockedWidth": 0.2000000059604656,
+      "unblockedWidth": 0.6999999940395344,
+      "pass": false
+    },
+    {
+      "thickness": 0.6,
+      "control": true,
+      "opening": {
+        "id": "qa-corner-opening",
+        "wallId": "wall:0,0:60000,0",
+        "type": "open",
+        "offset": 0.4,
+        "width": 0.9,
+        "height": 2.1,
+        "sill": 0,
+        "hinge": "left",
+        "flip": false
+      },
+      "accepted": true,
+      "error": null,
+      "historySteps": 1,
+      "insideDimensions": [
+        {
+          "roomId": "room-mwaa7rn7-863sa5g",
+          "name": "Living room",
+          "before": 0.10000000000000003,
+          "after": 4.64
+        }
+      ],
+      "perpendicularWallBounds": {
+        "min": [
+          -5.960464483090178e-9,
+          -2.3841857821338408e-8,
+          0
+        ],
+        "max": [
+          0.3000000059604656,
+          2.700000023841858,
+          5
+        ]
+      },
+      "requestedWidth": 0.9,
+      "blockedWidth": 0,
+      "unblockedWidth": 0.9,
+      "pass": true
+    }
+  ],
+  "passed": 6,
+  "failed": 2
+}

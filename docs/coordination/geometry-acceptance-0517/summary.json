@@ -1,0 +1,73 @@
+{
+  "at": "2026-11-10T05:17:27.349764+00:00",
+  "before": {
+    "geometry.ts": "0b029dd1ee4d1070fc8dfaffd96b5baded62ce8d1ec4d5556fd5c27fdcf57364",
+    "project.ts": "dbc3f9e67401b49a8a21b9d5035a32bc7240a351cc56cdc62bfc0c26aa4bd783"
+  },
+  "after": {
+    "geometry.ts": "0b029dd1ee4d1070fc8dfaffd96b5baded62ce8d1ec4d5556fd5c27fdcf57364",
+    "project.ts": "dbc3f9e67401b49a8a21b9d5035a32bc7240a351cc56cdc62bfc0c26aa4bd783"
+  },
+  "stableDomain": true,
+  "harnesses": {
+    "probe-domain.cjs": "190cdfb9dbb013e14464203c01fcb71c922e54885ae37c789057325b8d17fda0",
+    "stress-domain.cjs": "1e8e8a824752a67c1cddf2dbf27cd3ce093ce20c07cf6d10ec51e892ac190ef6",
+    "source-loader.cjs": "9f461a8fc985722728c8d89f9a902b6299962df6a3907df50eb2aa83c56b1e0e",
+    "boundary-repair-regression.cjs": "17f6270bd94ef792ba5d569af6cc3eec4189d4ac5ec2eae037e384d002d7eb5d",
+    "wall-clearance-audit.cjs": "af2c13d1792fb05b684a1ea7646680b9a6b919c8f2992c47d08415689bc1e789",
+    "door-leaf-clearance-audit.cjs": "6b0b142879de68cff698cea5a7aa8955304fbb0b2fc5c88e8c82b83257b40480"
+  },
+  "commands": [
+    {
+      "script": "probe-domain.cjs",
+      "exit": 0,
+      "seconds": 0.9219999999986612
+    },
+    {
+      "script": "stress-domain.cjs",
+      "exit": 0,
+      "seconds": 1.0789999999979045
+    },
+    {
+      "script": "boundary-repair-regression.cjs",
+      "exit": 0,
+      "seconds": 1.0789999999979045
+    },
+    {
+      "script": "wall-clearance-audit.cjs",
+      "exit": 0,
+      "seconds": 1.25
+    },
+    {
+      "script": "door-leaf-clearance-audit.cjs",
+      "exit": 0,
+      "seconds": 1.1719999999986612
+    }
+  ],
+  "reports": {
+    "focused-results.json": {
+      "passed": 22,
+      "failed": 0
+    },
+    "stress-domain-results.json": {
+      "passed": 4453,
+      "failed": 0
+    },
+    "boundary-repair-regression.json": {
+      "passed": 31,
+      "failed": 0,
+      "stableSource": true
+    },
+    "wall-clearance-audit.json": {
+      "passed": 192,
+      "failed": 0,
+      "stableSource": true
+    },
+    "door-leaf-clearance-audit.json": {
+      "passed": 120,
+      "failed": 0,
+      "stableSource": true
+    }
+  },
+  "limits": "Independent coordinator rerun of copied owner fixtures and actual domain code, real GLBs and production render expressions. Not independent fixture authorship. Active renderer integration may change broader source; per-report source stability is retained. No UI/native/device acceptance."
+}

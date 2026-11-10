@@ -27,6 +27,9 @@ import {
 } from "../ui/kit";
 import Catalogue from "./Catalogue";
 import Surfaces from "./Surfaces";
+import HouseViews, { HouseViewPreset } from "./HouseViews";
+import RoomMove from "./RoomMove";
+import { connectedRoomIds, translatedRoomGroup } from "../domain/roomMove";
 import {
   AddRoom,
   Dimensions,
@@ -46,6 +49,8 @@ type Panel =
   | "add-room"
   | "opening"
   | "item"
+  | "views"
+  | "move-room"
   | null;
 type Browsing = { filters: Filters; filtersOpen: boolean; offset: number };
 export default function Editor() {
@@ -66,6 +71,14 @@ export default function Editor() {
     [cutaway, setCutaway] = useState(true),
     [allRooms, setAllRooms] = useState(false),
     [overview, setOverview] = useState(false),
+    [roomMoveOffset, setRoomMoveOffset] = useState({ x: 0, z: 0 }),
+    [showCeilings, setShowCeilings] = useState(false),
+    [separatedFloors, setSeparatedFloors] = useState(false),
+    [viewPreset, setViewPreset] = useState<HouseViewPreset>("perspective"),
+    [cameraRequest, setCameraRequest] = useState<{
+      revision: number;
+      preset?: HouseViewPreset;
+    }>({ revision: 0 }),
     [doorTool, setDoorTool] = useState(false),
     [walkRoomId, setWalkRoomId] = useState(""),
     [toolSettings, setToolSettings] = useState<{
@@ -143,6 +156,7 @@ export default function Editor() {
     },
   };
   function commit(i: Item) {
+    if (overview || s.mode === "walk") return;
     s.select(i.id);
     s.dispatch({
       type: "transform",
@@ -176,11 +190,12 @@ export default function Editor() {
     s.setMode(v);
   };
   const show = (v: Panel) => {
-    if (s.mode === "walk") return;
+    if (s.mode === "walk" || overview) return;
     setPanel(panel === v ? null : v);
     setExpanded(false);
   };
   const place = (a: AssetRecord) => {
+    if (overview || s.mode === "walk") return;
     if (a.stage === "needs-rework") {
       setMessage("This model is being updated. Choose another piece for now.");
       return;
@@ -210,6 +225,7 @@ export default function Editor() {
   };
   const activeTool = toolSettings ?? s.library.lastDoor;
   const wallTap = (id: string, offset: number) => {
+    if (overview || s.mode === "walk") return;
     setWallId(id);
     const d = activeTool;
     const o: Opening = {
@@ -236,6 +252,7 @@ export default function Editor() {
     .map(assetConflict)
     .filter(Boolean);
   const select = (id: string | null) => {
+    if (overview || s.mode === "walk") return;
     if (id?.startsWith("opening:")) {
       setSelectedDoor(id.slice(8));
       setPanel("opening");
@@ -245,9 +262,18 @@ export default function Editor() {
       setSelectedDoor(null);
     }
   };
+  const roomMoveIds = connectedRoomIds(floor, room.id);
+  const roomMoveLocks = floor.items.filter(
+    (item) => roomMoveIds.has(item.roomId) && item.locked,
+  );
+  const movingRoom =
+    panel === "move-room" && s.mode === "2d" && roomMoveLocks.length === 0;
+  const previewFloor = movingRoom
+    ? translatedRoomGroup(floor, room.id, roomMoveOffset)
+    : floor;
   const interaction = {
-    floor,
-    room,
+    floor: previewFloor,
+    room: previewFloor.rooms.find((r) => r.id === room.id) ?? room,
     mode: s.mode,
     selected: s.selected,
     selectedOpening: opening?.id ?? null,
@@ -259,8 +285,30 @@ export default function Editor() {
     onDraft: setDraft,
     onWalkRoom: setWalkRoomId,
     cutaway,
-    allRooms,
+    allRooms: movingRoom || allRooms,
+    roomMove: movingRoom
+      ? {
+          originalFloor: floor,
+          roomIds: connectedRoomIds(floor, room.id),
+          offset: roomMoveOffset,
+          onOffsetChange: setRoomMoveOffset,
+        }
+      : undefined,
     allFloors: overview ? project.floors : undefined,
+    showCeilings,
+    separatedFloorGap: separatedFloors
+      ? Math.min(
+          20,
+          Math.max(
+            1.5,
+            ...project.floors.flatMap((f) =>
+              f.rooms.map((r) => (r.ceiling ?? f.ceiling) + 0.5),
+            ),
+          ),
+        )
+      : 0,
+    cameraRequest,
+    onCameraOrbit: () => setViewPreset("perspective"),
   };
   return (
     <Page>
@@ -356,7 +404,8 @@ export default function Editor() {
             style={{ flexDirection: "row", justifyContent: "space-between" }}
           >
             {s.mode !== "walk" ? (
-              s.history.past.length || s.history.future.length ? (
+              !overview &&
+              (s.history.past.length || s.history.future.length) ? (
                 <View style={{ flexDirection: "row", gap: 4 }}>
                   <IconButton
                     name="undo"
@@ -385,11 +434,33 @@ export default function Editor() {
             )}
           </View>
         </View>
-        {overview && (
+        {overview && !panel && (
           <View
-            style={{ position: "absolute", bottom: 80, alignSelf: "center" }}
+            style={{
+              position: "absolute",
+              bottom: 16,
+              left: 20,
+              right: 20,
+              flexDirection: "row",
+              gap: 8,
+            }}
           >
-            <Button label="Return to room" onPress={() => setOverview(false)} />
+            <Button
+              label="View options"
+              onPress={() => {
+                setExpanded(false);
+                setPanel("views");
+              }}
+              style={{ flex: 1 }}
+            />
+            <Button
+              label="Return to room"
+              onPress={() => {
+                setOverview(false);
+                setAllRooms(false);
+              }}
+              style={{ flex: 1 }}
+            />
           </View>
         )}
         {doorTool && (
@@ -641,7 +712,43 @@ export default function Editor() {
             </Txt>
           </View>
         )}
-        {panel && (
+        {panel === "views" && (
+          <View
+            onLayout={(e) => setSheetHeight(e.nativeEvent.layout.height)}
+            style={{ position: "absolute", bottom: 0, left: 0, right: 0 }}
+          >
+            <HouseViews
+              scope={overview ? "house" : allRooms ? "floor" : "room"}
+              onScopeChange={(scope) => {
+                setOverview(scope === "house");
+                setAllRooms(scope !== "room");
+                s.select(null);
+                setSelectedDoor(null);
+                setDraft(null);
+              }}
+              cutaway={cutaway}
+              onCutawayChange={setCutaway}
+              onFit={() => {
+                setCameraRequest((v) => ({ revision: v.revision + 1 }));
+                setPanel(null);
+              }}
+              onClose={() => setPanel(null)}
+              availableHeight={editorHeight}
+              expanded={expanded}
+              onExpand={() => setExpanded(!expanded)}
+              preset={viewPreset}
+              onPresetChange={(preset) => {
+                setViewPreset(preset);
+                setCameraRequest((v) => ({ revision: v.revision + 1, preset }));
+              }}
+              showCeilings={showCeilings}
+              onCeilingsChange={setShowCeilings}
+              separatedFloors={separatedFloors}
+              onSeparatedFloorsChange={setSeparatedFloors}
+            />
+          </View>
+        )}
+        {panel && panel !== "views" && (
           <View
             onLayout={(e) => setSheetHeight(e.nativeEvent.layout.height)}
             style={{ position: "absolute", bottom: 0, left: 0, right: 0 }}
@@ -654,6 +761,7 @@ export default function Editor() {
                   surfaces: "Surfaces",
                   build: "Build",
                   dimensions: "Room dimensions",
+                  "move-room": "Move room",
                   doors: "Doors",
                   windows: "Windows",
                   floors: "Floors and rooms",
@@ -703,10 +811,36 @@ export default function Editor() {
                   key={
                     room.id +
                     s.library.settings.unit +
-                    JSON.stringify([room.polygon, room.ceiling, floor.ceiling])
+                    JSON.stringify([
+                      room.polygon,
+                      room.ceiling,
+                      floor.ceiling,
+                      floor.walls,
+                    ])
                   }
                   floor={floor}
                   room={room}
+                />
+              ) : panel === "move-room" ? (
+                <RoomMove
+                  key={room.id + s.library.settings.unit}
+                  offset={roomMoveOffset}
+                  unit={s.library.settings.unit}
+                  roomCount={connectedRoomIds(floor, room.id).size}
+                  lockedCount={roomMoveLocks.length}
+                  onChange={setRoomMoveOffset}
+                  onCancel={() => setPanel(null)}
+                  onApply={() => {
+                    if (
+                      s.dispatch({
+                        type: "move-room",
+                        floorId: floor.id,
+                        roomId: room.id,
+                        ...roomMoveOffset,
+                      })
+                    )
+                      setPanel(null);
+                  }}
                 />
               ) : panel === "doors" || panel === "windows" ? (
                 <DoorPicker
@@ -736,10 +870,11 @@ export default function Editor() {
                       floor.alignment,
                     ])
                   }
-                  readOnly={s.mode === "walk"}
+                  readOnly={s.mode === "walk" || overview}
                   onDone={() => {
                     setWalkRoomId("");
                     setPanel(null);
+                    if (overview) setAllRooms(false);
                     setOverview(false);
                   }}
                   onOverview={() => {
@@ -900,6 +1035,29 @@ export default function Editor() {
                     />
                   ))}
                   <Button
+                    label="Move room"
+                    onPress={() => {
+                      const locked = roomMoveLocks[0];
+                      if (locked) {
+                        s.selectRoom(floor.id, locked.roomId);
+                        s.select(locked.id);
+                        setPanel(null);
+                        setMessage(
+                          "Unlock this furniture before moving its connected rooms.",
+                        );
+                        return;
+                      }
+                      setMessage("");
+                      s.select(null);
+                      setSelectedDoor(null);
+                      setDoorTool(false);
+                      setOverview(false);
+                      setRoomMoveOffset({ x: 0, z: 0 });
+                      s.setMode("2d");
+                      setPanel("move-room");
+                    }}
+                  />
+                  <Button
                     label={`Quick door · ${doorNames[s.library.lastDoor.type]}`}
                     icon="door"
                     onPress={() => {
@@ -910,17 +1068,12 @@ export default function Editor() {
                     }}
                   />
                   <Button
-                    label="Cut away near walls"
+                    label="View options"
                     icon="eye"
-                    selected={cutaway}
-                    onPress={() => setCutaway(!cutaway)}
-                  />
-                  <Button
-                    label="Whole-floor view"
-                    selected={allRooms}
                     onPress={() => {
-                      setAllRooms(!allRooms);
-                      setPanel(null);
+                      s.setMode("3d");
+                      setExpanded(false);
+                      setPanel("views");
                     }}
                   />
                 </ScrollView>

@@ -136,7 +136,7 @@ let browser, page;
   );
   const saved = (await read()).present.floors[0],
     opening = saved.openings[0],
-    expected = G.openingDimensions(saved, opening);
+    expected = G.openingInsideDimensions(saved, opening);
   const rows = await page
     .getByTestId("plan-canvas")
     .locator("svg")
@@ -160,7 +160,7 @@ let browser, page;
       }),
     );
   for (const chain of expected) {
-    const row = rows.find((r) => r.name === chain.name);
+    const row = rows.find((r) => r.name === chain.name + " · inside");
     assert.ok(row, chain.name);
     assert.deepEqual(
       [...row.values].sort(),

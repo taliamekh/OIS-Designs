@@ -1,5 +1,5 @@
 import { router } from "expo-router";
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import { libraryStorage } from "../storage/library";
 import { ScrollView, View } from "react-native";
 import Svg, { Circle, Path, Polygon, Text as SvgText } from "react-native-svg";
@@ -11,6 +11,7 @@ import {
   toDisplay,
   toMetres,
   validPolygon,
+  roomInsideDimensions,
 } from "../domain/geometry";
 import { makeFloor, makeRoom } from "../domain/project";
 import { DraftStore, FloorDraft } from "../domain/draft";
@@ -100,6 +101,12 @@ export default function FloorPlanDraft({
     pinch = useRef<{ distance: number; zoom: number; anchor: Point } | null>(
       null,
     );
+  const measurementFloor = useMemo(() => {
+    const floor = makeFloor();
+    floor.rooms = rooms;
+    floor.walls = rebuildWalls(rooms);
+    return floor;
+  }, [rooms]);
   const frame = activeGuide
       ? bounds(activeGuide)
       : { minX: 0, minZ: 0, maxX: 10, maxZ: 8 },
@@ -243,7 +250,8 @@ export default function FloorPlanDraft({
           />
           <Txt small muted>
             Tap room corners on the plan. Drag to pan; pinch to zoom. Corners
-            snap to10 cm.
+            snap to10 cm. Drawing edges follow wall reference lines; closed room
+            sizes measure inside wall faces, before trim.
           </Txt>
         </View>
         <View
@@ -367,6 +375,13 @@ export default function FloorPlanDraft({
               ))}
               {rooms.map((r) => {
                 const b = bounds(r.polygon);
+                let dimensions = "Inside size unavailable";
+                try {
+                  const inside = roomInsideDimensions(measurementFloor, r);
+                  dimensions = `${measure(inside.width, unit)} × ${measure(inside.depth, unit)} inside`;
+                } catch {
+                  // The draft remains recoverable even if thick walls collapse an interior.
+                }
                 return (
                   <SvgText
                     key={r.id + "name"}
@@ -375,7 +390,7 @@ export default function FloorPlanDraft({
                     fill={c.ink}
                     fontSize={11}
                   >
-                    {r.name}
+                    {r.name} · {dimensions}
                   </SvgText>
                 );
               })}

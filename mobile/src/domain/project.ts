@@ -28,6 +28,8 @@ import {
   projectToSegment,
   rebuildWalls,
   shapePolygon,
+  newRoomReferenceDimensions,
+  referenceDimensionsForInside,
   validPolygon,
 } from "./geometry";
 import {
@@ -36,6 +38,7 @@ import {
   validProject,
   validTrim,
 } from "./persistence";
+import { connectedRoomIds, translatedRoomGroup } from "./roomMove";
 
 export function makeRoom(kind: RoomKind, name: string, polygon: Point[]): Room {
   return {
@@ -70,6 +73,7 @@ export function makeProject(
   height = 2.7,
   shape = "rectangle",
   polygon?: Point[],
+  dimensionMode: "reference" | "inside" = "reference",
 ): Project {
   if (
     ![width, depth, height].every(Number.isFinite) ||
@@ -86,13 +90,17 @@ export function makeProject(
     );
   const floor = makeFloor();
   floor.ceiling = height;
+  const reference =
+    dimensionMode === "inside" && !polygon
+      ? newRoomReferenceDimensions(width, depth)
+      : { width, depth };
   floor.rooms = [
     makeRoom(
       kind,
       kind === "living"
         ? "Living room"
         : kind.charAt(0).toUpperCase() + kind.slice(1),
-      polygon ?? shapePolygon(shape, width, depth),
+      polygon ?? shapePolygon(shape, reference.width, reference.depth),
     ),
   ];
   floor.walls = rebuildWalls(floor.rooms);
@@ -203,6 +211,8 @@ export type Command =
       width: number;
       depth: number;
       ceiling: number | null;
+      /** Explicit UI conversion; legacy callers retain reference-coordinate semantics. */
+      dimensionMode?: "reference" | "inside";
     }
   | {
       type: "floor-finish";
@@ -232,8 +242,14 @@ export type Command =
       wallId: string;
       thickness: number;
     }
-  | { type: "add-room"; floorId: string; room: Room }
+  | {
+      type: "add-room";
+      floorId: string;
+      room: Room;
+      insideDimensions?: { width: number; depth: number };
+    }
   | { type: "room-polygon"; floorId: string; roomId: string; polygon: Point[] }
+  | { type: "move-room"; floorId: string; roomId: string; x: number; z: number }
   | { type: "add-floor"; floor: Floor }
   | {
       type: "floor-settings";
@@ -454,6 +470,7 @@ function applyCommand(
       "wall-thickness",
       "add-room",
       "room-polygon",
+      "move-room",
       "add-floor",
       "floor-settings",
       "rename",
@@ -527,6 +544,37 @@ function applyCommand(
     f.rooms.push(command.room);
     error = reconcileWalls(f, previous);
     if (error) return fail(error);
+    if (command.insideDimensions) {
+      const { width, depth } = command.insideDimensions;
+      if (
+        ![width, depth].every(Number.isFinite) ||
+        width < 0.5 ||
+        depth < 0.5 ||
+        width > 50 ||
+        depth > 50
+      )
+        return fail("Use inside room dimensions from 0.5–50 m.");
+      const added = f.rooms.find((room) => room.id === command.room.id)!;
+      const reference = referenceDimensionsForInside(f, added, width, depth),
+        box = bounds(added.polygon);
+      added.polygon = added.polygon.map((point) => ({
+        x:
+          box.minX +
+          ((point.x - box.minX) * reference.width) / (box.maxX - box.minX),
+        z:
+          box.minZ +
+          ((point.z - box.minZ) * reference.depth) / (box.maxZ - box.minZ),
+      }));
+      if (
+        f.rooms.some(
+          (room) =>
+            room.id !== added.id && overlaps(room.polygon, added.polygon),
+        )
+      )
+        return fail("The requested inside size would overlap another room.");
+      error = reconcileWalls(f, previous);
+      if (error) return fail(error);
+    }
   }
   if (command.type === "room-polygon" && f && room) {
     if (!validPolygon(command.polygon))
@@ -539,6 +587,35 @@ function applyCommand(
       return fail("Edited outline overlaps another room.");
     const previous = clone(f);
     room.polygon = command.polygon;
+    error = reconcileWalls(f, previous);
+    if (error) return fail(error);
+  }
+  if (command.type === "move-room" && f && room) {
+    if (
+      ![command.x, command.z].every(Number.isFinite) ||
+      Math.abs(command.x) > 100 ||
+      Math.abs(command.z) > 100
+    )
+      return fail("Use a finite room offset within 100 m.");
+    if (command.x === 0 && command.z === 0) return { history, error: null };
+    const previous = clone(f),
+      ids = connectedRoomIds(f, room.id);
+    if (f.items.some((item) => ids.has(item.roomId) && item.locked))
+      return fail(
+        "Unlock the furniture in these connected rooms before moving them.",
+      );
+    const moved = translatedRoomGroup(f, room.id, command);
+    if (
+      moved.rooms.some(
+        (a) =>
+          ids.has(a.id) &&
+          moved.rooms.some(
+            (b) => !ids.has(b.id) && overlaps(a.polygon, b.polygon),
+          ),
+      )
+    )
+      return fail("Moving these rooms would overlap another room.");
+    Object.assign(f, moved);
     error = reconcileWalls(f, previous);
     if (error) return fail(error);
   }
@@ -555,12 +632,33 @@ function applyCommand(
           command.ceiling > 8))
     )
       return fail("Use room dimensions 0.5–50 m and ceiling 1.8–8 m.");
-    const previous = clone(f),
-      b = bounds(room.polygon);
-    room.polygon = room.polygon.map((v) => ({
-      x: b.minX + ((v.x - b.minX) * command.width) / (b.maxX - b.minX),
-      z: b.minZ + ((v.z - b.minZ) * command.depth) / (b.maxZ - b.minZ),
-    }));
+    let reference = { width: command.width, depth: command.depth };
+    if (command.dimensionMode === "inside") {
+      try {
+        reference = referenceDimensionsForInside(
+          f,
+          room,
+          command.width,
+          command.depth,
+        );
+      } catch (error) {
+        return fail(
+          error instanceof Error
+            ? error.message
+            : "Inside dimensions cannot be applied.",
+        );
+      }
+    }
+    const b = bounds(room.polygon),
+      resized =
+        reference.width !== b.maxX - b.minX ||
+        reference.depth !== b.maxZ - b.minZ,
+      previous = resized ? clone(f) : null;
+    if (resized)
+      room.polygon = room.polygon.map((v) => ({
+        x: b.minX + ((v.x - b.minX) * reference.width) / (b.maxX - b.minX),
+        z: b.minZ + ((v.z - b.minZ) * reference.depth) / (b.maxZ - b.minZ),
+      }));
     room.ceiling = command.ceiling;
     if (
       f.rooms.some((r) => r.id !== room.id && overlaps(r.polygon, room.polygon))
@@ -568,8 +666,10 @@ function applyCommand(
       return fail(
         "Resizing would overlap another room. Edit the outline or neighbouring room first.",
       );
-    error = reconcileWalls(f, previous);
-    if (error) return fail(error);
+    if (previous) {
+      error = reconcileWalls(f, previous);
+      if (error) return fail(error);
+    }
   }
   if (command.type === "add-item" && f) {
     const a = assetForItem(command.item, assets),
@@ -677,6 +777,7 @@ function applyCommand(
       [
         "room-dimensions",
         "room-polygon",
+        "move-room",
         "floor-settings",
         "trim",
         "transform",

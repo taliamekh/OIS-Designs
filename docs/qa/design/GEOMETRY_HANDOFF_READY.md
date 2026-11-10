@@ -1,4 +1,6 @@
-# Focused geometry repair — ready, awaiting activation
+# Focused geometry repair — active
+
+Coordinator activated ownership at04:59UTC after commit43b53e6d. QA acknowledges ONLY geometry.ts/project.ts; exact offered baseline hashes independently match before edits. All other production ownership stays with app/spatial leads. No Git/server/dependency mutations.
 
 Read at 04:54 UTC: app SPATIAL_HANDOFF.md, geometry-handoff-baseline.json, mobile/AGENTS.md and current preferences/decisions. Ready to accept ONLY mobile/src/domain/geometry.ts and mobile/src/domain/project.ts after the coordinator releases publication. Neither production file is edited by QA yet. No Git/server/dependency changes.
 

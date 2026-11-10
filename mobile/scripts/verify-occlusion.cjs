@@ -98,8 +98,9 @@ let browser, page;
     globalThis.__oisSceneProbe?.().items.some((i) => i.id === "occluded-sofa"),
   );
   await click("Build");
-  await click("Cut away near walls");
-  await click("Close Build");
+  await click("View options");
+  await click("Solid");
+  await click("Close View options");
   await page.waitForTimeout(150);
   const before = await history(),
     beforeProbe = await probe(),
@@ -142,8 +143,9 @@ let browser, page;
     path: path.join(out, "screens/opaque-wall-after-orbit.png"),
   });
   await click("Build");
-  await click("Cut away near walls");
-  await click("Close Build");
+  await click("View options");
+  await click("Cutaway");
+  await click("Close View options");
   await page.waitForTimeout(150);
   const visiblePoint = await target();
   await page.touchscreen.tap(visiblePoint.x, visiblePoint.y);

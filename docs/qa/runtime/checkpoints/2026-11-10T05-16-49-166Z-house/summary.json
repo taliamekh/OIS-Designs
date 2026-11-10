@@ -1,0 +1,1257 @@
+{
+  "at": "2026-11-10T05:16:49.166Z",
+  "phaseScope": "Original Phase2 validation and bounded Phase3 baseline; physical Phase1 acceptance remains open.",
+  "notOverallSignoff": true,
+  "minimumContinuedWorkGate": "2026-11-10T06:53:00Z",
+  "sourceHash": "67cbdc5ce2371c0469120838b009af97facfaff351efb40f65e4fad521759573",
+  "freezeRun": "2026-11-10T04-49-58-665Z-frozen-web",
+  "compiledSourceMatches": 55,
+  "fixtureSHA256": "d06165de0f878af2210174386c36bf560ee1d108fd9c3305d755e246cfe75413",
+  "fixtureBytes": 21085,
+  "scope": "Synthetic two-floor/six-room baseline;40 exact old saved model revisions in new1187-revision consumer,41 placements. Not current-release visual acceptance,user approval,native/device performance,stair traversal,or complete Phase3.",
+  "floors": [
+    {
+      "id": "floor-mwa7m3dr-ct4zaq4",
+      "name": "Ground",
+      "elevation": 0,
+      "ceiling": 4.2,
+      "alignment": {
+        "x": 0,
+        "z": 0
+      },
+      "rooms": [
+        {
+          "id": "room-mwa7m3dt-gzwoj4t",
+          "name": "Ground living",
+          "ceiling": 4.2,
+          "polygon": [
+            {
+              "x": 0,
+              "z": 0
+            },
+            {
+              "x": 14,
+              "z": 0
+            },
+            {
+              "x": 14,
+              "z": 14
+            },
+            {
+              "x": 0,
+              "z": 14
+            }
+          ]
+        },
+        {
+          "id": "room-mwa7m3dt-zlwfsl7",
+          "name": "Ground kitchen",
+          "ceiling": 5,
+          "polygon": [
+            {
+              "x": 14,
+              "z": 0
+            },
+            {
+              "x": 28,
+              "z": 0
+            },
+            {
+              "x": 28,
+              "z": 14
+            },
+            {
+              "x": 14,
+              "z": 14
+            }
+          ]
+        },
+        {
+          "id": "room-mwa7m3dt-o8kioxz",
+          "name": "Ground dining",
+          "ceiling": 5.5,
+          "polygon": [
+            {
+              "x": 0,
+              "z": 14
+            },
+            {
+              "x": 14,
+              "z": 14
+            },
+            {
+              "x": 14,
+              "z": 28
+            },
+            {
+              "x": 0,
+              "z": 28
+            }
+          ]
+        }
+      ],
+      "items": 21
+    },
+    {
+      "id": "floor-mwa7m3dt-ivb17ct",
+      "name": "Upper",
+      "elevation": 6.2,
+      "ceiling": 4.4,
+      "alignment": {
+        "x": 3.2,
+        "z": -2.1
+      },
+      "rooms": [
+        {
+          "id": "room-mwa7m3dt-7c7b2lk",
+          "name": "Upper bedroom",
+          "ceiling": 4.4,
+          "polygon": [
+            {
+              "x": 0,
+              "z": 0
+            },
+            {
+              "x": 14,
+              "z": 0
+            },
+            {
+              "x": 14,
+              "z": 14
+            },
+            {
+              "x": 0,
+              "z": 14
+            }
+          ]
+        },
+        {
+          "id": "room-mwa7m3dt-ndkbdxs",
+          "name": "Upper office",
+          "ceiling": 5.2,
+          "polygon": [
+            {
+              "x": 14,
+              "z": 0
+            },
+            {
+              "x": 28,
+              "z": 0
+            },
+            {
+              "x": 28,
+              "z": 14
+            },
+            {
+              "x": 14,
+              "z": 14
+            }
+          ]
+        },
+        {
+          "id": "room-mwa7m3dt-93p9rxl",
+          "name": "Upper bedroom2",
+          "ceiling": 4.8,
+          "polygon": [
+            {
+              "x": 0,
+              "z": 14
+            },
+            {
+              "x": 14,
+              "z": 14
+            },
+            {
+              "x": 14,
+              "z": 28
+            },
+            {
+              "x": 0,
+              "z": 28
+            }
+          ]
+        }
+      ],
+      "items": 20
+    }
+  ],
+  "models": [
+    {
+      "id": "qa-house-tint-A",
+      "assetId": "ois.design.rail-frame-sofa",
+      "assetVersion": "0.7.0",
+      "assetHash": "cfe47a3e8f9fa7258280449eda7023af4b1457acdfea4aedcc458899c71a4c55",
+      "floorId": "floor-mwa7m3dr-ct4zaq4",
+      "roomId": "room-mwa7m3dt-gzwoj4t",
+      "expectedWorldCentre": [
+        3,
+        0.41276328601944867,
+        11.2
+      ]
+    },
+    {
+      "id": "qa-house-tint-B",
+      "assetId": "ois.design.rail-frame-sofa",
+      "assetVersion": "0.7.0",
+      "assetHash": "cfe47a3e8f9fa7258280449eda7023af4b1457acdfea4aedcc458899c71a4c55",
+      "floorId": "floor-mwa7m3dr-ct4zaq4",
+      "roomId": "room-mwa7m3dt-gzwoj4t",
+      "expectedWorldCentre": [
+        9.2,
+        0.41276328601944867,
+        11.2
+      ]
+    },
+    {
+      "id": "qa-house-model-0",
+      "assetId": "ois.design.arched-reading-nook",
+      "assetVersion": "0.5.0",
+      "assetHash": "4266e693e06154cd017237a14e17f5b0327f33365deec77975af6bf215f57bbd",
+      "floorId": "floor-mwa7m3dr-ct4zaq4",
+      "roomId": "room-mwa7m3dt-gzwoj4t",
+      "expectedWorldCentre": [
+        2,
+        0.7500000111758709,
+        2
+      ]
+    },
+    {
+      "id": "qa-house-model-1",
+      "assetId": "ois.design.bolster-daybed",
+      "assetVersion": "0.7.0",
+      "assetHash": "fcef3a649d94e149275271aec8244beb253abf9940f3ace9555e3a7d749ddf53",
+      "floorId": "floor-mwa7m3dr-ct4zaq4",
+      "roomId": "room-mwa7m3dt-gzwoj4t",
+      "expectedWorldCentre": [
+        6,
+        0.3418055594781716,
+        2
+      ]
+    },
+    {
+      "id": "qa-house-model-2",
+      "assetId": "ois.design.camelback-sofa",
+      "assetVersion": "0.7.0",
+      "assetHash": "b193965b48832b8b8e369e0462b6970a8d585b3ca2214ada71585c93a2a22a11",
+      "floorId": "floor-mwa7m3dr-ct4zaq4",
+      "roomId": "room-mwa7m3dt-gzwoj4t",
+      "expectedWorldCentre": [
+        10,
+        0.4774753028074098,
+        2
+      ]
+    },
+    {
+      "id": "qa-house-model-3",
+      "assetId": "ois.design.cane-head-bed",
+      "assetVersion": "0.7.0",
+      "assetHash": "c952952e87100d4c2f53facdcb883742c0a669790ed6400d32e6442a972eac66",
+      "floorId": "floor-mwa7m3dr-ct4zaq4",
+      "roomId": "room-mwa7m3dt-gzwoj4t",
+      "expectedWorldCentre": [
+        2,
+        0.5659912691702899,
+        6
+      ]
+    },
+    {
+      "id": "qa-house-model-4",
+      "assetId": "ois.design.cantilever-lounge",
+      "assetVersion": "0.7.0",
+      "assetHash": "0aa1d2467b3b048e3e2ff6c30c2bbfc736ac96a1ea1f16f79bce49d5b757301b",
+      "floorId": "floor-mwa7m3dr-ct4zaq4",
+      "roomId": "room-mwa7m3dt-gzwoj4t",
+      "expectedWorldCentre": [
+        6,
+        0.4385727494955063,
+        6
+      ]
+    },
+    {
+      "id": "qa-house-model-5",
+      "assetId": "ois.design.chaise-return-sofa",
+      "assetVersion": "0.7.0",
+      "assetHash": "092f78a0d5ee57148beffe6a60d822d6081581a6f7dac15a3dbf8c30edd226bd",
+      "floorId": "floor-mwa7m3dr-ct4zaq4",
+      "roomId": "room-mwa7m3dt-zlwfsl7",
+      "expectedWorldCentre": [
+        16,
+        0.41584915755961394,
+        2
+      ]
+    },
+    {
+      "id": "qa-house-model-6",
+      "assetId": "ois.design.channel-upholstered-bed",
+      "assetVersion": "0.5.0",
+      "assetHash": "c56f6966f6c1a8e982835adf024c0943142c95e411561a9f84df5be74591e90b",
+      "floorId": "floor-mwa7m3dr-ct4zaq4",
+      "roomId": "room-mwa7m3dt-zlwfsl7",
+      "expectedWorldCentre": [
+        20,
+        0.6359912603458001,
+        2
+      ]
+    },
+    {
+      "id": "qa-house-model-7",
+      "assetId": "ois.design.club-armchair",
+      "assetVersion": "0.7.0",
+      "assetHash": "59b6af07b4114c233bb2fdebc426200051f24464ea18b6812cd784bcfe6e1076",
+      "floorId": "floor-mwa7m3dr-ct4zaq4",
+      "roomId": "room-mwa7m3dt-zlwfsl7",
+      "expectedWorldCentre": [
+        24,
+        0.4366588603634706,
+        2
+      ]
+    },
+    {
+      "id": "qa-house-model-8",
+      "assetId": "ois.design.corner-wrap-sofa",
+      "assetVersion": "0.7.0",
+      "assetHash": "e9f1cef6e632a618ed2b8c48b2f89db7e49d3f62df1e34fbc13f4ed85e8e8dc0",
+      "floorId": "floor-mwa7m3dr-ct4zaq4",
+      "roomId": "room-mwa7m3dt-zlwfsl7",
+      "expectedWorldCentre": [
+        16,
+        0.46000000089406967,
+        6
+      ]
+    },
+    {
+      "id": "qa-house-model-9",
+      "assetId": "ois.design.draped-canopy-bed",
+      "assetVersion": "0.5.0",
+      "assetHash": "0c8bb29ed3e083110408cca9be777a06461224b71623f64778fd1e1a440c5461",
+      "floorId": "floor-mwa7m3dr-ct4zaq4",
+      "roomId": "room-mwa7m3dt-zlwfsl7",
+      "expectedWorldCentre": [
+        20,
+        1.037000002415579,
+        6
+      ]
+    },
+    {
+      "id": "qa-house-model-10",
+      "assetId": "ois.design.floating-platform-bed",
+      "assetVersion": "0.7.0",
+      "assetHash": "17015fcc35185b1c531f2bf64130861f543067593e0137a951e0d848048bf5bd",
+      "floorId": "floor-mwa7m3dr-ct4zaq4",
+      "roomId": "room-mwa7m3dt-zlwfsl7",
+      "expectedWorldCentre": [
+        24,
+        0.5700000077486038,
+        6
+      ]
+    },
+    {
+      "id": "qa-house-model-11",
+      "assetId": "ois.design.folding-dining",
+      "assetVersion": "0.5.0",
+      "assetHash": "900b30a1ffa986acb3feef8969786c19d41f017f3f2f9b28d2c6d111747bfb2e",
+      "floorId": "floor-mwa7m3dr-ct4zaq4",
+      "roomId": "room-mwa7m3dt-zlwfsl7",
+      "expectedWorldCentre": [
+        16,
+        0.43801313820561033,
+        10
+      ]
+    },
+    {
+      "id": "qa-house-model-12",
+      "assetId": "ois.design.hinged-futon",
+      "assetVersion": "0.7.0",
+      "assetHash": "e95ac3a1d488d343913d09db1b3896f2284604bc151d969d74e8002ee648bf5d",
+      "floorId": "floor-mwa7m3dr-ct4zaq4",
+      "roomId": "room-mwa7m3dt-o8kioxz",
+      "expectedWorldCentre": [
+        2,
+        0.47190341198080454,
+        16
+      ]
+    },
+    {
+      "id": "qa-house-model-13",
+      "assetId": "ois.design.kneeling-chair",
+      "assetVersion": "0.5.0",
+      "assetHash": "4c81f23ea134594e235b7a79aa3eee003684c0c29687703376fefdfd9b1d3e9d",
+      "floorId": "floor-mwa7m3dr-ct4zaq4",
+      "roomId": "room-mwa7m3dt-o8kioxz",
+      "expectedWorldCentre": [
+        6,
+        0.3381005351238743,
+        16
+      ]
+    },
+    {
+      "id": "qa-house-model-14",
+      "assetId": "ois.design.open-four-poster",
+      "assetVersion": "0.5.0",
+      "assetHash": "743651a0067a8fdbd2a57cd79b78d8d39c719c141880b8f9837d21b7ae911b35",
+      "floorId": "floor-mwa7m3dr-ct4zaq4",
+      "roomId": "room-mwa7m3dt-o8kioxz",
+      "expectedWorldCentre": [
+        10,
+        1.037000002415579,
+        15.999999999999998
+      ]
+    },
+    {
+      "id": "qa-house-model-15",
+      "assetId": "ois.design.pullout-trundle-bed",
+      "assetVersion": "0.5.0",
+      "assetHash": "2f950708898f9b88cfd58dfdfc44c26167a784358f2770bb9d64ea019978e402",
+      "floorId": "floor-mwa7m3dr-ct4zaq4",
+      "roomId": "room-mwa7m3dt-o8kioxz",
+      "expectedWorldCentre": [
+        2,
+        0.570000045284139,
+        20
+      ]
+    },
+    {
+      "id": "qa-house-model-16",
+      "assetId": "ois.design.reclining-lounge",
+      "assetVersion": "0.7.0",
+      "assetHash": "e5ba186681fdfa3101e8fe5390138328cf025ecfd430abe23dc24a677777be3d",
+      "floorId": "floor-mwa7m3dr-ct4zaq4",
+      "roomId": "room-mwa7m3dt-o8kioxz",
+      "expectedWorldCentre": [
+        6,
+        0.516399669441422,
+        20
+      ]
+    },
+    {
+      "id": "qa-house-model-17",
+      "assetId": "ois.design.rolled-tuft-sofa",
+      "assetVersion": "0.7.0",
+      "assetHash": "8513379a7ea5da6061214d7bf942624c4d6c3946b2219bbe07985531295ccda1",
+      "floorId": "floor-mwa7m3dr-ct4zaq4",
+      "roomId": "room-mwa7m3dt-o8kioxz",
+      "expectedWorldCentre": [
+        10,
+        0.4128717605782726,
+        20
+      ]
+    },
+    {
+      "id": "qa-house-model-18",
+      "assetId": "ois.design.slatted-low-bed",
+      "assetVersion": "0.5.0",
+      "assetHash": "c80aad32750c6019bb86c782e4b515fa6a466ed439f9bc06dc286fe005fd5b3d",
+      "floorId": "floor-mwa7m3dr-ct4zaq4",
+      "roomId": "room-mwa7m3dt-o8kioxz",
+      "expectedWorldCentre": [
+        2,
+        0.5600000706811521,
+        24
+      ]
+    },
+    {
+      "id": "qa-house-model-19",
+      "assetId": "ois.design.sleigh-panel-bed",
+      "assetVersion": "0.5.0",
+      "assetHash": "bcc1350d175a74b4623ce25d76c81407b3c7fabb8f8f1df5cdf6c825aae015df",
+      "floorId": "floor-mwa7m3dt-ivb17ct",
+      "roomId": "room-mwa7m3dt-7c7b2lk",
+      "expectedWorldCentre": [
+        5.2,
+        6.728433703805644,
+        -0.10000000000000009
+      ]
+    },
+    {
+      "id": "qa-house-model-20",
+      "assetId": "ois.design.spindle-head-bed",
+      "assetVersion": "0.7.0",
+      "assetHash": "a84b46417238b7a7da4283e307111501088d4c21c71bdb60baa7bb5ab4b631de",
+      "floorId": "floor-mwa7m3dt-ivb17ct",
+      "roomId": "room-mwa7m3dt-7c7b2lk",
+      "expectedWorldCentre": [
+        9.2,
+        6.7600000443105905,
+        -0.10000000000000009
+      ]
+    },
+    {
+      "id": "qa-house-model-21",
+      "assetId": "ois.design.timber-rocker",
+      "assetVersion": "0.7.0",
+      "assetHash": "2507003ff445c95309a6319b21a2565d4d86a8267dbf8cc85d52904f90334b24",
+      "floorId": "floor-mwa7m3dt-ivb17ct",
+      "roomId": "room-mwa7m3dt-7c7b2lk",
+      "expectedWorldCentre": [
+        13.2,
+        6.713397946953774,
+        -0.10000000000000009
+      ]
+    },
+    {
+      "id": "qa-house-model-22",
+      "assetId": "ois.design.wing-headboard-bed",
+      "assetVersion": "0.5.0",
+      "assetHash": "4aed7a4c28279611dd818e41e68d06109e0c3f67b06fcfd7b3c42566c4cecc3f",
+      "floorId": "floor-mwa7m3dt-ivb17ct",
+      "roomId": "room-mwa7m3dt-7c7b2lk",
+      "expectedWorldCentre": [
+        5.2,
+        6.863491263922079,
+        3.9
+      ]
+    },
+    {
+      "id": "qa-house-model-23",
+      "assetId": "ois.design.wing-reading-chair",
+      "assetVersion": "0.7.0",
+      "assetHash": "0a25416151c6ffe430857f98886f6353520a36a0a3a32a34eecd6bc617162ad5",
+      "floorId": "floor-mwa7m3dt-ivb17ct",
+      "roomId": "room-mwa7m3dt-7c7b2lk",
+      "expectedWorldCentre": [
+        9.2,
+        6.766274809631547,
+        3.9
+      ]
+    },
+    {
+      "id": "qa-house-model-24",
+      "assetId": "ois.design.armless-modules",
+      "assetVersion": "0.7.0",
+      "assetHash": "89502058fbe3ffbf8e7724a36e98038145d52b173637569dfe091b77a149b489",
+      "floorId": "floor-mwa7m3dt-ivb17ct",
+      "roomId": "room-mwa7m3dt-7c7b2lk",
+      "expectedWorldCentre": [
+        13.2,
+        6.6140491858124735,
+        3.9
+      ]
+    },
+    {
+      "id": "qa-house-model-25",
+      "assetId": "ois.design.barrel-enclosure",
+      "assetVersion": "0.7.0",
+      "assetHash": "95398f141780f4322a1c73367cc09b6390ff78846eeb078277ac380d4dc608bc",
+      "floorId": "floor-mwa7m3dt-ivb17ct",
+      "roomId": "room-mwa7m3dt-7c7b2lk",
+      "expectedWorldCentre": [
+        5.2,
+        6.609427632679001,
+        7.9
+      ]
+    },
+    {
+      "id": "qa-house-model-26",
+      "assetId": "ois.design.curved-seven-sofa",
+      "assetVersion": "0.7.0",
+      "assetHash": "ee3f79ad7b666e92f4ea9e9fe59f96f4076ad5a033f90952e9a3742cc0b97de5",
+      "floorId": "floor-mwa7m3dt-ivb17ct",
+      "roomId": "room-mwa7m3dt-ndkbdxs",
+      "expectedWorldCentre": [
+        19.2,
+        6.657500010728836,
+        -0.10000000000000009
+      ]
+    },
+    {
+      "id": "qa-house-model-27",
+      "assetId": "ois.design.director-chair",
+      "assetVersion": "0.5.0",
+      "assetHash": "3191314ebe96a2dad9bedee21c9c88704f08a1af5afa33c30e05db00ceaab610",
+      "floorId": "floor-mwa7m3dt-ivb17ct",
+      "roomId": "room-mwa7m3dt-ndkbdxs",
+      "expectedWorldCentre": [
+        23.2,
+        6.648656685864656,
+        -0.10000000000000009
+      ]
+    },
+    {
+      "id": "qa-house-model-28",
+      "assetId": "ois.design.egg-swivel",
+      "assetVersion": "0.7.0",
+      "assetHash": "b6b128e611be3e9c4f7427bb2efafdada52509ce68eb2ccc1fa9fcd5eb014038",
+      "floorId": "floor-mwa7m3dt-ivb17ct",
+      "roomId": "room-mwa7m3dt-ndkbdxs",
+      "expectedWorldCentre": [
+        27.2,
+        6.754447757459916,
+        -0.10000000000000009
+      ]
+    },
+    {
+      "id": "qa-house-model-29",
+      "assetId": "ois.design.gaslift-counter-stool",
+      "assetVersion": "0.5.0",
+      "assetHash": "763b97acd6cf647d56f3f05af2e9813fc8da57d1f96e51e132149872e0cefba7",
+      "floorId": "floor-mwa7m3dt-ivb17ct",
+      "roomId": "room-mwa7m3dt-ndkbdxs",
+      "expectedWorldCentre": [
+        19.2,
+        6.72719764132826,
+        3.9
+      ]
+    },
+    {
+      "id": "qa-house-model-30",
+      "assetId": "ois.design.hinged-storage-ottoman",
+      "assetVersion": "0.7.0",
+      "assetHash": "b4fc677aafa05be6d1fc166ad3b2b8b37f17f3a88dec65e965cad73021ebc77c",
+      "floorId": "floor-mwa7m3dt-ivb17ct",
+      "roomId": "room-mwa7m3dt-ndkbdxs",
+      "expectedWorldCentre": [
+        23.2,
+        6.409693891959475,
+        3.9
+      ]
+    },
+    {
+      "id": "qa-house-model-31",
+      "assetId": "ois.design.integrated-play-table",
+      "assetVersion": "0.5.1",
+      "assetHash": "e2c65466ad1a61724a8e37cafdfad45cad653a1ee7173604fb1460207f2f05e3",
+      "floorId": "floor-mwa7m3dt-ivb17ct",
+      "roomId": "room-mwa7m3dt-ndkbdxs",
+      "expectedWorldCentre": [
+        27.2,
+        6.48625001013279,
+        3.9
+      ]
+    },
+    {
+      "id": "qa-house-model-32",
+      "assetId": "ois.design.ladderback-dining",
+      "assetVersion": "0.5.0",
+      "assetHash": "dd650a8eb33a32c46e564ec9fc654e90131fee35416d222db3a0694b560b0c63",
+      "floorId": "floor-mwa7m3dt-ivb17ct",
+      "roomId": "room-mwa7m3dt-ndkbdxs",
+      "expectedWorldCentre": [
+        19.2,
+        6.639767549520458,
+        7.9
+      ]
+    },
+    {
+      "id": "qa-house-model-33",
+      "assetId": "ois.design.mesh-task-chair",
+      "assetVersion": "0.5.0",
+      "assetHash": "603b326f24b1e1674f28862750ecc149644a2609543bbf912fd7c2a2c4a573f6",
+      "floorId": "floor-mwa7m3dt-ivb17ct",
+      "roomId": "room-mwa7m3dt-93p9rxl",
+      "expectedWorldCentre": [
+        5.2,
+        6.759553097437336,
+        13.9
+      ]
+    },
+    {
+      "id": "qa-house-model-34",
+      "assetId": "ois.design.murphy-bed",
+      "assetVersion": "0.5.0",
+      "assetHash": "43d0336cf0f9517919bffafea1739bda3b3b234c044580f71df05d60755011a5",
+      "floorId": "floor-mwa7m3dt-ivb17ct",
+      "roomId": "room-mwa7m3dt-93p9rxl",
+      "expectedWorldCentre": [
+        9.2,
+        7.280000028014183,
+        13.9
+      ]
+    },
+    {
+      "id": "qa-house-model-35",
+      "assetId": "ois.design.oval-floor-pouf",
+      "assetVersion": "0.7.0",
+      "assetHash": "244063d662d59d38739aea80aada47aca2bae3f3f4c1fd4edda2d5f89917e21a",
+      "floorId": "floor-mwa7m3dt-ivb17ct",
+      "roomId": "room-mwa7m3dt-93p9rxl",
+      "expectedWorldCentre": [
+        13.2,
+        6.355000001192093,
+        13.9
+      ]
+    },
+    {
+      "id": "qa-house-model-36",
+      "assetId": "ois.design.peacock-chair",
+      "assetVersion": "0.5.0",
+      "assetHash": "177b425f419afee99788f5b316b2d5c35d39f81e3ca8a1dda28d4ec048208143",
+      "floorId": "floor-mwa7m3dt-ivb17ct",
+      "roomId": "room-mwa7m3dt-93p9rxl",
+      "expectedWorldCentre": [
+        5.2,
+        6.981815204242045,
+        17.9
+      ]
+    },
+    {
+      "id": "qa-house-model-37",
+      "assetId": "ois.design.pet-welcome-bed",
+      "assetVersion": "0.7.0",
+      "assetHash": "a33c5ed757e4d2f6519b15c405e781b361678388c535b2ab6bac09db3a6a43d1",
+      "floorId": "floor-mwa7m3dt-ivb17ct",
+      "roomId": "room-mwa7m3dt-93p9rxl",
+      "expectedWorldCentre": [
+        9.2,
+        6.379999995976687,
+        17.9
+      ]
+    },
+    {
+      "id": "qa-house-model-38",
+      "assetId": "ois.design.petal-lounge",
+      "assetVersion": "0.7.0",
+      "assetHash": "4d38f2a3f2d2313e8b48e3b6a1eb7d157bc253d95d83068e7962de562ca2e030",
+      "floorId": "floor-mwa7m3dt-ivb17ct",
+      "roomId": "room-mwa7m3dt-93p9rxl",
+      "expectedWorldCentre": [
+        13.2,
+        6.654407786786959,
+        17.9
+      ]
+    }
+  ],
+  "whole": {
+    "items": 41,
+    "rooms": 6,
+    "cache": {
+      "active": 40,
+      "entries": 40,
+      "idle": 0,
+      "pending": 0,
+      "sharedTextures": {
+        "duplicates": 306,
+        "leases": 315,
+        "textures": 9
+      },
+      "sourceBytes": 22178628,
+      "textureSets": 1,
+      "wanted": 40
+    },
+    "camera": [
+      81.96138816143245,
+      84.81355979700268,
+      84.1840493065167
+    ],
+    "memory": {
+      "geometries": 218,
+      "textures": 12
+    },
+    "mode": "3d"
+  },
+  "orbit": {
+    "beforeCamera": [
+      81.96138816143245,
+      84.81355979700268,
+      84.1840493065167
+    ],
+    "afterCamera": [
+      61.08471839256941,
+      95.88944798173594,
+      87.13745984662404
+    ],
+    "unchangedPublicBackup": true
+  },
+  "coldFirstRoom": {
+    "items": 7,
+    "rooms": 1,
+    "cache": {
+      "active": 6,
+      "entries": 6,
+      "idle": 0,
+      "pending": 0,
+      "sharedTextures": {
+        "duplicates": 45,
+        "leases": 54,
+        "textures": 9
+      },
+      "sourceBytes": 3428932,
+      "textureSets": 1,
+      "wanted": 6
+    },
+    "camera": [
+      37.25617110357132,
+      38.28998593617149,
+      39.47776521755753
+    ],
+    "memory": {
+      "geometries": 35,
+      "textures": 12
+    },
+    "mode": "3d"
+  },
+  "upperOffice": {
+    "items": 7,
+    "rooms": 1,
+    "cache": {
+      "active": 7,
+      "entries": 13,
+      "idle": 6,
+      "pending": 0,
+      "sharedTextures": {
+        "duplicates": 87,
+        "leases": 96,
+        "textures": 9
+      },
+      "sourceBytes": 6389256,
+      "textureSets": 1,
+      "wanted": 7
+    },
+    "camera": [
+      39.0261316354094,
+      23.83767636509742,
+      26.34972105464161
+    ],
+    "memory": {
+      "geometries": 56,
+      "textures": 12
+    },
+    "mode": "3d"
+  },
+  "upperFields": {
+    "x": "3.200",
+    "z": "-2.100",
+    "elevation": "6.200",
+    "ceiling": "4.400"
+  },
+  "groundKitchen": {
+    "items": 7,
+    "rooms": 1,
+    "cache": {
+      "active": 7,
+      "entries": 15,
+      "idle": 8,
+      "pending": 0,
+      "sharedTextures": {
+        "duplicates": 150,
+        "leases": 114,
+        "textures": 9
+      },
+      "sourceBytes": 8019804,
+      "textureSets": 1,
+      "wanted": 7
+    },
+    "camera": [
+      51.42220076739086,
+      38.79534288012606,
+      39.655985800136285
+    ],
+    "memory": {
+      "geometries": 62,
+      "textures": 12
+    },
+    "mode": "3d"
+  },
+  "coldRoomJumpsWhole": {
+    "items": 41,
+    "rooms": 6,
+    "cache": {
+      "active": 40,
+      "entries": 40,
+      "idle": 0,
+      "pending": 0,
+      "sharedTextures": {
+        "duplicates": 351,
+        "leases": 315,
+        "textures": 9
+      },
+      "sourceBytes": 22178628,
+      "textureSets": 1,
+      "wanted": 40
+    },
+    "camera": [
+      81.96138816143245,
+      84.81355979700268,
+      84.1840493065167
+    ],
+    "memory": {
+      "geometries": 218,
+      "textures": 12
+    },
+    "mode": "3d"
+  },
+  "narrow": {
+    "dom": {
+      "canvas": [
+        {
+          "height": 497,
+          "width": 320,
+          "x": 0,
+          "y": 71
+        }
+      ],
+      "height": 568,
+      "scrollWidth": 320,
+      "width": 320
+    },
+    "probe": {
+      "items": 41,
+      "rooms": 6,
+      "cache": {
+        "active": 40,
+        "entries": 40,
+        "idle": 0,
+        "pending": 0,
+        "sharedTextures": {
+          "duplicates": 351,
+          "leases": 315,
+          "textures": 9
+        },
+        "sourceBytes": 22178628,
+        "textureSets": 1,
+        "wanted": 40
+      },
+      "camera": [
+        68.18538010902371,
+        68.10633521127166,
+        69.39652204043438
+      ],
+      "memory": {
+        "geometries": 218,
+        "textures": 12
+      },
+      "mode": "3d"
+    }
+  },
+  "landscape": {
+    "dom": {
+      "canvas": [
+        {
+          "height": 325,
+          "width": 844,
+          "x": 0,
+          "y": 65
+        }
+      ],
+      "height": 390,
+      "scrollWidth": 844,
+      "width": 844
+    },
+    "probe": {
+      "items": 41,
+      "rooms": 6,
+      "cache": {
+        "active": 40,
+        "entries": 40,
+        "idle": 0,
+        "pending": 0,
+        "sharedTextures": {
+          "duplicates": 351,
+          "leases": 315,
+          "textures": 9
+        },
+        "sourceBytes": 22178628,
+        "textureSets": 1,
+        "wanted": 40
+      },
+      "camera": [
+        43.831894103896246,
+        38.57098951568176,
+        43.25485335419923
+      ],
+      "memory": {
+        "geometries": 218,
+        "textures": 12
+      },
+      "mode": "3d"
+    }
+  },
+  "upperWalk": {
+    "probe": {
+      "items": 20,
+      "rooms": 3,
+      "cache": {
+        "active": 20,
+        "entries": 20,
+        "idle": 0,
+        "pending": 0,
+        "sharedTextures": {
+          "duplicates": 396,
+          "leases": 135,
+          "textures": 9
+        },
+        "sourceBytes": 9531164,
+        "textureSets": 1,
+        "wanted": 20
+      },
+      "camera": [
+        21,
+        1.6,
+        7
+      ],
+      "memory": {
+        "geometries": 51,
+        "textures": 12
+      },
+      "mode": "walk"
+    },
+    "dom": "- button \"Back\":\n- generic: Runtime QA Phase3 pinned40 house\n- button \"Settings\":\n- generic: Drag left side to walk\n- generic: Drag right side to look\n- button \"Choose room, current Upper office\":\n  - generic: Upper office\n- button \"View 2D\":\n  - generic: 2D\n- button \"View 3D\":\n  - generic: 3D\n- button \"View Walk\" [active]:\n  - generic: Walk\n- generic: Read-only Walk"
+  },
+  "finalBackup": {
+    "bytes": 21085,
+    "sha256": "d06165de0f878af2210174386c36bf560ee1d108fd9c3305d755e246cfe75413",
+    "byteExact": true
+  },
+  "network": {
+    "uniqueRequests": 40,
+    "captureRecovery": "Initial event window truncated the six first-room requests. A genuine cold reload of the unchanged saved project captured those requests separately; both windows use the same immutable app/export.",
+    "frame": "phase3-house-whole-390-recovered.json"
+  },
+  "audit": {
+    "at": "2026-11-10T05:10:50.058Z",
+    "sourceHash": "67cbdc5ce2371c0469120838b009af97facfaff351efb40f65e4fad521759573",
+    "fixtureSHA256": "d06165de0f878af2210174386c36bf560ee1d108fd9c3305d755e246cfe75413",
+    "cameraFov": 43,
+    "cameraEye": [
+      81.96138816143245,
+      84.81355979700268,
+      84.1840493065167
+    ],
+    "reconstructedAutomaticFitTarget": [
+      15.6,
+      4.332,
+      12.95
+    ],
+    "canvas": {
+      "height": 773,
+      "width": 390,
+      "x": 0,
+      "y": 71
+    },
+    "expectedPlacements": 41,
+    "observedPlacements": 41,
+    "projectionChecks": 41,
+    "maxProjectionErrorPixels": 8.038873388460929e-14,
+    "projectionTolerancePixels": 0.05,
+    "geometryChecks": 40,
+    "maxPreciseBoundsMetadataDifferenceMetres": 0,
+    "expectedUniqueSavedRevisions": 40,
+    "downloadedUniqueSavedRevisions": 40,
+    "downloadedGLBBytes": 22178628,
+    "materialChecks": 125,
+    "materialFailures": 0,
+    "networkCaptureQualification": "Initial event window truncated the six first-room requests. A genuine cold reload of the unchanged saved project captured those requests separately; both windows use the same immutable app/export.",
+    "errors": [],
+    "downloads": [
+      {
+        "sha256": "092f78a0d5ee57148beffe6a60d822d6081581a6f7dac15a3dbf8c30edd226bd",
+        "bytes": 758584,
+        "finished": true
+      },
+      {
+        "sha256": "c56f6966f6c1a8e982835adf024c0943142c95e411561a9f84df5be74591e90b",
+        "bytes": 786676,
+        "finished": true
+      },
+      {
+        "sha256": "59b6af07b4114c233bb2fdebc426200051f24464ea18b6812cd784bcfe6e1076",
+        "bytes": 541412,
+        "finished": true
+      },
+      {
+        "sha256": "e9f1cef6e632a618ed2b8c48b2f89db7e49d3f62df1e34fbc13f4ed85e8e8dc0",
+        "bytes": 753904,
+        "finished": true
+      },
+      {
+        "sha256": "0c8bb29ed3e083110408cca9be777a06461224b71623f64778fd1e1a440c5461",
+        "bytes": 801776,
+        "finished": true
+      },
+      {
+        "sha256": "17015fcc35185b1c531f2bf64130861f543067593e0137a951e0d848048bf5bd",
+        "bytes": 556852,
+        "finished": true
+      },
+      {
+        "sha256": "900b30a1ffa986acb3feef8969786c19d41f017f3f2f9b28d2c6d111747bfb2e",
+        "bytes": 426188,
+        "finished": true
+      },
+      {
+        "sha256": "e95ac3a1d488d343913d09db1b3896f2284604bc151d969d74e8002ee648bf5d",
+        "bytes": 493972,
+        "finished": true
+      },
+      {
+        "sha256": "4c81f23ea134594e235b7a79aa3eee003684c0c29687703376fefdfd9b1d3e9d",
+        "bytes": 467172,
+        "finished": true
+      },
+      {
+        "sha256": "743651a0067a8fdbd2a57cd79b78d8d39c719c141880b8f9837d21b7ae911b35",
+        "bytes": 554672,
+        "finished": true
+      },
+      {
+        "sha256": "2f950708898f9b88cfd58dfdfc44c26167a784358f2770bb9d64ea019978e402",
+        "bytes": 724276,
+        "finished": true
+      },
+      {
+        "sha256": "e5ba186681fdfa3101e8fe5390138328cf025ecfd430abe23dc24a677777be3d",
+        "bytes": 582344,
+        "finished": true
+      },
+      {
+        "sha256": "8513379a7ea5da6061214d7bf942624c4d6c3946b2219bbe07985531295ccda1",
+        "bytes": 1170820,
+        "finished": true
+      },
+      {
+        "sha256": "c80aad32750c6019bb86c782e4b515fa6a466ed439f9bc06dc286fe005fd5b3d",
+        "bytes": 599884,
+        "finished": true
+      },
+      {
+        "sha256": "bcc1350d175a74b4623ce25d76c81407b3c7fabb8f8f1df5cdf6c825aae015df",
+        "bytes": 641748,
+        "finished": true
+      },
+      {
+        "sha256": "a84b46417238b7a7da4283e307111501088d4c21c71bdb60baa7bb5ab4b631de",
+        "bytes": 662576,
+        "finished": true
+      },
+      {
+        "sha256": "2507003ff445c95309a6319b21a2565d4d86a8267dbf8cc85d52904f90334b24",
+        "bytes": 640892,
+        "finished": true
+      },
+      {
+        "sha256": "4aed7a4c28279611dd818e41e68d06109e0c3f67b06fcfd7b3c42566c4cecc3f",
+        "bytes": 598868,
+        "finished": true
+      },
+      {
+        "sha256": "0a25416151c6ffe430857f98886f6353520a36a0a3a32a34eecd6bc617162ad5",
+        "bytes": 597820,
+        "finished": true
+      },
+      {
+        "sha256": "89502058fbe3ffbf8e7724a36e98038145d52b173637569dfe091b77a149b489",
+        "bytes": 411764,
+        "finished": true
+      },
+      {
+        "sha256": "95398f141780f4322a1c73367cc09b6390ff78846eeb078277ac380d4dc608bc",
+        "bytes": 403708,
+        "finished": true
+      },
+      {
+        "sha256": "ee3f79ad7b666e92f4ea9e9fe59f96f4076ad5a033f90952e9a3742cc0b97de5",
+        "bytes": 905320,
+        "finished": true
+      },
+      {
+        "sha256": "3191314ebe96a2dad9bedee21c9c88704f08a1af5afa33c30e05db00ceaab610",
+        "bytes": 272148,
+        "finished": true
+      },
+      {
+        "sha256": "b6b128e611be3e9c4f7427bb2efafdada52509ce68eb2ccc1fa9fcd5eb014038",
+        "bytes": 403716,
+        "finished": true
+      },
+      {
+        "sha256": "763b97acd6cf647d56f3f05af2e9813fc8da57d1f96e51e132149872e0cefba7",
+        "bytes": 251152,
+        "finished": true
+      },
+      {
+        "sha256": "b4fc677aafa05be6d1fc166ad3b2b8b37f17f3a88dec65e965cad73021ebc77c",
+        "bytes": 291208,
+        "finished": true
+      },
+      {
+        "sha256": "e2c65466ad1a61724a8e37cafdfad45cad653a1ee7173604fb1460207f2f05e3",
+        "bytes": 428992,
+        "finished": true
+      },
+      {
+        "sha256": "dd650a8eb33a32c46e564ec9fc654e90131fee35416d222db3a0694b560b0c63",
+        "bytes": 407788,
+        "finished": true
+      },
+      {
+        "sha256": "603b326f24b1e1674f28862750ecc149644a2609543bbf912fd7c2a2c4a573f6",
+        "bytes": 443096,
+        "finished": true
+      },
+      {
+        "sha256": "43d0336cf0f9517919bffafea1739bda3b3b234c044580f71df05d60755011a5",
+        "bytes": 528284,
+        "finished": true
+      },
+      {
+        "sha256": "244063d662d59d38739aea80aada47aca2bae3f3f4c1fd4edda2d5f89917e21a",
+        "bytes": 357516,
+        "finished": true
+      },
+      {
+        "sha256": "177b425f419afee99788f5b316b2d5c35d39f81e3ca8a1dda28d4ec048208143",
+        "bytes": 439912,
+        "finished": true
+      },
+      {
+        "sha256": "a33c5ed757e4d2f6519b15c405e781b361678388c535b2ab6bac09db3a6a43d1",
+        "bytes": 282536,
+        "finished": true
+      },
+      {
+        "sha256": "4d38f2a3f2d2313e8b48e3b6a1eb7d157bc253d95d83068e7962de562ca2e030",
+        "bytes": 562120,
+        "finished": true
+      },
+      {
+        "sha256": "cfe47a3e8f9fa7258280449eda7023af4b1457acdfea4aedcc458899c71a4c55",
+        "bytes": 657248,
+        "finished": true
+      },
+      {
+        "sha256": "4266e693e06154cd017237a14e17f5b0327f33365deec77975af6bf215f57bbd",
+        "bytes": 530012,
+        "finished": true
+      },
+      {
+        "sha256": "fcef3a649d94e149275271aec8244beb253abf9940f3ace9555e3a7d749ddf53",
+        "bytes": 526396,
+        "finished": true
+      },
+      {
+        "sha256": "b193965b48832b8b8e369e0462b6970a8d585b3ca2214ada71585c93a2a22a11",
+        "bytes": 677604,
+        "finished": true
+      },
+      {
+        "sha256": "c952952e87100d4c2f53facdcb883742c0a669790ed6400d32e6442a972eac66",
+        "bytes": 603584,
+        "finished": true
+      },
+      {
+        "sha256": "0aa1d2467b3b048e3e2ff6c30c2bbfc736ac96a1ea1f16f79bce49d5b757301b",
+        "bytes": 434088,
+        "finished": true
+      }
+    ],
+    "scope": "Observed existing app diagnostic projections/materials plus actual requested immutable export GLB bytes. Exact geometry is CPU-parsed with texture stubs to calibrate conservative diagnostic bounds; precise metadata bounds are checked separately. Target is reconstructed from the unpanned automatic whole-house fit. Bounded alignment/elevation/legacy-identity consistency,not pixel/physical metrology,FPS,native rendering,or new release visual acceptance."
+  },
+  "console": [],
+  "screenshots": [
+    {
+      "file": "phase3-house-whole-390.png",
+      "bytes": 17323,
+      "sha256": "c2cc1ab6cf9ec6a0d16ad257c4d302ac38d3d9fea80467808a1bc41df830f4e5"
+    },
+    {
+      "file": "phase3-house-whole-320.png",
+      "bytes": 13895,
+      "sha256": "d9d0aa2adb5b460dc53e460a509c3a62e16a6b7d7ffdf07b675b42e32d1ebf83"
+    },
+    {
+      "file": "phase3-house-whole-844.png",
+      "bytes": 17760,
+      "sha256": "214c98dbad93bf32486925a32e23776e9936a9a460e2e1841f58908f891a7e63"
+    }
+  ],
+  "qualification": "Exact historical saved-model compatibility in the completed478-current/1187-retained consumer. These0.7-era revisions are not claimed as current-release visual acceptance. Geometry-only CPU parsing uses texture stubs; actual browser material bindings are checked separately. No native linking/device/FPS/thermal acceptance or full Phase3/stair capability is established."
+}

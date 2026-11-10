@@ -1,5 +1,41 @@
 # Independent design QA — live status
 
+## Draw and movement UI close / new opening-corner defect — 06:02 UTC
+
+QA-GEO13actualretest45/45passes on corrected05:51snapshot: templates,drawn rectangle/concave/slanted,feet,crossed rejection,physical face spans,inspector,initialhistory0,reload and exact untouchedfeetApply. Move room11actualchecks pass: lockguidance/unlockretry,2Ddrag/numericpreview/Cancel,onecommandgroupApply,unrelatedlockedroom,sharedfinishes and exactUndo/Redo. Actualnear-wallpointerrejection2checks pass/nohistorycorruption. New P1QA-GEO14: accepted.90mopening at.10moffset beside30/60cmperpendicularwalls has.05/.20mofitsconfiguredclearhole occupiedbyrealrenderedwall. opening-corner-physical.json6pass/2fail; OPENING_CORNER_HANDOFF.md gives exactrenderer-volume repro and mandatory legacy-validation separation. No QA production edits; inside-door matrix and current multiroomdraft remain targeted coverage.
+
+## Legacy inside UI / live route closure — 05:50 UTC
+
+Actual inside-legacy-units-web.json19checks pass on the59source05:41snapshot: unchanged m/ft Apply preserves reference coordinates exactly, explicit4.5×3.5clear resize/3.2ceilingoverride has correct physical extent, Undo/Redo exact; collapsed.5m/.6m-wall legacy project opens safely, warns, repairs only on Apply and restores through Undo. Root's independent05:40local/public native manifest/fullbundle/oldmodel200proof closes QA-METRO01at that snapshot; no device launch. The concise FINDINGS board is reconciled: remaining actual issue is Draw walls input QA-GEO13; actual movement UI/current inside-door/near-wall checks continue. Failed Draw, House, beds, legacy and corner before/after evidence is frozen under frozen-evidence/integrated-qa-0550. No QA production writes or shared server changes.
+
+## Integrated House UI passes / new drawn-input gap — 05:43 UTC
+
+Source-matched59module app snapshot passes19actual House cases with nonempty past/future: view/preset/solid/cutaway/ceiling/separation/Fit preserve complete history, house hides edit/history controls, actual tap/drag and old-Undo-location attempts change nothing, returning Floor restores exact Undo/Redo, Walk stays read-only. Temporary QA-only127.0.0.1server was created for the completed export and closed; shared Metro untouched. house-readonly-web.json and inspected PNG. New actual creation audit passes12/15: Rectangle/Ltyped4×3clear is correct; Draw walls typed4×3produces3.88×2.88inside and inspectorreadout. QA-GEO13/DRAW_INSIDE_DIMENSIONS.md records the shape-dependent reference exception as an adoption gap. Also bed-filter-web.json passes19actual twin/full/queen/king/bunk/loft+combinedquery/theme cases on current curated catalogue, no errors.
+
+## Movement contract independently passes — 05:34 UTC
+
+Current APP project0b9241f9…/roomMove2a0c95b6… passes7compound movement groups using the real exact arc-shade model: connected locks reject exact history, unrelated locked room stays independent, unlock/retry works, positive/negative translations preserve three-room shared/partial topology, real door swing/window world positions, opposite finishes, trim/thickness, contained identities/poses and one-command Undo/Redo. Zero move is an exact no-op; Walk/invalid offsets/overlap reject. Source stable. room-move-domain.json. QA-ROOM01 now has implementation/domain evidence and awaits actual UI closure. House readonly test is prepared for a fresh integrated snapshot with nonempty past/future and actual tap/drag attempts; it refuses older exports missing HouseViews. Final-library catalogue sourceb935502e… passes11actual cases in newer67cbdc5c… export, including512→512scroll, combinedfilters/current reviewed records and reload. This does not validate the newer HouseViews editor yet.
+
+## Owner corner fix independently passes — 05:26 UTC
+
+APP implemented geometry0c3a9928… shared miter/endpoint extension. Direct production tests pass16real-cabinet default/exaggerated ×windings×unequal-wall near/safe cases;64actual-trim fixtures/208,896small-box positions have9,072accepted and0intersections.192wall/120door/31contracts/25insertion+legacy cases stay passed. CONCAVE_TRIM_CLOSURE.md and concave-trim-owner-repair.patch capture exact source/argument; this is the owner-implemented diff, not another patch to apply. An automatically regenerated in-memory candidate double-extended the already-fixed code and is superseded/refused; it never touched mobile. QA-GEO12 CPU scope closes, full measured/UI integration still open. No QA production writes after return.
+
+## Additional physical corner gap — 05:22 UTC
+
+P1QA-GEO12: after the accepted bounded two-file return, deeper actual-trim coverage finds a remaining concave L-corner gap. Default16mm trim and60mm trim both accept the real50feb5b7… cabinet with leg vertices strictly inside actual trim solids; two farther controls pass. CONCAVE_TRIM_HANDOFF.md gives exact repro and a focused affine-miter strip extension recipe.64new actual-mesh/synthetic-box fixtures independently reproduce it. Production ownership remains APP and no further mobile edits occurred here. Full boundary closure must include this new corner case; the earlier192wall/120door/31+25contracts remain valid for their checked scope.
+
+## Returned API ready / requested extra checks pass — 05:17 UTC
+
+The05:11two-file handback is already ready: GEOMETRY_RETURN.md and GEOMETRY_API_PREVIEW.md contain exact hashes and all adoption APIs; production writes have stopped. Added25/25requested legacy/insertion cases pass on the same hashes: initial-valid furniture then colliding/safe new doors across hinge/flip/type; old wall-overlap load with past/future preserved, finish/paint/unlock/Undo/Redo/Walk and clean move-out. GEOMETRY_RETURN_ADDENDUM.md distinguishes synthetic fixtures from the120real-GLB door cases. App can proceed with the integration handoff; no question or further production change is pending here.
+
+## Spatial fixture adoption findings — 05:16 UTC
+
+Production validProject/validFloor reject the authored six-room/two-floor prototype fixture because several wall directions are noncanonical; dependent openings need consistent remapping before app import. Exact tuple resolution40/40passes; physical placement39/40passes, with papasan item-7 inside its baseboard.40exact hashes comprise39count-eligible constructions plus one variant. SPATIAL_FIXTURE_HANDOFF.md records precise scope, corrections and frozen pre-adaptation bytes. This is a prototype fixture issue, not a new existing-save regression or failure of the346-design library milestone. Two-file geometry return is ready; QA remains production-readonly after that return.
+
+## Focused geometry return ready — 05:11 UTC
+
+GEOMETRY_RETURN.md returns ONLY geometry.ts0b029dd1… and project.tsdbc3f9e… to coordinator/app ownership; QA stops production writes. Physical wall/trim/aperture/frame/door-motion validation and explicit inside-dimension APIs are implemented.192real-GLB wall and120door cases,31new vertical/dimension/history/pose checks,22priorfocused,4,453deterministic and19appdomain tests pass; TypeScript/scopedlint pass at the final hashes. Saved reference coordinates/revisions/history remain exact; legacy collisions still decode/move out. App must adopt inside factory/command/readout helpers and shared mesh/pose contracts before measured-room/UI closure. Actual UI retests are next. No overall/native completion claim; work continues through06:53UTC.
+
 ## Current native development route fails — 04:55 UTC
 
 QA-METRO01 now affects the actual iOS development launch path too, after final library integration. Independent native-route-health.json: current SDK58 manifestHTTP200 advertises the public tunnel, but a full request to its exact launch path on local8081returnsHTTP500/UnableToResolveError for breakfast-overhang-island-d46cc8be7673.glb. Stable catalogue/bindings/config/package source samples; no physical phone claim. The earlier04:19native200/04:24publicprefix200 are historical snapshots and do not verify this current integration. No server restart by QA. The focused two-file geometry handoff is ready and awaiting explicit coordinator activation; GEOMETRY_HANDOFF_READY.md records acknowledged scope/convention/API proposals.

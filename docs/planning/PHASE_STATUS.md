@@ -1,6 +1,6 @@
 # Current phase status
 
-Updated November 9, 2026, 11:50 p.m. Toronto (November 10, 04:50 UTC). Use the phase IDs from [PHONE_APP_PLAN.md](PHONE_APP_PLAN.md). Overnight execution steps and parallel asset batches are subordinate work packages, not replacement phase numbers.
+Updated November 9, 2026, 12:22 a.m. Toronto (November 10, 05:22 UTC). Use the phase IDs from [PHONE_APP_PLAN.md](PHONE_APP_PLAN.md). Overnight execution steps and parallel asset batches are subordinate work packages, not replacement phase numbers.
 
 **Current position: Phase 2 implementation and validation, with parts of Phase 3 implemented in parallel. Phase 1's physical-device acceptance gate is still open.** The user authorized implementation November 9 and deferred phone pairing; that allows independent build work without claiming device acceptance.
 
@@ -22,11 +22,11 @@ The exact remaining phase titles/scopes in PHONE_APP_PLAN remain authoritative; 
 
 ## Active work packages
 
-- **App owner:** repair camera framing after resize/Undo, mixed ceiling heights and alignment; independently close catalogue scroll, occluded picking and annotation regressions; integrate the final library. Existing-room movement remains an original Phase 2 capability gap. Ceiling-height entry now passes independent UI retest.
+- **App owner:** camera, occlusion, catalogue return and annotation repairs have independent browser passes at their pinned snapshots; the final library sync and GitHub source checks pass. Now adopting the production house-view panel/policy and explicit inside-dimension/shared physical wall/door helpers. The two-file clearance module returned to app ownership after independent reruns; a new concave trim-miter intersection (QA-GEO12) is being repaired, and full measured-room/clearance closure awaits that repair plus actual UI/renderer adoption. Existing-room movement remains an original Phase 2 capability gap to implement next.
 - **Furniture/spatial owner:** library readiness milestone accepted at 04:35 UTC; now starting the queued Phase 3 placement/whole-house work. Frozen library-r1 has 346 internally accepted distinct designs and 93 reviewed variants across all ten rooms/five themes; 311 accepted rows exclude appliances/bathroom fixtures. Coordinator independently verified all 3,175 dependency hashes and 12 adult bed groups with four declared mattress sizes; all 478 published GLBs passed separate formal validation with zero errors/warnings. Current 346 accepted provenance bindings also pass. See [library handoff](../furniture/LIBRARY_HANDOFF.md) and [independent release audit](../coordination/library-release-audit.json). No phone validation or user approval is claimed; the final catalogue/static asset sync now passes independent hash/binding/default-search checks (478 current rows, 1,187 retained revisions). Fresh final-library renderer/native checks remain outstanding.
 - **Runtime QA:** exact-source builds, save/recovery and realistic populated-scene checks. Matching-source Hermes exports for iOS and Android now pass bytecode/header and 825-model asset checks; this does not establish native linking or phone execution. The controlled 40-model scene reduced browser texture allocations from 312 to 12 while preserving pixels; the pre-commit eviction race was repaired and independently retested. Physical native behavior remains separate.
-- **Design QA:** actual UI workflows, narrow/large-text layouts, materials, dimension correctness and regression checks.
-- **Coordinator:** dependency handoffs, phase/evidence reconciliation and GitHub publication checkpoints.
+- **Design QA:** resumed read-only production audit after returning the focused two-file wall/door clearance repair. Coordinator reruns pass 192 wall, 120 door, 31 analytic/contract, 22 prior focused and 4,453 stress cases; a separate 32-case analytic inside-face oracle also passes. These are bounded code/geometry checks; new input/readout UI and rendered integration still require independent retests.
+- **Coordinator:** dependency handoffs, phase/evidence reconciliation and sole GitHub publication. Latest pushed d97e5a89 has successful remote source CI. A separate byte-preservation correction and committed-tree audit verify all frozen dependencies and published source hashes; no active semantic edits were included in that correction.
 
 ## Records and publication
 

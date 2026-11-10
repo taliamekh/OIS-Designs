@@ -1,5 +1,5 @@
 {
-  "at": "2026-11-10T04:42:37.262Z",
+  "at": "2026-11-10T05:53:29.574Z",
   "exit": 0,
   "stable": true,
   "accepted": true,
@@ -62,7 +62,7 @@
     },
     {
       "file": "src/domain/geometry.ts",
-      "sha256": "d39a47ba5606406a01b7ba1690e18df0fe8b4055cf3fbe70f0cd3b89d5299b90"
+      "sha256": "0c3a99288b3dc0d44f78168c5b036690c4d716b8b1f578c3b46aba4f06545244"
     },
     {
       "file": "src/domain/persistence.ts",
@@ -70,7 +70,11 @@
     },
     {
       "file": "src/domain/project.ts",
-      "sha256": "7786d523a0341bc5781187e03c5d004915bd8e58dce4ac83d8dd7e0af6257b6f"
+      "sha256": "9bcc998a564bec55e43ba72139afdfec6d4f1fd715c2803d8597b17f9afa8ccc"
+    },
+    {
+      "file": "src/domain/roomMove.ts",
+      "sha256": "2a0c95b6911792dbaa0fb8ffddd10244c53ad756748d917aa1ec447a4fde48ab"
     },
     {
       "file": "src/domain/types.ts",
@@ -82,7 +86,7 @@
     },
     {
       "file": "src/scene/diagnostics.ts",
-      "sha256": "9e9ea5597969e31cf297b1397f4ae933caa49fa1615d46183e1e03a8b1a1aa35"
+      "sha256": "95a5388f3022bc5df54b72defb4eb1f5085700e522dfa7a25a0feb717964f773"
     },
     {
       "file": "src/scene/fiber.native.ts",
@@ -98,7 +102,7 @@
     },
     {
       "file": "src/scene/meshes.ts",
-      "sha256": "0bf35bd7e36272ca3ae91bb31eb5bce5371f211363701b036144cc61cb67e8e6"
+      "sha256": "bd616ec1721ef5a2bf3ef2f5a9fb323dc37d8a9a33a4596ef75c16c9ef59b9ee"
     },
     {
       "file": "src/scene/modelLoader.ts",
@@ -106,7 +110,7 @@
     },
     {
       "file": "src/scene/openingPose.ts",
-      "sha256": "ac56ac28b90240f683d3a5fda71673bb1f98416bbaf4f1d0df72825f7cbcbaf8"
+      "sha256": "9a7ff7f6376db2bb6394d7fcd2e28c8270cf75770026332783a8f0f50e55f128"
     },
     {
       "file": "src/scene/picking.ts",
@@ -114,7 +118,7 @@
     },
     {
       "file": "src/scene/Plan.tsx",
-      "sha256": "06319df8db473bb72dada999f07a4224254bd505d1023ddd491e4afe5c4394c2"
+      "sha256": "3ca79ee8a9282e164e50478bb288f4d012f80f1a88dbbd3bc8d7dcc91d1ae8ab"
     },
     {
       "file": "src/scene/resources.ts",
@@ -122,7 +126,11 @@
     },
     {
       "file": "src/scene/RoomScene.tsx",
-      "sha256": "30ceb60a092b4cd3197ace16319fe74ec71ababbca5a3bf9831a30502b8d062d"
+      "sha256": "7b055eabc3198b10114ea1ecd623cf529d58f5bf71a34b9f443ec8c03e3b28d7"
+    },
+    {
+      "file": "src/scene/spatialView.ts",
+      "sha256": "7f0795bbbdc0d9f3dab9286d219a23986bc6c067cd50489d47b58079034daf9b"
     },
     {
       "file": "src/scene/textureBank.ts",
@@ -134,7 +142,7 @@
     },
     {
       "file": "src/scene/Viewport.tsx",
-      "sha256": "9f792271068bda73523e58baf09133aecc9c09df62824419cda5f05c5a75b06c"
+      "sha256": "90651a9dc4bcac7bd735bfbb376314896c19eba86dba4991d5887d2dc860fa95"
     },
     {
       "file": "src/scene/walk.ts",
@@ -142,7 +150,7 @@
     },
     {
       "file": "src/screens/Build.tsx",
-      "sha256": "e97746654d472fff3cd197f3d2284c9fb74261432fd7883c60684b47a38539a9"
+      "sha256": "72eb853fb388dd06a3da6b9c7570876b3dcf60d4a1b34065e94d7087a680c2a8"
     },
     {
       "file": "src/screens/Catalogue.tsx",
@@ -150,23 +158,31 @@
     },
     {
       "file": "src/screens/Create.tsx",
-      "sha256": "ee8615b265bce78a18e1804ab94ff090b49b9ffd37be3032d04a3ffcaecdff07"
+      "sha256": "c4828242e2a064bb4af2be36cce86f4377b43d69dab54d754f188c2047f99bf5"
     },
     {
       "file": "src/screens/Editor.tsx",
-      "sha256": "7f565015043cd95d37b97a8b279328a395987c12a0efaac295fa8acef75c3a67"
+      "sha256": "6397a1caeb48a76e4e8e998acf04bdb1fa5299f0cfc0017da5270dd333caaa25"
     },
     {
       "file": "src/screens/FloorPlanDraft.tsx",
-      "sha256": "0f92256701aabd8798f026cac881093b41133e1a60454b993ee7186c44ac4eab"
+      "sha256": "96e88070c614986ec385d6a99b6f7ee69ea98444cb5b96c697738a20fb6954c7"
     },
     {
       "file": "src/screens/Future.tsx",
       "sha256": "4c34bc0a76fab452bf600c8b3bfecc894247ad98f3bb9b803974b160cd470a9c"
     },
     {
+      "file": "src/screens/HouseViews.tsx",
+      "sha256": "8a8ef765fa9fe334d18777ff0b83e7d408203f76c9c8596e7552983b8ddb3a39"
+    },
+    {
       "file": "src/screens/Projects.tsx",
       "sha256": "6ba2e8731b0760b6944441b3e3f2f39e96bfa297e34358777ddaf8541633966d"
+    },
+    {
+      "file": "src/screens/RoomMove.tsx",
+      "sha256": "5af6209317f3a89a6f7f9ee49e711972f6059e9a39eb7aad0c2471c0b7f3f99a"
     },
     {
       "file": "src/screens/Settings.tsx",
@@ -286,12 +302,12 @@
     {
       "file": "src/scene/Plan.tsx",
       "purpose": "Enable existing read-only dev diagnostic",
-      "sha256": "6004ff15458cc9dab33ede357cfa6c88e6db691be78dfb9712970e70ce2a6684"
+      "sha256": "587ad036801ca79ca6a6ae71b55175917ec5b1b1c3aacf8ba9dc7ca054d46f0d"
     },
     {
       "file": "src/scene/Viewport.tsx",
       "purpose": "Enable existing read-only dev diagnostic",
-      "sha256": "1fa25f90603a01b9ad22c2514d54041c41f87d6133c0da5954b6c3d7680601a6"
+      "sha256": "650fd9bbe4421ff58d6031b2bdb69eca1ae5aefa382ae360f1058b845944455a"
     },
     {
       "file": "metro.config.js",
@@ -349,10 +365,6 @@
       "matches": true
     },
     {
-      "file": "src/domain/construction.ts",
-      "matches": true
-    },
-    {
       "file": "src/scene/modelLoader.ts",
       "matches": true
     },
@@ -382,6 +394,10 @@
     },
     {
       "file": "src/scene/materials.ts",
+      "matches": true
+    },
+    {
+      "file": "src/scene/spatialView.ts",
       "matches": true
     },
     {
@@ -422,6 +438,14 @@
     },
     {
       "file": "src/ui/measurements.ts",
+      "matches": true
+    },
+    {
+      "file": "src/screens/HouseViews.tsx",
+      "matches": true
+    },
+    {
+      "file": "src/screens/RoomMove.tsx",
       "matches": true
     },
     {
@@ -493,7 +517,15 @@
       "matches": true
     },
     {
+      "file": "src/domain/construction.ts",
+      "matches": true
+    },
+    {
       "file": "src/domain/persistence.ts",
+      "matches": true
+    },
+    {
+      "file": "src/domain/roomMove.ts",
       "matches": true
     },
     {
@@ -521,8 +553,8 @@
       "matches": true
     }
   ],
-  "compiledMatches": 55,
-  "directory": "C:\\Users\\talia\\OneDrive\\Documents\\ChatGPT\\OIS Designs\\mobile\\.tools\\qa-web-2026-11-10T04-41-04-527Z",
-  "webRoot": "C:\\Users\\talia\\OneDrive\\Documents\\ChatGPT\\OIS Designs\\mobile\\.tools\\qa-web-2026-11-10T04-41-04-527Z\\web",
+  "compiledMatches": 59,
+  "directory": "C:\\Users\\talia\\OneDrive\\Documents\\ChatGPT\\OIS Designs\\mobile\\.tools\\qa-web-2026-11-10T05-51-51-449Z",
+  "webRoot": "C:\\Users\\talia\\OneDrive\\Documents\\ChatGPT\\OIS Designs\\mobile\\.tools\\qa-web-2026-11-10T05-51-51-449Z\\web",
   "physicalNativeValidation": false
 }

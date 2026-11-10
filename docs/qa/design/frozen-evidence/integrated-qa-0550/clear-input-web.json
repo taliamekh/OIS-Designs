@@ -1,0 +1,597 @@
+{
+  "timestamp": "2026-11-10T05:41:48.297Z",
+  "evidence": "Actual phone creation fields and persisted/inspector measurements. Analytic axis-aligned finished-wall span from stored reference extent and independently specified12cm physical walls; not a physical device/GPU metre ruler.",
+  "storageOracle": {
+    "kind": "Production IndexedStorage.getItem, with its read-only legacy fallback",
+    "file": "mobile/src/storage/indexedStore.ts",
+    "sha256": "9943012679fd85da975028e6165febf8e149242bfef7b0a63f7ab6b98f76383d"
+  },
+  "runs": [
+    {
+      "shape": "Rectangle",
+      "checks": [
+        {
+          "id": "physical-wall-thickness-precondition",
+          "pass": true
+        },
+        {
+          "id": "typed-width-is-clear-span",
+          "pass": true,
+          "observed": {
+            "typed": 4,
+            "actualFinishedSpan": 4,
+            "referenceExtent": 4.12
+          }
+        },
+        {
+          "id": "typed-depth-is-clear-span",
+          "pass": true,
+          "observed": {
+            "typed": 3,
+            "actualFinishedSpan": 3,
+            "referenceExtent": 3.12
+          }
+        },
+        {
+          "id": "combined-ceiling-entry-saves",
+          "pass": true
+        },
+        {
+          "id": "inspector-retains-typed-clear-dimensions",
+          "pass": true,
+          "observed": {
+            "width": 4,
+            "depth": 3
+          }
+        }
+      ],
+      "errors": [],
+      "consoleErrors": [],
+      "project": {
+        "id": "project-mwa9j0tt-3xfs63c",
+        "schemaVersion": 1,
+        "name": "Untitled project",
+        "updatedAt": 1794289310705,
+        "floors": [
+          {
+            "id": "floor-mwa9j0tt-cisp3xu",
+            "name": "Ground floor",
+            "elevation": 0,
+            "ceiling": 3.1,
+            "alignment": {
+              "x": 0,
+              "z": 0
+            },
+            "rooms": [
+              {
+                "id": "room-mwa9j0tt-3xdhhc6",
+                "name": "Living room",
+                "kind": "living",
+                "polygon": [
+                  {
+                    "x": 0,
+                    "z": 0
+                  },
+                  {
+                    "x": 4.12,
+                    "z": 0
+                  },
+                  {
+                    "x": 4.12,
+                    "z": 3.12
+                  },
+                  {
+                    "x": 0,
+                    "z": 3.12
+                  }
+                ],
+                "ceiling": null,
+                "floorFinish": {
+                  "id": "white-oak",
+                  "repeat": 2,
+                  "angle": 0
+                },
+                "wallFaces": {},
+                "trim": {
+                  "profile": "flat",
+                  "height": 0.1,
+                  "projection": 0.016,
+                  "colour": "#eeeae2",
+                  "sheen": "satin"
+                },
+                "trimOverrides": {}
+              }
+            ],
+            "walls": [
+              {
+                "id": "wall:0,0:41200,0",
+                "a": {
+                  "x": 0,
+                  "z": 0
+                },
+                "b": {
+                  "x": 4.12,
+                  "z": 0
+                },
+                "thickness": 0.12,
+                "faces": [
+                  {
+                    "roomId": "room-mwa9j0tt-3xdhhc6",
+                    "reversed": false
+                  }
+                ]
+              },
+              {
+                "id": "wall:41200,0:41200,31200",
+                "a": {
+                  "x": 4.12,
+                  "z": 0
+                },
+                "b": {
+                  "x": 4.12,
+                  "z": 3.12
+                },
+                "thickness": 0.12,
+                "faces": [
+                  {
+                    "roomId": "room-mwa9j0tt-3xdhhc6",
+                    "reversed": false
+                  }
+                ]
+              },
+              {
+                "id": "wall:0,31200:41200,31200",
+                "a": {
+                  "x": 0,
+                  "z": 3.12
+                },
+                "b": {
+                  "x": 4.12,
+                  "z": 3.12
+                },
+                "thickness": 0.12,
+                "faces": [
+                  {
+                    "roomId": "room-mwa9j0tt-3xdhhc6",
+                    "reversed": true
+                  }
+                ]
+              },
+              {
+                "id": "wall:0,0:0,31200",
+                "a": {
+                  "x": 0,
+                  "z": 0
+                },
+                "b": {
+                  "x": 0,
+                  "z": 3.12
+                },
+                "thickness": 0.12,
+                "faces": [
+                  {
+                    "roomId": "room-mwa9j0tt-3xdhhc6",
+                    "reversed": true
+                  }
+                ]
+              }
+            ],
+            "openings": [],
+            "items": []
+          }
+        ]
+      },
+      "completed": true
+    },
+    {
+      "shape": "L-shape",
+      "checks": [
+        {
+          "id": "physical-wall-thickness-precondition",
+          "pass": true
+        },
+        {
+          "id": "typed-width-is-clear-span",
+          "pass": true,
+          "observed": {
+            "typed": 4,
+            "actualFinishedSpan": 4,
+            "referenceExtent": 4.12
+          }
+        },
+        {
+          "id": "typed-depth-is-clear-span",
+          "pass": true,
+          "observed": {
+            "typed": 3,
+            "actualFinishedSpan": 3,
+            "referenceExtent": 3.12
+          }
+        },
+        {
+          "id": "combined-ceiling-entry-saves",
+          "pass": true
+        },
+        {
+          "id": "inspector-retains-typed-clear-dimensions",
+          "pass": true,
+          "observed": {
+            "width": 4,
+            "depth": 3
+          }
+        }
+      ],
+      "errors": [],
+      "consoleErrors": [],
+      "project": {
+        "id": "project-mwa9j2ji-z8n2345",
+        "schemaVersion": 1,
+        "name": "Untitled project",
+        "updatedAt": 1794289312926,
+        "floors": [
+          {
+            "id": "floor-mwa9j2ji-3gwx206",
+            "name": "Ground floor",
+            "elevation": 0,
+            "ceiling": 3.1,
+            "alignment": {
+              "x": 0,
+              "z": 0
+            },
+            "rooms": [
+              {
+                "id": "room-mwa9j2ji-ibo2ftt",
+                "name": "Living room",
+                "kind": "living",
+                "polygon": [
+                  {
+                    "x": 0,
+                    "z": 0
+                  },
+                  {
+                    "x": 4.12,
+                    "z": 0
+                  },
+                  {
+                    "x": 4.12,
+                    "z": 1.56
+                  },
+                  {
+                    "x": 2.2660000000000005,
+                    "z": 1.56
+                  },
+                  {
+                    "x": 2.2660000000000005,
+                    "z": 3.12
+                  },
+                  {
+                    "x": 0,
+                    "z": 3.12
+                  }
+                ],
+                "ceiling": null,
+                "floorFinish": {
+                  "id": "white-oak",
+                  "repeat": 2,
+                  "angle": 0
+                },
+                "wallFaces": {},
+                "trim": {
+                  "profile": "flat",
+                  "height": 0.1,
+                  "projection": 0.016,
+                  "colour": "#eeeae2",
+                  "sheen": "satin"
+                },
+                "trimOverrides": {}
+              }
+            ],
+            "walls": [
+              {
+                "id": "wall:0,0:41200,0",
+                "a": {
+                  "x": 0,
+                  "z": 0
+                },
+                "b": {
+                  "x": 4.12,
+                  "z": 0
+                },
+                "thickness": 0.12,
+                "faces": [
+                  {
+                    "roomId": "room-mwa9j2ji-ibo2ftt",
+                    "reversed": false
+                  }
+                ]
+              },
+              {
+                "id": "wall:41200,0:41200,15600",
+                "a": {
+                  "x": 4.12,
+                  "z": 0
+                },
+                "b": {
+                  "x": 4.12,
+                  "z": 1.56
+                },
+                "thickness": 0.12,
+                "faces": [
+                  {
+                    "roomId": "room-mwa9j2ji-ibo2ftt",
+                    "reversed": false
+                  }
+                ]
+              },
+              {
+                "id": "wall:22660,15600:41200,15600",
+                "a": {
+                  "x": 2.2660000000000005,
+                  "z": 1.56
+                },
+                "b": {
+                  "x": 4.12,
+                  "z": 1.56
+                },
+                "thickness": 0.12,
+                "faces": [
+                  {
+                    "roomId": "room-mwa9j2ji-ibo2ftt",
+                    "reversed": true
+                  }
+                ]
+              },
+              {
+                "id": "wall:22660,15600:22660,31200",
+                "a": {
+                  "x": 2.2660000000000005,
+                  "z": 1.56
+                },
+                "b": {
+                  "x": 2.2660000000000005,
+                  "z": 3.12
+                },
+                "thickness": 0.12,
+                "faces": [
+                  {
+                    "roomId": "room-mwa9j2ji-ibo2ftt",
+                    "reversed": false
+                  }
+                ]
+              },
+              {
+                "id": "wall:0,31200:22660,31200",
+                "a": {
+                  "x": 0,
+                  "z": 3.12
+                },
+                "b": {
+                  "x": 2.2660000000000005,
+                  "z": 3.12
+                },
+                "thickness": 0.12,
+                "faces": [
+                  {
+                    "roomId": "room-mwa9j2ji-ibo2ftt",
+                    "reversed": true
+                  }
+                ]
+              },
+              {
+                "id": "wall:0,0:0,31200",
+                "a": {
+                  "x": 0,
+                  "z": 0
+                },
+                "b": {
+                  "x": 0,
+                  "z": 3.12
+                },
+                "thickness": 0.12,
+                "faces": [
+                  {
+                    "roomId": "room-mwa9j2ji-ibo2ftt",
+                    "reversed": true
+                  }
+                ]
+              }
+            ],
+            "openings": [],
+            "items": []
+          }
+        ]
+      },
+      "completed": true
+    },
+    {
+      "shape": "Draw walls",
+      "checks": [
+        {
+          "id": "physical-wall-thickness-precondition",
+          "pass": true
+        },
+        {
+          "id": "typed-width-is-clear-span",
+          "pass": false,
+          "observed": {
+            "typed": 4,
+            "actualFinishedSpan": 3.88,
+            "referenceExtent": 4
+          }
+        },
+        {
+          "id": "typed-depth-is-clear-span",
+          "pass": false,
+          "observed": {
+            "typed": 3,
+            "actualFinishedSpan": 2.88,
+            "referenceExtent": 3
+          }
+        },
+        {
+          "id": "combined-ceiling-entry-saves",
+          "pass": true
+        },
+        {
+          "id": "inspector-retains-typed-clear-dimensions",
+          "pass": false,
+          "observed": {
+            "width": 3.88,
+            "depth": 2.88
+          }
+        }
+      ],
+      "errors": [],
+      "consoleErrors": [],
+      "project": {
+        "id": "project-mwa9j4bc-s3c2g2k",
+        "schemaVersion": 1,
+        "name": "Untitled project",
+        "updatedAt": 1794289315224,
+        "floors": [
+          {
+            "id": "floor-mwa9j4bc-9d2xqvq",
+            "name": "Ground floor",
+            "elevation": 0,
+            "ceiling": 3.1,
+            "alignment": {
+              "x": 0,
+              "z": 0
+            },
+            "rooms": [
+              {
+                "id": "room-mwa9j4bc-wyw95fe",
+                "name": "Living room",
+                "kind": "living",
+                "polygon": [
+                  {
+                    "x": 0,
+                    "z": 0
+                  },
+                  {
+                    "x": 4,
+                    "z": 0
+                  },
+                  {
+                    "x": 4,
+                    "z": 3
+                  },
+                  {
+                    "x": 0,
+                    "z": 3
+                  }
+                ],
+                "ceiling": null,
+                "floorFinish": {
+                  "id": "white-oak",
+                  "repeat": 2,
+                  "angle": 0
+                },
+                "wallFaces": {},
+                "trim": {
+                  "profile": "flat",
+                  "height": 0.1,
+                  "projection": 0.016,
+                  "colour": "#eeeae2",
+                  "sheen": "satin"
+                },
+                "trimOverrides": {}
+              }
+            ],
+            "walls": [
+              {
+                "id": "wall:0,0:40000,0",
+                "a": {
+                  "x": 0,
+                  "z": 0
+                },
+                "b": {
+                  "x": 4,
+                  "z": 0
+                },
+                "thickness": 0.12,
+                "faces": [
+                  {
+                    "roomId": "room-mwa9j4bc-wyw95fe",
+                    "reversed": false
+                  }
+                ]
+              },
+              {
+                "id": "wall:40000,0:40000,30000",
+                "a": {
+                  "x": 4,
+                  "z": 0
+                },
+                "b": {
+                  "x": 4,
+                  "z": 3
+                },
+                "thickness": 0.12,
+                "faces": [
+                  {
+                    "roomId": "room-mwa9j4bc-wyw95fe",
+                    "reversed": false
+                  }
+                ]
+              },
+              {
+                "id": "wall:0,30000:40000,30000",
+                "a": {
+                  "x": 0,
+                  "z": 3
+                },
+                "b": {
+                  "x": 4,
+                  "z": 3
+                },
+                "thickness": 0.12,
+                "faces": [
+                  {
+                    "roomId": "room-mwa9j4bc-wyw95fe",
+                    "reversed": true
+                  }
+                ]
+              },
+              {
+                "id": "wall:0,0:0,30000",
+                "a": {
+                  "x": 0,
+                  "z": 0
+                },
+                "b": {
+                  "x": 0,
+                  "z": 3
+                },
+                "thickness": 0.12,
+                "faces": [
+                  {
+                    "roomId": "room-mwa9j4bc-wyw95fe",
+                    "reversed": true
+                  }
+                ]
+              }
+            ],
+            "openings": [],
+            "items": []
+          }
+        ]
+      },
+      "completed": true
+    }
+  ],
+  "ui": {
+    "id": "qa-web-2026-11-10T05-37-28-155Z",
+    "sourceHash": "aafeee3604fa3a6aeaece50870fc20d221e4e258e2d7218b0f079ef4c6177f7e",
+    "compiledSourceMatchCount": 59,
+    "sourceMapPass": true,
+    "create": {
+      "sha256": "5a28fc52fe6e19e69a85bb764b1e7d008996f76a5e52e763854d2550501dbe71"
+    },
+    "geometry": {
+      "sha256": "0c3a99288b3dc0d44f78168c5b036690c4d716b8b1f578c3b46aba4f06545244"
+    }
+  },
+  "passed": 12,
+  "failed": 3
+}

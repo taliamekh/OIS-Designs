@@ -1,0 +1,753 @@
+{
+  "at": "2026-11-10T05:21:19.727Z",
+  "before": {
+    "src/domain/geometry.ts": "0b029dd1ee4d1070fc8dfaffd96b5baded62ce8d1ec4d5556fd5c27fdcf57364",
+    "src/domain/construction.ts": "d248539e57f44afab413bc42ce49b6ea0e3a6f7bb6ace675757457ea651dff53"
+  },
+  "after": {
+    "src/domain/geometry.ts": "0b029dd1ee4d1070fc8dfaffd96b5baded62ce8d1ec4d5556fd5c27fdcf57364",
+    "src/domain/construction.ts": "d248539e57f44afab413bc42ce49b6ea0e3a6f7bb6ace675757457ea651dff53"
+  },
+  "stable": true,
+  "passed": 32,
+  "failed": 0,
+  "rows": [
+    {
+      "width": 4,
+      "angle": 0,
+      "reverse": false,
+      "unequal": false,
+      "expected": {
+        "width": 3.8800000000000003,
+        "depth": 3.3800000000000003
+      },
+      "observed": {
+        "width": 3.8800000000000003,
+        "depth": 3.3800000000000003
+      },
+      "target": {
+        "width": 4.345600000000001,
+        "depth": 3.0758000000000005
+      },
+      "resizedOracle": {
+        "width": 4.345600000000001,
+        "depth": 3.0758000000000014
+      },
+      "pass": true
+    },
+    {
+      "width": 4,
+      "angle": 0,
+      "reverse": false,
+      "unequal": true,
+      "expected": {
+        "width": 3.7399999999999998,
+        "depth": 3.3649999999999998
+      },
+      "observed": {
+        "width": 3.7399999999999998,
+        "depth": 3.3649999999999998
+      },
+      "target": {
+        "width": 4.1888000000000005,
+        "depth": 3.06215
+      },
+      "resizedOracle": {
+        "width": 4.1888000000000005,
+        "depth": 3.0621499999999995
+      },
+      "pass": true
+    },
+    {
+      "width": 4,
+      "angle": 0,
+      "reverse": true,
+      "unequal": false,
+      "expected": {
+        "width": 3.8800000000000003,
+        "depth": 3.3800000000000003
+      },
+      "observed": {
+        "width": 3.8800000000000003,
+        "depth": 3.3800000000000003
+      },
+      "target": {
+        "width": 4.345600000000001,
+        "depth": 3.0758000000000005
+      },
+      "resizedOracle": {
+        "width": 4.345600000000001,
+        "depth": 3.0758000000000014
+      },
+      "pass": true
+    },
+    {
+      "width": 4,
+      "angle": 0,
+      "reverse": true,
+      "unequal": true,
+      "expected": {
+        "width": 3.7399999999999998,
+        "depth": 3.3649999999999998
+      },
+      "observed": {
+        "width": 3.7399999999999998,
+        "depth": 3.3649999999999998
+      },
+      "target": {
+        "width": 4.1888000000000005,
+        "depth": 3.06215
+      },
+      "resizedOracle": {
+        "width": 4.1888000000000005,
+        "depth": 3.0621499999999995
+      },
+      "pass": true
+    },
+    {
+      "width": 4,
+      "angle": 0.23,
+      "reverse": false,
+      "unequal": false,
+      "expected": {
+        "width": 4.548389642169792,
+        "depth": 4.1755452064347
+      },
+      "observed": {
+        "width": 4.548389642169791,
+        "depth": 4.175545206434698
+      },
+      "target": {
+        "width": 5.094196399230168,
+        "depth": 3.799746137855577
+      },
+      "resizedOracle": {
+        "width": 5.094196399230208,
+        "depth": 3.7997461378556014
+      },
+      "pass": true
+    },
+    {
+      "width": 4,
+      "angle": 0.23,
+      "reverse": false,
+      "unequal": true,
+      "expected": {
+        "width": 4.4086566840160115,
+        "depth": 4.129023357214692
+      },
+      "observed": {
+        "width": 4.408656684016012,
+        "depth": 4.129023357214692
+      },
+      "target": {
+        "width": 4.937695486097933,
+        "depth": 3.7574112550653695
+      },
+      "resizedOracle": {
+        "width": 4.93769548609819,
+        "depth": 3.7574112550655756
+      },
+      "pass": true
+    },
+    {
+      "width": 4,
+      "angle": 0.23,
+      "reverse": true,
+      "unequal": false,
+      "expected": {
+        "width": 4.548389642169792,
+        "depth": 4.1755452064347
+      },
+      "observed": {
+        "width": 4.548389642169791,
+        "depth": 4.175545206434697
+      },
+      "target": {
+        "width": 5.094196399230168,
+        "depth": 3.799746137855577
+      },
+      "resizedOracle": {
+        "width": 5.094196399230209,
+        "depth": 3.7997461378556014
+      },
+      "pass": true
+    },
+    {
+      "width": 4,
+      "angle": 0.23,
+      "reverse": true,
+      "unequal": true,
+      "expected": {
+        "width": 4.4086566840160115,
+        "depth": 4.129023357214692
+      },
+      "observed": {
+        "width": 4.408656684016012,
+        "depth": 4.129023357214692
+      },
+      "target": {
+        "width": 4.937695486097933,
+        "depth": 3.7574112550653695
+      },
+      "resizedOracle": {
+        "width": 4.937695486098191,
+        "depth": 3.7574112550655747
+      },
+      "pass": true
+    },
+    {
+      "width": 4,
+      "angle": 0.7,
+      "reverse": false,
+      "unequal": false,
+      "expected": {
+        "width": 5.145043469527211,
+        "depth": 5.084731219503812
+      },
+      "observed": {
+        "width": 5.145043469527211,
+        "depth": 5.084731219503813
+      },
+      "target": {
+        "width": 5.762448685870477,
+        "depth": 4.627105409748469
+      },
+      "resizedOracle": {
+        "width": 5.762448685871914,
+        "depth": 4.627105409749337
+      },
+      "pass": true
+    },
+    {
+      "width": 4,
+      "angle": 0.7,
+      "reverse": false,
+      "unequal": true,
+      "expected": {
+        "width": 5.028302297998818,
+        "depth": 4.983068110481269
+      },
+      "observed": {
+        "width": 5.028302297998816,
+        "depth": 4.983068110481268
+      },
+      "target": {
+        "width": 5.631698573758676,
+        "depth": 4.534591980537955
+      },
+      "resizedOracle": {
+        "width": 5.631698573769391,
+        "depth": 4.53459198054443
+      },
+      "pass": true
+    },
+    {
+      "width": 4,
+      "angle": 0.7,
+      "reverse": true,
+      "unequal": false,
+      "expected": {
+        "width": 5.145043469527211,
+        "depth": 5.084731219503812
+      },
+      "observed": {
+        "width": 5.145043469527211,
+        "depth": 5.084731219503813
+      },
+      "target": {
+        "width": 5.762448685870477,
+        "depth": 4.627105409748469
+      },
+      "resizedOracle": {
+        "width": 5.762448685871913,
+        "depth": 4.627105409749337
+      },
+      "pass": true
+    },
+    {
+      "width": 4,
+      "angle": 0.7,
+      "reverse": true,
+      "unequal": true,
+      "expected": {
+        "width": 5.028302297998818,
+        "depth": 4.983068110481269
+      },
+      "observed": {
+        "width": 5.028302297998819,
+        "depth": 4.983068110481268
+      },
+      "target": {
+        "width": 5.631698573758676,
+        "depth": 4.534591980537955
+      },
+      "resizedOracle": {
+        "width": 5.631698573769395,
+        "depth": 4.5345919805444295
+      },
+      "pass": true
+    },
+    {
+      "width": 4,
+      "angle": 1.5707963267948966,
+      "reverse": false,
+      "unequal": false,
+      "expected": {
+        "width": 3.38,
+        "depth": 3.8800000000000003
+      },
+      "observed": {
+        "width": 3.38,
+        "depth": 3.8800000000000003
+      },
+      "target": {
+        "width": 3.7856,
+        "depth": 3.5308000000000006
+      },
+      "resizedOracle": {
+        "width": 3.7856000000000005,
+        "depth": 3.5308000000000015
+      },
+      "pass": true
+    },
+    {
+      "width": 4,
+      "angle": 1.5707963267948966,
+      "reverse": false,
+      "unequal": true,
+      "expected": {
+        "width": 3.365000000000001,
+        "depth": 3.7399999999999998
+      },
+      "observed": {
+        "width": 3.365000000000001,
+        "depth": 3.7399999999999998
+      },
+      "target": {
+        "width": 3.7688000000000015,
+        "depth": 3.4034
+      },
+      "resizedOracle": {
+        "width": 3.7688000000000015,
+        "depth": 3.4034
+      },
+      "pass": true
+    },
+    {
+      "width": 4,
+      "angle": 1.5707963267948966,
+      "reverse": true,
+      "unequal": false,
+      "expected": {
+        "width": 3.38,
+        "depth": 3.8800000000000003
+      },
+      "observed": {
+        "width": 3.38,
+        "depth": 3.8800000000000003
+      },
+      "target": {
+        "width": 3.7856,
+        "depth": 3.5308000000000006
+      },
+      "resizedOracle": {
+        "width": 3.7856000000000005,
+        "depth": 3.5308000000000015
+      },
+      "pass": true
+    },
+    {
+      "width": 4,
+      "angle": 1.5707963267948966,
+      "reverse": true,
+      "unequal": true,
+      "expected": {
+        "width": 3.365000000000001,
+        "depth": 3.7399999999999998
+      },
+      "observed": {
+        "width": 3.365000000000001,
+        "depth": 3.7399999999999998
+      },
+      "target": {
+        "width": 3.7688000000000015,
+        "depth": 3.4034
+      },
+      "resizedOracle": {
+        "width": 3.7688000000000015,
+        "depth": 3.4034
+      },
+      "pass": true
+    },
+    {
+      "width": 7,
+      "angle": 0,
+      "reverse": false,
+      "unequal": false,
+      "expected": {
+        "width": 6.880000000000001,
+        "depth": 3.3800000000000003
+      },
+      "observed": {
+        "width": 6.880000000000002,
+        "depth": 3.3800000000000003
+      },
+      "target": {
+        "width": 7.705600000000001,
+        "depth": 3.0758000000000005
+      },
+      "resizedOracle": {
+        "width": 7.705599999999999,
+        "depth": 3.0758000000000014
+      },
+      "pass": true
+    },
+    {
+      "width": 7,
+      "angle": 0,
+      "reverse": false,
+      "unequal": true,
+      "expected": {
+        "width": 6.739999999999999,
+        "depth": 3.3649999999999998
+      },
+      "observed": {
+        "width": 6.739999999999999,
+        "depth": 3.3649999999999998
+      },
+      "target": {
+        "width": 7.5488,
+        "depth": 3.06215
+      },
+      "resizedOracle": {
+        "width": 7.5488,
+        "depth": 3.0621499999999995
+      },
+      "pass": true
+    },
+    {
+      "width": 7,
+      "angle": 0,
+      "reverse": true,
+      "unequal": false,
+      "expected": {
+        "width": 6.880000000000001,
+        "depth": 3.3800000000000003
+      },
+      "observed": {
+        "width": 6.880000000000002,
+        "depth": 3.3800000000000003
+      },
+      "target": {
+        "width": 7.705600000000001,
+        "depth": 3.0758000000000005
+      },
+      "resizedOracle": {
+        "width": 7.705599999999999,
+        "depth": 3.0758000000000014
+      },
+      "pass": true
+    },
+    {
+      "width": 7,
+      "angle": 0,
+      "reverse": true,
+      "unequal": true,
+      "expected": {
+        "width": 6.739999999999999,
+        "depth": 3.3649999999999998
+      },
+      "observed": {
+        "width": 6.739999999999999,
+        "depth": 3.3649999999999998
+      },
+      "target": {
+        "width": 7.5488,
+        "depth": 3.06215
+      },
+      "resizedOracle": {
+        "width": 7.5488,
+        "depth": 3.0621499999999995
+      },
+      "pass": true
+    },
+    {
+      "width": 7,
+      "angle": 0.23,
+      "reverse": false,
+      "unequal": false,
+      "expected": {
+        "width": 7.469388827185917,
+        "depth": 4.859477777040263
+      },
+      "observed": {
+        "width": 7.469388827185916,
+        "depth": 4.859477777040263
+      },
+      "target": {
+        "width": 8.365715486448227,
+        "depth": 4.42212477710664
+      },
+      "resizedOracle": {
+        "width": 8.365715486448241,
+        "depth": 4.422124777106646
+      },
+      "pass": true
+    },
+    {
+      "width": 7,
+      "angle": 0.23,
+      "reverse": false,
+      "unequal": true,
+      "expected": {
+        "width": 7.329655869032136,
+        "depth": 4.812955927820257
+      },
+      "observed": {
+        "width": 7.329655869032138,
+        "depth": 4.812955927820257
+      },
+      "target": {
+        "width": 8.209214573315993,
+        "depth": 4.379789894316434
+      },
+      "resizedOracle": {
+        "width": 8.209214573316084,
+        "depth": 4.379789894316486
+      },
+      "pass": true
+    },
+    {
+      "width": 7,
+      "angle": 0.23,
+      "reverse": true,
+      "unequal": false,
+      "expected": {
+        "width": 7.469388827185917,
+        "depth": 4.859477777040263
+      },
+      "observed": {
+        "width": 7.469388827185916,
+        "depth": 4.859477777040263
+      },
+      "target": {
+        "width": 8.365715486448227,
+        "depth": 4.42212477710664
+      },
+      "resizedOracle": {
+        "width": 8.365715486448241,
+        "depth": 4.422124777106646
+      },
+      "pass": true
+    },
+    {
+      "width": 7,
+      "angle": 0.23,
+      "reverse": true,
+      "unequal": true,
+      "expected": {
+        "width": 7.329655869032136,
+        "depth": 4.812955927820257
+      },
+      "observed": {
+        "width": 7.329655869032136,
+        "depth": 4.812955927820257
+      },
+      "target": {
+        "width": 8.209214573315993,
+        "depth": 4.379789894316434
+      },
+      "resizedOracle": {
+        "width": 8.209214573316084,
+        "depth": 4.379789894316486
+      },
+      "pass": true
+    },
+    {
+      "width": 7,
+      "angle": 0.7,
+      "reverse": false,
+      "unequal": false,
+      "expected": {
+        "width": 7.439570031380677,
+        "depth": 7.017384281216886
+      },
+      "observed": {
+        "width": 7.439570031380676,
+        "depth": 7.017384281216886
+      },
+      "target": {
+        "width": 8.332318435146359,
+        "depth": 6.385819695907367
+      },
+      "resizedOracle": {
+        "width": 8.332318435146744,
+        "depth": 6.385819695907593
+      },
+      "pass": true
+    },
+    {
+      "width": 7,
+      "angle": 0.7,
+      "reverse": false,
+      "unequal": true,
+      "expected": {
+        "width": 7.322828859852284,
+        "depth": 6.915721172194344
+      },
+      "observed": {
+        "width": 7.322828859852282,
+        "depth": 6.91572117219434
+      },
+      "target": {
+        "width": 8.201568323034559,
+        "depth": 6.293306266696853
+      },
+      "resizedOracle": {
+        "width": 8.201568323037392,
+        "depth": 6.293306266698529
+      },
+      "pass": true
+    },
+    {
+      "width": 7,
+      "angle": 0.7,
+      "reverse": true,
+      "unequal": false,
+      "expected": {
+        "width": 7.439570031380677,
+        "depth": 7.017384281216886
+      },
+      "observed": {
+        "width": 7.439570031380676,
+        "depth": 7.017384281216886
+      },
+      "target": {
+        "width": 8.332318435146359,
+        "depth": 6.385819695907367
+      },
+      "resizedOracle": {
+        "width": 8.332318435146743,
+        "depth": 6.385819695907589
+      },
+      "pass": true
+    },
+    {
+      "width": 7,
+      "angle": 0.7,
+      "reverse": true,
+      "unequal": true,
+      "expected": {
+        "width": 7.322828859852284,
+        "depth": 6.915721172194344
+      },
+      "observed": {
+        "width": 7.322828859852283,
+        "depth": 6.915721172194342
+      },
+      "target": {
+        "width": 8.201568323034559,
+        "depth": 6.293306266696853
+      },
+      "resizedOracle": {
+        "width": 8.201568323037392,
+        "depth": 6.29330626669853
+      },
+      "pass": true
+    },
+    {
+      "width": 7,
+      "angle": 1.5707963267948966,
+      "reverse": false,
+      "unequal": false,
+      "expected": {
+        "width": 3.38,
+        "depth": 6.880000000000001
+      },
+      "observed": {
+        "width": 3.38,
+        "depth": 6.880000000000003
+      },
+      "target": {
+        "width": 3.7856,
+        "depth": 6.260800000000001
+      },
+      "resizedOracle": {
+        "width": 3.7856000000000005,
+        "depth": 6.260799999999998
+      },
+      "pass": true
+    },
+    {
+      "width": 7,
+      "angle": 1.5707963267948966,
+      "reverse": false,
+      "unequal": true,
+      "expected": {
+        "width": 3.365000000000001,
+        "depth": 6.74
+      },
+      "observed": {
+        "width": 3.365000000000001,
+        "depth": 6.74
+      },
+      "target": {
+        "width": 3.7688000000000015,
+        "depth": 6.1334
+      },
+      "resizedOracle": {
+        "width": 3.7688000000000015,
+        "depth": 6.133400000000002
+      },
+      "pass": true
+    },
+    {
+      "width": 7,
+      "angle": 1.5707963267948966,
+      "reverse": true,
+      "unequal": false,
+      "expected": {
+        "width": 3.38,
+        "depth": 6.880000000000001
+      },
+      "observed": {
+        "width": 3.38,
+        "depth": 6.880000000000003
+      },
+      "target": {
+        "width": 3.7856,
+        "depth": 6.260800000000001
+      },
+      "resizedOracle": {
+        "width": 3.7856000000000005,
+        "depth": 6.260799999999998
+      },
+      "pass": true
+    },
+    {
+      "width": 7,
+      "angle": 1.5707963267948966,
+      "reverse": true,
+      "unequal": true,
+      "expected": {
+        "width": 3.365000000000001,
+        "depth": 6.74
+      },
+      "observed": {
+        "width": 3.365000000000001,
+        "depth": 6.74
+      },
+      "target": {
+        "width": 3.7688000000000015,
+        "depth": 6.1334
+      },
+      "resizedOracle": {
+        "width": 3.7688000000000015,
+        "depth": 6.133400000000002
+      },
+      "pass": true
+    }
+  ],
+  "limits": "Independent analytic offset-plane intersections for convex rectangles/parallelograms with equal/unequal thickness, both windings and rotated/negative-coordinate fixtures. Does not verify arbitrary concave/split-wall outlines, UI input adoption or physical/native rendering."
+}

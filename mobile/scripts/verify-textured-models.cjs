@@ -141,7 +141,9 @@ const errors = [],
   await click("Back");
   await click("Open " + project.name);
   await click("Build");
-  await click("Whole-floor view");
+  await click("View options");
+  await click("Floor");
+  await click("Fit floor");
   if (abandon) {
     const deadline = Date.now() + 30000;
     while (delayedModels < 12 && Date.now() < deadline)

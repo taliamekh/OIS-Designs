@@ -24,6 +24,12 @@ import { fitCamera, clippingRange } from "./camera";
 import { resolveItemAsset, supportsPlacement } from "../catalogue/resolve";
 import { retainWantedModels } from "./resources";
 import { pickItem } from "./picking";
+import {
+  canonicalFloorOffset,
+  createScenePlan,
+  ScenePlan,
+  Vec3,
+} from "./spatialView";
 export type Interaction = {
   floor: Floor;
   room: Room;
@@ -40,6 +46,23 @@ export type Interaction = {
   cutaway: boolean;
   allRooms: boolean;
   allFloors?: Floor[];
+  showCeilings?: boolean;
+  separatedFloorGap?: number;
+  cameraRequest?: {
+    revision: number;
+    preset?: "perspective" | "top" | "front";
+  };
+  onCameraOrbit?: () => void;
+  roomMove?: {
+    originalFloor: Floor;
+    roomIds: ReadonlySet<string>;
+    offset: Point;
+    onOffsetChange: (offset: Point) => void;
+  };
+  /** Derived view data; never stored in the project. */
+  scenePlan?: ScenePlan;
+  viewOrigin?: Vec3;
+  structureKey?: string;
 };
 type Controller = {
   down: (x: number, y: number) => void;
@@ -74,14 +97,76 @@ export default function Viewport(
     [size, setSize] = useState({ w: 360, h: 440 }),
     [draft, setDraft] = useState<Item | null>(null);
   const latest = useRef(props);
-  const visibleItems = props.allFloors
-      ? props.allFloors.flatMap((f) => f.items)
-      : props.floor.items.filter(
-          (i) =>
-            props.allRooms ||
-            props.mode === "walk" ||
-            i.roomId === props.room.id,
-        ),
+  const floors = props.allFloors ?? [props.floor];
+  const scenePlan = useMemo(
+    () =>
+      createScenePlan(
+        { floors: props.allFloors ?? [props.floor] },
+        (item) => resolveItemAsset(item as Item),
+        {
+          activeFloorId: props.floor.id,
+          scope: props.allFloors
+            ? { kind: "house" }
+            : props.allRooms
+              ? { kind: "floor" }
+              : { kind: "room", roomId: props.room.id },
+          mode: props.mode === "walk" ? "walk" : "3d",
+          shell: props.cutaway ? "cutaway" : "solid",
+          camera: { x: 0, y: 0, z: 0 },
+          separatedFloorGap: props.separatedFloorGap ?? 0,
+          showCeilings: props.showCeilings ?? false,
+          selectedItemId: props.selected ?? undefined,
+        },
+      ),
+    [
+      props.allFloors,
+      props.floor,
+      props.room.id,
+      props.allRooms,
+      props.mode,
+      props.cutaway,
+      props.separatedFloorGap,
+      props.showCeilings,
+      props.selected,
+    ],
+  );
+  // Single-floor editing/Walk retain their existing local coordinate system.
+  const viewOrigin = props.allFloors
+    ? { x: 0, y: 0, z: 0 }
+    : canonicalFloorOffset(props.floor);
+  const structureKey = JSON.stringify(
+    scenePlan.floors.map((planned) => {
+      const f = floors.find((f) => f.id === planned.id)!;
+      return [
+        f.id,
+        planned.displayOffset,
+        planned.roomIds.map((id) => {
+          const r = f.rooms.find((r) => r.id === id)!;
+          return [id, r.polygon, r.ceiling ?? f.ceiling];
+        }),
+        f.walls
+          .filter((w) =>
+            w.faces.some((face) => planned.roomIds.includes(face.roomId)),
+          )
+          .map((w) => [
+            w.id,
+            w.a,
+            w.b,
+            w.thickness,
+            w.faces.map(
+              (face) =>
+                f.rooms.find((r) => r.id === face.roomId)?.ceiling ?? f.ceiling,
+            ),
+          ]),
+      ];
+    }),
+  );
+  const bridgeProps = { ...props, scenePlan, viewOrigin, structureKey };
+  const visibleItems = scenePlan.floors.flatMap((planned) =>
+      floors
+        .find((f) => f.id === planned.id)!
+        .items.filter((i) => planned.itemIds.includes(i.id)),
+    ),
     wantedKey = [
       ...new Set(
         visibleItems
@@ -169,7 +254,7 @@ export default function Viewport(
               color="#dceafa"
             />
             <CameraBridge
-              props={props}
+              props={bridgeProps}
               width={size.w}
               height={size.h}
               controller={controller}
@@ -179,19 +264,29 @@ export default function Viewport(
               }}
             />
             <Suspense fallback={null}>
-              {props.allFloors ? (
-                props.allFloors.map((f) => (
-                  <group
-                    key={f.id}
-                    position={[f.alignment.x, f.elevation, f.alignment.z]}
-                  >
+              {scenePlan.floors.map((planned) => {
+                const f = floors.find((f) => f.id === planned.id)!;
+                const offset = {
+                  x: planned.displayOffset.x - viewOrigin.x,
+                  y: planned.displayOffset.y - viewOrigin.y,
+                  z: planned.displayOffset.z - viewOrigin.z,
+                };
+                return (
+                  <group key={f.id} position={[offset.x, offset.y, offset.z]}>
                     <RoomScene
                       floor={f}
                       roomId={props.room.id}
                       selected={props.selected}
-                      walk={false}
-                      cutaway
-                      allRooms
+                      walk={props.mode === "walk"}
+                      cutaway={props.cutaway}
+                      allRooms={
+                        props.allRooms ||
+                        !!props.allFloors ||
+                        props.mode === "walk"
+                      }
+                      visibleRoomIds={planned.roomIds}
+                      showCeilings={planned.ceilingsVisible}
+                      viewOffset={offset}
                       draft={
                         f.id === props.floor.id
                           ? (props.draftOverride ?? draft)
@@ -199,18 +294,8 @@ export default function Viewport(
                       }
                     />
                   </group>
-                ))
-              ) : (
-                <RoomScene
-                  floor={props.floor}
-                  roomId={props.room.id}
-                  selected={props.selected}
-                  walk={props.mode === "walk"}
-                  cutaway={props.cutaway}
-                  allRooms={props.allRooms || props.mode === "walk"}
-                  draft={props.draftOverride ?? draft}
-                />
-              )}
+                );
+              })}
             </Suspense>
           </Canvas>
         </SceneError>
@@ -297,6 +382,7 @@ function CameraBridge({
     moved: boolean;
     draft: Item | null;
     walkSide: boolean;
+    orbited: boolean;
   } | null>(null);
   const pinch = useRef<{
     distance: number;
@@ -306,6 +392,7 @@ function CameraBridge({
     anchor: THREE.Vector3;
   } | null>(null);
   const navigation = useRef({ roomId: "", mode: "" });
+  const lastCameraRequest = useRef<number | undefined>(undefined);
   const ray = useMemo(() => new THREE.Raycaster(), []),
     plane = useMemo(() => new THREE.Plane(new THREE.Vector3(0, 1, 0), 0), []);
   function cameraPose() {
@@ -391,13 +478,42 @@ function CameraBridge({
         )
       : (props.room.ceiling ?? props.floor.ceiling);
   const framingKey = JSON.stringify([scopePoints, scopeLow, scopeHigh]);
+  const effectiveFramingKey = props.structureKey ?? framingKey;
+  const cameraRevision = props.cameraRequest?.revision;
   useEffect(() => {
     const t = pose.current;
-    const [points, low, high] = JSON.parse(framingKey) as [
+    let [points, low, high] = JSON.parse(framingKey) as [
       Point[],
       number,
       number,
     ];
+    const current = latest.current,
+      request = current.cameraRequest;
+    if (request && request.revision !== lastCameraRequest.current) {
+      if (request.preset === "top") {
+        t.theta = 0;
+        t.phi = 0.001;
+      } else if (request.preset === "front") {
+        t.theta = 0;
+        t.phi = Math.PI / 2 - 0.001;
+      } else if (request.preset === "perspective") {
+        t.theta = 0.75;
+        t.phi = 0.88;
+      }
+      lastCameraRequest.current = request.revision;
+    }
+    const b = current.scenePlan?.displayBounds,
+      origin = current.viewOrigin ?? { x: 0, y: 0, z: 0 };
+    if (b) {
+      points = [
+        { x: b.min.x - origin.x, z: b.min.z - origin.z },
+        { x: b.max.x - origin.x, z: b.min.z - origin.z },
+        { x: b.max.x - origin.x, z: b.max.z - origin.z },
+        { x: b.min.x - origin.x, z: b.max.z - origin.z },
+      ];
+      low = b.min.y - origin.y;
+      high = b.max.y - origin.y;
+    }
     const fit = fitCamera(points, high - low, width / height, t.theta, t.phi);
     t.radius = fit.radius;
     t.sceneExtent = fit.extent;
@@ -421,7 +537,8 @@ function CameraBridge({
     cameraPose();
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [
-    framingKey,
+    effectiveFramingKey,
+    cameraRevision,
     props.floor.id,
     props.room.id,
     props.mode,
@@ -450,6 +567,7 @@ function CameraBridge({
           movable:
             p.mode !== "walk" &&
             !p.allFloors &&
+            p.scenePlan?.canEdit !== false &&
             !p.onWall &&
             !!item &&
             !item.locked &&
@@ -457,6 +575,7 @@ function CameraBridge({
           moved: false,
           draft: null,
           walkSide: x < width * 0.42,
+          orbited: false,
         };
       },
       move(x, y, touches) {
@@ -541,6 +660,7 @@ function CameraBridge({
           }
           cameraPose();
         } else if (!p.onWall) {
+          d.orbited = true;
           pose.current.theta -= dx * 0.008;
           pose.current.phi = Math.max(
             0.25,
@@ -557,6 +677,7 @@ function CameraBridge({
         if (!d) return;
         drag.current = null;
         const p = latest.current;
+        if (d.orbited && p.mode === "3d") p.onCameraOrbit?.();
         if (d.movable && d.draft && d.moved) {
           p.onCommit(d.draft);
         } else if (!d.moved && p.mode !== "walk" && !p.allFloors) {
